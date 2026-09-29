@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="_Toc235706033" xml:lang="en-us">
+   <title>Over-nesting in maps</title>
+   <shortdesc>Problem: Deeply nested structures with many hierarchy levels.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>nesting</keyword>
+        <keyword>Over</keyword>
+        <keyword>Problem</keyword>
+        <keyword>Deeply</keyword>
+        <keyword>nested</keyword>
+        <keyword>structures</keyword>
+        <indexterm>nesting</indexterm>
+        <indexterm>Over</indexterm>
+        <indexterm>Problem</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>  
+    <p>
+        <b>Problem:</b> Deeply nested <codeph>&lt;topicref/&gt;</codeph> structures with many
+        hierarchy levels.</p><p>
+         <b>Impact:</b> Complex navigation, difficult maintenance.</p><p>
+         <b>Solution:</b> Keep map hierarchies shallow and logical. Related topics should be grouped together but avoid excessive nesting that doesn't add user value.</p>
+  </conbody>
+</concept>

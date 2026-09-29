@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560398" xml:lang="en-us">
+   <title>Scenario 5: Note in a bullet list item</title>
+   <shortdesc>Consider a notification methods .md file where a list item contains additional guidance in the</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Notifications</keyword>
+        <keyword>notification</keyword>
+        <keyword>methods</keyword>
+        <keyword>Email</keyword>
+        <keyword>Note</keyword>
+        <keyword>bullet</keyword>
+        <indexterm>Notifications</indexterm>
+        <indexterm>notification</indexterm>
+        <indexterm>methods</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a notification methods .md file where a list item contains additional guidance in the form of a note.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Note in a bullet list item</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Notification Methods
+  The system supports the following notification methods:
+  - Email Notifications
+  &gt; [!NOTE]
+  &gt; Email notifications require a configured SMTP server.
+  - SMS Notifications
+  - Webhook Notifications</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;concept id="notification_methods"&gt;
+  &lt;title&gt;Notification Methods&lt;/title&gt;
+  &lt;conbody&gt;
+  &lt;p&gt;
+  The system supports the following notification methods:
+  &lt;/p&gt;
+  &lt;ul&gt;
+  &lt;li&gt;
+  &lt;p&gt;Email Notifications&lt;/p&gt;
+  &lt;note&gt;
+  Email notifications require a configured SMTP server.
+  &lt;/note&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt;SMS Notifications&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt;Webhook Notifications&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/conbody&gt;
+  &lt;/concept&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The converter preserves the relationship between the list item and the note. The note is generated within the corresponding DITA <codeph>&lt;li&gt;</codeph> element.</p></section></refbody>
+</reference>

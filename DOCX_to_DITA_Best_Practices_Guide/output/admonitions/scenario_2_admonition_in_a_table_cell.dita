@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_2_admonition_in_a_table_cell" xml:lang="en-us">
+   <title>Scenario 2 — Admonition in a table cell</title>
+   <shortdesc>Consider a table where one of the cells contains a Note or Warning paragraph styled</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>table</keyword>
+        <keyword>admonition</keyword>
+        <keyword>style</keyword>
+        <keyword>content</keyword>
+        <keyword>Admonition</keyword>
+        <keyword>Normal</keyword>
+        <indexterm>table</indexterm>
+        <indexterm>admonition</indexterm>
+        <indexterm>style</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a table where one of the cells contains a Note or Warning paragraph styled with an admonition style, rather than a plain Normal paragraph. This typically occurs when an author wants to call out a restriction or alert the reader about a specific table entry.</p>
+         
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Admonition inside a table cell</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Table]</b> — cell 1: Normal text / <b>[Warning style]:</b> Do not modify this value in production.</entry>
+                     <entry>
+                        <codeblock id="codeblock_n4t_byr_kkc">
+&lt;simpletable>
+  &lt;sthead>
+    &lt;stentry>Description&lt;/stentry>
+  &lt;/sthead>
+  &lt;strow>
+    &lt;stentry>
+      &lt;p>Normal text&lt;/p>
+      &lt;note type="warning">Do not modify this value in production.&lt;/note>
+    &lt;/stentry>
+  &lt;/strow>
+&lt;/simpletable></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p> <b>Result:</b> When an admonition style is applied inside a table cell, the admonition adopts the context of the table structure. The converter wraps the content in a <codeph>&lt;note&gt;</codeph> element and places it inside the <codeph>&lt;stentry&gt;</codeph> or <codeph>&lt;entry&gt;</codeph> of the converted DITA table. The admonition is contained within the cell and rendered as an inline note within that cell's content. Because the admonition is contained in a table cell, it inherits the table's structural style and is treated as cell-level content rather than body-level content.</p>
+   </section>
+   </refbody>
+</reference>

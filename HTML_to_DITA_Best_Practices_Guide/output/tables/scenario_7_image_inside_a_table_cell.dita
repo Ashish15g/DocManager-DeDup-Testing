@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450413" xml:lang="en-us">
+   <title>Scenario 7 — Image inside a table cell</title>
+   <prolog>
+    <metadata>
+      <keywords>
+        <keyword>inside</keyword>
+        <keyword>table</keyword>
+        <keyword>Error</keyword>
+        <keyword>image</keyword>
+        <keyword>media</keyword>
+        <keyword>Image</keyword>
+        <indexterm>inside</indexterm>
+        <indexterm>table</indexterm>
+        <indexterm>Error</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section id="sec_d767e7">
+         <p>Consider a table where the author has inserted an <codeph>&lt;img&gt;</codeph> element directly inside a <codeph>&lt;td&gt;</codeph> cell — for example, a status icon or screenshot thumbnail.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image inside a table cell</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_dsq_yxn_lkc">
+&lt;table>
+  &lt;tr>
+    &lt;th>Status&lt;/th>
+    &lt;th>Icon&lt;/th>
+    &lt;th>Description&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>OK&lt;/td>
+    &lt;td>
+      &lt;img src="media/ok_icon.png" alt="OK icon"/>
+    &lt;/td>
+    &lt;td>System running.&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Error&lt;/td>
+    &lt;td>
+      &lt;img src="media/err_icon.png" alt="Error icon"/>
+    &lt;/td>
+    &lt;td>Error detected.&lt;/td>
+  &lt;/tr>
+&lt;/table></codeblock>
+                     </entry>
+<entry>
+                        <codeblock id="codeblock_fty_yxn_lkc">
+&lt;simpletable>
+  &lt;sthead>
+    &lt;stentry>Status&lt;/stentry>
+    &lt;stentry>Icon&lt;/stentry>
+    &lt;stentry>Description&lt;/stentry>
+  &lt;/sthead>
+  &lt;strow>
+    &lt;stentry>OK&lt;/stentry>
+    &lt;stentry>
+      &lt;image href="media/ok_icon.png" placement="inline"/>
+    &lt;/stentry>
+    &lt;stentry>System running.&lt;/stentry>
+  &lt;/strow>
+  &lt;strow>
+    &lt;stentry>Error&lt;/stentry>
+    &lt;stentry>
+      &lt;image href="media/err_icon.png" placement="inline"/>
+    &lt;/stentry>
+    &lt;stentry>Error detected.&lt;/stentry>
+  &lt;/strow>
+&lt;/simpletable></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+
+         <p>
+            <b>Result:</b> Inline <codeph>&lt;img&gt;</codeph> elements inside table cells are extracted and mapped to <codeph>&lt;image placement="inline"/&gt;</codeph> inside the corresponding <codeph>&lt;stentry&gt;</codeph>. The <codeph>src</codeph> attribute value is mapped to the <codeph>href</codeph> attribute on the DITA <codeph>&lt;image&gt;</codeph> element. For more information on image handling, see the <xref href="../images_and_graphics/images_and_graphics.dita" format="dita">Images and Graphics</xref> section.</p>
+      </section>
+   </refbody>
+</reference>

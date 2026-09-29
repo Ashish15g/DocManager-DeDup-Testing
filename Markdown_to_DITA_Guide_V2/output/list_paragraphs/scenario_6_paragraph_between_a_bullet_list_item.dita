@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_headingh6phmpjbtiscb" xml:lang="en-us">
+   <title>Scenario 6: Paragraph between a bullet list item</title>
+   <shortdesc>Consider a .md file about notification methods with a list where a list item contains</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Notifications</keyword>
+        <keyword>notifications</keyword>
+        <keyword>between</keyword>
+        <keyword>Email</keyword>
+        <keyword>alarm</keyword>
+        <keyword>Webhook</keyword>
+        <indexterm>Notifications</indexterm>
+        <indexterm>notifications</indexterm>
+        <indexterm>between</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a .md file about notification methods with a list where a list item contains additional explanatory text in a continuation paragraph.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Paragraph between a bullet list item</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Notification Methods
+  - Email Notifications
+  Email notifications are sent to configured recipients whenever an alarm is triggered.
+  - SMS Notifications
+  SMS notifications provide immediate alerts to mobile devices.
+  - Webhook Notifications
+  Webhook notifications send alarm data to external systems.</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;concept id="notification_methods"&gt;
+  &lt;title&gt;Notification Methods&lt;/title&gt;
+  &lt;conbody&gt;
+  &lt;ul&gt;
+  &lt;li&gt;
+  &lt;p&gt;Email Notifications&lt;/p&gt;
+  &lt;p&gt;
+  Email notifications are sent to configured recipients whenever an alarm is triggered.
+  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt;SMS Notifications&lt;/p&gt;
+  &lt;p&gt;
+  SMS notifications provide immediate alerts to mobile devices.
+  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt;Webhook Notifications&lt;/p&gt;
+  &lt;p&gt;
+  Webhook notifications send alarm data to external systems.
+  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/conbody&gt;
+  &lt;/concept&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The converter preserves both the list item and its continuation paragraph. The list item becomes a DITA <codeph>&lt;li&gt;</codeph> element, and the continuation text is converted into an additional paragraph within the same list item. This maintains the relationship between the list item and its supporting explanation.</p></section></refbody>
+</reference>

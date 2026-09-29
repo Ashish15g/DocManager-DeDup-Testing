@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450421" xml:lang="en-us">
+   <title>Scenario 3 — Bold-label admonition pattern</title>
+   <shortdesc>Consider a &lt;p&gt; element where the author has formatted an admonition using a &lt;strong&gt; label</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>label</keyword>
+        <keyword>admonition</keyword>
+        <keyword>pattern</keyword>
+        <keyword>element</keyword>
+        <keyword>Bold</keyword>
+        <keyword>strong</keyword>
+        <indexterm>label</indexterm>
+        <indexterm>admonition</indexterm>
+        <indexterm>pattern</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+     <section>
+    <p>Consider a <codeph>&lt;p&gt;</codeph> element where the author has formatted an admonition using a <codeph>&lt;strong&gt;</codeph> label followed by the admonition text, rather than using a <codeph>&lt;div&gt;</codeph> with a class attribute.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Bold-label admonition pattern</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>HTML Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>
+                 <codeblock>
+&lt;strong&gt;Warning:&lt;/strong&gt; Always back up your data before performing a firmware update.</codeblock>
+               </entry>
+               <entry>
+                 <codeblock>
+&lt;note type="warning">
+  Always back up your data before performing a firmware update.
+&lt;/note></codeblock>
+               </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b> The converter detects the <codeph>&lt;strong&gt;</codeph> label pattern at the start of a <codeph>&lt;p&gt;</codeph> element and maps it to the appropriate <codeph>&lt;note type="..."&gt;</codeph> element. The <codeph>&lt;strong&gt;</codeph> label text and separator (:) are stripped from the DITA output — only the admonition body text is preserved inside the <codeph>&lt;note&gt;</codeph> element.</p>
+       <note type="note"> The bold-label pattern is a fallback. Use class-based admonition elements such as <codeph>&lt;div class=\"warning\"&gt;</codeph> for reliable conversion.</note>
+  </section>
+   </refbody>
+</reference>

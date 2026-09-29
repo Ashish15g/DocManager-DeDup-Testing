@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450382" xml:lang="en-us">
+   <title>Scenario 3 — Three-level deep nested bullet list</title>
+   <shortdesc>Consider a &lt;ul&gt; list nested three levels deep — grandchild &lt;li&gt; items indented beneath child</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>nested</keyword>
+        <keyword>level</keyword>
+        <keyword>Three</keyword>
+        <keyword>bullet</keyword>
+        <keyword>three</keyword>
+        <keyword>Scenario</keyword>
+        <indexterm>nested</indexterm>
+        <indexterm>level</indexterm>
+        <indexterm>Three</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a <codeph>&lt;ul&gt;</codeph> list nested three levels deep — grandchild <codeph>&lt;li&gt;</codeph> items indented beneath child <codeph>&lt;li&amp;gt</codeph>; items using nested <codeph>&lt;ul&gt;</codeph> elements.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Three-level deep nested bullet list</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;h2 id="infrastructure-types">Infrastructure Types&lt;/h2>
+&lt;ul>
+  &lt;li>
+    Hardware
+    &lt;ul>
+      &lt;li>
+        Servers
+        &lt;ul>
+          &lt;li>Rack-mounted&lt;/li>
+          &lt;li>Tower&lt;/li>
+        &lt;/ul>
+      &lt;/li>
+    &lt;/ul>
+  &lt;/li>
+&lt;/ul></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;concept id="infrastructure_types">
+  &lt;title>Infrastructure Types&lt;/title>
+  &lt;conbody>
+    &lt;ul>
+      &lt;li>
+        Hardware
+        &lt;ul>
+          &lt;li>
+            Servers
+            &lt;ul>
+              &lt;li>Rack-mounted&lt;/li>
+              &lt;li>Tower&lt;/li>
+            &lt;/ul>
+          &lt;/li>
+        &lt;/ul>
+      &lt;/li>
+    &lt;/ul>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> The converter produces valid DITA for three-level nesting. Each level of nested <codeph>&lt;ul&gt;</codeph> is preserved inside its parent <codeph>&lt;li&gt;</codeph> element.</p>
+<note type="note"> Avoid nesting beyond three levels. Restructure deeply nested content using separate topics or a table instead.</note>
+         </section>
+   </refbody>
+</reference>

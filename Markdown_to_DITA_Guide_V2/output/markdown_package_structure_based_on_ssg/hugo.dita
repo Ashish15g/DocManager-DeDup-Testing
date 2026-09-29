@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560297" xml:lang="en-us">
+   <title>Hugo</title>
+   <shortdesc>is a very fast open-source SSG written in Go. It uses a straightforward static build:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Hugo</keyword>
+        <keyword>matter</keyword>
+        <keyword>source</keyword>
+        <keyword>written</keyword>
+        <keyword>straightforward</keyword>
+        <keyword>static</keyword>
+        <indexterm>Hugo</indexterm>
+        <indexterm>matter</indexterm>
+        <indexterm>source</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>Hugo is a very fast open-source SSG written in Go. It uses a straightforward static build: content is in Markdown, templates are in a layouts/ directory, and hugo is run to generate HTML files. Hugo supports multilingual sites, taxonomies, and has a powerful Go-based templating system. Front matter can be YAML, TOML, or JSON (determined by delimiters). Common front-matter fields include title, date, draft, weight (for ordering), plus custom params for arbitrary metadata.</p>
+   </conbody>
+</concept>

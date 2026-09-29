@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_3_image_size_is_larger_than_100_pixels" xml:lang="en-us">
+   <title>Scenario 3 — Image Size is Larger than 100 Pixels</title>
+   <shortdesc>Consider a paragraph that introduces a large architecture diagram whose width and height are both</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>architecture</keyword>
+        <keyword>image</keyword>
+        <keyword>element</keyword>
+        <keyword>system</keyword>
+        <keyword>Image</keyword>
+        <keyword>diagram</keyword>
+        <indexterm>architecture</indexterm>
+        <indexterm>image</indexterm>
+        <indexterm>element</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a paragraph that introduces a large architecture diagram whose width and height are both larger than 100 pixels.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image larger than 100 pixels</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Normal]:</b> The following diagram illustrates the overall system architecture. <b>[Inline image: system_architecture_overview.png (1024 × 768 px)]</b>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_mz2_fty_kkc">
+&lt;p>The following diagram illustrates the overall system architecture.&lt;/p>
+&lt;fig>
+  &lt;title>System Architecture Overview&lt;/title>
+  &lt;image href="media/system_architecture_overview.png" placement="break" width="13" height="10"/>
+&lt;/fig></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> If an image is larger than 100 × 100 pixels, the converter generates an &lt;image/&gt; element with the placement attribute as break and wraps it in a &lt;fig&gt; element. The converter also generates the &lt;title&gt; element from the image filename. The &lt;fig&gt; element is placed outside the preceding &lt;p&gt; element so that the image is represented as a standalone figure.</p>
+         </section>
+   </refbody>
+</reference>

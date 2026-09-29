@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450359" xml:lang="en-us">
+   <title>Ordered Lists (Numbered)</title>
+  <abstract>This section covers Ordered Lists in HTML — items presented in a defined sequence where
+    position is significant — and twenty-one scenarios grouped across six categories: consecutive
+    and discontinuous numbered lists as procedures and workflows, single-item numbered lists,
+    two-level and three-level nested numbered lists, and interrupted numbered lists where an
+    admonition, paragraph, image, table, or bullet list appears between items. The converter maps
+    each ordered list to <codeph>&lt;ol&gt;&lt;li&gt;</codeph> in concept and reference topics, or
+    to <codeph>&lt;steps&gt;&lt;step&gt;&lt;cmd&gt;</codeph> in task topics, based on the heading
+    classification and content context.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>level</keyword>
+        <keyword>lists</keyword>
+        <keyword>ordered</keyword>
+        <keyword>HTML</keyword>
+        <keyword>items</keyword>
+        <keyword>numbered</keyword>
+        <indexterm>level</indexterm>
+        <indexterm>lists</indexterm>
+        <indexterm>ordered</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>An <b>ordered list</b> presents items in a defined sequence where the position of each item is significant. The ordered lists are universally used for step-by-step procedures, installation instructions, and ranked items.</p>
+      <p>For the reader, a numbered list communicates that sequence is contractual — item 2 depends on item 1 being completed, and performing the items out of order produces an incorrect or unsafe result. It is also a navigational reference that lets a reader say "I am on step 4" and return to the correct position after an interruption.</p>
+      <p>The list level is controlled by the Increase and Decrease Indent buttons, determines nesting depth: level 1 is the top level, level 2 is the first nested level, level 3 is the second, and so on. Sometimes they are also defined by their tab indentation. The list level assigned by list controls is what drives the nesting structure in the DITA output.</p>
+      <p>In well-structured HTML, ordered lists are created using native <codeph>&lt;ol&gt;</codeph> and <codeph>&lt;li&gt;</codeph> elements. Nested ordered lists represent subordinate sequences, while introductory paragraphs, images, tables, and notes provide supporting information without changing the sequential relationship between list items. A new <codeph>&lt;ol&gt;</codeph> element beginning after an existing list — rather than continuing it — signals a restarted or independent sequence rather than a continuation of the prior list.</p>
+      <p>The converter evaluates both the HTML list structure and the classified DITA topic type
+      when processing an ordered list. Within Concept, Reference, and Generic topics, an HTML
+        <codeph>&lt;ol&gt;</codeph> is converted to a DITA <codeph>&lt;ol&gt;</codeph>. Within a
+      Task topic, the same <codeph>&lt;ol&gt;</codeph> is converted into
+        <codeph>&lt;steps&gt;</codeph>, with each <codeph>&lt;li&gt;</codeph> mapped to a
+        <codeph>&lt;step&gt;</codeph> containing a <codeph>&lt;cmd&gt;</codeph>. The surrounding
+      context determines how supporting content associated with each list item is represented in the
+      generated DITA structure.</p>
+    <p>The following scenarios demonstrate how different HTML ordered list patterns are interpreted
+      during HTML-to-DITA conversion:</p>
+   </conbody>
+</concept>

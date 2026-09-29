@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450403" xml:lang="en-us">
+   <title>Scenario 11 — Image with Floating Label &lt;div&gt; Elements Layered on Top</title>
+   <shortdesc>Scenario 11 — Image with Floating Label &lt;div&gt; Elements Layered on Top Consider a document</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>position</keyword>
+        <keyword>absolute</keyword>
+        <keyword>style</keyword>
+        <keyword>topology</keyword>
+        <keyword>Floating</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>position</indexterm>
+        <indexterm>absolute</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a document where an <codeph>&lt;img&gt;</codeph> element is inserted into the document body and multiple <codeph>&lt;div&gt;</codeph> elements are positioned on top of the image using CSS (for example, <codeph>position: absolute</codeph>) to create labels, admonitions, or annotations.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Floating label elements over image</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;div style="position: relative;">
+  &lt;img src="media/network_topology.png" alt="Network topology"/>
+  &lt;div style="position: absolute; top: 20px; left: 40px;">Database Server&lt;/div>
+  &lt;div style="position: absolute; top: 80px; left: 120px;">Application Server&lt;/div>
+  &lt;div style="position: absolute; top: 140px; left: 60px;">Load Balancer&lt;/div>
+&lt;/div></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;fig>
+  &lt;image href="media/network_topology.png">
+    &lt;alt>Network topology&lt;/alt>
+  &lt;/image>
+&lt;/fig>
+&lt;!-- Positioned/overlaid text labels ("Database Server", "Application Server",
+     "Load Balancer") have no DITA equivalent for absolutely-positioned text
+     and cannot be converted automatically; flagged for manual review. --></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> The converter extracts and preserves the <codeph>&lt;img&gt;</codeph> element itself because it exists as a valid image reference. However, the CSS-positioned <codeph>&lt;div&gt;</codeph> labels layered above the image are ignored during conversion.</p>
+<note type="tip"> For annotated diagrams, embed labels directly into the image before inserting it into the HTML page.</note>
+         </section>
+   </refbody>
+</reference>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="preface_notice_copyright" xml:lang="en-us">
+   <title>Preface / Notice / Copyright</title>
+  <abstract>This section covers the Preface, Notice, and Copyright sections in DOCX — their role as
+    front matter that applies to the whole document rather than a single chapter — and one scenario:
+    a Copyright Notice section correctly identified and routed to the bookmap. The converter matches
+    heading text against a list of recognized front matter keywords and maps a match to
+      <codeph>&lt;frontmatter&gt;</codeph>; a heading without an exact match is still evaluated as a
+    front matter candidate when it appears before the first chapter.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>chapter</keyword>
+        <keyword>Notice</keyword>
+        <keyword>front</keyword>
+        <keyword>matter</keyword>
+        <keyword>Copyright</keyword>
+        <keyword>content</keyword>
+        <indexterm>chapter</indexterm>
+        <indexterm>Notice</indexterm>
+        <indexterm>front</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>Preface, Notice, and Copyright sections carry legal statements, ownership information, and introductory content that apply to the whole document, not just one chapter.</p>
+      <p>These sections are identified by their heading text — "Copyright Notice," "Preface," or "Legal Notice" — placed before the first numbered chapter. Each one must use the Heading 1 style. This is required because the converter relies on heading text to tell front matter apart from chapter content, and regulatory or audit reviews expect this content in a fixed, predictable location.</p>
+      <p>In a .docx file, a front matter section is authored the same way as a chapter: a Heading 1 paragraph followed by body content. It is positioned before the first substantive chapter rather than within the chapter sequence.</p>
+      <p>The converter matches each Heading 1 text against a list of recognised front matter keywords and routes a match to <codeph>&lt;frontmatter&gt;</codeph> in the bookmap. It also applies content pattern recognition to sections without an exact keyword match: a Heading 1 section appearing before the first chapter is still a front matter candidate if its content is consistent with preliminary material.</p>
+   </conbody>
+</concept>

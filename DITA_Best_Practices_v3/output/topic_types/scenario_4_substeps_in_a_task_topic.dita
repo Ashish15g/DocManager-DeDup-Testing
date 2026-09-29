@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705936" xml:lang="en-us">
+   <title>Scenario 4: substeps in a task topic</title>
+   <shortdesc>Consider a "Install Application Server" chapter in an "Enterprise Deployment Guide" document where one procedural</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>server</keyword>
+        <keyword>application</keyword>
+        <keyword>Install</keyword>
+        <keyword>substeps</keyword>
+        <keyword>installation</keyword>
+        <keyword>package</keyword>
+        <indexterm>server</indexterm>
+        <indexterm>application</indexterm>
+        <indexterm>Install</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a "Install Application Server" chapter in an "Enterprise Deployment Guide" document where one procedural step requires multiple dependent actions that must be completed in sequence.</p>
+      <codeblock id="codeblock_kg2_3qs_kkc">&lt;task id="install-app-server" title="Install Application Server"&gt;
+&lt;shortdesc&gt;
+Install and initialize the application server on a Linux host.
+&lt;/shortdesc&gt;
+&lt;prereq&gt;
+&lt;p&gt;
+Ensure that Java 17 and administrator privileges are available
+on the target server.
+&lt;/p&gt;
+&lt;/prereq&gt;
+&lt;steps&gt;
+&lt;step id="step-1"&gt;
+&lt;cmd&gt;
+Download the application server installation package.
+&lt;/cmd&gt;
+&lt;stepresult&gt;
+&lt;p&gt;
+The installation package is available in the local
+downloads directory.
+&lt;/p&gt;
+&lt;/stepresult&gt;
+&lt;/step&gt;
+&lt;step id="step-2"&gt;
+&lt;cmd&gt;
+Install the application server package.
+&lt;/cmd&gt;
+&lt;substeps&gt;
+&lt;substep&gt;
+&lt;cmd&gt;
+Extract the installation archive to &lt;filepath&gt;/opt/appserver&lt;/filepath&gt;.
+&lt;/cmd&gt;
+&lt;/substep&gt;
+&lt;substep&gt;
+&lt;cmd&gt;
+Run the initialization script:
+&lt;codeph&gt;./initialize.sh&lt;/codeph&gt;.
+&lt;/cmd&gt;
+&lt;/substep&gt;
+&lt;substep&gt;
+&lt;cmd&gt;
+Start the application server service.
+&lt;/cmd&gt;
+&lt;/substep&gt;
+&lt;/substeps&gt;
+&lt;stepresult&gt;
+&lt;p&gt;
+The application server starts successfully and listens
+on port 8080.
+&lt;/p&gt;
+&lt;/stepresult&gt;
+&lt;/step&gt;
+&lt;/steps&gt;
+&lt;result&gt;
+&lt;p&gt;
+The application server is installed and ready for deployment.
+&lt;/p&gt;
+&lt;/result&gt;
+&lt;/task&gt;</codeblock><p>
+         <b>Result:</b> Use <codeph>&lt;substeps&gt;</codeph> when a single procedural step contains smaller dependent actions that must occur in a fixed sequence to complete the parent step.</p>
+  </section></refbody>
+</reference>

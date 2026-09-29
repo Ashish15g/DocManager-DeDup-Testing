@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560282" xml:lang="en-us">
+   <title>Purpose</title>
+  <abstract>This section describes the purpose, scope, and audience of the Markdown-to-DITA
+    conversion guide. It covers authoring and migration scenarios that help the content converter
+    accurately identify document structure, classify DITA topic types, detect metadata and map
+    hierarchies, and generate standards-compliant DITA-XML. From this section, the AI Agent
+    understands the conversion objectives, content quality requirements, and authoring practices
+    required to produce reliable, low-maintenance DITA output.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>DITA</keyword>
+        <keyword>conversion</keyword>
+        <keyword>content</keyword>
+        <keyword>converter</keyword>
+        <keyword>Markdown</keyword>
+        <keyword>hierarchies</keyword>
+        <indexterm>DITA</indexterm>
+        <indexterm>conversion</indexterm>
+        <indexterm>content</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>This guide provides mandatory best practices for anyone who creates or prepares Markdown (.md) source content for conversion to DITA-XML using the Markdown to DITA converter. The converter is a modular microservice with an embedded AI Agent, which reasons and enriches DITA elements over document structure before transforming it into standards-compliant DITA-XML. These guidelines ensure that the following requirements are met:</p>
+      <ul>
+         <li>
+            <p>The converter correctly identifies topic boundaries, heading hierarchies, and content
+          types.</p>
+         </li>
+         <li>
+            <p>The AI Conversion Agent classifies topics accurately as concept, task, reference, or
+          troubleshooting.</p>
+         </li>
+         <li>
+            <p>The generated DITA-XML output is clean and complete and requires minimal
+          post-conversion cleanup.</p>
+         </li>
+         <li>
+            <p>Metadata and DITA map hierarchies are detected reliably.</p>
+         </li>
+      </ul>
+   </conbody>
+</concept>

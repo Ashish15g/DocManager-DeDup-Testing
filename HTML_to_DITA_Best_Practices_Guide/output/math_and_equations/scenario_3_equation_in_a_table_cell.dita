@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450431" xml:lang="en-us">
+   <title>Scenario 3— Equation in a table cell</title>
+   <refbody>
+      <section id="sec_d677e7">
+         <p>Consider a <codeph>&lt;table&gt;</codeph> where one of the <codeph>&lt;td&gt;</codeph> cells contains a <codeph>&lt;math&gt;</codeph> element — for example, a reference table listing formulas alongside their descriptions.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Equation in a table cell</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_pby_vfn_lkc">
+&lt;table>
+  &lt;tr>
+    &lt;th>Formula&lt;/th>
+    &lt;th>Description&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>
+      &lt;math xmlns="http://www.w3.org/1998/Math/MathML">
+        &lt;mrow>
+          &lt;mi>R&lt;/mi>
+          &lt;mo>=&lt;/mo>
+          &lt;mfrac>
+            &lt;mi>B&lt;/mi>
+            &lt;mi>T&lt;/mi>
+          &lt;/mfrac>
+        &lt;/mrow>
+      &lt;/math>
+    &lt;/td>
+    &lt;td>Transfer rate&lt;/td>
+  &lt;/tr>
+&lt;/table></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_jh2_wfn_lkc">
+&lt;simpletable>
+  &lt;sthead>
+    &lt;stentry>Formula&lt;/stentry>
+    &lt;stentry>Description&lt;/stentry>
+  &lt;/sthead>
+  &lt;strow>
+    &lt;stentry>
+      &lt;equation-inline>
+        &lt;mathml>
+          &lt;math xmlns="http://www.w3.org/1998/Math/MathML">
+            &lt;mrow>
+              &lt;mi>R&lt;/mi>
+              &lt;mo>=&lt;/mo>
+              &lt;mfrac>
+                &lt;mi>B&lt;/mi>
+                &lt;mi>T&lt;/mi>
+              &lt;/mfrac>
+            &lt;/mrow>
+          &lt;/math>
+        &lt;/mathml>
+      &lt;/equation-inline>
+    &lt;/stentry>
+    &lt;stentry>Transfer rate&lt;/stentry>
+  &lt;/strow>
+&lt;/simpletable></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> The converter processes the <codeph>&lt;math&gt;</codeph> element within the <codeph>&lt;td&gt;</codeph> cell and converts it to an <codeph>&lt;equation-inline&gt;</codeph> element containing the MathML content, placed inside the corresponding DITA <codeph>&lt;stentry&gt;</codeph>. The equation is treated as inline content within the cell and does not break out of the table cell boundary.</p>
+      </section>
+   </refbody>
+</reference>

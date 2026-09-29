@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="topic_type_classification" xml:lang="en-us">
+   <title>Topic Type Classification</title>
+   <shortdesc>The converter and AI Agent classify each heading-delimited section into a DITA topic type based</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Topic</keyword>
+        <keyword>Type</keyword>
+        <keyword>DITA</keyword>
+        <keyword>content</keyword>
+        <keyword>Classification</keyword>
+        <keyword>heading</keyword>
+        <indexterm>Topic</indexterm>
+        <indexterm>Type</indexterm>
+        <indexterm>DITA</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section id="sec_d113e7">
+         <p>The converter and AI Agent classify each heading-delimited section into a DITA topic type based on the content that follows the heading:</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Content patterns mapped to topic type</title>
+            <tgroup cols="3">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Content Pattern After Heading</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Topic Type</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Body Element</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Descriptive paragraphs, definitions, overviews</entry>
+                     <entry>Concept</entry>
+                     <entry>
+                        <codeph>&lt;conbody&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Numbered steps, procedural instructions</entry>
+                     <entry>Task</entry>
+                     <entry>
+                        <codeph>&lt;taskbody&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Tables, parameter lists, lookup data</entry>
+                     <entry>Reference</entry>
+                     <entry>
+                        <codeph>&lt;refbody&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Problem / Cause / Solution structure</entry>
+                     <entry>Troubleshooting</entry>
+                     <entry>
+                        <codeph>&lt;troublebody&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>No dominant content pattern/ Mixed content</entry>
+                     <entry>Topic</entry>
+                     <entry>
+                        <codeph>&lt;body&gt;</codeph>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </refbody>
+</reference>

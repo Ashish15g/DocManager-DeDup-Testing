@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="book_map_example" xml:lang="en-us">
+   <title>Book map example</title>
+   <shortdesc>VoIP Gateway Administration Guide &lt;topicref href="c_legal_notice.dita"/&gt; &lt;topicref href="c_preface.dita"/&gt; &lt;topicref href="c_overview.dita"&gt; &lt;topicref href="c_system_requirements.dita"/&gt; &lt;topicref href="c_architecture.dita"/&gt; &lt;topicref</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>topicref</keyword>
+        <keyword>installation</keyword>
+        <keyword>Book</keyword>
+        <keyword>example</keyword>
+        <keyword>configure</keyword>
+        <keyword>VoIP</keyword>
+        <indexterm>topicref</indexterm>
+        <indexterm>installation</indexterm>
+        <indexterm>Book</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <codeblock xml:space="preserve">&lt;bookmap&gt;
+&lt;booktitle&gt;
+&lt;mainbooktitle&gt;VoIP Gateway Administration Guide&lt;/mainbooktitle&gt;
+&lt;/booktitle&gt;
+&lt;frontmatter&gt;
+&lt;booklists&gt;
+&lt;toc/&gt;
+&lt;/booklists&gt;
+&lt;topicref href="c_legal_notice.dita"/&gt;
+&lt;/frontmatter&gt;
+&lt;preface&gt;
+&lt;topicref href="c_preface.dita"/&gt;
+&lt;/preface&gt;
+&lt;chapter&gt;
+&lt;topicref href="c_overview.dita"&gt;
+&lt;topicref href="c_system_requirements.dita"/&gt;
+&lt;topicref href="c_architecture.dita"/&gt;
+&lt;/topicref&gt;
+&lt;/chapter&gt;
+&lt;chapter&gt;
+&lt;topicref href="t_installation.dita"&gt;
+&lt;topicref href="t_pre_installation.dita"/&gt;
+&lt;topicref href="t_install_software.dita"/&gt;
+&lt;topicref href="t_post_installation.dita"/&gt;
+&lt;/topicref&gt;
+&lt;/chapter&gt;
+&lt;chapter&gt;
+&lt;topicref href="t_configuration.dita"&gt;
+&lt;topicref href="t_configure_network.dita"/&gt;
+&lt;topicref href="t_configure_security.dita"/&gt;
+&lt;/topicref&gt;
+&lt;/chapter&gt;
+&lt;appendix&gt;
+&lt;topicref href="r_technical_specifications.dita"/&gt;
+&lt;topicref href="r_port_reference.dita"/&gt;
+&lt;/appendix&gt;
+&lt;backmatter&gt;
+&lt;topicref href="g_glossary.dita"/&gt;
+&lt;booklists&gt;
+&lt;indexlist/&gt;
+&lt;/booklists&gt;
+&lt;/backmatter&gt;
+&lt;/bookmap&gt;</codeblock>
+    </section></refbody>
+</reference>

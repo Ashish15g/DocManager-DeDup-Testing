@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560414" xml:lang="en-us">
+   <title>Scenario 3: Code block inside a procedure</title>
+   <shortdesc>Consider a procedure where a command must be executed during a step.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>block</keyword>
+        <keyword>procedure</keyword>
+        <keyword>deployment</keyword>
+        <keyword>Code</keyword>
+        <keyword>inside</keyword>
+        <keyword>command</keyword>
+        <indexterm>block</indexterm>
+        <indexterm>procedure</indexterm>
+        <indexterm>deployment</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a procedure where a command must be executed during a step.</p><table frame="all" colsep="1" rowsep="1">
+            <title>Code block inside a procedure</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+              <thead>
+                <row>
+                  <entry> .md input </entry>
+                  <entry> DITA output </entry>
+                </row>                
+              </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                       <codeblock>1. Run the following command:
+                         
+                         ```bash
+                         kubectl apply -f deployment.yaml
+                         ```
+                         
+                         2. Verify the deployment
+                       </codeblock>
+                     </entry>
+                     <entry>
+                       <codeblock>&lt;steps&gt;
+                         &lt;step&gt;
+                         &lt;cmd&gt;
+                         Run the following command:
+                         &lt;/cmd&gt;
+                         &lt;info&gt;
+                         &lt;codeblock outputclass="bash"&gt;
+                         kubectl apply -f deployment.yaml
+                         &lt;/codeblock&gt;
+                         &lt;/info&gt;
+                         &lt;/step&gt;
+                         &lt;step&gt;
+                         &lt;cmd&gt;Verify the deployment.&lt;/cmd&gt;
+                         &lt;/step&gt;
+                         &lt;/steps&gt;
+                       </codeblock>
+  </entry>
+  </row>
+  </tbody></tgroup>
+                     </table>
+      <p><b>Result:</b> The converter associates the code block with the preceding procedural step
+        and places it within the corresponding <codeph>&lt;info&gt;</codeph> element.</p>
+  </section></refbody>
+</reference>

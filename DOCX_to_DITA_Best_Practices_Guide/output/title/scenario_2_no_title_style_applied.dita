@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_2_no_title_style_applied" xml:lang="en-us">
+   <title>Scenario 2 — No Title style applied</title>
+   <shortdesc>Consider a document saved as Installation_Guide.docx with no Title style applied anywhere in the document.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Title</keyword>
+        <keyword>style</keyword>
+        <keyword>applied</keyword>
+        <keyword>document</keyword>
+        <keyword>title</keyword>
+        <keyword>Installation</keyword>
+        <indexterm>Title</indexterm>
+        <indexterm>style</indexterm>
+        <indexterm>applied</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+         <p>Consider a document saved as <b>Installation_Guide.docx</b> with no <b>Title</b> style applied anywhere in the document. Because the document does not contain a styled title, the converter falls back to the document filename when generating the DITA map title.</p>
+<table frame="all" colsep="1" rowsep="1">
+   <title>No Title style applied</title>
+   <tgroup cols="2">
+      <colspec colname="c1"/>
+      <colspec colname="c2"/>
+      <thead>
+         <row>
+            <entry>
+               <b>.docx Style / Input</b>
+            </entry>
+            <entry>
+               <b>DITA Output</b>
+            </entry>
+         </row>
+      </thead>
+      <tbody>
+         <row>
+            <entry>Document Name: Installation_Guide.docx Document Title: Not applied</entry>
+            <entry>
+               <codeblock>&lt;bookmap id="Installation_Guide"&gt;
+                  &lt;mainbooktitle&gt;Installation_Guide&lt;/mainbooktitle&gt;
+                  &lt;/bookmap&gt;</codeblock>
+            </entry>
+         </row>
+      </tbody>
+   </tgroup>
+   </table>
+<p><b>Result:</b>When the <b>Title</b> style is not applied, the converter uses the document filename (excluding the .docx extension) as the fallback title value. The generated map title preserves the original filename characters, including underscores and abbreviations.</p>
+<note type="warning">Always apply the Title style to the document title. If the filename is an
+            abbreviation or code, a missing Title style produces an unreadable root map
+            title.</note>
+   </section>
+   </refbody>
+</reference>

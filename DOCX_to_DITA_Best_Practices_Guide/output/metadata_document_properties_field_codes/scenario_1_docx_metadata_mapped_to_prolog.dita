@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="scenario_1_docx_metadata_mapped_to_prolog" xml:lang="en-us">
+   <title>Scenario 1 — DOCX metadata mapped to &lt;prolog&gt;</title>
+   <refbody>
+      <section id="sec_d641e7">
+         <p>Consider a .docx document where the author has populated the document properties (File → Info → Properties) with Author, Created date, Last Modified date, Keywords, Company, and Subject values, with no field codes present in the body.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Metadata mapped to topic prolog</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Document Properties] Title: Configuring Network Settings Author: XYZ Created date: 2025-03-14 Last Modified date: 2025-11-02 Keywords: network, configuration, setup Company: ABC Corp Subject: Device network setup</entry>
+                     <entry>
+                        <codeblock id="codeblock_h1w_ftq_kkc">
+&lt;concept id="configuring_network_settings">
+  &lt;title>Configuring Network Settings&lt;/title>
+  &lt;prolog>
+    &lt;author>XYZ&lt;/author>
+    &lt;critdates>
+      &lt;created date="2025-03-14"/>
+      &lt;revised modified="2025-11-02"/>
+    &lt;/critdates>
+    &lt;metadata>
+      &lt;keywords>
+        &lt;keyword>network&lt;/keyword>
+        &lt;keyword>configuration&lt;/keyword>
+        &lt;keyword>setup&lt;/keyword>
+      &lt;/keywords>
+      &lt;othermeta name="company" content="ABC Corp"/>
+      &lt;othermeta name="subject" content="Device network setup"/>
+    &lt;/metadata>
+  &lt;/prolog>
+  &lt;conbody>
+    ...
+  &lt;/conbody>
+&lt;/concept></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b> Each populated document property is mapped to its corresponding DITA <codeph>&lt;prolog&gt;</codeph> element — Author maps to <codeph>&lt;author&gt;</codeph>, Created date and Last Modified date map to <codeph>&lt;critdates&gt;&lt;created&gt;</codeph> and <codeph>&lt;critdates&gt;&lt;revised&gt;</codeph>, and Keywords maps to a list of <codeph>&lt;keyword&gt;</codeph> elements inside <codeph>&lt;metadata&gt;</codeph>. Company and Subject map to <codeph>&lt;othermeta name="company"&gt;</codeph> and <codeph>&lt;othermeta name="subject"&gt;</codeph> since neither has a dedicated DITA prolog element. The Title property supplies the topic title.</p>
+      </section>
+   </refbody>
+</reference>

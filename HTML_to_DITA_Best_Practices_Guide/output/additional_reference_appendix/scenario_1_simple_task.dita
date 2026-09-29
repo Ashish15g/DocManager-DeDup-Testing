@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headinghi4no2tuey07o" xml:lang="en-us">
+   <title>Scenario 1 — Simple Task</title>
+   <shortdesc>A section titled "Install the Printer Driver" opens with a context sentence followed by a</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>driver</keyword>
+        <keyword>printer</keyword>
+        <keyword>install</keyword>
+        <keyword>system</keyword>
+        <keyword>Install</keyword>
+        <keyword>steps</keyword>
+        <indexterm>driver</indexterm>
+        <indexterm>printer</indexterm>
+        <indexterm>install</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+     <section>
+    <p>A section titled "Install the Printer Driver" opens with a context sentence followed by a numbered list of steps. The heading contains an action verb, and the primary body content is a numbered list.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Simple Task</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>HTML Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>
+                 <codeblock>
+&lt;h2 id="install-printer-driver">Install the printer driver&lt;/h2>
+&lt;p>Follow these steps to install the printer driver on your system.&lt;/p>
+&lt;ol>
+  &lt;li>Download the driver package from the support portal.&lt;/li>
+  &lt;li>Run the installer and accept the license agreement.&lt;/li>
+  &lt;li>Restart your system when prompted.&lt;/li>
+&lt;/ol></codeblock>
+               </entry>
+               <entry>
+                 <codeblock>
+&lt;task id="install_printer_driver">
+  &lt;title>Install the Printer Driver&lt;/title>
+  &lt;shortdesc>Follow these steps to install the printer driver on your system.&lt;/shortdesc>
+  &lt;taskbody>
+    &lt;context>
+      &lt;p>Follow these steps to install the printer driver on your system.&lt;/p>
+    &lt;/context>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Download the driver package from the support portal.&lt;/cmd>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Run the installer and accept the license agreement.&lt;/cmd>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Restart your system when prompted.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+               </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b> The heading action verb ("Install") combined with an <codeph>&lt;ol&gt;</codeph> as the primary body content triggers task classification. The introductory <codeph>&lt;p&gt;</codeph> maps to <codeph>&lt;context&gt;</codeph> and each <codeph>&lt;li&gt;</codeph> maps to <codeph>&lt;step&gt;&lt;cmd&gt;</codeph>.</p>
+  </section>
+   </refbody>
+</reference>

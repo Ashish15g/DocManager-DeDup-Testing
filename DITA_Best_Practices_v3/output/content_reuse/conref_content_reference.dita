@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="_Toc235705989" xml:lang="en-us">
+   <title>conref: Content reference</title>
+   <prolog>
+    <metadata>
+      <keywords>
+        <keyword>conref</keyword>
+        <keyword>Content</keyword>
+        <keyword>reference</keyword>
+        <keyword>element</keyword>
+        <keyword>stored</keyword>
+        <keyword>another</keyword>
+        <indexterm>conref</indexterm>
+        <indexterm>Content</indexterm>
+        <indexterm>reference</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>    <context>
+      <p>Use <codeph>&lt;conref&gt;</codeph> to pull a stored element into another topic. The referenced element must have an @id attribute. Follow these steps to reuse content effectively:</p>
+    </context>
+    <steps id="steps_rl2_fky_kkc">
+      <step>
+        <cmd>Create the reusable content file.</cmd>
+        <info>
+          <p>File: <codeph>global/common_notes.dita</codeph>
+          </p>
+          <codeblock id="codeblock_pjf_gky_kkc">&lt;concept id="common_notes"&gt; 
+      &lt;title&gt;Common Notes&lt;/title&gt; 
+      &lt;conbody&gt; &lt;note type="warning" id="warn_data_loss"&gt; This action permanently deletes all data. This operation cannot be undone. Back up important data before proceeding. &lt;/note&gt; &lt;note type="tip" id="tip_keyboard_shortcut"&gt; Press &lt;uicontrol&gt;Ctrl+S&lt;/uicontrol&gt; to save your work quickly. &lt;/note&gt; &lt;p id="para_support_contact"&gt; For technical support, contact &lt;xref href="mailto:support@example.com"&gt;support@example.com&lt;/xref&gt; or call 1-800-EXAMPLE. &lt;/p&gt; &lt;/conbody&gt;
+      &lt;/concept&gt;
+    </codeblock>
+        </info>
+      </step>
+      <step>
+        <cmd>Reference the reusable content file in any topic that needs this content.</cmd>
+        <info>
+          <codeblock id="codeblock_mcj_3ky_kkc">&lt;!-- Pull in the warning --&gt; &lt;note type="warning" conref="../global/common_notes.dita#common_notes/warn_data_loss"/&gt;
+&lt;!-- Pull in the tip --&gt; &lt;note type="tip" conref="../global/common_notes.dita#common_notes/tip_keyboard_shortcut"/&gt;
+&lt;!-- Pull in the paragraph --&gt; &lt;p conref="../global/common_notes.dita#common_notes/para_support_contact"/&gt;</codeblock>
+        </info>
+      </step>
+    </steps></taskbody>
+</task>

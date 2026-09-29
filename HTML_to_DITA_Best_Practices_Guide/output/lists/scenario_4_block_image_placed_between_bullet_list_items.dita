@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450383" xml:lang="en-us">
+   <title>Scenario 4 — Block image placed between bullet list items</title>
+   <shortdesc>Consider a section where the author inserts a block image between bullet items to visually</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>deployment</keyword>
+        <keyword>image</keyword>
+        <keyword>Deployment</keyword>
+        <keyword>architecture</keyword>
+        <keyword>items</keyword>
+        <keyword>between</keyword>
+        <indexterm>deployment</indexterm>
+        <indexterm>image</indexterm>
+        <indexterm>Deployment</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a section where the author inserts a block image between bullet items to visually illustrate one of the items.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Block image between bullet items</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;h2 id="deployment-models">
+  Supported Deployment Models
+&lt;/h2>
+&lt;ul>
+  &lt;li>On-premises deployment&lt;/li>
+&lt;/ul>
+&lt;figure>
+  &lt;img src="media/deployment_architecture.png" alt="Deployment architecture overview"/>
+  &lt;figcaption>
+    Deployment architecture overview
+  &lt;/figcaption>
+&lt;/figure>
+&lt;ul>
+  &lt;li>Cloud deployment&lt;/li>
+  &lt;li>Hybrid deployment&lt;/li>
+&lt;/ul></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;concept id="supported_deployment_models">
+  &lt;title>Supported Deployment Models&lt;/title>
+  &lt;conbody>
+    &lt;ul>
+      &lt;li>
+        On-premises deployment
+        &lt;fig>
+          &lt;title>Deployment architecture overview&lt;/title>
+          &lt;image href="media/deployment_architecture.png">
+            &lt;alt>Deployment architecture overview&lt;/alt>
+          &lt;/image>
+        &lt;/fig>
+      &lt;/li>
+      &lt;li>Cloud deployment&lt;/li>
+      &lt;li>Hybrid deployment&lt;/li>
+    &lt;/ul>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> The converter treats the two adjacent <codeph>&lt;ul&gt;</codeph> elements separated only by a <codeph>&lt;figure&gt;</codeph> are merged into one, with the image nested inside the last <codeph>&lt;li&gt;</codeph>of the first segment.</p>
+         </section>
+   </refbody>
+</reference>

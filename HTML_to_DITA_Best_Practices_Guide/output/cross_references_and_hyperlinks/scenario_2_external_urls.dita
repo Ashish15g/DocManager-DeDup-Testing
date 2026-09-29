@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450425" xml:lang="en-us">
+   <title>Scenario 2 — External URLs</title>
+   <refbody>
+      <section id="sec_d167e7">
+         <p>Consider a <codeph>&lt;p&gt;</codeph> element that contains an <codeph>&lt;a href="..."&gt;</codeph> element pointing to an external URL.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Internal link</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_vsc_2sn_lkc">
+&lt;p>
+  See
+  &lt;a href="https://example.com/release-notes">
+    the release notes
+  &lt;/a>
+  for details.
+&lt;/p></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_fqm_2sn_lkc">
+&lt;p>
+  See
+  &lt;xref
+    href="https://example.com/release-notes"
+    format="html"
+    scope="external">
+    the release notes
+  &lt;/xref>
+  for details.
+&lt;/p></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> External hyperlinks are preserved. The <codeph>href</codeph> attribute receives the URL, scope="external" is added, and the format attribute is set based on the URL file extension or target type. The element content receives the visible link text.</p>
+      </section>
+   </refbody>
+</reference>

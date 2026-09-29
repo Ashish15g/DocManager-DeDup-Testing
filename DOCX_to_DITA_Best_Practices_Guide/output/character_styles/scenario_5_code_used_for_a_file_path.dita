@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_5_code_used_for_a_file_path" xml:lang="en-us">
+   <title>Scenario 5 — Code used for a file path</title>
+   <shortdesc>Consider a paragraph that contains a file system path formatted using a monospace font such</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Code</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>system</keyword>
+        <keyword>monospace</keyword>
+        <keyword>application</keyword>
+        <keyword>configuration</keyword>
+        <indexterm>Code</indexterm>
+        <indexterm>Scenario</indexterm>
+        <indexterm>system</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a paragraph that contains a file system path formatted using a monospace font such as <b>Courier New</b> or <b>Consolas</b>.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Code used for file path</title>
+   <tgroup cols="2">
+      <colspec colname="c1"/>
+      <colspec colname="c2"/>
+      <thead>
+         <row>
+            <entry>
+               <b>.docx Style / Input</b>
+            </entry>
+            <entry>
+               <b>DITA Output</b>
+            </entry>
+         </row>
+      </thead>
+      <tbody>
+                  <row>
+                     <entry>The application configuration file is located at <b>C:\Program Files\PrinterApp\config\settings.xml</b>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_lnh_hnw_jkc">
+&lt;conbody>
+  &lt;p>
+    The application configuration file is located at
+    &lt;filepath>C:\Program Files\PrinterApp\config\settings.xml&lt;/filepath>.
+  &lt;/p>
+&lt;/conbody></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b>The converter detects the monospace text pattern representing a file system path and maps it to <codeph>&lt;filepath&gt;</codeph>.</p>
+   </section>
+   </refbody>
+</reference>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_8_image_inside_a_bulleted_list_item" xml:lang="en-us">
+   <title>Scenario 8 — Image inside a bulleted list item</title>
+   <shortdesc>Consider a section where the author has placed an inline image inside a bulleted list</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>status</keyword>
+        <keyword>inside</keyword>
+        <keyword>image</keyword>
+        <keyword>bulleted</keyword>
+        <keyword>inline</keyword>
+        <keyword>green</keyword>
+        <indexterm>status</indexterm>
+        <indexterm>inside</indexterm>
+        <indexterm>image</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a section where the author has placed an inline image inside a bulleted list item, for example, to show an icon or visual indicator as part of a descriptive list.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image inside bulleted list item</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Heading 2]:</b> Status Indicators   <b>[List Bullet]:</b> The green status icon <b>[Inline image]:</b> green_status_icon.png  <b>Wrap mode:</b> In Line with Text indicates that the system is running.    <b>[List Bullet]:</b> The red status icon <b>[Inline image]:</b> red_status_icon.png  <b>Wrap mode:</b> In Line with Text indicates that an error has occurred.</entry>
+                     <entry>
+                        <codeblock id="codeblock_uhf_n4y_kkc">
+&lt;concept id="status_indicators">
+  &lt;title>Status Indicators&lt;/title>
+  &lt;conbody>
+    &lt;ul>
+      &lt;li>
+        The green status icon
+        &lt;image href="media/green_status_icon.png" placement="inline"/>
+        indicates that the system is running.
+      &lt;/li>
+      &lt;li>
+        The red status icon
+        &lt;image href="media/red_status_icon.png" placement="inline"/>
+        indicates that an error has occurred.
+      &lt;/li>
+    &lt;/ul>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b>The converter maps the bulleted list to <codeph>&lt;ul&gt;</codeph> and each bullet item to <codeph>&lt;li&gt;</codeph>. Inline images inside each bullet item are preserved as <codeph>&lt;image placement="inline"/&gt;</codeph> inside the corresponding <codeph>&lt;li&gt;</codeph> element.</p>
+         </section>
+   </refbody>
+</reference>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450357" xml:lang="en-us">
+   <title>Lists</title>
+  <abstract>This section covers Lists in HTML — the primary structure for presenting discrete,
+    parallel items in a defined or co-equal sequence — and introduces two subsections: Ordered Lists
+    and Unordered Lists. The converter reads the list type, nesting level, and topic context to
+    determine whether to map each list to <codeph>&lt;ol&gt;</codeph>, <codeph>&lt;ul&gt;</codeph>,
+      <codeph>&lt;steps&gt;</codeph>, <codeph>&lt;substeps&gt;</codeph>,
+      <codeph>&lt;choices&gt;</codeph>, or <codeph>&lt;dl&gt;</codeph> in the DITA
+    output.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Lists</keyword>
+        <keyword>items</keyword>
+        <keyword>lists</keyword>
+        <keyword>HTML</keyword>
+        <keyword>structure</keyword>
+        <keyword>equal</keyword>
+        <indexterm>Lists</indexterm>
+        <indexterm>items</indexterm>
+        <indexterm>lists</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>
+         <b>Lists</b>communicate sequences, collections, and term-definition pairs that prose paragraphs cannot organize with equal clarity. They are the primary structure for presenting discrete, parallel items — steps in a procedure, items in a requirements checklist, and options in a configuration section.</p>
+      <p>A list communicates to the reader that its items share a structural relationship: either sequence matters and the order is meaningful, or the items are co-equal and interchangeable in position.</p>
+      <p>The converter evaluates the HTML list type together with its surrounding context — topic classification, position relative to other content, and nesting — to generate the appropriate DITA list structure. Ordered lists, unordered lists, and term lists are each governed by their own mapping rules, described in the sections that follow.</p>
+      <note type="important">Always use native HTML list elements (ol and ul) to represent
+      structured information. Do not simulate lists using manually typed numbers, bullet characters,
+      hyphens, or spacing within paragraphs, as these patterns are treated as plain text during
+      conversion.</note>
+   </conbody>
+</concept>

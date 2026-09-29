@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705941" xml:lang="en-us">
+   <title>Scenario 9: in-line image in a task topic</title>
+   <shortdesc>Consider an "Add File" chapter in a "User Guide" document where you want an inline</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>inline</keyword>
+        <keyword>File</keyword>
+        <keyword>placement</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>topic</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>inline</indexterm>
+        <indexterm>File</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider an "Add File" chapter in a "User Guide" document where you want an inline image in the procedure. You want to show the add file icon in the procedure itself using only the image tag and setting the <codeph>@placement</codeph> attribute to <codeph>inline</codeph>.</p><note type="note">Do not wrap the &lt;image&gt; in a &lt;fig&gt; tag.</note>
+      <codeblock id="codeblock_omx_4qs_kkc">&lt;task id="run-cli" title="Run the CLI Tool"&gt;
+&lt;shortdesc&gt;Add a file to the project.&lt;/shortdesc&gt;
+&lt;steps&gt;
+&lt;step id="step-1"&gt;
+&lt;cmd&gt;Open the application.&lt;/cmd&gt;
+&lt;/step&gt;
+&lt;step id="step-2"&gt;
+&lt;cmd&gt;
+Click the Add File icon.
+&lt;image href="images/add-file-icon.png" placement="inline" alt="add file icon"/&gt;
+&lt;/cmd&gt;
+&lt;stepresult&gt;
+&lt;p&gt;
+The Add File pop-up dialog box appears.
+&lt;/p&gt;
+&lt;/stepresult&gt;
+&lt;/step&gt;…
+&lt;/steps&gt;
+&lt;result&gt;
+&lt;p&gt;The file is added to the project.&lt;/p&gt;
+&lt;/result&gt;
+&lt;/task&gt;</codeblock><p>
+         <b>Result:</b> Use <codeph>&lt;image placement="inline"&gt;</codeph> inside <codeph>&lt;cmd&gt;</codeph> to embed small icons or inline screenshots that appear in line with command text.</p>
+  </section></refbody>
+</reference>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450396" xml:lang="en-us">
+   <title>Scenario 4 — Inline image within correct wrap mode</title>
+   <refbody>
+      <section id="sec_d389e7">
+         <p>Consider a <codeph>&lt;p&gt;</codeph> element where an <codeph>&lt;img&gt;</codeph> element appears inline within the sentence text — for example, to show a button icon as part of an instruction.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Inline image within correct wrap mode</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_zyv_cj4_lkc">
+&lt;p>
+  Press the
+  &lt;img src="media/ok_btn.png"
+    alt="OK button"/>
+  button to confirm.
+&lt;/p></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_h42_gj4_lkc">
+&lt;p>
+  Press the
+  &lt;image href="media/ok_btn.png" placement="inline">
+    &lt;alt>OK button&lt;/alt>
+  &lt;/image>
+  button to confirm.
+&lt;/p></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> The converter detects the <codeph>&lt;img&gt;</codeph> element positioned inside a <codeph>&lt;p&gt;</codeph> element alongside text and maps it to <codeph>&lt;image placement="inline"&gt;</codeph> within the surrounding <codeph>&lt;p&gt;</codeph> element. The alt attribute is mapped to the <codeph>&lt;alt&gt;</codeph> element inside <codeph>&lt;image&gt;</codeph>.</p>
+      </section>
+   </refbody>
+</reference>

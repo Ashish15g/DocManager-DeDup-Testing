@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560302" xml:lang="en-us">
+   <title>Typical structure</title>
+   <shortdesc>A sample structure is provided below.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>posts</keyword>
+        <keyword>HTML</keyword>
+        <keyword>structure</keyword>
+        <keyword>includes</keyword>
+        <keyword>default</keyword>
+        <keyword>processed</keyword>
+        <indexterm>posts</indexterm>
+        <indexterm>HTML</indexterm>
+        <indexterm>structure</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section>
+      <p>A sample structure is provided below.</p>
+      <codeblock>yaml.
+├── _config.yml         # site configuration
+├── _data/              # site data (YAML/JSON)
+│   └── members.yml
+├── _drafts/            # (optional) draft posts (date-less filenames)
+│   └── draft-idea.md
+├── _includes/          # HTML partials (for use with {% include %})
+│   ├── header.html
+│   └── footer.html
+├── _layouts/           # HTML templates (e.g. default.html, post.html)
+│   ├── default.html
+│   └── post.html
+├── _posts/             # blog posts (YYYY-MM-DD-title.md)
+│   ├── 2024-01-01-welcome.md
+│   └── 2024-02-15-update.md
+├── _sass/              # Sass partials
+│   └── main.scss
+└── index.md           # e.g. homepage (processed if has front matter)</codeblock>
+      <p>All files starting with <codeph>_</codeph> (underscore) are special (config, includes, layouts, posts). Content pages (with <codeph>---</codeph> front matter) anywhere else (in root or subfolders) will be processed. Static assets (CSS, JS, images) can go in the root or an assets/ folder; files like robots.txt or favicon.ico in the root are copied as-is. Jekyll uses kramdown by default, which supports standard Markdown with some extensions (footnotes, tables, etc.). It also supports other converters (like Kramdown’s GFM mode or CommonMark). You can include HTML directly in Markdown. Liquid tags (<codeph>{% ... %}</codeph>) for includes and filters will be processed server-side before final HTML output. If you use Kramdown’s admonition extension (<codeph>:::</codeph> warning etc.), the converter can map those to DITA notes if recognized; if not, consider writing admonitions as blockquotes with a label.</p>
+      <p>For more information, see the following links:</p>
+   </section></refbody>
+  <related-links>
+    <link href="https://jekyllrb.com" format="html" scope="external"/>
+    <link href="https://jekyllrb.com/docs" format="html" scope="external"/>
+    <link href="https://github.com/jekyll/jekyll" format="html" scope="external"/>
+  </related-links>
+</reference>

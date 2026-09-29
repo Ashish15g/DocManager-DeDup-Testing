@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450395" xml:lang="en-us">
+   <title>Scenario 3 — Image Size is Larger than 100 Pixels</title>
+   <shortdesc>Consider a paragraph that introduces a large architecture diagram whose width and height attributes are</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>architecture</keyword>
+        <keyword>element</keyword>
+        <keyword>width</keyword>
+        <keyword>height</keyword>
+        <keyword>system</keyword>
+        <keyword>overview</keyword>
+        <indexterm>architecture</indexterm>
+        <indexterm>element</indexterm>
+        <indexterm>width</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a paragraph that introduces a large architecture diagram whose width and height attributes are both larger than 100 pixels.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image larger than 100 pixels</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_oxx_mj4_lkc">
+&lt;p>The following diagram illustrates the overall system architecture.&lt;/p>
+&lt;img src="media/system_architecture_overview.png" alt="System architecture overview" width="1024" height="768"/></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_cgl_4j4_lkc">
+&lt;p>The following diagram illustrates the overall system architecture.&lt;/p>
+&lt;fig>
+  &lt;title>System Architecture Overview&lt;/title>
+  &lt;image href="media/system_architecture_overview.png" placement="break" width="13" height="10">
+    &lt;alt>System architecture overview&lt;/alt>
+  &lt;/image>
+&lt;/fig></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> If the <codeph>&lt;img&gt;</codeph> element's width and height are both
+            larger than <b>100 × 100 pixels</b>, the converter generates an
+               <codeph>&lt;image/&gt;</codeph> element with the placement attribute as break and
+            wraps it in a <codeph>&lt;fig&gt;</codeph> element. The converter also generates the
+               <codeph>&lt;title&gt;</codeph> element from the image filename. The
+               <codeph>&lt;fig&gt;</codeph> element is placed outside the preceding
+               <codeph>&lt;p&gt;</codeph> element so that the image is represented as a standalone
+            figure.</p>
+         </section>
+   </refbody>
+</reference>

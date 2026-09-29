@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450405" xml:lang="en-us">
+   <title>Tables</title>
+   <abstract>This section covers the Table style in HTML — the primary structure for presenting
+      information with inherent row-and-column relationships — and ten scenarios: a standard
+      multi-column table, a table with a caption, a table with no header row, merged cells, nested
+      tables, lists and images inside table cells, tables spanning multiple pages, consecutive
+      tables, and a two-column parameter table in a reference topic. The converter reads each
+      table's structure, cell complexity, and topic context to determine whether to map it to
+         <codeph>&lt;simpletable&gt;</codeph>, a CALS <codeph>&lt;table&gt;</codeph>, or
+         <codeph>&lt;properties&gt;</codeph>.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>table</keyword>
+        <keyword>column</keyword>
+        <keyword>HTML</keyword>
+        <keyword>caption</keyword>
+        <keyword>structure</keyword>
+        <keyword>information</keyword>
+        <indexterm>table</indexterm>
+        <indexterm>column</indexterm>
+        <indexterm>HTML</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+         <p>A<b>Table</b> is the primary structure for reference and lookup content. It is a structural mechanism to present information that has inherent row-and-column relationships — parameter names and their values, feature names and their states, error codes and their meanings, API fields and their data types.</p>
+         <p>A table reduces a lookup task from reading a paragraph to scanning a row and column. In DITA-XML, a table is structured data — each cell is a discrete, addressable unit that a transform can reformat for PDF, or online help output, filter by column for conditional publishing, and extract independently for reuse in other deliverables.</p>
+         <p>A table is an HTML structure used to organize related information into rows and columns. Represented by the native <codeph>&lt;table&gt;</codeph> element together with <codeph>&lt;tr&gt;</codeph>, <codeph>&lt;th&gt;</codeph>, and <codeph>&lt;td&gt;</codeph>, it presents information that is easier to compare, scan, or reference than the same information written as continuous text. Tables commonly represent configuration parameters, feature comparisons, error codes, API fields, and other structured lookup information.</p>
+         <p>The converter evaluates each table's structure — merged cells, the presence of a <codeph>&lt;caption&gt;</codeph>, column count, and the topic type it appears in — to determine the correct DITA output. A simple table maps to <codeph>&lt;simpletable&gt;</codeph>. A table with merged cells or a <codeph>&lt;caption&gt;</codeph> maps to a CALS <codeph>&lt;table&gt;</codeph> with <codeph>&lt;tgroup&gt;</codeph>. A two-column parameter table inside a Reference topic maps to <codeph>&lt;properties&gt;</codeph>. The converter relies entirely on the HTML table model, never on visual appearance.</p>
+         <note type="important"> Author tables using native <codeph>&lt;table&gt;</codeph>,
+               <codeph>&lt;tr&gt;</codeph>, <codeph>&lt;th&gt;</codeph>, and
+               <codeph>&lt;td&gt;</codeph> elements. Tables simulated with spacing,
+               <codeph>&lt;pre&gt;</codeph>, or images are converted as plain text or figures, with
+            no table structure in the output.</note>
+         <p>The following table summarizes how different HTML table structures are mapped during HTML-to-DITA conversion:</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>HTML table structures mapped to DITA</title>
+            <tgroup cols="3">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Table Structure</b>
+                     </entry>
+                     <entry>
+                        <b>Topic Type</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output Element</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>Any <codeph>&lt;table&gt;</codeph> with a <codeph>&lt;caption&gt;</codeph> element</entry>
+                     <entry>Any</entry>
+                     <entry>CALS <codeph>&lt;table&gt;</codeph> + <codeph>&lt;tgroup&gt;</codeph>; <codeph>&lt;caption&gt;</codeph> → <codeph>&lt;title&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Any <codeph>&lt;table&gt;</codeph> with merged cells (colspan or rowspan)</entry>
+                     <entry>Any</entry>
+                     <entry>CALS <codeph>&lt;table&gt;</codeph> + <codeph>&lt;tgroup&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>2-column <codeph>&lt;table&gt;</codeph>, no caption, no merge</entry>
+                     <entry>Reference (API keyword context)</entry>
+                     <entry>
+                        <codeph>&lt;properties&gt;</codeph> with <codeph>&lt;proptype&gt;</codeph>/<codeph>&lt;propvalue&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>2-column <codeph>&lt;table&gt;</codeph>, no caption, no merge</entry>
+                     <entry>Concept / Task / Generic</entry>
+                     <entry>
+                        <codeph>&lt;simpletable&gt;</codeph> with <codeph>&lt;sthead&gt;</codeph>/<codeph>&lt;strow&gt;</codeph>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+   </conbody>
+</concept>

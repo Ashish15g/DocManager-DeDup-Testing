@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_headinghhn9om9lyza6n" xml:lang="en-us">
+   <title>Scenario 5: Inline image in a bullet list</title>
+   <shortdesc>Consider a .md file about alarm status indicators where each list item contains a small</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>Icon</keyword>
+        <keyword>bullet</keyword>
+        <keyword>Active</keyword>
+        <keyword>Warning</keyword>
+        <keyword>Error</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>Icon</indexterm>
+        <indexterm>bullet</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a .md file about alarm status indicators where each list item contains a small icon representing the item.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Inline image in a bullet list</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>   
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Alarm Status Indicators
+  - ![Active Icon](images/active.png) Active
+  - ![Warning Icon](images/warning.png) Warning
+  - ![Error Icon](images/error.png) Error</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;concept id="alarm_status_indicators"&gt;
+  &lt;title&gt;Alarm Status Indicators&lt;/title&gt;
+  &lt;conbody&gt;
+  &lt;ul&gt;
+  &lt;li&gt;
+  &lt;image href="media/active.png"&gt;&lt;alt&gt;Active Icon&lt;/alt&gt;&lt;/image&gt;
+  Active
+  &lt;/li&gt;
+  &lt;li&gt;
+  &lt;image href="media/warning.png"&gt;&lt;alt&gt;Warning Icon&lt;/alt&gt;&lt;/image&gt;
+  Warning
+  &lt;/li&gt;
+  &lt;li&gt;
+  &lt;image href="media/error.png"&gt;&lt;alt&gt;Error Icon&lt;/alt&gt;&lt;/image&gt;
+  Error
+  &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/conbody&gt;
+  &lt;/concept&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The converter preserves the image as inline content within each bullet list item. The image remains associated with the corresponding list item rather than being converted into a standalone figure.</p></section></refbody>
+</reference>

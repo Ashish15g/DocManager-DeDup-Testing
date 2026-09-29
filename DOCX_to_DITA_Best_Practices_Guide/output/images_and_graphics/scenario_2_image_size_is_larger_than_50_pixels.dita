@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_2_image_size_is_larger_than_50_pixels" xml:lang="en-us">
+   <title>Scenario 2 — Image Size is Larger than 50 Pixels</title>
+   <shortdesc>Consider a paragraph that contains a medium-sized image of a “dialog box” whose width and</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>dialog</keyword>
+        <keyword>network</keyword>
+        <keyword>settings</keyword>
+        <keyword>Image</keyword>
+        <keyword>larger</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>dialog</indexterm>
+        <indexterm>network</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a paragraph that contains a medium-sized image of a “dialog box” whose width and height are both larger than 50 pixels.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image larger than 50 pixels</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Normal]:</b> The following dialog box displays the available network settings: <b>[Inline image: network_settings_dialog.png (320 × 240 px)]</b>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_pgt_wvy_kkc">
+&lt;p>The following dialog box displays the available network settings:
+  &lt;image href="media/network_settings_dialog.png" placement="break" width="4" height="3"/>
+&lt;/p></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> If an image is equal to or larger than 50 × 50 pixels, the converter generates an &lt;image/&gt; element with the placement attribute as break. The converter does not wrap the image in a &lt;fig&gt; tag.</p>
+         </section>
+   </refbody>
+</reference>

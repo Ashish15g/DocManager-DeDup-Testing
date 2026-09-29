@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headinghy8jebo5tzv9r" xml:lang="en-us">
+   <title>Scenario 1 — HTML metadata mapped to &lt;prolog&gt;</title>
+   <shortdesc>Scenario 1 — HTML metadata mapped to &lt;prolog&gt; Consider an HTML document where the author</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>content</keyword>
+        <keyword>prolog</keyword>
+        <keyword>author</keyword>
+        <keyword>network</keyword>
+        <keyword>HTML</keyword>
+        <keyword>metadata</keyword>
+        <indexterm>content</indexterm>
+        <indexterm>prolog</indexterm>
+        <indexterm>author</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+     <section>
+    <p>Consider an HTML document where the author has provided metadata using standard <codeph>&lt;meta&gt;</codeph> tags inside the <codeph>&lt;head&gt;</codeph> section, covering author, creation and revision dates, keywords, and a short description.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Metadata mapped to topic prolog</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>HTML Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>
+                 <codeblock>
+&lt;head>
+  &lt;title>Configuring Network Settings&lt;/title>
+  &lt;meta name="author" content="XYZ"/>
+  &lt;meta name="created" content="2025-03-14"/>
+  &lt;meta name="last-modified" content="2025-11-02"/>
+  &lt;meta name="keywords" content="network, configuration, setup"/>
+  &lt;meta name="description" content="Steps to configure the device network settings."/>
+  &lt;meta name="company" content="XYZ Corp"/>
+&lt;/head></codeblock>
+               </entry>
+               <entry>
+                 <codeblock>
+&lt;concept id="configuring_network_settings">
+  &lt;title>Configuring Network Settings&lt;/title>
+  &lt;prolog>
+    &lt;author>XYZ&lt;/author>
+    &lt;critdates>
+      &lt;created date="2025-03-14"/>
+      &lt;revised modified="2025-11-02"/>
+    &lt;/critdates>
+    &lt;metadata>
+      &lt;keywords>
+        &lt;keyword>network&lt;/keyword>
+        &lt;keyword>configuration&lt;/keyword>
+        &lt;keyword>setup&lt;/keyword>
+      &lt;/keywords>
+      &lt;othermeta name="company" content="XYZ Corp"/>
+    &lt;/metadata>
+  &lt;/prolog>
+  &lt;shortdesc>Steps to configure the device network settings.&lt;/shortdesc>
+  &lt;conbody>
+    ...
+  &lt;/conbody>
+&lt;/concept></codeblock>
+               </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b> Each recognized <codeph>&lt;meta&gt;</codeph> tag is mapped to its corresponding DITA <codeph>&lt;prolog&gt;</codeph> element — <b>author</b> maps to <codeph>&lt;author&gt;</codeph>, <b>created</b> and <b>last-modified</b> map to <codeph>&lt;critdates&gt;&lt;created&gt;</codeph> and <codeph>&lt;critdates&gt;&lt;revised&gt;</codeph>, and <b>keywords</b> maps to a list of <codeph>&lt;keyword&gt;</codeph> elements inside <codeph>&lt;metadata&gt;</codeph>. The <b>description</b> meta tag maps to <codeph>&lt;shortdesc&gt;</codeph>, and <b>company</b> maps to <codeph>&lt;othermeta name="company"&gt;</codeph> since it has no dedicated DITA prolog element. The <codeph>&lt;title&gt;</codeph> element supplies the <b>topic title</b>.</p>
+  </section>
+   </refbody>
+</reference>

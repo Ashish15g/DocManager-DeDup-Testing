@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="scenario_1_using_topicgroup_to_cluster_related_topics" xml:lang="en-us">
+   <title>Scenario 1: using &lt;topicgroup&gt;to cluster related topics</title>
+   <shortdesc>You are creating a product‑agnostic help system for a software suite that includes multiple modules</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>topicref</keyword>
+        <keyword>admin</keyword>
+        <keyword>topicgroup</keyword>
+        <keyword>topics</keyword>
+        <keyword>client</keyword>
+        <keyword>getting</keyword>
+        <indexterm>topicref</indexterm>
+        <indexterm>admin</indexterm>
+        <indexterm>topicgroup</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section>
+      <p>You are creating a product‑agnostic help system for a software suite that includes multiple modules (Client, Server, Admin UI). Each module has “Getting Started,” “Administration,” and “Troubleshooting” sections, but you don’t want to treat these as rigid “chapters” because different audiences reuse different combinations.</p>
+      <p>You use <codeph>&lt;topicgroup&gt;</codeph> to logically group these sets of topics under each module in the map:</p>
+      <codeblock>
+         
+            Unified Help Portal
+            
+&lt;topicref href="c_client_getting_started.dita"/&gt;
+&lt;topicref href="c_server_getting_started.dita"/&gt;
+&lt;topicref href="c_admin_ui_getting_started.dita"/&gt;
+
+            
+&lt;topicref href="t_admin_client.dita"/&gt;
+&lt;topicref href="t_admin_server.dita"/&gt;
+&lt;topicref href="t_admin_ui.dita"/&gt;
+
+            
+&lt;topicref href="ts_client_issues.dita"/&gt;
+&lt;topicref href="ts_server_issues.dita"/&gt;
+&lt;topicref href="ts_ui_issues.dita"/&gt;
+
+         
+      </codeblock>
+   </section></refbody>
+</reference>

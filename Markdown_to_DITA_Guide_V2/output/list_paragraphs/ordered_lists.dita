@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560335" xml:lang="en-us">
+   <title>Ordered lists</title>
+  <abstract>This section covers Ordered Lists in Markdown — items presented in a defined sequence
+    where position is significant — and twenty-one scenarios grouped across six categories:
+    consecutive and discontinuous numbered lists as procedures and workflows, single-item numbered
+    lists, two-level and three-level nested numbered lists, and interrupted numbered lists where an
+    admonition, paragraph, image, table, or bullet list appears between items. The converter maps
+    each ordered list to <codeph>&lt;ol&gt;&lt;li&gt;</codeph> in concept and reference topics, or
+    to <codeph>&lt;steps&gt;&lt;step&gt;&lt;cmd&gt;</codeph> in task topics, based on the heading
+    classification and content context.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>lists</keyword>
+        <keyword>level</keyword>
+        <keyword>ordered</keyword>
+        <keyword>DITA</keyword>
+        <keyword>items</keyword>
+        <keyword>numbered</keyword>
+        <indexterm>lists</indexterm>
+        <indexterm>level</indexterm>
+        <indexterm>ordered</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>An <b>ordered list</b> presents items in a defined sequence where the position of each item is significant. The ordered lists are universally used for step-by-step procedures, installation instructions, and ranked items.</p>
+      <p>For the reader, a numbered list communicates that sequence is contractual — item 2 depends on item 1 being completed, and performing the items out of order produces an incorrect or unsafe result. It is also a navigational reference that lets a reader say "I am on step 4" and return to the correct position after an interruption.</p>
+      <p>The list level is controlled by the Increase and Decrease Indent buttons, determines nesting depth: level 1 is the top level, level 2 is the first nested level, level 3 is the second, and so on.</p>
+    <note id="note_erw_jlw_jkc">The list level assigned by list controls is what drives the nesting
+      structure in the DITA output.</note>
+    <p>A simple ordered list in Markdown is created by prefixing each item with a number followed by
+      a period (.). For
+      example:<codeblock id="codeblock_p5y_llw_jkc">1. Install the application.
+  2. Configure the system settings.
+  3. Start the service.
+  4. Verify the installation.</codeblock></p>
+      <p>The converter analyzes both the list structure and the surrounding content to determine the appropriate DITA output. Depending on the context, the same ordered list may represent either a procedural task or sequential reference information. Procedural content is converted into DITA task structures using <codeph>&lt;steps&gt;</codeph>, <codeph>&lt;step&gt;</codeph>, and <codeph>&lt;substeps&gt;</codeph>, while non-procedural sequential content is converted into DITA ordered lists (<codeph>&lt;ol&gt;</codeph>) within Concept or Reference topics. Supporting content, such as images, tables, and nested lists, is preserved according to the generated DITA structure.</p>
+      <p>The following scenarios demonstrate how different ordered list structures are interpreted during Markdown-to-DITA conversion and how they affect the generated DITA output.</p>
+   </conbody>
+</concept>

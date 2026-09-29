@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_15_paragraph_between_numbered_list_in_a_workflow" xml:lang="en-us">
+   <title>Scenario 15 — Paragraph Between Numbered List in a Workflow</title>
+   <shortdesc>Consider a workflow where the author has pressed Enter inside a numbered item and changed</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>List</keyword>
+        <keyword>Workflow</keyword>
+        <keyword>draft</keyword>
+        <keyword>Paragraph</keyword>
+        <keyword>workflow</keyword>
+        <keyword>Normal</keyword>
+        <indexterm>List</indexterm>
+        <indexterm>Workflow</indexterm>
+        <indexterm>draft</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+     <section>
+    <p>Consider a workflow where the author has pressed Enter inside a numbered item and changed the paragraph style to Normal to add explanatory text before continuing the numbered list.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Paragraph between stages in workflow</title>
+         <tgroup cols="2">
+           <colspec colname="c1" colwidth="1*"/>
+           <colspec colname="c2" colwidth="1.28*"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>.docx Style / Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>[Heading 2]: Approval Workflow [List Number]: 1. Author submits the draft.
+                 [Normal, indented]: Submissions are queued and reviewed in the order received. [List
+                 Number]: 2. Reviewer approves or rejects the draft.</entry>
+               <entry>
+                <codeblock id="codeblock_e1s_ctz_kkc">
+&lt;concept id="approval_workflow">
+  &lt;title>Approval Workflow&lt;/title>
+  &lt;conbody>
+    &lt;ol>
+      &lt;li>
+        Author submits the draft.
+        &lt;p>Submissions are queued and reviewed in the order received.&lt;/p>
+      &lt;/li>
+      &lt;li>
+        Reviewer approves or rejects the draft.
+      &lt;/li>
+    &lt;/ol>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+              </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b> The Normal paragraph is nested inside the preceding <codeph>&lt;li&gt;</codeph> as a <codeph>&lt;p&gt;</codeph> element rather than splitting the <codeph>&lt;ol&gt;</codeph> into two independent lists.</p>
+  </section>
+   </refbody>
+</reference>

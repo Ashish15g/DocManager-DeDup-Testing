@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_4_inline_image_with_correct_wrap_mode" xml:lang="en-us">
+   <title>Scenario 4 — Inline image with correct wrap mode</title>
+   <shortdesc>Consider an architecture diagram inserted between two Normal paragraphs with its layout set to In</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>architecture</keyword>
+        <keyword>diagram</keyword>
+        <keyword>Inline</keyword>
+        <keyword>correct</keyword>
+        <keyword>Normal</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>architecture</indexterm>
+        <indexterm>diagram</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+    <p>Consider an architecture diagram inserted between two Normal paragraphs with its layout set to In Line with Text.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Inline image with correct wrap</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Normal]: The diagram illustrates the system architecture. [Inline image: architecture_diagram.png, In Line with Text] [Normal]: Each component communicates through a central message bus.</entry>
+                     <entry>
+                        <codeblock id="codeblock_dbc_fsy_kkc">
+&lt;p>The diagram illustrates the system architecture.&lt;/p>
+&lt;fig>
+  &lt;image href="media/architecture_diagram.png"/>
+&lt;/fig>
+&lt;p>Each component communicates through a central message bus.&lt;/p></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b>The converter extracts the image, saves it to the media/ subfolder of the output directory, and inserts the <codeph>&lt;fig&gt;</codeph> element at the correct position in the topic.</p>
+  </section>
+   </refbody>
+</reference>

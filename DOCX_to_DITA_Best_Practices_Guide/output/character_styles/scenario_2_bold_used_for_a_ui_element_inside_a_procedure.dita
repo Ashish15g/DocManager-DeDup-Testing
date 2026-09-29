@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_2_bold_used_for_a_ui_element_inside_a_procedure" xml:lang="en-us">
+   <title>Scenario 2 — Bold used for a UI element inside a procedure</title>
+   <shortdesc>Consider a procedural step that reads: "Click the Save button."</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Bold</keyword>
+        <keyword>element</keyword>
+        <keyword>Save</keyword>
+        <keyword>button</keyword>
+        <keyword>Click</keyword>
+        <keyword>Scenario</keyword>
+        <indexterm>Bold</indexterm>
+        <indexterm>element</indexterm>
+        <indexterm>Save</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+     <section> Consider a procedural step that reads: "Click the Save button."<table frame="all"
+        colsep="1" rowsep="1">
+        <title>Bold used for UI element</title>
+        <tgroup cols="2">
+          <colspec colname="c1"/>
+          <colspec colname="c2"/>
+          <thead>
+            <row>
+              <entry>
+                <b>.docx Style / Input</b>
+              </entry>
+              <entry>
+                <b>DITA Output</b>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Click the <b>Save</b> button. (Save = Bold / UI button label)</entry>
+              <entry>
+                <codeblock id="codeblock_zbq_cyv_jkc">
+&lt;taskbody>
+  &lt;steps>
+    &lt;step>
+      &lt;cmd>
+        Click the
+        &lt;uicontrol>Save&lt;/uicontrol>
+        button.
+      &lt;/cmd>
+    &lt;/step>
+  &lt;/steps>
+&lt;/taskbody></codeblock>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p><b>Result:</b>The converter recognizes that the bold text represents a UI element
+        and maps it to <codeph>&lt;uicontrol&gt;</codeph>.</p>
+    </section></refbody>
+</reference>

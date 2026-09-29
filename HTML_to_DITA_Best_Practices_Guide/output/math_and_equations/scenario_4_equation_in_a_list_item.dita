@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450432" xml:lang="en-us">
+   <title>Scenario 4 — Equation in a list item</title>
+   <shortdesc>Consider a &lt;ul&gt; list where one of the &lt;li&gt; items contains a &lt;math&gt; element inline</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>inline</keyword>
+        <keyword>Equation</keyword>
+        <keyword>element</keyword>
+        <keyword>within</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>DITA</keyword>
+        <indexterm>inline</indexterm>
+        <indexterm>Equation</indexterm>
+        <indexterm>element</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a <codeph>&lt;ul&gt;</codeph> list where one of the <codeph>&lt;li&gt;</codeph> items contains a <codeph>&lt;math&gt;</codeph> element inline within the item text.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Equation in a list item</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;ul>
+  &lt;li>
+    Use the formula
+    &lt;math xmlns="http://www.w3.org/1998/Math/MathML">
+      &lt;mrow>
+        &lt;mi>A&lt;/mi>
+        &lt;mo>=&lt;/mo>
+        &lt;mi>π&lt;/mi>
+        &lt;msup>
+          &lt;mi>r&lt;/mi>
+          &lt;mn>2&lt;/mn>
+        &lt;/msup>
+      &lt;/mrow>
+    &lt;/math>
+    to calculate area.
+  &lt;/li>
+  &lt;li>
+    Round results to two decimal places.
+  &lt;/li>
+&lt;/ul></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;ul>
+  &lt;li>
+    Use the formula
+    &lt;equation-inline>
+      &lt;mathml>
+        &lt;math xmlns="http://www.w3.org/1998/Math/MathML">
+          &lt;mrow>
+            &lt;mi>A&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi>π&lt;/mi>
+            &lt;msup>
+              &lt;mi>r&lt;/mi>
+              &lt;mn>2&lt;/mn>
+            &lt;/msup>
+          &lt;/mrow>
+        &lt;/math>
+      &lt;/mathml>
+    &lt;/equation-inline>
+    to calculate area.
+  &lt;/li>
+  &lt;li>
+    Round results to two decimal places.
+  &lt;/li>
+&lt;/ul></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> When a <codeph>&lt;math&gt;</codeph> element is embedded inline within a <codeph>&lt;li&gt;</codeph> item, the converter preserves it as an <codeph>&lt;equation-inline&gt;</codeph> element inside the DITA <codeph>&lt;li&gt;</codeph>. The equation is treated as part of the list item's inline content and remains within the list structure.</p>
+   </section>
+   </refbody>
+</reference>

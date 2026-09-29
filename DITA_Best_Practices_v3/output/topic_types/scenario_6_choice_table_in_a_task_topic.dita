@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705938" xml:lang="en-us">
+   <title>Scenario 6: choice table in a task topic</title>
+   <shortdesc>Consider a "Select Database Deployment Type" chapter in a "Database Installation Guide" document where users</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>deployment</keyword>
+        <keyword>Deployment</keyword>
+        <keyword>Select</keyword>
+        <keyword>Database</keyword>
+        <keyword>Type</keyword>
+        <keyword>Scenario</keyword>
+        <indexterm>deployment</indexterm>
+        <indexterm>Deployment</indexterm>
+        <indexterm>Select</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a "Select Database Deployment Type" chapter in a "Database Installation Guide" document where users need structured decision-making information before choosing a deployment model.</p>
+      <codeblock id="codeblock_ld5_kqs_kkc">&lt;task id="select-db-deployment" title="Select Database Deployment Type"&gt;
+&lt;shortdesc&gt;
+Select the appropriate database deployment type for the
+environment.
+&lt;/shortdesc&gt;
+&lt;context&gt;
+&lt;p&gt;
+Different deployment models provide varying levels of
+scalability, redundancy, and operational complexity.
+&lt;/p&gt;
+&lt;/context&gt;
+&lt;steps&gt;
+&lt;step id="step-1"&gt;
+&lt;cmd&gt;
+Select one of the available deployment options.
+&lt;/cmd&gt;
+&lt;choicetable&gt;
+&lt;chhead&gt;
+&lt;choptionhd&gt;Deployment Type&lt;/choptionhd&gt;
+&lt;chdeschd&gt;Description&lt;/chdeschd&gt;
+&lt;/chhead&gt;
+&lt;chrow&gt;
+&lt;choption&gt;Standalone Database&lt;/choption&gt;
+&lt;chdesc&gt;
+Suitable for development and small test
+environments with minimal redundancy requirements.
+&lt;/chdesc&gt;
+&lt;/chrow&gt;
+&lt;chrow&gt;
+&lt;choption&gt;Primary-Replica Deployment&lt;/choption&gt;
+&lt;chdesc&gt;
+Provides read scalability and failover support for
+medium-sized production environments.
+&lt;/chdesc&gt;
+&lt;/chrow&gt;
+&lt;chrow&gt;
+&lt;choption&gt;Clustered Deployment&lt;/choption&gt;
+&lt;chdesc&gt;
+Provides high availability and distributed load
+balancing for enterprise-scale deployments.
+&lt;/chdesc&gt;
+&lt;/chrow&gt;
+&lt;/choicetable&gt;
+&lt;stepresult&gt;
+&lt;p&gt;
+You can determine the deployment model that best fits the operational requirements.
+&lt;/p&gt;
+&lt;/stepresult&gt;
+&lt;/step&gt;
+&lt;/steps&gt;
+&lt;result&gt;
+&lt;p&gt;
+The appropriate database deployment strategy is selected for
+the environment.
+&lt;/p&gt;
+&lt;/result&gt;
+&lt;/task&gt;</codeblock><p>
+         <b>Result:</b> Use <codeph>&lt;choicetable&gt;</codeph> when users need descriptive, side-by-side comparison information to make procedural decisions between multiple options.</p>
+  </section></refbody>
+</reference>

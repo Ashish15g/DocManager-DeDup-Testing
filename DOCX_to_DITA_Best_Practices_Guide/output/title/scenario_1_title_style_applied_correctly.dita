@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_1_title_style_applied_correctly" xml:lang="en-us">
+   <title>Scenario 1 — Title style applied correctly</title>
+   <shortdesc>Consider a document titled Printer User's Guide saved as Printer_Users_Guide.docx.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Printer</keyword>
+        <keyword>Guide</keyword>
+        <keyword>Title</keyword>
+        <keyword>style</keyword>
+        <keyword>applied</keyword>
+        <keyword>User</keyword>
+        <indexterm>Printer</indexterm>
+        <indexterm>Guide</indexterm>
+        <indexterm>Title</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+     <section>
+       <p>Consider a document titled Printer User's Guide saved as Printer_Users_Guide.docx. When the Title style is applied to the text "Printer User's Guide", the converter generates the following DITA bookmap structure:</p>
+<table frame="all" colsep="1" rowsep="1">
+  <title>Title style applied correctly</title>
+  <tgroup cols="2">
+    <colspec colname="c1"/>
+    <colspec colname="c2"/>
+    <thead>
+      <row>
+        <entry>
+          <b>.docx Style / Input</b>
+        </entry>
+        <entry>
+          <b>DITA Output</b>
+        </entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>Document Name: Printer_Users_Guide.docx Document Title: Printer User's Guide (Title style applied)</entry>
+        <entry>
+                <codeblock id="codeblock_uft_wnq_kkc">
+&lt;map id="Printer_Users_Guide">
+  &lt;title>Printer User's Guide&lt;/title>
+&lt;/map>
+OR
+&lt;bookmap id="Printer_Users_Guide">
+  &lt;booktitle>
+    &lt;mainbooktitle>Printer User's Guide&lt;/mainbooktitle>
+  &lt;/booktitle>
+&lt;/bookmap></codeblock>
+              </entry>
+      </row>
+    </tbody>
+  </tgroup>
+  </table>
+       <p> <b>Result:</b>The converter uses the .docx filename, without the .docx extension, as the map @id. The text formatted with the Microsoft Word <b>Title</b> style becomes the DITA map title. Use <codeph>&lt;map&gt;/&lt;title&gt;</codeph> for a standard DITA map, or <codeph>&lt;bookmap&gt;/&lt;booktitle&gt;/&lt;mainbooktitle&gt;</codeph> only when the target DITA shell supports bookmap.</p>
+   </section>
+   </refbody>
+</reference>

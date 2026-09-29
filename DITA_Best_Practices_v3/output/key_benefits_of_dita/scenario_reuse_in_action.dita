@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705876" xml:lang="en-us">
+   <title>Scenario: reuse in action</title>
+   <shortdesc>A safety warning appears in 23 different procedures across a product documentation set: &lt;note type="warning"</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>warning</keyword>
+        <keyword>electrical</keyword>
+        <keyword>common</keyword>
+        <keyword>warnings</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>reuse</keyword>
+        <indexterm>warning</indexterm>
+        <indexterm>electrical</indexterm>
+        <indexterm>common</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>A safety warning appears in 23 different procedures across a product documentation
+        set:<codeblock id="codeblock_y1c_1gs_kkc">&lt;note type="warning" id="warn_electrical_hazard"&gt;Disconnect all power sources before servicing internal components. Failure to do so may result in electrical shock or equipment damage.&lt;/note&gt;</codeblock></p><p>This warning lives in one file: <codeph>global/common_warnings.dita</codeph>. Every procedure
+        that needs this warning references
+        it:<codeblock id="codeblock_qvz_2gs_kkc">&lt;note type="warning"   conref="../global/common_warnings.dita#common_warnings/warn_electrical_hazard"/&gt;</codeblock></p><p>When regulatory requirements mandate updated warning language, one edit updates all 23 locations instantly.</p>
+  </section></refbody>
+</reference>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headingha772rpvek4g6" xml:lang="en-us">
+   <title>Scenario 13 — Admonition Between Numbered List in a Workflow</title>
+   <shortdesc>Consider a workflow where the author has inserted an admonition between two numbered items to</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>release</keyword>
+        <keyword>Workflow</keyword>
+        <keyword>workflow</keyword>
+        <keyword>Admonition</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>Between</keyword>
+        <indexterm>release</indexterm>
+        <indexterm>Workflow</indexterm>
+        <indexterm>workflow</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+     <section>
+    <p>Consider a workflow where the author has inserted an admonition between two numbered items to call out supplementary or cautionary information relevant to the stage just described.</p>
+        <table frame="all" colsep="1" rowsep="1">
+           <title>Admonition between stages in workflow</title>
+           <tgroup cols="2">
+              <colspec colname="c1"/>
+              <colspec colname="c2"/>
+              <thead>
+                 <row>
+                    <entry>
+                       <b>HTML Input</b>
+                    </entry>
+                    <entry>
+                       <b>DITA Output</b>
+                    </entry>
+                 </row>
+              </thead>
+              <tbody>
+                 <row>
+                    <entry>
+                       <codeblock>
+&lt;h2 id="release-workflow">Release Workflow&lt;/h2>
+&lt;ol>
+  &lt;li>
+    Merge the release branch.
+    &lt;div class="note">
+      Merging triggers an automatic build in the CI pipeline.
+    &lt;/div>
+  &lt;/li>
+  &lt;li>Tag the release.&lt;/li>
+&lt;/ol></codeblock>
+                    </entry>
+                    <entry>
+                       <codeblock>
+&lt;concept id="release_workflow">
+  &lt;title>Release Workflow&lt;/title>
+  &lt;conbody>
+    &lt;ol>
+      &lt;li>
+        Merge the release branch.
+        &lt;note>
+          &lt;p>Merging triggers an automatic build in the CI pipeline.&lt;/p>
+        &lt;/note>
+      &lt;/li>
+      &lt;li>
+        Tag the release.
+      &lt;/li>
+    &lt;/ol>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+                    </entry>
+                 </row>
+              </tbody>
+           </tgroup>
+        </table>
+        <p>
+            <b>Result:</b> The admonition is nested inside the preceding <codeph>&lt;li&gt;</codeph> as a <codeph>&lt;note&gt;</codeph> element rather than splitting the <codeph>&lt;ol&gt;</codeph> into two independent lists.</p>
+  </section>
+   </refbody>
+</reference>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235705952" xml:lang="en-us">
+   <title>Scenario 3: nested tables in a reference topic</title>
+   <shortdesc>Consider a "Regional Data Center Configuration Matrix" chapter in a "Cloud Deployment Reference Guide" document</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>table</keyword>
+        <keyword>tables</keyword>
+        <keyword>nested</keyword>
+        <keyword>Regional</keyword>
+        <keyword>reference</keyword>
+        <keyword>Configuration</keyword>
+        <indexterm>table</indexterm>
+        <indexterm>tables</indexterm>
+        <indexterm>nested</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>Consider a "Regional Data Center Configuration Matrix" chapter in a "Cloud Deployment Reference Guide" document where you want to show a parent table containing region-level information and a nested table inside one of the cells to display environment-specific endpoint mappings.</p>
+      <note type="note">When creating nested tables in DITA, place the child &lt;table&gt; or &lt;simpletable&gt; inside a &lt;p&gt; element within the parent &lt;entry&gt; because the DITA content model does not allow tables as direct children of table cells.</note>
+      <codeblock xml:space="preserve">&lt;reference id="regional-datacenter-config"&gt;
+&lt;title&gt;Regional Data Center Configuration Matrix&lt;/title&gt;
+&lt;shortdesc&gt;
+Regional deployments can contain multiple environment-specific endpoint configurations.
+&lt;/shortdesc&gt;
+&lt;refbody&gt;
+&lt;section&gt;
+&lt;p&gt;
+The following table lists deployment regions and their associated service endpoints.
+&lt;/p&gt;
+&lt;table frame="all" cols="2"&gt;
+&lt;title&gt;Regional Deployment Configuration&lt;/title&gt;
+&lt;tgroup cols="2"&gt;
+&lt;colspec colname="c1" colwidth="1*"/&gt;
+&lt;colspec colname="c2" colwidth="3*"/&gt;
+&lt;thead&gt;
+&lt;row&gt;
+&lt;entry&gt;Region&lt;/entry&gt;
+&lt;entry&gt;Environment Endpoints&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;row&gt;
+&lt;entry&gt;US-East&lt;/entry&gt;
+&lt;entry&gt;
+&lt;p&gt;
+The following endpoints are configured
+for the US-East deployment:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;simpletable relcolwidth="1* 2*"&gt;
+&lt;sthead&gt;
+&lt;stentry&gt;Environment&lt;/stentry&gt;
+&lt;stentry&gt;Endpoint&lt;/stentry&gt;
+&lt;/sthead&gt;
+&lt;strow&gt;
+&lt;stentry&gt;Development&lt;/stentry&gt;
+&lt;stentry&gt;
+dev-us.example.com
+&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;strow&gt;
+&lt;stentry&gt;Staging&lt;/stentry&gt;
+&lt;stentry&gt;
+stage-us.example.com
+&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;strow&gt;
+&lt;stentry&gt;Production&lt;/stentry&gt;
+&lt;stentry&gt;
+prod-us.example.com
+&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;/simpletable&gt;
+&lt;/p&gt;
+&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;EU-West&lt;/entry&gt;
+&lt;entry&gt;
+Standard regional endpoint configuration.
+&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/tbody&gt;
+&lt;/tgroup&gt;
+&lt;/table&gt;
+&lt;/section&gt;
+&lt;/refbody&gt;
+&lt;/reference&gt;</codeblock>
+      <p>
+         <b>Result:</b>Nested tables are properly formatted and are displayed accurately in any output.</p>
+    </section></refbody>
+</reference>

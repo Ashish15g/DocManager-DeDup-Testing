@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headingh6wbv942cf975" xml:lang="en-us">
+   <title>Scenario 2 — Generic Topic: Empty &lt;shortdesc&gt; (No Intro Paragraph)</title>
+   <shortdesc>Scenario 2 — Generic Topic: Empty &lt;shortdesc&gt; (No Intro Paragraph) A section titled "Known Limitations</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>shortdesc</keyword>
+        <keyword>paragraph</keyword>
+        <keyword>empty</keyword>
+        <keyword>Generic</keyword>
+        <keyword>Empty</keyword>
+        <keyword>Known</keyword>
+        <indexterm>shortdesc</indexterm>
+        <indexterm>paragraph</indexterm>
+        <indexterm>empty</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+     <section>
+     <p>A section titled "Known Limitations in Version 4.2" opens directly with a bulleted list — no introductory Normal paragraph precedes it. Because there is no eligible paragraph to extract, the <codeph>&lt;shortdesc&gt;</codeph> element is written empty and flagged by the validator at WARNING severity.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Generic topic, empty shortdesc</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>.docx Style / Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>[Heading 2]: Known Limitations in Version 4.2 [List Bullet]: Auto-duplex not supported above 200 gsm. [List Bullet]: Wi-Fi Direct limited to four simultaneous connections. [List Bullet]: Scheduled jobs not preserved across firmware updates.</entry>
+               <entry>
+                <codeblock id="codeblock_i43_rkr_kkc">
+&lt;topic id="known_limitations_v4_2">
+  &lt;title>Known Limitations in Version 4.2&lt;/title>
+  &lt;shortdesc/>
+  &lt;!-- empty — no intro para found            -->
+  &lt;!-- validator: WARNING empty_shortdesc      -->
+  &lt;body>
+    &lt;ul>
+      &lt;li>Auto-duplex not supported above
+      200 gsm.&lt;/li>
+      &lt;li>Wi-Fi Direct limited to four
+      simultaneous connections.&lt;/li>
+      &lt;li>Scheduled jobs not preserved across
+      firmware updates.&lt;/li>
+    &lt;/ul>
+  &lt;/body>
+&lt;/topic></codeblock>
+              </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+<p><b>Result:</b>Empty <codeph>&lt;shortdesc&gt;</codeph> and a validator WARNING. To fix: add an introductory Normal paragraph before the bullet list in the source document and rerun conversion or add the <codeph>&lt;shortdesc&gt;</codeph> text manually in the DITA output.</p>
+<note type="note">It is recommended to precede lists with a brief introductory paragraph that explains the purpose or context of the list.</note>
+   </section>
+   </refbody>
+</reference>

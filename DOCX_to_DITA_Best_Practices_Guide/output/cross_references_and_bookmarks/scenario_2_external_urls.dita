@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_2_external_urls" xml:lang="en-us">
+   <title>Scenario 2 — External URLs</title>
+   <refbody>
+      <section id="sec_d215e7">
+         <p>Consider a Normal paragraph that contains one or more external hyperlinks created using the word processor's Insert Hyperlink function.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Hyperlink to an external URL</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>See [hyperlink: https://example.com │ the release notes] for details.</entry>
+                     <entry>
+                        <codeblock id="codeblock_zsh_ktr_kkc">
+&lt;p>
+  See
+  &lt;xref href="https://example.com" format="html" scope="external">
+    the release notes
+  &lt;/xref>
+  for details.
+&lt;/p></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b>The converter preserves the hyperlink target URL and display text by mapping them to a DITA <codeph>&lt;xref&gt;</codeph> element and the element content receives the display text. The format attribute is html and the scope attribute is external because this is an external hyperlink.</p>
+      </section>
+   </refbody>
+</reference>

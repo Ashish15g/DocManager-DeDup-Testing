@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560328" xml:lang="en-us">
+   <title>Character styles or inline formatting</title>
+   <abstract>This section covers Character Styles in Markdown — the inline formatting attributes
+      that assign semantic meaning to individual words or phrases within a paragraph — and five
+      scenarios: bold for general emphasis, bold for a UI element inside a procedure, monospace for
+      inline code, monospace for a file path, and bold for a menu navigation sequence. The converter
+      reads each named character style or font family to determine the appropriate DITA inline
+      element; where named styles are absent, content pattern recognition refines the
+      mapping.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>inline</keyword>
+        <keyword>styles</keyword>
+        <keyword>character</keyword>
+        <keyword>monospace</keyword>
+        <keyword>applied</keyword>
+        <keyword>Character</keyword>
+        <indexterm>inline</indexterm>
+        <indexterm>styles</indexterm>
+        <indexterm>character</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>The <b>Character</b> styles are inline formatting attributes applied to individual words or
+         phrases within a paragraph. For example,<ul id="ul_11245413">
+            <li>A menu path or button label is bold to identify UI screen text as a named interface
+               element.</li>
+            <li>A file path or command is monospace to identify it as executable or navigable
+               content.</li>
+         </ul></p>
+      <p>Marking these distinctions visually — bold, italic, or monospace — communicates meaning to readers. Translation memory tools, conditional processing engines, content reuse frameworks, and accessibility processors all require typed markup to treat each kind of text correctly in publishing systems.</p>
+      <p>In a Markdown file, character styles are applied through the following mechanisms:<ul
+            id="ul_11245414">
+            <li>Italics character style is applied through single asterisks or underscores such as
+                  <codeph>*text*</codeph> or <codeph>_text_</codeph>.</li>
+            <li>Bold character style is applied through double asterisks or underscores such as
+                  <codeph>**text**</codeph> or <codeph>__text__</codeph>.</li>
+            <li>Monospace character style is applied through single backticks such as
+                  <codeph>`text`</codeph>.</li>
+         </ul></p>
+      <note id="note_xvw_blw_jkc" type="important">The DITA-XML converter reads each character
+         styling to determine the appropriate DITA inline element.</note>
+      <p>When named styles are absent, the DITA-XML converter uses content pattern recognition to
+         evaluate programming domain, UI domain, and software domain to refine the mappings. For
+         example, a monospace run containing a forward slash, a drive letter, or a file extension is
+         mapped to <codeph>&lt;filepath&gt;</codeph> rather than <codeph>&lt;codeph&gt;</codeph>.
+         Similarly, a sequence of bold UI labels separated by &gt; is mapped to
+            <codeph>&lt;menucascade&gt;&lt;uicontrol&gt;</codeph>.</p>
+   </conbody>
+</concept>

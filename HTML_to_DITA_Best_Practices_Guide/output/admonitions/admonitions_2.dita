@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450417" xml:lang="en-us">
+   <title>Admonitions</title>
+   <abstract>This section covers Admonitions — paragraph-level notices that give safety-related,
+      advisory, or supplementary information structural separation from the surrounding body content
+      — and five scenarios: a standard named admonition, consecutive admonitions, an image placed
+      inside an admonition, an admonition inside a table cell, and a bold inline label pattern. The
+      converter maps each recognized admonition style directly to <codeph>&lt;note
+         type="[type]"&gt;</codeph>; for bold inline labels, content pattern recognition reads the
+      opening text, removes the label, and maps the remaining content to the matching
+      type.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>class</keyword>
+        <keyword>admonition</keyword>
+        <keyword>information</keyword>
+        <keyword>label</keyword>
+        <keyword>Admonitions</keyword>
+        <keyword>content</keyword>
+        <indexterm>class</indexterm>
+        <indexterm>admonition</indexterm>
+        <indexterm>information</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+         <p>Admonitions are paragraph-level notices that separate advisory, safety-related, or supplementary information from the surrounding body content. Admonitions identify information that requires immediate reader attention — safety warnings, usage restrictions, helpful tips, important prerequisites, and cautionary notices — and give it structural separation from the prose that surrounds it.</p>
+         <p>For readers and publishing systems, admonition apply stronger visual treatment or weight from tip through note through caution through warning through danger. Each one of them are distinct in admonition icons, background color, or text color.</p>
+         <p>In well-structured HTML, admonitions are commonly authored using <codeph>&lt;div&gt;</codeph>, <codeph>&lt;aside&gt;</codeph>, or <codeph>&lt;p&gt;</codeph> elements with recognizable class names or labels that indicate the type of advisory information.</p>
+         <p>The converter maps a paragraph with a recognized admonition style directly to <codeph>&lt;note type="[type]"&gt;</codeph>. For a bold inline label, it applies content pattern recognition: it reads the opening text, removes the label, and maps the remaining text to the matching note type.</p>
+         <note type="important"> Use native HTML admonition structures, such as recognized class
+         attributes or supported bold-label patterns. Do not simulate admonitions using bold text,
+         colored paragraphs, or other visual formatting alone, as these patterns cannot be converted
+         reliably into DITA <codeph>&lt;note&gt;</codeph> elements.</note>
+      <table colsep="1" frame="all" rowsep="1">
+         <title>Admonition patterns mapped to DITA</title>
+         <tgroup cols="3">
+            <colspec colname="c1" colwidth="2.21*"/>
+            <colspec colname="c2" colwidth="1*"/>
+            <colspec colname="c3" colwidth="1.98*"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>HTML Admonition Pattern</b>
+                  </entry>
+                  <entry>
+                     <b>Purpose</b>
+                  </entry>
+                  <entry>
+                     <b>DITA Note Type</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <codeblock id="codeblock_x2s_yxg_lkc">
+&lt;div class="note"> or &lt;p>&lt;strong>Note:&lt;/strong></codeblock>
+                  </entry>
+                  <entry>General information</entry>
+                  <entry>
+                     <codeblock xml:space="preserve">&lt;note&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">
+&lt;div class="warning"&gt; or &lt;p&gt;&lt;strong>Warning:&lt;/strong></codeblock>
+                  </entry>
+                  <entry>Warn about damage, data loss, safety, or severe consequences</entry>
+                  <entry>
+                     <codeblock xml:space="preserve">&lt;note type="warning"&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">
+&lt;div class="caution"&gt; or &lt;p&gt;&lt;strong>Caution:&lt;/strong></codeblock>
+                  </entry>
+                  <entry>Warn about possible problems or unexpected behavior</entry>
+                  <entry>
+                     <codeblock xml:space="preserve">&lt;note type="caution"&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">
+&lt;div class="danger"&gt; or &lt;p&gt;&lt;strong>Danger:&lt;/strong></codeblock>
+                  </entry>
+                  <entry>Warn about hazardous situations or serious injury</entry>
+                  <entry>
+                     <codeblock xml:space="preserve">&lt;note type="danger"&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">
+&lt;div class="important"&gt; or &lt;p&gt;&lt;strong>Important:&lt;/strong></codeblock>
+                  </entry>
+                  <entry>Highlight critical information</entry>
+                  <entry>
+                     <codeblock xml:space="preserve">&lt;note type="important"&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">
+&lt;div class="remember"&gt; or &lt;p&gt;&lt;strong>Remember:&lt;/strong></codeblock>
+                  </entry>
+                  <entry>Remind users about important recurring information</entry>
+                  <entry>
+                     <codeblock xml:space="preserve">&lt;note type="remember"&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">
+&lt;div class="attention"&gt; or &lt;p&gt;&lt;strong>Attention:&lt;/strong></codeblock>
+                  </entry>
+                  <entry>Draw attention to a specific item</entry>
+                  <entry>
+                     <codeblock xml:space="preserve">&lt;note type="attention"&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">
+&lt;div class="tip"&gt; or &lt;p&gt;&lt;strong>Tip:&lt;/strong></codeblock>
+                  </entry>
+                  <entry>Provide helpful advice or shortcuts</entry>
+                  <entry>
+                     <codeblock xml:space="preserve">&lt;note type="tip"&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">
+&lt;div class="restriction"&gt; or &lt;p&gt;&lt;strong>Restriction:&lt;/strong></codeblock>
+                  </entry>
+                  <entry>Describe limitations or unsupported behavior</entry>
+                  <entry>
+                     <codeblock xml:space="preserve">&lt;note type="restriction"&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">
+&lt;div class="Fast-Path"&gt; or &lt;p&gt;&lt;strong>Fast-Path:&lt;/strong></codeblock>
+                  </entry>
+                  <entry>Provide an alternate quicker approach</entry>
+                  <entry>
+                     <codeblock xml:space="preserve">&lt;note type="fastpath"&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">
+&lt;div class="troubleshooting"&gt; or &lt;p&gt;&lt;strong>Troubleshooting:&lt;/strong></codeblock>
+                  </entry>
+                  <entry>Provide troubleshooting guidance</entry>
+                  <entry>
+                     <codeblock xml:space="preserve">&lt;note type="trouble"&gt;</codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">
+&lt;div class="custom-type"&gt; or unrecognised label</codeblock>
+                  </entry>
+                  <entry>Custom note type</entry>
+                  <entry>
+                     <codeblock xml:space="preserve">&lt;note type="other" othertype="..."&gt;</codeblock>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+         <p>
+            <b>In Oxygen XML Text view</b>
+         </p>
+    <ol>
+    <li>Edit the type attribute directly in the XML source. Locate the <codeph>&lt;note&gt;</codeph> tag.</li>
+    <li>Add or update the type attribute.</li>
+    </ol></conbody>
+</concept>

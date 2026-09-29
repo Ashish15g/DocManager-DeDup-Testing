@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="optional_markdown_elements" xml:lang="en-us">
+   <title>Optional Markdown elements</title>
+   <shortdesc>Optional markdown elements # Optional Markdown c onstruct Role in c onversion 8 Generated index</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>DITA</keyword>
+        <keyword>elements</keyword>
+        <keyword>Markdown</keyword>
+        <keyword>Optional</keyword>
+        <keyword>topic</keyword>
+        <keyword>structural</keyword>
+        <indexterm>DITA</indexterm>
+        <indexterm>elements</indexterm>
+        <indexterm>Markdown</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><table frame="all" colsep="1" rowsep="1">
+            <title>Optional markdown elements</title>
+            <tgroup cols="3">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>#</b>
+                     </entry>
+                     <entry>
+                        <b>Optional Markdown construct</b></entry>
+                     <entry>
+                        <b>Role in conversion</b></entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>8</entry>
+                     <entry>Generated index pages (Markdown TOC files)</entry>
+                     <entry>Used as a structural cross-check for the bookmap hierarchy; not converted directly to a single DITA topic.</entry>
+                  </row>
+                  <row>
+                     <entry>9</entry>
+                     <entry>Preface / Notice / Legal / Copyright sections</entry>
+                     <entry>Map to bookmap <codeph>&lt;frontmatter&gt;</codeph> as one or more DITA topics.</entry>
+                  </row>
+                  <row>
+                     <entry>10</entry>
+                     <entry>Metadata</entry>
+                     <entry>Map to DITA map <codeph>&lt;metadata&gt;</codeph> and topic <codeph>&lt;prolog&gt;</codeph> (for example, title, product, version, audience, author, dates).</entry>
+                  </row>
+                  <row>
+                     <entry>11</entry>
+                     <entry>Inline formatting (bold, italic, code spans)</entry>
+                     <entry>Map to <codeph>&lt;b&gt;</codeph>, <codeph>&lt;i&gt;</codeph>, or <codeph>&lt;codeph&gt;</codeph> inline elements in DITA.</entry>
+                  </row>
+                  <row>
+                     <entry>12</entry>
+                     <entry>Callouts / Admonitions (Note, Warning, Tip, Important, Caution)</entry>
+                     <entry>Map to DITA <codeph>&lt;note&gt;</codeph> elements with the appropriate type attribute where patterns or extensions are recognized.</entry>
+                  </row>
+                  <row>
+                     <entry>13</entry>
+                     <entry>Cross-references and Hyperlinks ([text](target))</entry>
+                     <entry>Map to DITA <codeph>&lt;xref&gt;</codeph> elements with appropriate href, scope, and format attributes.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<note type="warning">If a mandatory element is missing, mis-styled, or inconsistent, the converter either produces degraded DITA-XML or appends the content to the wrong topic. All content is always migrated; however, structural accuracy depends entirely on correct Markdown syntax.</note></section></refbody>
+</reference>

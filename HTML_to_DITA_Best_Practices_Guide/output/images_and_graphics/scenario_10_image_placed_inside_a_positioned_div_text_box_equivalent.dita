@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450402" xml:lang="en-us">
+   <title>Scenario 10 — Image Placed Inside a Positioned &lt;div&gt; (Text Box Equivalent)</title>
+   <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>document</keyword>
+        <keyword>inside</keyword>
+        <keyword>positioned</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>Image</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>document</indexterm>
+        <indexterm>inside</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+   
+      <p>Consider a document where the author has placed an image inside a <codeph>&lt;div&gt;</codeph> that is removed from the normal document flow using CSS (for example, <codeph>position: absolute</codeph> or <codeph>position: fixed</codeph>) to control its placement on the page, similar to a floating text box.</p>
+      <p><b>Result:</b> The converter ignores the CSS positioning and any surrounding &lt;div&gt; content that isn't structurally part of the body flow, but it retains the &lt;img&gt; element placed inside the positioned <codeph>&lt;div&gt;</codeph>. The extracted image is mapped to a DITA <codeph>&lt;image&gt;</codeph> element, typically wrapped in a <codeph>&lt;fig&gt;</codeph> if it appears as a block image.</p>
+      <note type="warning"> Do not place images inside CSS-positioned <codeph>&lt;div&gt;</codeph> containers that sit outside the normal document flow. Although the image may be retained, any surrounding positioned content can be lost during conversion.</note>
+   </conbody>
+</concept>

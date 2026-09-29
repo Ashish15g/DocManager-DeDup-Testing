@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235705953" xml:lang="en-us">
+   <title>Scenario 4: API in a reference topic</title>
+   <shortdesc>Consider a "Create User API" chapter in an "Application API Reference Guide" document where you</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>account</keyword>
+        <keyword>reference</keyword>
+        <keyword>username</keyword>
+        <keyword>email</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>topic</keyword>
+        <indexterm>account</indexterm>
+        <indexterm>reference</indexterm>
+        <indexterm>username</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>Consider a "Create User API" chapter in an "Application API Reference Guide" document where you want to document an API operation, its syntax, parameters, request payload, and runtime configuration values. Instead of using generic paragraphs and tables, use API-specific DITA elements to provide semantic markup for API names, parameters, variables, and parameter definitions.</p>
+      <codeblock xml:space="preserve">&lt;reference id="create-user-api"&gt;
+&lt;title&gt;Create User API&lt;/title&gt;
+&lt;shortdesc&gt;
+Creates a new user account in the application.
+&lt;/shortdesc&gt;
+&lt;refbody&gt;
+&lt;section&gt;
+&lt;title&gt;API Name&lt;/title&gt;
+&lt;p&gt;
+The
+&lt;apiname&gt;CreateUser&lt;/apiname&gt;
+API creates a user record and assigns the specified role.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;title&gt;Syntax&lt;/title&gt;
+&lt;p&gt;
+&lt;synph&gt;
+CreateUser(
+&lt;parmname&gt;username&lt;/parmname&gt;,
+&lt;parmname&gt;email&lt;/parmname&gt;,
+&lt;parmname&gt;role&lt;/parmname&gt;
+)
+&lt;/synph&gt;
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;title&gt;Parameters&lt;/title&gt;
+&lt;parml&gt;
+&lt;plentry&gt;
+&lt;pt&gt;
+&lt;parmname&gt;username&lt;/parmname&gt;
+&lt;/pt&gt;
+&lt;pd&gt;
+Unique user name for the account.
+&lt;/pd&gt;
+&lt;/plentry&gt;
+&lt;plentry&gt;
+&lt;pt&gt;
+&lt;parmname&gt;email&lt;/parmname&gt;
+&lt;/pt&gt;
+&lt;pd&gt;
+Email address associated with the account.
+&lt;/pd&gt;
+&lt;/plentry&gt;
+&lt;plentry&gt;
+&lt;pt&gt;
+&lt;parmname&gt;role&lt;/parmname&gt;
+&lt;/pt&gt;
+&lt;pd&gt;
+Application role assigned to the user.
+&lt;/pd&gt;
+&lt;/plentry&gt;
+&lt;/parml&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;title&gt;Request Example&lt;/title&gt;
+&lt;codeblock outputclass="language-json"&gt;
+{
+"username": "jdoe",
+"email": "jdoe@example.com",
+"role": "administrator"
+}
+</codeblock>
+    </section></refbody>
+</reference>

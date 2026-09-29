@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450337" xml:lang="en-us">
+   <title>HTML Metadata</title>
+   <abstract> This section covers meta tags and structured metadata elements in HTML — the metadata
+      fields that identify, attribute, and classify a document independently of its body content —
+      and one scenario: <codeph>&lt;head&gt;</codeph> meta tags populated in the source file and
+      mapped during conversion. The converter reads each recognized meta tag and maps it to the
+      corresponding DITA <codeph>&lt;prolog&gt;</codeph> element, making the document's authorship,
+      dates, and classification data available to downstream publishing and search tools.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>HTML</keyword>
+        <keyword>metadata</keyword>
+        <keyword>document</keyword>
+        <keyword>DITA</keyword>
+        <keyword>prolog</keyword>
+        <keyword>Metadata</keyword>
+        <indexterm>HTML</indexterm>
+        <indexterm>metadata</indexterm>
+        <indexterm>document</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+<p>
+            <b>Metadata</b> is structured information about a document, separate from its body content. It records attributes such as authorship, creation and revision dates, and classification tags. This information is what allows downstream publishing systems, content management platforms, and search indexes to reliably identify, track, and retrieve the document.</p>
+<p>In HTML documents, metadata lives in two places: the <codeph>&lt;head&gt;</codeph> section as <codeph>&lt;meta&gt;</codeph> tags, and occasionally in the document <codeph>&lt;body&gt;</codeph> as CMS-generated structured elements such as Confluence's <codeph>&lt;div class="page-metadata"&gt;</codeph> block. Both carry the same categories of information but in different forms that the converter must recognize and extract from each location.</p>
+<p>The converter and AI Agent map this metadata to the DITA <codeph>&lt;prolog&gt;</codeph> element in the generated topic, making it available to downstream publishing tools, content management systems, and search indexes.</p>
+      <table frame="all" colsep="1" rowsep="1">
+         <title>HTML elements mapped to DITA</title>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>HTML Element / Meta Tag</b>
+                  </entry>
+                  <entry>
+                     <b>DITA Output</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <codeph>&lt;meta name="author"&gt;</codeph> or <codeph>&lt;span class="author"&gt;</codeph>
+                  </entry>
+                  <entry>
+                     <codeph>&lt;prolog&gt;&lt;author&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;meta name="created"&gt;</codeph> or text parsed from Created by...</entry>
+                  <entry>
+                     <codeph>&lt;prolog&gt;&lt;critdates&gt;&lt;created&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;meta name="last-modified"&gt;</codeph> or text parsed from last modified on...</entry>
+                  <entry>
+                     <codeph>&lt;prolog&gt;&lt;critdates&gt;&lt;revised&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;meta name="keywords"&gt;</codeph>
+                  </entry>
+                  <entry>
+                     <codeph>&lt;metadata&gt;&lt;keywords&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;meta name="description"&gt;</codeph>
+                  </entry>
+                  <entry>
+                     <codeph>&lt;shortdesc&gt;</codeph> or <codeph>&lt;metadata&gt;&lt;othermeta name="description"&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;meta name="company"&gt;</codeph>
+                  </entry>
+                  <entry>
+                     <codeph>&lt;othermeta name="company"&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;meta name="category"&gt;</codeph>
+                  </entry>
+                  <entry>
+                     <codeph>&lt;othermeta name="category"&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;title&gt;</codeph> or <codeph>&lt;h1&gt;</codeph>
+                  </entry>
+                  <entry>
+                     <codeph>&lt;title&gt;</codeph> or <codeph>&lt;mainbooktitle&gt;</codeph>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+
+<note type="note">Metadata not found in the HTML source, or in an unrecognized format, is not
+         included in the DITA output. Add it manually after conversion or ensure the source uses a
+         supported format before submitting.</note></conbody>
+</concept>

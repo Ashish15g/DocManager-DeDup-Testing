@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235705978" xml:lang="en-us">
+   <title>Admonition elements</title>
+   <refbody>
+      <section id="sec_d425e7">
+         <p>All admonitions use <codeph>&lt;note type="…"&gt;</codeph>. The<codeph>type</codeph> attribute determines the severity and visual treatment.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>common admonition elements</title>
+            <tgroup cols="4">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <colspec colname="c4"/>
+               <thead>
+                  <row>
+                     <entry>Type Attribute</entry>
+                     <entry>Severity</entry>
+                     <entry>Purpose</entry>
+                     <entry>Example</entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>(none) or "note"</entry>
+                     <entry>Informational</entry>
+                     <entry>Supplementary information</entry>
+                     <entry>
+                        <codeblock>&lt;note&gt;Save your work frequently to avoid data loss.&lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>"tip"</entry>
+                     <entry>Helpful</entry>
+                     <entry>Efficiency suggestions</entry>
+                     <entry>
+                        <codeblock>&lt;note type="tip"&gt;Use keyboard shortcuts to work more efficiently.&lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>"important"</entry>
+                     <entry>High</entry>
+                     <entry>Critical info affecting outcome</entry>
+                     <entry>
+                        <codeblock>&lt;note type="important"&gt;Complete all steps in order. Skipping steps may cause configuration errors.&lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>"caution"</entry>
+                     <entry>Warning</entry>
+                     <entry>Risk of minor equipment/data issues</entry>
+                     <entry>
+                        <codeblock>&lt;note type="caution"&gt;Changing these settings may affect system performance. Review the impact before proceeding.&lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>"warning"</entry>
+                     <entry>Critical</entry>
+                     <entry>Risk of injury, data loss, or failure</entry>
+                     <entry>
+                        <codeblock>&lt;note type="warning"&gt;Deleting this account removes all associated data permanently. This action cannot be undone.&lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>"danger"</entry>
+                     <entry>Highest</entry>
+                     <entry>Risk of death or serious injury</entry>
+                     <entry>
+                        <codeblock>&lt;note type="danger"&gt;DANGER: High voltage. Disconnect power before opening this panel. Contact with live components may cause electrocution.&lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </refbody>
+</reference>

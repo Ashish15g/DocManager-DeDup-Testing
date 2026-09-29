@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450411" xml:lang="en-us">
+   <title>Scenario 5 — Nested table (table inside a table cell)</title>
+   <refbody>
+      <section id="sec_d755e7">
+         <p>Consider a table where the author has placed a second complete <codeph>&lt;table&gt;</codeph> element inside one of the <codeph>&lt;td&gt;</codeph> cells of an outer table.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Nested table inside table cell</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_xlw_vyn_lkc">
+&lt;table>
+  &lt;tr>
+    &lt;td>Label&lt;/td>
+    &lt;td>
+      &lt;table>
+        &lt;tr>
+          &lt;td>Sub-item A&lt;/td>
+          &lt;td>Value 1&lt;/td>
+        &lt;/tr>
+        &lt;tr>
+          &lt;td>Sub-item B&lt;/td>
+          &lt;td>Value 2&lt;/td>
+        &lt;/tr>
+      &lt;/table>
+    &lt;/td>
+  &lt;/tr>
+&lt;/table></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_mng_wyn_lkc">
+&lt;table frame="all" rowsep="1" colsep="1" id="table_outer">
+  &lt;tgroup cols="2">
+    &lt;colspec colnum="1" colname="col1"/>
+    &lt;colspec colnum="2" colname="col2"/>
+    &lt;tbody>
+      &lt;row>
+        &lt;entry>Label&lt;/entry>
+        &lt;entry>
+          &lt;table frame="all" rowsep="1" colsep="1" id="table_inner">
+            &lt;tgroup cols="2">
+              &lt;colspec colnum="1" colname="col1"/>
+              &lt;colspec colnum="2" colname="col2"/>
+              &lt;tbody>
+                &lt;row>
+                  &lt;entry>Sub-item A&lt;/entry>
+                  &lt;entry>Value 1&lt;/entry>
+                &lt;/row>
+                &lt;row>
+                  &lt;entry>Sub-item B&lt;/entry>
+                  &lt;entry>Value 2&lt;/entry>
+                &lt;/row>
+              &lt;/tbody>
+            &lt;/tgroup>
+          &lt;/table>
+        &lt;/entry>
+      &lt;/row>
+    &lt;/tbody>
+  &lt;/tgroup>
+&lt;/table></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> The converter identifies the nested <codeph>&lt;table&gt;</codeph> element and preserves it as a CALS <codeph>&lt;table&gt;</codeph> inside the parent table cell. The inner table is wrapped in a <codeph>&lt;p&gt;</codeph> element inside the outer <codeph>&lt;entry&gt;</codeph> to separate the nested structure from the parent cell content.</p>
+         <note type="warning"> Nested tables increase complexity and may affect rendering, accessibility, and publishing output. Flatten the nested structure into a single table where possible.</note>
+      </section>
+   </refbody>
+</reference>

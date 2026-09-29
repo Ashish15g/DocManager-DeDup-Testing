@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="tables" xml:lang="en-us">
+   <title>Tables</title>
+   <abstract>This section covers the Table style in DOCX — the primary structure for presenting
+      information with inherent row-and-column relationships — and ten scenarios: a standard
+      multi-column table, a table with a caption, a table with no header row, merged cells, nested
+      tables, lists and images inside table cells, tables spanning multiple pages, consecutive
+      tables, and a two-column parameter table in a reference topic. The converter reads each
+      table's structure, cell complexity, and topic context to determine whether to map it to
+         <codeph>&lt;simpletable&gt;</codeph>, a CALS <codeph>&lt;table&gt;</codeph>, or
+         <codeph>&lt;properties&gt;</codeph>.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>table</keyword>
+        <keyword>column</keyword>
+        <keyword>cells</keyword>
+        <keyword>Table</keyword>
+        <keyword>structure</keyword>
+        <keyword>merged</keyword>
+        <indexterm>table</indexterm>
+        <indexterm>column</indexterm>
+        <indexterm>cells</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+         <p>A<b>Table</b> is the primary structure for reference and lookup content. It is a structural mechanism to present information that has inherent row-and-column relationships — parameter names and their values, feature names and their states, error codes and their meanings, API fields and their data types.</p>
+         <p>A table reduces a lookup task from reading a paragraph to scanning a row and column. In DITA-XML, a table is structured data — each cell is a discrete, addressable unit that a transform can reformat for PDF, or online help output, filter by column for conditional publishing, and extract independently for reuse in other deliverables.</p>
+         <p>In a .docx file, a table is inserted through Insert → Table and can include a header row, merged cells, and a Caption-styled paragraph. A parameter table typically has a header row and no merged cells. A table with merged cells usually spans a label across several rows and/or columns.</p>
+         <p>The converter reads the table's XML to determine row count, column count, and merge
+         spans, then routes the output to either <codeph>&lt;simpletable&gt;</codeph> or a CALS
+            <codeph>&lt;table&gt;</codeph> + <codeph>&lt;tgroup&gt;</codeph> structure — and where a
+         two-column table appears inside a Reference topic with columns corresponding to property
+         names and values, it maps to <codeph>&lt;properties&gt;</codeph> instead.</p>
+      <p>The following table lists the table structures and their corresponding DITA output:</p>
+      <table frame="all" colsep="1" rowsep="1">
+         <title>DITA table structure elements</title>
+         <tgroup cols="4">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <colspec colname="c4"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>Table Structure</b>
+                  </entry>
+                  <entry>
+                     <b>DITA Topic Context</b>
+                  </entry>
+                  <entry>
+                     <b>DITA Table Element</b>
+                  </entry>
+                  <entry>
+                     <b>Header Element</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>Simple rows and columns without merged cells</entry>
+                  <entry>Concept / Task / Reference</entry>
+                  <entry>
+                     <codeph>&lt;simpletable&gt;</codeph>
+                  </entry>
+                  <entry>
+                     <codeph>&lt;sthead&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Complex tables with merged cells or structured layouts</entry>
+                  <entry>Concept / Task / Reference</entry>
+                  <entry>
+                     <codeph>&lt;table&gt;</codeph> + <codeph>&lt;tgroup&gt;</codeph>
+                  </entry>
+                  <entry>
+                     <codeph>&lt;thead&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Name–value pairs, configuration settings, parameters, or attribute lists</entry>
+                  <entry>Concept / Task / Reference</entry>
+                  <entry>
+                     <codeph>&lt;properties&gt;</codeph>
+                  </entry>
+                  <entry>
+                     <codeph>&lt;prophead&gt;</codeph>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+         <note type="warning">A table simulated with tabs, spaces, or a screenshot produces no table
+            element in the output. Always insert tables using Insert → Table.</note>
+         <p>The equivalent of each table structure from the .docx file in the DITA conversion process is explained according to the following scenarios:</p>
+   </conbody>
+</concept>

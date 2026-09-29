@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="dita_output" xml:lang="en-us">
+   <title>DITA output</title>
+   <refbody><section>
+     <codeblock>&lt;map&gt;
+       &lt;title&gt;Alarms&lt;/title&gt;
+       &lt;topicref href="alarms/alarms.dita" type="concept"&gt;
+       &lt;topicref href="alarms/terminology/terminology.dita" type="concept"/&gt;
+       &lt;topicref href="alarms/alarm_types/alarm-types.dita" type="concept"/&gt;
+       &lt;topichead navtitle="Alarm Notifier"&gt;
+       &lt;topicref href="alarms/alarm_notifier/overview.dita" type="concept"/&gt;
+       &lt;topicref href="alarms/alarm_notifier/creating-a-new-alarm-notification.dita" type="task"/&gt;
+       &lt;/topichead&gt;
+       &lt;topicref href="alarms/alarm/alarm.dita" type="concept"/&gt;
+       &lt;topicref href="alarms/alarm_management/alarm-management.dita" type="task"/&gt;
+       &lt;/topicref&gt;
+       &lt;/map&gt;
+     </codeblock>
+      <p>
+         <b>Result:</b>The converter uses the folder hierarchy to represent information architecture rather than relying on heading depth alone. This structure produces predictable navigation and clean DITA output.</p>
+   </section></refbody>
+</reference>

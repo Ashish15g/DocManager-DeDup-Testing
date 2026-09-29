@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560325" xml:lang="en-us">
+   <title>Scenario 2: Paragraph with mixed inline character styles</title>
+   <shortdesc>Consider a .md file with Heading 1 ( # ) "Alarm Notifier" followed by two</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Alarm</keyword>
+        <keyword>Notifier</keyword>
+        <keyword>alarm</keyword>
+        <keyword>inline</keyword>
+        <keyword>notifications</keyword>
+        <keyword>character</keyword>
+        <indexterm>Alarm</indexterm>
+        <indexterm>Notifier</indexterm>
+        <indexterm>alarm</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a .md file with Heading 1 (<codeph>#</codeph>) "Alarm Notifier" followed by two paragraphs describing the concept. The paragraphs contain bold and italics inline styles.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Paragraph has mixed inline character styles</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Alarm Notifier
+  **Alarm Notifier** settings define where and how alarm
+  notifications are sent.
+  *For example*, you cannot create notifications for specific teams or team members based on the alarm types that matter most.</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;concept id="alarm_notifier"&gt; 
+                           &lt;title&gt;Alarm Notifier&lt;/title&gt;
+  &lt;shortdesc&gt; Alarm Notifier settings define where and how alarm notifications are sent.&lt;/shortdesc&gt; 
+  &lt;conbody&gt; &lt;p&gt; &lt;b&gt;Alarm Notifier&lt;/b&gt; settings define where and how alarm notifications are sent. &lt;/p&gt; &lt;p&gt; &lt;i&gt;For example&lt;/i&gt;, you can create notifications for specific teams or team members based on the alarm types that matter most. &lt;/p&gt; &lt;/conbody&gt; 
+  &lt;/concept&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The bold and italic text are mapped to <codeph>&lt;b&gt;</codeph> and  <codeph>&lt;i&gt;</codeph> inside one <codeph>&lt;p&gt;</codeph>. The converter preserves all inline formatting within a single paragraph <codeph>&lt;p&gt;</codeph>. For a full list of character style mappings, see the Character Styles section.</p></section></refbody>
+</reference>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235705867" xml:lang="en-us">
+   <title>The challenge of traditional documentation</title>
+   <conbody>
+      <p/>
+    <section id="section_jkw_hfs_kkc">
+      <title>Before DITA</title>
+      <p>A technical writing team at a software company maintains product documentation using
+        Microsoft Word. Each product version requires a separate document. When any common procedure
+        changes, such as the login process, writers must manually update dozens of documents.
+        Inconsistencies creep in. Version control becomes a nightmare. Publishing to the web
+        requires manual conversion, introducing errors.</p>
+    </section>
+    <section id="section_sm5_3fs_kkc">
+      <title>After DITA</title>
+      <p>The same team adopts DITA. The login procedure becomes a single task topic stored in a
+        shared location. Every document that needs this procedure references it using a content
+        reference (<codeph>conref</codeph>). When the login process changes, one update propagates
+        everywhere automatically. Publishing to PDF, HTML, and mobile formats happens from a single
+        source with consistent formatting.</p>
+    </section>
+   </conbody>
+</concept>

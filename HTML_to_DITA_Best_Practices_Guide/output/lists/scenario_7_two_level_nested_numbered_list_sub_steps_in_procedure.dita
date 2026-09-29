@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450363" xml:lang="en-us">
+   <title>Scenario 7 — Two-Level Nested Numbered List (sub steps) in Procedure</title>
+   <shortdesc>Consider a numbered list with a second tier of numbered sub-items beneath selected parent items</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>steps</keyword>
+        <keyword>server</keyword>
+        <keyword>Configure</keyword>
+        <keyword>Nested</keyword>
+        <keyword>numbered</keyword>
+        <keyword>Scenario</keyword>
+        <indexterm>steps</indexterm>
+        <indexterm>server</indexterm>
+        <indexterm>Configure</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+     <section>
+    <p>Consider a numbered list with a second tier of numbered sub-items beneath selected parent items as part of the instructions or procedure.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Nested sub-steps in a procedure</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>HTML Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>
+                 <codeblock>
+&lt;h2 id="configure-server">Configure the Server&lt;/h2>
+&lt;ol>
+  &lt;li>
+    Configure the server.
+    &lt;ol>
+      &lt;li>Open the configuration file.&lt;/li>
+      &lt;li>Set the port value.&lt;/li>
+    &lt;/ol>
+  &lt;/li>
+  &lt;li>Restart the service.&lt;/li>
+&lt;/ol></codeblock>
+               </entry>
+               <entry>
+                 <codeblock>
+&lt;task id="configure_server">
+  &lt;title>Configure the Server&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Configure the server.&lt;/cmd>
+        &lt;substeps>
+          &lt;substep>
+            &lt;cmd>Open the configuration file.&lt;/cmd>
+          &lt;/substep>
+          &lt;substep>
+            &lt;cmd>Set the port value.&lt;/cmd>
+          &lt;/substep>
+        &lt;/substeps>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Restart the service.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+               </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b> Two level numbered lists are preserved in <codeph>&lt;taskbody&gt;</codeph> as a <codeph>&lt;substeps&gt;</codeph> block inside <codeph>&lt;steps&gt;</codeph>.</p>
+  </section>
+   </refbody>
+</reference>

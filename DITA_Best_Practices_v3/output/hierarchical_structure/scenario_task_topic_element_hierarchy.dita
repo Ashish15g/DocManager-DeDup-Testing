@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705897" xml:lang="en-us">
+   <title>Scenario: task topic element hierarchy</title>
+   <refbody><section>
+      <codeblock>&lt;task id="t_configure_database"&gt;  
+         &lt;title&gt;Configure the Database Connection&lt;/title&gt;  
+         &lt;shortdesc&gt;Set up the connection between the application and your database server.&lt;/shortdesc&gt;  
+         &lt;taskbody&gt;    
+         &lt;prereq&gt;      
+         &lt;p&gt;Ensure you have database administrator credentials.&lt;/p&gt;    
+         &lt;/prereq&gt;    
+         &lt;context&gt;     
+         &lt;p&gt;The application requires a database connection for data persistence.&lt;/p&gt;    
+         &lt;/context&gt;   
+         &lt;steps&gt;      
+         &lt;step&gt;
+         &lt;cmd&gt;Open the configuration file.&lt;/cmd&gt; &lt;info&gt;The file is located &lt;filepath&gt;/etc/app/config.xml&lt;/filepath&gt;.&lt;/info&gt;      
+         &lt;/step&gt;      
+         &lt;step&gt;
+         &lt;cmd&gt;Enter the database hostname.&lt;/cmd&gt; &lt;stepresult&gt;The application validates the connection.&lt;/stepresult&gt;      
+         &lt;/step&gt;    
+         &lt;/steps&gt;    
+         &lt;result&gt; &lt;p&gt;The database connection is configured and active.&lt;/p&gt; &lt;/result&gt;    
+         &lt;postreq&gt; &lt;p&gt;Restart the application to apply changes.&lt;/p&gt; &lt;/postreq&gt;  
+         &lt;/taskbody&gt;
+         &lt;/task&gt;
+      </codeblock>
+      <p>The nesting is strict and meaningful:<ul id="ul_11014307">
+               <li>
+                  <codeph>&lt;taskbody&gt;</codeph> contains the procedural content</li>
+               <li>
+                  <codeph>&lt;prereq&gt;</codeph> contains the prerequisites needed to start the
+                  task</li>
+               <li>
+                  <codeph>&lt;steps&gt;</codeph> contains
+                  individual <codeph>&lt;step&gt;</codeph>elements</li>
+               <li>Each <codeph>&lt;step&gt;</codeph> contains a <codeph>&lt;cmd&gt;</codeph> and
+                  optional supporting elements</li>
+               <li>
+                  <codeph>&lt;result&gt;</codeph> contains the result of performing the task</li>
+               <li>
+                  <codeph>&lt;postreq&gt;</codeph> contains the postrequisites needed after the task
+                  is completed</li>
+            </ul></p>
+      <p>Publishing systems rely on this structure to format content correctly. AI systems use it to interpret relationships between actions, instructions, and outcomes.</p>
+   </section></refbody>
+</reference>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_1_image_size_is_smaller_than_50_pixels" xml:lang="en-us">
+   <title>Scenario 1 — Image Size is Smaller than 50 Pixels</title>
+   <shortdesc>Consider a paragraph that contains a small inline image of a “next button” whose width</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>Image</keyword>
+        <keyword>inline</keyword>
+        <keyword>button</keyword>
+        <keyword>smaller</keyword>
+        <keyword>pixels</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>Image</indexterm>
+        <indexterm>inline</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a paragraph that contains a small inline image of a “next button” whose width and height are both smaller than 50 pixels.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image smaller than 50 pixels</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Normal]:</b> Click the <b>Next</b> button  <b>[Inline image: next_arrow.png (20 × 24 px)]</b> to continue to the next page.</entry>
+                     <entry>
+                        <codeblock id="codeblock_wgh_3vy_kkc">
+&lt;p>
+  Click the &lt;uicontrol>Next&lt;/uicontrol> button
+  &lt;image href="media/next_arrow.png" placement="inline" width="5" height="6"/>
+  to continue to the next page.
+&lt;/p></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> If an image is smaller than 50 × 50 pixels, the converter generates an &lt;image/&gt; element with the placement attribute as inline. The converter does not wrap the image in a &lt;fig&gt; tag.</p>
+         </section>
+   </refbody>
+</reference>

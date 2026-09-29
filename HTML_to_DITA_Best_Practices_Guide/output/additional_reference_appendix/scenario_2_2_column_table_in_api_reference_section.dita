@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headingh6rt7wiz6u8kw" xml:lang="en-us">
+   <title>Scenario 2 — 2 — Column Table in API Reference Section</title>
+   <refbody>
+      <section id="sec_d71e7">
+         <p>A section titled "POST /api/print-job" documents a REST API endpoint. The topic is classified as reference because the heading contains an API keyword and the body contains a 2-column parameter table.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Two-column table in API reference section</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_dbq_c1n_lkc">
+&lt;h2 id="post-api-print-job">POST /api/print-job&lt;/h2>
+&lt;p>Submits a new print job to the queue.&lt;/p>
+
+&lt;table>
+  &lt;tr>
+    &lt;th>Field&lt;/th>
+    &lt;th>Description&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>document_id&lt;/td>
+    &lt;td>ID of document to print.&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>copies&lt;/td>
+    &lt;td>Number of copies (default: 1).&lt;/td>
+  &lt;/tr>
+&lt;/table></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_ptx_c1n_lkc">
+&lt;reference id="post_api_print_job">
+  &lt;title>POST /api/print-job&lt;/title>
+  &lt;shortdesc>Submits a new print job to the queue.&lt;/shortdesc>
+  &lt;refbody>
+    &lt;properties frame="all" id="properties_z4h_mxg_pjc">
+      &lt;prophead>
+        &lt;proptypehd>Field&lt;/proptypehd>
+        &lt;propvaluehd>Description&lt;/propvaluehd>
+      &lt;/prophead>
+      &lt;property>
+        &lt;proptype>document_id&lt;/proptype>
+        &lt;propvalue>ID of document to print&lt;/propvalue>
+      &lt;/property>
+      &lt;property>
+        &lt;proptype>copies&lt;/proptype>
+        &lt;propvalue>Number of copies (default: 1)&lt;/propvalue>
+      &lt;/property>
+    &lt;/properties>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b> The 2-column HTML <codeph>&lt;table&gt;</codeph> maps to <codeph>&lt;properties&gt;</codeph> because the topic is classified as API reference. The same table in a concept topic would produce <codeph>&lt;simpletable&gt;</codeph>.</p>
+         <note type="note"> A 2-column table maps to <codeph>&lt;properties&gt;</codeph>only when the topic is classified as reference with an API keyword context. Outside of that context, a 2-column HTML <codeph>&lt;table&gt;</codeph> always maps to <codeph>&lt;simpletable&gt;</codeph>.</note>
+         <p>For a complete summary of how HTML table structures map to DITA output elements, see
+               <xref href="../tables/tables.dita">Tables — Overview</xref>.</p>
+      </section>
+   </refbody>
+</reference>

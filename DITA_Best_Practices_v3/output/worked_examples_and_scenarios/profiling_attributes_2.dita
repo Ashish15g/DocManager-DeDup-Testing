@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235706044" xml:lang="en-us">
+   <title>Profiling attributes</title>
+   <conbody>
+      <p>In the code below, profiling attributes like <codeph>audience="admin"</codeph> and <codeph>audience="poweruser admin"</codeph> are used to conditionally control which parts of the task are shown to which users at publish time.</p>
+      <ul id="ul_11014357">
+         <li>
+            <codeph>audience="admin"</codeph> on the third <codeph>&lt;step&gt;</codeph> means that step only appears in outputs targeted at administrators (for example, an admin‑only guide or PDF), while regular users never see it.</li>
+         <li>
+            <codeph>audience="poweruser admin"</codeph> on the JSON‑format <codeph>&lt;li&gt;</codeph> means that bullet only appears in outputs where the audience is either <codeph>poweruser</codeph> or <codeph>admin</codeph>, so a basic‑user version of the guide will omit that item.</li>
+      </ul>
+      <p>These attributes let you maintain a single source topic but generate different variants of the same task (e.g., <codeph>“user guide”</codeph> and <codeph>“admin guide”</codeph>) without duplicating the whole file.</p>
+      <codeblock>&lt;task id="t_export_data"&gt;
+         &lt;title&gt;Export Data&lt;/title&gt;
+         &lt;shortdesc&gt;Export your data to various formats.&lt;/shortdesc&gt;
+         
+         &lt;taskbody&gt;
+         &lt;steps&gt;
+         &lt;step&gt;
+         &lt;cmd&gt;Select &lt;uicontrol&gt;File&lt;/uicontrol&gt; &gt; &lt;uicontrol&gt;Export&lt;/uicontrol&gt;.&lt;/cmd&gt;
+         &lt;/step&gt;
+         
+         &lt;step&gt;
+         &lt;cmd&gt;Choose an export format.&lt;/cmd&gt;
+         &lt;info&gt;
+         &lt;ul&gt;
+         &lt;li&gt;&lt;uicontrol&gt;CSV&lt;/uicontrol&gt; – Basic spreadsheet format&lt;/li&gt;
+         &lt;li audience="poweruser admin"&gt;&lt;uicontrol&gt;JSON&lt;/uicontrol&gt; – For data integration&lt;/li&gt;
+         &lt;li audience="admin"&gt;&lt;uicontrol&gt;Database dump&lt;/uicontrol&gt; – Full database backup&lt;/li&gt;
+         &lt;/ul&gt;
+         &lt;/info&gt;
+         &lt;/step&gt;
+         
+         &lt;step audience="admin"&gt;
+         &lt;cmd&gt;Configure export scheduling.&lt;/cmd&gt;
+         &lt;info&gt;Administrators can schedule automatic exports.&lt;/info&gt;
+         &lt;/step&gt;
+         
+         &lt;step&gt;
+         &lt;cmd&gt;Click &lt;uicontrol&gt;Export&lt;/uicontrol&gt;.&lt;/cmd&gt;
+         &lt;/step&gt;
+         &lt;/steps&gt;
+         &lt;/taskbody&gt;
+         &lt;/task&gt;
+      </codeblock>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+   </conbody>
+</concept>

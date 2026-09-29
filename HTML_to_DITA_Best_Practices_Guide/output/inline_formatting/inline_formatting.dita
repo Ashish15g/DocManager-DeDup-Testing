@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Inline_Formatting" xml:lang="en-us">
+   <title>Inline Formatting</title>
+   <abstract>This section covers Inline Formatting in HTML — the inline formatting attributes that
+      assign semantic meaning to individual words or phrases within a paragraph — and five
+      scenarios: bold for general emphasis, bold for a UI element inside a procedure, monospace for
+      inline code, monospace for a file path, and bold for a menu navigation sequence. The converter
+      reads each named character style or font family to determine the appropriate DITA inline
+      element; where named styles are absent, content pattern recognition refines the
+      mapping.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>inline</keyword>
+        <keyword>Inline</keyword>
+        <keyword>DITA</keyword>
+        <keyword>HTML</keyword>
+        <keyword>element</keyword>
+        <keyword>elements</keyword>
+        <indexterm>inline</indexterm>
+        <indexterm>Inline</indexterm>
+        <indexterm>DITA</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>
+         <b>Inline Formatting</b>are attributes applied to individual words or phrases within a
+         paragraph. For example,</p>
+<ul id="ul_09045108">
+            <li>A menu path or button label is bold to identify UI screen text as a named interface element.</li>
+            <li>A file path or command is monospace to identify it as executable or navigable content.</li>
+         </ul>
+<p>Marking these distinctions visually — bold, italic, or monospace — communicates meaning to readers. Translation memory tools, conditional processing engines, content reuse frameworks, and accessibility processors all require typed markup to treat each kind of text correctly in publishing systems.</p>
+<p>The HTML-to-DITA converter evaluates each recognized HTML inline element within its surrounding paragraph and maps it to the appropriate DITA inline element. General emphasis is preserved using <codeph>&lt;b&gt;</codeph> or <codeph>&lt;i&gt;</codeph>, while recognized patterns within <codeph>&lt;code&gt;</codeph> or <codeph>&lt;span&gt;</codeph> elements are converted to more specific DITA elements such as <codeph>&lt;codeph&gt;</codeph>, <codeph>&lt;filepath&gt;</codeph>, <codeph>&lt;varname&gt;</codeph>, <codeph>&lt;cmdname&gt;</codeph>, or <codeph>&lt;menucascade&gt;</codeph>. This semantic mapping preserves the meaning of inline content while keeping the surrounding paragraph intact.</p>
+<p>Inline formatting in HTML is applied to individual words or phrases within a <codeph>&lt;p&gt;</codeph> element using inline elements such as <codeph>&lt;strong&gt;</codeph>, <codeph>&lt;em&gt;</codeph>, <codeph>&lt;code&gt;</codeph>, and <codeph>&lt;span&gt;</codeph>.</p>
+      <p>The following table summarizes how recognized HTML inline elements are mapped during
+         HTML-to-DITA conversion:</p>
+      <table frame="all" colsep="1" rowsep="1">
+         <title>Inline elements mapped to DITA</title>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>HTML Inline Element</b>
+                  </entry>
+                  <entry>
+                     <b>DITA Inline Element</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <codeph>&lt;strong&gt;</codeph> (general emphasis)</entry>
+                  <entry>
+                     <codeph>&lt;b&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;strong&gt;</codeph> (UI label in procedure)</entry>
+                  <entry>
+                     <codeph>&lt;uicontrol&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;em&gt;</codeph>
+                  </entry>
+                  <entry>
+                     <codeph>&lt;i&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;code&gt;</codeph> (inline code term)</entry>
+                  <entry>
+                     <codeph>&lt;codeph&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;code&gt;</codeph> (file path pattern)</entry>
+                  <entry>
+                     <codeph>&lt;filepath&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;code&gt;</codeph> (variable name pattern)</entry>
+                  <entry>
+                     <codeph>&lt;varname&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;code&gt;</codeph> (command name pattern)</entry>
+                  <entry>
+                     <codeph>&lt;cmdname&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;span&gt;</codeph> with menu navigation pattern (<codeph>&gt;</codeph>separator)</entry>
+                  <entry>
+                     <codeph>&lt;menucascade&gt;&lt;uicontrol&gt;</codeph>...</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+<note type="important">Use semantic inline elements to identify emphasis, user interface controls,
+         commands, code, file paths, variables, and menu navigation. Avoid using inline formatting
+         solely for visual presentation, as unrecognized or non-semantic markup may be converted to
+         plain text, reducing the semantic value of the generated DITA output.</note></conbody>
+</concept>

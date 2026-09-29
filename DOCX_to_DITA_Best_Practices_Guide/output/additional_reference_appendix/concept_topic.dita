@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="concept_topic" xml:lang="en-us">
+   <title>Concept Topic</title>
+   <shortdesc>A concept topic provides background knowledge that supports a task or reference lookup, and contains</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Concept</keyword>
+        <keyword>concept</keyword>
+        <keyword>Topic</keyword>
+        <keyword>topic</keyword>
+        <keyword>lookup</keyword>
+        <keyword>contains</keyword>
+        <indexterm>Concept</indexterm>
+        <indexterm>concept</indexterm>
+        <indexterm>Topic</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>A concept topic provides background knowledge that supports a task or reference lookup, and contains descriptive prose, definitions, diagrams, and illustrative tables. The converter classifies a section as concept when the heading carries no imperative verb and the body contains no numbered list or lookup-data table. The generated topic uses <codeph>&lt;concept&gt;</codeph> with <codeph>&lt;conbody&gt;</codeph>, and all Normal paragraphs map to <codeph>&lt;p&gt;</codeph> elements in document order. Concept topics never contain step-by-step numbered procedures.</p>
+   </conbody>
+</concept>

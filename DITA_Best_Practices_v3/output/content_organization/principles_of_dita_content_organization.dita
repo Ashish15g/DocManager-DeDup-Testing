@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235705899" xml:lang="en-us">
+   <title>Principles of DITA content organization</title>
+   <shortdesc>In DITA, content is created and stored as independent, self-contained topic files that are typically</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>DITA</keyword>
+        <keyword>content</keyword>
+        <keyword>organization</keyword>
+        <keyword>Principles</keyword>
+        <keyword>folders</keyword>
+        <keyword>created</keyword>
+        <indexterm>DITA</indexterm>
+        <indexterm>content</indexterm>
+        <indexterm>organization</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>In DITA, content is created and stored as independent, self-contained topic files that are typically organized within one or more folders. DITA maps and bookmaps are kept at the root level and are used to assemble, sequence, and structure these topics into meaningful outputs without embedding the content itself.</p>
+      <p>This clear separation between storage (folders) and organization (maps) enables scalable reuse, flexible publishing, and a single source of truth across documentation sets.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_2_table_with_caption_element" xml:lang="en-us">
+   <title>Scenario 2 — Table with &lt;caption&gt; element</title>
+   <refbody>
+      <section id="sec_d725e7">
+         <p>Consider a configuration parameter table with and a caption style exists immediately above the table.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Table with caption element</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Caption]:</b> Server Configuration Parameters   <b>[Header Row]:</b> Parameter | Default Value | Description   <b>[Row]:</b> Port | 8080 | Server listening port  <b>[Row]:</b> Timeout | 60 | Session timeout value in seconds  <b>[Row]:</b> Enable SSL | True | Enables encrypted communication</entry>
+                     <entry>
+                        <codeblock id="codeblock_lfy_5jy_kkc">
+&lt;reference id="server_configuration_parameters">
+  &lt;title>Server Configuration Parameters&lt;/title>
+  &lt;refbody>
+    &lt;table>
+      &lt;title>Server Configuration Parameters&lt;/title>
+      &lt;tgroup cols="3">
+        &lt;colspec colname="c1"/>
+        &lt;colspec colname="c2"/>
+        &lt;colspec colname="c3"/>
+        &lt;thead>
+          &lt;row>
+            &lt;entry>Parameter&lt;/entry>
+            &lt;entry>Default Value&lt;/entry>
+            &lt;entry>Description&lt;/entry>
+          &lt;/row>
+        &lt;/thead>
+        &lt;tbody>
+          &lt;row>
+            &lt;entry>Port&lt;/entry>
+            &lt;entry>8080&lt;/entry>
+            &lt;entry>Server listening port&lt;/entry>
+          &lt;/row>
+          &lt;row>
+            &lt;entry>Timeout&lt;/entry>
+            &lt;entry>60&lt;/entry>
+            &lt;entry>Session timeout value in seconds&lt;/entry>
+          &lt;/row>
+          &lt;row>
+            &lt;entry>Enable SSL&lt;/entry>
+            &lt;entry>True&lt;/entry>
+            &lt;entry>Enables encrypted communication&lt;/entry>
+          &lt;/row>
+        &lt;/tbody>
+      &lt;/tgroup>
+    &lt;/table>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b> The converter uses a CALS table (<codeph>&lt;table&gt;</codeph>+ <codeph>&lt;tgroup&gt;</codeph>) when:</p>
+         <ul id="ul_072335">
+            <li>Merged cells exist</li>
+            <li>Row or column spans exist</li>
+            <li>Caption exists</li>
+         </ul>
+         <p>This table structure provides greater flexibility than <codeph>&lt;simpletable&gt;</codeph> and supports more complex layouts.</p>
+         <note type="note"> Always use Insert -&gt; Caption to add captions. Only paragraphs with
+            the Caption style applied are mapped to <codeph>&lt;title&gt;</codeph> elements. Normal
+            or manually added caption title are mapped to <codeph>&lt;p&gt;</codeph> tag.</note>
+      </section>
+   </refbody>
+</reference>

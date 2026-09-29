@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="contrast_with_unstructured_content" xml:lang="en-us">
+   <title>Contrast with unstructured content</title>
+   <shortdesc>In a Word document, the same content might appear as:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>content</keyword>
+        <keyword>Contrast</keyword>
+        <keyword>unstructured</keyword>
+        <keyword>which</keyword>
+        <keyword>structure</keyword>
+        <keyword>Word</keyword>
+        <indexterm>content</indexterm>
+        <indexterm>Contrast</indexterm>
+        <indexterm>unstructured</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>In a Word document, the same content might appear as:</p>
+    <ol>
+    <li>Click <uicontrol>Save</uicontrol>. The file is saved to your local drive.</li>
+    </ol>
+    <section>
+      <title>Result</title>
+      <p>A human reader can probably figure out which part is the action, and which is the result. But the structure is implicit, encoded only through formatting and sentence position. A machine must guess. DITA eliminates guessing by making structure explicit.</p>
+    </section></conbody>
+</concept>

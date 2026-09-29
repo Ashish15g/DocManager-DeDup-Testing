@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560413" xml:lang="en-us">
+   <title>Scenario 2: Fenced code block</title>
+   <shortdesc>Consider a topic that contains a shell command example.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>block</keyword>
+        <keyword>Fenced</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>DITA</keyword>
+        <keyword>output</keyword>
+        <keyword>Create</keyword>
+        <indexterm>block</indexterm>
+        <indexterm>Fenced</indexterm>
+        <indexterm>Scenario</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a topic that contains a shell command example.</p><table frame="all" colsep="1" rowsep="1">
+            <title>Fenced code block</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+              <thead>
+                <row>
+                  <entry> .md input </entry>
+                  <entry> DITA output </entry>
+                </row>                
+              </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>&gt; **Tip**
+  &gt;
+  &gt; Create notification templates to reduce configuration time.</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;note type="tip"&gt;
+  Create notification templates to reduce configuration time.
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table><p>
+            <b>Result:</b> The converter preserves the code block content and generates a DITA <codeph>&lt;codeblock&gt;</codeph> element. The language identifier is retained as an output class when supported.</p>
+  </section></refbody>
+</reference>

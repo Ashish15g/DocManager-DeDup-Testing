@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560285" xml:lang="en-us">
+   <title>Migration prerequisites</title>
+  <abstract>This section explains the prerequisites for successful Markdown-to-DITA migration,
+    including source file requirements, repository structure, metadata consistency, and Markdown
+    authoring standards. The AI Agent learns how to assess conversion readiness, identify potential
+    migration issues, and recognize content that may require custom converter configuration or
+    review.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Markdown</keyword>
+        <keyword>prerequisites</keyword>
+        <keyword>DITA</keyword>
+        <keyword>migration</keyword>
+        <keyword>converter</keyword>
+        <keyword>Migration</keyword>
+        <indexterm>Markdown</indexterm>
+        <indexterm>prerequisites</indexterm>
+        <indexterm>DITA</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>Before submitting the Markdown source to the Markdown to DITA converter, verify the
+      following prerequisites are met:<ul id="ul_11245401">
+        <li>All content for migration is in plain-text Markdown files (.md/.markdown), not mixed
+          with binary formats.</li>
+        <li>Files use standard Markdown syntax for headings, lists, links, images, code blocks, and
+          tables.</li>
+        <li>Repository structure (folders and file names) is stable and reflects logical groupings
+          (e.g., user-guide/, admin/, api/).</li>
+        <li>Metadata is used consistently across files if you expect it to become DITA
+          metadata.</li>
+      </ul></p>
+    <note id="note_usf_gyv_jkc">If your Markdown uses raw HTML or custom extensions such as Sphinx
+      roles, MkDocs admonitions, GitHub-style callouts, share syntax samples with the DITA
+      architecture team so the Markdown converter configuration can be customized.</note>
+   </conbody>
+</concept>

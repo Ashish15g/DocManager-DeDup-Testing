@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560425" xml:lang="en-us">
+   <title>Maps classification</title>
+  <abstract>This section explains how repository structures, index files, Markdown organization, and
+    heading hierarchies are converted into DITA maps and topic relationships. It covers scenarios
+    including recommended folder structures, multiple Markdown files in a folder, and folders
+    without index files. The AI Agent learns how to generate map hierarchies, topicrefs, topicheads,
+    and parent-child navigation structures from repository organization.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Markdown</keyword>
+        <keyword>folder</keyword>
+        <keyword>files</keyword>
+        <keyword>DITA</keyword>
+        <keyword>structures</keyword>
+        <keyword>index</keyword>
+        <indexterm>Markdown</indexterm>
+        <indexterm>folder</indexterm>
+        <indexterm>files</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+    <p>In Markdown-based documentation systems, the folder hierarchy provides structural information
+      that does not exist within the Markdown syntax itself. The Markdown-to-DITA converter analyses
+      the directory structure containing the Markdown files and uses it to generate DITA maps, topic
+      relationships, navigation hierarchies, and output filenames.</p>
+    <p>The converter considers both the physical folder structure and the heading hierarchy inside
+      individual Markdown files to determine the DITA Map or Book Map structure.</p>
+    <p>The recommended authoring model for Markdown is listed below:<ul id="ul_11245419">
+        <li>One logical topic per folder.</li>
+        <li>One primary index.md file per folder.</li>
+        <li>Child topics stored in subfolders.</li>
+        <li>Related assets stored in dedicated image or media folders.</li>
+      </ul></p>
+   </conbody>
+</concept>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450366" xml:lang="en-us">
+   <title>Scenario 10 — Three-level deep nested Numbered list in Procedure (multi-level sub steps)</title>
+   <shortdesc>Consider a task topic where the first two levels represent procedural actions, and the third</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>level</keyword>
+        <keyword>server</keyword>
+        <keyword>steps</keyword>
+        <keyword>configuration</keyword>
+        <keyword>Three</keyword>
+        <keyword>nested</keyword>
+        <indexterm>level</indexterm>
+        <indexterm>server</indexterm>
+        <indexterm>steps</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+     <section>
+    <p>Consider a task topic where the first two levels represent procedural actions, and the third level represents additional ordered supporting details for a substep.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Three level nested sub-steps in procedure</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>HTML Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>
+                 <codeblock>
+&lt;h2 id="configure-the-server">Configure the Server&lt;/h2>
+&lt;ol>
+  &lt;li>
+    Update the configuration file.
+    &lt;ol>
+      &lt;li>
+        Open the configuration file.
+        &lt;ol>
+          &lt;li>Locate the server section.&lt;/li>
+          &lt;li>Review the existing values.&lt;/li>
+        &lt;/ol>
+      &lt;/li>
+    &lt;/ol>
+  &lt;/li>
+  &lt;li>Restart the server.&lt;/li>
+&lt;/ol></codeblock>
+               </entry>
+               <entry>
+                 <codeblock>
+&lt;task id="configure_the_server">
+  &lt;title>Configure the Server&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Update the configuration file.&lt;/cmd>
+        &lt;substeps>
+          &lt;substep>
+            &lt;cmd>Open the configuration file.&lt;/cmd>
+            &lt;info>
+              &lt;ol>
+                &lt;li>Locate the server section.&lt;/li>
+                &lt;li>Review the existing values.&lt;/li>
+              &lt;/ol>
+            &lt;/info>
+          &lt;/substep>
+        &lt;/substeps>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Restart the server.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+               </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b> The converter maps Level 0 to <codeph>&lt;steps&gt;&lt;step&gt;&lt;cmd&gt;</codeph>. Level 1 maps to <codeph>&lt;substeps&gt;&lt;substep&gt;&lt;cmd&gt;</codeph> and Level 2 maps to <codeph>&lt;info&gt;&lt;ol&gt;&lt;li&gt;</codeph>.</p>
+  </section>
+   </refbody>
+</reference>

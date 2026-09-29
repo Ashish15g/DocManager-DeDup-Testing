@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc238560392" xml:lang="en-us">
+   <title>Scenario 10: 2-column table in an API reference section</title>
+   <refbody>
+      <section id="sec_d1091e7">
+         <p>Consider a Markdown table that contains parameters for alarm configuration.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>2-column table in API reference</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>### Alarm Configuration Parameters | Parameter | Default Value | Description |
+  |-----------|---------------|-------------|
+  | Enabled | True | Enables alarm generation |
+  | Severity | Medium | Alarm severity level |
+  | Auto Clear | False | Clears alarms automatically |</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;reference id="alarm_configuration_parameters"&gt;
+                           &lt;title&gt;Alarm Configuration Parameters&lt;/title&gt;
+                           &lt;refbody&gt;
+                           &lt;properties&gt;
+                           &lt;prophead&gt;
+                           &lt;proptypehd&gt;Parameter&lt;/proptypehd&gt;
+                           &lt;propvaluehd&gt;Default Value&lt;/propvaluehd&gt;
+                           &lt;propdeschd&gt;Description&lt;/propdeschd&gt;
+                           &lt;/prophead&gt;
+                           &lt;property&gt;
+                           &lt;proptype&gt;Enabled&lt;/proptype&gt;
+                           &lt;propvalue&gt;True&lt;/propvalue&gt;
+                           &lt;propdesc&gt;Enables alarm generation&lt;/propdesc&gt;
+                           &lt;/property&gt;
+                           &lt;property&gt;
+                           &lt;proptype&gt;Severity&lt;/proptype&gt;
+                           &lt;propvalue&gt;Medium&lt;/propvalue&gt;
+                           &lt;propdesc&gt;Alarm severity level&lt;/propdesc&gt;
+                           &lt;/property&gt;
+                           &lt;property&gt;
+                           &lt;proptype&gt;Auto Clear&lt;/proptype&gt;
+                           &lt;propvalue&gt;False&lt;/propvalue&gt;
+                           &lt;propdesc&gt;Clears alarms automatically&lt;/propdesc&gt;
+                           &lt;/property&gt;
+                           &lt;/properties&gt;
+                           &lt;/refbody&gt;
+                           &lt;/reference&gt;
+                        </codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b>The converter recognizes the table as a parameter-definition table because the first column contains parameter names and the remaining columns describe parameter attributes. Instead of generating a generic DITA table, the converter creates a DITA reference topic containing a <codeph>&lt;properties&gt;</codeph> element. The heading immediately preceding the table becomes the topic title, and each table row is converted into a <codeph>&lt;property&gt;</codeph> entry.</p>
+         <note type="note">Use a consistent parameter table structure with columns such as Parameter , Default Value , Description , Type , or Required . Consistent column naming improves the converter's ability to identify parameter-definition tables and generate DITA reference structures instead of generic tables.</note>
+      </section>
+   </refbody>
+</reference>

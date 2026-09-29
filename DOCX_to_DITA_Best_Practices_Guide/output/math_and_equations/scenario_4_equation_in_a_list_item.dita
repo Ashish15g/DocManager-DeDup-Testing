@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_4_equation_in_a_list_item" xml:lang="en-us">
+   <title>Scenario 4 — Equation in a list item</title>
+   <shortdesc>Consider a bulleted or numbered list where one of the list items contains a Word</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>equation</keyword>
+        <keyword>inline</keyword>
+        <keyword>Equation</keyword>
+        <keyword>within</keyword>
+        <keyword>inside</keyword>
+        <keyword>object</keyword>
+        <indexterm>equation</indexterm>
+        <indexterm>inline</indexterm>
+        <indexterm>Equation</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a bulleted or numbered list where one of the list items contains a Word equation object either inline within the item text or as a standalone block paragraph at the list level.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Equation inside a list item</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[List Bullet]:</b> Use the formula <b>[Equation object: A = πr²]</b> to calculate area. <b>[List Bullet]:</b> Round results to two decimal places.</entry>
+                     <entry>
+                        <codeblock id="codeblock_kf5_fnr_kkc">
+&lt;ul>
+  &lt;li>Use the formula
+    &lt;equation-inline>
+      &lt;mathml>
+        &lt;math xmlns="http://www.w3.org/1998/Math/MathML">
+          &lt;mrow>
+            &lt;mi>A&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi>π&lt;/mi>
+            &lt;msup>
+              &lt;mi>r&lt;/mi>
+              &lt;mn>2&lt;/mn>
+            &lt;/msup>
+          &lt;/mrow>
+        &lt;/math>
+      &lt;/mathml>
+    &lt;/equation-inline>
+    to calculate area.
+  &lt;/li>
+  &lt;li>Round results to two decimal places.&lt;/li>
+&lt;/ul></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> When an equation object is embedded inline within a list item paragraph, the converter preserves it as an <codeph>&lt;equation-inline&gt;</codeph> element inside the <codeph>&lt;li&gt;</codeph> element. The equation is treated as part of the list item's inline content and remains within the list structure. If the equation is placed as a standalone paragraph inside the list (not inline within item text), the converter may wrap it in <codeph>&lt;equation-block&gt;</codeph> inside the <codeph>&lt;li&gt;</codeph>, depending on how the Word list indentation is applied.</p>
+   </section>
+   </refbody>
+</reference>

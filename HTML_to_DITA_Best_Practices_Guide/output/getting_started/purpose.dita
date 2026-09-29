@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450323" xml:lang="en-us">
+   <title>Purpose</title>
+   <shortdesc>This guide provides mandatory best practices for anyone who creates or prepares HTML source content</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>DITA</keyword>
+        <keyword>converter</keyword>
+        <keyword>Purpose</keyword>
+        <keyword>HTML</keyword>
+        <keyword>content</keyword>
+        <keyword>conversion</keyword>
+        <indexterm>DITA</indexterm>
+        <indexterm>converter</indexterm>
+        <indexterm>Purpose</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>This guide provides mandatory best practices for anyone who creates or prepares HTML source content for conversion to DITA-XML using the metR DocMigration HTML to DITA converter. The converter is a modular microservice with an embedded AI Agent that reasons and enriches DITA elements in document structure before transforming them into standards-compliant DITA-XML.</p>
+      <p>Following these guidelines ensures that:</p>
+      <ul id="ul_090451">
+         <li>The converter correctly identifies topic boundaries, heading hierarchies, and content types.</li>
+         <li>The AI Conversion Agent classifies topics accurately as concept, task, reference, or troubleshooting.</li>
+         <li>The generated DITA-XML output is clean and complete, requiring minimal post-conversion cleanup.</li>
+         <li>Metadata and Ditamap hierarchies are detected reliably.</li>
+      </ul>
+   </conbody>
+</concept>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235705940" xml:lang="en-us">
+   <title>Scenario 8: postrequisites in a task topic</title>
+   <shortdesc>Consider a "Rotate API Access Keys" chapter in a "Security Operations Guide" document where you</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>access</keyword>
+        <keyword>credentials</keyword>
+        <keyword>Rotate</keyword>
+        <keyword>client</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>postrequisites</keyword>
+        <indexterm>access</indexterm>
+        <indexterm>credentials</indexterm>
+        <indexterm>Rotate</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>Consider a "Rotate API Access Keys" chapter in a "Security Operations Guide" document where you want to provide mandatory follow-up actions that users must complete after rotating production API keys.</p>
+      <codeblock xml:space="preserve">&lt;task id="rotate-api-keys" title="Rotate API Access Keys"&gt;
+&lt;shortdesc&gt;
+Rotate production API access keys without interrupting client
+integrations.
+&lt;/shortdesc&gt;
+&lt;prereq&gt;
+&lt;p&gt;
+Ensure that you have administrator access to the API gateway
+and a backup copy of the existing credentials.
+&lt;/p&gt;
+&lt;/prereq&gt;
+&lt;steps&gt;
+&lt;step id="step-1"&gt;
+&lt;cmd&gt;
+Generate a new API access key from the API Gateway console.
+&lt;/cmd&gt;
+&lt;stepresult&gt;
+&lt;p&gt;
+A new active API key is generated for the selected
+application.
+&lt;/p&gt;
+&lt;/stepresult&gt;
+&lt;/step&gt;
+&lt;step id="step-2"&gt;
+&lt;cmd&gt;
+Update client applications with the newly generated API
+key.
+&lt;/cmd&gt;
+&lt;stepresult&gt;
+&lt;p&gt;
+Client applications authenticate successfully using
+the new credentials.
+&lt;/p&gt;
+&lt;/stepresult&gt;
+&lt;/step&gt;
+&lt;step id="step-3"&gt;
+&lt;cmd&gt;
+Disable the previous API access key.
+&lt;/cmd&gt;
+&lt;stepresult&gt;
+&lt;p&gt;
+The old API key is revoked and can no longer be used
+for authentication.
+&lt;/p&gt;
+&lt;/stepresult&gt;
+&lt;/step&gt;
+&lt;/steps&gt;
+&lt;result&gt;
+&lt;p&gt;
+All client integrations now authenticate using the rotated
+API credentials.
+&lt;/p&gt;
+&lt;/result&gt;
+&lt;postreq&gt;
+&lt;ol&gt;
+&lt;li&gt;
+Monitor authentication logs for failed login attempts during
+the next 24 hours.
+&lt;/li&gt;
+&lt;li&gt;
+Notify integration owners that the old API credentials are no
+longer valid.
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/postreq&gt;
+&lt;/task&gt;</codeblock>
+      <p>
+         <b>Result:</b> Use the <codeph>&lt;postreq&gt;</codeph> element for required follow-up activities, cleanup tasks, monitoring instructions, or operational checks that users must complete after the main procedure finishes.</p>
+    </section></refbody>
+</reference>

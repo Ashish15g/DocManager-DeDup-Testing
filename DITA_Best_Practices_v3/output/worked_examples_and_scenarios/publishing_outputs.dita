@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235706045" xml:lang="en-us">
+   <title>Publishing outputs</title>
+   <shortdesc>You will use different publishing outputs for different audiences. Only content with select attributes will</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>outputs</keyword>
+        <keyword>Publishing</keyword>
+        <keyword>different</keyword>
+        <keyword>publishing</keyword>
+        <keyword>options</keyword>
+        <keyword>audiences</keyword>
+        <indexterm>outputs</indexterm>
+        <indexterm>Publishing</indexterm>
+        <indexterm>different</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>You will use different publishing outputs for different audiences. Only content with select attributes will be published in the corresponding output.</p><table frame="all" colsep="1" rowsep="1">
+            <title>publishing outputs</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+              <thead>
+                <row>
+                  <entry>Audience</entry>
+                  <entry>Visible Content</entry>
+                </row>                
+              </thead>
+               <tbody>
+                  <row>
+                     <entry>End user</entry>
+                     <entry>CSV option only, basic steps</entry>
+                  </row>
+                  <row>
+                     <entry>Power user</entry>
+                     <entry>CSV and JSON options</entry>
+                  </row>
+                  <row>
+                     <entry>Admin</entry>
+                     <entry>All options, scheduling step</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+  </section></refbody>
+</reference>

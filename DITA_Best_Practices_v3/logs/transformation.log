@@ -1,0 +1,1421 @@
+================================================================================
+ metR DOCX DocMigrate — TRANSFORMATION REPORT
+================================================================================
+ Source File           : DITA_Best_Practices_v3.docx
+ Files Converted       : 1
+ Topics Generated      : 190
+ DITA Maps Generated   : 17
+ Started               : 2026-08-28 11:01:41 UTC
+ Completed             : 2026-08-28 11:01:43 UTC
+ Duration              : 2s
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+
+[2026-08-28T11:01:41.943011+00:00] conversion_started working.
+[2026-08-28T11:01:41.946091+00:00] ConversionService class is running.
+[2026-08-28T11:01:41.946293+00:00] transformation_started working on input source
+[2026-08-28T11:01:42.084919+00:00] detect_docx_toc No TOC styles or field codes detected.
+[2026-08-28T11:01:42.084970+00:00] detect_docx_toc No TOC styles, field codes, or SDT detected.
+[2026-08-28T11:01:42.089330+00:00] PipelineOrchestrator TOC DETECTED = False
+[2026-08-28T11:01:42.089384+00:00] toc_detection Document analysis: No Table of Contents found.
+[2026-08-28T11:01:42.090186+00:00] PipelineOrchestrator Starting conversion pipeline for 'DITA_Best_Practices_v3.docx'.
+[2026-08-28T11:01:42.090282+00:00] DocxToHtmlProcessor Converting 'DITA_Best_Practices_v3.docx' from DOCX to HTML.
+[2026-08-28T11:01:42.090328+00:00] step_docx_to_html_started Step 1/7: Converting 'DITA_Best_Practices_v3.docx' from DOCX to HTML.
+[2026-08-28T11:01:42.091158+00:00] DocxToHtmlProcessor Opening DOCX archive: 'DITA_Best_Practices_v3.docx'.
+[2026-08-28T11:01:42.091518+00:00] DocxToHtmlProcessor Reading relationships.
+[2026-08-28T11:01:42.091619+00:00] DocxToHtmlProcessor Parsing relationships from 'word/_rels/document.xml.rels'.
+[2026-08-28T11:01:42.091973+00:00] DocxToHtmlProcessor Extracted 9 relationship(s).
+[2026-08-28T11:01:42.091998+00:00] DocxToHtmlProcessor Extracting media files.
+[2026-08-28T11:01:42.092222+00:00] DocxToHtmlProcessor Copying 0 media file(s).
+[2026-08-28T11:01:42.092243+00:00] DocxToHtmlProcessor Media copy complete -- 0 file(s) exported.
+[2026-08-28T11:01:42.092255+00:00] DocxToHtmlProcessor Reading list numbering definitions.
+[2026-08-28T11:01:42.092272+00:00] DocxToHtmlProcessor Parsing 'word/numbering.xml' for list type map.
+[2026-08-28T11:01:42.099927+00:00] DocxToHtmlProcessor Numbering map built with 46 numId(s).
+[2026-08-28T11:01:42.100459+00:00] DocxToHtmlProcessor Reading 'word/document.xml'.
+[2026-08-28T11:01:42.103275+00:00] DocxToHtmlProcessor Parsing 'word/document.xml' XML structure.
+[2026-08-28T11:01:42.154192+00:00] DocxToHtmlProcessor Processing document body paragraphs for 'DITA_Best_Practices_v3.docx'.
+[2026-08-28T11:01:42.293420+00:00] DocxToHtmlProcessor Document body processed — 2366 HTML block(s) generated for 'DITA_Best_Practices_v3.docx'.
+[2026-08-28T11:01:42.297885+00:00] DocxToHtmlProcessor DOCX to HTML conversion complete.
+[2026-08-28T11:01:42.298129+00:00] step_docx_to_html_complete DOCX-to-HTML conversion complete: 0 image(s) extracted.
+[2026-08-28T11:01:42.298982+00:00] HtmlToDitaNormalizer Normalizing generated HTML for DITA conversion.
+[2026-08-28T11:01:42.299066+00:00] step_normalize_html_started Step 2/7: Normalizing HTML for DITA conversion.
+[2026-08-28T11:01:42.299895+00:00] helper_port.py class is running.
+[2026-08-28T11:01:42.792105+00:00] HtmlToDitaNormalizer HTML normalization complete.
+[2026-08-28T11:01:42.792165+00:00] step_normalize_html_complete HTML normalization complete.
+[2026-08-28T11:01:42.974686+00:00] TopicSplitter Splitting HTML content into topics.
+[2026-08-28T11:01:42.974736+00:00] step_split_topics_started Step 3/7: Splitting document into topics.
+[2026-08-28T11:01:43.172847+00:00] TopicSplitter Found 190 topics.
+[2026-08-28T11:01:43.172902+00:00] topics_split Document split into 190 topic(s).
+[2026-08-28T11:01:43.173687+00:00] TopicWriter Writing topics to .dita files.
+[2026-08-28T11:01:43.173800+00:00] step_write_topics_started Step 4/7: Writing 190 topic(s) to DITA files.
+[2026-08-28T11:01:43.174575+00:00] TopicWriter Starting to write 190 topics.
+[2026-08-28T11:01:43.174745+00:00] TopicWriter Building topic tree hierarchy.
+[2026-08-28T11:01:43.174785+00:00] TopicWriter Building topic tree from 190 flat topic(s).
+[2026-08-28T11:01:43.174896+00:00] TopicWriter Topic tree built — 17 root node(s).
+[2026-08-28T11:01:43.174912+00:00] TopicWriter Assigning output paths to all topics.
+[2026-08-28T11:01:43.174941+00:00] TopicWriter Assigning output paths for 17 node(s).
+[2026-08-28T11:01:43.174986+00:00] TopicWriter Assigned path for topic 'DITA Best Practices Guide': 'dita_best_practices_guide.dita'.
+[2026-08-28T11:01:43.175234+00:00] TopicWriter Assigned path for topic 'Revision history': 'revision_history.dita'.
+[2026-08-28T11:01:43.175530+00:00] TopicWriter Assigning output paths for 4 node(s).
+[2026-08-28T11:01:43.175575+00:00] TopicWriter Assigned path for topic 'What is DITA?': 'what_is_dita.dita'.
+[2026-08-28T11:01:43.175655+00:00] TopicWriter Assigned path for topic 'The Darwin in DITA': 'the_darwin_in_dita.dita'.
+[2026-08-28T11:01:43.175691+00:00] TopicWriter Assigned path for topic 'Why DITA matters for technical writers': 'why_dita_matters_for_technical_writers.dita'.
+[2026-08-28T11:01:43.175721+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-28T11:01:43.175822+00:00] TopicWriter Assigned path for topic 'Before DITA': 'before_dita.dita'.
+[2026-08-28T11:01:43.175880+00:00] TopicWriter Assigned path for topic 'After DITA': 'after_dita.dita'.
+[2026-08-28T11:01:43.175926+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-28T11:01:43.175943+00:00] TopicWriter Assigned path for topic 'The challenge of traditional documentation': 'the_challenge_of_traditional_documentation.dita'.
+[2026-08-28T11:01:43.175954+00:00] TopicWriter Path assignment complete for 4 node(s).
+[2026-08-28T11:01:43.175966+00:00] TopicWriter Assigned path for topic 'Introduction': 'introduction.dita'.
+[2026-08-28T11:01:43.176115+00:00] TopicWriter Assigning output paths for 6 node(s).
+[2026-08-28T11:01:43.176154+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.176186+00:00] TopicWriter Assigned path for topic 'Scenario: enterprise documentation scale': 'scenario_enterprise_documentation_scale.dita'.
+[2026-08-28T11:01:43.176199+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.176213+00:00] TopicWriter Assigned path for topic 'Scalable documentation architecture': 'scalable_documentation_architecture.dita'.
+[2026-08-28T11:01:43.176244+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.176275+00:00] TopicWriter Assigned path for topic 'Scenario: the one topic = one intent principle': 'scenario_the_one_topic_one_intent_principle.dita'.
+[2026-08-28T11:01:43.176287+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.176303+00:00] TopicWriter Assigned path for topic 'Topic-based modular writing': 'topic_based_modular_writing.dita'.
+[2026-08-28T11:01:43.176328+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.176358+00:00] TopicWriter Assigned path for topic 'Scenario: reuse in action': 'scenario_reuse_in_action.dita'.
+[2026-08-28T11:01:43.176370+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.176387+00:00] TopicWriter Assigned path for topic 'Scalable content reuse': 'scalable_content_reuse.dita'.
+[2026-08-28T11:01:43.176418+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.176447+00:00] TopicWriter Assigned path for topic 'Scenario: conditional publishing': 'scenario_conditional_publishing.dita'.
+[2026-08-28T11:01:43.176459+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.176471+00:00] TopicWriter Assigned path for topic 'Metadata-driven filtering and personalization': 'metadata_driven_filtering_and_personalization.dita'.
+[2026-08-28T11:01:43.176502+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.176533+00:00] TopicWriter Assigned path for topic 'Scenario: AI-powered documentation': 'scenario_ai_powered_documentation.dita'.
+[2026-08-28T11:01:43.176544+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.176556+00:00] TopicWriter Assigned path for topic 'AI optimization': 'ai_optimization.dita'.
+[2026-08-28T11:01:43.176581+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.176610+00:00] TopicWriter Assigned path for topic 'Publishing output comparison': 'publishing_output_comparison.dita'.
+[2026-08-28T11:01:43.176622+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.176633+00:00] TopicWriter Assigned path for topic 'Multi-channel publishing': 'multi_channel_publishing.dita'.
+[2026-08-28T11:01:43.176652+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-08-28T11:01:43.176663+00:00] TopicWriter Assigned path for topic 'Key benefits of DITA': 'key_benefits_of_dita.dita'.
+[2026-08-28T11:01:43.176819+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-28T11:01:43.176861+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.176930+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.176964+00:00] TopicWriter Assigned path for topic 'Contrast with unstructured content': 'contrast_with_unstructured_content.dita'.
+[2026-08-28T11:01:43.177010+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.177064+00:00] TopicWriter Assigned path for topic 'Scenario: semantic structure': 'scenario_semantic_structure.dita'.
+[2026-08-28T11:01:43.177117+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.177168+00:00] TopicWriter Assigned path for topic 'Self-descriptive content': 'self_descriptive_content.dita'.
+[2026-08-28T11:01:43.177210+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.177274+00:00] TopicWriter Assigned path for topic 'Scenario: inheritance in maps': 'scenario_inheritance_in_maps.dita'.
+[2026-08-28T11:01:43.177327+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.177378+00:00] TopicWriter Assigned path for topic 'Contextual inheritance': 'contextual_inheritance.dita'.
+[2026-08-28T11:01:43.177449+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.177483+00:00] TopicWriter Assigned path for topic 'Scenario: domain specialization': 'scenario_domain_specialization.dita'.
+[2026-08-28T11:01:43.177496+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.177507+00:00] TopicWriter Assigned path for topic 'Extensibility': 'extensibility.dita'.
+[2026-08-28T11:01:43.177551+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-28T11:01:43.177593+00:00] TopicWriter Assigned path for topic 'Core characteristics of DITA': 'core_characteristics_of_dita.dita'.
+[2026-08-28T11:01:43.177778+00:00] TopicWriter Assigning output paths for 4 node(s).
+[2026-08-28T11:01:43.177825+00:00] TopicWriter Assigned path for topic 'Understanding DITA's layered hierarchy': 'understanding_dita_s_layered_hierarchy.dita'.
+[2026-08-28T11:01:43.177892+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.177935+00:00] TopicWriter Assigned path for topic 'Scenario: ideal map structure': 'scenario_ideal_map_structure.dita'.
+[2026-08-28T11:01:43.177948+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.178001+00:00] TopicWriter Assigned path for topic 'Structural hierarchy': 'structural_hierarchy.dita'.
+[2026-08-28T11:01:43.178075+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.178113+00:00] TopicWriter Assigned path for topic 'Scenario: user learning journey': 'scenario_user_learning_journey.dita'.
+[2026-08-28T11:01:43.178179+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.178244+00:00] TopicWriter Assigned path for topic 'Content hierarchy': 'content_hierarchy.dita'.
+[2026-08-28T11:01:43.178287+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.178363+00:00] TopicWriter Assigned path for topic 'Scenario: task topic element hierarchy': 'scenario_task_topic_element_hierarchy.dita'.
+[2026-08-28T11:01:43.178377+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.178388+00:00] TopicWriter Assigned path for topic 'Element hierarchy': 'element_hierarchy.dita'.
+[2026-08-28T11:01:43.178398+00:00] TopicWriter Path assignment complete for 4 node(s).
+[2026-08-28T11:01:43.178409+00:00] TopicWriter Assigned path for topic 'Hierarchical structure': 'hierarchical_structure.dita'.
+[2026-08-28T11:01:43.178539+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-28T11:01:43.178580+00:00] TopicWriter Assigned path for topic 'Principles of DITA content organization': 'principles_of_dita_content_organization.dita'.
+[2026-08-28T11:01:43.178619+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-28T11:01:43.178652+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-28T11:01:43.178690+00:00] TopicWriter Assigned path for topic 'Scenario: folder structure for projects with fewer than 30 topics': 'scenario_folder_structure_for_projects_with_fewer_than_30_topics.dita'.
+[2026-08-28T11:01:43.178719+00:00] TopicWriter Assigned path for topic 'Advantages of flat structure': 'advantages_of_flat_structure.dita'.
+[2026-08-28T11:01:43.178731+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-28T11:01:43.178743+00:00] TopicWriter Assigned path for topic 'Flat folder structure': 'flat_folder_structure.dita'.
+[2026-08-28T11:01:43.178786+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-28T11:01:43.178821+00:00] TopicWriter Assigned path for topic 'Scenario 1: folder structure for projects with more than 30 topics by topic type': 'scenario_1_folder_structure_for_projects_with_more_than_30_topics_by_topic_type.dita'.
+[2026-08-28T11:01:43.178859+00:00] TopicWriter Assigned path for topic 'Scenario 2: folder structure for projects with more than 30 topics by chapters': 'scenario_2_folder_structure_for_projects_with_more_than_30_topics_by_chapters.dita'.
+[2026-08-28T11:01:43.178881+00:00] TopicWriter Assigned path for topic 'Advantages of nested structure': 'advantages_of_nested_structure.dita'.
+[2026-08-28T11:01:43.178892+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-28T11:01:43.178902+00:00] TopicWriter Assigned path for topic 'Nested folder structure': 'nested_folder_structure.dita'.
+[2026-08-28T11:01:43.178911+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-28T11:01:43.178922+00:00] TopicWriter Assigned path for topic 'Folder structure strategies': 'folder_structure_strategies.dita'.
+[2026-08-28T11:01:43.178938+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.178952+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.178968+00:00] TopicWriter Assigned path for topic 'Scenario: naming a complex topic': 'scenario_naming_a_complex_topic.dita'.
+[2026-08-28T11:01:43.178974+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.178980+00:00] TopicWriter Assigned path for topic 'Topic type prefixes': 'topic_type_prefixes.dita'.
+[2026-08-28T11:01:43.178986+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.178992+00:00] TopicWriter Assigned path for topic 'File naming conventions': 'file_naming_conventions.dita'.
+[2026-08-28T11:01:43.178997+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-28T11:01:43.179003+00:00] TopicWriter Assigned path for topic 'Content organization': 'content_organization.dita'.
+[2026-08-28T11:01:43.179095+00:00] TopicWriter Assigning output paths for 4 node(s).
+[2026-08-28T11:01:43.179116+00:00] TopicWriter Assigned path for topic 'The DITA content system': 'the_dita_content_system.dita'.
+[2026-08-28T11:01:43.179131+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-28T11:01:43.179148+00:00] TopicWriter Assigned path for topic 'Key benefits of book maps': 'key_benefits_of_book_maps.dita'.
+[2026-08-28T11:01:43.179162+00:00] TopicWriter Assigned path for topic 'Book map structure components': 'book_map_structure_components.dita'.
+[2026-08-28T11:01:43.179176+00:00] TopicWriter Assigned path for topic 'Book map example': 'book_map_example.dita'.
+[2026-08-28T11:01:43.179182+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-28T11:01:43.179188+00:00] TopicWriter Assigned path for topic 'Book maps': 'book_maps.dita'.
+[2026-08-28T11:01:43.179202+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-28T11:01:43.179216+00:00] TopicWriter Assigned path for topic 'Key benefits of DITA maps': 'key_benefits_of_dita_maps.dita'.
+[2026-08-28T11:01:43.179233+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-28T11:01:43.179248+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.179262+00:00] TopicWriter Assigned path for topic 'Why this makes sense': 'why_this_makes_sense.dita'.
+[2026-08-28T11:01:43.179268+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.179274+00:00] TopicWriter Assigned path for topic 'Scenario 1: using <topicgroup> to cluster related topics': 'scenario_1_using_topicgroup_to_cluster_related_topics.dita'.
+[2026-08-28T11:01:43.179288+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.179311+00:00] TopicWriter Assigned path for topic 'Why this makes sense': 'why_this_makes_sense_2.dita'.
+[2026-08-28T11:01:43.179317+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.179323+00:00] TopicWriter Assigned path for topic 'Scenario 2: using <topichead> to organize navigation sections': 'scenario_2_using_topichead_to_organize_navigation_sections.dita'.
+[2026-08-28T11:01:43.179342+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.179358+00:00] TopicWriter Assigned path for topic 'Why this makes sense': 'why_this_makes_sense_3.dita'.
+[2026-08-28T11:01:43.179364+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.179370+00:00] TopicWriter Assigned path for topic 'Scenario 3: using <keydef> to define reusable keys': 'scenario_3_using_keydef_to_define_reusable_keys.dita'.
+[2026-08-28T11:01:43.179376+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-28T11:01:43.179381+00:00] TopicWriter Assigned path for topic 'DITA map structure components': 'dita_map_structure_components.dita'.
+[2026-08-28T11:01:43.179395+00:00] TopicWriter Assigned path for topic 'DITA map example': 'dita_map_example.dita'.
+[2026-08-28T11:01:43.179401+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-28T11:01:43.179406+00:00] TopicWriter Assigned path for topic 'DITA maps': 'dita_maps.dita'.
+[2026-08-28T11:01:43.179420+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-28T11:01:43.179434+00:00] TopicWriter Assigned path for topic 'Map validation checklist': 'map_validation_checklist.dita'.
+[2026-08-28T11:01:43.179448+00:00] TopicWriter Assigned path for topic 'Map organization rules': 'map_organization_rules.dita'.
+[2026-08-28T11:01:43.179454+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-28T11:01:43.179460+00:00] TopicWriter Assigned path for topic 'Map organization best practices': 'map_organization_best_practices.dita'.
+[2026-08-28T11:01:43.179465+00:00] TopicWriter Path assignment complete for 4 node(s).
+[2026-08-28T11:01:43.179471+00:00] TopicWriter Assigned path for topic 'DITA architecture': 'dita_architecture.dita'.
+[2026-08-28T11:01:43.179549+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-28T11:01:43.179568+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-28T11:01:43.179582+00:00] TopicWriter Assigned path for topic 'Characteristics': 'characteristics.dita'.
+[2026-08-28T11:01:43.179599+00:00] TopicWriter Assigned path for topic 'When to use concept topics': 'when_to_use_concept_topics.dita'.
+[2026-08-28T11:01:43.179613+00:00] TopicWriter Assigned path for topic 'Common elements': 'common_elements.dita'.
+[2026-08-28T11:01:43.179627+00:00] TopicWriter Assigned path for topic 'Concept topic example': 'concept_topic_example.dita'.
+[2026-08-28T11:01:43.179649+00:00] TopicWriter Assigned path for topic 'Scenario: graphical representation in a concept topic': 'scenario_graphical_representation_in_a_concept_topic.dita'.
+[2026-08-28T11:01:43.179656+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-28T11:01:43.179662+00:00] TopicWriter Assigned path for topic 'Concept topics': 'concept_topics.dita'.
+[2026-08-28T11:01:43.179677+00:00] TopicWriter Assigning output paths for 15 node(s).
+[2026-08-28T11:01:43.179693+00:00] TopicWriter Assigned path for topic 'Characteristics': 'characteristics_2.dita'.
+[2026-08-28T11:01:43.179709+00:00] TopicWriter Assigned path for topic 'When to use task topics': 'when_to_use_task_topics.dita'.
+[2026-08-28T11:01:43.179723+00:00] TopicWriter Assigned path for topic 'Common elements': 'common_elements_2.dita'.
+[2026-08-28T11:01:43.179740+00:00] TopicWriter Assigned path for topic 'Task topic example': 'task_topic_example.dita'.
+[2026-08-28T11:01:43.179756+00:00] TopicWriter Assigned path for topic 'Scenario 1: prerequisites in a task topic': 'scenario_1_prerequisites_in_a_task_topic.dita'.
+[2026-08-28T11:01:43.179843+00:00] TopicWriter Assigned path for topic 'Scenario 2: info in a task topic': 'scenario_2_info_in_a_task_topic.dita'.
+[2026-08-28T11:01:43.179915+00:00] TopicWriter Assigned path for topic 'Scenario 3: step result in a task topic': 'scenario_3_step_result_in_a_task_topic.dita'.
+[2026-08-28T11:01:43.179959+00:00] TopicWriter Assigned path for topic 'Scenario 4: substeps in a task topic': 'scenario_4_substeps_in_a_task_topic.dita'.
+[2026-08-28T11:01:43.179989+00:00] TopicWriter Assigned path for topic 'Scenario 5: choices in a task topic': 'scenario_5_choices_in_a_task_topic.dita'.
+[2026-08-28T11:01:43.180020+00:00] TopicWriter Assigned path for topic 'Scenario 6: choice table in a task topic': 'scenario_6_choice_table_in_a_task_topic.dita'.
+[2026-08-28T11:01:43.180048+00:00] TopicWriter Assigned path for topic 'Scenario 7: result in a task topic': 'scenario_7_result_in_a_task_topic.dita'.
+[2026-08-28T11:01:43.180076+00:00] TopicWriter Assigned path for topic 'Scenario 8: postrequisites in a task topic': 'scenario_8_postrequisites_in_a_task_topic.dita'.
+[2026-08-28T11:01:43.180105+00:00] TopicWriter Assigned path for topic 'Scenario 9: in-line image in a task topic': 'scenario_9_in_line_image_in_a_task_topic.dita'.
+[2026-08-28T11:01:43.180174+00:00] TopicWriter Assigned path for topic 'Scenario 10: block image in a task topic': 'scenario_10_block_image_in_a_task_topic.dita'.
+[2026-08-28T11:01:43.180218+00:00] TopicWriter Assigned path for topic 'Scenario 11: table in a task topic': 'scenario_11_table_in_a_task_topic.dita'.
+[2026-08-28T11:01:43.180232+00:00] TopicWriter Path assignment complete for 15 node(s).
+[2026-08-28T11:01:43.180245+00:00] TopicWriter Assigned path for topic 'Task topics': 'task_topics.dita'.
+[2026-08-28T11:01:43.180311+00:00] TopicWriter Assigning output paths for 12 node(s).
+[2026-08-28T11:01:43.180369+00:00] TopicWriter Assigned path for topic 'Characteristics': 'characteristics_3.dita'.
+[2026-08-28T11:01:43.180397+00:00] TopicWriter Assigned path for topic 'When to use reference topics': 'when_to_use_reference_topics.dita'.
+[2026-08-28T11:01:43.180435+00:00] TopicWriter Assigned path for topic 'Common elements': 'common_elements_3.dita'.
+[2026-08-28T11:01:43.180496+00:00] TopicWriter Assigned path for topic 'Reference topic example': 'reference_topic_example.dita'.
+[2026-08-28T11:01:43.180562+00:00] TopicWriter Assigned path for topic 'Scenario 1: no table caption is required': 'scenario_1_no_table_caption_is_required.dita'.
+[2026-08-28T11:01:43.180598+00:00] TopicWriter Assigned path for topic 'Scenario 2: table caption is required': 'scenario_2_table_caption_is_required.dita'.
+[2026-08-28T11:01:43.180631+00:00] TopicWriter Assigned path for topic 'Scenario 3: nested tables in a reference topic': 'scenario_3_nested_tables_in_a_reference_topic.dita'.
+[2026-08-28T11:01:43.180684+00:00] TopicWriter Assigned path for topic 'Scenario 4: API in a reference topic': 'scenario_4_api_in_a_reference_topic.dita'.
+[2026-08-28T11:01:43.180712+00:00] TopicWriter Assigned path for topic 'Scenario 5: CLI reference topic': 'scenario_5_cli_reference_topic.dita'.
+[2026-08-28T11:01:43.180743+00:00] TopicWriter Assigned path for topic 'Scenario 6: supported platforms in a reference topic': 'scenario_6_supported_platforms_in_a_reference_topic.dita'.
+[2026-08-28T11:01:43.180837+00:00] TopicWriter Assigned path for topic 'Scenario 7: system requirements in a reference topic': 'scenario_7_system_requirements_in_a_reference_topic.dita'.
+[2026-08-28T11:01:43.180882+00:00] TopicWriter Assigned path for topic 'Scenario 8: checklists in a reference topic': 'scenario_8_checklists_in_a_reference_topic.dita'.
+[2026-08-28T11:01:43.181697+00:00] TopicWriter Path assignment complete for 12 node(s).
+[2026-08-28T11:01:43.181710+00:00] TopicWriter Assigned path for topic 'Reference topics': 'reference_topics.dita'.
+[2026-08-28T11:01:43.181749+00:00] TopicWriter Assigning output paths for 4 node(s).
+[2026-08-28T11:01:43.181834+00:00] TopicWriter Assigned path for topic 'Characteristics': 'characteristics_4.dita'.
+[2026-08-28T11:01:43.181861+00:00] TopicWriter Assigned path for topic 'When to use troubleshooting topics': 'when_to_use_troubleshooting_topics.dita'.
+[2026-08-28T11:01:43.181881+00:00] TopicWriter Assigned path for topic 'Common elements': 'common_elements_4.dita'.
+[2026-08-28T11:01:43.181906+00:00] TopicWriter Assigned path for topic 'Troubleshooting topic example': 'troubleshooting_topic_example.dita'.
+[2026-08-28T11:01:43.181925+00:00] TopicWriter Path assignment complete for 4 node(s).
+[2026-08-28T11:01:43.181934+00:00] TopicWriter Assigned path for topic 'Troubleshooting topics': 'troubleshooting_topics.dita'.
+[2026-08-28T11:01:43.181969+00:00] TopicWriter Assigning output paths for 4 node(s).
+[2026-08-28T11:01:43.181986+00:00] TopicWriter Assigned path for topic 'Characteristics': 'characteristics_5.dita'.
+[2026-08-28T11:01:43.182002+00:00] TopicWriter Assigned path for topic 'When to use glossary topics': 'when_to_use_glossary_topics.dita'.
+[2026-08-28T11:01:43.182018+00:00] TopicWriter Assigned path for topic 'Common elements': 'common_elements_5.dita'.
+[2026-08-28T11:01:43.182033+00:00] TopicWriter Assigned path for topic 'Glossary entry example': 'glossary_entry_example.dita'.
+[2026-08-28T11:01:43.182039+00:00] TopicWriter Path assignment complete for 4 node(s).
+[2026-08-28T11:01:43.182045+00:00] TopicWriter Assigned path for topic 'Glossary topics': 'glossary_topics.dita'.
+[2026-08-28T11:01:43.182050+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-28T11:01:43.182057+00:00] TopicWriter Assigned path for topic 'Topic types': 'topic_types.dita'.
+[2026-08-28T11:01:43.182159+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-28T11:01:43.182181+00:00] TopicWriter Assigned path for topic 'Block-level elements': 'block_level_elements.dita'.
+[2026-08-28T11:01:43.182195+00:00] TopicWriter Assigned path for topic 'Inline elements': 'inline_elements.dita'.
+[2026-08-28T11:01:43.182210+00:00] TopicWriter Assigned path for topic 'List elements': 'list_elements.dita'.
+[2026-08-28T11:01:43.182223+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-28T11:01:43.182237+00:00] TopicWriter Assigned path for topic 'Table example': 'table_example.dita'.
+[2026-08-28T11:01:43.182252+00:00] TopicWriter Assigned path for topic 'Simple table example': 'simple_table_example.dita'.
+[2026-08-28T11:01:43.182266+00:00] TopicWriter Assigned path for topic 'Parameter table example': 'parameter_table_example.dita'.
+[2026-08-28T11:01:43.182272+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-28T11:01:43.182283+00:00] TopicWriter Assigned path for topic 'Table elements': 'table_elements.dita'.
+[2026-08-28T11:01:43.182298+00:00] TopicWriter Assigned path for topic 'Admonition elements': 'admonition_elements.dita'.
+[2026-08-28T11:01:43.182304+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-28T11:01:43.182309+00:00] TopicWriter Assigned path for topic 'Elements reference': 'elements_reference.dita'.
+[2026-08-28T11:01:43.182395+00:00] TopicWriter Assigning output paths for 4 node(s).
+[2026-08-28T11:01:43.182416+00:00] TopicWriter Assigned path for topic 'Understanding DITA metadata': 'understanding_dita_metadata.dita'.
+[2026-08-28T11:01:43.182431+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.182450+00:00] TopicWriter Assigned path for topic 'Prolog example:': 'prolog_example.dita'.
+[2026-08-28T11:01:43.182456+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.182462+00:00] TopicWriter Assigned path for topic 'Prolog element': 'prolog_element.dita'.
+[2026-08-28T11:01:43.182478+00:00] TopicWriter Assigned path for topic 'Metadata elements': 'metadata_elements.dita'.
+[2026-08-28T11:01:43.182496+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.182512+00:00] TopicWriter Assigned path for topic 'Scenario: topicmeta in practice': 'scenario_topicmeta_in_practice.dita'.
+[2026-08-28T11:01:43.182520+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.182526+00:00] TopicWriter Assigned path for topic 'Topicmeta in maps': 'topicmeta_in_maps.dita'.
+[2026-08-28T11:01:43.182531+00:00] TopicWriter Path assignment complete for 4 node(s).
+[2026-08-28T11:01:43.182537+00:00] TopicWriter Assigned path for topic 'Metadata': 'metadata.dita'.
+[2026-08-28T11:01:43.182614+00:00] TopicWriter Assigning output paths for 6 node(s).
+[2026-08-28T11:01:43.182635+00:00] TopicWriter Assigned path for topic 'Principles of content reuse': 'principles_of_content_reuse.dita'.
+[2026-08-28T11:01:43.182650+00:00] TopicWriter Assigned path for topic 'Identifying reusable content': 'identifying_reusable_content.dita'.
+[2026-08-28T11:01:43.182666+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-28T11:01:43.182683+00:00] TopicWriter Assigned path for topic 'Step 1: Create the reusable content file': 'step_1_create_the_reusable_content_file.dita'.
+[2026-08-28T11:01:43.182699+00:00] TopicWriter Assigned path for topic 'Step 2: Reference the content': 'step_2_reference_the_content.dita'.
+[2026-08-28T11:01:43.182705+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-28T11:01:43.182711+00:00] TopicWriter Assigned path for topic 'conref: Content reference': 'conref_content_reference.dita'.
+[2026-08-28T11:01:43.182725+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-28T11:01:43.182741+00:00] TopicWriter Assigned path for topic 'Step 1: Define keys in the map': 'step_1_define_keys_in_the_map.dita'.
+[2026-08-28T11:01:43.182758+00:00] TopicWriter Assigned path for topic 'Step 2: Use the keys in topics': 'step_2_use_the_keys_in_topics.dita'.
+[2026-08-28T11:01:43.182788+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-28T11:01:43.182798+00:00] TopicWriter Assigned path for topic 'keyref: key-based reference': 'keyref_key_based_reference.dita'.
+[2026-08-28T11:01:43.182820+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-28T11:01:43.182835+00:00] TopicWriter Assigned path for topic 'In the map': 'in_the_map.dita'.
+[2026-08-28T11:01:43.182850+00:00] TopicWriter Assigned path for topic 'In the topic': 'in_the_topic.dita'.
+[2026-08-28T11:01:43.182856+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-28T11:01:43.182862+00:00] TopicWriter Assigned path for topic 'conkeyref: key-based content reference': 'conkeyref_key_based_content_reference.dita'.
+[2026-08-28T11:01:43.182877+00:00] TopicWriter Assigned path for topic 'Reuse validation checklist': 'reuse_validation_checklist.dita'.
+[2026-08-28T11:01:43.182883+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-08-28T11:01:43.182888+00:00] TopicWriter Assigned path for topic 'Content reuse': 'content_reuse.dita'.
+[2026-08-28T11:01:43.182973+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.182992+00:00] TopicWriter Assigned path for topic 'Scenario: profiling in practice': 'scenario_profiling_in_practice.dita'.
+[2026-08-28T11:01:43.182999+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.183005+00:00] TopicWriter Assigned path for topic 'Profiling attributes': 'profiling_attributes.dita'.
+[2026-08-28T11:01:43.183078+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-28T11:01:43.183097+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-28T11:01:43.183113+00:00] TopicWriter Assigned path for topic 'Language tagging': 'language_tagging.dita'.
+[2026-08-28T11:01:43.183128+00:00] TopicWriter Assigned path for topic 'Reuse for translation': 'reuse_for_translation.dita'.
+[2026-08-28T11:01:43.183145+00:00] TopicWriter Assigned path for topic 'Scenario: translation cost savings': 'scenario_translation_cost_savings.dita'.
+[2026-08-28T11:01:43.183151+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-28T11:01:43.183157+00:00] TopicWriter Assigned path for topic 'Localization support': 'localization_support.dita'.
+[2026-08-28T11:01:43.183184+00:00] TopicWriter Assigning output paths for 4 node(s).
+[2026-08-28T11:01:43.183200+00:00] TopicWriter Assigned path for topic 'Image accessibility': 'image_accessibility.dita'.
+[2026-08-28T11:01:43.183214+00:00] TopicWriter Assigned path for topic 'Heading structure': 'heading_structure.dita'.
+[2026-08-28T11:01:43.183228+00:00] TopicWriter Assigned path for topic 'Table accessibility': 'table_accessibility.dita'.
+[2026-08-28T11:01:43.183243+00:00] TopicWriter Assigned path for topic 'Accessibility checklist': 'accessibility_checklist.dita'.
+[2026-08-28T11:01:43.183254+00:00] TopicWriter Path assignment complete for 4 node(s).
+[2026-08-28T11:01:43.183260+00:00] TopicWriter Assigned path for topic 'Accessibility requirements': 'accessibility_requirements.dita'.
+[2026-08-28T11:01:43.183265+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-28T11:01:43.183271+00:00] TopicWriter Assigned path for topic 'Localization and accessibility': 'localization_and_accessibility.dita'.
+[2026-08-28T11:01:43.183344+00:00] TopicWriter Assigning output paths for 6 node(s).
+[2026-08-28T11:01:43.183364+00:00] TopicWriter Assigned path for topic 'Voice and tone': 'voice_and_tone.dita'.
+[2026-08-28T11:01:43.183378+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-28T11:01:43.183394+00:00] TopicWriter Assigned path for topic 'Imperative verbs for commands': 'imperative_verbs_for_commands.dita'.
+[2026-08-28T11:01:43.183407+00:00] TopicWriter Assigned path for topic 'Command example': 'command_example.dita'.
+[2026-08-28T11:01:43.183414+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-28T11:01:43.183419+00:00] TopicWriter Assigned path for topic 'Command element rules': 'command_element_rules.dita'.
+[2026-08-28T11:01:43.183433+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-28T11:01:43.183447+00:00] TopicWriter Assigned path for topic 'Short description examples': 'short_description_examples.dita'.
+[2026-08-28T11:01:43.183453+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-28T11:01:43.183458+00:00] TopicWriter Assigned path for topic 'Short description rules': 'short_description_rules.dita'.
+[2026-08-28T11:01:43.183471+00:00] TopicWriter Assigned path for topic 'UI Element references': 'ui_element_references.dita'.
+[2026-08-28T11:01:43.183485+00:00] TopicWriter Assigned path for topic 'Punctuation rules': 'punctuation_rules.dita'.
+[2026-08-28T11:01:43.183500+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-28T11:01:43.183514+00:00] TopicWriter Assigned path for topic 'Google Style Guide': 'google_style_guide.dita'.
+[2026-08-28T11:01:43.183527+00:00] TopicWriter Assigned path for topic 'IBM style': 'ibm_style.dita'.
+[2026-08-28T11:01:43.183543+00:00] TopicWriter Assigned path for topic 'Chicago Manual of Style (CMOS)': 'chicago_manual_of_style_cmos.dita'.
+[2026-08-28T11:01:43.183563+00:00] TopicWriter Assigned path for topic 'S1000D and ASD‑STE100': 's1000d_and_asd_ste100.dita'.
+[2026-08-28T11:01:43.183581+00:00] TopicWriter Assigned path for topic 'Miscelllaneous style guides': 'miscelllaneous_style_guides.dita'.
+[2026-08-28T11:01:43.183587+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-28T11:01:43.183592+00:00] TopicWriter Assigned path for topic 'Style guides across industries': 'style_guides_across_industries.dita'.
+[2026-08-28T11:01:43.183598+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-08-28T11:01:43.183603+00:00] TopicWriter Assigned path for topic 'Writing style guidelines': 'writing_style_guidelines.dita'.
+[2026-08-28T11:01:43.183676+00:00] TopicWriter Assigning output paths for 7 node(s).
+[2026-08-28T11:01:43.183695+00:00] TopicWriter Assigned path for topic 'Misusing topic types': 'misusing_topic_types.dita'.
+[2026-08-28T11:01:43.183710+00:00] TopicWriter Assigned path for topic 'Poor content modularity': 'poor_content_modularity.dita'.
+[2026-08-28T11:01:43.183724+00:00] TopicWriter Assigned path for topic 'Hardcoding content': 'hardcoding_content.dita'.
+[2026-08-28T11:01:43.183737+00:00] TopicWriter Assigned path for topic 'Ignoring metadata': 'ignoring_metadata.dita'.
+[2026-08-28T11:01:43.183753+00:00] TopicWriter Assigned path for topic 'Over-nesting in maps': 'over_nesting_in_maps.dita'.
+[2026-08-28T11:01:43.183825+00:00] TopicWriter Assigned path for topic 'Missing or weak short descriptions': 'missing_or_weak_short_descriptions.dita'.
+[2026-08-28T11:01:43.183950+00:00] TopicWriter Assigned path for topic 'Common errors': 'common_errors.dita'.
+[2026-08-28T11:01:43.183968+00:00] TopicWriter Path assignment complete for 7 node(s).
+[2026-08-28T11:01:43.183979+00:00] TopicWriter Assigned path for topic 'Common pitfalls and solutions': 'common_pitfalls_and_solutions.dita'.
+[2026-08-28T11:01:43.184141+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-28T11:01:43.184186+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-28T11:01:43.184215+00:00] TopicWriter Assigned path for topic 'Analysis': 'analysis.dita'.
+[2026-08-28T11:01:43.184243+00:00] TopicWriter Assigned path for topic 'Conversion strategy': 'conversion_strategy.dita'.
+[2026-08-28T11:01:43.184255+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-28T11:01:43.184269+00:00] TopicWriter Assigned path for topic 'Scenario 1: creating a software user guide': 'scenario_1_creating_a_software_user_guide.dita'.
+[2026-08-28T11:01:43.184298+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-28T11:01:43.184335+00:00] TopicWriter Assigned path for topic 'Analysis': 'analysis_2.dita'.
+[2026-08-28T11:01:43.184362+00:00] TopicWriter Assigned path for topic 'Conversion strategy': 'conversion_strategy_2.dita'.
+[2026-08-28T11:01:43.184373+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-28T11:01:43.184382+00:00] TopicWriter Assigned path for topic 'Scenario 2: writing API documentation': 'scenario_2_writing_api_documentation.dita'.
+[2026-08-28T11:01:43.184403+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-28T11:01:43.184419+00:00] TopicWriter Assigned path for topic 'Profiling attributes': 'profiling_attributes_2.dita'.
+[2026-08-28T11:01:43.184438+00:00] TopicWriter Assigned path for topic 'Publishing outputs': 'publishing_outputs.dita'.
+[2026-08-28T11:01:43.184449+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-28T11:01:43.184458+00:00] TopicWriter Assigned path for topic 'Scenario 3: handling conditional content': 'scenario_3_handling_conditional_content.dita'.
+[2026-08-28T11:01:43.184468+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-28T11:01:43.184479+00:00] TopicWriter Assigned path for topic 'Worked examples and scenarios': 'worked_examples_and_scenarios.dita'.
+[2026-08-28T11:01:43.184489+00:00] TopicWriter Path assignment complete for 17 node(s).
+[2026-08-28T11:01:43.184517+00:00] TopicWriter Walking topic tree and writing DITA files.
+[2026-08-28T11:01:43.184535+00:00] TopicWriter Writing topic 'DITA Best Practices Guide' to .dita file.
+[2026-08-28T11:01:43.184549+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.184860+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.184981+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.185314+00:00] TopicWriter Topic 'dita_best_practices_guide.dita' written successfully.
+[2026-08-28T11:01:43.185345+00:00] TopicWriter Writing topic 'Revision history' to .dita file.
+[2026-08-28T11:01:43.185358+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.185487+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.185512+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.185709+00:00] TopicWriter Topic 'revision_history.dita' written successfully.
+[2026-08-28T11:01:43.185735+00:00] TopicWriter Writing topic 'Introduction' to .dita file.
+[2026-08-28T11:01:43.185750+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.186066+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.186136+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.186396+00:00] TopicWriter Topic 'introduction.dita' written successfully.
+[2026-08-28T11:01:43.186425+00:00] TopicWriter Writing topic 'What is DITA?' to .dita file.
+[2026-08-28T11:01:43.186438+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.186705+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.186811+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.187026+00:00] TopicWriter Topic 'what_is_dita.dita' written successfully.
+[2026-08-28T11:01:43.187053+00:00] TopicWriter Writing topic 'The Darwin in DITA' to .dita file.
+[2026-08-28T11:01:43.187066+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.187270+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.187327+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.187556+00:00] TopicWriter Topic 'the_darwin_in_dita.dita' written successfully.
+[2026-08-28T11:01:43.187584+00:00] TopicWriter Writing topic 'Why DITA matters for technical writers' to .dita file.
+[2026-08-28T11:01:43.187597+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.188067+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.188221+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.188440+00:00] TopicWriter Topic 'why_dita_matters_for_technical_writers.dita' written successfully.
+[2026-08-28T11:01:43.188469+00:00] TopicWriter Writing topic 'The challenge of traditional documentation' to .dita file.
+[2026-08-28T11:01:43.188481+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.188588+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.188614+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.188827+00:00] TopicWriter Topic 'the_challenge_of_traditional_documentation.dita' written successfully.
+[2026-08-28T11:01:43.188858+00:00] TopicWriter Writing topic 'Before DITA' to .dita file.
+[2026-08-28T11:01:43.188872+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.189071+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.189126+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.189338+00:00] TopicWriter Topic 'before_dita.dita' written successfully.
+[2026-08-28T11:01:43.189363+00:00] TopicWriter Writing topic 'After DITA' to .dita file.
+[2026-08-28T11:01:43.189376+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.189641+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.189707+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.189929+00:00] TopicWriter Topic 'after_dita.dita' written successfully.
+[2026-08-28T11:01:43.189955+00:00] TopicWriter Writing topic 'Key benefits of DITA' to .dita file.
+[2026-08-28T11:01:43.189969+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.190229+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.190295+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.190506+00:00] TopicWriter Topic 'key_benefits_of_dita.dita' written successfully.
+[2026-08-28T11:01:43.190532+00:00] TopicWriter Writing topic 'Scalable documentation architecture' to .dita file.
+[2026-08-28T11:01:43.190546+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.190845+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.190925+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.191137+00:00] TopicWriter Topic 'scalable_documentation_architecture.dita' written successfully.
+[2026-08-28T11:01:43.191164+00:00] TopicWriter Writing topic 'Scenario: enterprise documentation scale' to .dita file.
+[2026-08-28T11:01:43.191177+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.291884+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.292037+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.292351+00:00] TopicWriter Topic 'scenario_enterprise_documentation_scale.dita' written successfully.
+[2026-08-28T11:01:43.292387+00:00] TopicWriter Writing topic 'Topic-based modular writing' to .dita file.
+[2026-08-28T11:01:43.292401+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.292704+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.292806+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.293050+00:00] TopicWriter Topic 'topic_based_modular_writing.dita' written successfully.
+[2026-08-28T11:01:43.293079+00:00] TopicWriter Writing topic 'Scenario: the one topic = one intent principle' to .dita file.
+[2026-08-28T11:01:43.293093+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.294277+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.294717+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.294847+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.296372+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.296616+00:00] TopicWriter Topic 'scenario_the_one_topic_one_intent_principle.dita' written successfully.
+[2026-08-28T11:01:43.296651+00:00] TopicWriter Writing topic 'Scalable content reuse' to .dita file.
+[2026-08-28T11:01:43.296667+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.297010+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.297089+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.297306+00:00] TopicWriter Topic 'scalable_content_reuse.dita' written successfully.
+[2026-08-28T11:01:43.297333+00:00] TopicWriter Writing topic 'Scenario: reuse in action' to .dita file.
+[2026-08-28T11:01:43.297346+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.297941+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.298094+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.298326+00:00] TopicWriter Topic 'scenario_reuse_in_action.dita' written successfully.
+[2026-08-28T11:01:43.298355+00:00] TopicWriter Writing topic 'Metadata-driven filtering and personalization' to .dita file.
+[2026-08-28T11:01:43.298367+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.298560+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.298618+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.298851+00:00] TopicWriter Topic 'metadata_driven_filtering_and_personalization.dita' written successfully.
+[2026-08-28T11:01:43.298878+00:00] TopicWriter Writing topic 'Scenario: conditional publishing' to .dita file.
+[2026-08-28T11:01:43.298891+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.299397+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.299504+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.299727+00:00] TopicWriter Topic 'scenario_conditional_publishing.dita' written successfully.
+[2026-08-28T11:01:43.299755+00:00] TopicWriter Writing topic 'AI optimization' to .dita file.
+[2026-08-28T11:01:43.299785+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.300001+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.300054+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.300262+00:00] TopicWriter Topic 'ai_optimization.dita' written successfully.
+[2026-08-28T11:01:43.300288+00:00] TopicWriter Writing topic 'Scenario: AI-powered documentation' to .dita file.
+[2026-08-28T11:01:43.300301+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.300778+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.300919+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.300964+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-28T11:01:43.301385+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-28T11:01:43.301596+00:00] topic_structure <steps> block built with 4 step(s).
+[2026-08-28T11:01:43.301651+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-28T11:01:43.301671+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-28T11:01:43.303306+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-28T11:01:43.303568+00:00] TopicWriter Topic 'scenario_ai_powered_documentation.dita' written successfully.
+[2026-08-28T11:01:43.303596+00:00] TopicWriter Writing topic 'Multi-channel publishing' to .dita file.
+[2026-08-28T11:01:43.303609+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.303815+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.303868+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.304068+00:00] TopicWriter Topic 'multi_channel_publishing.dita' written successfully.
+[2026-08-28T11:01:43.304095+00:00] TopicWriter Writing topic 'Publishing output comparison' to .dita file.
+[2026-08-28T11:01:43.304108+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.305314+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.305876+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.306007+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.307487+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.307711+00:00] TopicWriter Topic 'publishing_output_comparison.dita' written successfully.
+[2026-08-28T11:01:43.307740+00:00] TopicWriter Writing topic 'Core characteristics of DITA' to .dita file.
+[2026-08-28T11:01:43.307754+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.308008+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.308070+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.308282+00:00] TopicWriter Topic 'core_characteristics_of_dita.dita' written successfully.
+[2026-08-28T11:01:43.308309+00:00] TopicWriter Writing topic 'Self-descriptive content' to .dita file.
+[2026-08-28T11:01:43.308322+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.308599+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.308672+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.308904+00:00] TopicWriter Topic 'self_descriptive_content.dita' written successfully.
+[2026-08-28T11:01:43.308930+00:00] TopicWriter Writing topic 'Scenario: semantic structure' to .dita file.
+[2026-08-28T11:01:43.308942+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.309400+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.309495+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.309718+00:00] TopicWriter Topic 'scenario_semantic_structure.dita' written successfully.
+[2026-08-28T11:01:43.309745+00:00] TopicWriter Writing topic 'Contrast with unstructured content' to .dita file.
+[2026-08-28T11:01:43.309757+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.310161+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.310287+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.310328+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-28T11:01:43.310658+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-28T11:01:43.310822+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-28T11:01:43.310879+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-28T11:01:43.310899+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-28T11:01:43.311822+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-28T11:01:43.312062+00:00] TopicWriter Topic 'contrast_with_unstructured_content.dita' written successfully.
+[2026-08-28T11:01:43.312093+00:00] TopicWriter Writing topic 'Contextual inheritance' to .dita file.
+[2026-08-28T11:01:43.312106+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.312345+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.312408+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.312611+00:00] TopicWriter Topic 'contextual_inheritance.dita' written successfully.
+[2026-08-28T11:01:43.312637+00:00] TopicWriter Writing topic 'Scenario: inheritance in maps' to .dita file.
+[2026-08-28T11:01:43.312650+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.313430+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.313577+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.313832+00:00] TopicWriter Topic 'scenario_inheritance_in_maps.dita' written successfully.
+[2026-08-28T11:01:43.313859+00:00] TopicWriter Writing topic 'Extensibility' to .dita file.
+[2026-08-28T11:01:43.313873+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.314145+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.314212+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.314434+00:00] TopicWriter Topic 'extensibility.dita' written successfully.
+[2026-08-28T11:01:43.314461+00:00] TopicWriter Writing topic 'Scenario: domain specialization' to .dita file.
+[2026-08-28T11:01:43.314474+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.315258+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.315454+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.315669+00:00] TopicWriter Topic 'scenario_domain_specialization.dita' written successfully.
+[2026-08-28T11:01:43.315701+00:00] TopicWriter Writing topic 'Hierarchical structure' to .dita file.
+[2026-08-28T11:01:43.315718+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.315975+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.316048+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.316278+00:00] TopicWriter Topic 'hierarchical_structure.dita' written successfully.
+[2026-08-28T11:01:43.316304+00:00] TopicWriter Writing topic 'Understanding DITA's layered hierarchy' to .dita file.
+[2026-08-28T11:01:43.316317+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.316507+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.316562+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.316783+00:00] TopicWriter Topic 'understanding_dita_s_layered_hierarchy.dita' written successfully.
+[2026-08-28T11:01:43.316812+00:00] TopicWriter Writing topic 'Structural hierarchy' to .dita file.
+[2026-08-28T11:01:43.316825+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.317081+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.317146+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.317364+00:00] TopicWriter Topic 'structural_hierarchy.dita' written successfully.
+[2026-08-28T11:01:43.317392+00:00] TopicWriter Writing topic 'Scenario: ideal map structure' to .dita file.
+[2026-08-28T11:01:43.317405+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.318439+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.318633+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.318874+00:00] TopicWriter Topic 'scenario_ideal_map_structure.dita' written successfully.
+[2026-08-28T11:01:43.318903+00:00] TopicWriter Writing topic 'Content hierarchy' to .dita file.
+[2026-08-28T11:01:43.318916+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.319492+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.319633+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.319660+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-28T11:01:43.320196+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-28T11:01:43.320473+00:00] topic_structure <steps> block built with 5 step(s).
+[2026-08-28T11:01:43.320497+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-28T11:01:43.320512+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-28T11:01:43.322829+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-28T11:01:43.323096+00:00] TopicWriter Topic 'content_hierarchy.dita' written successfully.
+[2026-08-28T11:01:43.323124+00:00] TopicWriter Writing topic 'Scenario: user learning journey' to .dita file.
+[2026-08-28T11:01:43.323139+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.324334+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.324835+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.324939+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.326507+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.326727+00:00] TopicWriter Topic 'scenario_user_learning_journey.dita' written successfully.
+[2026-08-28T11:01:43.326756+00:00] TopicWriter Writing topic 'Element hierarchy' to .dita file.
+[2026-08-28T11:01:43.326789+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.326981+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.327035+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.327232+00:00] TopicWriter Topic 'element_hierarchy.dita' written successfully.
+[2026-08-28T11:01:43.327260+00:00] TopicWriter Writing topic 'Scenario: task topic element hierarchy' to .dita file.
+[2026-08-28T11:01:43.327275+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.329424+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.329711+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.330020+00:00] TopicWriter Topic 'scenario_task_topic_element_hierarchy.dita' written successfully.
+[2026-08-28T11:01:43.330050+00:00] TopicWriter Writing topic 'Content organization' to .dita file.
+[2026-08-28T11:01:43.330064+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.330315+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.330381+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.330594+00:00] TopicWriter Topic 'content_organization.dita' written successfully.
+[2026-08-28T11:01:43.330620+00:00] TopicWriter Writing topic 'Principles of DITA content organization' to .dita file.
+[2026-08-28T11:01:43.330633+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.330898+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.330975+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.331181+00:00] TopicWriter Topic 'principles_of_dita_content_organization.dita' written successfully.
+[2026-08-28T11:01:43.331207+00:00] TopicWriter Writing topic 'Folder structure strategies' to .dita file.
+[2026-08-28T11:01:43.331219+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.331317+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.331336+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.331518+00:00] TopicWriter Topic 'folder_structure_strategies.dita' written successfully.
+[2026-08-28T11:01:43.331547+00:00] TopicWriter Writing topic 'Flat folder structure' to .dita file.
+[2026-08-28T11:01:43.331560+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.331755+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.331828+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.332031+00:00] TopicWriter Topic 'flat_folder_structure.dita' written successfully.
+[2026-08-28T11:01:43.332057+00:00] TopicWriter Writing topic 'Scenario: folder structure for projects with fewer than 30 topics' to .dita file.
+[2026-08-28T11:01:43.332070+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.332628+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.332715+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.332941+00:00] TopicWriter Topic 'scenario_folder_structure_for_projects_with_fewer_than_30_topics.dita' written successfully.
+[2026-08-28T11:01:43.332968+00:00] TopicWriter Writing topic 'Advantages of flat structure' to .dita file.
+[2026-08-28T11:01:43.332981+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.333266+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.333350+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.333559+00:00] TopicWriter Topic 'advantages_of_flat_structure.dita' written successfully.
+[2026-08-28T11:01:43.333591+00:00] TopicWriter Writing topic 'Nested folder structure' to .dita file.
+[2026-08-28T11:01:43.333604+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.333820+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.333873+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.334080+00:00] TopicWriter Topic 'nested_folder_structure.dita' written successfully.
+[2026-08-28T11:01:43.334106+00:00] TopicWriter Writing topic 'Scenario 1: folder structure for projects with more than 30 topics by topic type' to .dita file.
+[2026-08-28T11:01:43.334119+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.335637+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.335833+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.336060+00:00] TopicWriter Topic 'scenario_1_folder_structure_for_projects_with_more_than_30_topics_by_topic_type.dita' written successfully.
+[2026-08-28T11:01:43.336091+00:00] TopicWriter Writing topic 'Scenario 2: folder structure for projects with more than 30 topics by chapters' to .dita file.
+[2026-08-28T11:01:43.336108+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.338161+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.338406+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.338649+00:00] TopicWriter Topic 'scenario_2_folder_structure_for_projects_with_more_than_30_topics_by_chapters.dita' written successfully.
+[2026-08-28T11:01:43.338678+00:00] TopicWriter Writing topic 'Advantages of nested structure' to .dita file.
+[2026-08-28T11:01:43.338691+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.339005+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.339091+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.339303+00:00] TopicWriter Topic 'advantages_of_nested_structure.dita' written successfully.
+[2026-08-28T11:01:43.339329+00:00] TopicWriter Writing topic 'File naming conventions' to .dita file.
+[2026-08-28T11:01:43.339342+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.340239+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.340641+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.340728+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.342179+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.342404+00:00] TopicWriter Topic 'file_naming_conventions.dita' written successfully.
+[2026-08-28T11:01:43.342433+00:00] TopicWriter Writing topic 'Topic type prefixes' to .dita file.
+[2026-08-28T11:01:43.342447+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.343371+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.343756+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.343831+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.345109+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.345324+00:00] TopicWriter Topic 'topic_type_prefixes.dita' written successfully.
+[2026-08-28T11:01:43.345351+00:00] TopicWriter Writing topic 'Scenario: naming a complex topic' to .dita file.
+[2026-08-28T11:01:43.345366+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.345895+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.346064+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.346122+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-28T11:01:43.346547+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-28T11:01:43.346634+00:00] topic_structure <steps> block built with 4 step(s).
+[2026-08-28T11:01:43.346704+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-28T11:01:43.346724+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-28T11:01:43.348081+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-28T11:01:43.348342+00:00] TopicWriter Topic 'scenario_naming_a_complex_topic.dita' written successfully.
+[2026-08-28T11:01:43.348372+00:00] TopicWriter Writing topic 'DITA architecture' to .dita file.
+[2026-08-28T11:01:43.348387+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.348792+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.348860+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.349069+00:00] TopicWriter Topic 'dita_architecture.dita' written successfully.
+[2026-08-28T11:01:43.349095+00:00] TopicWriter Writing topic 'The DITA content system' to .dita file.
+[2026-08-28T11:01:43.349108+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.349635+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.349846+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.350103+00:00] TopicWriter Topic 'the_dita_content_system.dita' written successfully.
+[2026-08-28T11:01:43.350133+00:00] TopicWriter Writing topic 'Book maps' to .dita file.
+[2026-08-28T11:01:43.350146+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.350347+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.350402+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.350610+00:00] TopicWriter Topic 'book_maps.dita' written successfully.
+[2026-08-28T11:01:43.350636+00:00] TopicWriter Writing topic 'Key benefits of book maps' to .dita file.
+[2026-08-28T11:01:43.350649+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.350956+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.351038+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.351252+00:00] TopicWriter Topic 'key_benefits_of_book_maps.dita' written successfully.
+[2026-08-28T11:01:43.351278+00:00] TopicWriter Writing topic 'Book map structure components' to .dita file.
+[2026-08-28T11:01:43.351290+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.352133+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.352500+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.352561+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.353806+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.354048+00:00] TopicWriter Topic 'book_map_structure_components.dita' written successfully.
+[2026-08-28T11:01:43.354076+00:00] TopicWriter Writing topic 'Book map example' to .dita file.
+[2026-08-28T11:01:43.354091+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.356638+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.356906+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.357151+00:00] TopicWriter Topic 'book_map_example.dita' written successfully.
+[2026-08-28T11:01:43.357180+00:00] TopicWriter Writing topic 'DITA maps' to .dita file.
+[2026-08-28T11:01:43.357193+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.357379+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.357432+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.357628+00:00] TopicWriter Topic 'dita_maps.dita' written successfully.
+[2026-08-28T11:01:43.357654+00:00] TopicWriter Writing topic 'Key benefits of DITA maps' to .dita file.
+[2026-08-28T11:01:43.357665+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.357971+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.358074+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.358283+00:00] TopicWriter Topic 'key_benefits_of_dita_maps.dita' written successfully.
+[2026-08-28T11:01:43.358310+00:00] TopicWriter Writing topic 'DITA map structure components' to .dita file.
+[2026-08-28T11:01:43.358326+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.359088+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.359286+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.359572+00:00] TopicWriter Topic 'dita_map_structure_components.dita' written successfully.
+[2026-08-28T11:01:43.359600+00:00] TopicWriter Writing topic 'Scenario 1: using <topicgroup> to cluster related topics' to .dita file.
+[2026-08-28T11:01:43.359614+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.360921+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.361137+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.361471+00:00] TopicWriter Topic 'scenario_1_using_topicgroup_to_cluster_related_topics.dita' written successfully.
+[2026-08-28T11:01:43.361499+00:00] TopicWriter Writing topic 'Why this makes sense' to .dita file.
+[2026-08-28T11:01:43.361513+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.361827+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.361946+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.362177+00:00] TopicWriter Topic 'why_this_makes_sense.dita' written successfully.
+[2026-08-28T11:01:43.362205+00:00] TopicWriter Writing topic 'Scenario 2: using <topichead> to organize navigation sections' to .dita file.
+[2026-08-28T11:01:43.362220+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.363871+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.364081+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.364413+00:00] TopicWriter Topic 'scenario_2_using_topichead_to_organize_navigation_sections.dita' written successfully.
+[2026-08-28T11:01:43.364441+00:00] TopicWriter Writing topic 'Why this makes sense' to .dita file.
+[2026-08-28T11:01:43.364455+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.364784+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.364880+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.365101+00:00] TopicWriter Topic 'why_this_makes_sense_2.dita' written successfully.
+[2026-08-28T11:01:43.365128+00:00] TopicWriter Writing topic 'Scenario 3: using <keydef> to define reusable keys' to .dita file.
+[2026-08-28T11:01:43.365142+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.367254+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.367512+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.367898+00:00] TopicWriter Topic 'scenario_3_using_keydef_to_define_reusable_keys.dita' written successfully.
+[2026-08-28T11:01:43.367929+00:00] TopicWriter Writing topic 'Why this makes sense' to .dita file.
+[2026-08-28T11:01:43.367942+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.368287+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.368386+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.368608+00:00] TopicWriter Topic 'why_this_makes_sense_3.dita' written successfully.
+[2026-08-28T11:01:43.368636+00:00] TopicWriter Writing topic 'DITA map example' to .dita file.
+[2026-08-28T11:01:43.368649+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.370160+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.370336+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.370573+00:00] TopicWriter Topic 'dita_map_example.dita' written successfully.
+[2026-08-28T11:01:43.370602+00:00] TopicWriter Writing topic 'Map organization best practices' to .dita file.
+[2026-08-28T11:01:43.370615+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.370988+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.371044+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.371258+00:00] TopicWriter Topic 'map_organization_best_practices.dita' written successfully.
+[2026-08-28T11:01:43.371285+00:00] TopicWriter Writing topic 'Map validation checklist' to .dita file.
+[2026-08-28T11:01:43.371297+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.371669+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.371799+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.372010+00:00] TopicWriter Topic 'map_validation_checklist.dita' written successfully.
+[2026-08-28T11:01:43.372038+00:00] TopicWriter Writing topic 'Map organization rules' to .dita file.
+[2026-08-28T11:01:43.372054+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.373604+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.373932+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.374235+00:00] TopicWriter Topic 'map_organization_rules.dita' written successfully.
+[2026-08-28T11:01:43.374264+00:00] TopicWriter Writing topic 'Topic types' to .dita file.
+[2026-08-28T11:01:43.374278+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.374578+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.374670+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.374906+00:00] TopicWriter Topic 'topic_types.dita' written successfully.
+[2026-08-28T11:01:43.374933+00:00] TopicWriter Writing topic 'Concept topics' to .dita file.
+[2026-08-28T11:01:43.374947+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.375252+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.375356+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.375556+00:00] TopicWriter Topic 'concept_topics.dita' written successfully.
+[2026-08-28T11:01:43.375582+00:00] TopicWriter Writing topic 'Characteristics' to .dita file.
+[2026-08-28T11:01:43.375594+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.375902+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.375982+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.376186+00:00] TopicWriter Topic 'characteristics.dita' written successfully.
+[2026-08-28T11:01:43.376215+00:00] TopicWriter Writing topic 'When to use concept topics' to .dita file.
+[2026-08-28T11:01:43.376229+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.376515+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.376594+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.376817+00:00] TopicWriter Topic 'when_to_use_concept_topics.dita' written successfully.
+[2026-08-28T11:01:43.376843+00:00] TopicWriter Writing topic 'Common elements' to .dita file.
+[2026-08-28T11:01:43.376856+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.377940+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.378392+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.378475+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.380409+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.380639+00:00] TopicWriter Topic 'common_elements.dita' written successfully.
+[2026-08-28T11:01:43.380667+00:00] TopicWriter Writing topic 'Concept topic example' to .dita file.
+[2026-08-28T11:01:43.380685+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.382802+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.383032+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.383355+00:00] TopicWriter Topic 'concept_topic_example.dita' written successfully.
+[2026-08-28T11:01:43.383384+00:00] TopicWriter Writing topic 'Scenario: graphical representation in a concept topic' to .dita file.
+[2026-08-28T11:01:43.383400+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.385818+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.386147+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.386401+00:00] TopicWriter Topic 'scenario_graphical_representation_in_a_concept_topic.dita' written successfully.
+[2026-08-28T11:01:43.386431+00:00] TopicWriter Writing topic 'Task topics' to .dita file.
+[2026-08-28T11:01:43.386446+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.386740+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.386854+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.387067+00:00] TopicWriter Topic 'task_topics.dita' written successfully.
+[2026-08-28T11:01:43.387094+00:00] TopicWriter Writing topic 'Characteristics' to .dita file.
+[2026-08-28T11:01:43.387106+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.387416+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.387509+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.387704+00:00] TopicWriter Topic 'characteristics_2.dita' written successfully.
+[2026-08-28T11:01:43.387730+00:00] TopicWriter Writing topic 'When to use task topics' to .dita file.
+[2026-08-28T11:01:43.387742+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.388055+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.388138+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.388340+00:00] TopicWriter Topic 'when_to_use_task_topics.dita' written successfully.
+[2026-08-28T11:01:43.388367+00:00] TopicWriter Writing topic 'Common elements' to .dita file.
+[2026-08-28T11:01:43.388380+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.389715+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.390303+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.390379+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.392008+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.392232+00:00] TopicWriter Topic 'common_elements_2.dita' written successfully.
+[2026-08-28T11:01:43.392263+00:00] TopicWriter Writing topic 'Task topic example' to .dita file.
+[2026-08-28T11:01:43.392281+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.395252+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.395525+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.395874+00:00] TopicWriter Topic 'task_topic_example.dita' written successfully.
+[2026-08-28T11:01:43.395902+00:00] TopicWriter Writing topic 'Scenario 1: prerequisites in a task topic' to .dita file.
+[2026-08-28T11:01:43.395917+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.398556+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.398890+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.399154+00:00] TopicWriter Topic 'scenario_1_prerequisites_in_a_task_topic.dita' written successfully.
+[2026-08-28T11:01:43.399194+00:00] TopicWriter Writing topic 'Scenario 2: info in a task topic' to .dita file.
+[2026-08-28T11:01:43.399209+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.401833+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.402162+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.402411+00:00] TopicWriter Topic 'scenario_2_info_in_a_task_topic.dita' written successfully.
+[2026-08-28T11:01:43.402439+00:00] TopicWriter Writing topic 'Scenario 3: step result in a task topic' to .dita file.
+[2026-08-28T11:01:43.402454+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.405012+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.405303+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.405553+00:00] TopicWriter Topic 'scenario_3_step_result_in_a_task_topic.dita' written successfully.
+[2026-08-28T11:01:43.405580+00:00] TopicWriter Writing topic 'Scenario 4: substeps in a task topic' to .dita file.
+[2026-08-28T11:01:43.405595+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.409039+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.409406+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.409653+00:00] TopicWriter Topic 'scenario_4_substeps_in_a_task_topic.dita' written successfully.
+[2026-08-28T11:01:43.409681+00:00] TopicWriter Writing topic 'Scenario 5: choices in a task topic' to .dita file.
+[2026-08-28T11:01:43.409696+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.412341+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.412650+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.412914+00:00] TopicWriter Topic 'scenario_5_choices_in_a_task_topic.dita' written successfully.
+[2026-08-28T11:01:43.412941+00:00] TopicWriter Writing topic 'Scenario 6: choice table in a task topic' to .dita file.
+[2026-08-28T11:01:43.412956+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.416105+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.416452+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.416715+00:00] TopicWriter Topic 'scenario_6_choice_table_in_a_task_topic.dita' written successfully.
+[2026-08-28T11:01:43.416742+00:00] TopicWriter Writing topic 'Scenario 7: result in a task topic' to .dita file.
+[2026-08-28T11:01:43.416758+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.419225+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.419511+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.419745+00:00] TopicWriter Topic 'scenario_7_result_in_a_task_topic.dita' written successfully.
+[2026-08-28T11:01:43.419794+00:00] TopicWriter Writing topic 'Scenario 8: postrequisites in a task topic' to .dita file.
+[2026-08-28T11:01:43.419813+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.423689+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.424079+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.424345+00:00] TopicWriter Topic 'scenario_8_postrequisites_in_a_task_topic.dita' written successfully.
+[2026-08-28T11:01:43.424374+00:00] TopicWriter Writing topic 'Scenario 9: in-line image in a task topic' to .dita file.
+[2026-08-28T11:01:43.424390+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.426145+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.426401+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.426670+00:00] TopicWriter Topic 'scenario_9_in_line_image_in_a_task_topic.dita' written successfully.
+[2026-08-28T11:01:43.426698+00:00] TopicWriter Writing topic 'Scenario 10: block image in a task topic' to .dita file.
+[2026-08-28T11:01:43.426712+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.428176+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.428397+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.428672+00:00] TopicWriter Topic 'scenario_10_block_image_in_a_task_topic.dita' written successfully.
+[2026-08-28T11:01:43.428699+00:00] TopicWriter Writing topic 'Scenario 11: table in a task topic' to .dita file.
+[2026-08-28T11:01:43.428714+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.431749+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.432086+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.432382+00:00] TopicWriter Topic 'scenario_11_table_in_a_task_topic.dita' written successfully.
+[2026-08-28T11:01:43.432413+00:00] TopicWriter Writing topic 'Reference topics' to .dita file.
+[2026-08-28T11:01:43.432427+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.432714+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.432822+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.433040+00:00] TopicWriter Topic 'reference_topics.dita' written successfully.
+[2026-08-28T11:01:43.433067+00:00] TopicWriter Writing topic 'Characteristics' to .dita file.
+[2026-08-28T11:01:43.433080+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.433376+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.433467+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.433654+00:00] TopicWriter Topic 'characteristics_3.dita' written successfully.
+[2026-08-28T11:01:43.433680+00:00] TopicWriter Writing topic 'When to use reference topics' to .dita file.
+[2026-08-28T11:01:43.433692+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.434027+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.434112+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.434317+00:00] TopicWriter Topic 'when_to_use_reference_topics.dita' written successfully.
+[2026-08-28T11:01:43.434343+00:00] TopicWriter Writing topic 'Common elements' to .dita file.
+[2026-08-28T11:01:43.434356+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.435266+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.435646+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.435702+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.436854+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.437069+00:00] TopicWriter Topic 'common_elements_3.dita' written successfully.
+[2026-08-28T11:01:43.437097+00:00] TopicWriter Writing topic 'Reference topic example' to .dita file.
+[2026-08-28T11:01:43.437114+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.442544+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.443014+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.443304+00:00] TopicWriter Topic 'reference_topic_example.dita' written successfully.
+[2026-08-28T11:01:43.443333+00:00] TopicWriter Writing topic 'Scenario 1: no table caption is required' to .dita file.
+[2026-08-28T11:01:43.443348+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.445346+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.445613+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.445876+00:00] TopicWriter Topic 'scenario_1_no_table_caption_is_required.dita' written successfully.
+[2026-08-28T11:01:43.445905+00:00] TopicWriter Writing topic 'Scenario 2: table caption is required' to .dita file.
+[2026-08-28T11:01:43.445927+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.449077+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.449415+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.449667+00:00] TopicWriter Topic 'scenario_2_table_caption_is_required.dita' written successfully.
+[2026-08-28T11:01:43.449696+00:00] TopicWriter Writing topic 'Scenario 3: nested tables in a reference topic' to .dita file.
+[2026-08-28T11:01:43.449712+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.455124+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.455542+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.455865+00:00] TopicWriter Topic 'scenario_3_nested_tables_in_a_reference_topic.dita' written successfully.
+[2026-08-28T11:01:43.455896+00:00] TopicWriter Writing topic 'Scenario 4: API in a reference topic' to .dita file.
+[2026-08-28T11:01:43.455915+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.461433+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.461984+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.462306+00:00] TopicWriter Topic 'scenario_4_api_in_a_reference_topic.dita' written successfully.
+[2026-08-28T11:01:43.462339+00:00] TopicWriter Writing topic 'Scenario 5: CLI reference topic' to .dita file.
+[2026-08-28T11:01:43.462359+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.468344+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.468934+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.469243+00:00] TopicWriter Topic 'scenario_5_cli_reference_topic.dita' written successfully.
+[2026-08-28T11:01:43.469275+00:00] TopicWriter Writing topic 'Scenario 6: supported platforms in a reference topic' to .dita file.
+[2026-08-28T11:01:43.469291+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.472504+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.472880+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.473148+00:00] TopicWriter Topic 'scenario_6_supported_platforms_in_a_reference_topic.dita' written successfully.
+[2026-08-28T11:01:43.473177+00:00] TopicWriter Writing topic 'Scenario 7: system requirements in a reference topic' to .dita file.
+[2026-08-28T11:01:43.473194+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.476554+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.476935+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.477204+00:00] TopicWriter Topic 'scenario_7_system_requirements_in_a_reference_topic.dita' written successfully.
+[2026-08-28T11:01:43.477234+00:00] TopicWriter Writing topic 'Scenario 8: checklists in a reference topic' to .dita file.
+[2026-08-28T11:01:43.477250+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.479549+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.479880+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.480141+00:00] TopicWriter Topic 'scenario_8_checklists_in_a_reference_topic.dita' written successfully.
+[2026-08-28T11:01:43.480171+00:00] TopicWriter Writing topic 'Troubleshooting topics' to .dita file.
+[2026-08-28T11:01:43.480184+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.480387+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.480442+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.480668+00:00] TopicWriter Topic 'troubleshooting_topics.dita' written successfully.
+[2026-08-28T11:01:43.480694+00:00] TopicWriter Writing topic 'Characteristics' to .dita file.
+[2026-08-28T11:01:43.480707+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.481007+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.481119+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.481330+00:00] TopicWriter Topic 'characteristics_4.dita' written successfully.
+[2026-08-28T11:01:43.481356+00:00] TopicWriter Writing topic 'When to use troubleshooting topics' to .dita file.
+[2026-08-28T11:01:43.481369+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.481661+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.481745+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.481986+00:00] TopicWriter Topic 'when_to_use_troubleshooting_topics.dita' written successfully.
+[2026-08-28T11:01:43.482015+00:00] TopicWriter Writing topic 'Common elements' to .dita file.
+[2026-08-28T11:01:43.482028+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.482960+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.483369+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.483429+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.484598+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.484831+00:00] TopicWriter Topic 'common_elements_4.dita' written successfully.
+[2026-08-28T11:01:43.484859+00:00] TopicWriter Writing topic 'Troubleshooting topic example' to .dita file.
+[2026-08-28T11:01:43.484877+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.488521+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.488871+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.489202+00:00] TopicWriter Topic 'troubleshooting_topic_example.dita' written successfully.
+[2026-08-28T11:01:43.489231+00:00] TopicWriter Writing topic 'Glossary topics' to .dita file.
+[2026-08-28T11:01:43.489243+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.489431+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.489487+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.489687+00:00] TopicWriter Topic 'glossary_topics.dita' written successfully.
+[2026-08-28T11:01:43.489713+00:00] TopicWriter Writing topic 'Characteristics' to .dita file.
+[2026-08-28T11:01:43.489725+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.490059+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.490149+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.490354+00:00] TopicWriter Topic 'characteristics_5.dita' written successfully.
+[2026-08-28T11:01:43.490380+00:00] TopicWriter Writing topic 'When to use glossary topics' to .dita file.
+[2026-08-28T11:01:43.490392+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.490747+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.490857+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.491072+00:00] TopicWriter Topic 'when_to_use_glossary_topics.dita' written successfully.
+[2026-08-28T11:01:43.491099+00:00] TopicWriter Writing topic 'Common elements' to .dita file.
+[2026-08-28T11:01:43.491112+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.491956+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.492344+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.492402+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.493585+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.493819+00:00] TopicWriter Topic 'common_elements_5.dita' written successfully.
+[2026-08-28T11:01:43.493847+00:00] TopicWriter Writing topic 'Glossary entry example' to .dita file.
+[2026-08-28T11:01:43.493863+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.495518+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.495695+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.495985+00:00] TopicWriter Topic 'glossary_entry_example.dita' written successfully.
+[2026-08-28T11:01:43.496014+00:00] TopicWriter Writing topic 'Elements reference' to .dita file.
+[2026-08-28T11:01:43.496027+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.496323+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.496434+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.496649+00:00] TopicWriter Topic 'elements_reference.dita' written successfully.
+[2026-08-28T11:01:43.496687+00:00] TopicWriter Writing topic 'Block-level elements' to .dita file.
+[2026-08-28T11:01:43.496701+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.499181+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.500053+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.500169+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.503041+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.503294+00:00] TopicWriter Topic 'block_level_elements.dita' written successfully.
+[2026-08-28T11:01:43.503323+00:00] TopicWriter Writing topic 'Inline elements' to .dita file.
+[2026-08-28T11:01:43.503339+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.506448+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.507382+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.507568+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.511059+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.511357+00:00] TopicWriter Topic 'inline_elements.dita' written successfully.
+[2026-08-28T11:01:43.511389+00:00] TopicWriter Writing topic 'List elements' to .dita file.
+[2026-08-28T11:01:43.511406+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.512685+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.513158+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.513276+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.514989+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.515254+00:00] TopicWriter Topic 'list_elements.dita' written successfully.
+[2026-08-28T11:01:43.515283+00:00] TopicWriter Writing topic 'Table elements' to .dita file.
+[2026-08-28T11:01:43.515301+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.518170+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.519078+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.519257+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.522896+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.523185+00:00] TopicWriter Topic 'table_elements.dita' written successfully.
+[2026-08-28T11:01:43.523222+00:00] TopicWriter Writing topic 'Table example' to .dita file.
+[2026-08-28T11:01:43.523241+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.524820+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.525034+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.525288+00:00] TopicWriter Topic 'table_example.dita' written successfully.
+[2026-08-28T11:01:43.525317+00:00] TopicWriter Writing topic 'Simple table example' to .dita file.
+[2026-08-28T11:01:43.525332+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.526318+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.526454+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.526698+00:00] TopicWriter Topic 'simple_table_example.dita' written successfully.
+[2026-08-28T11:01:43.526729+00:00] TopicWriter Writing topic 'Parameter table example' to .dita file.
+[2026-08-28T11:01:43.526743+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.527510+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.527605+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.527843+00:00] TopicWriter Topic 'parameter_table_example.dita' written successfully.
+[2026-08-28T11:01:43.527871+00:00] TopicWriter Writing topic 'Admonition elements' to .dita file.
+[2026-08-28T11:01:43.527887+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.531228+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.531823+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.531979+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.534025+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.534279+00:00] TopicWriter Topic 'admonition_elements.dita' written successfully.
+[2026-08-28T11:01:43.534310+00:00] TopicWriter Writing topic 'Metadata' to .dita file.
+[2026-08-28T11:01:43.534326+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.534727+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.534838+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.535061+00:00] TopicWriter Topic 'metadata.dita' written successfully.
+[2026-08-28T11:01:43.535089+00:00] TopicWriter Writing topic 'Understanding DITA metadata' to .dita file.
+[2026-08-28T11:01:43.535103+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.535298+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.535353+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.535553+00:00] TopicWriter Topic 'understanding_dita_metadata.dita' written successfully.
+[2026-08-28T11:01:43.535578+00:00] TopicWriter Writing topic 'Prolog element' to .dita file.
+[2026-08-28T11:01:43.535591+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.535843+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.535905+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.536115+00:00] TopicWriter Topic 'prolog_element.dita' written successfully.
+[2026-08-28T11:01:43.536140+00:00] TopicWriter Writing topic 'Prolog example:' to .dita file.
+[2026-08-28T11:01:43.537438+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.538971+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.539164+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.539389+00:00] TopicWriter Topic 'prolog_example.dita' written successfully.
+[2026-08-28T11:01:43.539423+00:00] TopicWriter Writing topic 'Metadata elements' to .dita file.
+[2026-08-28T11:01:43.541977+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.544465+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.545168+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.545317+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.548086+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.548339+00:00] TopicWriter Topic 'metadata_elements.dita' written successfully.
+[2026-08-28T11:01:43.548372+00:00] TopicWriter Writing topic 'Topicmeta in maps' to .dita file.
+[2026-08-28T11:01:43.548387+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.548634+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.548705+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.548932+00:00] TopicWriter Topic 'topicmeta_in_maps.dita' written successfully.
+[2026-08-28T11:01:43.548959+00:00] TopicWriter Writing topic 'Scenario: topicmeta in practice' to .dita file.
+[2026-08-28T11:01:43.548971+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.549742+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.549894+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.550158+00:00] TopicWriter Topic 'scenario_topicmeta_in_practice.dita' written successfully.
+[2026-08-28T11:01:43.550187+00:00] TopicWriter Writing topic 'Content reuse' to .dita file.
+[2026-08-28T11:01:43.550201+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.550550+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.550631+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.550856+00:00] TopicWriter Topic 'content_reuse.dita' written successfully.
+[2026-08-28T11:01:43.550883+00:00] TopicWriter Writing topic 'Principles of content reuse' to .dita file.
+[2026-08-28T11:01:43.550896+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.551095+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.551167+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.551369+00:00] TopicWriter Topic 'principles_of_content_reuse.dita' written successfully.
+[2026-08-28T11:01:43.551395+00:00] TopicWriter Writing topic 'Identifying reusable content' to .dita file.
+[2026-08-28T11:01:43.551407+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.551901+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.552038+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.552254+00:00] TopicWriter Topic 'identifying_reusable_content.dita' written successfully.
+[2026-08-28T11:01:43.552281+00:00] TopicWriter Writing topic 'conref: Content reference' to .dita file.
+[2026-08-28T11:01:43.552294+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.552527+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.552590+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.552815+00:00] TopicWriter Topic 'conref_content_reference.dita' written successfully.
+[2026-08-28T11:01:43.552841+00:00] TopicWriter Writing topic 'Step 1: Create the reusable content file' to .dita file.
+[2026-08-28T11:01:43.552853+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.553366+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.553463+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.553697+00:00] TopicWriter Topic 'step_1_create_the_reusable_content_file.dita' written successfully.
+[2026-08-28T11:01:43.553725+00:00] TopicWriter Writing topic 'Step 2: Reference the content' to .dita file.
+[2026-08-28T11:01:43.553738+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.554181+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.554263+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.554473+00:00] TopicWriter Topic 'step_2_reference_the_content.dita' written successfully.
+[2026-08-28T11:01:43.554501+00:00] TopicWriter Writing topic 'keyref: key-based reference' to .dita file.
+[2026-08-28T11:01:43.554513+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.554788+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.554854+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.555064+00:00] TopicWriter Topic 'keyref_key_based_reference.dita' written successfully.
+[2026-08-28T11:01:43.555090+00:00] TopicWriter Writing topic 'Step 1: Define keys in the map' to .dita file.
+[2026-08-28T11:01:43.555103+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.556553+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.556714+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.556963+00:00] TopicWriter Topic 'step_1_define_keys_in_the_map.dita' written successfully.
+[2026-08-28T11:01:43.556991+00:00] TopicWriter Writing topic 'Step 2: Use the keys in topics' to .dita file.
+[2026-08-28T11:01:43.557005+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.557367+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.557421+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.557626+00:00] TopicWriter Topic 'step_2_use_the_keys_in_topics.dita' written successfully.
+[2026-08-28T11:01:43.557653+00:00] TopicWriter Writing topic 'conkeyref: key-based content reference' to .dita file.
+[2026-08-28T11:01:43.557666+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.557862+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.557919+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.558137+00:00] TopicWriter Topic 'conkeyref_key_based_content_reference.dita' written successfully.
+[2026-08-28T11:01:43.558163+00:00] TopicWriter Writing topic 'In the map' to .dita file.
+[2026-08-28T11:01:43.558176+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.558365+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.558399+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.558604+00:00] TopicWriter Topic 'in_the_map.dita' written successfully.
+[2026-08-28T11:01:43.558629+00:00] TopicWriter Writing topic 'In the topic' to .dita file.
+[2026-08-28T11:01:43.558642+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.558847+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.558881+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.559078+00:00] TopicWriter Topic 'in_the_topic.dita' written successfully.
+[2026-08-28T11:01:43.559106+00:00] TopicWriter Writing topic 'Reuse validation checklist' to .dita file.
+[2026-08-28T11:01:43.559119+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.559546+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.559677+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.559921+00:00] TopicWriter Topic 'reuse_validation_checklist.dita' written successfully.
+[2026-08-28T11:01:43.559949+00:00] TopicWriter Writing topic 'Profiling attributes' to .dita file.
+[2026-08-28T11:01:43.559963+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.560885+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.561287+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.561350+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.562646+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.562885+00:00] TopicWriter Topic 'profiling_attributes.dita' written successfully.
+[2026-08-28T11:01:43.562913+00:00] TopicWriter Writing topic 'Scenario: profiling in practice' to .dita file.
+[2026-08-28T11:01:43.562928+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.564561+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.564777+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.565011+00:00] TopicWriter Topic 'scenario_profiling_in_practice.dita' written successfully.
+[2026-08-28T11:01:43.565039+00:00] TopicWriter Writing topic 'Localization and accessibility' to .dita file.
+[2026-08-28T11:01:43.565053+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.565300+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.565363+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.565585+00:00] TopicWriter Topic 'localization_and_accessibility.dita' written successfully.
+[2026-08-28T11:01:43.565611+00:00] TopicWriter Writing topic 'Localization support' to .dita file.
+[2026-08-28T11:01:43.565624+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.565820+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.565871+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.566090+00:00] TopicWriter Topic 'localization_support.dita' written successfully.
+[2026-08-28T11:01:43.566118+00:00] TopicWriter Writing topic 'Language tagging' to .dita file.
+[2026-08-28T11:01:43.566131+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.566449+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.566524+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.566736+00:00] TopicWriter Topic 'language_tagging.dita' written successfully.
+[2026-08-28T11:01:43.566779+00:00] TopicWriter Writing topic 'Reuse for translation' to .dita file.
+[2026-08-28T11:01:43.566794+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.567004+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.567059+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.567267+00:00] TopicWriter Topic 'reuse_for_translation.dita' written successfully.
+[2026-08-28T11:01:43.567294+00:00] TopicWriter Writing topic 'Scenario: translation cost savings' to .dita file.
+[2026-08-28T11:01:43.567306+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.567621+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.567734+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.567953+00:00] TopicWriter Topic 'scenario_translation_cost_savings.dita' written successfully.
+[2026-08-28T11:01:43.567980+00:00] TopicWriter Writing topic 'Accessibility requirements' to .dita file.
+[2026-08-28T11:01:43.567993+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.568175+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.568227+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.568425+00:00] TopicWriter Topic 'accessibility_requirements.dita' written successfully.
+[2026-08-28T11:01:43.568450+00:00] TopicWriter Writing topic 'Image accessibility' to .dita file.
+[2026-08-28T11:01:43.568463+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.569056+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.569165+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.569393+00:00] TopicWriter Topic 'image_accessibility.dita' written successfully.
+[2026-08-28T11:01:43.569420+00:00] TopicWriter Writing topic 'Heading structure' to .dita file.
+[2026-08-28T11:01:43.569431+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.569617+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.569675+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.569886+00:00] TopicWriter Topic 'heading_structure.dita' written successfully.
+[2026-08-28T11:01:43.569920+00:00] TopicWriter Writing topic 'Table accessibility' to .dita file.
+[2026-08-28T11:01:43.569933+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.571032+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.571204+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.571430+00:00] TopicWriter Topic 'table_accessibility.dita' written successfully.
+[2026-08-28T11:01:43.571457+00:00] TopicWriter Writing topic 'Accessibility checklist' to .dita file.
+[2026-08-28T11:01:43.571471+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.572459+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.572663+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.572941+00:00] TopicWriter Topic 'accessibility_checklist.dita' written successfully.
+[2026-08-28T11:01:43.572978+00:00] TopicWriter Writing topic 'Writing style guidelines' to .dita file.
+[2026-08-28T11:01:43.572991+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.573295+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.573386+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.573606+00:00] TopicWriter Topic 'writing_style_guidelines.dita' written successfully.
+[2026-08-28T11:01:43.573633+00:00] TopicWriter Writing topic 'Voice and tone' to .dita file.
+[2026-08-28T11:01:43.573647+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.574426+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.574846+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.574917+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.576029+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.576255+00:00] TopicWriter Topic 'voice_and_tone.dita' written successfully.
+[2026-08-28T11:01:43.576286+00:00] TopicWriter Writing topic 'Command element rules' to .dita file.
+[2026-08-28T11:01:43.576300+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.576706+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.576852+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.577075+00:00] TopicWriter Topic 'command_element_rules.dita' written successfully.
+[2026-08-28T11:01:43.577103+00:00] TopicWriter Writing topic 'Imperative verbs for commands' to .dita file.
+[2026-08-28T11:01:43.577116+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.577987+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.578354+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.578410+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.579585+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.579824+00:00] TopicWriter Topic 'imperative_verbs_for_commands.dita' written successfully.
+[2026-08-28T11:01:43.579856+00:00] TopicWriter Writing topic 'Command example' to .dita file.
+[2026-08-28T11:01:43.579870+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.580415+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.580491+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.580693+00:00] TopicWriter Topic 'command_example.dita' written successfully.
+[2026-08-28T11:01:43.580720+00:00] TopicWriter Writing topic 'Short description rules' to .dita file.
+[2026-08-28T11:01:43.580733+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.581175+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.581303+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.581534+00:00] TopicWriter Topic 'short_description_rules.dita' written successfully.
+[2026-08-28T11:01:43.581561+00:00] TopicWriter Writing topic 'Short description examples' to .dita file.
+[2026-08-28T11:01:43.581573+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.581948+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.582021+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.582243+00:00] TopicWriter Topic 'short_description_examples.dita' written successfully.
+[2026-08-28T11:01:43.582270+00:00] TopicWriter Writing topic 'UI Element references' to .dita file.
+[2026-08-28T11:01:43.582284+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.582987+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.583090+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.583367+00:00] TopicWriter Topic 'ui_element_references.dita' written successfully.
+[2026-08-28T11:01:43.583394+00:00] TopicWriter Writing topic 'Punctuation rules' to .dita file.
+[2026-08-28T11:01:43.583407+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.583925+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.584036+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.584355+00:00] TopicWriter Topic 'punctuation_rules.dita' written successfully.
+[2026-08-28T11:01:43.584388+00:00] TopicWriter Writing topic 'Style guides across industries' to .dita file.
+[2026-08-28T11:01:43.584402+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.584634+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.584696+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.584942+00:00] TopicWriter Topic 'style_guides_across_industries.dita' written successfully.
+[2026-08-28T11:01:43.584974+00:00] TopicWriter Writing topic 'Google Style Guide' to .dita file.
+[2026-08-28T11:01:43.584991+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.585421+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.585554+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.585819+00:00] TopicWriter Topic 'google_style_guide.dita' written successfully.
+[2026-08-28T11:01:43.585847+00:00] TopicWriter Writing topic 'IBM style' to .dita file.
+[2026-08-28T11:01:43.585861+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.586233+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.586371+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.586610+00:00] TopicWriter Topic 'ibm_style.dita' written successfully.
+[2026-08-28T11:01:43.586638+00:00] TopicWriter Writing topic 'Chicago Manual of Style (CMOS)' to .dita file.
+[2026-08-28T11:01:43.586653+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.587033+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.587184+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.587422+00:00] TopicWriter Topic 'chicago_manual_of_style_cmos.dita' written successfully.
+[2026-08-28T11:01:43.587450+00:00] TopicWriter Writing topic 'S1000D and ASD‑STE100' to .dita file.
+[2026-08-28T11:01:43.587467+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.587950+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.588129+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.588376+00:00] TopicWriter Topic 's1000d_and_asd_ste100.dita' written successfully.
+[2026-08-28T11:01:43.588404+00:00] TopicWriter Writing topic 'Miscelllaneous style guides' to .dita file.
+[2026-08-28T11:01:43.588418+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.588803+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.588936+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.589175+00:00] TopicWriter Topic 'miscelllaneous_style_guides.dita' written successfully.
+[2026-08-28T11:01:43.589204+00:00] TopicWriter Writing topic 'Common pitfalls and solutions' to .dita file.
+[2026-08-28T11:01:43.589216+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.589618+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.589682+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.589906+00:00] TopicWriter Topic 'common_pitfalls_and_solutions.dita' written successfully.
+[2026-08-28T11:01:43.589961+00:00] TopicWriter Writing topic 'Misusing topic types' to .dita file.
+[2026-08-28T11:01:43.589976+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.590388+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.590507+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.590741+00:00] TopicWriter Topic 'misusing_topic_types.dita' written successfully.
+[2026-08-28T11:01:43.590785+00:00] TopicWriter Writing topic 'Poor content modularity' to .dita file.
+[2026-08-28T11:01:43.590801+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.591213+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.591328+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.591548+00:00] TopicWriter Topic 'poor_content_modularity.dita' written successfully.
+[2026-08-28T11:01:43.591578+00:00] TopicWriter Writing topic 'Hardcoding content' to .dita file.
+[2026-08-28T11:01:43.591591+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.592119+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.592254+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.592478+00:00] TopicWriter Topic 'hardcoding_content.dita' written successfully.
+[2026-08-28T11:01:43.592504+00:00] TopicWriter Writing topic 'Ignoring metadata' to .dita file.
+[2026-08-28T11:01:43.592518+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.592929+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.593044+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.593257+00:00] TopicWriter Topic 'ignoring_metadata.dita' written successfully.
+[2026-08-28T11:01:43.593283+00:00] TopicWriter Writing topic 'Over-nesting in maps' to .dita file.
+[2026-08-28T11:01:43.593295+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.593714+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.593853+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.594095+00:00] TopicWriter Topic 'over_nesting_in_maps.dita' written successfully.
+[2026-08-28T11:01:43.594123+00:00] TopicWriter Writing topic 'Missing or weak short descriptions' to .dita file.
+[2026-08-28T11:01:43.594136+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.594583+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.594711+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.594956+00:00] TopicWriter Topic 'missing_or_weak_short_descriptions.dita' written successfully.
+[2026-08-28T11:01:43.594983+00:00] TopicWriter Writing topic 'Common errors' to .dita file.
+[2026-08-28T11:01:43.594998+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.596350+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.596884+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.596997+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.599128+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.599373+00:00] TopicWriter Topic 'common_errors.dita' written successfully.
+[2026-08-28T11:01:43.599402+00:00] TopicWriter Writing topic 'Worked examples and scenarios' to .dita file.
+[2026-08-28T11:01:43.599416+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.599650+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.599714+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.599940+00:00] TopicWriter Topic 'worked_examples_and_scenarios.dita' written successfully.
+[2026-08-28T11:01:43.599966+00:00] TopicWriter Writing topic 'Scenario 1: creating a software user guide' to .dita file.
+[2026-08-28T11:01:43.599979+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.600163+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.600215+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.600414+00:00] TopicWriter Topic 'scenario_1_creating_a_software_user_guide.dita' written successfully.
+[2026-08-28T11:01:43.600440+00:00] TopicWriter Writing topic 'Analysis' to .dita file.
+[2026-08-28T11:01:43.600453+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.600798+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.600888+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.601089+00:00] TopicWriter Topic 'analysis.dita' written successfully.
+[2026-08-28T11:01:43.601115+00:00] TopicWriter Writing topic 'Conversion strategy' to .dita file.
+[2026-08-28T11:01:43.601129+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.603172+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.603514+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.603617+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-28T11:01:43.605167+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-28T11:01:43.605494+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-28T11:01:43.605615+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-28T11:01:43.605821+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-28T11:01:43.605909+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-28T11:01:43.606209+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-28T11:01:43.606549+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-28T11:01:43.606574+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-28T11:01:43.610819+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-28T11:01:43.611224+00:00] TopicWriter Topic 'conversion_strategy.dita' written successfully.
+[2026-08-28T11:01:43.611256+00:00] TopicWriter Writing topic 'Scenario 2: writing API documentation' to .dita file.
+[2026-08-28T11:01:43.611270+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.611475+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.611533+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.611783+00:00] TopicWriter Topic 'scenario_2_writing_api_documentation.dita' written successfully.
+[2026-08-28T11:01:43.611813+00:00] TopicWriter Writing topic 'Analysis' to .dita file.
+[2026-08-28T11:01:43.611844+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.612130+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.612225+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.612432+00:00] TopicWriter Topic 'analysis_2.dita' written successfully.
+[2026-08-28T11:01:43.612458+00:00] TopicWriter Writing topic 'Conversion strategy' to .dita file.
+[2026-08-28T11:01:43.612479+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.620257+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.620998+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.621204+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-28T11:01:43.625992+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-28T11:01:43.626287+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-28T11:01:43.626412+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-28T11:01:43.626714+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-28T11:01:43.626946+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-28T11:01:43.627253+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-28T11:01:43.627627+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-28T11:01:43.627959+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-28T11:01:43.628623+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-28T11:01:43.628952+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-28T11:01:43.629410+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-28T11:01:43.629442+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-28T11:01:43.640020+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-28T11:01:43.640675+00:00] TopicWriter Topic 'conversion_strategy_2.dita' written successfully.
+[2026-08-28T11:01:43.640710+00:00] TopicWriter Writing topic 'Scenario 3: handling conditional content' to .dita file.
+[2026-08-28T11:01:43.640724+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.641250+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.641401+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.641660+00:00] TopicWriter Topic 'scenario_3_handling_conditional_content.dita' written successfully.
+[2026-08-28T11:01:43.641690+00:00] TopicWriter Writing topic 'Profiling attributes' to .dita file.
+[2026-08-28T11:01:43.641719+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.644070+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.644413+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.644711+00:00] TopicWriter Topic 'profiling_attributes_2.dita' written successfully.
+[2026-08-28T11:01:43.644741+00:00] TopicWriter Writing topic 'Publishing outputs' to .dita file.
+[2026-08-28T11:01:43.644753+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-28T11:01:43.645383+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-28T11:01:43.645680+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-28T11:01:43.645728+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-28T11:01:43.646641+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-28T11:01:43.646877+00:00] TopicWriter Topic 'publishing_outputs.dita' written successfully.
+[2026-08-28T11:01:43.646909+00:00] TopicWriter All 190 topic file(s) written successfully.
+[2026-08-28T11:01:43.646925+00:00] topics_written DTD classification and topic writing complete: 190 DITA file(s) generated.
+[2026-08-28T11:01:43.647690+00:00] TopicWriter Finished writing .dita files.
+[2026-08-28T11:01:43.647717+00:00] step_write_topics_complete DITA topic files written: 190 file(s) generated.
+[2026-08-28T11:01:43.648372+00:00] DitaMapBuilder Generating DITAMAP file.
+[2026-08-28T11:01:43.648402+00:00] step_ditamap_started Step 5/7: Generating DITAMAP structure.
+[2026-08-28T11:01:43.653666+00:00] DitaMapBuilder DITAMAP generation complete.
+[2026-08-28T11:01:43.653695+00:00] step_ditamap_complete DITAMAP generation complete: 17 map file(s) created.
+
+ Success: Content transformation completed successfully.
+================================================================================

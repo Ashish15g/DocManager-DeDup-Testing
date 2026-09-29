@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_3_no_heading_1_present" xml:lang="en-us">
+   <title>Scenario 3 — No Heading 1 present</title>
+   <shortdesc>Consider a document where the author starts the content with Heading 2 and never applies</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Heading</keyword>
+        <keyword>ditamap</keyword>
+        <keyword>present</keyword>
+        <keyword>document</keyword>
+        <keyword>mapref</keyword>
+        <keyword>format</keyword>
+        <indexterm>Heading</indexterm>
+        <indexterm>ditamap</indexterm>
+        <indexterm>present</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a document where the author starts the content with <b>Heading 2</b> and never applies <b>Heading 1</b> anywhere in the document. Similarly, in another case, the author may skip both <b>Heading 1</b> and <b>Heading 2</b> and start directly with <b>Heading 3</b>.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>No Heading 1 present</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>.docx Style / Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>[Heading 2]: Installation [Heading 3]: Install on Linux [Heading 2]: Configuration [Heading 2]: Troubleshooting (No Heading 1)</entry>
+               <entry>
+                <codeblock id="codeblock_sy3_tyz_kkc">
+&lt;map id="installation_guide">
+  &lt;title>Installation Guide&lt;/title>
+  &lt;mapref href="m001_installation.ditamap" format="ditamap"/>
+  &lt;topicref href="t001_install_on_linux.dita"/>
+  &lt;mapref href="m002_configuration.ditamap" format="ditamap"/>
+  &lt;mapref href="m003_troubleshooting.ditamap" format="ditamap"/>
+&lt;/map></codeblock>
+              </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p>
+            <b>Result</b>: The converter promotes Heading 2 to Heading 1 or Heading 3 to Heading 1 during conversion. The conversion succeeds and all Heading 2 or Heading 3 are converted to separate DITAMAPs.</p><note type="note"> For the most predictable and semantically correct DITA output, always begin each
+        document with Heading 1 and follow a sequential heading hierarchy (Heading 1 → Heading 2 →
+        Heading 3) without skipping levels.</note>
+  </section></refbody>
+</reference>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235705917" xml:lang="en-us">
+   <title>Map organization rules</title>
+   <shortdesc>When organizing your book map or DITA map, you should follow these rules: Sequence r</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>topicref</keyword>
+        <keyword>configure</keyword>
+        <keyword>configuration</keyword>
+        <keyword>rules</keyword>
+        <keyword>under</keyword>
+        <keyword>sense</keyword>
+        <indexterm>topicref</indexterm>
+        <indexterm>configure</indexterm>
+        <indexterm>configuration</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>When organizing your book map or DITA map, you should follow these rules:</p>
+      <ul id="ul_11014319">
+         <li>
+          <b>Sequence rule:</b> Organize <codeph>&lt;topicref&gt;</codeph> elements by the user
+          workflow. The correct sequence is Concept → Task(s) → Reference → Troubleshooting →
+            Glossary.<p>For
+          example:</p><codeblock xml:space="preserve" id="codeblock_ug1_q4s_kkc">&lt;map&gt;
+&lt;title&gt;Getting Started&lt;/title&gt;
+&lt;topicref href="c_overview.dita"/&gt; &lt;!-- 1. Concept --&gt;
+&lt;topicref href="t_installation.dita"/&gt; &lt;!-- 2. Task --&gt;
+&lt;topicref href="r_system_requirements.dita"/&gt; &lt;!-- 3. Reference --&gt;
+&lt;topicref href="ts_common_errors.dita"/&gt; &lt;!-- 4. Troubleshooting --&gt;
+&lt;topicref href="g_glossary.dita"/&gt; &lt;!-- 5. Glossary --&gt;
+&lt;/map&gt;</codeblock></li>
+        <li>
+          <b>Nesting rule:</b> Nest a <codeph>&lt;topicref&gt;</codeph> under another only when a
+          genuine dependency exists. The genuine dependency exists only when the child topic only
+          makes sense in context of the parent.<p>For example:</p><p>The topics
+            t_configure_network.dita and t_configure_security.dita only make sense as part of
+            configuring the whole system, so they are nested under
+          t_configuration.dita.</p><codeblock xml:space="preserve" id="codeblock_s3s_r4s_kkc">&lt;map&gt;
+&lt;title&gt;Configuration Guide&lt;/title&gt;
+&lt;topicref href="t_configuration.dita"&gt;
+&lt;topicref href="t_configure_network.dita"/&gt;      &lt;!-- makes sense under configuration --&gt;
+&lt;topicref href="t_configure_security.dita"/&gt;     &lt;!-- only meaningful in context of configuration --&gt;
+&lt;/topicref&gt;
+&lt;/map&gt;</codeblock></li>
+      </ul>
+    </section></refbody>
+</reference>

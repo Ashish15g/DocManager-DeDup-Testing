@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_1_headings_applied_correctly" xml:lang="en-us">
+   <title>Scenario 1 — Headings applied correctly</title>
+   <shortdesc>Consider a document with the following heading structure: Heading 1 "Installation" containing Heading 2 "Prerequisites"</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Heading</keyword>
+        <keyword>Installation</keyword>
+        <keyword>topic</keyword>
+        <keyword>Headings</keyword>
+        <keyword>applied</keyword>
+        <keyword>correctly</keyword>
+        <indexterm>Heading</indexterm>
+        <indexterm>Installation</indexterm>
+        <indexterm>topic</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+    <p>Consider a document with the following heading structure: Heading 1 "Installation" containing Heading 2 "Prerequisites" (concept) and Heading 2 "Install on Linux" (task).</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Headings applied correctly</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Heading 1]: Installation [Heading 2]: Prerequisites [Heading 2]: Install on Linux</entry>
+                     <entry>
+                        <codeblock id="codeblock_byk_4wz_kkc">
+&lt;map id="installation">
+  &lt;title>Installation&lt;/title>
+  &lt;topicref href="prerequisites.dita"/>
+  &lt;topicref href="install_on_linux.dita"/>
+&lt;/map></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b>The <b>Heading 1</b> section (<b>Installation</b>) creates a dedicated sub-map. Each <b>Heading 2</b> section becomes an individual DITA topic nested within that sub-map. The converter classifies topic types according to the content pattern following each heading:</p><ul id="ul_07233403">
+            <li>
+               <b>Prerequisites</b> → Concept topic</li>
+            <li>
+               <b>Install on Linux</b> → Task topic</li>
+         </ul><p>This structure preserves both the document hierarchy and the semantic meaning of the content.</p>
+  </section>
+   </refbody>
+</reference>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560298" xml:lang="en-us">
+   <title>Typical structure</title>
+   <shortdesc>A sample structure (created by hugo new site) is provided below.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>content</keyword>
+        <keyword>static</keyword>
+        <keyword>images</keyword>
+        <keyword>structure</keyword>
+        <keyword>files</keyword>
+        <keyword>Hugo</keyword>
+        <indexterm>content</indexterm>
+        <indexterm>static</indexterm>
+        <indexterm>images</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section>
+      <p>A sample structure (created by hugo new site) is provided below.</p>
+      <codeblock>php
+my-project/
+├── archetypes/             # templates for new content
+│   └── default.md
+├── content/                # all content (Markdown)
+├── layouts/                # templates (HTML with Go syntax)
+├── static/                 # static files (images, js, css)
+├── data/                   # data files (YAML, JSON, TOML)
+├── i18n/                   # translation files
+├── config.toml             # site configuration (TOML/YAML/JSON)
+└── themes/                 # (optional) themes directory</codeblock>
+      <p>Hugo also supports a special _index.md for section pages. The static/ folder is mirrored to the output. For images in content, Hugo’s <b>page bundles</b> allow images next to the MD file; otherwise, put them in static/. Hugo uses <xref href="https://gohugo.io/getting-started/configuration-markup/" scope="external" format="html">Goldmark</xref> (a CommonMark-compliant ]Markdown parser) by default. It supports GitHub Flavored extensions (tables, task lists, strikethrough) and has features like footnotes, definition lists, etc. You can enable/disable these in config .toml. Shortcodes (e.g. <codeph>{{&lt; figure src="/images/pic.jpg" alt="..."&gt;}}</codeph>) allow embedding content or parameterized HTML.</p>
+      <p>For more information, see the following links:</p>
+   </section></refbody>
+  <related-links>
+    <link href="https://gohugo.io" format="html" scope="external"/>
+    <link href="https://gohugo.io/documentation" format="html" scope="external"/>
+    <link href="https://github.com/gohugoio/hugo" format="html" scope="external"/>
+  </related-links>
+</reference>

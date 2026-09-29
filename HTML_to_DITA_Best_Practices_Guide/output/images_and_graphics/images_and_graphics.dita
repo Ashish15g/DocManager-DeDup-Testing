@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Images_and_Graphics" xml:lang="en-us">
+   <title>Images and Graphics</title>
+   <abstract>This section covers Images and Graphics in HTML — the primary means of communicating
+      spatial relationships, component locations, interface states, and process flows that prose
+      alone cannot convey — and twelve scenarios: image sizing thresholds, inline and block
+      placement, images with captions, side-by-side images, images inside list items, linked versus
+      embedded images, images inside text boxes, and alt text application. The converter maps each
+      image to a DITA <codeph>&lt;image&gt;</codeph> element with a required
+         <codeph>&lt;alt&gt;</codeph> child; block images are wrapped in
+         <codeph>&lt;fig&gt;</codeph>, and a Caption-styled paragraph maps to the
+         <codeph>&lt;fig&gt;</codeph>
+      <codeph>&lt;title&gt;</codeph> element.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>images</keyword>
+        <keyword>DITA</keyword>
+        <keyword>element</keyword>
+        <keyword>output</keyword>
+        <keyword>Images</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>images</indexterm>
+        <indexterm>DITA</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+<p>
+         <b>Images and graphics</b> are the primary means of communicating spatial relationships,
+         component locations, interface states, system architectures, and process flows that text
+         alone cannot convey efficiently. In technical publications, the image or graphic and its
+         surrounding context carry equal structural weight.</p>
+      <p>The key differences between images and graphics are outlined below:</p>
+<ul id="ul_09045111">
+            <li>An image is a raster file — a grid of pixels captured or rendered at a fixed resolution. Images are resolution dependent, when scaled up beyond their original size, they lose sharpness. For example, screenshots, photographs, and scanned content (PNG, JPEG, BMP).</li>
+            <li>A graphic is a vector-based or constructed visual — built from mathematical shapes, lines, curves, and text rather than pixels. Graphics are resolution independent, when scaled up beyond their size does not lose its quality. For example, diagrams, flowcharts, and schematic illustrations (SVG, EMF, Visio, PDF).</li>
+         </ul>
+<note type="tip"> Embed every image directly in the document body, apply meaningful alt text for
+         accessibility, and add a caption to every figure that requires a title in the published
+         output.</note>
+<p>In well-structured HTML, images are referenced through valid src paths and positioned according to their intended role within the document. Images placed between block-level elements typically represent standalone figures, while images embedded within a paragraph support the surrounding text. When a <codeph>&lt;figure&gt;</codeph> element includes a <codeph>&lt;figcaption&gt;</codeph>, the caption provides a descriptive title for the generated figure.</p>
+<p>The converter evaluates each <codeph>&lt;img&gt;</codeph> element together with its surrounding HTML context to determine the appropriate DITA structure. Standalone images are converted to <codeph>&lt;fig&gt;</codeph> elements containing <codeph>&lt;image&gt;</codeph>, inline images remain inline within the surrounding paragraph, and <codeph>&lt;figure&gt;</codeph> elements with <codeph>&lt;figcaption&gt;</codeph> generate titled DITA <codeph>&lt;fig&gt;</codeph> elements. During conversion, image files are extracted, converted to PNG format, stored in the media/ subfolder of the output directory, and referenced from the generated DITA topics using relative paths.</p>
+<note type="warning"> If an image src path cannot be resolved, the converter either generates an
+         unresolved <codeph>&lt;image&gt;</codeph> reference or omits the image from the DITA
+         output. Verify that all image files are present and correctly referenced in the HTML
+         package before conversion.</note>
+<p>All images referenced in the HTML document are converted to .png format in the DITA output and
+         saved to the media/ subfolder of the output directory.</p>
+      <p>The following table lists the image positions and their corresponding DITA output:</p>
+      <table frame="all" colsep="1" rowsep="1">
+         <title>Image position mapped to DITA</title>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>Image Position in HTML</b>
+                  </entry>
+                  <entry>
+                     <b>DITA Output Element</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <codeph>&lt;img&gt;</codeph> element between block-level elements</entry>
+                  <entry>
+                     <codeblock>
+&lt;fig>
+  &lt;image href="media/diagram.png"/>
+&lt;/fig></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;img&gt;</codeph> element inline within a sentence inside <codeph>&lt;p&gt;</codeph>
+                  </entry>
+                  <entry>
+                     <codeblock>
+&lt;p>
+  Press the
+  &lt;image href="media/ok_btn.png" placement="inline"/>
+  button.
+&lt;/p></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;img&gt;</codeph> element followed by a <codeph>&lt;figcaption&gt;</codeph> inside <codeph>&lt;figure&gt;</codeph>
+                  </entry>
+                  <entry>
+                     <codeblock>
+&lt;fig>
+  &lt;title>Ink tank and cap locations&lt;/title>
+  &lt;image href="media/ink_tank.png"/>
+&lt;/fig></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;img&gt;</codeph> element with no accessible src</entry>
+                  <entry>
+                     <codeblock>Unresolved &lt;image&gt; reference or omitted from output.</codeblock>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+
+   </conbody>
+</concept>

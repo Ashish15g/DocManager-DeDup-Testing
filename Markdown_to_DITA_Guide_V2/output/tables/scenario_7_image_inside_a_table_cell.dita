@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560389" xml:lang="en-us">
+   <title>Scenario 7: Image inside a table cell</title>
+   <shortdesc>Consider a Markdown table that contains images of the icons that represent the status indicators.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>table</keyword>
+        <keyword>image</keyword>
+        <keyword>inside</keyword>
+        <keyword>images</keyword>
+        <keyword>System</keyword>
+        <keyword>Image</keyword>
+        <indexterm>table</indexterm>
+        <indexterm>image</indexterm>
+        <indexterm>inside</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a Markdown table that contains images of the icons that represent the status indicators.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Image inside a table cell</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>.md input </entry>
+                     <entry>DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>| Status | Icon | Description |
+  |---------|---------|---------| | Active | ![](images/active.png) | System operating normally |
+  | Warning | ![](images/warning.png) | User attention required |
+  | Error | ![](images/error.png) | System failure detected |</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+                           
+                              
+                                 Status
+                                 Icon
+                                 Description
+                              
+                              
+                                 Active
+                                  &lt;image href="media/active.png"/&gt; 
+                                 System operating normally
+                              
+                              
+                                 Warning
+                                  &lt;image href="media/warning.png"/&gt; 
+                                 User attention required
+                              
+                              
+                                 Error
+                                  &lt;image href="media/error.png"/&gt; 
+                                 System failure detected
+                              
+                           
+                        </codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b>The converter preserves image references contained within table cells and generates DITA <codeph>&lt;image&gt;</codeph> elements inside the corresponding <codeph>&lt;stentry&gt;</codeph> elements. The table structure and image references are both maintained during conversion.</p></section></refbody>
+</reference>

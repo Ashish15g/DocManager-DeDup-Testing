@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450414" xml:lang="en-us">
+   <title>Scenario 8 — Table spanning multiple pages</title>
+   <refbody>
+      <section>
+      <p>Consider a long reference table whose rendered output spans two or more printed pages.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image inside a table cell</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_owh_3xn_lkc">
+&lt;h2 id="status-indicator-lights">
+  Status Indicator Lights
+&lt;/h2>
+&lt;table>
+  &lt;tr>
+    &lt;th>Light Pattern&lt;/th>
+    &lt;th>Color&lt;/th>
+    &lt;th>Status&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Solid&lt;/td>
+    &lt;td>Green&lt;/td>
+    &lt;td>Printer is ready.&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Flashing&lt;/td>
+    &lt;td>Orange&lt;/td>
+    &lt;td>Paper jam detected.&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Solid&lt;/td>
+    &lt;td>Red&lt;/td>
+    &lt;td>Ink level is critically low.&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Flashing&lt;/td>
+    &lt;td>Green&lt;/td>
+    &lt;td>Firmware update in progress.&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Solid&lt;/td>
+    &lt;td>Orange&lt;/td>
+    &lt;td>Ink level is low.&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Flashing&lt;/td>
+    &lt;td>Red&lt;/td>
+    &lt;td>Hardware error detected.&lt;/td>
+  &lt;/tr>
+&lt;/table></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_xxn_3xn_lkc">
+&lt;reference id="status_indicator_lights">
+  &lt;title>Status Indicator Lights&lt;/title>
+  &lt;refbody>
+    &lt;simpletable>
+      &lt;sthead>
+        &lt;stentry>Light Pattern&lt;/stentry>
+        &lt;stentry>Color&lt;/stentry>
+        &lt;stentry>Status&lt;/stentry>
+      &lt;/sthead>
+      &lt;strow>
+        &lt;stentry>Solid&lt;/stentry>
+        &lt;stentry>Green&lt;/stentry>
+        &lt;stentry>Printer is ready.&lt;/stentry>
+      &lt;/strow>
+      &lt;strow>
+        &lt;stentry>Flashing&lt;/stentry>
+        &lt;stentry>Orange&lt;/stentry>
+        &lt;stentry>Paper jam detected.&lt;/stentry>
+      &lt;/strow>
+      &lt;strow>
+        &lt;stentry>Solid&lt;/stentry>
+        &lt;stentry>Red&lt;/stentry>
+        &lt;stentry>Ink level is critically low.&lt;/stentry>
+      &lt;/strow>
+      &lt;strow>
+        &lt;stentry>Flashing&lt;/stentry>
+        &lt;stentry>Green&lt;/stentry>
+        &lt;stentry>Firmware update in progress.&lt;/stentry>
+      &lt;/strow>
+      &lt;strow>
+        &lt;stentry>Solid&lt;/stentry>
+        &lt;stentry>Orange&lt;/stentry>
+        &lt;stentry>Ink level is low.&lt;/stentry>
+      &lt;/strow>
+      &lt;strow>
+        &lt;stentry>Flashing&lt;/stentry>
+        &lt;stentry>Red&lt;/stentry>
+        &lt;stentry>Hardware error detected.&lt;/stentry>
+      &lt;/strow>
+    &lt;/simpletable>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> The converter produces one <codeph>&lt;simpletable&gt;</codeph> or <codeph>&lt;table&gt;</codeph> that contains all rows from the original HTML table. No splitting or truncation occurs because of page breaks. Page break handling is managed by the DITA publishing pipeline, not by the converter.</p>
+      </section>
+   </refbody>
+</reference>

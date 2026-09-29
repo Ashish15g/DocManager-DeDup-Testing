@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="scenario_naming_a_complex_topic" xml:lang="en-us">
+   <title>Scenario: naming a complex topic</title>
+   <shortdesc>Documentation for an industrial company’s training manual, contains a topic where the source heading is</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>topic</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>naming</keyword>
+        <keyword>complex</keyword>
+        <keyword>heading</keyword>
+        <keyword>specific</keyword>
+        <indexterm>topic</indexterm>
+        <indexterm>Scenario</indexterm>
+        <indexterm>naming</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>Documentation for an industrial company’s training manual, contains a topic where the source heading is "Refilling the Cullet Heater Using Procedure A for Plant 50667821".</p>
+         <p>This heading is too long and too specific for a filename. Apply these
+        transformations:<ol id="ol_bxz_tls_kkc">
+        <li>Identify the core action: refilling the cullet heater</li>
+        <li>Remove unnecessary specifics: procedure letter, plant number</li>
+        <li>Apply prefix: t_ for task</li>
+        <li>Use underscores: t_refill_cullet_heater.dita</li>
+      </ol></p>
+    <section>
+      <title>Result</title>
+      <note type="note">If the plant-specific information is genuinely needed, include it in the topic title and metadata, not in the filename.</note>
+    </section></conbody>
+</concept>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="title" xml:lang="en-us">
+   <title>Title</title>
+  <abstract>This section covers the Title style in DOCX — its purpose as the root publication
+    identifier, and two scenarios: a correctly applied title and a missing title. The converter maps
+    the title to the <codeph>&lt;title&gt;</codeph> element of the root <codeph>&lt;map&gt;</codeph>
+    or <codeph>&lt;bookmap&gt;</codeph>; when no title is present, the converter falls back to the
+    filename.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Title</keyword>
+        <keyword>title</keyword>
+        <keyword>style</keyword>
+        <keyword>publication</keyword>
+        <keyword>identifier</keyword>
+        <keyword>converter</keyword>
+        <indexterm>Title</indexterm>
+        <indexterm>title</indexterm>
+        <indexterm>style</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>The Title style is the primary identifier of your entire document — whether it is a User Guide, Reference Manual, Operator Manual, or any other technical publication. It appears on the cover page, before any Heading 1, and exists outside the heading hierarchy.  The text of the Title-styled paragraph becomes the content of the root publication node, from which all chapters, sections, and topics descend. Every publishing system or reader depends on this root identifier.</p>
+      <p>Every publishing, content management, and delivery system depends on this root identifier. Similarly, change control systems, regulatory submissions, and audit trails identify documents by their exact, controlled Title.</p>
+      <p>In a .docx file, the built-in paragraph style named Title is the only reliable structural signal for the document's root publication name. The Title style appears only once in the document.</p>
+      <p>If no Title style is present, the converter falls back to the filename as the map title — which may be a code, abbreviation, or system-generated name that produces an unreadable result in every published output.</p>
+      <p>The DITA-XML converter uses the Title style as the signal to generate the root <codeph>&lt;map&gt;</codeph> or <codeph>&lt;bookmap&gt;</codeph> element in DITA. The Title text becomes the <codeph>&lt;title&gt;</codeph> child of the root map. All <codeph>&lt;topicref&gt;</codeph> and <codeph>&lt;mapref&gt;</codeph> elements descend from this root. The root <codeph>&lt;map&gt;</codeph> becomes the root publication node for PDF or Online outputs.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450412" xml:lang="en-us">
+   <title>Scenario 6 — List inside a table cell</title>
+   <prolog>
+    <metadata>
+      <keywords>
+        <keyword>inside</keyword>
+        <keyword>table</keyword>
+        <keyword>List</keyword>
+        <keyword>DITA</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>cells</keyword>
+        <indexterm>inside</indexterm>
+        <indexterm>table</indexterm>
+        <indexterm>List</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section id="sec_d761e7">
+         <p>Consider a table where the author has placed a <codeph>&lt;ul&gt;</codeph> or <codeph>&lt;ol&gt;</codeph> list inside one of the <codeph>&lt;td&gt;</codeph> cells.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>List inside a table cell</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_xx4_lyn_lkc">
+&lt;table>
+  &lt;tr>
+    &lt;th>Step&lt;/th>
+    &lt;th>Actions&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>1&lt;/td>
+    &lt;td>
+      &lt;ul>
+        &lt;li>Download the package.&lt;/li>
+        &lt;li>Verify the checksum.&lt;/li>
+        &lt;li>Extract the archive.&lt;/li>
+      &lt;/ul>
+    &lt;/td>
+  &lt;/tr>
+&lt;/table></codeblock>
+                     </entry>
+                    
+                     
+                     
+                     <entry>
+                        <codeblock id="codeblock_brw_lyn_lkc">
+&lt;simpletable>
+  &lt;sthead>
+    &lt;stentry>Step&lt;/stentry>
+    &lt;stentry>Actions&lt;/stentry>
+  &lt;/sthead>
+  &lt;strow>
+    &lt;stentry>1&lt;/stentry>
+    &lt;stentry>
+      &lt;ul>
+        &lt;li>Download the package.&lt;/li>
+        &lt;li>Verify the checksum.&lt;/li>
+        &lt;li>Extract the archive.&lt;/li>
+      &lt;/ul>
+    &lt;/stentry>
+  &lt;/strow>
+&lt;/simpletable></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b> The converter preserves the <codeph>&lt;ul&gt;</codeph> or <codeph>&lt;ol&gt;</codeph> list inside the table cell and maps it to the corresponding DITA <codeph>&lt;ul&gt;</codeph> or <codeph>&lt;ol&gt;</codeph> element inside <codeph>&lt;stentry&gt;</codeph>.</p>
+         <note type="tip"> Use lists inside table cells only when the list represents multiple
+            related values for the same row. Avoid using lists inside tables for procedural steps.
+            If the content is procedural, consider converting it to a DITA task with
+               <codeph>&lt;steps&gt;</codeph>.</note>
+      </section>
+   </refbody>
+</reference>

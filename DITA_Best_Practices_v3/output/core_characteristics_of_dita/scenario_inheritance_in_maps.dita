@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235705887" xml:lang="en-us">
+   <title>Scenario: inheritance in maps</title>
+   <shortdesc>&lt;topicref href="c_admin_guide.dita" audience="admin"&gt; &lt;topicref href="t_manage_users.dita"/&gt; &lt;topicref href="t_configure_permissions.dita"/&gt; &lt;topicref href="r_admin_api.dita"/&gt; In this map structure, the child</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>admin</keyword>
+        <keyword>topicref</keyword>
+        <keyword>audience</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>inheritance</keyword>
+        <keyword>manage</keyword>
+        <indexterm>admin</indexterm>
+        <indexterm>topicref</indexterm>
+        <indexterm>audience</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <codeblock xml:space="preserve">&lt;topicref href="c_admin_guide.dita" audience="admin"&gt;
+&lt;topicref href="t_manage_users.dita"/&gt;
+&lt;topicref href="t_configure_permissions.dita"/&gt;
+&lt;topicref href="r_admin_api.dita"/&gt;
+&lt;/topicref&gt;</codeblock>
+      <p>In this map structure, the child topics <codeph>t_manage_users.dita</codeph>, <codeph>t_configure_permissions.dita</codeph>, and <codeph>r_admin_api.dita</codeph> automatically inherit the <codeph>audience="admin"</codeph> attribute from their parent. Writers don't need to apply this attribute to each topic individually. The hierarchy handles it.</p>
+      <p>This reduces redundancy and ensures consistency across large documentation sets. If the audience classification changes, updating the parent updates all children.</p>
+    </section></refbody>
+</reference>

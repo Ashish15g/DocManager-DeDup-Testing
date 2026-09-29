@@ -1,0 +1,36 @@
+================================================================================
+ metR DOCX DocMigrate — MIGRATION SUMMARY REPORT
+================================================================================
+ Source File           : DOCX_to_DITA_Best_Practices_Guide.docx
+ Converter             : DOCX
+ TOTAL Docx Files      : 1
+ TOTAL IMAGES Files    : 0
+ Started               : 2026-08-28 07:23:33 UTC
+ Completed             : 2026-08-28 07:23:45 UTC
+ Duration              : 12s
+ Overall Status        : SUCCESS WITH WARNINGS
+--------------------------------------------------------------------------------
+
+STAGE RESULTS
+--------------------------------------------------------------------------------
+ Stage             Status              Warnings   Errors   Detail Log
+--------------------------------------------------------------------------------
+ Upload            SUCCESS             0          0        upload.log
+ Pre-flight        SUCCESS             0          0        preflight.log
+ Transformation    SUCCESS             0          0        transformation.log
+ Post-flight       WARNING             0          16       postflight
+ AI Enrichment     SUCCESS             4          12       aienrichment
+--------------------------------------------------------------------------------
+
+OUTPUT SUMMARY
+--------------------------------------------------------------------------------
+ Download file         : DOCX_to_DITA_Best_Practices_Guide.zip
+ ROOT DITA map         : docx_to_dita_xml_conversion.ditamap
+ Topics generated      : 116
+ DITA maps generated   : 16
+ Total suggestions     : 76
+ Total schema warnings : 4
+ Total schema errors   : 12
+--------------------------------------------------------------------------------
+The converted files and reports are ready for further review.
+================================================================================

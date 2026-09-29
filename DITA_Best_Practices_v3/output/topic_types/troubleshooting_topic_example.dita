@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="troubleshooting_topic_example" xml:lang="en-us">
+   <title>Troubleshooting topic example</title>
+   <refbody><section>
+      <codeblock>&lt;troubleshooting id="ts_installation_fails"&gt;
+         &lt;title&gt;Installation Fails with Error Code 1603&lt;/title&gt;
+         &lt;shortdesc&gt;Resolve installation failure error code 1603.&lt;/shortdesc&gt;
+         &lt;prolog&gt;
+         &lt;metadata&gt;
+         &lt;audience type="user" experiencelevel="intermediate"/&gt;
+         &lt;category&gt;Troubleshooting&lt;/category&gt;
+         &lt;keywords&gt;
+         &lt;keyword&gt;error&lt;/keyword&gt;
+         &lt;keyword&gt;1603&lt;/keyword&gt;
+         &lt;keyword&gt;installation&lt;/keyword&gt;
+         &lt;/keywords&gt;
+         &lt;/metadata&gt;
+         &lt;/prolog&gt;
+         &lt;troublebody&gt;
+         &lt;condition&gt;
+         &lt;p&gt;The installer exits unexpectedly and displays error code 1603. The application is not installed.&lt;/p&gt;
+         &lt;/condition&gt;
+         &lt;troubleSolution&gt;
+         &lt;cause&gt;
+         &lt;p&gt;Error 1603 typically occurs when:&lt;/p&gt;
+         &lt;ul&gt;
+         &lt;li&gt;Insufficient disk space is available&lt;/li&gt;
+         &lt;li&gt;Another installation is in progress&lt;/li&gt;
+         &lt;li&gt;Required files are locked by another application&lt;/li&gt;
+         &lt;li&gt;Windows Installer service is not running&lt;/li&gt;
+         &lt;/ul&gt;
+         &lt;/cause&gt;
+         &lt;remedy&gt;
+         &lt;steps&gt;
+         &lt;step&gt;
+         &lt;cmd&gt;Verify you have at least 2 GB of free disk space.&lt;/cmd&gt;
+         &lt;info&gt;Open File Explorer, right-click the installation drive, and select &lt;uicontrol&gt;Properties&lt;/uicontrol&gt;.&lt;/info&gt;
+         &lt;/step&gt;
+         &lt;step&gt;
+         &lt;cmd&gt;Close all other applications.&lt;/cmd&gt;
+         &lt;/step&gt;
+         &lt;step&gt;
+         &lt;cmd&gt;Restart the Windows Installer service.&lt;/cmd&gt;
+         &lt;substeps&gt;
+         &lt;substep&gt;
+         &lt;cmd&gt;Press &lt;uicontrol&gt;Win + R&lt;/uicontrol&gt; and type &lt;userinput&gt;services.msc&lt;/userinput&gt;.&lt;/cmd&gt;
+         &lt;/substep&gt;
+         &lt;substep&gt;
+         &lt;cmd&gt;Locate &lt;uicontrol&gt;Windows Installer&lt;/uicontrol&gt; in the list.&lt;/cmd&gt;
+         &lt;/substep&gt;
+         &lt;substep&gt;
+         &lt;cmd&gt;Right‑click and select &lt;uicontrol&gt;Restart&lt;/uicontrol&gt;.&lt;/cmd&gt;
+         &lt;/substep&gt;
+         &lt;/substeps&gt;
+         &lt;/step&gt;
+         &lt;step&gt;
+         &lt;cmd&gt;Run the installer again.&lt;/cmd&gt;
+         &lt;/step&gt;
+         &lt;/steps&gt;
+         &lt;/remedy&gt;
+         &lt;/troubleSolution&gt;
+         &lt;/troublebody&gt;
+         &lt;/troubleshooting&gt;
+      </codeblock>
+   </section></refbody>
+</reference>

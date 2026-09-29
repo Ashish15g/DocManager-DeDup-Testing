@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235706010" xml:lang="en-us">
+   <title>Table accessibility</title>
+   <shortdesc>Tables should include headers for context: &lt;tgroup cols="2"&gt; Setting Description Timeout Connection timeout in seconds</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Table</keyword>
+        <keyword>accessibility</keyword>
+        <keyword>Tables</keyword>
+        <keyword>should</keyword>
+        <keyword>include</keyword>
+        <keyword>headers</keyword>
+        <indexterm>Table</indexterm>
+        <indexterm>accessibility</indexterm>
+        <indexterm>Tables</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>Tables should include headers for
+        context:<codeblock xml:space="preserve" id="codeblock_dh1_2ly_kkc">&lt;table&gt;
+&lt;tgroup cols="2"&gt;
+&lt;thead&gt;
+&lt;row&gt;
+&lt;entry&gt;Setting&lt;/entry&gt;
+&lt;entry&gt;Description&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;row&gt;
+&lt;entry&gt;Timeout&lt;/entry&gt;
+&lt;entry&gt;Connection timeout in seconds&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/tbody&gt;
+&lt;/tgroup&gt;
+&lt;/table&gt;</codeblock></p>
+    </section></refbody>
+</reference>

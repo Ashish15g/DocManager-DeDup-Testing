@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560293" xml:lang="en-us">
+   <title>ReadMe (readme.com)</title>
+   <shortdesc>ReadMe is a hosted documentation platform with a docs-as-code approach. It lets you write content</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>ReadMe</keyword>
+        <keyword>front</keyword>
+        <keyword>matter</keyword>
+        <keyword>readme</keyword>
+        <keyword>Markdown</keyword>
+        <keyword>YAML</keyword>
+        <indexterm>ReadMe</indexterm>
+        <indexterm>front</indexterm>
+        <indexterm>matter</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>ReadMe is a hosted documentation platform with a docs-as-code approach. It lets you write content in Markdown (with YAML front matter) in a Git repository and then sync it to the ReadMe site via their CLI/GitHub Action. Under the hood, ReadMe uses React for its web UI, and files are created in Markdown and configured with front matter. The front matter is YAML (inside <codeph>+++</codeph> or <codeph>---</codeph> blocks) with fields like title, excerpt, category, metadata, link, api, etc. These fields control how pages appear in the ReadMe interface.</p>
+   </conbody>
+</concept>

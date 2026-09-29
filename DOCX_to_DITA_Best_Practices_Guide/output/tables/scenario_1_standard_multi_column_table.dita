@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Scenario_1__" xml:lang="en-us">
+   <title>Scenario 1 — Standard multi-column table</title>
+   <refbody>
+      <section>
+         <p>Consider the status indicator lights table in the Printer User's Guide under the heading "Status Indicator Lights". The table has three columns — Light Pattern, Color, and Status — in a concept topic.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Standard multi-column table</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Heading 2]: Status Indicator Lights [Header row]: Light Pattern | Color | Status [Row]: Solid | Green | Printer is ready. [Row]: Flashing | Orange | Paper jam detected. [Row]: Solid | Red | Ink level is critically low.</entry>
+                     <entry>
+                        <codeblock id="codeblock_vw1_yly_kkc">
+&lt;reference id="status_indicator_lights">
+  &lt;title>Status Indicator Lights&lt;/title>
+  &lt;refbody>
+    &lt;simpletable>
+      &lt;sthead>
+        &lt;stentry>Light Pattern&lt;/stentry>
+        &lt;stentry>Color&lt;/stentry>
+        &lt;stentry>Status&lt;/stentry>
+      &lt;/sthead>
+      &lt;strow>
+        &lt;stentry>Solid&lt;/stentry>
+        &lt;stentry>Green&lt;/stentry>
+        &lt;stentry>Printer is ready.&lt;/stentry>
+      &lt;/strow>
+      &lt;strow>
+        &lt;stentry>Flashing&lt;/stentry>
+        &lt;stentry>Orange&lt;/stentry>
+        &lt;stentry>Paper jam detected.&lt;/stentry>
+      &lt;/strow>
+      &lt;strow>
+        &lt;stentry>Solid&lt;/stentry>
+        &lt;stentry>Red&lt;/stentry>
+        &lt;stentry>Ink level is critically low.&lt;/stentry>
+      &lt;/strow>
+    &lt;/simpletable>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b>The table is converted into <codeph>&lt;simpletable&gt;</codeph> because:</p>
+         <ul id="ul_07233416">
+            <li>All rows contain the same number of columns</li>
+            <li>No merged cells</li>
+            <li>No row or column spanning</li>
+            <li>No caption</li>
+         </ul>
+      </section>
+   </refbody>
+</reference>

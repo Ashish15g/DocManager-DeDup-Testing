@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705926" xml:lang="en-us">
+   <title>Scenario: graphical representation in a concept topic</title>
+   <refbody><section>
+      <p>Consider a "Using the Control Panel" chapter in a "Printer User Guide" document where you want to introduce the various buttons and indicators available on the printer control panel. There is an image of the control panel with callouts. Because the purpose of the topic is to explain the layout and components of the control panel rather than perform a procedure, use a graphical representation in a concept topic.</p>
+      <codeblock>&lt;concept id="using-control-panel"&gt;
+         &lt;title&gt;Using the Control Panel&lt;/title&gt;
+         &lt;shortdesc&gt;
+         Learn about the control panel and the available control panel
+         settings.
+         &lt;/shortdesc&gt;
+         &lt;conbody&gt;
+         &lt;p&gt;
+         The control panel provides access to printer settings,
+         status information, and maintenance functions.
+         &lt;/p&gt;
+         &lt;fig&gt;
+         &lt;title&gt;Control Panel Buttons and Lights&lt;/title&gt;
+         &lt;image
+         href="images/control-panel.png"
+         placement="break"
+         alt="Printer control panel showing the power button and light, home button, LCD screen, help button, stop button, back button, arrow buttons and OK button, reset button, and start button"/&gt;
+         &lt;/fig&gt;
+         &lt;p&gt;
+         The control panel contains the following components:
+         &lt;/p&gt;
+         &lt;ol&gt;
+         &lt;li&gt;Power button and light&lt;/li&gt;
+         &lt;li&gt;Home button&lt;/li&gt;
+         &lt;li&gt;LCD screen&lt;/li&gt;
+         &lt;li&gt;Help button&lt;/li&gt;
+         &lt;li&gt;Stop button&lt;/li&gt;
+         &lt;li&gt;Back button&lt;/li&gt;
+         &lt;li&gt;Arrow buttons and OK button&lt;/li&gt;
+         &lt;li&gt;Reset button&lt;/li&gt;
+         &lt;li&gt;Start button&lt;/li&gt;
+         &lt;/ol&gt;
+         &lt;/conbody&gt;
+         &lt;/concept&gt;
+      </codeblock>
+      <p>
+         <b>Result:</b> Use a <codeph>&lt;fig&gt;</codeph> containing an <codeph>&lt;image&gt;</codeph> in a concept topic when explaining the parts of a device, user interface, system architecture, or any subject that is easier to understand through a visual representation than through text alone. If there are callouts on the image put them in a <codeph>&lt;table&gt;</codeph>or <codeph>&lt;simpletable&gt;</codeph> wrapped within a <codeph>&lt;p&gt;</codeph> tag or in an <codeph>&lt;ol&gt;</codeph>.</p>
+   </section></refbody>
+</reference>

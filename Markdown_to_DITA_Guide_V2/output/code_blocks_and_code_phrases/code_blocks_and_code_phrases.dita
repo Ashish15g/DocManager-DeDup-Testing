@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560411" xml:lang="en-us">
+   <title>Code blocks and Code phrases</title>
+  <abstract>This section explains how Markdown inline code phrases and fenced code blocks are
+    interpreted during Markdown-to-DITA conversion. It describes how the converter distinguishes
+    between inline and block-level code, preserves formatting and language identifiers when
+    available, and generates the appropriate DITA code elements while maintaining the relationship
+    between code examples and the surrounding content.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>blocks</keyword>
+        <keyword>phrases</keyword>
+        <keyword>fenced</keyword>
+        <keyword>DITA</keyword>
+        <keyword>Code</keyword>
+        <keyword>Markdown</keyword>
+        <indexterm>blocks</indexterm>
+        <indexterm>phrases</indexterm>
+        <indexterm>fenced</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>Code blocks and code phrases represent commands, source code, scripts, configuration examples, API requests, file names, and other technical content that must be displayed exactly as written. Inline code phrases identify short code-related terms within a sentence, while fenced code blocks present larger examples, command sequences, or source code snippets that require preserved formatting, indentation, and whitespace. Maintaining the original presentation of code is essential because even small formatting changes can alter meaning or produce incorrect results.</p>
+      <p>In Markdown, inline code phrases are enclosed in single backticks (<codeph>`</codeph>), while code blocks are created using fenced code block syntax with triple backticks (<codeph>```</codeph>). A fenced code block may optionally include a language identifier that identifies the programming or markup language used in the example.</p>
+      <p>The converter distinguishes between inline code phrases and fenced code blocks and
+      generates the appropriate DITA code elements. Inline code phrases are converted to
+        <codeph>&lt;codeph&gt;</codeph> elements, while fenced code blocks are converted to
+        <codeph>&lt;codeblock&gt;</codeph>elements. The converter preserves formatting, indentation,
+      and language identifiers when available, so that code examples remain accurate and readable in
+      the generated DITA output.<note id="note_njh_r5r_kkc" type="important">Use inline code phrases
+        for short commands, keywords, file names, and other code-related terms within a sentence.
+        Use fenced code blocks for complete commands, scripts, configuration examples, and source
+        code that require preserved formatting.</note></p>
+      <p>The following scenarios demonstrate how different Markdown code structures are interpreted during Markdown-to-DITA conversion and how they affect the generated DITA output.</p>
+   </conbody>
+</concept>

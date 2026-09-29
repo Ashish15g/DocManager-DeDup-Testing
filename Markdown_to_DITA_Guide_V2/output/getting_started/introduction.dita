@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="_Toc238560284" xml:lang="en-us">
+   <title>Introduction</title>
+   <abstract>This section explains how the Markdown-to-DITA converter interprets Markdown package
+      structures, page structures, metadata, headings, and content elements to generate DITA maps
+      and topics. It covers package organization, folder hierarchies, metadata, mandatory and
+      optional Markdown constructs, and conversion behaviors. The AI Agent learns how Markdown
+      structure influences DITA map generation, topic classification, metadata mapping, content
+      transformation, and the identification of structural issues that may affect conversion
+      quality.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>DITA</keyword>
+        <keyword>Markdown</keyword>
+        <keyword>topics</keyword>
+        <keyword>metadata</keyword>
+        <keyword>topic</keyword>
+        <keyword>converter</keyword>
+        <indexterm>DITA</indexterm>
+        <indexterm>Markdown</indexterm>
+        <indexterm>topics</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      
+         <p>The Markdown-to-DITA converter reads the semantic structure of a Markdown package. The converter uses Markdown syntax, folder structure, metadata, and heading hierarchies to generate DITA maps, DITA topics, topic relationships, and semantic topic body elements.</p>
+         <p>When Markdown content is authored correctly, the converter can:<ol id="steps_112454">
+            <li> Create the root DITA map from the root index.md file and folder hierarchy. </li>
+            <li> Convert each Markdown file into DITA topics and establish parent-child
+               relationships between topics. </li>
+            <li> Use metadata and Heading 1 (<codeph>#</codeph>) elements to create DITA map titles
+               and topic titles. </li>
+            <li> Use the folder names to create DITA map and topic IDs. </li>
+            <li> Split the subsequent headings like heading 2 (<codeph>##</codeph>) through heading
+               3 (<codeph>###</codeph>) into separate DITA topics. </li>
+            <li> Preserve the topic sequence based on folder structure, index files, and heading
+               levels. </li>
+            <li> Classify topics as concept, task, reference, troubleshooting, or glossary topics. </li>
+            <li> Convert paragraphs, lists, tables, images, hyperlinks, admonitions, and code blocks
+               into valid DITA elements. </li>
+            <li> Generate or refine metadata such as short descriptions, authors, keywords, and
+               index terms where supported. </li>
+            <li> Detect structural inconsistencies such as missing metadata, missing short
+               descriptions, invalid links, duplicate IDs, orphan topics, improper nesting, or
+               unsupported Markdown constructs that may require manual review. </li>
+         </ol></p>
+      <section>
+         <p>The converter reads the following Markdown constructs:</p>
+      </section>
+   </conbody>
+</concept>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235705977" xml:lang="en-us">
+   <title>Parameter table example</title>
+   <shortdesc>timeout Connection timeout in seconds.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Parameter</keyword>
+        <keyword>table</keyword>
+        <keyword>example</keyword>
+        <keyword>timeout</keyword>
+        <keyword>Default</keyword>
+        <keyword>Connection</keyword>
+        <indexterm>Parameter</indexterm>
+        <indexterm>table</indexterm>
+        <indexterm>example</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <codeblock xml:space="preserve">
+&lt;parml&gt;
+  &lt;plentry&gt;
+    &lt;pt&gt;timeout&lt;/pt&gt;
+    &lt;pd&gt;Connection timeout in seconds. Default: 30.&lt;/pd&gt;
+  &lt;/plentry&gt;
+  &lt;plentry&gt;
+    &lt;pt&gt;retries&lt;/pt&gt;
+    &lt;pd&gt;Number of retry attempts. Default: 3.&lt;/pd&gt;
+  &lt;/plentry&gt;
+&lt;/parml&gt;
+</codeblock>
+    </section></refbody>
+</reference>

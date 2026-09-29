@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="admonitions_2" xml:lang="en-us">
+   <title>Admonitions</title>
+   <abstract>This section covers Admonitions — paragraph-level notices that give safety-related,
+      advisory, or supplementary information structural separation from the surrounding body content
+      — and five scenarios: a standard named admonition, consecutive admonitions, an image placed
+      inside an admonition, an admonition inside a table cell, and a bold inline label pattern. The
+      converter maps each recognized admonition style directly to <codeph>&lt;note
+         type="[type]"&gt;</codeph>; for bold inline labels, content pattern recognition reads the
+      opening text, removes the label, and maps the remaining content to the matching
+      type.</abstract>
+   <conbody>
+      <p>Admonitions are paragraph-level notices that separate advisory, safety-related, or supplementary information from the surrounding body content. Admonitions identify information that requires immediate reader attention — safety warnings, usage restrictions, helpful tips, important prerequisites, and cautionary notices — and give it structural separation from the prose that surrounds it.</p>
+      <p>For readers and publishing systems, admonition apply stronger visual treatment or weight from tip through note through caution through warning through danger. Each one of them are distinct in admonition icons, background color, or text color.</p>
+      <p>The converter maps a paragraph with a recognised admonition style directly to <codeph>&lt;note type="[type]"&gt;</codeph>. For a bold inline label, it applies content pattern recognition: it reads the opening text, removes the label, and maps the remaining text to the matching note type.</p>
+      <p>The following table lists the types of admonitions and their corresponding DITA output:</p>
+      <table colsep="1" frame="all" rowsep="1">
+         <title>Admonition styles mapped to DITA</title>
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>.docx Style Name or Bold Text</b>
+                  </entry>
+                  <entry>
+                     <b>Purpose</b>
+                  </entry>
+                  <entry>
+                     <b>DITA Note Type Examples</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>Note</entry>
+                  <entry>General information</entry>
+                  <entry>
+                     <codeblock id="codeblock_jym_4zr_kkc">
+&lt;note> Configuration changes take effect immediately.&lt;/note></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Warning</entry>
+                  <entry>Warn about damage, data loss, safety, or severe consequences</entry>
+                  <entry>
+                     <codeblock id="codeblock_rxq_wzr_kkc">
+&lt;note type="warning">
+  Do not interrupt the firmware upgrade process.
+&lt;/note></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Caution</entry>
+                  <entry>Warn about possible problems or unexpected behavior</entry>
+                  <entry>
+                     <codeblock id="codeblock_p1c_zzr_kkc">
+&lt;note type="caution">
+  Do not manually modify system configuration files.
+&lt;/note></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Danger</entry>
+                  <entry>Warn about hazardous situations or serious injury</entry>
+                  <entry>
+                     <codeblock id="codeblock_mmg_b1s_kkc">
+&lt;note type="danger">
+  Disconnect all power sources before opening the chassis.
+&lt;/note></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Important</entry>
+                  <entry>Highlight critical information</entry>
+                  <entry>
+                     <codeblock id="codeblock_qpl_f1s_kkc">
+&lt;note type="important">
+  The service must be restarted after applying changes.
+&lt;/note></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Remember</entry>
+                  <entry>Remind users about important recurring information</entry>
+                  <entry>
+                     <codeblock id="codeblock_efs_h1s_kkc">
+&lt;note type="remember">
+  Save the running configuration before rebooting.
+&lt;/note></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Restriction</entry>
+                  <entry>Describe limitations or unsupported behavior</entry>
+                  <entry>
+                     <codeblock id="codeblock_imf_j1s_kkc">
+&lt;note type="restriction">
+  This feature is supported only in ABC 7.x and later.
+&lt;/note></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Attention</entry>
+                  <entry>Draw attention to a specific item</entry>
+                  <entry>
+                     <codeblock id="codeblock_jpm_j1s_kkc">
+&lt;note type="attention">
+  Verify the selected interface before continuing.
+&lt;/note></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Tip</entry>
+                  <entry>Provide helpful advice or shortcuts</entry>
+                  <entry>
+                     <codeblock id="codeblock_j5w_j1s_kkc">
+&lt;note type="tip">
+  Use tab completion to reduce typing errors.
+&lt;/note></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Fast Path</entry>
+                  <entry>Provide an alternate quicker approach</entry>
+                  <entry>
+                     <codeblock id="codeblock_a1g_k1s_kkc">
+&lt;note type="fastpath">
+  Use the Quick Setup wizard for basic configuration.
+&lt;/note></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Troubleshooting</entry>
+                  <entry>Provide troubleshooting guidance</entry>
+                  <entry>
+                     <codeblock id="codeblock_chp_k1s_kkc">
+&lt;note type="trouble">
+  Verify that the required ports are not blocked by the firewall.
+&lt;/note></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Custom style</entry>
+                  <entry>Custom note type</entry>
+                  <entry>
+                     <codeblock id="codeblock_epj_l1s_kkc">
+&lt;note type="other" othertype="Best Practice">
+  Use a dedicated service account for deployment.
+&lt;/note></codeblock>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>In Oxygen XML Text view</b>
+      </p>
+      <ol id="steps_07233501">
+         <li>Edit the type attribute directly in the XML source. Locate the <codeph>&lt;note&gt;</codeph> tag.</li>
+         <li>Add or update the type attribute.</li>
+      </ol>
+   </conbody>
+</concept>

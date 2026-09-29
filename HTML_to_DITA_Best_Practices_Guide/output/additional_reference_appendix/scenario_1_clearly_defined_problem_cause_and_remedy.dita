@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headinghp10c6clurdgw" xml:lang="en-us">
+   <title>Scenario 1 — Clearly defined problem, cause and remedy</title>
+   <shortdesc>Consider an HTML document containing a troubleshooting section with a clearly defined problem, its cause,</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cause</keyword>
+        <keyword>remedy</keyword>
+        <keyword>power</keyword>
+        <keyword>problem</keyword>
+        <keyword>cable</keyword>
+        <keyword>defined</keyword>
+        <indexterm>cause</indexterm>
+        <indexterm>remedy</indexterm>
+        <indexterm>power</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider an HTML document containing a troubleshooting section with a clearly defined problem, its cause, and the corresponding remedy. The following example shows how the converter transforms this structure into a DITA <codeph>&lt;troubleshooting&gt;</codeph> topic.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Troubleshooting: problem, cause, remedy</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;h2>The Printer Does Not Power On&lt;/h2>
+&lt;p>&lt;b>Cause:&lt;/b> The power cable is disconnected.&lt;/p>
+&lt;p>&lt;b>Remedy:&lt;/b>&lt;/p>
+&lt;ol>
+  &lt;li>Connect the power cable securely.&lt;/li>
+  &lt;li>Press the power button.&lt;/li>
+&lt;/ol></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;troubleshooting id="trouble_rzn_xrj_rjc">
+  &lt;title>The Printer Does Not Power On&lt;/title>
+  &lt;troublebody>
+    &lt;condition>
+      &lt;title>Condition&lt;/title>
+      &lt;p>The printer does not power on.&lt;/p>
+    &lt;/condition>
+    &lt;troubleSolution>
+      &lt;cause>
+        &lt;title>Cause&lt;/title>
+        &lt;p>The power cable is disconnected.&lt;/p>
+      &lt;/cause>
+      &lt;remedy>
+        &lt;title>Remedy&lt;/title>
+        &lt;steps>
+          &lt;step>
+            &lt;cmd>Connect the power cable securely.&lt;/cmd>
+          &lt;/step>
+          &lt;step>
+            &lt;cmd>Press the power button.&lt;/cmd>
+          &lt;/step>
+        &lt;/steps>
+      &lt;/remedy>
+    &lt;/troubleSolution>
+  &lt;/troublebody>
+&lt;/troubleshooting></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+
+<p><b>Result</b>: The heading "The Printer Does Not Power On" states a problem, and the body uses
+               <codeph>&lt;b>Cause:&lt;/b></codeph> and <codeph>&lt;b>Remedy:&lt;/b></codeph> labels
+            triggering a Troubleshooting topic. The heading text becomes the
+               <codeph>&lt;condition&gt;</codeph>, since it states the observable problem. The cause
+            text maps to <codeph>&lt;cause&gt;</codeph>, and the numbered remedy steps map to
+               <codeph>&lt;remedy&gt;&lt;steps&gt;</codeph>. The cause and remedy are wrapped
+            together in a single <codeph>&lt;troubleSolution&gt;</codeph>.</p>
+         </section>
+   </refbody>
+</reference>

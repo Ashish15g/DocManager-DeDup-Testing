@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560407" xml:lang="en-us">
+   <title>Scenario 4: Cross reference inside a list item in a procedure</title>
+   <shortdesc>Consider a task topic that includes links to related procedures.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Alarm</keyword>
+        <keyword>alarm</keyword>
+        <keyword>related</keyword>
+        <keyword>Configuring</keyword>
+        <keyword>Notifications</keyword>
+        <keyword>notifications</keyword>
+        <indexterm>Alarm</indexterm>
+        <indexterm>alarm</indexterm>
+        <indexterm>related</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a task topic that includes links to related procedures.</p><table frame="all" colsep="1" rowsep="1">
+            <title>Cross reference is inside a list item (procedure)</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+              <thead>
+                <row>
+                  <entry> .md input </entry>
+                  <entry> DITA output </entry>
+                </row>                
+              </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Configuring Alarm Notifications
+  To configure alarm notifications:
+  1. Open the Notification Settings page. 2. Configure the notification settings. 3. Save the configuration.
+  Related Tasks
+  - [Creating an Alarm Type](creating-an-alarm-type.md)
+  - [Managing Alarm Recipients](managing-alarm-recipients.md)
+  - [Configuring Email Notifications](configuring-email-notifications.md)</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;task id="configuring_alarm_notifications"&gt; &lt;title&gt;Configuring Alarm Notifications&lt;/title&gt;
+  &lt;taskbody&gt;
+  &lt;steps&gt;
+  &lt;step&gt; &lt;cmd&gt;Open the Notification Settings page.&lt;/cmd&gt; &lt;/step&gt;
+  &lt;step&gt; &lt;cmd&gt;Configure the notification settings.&lt;/cmd&gt; &lt;/step&gt; &lt;step&gt; &lt;cmd&gt;Save the configuration.&lt;/cmd&gt; &lt;/step&gt;
+  &lt;/steps&gt;
+  &lt;/taskbody&gt;
+  &lt;related-links&gt;
+  &lt;link href="creating-an-alarm-type.dita"&gt; &lt;linktext&gt;Creating an Alarm Type&lt;/linktext&gt; &lt;/link&gt;
+  &lt;link href="managing-alarm-recipients.dita"&gt; &lt;linktext&gt;Managing Alarm Recipients&lt;/linktext&gt; &lt;/link&gt; &lt;link href="configuring-email-notifications.dita"&gt; &lt;linktext&gt;Configuring Email Notifications&lt;/linktext&gt; &lt;/link&gt; &lt;/related-links&gt;
+  &lt;/task&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table><p>
+            <b>Result:</b>The converter recognizes that the list contains links to related topics rather than procedural content. Instead of converting the list into a DITA unordered list, it generates a DITA <codeph>&lt;related-links&gt;</codeph> section containing individual <codeph>&lt;link&gt;</codeph> elements. This preserves the navigational relationship between the current task and the related procedures.</p>
+  </section></refbody>
+</reference>

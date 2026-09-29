@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560318" xml:lang="en-us">
+   <title>Headings</title>
+   <abstract>This section covers the Heading style in Markdown — its role as the primary structural
+      mechanism that organizes a document's content into a named, hierarchical sequence of sections
+      — and four scenarios: headings applied in correct sequential order, a heading level skipped in
+      the hierarchy, a top-level heading absent from the document, and consecutive headings with no
+      body content between them. The converter reads each heading level to construct the DITA map
+      hierarchy, generating sub-maps, topic files, and topic type classifications from the heading
+      sequence and the content that follows each heading.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Heading</keyword>
+        <keyword>heading</keyword>
+        <keyword>topic</keyword>
+        <keyword>level</keyword>
+        <keyword>content</keyword>
+        <keyword>becomes</keyword>
+        <indexterm>Heading</indexterm>
+        <indexterm>heading</indexterm>
+        <indexterm>topic</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>A <b>Heading</b> style marks the beginning of a named section of content and assigns it a rank in the document hierarchy. It is the primary structural mechanism of any technical document — headings divide continuous content into discrete, named units, establish the parent-child relationships between those units, and create the navigational backbone that readers and publishing systems depend on.</p>
+      <p>The heading hierarchy is expressed through levels: a top-level heading (Heading 1) names a major section; each lower-level heading (Heading 2 through Heading N) names a subsection within its parent. This ranked sequence carries the same structural meaning regardless of the format it is expressed. The level communicates the section's position in the hierarchy; the text communicates its subject.</p>
+      <note id="note_ccv_vdw_jkc">Only a semantically marked heading — applied through the
+         document's native heading mechanism — creates a genuine section boundary that a converter,
+         search engine, or publishing system can detect and act on.</note>
+      <p>In a .docx file, the built-in Heading styles are paragraph styles — Heading 1 through Heading N — each carrying an outline level attribute. The outline level is a zero-indexed integer: Heading 1 carries outline level 0, Heading 2 carries outline level 1, and so on.</p>
+      <note type="important">The DITA-XML converter reads the heading outline levels in sequence and uses them to construct the root DITA map tree.  The heading 1 or outline level 0 is used to create sub ditamaps &lt;mapref&gt; nested in the root DITA map. The subsequent outline level 2 to N generates nested topic files &lt;topicref&gt; . And the content between one heading and the next becomes a single .dita topic file (concept, task, reference and so on).</note>
+      <p>The sub Ditamap and respective topics is organized in the sequential order to establish the parent-child map relationships between topics, and create the navigational backbone in the published output such as PDF or Online document.</p>
+      <note id="note_ngz_hfw_jkc" type="warning">
+         <ul id="ul_11245411">
+            <li>A gap in the heading sequence — for example, a Heading 3 appearing directly under a
+               Heading 1 with no Heading 2 between them — causes the converter to promote the
+               lower-level heading. Heading 4 (<codeph>####</codeph>) and deeper levels should be
+               used sparingly because they are converted to paragraph content rather than additional
+               structural levels.</li>
+            <li>A multi-level heading sequence with empty paragraphs (no context) will generate
+               empty DITA topics or map to <codeph>&lt;topichead&gt;</codeph> - altering the
+               intended hierarchy in the output.</li>
+         </ul>
+      </note>
+      <p>In Markdown, headings are created by placing one or more hash (<codeph>#</codeph>) characters at the beginning of a line. In most projects, the converter supports three effective heading levels per topic.</p>
+      <p>The converter analyzes the heading hierarchy within each Markdown file to determine how the content is organized in the generated DITA topic. If title metadata is not available, Heading 1 (<codeph>#</codeph>) becomes the topic title. Heading 2 (<codeph>##</codeph>) becomes a section title or, in a task topic, a subtopic under the parent topic. Heading 3 (<codeph>###</codeph>) and lower heading levels are converted to paragraph content.</p>
+      <note id="note_vrs_qhw_jkc" type="warning">Do not use bold text (<codeph>**Heading**</codeph>)
+         in place of a Markdown heading (<codeph># Heading</codeph>). Bold formatting has no
+         structural meaning. The converter treats it as paragraph content and appends the following
+         content to the current topic instead of creating a new topic.</note>
+      <p>The following table shows how each Markdown heading level maps to a DITA construct.</p>
+      <table frame="all" colsep="1" rowsep="1">
+         <title>Heading mappings</title>
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <thead>
+               <row>
+                  <entry> .md heading</entry>
+                  <entry> Maps to</entry>
+                  <entry> Generates </entry>
+               </row>               
+            </thead>
+            <tbody>
+               <row>
+                  <entry>Heading 1 (<codeph>#</codeph>)</entry>
+                  <entry>Title</entry>
+                  <entry>If there is no title metadata, the H1 (<codeph>#</codeph>) becomes the title of the topic.</entry>
+               </row>
+               <row>
+                  <entry>Heading 2 (<codeph>##</codeph>)</entry>
+                  <entry>Section Title</entry>
+                  <entry>The H2 (<codeph>##</codeph>) becomes the title of the section of the topic. In case of a task topic, it becomes a subtopic under the parent topic.</entry>
+               </row>
+               <row>
+                  <entry>Heading 3 (<codeph>###</codeph>)</entry>
+                  <entry>Paragraph tag</entry>
+                  <entry>The H3 (<codeph>###</codeph>) becomes a paragraph tag.</entry>
+               </row>
+               <row>
+                  <entry>Heading 4 (<codeph>####</codeph>)</entry>
+                  <entry>Paragraph tag</entry>
+                  <entry>The H4 (<codeph>####</codeph>) becomes a paragraph tag.</entry>
+               </row>
+               <row>
+                  <entry>Heading 5 (<codeph>#####</codeph>)</entry>
+                  <entry>Paragraph tag</entry>
+                  <entry>The H5 (<codeph>#####</codeph>) becomes a paragraph tag.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <note type="tip">Begin each Markdown topic with a Heading 1 ( # ) and use heading levels sequentially without skipping intermediate levels. Use headings to represent the logical structure of the document rather than to achieve a particular visual appearance. This helps the converter preserve the intended hierarchy without applying fallback promotion rules.</note>
+   </conbody>
+</concept>

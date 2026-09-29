@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450332" xml:lang="en-us">
+   <title>HTML Body Content</title>
+   <prolog>
+    <metadata>
+      <keywords>
+        <keyword>HTML</keyword>
+        <keyword>content</keyword>
+        <keyword>topic</keyword>
+        <keyword>converter</keyword>
+        <keyword>hierarchy</keyword>
+        <keyword>Body</keyword>
+        <indexterm>HTML</indexterm>
+        <indexterm>content</indexterm>
+        <indexterm>topic</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+    <p>The <codeph>&lt;body&gt;</codeph> element contains semantic content that maps to DITA topics and topic body elements. The converter processes elements in document order and uses the heading hierarchy to determine topic boundaries and nesting levels.</p><p>The converter extracts the HTML package, analyzes metadata and content structure, applies heading-based hierarchy rules, and generates the corresponding Ditamaps and topics.</p>
+    <note type="warning"> If the HTML uses visual formatting instead of semantic structure, the converter may append content to the wrong topic, create an incorrect hierarchy, or generate DITA that requires manual cleanup.</note>
+  </conbody>
+</concept>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_headinghogi1xwbz7lfl" xml:lang="en-us">
+   <title>Scenario 1: Consecutive bullet items</title>
+   <shortdesc>Consider a markdown file that has a bulleted list to describe the key benefits of</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>bullet</keyword>
+        <keyword>items</keyword>
+        <keyword>benefits</keyword>
+        <keyword>monitoring</keyword>
+        <keyword>Consecutive</keyword>
+        <keyword>system</keyword>
+        <indexterm>bullet</indexterm>
+        <indexterm>items</indexterm>
+        <indexterm>benefits</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a markdown file that has a bulleted list to describe the key benefits of a monitoring system.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Consecutive bullet items</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Monitoring Benefits
+  The monitoring system provides the following benefits:
+  - Real-time alerting
+  - Automated escalation
+  - Historical trend analysis
+  - Centralized event management</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;concept id="monitoring_benefits"&gt;
+  &lt;title&gt;Monitoring Benefits&lt;/title&gt;
+  &lt;conbody&gt;
+  &lt;p&gt;
+  The monitoring system provides the following benefits:
+  &lt;/p&gt;
+  &lt;ul&gt;
+  &lt;li&gt;Real-time alerting&lt;/li&gt;
+  &lt;li&gt;Automated escalation&lt;/li&gt;
+  &lt;li&gt;Historical trend analysis&lt;/li&gt;
+  &lt;li&gt;Centralized event management&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/conbody&gt;
+  &lt;/concept&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The converter recognizes the consecutive bullet items as an unordered list and generates a DITA <codeph>&lt;ul&gt;</codeph> element. Each bullet item becomes a DITA <codeph>&lt;li&gt;</codeph> element.</p></section></refbody>
+</reference>

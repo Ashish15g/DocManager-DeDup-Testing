@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="list_paragraphs" xml:lang="en-us">
+   <title>List Paragraphs</title>
+  <abstract>This section covers List Paragraphs in DOCX— the primary structure for presenting
+    discrete, parallel items in a defined or co-equal sequence — and introduces two subsections:
+    Ordered Lists and Unordered Lists. The converter reads the list type, nesting level, and topic
+    context to determine whether to map each list to <codeph>&lt;ol&gt;</codeph>,
+      <codeph>&lt;ul&gt;</codeph>, <codeph>&lt;steps&gt;</codeph>,
+    <codeph>&lt;substeps&gt;</codeph>, <codeph>&lt;choices&gt;</codeph>, or
+      <codeph>&lt;dl&gt;</codeph> in the DITA output.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>List</keyword>
+        <keyword>items</keyword>
+        <keyword>paragraphs</keyword>
+        <keyword>Paragraphs</keyword>
+        <keyword>structure</keyword>
+        <keyword>equal</keyword>
+        <indexterm>List</indexterm>
+        <indexterm>items</indexterm>
+        <indexterm>paragraphs</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>
+         <b>List paragraphs</b> communicate sequences, collections, and term-definition pairs that prose paragraphs cannot organise with equal clarity. They are the primary structure for presenting discrete, parallel items — steps in a procedure, items in a requirements checklist, and options in a configuration section.</p>
+      <p>A list communicates to the reader that its items share a structural relationship: either
+      sequence matters and the order is meaningful, or the items are co-equal and interchangeable in
+      position.</p>
+    <p>In a .docx file, list items are created using the built-in list controls:</p>
+      <ul id="ul_07233407">
+         <li>Home → Bullets – Considered as an unordered list.</li>
+         <li>Home → Numbering – Considered as an ordered list.</li>
+      </ul>
+      <p>The converter maps ordered lists to <codeph>&lt;ol&gt;&lt;li&gt;</codeph> and unordered lists to <codeph>&lt;ul&gt;&lt;li&gt;</codeph> by default, then applies content pattern recognition based on topic type — an ordered list under an action-verb heading in a Task topic maps to <codeph>&lt;steps&gt;&lt;step&gt;&lt;cmd&gt;</codeph> instead.</p>
+      <note type="warning">List paragraphs created by manually typing hyphens, asterisks, numbers,
+      or bullet characters as Normal-styled paragraphs do not carry the List Paragraph style.
+      Manually typed symbols produce plain &lt;p&gt; elements in the DITA output — no list structure
+      is generated.</note>
+   </conbody>
+</concept>

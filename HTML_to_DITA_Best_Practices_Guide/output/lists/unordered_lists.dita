@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450378" xml:lang="en-us">
+   <title>Unordered Lists</title>
+  <abstract> This section covers Unordered Lists — items presented as a co-equal collection where
+    position does not affect meaning — and seven scenarios: consecutive bullet items, two-level
+    nested bullet lists, three-level nested bullet lists, a block image between bullet items, a
+    paragraph between bullet items, a table inside a list item, and an admonition between bullet
+    items. The converter maps each unordered list to <codeph>&lt;ul&gt;&lt;li&gt;</codeph> in
+    concept and reference topics, or <codeph>&lt;choices&gt;</codeph> in task topics, based on the
+    heading classification and content context.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>level</keyword>
+        <keyword>items</keyword>
+        <keyword>bullet</keyword>
+        <keyword>unordered</keyword>
+        <keyword>DITA</keyword>
+        <keyword>lists</keyword>
+        <indexterm>level</indexterm>
+        <indexterm>items</indexterm>
+        <indexterm>bullet</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>An <b>unordered list</b> presents a collection of co-equal items where position does not affect meaning. The unordered list is typically used for prerequisites, supported platforms, product features, available options, feature list, and even terms and definition.</p>
+      <p>For the reader, a bulleted list communicates that the items are parallel and independent — none depends on another, and the set is complete as presented. The reader does not need to track position or sequence, only membership in the set.</p>
+      <p>The list level is controlled by the Increase and Decrease Indent buttons, determines nesting depth: level 1 is the top level, level 2 is the first nested level, level 3 is the second, and so on. Sometimes they are also defined by the tab alignment.</p>
+      <note type="note"> The list level assigned by list controls is what drives the nesting
+      structure in the DITA output.</note>
+      <p>In well-structured HTML, unordered lists are created using native <codeph>&lt;ul&gt;</codeph> and <codeph>&lt;li&gt;</codeph> elements. Nested unordered lists represent sub-groupings within a parent item, while introductory paragraphs, images, tables, and notes provide supporting information without altering the non-sequential relationship between items.</p>
+      <p>The converter evaluates both the HTML list structure and the classified DITA topic type when processing an unordered list. A <codeph>&lt;ul&gt;</codeph> immediately preceding an <codeph>&lt;ol&gt;</codeph> within the same topic typically signals prerequisite or conditional information rather than an independent list. Within Concept, Reference, and Generic topics, an HTML <codeph>&lt;ul&gt;</codeph> is converted to a DITA <codeph>&lt;ul&gt;</codeph>. Within a Task topic, a <codeph>&lt;ul&gt;</codeph> positioned immediately before the procedural <codeph>&lt;ol&gt;</codeph> is converted into <codeph>&lt;prereq&gt;</codeph>, with each <codeph>&lt;li&gt;</codeph> mapped to a <codeph>&lt;p&gt;</codeph> or <codeph>&lt;li&gt;</codeph> inside that section. The surrounding topic context determines whether the list remains a DITA <codeph>&lt;ul&gt;</codeph> or is transformed into another DITA structure, such as <codeph>&lt;prereq&gt;</codeph>.</p>
+   </conbody>
+</concept>

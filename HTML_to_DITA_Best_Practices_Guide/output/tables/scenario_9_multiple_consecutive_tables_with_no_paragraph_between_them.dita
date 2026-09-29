@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450415" xml:lang="en-us">
+   <title>Scenario 9 — Multiple consecutive tables with no paragraph between them</title>
+   <refbody>
+      <section id="sec_d779e7">
+         <p>Consider a section where two or more <codeph>&lt;table&gt;</codeph> elements appear one after another in the HTML source with no <codeph>&lt;p&gt;</codeph> element between them.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Consecutive tables, no paragraph in between</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_jdc_twn_lkc">
+&lt;h2 id="server-configuration">
+  Server Configuration
+&lt;/h2>
+&lt;table>
+  &lt;tr>
+    &lt;th>Parameter&lt;/th>
+    &lt;th>Value&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Port&lt;/td>
+    &lt;td>8080&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Timeout&lt;/td>
+    &lt;td>60&lt;/td>
+  &lt;/tr>
+&lt;/table>
+&lt;table>
+  &lt;tr>
+    &lt;th>Parameter&lt;/th>
+    &lt;th>Value&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Max connections&lt;/td>
+    &lt;td>100&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Retry limit&lt;/td>
+    &lt;td>3&lt;/td>
+  &lt;/tr>
+&lt;/table></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_rg4_ywn_lkc">
+&lt;reference id="server_configuration">
+  &lt;title>Server Configuration&lt;/title>
+  &lt;refbody>
+    &lt;simpletable>
+      &lt;sthead>
+        &lt;stentry>Parameter&lt;/stentry>
+        &lt;stentry>Value&lt;/stentry>
+      &lt;/sthead>
+      &lt;strow>
+        &lt;stentry>Port&lt;/stentry>
+        &lt;stentry>8080&lt;/stentry>
+      &lt;/strow>
+      &lt;strow>
+        &lt;stentry>Timeout&lt;/stentry>
+        &lt;stentry>60&lt;/stentry>
+      &lt;/strow>
+    &lt;/simpletable>
+    &lt;simpletable>
+      &lt;sthead>
+        &lt;stentry>Parameter&lt;/stentry>
+        &lt;stentry>Value&lt;/stentry>
+      &lt;/sthead>
+      &lt;strow>
+        &lt;stentry>Max connections&lt;/stentry>
+        &lt;stentry>100&lt;/stentry>
+      &lt;/strow>
+      &lt;strow>
+        &lt;stentry>Retry limit&lt;/stentry>
+        &lt;stentry>3&lt;/stentry>
+      &lt;/strow>
+    &lt;/simpletable>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b> Each HTML <codeph>&lt;table&gt;</codeph> element is converted independently into a separate DITA <codeph>&lt;simpletable&gt;</codeph> or <codeph>&lt;table&gt;</codeph> element. The converter does not automatically merge consecutive tables.</p>
+         <note type="tip"> If the tables are logically related, add a short bridging <codeph>&lt;p&gt;</codeph> element between them in the HTML source before conversion.</note>
+      </section>
+   </refbody>
+</reference>

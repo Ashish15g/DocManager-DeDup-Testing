@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705882" xml:lang="en-us">
+   <title>Publishing output comparison</title>
+   <shortdesc>DITA can be published in the following formats and each format has its specific use</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>documentation</keyword>
+        <keyword>output</keyword>
+        <keyword>DITA</keyword>
+        <keyword>Publishing</keyword>
+        <keyword>comparison</keyword>
+        <keyword>formats</keyword>
+        <indexterm>documentation</indexterm>
+        <indexterm>output</indexterm>
+        <indexterm>DITA</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>DITA can be published in the following formats and each format has its specific use case:</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>output formats and use cases</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>Output Format</entry>
+                     <entry>Use Case</entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>Responsive HTML5</entry>
+                     <entry>Online user assistance, responsive web help, and product documentation intended for modern browsers and mobile devices; supports dynamic layouts and JavaScriptbased search/navigation.</entry>
+                  </row>
+                  <row>
+                     <entry>XHTML</entry>
+                     <entry>Webbased documentation when strict XMLcompliant HTML is required; useful for integration into XMLcentric publishing workflows and CMS environments.</entry>
+                  </row>
+                  <row>
+                     <entry>PDF</entry>
+                     <entry>Printready or downloadable manuals, release notes, and technical reports; ideal for offline distribution and regulatory or archival purposes.</entry>
+                  </row>
+                  <row>
+                     <entry>DOCX</entry>
+                     <entry>Content for collaboration with subjectmatter experts in Microsoft Word; useful for review, editing, or when Word is the corporate standard.</entry>
+                  </row>
+                  <row>
+                     <entry>Markdown</entry>
+                     <entry>Lightweight documentation for wikis, READMEs, or staticsite generators; good for developeroriented content and Gitbased workflows.</entry>
+                  </row>
+                  <row>
+                     <entry>EPUB</entry>
+                     <entry>Ebooks and longform digital publications for ereaders and tablets; suited for training material, user guides, and content libraries.</entry>
+                  </row>
+                  <row>
+                     <entry>CHM</entry>
+                     <entry>Windowsdesktop help systems; provides a compact, indexed, searchable help file integrated with Windows applications.</entry>
+                  </row>
+                  <row>
+                     <entry>Context-sensitive help</entry>
+                     <entry>Embedded help tightly linked to UI elements (for example, via F1style help); supports applicationspecific help from the same DITA source.</entry>
+                  </row>
+                  <row>
+                     <entry>WebHelp</entry>
+                     <entry>Browserbased help portals with search, navigation, and TOC; used for product suites, knowledge bases, and multiproject documentation centers.</entry>
+                  </row>
+                  <row>
+                     <entry>Chatbot knowledge base</entry>
+                     <entry>Structured, topicoriented answers for conversational AI and support bots; DITA topics map to intents and responses in a chatbot.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table></section></refbody>
+</reference>

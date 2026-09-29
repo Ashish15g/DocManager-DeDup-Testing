@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="migration_prerequisites" xml:lang="en-us">
+   <title>Migration Prerequisites</title>
+   <shortdesc>Before submitting a document to the metR HTML to DITA converter, verify the following prerequisites:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>HTML</keyword>
+        <keyword>available</keyword>
+        <keyword>Migration</keyword>
+        <keyword>Prerequisites</keyword>
+        <keyword>Before</keyword>
+        <keyword>files</keyword>
+        <indexterm>HTML</indexterm>
+        <indexterm>available</indexterm>
+        <indexterm>Migration</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>Before submitting a document to the metR HTML to DITA converter, verify the following prerequisites:</p>
+    <ol>
+    <li>The HTML files are complete and available in the expected folder structure.</li>
+    <li>The root folder contains the main index, if available, along with the HTML files.</li>
+    <li>Each HTML file has a clear heading hierarchy.</li>
+    <li>Heading levels are not used only for visual styling.</li>
+    <li>Images are available in the package and referenced correctly.</li>
+    <li>Internal and external links are valid.</li>
+    <li>Tables use real HTML table markup and are not simulated with spaces, tabs, or images.</li>
+    <li>Code samples use <codeph>&lt;code&gt;</codeph> or <codeph>&lt;pre&gt;</codeph>where possible.</li>
+    </ol>
+    <note type="tip" id="note_s15_jvg_lkc">Before conversion, review the HTML in a browser and in
+      source view. Confirm that the visible content and the HTML structure match.</note></conbody>
+</concept>

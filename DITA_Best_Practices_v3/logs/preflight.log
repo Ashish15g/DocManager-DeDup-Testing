@@ -1,0 +1,28 @@
+================================================================================
+ metR DOCX DocMigrate — PRE-FLIGHT REPORT
+================================================================================
+ Total DOCX Files      : 1
+ Started               : 2026-08-28 11:01:41 UTC
+ Completed             : 2026-08-28 11:01:41 UTC
+ Duration              : 0s
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+
+[2026-08-28T11:01:41.489283+00:00] PreflightService class is running.
+[2026-08-28T11:01:41.489362+00:00] preflight_started working.
+[2026-08-28T11:01:41.492565+00:00] PreflightService Reading uploaded file 'DITA_Best_Practices_v3.docx' in 1 MB chunks (max allowed: 2000 MB).
+[2026-08-28T11:01:41.492967+00:00] PreflightService File read complete - 0.15 MB. Saved.
+[2026-08-28T11:01:41.493046+00:00] PreflightService File saved successfully.
+[2026-08-28T11:01:41.493095+00:00] file_saved 'DITA_Best_Practices_v3.docx' uploaded and saved (0.15 MB).
+[2026-08-28T11:01:41.690585+00:00] PreflightService Validating document structure for 'DITA_Best_Practices_v3.docx'.
+[2026-08-28T11:01:41.690648+00:00] validating_structure Validating document heading structure for 'DITA_Best_Practices_v3.docx'.
+[2026-08-28T11:01:41.697194+00:00] check_docx_starts_with_heading Validating document structure.
+[2026-08-28T11:01:41.697642+00:00] check_docx_starts_with_heading Reading 'word/document.xml' for heading validation.
+[2026-08-28T11:01:41.700582+00:00] check_docx_starts_with_heading Parsing 'word/document.xml' XML.
+[2026-08-28T11:01:41.812432+00:00] check_docx_starts_with_heading Scanning 3011 paragraph(s) for a valid first heading style.
+[2026-08-28T11:01:41.812530+00:00] check_docx_starts_with_heading First styled paragraph uses 'title' — document structure is valid.
+[2026-08-28T11:01:41.936420+00:00] PreflightService class completed successfully.
+[2026-08-28T11:01:41.936461+00:00] preflight_completed File 'DITA_Best_Practices_v3.docx' validated successfully and is ready for conversion.
+
+ [GUI] Success: Pre-flight analysis completed successfully.
+================================================================================

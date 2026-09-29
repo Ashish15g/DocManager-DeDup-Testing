@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560303" xml:lang="en-us">
+   <title>MkDocs</title>
+   <shortdesc>is a Python-based SSG specifically for project documentation. It is designed to be simple and</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>MkDocs</keyword>
+        <keyword>project</keyword>
+        <keyword>mkdocs</keyword>
+        <keyword>Python</keyword>
+        <keyword>based</keyword>
+        <keyword>specifically</keyword>
+        <indexterm>MkDocs</indexterm>
+        <indexterm>project</indexterm>
+        <indexterm>mkdocs</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>MkDocs is a Python-based SSG specifically for project documentation. It is designed to be
+      simple and uses a single YAML config (mkdocs.yml) at the project root. The docs content is
+      written in Markdown files under a docs/ directory. By default, MkDocs has no front matter in
+      each page – all configuration (site name, theme, navigation) lives in mkdocs.yml.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560405" xml:lang="en-us">
+   <title>Scenario 2: External URLs</title>
+   <shortdesc>Consider a Markdown topic that links to an external website.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Kubernetes</keyword>
+        <keyword>External</keyword>
+        <keyword>URLs</keyword>
+        <keyword>external</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>DITA</keyword>
+        <indexterm>Kubernetes</indexterm>
+        <indexterm>External</indexterm>
+        <indexterm>URLs</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a Markdown topic that links to an external website.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>External URLs</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>For Kubernetes documentation, see
+  [Kubernetes Documentation](https://kubernetes.io/docs/).</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;p&gt;
+  For Kubernetes documentation, see &lt;xref href=https://kubernetes.io/docs/ scope="external" format="html"&gt; Kubernetes Documentation &lt;/xref&gt;.
+  &lt;/p&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The converter identifies the target as an external URL and generates a DITA <codeph>&lt;xref&gt;</codeph> element with the appropriate scope and format attributes.</p></section></refbody>
+</reference>

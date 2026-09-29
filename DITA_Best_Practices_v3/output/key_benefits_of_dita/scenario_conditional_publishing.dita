@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705878" xml:lang="en-us">
+   <title>Scenario: conditional publishing</title>
+   <shortdesc>A single task topic contains instructions for both Windows and Linux users: &lt;step platform="windows"&gt; Open</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>publishing</keyword>
+        <keyword>Windows</keyword>
+        <keyword>Linux</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>conditional</keyword>
+        <keyword>platform</keyword>
+        <indexterm>publishing</indexterm>
+        <indexterm>Windows</indexterm>
+        <indexterm>Linux</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>A single task topic contains instructions for both Windows and Linux
+        users:<codeblock id="codeblock_fcj_hgs_kkc">&lt;step platform="windows"&gt; &lt;cmd&gt;Open &lt;uicontrol&gt;Control Panel&lt;/uicontrol&gt; and select     &lt;uicontrol&gt;Programs and Features&lt;/uicontrol&gt;.&lt;/cmd&gt;&lt;/step&gt;
+&lt;step platform="linux"&gt;&lt;cmd&gt;Open a terminal and run &lt;codeph&gt;sudo apt install appname&lt;/codeph&gt;.&lt;/cmd&gt;&lt;/step&gt;</codeblock></p><p>When publishing the Windows guide, the publishing system includes only Windows-specific content. The Linux guide receives only Linux content. Both outputs come from the same source.</p>
+  </section></refbody>
+</reference>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705950" xml:lang="en-us">
+   <title>Scenario 1: no table caption is required</title>
+   <shortdesc>Consider a "Supported File Extensions" chapter in a "File Processing Reference Guide" document where you</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>table</keyword>
+        <keyword>caption</keyword>
+        <keyword>File</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>required</keyword>
+        <keyword>Supported</keyword>
+        <indexterm>table</indexterm>
+        <indexterm>caption</indexterm>
+        <indexterm>File</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a "Supported File Extensions" chapter in a "File Processing Reference Guide"
+        document where you want to display a short lookup-style table without a title or
+        caption.<codeblock id="codeblock_z24_crs_kkc">&lt;reference id="supported-file-extensions"&gt;
+&lt;title&gt;Supported File Extensions&lt;/title&gt;
+&lt;shortdesc&gt;
+The application supports multiple import and export file formats.
+&lt;/shortdesc&gt;
+&lt;refbody&gt;
+&lt;section&gt;
+&lt;p&gt;
+The following file extensions are supported by the import engine:
+&lt;/p&gt;
+&lt;simpletable relcolwidth="1* 2*"&gt;
+&lt;sthead&gt;
+&lt;stentry&gt;Extension&lt;/stentry&gt;
+&lt;stentry&gt;Description&lt;/stentry&gt;
+&lt;/sthead&gt;
+&lt;strow&gt;
+&lt;stentry&gt;.csv&lt;/stentry&gt;
+&lt;stentry&gt;Comma-separated values file&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;strow&gt;
+&lt;stentry&gt;.xml&lt;/stentry&gt;
+&lt;stentry&gt;Structured XML document&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;strow&gt;
+&lt;stentry&gt;.json&lt;/stentry&gt;
+&lt;stentry&gt;JavaScript Object Notation file&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;/simpletable&gt;
+&lt;/section&gt;
+&lt;/refbody&gt;
+&lt;/reference&gt;</codeblock></p><p>
+         <b>Result:</b> Use <codeph>&lt;simpletable&gt;</codeph> for compact reference-style data when the table does not require a caption, complex spanning, nested tables, and column specifications.</p>
+  </section></refbody>
+</reference>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450330" xml:lang="en-us">
+   <title>HTML Typical Folder Structure</title>
+   <shortdesc>A typical HTML package contains the following:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>HTML</keyword>
+        <keyword>Ditamap</keyword>
+        <keyword>topic</keyword>
+        <keyword>DITA</keyword>
+        <keyword>converter</keyword>
+        <keyword>creates</keyword>
+        <indexterm>HTML</indexterm>
+        <indexterm>Ditamap</indexterm>
+        <indexterm>topic</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+    <p>A typical HTML package contains the following:</p>
+    <codeblock id="codeblock_uhs_xrg_lkc">
+HTML Package (ZIP)
+├── index.html          → creates the root Ditamap hierarchy (if present)
+├── topic1.html         → creates a child Ditamap and DITA topic
+├-- topic2.html         → creates a child Ditamap and DITA topic
+├── media/
+│   ├── image1.png
+│   └── image2.svg
+├── css/
+│   └── styles.css      → ignored
+└── scripts/
+└── script.js           → ignored</codeblock><p>The converter reads the HTML constructs given in the following bullet list:</p>
+     <ul id="ul_09045103">
+         <li>
+            <b>Index file (</b>
+            <b>index.html</b>
+            <b>, optional).</b> Creates the root Ditamap hierarchy and serves as the entry point for the converted documentation.</li>
+         <li>
+            <b>HTML files (</b>
+            <b>.html</b>
+            <b>or</b>
+            <b>.htm</b>
+            <b>).</b> The converter creates a child Ditamap and a primary DITA topic from each file.</li>
+         <li>
+            <b>Images and media.</b> The converter maps referenced assets to DITA <codeph>&lt;image&gt;</codeph> elements.</li>
+      </ul><p>The converter reads the package structure to create the root Ditamap folder hierarchy, identifies the main entry point, preserves relative paths for images and media, and generates child Ditamaps based on individual HTML files. Submit HTML content as a ZIP file.</p>
+     <note type="tip">Organize HTML files in a logical folder structure before conversion. The converter preserves the folder hierarchy in the DITA output.</note>
+  </conbody>
+</concept>

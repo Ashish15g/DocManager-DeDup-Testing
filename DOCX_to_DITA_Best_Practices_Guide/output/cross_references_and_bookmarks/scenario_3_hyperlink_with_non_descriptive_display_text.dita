@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_3_hyperlink_with_non_descriptive_display_text" xml:lang="en-us">
+   <title>Scenario 3 — Hyperlink with non-descriptive display text</title>
+   <shortdesc>Consider a Normal paragraph that contains a hyperlink where the author has used non-descriptive display</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>descriptive</keyword>
+        <keyword>display</keyword>
+        <keyword>hyperlink</keyword>
+        <keyword>click</keyword>
+        <keyword>Hyperlink</keyword>
+        <keyword>reference</keyword>
+        <indexterm>descriptive</indexterm>
+        <indexterm>display</indexterm>
+        <indexterm>hyperlink</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+     <section>
+    <p>Consider a Normal paragraph that contains a hyperlink where the author has used non-descriptive display text such as "click here", "here", or a bare URL as the visible label, rather than a phrase that describes the destination.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Hyperlink with non-descriptive text</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>.docx Style / Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>Click [hyperlink: https://example.com/docs │ here] for the full API reference.</entry>
+               <entry>
+                <codeblock id="codeblock_hdw_ztr_kkc">
+&lt;p>
+  See
+  &lt;xref href="https://example.com/docs" format="html" scope="external">
+    click here
+  &lt;/xref>
+  for the full API reference.
+&lt;/p>
+&lt;!-- Display text "click here" preserved verbatim --></codeblock>
+              </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b>The hyperlink is converted correctly into a DITA <codeph>&lt;xref&gt;</codeph> element with display text preserved.</p><note type="note">Use descriptive hyperlink text such as "API reference" or "release notes" instead
+        of "click here" or raw URLs.</note>
+  </section>
+   </refbody>
+</reference>

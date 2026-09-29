@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560304" xml:lang="en-us">
+   <title>Typical structure</title>
+   <shortdesc>A sample structure is provided below.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>mkdocs</keyword>
+        <keyword>structure</keyword>
+        <keyword>Markdown</keyword>
+        <keyword>extensions</keyword>
+        <keyword>https</keyword>
+        <keyword>Typical</keyword>
+        <indexterm>mkdocs</indexterm>
+        <indexterm>structure</indexterm>
+        <indexterm>Markdown</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section>
+      <p>A sample structure is provided below.</p>
+      <codeblock>markdown
+docs/
+├── index.md               # Home page
+├── about.md
+├── user-guide/
+│   ├── getting-started.md
+│   └── configuration.md
+├── api/
+│   └── endpoints.md
+└── images/
+└── diagram.png
+mkdocs.yml</codeblock>
+      <p>MkDocs uses Python-Markdown (with extensions) to render Markdown. You can enable extensions in mkdocs.yml (such as markdown extensions for tables, code highlighting, admonitions, etc.). Notably, MkDocs Material (a popular theme) supports the Markdown Admonition syntax (<codeph>!!! note</codeph> or <codeph>!!! warning</codeph>) out of the box. There is no per-page YAML, so metadata like author or category is generally not used (except via plugins or HTML meta tags in the theme).</p>
+      <p>For more information, see the following links:</p>
+   </section></refbody>
+  <related-links>
+    <link href="https://www.mkdocs.org" format="html" scope="external"/>
+    <link href="https://www.mkdocs.org/user-guide" format="html" scope="external"/>
+    <link href="https://github.com/mkdocs/mkdocs" format="html" scope="external"/>
+  </related-links>
+</reference>

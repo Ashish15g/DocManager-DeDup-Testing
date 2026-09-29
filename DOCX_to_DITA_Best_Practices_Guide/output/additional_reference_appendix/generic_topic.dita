@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="generic_topic" xml:lang="en-us">
+   <title>Generic Topic</title>
+   <shortdesc>A generic topic is assigned when no dominant classification signal is found — no action</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Generic</keyword>
+        <keyword>Topic</keyword>
+        <keyword>generic</keyword>
+        <keyword>topic</keyword>
+        <keyword>assigned</keyword>
+        <keyword>dominant</keyword>
+        <indexterm>Generic</indexterm>
+        <indexterm>Topic</indexterm>
+        <indexterm>generic</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>A generic topic is assigned when no dominant classification signal is found — no action verb with a numbered list, no lookup-data table, no overview keyword, and no troubleshooting structure. The converter defaults to the generic <codeph>&lt;topic&gt;</codeph> type with a plain <codeph>&lt;body&gt;</codeph>, placing all content as <codeph>&lt;p&gt;</codeph> and list elements in document order.</p>
+   </conbody>
+</concept>

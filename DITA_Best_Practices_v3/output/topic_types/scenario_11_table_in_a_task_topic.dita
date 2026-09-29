@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705943" xml:lang="en-us">
+   <title>Scenario 11: table in a task topic</title>
+   <shortdesc>Consider a "Compare Settings" chapter in a "Configuration Guide" document where you want to add</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>table</keyword>
+        <keyword>settings</keyword>
+        <keyword>Compare</keyword>
+        <keyword>recommended</keyword>
+        <keyword>legacy</keyword>
+        <keyword>colspec</keyword>
+        <indexterm>table</indexterm>
+        <indexterm>settings</indexterm>
+        <indexterm>Compare</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a "Compare Settings" chapter in a "Configuration Guide" document where you want to add a table in the info tag.</p>
+      <codeblock id="codeblock_ys2_tqs_kkc">&lt;task id="compare-settings" title="Compare Configuration Settings"&gt;
+&lt;shortdesc&gt;Compare recommended and legacy settings for the application.&lt;/shortdesc&gt;
+&lt;steps&gt;
+&lt;step id="step-1"&gt;
+&lt;cmd&gt;Open the configuration comparison view.&lt;/cmd&gt;
+&lt;step id-“step-2”&gt;
+&lt;cmd&gt; Use the following table to compare recommended vs legacy settings:&lt;/cmd&gt;
+&lt;info&gt;
+&lt;p&gt;
+&lt;table frame="all" cols="3"&gt;
+&lt;tgroup cols="3"&gt;
+&lt;colspec colname="c1" colwidth="1*"/&gt;
+&lt;colspec colname="c2" colwidth="1*"/&gt;
+&lt;colspec colname="c3" colwidth="1*"/&gt;
+&lt;thead&gt;
+&lt;row&gt;
+&lt;entry&gt;Setting&lt;/entry&gt;
+&lt;entry&gt;Recommended&lt;/entry&gt;
+&lt;entry&gt;Legacy&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;row&gt;
+&lt;entry&gt;Connection timeout&lt;/entry&gt;
+&lt;entry&gt;30s&lt;/entry&gt;
+&lt;entry&gt;60s&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;Retry attempts&lt;/entry&gt;
+&lt;entry&gt;3&lt;/entry&gt;
+&lt;entry&gt;5&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;Logging level&lt;/entry&gt;
+&lt;entry&gt;INFO&lt;/entry&gt;
+&lt;entry&gt;DEBUG&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/tbody&gt;
+&lt;/tgroup&gt;
+&lt;/table&gt;&lt;/p&gt;
+&lt;/info&gt;
+&lt;/step&gt;…
+&lt;/steps&gt;
+&lt;result&gt;
+&lt;p&gt;Choose the recommended settings unless troubleshooting requires legacy modes.&lt;/p&gt;
+&lt;/result&gt;
+&lt;/task&gt;</codeblock><p>
+         <b>Result:</b> Add the table inside a <codeph>&lt;p&gt;</codeph> tag to prevent it from running off the page in output.</p>
+  </section></refbody>
+</reference>

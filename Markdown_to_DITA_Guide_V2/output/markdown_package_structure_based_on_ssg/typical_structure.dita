@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560294" xml:lang="en-us">
+   <title>Typical structure</title>
+   <shortdesc>A ReadMe project usually has folders like docs/, reference/, recipes/, custom_pages/, etc. A sample structure</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>order</keyword>
+        <keyword>structure</keyword>
+        <keyword>reference</keyword>
+        <keyword>recipes</keyword>
+        <keyword>custom</keyword>
+        <keyword>pages</keyword>
+        <indexterm>order</indexterm>
+        <indexterm>structure</indexterm>
+        <indexterm>reference</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section>
+      <p>A ReadMe project usually has folders like docs/, reference/, recipes/, custom_pages/, etc. A sample structure (from official docs) is provided below.</p>
+      <codeblock>ruby
+project/
+├── custom_blocks/            # (optional) reusable content
+├── custom_pages/             # (optional) standalone pages
+├── docs/                     # guides and how-to docs
+│   ├── Getting Started/      # category folder
+│   │   ├── introduction.md
+│   │   └── _order.yaml
+│   └── _order.yaml
+├── recipes/                  # code “recipes” or examples
+├── reference/                # API reference (often OpenAPI)
+└── _order.yaml               # (optional) defines sidebar order</codeblock>
+      <p>For more information, see the following links:</p>
+   </section></refbody>
+  <related-links>
+    <link href="https://readme.com" format="html" scope="external"/>
+    <link href="https://docs.readme.com" format="html" scope="external"/>
+    <link href="https://github.com/readmeio/rdme" format="html" scope="external"/>
+  </related-links>
+</reference>

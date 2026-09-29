@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450438" xml:lang="en-us">
+   <title>Reference Topic</title>
+   <shortdesc>A reference section is recognized by a noun-phrase heading containing a lookup keyword such as</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>section</keyword>
+        <keyword>keyword</keyword>
+        <keyword>table</keyword>
+        <keyword>reference</keyword>
+        <keyword>heading</keyword>
+        <keyword>refbody</keyword>
+        <indexterm>section</indexterm>
+        <indexterm>keyword</indexterm>
+        <indexterm>table</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>   
+<p>A reference section is recognized by a noun-phrase heading containing a lookup keyword such as "Supported File Formats," "Error Codes," or "API Parameters," paired with a table or parameter list as the dominant body structure. The heading keyword is the primary classification signal. A section containing only a table but no lookup keyword in the heading may be classified as Concept or Generic depending on the surrounding context.</p>
+      <p>When these signals align, the converter generates a <codeph>&lt;reference&gt;</codeph> element with <codeph>&lt;refbody&gt;</codeph>. The opening paragraph maps to <codeph>&lt;shortdesc&gt;</codeph>. Any introductory prose appearing before the first table is wrapped in a <codeph>&lt;section&gt;</codeph> element inside <codeph>&lt;refbody&gt;</codeph> rather than placed directly in <codeph>&lt;refbody&gt;</codeph>. A 2-column table in a section whose heading contains an API keyword such as "API," "parameters," "fields," or "attributes" maps to <codeph>&lt;properties&gt;</codeph>. The same 2-column table in a reference section without an API keyword maps to <codeph>&lt;simpletable&gt;</codeph>.</p>
+      <p>The following scenarios demonstrate how different HTML reference patterns are interpreted during HTML-to-DITA conversion:</p>
+    </conbody>
+</concept>

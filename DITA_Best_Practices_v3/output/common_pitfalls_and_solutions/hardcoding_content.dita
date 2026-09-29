@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235706031" xml:lang="en-us">
+   <title>Hardcoding content</title>
+   <shortdesc>Problem: Copy-pasting repeated content instead of using reuse mechanisms.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>content</keyword>
+        <keyword>Hardcoding</keyword>
+        <keyword>reusable</keyword>
+        <keyword>Problem</keyword>
+        <keyword>Copy</keyword>
+        <keyword>pasting</keyword>
+        <indexterm>content</indexterm>
+        <indexterm>Hardcoding</indexterm>
+        <indexterm>reusable</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>
+         <b>Problem:</b> Copy-pasting repeated content instead of using reuse mechanisms.</p>
+      <p>
+         <b>Impact:</b> Inconsistencies, higher maintenance effort, translation cost increases.</p>
+      <p>
+      <b>Solution:</b> Use <codeph>&lt;conref/&gt;</codeph>, <codeph>&lt;keyref/&gt;</codeph>, and
+        <codeph>&lt;conkeyref/&gt;</codeph> for reusable content. Maintain reusable content in a
+      shared /global location.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_1_native_dl_element" xml:lang="en-us">
+   <title>Scenario 1 — Native &lt;dl&gt; element</title>
+   <shortdesc>Scenario 1 — Native &lt;dl&gt; element Consider a concept section titled Connection Modes, where each</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>device</keyword>
+        <keyword>definition</keyword>
+        <keyword>List</keyword>
+        <keyword>Native</keyword>
+        <keyword>element</keyword>
+        <keyword>Connection</keyword>
+        <indexterm>device</indexterm>
+        <indexterm>definition</indexterm>
+        <indexterm>List</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+    <p>Consider a concept section titled Connection Modes, where each bullet item begins with a bold term followed by a definition.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Native definition list element</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Heading 2]:</b> Connection Modes   <b>[Normal]:</b> The device supports the following connection modes.   <b>[List Bullet]:</b>
+                        <b>Wired</b> — Uses an Ethernet cable to connect the device directly to the network switch.   <b>[List Bullet]:</b>
+                        <b>Wireless</b> — Connects the device using the built-in Wi-Fi adapter.   <b>[List Bullet]:</b>
+                        <b>Bluetooth</b> — Pairs the device with a host computer for short-range data transfer.</entry>
+                     <entry>
+                        <codeblock id="codeblock_jkw_wvz_kkc">
+&lt;concept id="connection_modes">
+  &lt;title>Connection Modes&lt;/title>
+  &lt;conbody>
+    &lt;p>The device supports the following connection modes.&lt;/p>
+    &lt;dl>
+      &lt;dlentry>
+        &lt;dt>Wired&lt;/dt>
+        &lt;dd>
+          &lt;p>
+            Uses an Ethernet cable to connect the device
+            directly to the network switch.
+          &lt;/p>
+        &lt;/dd>
+      &lt;/dlentry>
+      &lt;dlentry>
+        &lt;dt>Wireless&lt;/dt>
+        &lt;dd>
+          &lt;p>
+            Connects the device using the built-in Wi-Fi adapter.
+          &lt;/p>
+        &lt;/dd>
+      &lt;/dlentry>
+      &lt;dlentry>
+        &lt;dt>Bluetooth&lt;/dt>
+        &lt;dd>
+          &lt;p>
+            Pairs the device with a host computer for
+            short-range data transfer.
+          &lt;/p>
+        &lt;/dd>
+      &lt;/dlentry>
+    &lt;/dl>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b>The converter detects the term-definition pattern and maps the list to a DITA definition list. The mapping becomes:</p><ul id="ul_07233414">
+            <li>List container → <codeph>&lt;dl&gt;</codeph>
+            </li>
+            <li>List item → <codeph>&lt;dlentry&gt;</codeph>
+            </li>
+            <li>Bold term → <codeph>&lt;dt&gt;</codeph>
+            </li>
+            <li>Definition text → <codeph>&lt;dd&gt;&lt;p&gt;</codeph>
+            </li>
+         </ul><note type="tip"> Use a definition list when: Each item contains a term and explanation. The order of points does not matter. The content is descriptive rather than procedural</note>
+  </section>
+   </refbody>
+</reference>

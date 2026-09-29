@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560315" xml:lang="en-us">
+   <title>Title</title>
+  <abstract>This section covers the Title style in Markdown — its purpose as the root publication
+    identifier, and two scenarios: a correctly applied title and a missing title. The converter maps
+    the title to the <codeph>&lt;title&gt;</codeph> element of the root <codeph>&lt;map&gt;</codeph>
+    or <codeph>&lt;bookmap&gt;</codeph>; when no title is present, the converter falls back to the
+    filename.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>title</keyword>
+        <keyword>metadata</keyword>
+        <keyword>converter</keyword>
+        <keyword>Title</keyword>
+        <keyword>document</keyword>
+        <keyword>Markdown</keyword>
+        <indexterm>title</indexterm>
+        <indexterm>metadata</indexterm>
+        <indexterm>converter</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>The Title style is the primary identifier of your entire document — whether it is a User Guide, Reference Manual, Operator Manual, or any other technical publication. It appears on the cover page, before any Heading 1, and exists outside the heading hierarchy. The text of the Title-styled paragraph becomes the content of the root publication node, from which all chapters, sections, and topics descend. Every publishing system or reader depends on this root identifier.</p>
+      <p>In Markdown, the preferred title is specified using title metadata in the document header. When title metadata is available, it identifies the logical name of the document independently of the heading structure. If title metadata is not available, the converter applies fallback rules to determine an appropriate title from the document content or filename.</p>
+      <p>The converter resolves the title by applying a defined order of precedence. It first evaluates the title metadata. If no title metadata is available, it uses the Heading 1 (<codeph>#</codeph>) text. If neither title metadata nor a Heading 1 is present, the converter derives the title from the filename. The resolved title becomes the <codeph>&lt;title&gt;</codeph> element of the generated DITA map, bookmap, or topic.</p>
+    <note id="note_hbj_gdw_jkc" type="important">Specify the title metadata only once and place it
+      at the beginning of the Markdown file, before any headings or body content. This ensures that
+      the converter resolves the document title consistently and applies the expected title
+      precedence rules.</note>
+      <p>The following scenarios demonstrate how different title sources are interpreted during Markdown-to-DITA conversion and how they affect the generated DITA output.</p>
+   </conbody>
+</concept>

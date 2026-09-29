@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="_Toc235706042" xml:lang="en-us">
+   <title>Conversion strategy</title>
+   <taskbody>    
+      <context/>
+      <steps id="steps_mc1_qny_kkc">
+         <step>
+            <cmd><b>Topic types:</b> Classify the topics into the appropriate topic types.</cmd>
+         </step>
+         <step>
+            <cmd><b>Authentication overview concept topic:</b> Make conceptual overviews concept
+               topic.</cmd>
+            <info>
+               <codeblock id="codeblock_lgd_v4y_kkc">&lt;concept id="c_authentication_overview"&gt;
+          &lt;title&gt;Authentication Overview&lt;/title&gt;
+          &lt;shortdesc&gt;How authentication works in the API.&lt;/shortdesc&gt;
+          &lt;conbody&gt;
+          &lt;p&gt;Authentication ensures that only authorized users and applications can access the API.&lt;/p&gt;
+          &lt;p&gt;Each request must include a valid &lt;codeph&gt;Authorization&lt;/codeph&gt; header that identifies the caller.&lt;/p&gt;
+          &lt;p&gt;Supported methods include API keys and OAuth 2.0 tokens.&lt;/p&gt;
+          &lt;/conbody&gt;
+          &lt;/concept&gt;
+       </codeblock>
+            </info>
+         </step>
+         <step>
+            <cmd><b>Authentication procedure task topic:</b> Make authentication procedures task
+               topics.</cmd>
+            <info>
+               <codeblock id="codeblock_j3z_x4y_kkc">&lt;task id="t_authenticate_with_api_key"&gt;
+          &lt;title&gt;Authenticate with an API Key&lt;/title&gt;
+          &lt;shortdesc&gt;Use an API key to authenticate API requests.&lt;/shortdesc&gt;
+          &lt;taskbody&gt;
+          &lt;steps&gt;
+          &lt;step&gt;
+          &lt;cmd&gt;Obtain an API key from the &lt;uicontrol&gt;Account Settings&lt;/uicontrol&gt; page.&lt;/cmd&gt;
+          &lt;/step&gt;
+          &lt;step&gt;
+          &lt;cmd&gt;Include the key in the &lt;codeph&gt;Authorization&lt;/codeph&gt; header of your request.&lt;/cmd&gt;
+          &lt;info&gt;
+          &lt;codeph&gt;Authorization: Bearer YOUR_API_KEY&lt;/codeph&gt;
+          &lt;/info&gt;
+          &lt;/step&gt;
+          &lt;step&gt;
+          &lt;cmd&gt;Send the authenticated request and verify the response status.&lt;/cmd&gt;
+          &lt;/step&gt;
+          &lt;/steps&gt;
+          &lt;/taskbody&gt;
+          &lt;/task&gt;
+</codeblock>
+            </info>
+         </step>
+         <step>
+            <cmd><b>Endpoint parameter reference topic:</b> Make endpoint parameter tables reference
+               topics.</cmd>
+            <info>
+               <codeblock id="codeblock_yxb_1py_kkc">&lt;reference id="r_api_users_create"&gt;
+                  &lt;title&gt;Create User Endpoint&lt;/title&gt;
+                  &lt;shortdesc&gt;Create a new user account via the API.&lt;/shortdesc&gt;
+                  
+                  &lt;refbody&gt;
+                  &lt;section&gt;
+                  &lt;title&gt;Endpoint&lt;/title&gt;
+                  &lt;p&gt;&lt;codeph&gt;POST /api/v1/users&lt;/codeph&gt;&lt;/p&gt;
+                  &lt;/section&gt;
+                  
+                  &lt;section&gt;
+                  &lt;title&gt;Request Parameters&lt;/title&gt;
+                  &lt;table&gt;
+                  &lt;tgroup cols="4"&gt;
+                  &lt;colspec colname="c1" colwidth="1*"/&gt;
+                  &lt;colspec colname="c2" colwidth="0.5*"/&gt;
+                  &lt;colspec colname="c3" colwidth="0.5*"/&gt;
+                  &lt;colspec colname="c4" colwidth="2*"/&gt;
+                  &lt;thead&gt;
+                  &lt;row&gt;
+                  &lt;entry&gt;Parameter&lt;/entry&gt;
+                  &lt;entry&gt;Type&lt;/entry&gt;
+                  &lt;entry&gt;Required&lt;/entry&gt;
+                  &lt;entry&gt;Description&lt;/entry&gt;
+                  &lt;/row&gt;
+                  &lt;/thead&gt;
+                  &lt;tbody&gt;
+                  &lt;row&gt;
+                  &lt;entry&gt;email&lt;/entry&gt;
+                  &lt;entry&gt;string&lt;/entry&gt;
+                  &lt;entry&gt;Yes&lt;/entry&gt;
+                  &lt;entry&gt;User email address&lt;/entry&gt;
+                  &lt;/row&gt;
+                  &lt;!-- Additional parameters --&gt;
+                  &lt;/tbody&gt;
+                  &lt;/tgroup&gt;
+                  &lt;/table&gt;
+                  &lt;/section&gt;
+                  &lt;section&gt;
+                  &lt;title&gt;Example Request&lt;/title&gt;
+                  &lt;codeblock&gt;curl -X POST api.example.com/v1/users \
+                  -H "Authorization: Bearer TOKEN" \
+                  -d '{"email": "user@example.com"}'&lt;/codeblock&gt;
+                  &lt;/section&gt;
+                  &lt;/refbody&gt;
+                  &lt;/reference&gt;
+               </codeblock>
+            </info>
+         </step>
+         <step>
+            <cmd><b>Sample payload reference topic:</b> Make methods with sample payloads reference
+               topics.</cmd>
+            <info>
+               <codeblock id="codeblock_kly_2py_kkc">&lt;reference id="r_api_users_update"&gt;
+            &lt;title&gt;Update User Method&lt;/title&gt;
+            &lt;shortdesc&gt;Update an existing user’s information.&lt;/shortdesc&gt;
+            &lt;refbody&gt;
+            &lt;section&gt;
+            &lt;title&gt;Endpoint&lt;/title&gt;
+            &lt;p&gt;&lt;codeph&gt;PATCH /api/v1/users/{userId}&lt;/codeph&gt;&lt;/p&gt;
+            &lt;/section&gt;
+            &lt;section&gt;
+            &lt;title&gt;Example Request&lt;/title&gt;
+            &lt;codeblock&gt;curl -X PATCH https://api.example.com/v1/users/123 \
+            -H "Authorization: Bearer YOUR_TOKEN" \
+            -d '{
+            "email": "updated@example.com",
+            "role": "admin"
+            }'&lt;/codeblock&gt;
+            &lt;/section&gt;
+            &lt;section&gt;
+            &lt;title&gt;Example Response&lt;/title&gt;
+            &lt;codeblock&gt;{
+            "id": 123,
+            "email": "updated@example.com",
+            "role": "admin",
+            "status": "active"
+            }&lt;/codeblock&gt;
+            &lt;/section&gt;
+            &lt;/refbody&gt;
+            &lt;/reference&gt;
+         </codeblock>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

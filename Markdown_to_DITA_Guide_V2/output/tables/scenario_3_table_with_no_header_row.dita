@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560385" xml:lang="en-us">
+   <title>Scenario 3: Table with no header row</title>
+   <shortdesc>Consider a Markdown table that contains only data rows and does not include a header</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>header</keyword>
+        <keyword>Informational</keyword>
+        <keyword>Table</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>Markdown</keyword>
+        <keyword>table</keyword>
+        <indexterm>header</indexterm>
+        <indexterm>Informational</indexterm>
+        <indexterm>Table</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a Markdown table that contains only data rows and does not include a header row.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Table has no header row</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>| Critical | High | Immediate action required |
+  | Warning | Medium | Requires investigation |
+  | Informational | Low | Informational event |</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+                           
+                              
+                                 Critical
+                                 High
+                                 Immediate action required
+                              
+                              
+                                 Warning
+                                 Medium
+                                 Requires investigation
+                              
+                              
+                                 Informational
+                                 Low
+                                 Informational event
+                              
+                           
+                        </codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The converter generates a DITA <codeph>&lt;simpletable&gt;</codeph> without a <codeph>&lt;sthead&gt;</codeph> element because no header row is present in the source Markdown table. Each row is converted directly into a <codeph>&lt;strow&gt;</codeph>, and each cell becomes an <codeph>&lt;stentry&gt;</codeph>.</p>
+<note type="warning">Tables without header rows are more difficult to understand and may reduce accessibility in published output. Whenever possible, include a descriptive header row to identify the purpose of each column.</note></section></refbody>
+</reference>

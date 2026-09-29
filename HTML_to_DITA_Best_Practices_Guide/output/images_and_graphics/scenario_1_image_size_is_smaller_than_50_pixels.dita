@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450393" xml:lang="en-us">
+   <title>Scenario 1 — Image Size is Smaller than 50 Pixels</title>
+   <shortdesc>Consider a paragraph that contains a small inline image of a "next button" whose width</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>width</keyword>
+        <keyword>height</keyword>
+        <keyword>Next</keyword>
+        <keyword>arrow</keyword>
+        <keyword>Image</keyword>
+        <keyword>inline</keyword>
+        <indexterm>width</indexterm>
+        <indexterm>height</indexterm>
+        <indexterm>Next</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+      <section>
+    <p>Consider a paragraph that contains a small inline image of a "next button" whose width and height attributes are both smaller than 50 pixels.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image smaller than 50 pixels</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_rfw_1m4_lkc">
+&lt;p>
+  Click the &lt;strong>Next&lt;/strong> button
+  &lt;img src="media/next_arrow.png" alt="Next arrow" width="20" height="24"/>
+  to continue to the next page.
+&lt;/p></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_i31_dm4_lkc">
+&lt;p>
+  Click the &lt;uicontrol>Next&lt;/uicontrol> button
+  &lt;image href="media/next_arrow.png" placement="inline" width="5" height="6">
+    &lt;alt>Next arrow&lt;/alt>
+  &lt;/image>
+  to continue to the next page.
+&lt;/p></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> If the <codeph>&lt;img&gt;</codeph> element's width and height are both smaller than <b>50 × 50 pixels</b>, the converter generates an <codeph>&lt;image/&gt;</codeph> element with the placement attribute as inline. The converter does not wrap the image in a <codeph>&lt;fig&gt;</codeph> tag.</p>
+  </section>
+   </refbody>
+</reference>

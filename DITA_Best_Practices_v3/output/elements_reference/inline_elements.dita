@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="inline_elements" xml:lang="en-us">
+   <title>Inline elements</title>
+   <refbody>
+      <section id="sec_d443e7">
+         <p>Inline elements define smaller pieces within block content such as UI labels, code snippets, or links.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>common inline elements</title>
+            <tgroup cols="3">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <thead>
+                  <row>
+                     <entry>Element</entry>
+                     <entry>Purpose</entry>
+                     <entry>Example</entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;uicontrol&gt;</codeblock>
+                     </entry>
+                     <entry>UI buttons, labels, menu items</entry>
+                     <entry>
+                        <codeblock>Click <uicontrol>Save</uicontrol>.</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;userinput&gt;</codeblock>
+                     </entry>
+                     <entry>Text the user types</entry>
+                     <entry>
+                        <codeblock>Type <userinput>username</userinput> and <userinput>password</userinput>.</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;menucascade&gt;</codeblock>
+                     </entry>
+                     <entry>Menu navigation sequences</entry>
+                     <entry>
+                        <codeblock>Go to <menucascade><uicontrol>File</uicontrol><uicontrol>Edit</uicontrol></menucascade>.</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;codeph&gt;</codeblock>
+                     </entry>
+                     <entry>Inline code, commands</entry>
+                     <entry>
+                        <codeblock><codeph>npm install</codeph></codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;filepath&gt;</codeblock>
+                     </entry>
+                     <entry>File or directory paths</entry>
+                     <entry>
+                        <codeblock><filepath>/usr/local/bin</filepath></codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;xref&gt;</codeblock>
+                     </entry>
+                     <entry>Cross-reference to another topic</entry>
+                     <entry>
+                        <codeblock>For details, see &lt;xref href="c_permissions.dita"/&gt;.</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;link&gt;</codeblock>
+                     </entry>
+                     <entry>general link (often used with <codeph>@href</codeph>).</entry>
+                     <entry>
+                        <codeblock>&lt;link href="https://example.com/api-docs"&gt;API documentation&lt;/link&gt;.</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;ph&gt;</codeblock>
+                     </entry>
+                     <entry>Generic phrase container (used for applying attributes or reusing small text fragments)</entry>
+                     <entry>
+                        <codeblock>Contact &lt;ph keyref="support_email"&gt;support&lt;/ph&gt; for assistance.</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;b&gt;</codeblock>
+                     </entry>
+                     <entry>Bold text</entry>
+                     <entry>
+                        <codeblock>Do <b>not</b> touch with wet hands.</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;i&gt;</codeblock>
+                     </entry>
+                     <entry>Italic text</entry>
+                     <entry>
+                        <codeblock>The <i>default</i> behavior is to autosave.</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;u&gt;</codeblock>
+                     </entry>
+                     <entry>Underlined text</entry>
+                     <entry>
+                        <codeblock>Use <u>Ctrl + S</u> to save the file.</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;sub&gt;</codeblock>
+                     </entry>
+                     <entry>Subscript</entry>
+                     <entry>
+                        <codeblock>Use H<sub>2</sub>O for the formula.</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;sup&gt;</codeblock>
+                     </entry>
+                     <entry>Superscript</entry>
+                     <entry>
+                        <codeblock>2<sup>nd</sup> edition.</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;keyword&gt;</codeblock>
+                     </entry>
+                     <entry>indexlike or semantic keyword, often used inside <codeph>&lt;prolog&gt;</codeph> but can appear inline.</entry>
+                     <entry>
+                        <codeblock>See the <keyword>authentication</keyword> section for more details.</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </refbody>
+</reference>

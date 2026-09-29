@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705935" xml:lang="en-us">
+   <title>Scenario 3: step result in a task topic</title>
+   <shortdesc>Consider a "Backup the Production Database" chapter in a "Database Maintenance Guide" document where you</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>backup</keyword>
+        <keyword>topic</keyword>
+        <keyword>Database</keyword>
+        <keyword>database</keyword>
+        <keyword>storage</keyword>
+        <keyword>Scenario</keyword>
+        <indexterm>backup</indexterm>
+        <indexterm>topic</indexterm>
+        <indexterm>Database</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a "Backup the Production Database" chapter in a "Database Maintenance Guide" document where you want to correctly place the <codeph>&lt;stepresult&gt;</codeph> in the task topic.</p>
+      <codeblock id="codeblock_abt_gqs_kkc">&lt;task id="backup-database" title="Backup the Production Database"&gt;
+&lt;shortdesc&gt;
+Create a full backup of the production database to an external
+storage location.
+&lt;/shortdesc&gt;
+&lt;prereq&gt;
+&lt;p&gt;
+Confirm that you have the &lt;ph&gt;db_backup&lt;/ph&gt; role and sufficient
+disk space on the target storage.
+&lt;/p&gt;
+&lt;/prereq&gt;
+&lt;steps&gt;
+&lt;step id="step-1"&gt;
+&lt;cmd&gt;
+Stop non-critical batch jobs that write to the database.
+&lt;/cmd&gt;
+&lt;stepresult&gt;
+&lt;p&gt;
+Batch jobs are stopped and no write locks remain.
+&lt;/p&gt;
+&lt;/stepresult&gt;
+&lt;/step&gt;
+&lt;step id="step-2"&gt;
+&lt;cmd&gt;
+Run the backup command:
+&lt;codeph&gt;
+pg_dump -Fc --file=/backups/prod-db.bak prod_db
+&lt;/codeph&gt;.
+&lt;/cmd&gt;
+&lt;stepresult&gt;
+&lt;p&gt;
+A compressed backup file named &lt;filepath&gt;/backups/prod-db.bak&lt;/filepath&gt; is created.
+&lt;/p&gt;
+&lt;/stepresult&gt;
+&lt;/step&gt;
+&lt;/steps&gt;
+&lt;result&gt;
+&lt;p&gt;
+You have a verified full backup stored on the external storage and logs showing completion time.
+&lt;/p&gt;
+&lt;/result&gt;
+&lt;/task&gt;</codeblock><p>
+         <b>Result:</b> Place transient, step-specific verification messages in <codeph>&lt;stepresult&gt;</codeph> immediately after the step that produces them.</p>
+  </section></refbody>
+</reference>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_11_image_with_floating_text_boxes_layered_on_top" xml:lang="en-us">
+   <title>Scenario 11 — Image with floating text boxes layered on top</title>
+   <shortdesc>Consider a document where an image is inserted into the document body and multiple text</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>boxes</keyword>
+        <keyword>floating</keyword>
+        <keyword>Floating</keyword>
+        <keyword>layered</keyword>
+        <keyword>document</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>boxes</indexterm>
+        <indexterm>floating</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+         <p>Consider a document where an image is inserted into the document body and multiple text boxes are manually positioned on top of the image to create labels, admonitions, or annotations. The text boxes use floating layouts such as <b>Square</b>, <b>Tight</b>, <b>Behind Text</b>, or <b>In Front of Text</b>.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Floating text boxes over image</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Inline image]:</b> network_topology.png   <b>[Floating text box]:</b> Database Server  <b>[Floating text box]:</b> Application Server  <b>[Floating text box]:</b> Load Balancer</entry>
+                     <entry>
+                        <codeblock id="codeblock_xxs_2ny_kkc">
+&lt;fig>
+  &lt;image href="media/network_topology.png"/>
+&lt;/fig></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b>The converter extracts and preserves the image itself because it exists as a valid document image object. However, floating text boxes layered above the image are ignored during conversion.</p>
+<note type="tip"> For annotated diagrams, embed labels directly into the image before inserting it into Word.</note>
+   </section>
+   </refbody>
+</reference>

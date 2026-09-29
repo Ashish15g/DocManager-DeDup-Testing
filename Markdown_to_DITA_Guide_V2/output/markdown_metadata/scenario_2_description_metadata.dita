@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560311" xml:lang="en-us">
+   <title>Scenario 2: Description metadata</title>
+   <shortdesc>Consider an index.md file with front matter where the input for the description field is</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>description</keyword>
+        <keyword>Description</keyword>
+        <keyword>metadata</keyword>
+        <keyword>Configure</keyword>
+        <keyword>manage</keyword>
+        <keyword>alarm</keyword>
+        <indexterm>description</indexterm>
+        <indexterm>Description</indexterm>
+        <indexterm>metadata</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider an index.md file with front matter where the input for the description field is “Configure and manage alarm notifications”.</p><table frame="all" colsep="1" rowsep="1">
+            <title>Description metadata</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>.md input</entry>
+                     <entry>DITA output</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>+++ title = "Alarm Notifier" description = "Configure and manage alarm notifications." +++</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+                           Alarm Notifier
+                                Configure and manage alarm notifications. 
+                        </codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table><p>
+            <b>Result:</b>The value of the description field becomes the DITA short description.</p>
+  </section></refbody>
+</reference>

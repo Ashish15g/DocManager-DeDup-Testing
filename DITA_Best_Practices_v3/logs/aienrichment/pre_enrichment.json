@@ -1,0 +1,2243 @@
+{
+  "job_id": "6f4d047f-e5b5-49a9-a2df-c5022fa8d4e1",
+  "output_dir": "/app/Storage/6f4d047f-e5b5-49a9-a2df-c5022fa8d4e1/transformed output",
+  "run_at": "2026-08-28T11:02:19.339092+00:00",
+  "files_discovered": {
+    "dita_file_count": 190,
+    "dita_files": [
+      "common_pitfalls_and_solutions/common_errors.dita",
+      "common_pitfalls_and_solutions/common_pitfalls_and_solutions.dita",
+      "common_pitfalls_and_solutions/hardcoding_content.dita",
+      "common_pitfalls_and_solutions/ignoring_metadata.dita",
+      "common_pitfalls_and_solutions/missing_or_weak_short_descriptions.dita",
+      "common_pitfalls_and_solutions/misusing_topic_types.dita",
+      "common_pitfalls_and_solutions/over_nesting_in_maps.dita",
+      "common_pitfalls_and_solutions/poor_content_modularity.dita",
+      "content_organization/advantages_of_flat_structure.dita",
+      "content_organization/advantages_of_nested_structure.dita",
+      "content_organization/content_organization.dita",
+      "content_organization/file_naming_conventions.dita",
+      "content_organization/flat_folder_structure.dita",
+      "content_organization/folder_structure_strategies.dita",
+      "content_organization/nested_folder_structure.dita",
+      "content_organization/principles_of_dita_content_organization.dita",
+      "content_organization/scenario_1_folder_structure_for_projects_with_more_than_30_topics_by_topic_type.dita",
+      "content_organization/scenario_2_folder_structure_for_projects_with_more_than_30_topics_by_chapters.dita",
+      "content_organization/scenario_folder_structure_for_projects_with_fewer_than_30_topics.dita",
+      "content_organization/scenario_naming_a_complex_topic.dita",
+      "content_organization/topic_type_prefixes.dita",
+      "content_reuse/conkeyref_key_based_content_reference.dita",
+      "content_reuse/conref_content_reference.dita",
+      "content_reuse/content_reuse.dita",
+      "content_reuse/identifying_reusable_content.dita",
+      "content_reuse/in_the_map.dita",
+      "content_reuse/in_the_topic.dita",
+      "content_reuse/keyref_key_based_reference.dita",
+      "content_reuse/principles_of_content_reuse.dita",
+      "content_reuse/reuse_validation_checklist.dita",
+      "content_reuse/step_1_create_the_reusable_content_file.dita",
+      "content_reuse/step_1_define_keys_in_the_map.dita",
+      "content_reuse/step_2_reference_the_content.dita",
+      "content_reuse/step_2_use_the_keys_in_topics.dita",
+      "core_characteristics_of_dita/contextual_inheritance.dita",
+      "core_characteristics_of_dita/contrast_with_unstructured_content.dita",
+      "core_characteristics_of_dita/core_characteristics_of_dita.dita",
+      "core_characteristics_of_dita/extensibility.dita",
+      "core_characteristics_of_dita/scenario_domain_specialization.dita",
+      "core_characteristics_of_dita/scenario_inheritance_in_maps.dita",
+      "core_characteristics_of_dita/scenario_semantic_structure.dita",
+      "core_characteristics_of_dita/self_descriptive_content.dita",
+      "dita_architecture/book_map_example.dita",
+      "dita_architecture/book_map_structure_components.dita",
+      "dita_architecture/book_maps.dita",
+      "dita_architecture/dita_architecture.dita",
+      "dita_architecture/dita_map_example.dita",
+      "dita_architecture/dita_map_structure_components.dita",
+      "dita_architecture/dita_maps.dita",
+      "dita_architecture/key_benefits_of_book_maps.dita",
+      "dita_architecture/key_benefits_of_dita_maps.dita",
+      "dita_architecture/map_organization_best_practices.dita",
+      "dita_architecture/map_organization_rules.dita",
+      "dita_architecture/map_validation_checklist.dita",
+      "dita_architecture/scenario_1_using_topicgroup_to_cluster_related_topics.dita",
+      "dita_architecture/scenario_2_using_topichead_to_organize_navigation_sections.dita",
+      "dita_architecture/scenario_3_using_keydef_to_define_reusable_keys.dita",
+      "dita_architecture/the_dita_content_system.dita",
+      "dita_architecture/why_this_makes_sense.dita",
+      "dita_architecture/why_this_makes_sense_2.dita",
+      "dita_architecture/why_this_makes_sense_3.dita",
+      "dita_best_practices_guide.dita",
+      "elements_reference/admonition_elements.dita",
+      "elements_reference/block_level_elements.dita",
+      "elements_reference/elements_reference.dita",
+      "elements_reference/inline_elements.dita",
+      "elements_reference/list_elements.dita",
+      "elements_reference/parameter_table_example.dita",
+      "elements_reference/simple_table_example.dita",
+      "elements_reference/table_elements.dita",
+      "elements_reference/table_example.dita",
+      "hierarchical_structure/content_hierarchy.dita",
+      "hierarchical_structure/element_hierarchy.dita",
+      "hierarchical_structure/hierarchical_structure.dita",
+      "hierarchical_structure/scenario_ideal_map_structure.dita",
+      "hierarchical_structure/scenario_task_topic_element_hierarchy.dita",
+      "hierarchical_structure/scenario_user_learning_journey.dita",
+      "hierarchical_structure/structural_hierarchy.dita",
+      "hierarchical_structure/understanding_dita_s_layered_hierarchy.dita",
+      "introduction/after_dita.dita",
+      "introduction/before_dita.dita",
+      "introduction/introduction.dita",
+      "introduction/the_challenge_of_traditional_documentation.dita",
+      "introduction/the_darwin_in_dita.dita",
+      "introduction/what_is_dita.dita",
+      "introduction/why_dita_matters_for_technical_writers.dita",
+      "key_benefits_of_dita/ai_optimization.dita",
+      "key_benefits_of_dita/key_benefits_of_dita.dita",
+      "key_benefits_of_dita/metadata_driven_filtering_and_personalization.dita",
+      "key_benefits_of_dita/multi_channel_publishing.dita",
+      "key_benefits_of_dita/publishing_output_comparison.dita",
+      "key_benefits_of_dita/scalable_content_reuse.dita",
+      "key_benefits_of_dita/scalable_documentation_architecture.dita",
+      "key_benefits_of_dita/scenario_ai_powered_documentation.dita",
+      "key_benefits_of_dita/scenario_conditional_publishing.dita",
+      "key_benefits_of_dita/scenario_enterprise_documentation_scale.dita",
+      "key_benefits_of_dita/scenario_reuse_in_action.dita",
+      "key_benefits_of_dita/scenario_the_one_topic_one_intent_principle.dita",
+      "key_benefits_of_dita/topic_based_modular_writing.dita",
+      "localization_and_accessibility/accessibility_checklist.dita",
+      "localization_and_accessibility/accessibility_requirements.dita",
+      "localization_and_accessibility/heading_structure.dita",
+      "localization_and_accessibility/image_accessibility.dita",
+      "localization_and_accessibility/language_tagging.dita",
+      "localization_and_accessibility/localization_and_accessibility.dita",
+      "localization_and_accessibility/localization_support.dita",
+      "localization_and_accessibility/reuse_for_translation.dita",
+      "localization_and_accessibility/scenario_translation_cost_savings.dita",
+      "localization_and_accessibility/table_accessibility.dita",
+      "metadata/metadata.dita",
+      "metadata/metadata_elements.dita",
+      "metadata/prolog_element.dita",
+      "metadata/prolog_example.dita",
+      "metadata/scenario_topicmeta_in_practice.dita",
+      "metadata/topicmeta_in_maps.dita",
+      "metadata/understanding_dita_metadata.dita",
+      "profiling_attributes/profiling_attributes.dita",
+      "profiling_attributes/scenario_profiling_in_practice.dita",
+      "revision_history/revision_history.dita",
+      "topic_types/characteristics.dita",
+      "topic_types/characteristics_2.dita",
+      "topic_types/characteristics_3.dita",
+      "topic_types/characteristics_4.dita",
+      "topic_types/characteristics_5.dita",
+      "topic_types/common_elements.dita",
+      "topic_types/common_elements_2.dita",
+      "topic_types/common_elements_3.dita",
+      "topic_types/common_elements_4.dita",
+      "topic_types/common_elements_5.dita",
+      "topic_types/concept_topic_example.dita",
+      "topic_types/concept_topics.dita",
+      "topic_types/glossary_entry_example.dita",
+      "topic_types/glossary_topics.dita",
+      "topic_types/reference_topic_example.dita",
+      "topic_types/reference_topics.dita",
+      "topic_types/scenario_10_block_image_in_a_task_topic.dita",
+      "topic_types/scenario_11_table_in_a_task_topic.dita",
+      "topic_types/scenario_1_no_table_caption_is_required.dita",
+      "topic_types/scenario_1_prerequisites_in_a_task_topic.dita",
+      "topic_types/scenario_2_info_in_a_task_topic.dita",
+      "topic_types/scenario_2_table_caption_is_required.dita",
+      "topic_types/scenario_3_nested_tables_in_a_reference_topic.dita",
+      "topic_types/scenario_3_step_result_in_a_task_topic.dita",
+      "topic_types/scenario_4_api_in_a_reference_topic.dita",
+      "topic_types/scenario_4_substeps_in_a_task_topic.dita",
+      "topic_types/scenario_5_choices_in_a_task_topic.dita",
+      "topic_types/scenario_5_cli_reference_topic.dita",
+      "topic_types/scenario_6_choice_table_in_a_task_topic.dita",
+      "topic_types/scenario_6_supported_platforms_in_a_reference_topic.dita",
+      "topic_types/scenario_7_result_in_a_task_topic.dita",
+      "topic_types/scenario_7_system_requirements_in_a_reference_topic.dita",
+      "topic_types/scenario_8_checklists_in_a_reference_topic.dita",
+      "topic_types/scenario_8_postrequisites_in_a_task_topic.dita",
+      "topic_types/scenario_9_in_line_image_in_a_task_topic.dita",
+      "topic_types/scenario_graphical_representation_in_a_concept_topic.dita",
+      "topic_types/task_topic_example.dita",
+      "topic_types/task_topics.dita",
+      "topic_types/topic_types.dita",
+      "topic_types/troubleshooting_topic_example.dita",
+      "topic_types/troubleshooting_topics.dita",
+      "topic_types/when_to_use_concept_topics.dita",
+      "topic_types/when_to_use_glossary_topics.dita",
+      "topic_types/when_to_use_reference_topics.dita",
+      "topic_types/when_to_use_task_topics.dita",
+      "topic_types/when_to_use_troubleshooting_topics.dita",
+      "worked_examples_and_scenarios/analysis.dita",
+      "worked_examples_and_scenarios/analysis_2.dita",
+      "worked_examples_and_scenarios/conversion_strategy.dita",
+      "worked_examples_and_scenarios/conversion_strategy_2.dita",
+      "worked_examples_and_scenarios/profiling_attributes_2.dita",
+      "worked_examples_and_scenarios/publishing_outputs.dita",
+      "worked_examples_and_scenarios/scenario_1_creating_a_software_user_guide.dita",
+      "worked_examples_and_scenarios/scenario_2_writing_api_documentation.dita",
+      "worked_examples_and_scenarios/scenario_3_handling_conditional_content.dita",
+      "worked_examples_and_scenarios/worked_examples_and_scenarios.dita",
+      "writing_style_guidelines/chicago_manual_of_style_cmos.dita",
+      "writing_style_guidelines/command_element_rules.dita",
+      "writing_style_guidelines/command_example.dita",
+      "writing_style_guidelines/google_style_guide.dita",
+      "writing_style_guidelines/ibm_style.dita",
+      "writing_style_guidelines/imperative_verbs_for_commands.dita",
+      "writing_style_guidelines/miscelllaneous_style_guides.dita",
+      "writing_style_guidelines/punctuation_rules.dita",
+      "writing_style_guidelines/s1000d_and_asd_ste100.dita",
+      "writing_style_guidelines/short_description_examples.dita",
+      "writing_style_guidelines/short_description_rules.dita",
+      "writing_style_guidelines/style_guides_across_industries.dita",
+      "writing_style_guidelines/ui_element_references.dita",
+      "writing_style_guidelines/voice_and_tone.dita",
+      "writing_style_guidelines/writing_style_guidelines.dita"
+    ],
+    "ditamap_file_count": 17,
+    "ditamap_files": [
+      "common_pitfalls_and_solutions_map.ditamap",
+      "content_organization_map.ditamap",
+      "content_reuse_map.ditamap",
+      "core_characteristics_of_dita_map.ditamap",
+      "dita_architecture_map.ditamap",
+      "dita_best_practices_guide.ditamap",
+      "elements_reference_map.ditamap",
+      "hierarchical_structure_map.ditamap",
+      "introduction_map.ditamap",
+      "key_benefits_of_dita_map.ditamap",
+      "localization_and_accessibility_map.ditamap",
+      "metadata_map.ditamap",
+      "profiling_attributes_map.ditamap",
+      "revision_history_map.ditamap",
+      "topic_types_map.ditamap",
+      "worked_examples_and_scenarios_map.ditamap",
+      "writing_style_guidelines_map.ditamap"
+    ]
+  },
+  "document_context": {
+    "prodname": "",
+    "equipment_name": "",
+    "task_type": "user guide",
+    "document_keywords": [
+      "user guide"
+    ],
+    "extraction_method": "heuristic"
+  },
+  "structural_issues": [
+    {
+      "severity": "WARNING",
+      "category": "empty_title",
+      "file": "dita_best_practices_guide.dita",
+      "message": "<concept> has an empty <title> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_best_practices_guide.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/scenario_naming_a_complex_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/scenario_folder_structure_for_projects_with_fewer_than_30_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/scenario_1_folder_structure_for_projects_with_more_than_30_topics_by_topic_type.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/scenario_2_folder_structure_for_projects_with_more_than_30_topics_by_chapters.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "content_organization/topic_type_prefixes.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/topic_type_prefixes.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/nested_folder_structure.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/content_organization.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/folder_structure_strategies.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "content_organization/folder_structure_strategies.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/advantages_of_flat_structure.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "content_organization/file_naming_conventions.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/file_naming_conventions.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/principles_of_dita_content_organization.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/advantages_of_nested_structure.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_organization/flat_folder_structure.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/s1000d_and_asd_ste100.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/ui_element_references.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/command_element_rules.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/google_style_guide.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "writing_style_guidelines/imperative_verbs_for_commands.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/imperative_verbs_for_commands.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "writing_style_guidelines/voice_and_tone.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/voice_and_tone.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/short_description_rules.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/style_guides_across_industries.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/punctuation_rules.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/writing_style_guidelines.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/command_example.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/miscelllaneous_style_guides.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/chicago_manual_of_style_cmos.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/ibm_style.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "writing_style_guidelines/short_description_examples.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "core_characteristics_of_dita/contrast_with_unstructured_content.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "core_characteristics_of_dita/scenario_domain_specialization.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "core_characteristics_of_dita/scenario_semantic_structure.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "core_characteristics_of_dita/scenario_inheritance_in_maps.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "core_characteristics_of_dita/contextual_inheritance.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "core_characteristics_of_dita/extensibility.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "core_characteristics_of_dita/core_characteristics_of_dita.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "core_characteristics_of_dita/self_descriptive_content.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/in_the_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/conkeyref_key_based_content_reference.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/keyref_key_based_reference.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/step_2_use_the_keys_in_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/conref_content_reference.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/content_reuse.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/identifying_reusable_content.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/reuse_validation_checklist.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/step_1_define_keys_in_the_map.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/step_1_create_the_reusable_content_file.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/step_2_reference_the_content.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/in_the_map.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "content_reuse/principles_of_content_reuse.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "introduction/what_is_dita.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "introduction/before_dita.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "introduction/the_darwin_in_dita.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "introduction/the_challenge_of_traditional_documentation.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "introduction/the_challenge_of_traditional_documentation.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "introduction/introduction.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "introduction/after_dita.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "introduction/why_dita_matters_for_technical_writers.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "common_pitfalls_and_solutions/misusing_topic_types.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "common_pitfalls_and_solutions/missing_or_weak_short_descriptions.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "common_pitfalls_and_solutions/hardcoding_content.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "common_pitfalls_and_solutions/common_errors.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "common_pitfalls_and_solutions/common_errors.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "common_pitfalls_and_solutions/poor_content_modularity.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "common_pitfalls_and_solutions/common_pitfalls_and_solutions.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "common_pitfalls_and_solutions/ignoring_metadata.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "common_pitfalls_and_solutions/over_nesting_in_maps.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/characteristics_2.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "topic_types/common_elements_3.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/common_elements_3.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_3_step_result_in_a_task_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_8_postrequisites_in_a_task_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/characteristics_4.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/concept_topic_example.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/characteristics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/reference_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/concept_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_7_result_in_a_task_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/when_to_use_concept_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/when_to_use_reference_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_5_choices_in_a_task_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_9_in_line_image_in_a_task_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/task_topic_example.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/troubleshooting_topic_example.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_6_supported_platforms_in_a_reference_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_graphical_representation_in_a_concept_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_3_nested_tables_in_a_reference_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_5_cli_reference_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_11_table_in_a_task_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "topic_types/common_elements.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/common_elements.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/glossary_entry_example.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/characteristics_3.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_10_block_image_in_a_task_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/characteristics_5.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "topic_types/common_elements_4.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/common_elements_4.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_2_table_caption_is_required.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/task_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_2_info_in_a_task_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/topic_types.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/glossary_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_6_choice_table_in_a_task_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "topic_types/common_elements_5.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/common_elements_5.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/troubleshooting_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/when_to_use_glossary_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_4_api_in_a_reference_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_8_checklists_in_a_reference_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "topic_types/common_elements_2.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/common_elements_2.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_1_no_table_caption_is_required.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/when_to_use_task_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_7_system_requirements_in_a_reference_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/when_to_use_troubleshooting_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/reference_topic_example.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_4_substeps_in_a_task_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "topic_types/scenario_1_prerequisites_in_a_task_topic.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "profiling_attributes/scenario_profiling_in_practice.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "profiling_attributes/profiling_attributes.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "profiling_attributes/profiling_attributes.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "revision_history/revision_history.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "revision_history/revision_history.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "localization_and_accessibility/language_tagging.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "localization_and_accessibility/accessibility_checklist.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "localization_and_accessibility/localization_support.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "localization_and_accessibility/accessibility_requirements.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "localization_and_accessibility/reuse_for_translation.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "localization_and_accessibility/localization_and_accessibility.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "localization_and_accessibility/scenario_translation_cost_savings.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "localization_and_accessibility/table_accessibility.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "localization_and_accessibility/image_accessibility.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "localization_and_accessibility/heading_structure.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/map_organization_best_practices.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/key_benefits_of_dita_maps.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/map_organization_rules.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/key_benefits_of_book_maps.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "dita_architecture/book_map_structure_components.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/book_map_structure_components.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/scenario_1_using_topicgroup_to_cluster_related_topics.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/book_map_example.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/why_this_makes_sense_3.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/scenario_3_using_keydef_to_define_reusable_keys.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/scenario_2_using_topichead_to_organize_navigation_sections.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/why_this_makes_sense.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/book_maps.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/dita_map_example.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/the_dita_content_system.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/why_this_makes_sense_2.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/dita_maps.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/dita_map_structure_components.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/dita_architecture.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "dita_architecture/map_validation_checklist.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/key_benefits_of_dita.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/scalable_documentation_architecture.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/scenario_conditional_publishing.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/multi_channel_publishing.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/topic_based_modular_writing.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/ai_optimization.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/scenario_ai_powered_documentation.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/scenario_reuse_in_action.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/scenario_enterprise_documentation_scale.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/scalable_content_reuse.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "key_benefits_of_dita/scenario_the_one_topic_one_intent_principle.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/scenario_the_one_topic_one_intent_principle.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "key_benefits_of_dita/publishing_output_comparison.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/publishing_output_comparison.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "key_benefits_of_dita/metadata_driven_filtering_and_personalization.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "metadata/prolog_example.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "metadata/topicmeta_in_maps.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "metadata/metadata.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "metadata/understanding_dita_metadata.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "metadata/prolog_element.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "metadata/metadata_elements.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "metadata/metadata_elements.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "metadata/scenario_topicmeta_in_practice.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "hierarchical_structure/hierarchical_structure.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "hierarchical_structure/content_hierarchy.dita",
+      "message": "step 1 has an empty <cmd> element",
+      "line": 12
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "hierarchical_structure/content_hierarchy.dita",
+      "message": "step 2 has an empty <cmd> element",
+      "line": 16
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "hierarchical_structure/content_hierarchy.dita",
+      "message": "step 3 has an empty <cmd> element",
+      "line": 20
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "hierarchical_structure/content_hierarchy.dita",
+      "message": "step 4 has an empty <cmd> element",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "hierarchical_structure/content_hierarchy.dita",
+      "message": "step 5 has an empty <cmd> element",
+      "line": 28
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "hierarchical_structure/content_hierarchy.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "hierarchical_structure/element_hierarchy.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "hierarchical_structure/structural_hierarchy.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "hierarchical_structure/scenario_task_topic_element_hierarchy.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "hierarchical_structure/understanding_dita_s_layered_hierarchy.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "hierarchical_structure/scenario_ideal_map_structure.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "hierarchical_structure/scenario_user_learning_journey.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "hierarchical_structure/scenario_user_learning_journey.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "worked_examples_and_scenarios/profiling_attributes_2.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "worked_examples_and_scenarios/scenario_2_writing_api_documentation.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "worked_examples_and_scenarios/analysis_2.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "worked_examples_and_scenarios/analysis.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "worked_examples_and_scenarios/conversion_strategy.dita",
+      "message": "step 1 has an empty <cmd> element",
+      "line": 8
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "worked_examples_and_scenarios/conversion_strategy.dita",
+      "message": "step 2 has an empty <cmd> element",
+      "line": 14
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "worked_examples_and_scenarios/conversion_strategy.dita",
+      "message": "step 3 has an empty <cmd> element",
+      "line": 28
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "worked_examples_and_scenarios/conversion_strategy.dita",
+      "message": "step 4 has an empty <cmd> element",
+      "line": 40
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "worked_examples_and_scenarios/conversion_strategy.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "worked_examples_and_scenarios/scenario_3_handling_conditional_content.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "worked_examples_and_scenarios/worked_examples_and_scenarios.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "worked_examples_and_scenarios/scenario_1_creating_a_software_user_guide.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "worked_examples_and_scenarios/conversion_strategy_2.dita",
+      "message": "step 1 has an empty <cmd> element",
+      "line": 8
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "worked_examples_and_scenarios/conversion_strategy_2.dita",
+      "message": "step 2 has an empty <cmd> element",
+      "line": 23
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "worked_examples_and_scenarios/conversion_strategy_2.dita",
+      "message": "step 3 has an empty <cmd> element",
+      "line": 53
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "worked_examples_and_scenarios/conversion_strategy_2.dita",
+      "message": "step 4 has an empty <cmd> element",
+      "line": 105
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "worked_examples_and_scenarios/conversion_strategy_2.dita",
+      "message": "step 5 has an empty <cmd> element",
+      "line": 206
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "worked_examples_and_scenarios/conversion_strategy_2.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "worked_examples_and_scenarios/publishing_outputs.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "worked_examples_and_scenarios/publishing_outputs.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "elements_reference/list_elements.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "elements_reference/list_elements.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "elements_reference/elements_reference.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "elements_reference/table_example.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "elements_reference/table_elements.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "elements_reference/table_elements.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "elements_reference/block_level_elements.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "elements_reference/block_level_elements.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "elements_reference/inline_elements.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "elements_reference/inline_elements.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "elements_reference/simple_table_example.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "elements_reference/admonition_elements.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "elements_reference/admonition_elements.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "elements_reference/parameter_table_example.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    }
+  ],
+  "summary": {
+    "dita_file_count": 190,
+    "missing_count": 0,
+    "broken_xml_count": 0,
+    "empty_count": 0,
+    "ditamap_broken_ref_count": 0,
+    "broken_mapref_count": 0,
+    "orphan_file_count": 0,
+    "duplicate_id_count": 0,
+    "broken_xref_count": 0,
+    "filename_space_count": 0,
+    "severity_counts": {
+      "CRITICAL": 0,
+      "WARNING": 230,
+      "INFO": 0
+    },
+    "category_counts": {
+      "empty_title": 1,
+      "missing_shortdesc": 190,
+      "section_missing_title": 22,
+      "empty_p": 3,
+      "step_empty_cmd": 14
+    }
+  },
+  "zone1_auto_fixes": {
+    "fixed": [
+      {
+        "file": "core_characteristics_of_dita/extensibility.dita",
+        "fix": "added id=\"extensibility\""
+      },
+      {
+        "file": "core_characteristics_of_dita/extensibility.dita",
+        "fix": "added xml:lang=\"en-us\""
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "fixed_count": 2,
+      "error_count": 0
+    }
+  },
+  "backend_dtd_errors": {
+    "source": "backend core _report.txt",
+    "errors_by_file": {},
+    "file_count_with_errors": 0
+  },
+  "validation": {
+    "status": "completed",
+    "total_violations": 53,
+    "files_with_violations": 38,
+    "violations_by_severity": {
+      "error": 21,
+      "warning": 32
+    },
+    "violations_by_gate": {
+      "gate1": 10,
+      "gate2": 32,
+      "gate3": 11,
+      "gate4": 0
+    },
+    "details": [
+      {
+        "file": "common_pitfalls_and_solutions/hardcoding_content.dita",
+        "doc_type": "concept",
+        "gate": 1,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "Error: Element <conref> is not permitted in a DITA 2.0 concept document.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate1"
+      },
+      {
+        "file": "common_pitfalls_and_solutions/hardcoding_content.dita",
+        "doc_type": "concept",
+        "gate": 1,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "Error: Element <keyref> is not permitted in a DITA 2.0 concept document.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate1"
+      },
+      {
+        "file": "common_pitfalls_and_solutions/hardcoding_content.dita",
+        "doc_type": "concept",
+        "gate": 1,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "Error: Element <conkeyref> is not permitted in a DITA 2.0 concept document.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate1"
+      },
+      {
+        "file": "common_pitfalls_and_solutions/hardcoding_content.dita",
+        "doc_type": "concept",
+        "gate": 3,
+        "rule_code": "CM-CODEPH",
+        "severity": "ERROR",
+        "message": "[CM-CODEPH] <conref> is not a permitted child of <codeph> per the DITA 2.0 DTD. Permitted children: b i boolean cite keyword ph q term text xref state data data-about draft-comment foreign unknown required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "common_pitfalls_and_solutions/hardcoding_content.dita",
+        "doc_type": "concept",
+        "gate": 3,
+        "rule_code": "CM-CODEPH",
+        "severity": "ERROR",
+        "message": "[CM-CODEPH] <keyref> is not a permitted child of <codeph> per the DITA 2.0 DTD. Permitted children: b i boolean cite keyword ph q term text xref state data data-about draft-comment foreign unknown required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "common_pitfalls_and_solutions/hardcoding_content.dita",
+        "doc_type": "concept",
+        "gate": 3,
+        "rule_code": "CM-CODEPH",
+        "severity": "ERROR",
+        "message": "[CM-CODEPH] <conkeyref> is not a permitted child of <codeph> per the DITA 2.0 DTD. Permitted children: b i boolean cite keyword ph q term text xref state data data-about draft-comment foreign unknown required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "common_pitfalls_and_solutions/over_nesting_in_maps.dita",
+        "doc_type": "task",
+        "gate": 1,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "Error: Element <topicref> is not permitted in a DITA 2.0 task document.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate1"
+      },
+      {
+        "file": "common_pitfalls_and_solutions/over_nesting_in_maps.dita",
+        "doc_type": "task",
+        "gate": 3,
+        "rule_code": "CM-CODEPH",
+        "severity": "ERROR",
+        "message": "[CM-CODEPH] <topicref> is not a permitted child of <codeph> per the DITA 2.0 DTD. Permitted children: b i boolean cite keyword ph q term text xref state data data-about draft-comment foreign unknown required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "content_organization/scenario_naming_a_complex_topic.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "content_reuse/conref_content_reference.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "core_characteristics_of_dita/contrast_with_unstructured_content.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "core_characteristics_of_dita/scenario_inheritance_in_maps.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "core_characteristics_of_dita/self_descriptive_content.dita",
+        "doc_type": "concept",
+        "gate": 1,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "Error: Element <cmd> is not permitted in a DITA 2.0 concept document.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate1"
+      },
+      {
+        "file": "core_characteristics_of_dita/self_descriptive_content.dita",
+        "doc_type": "concept",
+        "gate": 1,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "Error: Element <result> is not permitted in a DITA 2.0 concept document.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate1"
+      },
+      {
+        "file": "core_characteristics_of_dita/self_descriptive_content.dita",
+        "doc_type": "concept",
+        "gate": 3,
+        "rule_code": "CM-CODEPH",
+        "severity": "ERROR",
+        "message": "[CM-CODEPH] <cmd> is not a permitted child of <codeph> per the DITA 2.0 DTD. Permitted children: b i boolean cite keyword ph q term text xref state data data-about draft-comment foreign unknown required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "core_characteristics_of_dita/self_descriptive_content.dita",
+        "doc_type": "concept",
+        "gate": 3,
+        "rule_code": "CM-CODEPH",
+        "severity": "ERROR",
+        "message": "[CM-CODEPH] <result> is not a permitted child of <codeph> per the DITA 2.0 DTD. Permitted children: b i boolean cite keyword ph q term text xref state data data-about draft-comment foreign unknown required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "dita_architecture/book_map_example.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "dita_architecture/map_organization_rules.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "dita_best_practices_guide.dita",
+        "doc_type": "topic",
+        "gate": 3,
+        "rule_code": "CM-TITLE",
+        "severity": "ERROR",
+        "message": "[CM-TITLE] <b> is not a permitted child of <title> per the DITA 2.0 DTD. Permitted children: codeph varname userinput boolean keyword ph q term text tm state cite data data-about draft-comment foreign unknown required-cleanup image.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "elements_reference/parameter_table_example.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "elements_reference/simple_table_example.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "elements_reference/table_example.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "hierarchical_structure/structural_hierarchy.dita",
+        "doc_type": "concept",
+        "gate": 1,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "Error: Element <topicref> is not permitted in a DITA 2.0 concept document.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate1"
+      },
+      {
+        "file": "hierarchical_structure/structural_hierarchy.dita",
+        "doc_type": "concept",
+        "gate": 3,
+        "rule_code": "CM-CODEPH",
+        "severity": "ERROR",
+        "message": "[CM-CODEPH] <topicref> is not a permitted child of <codeph> per the DITA 2.0 DTD. Permitted children: b i boolean cite keyword ph q term text xref state data data-about draft-comment foreign unknown required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "key_benefits_of_dita/scalable_content_reuse.dita",
+        "doc_type": "topic",
+        "gate": 1,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "Error: Element <conref> is not permitted in a DITA 2.0 topic document.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate1"
+      },
+      {
+        "file": "key_benefits_of_dita/scalable_content_reuse.dita",
+        "doc_type": "topic",
+        "gate": 1,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "Error: Element <keyref> is not permitted in a DITA 2.0 topic document.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate1"
+      },
+      {
+        "file": "key_benefits_of_dita/scalable_content_reuse.dita",
+        "doc_type": "topic",
+        "gate": 1,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "Error: Element <conkeyref> is not permitted in a DITA 2.0 topic document.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate1"
+      },
+      {
+        "file": "key_benefits_of_dita/scalable_content_reuse.dita",
+        "doc_type": "topic",
+        "gate": 3,
+        "rule_code": "CM-CODEPH",
+        "severity": "ERROR",
+        "message": "[CM-CODEPH] <conref> is not a permitted child of <codeph> per the DITA 2.0 DTD. Permitted children: b i boolean cite keyword ph q term text xref state data data-about draft-comment foreign unknown required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "key_benefits_of_dita/scalable_content_reuse.dita",
+        "doc_type": "topic",
+        "gate": 3,
+        "rule_code": "CM-CODEPH",
+        "severity": "ERROR",
+        "message": "[CM-CODEPH] <keyref> is not a permitted child of <codeph> per the DITA 2.0 DTD. Permitted children: b i boolean cite keyword ph q term text xref state data data-about draft-comment foreign unknown required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "key_benefits_of_dita/scalable_content_reuse.dita",
+        "doc_type": "topic",
+        "gate": 3,
+        "rule_code": "CM-CODEPH",
+        "severity": "ERROR",
+        "message": "[CM-CODEPH] <conkeyref> is not a permitted child of <codeph> per the DITA 2.0 DTD. Permitted children: b i boolean cite keyword ph q term text xref state data data-about draft-comment foreign unknown required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "key_benefits_of_dita/scenario_ai_powered_documentation.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "localization_and_accessibility/language_tagging.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "localization_and_accessibility/table_accessibility.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "metadata/scenario_topicmeta_in_practice.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/characteristics_3.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/glossary_entry_example.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/glossary_topics.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/reference_topic_example.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/reference_topics.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/scenario_2_table_caption_is_required.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/scenario_3_nested_tables_in_a_reference_topic.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/scenario_4_api_in_a_reference_topic.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/scenario_5_cli_reference_topic.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/scenario_6_supported_platforms_in_a_reference_topic.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/scenario_8_postrequisites_in_a_task_topic.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/when_to_use_glossary_topics.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "topic_types/when_to_use_reference_topics.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "worked_examples_and_scenarios/analysis_2.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "worked_examples_and_scenarios/conversion_strategy.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "worked_examples_and_scenarios/scenario_2_writing_api_documentation.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "worked_examples_and_scenarios/worked_examples_and_scenarios.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "writing_style_guidelines/command_example.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "writing_style_guidelines/google_style_guide.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      }
+    ]
+  }
+}

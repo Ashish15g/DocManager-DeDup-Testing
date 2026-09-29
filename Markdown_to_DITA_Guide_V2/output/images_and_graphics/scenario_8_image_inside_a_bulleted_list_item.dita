@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc238560376" xml:lang="en-us">
+   <title>Scenario 8: Image inside a bulleted list item</title>
+   <refbody>
+      <section id="sec_d557e7">
+         <p>Consider a list of alarm types where each list item contains a representative icon.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image inside a bulleted list item</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>* Critical Alarm
+  ![Critical Alarm Icon](images/critical.png)
+  * Warning Alarm
+  ![Warning Alarm Icon](images/warning.png)
+  * Informational Alarm
+  ![Informational Alarm Icon](images/info.png)</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;ul&gt;
+                           &lt;li&gt;
+                           &lt;p&gt;Critical Alarm&lt;/p&gt;
+                           &lt;image href="media/critical.png"&gt;
+                           &lt;alt&gt;Critical Alarm Icon&lt;/alt&gt;
+                           &lt;/image&gt;
+                           &lt;/li&gt;
+                           
+                           &lt;li&gt;
+                           &lt;p&gt;Warning Alarm&lt;/p&gt;
+                           &lt;image href="media/warning.png"&gt;
+                           &lt;alt&gt;Warning Alarm Icon&lt;/alt&gt;
+                           &lt;/image&gt;
+                           &lt;/li&gt;
+                           
+                           &lt;li&gt;
+                           &lt;p&gt;Informational Alarm&lt;/p&gt;
+                           &lt;image href="media/info.png"&gt;
+                           &lt;alt&gt;Informational Alarm Icon&lt;/alt&gt;
+                           &lt;/image&gt;
+                           &lt;/li&gt;
+                           &lt;/ul&gt;
+                        </codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b>The converter preserves the relationship between each unordered list item and its associated image. Each image is placed inside the corresponding DITA <codeph>&lt;li&gt;</codeph> element, ensuring that the image remains part of the list item content rather than being converted into a standalone figure.</p>
+      </section>
+   </refbody>
+</reference>

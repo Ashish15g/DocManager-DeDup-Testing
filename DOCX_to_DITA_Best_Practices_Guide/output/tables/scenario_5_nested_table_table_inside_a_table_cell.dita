@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_5_nested_table_table_inside_a_table_cell" xml:lang="en-us">
+   <title>Scenario 5 — Nested table (table inside a table cell)</title>
+   <refbody>
+      <section id="sec_d743e7">
+         <p>Consider a table where the author has placed a second, complete table inside one of the cells of an outer table.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Nested table inside table cell</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>Outer table: │ Label │ [Inner table cell]          │ │       │ Sub-item A │ Value 1     │ │       │ Sub-item B │ Value 2     │</entry>
+                     <entry>
+                        <codeblock id="codeblock_o5k_l3t_kkc">
+&lt;reference id="server_role_mapping">
+  &lt;title>Server Role Mapping&lt;/title>
+  &lt;refbody>
+    &lt;table frame="all" rowsep="1" colsep="1" id="table_outer">
+      &lt;tgroup cols="2">
+        &lt;colspec colnum="1" colwidth="301" colname="col1"/>
+        &lt;colspec colnum="2" colwidth="301" colname="col2"/>
+        &lt;tbody>
+          &lt;row>
+            &lt;entry>Label&lt;/entry>
+            &lt;entry>
+              &lt;p>
+                &lt;table frame="all" rowsep="1" colsep="1" id="table_inner">
+                  &lt;tgroup cols="2">
+                    &lt;colspec colnum="1" colwidth="143" colname="col1"/>
+                    &lt;colspec colnum="2" colwidth="143" colname="col2"/>
+                    &lt;tbody>
+                      &lt;row>
+                        &lt;entry>Sub-item A&lt;/entry>
+                        &lt;entry>Value 1&lt;/entry>
+                      &lt;/row>
+                      &lt;row>
+                        &lt;entry>Sub-item B&lt;/entry>
+                        &lt;entry>Value 2&lt;/entry>
+                      &lt;/row>
+                    &lt;/tbody>
+                  &lt;/tgroup>
+                &lt;/table>
+              &lt;/p>
+            &lt;/entry>
+          &lt;/row>
+        &lt;/tbody>
+      &lt;/tgroup>
+    &lt;/table>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b>The converter identifies the nested table and preserves it as a CALS <codeph>&lt;table&gt;</codeph> inside the parent table cell. The inner table is wrapped in a <codeph>&lt;p&gt;</codeph> element inside the outer <codeph>&lt;entry&gt;</codeph> to separate the nested structure from the parent cell content.</p>
+         <note type="warning"> Nested tables are valid only when the target DITA shell and publishing pipeline support them. They can still cause rendering, spacing, accessibility, translation, and PDF-output issues. Avoid nested tables unless the structure is required. Where possible, flatten the nested table into a single table before conversion.</note>
+      </section>
+   </refbody>
+</reference>

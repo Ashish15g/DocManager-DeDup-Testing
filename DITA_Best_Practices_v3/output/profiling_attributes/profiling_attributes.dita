@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235705999" xml:lang="en-us">
+   <title>Profiling attributes</title>
+   <abstract>This chapter introduces DITA profiling attributes as a mechanism for embedding
+      conditional metadata that enables audience-, platform-, product-, and environment-specific
+      publishing. It demonstrates how a single source can generate multiple tailored outputs by
+      selectively including or excluding content based on defined profiling rules.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>attributes</keyword>
+        <keyword>profiling</keyword>
+        <keyword>Profiling</keyword>
+        <keyword>content</keyword>
+        <keyword>conditional</keyword>
+        <keyword>metadata</keyword>
+        <indexterm>attributes</indexterm>
+        <indexterm>profiling</indexterm>
+        <indexterm>Profiling</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section id="sec_d785e7">
+         <p>Profiling attributes embed conditional metadata directly within content elements. They control when and where content appears in different outputs.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>common profiling attributes</title>
+            <tgroup cols="3">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <thead>
+                  <row>
+                     <entry>Attribute </entry>
+                     <entry>Purpose </entry>
+                     <entry>Example </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>audience</entry>
+                     <entry>Target user group</entry>
+                     <entry>admin, developer, user</entry>
+                  </row>
+                  <row>
+                     <entry>platform</entry>
+                     <entry>Operating system/environment</entry>
+                     <entry>windows, linux, macos</entry>
+                  </row>
+                  <row>
+                     <entry>product</entry>
+                     <entry>Product or edition</entry>
+                     <entry>basic, professional, enterprise</entry>
+                  </row>
+                  <row>
+                     <entry>props</entry>
+                     <entry>Custom profiling</entry>
+                     <entry>region_emea, compliance_hipaa</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </refbody>
+</reference>

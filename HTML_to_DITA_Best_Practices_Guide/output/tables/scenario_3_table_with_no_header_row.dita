@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450409" xml:lang="en-us">
+   <title>Scenario 3 — Table with no header row</title>
+   <refbody>
+      <section id="sec_d743e7">
+         <p>Consider a table where the author has not used <codeph>&lt;th&gt;</codeph> elements for the first row — all rows use <codeph>&lt;td&gt;</codeph> elements only.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Table with no header row</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_hky_t14_lkc">
+&lt;table>
+  &lt;tr>
+    &lt;td>server-01&lt;/td>
+    &lt;td>192.168.1.10&lt;/td>
+    &lt;td>Active&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>server-02&lt;/td>
+    &lt;td>192.168.1.11&lt;/td>
+    &lt;td>Standby&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>server-03&lt;/td>
+    &lt;td>192.168.1.12&lt;/td>
+    &lt;td>Active&lt;/td>
+  &lt;/tr>
+&lt;/table></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_jfd_t14_lkc">
+&lt;reference id="api_parameters">
+  &lt;title>API Parameters&lt;/title>
+  &lt;refbody>
+    &lt;simpletable frame="all" relcolwidth="1* 1* 1*" id="simpletable_yj1_ggk_rjc">
+      &lt;sthead>
+        &lt;stentry>server-01&lt;/stentry>
+        &lt;stentry>192.168.1.10&lt;/stentry>
+        &lt;stentry>Active&lt;/stentry>
+      &lt;/sthead>
+      &lt;strow>
+        &lt;stentry>server-02&lt;/stentry>
+        &lt;stentry>192.168.1.11&lt;/stentry>
+        &lt;stentry>Standby&lt;/stentry>
+      &lt;/strow>
+      &lt;strow>
+        &lt;stentry>server-03&lt;/stentry>
+        &lt;stentry>192.168.1.12&lt;/stentry>
+        &lt;stentry>Active&lt;/stentry>
+      &lt;/strow>
+    &lt;/simpletable>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b> The converter assumes that every HTML table requires a header row in the DITA output. When no <codeph>&lt;th&gt;</codeph> elements are present, the converter promotes the first <codeph>&lt;tr&gt;</codeph> of <codeph>&lt;td&gt;</codeph> elements into <codeph>&lt;sthead&gt;</codeph>. Always include a descriptive header row using <codeph>&lt;th&gt;</codeph> elements in HTML tables.</p>
+      </section>
+   </refbody>
+</reference>

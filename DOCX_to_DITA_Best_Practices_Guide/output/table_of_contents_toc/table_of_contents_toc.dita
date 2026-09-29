@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="table_of_contents_toc" xml:lang="en-us">
+   
+   <title>Table of Contents (TOC)</title>
+   <abstract>This section covers the Table of Contents in DOCX — the navigation structure that maps
+      the publication hierarchy and serves as the converter's primary entry point for building the
+      root DITA map — and one scenario: a TOC generated from the document's Heading styles. The
+      converter reads TOC to construct the DITA map hierarchy and topic references; when no TOC is
+      present, the converter relies solely on the Heading style sequence to construct the
+      hierarchy.</abstract>
+   <conbody>
+
+         <p>A table of contents is the navigation structure of a publication. It declares the document's complete hierarchy in one place — the titles, sequence, and parent-child relationships of all sections, chapters and topics — and provides the entry point from which readers and systems navigate the entire deliverable.</p>
+         <p>For the publishing system, the table of contents is a structural anchor — every generated navigation artifact, including the PDF bookmark panel, the HTML5 navigation tree, the WebHelp TOC panel, and the DITA map hierarchy, derives from the same underlying Heading structure the TOC reflects.</p>
+         <p>In the .docx file, the TOC is generated using <b>References</b>
+            <b>-&gt;</b>
+            <b>Table of Contents</b> in Microsoft Word, which automatically picks up Heading styles from the document and builds a structured list. Keep the TOC depth to Heading 3 — going deeper produces an overly granular bookmap that becomes difficult to maintain and harder to follow. The TOC is used to determine whether the output requires a standard DITA <codeph>&lt;map&gt;</codeph> or a <codeph>&lt;bookmap&gt;</codeph>.</p>
+         <p>The converter does not convert the Word TOC into DITA content directly — it discards the TOC itself and uses only its structure to validate the bookmap hierarchy derived from Heading styles. The publishing transform regenerates the navigation structure at build time from the assembled DITA map, ensuring it always reflects the actual content rather than a manually maintained list that can fall out of sync.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>TOC generated from built-in feature</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[TOC generated using References &gt; Table of Contents]</entry>
+                     <entry>
+                        <codeblock id="codeblock_d2j_frq_kkc">
+&lt;bookmap id="printer_users_guide">
+  &lt;booktitle>
+    &lt;mainbooktitle>Printer User's Guide&lt;/mainbooktitle>
+  &lt;/booktitle>
+  &lt;frontmatter>
+    &lt;booklists>
+      &lt;toc/>
+    &lt;/booklists>
+  &lt;/frontmatter>
+  &lt;chapter href="m001_product_basics.ditamap"
+           format="ditamap"/>
+  &lt;chapter href="m002_loading_paper.ditamap"
+           format="ditamap"/>
+&lt;/bookmap></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+            </table>
+         <note type="warning">Do not manually type or format a TOC. Always use Word's built-in TOC
+            generator: References -&gt; Table of Contents.</note>
+   </conbody>
+</concept>

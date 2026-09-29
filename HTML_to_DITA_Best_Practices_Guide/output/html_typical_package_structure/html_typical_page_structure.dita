@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450331" xml:lang="en-us">
+   <title>HTML Typical Page Structure</title>
+   <shortdesc>Each HTML file follows standard HTML5 document structure:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>content</keyword>
+        <keyword>HTML</keyword>
+        <keyword>converter</keyword>
+        <keyword>Page</keyword>
+        <keyword>elements</keyword>
+        <keyword>Typical</keyword>
+        <indexterm>content</indexterm>
+        <indexterm>HTML</indexterm>
+        <indexterm>converter</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+     <p>Each HTML file follows standard HTML5 document structure:</p>
+    <codeblock id="codeblock_qdt_ltg_lkc">
+&lt;html>
+  &lt;head>
+    &lt;title>Page Title&lt;/title>
+    &lt;meta name="author" content="Documentation Team">
+    &lt;meta name="created" content="2026-01-15">
+  &lt;/head>
+  &lt;body>
+    [Content appears here]
+    &lt;footer>
+      [Footer content]
+    &lt;/footer>
+  &lt;/body>
+&lt;/html></codeblock>
+         
+         <p>The converter focuses on two key areas:</p>
+    <ol>
+    <li><codeph>&lt;head&gt;</codeph>
+               <b>metadata</b>. The converter maps this content to DITA <codeph>&lt;prolog&gt;</codeph> elements such as author, created date, and revised date</li>
+    <li><codeph>&lt;body&gt;</codeph>
+               <b>content.</b> The converter maps this content to DITA topic body elements, including paragraphs, lists, tables, and images.</li>
+    </ol>
+      <note type="warning"> The converter ignores footer content by default, as well as CSS, JavaScript, navigation menus, cookie banners, advertisements, and hidden elements. If your HTML file contains important content in the footer, move it to the <codeph>&lt;body&gt;</codeph> section before conversion.</note>
+
+   </conbody>
+</concept>

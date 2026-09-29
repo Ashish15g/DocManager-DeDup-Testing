@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_headinghvvgksf8to6pe" xml:lang="en-us">
+   <title>HTML Index</title>
+  <abstract> This section covers the Table of Contents and Root Index — the navigation structure
+    that maps the publication hierarchy and serves as the converter's primary entry point for
+    building the root DITA map — and two scenarios: a root index file present in the package, and a
+    missing root index file. The converter reads the root index to construct the DITA map hierarchy
+    and topic references; when no root index is present, it falls back to the package folder name or
+    filename as the root map title.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>navigation</keyword>
+        <keyword>hierarchy</keyword>
+        <keyword>index</keyword>
+        <keyword>HTML</keyword>
+        <keyword>structure</keyword>
+        <keyword>publication</keyword>
+        <indexterm>navigation</indexterm>
+        <indexterm>hierarchy</indexterm>
+        <indexterm>index</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody> 
+      <p>A table of contents or root index is the navigation structure of a publication. It declares the document's complete hierarchy in one place — the titles, sequence, and parent-child relationships of all sections, chapters, and topics — and provides the entry point from which readers and systems navigate the entire deliverable.</p>
+      <p>For the publishing system, the table of contents or root index is the structural anchor of the entire output — every generated navigation artifact, including the PDF bookmark panel, the HTML5 navigation tree, the WebHelp TOC panel, and the DITA map hierarchy, derives from this structure.</p>
+      <note type="note"> The converter reads it to build the DITA map hierarchy and then discards it
+        — the publishing transform regenerates the navigation structure at build time from the
+        assembled DITA map, ensuring it always reflects the actual content rather than a manually
+        maintained list that can fall out of sync.</note>
+      <p>In a well-structured HTML package, the table of contents is provided by the navigation structure in the index.html or index.htm file. Each navigation link references an HTML document within the publication, and the order and nesting of these links establish the hierarchy of the generated documentation.</p>
+      <p>The converter reads the navigation structure in the index file to generate the root Ditamap hierarchy. The table of contents itself is not converted into a standalone DITA topic. Instead, each navigation link becomes a corresponding <codeph>&lt;mapref&gt;</codeph> or <codeph>&lt;topicref&gt;</codeph> in the generated root Ditamap, preserving the organization of the original HTML publication.</p>
+      <note type="important"> Ensure that the table of contents accurately reflects the intended
+        publication hierarchy and that every navigation link references a valid HTML file. Missing,
+        incorrect, or incomplete navigation links result in an incomplete Ditamap hierarchy and may
+        exclude topics from the generated publication.</note>
+    </conbody>
+</concept>

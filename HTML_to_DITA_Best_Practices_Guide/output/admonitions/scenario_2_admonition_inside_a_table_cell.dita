@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450420" xml:lang="en-us">
+   <title>Scenario 2 — Admonition inside a table cell</title>
+   <refbody>
+      <section id="sec_d137e7">
+         <p>Consider a <codeph>&lt;table&gt;</codeph> where one of the <codeph>&lt;td&gt;</codeph> cells contains a <codeph>&lt;div class="warning"&gt;</codeph> element rather than a plain <codeph>&lt;p&gt;</codeph> element.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Admonition inside a table cell</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_ib5_p5n_lkc">
+&lt;table>
+  &lt;tr>
+    &lt;th>Setting&lt;/th>
+    &lt;th>Notes&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Production Mode&lt;/td>
+    &lt;td>
+      &lt;div class="warning">
+        &lt;p>
+          Do not modify this value in production.
+        &lt;/p>
+      &lt;/div>
+    &lt;/td>
+  &lt;/tr>
+&lt;/table></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_w3l_q5n_lkc">
+&lt;simpletable>
+  &lt;sthead>
+    &lt;stentry>Setting&lt;/stentry>
+    &lt;stentry>Notes&lt;/stentry>
+  &lt;/sthead>
+  &lt;strow>
+    &lt;stentry>Production Mode&lt;/stentry>
+    &lt;stentry>
+      &lt;note type="warning">
+        Do not modify this value in production.
+      &lt;/note>
+    &lt;/stentry>
+  &lt;/strow>
+&lt;/simpletable></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+  
+         <p><b>Result:</b> When an admonition element appears inside a <codeph>&lt;td&gt;</codeph> cell, the converter wraps the content in a <codeph>&lt;note&gt;</codeph> element and places it inside the corresponding DITA <codeph>&lt;stentry&gt;</codeph> or <codeph>&lt;entry&gt;</codeph>. The admonition does not break out of the table cell boundary — it is contained within the cell and rendered as inline note content within that cell.</p>
+      </section>
+   </refbody>
+</reference>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705942" xml:lang="en-us">
+   <title>Scenario 10: block image in a task topic</title>
+   <shortdesc>Consider a "Review Performance Metrics" chapter in a "User Guide" document where you want a</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>screenshot</keyword>
+        <keyword>block</keyword>
+        <keyword>metrics</keyword>
+        <keyword>element</keyword>
+        <keyword>placement</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>screenshot</indexterm>
+        <indexterm>block</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a "Review Performance Metrics" chapter in a "User Guide" document where you want a block image in an info element. You want to show the screen in the info tag with some information by adding <codeph>placement="break"</codeph> to an <codeph>&lt;image&gt;</codeph> element and/or wrapping the image in a<codeph>&lt;fig&gt;</codeph>element.</p>
+      <codeblock id="codeblock_jz4_rqs_kkc">&lt;task id="show-screenshot" title="Review Dashboard Metrics"&gt;
+&lt;shortdesc&gt;Open the dashboard and review performance metrics.&lt;/shortdesc&gt;
+&lt;steps&gt;
+&lt;step id="step-1"&gt;
+&lt;cmd&gt;Log in and navigate to Dashboard &amp; Performance.&lt;/cmd&gt;
+&lt;info&gt;
+&lt;p&gt;The following screenshot highlights the key metrics:&lt;/p&gt;
+&lt;fig&gt;
+&lt;image href="images/dashboard-screenshot.png" placement="break" alt="Dashboard metrics screenshot"/&gt;
+&lt;/fig&gt;
+&lt;/info&gt;
+&lt;/step&gt;…
+&lt;/steps&gt;
+&lt;result&gt;
+&lt;p&gt;You can identify any abnormal metric spikes and export metrics for analysis.&lt;/p&gt;
+&lt;/result&gt;
+&lt;/task&gt;</codeblock><p>
+         <b>Result:</b> Using the <codeph>&lt;image placement="break"&gt;</codeph> and/or wrapping the image in <codeph>&lt;fig&gt;</codeph> inside an <codeph>&lt;info&gt;</codeph> gives you a full-width block screenshot with descriptive context.</p>
+  </section></refbody>
+</reference>

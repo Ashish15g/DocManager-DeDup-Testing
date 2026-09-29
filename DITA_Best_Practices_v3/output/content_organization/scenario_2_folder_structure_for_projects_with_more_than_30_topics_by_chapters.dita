@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="scenario_2_folder_structure_for_projects_with_more_than_30_topics_by_chapters" xml:lang="en-us">
+   <title>Scenario 2: folder structure for projects with more than 30 topics by chapters</title>
+   <shortdesc>/project-root bookmap.ditamap user-guide.ditamap /ch1_introduction c_overview.dita &lt;!-- Concept --&gt; c_system_requirements.dita &lt;!-- Concept --&gt; c_supported_platforms.dita &lt;!-- Concept</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Task</keyword>
+        <keyword>Concept</keyword>
+        <keyword>Reference</keyword>
+        <keyword>Troubleshooting</keyword>
+        <keyword>Topic</keyword>
+        <keyword>Scenario</keyword>
+        <indexterm>Task</indexterm>
+        <indexterm>Concept</indexterm>
+        <indexterm>Reference</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section>
+      <codeblock>/project-root
+bookmap.ditamap
+user-guide.ditamap
+/ch1_introduction
+c_overview.dita              &lt;!-- Concept --&gt;
+c_system_requirements.dita   &lt;!-- Concept --&gt;
+c_supported_platforms.dita   &lt;!-- Concept --&gt;
+/ch2_getting_started
+t_installation.dita          &lt;!-- Task --&gt;
+t_initial_configuration.dita &lt;!-- Task --&gt;
+ts_installation_errors.dita  &lt;!-- Troubleshooting --&gt;
+c_first_time_setup.dita      &lt;!-- Concept --&gt;
+/ch3_managing_users
+t_adding_users.dita          &lt;!-- Task --&gt;
+t_editing_permissions.dita   &lt;!-- Task --&gt;
+r_user_roles.dita            &lt;!-- Reference --&gt;
+ts_access_denied.dita        &lt;!-- Troubleshooting --&gt;
+/ch4_api_and_integration
+c_api_overview.dita          &lt;!-- Concept --&gt;
+t_api_authentication.dita    &lt;!-- Task --&gt;
+r_api_parameters.dita        &lt;!-- Reference --&gt;
+r_webhook_events.dita        &lt;!-- Reference --&gt;
+/ch5_maintenance
+t_backup_procedure.dita      &lt;!-- Task --&gt;
+t_upgrade_procedure.dita     &lt;!-- Task --&gt;
+ts_connection_issues.dita    &lt;!-- Troubleshooting --&gt;
+r_config_options.dita        &lt;!-- Reference --&gt;
+/ch6_appendices
+r_appendix.dita              &lt;!-- Reference --&gt;
+c_troubleshooting_summary.dita &lt;!-- Concept --&gt;
+/global
+reusable_notes.dita          &lt;!-- Topic --&gt;
+common_warnings.dita         &lt;!-- Topic --&gt;
+shared_procedures.dita       &lt;!-- Topic --&gt;
+/media
+screenshot_login.png
+diagram_architecture.png
+workflow.svg</codeblock>
+   </section></refbody>
+</reference>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Images_and_Graphics" xml:lang="en-us">
+   <title>Images and Graphics</title>
+   <abstract>This section covers Images and Graphics in DOCX — the primary means of communicating
+      spatial relationships, component locations, interface states, and process flows that prose
+      alone cannot convey — and twelve scenarios: image sizing thresholds, inline and block
+      placement, images with captions, side-by-side images, images inside list items, linked versus
+      embedded images, images inside text boxes, and alt text application. The converter maps each
+      image to a DITA <codeph>&lt;image&gt;</codeph> element with a required
+         <codeph>&lt;alt&gt;</codeph> child; block images are wrapped in
+         <codeph>&lt;fig&gt;</codeph>, and a Caption-styled paragraph maps to the
+         <codeph>&lt;fig&gt;</codeph>
+      <codeph>&lt;title&gt;</codeph> element.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>images</keyword>
+        <keyword>Images</keyword>
+        <keyword>DITA</keyword>
+        <keyword>Image</keyword>
+        <keyword>Graphics</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>images</indexterm>
+        <indexterm>Images</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+<p>
+         <b>Images and graphics</b> are the primary means of communicating spatial relationships,
+         component locations, interface states, system architectures, and process flows that text
+         alone cannot convey efficiently. In technical publications, the image or graphic and its
+         surrounding context carry equal structural weight.</p>
+      <p>The key differences between images and graphics are outlined below:</p>
+<ul id="ul_07233415">
+            <li>An image is a raster file — a grid of pixels captured or rendered at a fixed resolution. Images are resolution dependent, when scaled up beyond their original size, they lose sharpness. For example, screenshots, photographs, and scanned content (PNG, JPEG, BMP).</li>
+            <li>A graphic is a vector-based or constructed visual — built from mathematical shapes, lines, curves, and text rather than pixels. Graphics are resolution independent, when scaled up beyond their size does not lose its quality. For example, diagrams, flowcharts, and schematic illustrations (SVG, EMF, Visio, PDF).</li>
+         </ul>
+<p>In a .docx file, both images and graphics are embedded binary objects inserted through Insert → Pictures. The wrap mode setting on each image determines whether the image is placed inside the main paragraph flow or in a separate floating drawing layer.</p>
+<p>The converter extracts all inline image or graphic files from .docx and saves them to a media/ subfolder in the DITA output directory in .PNG format and retains its resolution. The extracted images are added as references (href) in the generated <codeph>&lt;image&gt;</codeph> elements, which uses relative path to the output directory root.</p>
+<note type="warning">Images with Square, Tight, Through, Behind Text, or In Front of Text wrapping
+         are excluded without notice. No <codeph>&lt;image&gt;</codeph> element or placeholder is
+         generated. Images linked from an external path rather than embedded in the .docx archive
+         produce broken href references in the DITA output. Verify that every image is set to In
+         Line with Text and is fully embedded in the .docx file before submission.</note>
+<p>The following table lists the image positions and their corresponding DITA output:</p>
+      <table frame="all" colsep="1" rowsep="1">
+         <title>Image position mapped to DITA</title>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>Image Position in .docx</b>
+                  </entry>
+                  <entry>
+                     <b>DITA Output Element</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>Image inserted between paragraphs</entry>
+                  <entry>
+                     <codeblock id="codeblock_f5v_hcs_kkc">
+&lt;fig>
+  &lt;image href="media/diagram.png" width="20" height="24"/>
+&lt;/fig></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Image inserted inline within a sentence</entry>
+                  <entry>
+                     <codeblock id="codeblock_px4_3cs_kkc">
+&lt;p>
+  Press the
+  &lt;image href="media/ok_btn.png" placement="inline" width="20" height="24"/>
+  button.
+&lt;/p></codeblock>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Image with Caption-styled paragraph</entry>
+                  <entry>
+                     <codeblock id="codeblock_ww2_lcs_kkc">
+&lt;fig>
+  &lt;title>Ink tank and cap locations&lt;/title>
+  &lt;image href="media/ink_tank.png" width="20" height="24"/>
+&lt;/fig></codeblock>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+<p>The equivalent of each image placement from the .docx file in the DITA conversion process is explained according to the scenarios in the following table:</p></conbody>
+</concept>

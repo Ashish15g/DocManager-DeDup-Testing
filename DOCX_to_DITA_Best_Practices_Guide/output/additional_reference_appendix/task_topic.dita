@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concpet.dtd">
+<concept id="task_topic" xml:lang="en-us">
+   <title>Task Topic</title>
+   <shortdesc>A task topic documents a procedure that a user performs to complete a specific goal.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Task</keyword>
+        <keyword>Topic</keyword>
+        <keyword>topic</keyword>
+        <keyword>numbered</keyword>
+        <keyword>content</keyword>
+        <keyword>documents</keyword>
+        <indexterm>Task</indexterm>
+        <indexterm>Topic</indexterm>
+        <indexterm>topic</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody> 
+    <p>A task topic documents a procedure that a user performs to complete a specific goal. The converter classifies a section as task when the heading or opening sentence contains an imperative verb — such as install, configure, set, create, enable, or deploy — and a numbered list is the primary body content. The generated topic uses <codeph>&lt;task&gt;</codeph> with <codeph>&lt;taskbody&gt;</codeph>, and the body is partitioned automatically: pre-step content maps to <codeph>&lt;prereq&gt;</codeph> or <codeph>&lt;context&gt;</codeph>, numbered items map to <codeph>&lt;steps&gt;&lt;step&gt;&lt;cmd&gt;</codeph>, and any trailing Normal paragraphs map to <codeph>&lt;result&gt;</codeph>.</p>
+   </conbody>
+</concept>

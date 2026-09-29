@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_6_list_inside_a_table_cell" xml:lang="en-us">
+   <title>Scenario 6 — List inside a table cell</title>
+   <refbody>  
+      <section>
+    <p>Consider a table where the author has placed a bulleted or numbered list inside one of the cells.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>List inside a table cell</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Header Row]:</b> Step | Actions   <b>[Row]:</b> 1 |      [List Bullet]: Download the package     [List Bullet]: Verify the checksum      [List Bullet]: Extract the archive</entry>
+                     <entry>
+                        <codeblock id="codeblock_psk_5ls_kkc">
+&lt;reference id="installation_actions">
+  &lt;title>Installation Actions&lt;/title>
+  &lt;refbody>
+    &lt;simpletable>
+      &lt;sthead>
+        &lt;stentry>Step&lt;/stentry>
+        &lt;stentry>Actions&lt;/stentry>
+      &lt;/sthead>
+      &lt;strow>
+        &lt;stentry>1&lt;/stentry>
+        &lt;stentry>
+          &lt;ul>
+            &lt;li>Download the package.&lt;/li>
+            &lt;li>Verify the checksum.&lt;/li>
+            &lt;li>Extract the archive.&lt;/li>
+          &lt;/ul>
+        &lt;/stentry>
+      &lt;/strow>
+    &lt;/simpletable>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b>The converter preserves the list inside table cells and maps to the <codeph>&lt;ul&gt;</codeph> or <codeph>&lt;ol&gt;</codeph>.</p>
+         <note type="tip"> Use lists inside table cells only when the list represents multiple related values for the same row. Avoid using lists inside tables for procedural steps; if the content is procedural, consider converting it to a DITA task with <codeph>&lt;steps&gt;</codeph>.</note>
+      </section>
+   </refbody>
+</reference>

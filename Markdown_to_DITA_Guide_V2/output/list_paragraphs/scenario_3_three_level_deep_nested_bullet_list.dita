@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_headingheihr169s9lj4" xml:lang="en-us">
+   <title>Scenario 3: Three-level deep nested bullet list</title>
+   <shortdesc>Consider a .md file for a monitoring platform’s components that organizes information into categories, subcategories,</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Metrics</keyword>
+        <keyword>nested</keyword>
+        <keyword>Collection</keyword>
+        <keyword>bullet</keyword>
+        <keyword>Logs</keyword>
+        <keyword>Three</keyword>
+        <indexterm>Metrics</indexterm>
+        <indexterm>nested</indexterm>
+        <indexterm>Collection</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a .md file for a monitoring platform’s components that organizes information into categories, subcategories, and individual items.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Three-level deep nested bullet list</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Monitoring Platform’s Components
+  - Data Collection
+  - Metrics Collection
+  - CPU Metrics
+  - Memory Metrics
+  - Disk Metrics
+  - Log Collection
+  - Application Logs
+  - System Logs
+  - Alerting
+  - Notification Channels
+  - Email
+  - SMS
+  - Webhook</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;concept id="monitoring_platforms_components"&gt;
+  &lt;title&gt;Monitoring Platform‘s Components&lt;/title&gt;
+  &lt;conbody&gt;
+  &lt;ul&gt;
+  &lt;li&gt;
+  Data Collection
+  &lt;ul&gt;
+  &lt;li&gt; Metrics Collection
+  &lt;ul&gt;
+  &lt;li&gt;CPU Metrics&lt;/li&gt;
+  &lt;li&gt;Memory Metrics&lt;/li&gt;
+  &lt;li&gt;Disk Metrics&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+  Log Collection
+  &lt;ul&gt;     &lt;li&gt;Application Logs&lt;/li&gt;
+  &lt;li&gt;System Logs&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+  Alerting
+  &lt;ul&gt;
+  &lt;li&gt;
+  Notification Channels
+  &lt;ul&gt;            &lt;li&gt;Email&lt;/li&gt;                     &lt;li&gt;SMS&lt;/li&gt;                  &lt;li&gt;Webhook&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/conbody&gt;
+  &lt;/concept&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The converter preserves all three levels of the nested bullet list hierarchy. Each nested Markdown list becomes a corresponding nested DITA <codeph>&lt;ul&gt;</codeph> structure, maintaining the parent-child relationships between categories, subcategories, and individual items.</p></section></refbody>
+</reference>

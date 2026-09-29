@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_2_heading_level_hierarchy" xml:lang="en-us">
+   <title>Scenario 2 — Heading level hierarchy</title>
+   <shortdesc>Consider a document where a Heading 1 groups related Heading 2 sections but contains no</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Heading</keyword>
+        <keyword>content</keyword>
+        <keyword>under</keyword>
+        <keyword>Installation</keyword>
+        <keyword>level</keyword>
+        <keyword>hierarchy</keyword>
+        <indexterm>Heading</indexterm>
+        <indexterm>content</indexterm>
+        <indexterm>under</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+     <section>
+       <p>Consider a document where a Heading 1 groups related Heading 2 sections but contains no direct body content of its own. All paragraphs, tables, and images appear under Heading 2 or deeper headings.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Heading level hierarchy</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <tbody>
+             <row>
+               <entry>
+                 <b>.docx Style / Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+             <row>
+               <entry>[Heading 1]: Installation (No body content under Heading 1) [Heading 2]: Prerequisites [Heading 3]: System Requirements [Heading 2]: Installing the Server (No body content under Heading 1)</entry>
+               <entry>
+                <codeblock id="codeblock_mk5_2xz_kkc">
+&lt;map id="m001_installation">
+  &lt;title>Installation&lt;/title>
+  &lt;topichead navtitle="Installation">
+    &lt;topicref href="t001_prerequisites.dita">
+      &lt;topicref href="t002_system_requirements.dita"/>
+    &lt;/topicref>
+    &lt;topicref href="t003_installing_the_server.dita"/>
+  &lt;/topichead>
+&lt;/map></codeblock>
+              </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+<p>
+            <b>Result:</b>No .dita topic file is created for <b>Heading 1: Installation</b> because it has no body content. The converter maps it to a <codeph>&lt;topichead&gt;</codeph> element and nests the related <b>Heading 2</b> and <b>Heading 3</b> topics under it. No .dita topic file is created for <b>Heading 2: Installing the Server</b>either because it has no body content. The converter maps it to a <codeph>&lt;topichead&gt;</codeph> element.</p>
+   </section>
+   </refbody>
+</reference>

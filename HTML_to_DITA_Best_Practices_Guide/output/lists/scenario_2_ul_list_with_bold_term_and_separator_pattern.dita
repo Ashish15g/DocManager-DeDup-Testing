@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450390" xml:lang="en-us">
+   <title>Scenario 2 — &lt;ul&gt; list with bold term and separator pattern</title>
+   <shortdesc>Scenario 2 — &lt;ul&gt; list with bold term and separator pattern Consider a concept section</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>device</keyword>
+        <keyword>separator</keyword>
+        <keyword>pattern</keyword>
+        <keyword>connection</keyword>
+        <keyword>modes</keyword>
+        <keyword>Connection</keyword>
+        <indexterm>device</indexterm>
+        <indexterm>separator</indexterm>
+        <indexterm>pattern</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+     <section>
+    <p>Consider a concept section titled "Connection Modes" where the author has used a <codeph>&lt;ul&gt;</codeph> list where each <codeph>&lt;li&gt;</codeph> begins with a <codeph>&lt;strong&gt;</codeph> term followed by a — separator and definition text.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Bold term with separator pattern</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>HTML Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>
+                 <codeblock>
+&lt;h2 id="connection-modes">Connection Modes&lt;/h2>
+&lt;p>
+  The device supports the following connection modes.
+&lt;/p>
+&lt;ul>
+  &lt;li>
+    &lt;strong>Wired&lt;/strong> — Uses an Ethernet cable to connect the device directly to the network switch.
+  &lt;/li>
+  &lt;li>
+    &lt;strong>Wireless&lt;/strong> — Connects the device using the built-in Wi-Fi adapter.
+  &lt;/li>
+  &lt;li>
+    &lt;strong>Bluetooth&lt;/strong> — Pairs the device with a host computer for short-range data transfer.
+  &lt;/li>
+&lt;/ul></codeblock>
+               </entry>
+               <entry>
+                 <codeblock>
+&lt;concept id="connection_modes">
+  &lt;title>Connection Modes&lt;/title>
+  &lt;conbody>
+    &lt;p>
+      The device supports the following connection modes.
+    &lt;/p>
+    &lt;dl>
+      &lt;dlentry>
+        &lt;dt>Wired&lt;/dt>
+        &lt;dd>
+          &lt;p>
+            Uses an Ethernet cable to connect the device directly to the network switch.
+          &lt;/p>
+        &lt;/dd>
+      &lt;/dlentry>
+      &lt;dlentry>
+        &lt;dt>Wireless&lt;/dt>
+        &lt;dd>
+          &lt;p>
+            Connects the device using the built-in Wi-Fi adapter.
+          &lt;/p>
+        &lt;/dd>
+      &lt;/dlentry>
+      &lt;dlentry>
+        &lt;dt>Bluetooth&lt;/dt>
+        &lt;dd>
+          &lt;p>
+            Pairs the device with a host computer for short-range data transfer.
+          &lt;/p>
+        &lt;/dd>
+      &lt;/dlentry>
+    &lt;/dl>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+               </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b> The converter detects the bold-term pattern and maps the <codeph>&lt;ul&gt;</codeph> to a DITA <codeph>&lt;dl&gt;</codeph>. Each <codeph>&lt;li&gt;</codeph> becomes a <codeph>&lt;dlentry&gt;</codeph>, the <codeph>&lt;strong&gt;</codeph> text maps to <codeph>&lt;dt&gt;</codeph>, and the remaining text maps to <codeph>&lt;dd&gt;</codeph>. The separator character is stripped.</p>
+  </section>
+   </refbody>
+</reference>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560373" xml:lang="en-us">
+   <title>Scenario 5: Block image</title>
+   <shortdesc>Consider an image that appears on its own line and is separated from surrounding content.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>Alarm</keyword>
+        <keyword>Configuration</keyword>
+        <keyword>alarm</keyword>
+        <keyword>Block</keyword>
+        <keyword>Scenario</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>Alarm</indexterm>
+        <indexterm>Configuration</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider an image that appears on its own line and is separated from surrounding content.</p><table frame="all" colsep="1" rowsep="1">
+            <title>Block image</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+              <thead>
+                <row>
+                  <entry> .md input </entry>
+                  <entry> DITA output </entry>
+                </row>                
+              </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>The following screen shows the Alarm Configuration page.
+  ![Alarm Configuration Screen](images/alarm-config.png)
+  Configure the notification settings before saving the alarm.</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;p&gt;The following screen shows the Alarm Configuration page.&lt;/p&gt;
+  &lt;fig&gt;
+  &lt;image href="media/alarm-config.png"&gt;
+  &lt;alt&gt;Alarm Configuration Screen&lt;/alt&gt;
+  &lt;/image&gt;
+  &lt;/fig&gt;
+  &lt;p&gt; Configure the notification settings before saving the alarm.
+  &lt;/p&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table><p>
+            <b>Result:</b> The image appears as a standalone block element. The converter generates a DITA figure containing the image. The image is treated as a distinct piece of content separate from the surrounding paragraphs.</p>
+  </section></refbody>
+</reference>

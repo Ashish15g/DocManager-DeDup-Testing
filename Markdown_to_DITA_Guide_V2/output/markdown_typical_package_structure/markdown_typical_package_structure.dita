@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="_Toc238560286" xml:lang="en-us">
+   <title>Markdown typical package structure</title>
+   <shortdesc>Submit your Markdown content as a ZIP package containing the Markdown source files in appropriate</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>DITA</keyword>
+        <keyword>Markdown</keyword>
+        <keyword>package</keyword>
+        <keyword>files</keyword>
+        <keyword>converter</keyword>
+        <keyword>structure</keyword>
+        <indexterm>DITA</indexterm>
+        <indexterm>Markdown</indexterm>
+        <indexterm>package</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>  
+    <p>Submit your Markdown content as a ZIP package containing the Markdown source files in
+        appropriate folders and associated assets. A typical Markdown documentation package
+          contains:<ul id="ul_11245402">
+          <li>
+            <b>Root index file (index.md):</b>The converter uses this file to generate DITA map and
+            navigation hierarchies.</li>
+          <li>
+            <b>Folders:</b> The converter uses the folder names to assign IDS to converted
+            topics.</li>
+          <li>
+            <b>Markdown files (.md):</b> The converter creates DITA topics from these files.</li>
+          <li>
+            <b>Images and media assets:</b> The converter maps referenced assets to DITA image
+            elements.</li>
+          <li>
+            <b>Supporting assets:</b> Configuration files, build scripts, themes, and
+            static-site-generator resources are ignored unless explicitly configured.</li>
+        </ul></p><p>The converter reads the package structure and the root index file to create the root DITA map folder hierarchy. It reads the folder structure to generate DITA maps, preserve relative paths for images and media, and generate child DITA maps and DITA topics based on individual folders and .md files.</p>
+  </conbody>
+</concept>

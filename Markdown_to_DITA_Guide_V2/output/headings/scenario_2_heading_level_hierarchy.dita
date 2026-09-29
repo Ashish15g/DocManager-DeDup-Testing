@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560320" xml:lang="en-us">
+   <title>Scenario 2: Heading level hierarchy</title>
+   <shortdesc>Consider a Markdown file with multiple heading levels.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Heading</keyword>
+        <keyword>Alarm</keyword>
+        <keyword>alarm</keyword>
+        <keyword>topics</keyword>
+        <keyword>level</keyword>
+        <keyword>notification</keyword>
+        <indexterm>Heading</indexterm>
+        <indexterm>Alarm</indexterm>
+        <indexterm>alarm</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a Markdown file with multiple heading levels. All Headings in a Markdown file will be converted to separate topics except the last Heading level. For example, if the last Heading level in a file is Heading 4 (<codeph>####</codeph>), then all Headings 1-3 (<codeph>#</codeph>-<codeph>###</codeph>) will be converted to topics, subtopics, and sibling topics.</p><table frame="all" colsep="1" rowsep="1">
+            <title>Heading level hierarchy</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+              <thead>
+                <row>
+                  <entry> .md input </entry>
+                  <entry> DITA output </entry>
+                </row>
+              </thead>
+              <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Alarm Management
+  Alarm Management provides tools for creating, monitoring, and managing alarms.
+  ## Alarm Notifier
+  Alarm Notifier controls how alarm notifications are delivered.
+  ### Creating a New Alarm Notification
+  #### Procedure
+  To create a new alarm notification:
+  1. Click **Alarms**.
+  2. Click **Add Notification**.
+  3. Configure the notification settings.
+  4. Click **Save**.
+  ### Editing an Alarm Notification
+  #### Procedure
+  To edit an existing notification:
+  1. Select the notification.
+  2. Modify the required settings.
+  3. Click **Save**.
+  ## Alarm Types
+  Alarm Types define the conditions that generate alarms.
+  ### Creating an Alarm Type
+  #### Procedure
+  1. Click **Alarm Types**.
+  2. Click **Add Alarm Type**.
+  3. Enter the alarm details.
+  4. Save the configuration.</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;map id="alarm_management"&gt;
+  &lt;topicref href="alarm_management.dita"&gt;
+  &lt;topicref href="alarm_notifier.dita"&gt;
+  &lt;topicref href="creating_a_new_alarm_notification.dita"/&gt;
+  &lt;topicref href="editing_an_alarm_notification.dita"/&gt;
+  &lt;/topicref&gt;
+  &lt;topicref href="alarm_types.dita"&gt;
+  &lt;topicref href="creating_an_alarm_type.dita"/&gt;
+  &lt;/topicref&gt;
+  &lt;/topicref&gt;
+  &lt;/map&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table><p>
+            <b>Result</b>: The converter creates a separate DITA topic for each Heading 1, Heading 2, and Heading 3 element in the Markdown file and establishes the parent-child hierarchy based on the heading levels. The Heading 1 topic (Alarm Management) becomes the parent topic, the Heading 2 topics (Alarm Notifier and Alarm Types) become child topics, and the Heading 3 topics become nested child topics under their respective Heading 2 parents.</p><note type="note">Heading 4 ( <codeph>####</codeph> ) is the deepest heading level used in this
+        file. It becomes a p tag within the topic in the generated DITA hierarchy.</note>
+  </section></refbody>
+</reference>

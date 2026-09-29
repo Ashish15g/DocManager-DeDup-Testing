@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_19_table_between_numbered_list_in_a_procedure" xml:lang="en-us">
+   <title>Scenario 19 — Table Between Numbered List in a Procedure</title>
+   <shortdesc>Consider a procedure where the author inserts a configuration table between two numbered steps to</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>configuration</keyword>
+        <keyword>table</keyword>
+        <keyword>Table</keyword>
+        <keyword>List</keyword>
+        <keyword>Server</keyword>
+        <keyword>server</keyword>
+        <indexterm>configuration</indexterm>
+        <indexterm>table</indexterm>
+        <indexterm>Table</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+    <p>Consider a procedure where the author inserts a configuration table between two numbered steps to provide reference information before the next action.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Table between steps in procedure</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Heading 2]: Configure the Server [List Number]: Open the server configuration file. [Caption]: Server parameters [Table Header]: Parameter │ Value [Row]: Port │ 8080 [Row]: Timeout │ 60 [List Number]: Save the configuration file.</entry>
+                     <entry>
+                        <codeblock id="codeblock_wxn_vtz_kkc">
+&lt;task id="configure_server">
+  &lt;title>Configure the Server&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Open the server configuration file.&lt;/cmd>
+        &lt;info>
+          &lt;table>
+            &lt;title>Server parameters&lt;/title>
+            &lt;tgroup cols="2">
+              &lt;colspec colname="c1"/>
+              &lt;colspec colname="c2"/>
+              &lt;thead>
+                &lt;row>
+                  &lt;entry>Parameter&lt;/entry>
+                  &lt;entry>Value&lt;/entry>
+                &lt;/row>
+              &lt;/thead>
+              &lt;tbody>
+                &lt;row>
+                  &lt;entry>Port&lt;/entry>
+                  &lt;entry>8080&lt;/entry>
+                &lt;/row>
+                &lt;row>
+                  &lt;entry>Timeout&lt;/entry>
+                  &lt;entry>60&lt;/entry>
+                &lt;/row>
+              &lt;/tbody>
+            &lt;/tgroup>
+          &lt;/table>
+        &lt;/info>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Save the configuration file.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> The converter associates the table with the preceding procedural step and places all supporting content inside <codeph>&lt;step&gt;&lt;info&gt;.</codeph></p>
+         <p>Similarly, consider the table represents the options that the user must select from after a step.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Table of selectable options in procedure</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Heading 2]: Configure the Server Mode [List Number]: Select the server mode. [Normal]: Use the following table to choose the correct mode. [Table Header]: Option │ Description [Row]: Development │ Use for development and testing. [Row]: Production │ Use for live customer traffic. [List Number]: Save the configuration.</entry>
+                     <entry>
+                        <codeblock id="codeblock_w3d_ztz_kkc">
+&lt;task id="configure_server_mode">
+  &lt;title>Configure the Server Mode&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Select the server mode.&lt;/cmd>
+        &lt;info>
+          &lt;p>Use the following table to choose the correct mode.&lt;/p>
+        &lt;/info>
+        &lt;choicetable>
+          &lt;chhead>
+            &lt;choptionhd>Option&lt;/choptionhd>
+            &lt;chdeschd>Description&lt;/chdeschd>
+          &lt;/chhead>
+          &lt;chrow>
+            &lt;choption>Development&lt;/choption>
+            &lt;chdesc>Use for development and testing.&lt;/chdesc>
+          &lt;/chrow>
+          &lt;chrow>
+            &lt;choption>Production&lt;/choption>
+            &lt;chdesc>Use for live customer traffic.&lt;/chdesc>
+          &lt;/chrow>
+        &lt;/choicetable>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Save the configuration.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> The table is mapped to <codeph>&lt;choicetable&gt;</codeph> because it presents options that the user must choose from while performing the step, rather than a plain reference table.</p>
+  </section>
+   </refbody>
+</reference>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="reference_topic_example" xml:lang="en-us">
+   <title>Reference topic example</title>
+   <shortdesc>&lt;reference id="r_api_parameters"&gt; User API Parameters Parameters for the User API endpoints.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>colspec</keyword>
+        <keyword>colname</keyword>
+        <keyword>colwidth</keyword>
+        <keyword>User</keyword>
+        <keyword>parameters</keyword>
+        <keyword>Reference</keyword>
+        <indexterm>colspec</indexterm>
+        <indexterm>colname</indexterm>
+        <indexterm>colwidth</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <codeblock xml:space="preserve">&lt;reference id="r_api_parameters"&gt;
+&lt;title&gt;User API Parameters&lt;/title&gt;
+&lt;shortdesc&gt;Parameters for the User API endpoints.&lt;/shortdesc&gt;
+&lt;prolog&gt;
+&lt;metadata&gt;
+&lt;audience type="developer" experiencelevel="expert"/&gt;
+&lt;category&gt;API Reference&lt;/category&gt;
+&lt;keywords&gt;
+&lt;keyword&gt;API&lt;/keyword&gt;
+&lt;keyword&gt;parameters&lt;/keyword&gt;
+&lt;keyword&gt;user&lt;/keyword&gt;
+&lt;/keywords&gt;
+&lt;/metadata&gt;
+&lt;/prolog&gt;
+&lt;refbody&gt;
+&lt;section&gt;
+&lt;title&gt;Request Parameters&lt;/title&gt;
+&lt;p&gt;Include these parameters in your API request.&lt;/p&gt;
+&lt;table&gt;
+&lt;tgroup cols="4"&gt;
+&lt;colspec colname="c1" colwidth="1*"/&gt;
+&lt;colspec colname="c2" colwidth="1*"/&gt;
+&lt;colspec colname="c3" colwidth="0.5*"/&gt;
+&lt;colspec colname="c4" colwidth="2*"/&gt;
+&lt;thead&gt;
+&lt;row&gt;
+&lt;entry&gt;Parameter&lt;/entry&gt;
+&lt;entry&gt;Type&lt;/entry&gt;
+&lt;entry&gt;Required&lt;/entry&gt;
+&lt;entry&gt;Description&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;row&gt;
+&lt;entry&gt;userId&lt;/entry&gt;
+&lt;entry&gt;string&lt;/entry&gt;
+&lt;entry&gt;Yes&lt;/entry&gt;
+&lt;entry&gt;Unique identifier for the user account.&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;email&lt;/entry&gt;
+&lt;entry&gt;string&lt;/entry&gt;
+&lt;entry&gt;Yes&lt;/entry&gt;
+&lt;entry&gt;User email address. Must be unique in the system.&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;role&lt;/entry&gt;
+&lt;entry&gt;string&lt;/entry&gt;
+&lt;entry&gt;No&lt;/entry&gt;
+&lt;entry&gt;User role. Valid values: admin, editor, viewer. Default: viewer.&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;active&lt;/entry&gt;
+&lt;entry&gt;boolean&lt;/entry&gt;
+&lt;entry&gt;No&lt;/entry&gt;
+&lt;entry&gt;Account status. Default: true.&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/tbody&gt;
+&lt;/tgroup&gt;
+&lt;/table&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;title&gt;Response Codes&lt;/title&gt;
+&lt;table&gt;
+&lt;tgroup cols="2"&gt;
+&lt;colspec colname="c1" colwidth="1*"/&gt;
+&lt;colspec colname="c2" colwidth="3*"/&gt;
+&lt;thead&gt;
+&lt;row&gt;
+&lt;entry&gt;Code&lt;/entry&gt;
+&lt;entry&gt;Description&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;row&gt;
+&lt;entry&gt;200&lt;/entry&gt;
+&lt;entry&gt;Success. User created or updated.&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;400&lt;/entry&gt;
+&lt;entry&gt;Bad request. Check required parameters.&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;401&lt;/entry&gt;
+&lt;entry&gt;Unauthorized. Invalid or missing API key.&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;409&lt;/entry&gt;
+&lt;entry&gt;Conflict. Email address already exists.&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/tbody&gt;
+&lt;/tgroup&gt;
+&lt;/table&gt;
+&lt;/section&gt;
+&lt;/refbody&gt;
+&lt;/reference&gt;</codeblock>
+    </section></refbody>
+</reference>

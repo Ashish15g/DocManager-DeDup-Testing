@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450429" xml:lang="en-us">
+   <title>Scenario 1 — Block equation</title>
+   <shortdesc>Consider a &lt;math&gt; element placed between two &lt;p&gt; elements as a standalone block equation.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>equation</keyword>
+        <keyword>block</keyword>
+        <keyword>element</keyword>
+        <keyword>MathML</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>Block</keyword>
+        <indexterm>equation</indexterm>
+        <indexterm>block</indexterm>
+        <indexterm>element</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a <codeph>&lt;math&gt;</codeph> element placed between two <codeph>&lt;p&gt;</codeph> elements as a standalone block equation.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Standalone block equation</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;p>
+  The transfer rate is:
+&lt;/p>
+&lt;math
+  xmlns="http://www.w3.org/1998/Math/MathML"
+  display="block">
+  &lt;mrow>
+    &lt;mi>R&lt;/mi>
+    &lt;mo>=&lt;/mo>
+    &lt;mfrac>
+      &lt;mi>B&lt;/mi>
+      &lt;mi>T&lt;/mi>
+    &lt;/mfrac>
+  &lt;/mrow>
+&lt;/math>
+&lt;p>
+  where B is total bytes, and T is the elapsed time.
+&lt;/p></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;p>The transfer rate is:&lt;/p>
+&lt;equation-block>
+  &lt;math xmlns="http://www.w3.org/1998/Math/MathML">
+    &lt;mrow>
+      &lt;mi>R&lt;/mi>
+      &lt;mo>=&lt;/mo>
+      &lt;mfrac>
+        &lt;mi>B&lt;/mi>
+        &lt;mi>T&lt;/mi>
+      &lt;/mfrac>
+    &lt;/mrow>
+  &lt;/math>
+&lt;/equation-block>
+&lt;p>
+  where B is total bytes, and T is the elapsed time.
+&lt;/p></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> The converter detects the <codeph>&lt;math display="block"&gt;</codeph> element and wraps it in a DITA <codeph>&lt;equation-block&gt;</codeph> element. The MathML content is preserved as-is inside the <codeph>&lt;equation-block&gt;</codeph>.</p>
+         </section>
+   </refbody>
+</reference>

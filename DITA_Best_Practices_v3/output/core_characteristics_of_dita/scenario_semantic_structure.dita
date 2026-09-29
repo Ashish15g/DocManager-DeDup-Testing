@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235705885" xml:lang="en-us">
+   <title>Scenario: semantic structure</title>
+   <prolog>
+    <metadata>
+      <keywords>
+        <keyword>structure</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>semantic</keyword>
+        <keyword>element</keyword>
+        <keyword>indicates</keyword>
+        <keyword>systems</keyword>
+        <indexterm>structure</indexterm>
+        <indexterm>Scenario</indexterm>
+        <indexterm>semantic</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <codeblock>
+            Click Save.
+            The file is saved to your local drive.
+      </codeblock>
+      <p>In this structure, the action and its outcome are clearly distinguished through tags. The <codeph>&lt;cmd&gt;</codeph> element indicates what the user should do. The <codeph>&lt;stepresult&gt;</codeph> element indicates what happens after they do it. Publishing systems use this structure to format content appropriately. AI systems use it to understand the relationship between actions and outcomes.</p>
+   </conbody>
+</concept>

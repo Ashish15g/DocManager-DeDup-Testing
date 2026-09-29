@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560368" xml:lang="en-us">
+   <title>Images and graphics</title>
+   <abstract>This section covers Images and Graphics in Markdown — the primary means of
+      communicating spatial relationships, component locations, interface states, and process flows
+      that prose alone cannot convey — and twelve scenarios: image sizing thresholds, inline and
+      block placement, images with captions, side-by-side images, images inside list items, linked
+      versus embedded images, images inside text boxes, and alt text application. The converter maps
+      each image to a DITA <codeph>&lt;image&gt;</codeph> element with a required
+         <codeph>&lt;alt&gt;</codeph> child; block images are wrapped in
+         <codeph>&lt;fig&gt;</codeph>, and a Caption-styled paragraph maps to the
+         <codeph>&lt;fig&gt; &lt;title&gt;</codeph> element.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>images</keyword>
+        <keyword>Markdown</keyword>
+        <keyword>DITA</keyword>
+        <keyword>element</keyword>
+        <keyword>Images</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>images</indexterm>
+        <indexterm>Markdown</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>
+         <b>Images and graphics</b> are the primary means of communicating spatial relationships, component locations, interface states, system architectures, and process flows that text alone cannot convey efficiently. In technical publications, the image or graphic and its surrounding context carry equal structural weight.</p>
+      <p>The key differences between images and graphics are outlined below:<ul id="ul_11245415">
+            <li>An image is a raster file — a grid of pixels captured or rendered at a fixed
+               resolution. Images are resolution dependent, when scaled up beyond their original
+               size, they lose sharpness. For example, screenshots, photographs, and scanned content
+               (PNG, JPEG, BMP).</li>
+            <li>A graphic is a vector-based or constructed visual — built from mathematical shapes,
+               lines, curves, and text rather than pixels. Graphics are resolution independent, when
+               scaled up beyond their size does not lose its quality. For example, diagrams,
+               flowcharts, and schematic illustrations (SVG, EMF, Visio, PDF).</li>
+         </ul><note id="note_rnq_y3r_kkc" type="tip"> Embed every image directly in the document
+            body, apply meaningful alt text for accessibility, and add a caption to every figure
+            that requires a title in the published output.</note></p>
+      <p>In Markdown, images are represented using the standard image syntax:</p>
+      <codeblock>![Alt text](media/file-name.png)</codeblock>
+      <p>The alternate text describes the image and provides accessibility information, while the
+         image path identifies the graphic file within the repository. Readers view the image as
+         part of the published output, whereas the converter interprets the Markdown image syntax to
+         preserve both the image reference and its associated accessibility information.<note
+            id="note_tl5_1jr_kkc" type="important">Use the standard Markdown image syntax for all
+            images and provide meaningful alternate text whenever possible. Alternate text improves
+            accessibility and is preserved in the generated DITA output.</note></p>
+      <p>The converter extracts the image reference from the Markdown source and generates the
+         corresponding DITA <codeph>&lt;image&gt;</codeph> element. When alternate text is present,
+         it is converted to the DITA <codeph>&lt;alt&gt;</codeph> element. Depending on the
+         surrounding content, the converter may wrap the generated <codeph>&lt;image&gt;</codeph>
+         element inside a <codeph>&lt;fig&gt;</codeph> element, such as when the image has an
+         associated caption, represents a block image, or when figure wrappers are enabled through
+         configuration. This preserves the relationship between the image and the content it
+            supports.<note id="note_jty_cjr_kkc" type="tip">Store image files in a consistent
+            repository location and reference them using valid relative paths. Keep images close to
+            the content they support so the relationship between text and graphics remains clear
+            after conversion.</note></p>
+      <p>The following scenarios demonstrate how different Markdown image structures are interpreted during Markdown-to-DITA conversion and how they affect the generated DITA output.</p>
+   </conbody>
+</concept>

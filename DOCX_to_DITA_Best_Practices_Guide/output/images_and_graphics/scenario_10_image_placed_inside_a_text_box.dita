@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="scenario_10_image_placed_inside_a_text_box" xml:lang="en-us">
+   <title>Scenario 10 — Image placed inside a text box</title>
+   <shortdesc>Consider a document where the author has placed an image inside a Word text box</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>inside</keyword>
+        <keyword>placed</keyword>
+        <keyword>Word</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>Image</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>inside</indexterm>
+        <indexterm>placed</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>Consider a document where the author has placed an image inside a Word text box to control positioning. Text boxes are floating objects and are not part of the main paragraph flow.</p>
+      <p><b>Result:</b>The converter skips the Word text box content but retains the image placed inside the text box. The extracted image is mapped to a DITA <codeph>&lt;image&gt;</codeph> element, typically wrapped in a <codeph>&lt;fig&gt;</codeph> if it appears as a block image.</p>
+      <note type="warning"> Do not place images inside Word text boxes. Although the image may be
+        retained, any surrounding text box content can be lost during conversion.</note>
+   </conbody>
+</concept>

@@ -1,0 +1,4706 @@
+{
+  "Additional Reference/Appendix": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Skipped \u2014 topic body has no text content; classification unreliable",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.0,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 2
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Additional",
+        "Reference",
+        "Appendix"
+      ],
+      "compact_excerpt": "Additional Reference/Appendix"
+    },
+    "classified_at": 1787901827.1683447
+  },
+  "Concept Topic": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.009,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 74
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Concept",
+        "Topic",
+        "concept",
+        "topic",
+        "lookup",
+        "contains",
+        "numbered",
+        "step",
+        "provides",
+        "background",
+        "knowledge",
+        "supports"
+      ],
+      "compact_excerpt": "Concept Topic A concept topic provides background knowledge that supports a task or reference lookup, and contains descriptive prose, definitions, diagrams, and illustrative tables. The converter classifies a section as concept when the heading carries no imperative verb and the body contains no numbered list or lookup-data table. The generated topic uses <concept> with <conbody> , and all Normal "
+    },
+    "classified_at": 1787901827.6504607
+  },
+  "Reference Topic": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.026,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 6,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 99
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "table",
+        "Reference",
+        "Topic",
+        "reference",
+        "parameter",
+        "API",
+        "maps",
+        "topic",
+        "such",
+        "tables",
+        "when",
+        "column"
+      ],
+      "compact_excerpt": "Reference Topic A reference topic presents lookup data such as parameter tables, API fields, or configuration options that a user consults. The converter classifies a section as reference when the body is dominated by tables or parameter lists, or when the heading contains keywords such as reference, API, parameter, schema, or syntax. The generated topic uses <reference> with <refbody> , and table"
+    },
+    "classified_at": 1787901827.695922
+  },
+  "Scenario 1 \u2014 Generic Topic: No Dominant Classification Signal": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.043,
+        "paragraph_count": 14,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 12
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Version",
+        "Scenario",
+        "Generic",
+        "topic",
+        "Topic",
+        "Dominant",
+        "Classification",
+        "Signal",
+        "list",
+        "body",
+        "List",
+        "What"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Generic Topic: No Dominant Classification Signal A section titled \"What's New in Version 4.2\" has an introductory sentence and a bulleted list of features. The heading contains no classification keyword, and the body has no numbered list and no table. Generic topic with no clear signal .docx Style / Input DITA Output [Heading 2]: What's New in Version 4.2 [Normal]: Version 4.2 introdu"
+    },
+    "classified_at": 1787901827.7040818
+  },
+  "Generic Topic": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.017,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 56
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Generic",
+        "Topic",
+        "generic",
+        "topic",
+        "list",
+        "assigned",
+        "when",
+        "dominant",
+        "classification",
+        "signal",
+        "found",
+        "action"
+      ],
+      "compact_excerpt": "Generic Topic A generic topic is assigned when no dominant classification signal is found \u2014 no action verb with a numbered list, no lookup-data table, no overview keyword, and no troubleshooting structure. The converter defaults to the generic <topic> type with a plain <body> , placing all content as <p> and list elements in document order."
+    },
+    "classified_at": 1787901827.7159338
+  },
+  "Scenario 1 \u2014 Clearly defined problem, cause and remedy": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.035,
+        "paragraph_count": 26,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.062,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "title",
+        "cause",
+        "power",
+        "remedy",
+        "Scenario",
+        "Clearly",
+        "troubleshooting",
+        "cable",
+        "steps",
+        "step",
+        "problem",
+        "Cause"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Clearly defined problem, cause and remedy Consider a .docx document containing a troubleshooting section with a clearly defined problem, its cause, and the corresponding remedy. The following example shows how the converter transforms this structure into a DITA <troubleshooting> topic. Troubleshooting: problem, cause, remedy .docx Style / Input DITA Output [Heading 2]: The Printer Doe"
+    },
+    "classified_at": 1787901827.9047205
+  },
+  "Scenario 1 \u2014 Prose as Concept": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.052,
+        "paragraph_count": 7,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 16
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Prose",
+        "product",
+        "Scenario",
+        "Concept",
+        "Normal",
+        "concept",
+        "Product",
+        "Parts",
+        "Locations",
+        "inside",
+        "conbody",
+        "Heading"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Prose as Concept Consider a section titled \"Product Parts Locations\" styled as Heading 2, followed by two Normal paragraphs describing the product. Prose classifies heading as concept .docx Style / Input DITA output [Heading 2]: Product Parts Locations [Normal]: See these sections to identify the parts on your product. [Normal]: The product has three main areas: front, inside, and bac"
+    },
+    "classified_at": 1787901827.946059
+  },
+  "Scenario 1 \u2014 Simple Task": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.06,
+        "paragraph_count": 16,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 6,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.2,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "step",
+        "Simple",
+        "Scenario",
+        "Task",
+        "Install",
+        "Linux",
+        "task",
+        "numbered",
+        "List",
+        "Number",
+        "title",
+        "steps"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Simple Task Consider a Heading 2 called \"Install on Linux,\" where the body contains a numbered list indicating a step-by-step procedure. This is a classic installation instruction. Simple, single-part installation task .docx Style / Input DITA Output [Heading 2]: Install on Linux [List Number]: 1. Download the installer. [List Number]: 2. Run the setup wizard. [List Number]: 3. Restar"
+    },
+    "classified_at": 1787901827.9863448
+  },
+  "Scenario 1 \u2014 Standard Multi-Column Table Reference": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.069,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 81
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Scenario",
+        "Standard",
+        "Multi",
+        "Column",
+        "Table",
+        "Reference",
+        "table",
+        "multi",
+        "column",
+        "scenario",
+        "output",
+        "classification"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Standard Multi-Column Table Reference This pattern is fully covered in: Tables \u203a Scenario 1 \u2014 Standard multi-column table . Refer to that scenario for the input/output detail. The notes below explain only the topic-type classification aspect. A heading containing a lookup keyword combined with a multi-column table as the primary body content triggers reference classification. Non-tabl"
+    },
+    "classified_at": 1787901828.0079527
+  },
+  "Scenario 2 \u2014 2-Column Table in API Reference Section": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.078,
+        "paragraph_count": 21,
+        "step_list_count": 0,
+        "table_count": 2,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 18,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 14
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "table",
+        "API",
+        "Reference",
+        "Table",
+        "print",
+        "topic",
+        "reference",
+        "column",
+        "Scenario",
+        "Section",
+        "properties",
+        "Any"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 2-Column Table in API Reference Section A section titled \"POST /api/print-job\" documents a REST API endpoint. The topic is classified as reference because the heading contains the keyword API and the body contains a parameter table. Two-column table, API reference .docx Style / Input DITA Output [Heading 2]: POST /api/print-job [Normal]: Submits a new print job to the queue. [Table \u2014 "
+    },
+    "classified_at": 1787901828.0329385
+  },
+  "Scenario 2 \u2014 Generic Topic: Empty <shortdesc> (No Intro Paragraph)": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.086,
+        "paragraph_count": 16,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 12
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "shortdesc",
+        "Generic",
+        "Empty",
+        "Scenario",
+        "Topic",
+        "Intro",
+        "Paragraph",
+        "paragraph",
+        "Known",
+        "Limitations",
+        "Version",
+        "list"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Generic Topic: Empty <shortdesc> (No Intro Paragraph) A section titled \"Known Limitations in Version 4.2\" opens directly with a bulleted list \u2014 no introductory Normal paragraph precedes it. Because there is no eligible paragraph to extract, the <shortdesc> element is written empty and flagged by the validator at WARNING severity. Generic topic, empty shortdesc .docx Style / Input DITA"
+    },
+    "classified_at": 1787901828.2348325
+  },
+  "Scenario 2 \u2014 Graphical Concept": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.095,
+        "paragraph_count": 10,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 17
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Ink",
+        "tank",
+        "title",
+        "Scenario",
+        "Graphical",
+        "Concept",
+        "image",
+        "concept",
+        "Tank",
+        "Assembly",
+        "styled",
+        "paragraph"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Graphical Concept Consider a section titled \"Ink Tank Assembly\" styled as Heading 2, followed by a Normal paragraph and an inline image of the ink tank area with a Caption-styled paragraph reading \"Figure 1: Ink tank and cap locations.\" .docx s tyle / i nput DITA o utput [Heading 2]: Ink Tank Assembly [Normal]: The ink tank assembly holds the ink supply for each color channel. [Inline"
+    },
+    "classified_at": 1787901828.2512822
+  },
+  "Scenario 2 \u2014 Graphical Task": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.103,
+        "paragraph_count": 16,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "image",
+        "button",
+        "Graphical",
+        "task",
+        "Scenario",
+        "Task",
+        "step",
+        "Locate",
+        "Power",
+        "title",
+        "steps",
+        "inside"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Graphical Task Consider a numbered procedure where the author has placed an inline image with a Caption-styled paragraph inside a list item \u2014 for example, to show a button as part of a step. Graphical task with button image .docx Style / Input DITA Output [Heading 2]: Locate the Power Button [List Number]: 1. Locate the power button. [Inline image: power_button.png] [Caption]: Figure:"
+    },
+    "classified_at": 1787901828.2748487
+  },
+  "Scenario 2 \u2014 Multiple causes for one problem": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.112,
+        "paragraph_count": 37,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "title",
+        "Solution",
+        "cause",
+        "remedy",
+        "Scenario",
+        "Multiple",
+        "condition",
+        "Printer",
+        "Normal",
+        "Bold",
+        "Cause",
+        "Remedy"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Multiple causes for one problem Consider a .docx document containing one condition followed by multiple causes and corresponding remedies. The following example shows how the converter transforms this structure into a DITA <troubleshooting> topic. Troubleshooting: multiple causes, one problem .docx Style / Input DITA Output [Heading 2]: The Printer Does Not Print [Normal, Bold run: \"C"
+    },
+    "classified_at": 1787901828.293296
+  },
+  "Scenario 3 \u2014 Complex Task (3 samples \u2014 with prereq, with postreq)": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.121,
+        "paragraph_count": 66,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": true
+      },
+      "lexical_signals": {
+        "task_verb_hits": 10,
+        "concept_pattern_hits": 10,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.13,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "step",
+        "List",
+        "task",
+        "Number",
+        "steps",
+        "Settings",
+        "Complex",
+        "prerequisites",
+        "prereq",
+        "postreq",
+        "title",
+        "taskbody"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Complex Task (3 samples \u2014 with prereq, with postreq) A task can carry supporting information beyond a plain sequence of steps: prerequisites before the first step, a post requisite after the last step, or both together. Sample 1 \u2014 Prerequisites only Complex task, prerequisites only .docx Style / Input DITA Output [Heading 2]: Update the Firmware [Normal]: Complete the following prereq"
+    },
+    "classified_at": 1787901828.3432062
+  },
+  "Task Topic": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.129,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": true
+      },
+      "lexical_signals": {
+        "task_verb_hits": 6,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 91
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Task",
+        "Topic",
+        "task",
+        "topic",
+        "numbered",
+        "body",
+        "content",
+        "step",
+        "documents",
+        "procedure",
+        "user",
+        "performs"
+      ],
+      "compact_excerpt": "Task Topic A task topic documents a procedure that a user performs to complete a specific goal. The converter classifies a section as task when the heading or opening sentence contains an imperative verb \u2014 such as install, configure, set, create, enable, or deploy \u2014 and a numbered list is the primary body content. The generated topic uses <task> with <taskbody> , and the body is partitioned automa"
+    },
+    "classified_at": 1787901828.534046
+  },
+  "Topic Type Classification": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.138,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 76
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Topic",
+        "Type",
+        "Classification",
+        "DITA",
+        "content",
+        "heading",
+        "topic",
+        "type",
+        "Content",
+        "converter",
+        "AI",
+        "Agent"
+      ],
+      "compact_excerpt": "Topic Type Classification The converter and AI Agent classify each heading-delimited section into a DITA topic type based on the content that follows the heading: Content patterns mapped to topic type Content Pattern After Heading DITA Topic Type DITA Body Element Descriptive paragraphs, definitions, overviews Concept <conbody> Numbered steps, procedural instructions Task <taskbody> Tables, parame"
+    },
+    "classified_at": 1787901828.5514379
+  },
+  "Troubleshooting Topic": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.147,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 61
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Troubleshooting",
+        "Topic",
+        "troubleshooting",
+        "topic",
+        "documents",
+        "corrective",
+        "action",
+        "describing",
+        "problem",
+        "explaining",
+        "cause",
+        "providing"
+      ],
+      "compact_excerpt": "Troubleshooting Topic A troubleshooting topic documents corrective action by describing a problem, explaining its cause, and providing a remedy. The AI Agent classifies a section as troubleshooting when the content follows a clear Problem / Cause / Solution structure; where the pattern is ambiguous, the heuristic classifier may assign task or generic instead. The generated topic uses <troubleshoot"
+    },
+    "classified_at": 1787901828.57576
+  },
+  "Scenario 1 \u2014 Image placed inside an admonition": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.164,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 102
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Image",
+        "inside",
+        "image",
+        "Scenario",
+        "paragraph",
+        "Warning",
+        "inline",
+        "warning",
+        "note",
+        "placed",
+        "admonition",
+        "touch"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Image placed inside an admonition Consider a Warning paragraph where the author has inserted an inline image \u2014 for example, a photograph of a hazardous component \u2014 directly inside the same paragraph as the warning text. Image placed inside admonition .docx Style / Input DITA Output [Warning style]: Do not touch the marked components. [Inline image inside Warning paragraph: hazard_area"
+    },
+    "classified_at": 1787901828.6463654
+  },
+  "Admonitions": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.284,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 108
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Admonitions",
+        "information",
+        "reader",
+        "uses",
+        "types",
+        "guide",
+        "four",
+        "admonitions",
+        "call",
+        "needs",
+        "extra",
+        "attention"
+      ],
+      "compact_excerpt": "Admonitions This guide uses four types of admonitions to call out information that needs extra attention. Each one signals a different level of importance, as explained below. Admonition label types and uses Label Used for NOTE Supplementary information, clarifications, or good-to-know context that doesn't block the reader from proceeding WARNING Critical information the reader must understand to "
+    },
+    "classified_at": 1787901829.5440955
+  },
+  "Scenario 2 \u2014 Admonition in a table cell": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.172,
+        "paragraph_count": 11,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 16
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "table",
+        "cell",
+        "Admonition",
+        "admonition",
+        "stentry",
+        "Scenario",
+        "style",
+        "note",
+        "content",
+        "Normal",
+        "inside",
+        "Warning"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Admonition in a table cell Consider a table where one of the cells contains a Note or Warning paragraph styled with an admonition style, rather than a plain Normal paragraph. This typically occurs when an author wants to call out a restriction or alert the reader about a specific table entry. Admonition inside a table cell .docx Style / Input DITA Output [Table] \u2014 cell 1: Normal text "
+    },
+    "classified_at": 1787901828.8431685
+  },
+  "Scenario 3 \u2014 Bold-label admonition pattern": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.181,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 120
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Bold",
+        "label",
+        "admonition",
+        "Scenario",
+        "note",
+        "pattern",
+        "Normal",
+        "paragraph",
+        "bold",
+        "text",
+        "formatted",
+        "Warning"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Bold-label admonition pattern Consider a Normal paragraph where the author has formatted an admonition by typing a bold-formatted label followed by the admonition text, rather than applying the built-in Warning paragraph style. Bold-label admonition pattern .docx Style / Input DITA Output [Normal, Bold run: \"Warning:\"] Always back up your data before performing a firmware update. <not"
+    },
+    "classified_at": 1787901828.8548288
+  },
+  "Character Styles": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.19,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 8,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 367
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Character",
+        "monospace",
+        "DITA",
+        "styles",
+        "Styles",
+        "bold",
+        "inline",
+        "UI",
+        "character",
+        "element",
+        "file",
+        "path"
+      ],
+      "compact_excerpt": "Character Styles Abstract: This section covers Character Styles in DOCX \u2014 the inline formatting attributes that assign semantic meaning to individual words or phrases within a paragraph \u2014 and five scenarios: bold for general emphasis, bold for a UI element inside a procedure, monospace for inline code, monospace for a file path, and bold for a menu navigation sequence. The converter reads each nam"
+    },
+    "classified_at": 1787901828.8885162
+  },
+  "Scenario 1 \u2014 Bold used for general emphasis": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.198,
+        "paragraph_count": 3,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 29
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Bold",
+        "used",
+        "Scenario",
+        "Server",
+        "Management",
+        "emphasis",
+        "manage",
+        "various",
+        "virtual",
+        "servers",
+        "general",
+        "paragraph"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Bold used for general emphasis Consider a Normal paragraph in the Printer User's Guide that reads: \" The Server Management modules is used to manage various virtual servers.\" Bold used for general emphasis .docx Style / Input DITA Output The Server Management module is used to manage various virtual servers.   (Server Management = Bold / Ctrl+B) <conbody> <p> The <b>Server Management<"
+    },
+    "classified_at": 1787901828.9410105
+  },
+  "Scenario 2 \u2014 Bold used for a UI element inside a procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.207,
+        "paragraph_count": 11,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "UI",
+        "Bold",
+        "Scenario",
+        "Save",
+        "button",
+        "element",
+        "step",
+        "Click",
+        "uicontrol",
+        "used",
+        "taskbody",
+        "steps"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Bold used for a UI element inside a procedure Consider a procedural step that reads: \"Click the Save button.\" Bold used for UI element .docx Style / Input DITA Output Click the Save button.   (Save = Bold / UI button label) <taskbody> <steps> <step> <cmd> Click the <uicontrol>Save</uicontrol> button. </cmd> </step> </steps> </taskbody> Result: The converter recognizes that the bold te"
+    },
+    "classified_at": 1787901829.0799026
+  },
+  "Scenario 4 \u2014 Bold used for Menu navigation sequence": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.224,
+        "paragraph_count": 13,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Bold",
+        "uicontrol",
+        "Scenario",
+        "Menu",
+        "menu",
+        "step",
+        "Go",
+        "File",
+        "Save",
+        "menucascade",
+        "used",
+        "navigation"
+      ],
+      "compact_excerpt": "Scenario 4 \u2014 Bold used for Menu navigation sequence Consider a procedure step that reads: \"Go to File > Save As .\" Bold used for menu sequence .docx Style / Input DITA Output Go to File > Save As (Entire menu path bolded or two menu options are bold) <taskbody> <steps> <step> <cmd> Go to <menucascade> <uicontrol>File</uicontrol> <uicontrol>Save As</uicontrol> </menucascade>. </cmd> </step> </steps"
+    },
+    "classified_at": 1787901829.153066
+  },
+  "Scenario 3 \u2014 Code used for inline code": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.215,
+        "paragraph_count": 9,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Code",
+        "Scenario",
+        "code",
+        "deploy",
+        "codeph",
+        "used",
+        "inline",
+        "Run",
+        "using",
+        "elevated",
+        "privileges",
+        "taskbody"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Code used for inline code Consider a paragraph that contains a shell script name. Code used for inline code .docx Style / Input DITA Output Run deploy.sh using elevated privileges.   (deploy.sh = Courier New) <taskbody> <steps> <step> <cmd> Run <codeph>deploy.sh</codeph> using elevated privileges. </cmd> </step> </steps> </taskbody> Result: Monospace text representing code or scripts "
+    },
+    "classified_at": 1787901829.161362
+  },
+  "Scenario 5 \u2014 Code used for a file path": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.233,
+        "paragraph_count": 6,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "file",
+        "Code",
+        "Scenario",
+        "path",
+        "filepath",
+        "used",
+        "system",
+        "monospace",
+        "application",
+        "configuration",
+        "located",
+        "Program"
+      ],
+      "compact_excerpt": "Scenario 5 \u2014 Code used for a file path Consider a paragraph that contains a file system path formatted using a monospace font such as Courier New or Consolas . Code used for file path .docx Style / Input DITA Output The application configuration file is located at C:\\Program Files\\PrinterApp\\config\\settings.xml <conbody> <p> The application configuration file is located at <filepath>C:\\Program Fil"
+    },
+    "classified_at": 1787901829.18728
+  },
+  "Cross-references and Bookmarks": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.241,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 6,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 369
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "link",
+        "document",
+        "reference",
+        "bookmark",
+        "Cross",
+        "Bookmarks",
+        "cross",
+        "target",
+        "same",
+        "external",
+        "hyperlink",
+        "xref"
+      ],
+      "compact_excerpt": "Cross-references and Bookmarks Abstract : This section covers Cross-References, Bookmarks and Hyperlinks \u2014 three distinct navigational mechanisms that connect related content within a document, across a documentation set, or to an external resource \u2014 and six scenarios: an internal cross-reference or bookmark, an external URL, a hyperlink with non-descriptive display text, a link list at the end of"
+    },
+    "classified_at": 1787901829.2440054
+  },
+  "Scenario 1 \u2014 Internal cross-references and bookmarks": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.25,
+        "paragraph_count": 12,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Internal",
+        "Scenario",
+        "xref",
+        "Configuration",
+        "section",
+        "cross",
+        "bookmarks",
+        "document",
+        "Insert",
+        "reference",
+        "internal",
+        "links"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Internal cross-references and bookmarks Consider a document where the author has used Insert -> Cross-reference or Insert -> Hyperlink to create internal links \u2014 for example, \"See the Configuration section on page 14\" or a hyperlink that jumps to a bookmark elsewhere in the same document. Internal cross-reference to a bookmark .docx Style / Input DITA Output [Normal]: For prerequisite"
+    },
+    "classified_at": 1787901829.3699038
+  },
+  "Scenario 2 \u2014 External URLs": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.259,
+        "paragraph_count": 2,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 50
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "external",
+        "Scenario",
+        "External",
+        "URLs",
+        "hyperlink",
+        "xref",
+        "Hyperlink",
+        "URL",
+        "DITA",
+        "See",
+        "https",
+        "example"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 External URLs Consider a Normal paragraph that contains one or more external hyperlinks created using the word processor's Insert Hyperlink function. Hyperlink to an external URL .docx Style / Input DITA Output See [hyperlink: https://example.com \u2502 the release notes] for details. <p>See   <xref href=\"https://example.com\"     format=\"html\" scope=\"external\">     the release notes   </xr"
+    },
+    "classified_at": 1787901829.4570355
+  },
+  "Scenario 3 \u2014 Hyperlink with non-descriptive display text": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.267,
+        "paragraph_count": 2,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 5,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 60
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "text",
+        "here",
+        "Hyperlink",
+        "Scenario",
+        "descriptive",
+        "hyperlink",
+        "click",
+        "display",
+        "API",
+        "reference",
+        "xref",
+        "such"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Hyperlink with non-descriptive display text Consider a Normal paragraph that contains a hyperlink where the author has used non-descriptive display text such as \"click here\", \"here\", or a bare URL as the visible label, rather than a phrase that describes the destination. Hyperlink with non-descriptive text .docx Style / Input DITA Output Click [hyperlink: https://example.com/docs \u2502 he"
+    },
+    "classified_at": 1787901829.466264
+  },
+  "DOCX to DITA-XML Conversion": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.276,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 14
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "DOCX",
+        "DITA",
+        "XML",
+        "Conversion",
+        "Best",
+        "Practices",
+        "Guide",
+        "Preparing",
+        "Documents",
+        "Accurate"
+      ],
+      "compact_excerpt": "DOCX to DITA-XML Conversion Best Practices Guide Preparing .DOCX Documents for Accurate DITA-XML Conversion"
+    },
+    "classified_at": 1787901829.4881864
+  },
+  "Getting Started": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.293,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 66
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Getting",
+        "Started",
+        "conversion",
+        "DITA",
+        "document",
+        "topic",
+        "Abstract",
+        "section",
+        "describes",
+        "purpose",
+        "audience",
+        "guide"
+      ],
+      "compact_excerpt": "Getting Started Abstract: This section describes the purpose and audience of this guide as well as the prerequisites for .docx conversion to DITA-XML. It covers the mandatory and optional Word constructs, document preparation requirements, and the scenarios that affect conversion readiness. The converter and AI Agent use these structures to detect document hierarchy, classify topic types, infer me"
+    },
+    "classified_at": 1787901829.6868863
+  },
+  "Intended Audience": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.302,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 76
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Intended",
+        "Audience",
+        "guide",
+        "Word",
+        "intended",
+        "following",
+        "audiences",
+        "audience",
+        "applicability",
+        "How",
+        "Guide",
+        "Applies"
+      ],
+      "compact_excerpt": "Intended Audience This guide is intended for the following audiences: Intended audience and guide applicability Audience How This Guide Applies Technical Writers and document authors Primary authoring standard before submitting .docx files for conversion. DITA Architects / Consultants Reference when reviewing or auditing source documents prior to migration projects. NOTE : You must have basic work"
+    },
+    "classified_at": 1787901829.763166
+  },
+  "Migration Prerequisites": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.319,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 116
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Migration",
+        "Prerequisites",
+        "DITA",
+        "styles",
+        "document",
+        "converter",
+        "docx",
+        "must",
+        "uses",
+        "Word",
+        "Text",
+        "List"
+      ],
+      "compact_excerpt": "Migration Prerequisites Before submitting a document to the metR DOCX to DITA converter, verify the following prerequisites are met: The file is saved in .docx format. Legacy .doc files must be converted to .docx before submission. All content that must appear in DITA uses approved Word styles: Title, Heading 1\u2013N, Normal or Body Text, List Bullet, List Number, and table styles. Images are set to I"
+    },
+    "classified_at": 1787901829.8022394
+  },
+  "Introduction": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.31,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 4,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 386
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "DITA",
+        "topic",
+        "Maps",
+        "constructs",
+        "Introduction",
+        "converter",
+        "docx",
+        "elements",
+        "List",
+        "structural",
+        "hierarchy",
+        "content"
+      ],
+      "compact_excerpt": "Introduction The metR DOCX to DITA converter does not rely on visual formatting alone. It reads structural information from named Word styles and constructs. When those constructs are applied correctly, the converter and AI Agent can: Propose a DITA map hierarchy based on heading levels and topic relationships. Detect topic boundaries from heading patterns and semantic signals. Classify topic type"
+    },
+    "classified_at": 1787901829.8389497
+  },
+  "Purpose": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.328,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 104
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "DITA",
+        "Purpose",
+        "XML",
+        "converter",
+        "content",
+        "conversion",
+        "AI",
+        "Agent",
+        "hierarchies",
+        "guide",
+        "provides",
+        "mandatory"
+      ],
+      "compact_excerpt": "Purpose This guide provides mandatory best practices for anyone who creates or prepares .docx source content for conversion to DITA-XML using the metR DocMigration DOCX to DITA converter. The converter is a modular microservice with an embedded AI Agent, which reasons and enriches DITA elements over document structure before transforming it into standards-compliant DITA-XML. Following these guidel"
+    },
+    "classified_at": 1787901829.8710332
+  },
+  "Headings": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.336,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 9,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 604
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Heading",
+        "heading",
+        "level",
+        "content",
+        "DITA",
+        "topic",
+        "outline",
+        "document",
+        "sequence",
+        "hierarchy",
+        "section",
+        "style"
+      ],
+      "compact_excerpt": "Headings Abstract : This section covers the Heading style in DOCX \u2014 its role as the primary structural mechanism that organizes a document's content into a named, hierarchical sequence of sections \u2014 and four scenarios: headings applied in correct sequential order, a heading level skipped in the hierarchy, a top-level heading absent from the document, and consecutive headings with no body content b"
+    },
+    "classified_at": 1787901830.0167108
+  },
+  "Scenario 1 \u2014 Headings applied correctly": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.345,
+        "paragraph_count": 5,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 23
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Heading",
+        "Headings",
+        "Scenario",
+        "Installation",
+        "topic",
+        "Prerequisites",
+        "Install",
+        "Linux",
+        "applied",
+        "correctly",
+        "document",
+        "following"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Headings applied correctly Consider a document with the following heading structure: Heading 1 \"Installation\" containing Heading 2 \"Prerequisites\" (concept) and Heading 2 \"Install on Linux\" (task). Headings applied correctly .docx Style / Input DITA Output [Heading 1]: Installation [Heading 2]: Prerequisites [Heading 2]: Install on Linux <map id=\"installation\"> <title>Installation</ti"
+    },
+    "classified_at": 1787901830.0869138
+  },
+  "Scenario 2 \u2014 Heading level hierarchy": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.353,
+        "paragraph_count": 9,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 17
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Heading",
+        "body",
+        "content",
+        "dita",
+        "Scenario",
+        "under",
+        "Installation",
+        "topichead",
+        "topicref",
+        "href",
+        "level",
+        "hierarchy"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Heading level hierarchy Consider a document where a Heading 1 groups related Heading 2 sections but contains no direct body content of its own. All paragraphs, tables, and images appear under Heading 2 or deeper headings. Heading level hierarchy .docx Style / Input DITA Output [Heading 1]: Installation (No body content under Heading 1) [Heading 2]: Prerequisites [Heading 3]: System Re"
+    },
+    "classified_at": 1787901830.1422887
+  },
+  "Scenario 3 \u2014 No Heading 1 present": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.362,
+        "paragraph_count": 6,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 26
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Heading",
+        "ditamap",
+        "Scenario",
+        "href",
+        "document",
+        "mapref",
+        "format",
+        "No",
+        "present",
+        "author",
+        "DITA",
+        "Installation"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 No Heading 1 present Consider a document where the author starts the content with Heading 2 and never applies Heading 1 anywhere in the document. Similarly, in another case, the author may skip both Heading 1 and Heading 2 and start directly with Heading 3 . No Heading 1 present .docx Style / Input DITA Output [Heading 2]: Installation [Heading 3]: Install on Linux [Heading 2]: Config"
+    },
+    "classified_at": 1787901830.1517985
+  },
+  "Scenario 4 \u2014 Consecutive headings with no body content": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.371,
+        "paragraph_count": 8,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 15
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "body",
+        "topichead",
+        "Consecutive",
+        "content",
+        "Heading",
+        "Scenario",
+        "headings",
+        "Installation",
+        "heading",
+        "DITA",
+        "Prerequisites",
+        "System"
+      ],
+      "compact_excerpt": "Scenario 4 \u2014 Consecutive headings with no body content Consider a document where multiple consecutive headings at any level contain no body content between them. Consecutive headings with no body content .docx Style / Input DITA Output [Heading 1]: Installation [Heading 2]: Prerequisites [Heading 3]: System Requirements [Normal]: System requires 4 GB RAM. (No body under Heading 1 or Heading 2) <ma"
+    },
+    "classified_at": 1787901830.1762888
+  },
+  "Images and Graphics": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.379,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 17,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.033,
+        "avg_paragraph_length_words": 481
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "image",
+        "Images",
+        "images",
+        "DITA",
+        "Graphics",
+        "docx",
+        "Image",
+        "inline",
+        "embedded",
+        "text",
+        "file",
+        "resolution"
+      ],
+      "compact_excerpt": "Images and Graphics Abstract : This section covers Images and Graphics in DOCX \u2014 the primary means of communicating spatial relationships, component locations, interface states, and process flows that prose alone cannot convey \u2014 and twelve scenarios: image sizing thresholds, inline and block placement, images with captions, side-by-side images, images inside list items, linked versus embedded imag"
+    },
+    "classified_at": 1787901830.3281722
+  },
+  "Scenario 10 \u2014 Image placed inside a text box": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.388,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 107
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "text",
+        "image",
+        "Scenario",
+        "Image",
+        "inside",
+        "placed",
+        "Word",
+        "boxes",
+        "content",
+        "Consider",
+        "document",
+        "where"
+      ],
+      "compact_excerpt": "Scenario 10 \u2014 Image placed inside a text box Consider a document where the author has placed an image inside a Word text box to control positioning. Text boxes are floating objects and are not part of the main paragraph flow. Result: The converter skips the Word text box content but retains the image placed inside the text box. The extracted image is mapped to a DITA <image> element, typically wra"
+    },
+    "classified_at": 1787901830.3905816
+  },
+  "Scenario 12 \u2014 Image with Alt Text": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.405,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 119
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Alt",
+        "image",
+        "text",
+        "Image",
+        "Text",
+        "Scenario",
+        "inside",
+        "element",
+        "docx",
+        "using",
+        "readers",
+        "DITA"
+      ],
+      "compact_excerpt": "Scenario 12 \u2014 Image with Alt Text Alt text is a short text description added to an image in .docx using Format Picture > Alt Text. It describes the visual content for readers who cannot see the image, such as those using screen readers. Image with alt text .docx Style / Input DITA Output [Alt text applied to image: \"Diagram showing the print head path located inside the printer\"] <image href=\"medi"
+    },
+    "classified_at": 1787901830.441499
+  },
+  "Scenario 11 \u2014 Image with floating text boxes layered on top": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.397,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 140
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "image",
+        "text",
+        "boxes",
+        "Scenario",
+        "Image",
+        "Floating",
+        "floating",
+        "document",
+        "into",
+        "layered",
+        "labels",
+        "Text"
+      ],
+      "compact_excerpt": "Scenario 11 \u2014 Image with floating text boxes layered on top Consider a document where an image is inserted into the document body and multiple text boxes are manually positioned on top of the image to create labels, admonitions, or annotations. The text boxes use floating layouts such as Square , Tight , Behind Text , or In Front of Text . Floating text boxes over image .docx Style / Input DITA Ou"
+    },
+    "classified_at": 1787901830.4508436
+  },
+  "Scenario 1 \u2014 Image Size is Smaller than 50 Pixels": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.414,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 114
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Image",
+        "image",
+        "Scenario",
+        "Size",
+        "Smaller",
+        "than",
+        "Pixels",
+        "inline",
+        "next",
+        "button",
+        "smaller",
+        "pixels"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Image Size is Smaller than 50 Pixels Consider a paragraph that contains a small inline image of a \u201cnext button\u201d whose width and height are both smaller than 50 pixels. Image smaller than 50 pixels .docx Style / Input DITA Output [Normal]: Click the Next button [Inline image: next_arrow.png (20 \u00d7 24 px)] to continue to the next page. <p> Click the <uicontrol>Next</uicontrol> button <im"
+    },
+    "classified_at": 1787901830.4671938
+  },
+  "Scenario 2 \u2014 Image Size is Larger than 50 Pixels": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.422,
+        "paragraph_count": 2,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 56
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Image",
+        "image",
+        "Scenario",
+        "Size",
+        "Larger",
+        "than",
+        "Pixels",
+        "dialog",
+        "larger",
+        "pixels",
+        "width",
+        "height"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Image Size is Larger than 50 Pixels Consider a paragraph that contains a medium-sized image of a \u201cdialog box\u201d whose width and height are both larger than 50 pixels. Image larger than 50 pixels .docx Style / Input DITA Output [Normal]: The following dialog box displays the available network settings: [Inline image: network_settings_dialog.png (320 \u00d7 240 px)] <p>The following dialog box"
+    },
+    "classified_at": 1787901830.6195478
+  },
+  "Scenario 3 \u2014 Image Size is Larger than 100 Pixels": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.431,
+        "paragraph_count": 2,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 6,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 67
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Image",
+        "image",
+        "element",
+        "Scenario",
+        "Size",
+        "Larger",
+        "than",
+        "Pixels",
+        "architecture",
+        "diagram",
+        "larger",
+        "pixels"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Image Size is Larger than 100 Pixels Consider a paragraph that introduces a large architecture diagram whose width and height are both larger than 100 pixels. Image larger than 100 pixels .docx Style / Input DITA Output [Normal]: The following diagram illustrates the overall system architecture. [Inline image: system_architecture_overview.png (1024 \u00d7 768 px)] <p>The following diagram "
+    },
+    "classified_at": 1787901830.6856441
+  },
+  "Scenario 5 \u2014 Image with caption": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.448,
+        "paragraph_count": 2,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 35
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Image",
+        "Scenario",
+        "tank",
+        "image",
+        "Caption",
+        "Ink",
+        "locations",
+        "title",
+        "caption",
+        "styled",
+        "paragraph",
+        "Figure"
+      ],
+      "compact_excerpt": "Scenario 5 \u2014 Image with caption Consider an image of the printer's ink tank area with a Caption-styled paragraph below it reading \"Figure 1: Ink tank and cap locations\". Image with a caption .docx Style / Input DITA Output [Inline image: ink_tank_area.png] [Caption style]: Figure 1: Ink tank and cap locations <fig><title>Ink tank and cap locations</title>        <image href=\"media/ink_tank_area.pn"
+    },
+    "classified_at": 1787901830.7537313
+  },
+  "Scenario 6 \u2014 Multiple images placed side by side in one paragraph": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.457,
+        "paragraph_count": 5,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 22
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "images",
+        "side",
+        "inline",
+        "Multiple",
+        "image",
+        "Scenario",
+        "paragraph",
+        "placement",
+        "href",
+        "media",
+        "placed",
+        "Normal"
+      ],
+      "compact_excerpt": "Scenario 6 \u2014 Multiple images placed side by side in one paragraph Consider a Normal paragraph where the author has inserted two or three small inline images next to each other in the same paragraph \u2014 for example, a set of toolbar icon images. Multiple images placed side-by-side .docx Style / Input DITA Output [Normal paragraph \u2014 three inline images:] [img: icon_a.png] [img: icon_b.png] [img: icon_"
+    },
+    "classified_at": 1787901830.7694883
+  },
+  "Scenario 4 \u2014 Inline image with correct wrap mode": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.44,
+        "paragraph_count": 5,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 21
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Inline",
+        "image",
+        "Scenario",
+        "correct",
+        "architecture",
+        "diagram",
+        "Normal",
+        "wrap",
+        "Line",
+        "Text",
+        "illustrates",
+        "system"
+      ],
+      "compact_excerpt": "Scenario 4 \u2014 Inline image with correct wrap mode Consider an architecture diagram inserted between two Normal paragraphs with its layout set to In Line with Text. Inline image with correct wrap .docx Style / Input DITA Output [Normal]: The diagram illustrates the system architecture. [Inline image: architecture_diagram.png, In Line with Text] [Normal]: Each component communicates through a central"
+    },
+    "classified_at": 1787901830.7787392
+  },
+  "Scenario 7 \u2014 Image inside a numbered list item": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.466,
+        "paragraph_count": 16,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "Image",
+        "inside",
+        "button",
+        "Scenario",
+        "image",
+        "step",
+        "title",
+        "numbered",
+        "list",
+        "item",
+        "Locate",
+        "Power"
+      ],
+      "compact_excerpt": "Scenario 7 \u2014 Image inside a numbered list item Consider a numbered procedure where the author has placed an inline image with a Caption-styled paragraph inside a list item \u2014 for example, to show a button as part of a step. Image inside numbered list item .docx Style / Input DITA Output [List Number]: 1. Locate the power button. [Inline image: power_button.png] [Caption]: Figure: Power button locat"
+    },
+    "classified_at": 1787901830.9134498
+  },
+  "Scenario 8 \u2014 Image inside a bulleted list item": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.474,
+        "paragraph_count": 17,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "image",
+        "Image",
+        "inside",
+        "list",
+        "item",
+        "icon",
+        "Scenario",
+        "bulleted",
+        "inline",
+        "status",
+        "indicates",
+        "Inline"
+      ],
+      "compact_excerpt": "Scenario 8 \u2014 Image inside a bulleted list item Consider a section where the author has placed an inline image inside a bulleted list item, for example, to show an icon or visual indicator as part of a descriptive list. Image inside bulleted list item .docx Style / Input DITA Output [Heading 2]: Status Indicators [List Bullet]: The green status icon [Inline image]: green_status_icon.png Wrap mode: "
+    },
+    "classified_at": 1787901830.9943004
+  },
+  "Scenario 9 \u2014 Image linked rather than embedded": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.483,
+        "paragraph_count": 3,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 54
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "image",
+        "Image",
+        "Scenario",
+        "linked",
+        "docx",
+        "embedded",
+        "file",
+        "images",
+        "Output",
+        "rather",
+        "than",
+        "document"
+      ],
+      "compact_excerpt": "Scenario 9 \u2014 Image linked rather than embedded Consider a document where the author has inserted an image using the Link to File option rather than embedding the image data in the .docx file. Linked images display in Word only when the linked file is accessible on disk. The image data is not stored inside the .docx archive, so the converter cannot extract it. Image linked instead of being embedded"
+    },
+    "classified_at": 1787901831.0559273
+  },
+  "List Paragraphs": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.491,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 252
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "list",
+        "List",
+        "items",
+        "Paragraphs",
+        "paragraphs",
+        "structure",
+        "equal",
+        "topic",
+        "steps",
+        "ordered",
+        "section",
+        "primary"
+      ],
+      "compact_excerpt": "List Paragraphs Abstract: This section covers List Paragraphs in DOCX\u2014 the primary structure for presenting discrete, parallel items in a defined or co-equal sequence \u2014 and introduces two subsections: Ordered Lists and Unordered Lists. The converter reads the list type, nesting level, and topic context to determine whether to map each list to <ol> , <ul> , <steps> , <substeps> , <choices> , or <dl"
+    },
+    "classified_at": 1787901831.065411
+  },
+  "Ordered Lists (Numbered)": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.5,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 11,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 330
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "level",
+        "list",
+        "Ordered",
+        "items",
+        "numbered",
+        "lists",
+        "step",
+        "Lists",
+        "ordered",
+        "Numbered",
+        "sequence",
+        "procedures"
+      ],
+      "compact_excerpt": "Ordered Lists (Numbered) Abstract: This section covers Ordered Lists in DOCX \u2014 items presented in a defined sequence where position is significant \u2014 and twenty-one scenarios grouped across six categories: consecutive and discontinuous numbered lists as procedures and workflows, single-item numbered lists, two-level and three-level nested numbered lists, and interrupted numbered lists where an admo"
+    },
+    "classified_at": 1787901831.0828178
+  },
+  "Scenario 10 \u2014 Three-level deep nested Numbered list in Procedure (multi-level sub steps)": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.509,
+        "paragraph_count": 24,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "level",
+        "Three",
+        "steps",
+        "List",
+        "Number",
+        "step",
+        "Scenario",
+        "Numbered",
+        "Procedure",
+        "substep",
+        "configuration",
+        "file"
+      ],
+      "compact_excerpt": "Scenario 10 \u2014 Three-level deep nested Numbered list in Procedure (multi-level sub steps) Consider a procedure where the first two levels represent procedural actions, and the third level represents additional ordered supporting details for a substep. Three-level nested sub-steps in procedure .docx Style / Input DITA Output [Heading 2]: Configure the Server [List Number, level 0]: Update the config"
+    },
+    "classified_at": 1787901831.210832
+  },
+  "Scenario 11 \u2014 Three-level deep nested Numbered list in Procedure (Sub-steps and Options)": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.517,
+        "paragraph_count": 23,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "level",
+        "choice",
+        "List",
+        "Number",
+        "Authentication",
+        "Three",
+        "steps",
+        "step",
+        "Scenario",
+        "Numbered",
+        "Procedure",
+        "Sub"
+      ],
+      "compact_excerpt": "Scenario 11 \u2014 Three-level deep nested Numbered list in Procedure (Sub-steps and Options) Consider a procedure where the first two levels represent procedural actions, and the third level presents mutually exclusive options the user must choose from, rather than supporting reference details. Three-level nested sub-steps and options .docx Style / Input DITA Output [Heading 2]: Configure the Server ["
+    },
+    "classified_at": 1787901831.2937255
+  },
+  "Scenario 12 \u2014 Admonition Between Numbered List in a Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.526,
+        "paragraph_count": 18,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 6,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.143,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "List",
+        "step",
+        "Admonition",
+        "steps",
+        "Scenario",
+        "Between",
+        "Numbered",
+        "Procedure",
+        "update",
+        "note",
+        "procedure",
+        "admonition"
+      ],
+      "compact_excerpt": "Scenario 12 \u2014 Admonition Between Numbered List in a Procedure Consider a procedure where the author has inserted an admonition (Note or Warning style paragraph) between two numbered steps to call out a safety or precautionary detail relevant to the step just completed. Admonition between steps in procedure .docx Style / Input DITA Output [Heading 2]: Update Firmware [List Number]: 1. Download the "
+    },
+    "classified_at": 1787901831.361566
+  },
+  "Scenario 13 \u2014 Admonition Between Numbered List in a Workflow": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.534,
+        "paragraph_count": 16,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "List",
+        "Workflow",
+        "Admonition",
+        "Scenario",
+        "Between",
+        "Numbered",
+        "release",
+        "workflow",
+        "concept",
+        "note",
+        "admonition",
+        "Note"
+      ],
+      "compact_excerpt": "Scenario 13 \u2014 Admonition Between Numbered List in a Workflow Consider a workflow where the author has inserted an admonition (Note or Warning style paragraph) between two numbered items to call out supplementary or cautionary information relevant to the stage just described. Admonition between stages in workflow .docx Style / Input DITA output [Heading 2]: Release Workflow [List Number]: 1. Merge "
+    },
+    "classified_at": 1787901831.3719234
+  },
+  "Scenario 14 \u2014 Paragraph Between Numbered List in a Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.543,
+        "paragraph_count": 16,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 5,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.167,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "List",
+        "step",
+        "Paragraph",
+        "steps",
+        "Scenario",
+        "Between",
+        "Numbered",
+        "Procedure",
+        "Backup",
+        "backup",
+        "procedure",
+        "numbered"
+      ],
+      "compact_excerpt": "Scenario 14 \u2014 Paragraph Between Numbered List in a Procedure Consider a procedure where the author has pressed Enter inside a numbered step and changed the paragraph style to Normal to add explanatory text before continuing the numbered list. Paragraph between steps in procedure .docx Style / Input DITA Output [Heading 2]: Configure Backup [List Number]: 1. Open Backup Settings. [Normal, indented]"
+    },
+    "classified_at": 1787901831.3878636
+  },
+  "Scenario 15 \u2014 Paragraph Between Numbered List in a Workflow": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.552,
+        "paragraph_count": 14,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "List",
+        "Workflow",
+        "Paragraph",
+        "Scenario",
+        "Between",
+        "Numbered",
+        "draft",
+        "Normal",
+        "workflow",
+        "inside",
+        "numbered",
+        "paragraph"
+      ],
+      "compact_excerpt": "Scenario 15 \u2014 Paragraph Between Numbered List in a Workflow Consider a workflow where the author has pressed Enter inside a numbered item and changed the paragraph style to Normal to add explanatory text before continuing the numbered list. Paragraph between stages in workflow .docx Style / Input DITA Output [Heading 2]: Approval Workflow [List Number]: 1. Author submits the draft. [Normal, indent"
+    },
+    "classified_at": 1787901831.518583
+  },
+  "Scenario 16 \u2014 Block Image Between Numbered List in a Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.56,
+        "paragraph_count": 25,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.182,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Block",
+        "List",
+        "step",
+        "steps",
+        "image",
+        "Open",
+        "Scenario",
+        "Image",
+        "Between",
+        "Numbered",
+        "Procedure",
+        "title"
+      ],
+      "compact_excerpt": "Scenario 16 \u2014 Block Image Between Numbered List in a Procedure Consider a numbered procedure in the document where the author has inserted a full-width screenshot between two steps \u2014 for example, to illustrate what the screen looks like after completing step one. Block image between steps in procedure .docx Style / Input DITA Output [List Number]: 1. Open the application. [Block image: screenshot."
+    },
+    "classified_at": 1787901831.592925
+  },
+  "Scenario 17 \u2014 Block Image Between Numbered List in a Workflow": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.569,
+        "paragraph_count": 18,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "List",
+        "Environment",
+        "Block",
+        "Workflow",
+        "workflow",
+        "image",
+        "Scenario",
+        "Image",
+        "Between",
+        "Numbered",
+        "Deployment",
+        "Number"
+      ],
+      "compact_excerpt": "Scenario 17 \u2014 Block Image Between Numbered List in a Workflow Consider a numbered list where a full-width screenshot is placed between two steps in a workflow to illustrate the application state after completing step one. Block image between stages in workflow .docx Style / Input DITA Output [Heading 2]: Deployment Workflow [Normal]: The following workflow shows the deployment sequence. [List Numb"
+    },
+    "classified_at": 1787901831.664399
+  },
+  "Scenario 18 \u2014 Table Between Numbered List in a Workflow": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.578,
+        "paragraph_count": 36,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Environment",
+        "entry",
+        "List",
+        "Table",
+        "workflow",
+        "table",
+        "Scenario",
+        "Between",
+        "Numbered",
+        "Workflow",
+        "Development",
+        "Staging"
+      ],
+      "compact_excerpt": "Scenario 18 \u2014 Table Between Numbered List in a Workflow Consider a workflow represented as a numbered list where the author inserts a reference table between lifecycle stages. Table between stages in workflow .docx Style / Input DITA Output [Heading 2]: Deployment Environment Lifecycle [Normal]: The following workflow shows the deployment lifecycle. [List Number]: Development Environment [Caption]"
+    },
+    "classified_at": 1787901831.674084
+  },
+  "Scenario 1 \u2014 Consecutive bullet items": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.595,
+        "paragraph_count": 11,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Consecutive",
+        "Scenario",
+        "later",
+        "bullet",
+        "items",
+        "Supported",
+        "Platforms",
+        "List",
+        "Bullet",
+        "application",
+        "supports",
+        "following"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Consecutive bullet items Consider a section titled Supported Platforms that contains multiple consecutive bullet items representing related information where sequence does not matter. Consecutive bullet items .docx Style / Input DITA Output [Heading 2]: Supported Platforms [Normal]: The application supports the following operating systems. [List Bullet]: Windows 10 and later [List Bul"
+    },
+    "classified_at": 1787901831.8149993
+  },
+  "Scenario 1 \u2014 Consecutive Numbered List as a Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.603,
+        "paragraph_count": 16,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 6,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.214,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "step",
+        "List",
+        "Numbered",
+        "Scenario",
+        "Consecutive",
+        "Procedure",
+        "Install",
+        "Linux",
+        "list",
+        "Number",
+        "task",
+        "title"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Consecutive Numbered List as a Procedure Consider a Heading 2 called \"Install on Linux\", the body contains a numbered list which indicates step-by step procedure. This is a classic installation instruction. Numbered list as a procedure .docx Style / Input DITA Output [Heading 2]: Install on Linux [List Number]: 1. Download the installer. [List Number]: 2. Run the setup wizard. [List N"
+    },
+    "classified_at": 1787901831.8901029
+  },
+  "Scenario 20 \u2014 Bullet List between Numbered List in a Procedure": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.621,
+        "paragraph_count": 19,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "List",
+        "Bullet",
+        "step",
+        "Scenario",
+        "Numbered",
+        "Procedure",
+        "steps",
+        "installer",
+        "between",
+        "list",
+        "info",
+        "procedure"
+      ],
+      "compact_excerpt": "Scenario 20 \u2014 Bullet List between Numbered List in a Procedure Consider a procedure where the author inserts a bulleted list of prerequisite or reference items between two numbered steps to provide supporting information before the next action. Bullet list between steps in procedure .docx Style / Input DITA Output [Heading 2]: Prepare the Environment [List Number]: Verify the following prerequisit"
+    },
+    "classified_at": 1787901831.9742632
+  },
+  "Scenario 1 \u2014 Native <dl> element": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.612,
+        "paragraph_count": 34,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "device",
+        "dlentry",
+        "Native",
+        "definition",
+        "List",
+        "Scenario",
+        "term",
+        "list",
+        "concept",
+        "Connection",
+        "Modes",
+        "item"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Native <dl> element Consider a concept section titled Connection Modes, where each bullet item begins with a bold term followed by a definition. Native definition list element .docx Style / Input DITA Output [Heading 2]: Connection Modes [Normal]: The device supports the following connection modes. [List Bullet]: Wired \u2014 Uses an Ethernet cable to connect the device directly to the net"
+    },
+    "classified_at": 1787901831.9854193
+  },
+  "Scenario 19 \u2014 Table Between Numbered List in a Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.586,
+        "paragraph_count": 67,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 5,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "step",
+        "entry",
+        "table",
+        "Table",
+        "List",
+        "configuration",
+        "steps",
+        "Server",
+        "title",
+        "Use",
+        "info",
+        "Scenario"
+      ],
+      "compact_excerpt": "Scenario 19 \u2014 Table Between Numbered List in a Procedure Consider a procedure where the author inserts a configuration table between two numbered steps to provide reference information before the next action. Table between steps in procedure .docx Style / Input DITA Output [Heading 2]: Configure the Server [List Number]: Open the server configuration file. [Caption]: Server parameters [Table Heade"
+    },
+    "classified_at": 1787901832.0746515
+  },
+  "Scenario 21 \u2014 Nested Bullet List Between Numbered List in a Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.629,
+        "paragraph_count": 45,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 8,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "List",
+        "Bullet",
+        "step",
+        "level",
+        "choice",
+        "bullets",
+        "steps",
+        "Installation",
+        "list",
+        "choices",
+        "Nested",
+        "Scenario"
+      ],
+      "compact_excerpt": "Scenario 21 \u2014 Nested Bullet List Between Numbered List in a Procedure Consider a procedure where a step's supporting bullet list itself contains a second, deeper level of nested bullets \u2014 for example, a general prerequisite item followed by a sub-list of specific requirements under one of its bullets. Nested bullet list between steps .docx Style / Input DITA Output [Heading 2]: Prepare the Environ"
+    },
+    "classified_at": 1787901832.120317
+  },
+  "Scenario 2 \u2014 Consecutive Numbered List as a Workflow": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.638,
+        "paragraph_count": 12,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 10
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Environment",
+        "List",
+        "Numbered",
+        "Scenario",
+        "Consecutive",
+        "Workflow",
+        "concept",
+        "Number",
+        "Deployment",
+        "Lifecycle",
+        "Development",
+        "Staging"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Consecutive Numbered List as a Workflow Under a Heading 2 called \"Deployment Environment Lifecycle\" (classified as concept), the body contains: 1. Development, 2. Staging, 3. UAT, 4. Production. Numbered list as a workflow .docx Style / Input DITA Output [Heading 2]: Deployment Environment Lifecycle [Normal]: The following is the deployment environment lifecycle. [List Number]: 1. Dev"
+    },
+    "classified_at": 1787901832.1880367
+  },
+  "Scenario 2 \u2014 List Bullet with bold term and separator pattern": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.647,
+        "paragraph_count": 36,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 6,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "List",
+        "Bullet",
+        "device",
+        "dlentry",
+        "Scenario",
+        "bold",
+        "term",
+        "separator",
+        "Bold",
+        "pattern",
+        "concept",
+        "Connection"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 List Bullet with bold term and separator pattern Consider a concept section titled \"Connection Modes\" where the author has used a bulleted list where each List Bullet paragraph begins with a bold-formatted term followed by a \u2014 separator and definition text. Bold term with separator pattern .docx Style / Input DITA Output [Heading 2]: Connection Modes [Normal]: The device supports the "
+    },
+    "classified_at": 1787901832.2854295
+  },
+  "Scenario 2 \u2014 Two-level nested bullet list": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.655,
+        "paragraph_count": 21,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "level",
+        "List",
+        "Bullet",
+        "Two",
+        "list",
+        "Scenario",
+        "later",
+        "GB",
+        "nested",
+        "bullet",
+        "items",
+        "using"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Two-level nested bullet list Consider a bulleted list with a second tier of bullet items beneath selected parent items, using the Increase Indent button in the Home ribbon. Two-level nested bullet list .docx Style / Input DITA Output [Heading 2]: System Requirements [List Bullet, level 0]: Supported platforms [List Bullet, level 1]: Windows 10 and later [List Bullet, level 1]: macOS 1"
+    },
+    "classified_at": 1787901832.2964292
+  },
+  "Scenario 3 \u2014 Three-level deep nested bullet list": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.664,
+        "paragraph_count": 19,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "level",
+        "Three",
+        "Scenario",
+        "List",
+        "Bullet",
+        "nested",
+        "list",
+        "three",
+        "deep",
+        "bullet",
+        "levels",
+        "items"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Three-level deep nested bullet list Consider a list nested three levels deep \u2014 grandchild items indented beneath child items. Three-level nested bullet list .docx Style / Input DITA Output [Heading 2]: Infrastructure Types [List Bullet, level 0]: Hardware [List Bullet, level 1]: Servers [List Bullet, level 2]: Rack-mounted [List Bullet, level 2]: Tower <concept id=\"infrastructure_type"
+    },
+    "classified_at": 1787901832.3817375
+  },
+  "Scenario 4 \u2014 Block image placed between bullet list": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.672,
+        "paragraph_count": 16,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "image",
+        "Block",
+        "deployment",
+        "Scenario",
+        "Deployment",
+        "title",
+        "between",
+        "bullet",
+        "list",
+        "items",
+        "List",
+        "Bullet"
+      ],
+      "compact_excerpt": "Scenario 4 \u2014 Block image placed between bullet list Consider a section where the author inserts a block image between bullet items to visually illustrate one of the items. Block image between bullet items .docx Style / Input DITA Output [Heading 2]: Supported Deployment Models [List Bullet]: On-premises deployment [Normal]: [Block image: deployment_architecture.png] Wrap mode: In Line with Text [C"
+    },
+    "classified_at": 1787901832.4178166
+  },
+  "Scenario 5 \u2014 Paragraph Between a Bullet list item": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.681,
+        "paragraph_count": 14,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 6,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 11
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Bullet",
+        "Paragraph",
+        "Scenario",
+        "Between",
+        "list",
+        "configuration",
+        "between",
+        "item",
+        "inside",
+        "paragraph",
+        "Normal",
+        "bullet"
+      ],
+      "compact_excerpt": "Scenario 5 \u2014 Paragraph Between a Bullet list item Consider a bulleted list where the author has pressed Enter inside a list item and changed the paragraph style to Normal to add explanatory text between two bullet points. Paragraph between bullet items .docx Style / Input DITA Output [Heading 2]: Backup Guidelines [List Bullet]: Back up the configuration file. [Normal, indented]: Make sure the bac"
+    },
+    "classified_at": 1787901832.4856515
+  },
+  "Scenario 7 \u2014 Admonition between Bullet list": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.698,
+        "paragraph_count": 15,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Bullet",
+        "deployment",
+        "Admonition",
+        "Scenario",
+        "between",
+        "list",
+        "List",
+        "note",
+        "admonition",
+        "bullet",
+        "items",
+        "Supported"
+      ],
+      "compact_excerpt": "Scenario 7 \u2014 Admonition between Bullet list Consider a bulleted list where the author has inserted an admonition between two bullet items to call out a precaution or clarification relevant to the item just listed. Admonition between bullet items .docx Style / Input DITA Output [Heading 2]: Supported Deployment Models [List Bullet]: On-premises deployment [Warning style]: Requires dedicated IT staf"
+    },
+    "classified_at": 1787901832.6015246
+  },
+  "Scenario 7 \u2014 Two-Level Nested Numbered List (sub steps) in Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.707,
+        "paragraph_count": 21,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "List",
+        "Two",
+        "Nested",
+        "steps",
+        "level",
+        "Scenario",
+        "Level",
+        "Numbered",
+        "Procedure",
+        "Number",
+        "step",
+        "substep"
+      ],
+      "compact_excerpt": "Scenario 7 \u2014 Two-Level Nested Numbered List (sub steps) in Procedure Consider a numbered list with a second tier of numbered sub-items beneath selected parent items as part of the instructions or procedure. Nested sub-steps in a procedure .docx Style / Input DITA Output [List Number, level 0]: Configure the server [List Number, level 1]: Open the configuration file [List Number, level 1]: Set the "
+    },
+    "classified_at": 1787901832.6730494
+  },
+  "Scenario 6 \u2014 Table embedded inside a list item": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.69,
+        "paragraph_count": 24,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "stentry",
+        "list",
+        "Table",
+        "inside",
+        "Scenario",
+        "item",
+        "table",
+        "strow",
+        "embedded",
+        "simpletable",
+        "docx",
+        "following"
+      ],
+      "compact_excerpt": "Scenario 6 \u2014 Table embedded inside a list item Consider a bulleted list where the author has inserted a simple table directly inside one of the list items. For example, to present a small reference table as part of a bullet point. Table embedded in list item .docx Style / Input DITA Output [List Bullet]: The following options are available:   [Table inside list item] \u2502 Option  \u2502 Default \u2502 \u2502 Retry "
+    },
+    "classified_at": 1787901832.6841674
+  },
+  "Scenario 8 \u2014 Two-Level Nested Numbered List in Workflow": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.716,
+        "paragraph_count": 22,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "List",
+        "level",
+        "Workflow",
+        "Number",
+        "review",
+        "Two",
+        "Nested",
+        "Scenario",
+        "Level",
+        "Numbered",
+        "numbered",
+        "workflow"
+      ],
+      "compact_excerpt": "Scenario 8 \u2014 Two-Level Nested Numbered List in Workflow Consider a numbered list with a second tier of numbered sub-items beneath selected parent items as part of the workflow. Nested numbered list in workflow .docx Style / Input DITA Output [Heading 2]: Document Approval Workflow [Normal]: Documents progress through several stages before they are approved for publication. The following workflow i"
+    },
+    "classified_at": 1787901832.7234604
+  },
+  "Scenario 9 \u2014 Three-level deep nested Numbered list in Workflow": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.724,
+        "paragraph_count": 31,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "level",
+        "List",
+        "Number",
+        "nested",
+        "Workflow",
+        "Three",
+        "Scenario",
+        "Numbered",
+        "Release",
+        "input",
+        "approval",
+        "Level"
+      ],
+      "compact_excerpt": "Scenario 9 \u2014 Three-level deep nested Numbered list in Workflow Consider a numbered list that represents a workflow with nested phases, sub-phases, and sub-items. Three-level nested list in workflow .docx Style / Input DITA Output [Heading 2]: Release Workflow [List Number, level 0]: Planning [List Number, level 1]: Requirement review [List Number, level 2]: Product input [List Number, level 2]: Do"
+    },
+    "classified_at": 1787901832.8192453
+  },
+  "Term List (Definition List)": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.733,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 6,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 311
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "term",
+        "list",
+        "Definition",
+        "List",
+        "definition",
+        "Term",
+        "item",
+        "bold",
+        "bulleted",
+        "each",
+        "followed",
+        "dash"
+      ],
+      "compact_excerpt": "Term List (Definition List) Abstract: This section covers Term Lists (Definition Lists) in DOCX \u2014 structures that associate a term with its corresponding definition or description, typically authored as a bulleted list where each item begins with a bold term followed by a dash or colon and explanatory text in normal formatting \u2014 and one scenario: a bulleted term list presented in a concept section"
+    },
+    "classified_at": 1787901832.9005013
+  },
+  "Math and Equations": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.75,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 6,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 329
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "equation",
+        "equations",
+        "Equation",
+        "Math",
+        "Equations",
+        "MathML",
+        "MathType",
+        "image",
+        "DITA",
+        "Mathematical",
+        "expressions",
+        "Word"
+      ],
+      "compact_excerpt": "Math and Equations Abstract : This section covers Mathematical Equations \u2014 quantitative expressions that cannot be represented accurately through prose alone \u2014 and five scenarios: a block equation, an inline equation, an equation in a table cell, an equation in a list item, and an equation in a procedure step. The converter maps Word's native OMML equations to <foreign> containing embedded MathML;"
+    },
+    "classified_at": 1787901832.9724538
+  },
+  "Unordered Lists (Bullet)": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.741,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 12,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 328
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "list",
+        "level",
+        "items",
+        "bullet",
+        "Unordered",
+        "Lists",
+        "Bullet",
+        "lists",
+        "unordered",
+        "collection",
+        "where",
+        "position"
+      ],
+      "compact_excerpt": "Unordered Lists (Bullet) Abstract: This section covers Unordered Lists \u2014 items presented as a co-equal collection where position does not affect meaning \u2014 and seven scenarios: consecutive bullet items, two-level nested bullet lists, three-level nested bullet lists, a block image between bullet items, a paragraph between bullet items, a table inside a list item, and an admonition between bullet ite"
+    },
+    "classified_at": 1787901832.9834294
+  },
+  "Scenario 1 \u2014 Block equation": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.759,
+        "paragraph_count": 16,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 6,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "equation",
+        "Block",
+        "Scenario",
+        "math",
+        "after",
+        "paragraph",
+        "DITA",
+        "Normal",
+        "transfer",
+        "rate",
+        "where",
+        "total"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Block equation Consider a math equation added after the normal paragraph. Block equation after paragraph .docx Style / Input DITA Output [Normal]: The transfer rate is: [Equation object: R = B/T] [Normal]: where B is total bytes and T is elapsed time. <p>The transfer rate is:</p> <equation-block> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mrow> <mi>R</mi> <mo>=</mo> <mfrac> <m"
+    },
+    "classified_at": 1787901833.041093
+  },
+  "Scenario 2 \u2014 Inline equation": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.767,
+        "paragraph_count": 15,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "Inline",
+        "Scenario",
+        "equation",
+        "MathML",
+        "DITA",
+        "paragraph",
+        "within",
+        "formula",
+        "defines",
+        "energy",
+        "equivalence",
+        "math"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Inline equation Consider an equation added inline with a paragraph. Inline equation within paragraph .docx Style / Input DITA Output [Normal]: The formula [Equation object: E = mc\u00b2] defines energy equivalence. <p> The formula <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mrow> <mi>E</mi> <mo>=</mo> <mi>m</mi> <msup> <mi>c</mi> <mn>2</mn> </msup> </mrow> </math> defines energy equ"
+    },
+    "classified_at": 1787901833.110971
+  },
+  "Scenario 3 \u2014 Equation in a table cell": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.776,
+        "paragraph_count": 21,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "table",
+        "Equation",
+        "cell",
+        "equation",
+        "stentry",
+        "Scenario",
+        "inline",
+        "object",
+        "inside",
+        "DITA",
+        "Transfer",
+        "Rate"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Equation in a table cell Consider a table where one of the cells contains a Word equation object rather than plain text. For example, a reference table listing formulas alongside their descriptions. Equation inside a table cell .docx Style / Input DITA Output [Table] \u2014 cell 1: \"Transfer Rate\" / cell 2: [Equation object: R = B/T] <simpletable> <strow> <stentry>Transfer Rate</stentry> <"
+    },
+    "classified_at": 1787901833.2073982
+  },
+  "Scenario 5 \u2014 Equation in a procedure step": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.793,
+        "paragraph_count": 26,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "step",
+        "equation",
+        "Equation",
+        "block",
+        "Scenario",
+        "procedure",
+        "steps",
+        "load",
+        "info",
+        "numbered",
+        "object",
+        "placed"
+      ],
+      "compact_excerpt": "Scenario 5 \u2014 Equation in a procedure step Consider a numbered procedure where one of the steps contains an equation object \u2014 either inline within the step command or as a block equation placed immediately after the step text to show a calculation the user must perform. Equation inside a procedure step .docx Style / Input DITA Output [List Number]: Calculate the load using: [Equation object: P = IV"
+    },
+    "classified_at": 1787901833.2874742
+  },
+  "Scenario 4 \u2014 Equation in a list item": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.784,
+        "paragraph_count": 21,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "list",
+        "equation",
+        "inline",
+        "Equation",
+        "item",
+        "Scenario",
+        "within",
+        "inside",
+        "object",
+        "paragraph",
+        "Word",
+        "text"
+      ],
+      "compact_excerpt": "Scenario 4 \u2014 Equation in a list item Consider a bulleted or numbered list where one of the list items contains a Word equation object either inline within the item text or as a standalone block paragraph at the list level. Equation inside a list item .docx Style / Input DITA Output [List Bullet]: Use the formula [Equation object: A = \u03c0r\u00b2] to calculate area. [List Bullet]: Round results to two deci"
+    },
+    "classified_at": 1787901833.3015568
+  },
+  "Metadata - Document Properties/Field Codes": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.802,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 20,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 424
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "document",
+        "properties",
+        "Field",
+        "property",
+        "Metadata",
+        "field",
+        "name",
+        "date",
+        "Document",
+        "Properties",
+        "Codes",
+        "content"
+      ],
+      "compact_excerpt": "Metadata - Document Properties/Field Codes Abstract : This section covers document properties and field codes in DOCX \u2014 the metadata fields that identify, attribute, and classify a document independently of its body content \u2014 and one scenario: document properties populated in the file's properties panel and mapped during conversion. The converter reads each populated property and maps it to the co"
+    },
+    "classified_at": 1787901833.3325062
+  },
+  "Scenario 1 \u2014 DOCX metadata mapped to <prolog>": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.81,
+        "paragraph_count": 22,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 4,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "date",
+        "keyword",
+        "prolog",
+        "Scenario",
+        "DOCX",
+        "metadata",
+        "author",
+        "network",
+        "setup",
+        "critdates",
+        "othermeta",
+        "name"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 DOCX metadata mapped to <prolog> Consider a .docx document where the author has populated the document properties (File \u2192 Info \u2192 Properties) with Author, Created date, Last Modified date, Keywords, Company, and Subject values, with no field codes present in the body. Metadata mapped to topic prolog .docx Style / Input DITA Output [Document Properties] Title: Configuring Network Settin"
+    },
+    "classified_at": 1787901833.40805
+  },
+  "Paragraphs": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.819,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 7,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 407
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "paragraph",
+        "topic",
+        "content",
+        "Paragraphs",
+        "element",
+        "prose",
+        "technical",
+        "inline",
+        "converter",
+        "maps",
+        "each",
+        "body"
+      ],
+      "compact_excerpt": "Paragraphs Abstract : This section covers the Paragraph style in DOCX\u2014 its role as the primary carrier of explanatory, introductory, and transitional prose in any technical document \u2014 and four scenarios: a paragraph in a concept topic, a paragraph containing mixed inline character styles, a paragraph placed before the first heading, and a code paragraph. The converter maps each paragraph to a <p> "
+    },
+    "classified_at": 1787901833.4951892
+  },
+  "Scenario 1 \u2014 Paragraph in a concept topic": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.828,
+        "paragraph_count": 7,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 15
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Paragraph",
+        "product",
+        "Scenario",
+        "concept",
+        "Normal",
+        "Product",
+        "Parts",
+        "Locations",
+        "inside",
+        "conbody",
+        "topic",
+        "Heading"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Paragraph in a concept topic Consider a section titled \"Product Parts Locations\" styled as Heading 2, followed by two Normal paragraphs describing the product. Paragraph in a concept topic .docx Style / Input DITA Output [Heading 2]: Product Parts Locations [Normal]: See these sections to identify the parts on your product. [Normal]: The product has three main areas: front, inside, an"
+    },
+    "classified_at": 1787901833.575234
+  },
+  "Scenario 2 \u2014 Paragraph with mixed inline character styles": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.836,
+        "paragraph_count": 5,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 19
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Paragraph",
+        "Scenario",
+        "character",
+        "mixed",
+        "inline",
+        "styles",
+        "paragraph",
+        "formatting",
+        "Management",
+        "Console",
+        "uses",
+        "config"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Paragraph with mixed inline character styles Consider a Normal paragraph that contains a mix of bold, italic, and monospace (Courier New or Consolas) formatting applied to individual words or phrases. Paragraph with mixed character styles .docx Style / Input DITA Output The Management Console uses the config.yaml file to control advanced system behavior. <p> The <b>Management Console<"
+    },
+    "classified_at": 1787901833.5925186
+  },
+  "Scenario 3 \u2014 Paragraph before the first heading": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.845,
+        "paragraph_count": 10,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 19
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "title",
+        "Paragraph",
+        "Scenario",
+        "first",
+        "Normal",
+        "Title",
+        "DITA",
+        "topic",
+        "body",
+        "before",
+        "document",
+        "paragraphs"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Paragraph before the first heading Consider a document where Normal paragraphs appear between the Title-styled paragraph and the first Heading 1 \u2014 for example, a version statement or an executive summary that appears after the document title. Paragraph before first heading .docx Style / Input DITA Output [Title]: Cloud Platform Guide [Normal]: Version 3.2 | April 2025 [Normal]: This g"
+    },
+    "classified_at": 1787901833.6405926
+  },
+  "Preface / Notice / Copyright": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.853,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 7,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 273
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Notice",
+        "chapter",
+        "Copyright",
+        "Preface",
+        "front",
+        "matter",
+        "content",
+        "section",
+        "sections",
+        "heading",
+        "text",
+        "match"
+      ],
+      "compact_excerpt": "Preface / Notice / Copyright Abstract : This section covers the Preface, Notice, and Copyright sections in DOCX \u2014 their role as front matter that applies to the whole document rather than a single chapter \u2014 and one scenario: a Copyright Notice section correctly identified and routed to the bookmap. The converter matches heading text against a list of recognized front matter keywords and maps a mat"
+    },
+    "classified_at": 1787901833.7181034
+  },
+  "Scenario 1 \u2014 copyright section mapped to frontmatter": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.862,
+        "paragraph_count": 21,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Copyright",
+        "frontmatter",
+        "Scenario",
+        "Notice",
+        "ditamap",
+        "topic",
+        "section",
+        "href",
+        "chapter",
+        "copyright",
+        "mapped",
+        "Heading"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 copyright section mapped to frontmatter Consider a document that begins with a section titled \"Copyright Notice\" styled as Heading 1, followed by a Normal paragraph containing the legal boilerplate. Copyright section mapped to frontmatter .docx Style / Input DITA Output [Heading 1]: Copyright Notice [Normal]: Copyright \u00a9 2026 Company Name. All rights reserved <bookmap id=\"printer_user"
+    },
+    "classified_at": 1787901833.789824
+  },
+  "Table of Contents (TOC)": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.871,
+        "paragraph_count": 14,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 7,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 26
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "TOC",
+        "Table",
+        "Contents",
+        "DITA",
+        "hierarchy",
+        "Heading",
+        "navigation",
+        "structure",
+        "generated",
+        "bookmap",
+        "converter",
+        "ditamap"
+      ],
+      "compact_excerpt": "Table of Contents (TOC) Abstract : This section covers the Table of Contents in DOCX \u2014 the navigation structure that maps the publication hierarchy and serves as the converter's primary entry point for building the root DITA map \u2014 and one scenario: a TOC generated from the document's Heading styles. The converter reads TOC to construct the DITA map hierarchy and topic references; when no TOC is pr"
+    },
+    "classified_at": 1787901833.8751783
+  },
+  "Scenario 10 \u2014 2-column table in API Reference Section": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.879,
+        "paragraph_count": 23,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 18,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "API",
+        "reference",
+        "property",
+        "proptype",
+        "propvalue",
+        "Reference",
+        "Scenario",
+        "column",
+        "table",
+        "Section",
+        "timeout",
+        "section"
+      ],
+      "compact_excerpt": "Scenario 10 \u2014 2-column table in API Reference Section Consider a 2-column table inside a section that belongs to an API reference section \u2014 for example, a parameter details or API attribute list. Reference topic with API two-column table .docx Style / Input DITA Output [Heading 2]: API Parameters (reference topic) \u2502 Parameter   \u2502 Description           \u2502 \u2502 timeout     \u2502 Request timeout (sec)   \u2502 \u2502 "
+    },
+    "classified_at": 1787901833.90481
+  },
+  "Scenario 2 \u2014 Table with <caption> element": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.897,
+        "paragraph_count": 37,
+        "step_list_count": 0,
+        "table_count": 2,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "entry",
+        "table",
+        "title",
+        "Table",
+        "Server",
+        "Row",
+        "Scenario",
+        "caption",
+        "Caption",
+        "Configuration",
+        "Parameters",
+        "tgroup"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Table with <caption> element Consider a configuration parameter table with and a caption style exists immediately above the table. Table with caption element .docx Style / Input DITA Output [Caption]: Server Configuration Parameters [Header Row]: Parameter | Default Value | Description [Row]: Port | 8080 | Server listening port [Row]: Timeout | 60 | Session timeout value in seconds [R"
+    },
+    "classified_at": 1787901834.0139656
+  },
+  "Scenario 1 \u2014 Standard multi-column table": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.888,
+        "paragraph_count": 27,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "stentry",
+        "Status",
+        "strow",
+        "Standard",
+        "table",
+        "Scenario",
+        "Solid",
+        "column",
+        "Printer",
+        "Indicator",
+        "Lights",
+        "Light"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Standard multi-column table Consider the status indicator lights table in the Printer User's Guide under the heading \"Status Indicator Lights\". The table has three columns \u2014 Light Pattern, Color, and Status \u2014 in a concept topic. Standard multi-column table .docx Style / Input DITA Output [Heading 2]: Status Indicator Lights [Header row]: Light Pattern | Color | Status [Row]: Solid | G"
+    },
+    "classified_at": 1787901834.043627
+  },
+  "Scenario 3 \u2014 Table with no header row": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.905,
+        "paragraph_count": 18,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "stentry",
+        "header",
+        "server",
+        "Table",
+        "Scenario",
+        "Active",
+        "strow",
+        "first",
+        "data",
+        "Row",
+        "sthead",
+        "table"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Table with no header row Consider a table where the author has not formatted the first row as a header \u2014 all rows contain data. Table with no header row .docx Style / Input DITA Output [Row]: server-01 | 192.168.1.10 | Active [Row]: server-02 | 192.168.1.11 | Standby [Row]: server-03 | 192.168.1.12 | Active <simpletable> <sthead> <!-- First data row promoted as header --> <stentry>ser"
+    },
+    "classified_at": 1787901834.0939639
+  },
+  "Scenario 4 \u2014 Table with merged cells": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.914,
+        "paragraph_count": 36,
+        "step_list_count": 0,
+        "table_count": 2,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "entry",
+        "Server",
+        "merged",
+        "server",
+        "Table",
+        "Scenario",
+        "table",
+        "Row",
+        "Active",
+        "title",
+        "cells",
+        "rows"
+      ],
+      "compact_excerpt": "Scenario 4 \u2014 Table with merged cells Consider a table where cells are merged vertically across rows\u2014 for example, to create spanning headers or associate one value with several related rows. Table with merged cells .docx Style / Input DITA Output [Caption]: Server role mapping [Header Row]: Server Group | Server Name | Status [Merged Cell]: Production spans two rows in the first column [Row]: Prod"
+    },
+    "classified_at": 1787901834.1735349
+  },
+  "Scenario 5 \u2014 Nested table (table inside a table cell)": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.922,
+        "paragraph_count": 36,
+        "step_list_count": 0,
+        "table_count": 3,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "table",
+        "entry",
+        "Nested",
+        "inside",
+        "cell",
+        "Scenario",
+        "Sub",
+        "item",
+        "Value",
+        "tgroup",
+        "colspec",
+        "colnum"
+      ],
+      "compact_excerpt": "Scenario 5 \u2014 Nested table (table inside a table cell) Consider a table where the author has placed a second, complete table inside one of the cells of an outer table. Nested table inside table cell .docx Style / Input DITA Output Outer table: \u2502 Label \u2502 [Inner table cell]          \u2502 \u2502       \u2502 Sub-item A \u2502 Value 1     \u2502 \u2502       \u2502 Sub-item B \u2502 Value 2     \u2502 <reference id=\"server_role_mapping\"> <title"
+    },
+    "classified_at": 1787901834.2187467
+  },
+  "Scenario 6 \u2014 List inside a table cell": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.931,
+        "paragraph_count": 21,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "List",
+        "stentry",
+        "inside",
+        "table",
+        "Scenario",
+        "list",
+        "cells",
+        "Actions",
+        "Bullet",
+        "cell",
+        "DITA",
+        "Row"
+      ],
+      "compact_excerpt": "Scenario 6 \u2014 List inside a table cell Consider a table where the author has placed a bulleted or numbered list inside one of the cells. List inside a table cell .docx Style / Input DITA Output [Header Row]: Step | Actions [Row]: 1 |  \u00a0\u00a0\u00a0\u00a0[List Bullet]: Download the package \u00a0\u00a0\u00a0\u00a0[List Bullet]: Verify the checksum  \u00a0\u00a0\u00a0\u00a0[List Bullet]: Extract the archive <reference id=\"installation_actions\"> <title>In"
+    },
+    "classified_at": 1787901834.334673
+  },
+  "Scenario 7 \u2014 Image inside a table cell": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.94,
+        "paragraph_count": 26,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "stentry",
+        "inline",
+        "Image",
+        "table",
+        "image",
+        "Scenario",
+        "Error",
+        "strow",
+        "inside",
+        "cell",
+        "Status",
+        "Icon"
+      ],
+      "compact_excerpt": "Scenario 7 \u2014 Image inside a table cell Consider a table where the author has inserted an inline image directly into a table cell \u2014 for example, a status icon or a screenshot thumbnail. The image must be set to In Line with Text wrapping. Image inside a table cell .docx Style / Input DITA Output \u2502 Status \u2502 Icon                      \u2502 Description    \u2502 \u2502 OK     \u2502 [inline: ok_icon.png]     \u2502 System ru"
+    },
+    "classified_at": 1787901834.3608305
+  },
+  "Scenario 8 \u2014 Table spanning multiple pages": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.948,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 46
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Scenario",
+        "Table",
+        "table",
+        "pages",
+        "spanning",
+        "multiple",
+        "Consider",
+        "long",
+        "reference",
+        "spans",
+        "more",
+        "when"
+      ],
+      "compact_excerpt": "Scenario 8 \u2014 Table spanning multiple pages Consider a long reference table that spans two or more pages when printed. Result: The converter produces one <simpletable> or <table> that contains all rows from the original Word table. No splitting or truncation occurs because of page breaks."
+    },
+    "classified_at": 1787901834.3869681
+  },
+  "Scenario 9 \u2014 Multiple consecutive tables with no paragraph between them": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.957,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 69
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Scenario",
+        "Multiple",
+        "tables",
+        "paragraph",
+        "between",
+        "them",
+        "consecutive",
+        "table",
+        "Consider",
+        "section",
+        "where",
+        "more"
+      ],
+      "compact_excerpt": "Scenario 9 \u2014 Multiple consecutive tables with no paragraph between them Consider a section where two or more tables appear one after another without any paragraph between them. Result: Each Word table is converted independently into a separate DITA <simpletable> or <table> element. The converter does not automatically merge consecutive tables. TIP: If the tables are logically related, add a short "
+    },
+    "classified_at": 1787901834.4664226
+  },
+  "Tables": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.966,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 3,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 6,
+        "reference_pattern_hits": 6,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 416
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "table",
+        "column",
+        "cells",
+        "Table",
+        "structure",
+        "merged",
+        "DITA",
+        "tables",
+        "their",
+        "Tables",
+        "output",
+        "Reference"
+      ],
+      "compact_excerpt": "Tables Abstract : This section covers the Table style in DOCX \u2014 the primary structure for presenting information with inherent row-and-column relationships \u2014 and ten scenarios: a standard multi-column table, a table with a caption, a table with no header row, merged cells, nested tables, lists and images inside table cells, tables spanning multiple pages, consecutive tables, and a two-column param"
+    },
+    "classified_at": 1787901834.5096066
+  },
+  "Scenario 1 \u2014 Title style applied correctly": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.974,
+        "paragraph_count": 9,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Title",
+        "Printer",
+        "Guide",
+        "style",
+        "User",
+        "docx",
+        "DITA",
+        "bookmap",
+        "Scenario",
+        "applied",
+        "Users",
+        "title"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Title style applied correctly Consider a document titled Printer User's Guide saved as Printer_Users_Guide.docx. When the Title style is applied to the text \"Printer User's Guide\", the converter generates the following DITA bookmap structure: Title style applied correctly .docx Style / Input DITA Output Document Name: Printer_Users_Guide.docx Document Title: Printer User's Guide (Titl"
+    },
+    "classified_at": 1787901834.6433852
+  },
+  "Scenario 2 \u2014 No Title style applied": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.983,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 130
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Title",
+        "style",
+        "document",
+        "title",
+        "applied",
+        "Scenario",
+        "Installation",
+        "Guide",
+        "docx",
+        "filename",
+        "No",
+        "converter"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 No Title style applied Consider a document saved as Installation_Guide.docx with no Title style applied anywhere in the document. Because the document does not contain a styled title, the converter falls back to the document filename when generating the DITA map title. No Title style applied .docx Style / Input DITA Output Document Name: Installation_Guide.docx Document Title: Not app"
+    },
+    "classified_at": 1787901834.6635914
+  },
+  "Title": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.991,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 280
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Title",
+        "root",
+        "title",
+        "style",
+        "publication",
+        "identifier",
+        "converter",
+        "document",
+        "becomes",
+        "system",
+        "element",
+        "bookmap"
+      ],
+      "compact_excerpt": "Title Abstract: This section covers the Title style in DOCX \u2014 its purpose as the root publication identifier, and two scenarios: a correctly applied title and a missing title. The converter maps the title to the <title> element of the root <map> or <bookmap> ; when no title is present, the converter falls back to the filename. The Title style is the primary identifier of your entire document \u2014 whe"
+    },
+    "classified_at": 1787901834.6775281
+  }
+}

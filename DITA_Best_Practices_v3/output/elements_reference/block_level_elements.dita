@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235705971" xml:lang="en-us">
+   <title>Block-level elements</title>
+   <shortdesc>structure larger sections of content such as paragraphs, sections, and steps.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>content</keyword>
+        <keyword>Task</keyword>
+        <keyword>level</keyword>
+        <keyword>elements</keyword>
+        <keyword>Main</keyword>
+        <keyword>container</keyword>
+        <indexterm>content</indexterm>
+        <indexterm>Task</indexterm>
+        <indexterm>level</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section id="sec_d431e7">
+         <p>Block-level elements structure larger sections of content such as paragraphs, sections, and steps.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>common block-level elements</title>
+            <tgroup cols="3">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <thead>
+                  <row>
+                     <entry>Element</entry>
+                     <entry>Parent Topic Type</entry>
+                     <entry>Purpose</entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;conbody&gt;</codeblock>
+                     </entry>
+                     <entry>Concept</entry>
+                     <entry>Main content container for concept topics</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;taskbody&gt;</codeblock>
+                     </entry>
+                     <entry>Task</entry>
+                     <entry>Main content container for task topics</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;refbody&gt;</codeblock>
+                     </entry>
+                     <entry>Reference</entry>
+                     <entry>Main content container for reference topics</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;troublebody&gt;</codeblock>
+                     </entry>
+                     <entry>Troubleshooting</entry>
+                     <entry>Main content container for troubleshooting topics</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;shortdesc&gt;</codeblock>
+                     </entry>
+                     <entry>All</entry>
+                     <entry>Brief summary; required for every topic</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;section&gt;</codeblock>
+                     </entry>
+                     <entry>Reference, Concept, and Troubleshooting</entry>
+                     <entry>Groups related content under a subheading</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;p&gt;</codeblock>
+                     </entry>
+                     <entry>All</entry>
+                     <entry>Basic paragraph</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;example&gt;</codeblock>
+                     </entry>
+                     <entry>Concept</entry>
+                     <entry>Demonstrates usage with real scenarios</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;prereq&gt;</codeblock>
+                     </entry>
+                     <entry>Task</entry>
+                     <entry>Prerequisites before starting a task</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;context&gt;</codeblock>
+                     </entry>
+                     <entry>Task</entry>
+                     <entry>Background information for the task</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;steps&gt;</codeblock>
+                     </entry>
+                     <entry>Task</entry>
+                     <entry>The actions a user needs to do to perform the task</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;result&gt;</codeblock>
+                     </entry>
+                     <entry>Task</entry>
+                     <entry>Outcome after completing all steps</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;postreq&gt;</codeblock>
+                     </entry>
+                     <entry>Task</entry>
+                     <entry>Follow-up actions after task completion</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;codeblock&gt;</codeblock>
+                     </entry>
+                     <entry>All</entry>
+                     <entry>Multi-line code with preserved formatting</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;table&gt;</codeblock>
+                     </entry>
+                     <entry>All</entry>
+                     <entry>Structured data in rows and columns</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </refbody>
+</reference>

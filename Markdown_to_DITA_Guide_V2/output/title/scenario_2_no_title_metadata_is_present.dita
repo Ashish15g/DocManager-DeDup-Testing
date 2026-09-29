@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560317" xml:lang="en-us">
+   <title>Scenario 2: No title metadata is present</title>
+   <shortdesc>Consider an index .md file in a folder named Kubernetes_user_doc .</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>title</keyword>
+        <keyword>metadata</keyword>
+        <keyword>present</keyword>
+        <keyword>kubernetes</keyword>
+        <keyword>User</keyword>
+        <keyword>Documentation</keyword>
+        <indexterm>title</indexterm>
+        <indexterm>metadata</indexterm>
+        <indexterm>present</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider an index .md file in a folder named <codeph>Kubernetes_user_doc</codeph>. This file has no title metadata but has an H1 (<codeph>#</codeph>). In this case, the converter generates the following DITA bookmap structure:</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>No title metadata is present</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>.md input</entry>
+                     <entry>DITA output</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>Folder: kubernetes_user_doc
+  Filename: index.md
+  # User Documentation</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;map id="kubernetes_user_doc"&gt;
+  &lt;title&gt; User Documentation&lt;/title&gt;
+  &lt;/map&gt;
+  OR
+  &lt;bookmap id="kubernetes_user_doc"&gt;
+  &lt;booktitle&gt;
+  &lt;mainbooktitle&gt; User Documentation &lt;/mainbooktitle&gt;
+  &lt;/booktitle&gt;
+  &lt;/bookmap&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The converter falls back to the H1 (<codeph>#</codeph>) for the root map title.</p></section></refbody>
+</reference>

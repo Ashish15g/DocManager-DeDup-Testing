@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_2_two_level_nested_bullet_list" xml:lang="en-us">
+   <title>Scenario 2 — Two-level nested bullet list</title>
+   <shortdesc>Consider a bulleted list with a second tier of bullet items beneath selected parent items,</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>level</keyword>
+        <keyword>List</keyword>
+        <keyword>Bullet</keyword>
+        <keyword>nested</keyword>
+        <keyword>bullet</keyword>
+        <keyword>later</keyword>
+        <indexterm>level</indexterm>
+        <indexterm>List</indexterm>
+        <indexterm>Bullet</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a bulleted list with a second tier of bullet items beneath selected parent items, using the Increase Indent button in the Home ribbon.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Two-level nested bullet list</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Heading 2]:</b> System Requirements   <b>[List Bullet, level 0]:</b> Supported platforms    <b>[List Bullet, level 1]:</b> Windows 10 and later    <b>[List Bullet, level 1]:</b> macOS 12 and later   <b>[List Bullet, level 0]:</b> Prerequisites    <b>[List Bullet, level 1]:</b> 8 GB RAM minimum    <b>[List Bullet, level 1]:</b> 20 GB free disk space</entry>
+                     <entry>
+                        <codeblock id="codeblock_hl3_w5z_kkc">
+&lt;concept id="system_requirements">
+  &lt;title>System Requirements&lt;/title>
+  &lt;conbody>
+    &lt;ul>
+      &lt;li>
+        Supported platforms
+        &lt;ul>
+          &lt;li>Windows 10 and later&lt;/li>
+          &lt;li>macOS 12 and later&lt;/li>
+        &lt;/ul>
+      &lt;/li>
+      &lt;li>
+        Prerequisites
+        &lt;ul>
+          &lt;li>8 GB RAM minimum&lt;/li>
+          &lt;li>20 GB free disk space&lt;/li>
+        &lt;/ul>
+      &lt;/li>
+    &lt;/ul>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b>Nested bullets are preserved when Word list levels are applied correctly.</p>
+<note type="note">Never simulate indentation using spaces or TAB characters in a Normal paragraph — this does not create a nested list structure, and the converter does not recognise it as such.</note>
+         </section>
+   </refbody>
+</reference>

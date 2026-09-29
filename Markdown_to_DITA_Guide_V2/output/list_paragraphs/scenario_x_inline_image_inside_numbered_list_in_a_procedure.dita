@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560354" xml:lang="en-us">
+   <title>Scenario X: Inline image inside numbered list in a procedure</title>
+   <shortdesc>Consider creating a new alarm notification procedure where an icon appears as part of the</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>procedure</keyword>
+        <keyword>notification</keyword>
+        <keyword>Click</keyword>
+        <keyword>Inline</keyword>
+        <keyword>inside</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>procedure</indexterm>
+        <indexterm>notification</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider creating a new alarm notification procedure where an icon appears as part of the instruction itself.</p><table frame="all" colsep="1" rowsep="1">
+            <title>Inline image inside a numbered list (procedure)</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+              <thead>
+                <row>
+                  <entry> .md input </entry>
+                  <entry> DITA output </entry>
+                </row>
+              </thead>
+              <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Creating a New Alarm Notification
+  1. Click the ![Add Icon](images/add-icon.png) icon.
+  2. Enter the notification details.
+  3. Click **Save**.</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;task id="creating_a_new_alarm_notification"&gt;
+  &lt;title&gt;Creating a New Alarm Notification&lt;/title&gt;
+  &lt;taskbody&gt;
+  &lt;steps&gt;
+  &lt;step&gt;
+  &lt;cmd&gt;
+  Click the &lt;image href="media/add-icon.png"&gt; &lt;alt&gt;Add Icon&lt;/alt&gt; &lt;/image&gt; icon.
+  &lt;/cmd&gt;
+  &lt;/step&gt;
+  &lt;step&gt;
+  &lt;cmd&gt;Enter the notification details.&lt;/cmd&gt;
+  &lt;/step&gt;
+  &lt;step&gt;
+  &lt;cmd&gt;Click &lt;uicontrol&gt;Save&lt;/uicontrol&gt;.&lt;/cmd&gt;
+  &lt;/step&gt;
+  &lt;/steps&gt;
+  &lt;/taskbody&gt;
+  &lt;/task&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table><p>
+            <b>Result:</b> The converter preserves the image as inline content within the step command. The image remains part of the instruction rather than becoming a separate figure or supporting image.</p>
+  </section></refbody>
+</reference>

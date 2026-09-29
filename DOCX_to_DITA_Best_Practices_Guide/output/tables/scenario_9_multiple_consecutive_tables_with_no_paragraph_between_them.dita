@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="scenario_9_multiple_consecutive_tables_with_no_paragraph_between_them" xml:lang="en-us">
+   <title>Scenario 9 — Multiple consecutive tables with no paragraph between them</title>
+   <shortdesc>Consider a section where two or more tables appear one after another without any paragraph</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>tables</keyword>
+        <keyword>paragraph</keyword>
+        <keyword>between</keyword>
+        <keyword>consecutive</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>Multiple</keyword>
+        <indexterm>tables</indexterm>
+        <indexterm>paragraph</indexterm>
+        <indexterm>between</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>Consider a section where two or more tables appear one after another without any paragraph between them.</p>
+      <p>
+         <b>Result:</b>Each Word table is converted independently into a separate DITA <codeph>&lt;simpletable&gt;</codeph> or <codeph>&lt;table&gt;</codeph> element. The converter does not automatically merge consecutive tables.</p>
+      <note type="tip"> If the tables are logically related, add a short bridging paragraph between
+      them in the .docx document.</note>
+   </conbody>
+</concept>

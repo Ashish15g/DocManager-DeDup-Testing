@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450408" xml:lang="en-us">
+   <title>Scenario 2 — Table with a &lt;caption&gt; element</title>
+   <refbody>
+      <section id="sec_d737e7">
+         <p>Consider a configuration parameter table where a <codeph>&lt;caption&gt;</codeph> element is inside the <codeph>&lt;table&gt;</codeph> element above the header.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Table with caption element</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_qzp_fb4_lkc">
+&lt;table>
+  &lt;caption>Server Configuration Parameters&lt;/caption>
+  &lt;tr>
+    &lt;th>Parameter&lt;/th>
+    &lt;th>Default Value&lt;/th>
+    &lt;th>Description&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Port&lt;/td>
+    &lt;td>8080&lt;/td>
+    &lt;td>Server listening port.&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Timeout&lt;/td>
+    &lt;td>60&lt;/td>
+    &lt;td>Session timeout in seconds.&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Enable SSL&lt;/td>
+    &lt;td>True&lt;/td>
+    &lt;td>Enables encrypted communication.&lt;/td>
+  &lt;/tr>
+&lt;/table></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_dc5_2b4_lkc">
+&lt;reference id="server_configuration_parameters">
+  &lt;title>Server Configuration Parameters&lt;/title>
+  &lt;refbody>
+    &lt;table>
+      &lt;title>Server Configuration Parameters&lt;/title>
+      &lt;tgroup cols="3">
+        &lt;colspec colname="c1"/>
+        &lt;colspec colname="c2"/>
+        &lt;colspec colname="c3"/>
+        &lt;thead>
+          &lt;row>
+            &lt;entry>Parameter&lt;/entry>
+            &lt;entry>Default Value&lt;/entry>
+            &lt;entry>Description&lt;/entry>
+          &lt;/row>
+        &lt;/thead>
+        &lt;tbody>
+          &lt;row>
+            &lt;entry>Port&lt;/entry>
+            &lt;entry>8080&lt;/entry>
+            &lt;entry>Server listening port.&lt;/entry>
+          &lt;/row>
+          &lt;row>
+            &lt;entry>Timeout&lt;/entry>
+            &lt;entry>60&lt;/entry>
+            &lt;entry>Session timeout in seconds.&lt;/entry>
+          &lt;/row>
+          &lt;row>
+            &lt;entry>Enable SSL&lt;/entry>
+            &lt;entry>True&lt;/entry>
+            &lt;entry>Enables encrypted communication.&lt;/entry>
+          &lt;/row>
+        &lt;/tbody>
+      &lt;/tgroup>
+    &lt;/table>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b> The converter produces a CALS <codeph>&lt;table&gt;</codeph> + <codeph>&lt;tgroup&gt;</codeph> because a <codeph>&lt;caption&gt;</codeph> element is present. The <codeph>&lt;caption&gt;</codeph> text is mapped to the DITA <codeph>&lt;title&gt;</codeph> element inside <codeph>&lt;table&gt;</codeph>.</p>
+         <note type="note"> Always use the native HTML <codeph>&lt;caption&gt;</codeph> element to add captions to tables. Only <codeph>&lt;caption&gt;</codeph> elements are mapped to DITA <codeph>&lt;title&gt;</codeph> elements. A <codeph>&lt;p&gt;</codeph> element placed above a table and used as a visual caption is mapped to a <codeph>&lt;p&gt;</codeph> element, not a <codeph>&lt;title&gt;</codeph>.</note>
+      </section>
+   </refbody>
+</reference>

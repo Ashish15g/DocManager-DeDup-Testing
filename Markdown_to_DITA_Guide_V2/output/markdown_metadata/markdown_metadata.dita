@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560309" xml:lang="en-us">
+   <title>Markdown metadata</title>
+   <abstract>This section explains how metadata is mapped to DITA titles, short descriptions,
+      authors, keywords, and prolog elements. It covers scenarios including title, description,
+      keywords, author, and missing metadata. The AI Agent learns how to process front matter,
+      generate DITA metadata, apply metadata precedence rules, and use fallback mechanisms when
+      metadata is unavailable.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>metadata</keyword>
+        <keyword>matter</keyword>
+        <keyword>keywords</keyword>
+        <keyword>DITA</keyword>
+        <keyword>Markdown</keyword>
+        <keyword>title</keyword>
+        <indexterm>metadata</indexterm>
+        <indexterm>matter</indexterm>
+        <indexterm>keywords</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+<p>Front matter is a structured metadata block located at the beginning of a Markdown file before any headings or body content. It is typically written using YAML syntax (delimited by <codeph>---</codeph>) or TOML syntax (delimited by <codeph>+++</codeph>) and contains document-level metadata that describes the content rather than forming part of the visible document body. Common front matter fields include the title, description, author, keywords, product name, version, audience, category, tags, and other attributes used by documentation systems, static site generators, and publishing workflows.</p>
+<p>Front matter plays a critical role in Markdown-to-DITA conversion because it provides explicit semantic information that may not be available within the body content itself. This information helps define topic titles, short descriptions, authorship information, keywords, navigation labels, etc. Consistent use of front matter improves conversion accuracy and reduces the need for the AI Agent to infer from the document content.</p>
+<p>The following table demonstrates how the front matter is mapped in DITA during conversion:</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Front matter fields</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>Front matter field</entry>
+                     <entry>DITA element</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>title</entry>
+                     <entry>
+                        <codeph>&lt;title&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>description</entry>
+                     <entry>
+                        <codeph>&lt;shortdesc&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>weight</entry>
+                     <entry>N/A (Hierarchy is determined using the index.md files)</entry>
+                  </row>
+                  <row>
+                     <entry>keywords</entry>
+                     <entry>
+                        <codeph>&lt;keywords&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>author</entry>
+                     <entry>
+                        <codeph>&lt;author&gt;</codeph>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table></conbody>
+</concept>

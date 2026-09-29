@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="headings" xml:lang="en-us">
+   <title>Headings</title>
+   <abstract> This section covers the Heading style in HTML — its role as the primary structural
+      mechanism that organizes a document's content into a named, hierarchical sequence of sections
+      — and four scenarios: headings applied in correct sequential order, a heading level skipped in
+      the hierarchy, a top-level heading absent from the document, and consecutive headings with no
+      body content between them. The converter reads each heading level to construct the DITA map
+      hierarchy, generating sub-maps, topic files, and topic type classifications from the heading
+      sequence and the content that follows each heading.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>heading</keyword>
+        <keyword>topic</keyword>
+        <keyword>content</keyword>
+        <keyword>Heading</keyword>
+        <keyword>HTML</keyword>
+        <keyword>level</keyword>
+        <indexterm>heading</indexterm>
+        <indexterm>topic</indexterm>
+        <indexterm>content</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+<p>A <b>Heading</b>style marks the beginning of a named section of content and assigns it a rank in the document hierarchy. It is the primary structural mechanism of any technical document — headings divide continuous content into discrete, named units, establish the parent-child relationships between those units, and create the navigational backbone that readers and publishing systems depend on.</p>
+<p>The heading hierarchy is expressed through levels: a top-level heading (Heading 1) names a major section; each lower-level heading (Heading 2 through Heading N) names a subsection within its parent. This ranked sequence carries the same structural meaning regardless of the format it is expressed. The level communicates the section's position in the hierarchy; the text communicates its subject.</p>
+<note type="note"> Only a semantically marked heading — applied through the document's native
+         heading mechanism — creates a genuine section boundary that a converter, search engine, or
+         publishing system can detect and act on.</note>
+<p>In well-formed HTML, headings are applied sequentially without skipping levels. An <codeph>&lt;h1&gt;</codeph> is followed by one or more <codeph>&lt;h2&gt;</codeph> elements, each <codeph>&lt;h2&gt;</codeph> may contain one or more <codeph>&lt;h3&gt;</codeph> elements, and so on.</p>
+<p>The converter reads the heading elements within the <codeph>&lt;body&gt;</codeph> of each HTML
+         file to determine how many DITA topic files to generate, how to title and nest them in the
+         Ditamap, and what topic type each one receives. It then analyzes the content that follows
+         each heading, such as paragraphs, lists, and tables, to classify the resulting topic as
+         Concept, Task, Reference, Troubleshooting, or Generic.</p>
+      <p>The following table shows how each HTML heading element maps to a DITA construct:</p>
+      <table frame="all" colsep="1" rowsep="1">
+         <title>Heading elements mapped to DITA</title>
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>HTML Element</b>
+                  </entry>
+                  <entry>
+                     <b>Maps To</b>
+                  </entry>
+                  <entry>
+                     <b>Generates</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <codeph>&lt;h1&gt;</codeph> with content</entry>
+                  <entry>Parent DITAMAP</entry>
+                  <entry>The <codeph>&lt;Heading 1&gt;</codeph> text becomes both the Ditamap title and the primary topic title. Generates a .ditamap file and a corresponding .dita topic file.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;h1&gt;</codeph> (no content)</entry>
+                  <entry>Navigation container</entry>
+                  <entry>A <codeph>&lt;topichead&gt;</codeph> element in the parent map. No DITA topic file is generated.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;h2&gt;</codeph>
+                  </entry>
+                  <entry>Child DITAMAP</entry>
+                  <entry>A child .ditamap file and a corresponding .dita topic file, referenced from the parent map.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;h3&gt;</codeph>
+                  </entry>
+                  <entry>Grandchild DITAMAP</entry>
+                  <entry>A nested .ditamap file and a corresponding .dita topic file, referenced from the child map.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeph>&lt;h4&gt;</codeph>–<codeph>&lt;h6&gt;</codeph>
+                  </entry>
+                  <entry>Lower-level DITAMAPs</entry>
+                  <entry>Additional nested .ditamap and .dita topic files at deeper nesting levels.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+<note type="warning"> Never use <codeph>&lt;strong&gt;</codeph> or <codeph>&lt;b&gt;</codeph>
+         elements to simulate headings. Bold text styled to look like a heading is not recognized as
+         a structural marker. The content that follows it is added to the preceding topic. Use
+         heading elements to define topic boundaries.</note>
+<p>The following scenarios demonstrate how different HTML heading structures are interpreted during HTML-to-DITA conversion and how they affect the generated Ditamap and topic hierarchy:</p></conbody>
+</concept>

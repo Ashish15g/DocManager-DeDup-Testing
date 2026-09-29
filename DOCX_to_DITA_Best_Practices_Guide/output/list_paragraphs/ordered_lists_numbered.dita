@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="ordered_lists_numbered" xml:lang="en-us">
+   <title>Ordered Lists (Numbered)</title>
+  <abstract>This section covers Ordered Lists in DOCX — items presented in a defined sequence where
+    position is significant — and twenty-one scenarios grouped across six categories: consecutive
+    and discontinuous numbered lists as procedures and workflows, single-item numbered lists,
+    two-level and three-level nested numbered lists, and interrupted numbered lists where an
+    admonition, paragraph, image, table, or bullet list appears between items. The converter maps
+    each ordered list to <codeph>&lt;ol&gt;&lt;li&gt;</codeph> in concept and reference topics, or
+    to <codeph>&lt;steps&gt;&lt;step&gt;&lt;cmd&gt;</codeph> in task topics, based on the heading
+    classification and content context.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>level</keyword>
+        <keyword>items</keyword>
+        <keyword>numbered</keyword>
+        <keyword>lists</keyword>
+        <keyword>Ordered</keyword>
+        <keyword>ordered</keyword>
+        <indexterm>level</indexterm>
+        <indexterm>items</indexterm>
+        <indexterm>numbered</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>An <b>ordered list</b> presents items in a defined sequence where the position of each item is significant. The ordered lists are universally used for step-by-step procedures, installation instructions, and ranked items.</p>
+      <p>For the reader, a numbered list communicates that sequence is contractual — item 2 depends on item 1 being completed, and performing the items out of order produces an incorrect or unsafe result. It is also a navigational reference that lets a reader say "I am on step 4" and return to the correct position after an interruption.</p>
+      <p>The list level is controlled by the Increase and Decrease Indent buttons, determines
+      nesting depth: level 1 is the top level, level 2 is the first nested level, level 3 is the
+      second, and so on. The list level assigned by list controls is what drives the nesting
+      structure in the DITA output.</p>
+    <p>Ordered lists in a .docx file present information in a defined sequence created using
+      numbered list, such as:</p>
+      <ul id="ul_07233408">
+         <li>Step-by-step procedures</li>
+         <li>Installation instructions</li>
+         <li>Ordered processes</li>
+         <li>Ranked or prioritized items</li>
+      </ul>
+      <p>The converter maps numbered lists according to the classified DITA topic type:</p>
+      <ul id="ul_07233409">
+         <li>In concept topics, the ordered process or ranked items becomes an <codeph>&lt;ol&gt;&lt;li&gt;</codeph> element inside <codeph>&lt;conbody&gt;</codeph>.</li>
+         <li>In task topics, the instructions or procedures becomes a <codeph>&lt;steps&gt;&lt;step&gt;&lt;cmd&gt;</codeph> structures inside <codeph>&lt;taskbody&gt;</codeph>.</li>
+      </ul>
+      <p>The equivalent of each ordered list paragraph style from the .docx file in the DITA conversion process is explained according to the scenarios in the following table:</p>
+   </conbody>
+</concept>

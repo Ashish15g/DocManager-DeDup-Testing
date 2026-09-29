@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_headingh3sinvkhm4qv9" xml:lang="en-us">
+   <title>Unordered lists</title>
+  <abstract><b>Abstract:</b>This section covers Unordered Lists — items presented as a co-equal
+    collection where position does not affect meaning — and seven scenarios: consecutive bullet
+    items, two-level nested bullet lists, three-level nested bullet lists, a block image between
+    bullet items, a paragraph between bullet items, a table inside a list item, and an admonition
+    between bullet items. The converter maps each unordered list to
+      <codeph>&lt;ul&gt;&lt;li&gt;</codeph> in concept and reference topics, or
+      <codeph>&lt;choices&gt;</codeph> in task topics, based on the heading classification and
+    content context.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>level</keyword>
+        <keyword>items</keyword>
+        <keyword>bullet</keyword>
+        <keyword>unordered</keyword>
+        <keyword>lists</keyword>
+        <keyword>DITA</keyword>
+        <indexterm>level</indexterm>
+        <indexterm>items</indexterm>
+        <indexterm>bullet</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>An <b>unordered list</b> presents a collection of co-equal items where position does not affect meaning. The unordered list is typically used for prerequisites, supported platforms, product features, available options, feature list, and even terms and definition.</p>
+      <p>For the reader, a bulleted list communicates that the items are parallel and independent — none depends on another, and the set is complete as presented. The reader does not need to track position or sequence, only membership in the set.</p>
+      <p>The list level is controlled by the Increase and Decrease Indent buttons, determines nesting depth: level 1 is the top level, level 2 is the first nested level, level 3 is the second, and so on. Sometimes they are also defined by the tab alignment.</p>
+      <ul>
+         <li>
+            <p>
+               <b>N</b>
+               <b>ote</b>
+               <b>:</b> The list level assigned by list controls is what drives the nesting structure in the DITA output.</p>
+            <p>A simple unordered list in Markdown is created by prefixing each item with a hyphen (<codeph>-</codeph>), asterisk (<codeph>*</codeph>), or plus sign (<codeph>+</codeph>). For example:</p>
+         </li>
+      </ul>
+      <codeblock xml:space="preserve">- Email notifications
+  - SMS notifications
+  - Webhook notifications
+  - Mobile push notifications</codeblock>
+      <p>The converter identifies unordered list structures and generates the corresponding DITA <codeph>&lt;ul&gt;</codeph> and <codeph>&lt;li&gt;</codeph> elements. Nested lists, images, tables, notes, continuation paragraphs, code examples, and other supporting content remain associated with the appropriate list item so that the hierarchy and relationships between parent and child items are preserved in the generated DITA output.</p>
+      <p>
+         <b>I</b>
+         <b>mportant</b>
+         <b>:</b> Use standard Markdown unordered list syntax to represent grouped information. Do not create bullet lists by manually inserting bullet characters or indentation within paragraphs, because these patterns are interpreted as ordinary paragraph text rather than as list structures during conversion.</p>
+      <p>The following scenarios demonstrate how different unordered list structures are interpreted during Markdown-to-DITA conversion and how they affect the generated DITA output.</p>
+   </conbody>
+</concept>

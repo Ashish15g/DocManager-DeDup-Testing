@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450335" xml:lang="en-us">
+   <title>Scenario 1 — Index file title becomes root Ditamap title</title>
+   <shortdesc>Consider an HTML package where the ZIP folder is named Printer_Docs. The index file contains</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>title</keyword>
+        <keyword>HTML</keyword>
+        <keyword>Printer</keyword>
+        <keyword>Index</keyword>
+        <keyword>User</keyword>
+        <keyword>Guide</keyword>
+        <indexterm>title</indexterm>
+        <indexterm>HTML</indexterm>
+        <indexterm>Printer</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+         <p>Consider an HTML package where the ZIP folder is named Printer_Docs. The index file contains a clear title, Printer User Guide, inside the <codeph>&lt;head&gt;</codeph> tag.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Title tag becomes ditamap title</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>ZIP folder name: <codeph>Printer_Docs</codeph></p>
+                        <p>Index file: <codeph>index.html</codeph></p>
+                        <p>Index file title: <codeph>&lt;head&gt;&lt;title&gt;Printer User Guide&lt;/title&gt;&lt;/head&gt;</codeph></p>
+                        <p>HTML files: <codeph>installation.html</codeph>,
+                              <codeph>maintenance.html</codeph></p>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_wsv_s45_lkc">
+&lt;map>
+    &lt;title>Printer User Guide&lt;/title>
+    &lt;mapref href="installation.ditamap"/>
+    &lt;mapref href="maintenance.ditamap"/>
+&lt;/map></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> When an index file contains a valid HTML <codeph>&lt;title&gt;</codeph> element, the converter uses that title (Printer User Guide) as the root Ditamap title. The ZIP folder name is used only when a suitable title is not present in the HTML package.</p>
+         </section>
+   </refbody>
+</reference>

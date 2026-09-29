@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="reference_topic" xml:lang="en-us">
+   <title>Reference Topic</title>
+   <shortdesc>A reference topic presents lookup data such as parameter tables, API fields, or configuration options</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>table</keyword>
+        <keyword>reference</keyword>
+        <keyword>parameter</keyword>
+        <keyword>Reference</keyword>
+        <keyword>Topic</keyword>
+        <keyword>topic</keyword>
+        <indexterm>table</indexterm>
+        <indexterm>reference</indexterm>
+        <indexterm>parameter</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody> 
+<p>A reference topic presents lookup data such as parameter tables, API fields, or configuration options that a user consults. The converter classifies a section as reference when the body is dominated by tables or parameter lists, or when the heading contains keywords such as reference, API, parameter, schema, or syntax.</p>
+<p>The generated topic uses <codeph>&lt;reference&gt;</codeph> with <codeph>&lt;refbody&gt;</codeph>, and table routing is determined by structure: a 2-column table in an API context maps to <codeph>&lt;properties&gt;</codeph>, a captioned or merged-cell table maps to CALS <codeph>&lt;table&gt;</codeph> + <codeph>&lt;tgroup&gt;</codeph>, and any other multi-column table maps to <codeph>&lt;simpletable&gt;</codeph>.</p>
+</conbody>
+</concept>

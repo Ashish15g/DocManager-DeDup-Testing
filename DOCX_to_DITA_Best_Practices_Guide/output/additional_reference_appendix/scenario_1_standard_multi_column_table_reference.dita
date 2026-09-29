@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_headinghorh14ptv1y5c" xml:lang="en-us">
+   <title>Scenario 1 — Standard Multi-Column Table Reference</title>
+   <shortdesc>This pattern is fully covered in: Tables › Scenario 1 — Standard multi-column table .</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>table</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>Standard</keyword>
+        <keyword>Multi</keyword>
+        <keyword>Column</keyword>
+        <keyword>Table</keyword>
+        <indexterm>table</indexterm>
+        <indexterm>Scenario</indexterm>
+        <indexterm>Standard</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>This pattern is fully covered in: <xref href="../tables/tables.dita" format="dita">Tables › Scenario 1 — Standard multi-column table</xref>. Refer to that scenario for the input/output detail. The notes below explain only the topic-type classification aspect.</p>
+      <p>A heading containing a lookup keyword combined with a multi-column table as the primary body content triggers reference classification. Non-table prose before the table is wrapped in a <codeph>&lt;section&gt;</codeph> inside <codeph>&lt;refbody&gt;</codeph>. For the <codeph>&lt;simpletable&gt;</codeph> construct output, see the BPG scenario above.</p>
+   </conbody>
+</concept>

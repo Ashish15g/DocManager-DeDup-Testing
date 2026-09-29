@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560295" xml:lang="en-us">
+   <title>Docusaurus</title>
+   <shortdesc>is an open-source React-based SSG designed for documentation. It builds a single-page app (SPA) with</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Docusaurus</keyword>
+        <keyword>React</keyword>
+        <keyword>Markdown</keyword>
+        <keyword>using</keyword>
+        <keyword>front</keyword>
+        <keyword>matter</keyword>
+        <indexterm>Docusaurus</indexterm>
+        <indexterm>React</indexterm>
+        <indexterm>Markdown</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>Docusaurus is an open-source React-based SSG designed for documentation. It builds a <b>single-page app (SPA)</b> with client-side navigation, using modern tooling. Documentation pages are authored in Markdown or MDX (Markdown + embedded JSX) and compiled to static HTML/JS using React. Docusaurus has built-in features for docs and blogs, plus versioning and i18n. It uses YAML front matter in each Markdown/MDX file to set titles and metadata. The front matter title and <codeph>sidebar_label</codeph> control how the page is titled on the site and in the sidebar. All .mdx and .md files are transformed via an MDX compiler into React components, so you can include JSX if needed.</p>
+   </conbody>
+</concept>

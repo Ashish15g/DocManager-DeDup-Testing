@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560390" xml:lang="en-us">
+   <title>Scenario 8: Table with an empty cell</title>
+   <shortdesc>Consider a Markdown table that shows operating system support for different deployment features. Some features</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Supported</keyword>
+        <keyword>empty</keyword>
+        <keyword>Windows</keyword>
+        <keyword>Integration</keyword>
+        <keyword>Table</keyword>
+        <keyword>table</keyword>
+        <indexterm>Supported</indexterm>
+        <indexterm>empty</indexterm>
+        <indexterm>Windows</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a Markdown table that shows operating system support for different deployment features. Some features may not be available on every platform, resulting in intentionally empty cells.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Table with an empty cell</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>.md input </entry>
+                     <entry>DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <pre>| Feature | Windows | Linux | macOS |
+  |----------|----------|----------|----------|
+  | Email Notifications | Supported | Supported | Supported |
+  | Windows Event Log Integration | Supported | | |
+  | Systemd Service Integration | | Supported | |</pre>
+                     </entry>
+                     <entry>
+                        <pre>
+                           
+                              
+                                 Feature
+                                 Windows
+                                 Linux
+                                 macOS
+                              
+                              
+                                 Email Notifications
+                                 Supported
+                                 Supported
+                                 Supported
+                              
+                              
+                                 Windows Event Log Integration
+                                 Supported
+                                 
+                                 
+                              
+                              
+                                 Systemd Service Integration
+                                 
+                                 Supported
+                                 
+                              
+                           
+                        </pre>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+   <b>Result:</b>Empty Markdown table cells are converted into empty DITA <codeph>&lt;stentry/&gt;</codeph>
+         elements. The converter preserves the table structure and column alignment even when some
+         values are missing.</p></section></refbody>
+</reference>

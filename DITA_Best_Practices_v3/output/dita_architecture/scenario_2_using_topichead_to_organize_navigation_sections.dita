@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="scenario_2_using_topichead_to_organize_navigation_sections" xml:lang="en-us">
+   <title>Scenario 2: using &lt;topichead&gt; to organize navigation sections</title>
+   <refbody><section>
+      <p>You are creating a web‑based help portal for a cloud application, and you want the navigation to show clear sections such as “Getting Started,” “Daily Tasks,” “Reference,” and “Troubleshooting.” Each section groups several related topics, but you don’t want these section titles to appear as standalone pages or topics in the content body.</p>
+      <p>You use <codeph>&lt;topichead&gt;</codeph> to define these navigation‑only headings in your DITA map:</p>
+      <codeblock>&lt;map&gt;
+         &lt;title&gt;Cloud App Help Portal&lt;/title&gt;
+         
+         &lt;topichead navtitle="Getting Started"&gt;
+         &lt;topicref href="c_welcome.dita"/&gt;
+         &lt;topicref href="t_create_account.dita"/&gt;
+         &lt;topicref href="t_first_login.dita"/&gt;
+         &lt;/topichead&gt;
+         
+         &lt;topichead navtitle="Daily Tasks"&gt;
+         &lt;topicref href="t_create_project.dita"/&gt;
+         &lt;topicref href="t_upload_files.dita"/&gt;
+         &lt;topicref href="t_share_project.dita"/&gt;
+         &lt;/topichead&gt;
+         
+         &lt;topichead navtitle="Reference"&gt;
+         &lt;topicref href="r_ui_overview.dita"/&gt;
+         &lt;topicref href="r_settings_options.dita"/&gt;
+         &lt;topicref href="r_keyboard_shortcuts.dita"/&gt;
+         &lt;/topichead&gt;
+         
+         &lt;topichead navtitle="Troubleshooting"&gt;
+         &lt;topicref href="ts_login_issues.dita"/&gt;
+         &lt;topicref href="ts_file_upload_errors.dita"/&gt;
+         &lt;/topichead&gt;
+         &lt;/map&gt;
+      </codeblock>
+   </section></refbody>
+</reference>

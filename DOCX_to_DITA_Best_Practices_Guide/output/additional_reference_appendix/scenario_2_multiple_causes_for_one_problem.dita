@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_2_multiple_causes_for_one_problem" xml:lang="en-us">
+   <title>Scenario 2 — Multiple causes for one problem</title>
+   <shortdesc>Consider a .docx document containing one condition followed by multiple causes and corresponding remedies.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>cause</keyword>
+        <keyword>remedy</keyword>
+        <keyword>causes</keyword>
+        <keyword>problem</keyword>
+        <keyword>Printer</keyword>
+        <keyword>Normal</keyword>
+        <indexterm>cause</indexterm>
+        <indexterm>remedy</indexterm>
+        <indexterm>causes</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+     <section>
+    <p>Consider a .docx document containing one condition followed by multiple causes and corresponding remedies. The following example shows how the converter transforms this structure into a DITA <codeph>&lt;troubleshooting&gt;</codeph> topic.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Troubleshooting: multiple causes, one problem</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>.docx Style / Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>[Heading 2]: The Printer Does Not Print [Normal, Bold run: "Cause 1:"] Paper tray is empty. [Normal, Bold run: "Remedy:"] [List Number]: 1. Load paper into the paper tray. [Normal, Bold run: "Cause 2:"] Printer is offline. [Normal, Bold run: "Remedy:"] [List Number]: 1. Reconnect the printer to the network.</entry>
+               <entry>
+                <codeblock id="codeblock_qmd_cjr_kkc">
+&lt;troubleshooting id="the_printer_does_not_print">
+  &lt;title>The Printer Does Not Print&lt;/title>
+  &lt;troublebody>
+    &lt;condition>
+      &lt;title>Condition&lt;/title>
+      &lt;p>The printer does not print.&lt;/p>
+    &lt;/condition>
+    &lt;troubleSolution>
+      &lt;cause id="cause_jb3_nwj_rjc">
+        &lt;title>Cause 1&lt;/title>
+        &lt;p>Paper tray is empty.&lt;/p>
+      &lt;/cause>
+      &lt;remedy id="remedy_kb3_nwj_rjc">
+        &lt;title>Remedy&lt;/title>
+        &lt;steps id="steps_lb3_nwj_rjc">
+          &lt;step>
+            &lt;cmd>Load paper.&lt;/cmd>
+          &lt;/step>
+        &lt;/steps>
+      &lt;/remedy>
+    &lt;/troubleSolution>
+    &lt;troubleSolution>
+      &lt;cause id="cause_qb3_nwj_rjc">
+        &lt;title>Cause 2&lt;/title>
+        &lt;p>Printer is offline.&lt;/p>
+      &lt;/cause>
+      &lt;remedy id="remedy_vhq_dwj_rjc">
+        &lt;title>Remedy&lt;/title>
+        &lt;steps id="steps_usn_2wj_rjc">
+          &lt;step>
+            &lt;cmd>Reconnect printer.&lt;/cmd>
+          &lt;/step>
+        &lt;/steps>
+      &lt;/remedy>
+    &lt;/troubleSolution>
+  &lt;/troublebody>
+&lt;/troubleshooting></codeblock>
+              </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b> Each cause-and-remedy pair produces its own <codeph>&lt;troubleSolution&gt;</codeph>, while the shared problem heading maps to a single <codeph>&lt;condition&gt;</codeph> at the top of <codeph>&lt;troublebody&gt;</codeph>.</p>
+  </section>
+   </refbody>
+</reference>

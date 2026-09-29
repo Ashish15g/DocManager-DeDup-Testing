@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450436" xml:lang="en-us">
+   <title>Concept Topic</title>
+   <shortdesc>A concept section is recognized by a descriptive or noun-phrase heading such as "Print Quality,"</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>concept</keyword>
+        <keyword>topic</keyword>
+        <keyword>Concept</keyword>
+        <keyword>element</keyword>
+        <keyword>table</keyword>
+        <keyword>Topic</keyword>
+        <indexterm>concept</indexterm>
+        <indexterm>topic</indexterm>
+        <indexterm>Concept</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>A concept section is recognized by a descriptive or noun-phrase heading such as "Print Quality," "Connection Modes," or "How the Print Spooler Works," paired with a body of explanatory paragraphs, definition tables, or comparison tables. No ordered list as the dominant body structure.</p>
+      <p>When these signals align, the converter generates a:</p>
+      <ul id="ul_09045204">
+         <li>
+            <codeph>&lt;concept&gt;</codeph> element with <codeph>&lt;conbody&gt;</codeph>.</li>
+         <li>The opening paragraph maps to <codeph>&lt;shortdesc&gt;</codeph> and subsequent paragraphs map to <codeph>&lt;p&gt;</codeph> inside <codeph>&lt;conbody&gt;</codeph>.</li>
+         <li>Tables in a concept topic always map to <codeph>&lt;simpletable&gt;</codeph> unless a <codeph>&lt;caption&gt;</codeph> element or merged cells are present, in which case the table routes to a CALS <codeph>&lt;table&gt;</codeph>.</li>
+         <li>A 2-column table in a concept topic never maps to <codeph>&lt;properties&gt;</codeph> — that element is only generated in a Reference topic with an API keyword context.</li>
+      </ul>
+      <p>The following scenarios demonstrate how different HTML heading and content patterns influence Concept topic classification:</p>
+   </conbody>
+</concept>

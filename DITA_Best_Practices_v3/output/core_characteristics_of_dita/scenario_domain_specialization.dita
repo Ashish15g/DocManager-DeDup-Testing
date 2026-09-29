@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705889" xml:lang="en-us">
+   <title>Scenario: domain specialization</title>
+   <shortdesc>A pharmaceutical company needs documentation that includes:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>elements</keyword>
+        <keyword>domain</keyword>
+        <keyword>DITA</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>specialization</keyword>
+        <keyword>company</keyword>
+        <indexterm>elements</indexterm>
+        <indexterm>domain</indexterm>
+        <indexterm>DITA</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section>
+      <p>A pharmaceutical company needs documentation that includes:<ul id="ul_11014304">
+        <li>Clinical procedure steps with required timing windows</li>
+        <li>Regulatory compliance checkpoints</li>
+        <li>Batch lot tracking requirements</li>
+      </ul></p>
+      <p>Rather than forcing these requirements into generic DITA elements, the company creates specialized elements:</p>
+      <codeblock>
+         
+            Administer the medication.
+            Within 30 minutes of preparation
+&lt;compliance-checkpoint ref="FDA-21CFR11"/&gt;
+&lt;batch-tracking lot-id="required"/&gt;
+
+      </codeblock>
+      <p>These specialized elements inherit behaviours from standard DITA elements while adding domain-specific semantics. Standard DITA tools can still process the content. Domain-specific tools can enforce additional validation.</p>
+   </section></refbody>
+</reference>

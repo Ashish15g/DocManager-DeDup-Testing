@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450342" xml:lang="en-us">
+   <title>Scenario 1 — Headings applied correctly</title>
+   <shortdesc>Consider an HTML document with the following heading structure: &lt;heading 1&gt; "Printer Installation" containing &lt;heading</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>heading</keyword>
+        <keyword>Printer</keyword>
+        <keyword>Installation</keyword>
+        <keyword>Headings</keyword>
+        <keyword>applied</keyword>
+        <keyword>correctly</keyword>
+        <indexterm>heading</indexterm>
+        <indexterm>Printer</indexterm>
+        <indexterm>Installation</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+      <section>
+    <p>Consider an HTML document with the following heading structure: <codeph>&lt;heading 1&gt;</codeph> "Printer Installation" containing <codeph>&lt;heading 2&gt;</codeph> "Printer Prerequisites" (concept) and <codeph>&lt;heading 2&gt;</codeph> "Install the Printer Driver" (task).</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Headings applied correctly</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;h1 id="printer-installation">Printer Installation&lt;/h1>
+&lt;h2 id="printer-prerequisites">Printer Prerequisites&lt;/h2>
+&lt;h2 id="install-printer-driver">Install the Printer Driver&lt;/h2></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;map id="printer_installation">
+  &lt;title>Printer Installation&lt;/title>
+  &lt;topicref href="printer_prerequisites.dita"/>
+  &lt;topicref href="install_printer_driver.dita"/>
+&lt;/map></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> The <codeph>&lt;heading1&gt;</codeph> section (<b>Installation</b>) creates a dedicated DITAMAP. Each <codeph>&lt;heading 2&gt;</codeph> section becomes a separate child dita topic referenced through a <codeph>&lt;topicref&gt;</codeph> element. The converter classifies topic types according to the content pattern following each heading:</p>
+         <ul id="ul_09045105">
+            <li>
+               <b>Prerequisites</b>
+            </li>
+            <li>
+               <b>Install on Linux</b>
+            </li>
+         </ul><p>This structure preserves both the document hierarchy and the semantic meaning of the content.</p>
+  </section>
+   </refbody>
+</reference>

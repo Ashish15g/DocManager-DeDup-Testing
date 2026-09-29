@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450375" xml:lang="en-us">
+   <title>Scenario 19 — Table Between Numbered List in a Procedure</title>
+   <refbody>
+      <section id="sec_d539e7">
+         <p>Consider a procedure where the author inserts a configuration table between two numbered steps as plain reference information.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Table between steps in procedure</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_onf_mgp_lkc">
+&lt;h2 id="configure-server">Configure the Server&lt;/h2>
+&lt;ol>
+  &lt;li>
+    Open the server configuration file.
+    &lt;table>
+      &lt;caption>Server parameters&lt;/caption>
+      &lt;tr>
+        &lt;th>Parameter&lt;/th>
+        &lt;th>Value&lt;/th>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Port&lt;/td>
+        &lt;td>8080&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Timeout&lt;/td>
+        &lt;td>60&lt;/td>
+      &lt;/tr>
+    &lt;/table>
+  &lt;/li>
+  &lt;li>Save the configuration file.&lt;/li>
+&lt;/ol></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_vqy_4gp_lkc">
+&lt;task id="configure_server">
+  &lt;title>Configure the Server&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Open the server configuration file.&lt;/cmd>
+        &lt;info>
+          &lt;table>
+            &lt;title>Server parameters&lt;/title>
+            &lt;tgroup cols="2">
+              &lt;colspec colname="c1"/>
+              &lt;colspec colname="c2"/>
+              &lt;thead>
+                &lt;row>
+                  &lt;entry>Parameter&lt;/entry>
+                  &lt;entry>Value&lt;/entry>
+                &lt;/row>
+              &lt;/thead>
+              &lt;tbody>
+                &lt;row>
+                  &lt;entry>Port&lt;/entry>
+                  &lt;entry>8080&lt;/entry>
+                &lt;/row>
+                &lt;row>
+                  &lt;entry>Timeout&lt;/entry>
+                  &lt;entry>60&lt;/entry>
+                &lt;/row>
+              &lt;/tbody>
+            &lt;/tgroup>
+          &lt;/table>
+        &lt;/info>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Save the configuration file.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result</b>: The table is mapped to <codeph>&lt;choicetable&gt;</codeph> because it presents options that the user must choose from while performing the step, rather than a plain reference table.</p>
+      </section>
+   </refbody>
+</reference>

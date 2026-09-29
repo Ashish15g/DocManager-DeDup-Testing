@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450416" xml:lang="en-us">
+   <title>Scenario 10 — 2-column table in an API reference section</title>
+   <refbody>
+      <section id="sec_d725e7">
+         <p>Consider a 2-column table inside a section classified as an API reference topic — for example, a parameter list or API attribute table where the heading contains a keyword such as "API", "parameters", or "reference".</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Two-column table, API reference</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_w1k_3wn_lkc">
+&lt;h2 id="api-parameters">API Parameters&lt;/h2>
+
+&lt;table>
+  &lt;tr>
+    &lt;th>Parameter&lt;/th>
+    &lt;th>Description&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>timeout&lt;/td>
+    &lt;td>Request timeout in seconds.&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>retry_count&lt;/td>
+    &lt;td>Number of retry attempts.&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>log_level&lt;/td>
+    &lt;td>Logging verbosity.&lt;/td>
+  &lt;/tr>
+&lt;/table></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_zlm_jwn_lkc">
+&lt;reference id="api_parameters">
+  &lt;title>API Parameters&lt;/title>
+  &lt;refbody>
+    &lt;properties>
+      &lt;prophead>
+        &lt;proptypehd>Parameter&lt;/proptypehd>
+        &lt;propvaluehd>Description&lt;/propvaluehd>
+      &lt;/prophead>
+      &lt;property>
+        &lt;proptype>timeout&lt;/proptype>
+        &lt;propvalue>Request timeout in seconds.&lt;/propvalue>
+      &lt;/property>
+      &lt;property>
+        &lt;proptype>retry_count&lt;/proptype>
+        &lt;propvalue>Number of retry attempts.&lt;/propvalue>
+      &lt;/property>
+      &lt;property>
+        &lt;proptype>log_level&lt;/proptype>
+        &lt;propvalue>Logging verbosity.&lt;/propvalue>
+      &lt;/property>
+    &lt;/properties>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> The converter recognises the API reference context from the heading keyword and maps the 2-column <codeph>&lt;table&gt;</codeph> to <codeph>&lt;properties&gt;</codeph>. For general comparison tables, status tables, or multi-column reference data, the converter maps to <codeph>&lt;simpletable&gt;</codeph> or CALS <codeph>&lt;table&gt;</codeph> instead.</p>
+      </section>
+   </refbody>
+</reference>

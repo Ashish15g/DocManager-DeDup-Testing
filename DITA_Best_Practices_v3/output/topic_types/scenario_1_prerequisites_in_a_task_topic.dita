@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705933" xml:lang="en-us">
+   <title>Scenario 1: prerequisites in a task topic</title>
+   <shortdesc>Consider a "Configure VPN" chapter in a "Network Administration Guide" document where you want to</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>prerequisites</keyword>
+        <keyword>Windows</keyword>
+        <keyword>topic</keyword>
+        <keyword>Configure</keyword>
+        <keyword>Network</keyword>
+        <keyword>Settings</keyword>
+        <indexterm>prerequisites</indexterm>
+        <indexterm>Windows</indexterm>
+        <indexterm>topic</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a "Configure VPN" chapter in a "Network Administration Guide" document where you want to correctly place the prerequisites in the task topic.</p>
+      <codeblock id="codeblock_ndb_2qs_kkc">&lt;task id="configure-vpn" title="Configure VPN on Windows 10"&gt;
+&lt;shortdesc&gt;
+Configure a site-to-site VPN connection on a Windows 10 machine.
+&lt;/shortdesc&gt;
+&lt;prereq&gt;
+&lt;p&gt;Before you begin, ensure the following prerequisites are met:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+Administrator privileges on the Windows 10 machine.
+&lt;/li&gt;
+&lt;li&gt;
+IP addresses and shared secret from the VPN gateway
+administrator.
+&lt;/li&gt;
+&lt;li&gt;
+Firewall ports 500 and 4500 are open between the client
+and gateway.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/prereq&gt;
+&lt;context&gt;
+&lt;p&gt;
+This task applies to Windows 10 (version 1903 and later).
+&lt;/p&gt;
+&lt;/context&gt;
+&lt;steps&gt;
+&lt;step id="step-1"&gt;
+&lt;cmd&gt;
+Open &lt;menucascade&gt; &lt;uicontrol&gt;Settings&lt;/uicontrol&gt; &lt;uicontrol&gt;Network &amp; Internet&lt;/uicontrol&gt; &lt;uicontrol&gt;VPN&lt;/uicontrol&gt; &lt;/menucascade&gt;.
+&lt;/cmd&gt;
+&lt;info&gt;
+&lt;p&gt;
+Settings path: &lt;menucascade&gt; &lt;uicontrol&gt;Settings&lt;/uicontrol&gt; &lt;uicontrol&gt;Network &amp; Internet&lt;/uicontrol&gt; &lt;uicontrol&gt;VPN&lt;/uicontrol&gt; &lt;/menucascade&gt;.
+&lt;/p&gt;
+&lt;/info&gt;
+&lt;/step&gt;
+&lt;/steps&gt;
+&lt;result&gt;
+&lt;p&gt;
+The VPN connection appears in the VPN list and you can connect to the site network.
+&lt;/p&gt;
+&lt;/result&gt;
+&lt;/task&gt;</codeblock><p>
+         <b>Result:</b> Place environment, permission, and system prerequisites in the <codeph>&lt;prereq&gt;</codeph> element so processors and output formats can surface them before the procedure.</p>
+  </section></refbody>
+</reference>

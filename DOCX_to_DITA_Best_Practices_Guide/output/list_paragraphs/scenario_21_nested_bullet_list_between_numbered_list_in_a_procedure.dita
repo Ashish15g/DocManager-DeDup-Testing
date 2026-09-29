@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_21_nested_bullet_list_between_numbered_list_in_a_procedure" xml:lang="en-us">
+   <title>Scenario 21 — Nested Bullet List Between Numbered List in a Procedure</title>
+   <shortdesc>Consider a procedure where a step's supporting bullet list itself contains a second, deeper level</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>List</keyword>
+        <keyword>level</keyword>
+        <keyword>Bullet</keyword>
+        <keyword>bullets</keyword>
+        <keyword>Installation</keyword>
+        <keyword>installation</keyword>
+        <indexterm>List</indexterm>
+        <indexterm>level</indexterm>
+        <indexterm>Bullet</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+    <p>Consider a procedure where a step's supporting bullet list itself contains a second, deeper level of nested bullets — for example, a general prerequisite item followed by a sub-list of specific requirements under one of its bullets.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Nested bullet list between steps</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Heading 2]:</b>Prepare the Environment <b>[List Number]:</b>Verify the following prerequisites are met. <b>[List Bullet]:</b>Administrator access is available. <b>[List Bullet]:</b>Network requirements: <b>[List Bullet, level 2]:</b>Static IP address configured. <b>[List Bullet, level 2]:</b>Port 443 open for outbound traffic. <b>[List Number]:</b>Run the installer.</entry>
+                     <entry>
+                        <codeblock id="codeblock_hcv_35z_kkc">
+&lt;task id="prepare_the_environment">
+  &lt;title>Prepare the Environment&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Verify the following prerequisites are met.&lt;/cmd>
+        &lt;info>
+          &lt;ul>
+            &lt;li>Administrator access is available.&lt;/li>
+            &lt;li>Network requirements:
+              &lt;ul>
+                &lt;li>Static IP address configured.&lt;/li>
+                &lt;li>Port 443 open for outbound traffic.&lt;/li>
+              &lt;/ul>
+            &lt;/li>
+          &lt;/ul>
+        &lt;/info>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Run the installer.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+    <p>Result: The converter preserves both bullet levels as supporting information rather than promoting either level to a procedural step. The mapping becomes:</p><ul id="ul_07233411">
+            <li>Parent numbered item → <codeph>&lt;step&gt;&lt;cmd&gt;</codeph>
+            </li>
+            <li>First-level bullets → <codeph>&lt;info&gt;&lt;ul&gt;</codeph>
+            </li>
+            <li>Second-level bullets → a nested <codeph>&lt;ul&gt;</codeph> inside the enclosing <codeph>&lt;li&gt;</codeph>
+            </li>
+         </ul><p>Similarly, consider a procedure where one of the selectable options itself carries a short explanatory sub-list — for example, clarifying what additional input or configuration a specific option requires, rather than introducing separate procedural steps or additional top-level choices.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Sub-list for a selectable option</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Heading 2]:</b>Select Installation Type <b>[List Number]:</b>Choose the installation type. <b>[List Bullet]:</b>Typical Installation <b>[List Bullet]:</b>Custom Installation <b>[List Bullet, level 2]:</b>Requires manual selection of components. <b>[List Bullet, level 2]:</b>Requires a target install path. <b>[List Number]:</b>Start the installation.</entry>
+                     <entry>
+                        <codeblock id="codeblock_m4s_m5z_kkc">
+&lt;task id="select_installation_type">
+  &lt;title>Select Installation Type&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Choose the installation type.&lt;/cmd>
+        &lt;choices>
+          &lt;choice>Typical Installation&lt;/choice>
+          &lt;choice>Custom Installation
+            &lt;ul>
+              &lt;li>Requires manual selection of components.&lt;/li>
+              &lt;li>Requires a target install path.&lt;/li>
+            &lt;/ul>
+          &lt;/choice>
+        &lt;/choices>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Start the installation.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>Result: The converter preserves the outer bullet list as <codeph>&lt;choices&gt;</codeph>/<codeph>&lt;choice&gt;</codeph>because the items represent mutually exclusive, user-selectable options rather than plain descriptive bullets. The sub-bullets under Custom Installation are retained as a nested <codeph>&lt;ul&gt;</codeph> inside that specific <codeph>&lt;choice&gt;</codeph>, since they clarify a condition of that one option rather than introducing separate steps or additional top-level choices. The mapping becomes:</p>
+         <ul id="ul_07233412">
+            <li>Parent numbered item → <codeph>&lt;step&gt;&lt;cmd&gt;</codeph>
+            </li>
+            <li>First-level bullets → <codeph>&lt;choices&gt;&lt;choice&gt;</codeph>
+            </li>
+            <li>The second-level <codeph>&lt;ul&gt;</codeph> stays nested inside its parent <codeph>&lt;choice&gt;</codeph>, scoped only to the option it clarifies</li>
+         </ul>
+  </section>
+   </refbody>
+</reference>

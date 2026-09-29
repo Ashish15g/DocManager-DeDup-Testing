@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450440" xml:lang="en-us">
+   <title>Generic Topic</title>
+   <shortdesc>A Generic topic is the converter's fallback classification when the heading and body content together</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Generic</keyword>
+        <keyword>classification</keyword>
+        <keyword>topic</keyword>
+        <keyword>heading</keyword>
+        <keyword>content</keyword>
+        <keyword>converter</keyword>
+        <indexterm>Generic</indexterm>
+        <indexterm>classification</indexterm>
+        <indexterm>topic</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>A Generic topic is the converter's fallback classification when the heading and body content together do not provide sufficient signals to identify a Concept, Task, Reference, or Troubleshooting pattern. The most common triggers are a descriptive heading followed only by a <codeph>&lt;ul&gt;</codeph> list, mixed body content where no single element type is dominant, a heading verb and body structure that conflict, or a section with no introductory paragraph and no table or ordered list. A <codeph>&lt;ul&gt;</codeph> list on its own never triggers task classification — task classification requires both an imperative heading and an <codeph>&lt;ol&gt;</codeph> as the primary body content.</p>
+      <p>When Generic classification is assigned, the converter generates a standard <codeph>&lt;topic&gt;</codeph> element with <codeph>&lt;body&gt;</codeph>. All supported HTML elements are mapped in document order without applying the specialized structures associated with other topic types. When no introductory paragraph is present, the converter writes an empty <codeph>&lt;shortdesc&gt;</codeph> and flags it at WARNING severity in the conversion report. Generic topics are also flagged as candidates for manual reclassification if the content appears to match a more specific topic type.</p>
+      <p>The following scenarios demonstrate how different HTML patterns result in Generic classification during HTML-to-DITA conversion:</p>
+   </conbody>
+</concept>

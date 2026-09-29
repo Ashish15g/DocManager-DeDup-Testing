@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headingh61yydh4qkik4" xml:lang="en-us">
+   <title>Scenario 20 — Bullet List between Numbered List in a Procedure</title>
+   <shortdesc>Consider a procedure where the author inserts a bulleted list of prerequisite or reference items</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>List</keyword>
+        <keyword>between</keyword>
+        <keyword>installer</keyword>
+        <keyword>Bullet</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>Numbered</keyword>
+        <indexterm>List</indexterm>
+        <indexterm>between</indexterm>
+        <indexterm>installer</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+         <p>Consider a procedure where the author inserts a bulleted list of prerequisite or reference items between two numbered steps to provide supporting information before the next action.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Bullet list between steps in procedure</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;h2 id="prepare-the-environment">Prepare the Environment&lt;/h2>
+&lt;ol>
+  &lt;li>
+    Verify the following prerequisites are met.
+    &lt;ul>
+      &lt;li>Administrator access is available.&lt;/li>
+      &lt;li>The installer has been downloaded.&lt;/li>
+    &lt;/ul>
+  &lt;/li>
+  &lt;li>Run the installer.&lt;/li>
+&lt;/ol></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;task id="prepare_the_environment">
+  &lt;title>Prepare the Environment&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Verify the following prerequisites are met.&lt;/cmd>
+        &lt;info>
+          &lt;ul>
+            &lt;li>Administrator access is available.&lt;/li>
+            &lt;li>The installer has been downloaded.&lt;/li>
+          &lt;/ul>
+        &lt;/info>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Run the installer.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> The converter associates the bullet list with the preceding procedural step and places all supporting content inside <codeph>&lt;step&gt;&lt;info&gt;</codeph>.</p>
+      </section>
+   </refbody>
+</reference>

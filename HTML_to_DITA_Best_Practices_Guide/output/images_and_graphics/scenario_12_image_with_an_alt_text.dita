@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450404" xml:lang="en-us">
+   <title>Scenario 12 — Image with an Alt Text</title>
+   <refbody>
+      <section id="sec_d365e7">
+         <p>The alt attribute on an HTML <codeph>&lt;img&gt;</codeph> element provides a short text description of the image for readers who cannot see it, such as those using screen readers. It is a required attribute for accessibility compliance.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image with alt text</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_g12_rd4_lkc">
+&lt;img src="media/print_head_diagram.png"
+     alt="Diagram showing the print head path inside the printer"/></codeblock>
+                     </entry>
+                    
+                   
+                    
+                     <entry>
+                        <codeblock id="codeblock_yr5_td4_lkc">
+&lt;image href="media/print_head_diagram.png">
+  &lt;alt>Diagram showing the print head path inside the printer&lt;/alt>
+&lt;/image></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b> The converter extracts the <codeph>alt</codeph> attribute value from the HTML <codeph>&lt;img&gt;</codeph> element and maps it to the DITA <codeph>&lt;alt&gt;</codeph> element inside <codeph>&lt;image&gt;</codeph>, preserving the image description for accessibility and assistive technologies.</p>
+      </section>
+   </refbody>
+</reference>

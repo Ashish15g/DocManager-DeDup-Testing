@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="_Toc238560306" xml:lang="en-us">
+   <title>Root index or TOC</title>
+  <abstract>This section covers the Table of Contents and Root Index — the navigation structure that
+    maps the publication hierarchy and serves as the converter's primary entry point for building
+    the root DITA map — and two scenarios: a root index file present in the package, and a missing
+    root index file. The converter reads the root index to construct the DITA map hierarchy and
+    topic references; when no root index is present, it falls back to the package folder name or
+    filename as the root map title.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>index</keyword>
+        <keyword>Root</keyword>
+        <keyword>navigation</keyword>
+        <keyword>hierarchy</keyword>
+        <keyword>structure</keyword>
+        <keyword>publication</keyword>
+        <indexterm>index</indexterm>
+        <indexterm>Root</indexterm>
+        <indexterm>navigation</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>    <section>
+      <p>A <b>table of contents or root index</b> is the navigation structure of a publication. It declares the document's complete hierarchy in one place — the titles, sequence, and parent-child relationships of all sections, chapters, and topics — and provides the entry point from which readers and systems navigate the entire deliverable.</p>
+      <p>For the publishing system, the table of contents or root index is the structural anchor of the entire output — every generated navigation artifact, including the PDF bookmark.</p>
+    </section></conbody>
+</concept>

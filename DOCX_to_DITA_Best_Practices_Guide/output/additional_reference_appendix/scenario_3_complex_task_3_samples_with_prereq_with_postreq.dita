@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headinghiod9ia4kwe3" xml:lang="en-us">
+   <title>Scenario 3 — Complex Task (3 samples — with prereq, with postreq)</title>
+   <shortdesc>A task can carry supporting information beyond a plain sequence of steps: prerequisites before the</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>List</keyword>
+        <keyword>Number</keyword>
+        <keyword>Settings</keyword>
+        <keyword>prerequisites</keyword>
+        <keyword>Complex</keyword>
+        <keyword>Firmware</keyword>
+        <indexterm>List</indexterm>
+        <indexterm>Number</indexterm>
+        <indexterm>Settings</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+      <section>
+    <p>A task can carry supporting information beyond a plain sequence of steps: prerequisites before the first step, a post requisite after the last step, or both together.</p>
+         <p>
+            <b>Sample 1 — Prerequisites only</b>
+         </p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Complex task, prerequisites only</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Heading 2]: Update the Firmware [Normal]: Complete the following prerequisites: [List Bullet]: Printer is connected to the internet. [List Bullet]: Battery level is above 50%. [List Number]: 1. Open the Settings menu. [List Number]: 2. Select Firmware -&gt; Check for Updates. [List Number]: 3. Follow the on-screen prompts.</entry>
+                     <entry>
+                        <codeblock id="codeblock_wks_3br_kkc">
+&lt;task id="update_the_firmware">
+  &lt;title>Update the Firmware&lt;/title>
+  &lt;taskbody>
+    &lt;prereq>
+      &lt;p>Complete the following prerequisites:&lt;/p>
+      &lt;ul>
+        &lt;li>Printer is connected to the internet.&lt;/li>
+        &lt;li>Battery level is above 50%.&lt;/li>
+      &lt;/ul>
+    &lt;/prereq>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Open the Settings menu.&lt;/cmd>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Select Firmware &amp;gt; Check for Updates.&lt;/cmd>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Follow the on-screen prompts.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Sample 2 — Postrequisite only</b>
+         </p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Complex task, postrequisite only</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Heading 2]: Restore Factory Settings [List Number]: 1. Open the Settings menu. [List Number]: 2. Select Reset &gt; Restore Factory Settings. [List Number]: 3. Confirm the reset when prompted. [Normal]: The device restarts automatically and all custom settings are erased.</entry>
+                     <entry>
+                        <codeblock id="codeblock_al4_qcr_kkc">
+&lt;task id="restore_factory_settings">
+  &lt;title>Restore Factory Settings&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Open the Settings menu.&lt;/cmd>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Select Reset &amp;gt; Restore Factory Settings.&lt;/cmd>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Confirm the reset when prompted.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+    &lt;postreq>
+      &lt;p>The device restarts automatically and all custom settings are erased.&lt;/p>
+    &lt;/postreq>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+            </table>
+         <p>
+            <b>Sample 3 — Prerequisites and postrequisite together</b>
+         </p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Complex task containing both prerequisites and a postrequisite</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Heading 2]: Install the Print Driver [Normal]: Complete the following prerequisites: [List Bullet]: Download the driver package from the support site. [List Bullet]: Close all running applications. [List Number]: 1. Run the installer. [List Number]: 2. Accept the license agreement. [List Number]: 3. Restart the computer. [Normal]: The printer is ready to use once the computer restarts.</entry>
+                     <entry>
+                        <codeblock id="codeblock_fgf_ddr_kkc">
+&lt;task id="install_the_print_driver">
+  &lt;title>Install the Print Driver&lt;/title>
+  &lt;taskbody>
+    &lt;prereq>
+      &lt;p>Complete the following prerequisites:&lt;/p>
+      &lt;ul>
+        &lt;li>Download the driver package from the support site.&lt;/li>
+        &lt;li>Close all running applications.&lt;/li>
+      &lt;/ul>
+    &lt;/prereq>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Run the installer.&lt;/cmd>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Accept the license agreement.&lt;/cmd>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Restart the computer.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+    &lt;postreq>
+      &lt;p>The printer is ready to use once the computer restarts.&lt;/p>
+    &lt;/postreq>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> In all three samples, the task remains a <codeph>&lt;task&gt;</codeph> topic with a single <codeph>&lt;steps&gt;</codeph> block. Supporting content is routed by its position relative to the numbered list: content before the first step maps to <codeph>&lt;prereq&gt;</codeph>, and content after the last step maps to <codeph>&lt;postreq&gt;</codeph>, regardless of whether one, the other, or both are present.</p>
+  </section>
+   </refbody>
+</reference>

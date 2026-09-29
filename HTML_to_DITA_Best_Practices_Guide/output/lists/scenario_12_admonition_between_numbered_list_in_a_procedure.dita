@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headinghubzvujtnu81w" xml:lang="en-us">
+   <title>Scenario 12 — Admonition Between Numbered List in a Procedure</title>
+   <shortdesc>Consider a procedure where the author has inserted an admonition between two numbered steps to</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>update</keyword>
+        <keyword>firmware</keyword>
+        <keyword>Admonition</keyword>
+        <keyword>procedure</keyword>
+        <keyword>steps</keyword>
+        <keyword>warning</keyword>
+        <indexterm>update</indexterm>
+        <indexterm>firmware</indexterm>
+        <indexterm>Admonition</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+     <section>
+    <p>Consider a procedure where the author has inserted an admonition between two numbered steps to call out a safety or precautionary detail relevant to the step just completed.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Admonition between steps in procedure</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>HTML Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>
+                 <codeblock>
+&lt;h2 id="update-firmware">Update Firmware&lt;/h2>
+&lt;ol>
+  &lt;li>
+    Download the firmware file.
+    &lt;div class="warning">
+      Do not disconnect power during the update.
+    &lt;/div>
+  &lt;/li>
+  &lt;li>Run the update utility.&lt;/li>
+&lt;/ol></codeblock>
+               </entry>
+               <entry>
+                 <codeblock>
+&lt;task id="update_firmware">
+  &lt;title>Update Firmware&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Download the firmware file.&lt;/cmd>
+        &lt;info>
+          &lt;note type="warning">
+            &lt;p>Do not disconnect power during the update.&lt;/p>
+          &lt;/note>
+        &lt;/info>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Run the update utility.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+               </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b> The converter treats the admonition <codeph>&lt;div&gt;</codeph> as supporting information tied to the preceding step and nests it inside <codeph>&lt;info&gt;&lt;note&gt;</codeph> rather than splitting the procedure into two separate <codeph>&lt;steps&gt;</codeph> blocks. The <codeph>class</codeph> attribute (<codeph>warning, note</codeph>, etc.) determines the type attribute of the generated <codeph>&lt;note&gt;</codeph>.</p>
+  </section>
+   </refbody>
+</reference>

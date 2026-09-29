@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560352" xml:lang="en-us">
+   <title>Scenario 17: Block image between numbered list in a procedure</title>
+   <shortdesc>Consider creating a new alarm notification procedure where a screenshot is inserted after a step</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>notification</keyword>
+        <keyword>Notification</keyword>
+        <keyword>procedure</keyword>
+        <keyword>Click</keyword>
+        <keyword>Block</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>notification</indexterm>
+        <indexterm>Notification</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider creating a new alarm notification procedure where a screenshot is inserted after a step to show the expected result before the user continues.</p><table frame="all" colsep="1" rowsep="1">
+            <title>Block image between a numbered list (procedure)</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+              <thead>
+                <row>
+                  <entry> .md input </entry>
+                  <entry> DITA output </entry>
+                </row>
+              </thead>
+              <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Creating a New Alarm Notification
+  1. Click **Add Notification**.
+  ![Add Notification Dialog](images/add-notification.png)
+  2. Enter the notification details.
+  3. Click **Save**.</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;task id="creating_a_new_alarm_notification"&gt;
+  &lt;title&gt;Creating a New Alarm Notification&lt;/title&gt;
+  &lt;taskbody&gt;
+  &lt;steps&gt;
+  &lt;step&gt;
+  &lt;cmd&gt;Click &lt;uicontrol&gt;Add Notification&lt;/uicontrol&gt;.&lt;/cmd&gt;
+  &lt;info&gt;
+  &lt;image href="media/add-notification.png"&gt;
+  &lt;alt&gt;Add Notification Dialog&lt;/alt&gt;
+  &lt;/image&gt;
+  &lt;/info&gt;
+  &lt;/step&gt;
+  &lt;step&gt;
+  &lt;cmd&gt;Enter the notification details.&lt;/cmd&gt;
+  &lt;/step&gt;
+  &lt;step&gt;
+  &lt;cmd&gt;Click &lt;uicontrol&gt;Save&lt;/uicontrol&gt;.&lt;/cmd&gt;
+  &lt;/step&gt;
+  &lt;/steps&gt;
+  &lt;/taskbody&gt;
+  &lt;/task&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table><p>
+            <b>Result:</b>The converter associates the image with the preceding procedural step and places it inside an <codeph>&lt;info&gt;</codeph> element within the corresponding DITA <codeph>&lt;step&gt;</codeph>. The image becomes supporting information for that step.</p>
+  </section></refbody>
+</reference>

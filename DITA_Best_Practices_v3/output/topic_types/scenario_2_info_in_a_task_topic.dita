@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705934" xml:lang="en-us">
+   <title>Scenario 2: info in a task topic</title>
+   <shortdesc>Consider a "Create User Account" chapter in an "Application Admin Guide" document where you want</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>topic</keyword>
+        <keyword>Create</keyword>
+        <keyword>User</keyword>
+        <keyword>create</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>Account</keyword>
+        <indexterm>topic</indexterm>
+        <indexterm>Create</indexterm>
+        <indexterm>User</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a "Create User Account" chapter in an "Application Admin Guide" document where you want to correctly place the <codeph>&lt;info&gt;</codeph> tag in the task topic.</p>
+      <codeblock id="codeblock_ttm_fqs_kkc">&lt;task id="create-user" title="Create a New User Account"&gt;
+&lt;shortdesc&gt;
+Create a user account with role-based permissions.
+&lt;/shortdesc&gt;
+&lt;context&gt;
+&lt;p&gt;
+This procedure is valid for application version 3.2 and later.
+&lt;/p&gt;
+&lt;/context&gt;
+&lt;prereq&gt;
+&lt;p&gt;
+Only administrators with the &lt;ph&gt;user:create&lt;/ph&gt; permission can create new accounts. Newly created accounts receive a temporary password valid for 24 hours.
+&lt;/p&gt;
+&lt;/prereq&gt;
+&lt;steps&gt;
+&lt;step id="step-1"&gt;
+&lt;cmd&gt;Log in as an administrator.&lt;/cmd&gt;
+&lt;info&gt;
+&lt;p&gt;
+If multi-factor authentication (MFA) is enabled, complete MFA before continuing.
+&lt;/p&gt;
+&lt;/info&gt;
+&lt;/step&gt;
+&lt;step id="step-2"&gt;
+&lt;cmd&gt;
+Navigate to &lt;menucascade&gt;&lt;uicontrol&gt;Admin&lt;/uicontrol&gt; &lt;uicontrol&gt;Users&lt;/uicontrol&gt; &lt;uicontrol&gt;Add User&lt;/uicontrol&gt; &lt;/menucascade&gt;.
+&lt;/cmd&gt;
+&lt;/step&gt;
+&lt;step&gt;
+&lt;cmd&gt;
+Fill the required fields: username, email, role.
+&lt;/cmd&gt;
+&lt;/step&gt;
+&lt;/steps&gt;
+&lt;result&gt;
+&lt;p&gt;
+The new user account appears in the user list and receives
+an email with sign-in instructions.
+&lt;/p&gt;
+&lt;/result&gt;
+&lt;/task&gt;</codeblock><p>
+         <b>Result:</b> Use step-level <codeph>&lt;info&gt;</codeph> tag for step-specific notes, tables, block-images, and additional information.</p>
+  </section></refbody>
+</reference>

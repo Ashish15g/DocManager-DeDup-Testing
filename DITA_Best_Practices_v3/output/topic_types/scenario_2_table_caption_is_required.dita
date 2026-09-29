@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235705951" xml:lang="en-us">
+   <title>Scenario 2: table caption is required</title>
+   <shortdesc>Consider a "Database Port Reference" chapter in a "System Administration Reference Guide" document where you</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>table</keyword>
+        <keyword>Database</keyword>
+        <keyword>Default</keyword>
+        <keyword>caption</keyword>
+        <keyword>Port</keyword>
+        <keyword>Reference</keyword>
+        <indexterm>table</indexterm>
+        <indexterm>Database</indexterm>
+        <indexterm>Default</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>Consider a "Database Port Reference" chapter in a "System Administration Reference Guide" document where you want the table to display a visible title in output.</p>
+      <codeblock xml:space="preserve">&lt;reference id="database-port-reference"&gt;
+&lt;title&gt;Database Port Reference&lt;/title&gt;
+&lt;shortdesc&gt;
+Default database services communicate through predefined network ports.
+&lt;/shortdesc&gt;
+&lt;refbody&gt;
+&lt;section&gt;
+&lt;p&gt;
+The following table lists the default ports used by supported database platforms.
+&lt;/p&gt;
+&lt;table frame="all" cols="3"&gt;
+&lt;title&gt;Default Database Ports&lt;/title&gt;
+&lt;tgroup cols="3"&gt;
+&lt;colspec colname="c1" colwidth="1*"/&gt;
+&lt;colspec colname="c2" colwidth="1*"/&gt;
+&lt;colspec colname="c3" colwidth="2*"/&gt;
+&lt;thead&gt;
+&lt;row&gt;
+&lt;entry&gt;Database&lt;/entry&gt;
+&lt;entry&gt;Default Port&lt;/entry&gt;
+&lt;entry&gt;Description&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;row&gt;
+&lt;entry&gt;PostgreSQL&lt;/entry&gt;
+&lt;entry&gt;5432&lt;/entry&gt;
+&lt;entry&gt;
+Default PostgreSQL listener port.
+&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;MySQL&lt;/entry&gt;
+&lt;entry&gt;3306&lt;/entry&gt;
+&lt;entry&gt;
+Default MySQL and MariaDB listener port.
+&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;Oracle Database&lt;/entry&gt;
+&lt;entry&gt;1521&lt;/entry&gt;
+&lt;entry&gt;
+Oracle Net Listener default port.
+&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/tbody&gt;
+&lt;/tgroup&gt;
+&lt;/table&gt;
+&lt;/section&gt;
+&lt;/refbody&gt;
+&lt;/reference&gt;</codeblock>
+      <p>
+         <b>Result:</b> Use a CALS <codeph>&lt;table&gt;</codeph> instead of <codeph>&lt;simpletable&gt;</codeph> when the table requires a caption, advanced formatting, spanning, nested tables, and precise column control.</p>
+    </section></refbody>
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235705884" xml:lang="en-us">
+   <title>Self-descriptive content</title>
+   <shortdesc>At its core, DITA inherits the self-descriptive nature of XML. Each element explicitly defines the</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>content</keyword>
+        <keyword>descriptive</keyword>
+        <keyword>Self</keyword>
+        <keyword>element</keyword>
+        <keyword>indicates</keyword>
+        <keyword>DITA</keyword>
+        <indexterm>content</indexterm>
+        <indexterm>descriptive</indexterm>
+        <indexterm>Self</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+     <p>At its core, DITA inherits the self-descriptive nature of XML. Each element explicitly defines the meaning of the content it contains. A &lt;cmd/&gt; (command) element indicates an action, while a &lt;result/&gt; indicates an outcome. This semantic clarity allows both humans and machines to interpret content accurately without relying on formatting cues.</p>
+   </conbody>
+</concept>

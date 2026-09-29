@@ -1,0 +1,28 @@
+================================================================================
+ metR DOCX DocMigrate — PRE-FLIGHT REPORT
+================================================================================
+ Total DOCX Files      : 1
+ Started               : 2026-09-02 09:04:49 UTC
+ Completed             : 2026-09-02 09:04:50 UTC
+ Duration              : 1s
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+
+[2026-09-02T09:04:49.508044+00:00] PreflightService class is running.
+[2026-09-02T09:04:49.508108+00:00] preflight_started working.
+[2026-09-02T09:04:49.513044+00:00] PreflightService Reading uploaded file 'HTML_to_DITA_Best_Practices_Guide.docx' in 1 MB chunks (max allowed: 2000 MB).
+[2026-09-02T09:04:49.520040+00:00] PreflightService File read complete - 3.93 MB. Saved.
+[2026-09-02T09:04:49.520080+00:00] PreflightService File saved successfully.
+[2026-09-02T09:04:49.520097+00:00] file_saved 'HTML_to_DITA_Best_Practices_Guide.docx' uploaded and saved (3.93 MB).
+[2026-09-02T09:04:49.940741+00:00] PreflightService Validating document structure for 'HTML_to_DITA_Best_Practices_Guide.docx'.
+[2026-09-02T09:04:49.940808+00:00] validating_structure Validating document heading structure for 'HTML_to_DITA_Best_Practices_Guide.docx'.
+[2026-09-02T09:04:49.948631+00:00] check_docx_starts_with_heading Validating document structure.
+[2026-09-02T09:04:49.949416+00:00] check_docx_starts_with_heading Reading 'word/document.xml' for heading validation.
+[2026-09-02T09:04:49.953352+00:00] check_docx_starts_with_heading Parsing 'word/document.xml' XML.
+[2026-09-02T09:04:50.127947+00:00] check_docx_starts_with_heading Scanning 3685 paragraph(s) for a valid first heading style.
+[2026-09-02T09:04:50.128105+00:00] check_docx_starts_with_heading First styled paragraph uses 'title' — document structure is valid.
+[2026-09-02T09:04:50.316296+00:00] PreflightService class completed successfully.
+[2026-09-02T09:04:50.316434+00:00] preflight_completed File 'HTML_to_DITA_Best_Practices_Guide.docx' validated successfully and is ready for conversion.
+
+ [GUI] Success: Pre-flight analysis completed successfully.
+================================================================================

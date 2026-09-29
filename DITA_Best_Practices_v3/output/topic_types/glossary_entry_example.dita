@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="glossary_entry_example" xml:lang="en-us">
+   <title>Glossary entry example</title>
+   <shortdesc>&lt;glossary id="g_glossary_api"&gt; API Glossary Key terms used in the API documentation.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Glossary</keyword>
+        <keyword>entry</keyword>
+        <keyword>example</keyword>
+        <keyword>glossary</keyword>
+        <keyword>Terms</keyword>
+        <keyword>Data</keyword>
+        <indexterm>Glossary</indexterm>
+        <indexterm>entry</indexterm>
+        <indexterm>example</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <codeblock xml:space="preserve">&lt;glossary id="g_glossary_api"&gt;
+&lt;title&gt;API Glossary&lt;/title&gt;
+&lt;shortdesc&gt;Key terms used in the API documentation.&lt;/shortdesc&gt;
+&lt;glossgroup&gt;
+&lt;title&gt;Authentication Terms&lt;/title&gt;
+&lt;glossentry&gt;
+&lt;glossterm&gt;API key&lt;/glossterm&gt;
+&lt;glossdef&gt;Unique token used to authenticate and authorize API requests. Each user or application is assigned a distinct API key.&lt;/glossdef&gt;
+&lt;/glossentry&gt;
+&lt;glossentry&gt;
+&lt;glossterm&gt;OAuth 2.0&lt;/glossterm&gt;
+&lt;glossdef&gt;Industry‑standard protocol for authorization that allows applications to access resources on behalf of a user without exposing credentials.&lt;/glossdef&gt;
+&lt;/glossentry&gt;
+&lt;/glossgroup&gt;
+&lt;glossgroup&gt;
+&lt;title&gt;Data Terms&lt;/title&gt;
+&lt;glossentry&gt;
+&lt;glossterm&gt;payload&lt;/glossterm&gt;
+&lt;glossdef&gt;Data sent in the body of an API request or response, typically formatted as JSON or XML.&lt;/glossdef&gt;
+&lt;/glossentry&gt;
+&lt;glossentry&gt;
+&lt;glossterm&gt;endpoint&lt;/glossterm&gt;
+&lt;glossdef&gt;Specific URL where an API service is accessed, representing a particular resource or operation.&lt;/glossdef&gt;
+&lt;/glossentry&gt;
+&lt;/glossgroup&gt;
+&lt;/glossary&gt;</codeblock>
+    </section></refbody>
+</reference>

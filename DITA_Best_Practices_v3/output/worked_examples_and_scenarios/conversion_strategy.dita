@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="_Toc235706039" xml:lang="en-us">
+   <title>Conversion strategy</title>
+   <shortdesc>Structure d ecision: There are 38 topics (&gt;30 topics) so you must use a nested</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>topics</keyword>
+        <keyword>topicref</keyword>
+        <keyword>reference</keyword>
+        <keyword>become</keyword>
+        <keyword>topic</keyword>
+        <keyword>sections</keyword>
+        <indexterm>topics</indexterm>
+        <indexterm>topicref</indexterm>
+        <indexterm>reference</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody><steps>
+    <step>
+        <cmd><b>Structure decision:</b> Use a nested folder structure.</cmd>
+        <info>There are 38 topics (&gt;30 topics).</info>
+      </step>
+    <step>
+        <cmd><b>Topic classification:</b> Classify each topic into concept, task, reference,
+          troubleshooting, glossary, etc.</cmd>
+        <info>
+          <ul id="ul_11014344">
+            <li>8 conceptual sections become concept topics</li>
+            <li>22 procedural sections become task topics</li>
+            <li>5 reference tables become reference topics</li>
+            <li>3 error resolution sections become troubleshooting topics</li>
+          </ul>
+        </info>
+      </step>
+    <step>
+        <cmd><b>Reuse identification:</b> Identify any content being reused across topics.</cmd>
+        <substeps>
+          <substep>
+            <cmd>Extract 4 repeated warnings to global/common_warnings.dita</cmd>
+          </substep>
+          <substep>
+            <cmd>Extract the configuration table to a single reference topic
+              global/configuration_content.dita</cmd>
+          </substep>
+        </substeps>
+      </step>
+    <step>
+        <cmd><b>Map and topic structure:</b> Build an accurate map structure and use the appropriate
+          tags in the topics.</cmd>
+      </step>
+    </steps>
+    <result id="result_kxt_jny_kkc">
+      <codeblock xml:space="preserve" id="codeblock_l4h_kny_kkc">
+&lt;map&gt;
+  &lt;title&gt;Application User Guide&lt;/title&gt;
+
+  &lt;topicgroup&gt;
+    &lt;topicmeta&gt;
+      &lt;navtitle&gt;Introduction&lt;/navtitle&gt;
+    &lt;/topicmeta&gt;
+    &lt;topicref href="concepts/c_overview.dita"/&gt;
+    &lt;topicref href="concepts/c_system_requirements.dita"/&gt;
+  &lt;/topicgroup&gt;
+
+  &lt;topicgroup&gt;
+    &lt;topicmeta&gt;
+      &lt;navtitle&gt;Installation&lt;/navtitle&gt;
+    &lt;/topicmeta&gt;
+    &lt;topicref href="tasks/t_pre_installation.dita"/&gt;
+    &lt;topicref href="tasks/t_install.dita"/&gt;
+    &lt;topicref href="tasks/t_verify_installation.dita"/&gt;
+  &lt;/topicgroup&gt;
+
+  &lt;!-- Additional topic groups... --&gt;
+&lt;/map&gt;
+
+         </codeblock>
+    </result></taskbody>
+</task>

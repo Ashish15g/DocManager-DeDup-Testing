@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450372" xml:lang="en-us">
+   <title>Scenario 16 — Block Image Between Numbered List in a Procedure</title>
+   <shortdesc>Consider a numbered procedure where the author has inserted a full-width screenshot between two steps</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>application</keyword>
+        <keyword>Open</keyword>
+        <keyword>Application</keyword>
+        <keyword>window</keyword>
+        <keyword>Block</keyword>
+        <keyword>screenshot</keyword>
+        <indexterm>application</indexterm>
+        <indexterm>Open</indexterm>
+        <indexterm>Application</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+     <section>
+    <p>Consider a numbered procedure where the author has inserted a full-width screenshot between two steps — for example, to illustrate what the screen looks like after completing step one.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Block image between steps, procedure</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>HTML Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>
+                 <codeblock>
+&lt;h2 id="open-application">Open the Application&lt;/h2>
+&lt;ol>
+  &lt;li>
+    Open the application.
+    &lt;figure>
+      &lt;img src="media/screenshot.png" alt="Application main window"/>
+      &lt;figcaption>
+        The application's main window
+      &lt;/figcaption>
+    &lt;/figure>
+  &lt;/li>
+  &lt;li>
+    Click
+    &lt;span class="menucascade">
+      &lt;strong>File&lt;/strong> > &lt;strong>Open&lt;/strong>
+    &lt;/span>.
+  &lt;/li>
+&lt;/ol></codeblock>
+               </entry>
+               <entry>
+                 <codeblock>
+&lt;task id="open_application">
+  &lt;title>Open the Application&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Open the application.&lt;/cmd>
+        &lt;info>
+          &lt;fig>
+            &lt;title>The application main window&lt;/title>
+            &lt;image href="media/screenshot.png">
+              &lt;alt>Application main window&lt;/alt>
+            &lt;/image>
+          &lt;/fig>
+        &lt;/info>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>
+          Click
+          &lt;menucascade>
+            &lt;uicontrol>File&lt;/uicontrol>
+            &lt;uicontrol>Open&lt;/uicontrol>
+          &lt;/menucascade>.
+        &lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+               </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b> The converter treats the <codeph>&lt;figure&gt;</codeph> element nested inside a <codeph>&lt;li&gt;</codeph> as supporting content for that step and moves it into the preceding <codeph>&lt;step&gt;&lt;info&gt;</codeph> element, so that the task remains a single continuous <codeph>&lt;steps&gt;</codeph> structure.</p>
+  </section>
+  </refbody>
+</reference>

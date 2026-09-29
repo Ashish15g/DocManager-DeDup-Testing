@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_14_paragraph_between_numbered_list_in_a_procedure" xml:lang="en-us">
+   <title>Scenario 14 — Paragraph Between Numbered List in a Procedure</title>
+   <shortdesc>Consider a procedure where the author has pressed Enter inside a numbered step and changed</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>backup</keyword>
+        <keyword>List</keyword>
+        <keyword>Backup</keyword>
+        <keyword>Paragraph</keyword>
+        <keyword>procedure</keyword>
+        <keyword>numbered</keyword>
+        <indexterm>backup</indexterm>
+        <indexterm>List</indexterm>
+        <indexterm>Backup</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+     <section>
+    <p>Consider a procedure where the author has pressed Enter inside a numbered step and changed the paragraph style to Normal to add explanatory text before continuing the numbered list.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Paragraph between steps in procedure</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>.docx Style / Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>[Heading 2]: Configure Backup [List Number]: 1. Open Backup Settings. [Normal, indented]: The backup location must have at least 10 GB of free space. [List Number]: 2. Select the backup destination.</entry>
+               <entry>
+                <codeblock id="codeblock_qsp_ksz_kkc">
+&lt;task id="configure_backup">
+  &lt;title>Configure Backup&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Open Backup Settings.&lt;/cmd>
+        &lt;info>
+          &lt;p>The backup location must have at least 10 GB of free space.&lt;/p>
+        &lt;/info>
+      &lt;/step>
+      &lt;step>
+        &lt;cmd>Select the backup destination.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+              </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b> The Normal paragraph between two numbered steps is nested inside the preceding step's <codeph>&lt;info&gt;</codeph> element rather than breaking the procedure into separate <codeph>&lt;steps&gt;</codeph> blocks.</p>
+  </section>
+   </refbody>
+</reference>

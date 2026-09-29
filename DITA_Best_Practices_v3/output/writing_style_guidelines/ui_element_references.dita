@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235706020" xml:lang="en-us">
+   <title>UI Element references</title>
+   <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Element</keyword>
+        <keyword>references</keyword>
+        <keyword>Wrap</keyword>
+        <keyword>element</keyword>
+        <keyword>names</keyword>
+        <keyword>uicontrol</keyword>
+        <indexterm>Element</indexterm>
+        <indexterm>references</indexterm>
+        <indexterm>Wrap</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Wrap all UI element names in <codeph>&lt;uicontrol&gt;</codeph>. Capitalize exactly as shown in the interface.</p>
+       <codeblock>
+         &lt;cmd&gt;Click &lt;uicontrol&gt;Save&lt;/uicontrol&gt;.&lt;/cmd&gt;
+         &lt;cmd&gt;In the &lt;uicontrol&gt;Server Name&lt;/uicontrol&gt; field, enter the hostname.&lt;/cmd&gt;
+         &lt;cmd&gt;Select &lt;menucascade&gt; &lt;uicontrol&gt;Edit&lt;/uicontrol&gt; &lt;uicontrol&gt;Preferences&lt;/uicontrol&gt;  &lt;uicontrol&gt;General&lt;/uicontrol&gt;&lt;/menucascade&gt;.&lt;/cmd&gt;         
+       </codeblock>
+  </section></refbody>
+</reference>

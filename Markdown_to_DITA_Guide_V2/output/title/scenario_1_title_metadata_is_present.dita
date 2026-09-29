@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560316" xml:lang="en-us">
+   <title>Scenario 1: Title metadata is present</title>
+   <shortdesc>Consider an index .md file titled “Kubernetes User Documentation” in a folder named Kubernetes_user_doc.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Kubernetes</keyword>
+        <keyword>User</keyword>
+        <keyword>Documentation</keyword>
+        <keyword>metadata</keyword>
+        <keyword>title</keyword>
+        <keyword>DITA</keyword>
+        <indexterm>Kubernetes</indexterm>
+        <indexterm>User</indexterm>
+        <indexterm>Documentation</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider an index .md file titled “Kubernetes User Documentation” in a folder named Kubernetes_user_doc. When the prolog/header metadata of this file includes title = " Kubernetes User Documentation ", the converter generates the following DITA bookmap structure:</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Title metadata is present</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>Folder: kubernetes_user_doc
+  Filename: index.md
+  +++
+  title = "Kubernetes User Documentation"
+  description = "Kubernetes Operations and Management"
+  type="page"
+  weight = 180
+  +++
+  # User Documentation</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;map id="kubernetes_user_doc"&gt;
+  &lt;title&gt; Kubernetes User Documentation&lt;/title&gt;
+  &lt;/map&gt;
+  OR
+  &lt;bookmap id="kubernetes_user_doc"&gt;
+  &lt;booktitle&gt;
+  &lt;mainbooktitle&gt; Kubernetes User Documentation &lt;/mainbooktitle&gt;
+  &lt;/booktitle&gt;
+  &lt;/bookmap&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The converter uses the folder name as the map <codeph>@id</codeph>. The title metadata in the <codeph>prolog/header</codeph> becomes the DITA map title. Use <codeph>&lt;map&gt;/&lt;title&gt;</codeph> for a standard DITA map, or <codeph>&lt;bookmap&gt;/&lt;booktitle&gt;/&lt;mainbooktitle&gt;</codeph> only when the target DITA shell supports bookmap.</p></section></refbody>
+</reference>

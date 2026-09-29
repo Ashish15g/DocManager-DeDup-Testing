@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450398" xml:lang="en-us">
+   <title>Scenario 6 — Multiple images placed side by side</title>
+   <refbody>
+      <section id="sec_d401e7">
+         <p>Consider a <codeph>&lt;p&gt;</codeph> element where the author has inserted two or more <codeph>&lt;img&gt;</codeph> elements next to each other — for example, a set of toolbar icon images.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Multiple images placed side-by-side</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_bzf_334_lkc">
+&lt;p>
+  &lt;img src="media/icon_a.png" alt="Icon A"/>
+  &lt;img src="media/icon_b.png" alt="Icon B"/>
+  &lt;img src="media/icon_c.png" alt="Icon C"/>
+&lt;/p></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_ldv_p34_lkc">
+&lt;p>
+  &lt;image href="media/icon_a.png" placement="inline">
+    &lt;alt>Icon A&lt;/alt>
+  &lt;/image>
+  &lt;image href="media/icon_b.png" placement="inline">
+    &lt;alt>Icon B&lt;/alt>
+  &lt;/image>
+  &lt;image href="media/icon_c.png" placement="inline">
+    &lt;alt>Icon C&lt;/alt>
+  &lt;/image>
+&lt;/p></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> Each <codeph>&lt;img&gt;</codeph> element is mapped to an <codeph>&lt;image placement="inline"/&gt;</codeph>element inside the same <codeph>&lt;p&gt;</codeph>. The images appear in document order.</p>
+         <note type="tip"> If a specific side-by-side layout is required in the published output, use a <codeph>&lt;table&gt;</codeph> with images in adjacent <codeph>&lt;td&gt;</codeph> cells.</note>
+      </section>
+   </refbody>
+</reference>

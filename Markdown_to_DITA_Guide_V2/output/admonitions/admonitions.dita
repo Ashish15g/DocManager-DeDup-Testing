@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560393" xml:lang="en-us">
+   <title>Admonitions</title>
+   <abstract>This section covers Admonitions — paragraph-level notices that give safety-related,
+      advisory, or supplementary information structural separation from the surrounding body content
+      — and five scenarios: a standard named admonition, consecutive admonitions, an image placed
+      inside an admonition, an admonition inside a table cell, and a bold inline label pattern. The
+      converter maps each recognized admonition style directly to <codeph>&lt;note
+         type="[type]"&gt;</codeph>; for bold inline labels, content pattern recognition reads the
+      opening text, removes the label, and maps the remaining content to the matching
+      type.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>admonition</keyword>
+        <keyword>information</keyword>
+        <keyword>content</keyword>
+        <keyword>Admonitions</keyword>
+        <keyword>safety</keyword>
+        <keyword>admonitions</keyword>
+        <indexterm>admonition</indexterm>
+        <indexterm>information</indexterm>
+        <indexterm>content</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+<p>Admonitions are paragraph-level notices that separate advisory, safety-related, or supplementary information from the surrounding body content. Admonitions identify information that requires immediate reader attention — safety warnings, usage restrictions, helpful tips, important prerequisites, and cautionary notices — and give it structural separation from the prose that surrounds it.</p>
+<p>For readers and publishing systems, admonition apply stronger visual treatment or weight from tip through note through caution through warning through danger. Each one of them are distinct in admonition icons, background color, or text color.</p>
+<p>The converter maps a paragraph with a recognised admonition style directly to <codeph>&lt;note type="[type]"&gt;</codeph>. For a bold inline label, it applies content pattern recognition: it reads the opening text, removes the label, and maps the remaining text to the matching note type.</p>
+<p>Standard Markdown does not define a native admonition syntax. Many Markdown platforms and static site generators provide extension syntax to represent admonitions, while simpler documents often use blockquotes to present note-like content. Common extension formats include <codeph>[!NOTE]</codeph>, <codeph>[!WARNING]</codeph>, and <codeph>!!! note</codeph>.</p>
+<p>Because admonitions communicate the purpose and severity of information, preserving their meaning during conversion is essential. The converter analyzes the admonition syntax, identifies the corresponding message type, and maps it to the appropriate DITA <codeph>&lt;note&gt;</codeph> element and note type. This preserves the relationship between the admonition and the topic, task step, list item, or table entry with which it is associated.</p>
+      <p>The following table lists the types of admonitions and their corresponding DITA output:</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Admonition types</title>
+            <tgroup cols="3">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <thead>
+                  <row>
+                     <entry> Admonition </entry>
+                     <entry> Purpose </entry>
+                     <entry> DITA note type examples </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>Note</entry>
+                     <entry>General information</entry>
+                     <entry>
+                        <codeblock xml:space="preserve">&lt;note&gt;
+  &lt;p&gt;Configuration changes take effect immediately.&lt;/p&gt;
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Warning</entry>
+                     <entry>Warn about damage, data loss, safety, or severe consequences</entry>
+                     <entry>
+                        <codeblock xml:space="preserve">&lt;note type="warning"&gt;
+  &lt;p&gt;Do not interrupt the firmware upgrade process.&lt;/p&gt;
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Caution</entry>
+                     <entry>Warn about possible problems or unexpected behavior</entry>
+                     <entry>
+                        <codeblock xml:space="preserve">&lt;note type="caution"&gt;
+  &lt;p&gt;Do not manually modify system configuration files.&lt;/p&gt;
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Danger</entry>
+                     <entry>Warn about hazardous situations or serious injury</entry>
+                     <entry>
+                        <codeblock xml:space="preserve">&lt;note type="danger"&gt;
+  &lt;p&gt;Disconnect all power sources before opening the chassis.&lt;/p&gt;
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Important</entry>
+                     <entry>Highlight critical information</entry>
+                     <entry>
+                        <codeblock xml:space="preserve">&lt;note type="important"&gt;
+  &lt;p&gt;The service must be restarted after applying changes.&lt;/p&gt;
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Remember</entry>
+                     <entry>Remind users about important recurring information</entry>
+                     <entry>
+                        <codeblock xml:space="preserve">&lt;note type="remember"&gt;
+  &lt;p&gt;Save the running configuration before rebooting.&lt;/p&gt;
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Restriction</entry>
+                     <entry>Describe limitations or unsupported behavior</entry>
+                     <entry>
+                        <codeblock xml:space="preserve">&lt;note type="restriction"&gt;
+  &lt;p&gt;This feature is supported only in ABC 7.x and later.&lt;/p&gt;
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Attention</entry>
+                     <entry>Draw attention to a specific item</entry>
+                     <entry>
+                        <codeblock xml:space="preserve">&lt;note type="attention"&gt;
+  &lt;p&gt;Verify the selected interface before continuing.&lt;/p&gt;
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Tip</entry>
+                     <entry>Provide helpful advice or shortcuts</entry>
+                     <entry>
+                        <codeblock xml:space="preserve">&lt;note type="tip"&gt;
+  &lt;p&gt;Use tab completion to reduce typing errors.&lt;/p&gt;
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Fast Path</entry>
+                     <entry>Provide an alternate, quicker approach</entry>
+                     <entry>
+                        <codeblock xml:space="preserve">&lt;note type="fastpath"&gt;
+  &lt;p&gt;Use the Quick Setup wizard for basic configuration.&lt;/p&gt;
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Troubleshooting</entry>
+                     <entry>Provide troubleshooting guidance</entry>
+                     <entry>
+                        <codeblock xml:space="preserve">&lt;note type="trouble"&gt;
+  &lt;p&gt;Verify that the required ports are not blocked by the firewall.&lt;/p&gt;
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Custom style</entry>
+                     <entry>Custom note type</entry>
+                     <entry>
+                        <codeblock xml:space="preserve">&lt;note type="other" othertype="Best Practice"&gt;
+  &lt;p&gt;Use a dedicated service account for deployment.&lt;/p&gt;
+  &lt;/note&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table></conbody>
+</concept>

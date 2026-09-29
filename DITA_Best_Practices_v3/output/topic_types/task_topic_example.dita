@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="task_topic_example" xml:lang="en-us">
+   <title>Task topic example</title>
+   <shortdesc>&lt;task id="t_install_application"&gt; Install the Application Install the application on your Windows workstation.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>installation</keyword>
+        <keyword>application</keyword>
+        <keyword>install</keyword>
+        <keyword>Install</keyword>
+        <keyword>Click</keyword>
+        <keyword>Task</keyword>
+        <indexterm>installation</indexterm>
+        <indexterm>application</indexterm>
+        <indexterm>install</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+      <codeblock id="codeblock_obj_yps_kkc">&lt;task id="t_install_application"&gt;
+&lt;title&gt;Install the Application&lt;/title&gt;
+&lt;shortdesc&gt;Install the application on your Windows workstation.&lt;/shortdesc&gt;
+&lt;prolog&gt;
+&lt;metadata&gt;
+&lt;audience type="user" job="installing" experiencelevel="intermediate"/&gt;
+&lt;category&gt;Installation&lt;/category&gt;
+&lt;keywords&gt;
+&lt;keyword&gt;install&lt;/keyword&gt;
+&lt;keyword&gt;setup&lt;/keyword&gt;
+&lt;keyword&gt;Windows&lt;/keyword&gt;
+&lt;/keywords&gt;
+&lt;/metadata&gt;
+&lt;/prolog&gt;
+&lt;taskbody&gt;
+&lt;prereq&gt; &lt;p&gt;Before you begin, ensure you have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Administrator access to the workstation&lt;/li&gt;
+&lt;li&gt;At least 2 GB of available disk space&lt;/li&gt;
+&lt;li&gt;The installation file downloaded from the support portal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/prereq&gt;
+&lt;context&gt;
+&lt;p&gt;This procedure installs the desktop application and configures it for first use. The installation typically takes 5–10 minutes.&lt;/p&gt;
+&lt;/context&gt;
+&lt;steps&gt;
+&lt;step&gt;&lt;cmd&gt;Double-click the installer file.&lt;/cmd&gt; &lt;stepresult&gt;The installation wizard opens.&lt;/stepresult&gt;&lt;/step&gt;
+&lt;step&gt;&lt;cmd&gt;Click &lt;uicontrol&gt;Next&lt;/uicontrol&gt; to accept the default installation location.&lt;/cmd&gt; &lt;info&gt;To change the installation location, click &lt;uicontrol&gt;Browse&lt;/uicontrol&gt; and select a different folder.&lt;/info&gt;&lt;/step&gt;
+&lt;step&gt;&lt;cmd&gt;Select the components you want to install.&lt;/cmd&gt;
+&lt;info&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;uicontrol&gt;Core Application&lt;/uicontrol&gt;: Required&lt;/li&gt;
+&lt;li&gt;&lt;uicontrol&gt;Documentation&lt;/uicontrol&gt;: Recommended&lt;/li&gt;                &lt;li&gt;&lt;uicontrol&gt;Developer Tools&lt;/uicontrol&gt;: Optional&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/info&gt;
+&lt;/step&gt;
+&lt;step&gt;&lt;cmd&gt;Click &lt;uicontrol&gt;Install&lt;/uicontrol&gt;.&lt;/cmd&gt; &lt;stepresult&gt;The installation progress bar appears. Wait for installation to complete.&lt;/stepresult&gt;&lt;/step&gt;
+&lt;step&gt;&lt;cmd&gt;Click &lt;uicontrol&gt;Finish&lt;/uicontrol&gt;.&lt;/cmd&gt;&lt;/step&gt;
+&lt;/steps&gt;
+&lt;result&gt;&lt;p&gt;The application is installed and ready to use. A shortcut appears on your desktop.&lt;/p&gt;&lt;/result&gt;
+&lt;postreq&gt;&lt;p&gt;After installation, configure your user preferences. See &lt;xref href="t_configure_preferences.dita"&gt; Configure User Preferences&lt;/xref&gt;.&lt;/p&gt;&lt;/postreq&gt;
+&lt;/taskbody&gt;
+&lt;/task&gt;</codeblock>
+    </section></refbody>
+</reference>

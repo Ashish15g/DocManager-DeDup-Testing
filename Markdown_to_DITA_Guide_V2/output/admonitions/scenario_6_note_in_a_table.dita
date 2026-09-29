@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560399" xml:lang="en-us">
+   <title>Scenario 6: Note in a table</title>
+   <refbody><section><p>Consider an industrial router specifications .md file that contains a reference table describing hardware and software characteristics. One of the table cells includes a note that provides additional information about a specific specification.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Note in a table</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Router Specifications
+  The following table describes the specifications of the XR5000 Industrial Router.
+  | Specification | Value | Description |
+  |---------------|-------|-------------|
+  | Ethernet Ports | 4 x Gigabit Ethernet | LAN/WAN connectivity ports. |
+  | VPN Tunnels | 100 | Maximum number of concurrent VPN tunnels. |
+  | Operating Temperature | -40°C to 75°C | &gt; [!NOTE]&lt;br&gt;Full VPN performance is guaranteed only up to 60°C ambient temperature. |
+  | Power Input | 12–48 VDC | Supported input voltage range. |</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;reference id="router_specifications"&gt;
+                           &lt;title&gt;Router Specifications&lt;/title&gt;
+                           &lt;refbody&gt; 
+                           &lt;section&gt;
+                           &lt;p&gt;The following table describes the specifications of the XR5000 Industrial Router.&lt;/p&gt;
+                           &lt;table&gt;
+                           &lt;title&gt;Router Specifications&lt;/title&gt;
+                           &lt;tgroup cols="3"&gt;
+                           &lt;thead&gt;
+                           &lt;row&gt;        &lt;entry&gt;Specification&lt;/entry&gt;          &lt;entry&gt;Value&lt;/entry&gt;         &lt;entry&gt;Description&lt;/entry&gt;
+                           &lt;/row&gt;
+                           &lt;/thead&gt;
+                           &lt;tbody&gt;
+                           &lt;row&gt;        &lt;entry&gt;Ethernet Ports&lt;/entry&gt;
+                           &lt;entry&gt;4 x Gigabit Ethernet&lt;/entry&gt;
+                           &lt;entry&gt; LAN/WAN connectivity ports. &lt;/entry&gt;
+                           &lt;/row&gt;
+                           &lt;row&gt;
+                           &lt;entry&gt;VPN Tunnels&lt;/entry&gt;                    &lt;entry&gt;100&lt;/entry&gt;
+                           &lt;entry&gt; Maximum number of concurrent VPN tunnels. &lt;/entry&gt;
+                           &lt;/row&gt;
+                           &lt;row&gt;
+                           &lt;entry&gt;Operating Temperature&lt;/entry&gt;
+                           &lt;entry&gt;-40°C to 75°C&lt;/entry&gt;
+                           &lt;entry&gt; &lt;note&gt; Full VPN performance is guaranteed only up to 60°C ambient temperature. &lt;/note&gt; &lt;/entry&gt;
+                           &lt;/row&gt;
+                           &lt;row&gt;
+                           &lt;entry&gt;Power Input&lt;/entry&gt;
+                           &lt;entry&gt;12–48 VDC&lt;/entry&gt;
+                           &lt;entry&gt; Supported input voltage range. &lt;/entry&gt;
+                           &lt;/row&gt;
+                           &lt;/tbody&gt;
+                           &lt;/tgroup&gt;
+                           &lt;/table&gt;
+                           &lt;/section&gt;
+                           &lt;/refbody&gt;
+                           &lt;/reference&gt;
+                        </codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b> The converter preserves the note within the corresponding table cell and generates a DITA <codeph>&lt;note&gt;</codeph> element inside the associated table entry. Because the content consists of product specifications intended for reference, the Markdown file is converted into a DITA reference topic containing a structured table. The note remains associated with the specific specification to which it applies.</p>
+   </section></refbody>
+</reference>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560377" xml:lang="en-us">
+   <title>Scenario 9: Image with alternate text</title>
+   <shortdesc>Consider a Markdown image that has alternate text.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>alternate</keyword>
+        <keyword>Image</keyword>
+        <keyword>image</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>DITA</keyword>
+        <keyword>Alarm</keyword>
+        <indexterm>alternate</indexterm>
+        <indexterm>Image</indexterm>
+        <indexterm>image</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a Markdown image that has alternate text.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Image with alternate text</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>![Alarm Configuration Screen](images/alarm-config.png)</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;image href="media/alarm-config.png"&gt; &lt;alt&gt;Alarm Configuration Screen&lt;/alt&gt; &lt;/image&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The converter generates a child <codeph>&lt;alt&gt;</codeph> element inside the DITA <codeph>&lt;image&gt;</codeph> element to contain the alternate text.</p></section></refbody>
+</reference>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="scenario_8_table_spanning_multiple_pages" xml:lang="en-us">
+   <title>Scenario 8 — Table spanning multiple pages</title>
+   <shortdesc>Consider a long reference table that spans two or more pages when printed.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>pages</keyword>
+        <keyword>table</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>Table</keyword>
+        <keyword>spanning</keyword>
+        <keyword>multiple</keyword>
+        <indexterm>pages</indexterm>
+        <indexterm>table</indexterm>
+        <indexterm>Scenario</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody> 
+      <p>Consider a long reference table that spans two or more pages when printed.</p>
+      <p><b>Result:</b>The converter produces one <codeph>&lt;simpletable&gt;</codeph> or <codeph>&lt;table&gt;</codeph> that contains all rows from the original Word table. No splitting or truncation occurs because of page breaks.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450327" xml:lang="en-us">
+   <title>Admonitions</title>
+   <shortdesc>This guide uses four types of admonitions to call out information that needs extra attention.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>information</keyword>
+        <keyword>reader</keyword>
+        <keyword>Admonitions</keyword>
+        <keyword>types</keyword>
+        <keyword>Critical</keyword>
+        <keyword>understand</keyword>
+        <indexterm>information</indexterm>
+        <indexterm>reader</indexterm>
+        <indexterm>Admonitions</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>This guide uses four types of admonitions to call out information that needs extra attention. Each one signals a different level of importance, as explained below.</p>
+      <table frame="all" colsep="1" rowsep="1">
+         <title>Admonition label types and uses</title>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>Label</b>
+                  </entry>
+                  <entry>
+                     <b>Used for</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>NOTE</b>
+                  </entry>
+                  <entry>Supplementary information, clarifications, or good-to-know context that doesn't block the reader from proceeding</entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>WARNING</b>
+                  </entry>
+                  <entry>Critical information the reader must understand to avoid damage, data loss, safety risk, or severe consequences</entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>TIP</b>
+                  </entry>
+                  <entry>Optional best-practice advice or a shortcut that improves the outcome but isn't required</entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>IMPORTANT</b>
+                  </entry>
+                  <entry>Critical information the reader must understand to get an accurate conversion — not optional, but not a risk of damage or data loss</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </conbody>
+</concept>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_6_multiple_images_placed_side_by_side_in_one_paragraph" xml:lang="en-us">
+   <title>Scenario 6 — Multiple images placed side by side in one paragraph</title>
+   <shortdesc>Consider a Normal paragraph where the author has inserted two or three small inline images</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>images</keyword>
+        <keyword>inline</keyword>
+        <keyword>paragraph</keyword>
+        <keyword>image</keyword>
+        <keyword>placement</keyword>
+        <keyword>Multiple</keyword>
+        <indexterm>images</indexterm>
+        <indexterm>inline</indexterm>
+        <indexterm>paragraph</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a Normal paragraph where the author has inserted two or three small inline images next to each other in the same paragraph — for example, a set of toolbar icon images.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Multiple images placed side-by-side</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Normal paragraph — three inline images:] [img: icon_a.png] [img: icon_b.png] [img: icon_c.png]</entry>
+                     <entry>
+                        <codeblock id="codeblock_onq_rpy_kkc">
+&lt;p>
+  &lt;image href="media/icon_a.png" placement="inline"/>
+  &lt;image href="media/icon_b.png" placement="inline"/>
+  &lt;image href="media/icon_c.png" placement="inline"/>
+&lt;/p></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b>Each image is mapped to an <codeph>&lt;image placement="inline"/&gt;</codeph> element inside the same <codeph>&lt;p&gt;</codeph>.</p>
+<note type="tip"> If a specific side-by-side layout is required in the published output, use a table with images in adjacent cells.</note>
+         </section>
+   </refbody>
+</reference>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705937" xml:lang="en-us">
+   <title>Scenario 5: choices in a task topic</title>
+   <shortdesc>Consider a "Configure Authentication Method" chapter in a "Security Administration Guide" document where users can</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>authentication</keyword>
+        <keyword>Configure</keyword>
+        <keyword>Authentication</keyword>
+        <keyword>method</keyword>
+        <keyword>using</keyword>
+        <keyword>Scenario</keyword>
+        <indexterm>authentication</indexterm>
+        <indexterm>Configure</indexterm>
+        <indexterm>Authentication</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a "Configure Authentication Method" chapter in a "Security Administration Guide" document where users can choose one of several valid authentication configuration methods.</p>
+      <codeblock id="codeblock_zfk_jqs_kkc">&lt;task id="configure-auth-method" title="Configure Authentication Method"&gt;
+&lt;shortdesc&gt;
+Configure an authentication method for user sign-in.
+&lt;/shortdesc&gt;
+&lt;context&gt;
+&lt;p&gt;
+The platform supports multiple authentication providers.
+&lt;/p&gt;
+&lt;/context&gt;
+&lt;steps&gt;
+&lt;step id="step-1"&gt;
+&lt;cmd&gt;
+Open the Authentication Settings page.
+&lt;/cmd&gt;
+&lt;/step&gt;
+&lt;step id="step-2"&gt;
+&lt;cmd&gt;
+Select the authentication method to configure.
+&lt;/cmd&gt;
+&lt;choices&gt;
+&lt;choice&gt;
+Configure local authentication using internal user
+accounts.
+&lt;/choice&gt;
+&lt;choice&gt;
+Configure SAML single sign-on (SSO) integration.
+&lt;/choice&gt;
+&lt;choice&gt;
+Configure OAuth 2.0 authentication using an external
+identity provider.
+&lt;/choice&gt;
+&lt;/choices&gt;
+&lt;stepresult&gt;
+&lt;p&gt;
+The selected authentication configuration page opens.
+&lt;/p&gt;
+&lt;/stepresult&gt;
+&lt;/step&gt;
+&lt;/steps&gt;
+&lt;result&gt;
+&lt;p&gt;
+Users can authenticate using the configured authentication
+provider.
+&lt;/p&gt;
+&lt;/result&gt;
+&lt;/task&gt;</codeblock><p>
+         <b>Result:</b> Users know they must select one option from multiple valid procedural alternatives within the same step.</p>
+  </section></refbody>
+</reference>

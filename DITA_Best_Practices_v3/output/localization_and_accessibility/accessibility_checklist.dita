@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235706011" xml:lang="en-us">
+   <title>Accessibility checklist</title>
+   <shortdesc>When prioritizing accessibility, you should meet the following criteria:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>title</keyword>
+        <keyword>Accessibility</keyword>
+        <keyword>checklist</keyword>
+        <keyword>descriptive</keyword>
+        <keyword>When</keyword>
+        <keyword>prioritizing</keyword>
+        <indexterm>title</indexterm>
+        <indexterm>Accessibility</indexterm>
+        <indexterm>checklist</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>When prioritizing accessibility, you should meet the following criteria:<ul
+        id="ul_11014334">
+        <li>Every <codeph>&lt;image&gt;</codeph>has
+          descriptive <codeph>&lt;alt&gt;</codeph> text</li>
+        <li>
+          <codeph>&lt;fig&gt;</codeph> elements include <codeph>&lt;title&gt;</codeph>
+        </li>
+        <li>Table cells are not empty (use "N/A" or "—" if no value)</li>
+        <li>Colour is not the only means of conveying information</li>
+        <li>Link text is descriptive and meaningful out of context (avoid “click here” or vague
+          phrases).</li>
+        <li>Headings (<codeph>&lt;title&gt;</codeph> and section <codeph>&lt;title&gt;</codeph>)
+          follow a logical hierarchy and are not used only for visual styling.</li>
+        <li>Lists use <codeph>&lt;ul&gt;</codeph>, <codeph>&lt;ol&gt;</codeph>, or
+            <codeph>&lt;dl&gt;</codeph> for semantic structure instead of paragraph‑level
+          workarounds.</li>
+        <li>Tables and figures are referenced explicitly in surrounding text so readers know what
+          comes next.</li>
+      </ul></p>
+   </conbody>
+</concept>

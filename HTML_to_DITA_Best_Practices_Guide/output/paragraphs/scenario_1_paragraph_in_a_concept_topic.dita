@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450348" xml:lang="en-us">
+   <title>Scenario 1 — Paragraph in a concept topic</title>
+   <shortdesc>Consider an HTML section titled "Product Parts Location" followed by two &lt;p&gt; elements describing the</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>concept</keyword>
+        <keyword>parts</keyword>
+        <keyword>printer</keyword>
+        <keyword>Paragraph</keyword>
+        <keyword>topic</keyword>
+        <keyword>section</keyword>
+        <indexterm>concept</indexterm>
+        <indexterm>parts</indexterm>
+        <indexterm>printer</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider an HTML section titled "Product Parts Location" followed by two <codeph>&lt;p&gt;</codeph> elements describing the product.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Paragraph in a concept topic</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;h2>Product parts location&lt;/h2>
+&lt;p>Use this section to identify the parts on the printer.&lt;/p>
+&lt;p>The printer has three main areas: front, inside, and back.&lt;/p></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;concept id="product_parts_location">
+  &lt;title>Product Parts Location&lt;/title>
+  &lt;conbody>
+    &lt;p>Use this section to identify the parts on the printer.&lt;/p>
+    &lt;p>The printer has three main areas: front, inside, and back.&lt;/p>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> Both <codeph>&lt;p&gt;</codeph> elements are mapped to <codeph>&lt;p&gt;</codeph> elements inside <codeph>&lt;conbody&gt;</codeph> in document order. The first <codeph>&lt;p&gt;</codeph> element is also extracted as <codeph>&lt;shortdesc&gt;</codeph>.</p>
+         </section>
+   </refbody>
+</reference>

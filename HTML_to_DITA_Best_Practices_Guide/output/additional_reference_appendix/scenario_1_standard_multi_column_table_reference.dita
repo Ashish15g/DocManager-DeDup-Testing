@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headingh3e98s1blw8h4" xml:lang="en-us">
+   <title>Scenario 1 — Standard Multi - Column Table Reference</title>
+   <refbody>
+      <section id="sec_d65e7">
+         <p>A section titled "Printer Configuration Parameters" contains a brief introductory sentence and a multi-column table of configuration settings. The heading contains the keyword "Parameters", and a lookup table dominates the body.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Standard multi-column table reference</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_g34_t1n_lkc">
+&lt;h2 id="printer-config-parameters">Printer configuration parameters&lt;/h2>
+&lt;p>The following parameters control printer behaviour.&lt;/p>
+&lt;table>
+  &lt;thead>
+    &lt;tr>
+      &lt;th scope="col">Parameter&lt;/th>
+      &lt;th scope="col">Value&lt;/th>
+      &lt;th scope="col">Description&lt;/th>
+    &lt;/tr>
+  &lt;/thead>
+  &lt;tbody>
+    &lt;tr>
+      &lt;td>copies&lt;/td>
+      &lt;td>1–99&lt;/td>
+      &lt;td>Number of copies to print.&lt;/td>
+    &lt;/tr>
+  &lt;/tbody>
+&lt;/table></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_yhv_t1n_lkc">
+&lt;reference id="printer_config_parameters">
+  &lt;title>Printer Configuration Parameters&lt;/title>
+  &lt;shortdesc>The following parameters control printer behaviour.&lt;/shortdesc>
+  &lt;refbody>
+    &lt;section>
+      &lt;p>The following parameters control printer behaviour.&lt;/p>
+    &lt;/section>
+    &lt;simpletable frame="all" relcolwidth="1* 1* 1*" id="simpletable_zhd_2wg_pjc">
+      &lt;sthead>
+        &lt;stentry>Parameter&lt;/stentry>
+        &lt;stentry>Value&lt;/stentry>
+        &lt;stentry>Description&lt;/stentry>
+      &lt;/sthead>
+      &lt;strow>
+        &lt;stentry>copies&lt;/stentry>
+        &lt;stentry>1–99&lt;/stentry>
+        &lt;stentry>Number of copies to print.&lt;/stentry>
+      &lt;/strow>
+    &lt;/simpletable>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> The heading keyword "Parameters" combined with a multi-column lookup table triggers reference classification. Non-table prose before the table is wrapped in a <codeph>&lt;section&gt;</codeph> inside <codeph>&lt;refbody&gt;</codeph>. The multi-column HTML <codeph>&lt;table&gt;</codeph> maps to <codeph>&lt;simpletable&gt;</codeph>. Column header text maps to plain <codeph>&lt;stentry&gt;</codeph> elements.</p>
+      </section>
+   </refbody>
+</reference>

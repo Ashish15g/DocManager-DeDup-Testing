@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235705985" xml:lang="en-us">
+   <title>Scenario: topicmeta in practice</title>
+   <shortdesc>&lt;topicmeta&gt; is used inside a &lt;topicref&gt; to override or enhance the way a topic appears</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>topicmeta</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>practice</keyword>
+        <keyword>topicref</keyword>
+        <keyword>topic</keyword>
+        <keyword>security</keyword>
+        <indexterm>topicmeta</indexterm>
+        <indexterm>Scenario</indexterm>
+        <indexterm>practice</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>
+         <codeph>&lt;topicmeta&gt;</codeph> is used inside a <codeph>&lt;topicref&gt;</codeph> to override or enhance the way a topic appears in navigation and output, without changing the original topic file. The <codeph>&lt;navtitle&gt;</codeph> controls the label shown in the table of contents, while the <codeph>&lt;shortdesc&gt;</codeph> provides a brief description that may appear in summaries, search results, or tooltips.</p>
+      <codeblock xml:space="preserve">&lt;map&gt;
+&lt;topicref href="c_security_overview.dita"&gt;
+&lt;topicmeta&gt;
+&lt;navtitle&gt;Security Basics&lt;/navtitle&gt;
+&lt;shortdesc&gt;Learn the fundamentals of application security.&lt;/shortdesc&gt;
+&lt;/topicmeta&gt;
+&lt;/topicref&gt;
+&lt;/map&gt;</codeblock>
+    </section></refbody>
+</reference>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235705954" xml:lang="en-us">
+   <title>Scenario 5: CLI reference topic</title>
+   <shortdesc>Consider a "backup Command" chapter in a "CLI Reference Guide" document where you want to</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>backup</keyword>
+        <keyword>command</keyword>
+        <keyword>Command</keyword>
+        <keyword>Syntax</keyword>
+        <keyword>destination</keyword>
+        <keyword>reference</keyword>
+        <indexterm>backup</indexterm>
+        <indexterm>command</indexterm>
+        <indexterm>Command</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>Consider a "backup Command" chapter in a "CLI Reference Guide" document where you want to document command syntax, options, variables, keywords, and command output. Instead of documenting commands as plain text, use CLI-specific DITA elements to describe the command structure semantically.</p>
+      <codeblock xml:space="preserve">&lt;reference id="backup-command"&gt;
+&lt;title&gt;backup Command&lt;/title&gt;
+&lt;shortdesc&gt;
+Creates a backup of application data and configuration files.
+&lt;/shortdesc&gt;
+&lt;refbody&gt;
+&lt;section&gt;
+&lt;title&gt;Command Syntax&lt;/title&gt;
+&lt;p&gt;
+&lt;synph&gt;
+&lt;cmdname&gt;backup&lt;/cmdname&gt;
+&lt;option&gt;--full&lt;/option&gt;
+&lt;option&gt;--compress&lt;/option&gt;
+&lt;var&gt;destination&lt;/var&gt;
+&lt;/synph&gt;
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;title&gt;Syntax Diagram&lt;/title&gt;
+&lt;syntaxdiagram&gt;
+&lt;groupseq&gt;
+&lt;cmdname&gt;backup&lt;/cmdname&gt;
+&lt;groupchoice&gt;
+&lt;option&gt;--full&lt;/option&gt;
+&lt;option&gt;--incremental&lt;/option&gt;
+&lt;/groupchoice&gt;
+&lt;option&gt;--compress&lt;/option&gt;
+&lt;var&gt;destination&lt;/var&gt;
+&lt;/groupseq&gt;
+&lt;/syntaxdiagram&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;title&gt;Syntax Components&lt;/title&gt;
+&lt;simpletable relcolwidth="1* 2*"&gt;
+&lt;sthead&gt;
+&lt;stentry&gt;Element&lt;/stentry&gt;
+&lt;stentry&gt;Description&lt;/stentry&gt;
+&lt;/sthead&gt;
+&lt;strow&gt;
+&lt;stentry&gt;
+&lt;cmdname&gt;backup&lt;/cmdname&gt;
+&lt;/stentry&gt;
+&lt;stentry&gt;
+Executable command name.
+&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;strow&gt;
+&lt;stentry&gt;
+&lt;option&gt;--full&lt;/option&gt;
+&lt;/stentry&gt;
+&lt;stentry&gt;
+Creates a complete backup.
+&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;strow&gt;
+&lt;stentry&gt;
+&lt;var&gt;destination&lt;/var&gt;
+&lt;/stentry&gt;
+&lt;stentry&gt;
+User-supplied backup location.
+&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;/simpletable&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;title&gt;Complex Syntax Example&lt;/title&gt;
+&lt;p&gt;
+The following syntax illustrates the use of keywords,
+operators, and delimiters:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;synph&gt;
+&lt;cmdname&gt;backup&lt;/cmdname&gt;
+&lt;delim&gt;[&lt;/delim&gt;
+&lt;option&gt;--full&lt;/option&gt;
+&lt;oper&gt;|&lt;/oper&gt;
+&lt;option&gt;--incremental&lt;/option&gt;
+&lt;delim&gt;]&lt;/delim&gt;
+&lt;kwd&gt;to&lt;/kwd&gt;
+&lt;var&gt;destination&lt;/var&gt;
+&lt;/synph&gt;
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;title&gt;Example Command&lt;/title&gt;
+&lt;codeblock outputclass="language-bash"&gt;
+backup --full --compress /backups/prod
+</codeblock>
+    </section></refbody>
+</reference>

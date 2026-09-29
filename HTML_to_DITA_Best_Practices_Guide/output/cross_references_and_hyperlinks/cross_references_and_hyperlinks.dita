@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450422" xml:lang="en-us">
+   <title>Cross-References and Hyperlinks</title>
+   <abstract>This section covers Cross-References, Bookmarks and Hyperlinks — three distinct
+      navigational mechanisms that connect related content within a document, across a documentation
+      set, or to an external resource — and six scenarios: an internal cross-reference or bookmark,
+      an external URL, a hyperlink with non-descriptive display text, a link list at the end of a
+      section, and an internal link list used as a mini-TOC. The converter maps each structured link
+      to a DITA <codeph>&lt;xref&gt;</codeph> element using @href, @scope, and @format to resolve
+      the target correctly in the generated output</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>target</keyword>
+        <keyword>document</keyword>
+        <keyword>reference</keyword>
+        <keyword>bookmark</keyword>
+        <keyword>cross</keyword>
+        <keyword>element</keyword>
+        <indexterm>target</indexterm>
+        <indexterm>document</indexterm>
+        <indexterm>reference</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>A <b>cross-reference,</b> a <b>bookmark</b>, and a <b>hyperlink</b>are three distinct mechanisms - each with a specific structural role:</p>
+      <ul id="ul_09045201">
+         <li>A <b>cross-reference</b> is an active, field-based link to a heading, figure, table, footnote, or bookmark within the same document or internal identifier (such as bookmark).</li>
+         <li>A <b>bookmark</b>assigns a named identifier to a specific location in the document — a
+            word, a phrase, a paragraph, or a position between characters. Bookmarks serve as anchor
+            points that cross-references and hyperlinks can target.<note id="note_vdg_xwg_lkc">Both
+               cross-reference and/or bookmarks target updates automatically when the document is
+               restructured or the sections are moved within the same document.</note></li>
+         <li>A <b>hyperlink</b>stores an explicit address — a URL, an email address, a file path, or
+            a sometimes same-document bookmark anchor. Unlike bookmark and cross reference, the
+            hyperlink address is fixed at the time of creation.<note id="note_ums_dxg_lkc">Using the
+               document's native link tools is the condition that produces a valid, resolvable
+               &lt;xref&gt; element in the DITA output. A link typed as plain text produces no link
+               structure and maps to a plain &lt;p&gt; element.</note></li>
+      </ul>
+      <p>In HTML, links are created using the <codeph>&lt;a&gt;</codeph> element with an <codeph>href</codeph> attribute that identifies the target location. The converter evaluates the target of each HTML <codeph>&lt;a&gt;</codeph> element when generating DITA output and resolves each link type using three <codeph>&lt;xref&gt;</codeph> attributes:</p>
+      <table frame="all" colsep="1" rowsep="1">
+         <title>Xref attributes, purpose, and values</title>
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>Attribute</b>
+                  </entry>
+                  <entry>
+                     <b>Purpose</b>
+                  </entry>
+                  <entry>
+                     <b>Common Values</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>@href</entry>
+                  <entry>The link target</entry>
+                  <entry>Topic file path, URL, mailto: address</entry>
+               </row>
+               <row>
+                  <entry>@scope</entry>
+                  <entry>Relationship between source and target</entry>
+                  <entry>local — same deliverable peer — same documentation set, different deliverable external — outside the documentation set</entry>
+               </row>
+               <row>
+                  <entry>@format</entry>
+                  <entry>Format of the target resource</entry>
+                  <entry>Cross-reference - dita — default for DITA topic references Hyperlink - html — external web pages; PDF — linked PDF files</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <note type="important"> Ensure all hyperlinks reference valid targets and use descriptive link
+         text. The converter flags unresolvable links in the conversion report.</note>
+   </conbody>
+</concept>

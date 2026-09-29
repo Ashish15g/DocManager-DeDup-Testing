@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560292" xml:lang="en-us">
+   <title>Markdown package structure based on SSG</title>
+   <abstract> This section describes popular Markdown-based static site generators (SSGs) used for
+      documentation. It covers six tools: ReadMe (readme.com), Docusaurus, Hugo, Gatsby, Jekyll,
+      and MkDocs. It lists key attributes of each tool in a summary table. It explains how each
+      works, its typical folder/layout structure, and how it processes Markdown content. This deep
+      dive will equip the AI Agent with a clear understanding of each SSG’s workflow and structure
+      and when its Markdown output is a good fit for automated conversion to DITA.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Markdown</keyword>
+        <keyword>themes</keyword>
+        <keyword>content</keyword>
+        <keyword>build</keyword>
+        <keyword>based</keyword>
+        <keyword>gatsby</keyword>
+        <indexterm>Markdown</indexterm>
+        <indexterm>themes</indexterm>
+        <indexterm>content</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+<p>Markdown-based static site generators use source files, folder hierarchies, metadata, templates, and build configurations to transform Markdown content into navigable documentation websites. Although each generator implements its own architecture, they all organize content into structured folders and use metadata, navigation definitions, and templates to control site generation. The following table summarizes the key architectural characteristics of several widely used documentation-focused static site generators and highlights the differences in metadata management, templating approaches, build processes, and extensibility models.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Static site generators</title>
+            <tgroup cols="5">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <colspec colname="c4"/>
+               <colspec colname="c5"/>
+               <thead>
+                  <row>
+                     <entry> Generator </entry>
+                     <entry> Front-matter format</entry>
+                     <entry> Templating </entry>
+                     <entry> Build command</entry>
+                     <entry> Plugin/Theme system</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>ReadMe</b>
+                     </entry>
+                     <entry>YAML front matter in each file. It uses custom fields like title, api, category, etc.</entry>
+                     <entry>Custom templating system that includes server-side rendering with React. It is not user-visible templating.</entry>
+                     <entry>No build command because content is synced via CLI/GitHub Action. There is no static site build.</entry>
+                     <entry>Uses themes and its CLI supports validation. It supports API reference via OpenAPI import.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <b>Docusaurus</b>
+                     </entry>
+                     <entry>YAML frontmatter in Markdown/MDX files. It supports .md and .mdx (JSX) files.</entry>
+                     <entry>React components (MDX) for content. The configuration in Docusaurus is through config.js (JS). It uses React/JSX in pages.</entry>
+                     <entry>yarn start (dev) / yarn build (production).</entry>
+                     <entry>Rich plugin/theme system. Uses themes via classic (default) or custom.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <b>Hugo</b>
+                     </entry>
+                     <entry>YAML, TOML or JSON frontmatter at the top of each content file, which is delimited by <codeph>---</codeph>, <codeph>+++</codeph>, or <codeph>{}</codeph>. Common fields: title, date, draft, etc.</entry>
+                     <entry>Go templates (html/template) and shortcodes for pages. It includes an asset pipeline for images, CSS, and JS.</entry>
+                     <entry>hugo or hugo server.</entry>
+                     <entry>Built-in themes or custom themes in themes. There is an extensive plugin-like system via <b>Hugo Modules</b> and config. Built-in shortcodes such as <codeph>{{&lt; figure &gt;}})</codeph> and custom shortcodes are also possible.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <b>Gatsby</b>
+                     </entry>
+                     <entry>YAML front matter in Markdown/MDX when using gatsby-transformer-* plugins.</entry>
+                     <entry>React (JSX) components for pages/templates. Config in gatsby-config.js and gatsby-node.js (JavaScript).</entry>
+                     <entry>gatsby develop / gatsby build.</entry>
+                     <entry>Very large ecosystem of plugins (e.g., for sourcing Markdown, images, CMS data) and starters. It uses a GraphQL data layer to pull in content, images (gatsby-image), etc. Themes are available with <codeph>@gatsbyjs/gatsby-theme-*</codeph> and custom plugins are also available.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <b>Jekyll</b>
+                     </entry>
+                     <entry>YAML front matter at the top of each content file is delimited by a <codeph>---</codeph> block. It includes fields like layout, title, date, categories, etc.</entry>
+                     <entry>Liquid templating (_layouts, _includes); Sass/CSS in _sass; plugins via Ruby gems; themes (gem-based like minima or directory themes).</entry>
+                     <entry>jekyll build or jekyll serve for dev.</entry>
+                     <entry>Plugins are like Ruby gems (e.g., jekyll-feed, jekyll-seo-tag, etc.). It includes gem-based themes (minima default) or custom themes. There are data files (.yml/.json) in _data.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <b>MkDocs</b>
+                     </entry>
+                     <entry>No front matter in pages by default. Metadata (site name, nav, etc.) is in a single mkdocs.yml (YAML) at the root.</entry>
+                     <entry>Jinja2-based templating in themes (default mkdocs and readthedocs themes).</entry>
+                     <entry>mkdocs build or mkdocs serve for dev.</entry>
+                     <entry>It is extendable via Python plugins and Python-Markdown extensions. Third-party themes (e.g., material) and many plugins (search, redirects, etc.) are available. Navigation can be auto-generated or defined in mkdocs.yml.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>Docusaurus and Gatsby use React/MDX; Hugo and Jekyll use front matter in Markdown, while MkDocs centralizes config in mkdocs.yml. For each tool, the sections below detail how it works, typical project layouts, and Markdown processing.</p></conbody>
+</concept>

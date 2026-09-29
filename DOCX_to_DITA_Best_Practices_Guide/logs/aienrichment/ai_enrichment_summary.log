@@ -1,0 +1,82 @@
+metR DOCX DocMigrate — AI ENRICHMENT REPORT
+================================================================================
+ DITA OUTPUT               : transformed output
+ Total Files               : 132 (116 DITA, 16 DITAMAP)
+ Topics Reclassified       : 85
+ Shortdescs Generated      : 115
+ Metadata Generated        : 115
+ Alt Text Filled           : 0 of 0 images
+ Author Suggestions        : 76 (all pending review)
+ AI Enrichment Mode        : AI available for this run
+ Overall Status            : WARNING (issues remain — manual review required)
+--------------------------------------------------------------------------------
+
+PRE-CLEAN CORRECTIONS APPLIED
+--------------------------------------------------------------------------------
+ Structural Pre-fixes       : 0 files modified, 0 failed
+ Zone 1 Auto-fixes         : 0 applied
+--------------------------------------------------------------------------------
+
+POST ENRICHMENT & VALIDATION (4-gate DITA 2.x validation)
+--------------------------------------------------------------------------------
+ Files validated           : 132
+ Files with violations     : 12
+ Total violations          : 16  (12 ERROR, 4 WARNING)
+   Gate 1 (vocabulary)     : 0
+   Gate 2 (structure)      : 13
+   Gate 3 (content model)  : 3
+   Gate 4 (attributes)     : 0
+ Fix passes applied        : Pass 1 — 9 fixes / 3 files · Pass 2 — none
+--------------------------------------------------------------------------------
+ MANUAL ACTION REQUIRED — please review before packaging
+--------------------------------------------------------------------------------
+
+ 1. Add product name to all 116 files            [HIGH PRIORITY]
+    No product name could be determined automatically.
+    Every topic's <prodname> field is currently empty.
+
+ 2. Review 76 pending author suggestions before final packaging:
+      missing_steps                   31
+      broken_xml                      13
+      dtd_violation                   9
+      section_missing_title           7
+      invalid_inline_element          3
+      image_missing_href              3
+      shortdesc_too_generic           3
+      missing_shortdesc               2
+      image_missing_alt               1
+      broken_xref_anchor              1
+      empty_p                         1
+      table_missing_title             1
+      missing_prolog                  1
+
+ 3. Review 3 shortdescs flagged as too generic (auto-detected opener
+    phrases like "This section...").
+
+ 4. 11 structural issues remain open after enrichment:
+      missing_steps                   30
+      broken_xml                      13
+      section_missing_title           8
+      image_missing_href              3
+      broken_xref_anchor              1
+      missing_shortdesc               1
+      empty_p                         1
+      table_missing_title             1
+
+--------------------------------------------------------------------------------
+
+SUPPORTING REPORTS (aienrichment folder)
+--------------------------------------------------------------------------------
+ File                                Contents
+--------------------------------------------------------------------------------
+ pre_enrichment.json                 File inventory, structural-issue scan, and
+                                      initial 4-gate DITA validation.
+ post_enrichment.json                Full per-file enrichment results, quality
+                                      metrics and validation fixes.
+ author_suggestions.json             All 76 author suggestions listed above,
+                                      with file, line, and suggested fix.
+ topic_inference_map.json            Per-topic classification detail — type,
+                                      confidence, and reasoning for every file.
+ ai_enrichment_full.log              Full technical run log (all layers, all
+                                      files) — for troubleshooting use only.
+--------------------------------------------------------------------------------

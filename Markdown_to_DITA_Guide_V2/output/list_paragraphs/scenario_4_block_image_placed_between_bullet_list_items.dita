@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_headinghqfagcjfka2pu" xml:lang="en-us">
+   <title>Scenario 4: Block image placed between bullet list items</title>
+   <shortdesc>Consider a .md file where an image is inserted between bullet list items to provide</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>Notifications</keyword>
+        <keyword>bullet</keyword>
+        <keyword>between</keyword>
+        <keyword>items</keyword>
+        <keyword>Notification</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>Notifications</indexterm>
+        <indexterm>bullet</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a .md file where an image is inserted between bullet list items to provide additional context.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Block image placed between bullet list items</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Notification Channels
+  - Email Notifications
+  ![Notification  Architecture](images/notification-architecture.png)
+  - SMS Notifications
+  - Webhook Notifications</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;concept id="notification_channels"&gt;
+  &lt;title&gt;Notification Channels&lt;/title&gt;
+  &lt;conbody&gt;
+  &lt;ul&gt;
+  &lt;li&gt;Email Notifications &lt;fig&gt;
+  &lt;image href="media/notification-architecture.png"&gt; &lt;alt&gt;Notification Architecture&lt;/alt&gt;
+  &lt;/image&gt;
+  &lt;/fig&gt;&lt;/li&gt;
+  &lt;li&gt;SMS Notifications&lt;/li&gt;
+  &lt;li&gt;Webhook Notifications&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/conbody&gt;
+  &lt;/concept&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The converter associates the image with the preceding bullet list item and preserves it as content within the corresponding DITA <codeph>&lt;li&gt;</codeph> element.</p></section></refbody>
+</reference>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="dita_output_2" xml:lang="en-us">
+   <title>DITA output</title>
+   <refbody><section>
+      <codeblock>&lt;topicref href="alarm_notifier.dita"&gt;
+         &lt;topicref href="overview.dita"/&gt;
+         &lt;topicref href="configuration.dita"/&gt;
+         &lt;topicref href="troubleshooting.dita"/&gt;
+         &lt;/topicref&gt;
+      </codeblock>
+      <p>
+         <b>Result:</b>The index.md file is converted to the parent topic, and all the other files are converted to child topics.</p>
+      <note type="warning">Avoid mixing multiple authoring models within the same repository. Use the folder-per-topic architecture or the file-per-topic architecture consistently.</note>
+   </section></refbody>
+</reference>

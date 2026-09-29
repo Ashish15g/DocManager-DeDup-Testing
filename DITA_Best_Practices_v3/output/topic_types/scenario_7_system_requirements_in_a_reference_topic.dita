@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705956" xml:lang="en-us">
+   <title>Scenario 7: system requirements in a reference topic</title>
+   <shortdesc>Consider a "System Requirements" chapter in an "Installation Reference Guide" document where you want to</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>requirements</keyword>
+        <keyword>system</keyword>
+        <keyword>Requirements</keyword>
+        <keyword>reference</keyword>
+        <keyword>System</keyword>
+        <keyword>Scenario</keyword>
+        <indexterm>requirements</indexterm>
+        <indexterm>system</indexterm>
+        <indexterm>Requirements</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section>
+      <p>Consider a "System Requirements" chapter in an "Installation Reference Guide" document where you want to provide the minimum and recommended hardware and software requirements for the application.</p>
+      <codeblock>&lt;reference id="system-requirements"&gt;
+&lt;title&gt;System Requirements&lt;/title&gt;
+&lt;shortdesc&gt;
+Review the minimum and recommended system requirements before
+installing the application.
+&lt;/shortdesc&gt;
+&lt;refbody&gt;
+&lt;section&gt;
+&lt;title&gt;Hardware Requirements&lt;/title&gt;
+&lt;simpletable relcolwidth="2* 1* 1*"&gt;
+&lt;sthead&gt;
+&lt;stentry&gt;Component&lt;/stentry&gt;
+&lt;stentry&gt;Minimum&lt;/stentry&gt;
+&lt;stentry&gt;Recommended&lt;/stentry&gt;
+&lt;/sthead&gt;
+&lt;strow&gt;
+&lt;stentry&gt;CPU&lt;/stentry&gt;
+&lt;stentry&gt;2 Cores&lt;/stentry&gt;
+&lt;stentry&gt;4 Cores&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;strow&gt;
+&lt;stentry&gt;Memory&lt;/stentry&gt;
+&lt;stentry&gt;8 GB RAM&lt;/stentry&gt;
+&lt;stentry&gt;16 GB RAM&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;strow&gt;
+&lt;stentry&gt;Storage&lt;/stentry&gt;
+&lt;stentry&gt;20 GB&lt;/stentry&gt;
+&lt;stentry&gt;50 GB SSD&lt;/stentry&gt;
+&lt;/strow&gt;
+&lt;/simpletable&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;title&gt;Software Requirements&lt;/title&gt;
+&lt;dl&gt;
+&lt;dlentry&gt;
+&lt;dt&gt;Operating System&lt;/dt&gt;
+&lt;dd&gt;
+Windows 10, Windows 11, or Ubuntu Linux 22.04 LTS.
+&lt;/dd&gt;
+&lt;/dlentry&gt;
+&lt;dlentry&gt;
+&lt;dt&gt;Java Runtime&lt;/dt&gt;
+&lt;dd&gt;
+Java 17 or later.
+&lt;/dd&gt;
+&lt;/dlentry&gt;
+&lt;dlentry&gt;
+&lt;dt&gt;Database&lt;/dt&gt;
+&lt;dd&gt;
+PostgreSQL 15 or later.
+&lt;/dd&gt;
+&lt;/dlentry&gt;
+&lt;/dl&gt;
+&lt;/section&gt;
+&lt;/refbody&gt;
+&lt;/reference&gt;</codeblock>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <p>
+         <b>Result:</b> Using a combination of <codeph>&lt;simpletable&gt;</codeph> for hardware requirement comparisons and <codeph>&lt;dl&gt;</codeph>(definition list) for software dependencies and environmental requirements provides structured lookup information while keeping the content easy to maintain and reuse.</p>
+   </section></refbody>
+</reference>

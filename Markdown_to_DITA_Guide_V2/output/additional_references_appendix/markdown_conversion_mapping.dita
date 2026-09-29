@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560426" xml:lang="en-us">
+   <title>Markdown conversion mapping</title>
+   <shortdesc>The markdown folder structure converts to the DITA map or book map in the following</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>folder</keyword>
+        <keyword>DITA</keyword>
+        <keyword>Markdown</keyword>
+        <keyword>conversion</keyword>
+        <keyword>mapping</keyword>
+        <keyword>index</keyword>
+        <indexterm>folder</indexterm>
+        <indexterm>DITA</indexterm>
+        <indexterm>Markdown</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>The markdown folder structure converts to the DITA map or book map in the following ways:</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Markdown conversion mapping</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>Markdown structure</entry>
+                     <entry>DITA output</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>folder</entry>
+                     <entry>DITA map node</entry>
+                  </row>
+                  <row>
+                     <entry>root folder index.md</entry>
+                     <entry>primary DITA topic</entry>
+                  </row>
+                  <row>
+                     <entry>Subfolder index.md</entry>
+                     <entry>child topicref</entry>
+                  </row>
+                  <row>
+                     <entry>Sibling folders index.md</entry>
+                     <entry>sibling topicref</entry>
+                  </row>
+                  <row>
+                     <entry>Heading 2 (<codeph>##</codeph>)-Penultimate Heading</entry>
+                     <entry>grandchild topicref</entry>
+                  </row>
+                  <row>
+                     <entry>images folder</entry>
+                     <entry>DITA media folder</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table></section></refbody>
+</reference>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="table_example" xml:lang="en-us">
+   <title>Table example</title>
+   <shortdesc>&lt;tgroup cols="3"&gt; &lt;colspec colname="c1" colwidth="1*"/&gt; &lt;colspec colname="c2" colwidth="1*"/&gt; &lt;colspec colname="c3" colwidth="2*"/&gt; Parameter Type Description timeout</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>colspec</keyword>
+        <keyword>colname</keyword>
+        <keyword>colwidth</keyword>
+        <keyword>Table</keyword>
+        <keyword>example</keyword>
+        <keyword>timeout</keyword>
+        <indexterm>colspec</indexterm>
+        <indexterm>colname</indexterm>
+        <indexterm>colwidth</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <codeblock xml:space="preserve">&lt;table&gt;
+&lt;tgroup cols="3"&gt;
+&lt;colspec colname="c1" colwidth="1*"/&gt;
+&lt;colspec colname="c2" colwidth="1*"/&gt;
+&lt;colspec colname="c3" colwidth="2*"/&gt;
+&lt;thead&gt;
+&lt;row&gt;
+&lt;entry&gt;Parameter&lt;/entry&gt;
+&lt;entry&gt;Type&lt;/entry&gt;
+&lt;entry&gt;Description&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;row&gt;
+&lt;entry&gt;timeout&lt;/entry&gt;
+&lt;entry&gt;integer&lt;/entry&gt;
+&lt;entry&gt;Connection timeout in seconds. Default: 30.&lt;/entry&gt;
+&lt;/row&gt;
+&lt;row&gt;
+&lt;entry&gt;retries&lt;/entry&gt;
+&lt;entry&gt;integer&lt;/entry&gt;
+&lt;entry&gt;Number of retry attempts. Default: 3.&lt;/entry&gt;
+&lt;/row&gt;
+&lt;/tbody&gt;
+&lt;/tgroup&gt;
+&lt;/table&gt;</codeblock>
+    </section></refbody>
+</reference>

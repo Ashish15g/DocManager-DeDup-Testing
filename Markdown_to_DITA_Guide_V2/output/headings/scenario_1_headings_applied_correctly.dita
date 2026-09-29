@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560319" xml:lang="en-us">
+   <title>Scenario 1: Headings applied correctly</title>
+   <shortdesc>Consider a .md file with properly structured headings using # markers in the correct sequence:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Alarm</keyword>
+        <keyword>notifications</keyword>
+        <keyword>correctly</keyword>
+        <keyword>Management</keyword>
+        <keyword>Notification</keyword>
+        <keyword>Templates</keyword>
+        <indexterm>Alarm</indexterm>
+        <indexterm>notifications</indexterm>
+        <indexterm>correctly</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider a .md file with properly structured headings using # markers in the correct sequence:</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Headings are applied correctly</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Alarm Management
+  Alarm Management provides tools for creating, monitoring, and managing alarms.
+  ## Alarm Notifier
+  Alarm Notifier controls how alarm notifications are delivered to users and external systems.
+  ### Notification Channels
+  Alarm notifications can be delivered through email, SMS, and webhook integrations.
+  ### Notification Templates
+  Templates define the message format used when alarm notifications are sent.</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;concept id="installation-guide"&gt; &lt;title&gt; Alarm Management &lt;/title&gt;
+  &lt;conbody&gt;
+  &lt;p&gt; Alarm Management provides tools for creating, monitoring, and managing alarms.&lt;/p&gt;
+  &lt;section&gt;
+  &lt;title&gt;Alarm Notifier&lt;/title&gt; &lt;p&gt;Notification Channels&lt;/p&gt;
+  &lt;p&gt;
+  Alarm notifications can be delivered through email, SMS, and webhook integrations. &lt;/p&gt; &lt;p&gt;Notification Templates&lt;/p&gt;
+  &lt;p&gt;
+  Templates define the message format used when alarm notifications are sent. &lt;/p&gt; &lt;/section&gt; &lt;/conbody&gt; &lt;/concept&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The converter correctly preserves the intended hierarchy. Heading 1 becomes the topic <codeph>&lt;title&gt;</codeph>, Heading 2 becomes the section <codeph>&lt;title&gt;</codeph>, and Heading 3 becomes a <codeph>&lt;p&gt;</codeph> tag.</p></section></refbody>
+</reference>

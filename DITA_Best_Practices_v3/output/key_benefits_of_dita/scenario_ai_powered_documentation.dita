@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235705880" xml:lang="en-us">
+   <title>Scenario: AI-powered documentation</title>
+   <shortdesc>A customer support chatbot needs to answer questions about product features. With DITA-structured content:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Scenario</keyword>
+        <keyword>powered</keyword>
+        <keyword>documentation</keyword>
+        <keyword>questions</keyword>
+        <keyword>DITA</keyword>
+        <keyword>structured</keyword>
+        <indexterm>Scenario</indexterm>
+        <indexterm>powered</indexterm>
+        <indexterm>documentation</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>A customer support chatbot needs to answer questions about product features. With DITA-structured
+        content:<ol id="ol_rpx_3gs_kkc">
+        <li>The AI system indexes all concept topics by
+            their <codeph>&lt;shortdesc&gt;</codeph> and <codeph>&lt;keywords&gt;</codeph></li>
+        <li>User questions are matched against this semantic index</li>
+        <li>The AI retrieves the relevant topic and generates an accurate response</li>
+        <li>Source attribution is automatic because each topic has a unique identifier</li>
+      </ol></p>
+    <section>
+      <title>Result</title>
+      <p>Without DITA's structured approach, the AI would need to parse unstructured documents, leading to lower accuracy and frequent hallucinations.</p>
+    </section></conbody>
+</concept>

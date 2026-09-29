@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235705906" xml:lang="en-us">
+   <title>The DITA content system</title>
+   <shortdesc>DITA architecture works as an interconnected system where maps and topics can be reused in</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>content</keyword>
+        <keyword>topics</keyword>
+        <keyword>DITA</keyword>
+        <keyword>system</keyword>
+        <keyword>where</keyword>
+        <keyword>reused</keyword>
+        <indexterm>content</indexterm>
+        <indexterm>topics</indexterm>
+        <indexterm>DITA</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>DITA architecture works as an interconnected system where maps and topics can be reused in
+      a hierarchical structure:<ul id="ul_11014311">
+        <li>
+          <b>Topics:</b> Topics are the fundamental building blocks containing content.</li>
+        <li>
+          <b>Maps:</b> Book maps and DITA maps act as containers that assemble topics into
+          structured documentation, without altering the topics themselves. They define what content
+          appears where and in what order, while the source topics remain independent and
+          reusable.</li>
+        <li>
+          <b>Reuse mechanism:</b> The reuse mechanism allow content within topics to be referenced
+          and reused across multiple maps and contexts.</li>
+      </ul></p>
+      <p>This relationship ensures that a single topic can appear in multiple outputs, while shared content within topics can be centrally managed and dynamically inserted wherever needed.</p>
+   </conbody>
+</concept>

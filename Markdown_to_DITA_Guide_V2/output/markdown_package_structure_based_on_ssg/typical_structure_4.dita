@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560300" xml:lang="en-us">
+   <title>Typical structure</title>
+   <shortdesc>A sample structure with a mix of Node-config and src/ code is provided below.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>pages</keyword>
+        <keyword>gatsby</keyword>
+        <keyword>structure</keyword>
+        <keyword>React</keyword>
+        <keyword>https</keyword>
+        <keyword>gatsbyjs</keyword>
+        <indexterm>pages</indexterm>
+        <indexterm>gatsby</indexterm>
+        <indexterm>structure</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>A sample structure with a mix of Node-config and src/ code is provided below.</p>
+      <codeblock id="codeblock_o1g_dbw_jkc">php
+my-site/
+├── gatsby-config.js        # site metadata and plugins
+├── gatsby-node.js          # node APIs (createPages, etc.)
+├── package.json
+├── src/
+│   ├── pages/              # React/MDX files become pages
+│   │   └── index.jsx
+│   ├── templates/          # templates for programmatic pages
+│   ├── components/         # React UI components
+│   └── images/             # (optional) local images for import
+├── static/                 # files copied to build (not processed by webpack)
+└── public/                 # (build output, auto-generated)</codeblock><p>The <xref href="https://www.gatsbyjs.com/docs/reference/gatsby-project-structure/" scope="external" format="html">official docs</xref> list common folders. By default, any React or MDX file in src/pages/ automatically creates a page (e.g., src/pages/about.js → /about/). In practice, many sites also use gatsby-source-filesystem on a content/ folder and then create pages via gatsby-node.js. The public/ folder is generated and should be gitignored.</p><p>For more information, see the following links:</p>
+  </section></refbody>
+  <related-links>
+    <link href="https://www.gatsbyjs.com" format="html" scope="external"/>
+    <link href="https://www.gatsbyjs.com/docs" format="html" scope="external"/>
+    <link href="https://github.com/gatsbyjs/gatsby" format="html" scope="external"/>
+  </related-links>
+</reference>

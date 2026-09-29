@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450365" xml:lang="en-us">
+   <title>Scenario 9 — Three-level deep nested ordered list in Workflow</title>
+   <shortdesc>Consider a concept topic where an &lt;ol&gt; list has three levels of nesting representing phases,</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>nested</keyword>
+        <keyword>ordered</keyword>
+        <keyword>Workflow</keyword>
+        <keyword>Release</keyword>
+        <keyword>input</keyword>
+        <keyword>approval</keyword>
+        <indexterm>nested</indexterm>
+        <indexterm>ordered</indexterm>
+        <indexterm>Workflow</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  
+     <section>
+    <p>Consider a concept topic where an <codeph>&lt;ol&gt;</codeph> list has three levels of nesting representing phases, sub-phases, and sub-items.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Three level nested ordered list in workflow</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>HTML Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>
+                 <codeblock>
+&lt;h2 id="release-workflow">Release Workflow&lt;/h2>
+&lt;ol>
+  &lt;li>
+    Planning
+    &lt;ol>
+      &lt;li>
+        Requirement review
+        &lt;ol>
+          &lt;li>Product input&lt;/li>
+          &lt;li>Documentation input&lt;/li>
+        &lt;/ol>
+      &lt;/li>
+    &lt;/ol>
+  &lt;/li>
+  &lt;li>
+    Execution
+    &lt;ol>
+      &lt;li>
+        Build validation
+        &lt;ol>
+          &lt;li>QA approval&lt;/li>
+          &lt;li>Release approval&lt;/li>
+        &lt;/ol>
+      &lt;/li>
+    &lt;/ol>
+  &lt;/li>
+&lt;/ol></codeblock>
+               </entry>
+               <entry>
+                 <codeblock>
+&lt;concept id="release_workflow">
+  &lt;title>Release Workflow&lt;/title>
+  &lt;conbody>
+    &lt;ol>
+      &lt;li>
+        Planning
+        &lt;ol>
+          &lt;li>
+            Requirement review
+            &lt;ol>
+              &lt;li>Product input&lt;/li>
+              &lt;li>Documentation input&lt;/li>
+            &lt;/ol>
+          &lt;/li>
+        &lt;/ol>
+      &lt;/li>
+      &lt;li>
+        Execution
+        &lt;ol>
+          &lt;li>
+            Build validation
+            &lt;ol>
+              &lt;li>QA approval&lt;/li>
+              &lt;li>Release approval&lt;/li>
+            &lt;/ol>
+          &lt;/li>
+        &lt;/ol>
+      &lt;/li>
+    &lt;/ol>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+               </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+       <p><b>Result:</b> The converter maps all three numbering levels as nested ordered lists — Level 0 becomes the parent <codeph>&lt;ol&gt;</codeph>, Level 1 becomes a nested <codeph>&lt;ol&gt;</codeph>, and Level 2 becomes a further nested <codeph>&lt;ol&gt;</codeph> inside the Level 1 <codeph>&lt;li&gt;</codeph>.</p>
+  </section>
+   </refbody>
+</reference>

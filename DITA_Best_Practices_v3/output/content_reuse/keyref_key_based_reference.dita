@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="_Toc235705992" xml:lang="en-us">
+   <title>keyref: key-based reference</title>
+   <prolog>
+    <metadata>
+      <keywords>
+        <keyword>keyref</keyword>
+        <keyword>based</keyword>
+        <keyword>reference</keyword>
+        <keyword>manage</keyword>
+        <keyword>references</keyword>
+        <keyword>content</keyword>
+        <indexterm>keyref</indexterm>
+        <indexterm>based</indexterm>
+        <indexterm>reference</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody><context>
+      <p>Use <codeph>&lt;keyref&gt;</codeph> when the content path may vary by output or when you want to manage references centrally. Follow these steps to manage references effectively:</p>
+   </context>
+    <steps id="steps_mqq_lky_kkc">
+      <step>
+        <cmd>Define keys in the map.</cmd>
+        <info>
+          <codeblock id="codeblock_zqx_lky_kkc">&lt;map&gt;
+&lt;title&gt;User Guide&lt;/title&gt;
+&lt;!-- Key definitions --&gt;
+&lt;keydef keys="product-name"&gt;
+&lt;topicmeta&gt;
+&lt;keywords&gt;
+&lt;keyword&gt;Application Pro&lt;/keyword&gt;
+&lt;/keywords&gt;
+&lt;/topicmeta&gt;
+&lt;/keydef&gt;
+&lt;keydef keys="support-email"&gt;
+&lt;topicmeta&gt;
+&lt;keywords&gt;
+&lt;keyword&gt;support@example.com&lt;/keyword&gt;
+&lt;/keywords&gt;
+&lt;/topicmeta&gt;
+&lt;/keydef&gt;
+&lt;keydef keys="install-guide" href="t_installation.dita"/&gt;
+&lt;!-- Topic references --&gt;
+&lt;topicref href="c_overview.dita"/&gt;
+&lt;topicref href="t_getting_started.dita"/&gt;
+&lt;/map&gt;</codeblock>
+        </info>
+      </step>
+      <step>
+        <cmd>Use the keys in topics.</cmd>
+        <info>
+          <codeblock id="codeblock_az1_4ky_kkc">&lt;p&gt;Welcome to &lt;keyword keyref="product-name"/&gt;.&lt;/p&gt;
+&lt;p&gt;For support, email &lt;keyword keyref="support-email"/&gt;.&lt;/p&gt;
+&lt;p&gt;See the &lt;xref keyref="install-guide"&gt;installation guide&lt;/xref&gt;.&lt;/p&gt;</codeblock>
+        </info>
+      </step>
+    </steps></taskbody>
+</task>

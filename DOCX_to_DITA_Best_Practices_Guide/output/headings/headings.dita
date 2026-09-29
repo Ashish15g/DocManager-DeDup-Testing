@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="headings" xml:lang="en-us">
+   <title>Headings</title>
+   <abstract>This section covers the Heading style in DOCX — its role as the primary structural
+      mechanism that organizes a document's content into a named, hierarchical sequence of sections
+      — and four scenarios: headings applied in correct sequential order, a heading level skipped in
+      the hierarchy, a top-level heading absent from the document, and consecutive headings with no
+      body content between them. The converter reads each heading level to construct the DITA map
+      hierarchy, generating sub-maps, topic files, and topic type classifications from the heading
+      sequence and the content that follows each heading.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Heading</keyword>
+        <keyword>heading</keyword>
+        <keyword>level</keyword>
+        <keyword>content</keyword>
+        <keyword>DITA</keyword>
+        <keyword>topic</keyword>
+        <indexterm>Heading</indexterm>
+        <indexterm>heading</indexterm>
+        <indexterm>level</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+<p>A <b>Heading</b> style marks the beginning of a named section of content and assigns it a rank in the document hierarchy. It is the primary structural mechanism of any technical document — headings divide continuous content into discrete, named units, establish the parent-child relationships between those units, and create the navigational backbone that readers and publishing systems depend on.</p>
+<p>The heading hierarchy is expressed through levels: a top-level heading (Heading 1) names a major
+         section; each lower-level heading (Heading 2 through Heading N) names a subsection within
+         its parent. This ranked sequence carries the same structural meaning regardless of the
+         format it is expressed. The level communicates the section's position in the hierarchy; the
+         text communicates its subject.</p>
+
+      <p>The following table lists the heading styles and their corresponding DITA output:</p>
+      
+      <table frame="all" colsep="1" rowsep="1">
+         <title>Heading styles mapped to DITA</title>
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>.docx Style</b>
+                  </entry>
+                  <entry>
+                     <b>Maps To</b>
+                  </entry>
+                  <entry>
+                     <b>Generates</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>Heading 1 (with content)</entry>
+                  <entry>Sub-map + DITA topic</entry>
+                  <entry>.ditamap file with matching title; .dita concept, task, or reference topic with content.</entry>
+               </row>
+               <row>
+                  <entry>Heading 1 (no content)</entry>
+                  <entry>Sub-map placeholder</entry>
+                  <entry>
+                     <codeph>&lt;topichead&gt;</codeph> element in the DITA map.</entry>
+               </row>
+               <row>
+                  <entry>Heading 2</entry>
+                  <entry>Child DITA topic</entry>
+                  <entry>.dita topic nested inside the Heading 1 sub-map. Type classified by content.</entry>
+               </row>
+               <row>
+                  <entry>Heading 3</entry>
+                  <entry>Grandchild DITA topic</entry>
+                  <entry>.dita topic nested inside the Heading 2 topic. Type classified by content.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+<p>Only a semantically marked heading — applied through the document's native heading mechanism — creates a genuine section boundary that a converter, search engine, or publishing system can detect and act on.</p>
+<p>In a .docx file, the built-in Heading styles are paragraph styles — Heading 1 through Heading N — each carrying an outline level attribute. The outline level is a zero-indexed integer: Heading 1 carries outline level 0, Heading 2 carries outline level 1, and so on.</p>
+<p>The converter reads the heading outline levels in sequence and uses them to construct the root DITA map tree.  The heading 1 or outline level 0 is used to create sub ditamaps <codeph>&lt;mapref&gt;</codeph> nested in the root DITA map. The subsequent outline level 2 to N generates nested topic files <codeph>&lt;topicref&gt;</codeph>. And the content between one heading and the next becomes a single .dita topic file (concept, task, reference and so on).</p>
+<p>The sub Ditamap and respective topics are organized in the sequential order to establish the parent-child map relationships between topics and create the navigational backbone in the published output such as PDF or Online document.</p>
+<note type="warning">A gap in the heading sequence — for example, a Heading 3 appearing directly under a Heading 1 with no Heading 2 between them — causes the converter to promote the lower-level heading. A multi-level heading sequence with empty paragraphs (no context) will generate empty DITA topics or map to <codeph>&lt;topichead&gt;</codeph> - altering the intended hierarchy in the output. Never use bold Normal style to simulate a heading. Bold formatting is purely visual and carries no structural meaning that the converter can read. Always apply the correct Heading style.</note>
+<p>The equivalent of each heading style from the .docx file in the DITA conversion process is explained according to the scenarios in the following table:</p></conbody>
+</concept>

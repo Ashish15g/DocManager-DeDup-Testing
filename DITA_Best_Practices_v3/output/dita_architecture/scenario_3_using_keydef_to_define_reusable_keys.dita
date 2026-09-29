@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="scenario_3_using_keydef_to_define_reusable_keys" xml:lang="en-us">
+   <title>Scenario 3: using &lt;keydef&gt; to define reusable keys</title>
+   <shortdesc>Scenario 3: using &lt;keydef&gt; to define reusable keys You are maintaining multiple guides for the</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>keydef</keyword>
+        <keyword>product</keyword>
+        <keyword>keyref</keyword>
+        <keyword>release</keyword>
+        <keyword>notes</keyword>
+        <keyword>support</keyword>
+        <indexterm>keydef</indexterm>
+        <indexterm>product</indexterm>
+        <indexterm>keyref</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>You are maintaining multiple guides for the same product line (Quick Start, Admin Guide, API Reference) and need to keep product names, URLs, and common topics consistent across all outputs. You also publish frequently updated release notes and support contacts.</p><p>You define keys in a central map (or a shared map) and reuse them
+        everywhere:<codeblock id="codeblock_wvw_j4s_kkc">&lt;map&gt;
+&lt;title&gt;Shared Keys – Product Line A&lt;/title&gt;
+&lt;keydef keys="product-name"&gt;
+&lt;topicmeta&gt;
+&lt;linktext&gt;Product Line A&lt;/linktext&gt;
+&lt;/topicmeta&gt;
+&lt;/keydef&gt;
+&lt;keydef keys="latest-release-notes" href="r_release_notes_2026.dita"/&gt;
+&lt;keydef keys="admin-guide" href="admin_guide.ditamap"/&gt;
+&lt;keydef keys="support-contact" href="mailto:support@company.com"/&gt;
+&lt;/map&gt;</codeblock></p><p>Then in your individual DITA maps you consume those
+        keys:<codeblock id="codeblock_h5s_k4s_kkc">&lt;map&gt;
+&lt;title&gt;Quick Start Guide&lt;/title&gt;
+&lt;topicref navtitle="Introducing Product Line A" href="c_intro.dita"&gt;
+&lt;shortdesc&gt;The &lt;b&gt;keyref="product-name"&lt;/b&gt; quick start guide helps you set up the core components.&lt;/shortdesc&gt;
+&lt;/topicref&gt;
+&lt;topicref keyref="latest-release-notes"&gt;
+&lt;topicmeta&gt;
+&lt;navtitle&gt;What’s New in &lt;keyword keyref="product-name"/&gt;&lt;/navtitle&gt;
+&lt;/topicmeta&gt;
+&lt;/topicref&gt;
+&lt;topicref keyref="admin-guide"&gt;
+&lt;topicmeta&gt;
+&lt;navtitle&gt;Full Administration Guide&lt;/navtitle&gt;
+&lt;/topicmeta&gt;
+&lt;/topicref&gt;
+&lt;topicref keyref="support-contact"&gt;
+&lt;topicmeta&gt;
+&lt;navtitle&gt;Get Help&lt;/navtitle&gt;
+&lt;/topicmeta&gt;
+&lt;/topicref&gt;
+&lt;/map&gt;</codeblock></p>
+  </section></refbody>
+</reference>

@@ -1,0 +1,4665 @@
+{
+  "Additional Reference/Appendix": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Skipped \u2014 topic body has no text content; classification unreliable",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.0,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 2
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Additional",
+        "Reference",
+        "Appendix"
+      ],
+      "compact_excerpt": "Additional Reference/Appendix"
+    },
+    "classified_at": 1788339904.5168622
+  },
+  "Concept Topic": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.009,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 143
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Concept",
+        "Topic",
+        "concept",
+        "topic",
+        "element",
+        "table",
+        "heading",
+        "Print",
+        "body",
+        "paragraphs",
+        "tables",
+        "conbody"
+      ],
+      "compact_excerpt": "Concept Topic A concept section is recognized by a descriptive or noun-phrase heading such as \"Print Quality,\" \"Connection Modes,\" or \"How the Print Spooler Works,\" paired with a body of explanatory paragraphs, definition tables, or comparison tables. No ordered list as the dominant body structure. When these signals align, the converter generates a: <concept> element with <conbody> . The opening "
+    },
+    "classified_at": 1788339904.955508
+  },
+  "Reference Topic": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.026,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 5,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 166
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "section",
+        "keyword",
+        "table",
+        "Reference",
+        "Topic",
+        "reference",
+        "heading",
+        "API",
+        "refbody",
+        "maps",
+        "containing",
+        "lookup"
+      ],
+      "compact_excerpt": "Reference Topic A reference section is recognized by a noun-phrase heading containing a lookup keyword such as \"Supported File Formats,\" \"Error Codes,\" or \"API Parameters,\" paired with a table or parameter list as the dominant body structure. The heading keyword is the primary classification signal. A section containing only a table but no lookup keyword in the heading may be classified as Concept"
+    },
+    "classified_at": 1788339905.0589821
+  },
+  "Generic Topic": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.017,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 7,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 194
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Generic",
+        "classification",
+        "body",
+        "Topic",
+        "topic",
+        "heading",
+        "content",
+        "converter",
+        "list",
+        "HTML",
+        "triggers",
+        "element"
+      ],
+      "compact_excerpt": "Generic Topic A Generic topic is the converter's fallback classification when the heading and body content together do not provide sufficient signals to identify a Concept, Task, Reference, or Troubleshooting pattern. The most common triggers are a descriptive heading followed only by a <ul> list, mixed body content where no single element type is dominant, a heading verb and body structure that c"
+    },
+    "classified_at": 1788339905.0679529
+  },
+  "Scenario 1 \u2014 Clearly defined problem, cause and remedy": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.035,
+        "paragraph_count": 32,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "cause",
+        "remedy",
+        "title",
+        "power",
+        "problem",
+        "Scenario",
+        "Clearly",
+        "troubleshooting",
+        "cable",
+        "steps",
+        "step",
+        "Printer"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Clearly defined problem, cause and remedy Consider an HTML document containing a troubleshooting section with a clearly defined problem, its cause, and the corresponding remedy. The following example shows how the converter transforms this structure into a DITA <troubleshooting> topic. Troubleshooting: problem, cause, remedy HTML Input DITA output <h2>The Printer Does Not Power On</h2"
+    },
+    "classified_at": 1788339905.0768063
+  },
+  "Scenario 1 \u2014 Generic Topic - No Dominant Classification Signal": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.043,
+        "paragraph_count": 18,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Generic",
+        "Version",
+        "topic",
+        "Scenario",
+        "Topic",
+        "Dominant",
+        "Classification",
+        "Signal",
+        "body",
+        "What",
+        "introduces",
+        "following"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Generic Topic - No Dominant Classification Signal A section titled \"What's New in Version 4.2\" has an introductory sentence and a bullet list of features. The heading contains no classification keyword, and the body does not contain any numbered list or table. Generic topic, no clear signal HTML Input DITA Output <h2 id=\"whats-new-v4-2\">What's new in version 4.2</h2> <p>Version 4.2 in"
+    },
+    "classified_at": 1788339905.0834048
+  },
+  "Scenario 1 \u2014 Prose as a Concept": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.052,
+        "paragraph_count": 10,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 8,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 15
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "print",
+        "Prose",
+        "Scenario",
+        "Concept",
+        "concept",
+        "spooler",
+        "How",
+        "Print",
+        "Spooler",
+        "Works",
+        "manages",
+        "jobs"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Prose as a Concept A section titled \"How the Print Spooler Works\" opens with descriptive paragraphs explaining background information. The heading contains no action verb, and the body contains no numbered list or table. Prose classifies heading as concept HTML Input DITA Output <h2 id=\"how-print-spooler-works\">How the Print Spooler Works</h2> <p>The print spooler manages print jobs s"
+    },
+    "classified_at": 1788339905.2100728
+  },
+  "Scenario 1 \u2014 Simple Task": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.061,
+        "paragraph_count": 26,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 5,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "driver",
+        "step",
+        "steps",
+        "Simple",
+        "Task",
+        "printer",
+        "your",
+        "system",
+        "Scenario",
+        "Install",
+        "context",
+        "install"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Simple Task A section titled \"Install the Printer Driver\" opens with a context sentence followed by a numbered list of steps. The heading contains an action verb, and the primary body content is a numbered list. Simple Task HTML Input DITA Output <h2 id=\"install-printer-driver\">Install the printer driver</h2> <p>Follow these steps to install the printer driver on your system.</p> <ol>"
+    },
+    "classified_at": 1788339905.3495355
+  },
+  "Scenario 2 \u2014 2 \u2014 Column Table in API Reference Section": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.078,
+        "paragraph_count": 35,
+        "step_list_count": 0,
+        "table_count": 3,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 18,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "API",
+        "table",
+        "print",
+        "reference",
+        "column",
+        "Scenario",
+        "Column",
+        "Table",
+        "Reference",
+        "Section",
+        "topic",
+        "HTML"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 2 \u2014 Column Table in API Reference Section A section titled \"POST /api/print-job\" documents a REST API endpoint. The topic is classified as reference because the heading contains an API keyword and the body contains a 2-column parameter table. Two-column table in API reference section HTML Input DITA Output <h2 id=\"post-api-print-job\">POST /api/print-job</h2> <p>Submits a new print job"
+    },
+    "classified_at": 1788339905.3805258
+  },
+  "Scenario 2 \u2014 Generic Topic - Empty <shortdesc> (No Introductory Paragraph)": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.087,
+        "paragraph_count": 18,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Generic",
+        "Empty",
+        "shortdesc",
+        "Scenario",
+        "Topic",
+        "Introductory",
+        "Paragraph",
+        "Known",
+        "topic",
+        "No",
+        "Limitations",
+        "Version"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Generic Topic - Empty <shortdesc> (No Introductory Paragraph) A section titled \"Known Limitations in Version 4.2\" opens directly with a bulleted list \u2014 no introductory paragraph precedes it. Generic topic, empty shortdesc HTML Input DITA Output <h2 id=\"known-limitations-v4-2\">Known limitations in version 4.2</h2> <ul> <li>Auto-duplex not supported above 200 gsm.</li> <li>Wi-Fi Direct "
+    },
+    "classified_at": 1788339905.3889372
+  },
+  "Scenario 1 \u2014 Standard Multi - Column Table Reference": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.07,
+        "paragraph_count": 36,
+        "step_list_count": 0,
+        "table_count": 2,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "stentry",
+        "table",
+        "Standard",
+        "Column",
+        "parameters",
+        "Scenario",
+        "Multi",
+        "Table",
+        "Reference",
+        "section",
+        "Parameters",
+        "multi"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Standard Multi - Column Table Reference A section titled \"Printer Configuration Parameters\" contains a brief introductory sentence and a multi-column table of configuration settings. The heading contains the keyword \"Parameters\", and a lookup table dominates the body. Standard multi-column table reference HTML Input DITA Output <h2 id=\"printer-config-parameters\">Printer configuration "
+    },
+    "classified_at": 1788339905.3975596
+  },
+  "Scenario 2 \u2014 Graphical Concept": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.096,
+        "paragraph_count": 21,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "tank",
+        "Ink",
+        "image",
+        "locations",
+        "title",
+        "Scenario",
+        "Graphical",
+        "Concept",
+        "assembly",
+        "figure",
+        "figcaption",
+        "concept"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Graphical Concept Consider a section titled \"Ink Tank Assembly\" with an <h2> , a <p> describing the assembly, and an image of the ink tank area wrapped in a <figure> element with a <figcaption> reading \"Figure 1: Ink tank and cap locations.\" Image classifies heading as concept HTML Input DITA Output <h2 id=\"ink-tank-assembly\">Ink Tank Assembly</h2> <p> The ink tank assembly holds the "
+    },
+    "classified_at": 1788339905.4709074
+  },
+  "Scenario 2 \u2014 Graphical Task": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.104,
+        "paragraph_count": 29,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "button",
+        "Power",
+        "Graphical",
+        "Task",
+        "inside",
+        "Scenario",
+        "figcaption",
+        "figure",
+        "step",
+        "Locate",
+        "title",
+        "power"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Graphical Task Consider a numbered procedure where the author has placed an <img> element with a <figcaption> inside a <figure> inside an <li> element \u2014 for example, to show a button as part of a step. Graphical Task HTML Input DITA Output <h2 id=\"locate-the-power-button\">Locate the Power Button</h2> <ol> <li> Locate the power button. <figure> <img src=\"media/power_button.png\" alt=\"Po"
+    },
+    "classified_at": 1788339905.64638
+  },
+  "Topic Type Classification": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.13,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 304
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "type",
+        "topic",
+        "content",
+        "DITA",
+        "Topic",
+        "HTML",
+        "Type",
+        "heading",
+        "structure",
+        "body",
+        "Classification",
+        "converter"
+      ],
+      "compact_excerpt": "Topic Type Classification Topic type classification is the process of assigning a heading-delimited section of HTML content to a specific DITA topic type. Unlike DITA, HTML does not explicitly identify a section as conceptual, procedural, reference, or troubleshooting content. Instead, the structure and purpose of a section are inferred from the heading and the HTML elements that follow it until t"
+    },
+    "classified_at": 1788339905.6830964
+  },
+  "Scenario 2 \u2014 Multiple causes for one problem": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.113,
+        "paragraph_count": 11,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "title",
+        "strong",
+        "Solution",
+        "cause",
+        "remedy",
+        "Scenario",
+        "Multiple",
+        "condition",
+        "Cause",
+        "Remedy",
+        "printer",
+        "steps"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Multiple causes for one problem Consider an HTML document containing one condition followed by multiple causes and corresponding remedies. Troubleshooting: multiple causes, one problem HTML Input DITA output <h2>The Printer Does Not Print</h2> <p><strong>Cause 1:</strong> Paper tray is empty.</p> <p><strong>Remedy:</strong></p> <ol> <li>Load paper into the paper tray.</li> </ol> <p><s"
+    },
+    "classified_at": 1788339905.692019
+  },
+  "Task Topic": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.122,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": true
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 198
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "maps",
+        "Task",
+        "Topic",
+        "task",
+        "step",
+        "nested",
+        "imperative",
+        "heading",
+        "paragraph",
+        "inside",
+        "list",
+        "primary"
+      ],
+      "compact_excerpt": "Task Topic A task section is recognized by an imperative heading such as \"Install the Driver\" or \"Replace the Toner Cartridge,\" paired with an ordered list ( <ol> ) as the primary body structure. Both signals must be present. An imperative heading without an <ol> , or an <ol> without an imperative heading, does not reliably trigger task classification. When these signals align, the converter gener"
+    },
+    "classified_at": 1788339905.7011962
+  },
+  "Troubleshooting Topic": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.139,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 197
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "condition",
+        "cause",
+        "Troubleshooting",
+        "Topic",
+        "heading",
+        "body",
+        "converter",
+        "remedy",
+        "maps",
+        "troubleshooting",
+        "section",
+        "problem"
+      ],
+      "compact_excerpt": "Troubleshooting Topic A troubleshooting section is recognized by a problem-oriented heading such as \"The Printer Does Not Power On\" or \"Print Jobs Fail to Complete,\" paired with a body that presents a condition, a cause, and a corrective action. The converter looks for bold labels in the form and Cause: in the body. Both the heading and the body labels must be present. A problem-oriented heading w"
+    },
+    "classified_at": 1788339905.72086
+  },
+  "Admonitions": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.217,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 104
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Admonitions",
+        "information",
+        "reader",
+        "uses",
+        "types",
+        "Critical",
+        "must",
+        "understand",
+        "damage",
+        "data",
+        "loss",
+        "risk"
+      ],
+      "compact_excerpt": "Admonitions This guide uses four types of admonitions to call out information that needs extra attention. Each one signals a different level of importance, as explained below. Admonition label types and uses Label Used for NOTE Supplementary information, clarifications, or good-to-know context that doesn't block the reader from proceeding WARNING Critical information the reader must understand to "
+    },
+    "classified_at": 1788339906.3135226
+  },
+  "Cross-References and Hyperlinks": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.183,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 7,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 402
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "link",
+        "target",
+        "document",
+        "reference",
+        "bookmark",
+        "Cross",
+        "cross",
+        "References",
+        "Hyperlinks",
+        "element",
+        "same",
+        "external"
+      ],
+      "compact_excerpt": "Cross-References and Hyperlinks Abstract: This section covers Cross-References, Bookmarks and Hyperlinks \u2014 three distinct navigational mechanisms that connect related content within a document, across a documentation set, or to an external resource \u2014 and six scenarios: an internal cross-reference or bookmark, an external URL, a hyperlink with non-descriptive display text, a link list at the end of"
+    },
+    "classified_at": 1788339905.9693139
+  },
+  "Scenario 2 \u2014 Admonition inside a table cell": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.165,
+        "paragraph_count": 29,
+        "step_list_count": 0,
+        "table_count": 2,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "stentry",
+        "table",
+        "cell",
+        "Admonition",
+        "Scenario",
+        "inside",
+        "element",
+        "note",
+        "warning",
+        "class",
+        "DITA",
+        "Setting"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Admonition inside a table cell Consider a <table> where one of the <td> cells contains a <div class=\"warning\"> element rather than a plain <p> element. Admonition inside a table cell HTML Input DITA Output <table> <tr> <th>Setting</th> <th>Notes</th> </tr> <tr> <td>Production Mode</td> <td> <div class=\"warning\"> <p> Do not modify this value in production. </p> </div> </td> </tr> </tab"
+    },
+    "classified_at": 1788339905.998533
+  },
+  "Scenario 3 \u2014 Bold-label admonition pattern": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.174,
+        "paragraph_count": 4,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 33
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "label",
+        "admonition",
+        "Bold",
+        "strong",
+        "Scenario",
+        "pattern",
+        "element",
+        "note",
+        "text",
+        "class",
+        "using",
+        "DITA"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Bold-label admonition pattern Consider a <p> element where the author has formatted an admonition using a <strong> label followed by the admonition text, rather than using a <div> with a class attribute. Bold-label admonition pattern HTML Input DITA Output <strong>Warning:</strong> Always back up your data before performing a firmware update. <note type=\"warning\"> Always back up your "
+    },
+    "classified_at": 1788339906.011721
+  },
+  "Scenario 1 \u2014 Image placed inside an admonition": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.157,
+        "paragraph_count": 12,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "Image",
+        "warning",
+        "element",
+        "Scenario",
+        "image",
+        "inside",
+        "admonition",
+        "note",
+        "placed",
+        "class",
+        "DITA",
+        "touch"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Image placed inside an admonition Consider a <div class=\"warning\"> element where the author has inserted an <img> element \u2014 for example, a photograph of a hazardous component \u2014 directly inside the warning content. Image placed inside admonition HTML Input DITA Output <div class=\"warning\"> <p> Do not touch the marked components. <img ... /> </p> </div> <note type=\"warning\"> Do not touc"
+    },
+    "classified_at": 1788339906.0708413
+  },
+  "Scenario 2 \u2014 External URLs": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.2,
+        "paragraph_count": 16,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "External",
+        "Scenario",
+        "URLs",
+        "href",
+        "release",
+        "notes",
+        "element",
+        "external",
+        "URL",
+        "link",
+        "See",
+        "https"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 External URLs Consider a <p> element that contains an <a href=\"...\"> element pointing to an external URL. Internal link HTML Input DITA Output <p> See <a href=\"https://example.com/release-notes\"> the release notes </a> for details. </p> <p> See <xref href=\"https://example.com/release-notes\" format=\"html\" scope=\"external\"> the release notes </xref> for details. </p> Result: External hy"
+    },
+    "classified_at": 1788339906.2270558
+  },
+  "Scenario 1 \u2014 Internal link": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.191,
+        "paragraph_count": 25,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "href",
+        "Internal",
+        "Scenario",
+        "link",
+        "prerequisites",
+        "xref",
+        "dita",
+        "HTML",
+        "anchor",
+        "document",
+        "reference",
+        "heading"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Internal link Consider an HTML document where the author has used an <a href=\"#prerequisites\"> anchor link to reference a heading elsewhere in the same document. Internal link HTML Input DITA Output <p> For prerequisites, see <a href=\"#prerequisites\"> Prerequisites section </a>. </p> <p> Refer to <a href=\"configuration_guide.html\"> The Configuration Guide </a>. </p> <p> For prerequisi"
+    },
+    "classified_at": 1788339906.24194
+  },
+  "Scenario 3 \u2014 Hyperlink with non-descriptive display text": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.209,
+        "paragraph_count": 2,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 6,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 62
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "text",
+        "here",
+        "Hyperlink",
+        "descriptive",
+        "Scenario",
+        "click",
+        "display",
+        "DITA",
+        "API",
+        "reference",
+        "xref",
+        "element"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Hyperlink with non-descriptive display text Consider an <a> element where the author has used non-descriptive display text such as \"click here\", \"here\", or a bare URL as the link's visible label, rather than a phrase that describes the destination. Hyperlink with non-descriptive text HTML Input DITA Output Click <a href=\"https://example.com/docs\">here</a> for the full API reference. <"
+    },
+    "classified_at": 1788339906.2987473
+  },
+  "Getting Started": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.226,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 66
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Getting",
+        "Started",
+        "HTML",
+        "conversion",
+        "DITA",
+        "document",
+        "topic",
+        "Abstract",
+        "section",
+        "describes",
+        "purpose",
+        "audience"
+      ],
+      "compact_excerpt": "Getting Started Abstract: This section describes the purpose and audience of this guide as well as the prerequisites for HTML conversion to DITA-XML. It covers the mandatory and optional HTML constructs, document preparation requirements, and the scenarios that affect conversion readiness. The converter and AI Agent use these structures to detect document hierarchy, classify topic types, infer met"
+    },
+    "classified_at": 1788339906.3705444
+  },
+  "Intended Audience": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.235,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 82
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Intended",
+        "Audience",
+        "guide",
+        "HTML",
+        "before",
+        "when",
+        "source",
+        "intended",
+        "following",
+        "audiences",
+        "audience",
+        "applicability"
+      ],
+      "compact_excerpt": "Intended Audience This guide is intended for the following audiences: Intended audience and guide applicability Audience How this guide applies Technical writers and document authors Primary authoring before submitting HTML files for conversion. DITA architects and consultants Reference when reviewing or auditing source documents before migration projects. NOTE : You must have basic working knowle"
+    },
+    "classified_at": 1788339906.481038
+  },
+  "Introduction": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.243,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": true
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 415
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "elements",
+        "DITA",
+        "Maps",
+        "HTML",
+        "Ditamap",
+        "topic",
+        "index",
+        "Introduction",
+        "file",
+        "hierarchy",
+        "inline",
+        "converter"
+      ],
+      "compact_excerpt": "Introduction The metR HTML to DITA converter does not rely on visual formatting alone. It reads structural information from HTML elements and semantic markup. When those elements are applied correctly, the converter and AI Agent can: Generate a root Ditamap and child Ditamaps from the index file, ZIP folder name, or document title. Detect topic boundaries from heading levels and establish the Dita"
+    },
+    "classified_at": 1788339906.5339243
+  },
+  "Migration Prerequisites": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.252,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": true
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 121
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "HTML",
+        "Migration",
+        "Prerequisites",
+        "available",
+        "Before",
+        "files",
+        "folder",
+        "structure",
+        "submitting",
+        "document",
+        "DITA",
+        "converter"
+      ],
+      "compact_excerpt": "Migration Prerequisites Before submitting a document to the metR HTML to DITA converter, verify the following prerequisites: The HTML files are complete and available in the expected folder structure. The root folder contains the main index, if available, along with the HTML files. Each HTML file has a clear heading hierarchy. Heading levels are not used only for visual styling. Images are availab"
+    },
+    "classified_at": 1788339906.5998106
+  },
+  "Purpose": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.261,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 102
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "DITA",
+        "Purpose",
+        "XML",
+        "converter",
+        "HTML",
+        "content",
+        "conversion",
+        "AI",
+        "Agent",
+        "hierarchies",
+        "guide",
+        "provides"
+      ],
+      "compact_excerpt": "Purpose This guide provides mandatory best practices for anyone who creates or prepares HTML source content for conversion to DITA-XML using the metR DocMigration HTML to DITA converter. The converter is a modular microservice with an embedded AI Agent that reasons and enriches DITA elements in document structure before transforming them into standards-compliant DITA-XML. Following these guideline"
+    },
+    "classified_at": 1788339906.6257286
+  },
+  "Headings": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.27,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 9,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 535
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "heading",
+        "topic",
+        "content",
+        "each",
+        "file",
+        "Heading",
+        "HTML",
+        "level",
+        "hierarchy",
+        "DITA",
+        "elements",
+        "section"
+      ],
+      "compact_excerpt": "Headings Abstract : This section covers the Heading style in HTML \u2014 its role as the primary structural mechanism that organizes a document's content into a named, hierarchical sequence of sections \u2014 and four scenarios: headings applied in correct sequential order, a heading level skipped in the hierarchy, a top-level heading absent from the document, and consecutive headings with no body content b"
+    },
+    "classified_at": 1788339906.6802015
+  },
+  "Scenario 1 \u2014 Headings applied correctly": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.278,
+        "paragraph_count": 7,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 16
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "heading",
+        "Printer",
+        "Headings",
+        "Scenario",
+        "Installation",
+        "Prerequisites",
+        "Install",
+        "printer",
+        "topicref",
+        "dita",
+        "applied",
+        "correctly"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Headings applied correctly Consider an HTML document with the following heading structure: <heading 1> \"Printer Installation\" containing <heading 2> \"Printer Prerequisites\" (concept) and <heading 2> \"Install the Printer Driver\" (task). Headings applied correctly HTML Input DITA Output <h1 id=\"printer-installation\">Printer Installation</h1> <h2 id=\"printer-prerequisites\">Printer Prereq"
+    },
+    "classified_at": 1788339906.77714
+  },
+  "Scenario 2 \u2014 Heading level hierarchy": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.287,
+        "paragraph_count": 11,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Heading",
+        "Scenario",
+        "Installation",
+        "topichead",
+        "mapref",
+        "href",
+        "ditamap",
+        "level",
+        "hierarchy",
+        "HTML",
+        "element",
+        "related"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Heading level hierarchy Consider an HTML document where an <h1> element groups related <h2> sections but contains no direct body content of its own. All paragraphs, tables, and images appear under <h2> or deeper heading levels. Heading level hierarchy HTML Input DITA Output <h1 id=\"installation\">Installation</h1> <h2 id=\"prerequisites\">Prerequisites</h2> <h3 id=\"system-requirements\">S"
+    },
+    "classified_at": 1788339906.8433826
+  },
+  "Scenario 3 \u2014 No <h1> present": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.296,
+        "paragraph_count": 11,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 14
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "ditamap",
+        "present",
+        "Scenario",
+        "HTML",
+        "title",
+        "mapref",
+        "href",
+        "format",
+        "content",
+        "heading",
+        "file",
+        "No"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 No <h1> present Consider an HTML document where the author starts the content with <h2> and never applies <h1> anywhere in the document. Similarly, in another case, the author may skip both <h1> and <h2> and start directly with <h3> . No h1 present HTML Input DITA Output <h2 id=\"installation\">Installation</h2> <h3 id=\"install-on-linux\">Install on Linux</h3> <h2 id=\"configuration\">Conf"
+    },
+    "classified_at": 1788339906.9022727
+  },
+  "Scenario 4 \u2014 Consecutive headings with no body content": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.304,
+        "paragraph_count": 12,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "body",
+        "content",
+        "topichead",
+        "Consecutive",
+        "Scenario",
+        "topic",
+        "headings",
+        "Installation",
+        "heading",
+        "beneath",
+        "dita",
+        "file"
+      ],
+      "compact_excerpt": "Scenario 4 \u2014 Consecutive headings with no body content Consider an HTML document where multiple consecutive headings at any level have no body content between them. Consecutive headings, no body content HTML Input DITA Output <h1 id=\"installation\">Installation</h1> <h2 id=\"prerequisites\">Prerequisites</h2> <h3 id=\"system-requirements\">System Requirements</h3> <p>The system requires 4 GB RAM.</p> ("
+    },
+    "classified_at": 1788339906.9523702
+  },
+  "HTML Index": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.313,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 6,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 380
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "navigation",
+        "root",
+        "HTML",
+        "hierarchy",
+        "index",
+        "structure",
+        "publication",
+        "DITA",
+        "Index",
+        "file",
+        "table",
+        "contents"
+      ],
+      "compact_excerpt": "HTML Index Abstract : This section covers the Table of Contents and Root Index \u2014 the navigation structure that maps the publication hierarchy and serves as the converter's primary entry point for building the root DITA map \u2014 and two scenarios: a root index file present in the package, and a missing root index file. The converter reads the root index to construct the DITA map hierarchy and topic re"
+    },
+    "classified_at": 1788339906.9857886
+  },
+  "Scenario 1 \u2014 Index file title becomes root Ditamap title": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.322,
+        "paragraph_count": 5,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 23
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "title",
+        "Index",
+        "HTML",
+        "Printer",
+        "file",
+        "Ditamap",
+        "Scenario",
+        "User",
+        "Guide",
+        "ZIP",
+        "folder",
+        "index"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Index file title becomes root Ditamap title Consider an HTML package where the ZIP folder is named Printer_Docs. The index file contains a clear title, Printer User Guide, inside the <head> tag. Title tag becomes ditamap title HTML Input DITA Output ZIP folder name: Printer_Docs <map> <title>Printer User Guide</title> <mapref href=\"installation.ditamap\"/> <mapref href=\"maintenance.dit"
+    },
+    "classified_at": 1788339907.0341425
+  },
+  "Scenario 2 \u2014 ZIP folder name becomes root Ditamap title": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.33,
+        "paragraph_count": 7,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 15
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "ZIP",
+        "Ditamap",
+        "HTML",
+        "folder",
+        "name",
+        "title",
+        "Scenario",
+        "root",
+        "package",
+        "file",
+        "becomes",
+        "index"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 ZIP folder name becomes root Ditamap title Consider an HTML package without an index file, and the ZIP folder has a generic or unclear name. ZIP folder name becomes title HTML Input DITA Output ZIP folder name: html_output <?xml version=\"1.0\" encoding=\"UTF-8\"?> <!DOCTYPE map PUBLIC \"-//OASIS//DTD Ditamap//EN\" \"map.dtd\"> <map> <title>HTML_output</title> <mapref href=\"installation_0.dit"
+    },
+    "classified_at": 1788339907.140468
+  },
+  "HTML Metadata": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.339,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.077,
+        "avg_paragraph_length_words": 301
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "meta",
+        "name",
+        "HTML",
+        "metadata",
+        "Metadata",
+        "document",
+        "DITA",
+        "prolog",
+        "tags",
+        "content",
+        "structured",
+        "elements"
+      ],
+      "compact_excerpt": "HTML Metadata Abstract: This section covers meta tags and structured metadata elements in HTML \u2014 the metadata fields that identify, attribute, and classify a document independently of its body content \u2014 and one scenario: <head> meta tags populated in the source file and mapped during conversion. The converter reads each recognized meta tag and maps it to the corresponding DITA <prolog> element, ma"
+    },
+    "classified_at": 1788339907.1999831
+  },
+  "HTML to DITA-XML Conversion": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.356,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 14
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "HTML",
+        "DITA",
+        "XML",
+        "Conversion",
+        "Best",
+        "Practices",
+        "Guide",
+        "Preparing",
+        "Files",
+        "Accurate"
+      ],
+      "compact_excerpt": "HTML to DITA-XML Conversion Best Practices Guide Preparing HTML Files for Accurate DITA-XML Conversion"
+    },
+    "classified_at": 1788339907.2727947
+  },
+  "HTML Body Content": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.365,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 91
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "HTML",
+        "Body",
+        "Content",
+        "content",
+        "topic",
+        "converter",
+        "hierarchy",
+        "body",
+        "semantic",
+        "DITA",
+        "topics",
+        "elements"
+      ],
+      "compact_excerpt": "HTML Body Content The <body> element contains semantic content that maps to DITA topics and topic body elements. The converter processes elements in document order and uses the heading hierarchy to determine topic boundaries and nesting levels. The converter extracts the HTML package, analyzes metadata and content structure, applies heading-based hierarchy rules, and generates the corresponding Di"
+    },
+    "classified_at": 1788339907.2910829
+  },
+  "Scenario 1 \u2014 HTML metadata mapped to <prolog>": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.348,
+        "paragraph_count": 30,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "meta",
+        "name",
+        "author",
+        "content",
+        "keyword",
+        "HTML",
+        "prolog",
+        "title",
+        "metadata",
+        "keywords",
+        "Scenario",
+        "created"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 HTML metadata mapped to <prolog> Consider an HTML document where the author has provided metadata using standard <meta> tags inside the <head> section, covering author, creation and revision dates, keywords, and a short description. Metadata mapped to topic prolog HTML Input DITA Output <head> <title>Configuring Network Settings</title> <meta name=\"author\" content=\"XYZ\"/> <meta name=\""
+    },
+    "classified_at": 1788339907.3013391
+  },
+  "HTML Typical Folder Structure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.374,
+        "paragraph_count": 11,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 17
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "HTML",
+        "Ditamap",
+        "html",
+        "DITA",
+        "converter",
+        "Typical",
+        "Folder",
+        "Structure",
+        "creates",
+        "hierarchy",
+        "child",
+        "root"
+      ],
+      "compact_excerpt": "HTML Typical Folder Structure A typical HTML package contains the following: HTML Package (ZIP) \u251c\u2500\u2500 index.html          \u2192 creates the root Ditamap hierarchy (if present) \u251c\u2500\u2500 topic1.html         \u2192 creates a child Ditamap and DITA topic \u251c-- topic2.html         \u2192 creates a child Ditamap and DITA topic \u251c\u2500\u2500 media/ \u2502   \u251c\u2500\u2500 image1.png \u2502   \u2514\u2500\u2500 image2.svg \u251c\u2500\u2500 css/ \u2502   \u2514\u2500\u2500 styles.css      \u2192 ignored \u2514\u2500\u2500 scri"
+    },
+    "classified_at": 1788339907.4370651
+  },
+  "HTML Typical Package Structure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.383,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 85
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "HTML",
+        "Typical",
+        "Package",
+        "Structure",
+        "structure",
+        "DITA",
+        "converter",
+        "topic",
+        "Abstract",
+        "section",
+        "describes",
+        "typical"
+      ],
+      "compact_excerpt": "HTML Typical Package Structure Abstract: This section describes the typical structure of an HTML package submitted for conversion to DITA-XML, including folder organization, file naming, and the placement of media assets. It covers the standard HTML page structure the converter expects, focusing on how both <head> metadata and <body> content is read and mapped. The converter uses these structures "
+    },
+    "classified_at": 1788339907.4946465
+  },
+  "Images and Graphics": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.4,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 14,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.037,
+        "avg_paragraph_length_words": 537
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "image",
+        "images",
+        "DITA",
+        "Images",
+        "element",
+        "output",
+        "Graphics",
+        "HTML",
+        "text",
+        "inline",
+        "title",
+        "figure"
+      ],
+      "compact_excerpt": "Images and Graphics Abstract: This section covers Images and Graphics in HTML \u2014 the primary means of communicating spatial relationships, component locations, interface states, and process flows that prose alone cannot convey \u2014 and twelve scenarios: image sizing thresholds, inline and block placement, images with captions, side-by-side images, images inside list items, linked versus embedded image"
+    },
+    "classified_at": 1788339907.5541673
+  },
+  "HTML Typical Page Structure": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.391,
+        "paragraph_count": 13,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "content",
+        "HTML",
+        "Page",
+        "body",
+        "Typical",
+        "Structure",
+        "footer",
+        "converter",
+        "head",
+        "elements",
+        "file",
+        "html"
+      ],
+      "compact_excerpt": "HTML Typical Page Structure Each HTML file follows standard HTML5 document structure: <html> <head> <title>Page Title</title> <meta name=\"author\" content=\"Documentation Team\"> <meta name=\"created\" content=\"2026-01-15\"> </head> <body> [Content appears here] </body> <footer> [Footer content] </footer> </html> The converter focuses on two key areas: <head> metadata . The converter maps this content t"
+    },
+    "classified_at": 1788339907.5702965
+  },
+  "Scenario 10 \u2014 Image Placed Inside a Positioned <div> (Text Box Equivalent)": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.409,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 142
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "image",
+        "Scenario",
+        "Image",
+        "Placed",
+        "Inside",
+        "Positioned",
+        "Text",
+        "Box",
+        "Equivalent",
+        "document",
+        "inside",
+        "flow"
+      ],
+      "compact_excerpt": "Scenario 10 \u2014 Image Placed Inside a Positioned <div> (Text Box Equivalent) Consider a document where the author has placed an image inside a <div> that is removed from the normal document flow using CSS (for example, position: absolute or position: fixed ) to control its placement on the page, similar to a floating text box. Result: The converter ignores the CSS positioning and any surrounding <di"
+    },
+    "classified_at": 1788339907.6103413
+  },
+  "Scenario 11 \u2014 Image with Floating Label <div> Elements Layered on Top": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.417,
+        "paragraph_count": 6,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 23
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "image",
+        "Floating",
+        "position",
+        "Scenario",
+        "Image",
+        "Label",
+        "Elements",
+        "Layered",
+        "Top",
+        "absolute",
+        "style",
+        "into"
+      ],
+      "compact_excerpt": "Scenario 11 \u2014 Image with Floating Label <div> Elements Layered on Top Consider a document where an <img> element is inserted into the document body and multiple <div> elements are positioned on top of the image using CSS (for example, position: absolute ) to create labels, admonitions, or annotations. Floating label elements over image HTML Input DITA Output <div style=\"position: relative;\"> <img "
+    },
+    "classified_at": 1788339907.732397
+  },
+  "Scenario 1 \u2014 Image Size is Smaller than 50 Pixels": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.435,
+        "paragraph_count": 11,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 11
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Image",
+        "Scenario",
+        "Size",
+        "Smaller",
+        "than",
+        "Pixels",
+        "image",
+        "width",
+        "height",
+        "Next",
+        "inline",
+        "next"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Image Size is Smaller than 50 Pixels Consider a paragraph that contains a small inline image of a \"next button\" whose width and height attributes are both smaller than 50 pixels. Image smaller than 50 pixels HTML Input DITA Output <p> Click the <strong>Next</strong> button <img src=\"media/next_arrow.png\" alt=\"Next arrow\" width=\"20\" height=\"24\"/> to continue to the next page. </p> <p> "
+    },
+    "classified_at": 1788339907.8238268
+  },
+  "Scenario 12 \u2014 Image with an Alt Text": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.426,
+        "paragraph_count": 4,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 27
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Image",
+        "image",
+        "Scenario",
+        "Alt",
+        "Text",
+        "attribute",
+        "HTML",
+        "element",
+        "inside",
+        "text",
+        "description",
+        "readers"
+      ],
+      "compact_excerpt": "Scenario 12 \u2014 Image with an Alt Text The alt attribute on an HTML <img> element provides a short text description of the image for readers who cannot see it, such as those using screen readers. It is a required attribute for accessibility compliance. Image with alt text HTML Input DITA Output <img src=\"media/print_head_diagram.png\" alt=\"Diagram showing the print head path inside the printer\"/> <im"
+    },
+    "classified_at": 1788339907.845361
+  },
+  "Scenario 2 \u2014 Image Size is Larger than 50 Pixels": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.444,
+        "paragraph_count": 9,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Image",
+        "dialog",
+        "Scenario",
+        "Size",
+        "Larger",
+        "than",
+        "Pixels",
+        "image",
+        "width",
+        "height",
+        "settings",
+        "larger"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Image Size is Larger than 50 Pixels Consider a paragraph that contains a medium-sized image of a \"dialog box\" whose width and height attributes are both larger than 50 pixels. Image larger than 50 pixels HTML Input DITA Output <p> The following dialog box displays the available network settings: <img src=\"media/network_settings_dialog.png\" alt=\"Network settings dialog\" width=\"320\" hei"
+    },
+    "classified_at": 1788339907.871713
+  },
+  "Scenario 3 \u2014 Image Size is Larger than 100 Pixels": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.452,
+        "paragraph_count": 8,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 8,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 17
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "element",
+        "Image",
+        "architecture",
+        "Scenario",
+        "Size",
+        "Larger",
+        "than",
+        "Pixels",
+        "width",
+        "height",
+        "image",
+        "diagram"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Image Size is Larger than 100 Pixels Consider a paragraph that introduces a large architecture diagram whose width and height attributes are both larger than 100 pixels. Image larger than 100 pixels HTML Input DITA Output <p>The following diagram illustrates the overall system architecture.</p> <img src=\"media/system_architecture_overview.png\" alt=\"System architecture overview\" width="
+    },
+    "classified_at": 1788339907.9332044
+  },
+  "Scenario 4 \u2014 Inline image within correct wrap mode": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.461,
+        "paragraph_count": 12,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "image",
+        "element",
+        "Inline",
+        "button",
+        "Scenario",
+        "within",
+        "inline",
+        "correct",
+        "wrap",
+        "mode",
+        "text",
+        "Press"
+      ],
+      "compact_excerpt": "Scenario 4 \u2014 Inline image within correct wrap mode Consider a <p> element where an <img> element appears inline within the sentence text \u2014 for example, to show a button icon as part of an instruction. Inline image within correct wrap mode HTML Input DITA Output <p> Press the <img src=\"media/ok_btn.png\" alt=\"OK button\"/> button to confirm. </p> <p> Press the <image href=\"media/ok_btn.png\" placement"
+    },
+    "classified_at": 1788339908.036493
+  },
+  "Scenario 5 \u2014 Image with caption": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.47,
+        "paragraph_count": 12,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "tank",
+        "element",
+        "Image",
+        "figure",
+        "figcaption",
+        "Ink",
+        "locations",
+        "title",
+        "Scenario",
+        "Figure",
+        "caption",
+        "image"
+      ],
+      "compact_excerpt": "Scenario 5 \u2014 Image with caption Consider an image of the printer's ink tank area wrapped in a <figure> element with a <figcaption> element reading \"Figure 1: Ink tank and cap locations\". Image with caption HTML Input DITA Output <figure> <img src=\"media/ink_tank_area.png\" alt=\"Ink tank and cap locations\"/> <figcaption> Figure 1: Ink tank and cap locations </figcaption> </figure> <fig> <title>Ink t"
+    },
+    "classified_at": 1788339908.0887198
+  },
+  "Scenario 6 \u2014 Multiple images placed side by side": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.478,
+        "paragraph_count": 15,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "image",
+        "side",
+        "media",
+        "Icon",
+        "Multiple",
+        "images",
+        "Scenario",
+        "placement",
+        "inline",
+        "element",
+        "href",
+        "placed"
+      ],
+      "compact_excerpt": "Scenario 6 \u2014 Multiple images placed side by side Consider a <p> element where the author has inserted two or more <img> elements next to each other \u2014 for example, a set of toolbar icon images. Multiple images placed side-by-side HTML Input DITA Output <p> <img src=\"media/icon_a.png\" alt=\"Icon A\"/> <img src=\"media/icon_b.png\" alt=\"Icon B\"/> <img src=\"media/icon_c.png\" alt=\"Icon C\"/> </p> <p> <image"
+    },
+    "classified_at": 1788339908.1399198
+  },
+  "Scenario 7 \u2014 Image inside a numbered list item": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.487,
+        "paragraph_count": 29,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "inside",
+        "button",
+        "Image",
+        "Power",
+        "Scenario",
+        "figcaption",
+        "figure",
+        "step",
+        "title",
+        "numbered",
+        "element",
+        "Locate"
+      ],
+      "compact_excerpt": "Scenario 7 \u2014 Image inside a numbered list item Consider a numbered procedure where the author has placed an <img> element with a <figcaption> inside a <figure> inside a <li> element \u2014 for example, to show a button or UI element as part of a step. Image inside numbered list item HTML Input DITA Output <ol> <li> Locate the power button. <figure> <img src=\"media/power_button.png\" alt=\"Power button\"/>"
+    },
+    "classified_at": 1788339908.1565373
+  },
+  "Scenario 8 \u2014 Image inside a bulleted list item": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.496,
+        "paragraph_count": 37,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "status",
+        "icon",
+        "Image",
+        "inside",
+        "image",
+        "Scenario",
+        "list",
+        "media",
+        "indicates",
+        "element",
+        "DITA",
+        "placement"
+      ],
+      "compact_excerpt": "Scenario 8 \u2014 Image inside a bulleted list item Consider a section where the author has placed an <img> element inside an <li> element of an unordered list \u2014 for example, to show a status icon as part of a descriptive list. Image inside bulleted list item HTML Input DITA Output <h2>Status Indicators</h2> <ul> <li> The green status icon <img src=\"media/green_status_icon.png\" alt=\"Green status icon\"/"
+    },
+    "classified_at": 1788339908.2398036
+  },
+  "Scenario 9 \u2014 Image Linked via External URL Rather than a Local Package Reference": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.504,
+        "paragraph_count": 3,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 47
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "image",
+        "URL",
+        "Image",
+        "Scenario",
+        "Linked",
+        "External",
+        "Rather",
+        "Local",
+        "Package",
+        "Reference",
+        "HTML",
+        "package"
+      ],
+      "compact_excerpt": "Scenario 9 \u2014 Image Linked via External URL Rather than a Local Package Reference Consider an HTML document where the author has referenced an image using an absolute external URL (for example, hosted on a separate website or CDN) instead of a relative path to a file included in the HTML package. Because the image file is not part of the submitted package, the converter cannot extract it. Image lin"
+    },
+    "classified_at": 1788339908.337418
+  },
+  "Inline Formatting": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.513,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 8,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 393
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "inline",
+        "Inline",
+        "code",
+        "DITA",
+        "HTML",
+        "Formatting",
+        "element",
+        "elements",
+        "semantic",
+        "within",
+        "bold",
+        "pattern"
+      ],
+      "compact_excerpt": "Inline Formatting Abstract: This section covers Inline Formatting in HTML \u2014 the inline formatting attributes that assign semantic meaning to individual words or phrases within a paragraph \u2014 and five scenarios: bold for general emphasis, bold for a UI element inside a procedure, monospace for inline code, monospace for a file path, and bold for a menu navigation sequence. The converter reads each n"
+    },
+    "classified_at": 1788339908.3510196
+  },
+  "Scenario 1 \u2014 Bold used for general emphasis": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.522,
+        "paragraph_count": 5,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 17
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "used",
+        "Bold",
+        "Scenario",
+        "general",
+        "emphasis",
+        "Server",
+        "Management",
+        "strong",
+        "module",
+        "manage",
+        "various",
+        "virtual"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Bold used for general emphasis Consider an HTML paragraph that reads: \"The Server Management module is used to manage various virtual servers.\" The term \"Server Management\" is wrapped in a <strong> element for general emphasis. Bold used for general emphasis HTML Input DITA Output <p> The <strong>Server Management</strong> module is used to manage various virtual servers. </p> <p> The"
+    },
+    "classified_at": 1788339908.4369714
+  },
+  "Scenario 2 \u2014 Bold used for a UI element inside a procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.53,
+        "paragraph_count": 13,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "UI",
+        "strong",
+        "element",
+        "Scenario",
+        "Bold",
+        "step",
+        "Save",
+        "button",
+        "uicontrol",
+        "inside",
+        "Click",
+        "label"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Bold used for a UI element inside a procedure Consider a procedural step that reads: \"Click the Save button.\" The word \"Save\" is wrapped in <strong> because it represents a UI button label. Strong used for UI element HTML Input DITA Output <ol> <li> Click the <strong>Save</strong> button. </li> </ol> <taskbody> <steps> <step> <cmd> Click the <uicontrol>Save</uicontrol> button. </cmd> "
+    },
+    "classified_at": 1788339908.477564
+  },
+  "Scenario 3 \u2014 Code element used for inline code": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.539,
+        "paragraph_count": 13,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "code",
+        "Code",
+        "Scenario",
+        "element",
+        "inline",
+        "codeph",
+        "used",
+        "HTML",
+        "script",
+        "name",
+        "Run",
+        "deploy"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Code element used for inline code Consider an HTML paragraph that contains a shell script name wrapped in a <code> element. Code element used for inline code HTML Input DITA Output <ol> <li> Run <code>deploy.sh</code> using elevated privileges. </li> </ol> <taskbody> <steps> <step> <cmd> Run <codeph>deploy.sh</codeph> using elevated privileges. </cmd> </step> </steps> </taskbody> Resu"
+    },
+    "classified_at": 1788339908.5574095
+  },
+  "Scenario 5 \u2014 Bold used for Menu navigation sequence": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.556,
+        "paragraph_count": 19,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 6
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "strong",
+        "Bold",
+        "Menu",
+        "uicontrol",
+        "Scenario",
+        "navigation",
+        "menu",
+        "span",
+        "menucascade",
+        "sequence",
+        "step",
+        "File"
+      ],
+      "compact_excerpt": "Scenario 5 \u2014 Bold used for Menu navigation sequence Consider an HTML paragraph or procedural step that contains a menu navigation path such as \"File \u2192 Save As\", where each menu label is wrapped in a <strong> element or the entire path is wrapped in a <span> element with a > separator between menu labels. Bold used for Menu navigation sequence HTML Input DITA Output <ol> <li> Go to <span class=\"men"
+    },
+    "classified_at": 1788339908.621297
+  },
+  "Scenario 4 \u2014 Code element used for a file path": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.548,
+        "paragraph_count": 9,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "file",
+        "code",
+        "Code",
+        "element",
+        "path",
+        "Scenario",
+        "filepath",
+        "system",
+        "used",
+        "HTML",
+        "contains",
+        "application"
+      ],
+      "compact_excerpt": "Scenario 4 \u2014 Code element used for a file path Consider an HTML paragraph that contains a file system path wrapped in a <code> element. Code element used for a file path HTML Input DITA Output <p> The application configuration file is located at <code>C:\\Program Files\\PrinterApp\\config\\settings.xml</code>. </p> <conbody> <p> The application configuration file is located at <filepath>C:\\Program Fil"
+    },
+    "classified_at": 1788339908.6402512
+  },
+  "Lists": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.565,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 230
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Lists",
+        "list",
+        "items",
+        "lists",
+        "HTML",
+        "structure",
+        "equal",
+        "section",
+        "primary",
+        "presenting",
+        "discrete",
+        "parallel"
+      ],
+      "compact_excerpt": "Lists Abstract: This section covers Lists in HTML \u2014 the primary structure for presenting discrete, parallel items in a defined or co-equal sequence \u2014 and introduces two subsections: Ordered Lists and Unordered Lists. The converter reads the list type, nesting level, and topic context to determine whether to map each list to <ol> , <ul> , <steps> , <substeps> , <choices> , or <dl> in the DITA outpu"
+    },
+    "classified_at": 1788339908.7411187
+  },
+  "Ordered Lists (Numbered)": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.574,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 16,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 400
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "list",
+        "level",
+        "lists",
+        "ordered",
+        "HTML",
+        "items",
+        "Ordered",
+        "Lists",
+        "numbered",
+        "item",
+        "step",
+        "DITA"
+      ],
+      "compact_excerpt": "Ordered Lists (Numbered) Abstract: This section covers Ordered Lists in HTML \u2014 items presented in a defined sequence where position is significant \u2014 and twenty-one scenarios grouped across six categories: consecutive and discontinuous numbered lists as procedures and workflows, single-item numbered lists, two-level and three-level nested numbered lists, and interrupted numbered lists where an admo"
+    },
+    "classified_at": 1788339908.7835603
+  },
+  "Scenario 10 \u2014 Three-level deep nested Numbered list in Procedure (multi-level sub steps)": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.583,
+        "paragraph_count": 39,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Three",
+        "steps",
+        "server",
+        "step",
+        "Scenario",
+        "level",
+        "Numbered",
+        "Procedure",
+        "substep",
+        "configuration",
+        "file",
+        "task"
+      ],
+      "compact_excerpt": "Scenario 10 \u2014 Three-level deep nested Numbered list in Procedure (multi-level sub steps) Consider a task topic where the first two levels represent procedural actions, and the third level represents additional ordered supporting details for a substep. Three level nested sub-steps in procedure HTML Input DITA Output <h2 id=\"configure-the-server\">Configure the Server</h2> <ol> <li> Update the config"
+    },
+    "classified_at": 1788339908.8536708
+  },
+  "Scenario 11 \u2014 Three-level deep nested Numbered list in Procedure (Sub-steps and Options)": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.591,
+        "paragraph_count": 39,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "choice",
+        "Authentication",
+        "Three",
+        "level",
+        "steps",
+        "step",
+        "Scenario",
+        "Numbered",
+        "Procedure",
+        "Sub",
+        "Options",
+        "Configure"
+      ],
+      "compact_excerpt": "Scenario 11 \u2014 Three-level deep nested Numbered list in Procedure (Sub-steps and Options) Consider a procedure where the first two levels represent procedural actions, and the third level presents mutually exclusive options the user must choose from, rather than supporting reference details. In HTML, this third level is authored as a <ul> nested inside the <ol> . Three-level nested sub-steps and op"
+    },
+    "classified_at": 1788339908.8891702
+  },
+  "Scenario 12 \u2014 Admonition Between Numbered List in a Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.6,
+        "paragraph_count": 27,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "step",
+        "Admonition",
+        "steps",
+        "update",
+        "note",
+        "Scenario",
+        "Between",
+        "Numbered",
+        "List",
+        "Procedure",
+        "procedure",
+        "firmware"
+      ],
+      "compact_excerpt": "Scenario 12 \u2014 Admonition Between Numbered List in a Procedure Consider a procedure where the author has inserted an admonition between two numbered steps to call out a safety or precautionary detail relevant to the step just completed. Admonition between steps in procedure HTML Input DITA Output <h2 id=\"update-firmware\">Update Firmware</h2> <ol> <li> Download the firmware file. <div class=\"warning"
+    },
+    "classified_at": 1788339908.943825
+  },
+  "Scenario 13 \u2014 Admonition Between Numbered List in a Workflow": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.609,
+        "paragraph_count": 25,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Workflow",
+        "Admonition",
+        "release",
+        "Scenario",
+        "Between",
+        "Numbered",
+        "List",
+        "note",
+        "workflow",
+        "admonition",
+        "between",
+        "Release"
+      ],
+      "compact_excerpt": "Scenario 13 \u2014 Admonition Between Numbered List in a Workflow Consider a workflow where the author has inserted an admonition between two numbered items to call out supplementary or cautionary information relevant to the stage just described. Admonition between stages in workflow HTML Input DITA Output <h2 id=\"release-workflow\">Release Workflow</h2> <ol> <li> Merge the release branch. <div class=\"n"
+    },
+    "classified_at": 1788339909.0558965
+  },
+  "Scenario 14 \u2014 Paragraph Between Numbered List in a Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.617,
+        "paragraph_count": 23,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "steps",
+        "Paragraph",
+        "backup",
+        "step",
+        "Scenario",
+        "Between",
+        "Numbered",
+        "List",
+        "Procedure",
+        "Backup",
+        "procedure",
+        "element"
+      ],
+      "compact_excerpt": "Scenario 14 \u2014 Paragraph Between Numbered List in a Procedure Consider a procedure where the author has inserted a <p> element between two numbered steps to add explanatory text before continuing the numbered list. Paragraph between steps in procedure HTML Input DITA Output <h2 id=\"configure-backup\">Configure Backup</h2> <ol> <li> Open Backup Settings. <p>The backup location must have at least 10 G"
+    },
+    "classified_at": 1788339909.089534
+  },
+  "Scenario 16 \u2014 Block Image Between Numbered List in a Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.635,
+        "paragraph_count": 45,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "step",
+        "Open",
+        "Block",
+        "steps",
+        "application",
+        "Scenario",
+        "Image",
+        "Between",
+        "Numbered",
+        "List",
+        "Procedure",
+        "Application"
+      ],
+      "compact_excerpt": "Scenario 16 \u2014 Block Image Between Numbered List in a Procedure Consider a numbered procedure where the author has inserted a full-width screenshot between two steps \u2014 for example, to illustrate what the screen looks like after completing step one. Block image between steps, procedure HTML Input DITA Output <h2 id=\"open-application\">Open the Application</h2> <ol> <li> Open the application. <figure>"
+    },
+    "classified_at": 1788339909.1503956
+  },
+  "Scenario 15 \u2014 Paragraph Between Numbered List in a Workflow": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.626,
+        "paragraph_count": 21,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Workflow",
+        "Paragraph",
+        "Scenario",
+        "Between",
+        "Numbered",
+        "List",
+        "draft",
+        "workflow",
+        "element",
+        "between",
+        "numbered",
+        "Approval"
+      ],
+      "compact_excerpt": "Scenario 15 \u2014 Paragraph Between Numbered List in a Workflow Consider a workflow where the author has inserted a <p> element between two numbered items to add explanatory text before continuing the numbered list. Paragraph between stages in workflow HTML Input DITA Output <h2 id=\"approval-workflow\">Approval Workflow</h2> <ol> <li> Author submits the draft. <p>Submissions are queued and reviewed in "
+    },
+    "classified_at": 1788339909.1611626
+  },
+  "Scenario 17 \u2014 Block Image Between Numbered List in a Workflow": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.643,
+        "paragraph_count": 33,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "workflow",
+        "Environment",
+        "Workflow",
+        "Deployment",
+        "Block",
+        "image",
+        "Scenario",
+        "Image",
+        "Between",
+        "Numbered",
+        "List",
+        "transition"
+      ],
+      "compact_excerpt": "Scenario 17 \u2014 Block Image Between Numbered List in a Workflow Consider a numbered list where a full-width screenshot is placed between two steps in a workflow to illustrate the application state after completing step one. Block image between stages, workflow HTML Input DITA Output <<h2 id=\"deployment-workflow\">Deployment Workflow</h2> <p>The following workflow shows the deployment sequence.</p> <o"
+    },
+    "classified_at": 1788339909.238937
+  },
+  "Scenario 18 \u2014 Table Between Numbered List in a Workflow": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.652,
+        "paragraph_count": 65,
+        "step_list_count": 0,
+        "table_count": 2,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 2
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Environment",
+        "entry",
+        "table",
+        "Table",
+        "workflow",
+        "Scenario",
+        "Between",
+        "Numbered",
+        "List",
+        "Workflow",
+        "lifecycle",
+        "Development"
+      ],
+      "compact_excerpt": "Scenario 18 \u2014 Table Between Numbered List in a Workflow Consider a workflow represented as a numbered list where the author inserts a reference table between lifecycle stages. Table between stages in workflow HTML Input DITA Output <h2 id=\"deployment-lifecycle\"> Deployment Environment Lifecycle </h2> <p> The following workflow shows the deployment lifecycle. </p> <ol> <li>Development Environment</"
+    },
+    "classified_at": 1788339909.3727832
+  },
+  "Scenario 19 \u2014 Table Between Numbered List in a Procedure": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.661,
+        "paragraph_count": 109,
+        "step_list_count": 0,
+        "table_count": 4,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 2
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "table",
+        "entry",
+        "step",
+        "configuration",
+        "steps",
+        "Table",
+        "server",
+        "Server",
+        "title",
+        "Use",
+        "task",
+        "info"
+      ],
+      "compact_excerpt": "Scenario 19 \u2014 Table Between Numbered List in a Procedure Consider a procedure where the author inserts a configuration table between two numbered steps as plain reference information. Table between steps in procedure HTML Input DITA Output <h2 id=\"configure-server\">Configure the Server</h2> <ol> <li> Open the server configuration file. <table> <caption>Server parameters</caption> <tr> <th>Paramete"
+    },
+    "classified_at": 1788339909.3865604
+  },
+  "Scenario 1 \u2014 Consecutive bullet items": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.67,
+        "paragraph_count": 53,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": true
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "later",
+        "before",
+        "list",
+        "Consecutive",
+        "steps",
+        "Scenario",
+        "following",
+        "title",
+        "prerequisites",
+        "items",
+        "Supported",
+        "Platforms"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Consecutive bullet items Consider a section titled \"Supported Platforms\" that contains multiple consecutive <li> items representing related information, where sequence does not matter. Consecutive bullet items HTML Input DITA Output <h2 id=\"supported-platforms\">Supported Platforms</h2> <p> The application supports the following operating systems. </p> <ul> <li>Windows 10 and later</li"
+    },
+    "classified_at": 1788339909.4315517
+  },
+  "Scenario 1 \u2014 Consecutive Numbered list as a Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.678,
+        "paragraph_count": 21,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "step",
+        "Numbered",
+        "Scenario",
+        "Consecutive",
+        "list",
+        "Procedure",
+        "Install",
+        "Linux",
+        "task",
+        "steps",
+        "body",
+        "contains"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Consecutive Numbered list as a Procedure Consider an <h2> called \"Install on Linux\", the body contains a numbered list which indicates step-by-step procedure. Numbered list as a procedure HTML Input DITA Output <h2 id=\"install-on-linux\">Install on Linux</h2> <ol> <li>Download the installer.</li> <li>Run the setup wizard.</li> <li>Restart the service.</li> </ol> <task id=\"install_on_li"
+    },
+    "classified_at": 1788339909.473665
+  },
+  "Scenario 1 \u2014 Native <dl> element": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.687,
+        "paragraph_count": 45,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "device",
+        "dlentry",
+        "Native",
+        "Scenario",
+        "element",
+        "concept",
+        "Connection",
+        "Modes",
+        "HTML",
+        "connection",
+        "modes",
+        "directly"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Native <dl> element Consider a concept section titled \"Connection Modes\" where the author has used a native HTML <dl> element with <dt> and <dd> pairs. Native dl/dt/dd list element HTML Input DITA Output <h2 id=\"connection-modes\">Connection Modes</h2> <p> The device supports the following connection modes. </p> <dl> <dt>Wired</dt> <dd> Uses an Ethernet cable to connect the device dire"
+    },
+    "classified_at": 1788339909.5414493
+  },
+  "Scenario 21 \u2014 Nested Bullet List Between Numbered List in a Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.704,
+        "paragraph_count": 76,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 5,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "step",
+        "level",
+        "choice",
+        "List",
+        "bullets",
+        "steps",
+        "Installation",
+        "list",
+        "nested",
+        "choices",
+        "Nested",
+        "bullet"
+      ],
+      "compact_excerpt": "Scenario 21 \u2014 Nested Bullet List Between Numbered List in a Procedure Consider a procedure where a step's supporting bullet list itself contains a second, deeper level of nested bullets \u2014 for example, a general prerequisite item followed by a sub-list of specific requirements under one of its bullets. Nested bullet list between steps HTML Input DITA Output <h2 id=\"prepare-the-environment\">Prepare "
+    },
+    "classified_at": 1788339909.676933
+  },
+  "Scenario 20 \u2014 Bullet List between Numbered List in a Procedure": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.696,
+        "paragraph_count": 29,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "List",
+        "step",
+        "Bullet",
+        "Scenario",
+        "Numbered",
+        "Procedure",
+        "steps",
+        "installer",
+        "between",
+        "list",
+        "info",
+        "procedure"
+      ],
+      "compact_excerpt": "Scenario 20 \u2014 Bullet List between Numbered List in a Procedure Consider a procedure where the author inserts a bulleted list of prerequisite or reference items between two numbered steps to provide supporting information before the next action. Bullet list between steps in procedure HTML Input DITA Output <h2 id=\"prepare-the-environment\">Prepare the Environment</h2> <ol> <li> Verify the following "
+    },
+    "classified_at": 1788339909.6880007
+  },
+  "Scenario 2 \u2014 Consecutive Numbered list as a Workflow": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.713,
+        "paragraph_count": 25,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Environment",
+        "Numbered",
+        "Workflow",
+        "Scenario",
+        "Consecutive",
+        "concept",
+        "list",
+        "Deployment",
+        "Lifecycle",
+        "deployment",
+        "lifecycle",
+        "conbody"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Consecutive Numbered list as a Workflow Consider an <h2> heading \"Deployment Environment Lifecycle\" classified as a concept topic. The body contains an introductory <p> element followed by an <ol> list of workflow stages. Numbered list as a Workflow HTML Input DITA Output <h2 id=\"deployment-lifecycle\"> Deployment Environment Lifecycle </h2> <p> The following is the deployment environm"
+    },
+    "classified_at": 1788339909.7009487
+  },
+  "Scenario 2 \u2014 Two-level nested bullet list": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.722,
+        "paragraph_count": 37,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Two",
+        "nested",
+        "list",
+        "Scenario",
+        "later",
+        "GB",
+        "level",
+        "bullet",
+        "items",
+        "parent",
+        "HTML",
+        "DITA"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Two-level nested bullet list Consider a <ul> list with a second tier of nested <ul> sub-items beneath selected parent <li> items. Two-level nested bullet list HTML Input DITA Output <h2 id=\"system-requirements\">System Requirements</h2> <ul> <li> Supported platforms <ul> <li>Windows 10 and later</li> <li>macOS 12 and later</li> </ul> </li> <li> Prerequisites <ul> <li>8 GB RAM minimum</"
+    },
+    "classified_at": 1788339909.7872841
+  },
+  "Scenario 2 \u2014 <ul> list with bold term and separator pattern": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.73,
+        "paragraph_count": 53,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "strong",
+        "device",
+        "dlentry",
+        "Scenario",
+        "term",
+        "separator",
+        "pattern",
+        "concept",
+        "Connection",
+        "Modes",
+        "text",
+        "connection"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 <ul> list with bold term and separator pattern Consider a concept section titled \"Connection Modes\" where the author has used a <ul> list where each <li> begins with a <strong> term followed by a \u2014 separator and definition text. Bold term with separator pattern HTML Input DITA Output <h2 id=\"connection-modes\">Connection Modes</h2> <p> The device supports the following connection modes"
+    },
+    "classified_at": 1788339909.857632
+  },
+  "Scenario 5 \u2014 Paragraph Between a Bullet list item": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.756,
+        "paragraph_count": 21,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Paragraph",
+        "list",
+        "Scenario",
+        "Between",
+        "Bullet",
+        "configuration",
+        "element",
+        "paragraph",
+        "outside",
+        "elements",
+        "item",
+        "between"
+      ],
+      "compact_excerpt": "Scenario 5 \u2014 Paragraph Between a Bullet list item Consider a bulleted list where the author has closed the <ul> element after a list item, inserted a <p> element containing explanatory text, and then opened a new <ul> element to continue the list. Because the paragraph sits outside both list elements, it has no <li> markup, even though it appears visually between two bullets. Paragraph between bul"
+    },
+    "classified_at": 1788339909.9643815
+  },
+  "Scenario 3 \u2014 Three-level deep nested bullet list": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.739,
+        "paragraph_count": 33,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "nested",
+        "Three",
+        "Scenario",
+        "level",
+        "deep",
+        "list",
+        "three",
+        "bullet",
+        "levels",
+        "items",
+        "using",
+        "DITA"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Three-level deep nested bullet list Consider a <ul> list nested three levels deep \u2014 grandchild <li> items indented beneath child <li&gt ; items using nested <ul> elements. Three-level deep nested bullet list HTML Input DITA Output <h2 id=\"infrastructure-types\">Infrastructure Types</h2> <ul> <li> Hardware <ul> <li> Servers <ul> <li>Rack-mounted</li> <li>Tower</li> </ul> </li> </ul> </l"
+    },
+    "classified_at": 1788339909.9921129
+  },
+  "Scenario 4 \u2014 Block image placed between bullet list items": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.748,
+        "paragraph_count": 35,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "deployment",
+        "image",
+        "Deployment",
+        "Block",
+        "Scenario",
+        "items",
+        "architecture",
+        "overview",
+        "title",
+        "between",
+        "bullet",
+        "figure"
+      ],
+      "compact_excerpt": "Scenario 4 \u2014 Block image placed between bullet list items Consider a section where the author inserts a block image between bullet items to visually illustrate one of the items. Block image between bullet items HTML Input DITA Output <h2 id=\"deployment-models\"> Supported Deployment Models </h2> <ul> <li>On-premises deployment</li> </ul> <figure> <img src=\"media/deployment_architecture.png\" alt=\"De"
+    },
+    "classified_at": 1788339910.0119762
+  },
+  "Scenario 6 \u2014 Table embedded inside a list item": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.765,
+        "paragraph_count": 37,
+        "step_list_count": 0,
+        "table_count": 3,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "stentry",
+        "table",
+        "Table",
+        "inside",
+        "Scenario",
+        "list",
+        "element",
+        "strow",
+        "HTML",
+        "simpletable",
+        "embedded",
+        "item"
+      ],
+      "compact_excerpt": "Scenario 6 \u2014 Table embedded inside a list item Consider a <ul> list where the author has inserted a <table> element directly inside one of the <li> items \u2014 for example, to present a small reference table as part of a bullet point. Table embedded in list item HTML Input DITA Output <ul> <li> The following options are available: <table> <tr> <th>Option</th> <th>Default</th> </tr> <tr> <td>Retry</td>"
+    },
+    "classified_at": 1788339910.102455
+  },
+  "Scenario 7 \u2014 Two-Level Nested Numbered List (sub steps) in Procedure": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.783,
+        "paragraph_count": 31,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Two",
+        "Nested",
+        "steps",
+        "Scenario",
+        "Level",
+        "Numbered",
+        "List",
+        "Procedure",
+        "Configure",
+        "step",
+        "substep",
+        "numbered"
+      ],
+      "compact_excerpt": "Scenario 7 \u2014 Two-Level Nested Numbered List (sub steps) in Procedure Consider a numbered list with a second tier of numbered sub-items beneath selected parent items as part of the instructions or procedure. Nested sub-steps in a procedure HTML Input DITA Output <h2 id=\"configure-server\">Configure the Server</h2> <ol> <li> Configure the server. <ol> <li>Open the configuration file.</li> <li>Set the"
+    },
+    "classified_at": 1788339910.2308292
+  },
+  "Scenario 8 \u2014 Two-Level Nested Numbered List in Workflow": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.791,
+        "paragraph_count": 43,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Workflow",
+        "review",
+        "Two",
+        "Nested",
+        "workflow",
+        "Scenario",
+        "Level",
+        "Numbered",
+        "List",
+        "numbered",
+        "approval",
+        "conbody"
+      ],
+      "compact_excerpt": "Scenario 8 \u2014 Two-Level Nested Numbered List in Workflow Consider a numbered list with a second tier of numbered sub-items beneath selected parent items as part of the workflow. Nested numbered list in workflow HTML Input DITA Output <h2 id=\"document-approval-workflow\">Document Approval Workflow</h2> <p> Documents progress through several stages before they are approved for publication. The followi"
+    },
+    "classified_at": 1788339910.2923265
+  },
+  "Scenario 9 \u2014 Three-level deep nested ordered list in Workflow": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.8,
+        "paragraph_count": 57,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 2
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Workflow",
+        "Three",
+        "nested",
+        "Scenario",
+        "Release",
+        "input",
+        "approval",
+        "Level",
+        "ordered",
+        "list",
+        "concept",
+        "becomes"
+      ],
+      "compact_excerpt": "Scenario 9 \u2014 Three-level deep nested ordered list in Workflow Consider a concept topic where an <ol> list has three levels of nesting representing phases, sub-phases, and sub-items. Three level nested ordered list in workflow HTML Input DITA Output <h2 id=\"release-workflow\">Release Workflow</h2> <ol> <li> Planning <ol> <li> Requirement review <ol> <li>Product input</li> <li>Documentation input</li"
+    },
+    "classified_at": 1788339910.3191445
+  },
+  "Scenario 7 \u2014 Admonition between Bullet List": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.774,
+        "paragraph_count": 25,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "deployment",
+        "Admonition",
+        "Scenario",
+        "Bullet",
+        "List",
+        "between",
+        "note",
+        "list",
+        "admonition",
+        "bullet",
+        "items",
+        "Supported"
+      ],
+      "compact_excerpt": "Scenario 7 \u2014 Admonition between Bullet List Consider a bulleted list where the author has inserted an admonition between two bullet items to call out a precaution or clarification relevant to the item just listed. Admonition between bullet items HTML Input DITA Output <h2 id=\"deployment-models\">Supported Deployment Models</h2> <ul> <li> On-premises deployment <div class=\"warning\"> Requires dedicat"
+    },
+    "classified_at": 1788339910.3733559
+  },
+  "Term List (Definition List)": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.809,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 7,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 495
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "term",
+        "definition",
+        "Definition",
+        "list",
+        "List",
+        "lists",
+        "HTML",
+        "DITA",
+        "Term",
+        "each",
+        "elements",
+        "description"
+      ],
+      "compact_excerpt": "Term List (Definition List) Abstract: This section covers Term Lists (Definition Lists) in HTML \u2014 structures that associate a term with its corresponding definition or description, emphasizing term-description relationships rather than value comparison across columns \u2014 and two scenarios: a native HTML <dl> element with <dt> and <dd> pairs, and a <ul> list following the bold-label pattern where eac"
+    },
+    "classified_at": 1788339910.4083784
+  },
+  "Unordered Lists": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.817,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": true
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 13,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 373
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "list",
+        "level",
+        "items",
+        "bullet",
+        "unordered",
+        "Unordered",
+        "Lists",
+        "DITA",
+        "lists",
+        "between",
+        "topic",
+        "position"
+      ],
+      "compact_excerpt": "Unordered Lists Abstract: This section covers Unordered Lists \u2014 items presented as a co-equal collection where position does not affect meaning \u2014 and seven scenarios: consecutive bullet items, two-level nested bullet lists, three-level nested bullet lists, a block image between bullet items, a paragraph between bullet items, a table inside a list item, and an admonition between bullet items. The c"
+    },
+    "classified_at": 1788339910.4791865
+  },
+  "Scenario 1 \u2014 Block equation": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.835,
+        "paragraph_count": 33,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 8,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "block",
+        "equation",
+        "math",
+        "Scenario",
+        "Block",
+        "mrow",
+        "mfrac",
+        "element",
+        "MathML",
+        "DITA",
+        "transfer",
+        "rate"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Block equation Consider a <math> element placed between two <p> elements as a standalone block equation. Standalone block equation HTML Input DITA Output <p> The transfer rate is: </p> <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"> <mrow> <mi>R</mi> <mo>=</mo> <mfrac> <mi>B</mi> <mi>T</mi> </mfrac> </mrow> </math> <p> where B is total bytes, and T is the elapsed tim"
+    },
+    "classified_at": 1788339910.6282754
+  },
+  "Math and Equations": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.826,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 9,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 361
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "equation",
+        "MathML",
+        "equations",
+        "mathematical",
+        "DITA",
+        "Equations",
+        "based",
+        "Equation",
+        "Math",
+        "expressions",
+        "represented",
+        "structure"
+      ],
+      "compact_excerpt": "Math and Equations Abstract: This section covers Mathematical Equations \u2014 quantitative expressions that cannot be represented accurately through prose alone \u2014 and five scenarios: a block equation, an inline equation, an equation in a table cell, an equation in a list item, and an equation in a procedure step. The converter maps native <math> (MathML) markup to <foreign> containing embedded MathML;"
+    },
+    "classified_at": 1788339910.6582165
+  },
+  "Scenario 3\u2014 Equation in a table cell": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.852,
+        "paragraph_count": 45,
+        "step_list_count": 0,
+        "table_count": 2,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "stentry",
+        "table",
+        "math",
+        "Equation",
+        "cell",
+        "Scenario",
+        "mrow",
+        "mfrac",
+        "equation",
+        "inline",
+        "element",
+        "MathML"
+      ],
+      "compact_excerpt": "Scenario 3\u2014 Equation in a table cell Consider a <table> where one of the <td> cells contains a <math> element \u2014 for example, a reference table listing formulas alongside their descriptions. Equation in a table cell HTML Input DITA Output <table> <tr> <th>Formula</th> <th>Description</th> </tr> <tr> <td> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mrow> <mi>R</mi> <mo>=</mo> <mfrac> <mi>B</m"
+    },
+    "classified_at": 1788339910.7247465
+  },
+  "Scenario 4 \u2014 Equation in a list item": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.861,
+        "paragraph_count": 43,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "math",
+        "inline",
+        "Equation",
+        "list",
+        "item",
+        "Scenario",
+        "mrow",
+        "msup",
+        "equation",
+        "element",
+        "within",
+        "DITA"
+      ],
+      "compact_excerpt": "Scenario 4 \u2014 Equation in a list item Consider a <ul> list where one of the <li> items contains a <math> element inline within the item text. Equation in a list item HTML Input DITA Output <ul> <li> Use the formula <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mrow> <mi>A</mi> <mo>=</mo> <mi>\u03c0</mi> <msup> <mi>r</mi> <mn>2</mn> </msup> </mrow> </math> to calculate area. </li> <li> Round results"
+    },
+    "classified_at": 1788339910.737402
+  },
+  "Scenario 2 \u2014 Inline equation": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.844,
+        "paragraph_count": 29,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "math",
+        "Inline",
+        "element",
+        "Scenario",
+        "inline",
+        "within",
+        "MathML",
+        "mrow",
+        "msup",
+        "equation",
+        "HTML",
+        "surrounding"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Inline equation Consider a <math> element placed inline within a <p> element alongside surrounding text. Inline equation within text HTML Input DITA Output <p> The formula <math xmlns=\"http://www.w3.org/1998/Math/MathML\"> <mrow> <mi>E</mi> <mo>=</mo> <mi>m</mi> <msup> <mi>c</mi> <mn>2</mn> </msup> </mrow> </math> defines energy equivalence. </p> <p> The formula <math xmlns=\"http://www"
+    },
+    "classified_at": 1788339910.7896955
+  },
+  "Scenario 5 \u2014 Equation in a procedure step": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.87,
+        "paragraph_count": 43,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "step",
+        "math",
+        "block",
+        "Equation",
+        "equation",
+        "Scenario",
+        "mrow",
+        "task",
+        "info",
+        "procedure",
+        "element",
+        "placed"
+      ],
+      "compact_excerpt": "Scenario 5 \u2014 Equation in a procedure step Consider a task topic where a numbered <ol><li> step contains a <math> element placed as a block equation after the step command text. Equation in a procedure step HTML Input DITA Output <ol> <li> Calculate the load using: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"> <mrow> <mi>P</mi> <mo>=</mo> <mi>I</mi> <mi>V</mi> </mrow> </math> </"
+    },
+    "classified_at": 1788339910.9288127
+  },
+  "Scenario 2 \u2014 Paragraph with mixed inline character styles": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.896,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 131
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "inline",
+        "element",
+        "Paragraph",
+        "Scenario",
+        "HTML",
+        "within",
+        "DITA",
+        "strong",
+        "code",
+        "codeph",
+        "mixed",
+        "character"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Paragraph with mixed inline character styles Consider an HTML <p> element that contains a mix of bold, italic, and monospace formatting applied to individual words or phrases within the same paragraph. The converter maps each recognized inline HTML element to the corresponding DITA inline element within the same <p> element. Paragraph with mixed inline character styles HTML Input DITA"
+    },
+    "classified_at": 1788339910.9928167
+  },
+  "Scenario 1 \u2014 Paragraph in a concept topic": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.887,
+        "paragraph_count": 9,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 12
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Paragraph",
+        "Scenario",
+        "concept",
+        "printer",
+        "section",
+        "Product",
+        "elements",
+        "parts",
+        "inside",
+        "conbody",
+        "topic",
+        "HTML"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Paragraph in a concept topic Consider an HTML section titled \"Product Parts Location\" followed by two <p> elements describing the product. Paragraph in a concept topic HTML Input DITA Output <h2>Product parts location</h2> <p>Use this section to identify the parts on the printer.</p> <p>The printer has three main areas: front, inside, and back.</p> <concept id=\"product_parts_location\""
+    },
+    "classified_at": 1788339911.0505655
+  },
+  "Scenario 1 \u2014 Standard multi-column table": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.913,
+        "paragraph_count": 49,
+        "step_list_count": 0,
+        "table_count": 2,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 4,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "stentry",
+        "table",
+        "strow",
+        "Status",
+        "Standard",
+        "Scenario",
+        "Solid",
+        "Indicator",
+        "Lights",
+        "Light",
+        "Pattern",
+        "Color"
+      ],
+      "compact_excerpt": "Scenario 1 \u2014 Standard multi-column table Consider a status indicator lights table under the heading \"Status Indicator Lights\". The table has three columns \u2014 Light Pattern, Color, and Status \u2014 with a header row using <th> elements and data rows using <td> elements. No merged cells exist. Standard multi-column table HTML Input DITA Output <h2>Status Indicator Lights</h2> <table> <tr> <th>Light Patte"
+    },
+    "classified_at": 1788339911.2171364
+  },
+  "Scenario 10 \u2014 2-column table in an API reference section": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.904,
+        "paragraph_count": 41,
+        "step_list_count": 0,
+        "table_count": 3,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 19,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "API",
+        "table",
+        "reference",
+        "property",
+        "proptype",
+        "propvalue",
+        "column",
+        "Scenario",
+        "timeout",
+        "properties",
+        "section",
+        "heading"
+      ],
+      "compact_excerpt": "Scenario 10 \u2014 2-column table in an API reference section Consider a 2-column table inside a section classified as an API reference topic \u2014 for example, a parameter list or API attribute table where the heading contains a keyword such as \"API\", \"parameters\", or \"reference\". Two-column table, API reference HTML Input DITA Output <h2 id=\"api-parameters\">API Parameters</h2> <table> <tr> <th>Parameter<"
+    },
+    "classified_at": 1788339911.2507524
+  },
+  "Scenario 2 \u2014 Table with a <caption> element": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.922,
+        "paragraph_count": 59,
+        "step_list_count": 0,
+        "table_count": 5,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 5,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "entry",
+        "caption",
+        "element",
+        "table",
+        "title",
+        "Table",
+        "Server",
+        "Scenario",
+        "DITA",
+        "Configuration",
+        "Parameters",
+        "tgroup"
+      ],
+      "compact_excerpt": "Scenario 2 \u2014 Table with a <caption> element Consider a configuration parameter table where a <caption> element is inside the <table> element above the header. Table with caption element HTML Input DITA Output <table> <caption>Server Configuration Parameters</caption> <tr> <th>Parameter</th> <th>Default Value</th> <th>Description</th> </tr> <tr> <td>Port</td> <td>8080</td> <td>Server listening port"
+    },
+    "classified_at": 1788339911.2642772
+  },
+  "Paragraphs": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.878,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 10,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 395
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "paragraph",
+        "content",
+        "Paragraphs",
+        "HTML",
+        "inline",
+        "elements",
+        "topic",
+        "heading",
+        "element",
+        "context",
+        "prose",
+        "technical"
+      ],
+      "compact_excerpt": "Paragraphs Abstract: This section covers the Paragraph style in HTML \u2014 its role as the primary carrier of explanatory, introductory, and transitional prose in any technical document \u2014 and four scenarios: a paragraph in a concept topic, a paragraph containing mixed inline character styles, a paragraph placed before the first heading, and a code paragraph. The converter maps each paragraph to a <p> "
+    },
+    "classified_at": 1788339911.3398767
+  },
+  "Scenario 3 \u2014 Table with no header row": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.93,
+        "paragraph_count": 17,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 7
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "stentry",
+        "server",
+        "Table",
+        "elements",
+        "Scenario",
+        "header",
+        "table",
+        "Active",
+        "strow",
+        "HTML",
+        "sthead",
+        "first"
+      ],
+      "compact_excerpt": "Scenario 3 \u2014 Table with no header row Consider a table where the author has not used <th> elements for the first row \u2014 all rows use <td> elements only. Table with no header row HTML Input DITA Output <table> <tr> <td>server-01</td> <td>192.168.1.10</td> <td>Active</td> </tr> <tr> <td>server-02</td> <td>192.168.1.11</td> <td>Standby</td> </tr> <tr> <td>server-03</td> <td>192.168.1.12</td> <td>Activ"
+    },
+    "classified_at": 1788339911.3623898
+  },
+  "Scenario 6 \u2014 List inside a table cell": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.957,
+        "paragraph_count": 31,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "stentry",
+        "inside",
+        "table",
+        "List",
+        "Scenario",
+        "cell",
+        "list",
+        "DITA",
+        "cells",
+        "Step",
+        "Actions",
+        "Download"
+      ],
+      "compact_excerpt": "Scenario 6 \u2014 List inside a table cell Consider a table where the author has placed a <ul> or <ol> list inside one of the <td> cells. List inside a table cell HTML Input DITA Output <table> <tr> <th>Step</th> <th>Actions</th> </tr> <tr> <td>1</td> <td> <ul> <li>Download the package.</li> <li>Verify the checksum.</li> <li>Extract the archive.</li> </ul> </td> </tr> </table> <simpletable> <sthead> <s"
+    },
+    "classified_at": 1788339911.5284827
+  },
+  "Scenario 4 \u2014 Table with merged cells": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.939,
+        "paragraph_count": 57,
+        "step_list_count": 0,
+        "table_count": 3,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.167,
+        "avg_paragraph_length_words": 2
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "entry",
+        "table",
+        "server",
+        "Server",
+        "Table",
+        "Scenario",
+        "cells",
+        "Active",
+        "title",
+        "merged",
+        "rowspan",
+        "DITA"
+      ],
+      "compact_excerpt": "Scenario 4 \u2014 Table with merged cells Consider a table where cells are merged vertically across rows using the rowspan attribute \u2014 for example, to associate one server group value with several related rows. Table with merged cells HTML Input DITA Output <table> <caption>Server Role Mapping</caption> <tr> <th>Server Group</th> <th>Server Name</th> <th>Status</th> </tr> <tr> <td rowspan=\"2\">Productio"
+    },
+    "classified_at": 1788339911.5726852
+  },
+  "Scenario 5 \u2014 Nested table (table inside a table cell)": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.948,
+        "paragraph_count": 47,
+        "step_list_count": 0,
+        "table_count": 7,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "table",
+        "entry",
+        "Nested",
+        "inside",
+        "Scenario",
+        "cell",
+        "Sub",
+        "item",
+        "Value",
+        "tgroup",
+        "colspec",
+        "colnum"
+      ],
+      "compact_excerpt": "Scenario 5 \u2014 Nested table (table inside a table cell) Consider a table where the author has placed a second complete <table> element inside one of the <td> cells of an outer table. Nested table inside table cell HTML Input DITA Output <table> <tr> <td>Label</td> <td> <table> <tr> <td>Sub-item A</td> <td>Value 1</td> </tr> <tr> <td>Sub-item B</td> <td>Value 2</td> </tr> </table> </td> </tr> </table"
+    },
+    "classified_at": 1788339911.610798
+  },
+  "Scenario 7 \u2014 Image inside a table cell": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.965,
+        "paragraph_count": 41,
+        "step_list_count": 0,
+        "table_count": 1,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "stentry",
+        "table",
+        "Image",
+        "inside",
+        "Error",
+        "image",
+        "Scenario",
+        "media",
+        "strow",
+        "cell",
+        "icon",
+        "OK"
+      ],
+      "compact_excerpt": "Scenario 7 \u2014 Image inside a table cell Consider a table where the author has inserted an <img> element directly inside a <td> cell \u2014 for example, a status icon or screenshot thumbnail. Image inside a table cell HTML Input DITA Output <table> <tr> <th>Status</th> <th>Icon</th> <th>Description</th> </tr> <tr> <td>OK</td> <td> <img src=\"media/ok_icon.png\" alt=\"OK icon\"/> </td> <td>System running.</td"
+    },
+    "classified_at": 1788339911.6938727
+  },
+  "Scenario 8 \u2014 Table spanning multiple pages": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.974,
+        "paragraph_count": 81,
+        "step_list_count": 0,
+        "table_count": 2,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 7,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 2
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "stentry",
+        "strow",
+        "table",
+        "Solid",
+        "Flashing",
+        "Scenario",
+        "Table",
+        "Status",
+        "Green",
+        "Orange",
+        "detected",
+        "Red"
+      ],
+      "compact_excerpt": "Scenario 8 \u2014 Table spanning multiple pages Consider a long reference table whose rendered output spans two or more printed pages. Image inside a table cell HTML Input DITA Output <h2 id=\"status-indicator-lights\"> Status Indicator Lights </h2> <table> <tr> <th>Light Pattern</th> <th>Color</th> <th>Status</th> </tr> <tr> <td>Solid</td> <td>Green</td> <td>Printer is ready.</td> </tr> <tr> <td>Flashin"
+    },
+    "classified_at": 1788339911.7556467
+  },
+  "Scenario 9 \u2014 Multiple consecutive tables with no paragraph between them": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.983,
+        "paragraph_count": 61,
+        "step_list_count": 0,
+        "table_count": 5,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 4,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 2
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "stentry",
+        "strow",
+        "table",
+        "simpletable",
+        "Scenario",
+        "Multiple",
+        "tables",
+        "between",
+        "HTML",
+        "element",
+        "Parameter",
+        "Value"
+      ],
+      "compact_excerpt": "Scenario 9 \u2014 Multiple consecutive tables with no paragraph between them Consider a section where two or more <table> elements appear one after another in the HTML source with no <p> element between them. Consecutive tables, no paragraph in between HTML Input DITA Output <h2 id=\"server-configuration\"> Server Configuration </h2> <table> <tr> <th>Parameter</th> <th>Value</th> </tr> <tr> <td>Port</td>"
+    },
+    "classified_at": 1788339911.89606
+  },
+  "Tables": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.991,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 10,
+        "has_code_block": true
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 8,
+        "reference_pattern_hits": 6,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 465
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "table",
+        "column",
+        "HTML",
+        "caption",
+        "Tables",
+        "structure",
+        "information",
+        "cells",
+        "DITA",
+        "merged",
+        "tables",
+        "topic"
+      ],
+      "compact_excerpt": "Tables Abstract : This section covers the Table style in HTML \u2014 the primary structure for presenting information with inherent row-and-column relationships \u2014 and ten scenarios: a standard multi-column table, a table with a caption, a table with no header row, merged cells, nested tables, lists and images inside table cells, tables spanning multiple pages, consecutive tables, and a two-column param"
+    },
+    "classified_at": 1788339911.9334679
+  }
+}

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560334" xml:lang="en-us">
+   <title>List paragraphs</title>
+  <abstract>This section covers List Paragraphs in Markdown— the primary structure for presenting
+    discrete, parallel items in a defined or co-equal sequence — and introduces two subsections:
+    Ordered Lists and Unordered Lists. The converter reads the list type, nesting level, and topic
+    context to determine whether to map each list to <codeph>&lt;ol&gt;</codeph>,
+      <codeph>&lt;ul&gt;</codeph>, <codeph>&lt;steps&gt;</codeph>,
+    <codeph>&lt;substeps&gt;</codeph>, <codeph>&lt;choices&gt;</codeph>, or
+      <codeph>&lt;dl&gt;</codeph> in the DITA output.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>items</keyword>
+        <keyword>paragraphs</keyword>
+        <keyword>List</keyword>
+        <keyword>Markdown</keyword>
+        <keyword>structure</keyword>
+        <keyword>converter</keyword>
+        <indexterm>items</indexterm>
+        <indexterm>paragraphs</indexterm>
+        <indexterm>List</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>
+         <b>List paragraphs</b>communicate sequences, collections, and term-definition pairs that prose paragraphs cannot organise with equal clarity. They are the primary structure for presenting discrete, parallel items — steps in a procedure, items in a requirements checklist, and options in a configuration section.</p>
+      <p>A list communicates to the reader that its items share a structural relationship: either sequence matters and the order is meaningful, or the items are co-equal and interchangeable in position.</p>
+      <p>Readers recognize lists by their numbering or bullet markers, while the converter interprets the Markdown list syntax together with the surrounding content to determine the intended structure. The same list may represent a procedure, a conceptual sequence, or a simple collection of related items, depending on the topic context in which it appears.</p>
+      <p>The converter analyzes both the list structure and the surrounding content to determine the most appropriate DITA output. Depending on the context, a Markdown list may be converted into a DITA ordered list (<codeph>&lt;ol&gt;</codeph>), unordered list (<codeph>&lt;ul&gt;</codeph>), procedural steps (<codeph>&lt;steps&gt;</codeph>), substeps (<codeph>&lt;substeps&gt;</codeph>), or supporting information within a task topic. The converter preserves the hierarchy and relationships between nested list items, so that the generated DITA output reflects the logical organization of the source content.</p>
+    <note id="note_tj2_glw_jkc" type="important">Use standard Markdown ordered and unordered list
+      syntax to represent structured information. Do not create lists by manually typing numbers,
+      bullet characters, or indentation within paragraphs, because these patterns are interpreted as
+      ordinary paragraph text rather than as list structures during conversion.</note>
+   </conbody>
+</concept>

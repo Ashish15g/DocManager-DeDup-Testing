@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_17_block_image_between_numbered_list_in_a_workflow" xml:lang="en-us">
+   <title>Scenario 17 — Block Image Between Numbered List in a Workflow</title>
+   <shortdesc>Consider a numbered list where a full-width screenshot is placed between two steps in a</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>workflow</keyword>
+        <keyword>Environment</keyword>
+        <keyword>List</keyword>
+        <keyword>image</keyword>
+        <keyword>deployment</keyword>
+        <keyword>Block</keyword>
+        <indexterm>workflow</indexterm>
+        <indexterm>Environment</indexterm>
+        <indexterm>List</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+     <section>
+       <p>Consider a numbered list where a full-width screenshot is placed between two steps in a workflow to illustrate the application state after completing step one.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Block image between stages in workflow</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>.docx Style / Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>[Heading 2]: Deployment Workflow [Normal]: The following workflow shows the deployment sequence. [List Number]: Development Environment [Block image: deployment_workflow.png] Wrap mode: In Line with Text [Caption style]: Deployment workflow transition [List Number]: Staging Environment [List Number]: UAT Environment [List Number]: Production Environment</entry>
+               <entry>
+                <codeblock id="codeblock_krb_ktz_kkc">
+&lt;concept id="deployment_workflow">
+  &lt;title>Deployment Workflow&lt;/title>
+  &lt;conbody>
+    &lt;p>The following workflow shows the deployment sequence.&lt;/p>
+    &lt;ol>
+      &lt;li>
+        Development Environment
+        &lt;fig>
+          &lt;title>Deployment workflow transition&lt;/title>
+          &lt;image href="media/deployment_workflow.png"/>
+        &lt;/fig>
+      &lt;/li>
+      &lt;li>Staging Environment&lt;/li>
+      &lt;li>UAT Environment&lt;/li>
+      &lt;li>Production Environment&lt;/li>
+    &lt;/ol>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+              </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+<p><b>Result:</b> The image is in alignment with the numbered list, the image is inserted, inside a <codeph>&lt;fig&gt;</codeph> element, within the single ordered list block instead.</p>
+       </section>
+   </refbody>
+</reference>

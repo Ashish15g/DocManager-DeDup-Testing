@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450419" xml:lang="en-us">
+   <title>Scenario 1 — Image placed inside an admonition</title>
+   <shortdesc>Consider a &lt;div class="warning"&gt; element where the author has inserted an &lt;img&gt; element — for</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>warning</keyword>
+        <keyword>element</keyword>
+        <keyword>inside</keyword>
+        <keyword>admonition</keyword>
+        <keyword>image</keyword>
+        <keyword>Image</keyword>
+        <indexterm>warning</indexterm>
+        <indexterm>element</indexterm>
+        <indexterm>inside</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+         <p>Consider a <codeph>&lt;div class="warning"&gt;</codeph> element where the author has inserted an <codeph>&lt;img&gt;</codeph> element — for example, a photograph of a hazardous component — directly inside the warning content.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image placed inside admonition</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;div class="warning">
+  &lt;p>
+    Do not touch the marked components.
+    &lt;img ... />
+  &lt;/p>
+&lt;/div></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;note type="warning">
+  Do not touch the marked components.
+  &lt;fig id="...">
+    &lt;image placement="break" href="media/hazard_component.png" id="image_s1v_ymr_pjc">
+      &lt;alt>an image&lt;/alt>
+    &lt;/image>
+  &lt;/fig>
+&lt;/note></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> The converter extracts the <codeph>&lt;img&gt;</codeph> element and maps it to a DITA <codeph>&lt;fig&gt;</codeph> element containing <codeph>&lt;image placement="break"/&gt;</codeph>. The <codeph>&lt;note&gt;</codeph> element wraps both the warning text and the <codeph>&lt;fig&gt;</codeph> as a single block-level admonition.</p>
+         </section>
+   </refbody>
+</reference>

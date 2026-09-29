@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="_Toc235705886" xml:lang="en-us">
+   <title>Contextual inheritance</title>
+   <shortdesc>DITA hierarchy enables context inheritance, where child elements or topics inherit attributes and meaning from</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>inheritance</keyword>
+        <keyword>Contextual</keyword>
+        <keyword>context</keyword>
+        <keyword>parent</keyword>
+        <keyword>DITA</keyword>
+        <keyword>hierarchy</keyword>
+        <indexterm>inheritance</indexterm>
+        <indexterm>Contextual</indexterm>
+        <indexterm>context</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>DITA hierarchy enables context inheritance, where child elements or topics inherit attributes and meaning from their parent. When a parent topic or map defines metadata such as <codeph>audience="admin"</codeph>, all nested content implicitly carries that context unless explicitly overridden.</p>
+   </conbody>
+</concept>

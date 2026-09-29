@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450362" xml:lang="en-us">
+   <title>Scenario 2 — Consecutive Numbered list as a Workflow</title>
+   <shortdesc>Consider an &lt;h2&gt; heading "Deployment Environment Lifecycle" classified as a concept topic.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Environment</keyword>
+        <keyword>deployment</keyword>
+        <keyword>lifecycle</keyword>
+        <keyword>Numbered</keyword>
+        <keyword>Workflow</keyword>
+        <keyword>Deployment</keyword>
+        <indexterm>Environment</indexterm>
+        <indexterm>deployment</indexterm>
+        <indexterm>lifecycle</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider an <codeph>&lt;h2&gt;</codeph> heading "Deployment Environment Lifecycle" classified as a concept topic. The body contains an introductory <codeph>&lt;p&gt;</codeph> element followed by an <codeph>&lt;ol&gt;</codeph> list of workflow stages.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Numbered list as a Workflow</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;h2 id="deployment-lifecycle">
+  Deployment Environment Lifecycle
+&lt;/h2>
+&lt;p>
+  The following is the deployment environment lifecycle.
+&lt;/p>
+&lt;ol>
+  &lt;li>Development Environment&lt;/li>
+  &lt;li>Staging Environment&lt;/li>
+  &lt;li>UAT Environment&lt;/li>
+  &lt;li>Production Environment&lt;/li>
+&lt;/ol></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;concept id="deployment_environment_lifecycle">
+  &lt;title>Deployment Environment Lifecycle&lt;/title>
+  &lt;conbody>
+    &lt;p>
+      The following is the deployment environment lifecycle.
+    &lt;/p>
+    &lt;ol>
+      &lt;li>Development Environment&lt;/li>
+      &lt;li>Staging Environment&lt;/li>
+      &lt;li>UAT Environment&lt;/li>
+      &lt;li>Production Environment&lt;/li>
+    &lt;/ol>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+
+<p><b>Result:</b> The converter writes an <codeph>&lt;ol&gt;</codeph> inside <codeph>&lt;conbody&gt;</codeph> with each <codeph>&lt;li&gt;</codeph> preserved, because the heading and introductory paragraph signal descriptive concept content rather than a procedure.</p>
+      </section>
+   </refbody>
+</reference>

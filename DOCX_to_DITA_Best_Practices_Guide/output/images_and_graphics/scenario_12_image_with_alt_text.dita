@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_12_image_with_alt_text" xml:lang="en-us">
+   <title>Scenario 12 — Image with Alt Text</title>
+   <shortdesc>Alt text is a short text description added to an image in .docx using Format</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>image</keyword>
+        <keyword>Image</keyword>
+        <keyword>Text</keyword>
+        <keyword>print</keyword>
+        <keyword>inside</keyword>
+        <keyword>element</keyword>
+        <indexterm>image</indexterm>
+        <indexterm>Image</indexterm>
+        <indexterm>Text</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Alt text is a short text description added to an image in .docx using Format Picture &gt; Alt Text. It describes the visual content for readers who cannot see the image, such as those using screen readers.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image with alt text</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Alt text applied to image: "Diagram showing the print head path located inside the printer"]</entry>
+                     <entry>
+                        <codeblock id="codeblock_h35_4my_kkc">
+&lt;image href="media/print_head_diagram.png">
+  &lt;alt>Diagram showing the print head path located inside the printer&lt;/alt>
+&lt;/image></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result</b>: The converter extracts alt text from each image and maps it to the <codeph>&lt;alt&gt;</codeph> element inside the <codeph>&lt;image&gt;</codeph> element in DITA. If no alt text is present, the <codeph>&lt;alt&gt;</codeph> element is omitted from the output.</p>
+   </section>
+   </refbody>
+</reference>

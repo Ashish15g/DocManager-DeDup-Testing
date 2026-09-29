@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705893" xml:lang="en-us">
+   <title>Scenario: ideal map structure</title>
+   <refbody><section>
+      <codeblock>&lt;map&gt;  
+         &lt;title&gt;Product Documentation&lt;/title&gt;  
+         &lt;topicref href="c_overview.dita"&gt;    
+         &lt;topicref href="c_system_requirements.dita"/&gt;    
+         &lt;topicref href="c_architecture.dita"/&gt;  
+         &lt;/topicref&gt;  
+         &lt;topicref href="t_installation.dita"&gt;    
+         &lt;topicref href="t_pre_installation.dita"/&gt;    
+         &lt;topicref href="t_install_software.dita"/&gt;    
+         &lt;topicref href="t_post_installation.dita"/&gt;  
+         &lt;/topicref&gt;
+         &lt;/map&gt;
+      </codeblock>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <p>In this example, the overview topic acts as the parent, while system requirements and
+            architecture topics are its children. This hierarchy influences:<ul id="ul_11014305">
+               <li>How content appears in navigation menus</li>
+               <li>How tables of contents are generated</li>
+               <li>How search results are organized</li>
+               <li>How PDF chapter structures are created</li>
+            </ul></p>
+   </section></refbody>
+</reference>

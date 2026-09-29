@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450380" xml:lang="en-us">
+   <title>Scenario 1 — Consecutive bullet items</title>
+   <shortdesc>Consider a section titled "Supported Platforms" that contains multiple consecutive &lt;li&gt; items representing related information,</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>later</keyword>
+        <keyword>before</keyword>
+        <keyword>items</keyword>
+        <keyword>application</keyword>
+        <keyword>following</keyword>
+        <keyword>prerequisites</keyword>
+        <indexterm>later</indexterm>
+        <indexterm>before</indexterm>
+        <indexterm>items</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a section titled "Supported Platforms" that contains multiple consecutive <codeph>&lt;li&gt;</codeph> items representing related information, where sequence does not matter.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Consecutive bullet items</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;h2 id="supported-platforms">Supported Platforms&lt;/h2>
+&lt;p>
+  The application supports the following operating systems.
+&lt;/p>
+&lt;ul>
+  &lt;li>Windows 10 and later&lt;/li>
+  &lt;li>macOS 12 and later&lt;/li>
+  &lt;li>Ubuntu 22.04 LTS&lt;/li>
+&lt;/ul></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;concept id="supported_platforms">
+  &lt;title>Supported Platforms&lt;/title>
+  &lt;conbody>
+    &lt;p>
+      The application supports the following operating systems.
+    &lt;/p>
+    &lt;ul>
+      &lt;li>Windows 10 and later&lt;/li>
+      &lt;li>macOS 12 and later&lt;/li>
+      &lt;li>Ubuntu 22.04 LTS&lt;/li>
+    &lt;/ul>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> Each <codeph>&lt;li&gt;</codeph> element is mapped to a DITA <codeph>&lt;li&gt;</codeph> element inside a <codeph>&lt;ul&gt;</codeph> inside <codeph>&lt;conbody&gt;</codeph>. The introductory <codeph>&lt;p&gt;</codeph> element is preserved before the list.</p>
+<p>Now similarly, consider a task topic where a <codeph>&lt;ul&gt;</codeph> list of prerequisites appears before an <codeph>&lt;ol&gt;</codeph> list of procedural steps.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Prerequisites list before procedural steps</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;h2 id="install-the-application">
+    Install the Application
+&lt;/h2>
+
+&lt;p>
+    Ensure the following prerequisites are met before installation.
+&lt;/p>
+
+&lt;ul>
+    &lt;li>Python 3.10 or later&lt;/li>
+    &lt;li>4 GB RAM minimum&lt;/li>
+    &lt;li>sudo access&lt;/li>
+&lt;/ul>
+
+&lt;ol>
+    &lt;li>Download the installer.&lt;/li>
+&lt;/ol></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;task id="install_the_application">
+  &lt;title>Install the Application&lt;/title>
+  &lt;taskbody>
+    &lt;prereq>
+      &lt;p>
+        Ensure the following prerequisites are met before installation.
+      &lt;/p>
+      &lt;ul>
+        &lt;li>Python 3.10 or later&lt;/li>
+        &lt;li>4 GB RAM minimum&lt;/li>
+        &lt;li>sudo access&lt;/li>
+      &lt;/ul>
+    &lt;/prereq>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Download the installer.&lt;/cmd>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> The converter interprets the <codeph>&lt;ul&gt;</codeph> list appearing before the first <codeph>&lt;ol&gt;</codeph> as a prerequisites block and maps it to <codeph>&lt;ul&gt;</codeph> inside <codeph>&lt;prereq&gt;</codeph>. The <codeph>&lt;ol&gt;</codeph> list that follows is mapped to <codeph>&lt;steps&gt;&lt;step&gt;&lt;cmd&gt;</codeph>.</p>
+         </section>
+   </refbody>
+</reference>

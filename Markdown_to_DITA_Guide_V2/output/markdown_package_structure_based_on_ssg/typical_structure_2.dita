@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560296" xml:lang="en-us">
+   <title>Typical structure</title>
+   <shortdesc>A sample structure (using the classic template) is provided below.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>docusaurus</keyword>
+        <keyword>structure</keyword>
+        <keyword>https</keyword>
+        <keyword>Typical</keyword>
+        <keyword>pages</keyword>
+        <keyword>components</keyword>
+        <indexterm>docusaurus</indexterm>
+        <indexterm>structure</indexterm>
+        <indexterm>https</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section>
+      <p>A sample structure (using the classic template) is provided below.</p>
+      <codeblock>csharp
+my-site/
+├── docs/                      # documentation content
+│   ├── intro.md
+│   └── tutorial-basics.md
+├── blog/                      # (optional) blog posts
+│   └── 2021-01-01-welcome.md
+├── src/
+│   ├── pages/                 # React/MDX pages (e.g. /about)
+│   ├── components/            # UI components
+│   └── css/                   # custom CSS
+├── static/                    # static assets (images, etc.)
+├── docusaurus.config.js       # site configuration
+├── sidebars.js                # docs sidebar order
+└── package.json</codeblock>
+      <p>For more information, see the following links:</p>
+   </section></refbody>
+  <related-links>
+    <link href="https://docusaurus.io" format="html" scope="external"/>
+    <link href="https://docusaurus.io/docs" format="html" scope="external"/>
+    <link href="https://github.com/facebook/docusaurus" format="html" scope="external"/>
+  </related-links>
+</reference>

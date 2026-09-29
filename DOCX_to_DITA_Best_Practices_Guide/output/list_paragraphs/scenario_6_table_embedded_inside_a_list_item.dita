@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_6_table_embedded_inside_a_list_item" xml:lang="en-us">
+   <title>Scenario 6 — Table embedded inside a list item</title>
+   <shortdesc>Consider a bulleted list where the author has inserted a simple table directly inside one</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>inside</keyword>
+        <keyword>Table</keyword>
+        <keyword>embedded</keyword>
+        <keyword>table</keyword>
+        <keyword>options</keyword>
+        <keyword>available</keyword>
+        <indexterm>inside</indexterm>
+        <indexterm>Table</indexterm>
+        <indexterm>embedded</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+     <section>
+       <p>Consider a bulleted list where the author has inserted a simple table directly inside one of the list items. For example, to present a small reference table as part of a bullet point.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Table embedded in list item</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>.docx Style / Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>[List Bullet]: The following options are available:   [Table inside list item] │ Option  │ Default │ │ Retry    │ 3 times │ │ Timeout │ 30 sec │</entry>
+               <entry>
+                <codeblock id="codeblock_qj1_4vz_kkc">
+&lt;concept id="available_options">
+  &lt;title>Available Options&lt;/title>
+  &lt;conbody>
+    &lt;ul>
+      &lt;li>
+        The following options are available:
+        &lt;simpletable>
+          &lt;sthead>
+            &lt;stentry>Option&lt;/stentry>
+            &lt;stentry>Default&lt;/stentry>
+          &lt;/sthead>
+          &lt;strow>
+            &lt;stentry>Retry&lt;/stentry>
+            &lt;stentry>3 times&lt;/stentry>
+          &lt;/strow>
+          &lt;strow>
+            &lt;stentry>Timeout&lt;/stentry>
+            &lt;stentry>30 sec&lt;/stentry>
+          &lt;/strow>
+        &lt;/simpletable>
+      &lt;/li>
+    &lt;/ul>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+              </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+<p><b>Result:</b>When the table is correctly embedded inside the list item in the .docx file, the converter nests the <codeph>&lt;simpletable&gt;</codeph> inside the <codeph>&lt;li&gt;</codeph> element.</p>
+<note type="note">Documents exported from Google Docs may not preserve the table-inside-list structure; verify the output and correct as needed.</note>
+       </section>
+   </refbody>
+</reference>

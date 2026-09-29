@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450336" xml:lang="en-us">
+   <title>Scenario 2 — ZIP folder name becomes root Ditamap title</title>
+   <shortdesc>Consider an HTML package without an index file, and the ZIP folder has a generic</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>folder</keyword>
+        <keyword>HTML</keyword>
+        <keyword>Ditamap</keyword>
+        <keyword>title</keyword>
+        <keyword>becomes</keyword>
+        <keyword>package</keyword>
+        <indexterm>folder</indexterm>
+        <indexterm>HTML</indexterm>
+        <indexterm>Ditamap</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider an HTML package without an index file, and the ZIP folder has a generic or unclear name.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>ZIP folder name becomes title</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>ZIP folder name: <codeph>html_output</codeph></p>
+                        <p>Index file: not present </p>
+                        <p>HTML files: <codeph>installation.html</codeph>,
+                              <codeph>maintenance.html</codeph></p>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_qqx_hn5_lkc">
+&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD Ditamap//EN" "map.dtd">
+&lt;map>
+    &lt;title>HTML_output&lt;/title>
+    &lt;mapref href="installation_0.ditamap"/>
+    &lt;mapref href="maintenance.ditamap"/>
+&lt;/map></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result</b>: When the HTML package contains no index file, the converter uses the ZIP folder name as the root Ditamap title. The HTML files in the package are converted into corresponding Ditamaps and topics and are referenced from the root map.</p>
+         </section>
+   </refbody>
+</reference>

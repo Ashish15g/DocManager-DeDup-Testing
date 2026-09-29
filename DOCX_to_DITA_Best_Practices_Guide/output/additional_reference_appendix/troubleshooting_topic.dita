@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="troubleshooting_topic" xml:lang="en-us">
+   <title>Troubleshooting Topic</title>
+   <shortdesc>A troubleshooting topic documents corrective action by describing a problem, explaining its cause, and providing</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>troubleshooting</keyword>
+        <keyword>Troubleshooting</keyword>
+        <keyword>Topic</keyword>
+        <keyword>topic</keyword>
+        <keyword>documents</keyword>
+        <keyword>corrective</keyword>
+        <indexterm>troubleshooting</indexterm>
+        <indexterm>Troubleshooting</indexterm>
+        <indexterm>Topic</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>A troubleshooting topic documents corrective action by describing a problem, explaining its cause, and providing a remedy. The AI Agent classifies a section as troubleshooting when the content follows a clear Problem / Cause / Solution structure; where the pattern is ambiguous, the heuristic classifier may assign task or generic instead. The generated topic uses <codeph>&lt;troubleshooting&gt;</codeph> with <codeph>&lt;troublebody&gt;</codeph>.</p>
+   </conbody>
+</concept>

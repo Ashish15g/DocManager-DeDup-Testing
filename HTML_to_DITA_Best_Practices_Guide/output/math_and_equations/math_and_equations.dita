@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235450427" xml:lang="en-us">
+   <title>Math and Equations</title>
+   <abstract>This section covers Mathematical Equations — quantitative expressions that cannot be
+      represented accurately through prose alone — and five scenarios: a block equation, an inline
+      equation, an equation in a table cell, an equation in a list item, and an equation in a
+      procedure step. The converter maps native <codeph>&lt;math&gt;</codeph> (MathML) markup to
+         <codeph>&lt;foreign&gt;</codeph> containing embedded MathML; image-based equations map to
+         <codeph>&lt;image&gt;</codeph> with a required <codeph>&lt;alt&gt;</codeph> element
+      carrying the equation's accessible text description.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>equation</keyword>
+        <keyword>MathML</keyword>
+        <keyword>equations</keyword>
+        <keyword>mathematical</keyword>
+        <keyword>DITA</keyword>
+        <keyword>based</keyword>
+        <indexterm>equation</indexterm>
+        <indexterm>MathML</indexterm>
+        <indexterm>equations</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+<p>
+         <b>Mathematical equations</b> communicate quantitative relationships that cannot be
+         expressed accurately through prose alone. They are commonly used in engineering,
+         scientific, financial, and technical documentation to represent formulas, calculations,
+         algorithms, and symbolic expressions.</p>
+      <p>The mathematical equation can be inserted as:</p>
+<ul id="ul_09045203">
+            <li>
+               <b>MathType objects</b> - MathType is a third-party equation editor that embeds equations as OLE (Object Linking and Embedding) binary objects.</li>
+            <li>
+               <b>Image-based equations</b> - An equation represented as a PNG, EMF, or other image file — whether inserted directly or produced by a screenshot — carries no mathematical structure.</li>
+            <li>
+               <b>Reference-based equations</b> – An equation is stored separately as an external MathML file, which can be reused or maintained outside the topic.</li>
+         </ul>
+<p>In HTML, mathematical content may be authored as native MathML, rendered as images, or represented using LaTeX syntax through client-side rendering libraries.</p>
+<p>The converter evaluates how each equation is represented in the HTML source before determining
+         the generated DITA output. Native MathML is preserved and converted to the corresponding
+         DITA MathML structure. Image-based equations are treated as standard images, while LaTeX
+         expressions are converted only when the mathematical markup is available in the HTML source
+         before conversion. The quality of the generated DITA output depends directly on the format
+         in which mathematical content is authored.</p>
+      <p>The following table lists the types of equations and their corresponding DITA output:</p>
+      <table frame="all" colsep="1" rowsep="1">
+         <title>Equation types mapped to DITA</title>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>Mathematical Equation</b>
+                  </entry>
+                  <entry>
+                     <b>DITA structure</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>Equation inside a sentence</entry>
+                  <entry>
+                     <codeph>&lt;equation-inline&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Equation within a paragraph, list paragraph, and tables</entry>
+                  <entry>
+                     <codeph>&lt;equation-block&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Equation with title/caption/reference need</entry>
+                  <entry>
+                     <codeph>&lt;equation-figure&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Numbered equation</entry>
+                  <entry>
+                     <codeph>&lt;equation-number&gt;</codeph> inside the equation structure</entry>
+               </row>
+               <row>
+                  <entry>Actual mathematical notation</entry>
+                  <entry>
+                     <codeph>&lt;mathml&gt;</codeph> with MathML markup</entry>
+               </row>
+               <row>
+                  <entry>Reference/external equation link</entry>
+                  <entry>
+                     <codeph>&lt;mathmlref&gt;</codeph>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+<note type="important"> Author mathematical expressions using native MathML. Image-based equations
+         and client-side rendering libraries do not produce structured content during
+         conversion.</note></conbody>
+</concept>

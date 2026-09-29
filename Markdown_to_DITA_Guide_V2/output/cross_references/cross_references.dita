@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc238560403" xml:lang="en-us">
+   <title>Cross references</title>
+  <abstract>This section covers Cross-References, Bookmarks and Hyperlinks — three distinct
+    navigational mechanisms that connect related content within a document, across a documentation
+    set, or to an external resource — and six scenarios: an internal cross-reference or bookmark, an
+    external URL, a hyperlink with non-descriptive display text, a link list at the end of a
+    section, and an internal link list used as a mini-TOC. The converter maps each structured link
+    to a DITA <codeph>&lt;xref&gt;</codeph> element using <codeph>@href</codeph>,
+      <codeph>@scope</codeph>, and <codeph>@format</codeph> to resolve the target correctly in the
+    generated output.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>DITA</keyword>
+        <keyword>related</keyword>
+        <keyword>cross</keyword>
+        <keyword>document</keyword>
+        <keyword>reference</keyword>
+        <keyword>bookmark</keyword>
+        <indexterm>DITA</indexterm>
+        <indexterm>related</indexterm>
+        <indexterm>cross</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+    <p>A cross-reference, a bookmark, and a hyperlink are three distinct mechanisms - each with a
+      specific structural role:</p>
+      <ul id="ul_11245417">
+         <li>A cross-reference is an active, field-based link to a heading, figure, table, footnote, or bookmark within the same document or internal identifier (such as bookmark).</li>
+         <li>A bookmark assigns a named identifier to a specific location in the document — a word,
+        a phrase, a paragraph, or a position between characters. Bookmarks serve as anchor points
+        that cross-references and hyperlinks can target.<note id="note_z2n_ttr_kkc">Both
+          cross-reference and/or bookmarks target updates automatically when the document is
+          restructured or the sections are moved within the same document.</note></li>
+      <li>A hyperlink stores an explicit address — a URL, an email address, a file path, or a
+        sometimes same-document bookmark anchor. Unlike bookmark and cross reference, the hyperlink
+        address is fixed at the time of creation.<p> Using the document's native link tools is the
+          condition that produces a valid, resolvable <codeph>&lt;xref&gt;</codeph> element in the
+          DITA output. A link typed as plain text produces no link structure and maps to a plain
+            <codeph>&lt;p&gt;</codeph> element.</p><p>In Markdown, hyperlinks are created using
+          standard link syntax, where the link text identifies the visible label and the target
+          specifies the destination. For
+        example:</p><codeblock xml:space="preserve" id="codeblock_vqg_xtr_kkc">[Alarm Notifier](alarm-notifier.md)</codeblock></li>
+      </ul>
+      <p>The converter analyzes each link target to determine whether it references an internal
+      Markdown topic, an external website, or a collection of related topics. Internal Markdown
+      links are converted into DITA <codeph>&lt;xref&gt;</codeph> elements that reference the
+      corresponding generated DITA topics. External URLs are converted into DITA cross references
+      with the appropriate scope and format attributes. When a collection of links represents
+      related topics rather than the primary content of a topic, the converter generates a DITA
+        <codeph>&lt;related-links&gt;</codeph> section containing structured
+        <codeph>&lt;link&gt;</codeph> elements.<note id="note_g3k_ytr_kkc" type="important"/>Use
+      meaningful link text and valid link targets so that related information can be resolved
+      correctly during conversion. Place links to related topics in a dedicated Related Topics
+      section. When a section contains only links to related Markdown topics, the converter can
+      generate a structured DITA <codeph>&lt;related-links&gt;</codeph>section.</p>
+      <p>The following scenarios demonstrate how different Markdown cross-reference patterns are interpreted during Markdown-to-DITA conversion and how they affect the generated DITA output.</p>
+   </conbody>
+</concept>

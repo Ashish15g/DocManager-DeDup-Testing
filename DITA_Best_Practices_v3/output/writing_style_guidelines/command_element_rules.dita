@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="command_element_rules" xml:lang="en-us">
+   <title>Command element rules</title>
+   <prolog>
+    <metadata>
+      <keywords>
+        <keyword>element</keyword>
+        <keyword>Command</keyword>
+        <keyword>rules</keyword>
+        <keyword>Every</keyword>
+        <keyword>Begin</keyword>
+        <keyword>imperative</keyword>
+        <indexterm>element</indexterm>
+        <indexterm>Command</indexterm>
+        <indexterm>rules</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>Every <codeph>&lt;cmd&gt;</codeph> element must:<ul id="ul_11014335">
+        <li>Begin with an imperative verb</li>
+        <li>Use active voice</li>
+        <li>End with a period</li>
+        <li>Contain exactly one action</li>
+      </ul></p>
+   </conbody>
+</concept>

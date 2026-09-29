@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560383" xml:lang="en-us">
+   <title>Scenario 1: Standard multi-column table</title>
+   <refbody><section><p>Consider a Markdown topic containing a simple three-column table describing alarm severity levels.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Standard multi-column table</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Alarm Severity Levels
+  | Severity | Priority | Description |
+  |-----------|-----------|-----------|
+  | Critical | High | Immediate action required |
+  | Warning | Medium | Requires investigation |
+  | Informational | Low | Informational event |</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;reference id="alarm_severity_levels"&gt; &lt;title&gt;Alarm Severity Levels&lt;/title&gt; 
+                           &lt;refbody&gt; 
+                           &lt;simpletable&gt; 
+                           &lt;sthead&gt; &lt;stentry&gt;Severity&lt;/stentry&gt; &lt;stentry&gt;Priority&lt;/stentry&gt; &lt;stentry&gt;Description&lt;/stentry&gt; &lt;/sthead&gt; 
+                           &lt;strow&gt; 
+                           &lt;stentry&gt;Critical&lt;/stentry&gt; &lt;stentry&gt;High&lt;/stentry&gt; &lt;stentry&gt;Immediate action required&lt;/stentry&gt; 
+                           &lt;/strow&gt; 
+                           &lt;strow&gt; 
+                           &lt;stentry&gt;Warning&lt;/stentry&gt; &lt;stentry&gt;Medium&lt;/stentry&gt; &lt;stentry&gt;Requires investigation&lt;/stentry&gt; 
+                           &lt;/strow&gt; 
+                           &lt;strow&gt; &lt;stentry&gt;Informational&lt;/stentry&gt; &lt;stentry&gt;Low&lt;/stentry&gt; &lt;stentry&gt;Informational event&lt;/stentry&gt; 
+                           &lt;/strow&gt; 
+                           &lt;/simpletable&gt; 
+                           &lt;/refbody&gt; 
+                           &lt;/reference&gt;
+                        </codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b> The converter creates a DITA <codeph>&lt;simpletable&gt;</codeph> because the table contains a regular row-column structure with no special formatting.</p>
+   </section></refbody>
+</reference>

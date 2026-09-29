@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235705916" xml:lang="en-us">
+   <title>Map validation checklist</title>
+   <shortdesc>When creating a book map or a DITA map, you should meet the following criteria:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>topics</keyword>
+        <keyword>validation</keyword>
+        <keyword>checklist</keyword>
+        <keyword>level</keyword>
+        <keyword>When</keyword>
+        <keyword>creating</keyword>
+        <indexterm>topics</indexterm>
+        <indexterm>validation</indexterm>
+        <indexterm>checklist</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>When creating a book map or a DITA map, you should meet the following criteria:<ul
+        id="ul_11014318">
+        <li>Every .dita file in the project is referenced by at least one map</li>
+        <li>No topic appears twice at the same level without a reason</li>
+        <li>Concept topics precede task topics at the same hierarchy level</li>
+        <li>Reference and troubleshooting topics appear after task topics</li>
+        <li>Glossary topics are collected under a topicgroup or backmatter</li>
+      </ul></p>
+   </conbody>
+</concept>

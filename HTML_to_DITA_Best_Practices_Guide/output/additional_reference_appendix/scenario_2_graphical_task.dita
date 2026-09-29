@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headingh2vvxqiemfh8b" xml:lang="en-us">
+   <title>Scenario 2 — Graphical Task</title>
+   <shortdesc>Consider a numbered procedure where the author has placed an &lt;img&gt; element with a &lt;figcaption&gt;</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>button</keyword>
+        <keyword>power</keyword>
+        <keyword>Power</keyword>
+        <keyword>inside</keyword>
+        <keyword>Locate</keyword>
+        <keyword>Graphical</keyword>
+        <indexterm>button</indexterm>
+        <indexterm>power</indexterm>
+        <indexterm>Power</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a numbered procedure where the author has placed an <codeph>&lt;img&gt;</codeph> element with a <codeph>&lt;figcaption&gt;</codeph> inside a <codeph>&lt;figure&gt;</codeph> inside an <codeph>&lt;li&gt;</codeph> element — for example, to show a button as part of a step.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Graphical Task</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;h2 id="locate-the-power-button">Locate the Power Button&lt;/h2>
+&lt;ol>
+  &lt;li>
+    Locate the power button.
+    &lt;figure>
+      &lt;img src="media/power_button.png" alt="Power button"/>
+      &lt;figcaption>
+        Power button location
+      &lt;/figcaption>
+    &lt;/figure>
+  &lt;/li>
+&lt;/ol></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;task id="locate_the_power_button">
+  &lt;title>Locate the Power Button&lt;/title>
+  &lt;taskbody>
+    &lt;steps>
+      &lt;step>
+        &lt;cmd>Locate the power button.&lt;/cmd>
+        &lt;info>
+          &lt;fig>
+            &lt;title>Power button location&lt;/title>
+            &lt;image href="media/power_button.png">
+              &lt;alt>Power button&lt;/alt>
+            &lt;/image>
+          &lt;/fig>
+        &lt;/info>
+      &lt;/step>
+    &lt;/steps>
+  &lt;/taskbody>
+&lt;/task></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> The converter maps the <codeph>&lt;figure&gt;</codeph> and <codeph>&lt;figcaption&gt;</codeph> inside the <codeph>&lt;li&gt;</codeph> to a <codeph>&lt;fig&gt;</codeph> structure, placed inside <codeph>&lt;step&gt;&lt;info&gt;</codeph>, not inside <codeph>&lt;cmd&gt;</codeph>. The task body remains a single contiguous <codeph>&lt;steps&gt;</codeph> block.</p>
+         </section>
+   </refbody>
+</reference>

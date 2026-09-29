@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="character_styles" xml:lang="en-us">
+   <title>Character Styles</title>
+   <abstract>This section covers Character Styles in DOCX — the inline formatting attributes that
+      assign semantic meaning to individual words or phrases within a paragraph — and five
+      scenarios: bold for general emphasis, bold for a UI element inside a procedure, monospace for
+      inline code, monospace for a file path, and bold for a menu navigation sequence. The converter
+      reads each named character style or font family to determine the appropriate DITA inline
+      element; where named styles are absent, content pattern recognition refines the
+      mapping.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>monospace</keyword>
+        <keyword>DITA</keyword>
+        <keyword>styles</keyword>
+        <keyword>Character</keyword>
+        <keyword>inline</keyword>
+        <keyword>character</keyword>
+        <indexterm>monospace</indexterm>
+        <indexterm>DITA</indexterm>
+        <indexterm>styles</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>The <b>Character</b> styles are inline formatting attributes applied to individual words or
+         phrases within a paragraph. For example,</p>
+<ul id="ul_07233405">
+            <li>A menu path or button label is bold to identify UI screen text as a named interface element.</li>
+            <li>A file path or command is monospace to identify it as executable or navigable content.</li>
+         </ul>
+<p>Marking these distinctions visually — bold, italic, or monospace — communicates meaning to readers. Translation memory tools, conditional processing engines, content reuse frameworks, and accessibility processors all require typed markup to treat each kind of text correctly in publishing systems.</p>
+      <p>In a .docx file, character styles are applied through two mechanisms:</p>
+<ul id="ul_07233406">
+            <li>Named character styles from the Styles panel, which carry explicit semantic label.</li>
+            <li>Direct formatting such as Ctrl+B, Ctrl+I, or a manually selected font family such as Courier New or Consolas, which carry only visual properties.</li>
+         </ul>
+<p>The DITA-XML converter reads each character styling to determine the appropriate DITA inline element. When named styles are absent, the DITA-XML converter uses content pattern recognition to evaluate programming domain, UI domain, and software domain to refine the mappings. For example, a monospace run containing a forward slash, a drive letter, or a file extension is mapped to <codeph>&lt;filepath&gt;</codeph> rather than <codeph>&lt;codeph&gt;</codeph>. Similarly, a sequence of bold UI labels separated by <codeph>&gt;</codeph> is mapped to <codeph>&lt;menucascade&gt;&lt;uicontrol&gt;</codeph>.</p>
+      <p>The following table lists the character styles and their corresponding DITA output:</p>
+      <table frame="all" colsep="1" rowsep="1">
+         <title>Character styles mapped to DITA</title>
+         <tgroup cols="2">
+            <colspec colname="c1" colwidth="1*"/>
+            <colspec colname="c2" colwidth="1.17*"/>
+            <thead>
+               <row>
+                  <entry>
+                     <b>.docx Character Style</b>
+                  </entry>
+                  <entry>
+                     <b>DITA Inline Element</b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>Bold (general emphasis)</entry>
+                  <entry>
+                     <codeph>&lt;b&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Bold UI label in procedure</entry>
+                  <entry>
+                     <codeph>&lt;uicontrol&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Italic or Emphasis</entry>
+                  <entry>
+                     <codeph>&lt;i&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Monospace (Courier New / Consolas)</entry>
+                  <entry>
+                     <codeph>&lt;codeph&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>File path in monospace</entry>
+                  <entry>
+                     <codeph>&lt;filepath&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Variable name in monospace</entry>
+                  <entry>
+                     <codeph>&lt;varname&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Command name in monospace</entry>
+                  <entry>
+                     <codeph>&lt;cmdname&gt;</codeph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Menu navigation (File &gt; Save As)</entry>
+                  <entry>
+                     <codeph>&lt;menucascade&gt;&lt;uicontrol&gt;...</codeph>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </conbody>
+</concept>

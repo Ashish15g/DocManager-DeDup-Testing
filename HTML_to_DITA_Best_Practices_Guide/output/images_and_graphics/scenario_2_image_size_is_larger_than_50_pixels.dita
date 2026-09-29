@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450394" xml:lang="en-us">
+   <title>Scenario 2 — Image Size is Larger than 50 Pixels</title>
+   <shortdesc>Consider a paragraph that contains a medium-sized image of a "dialog box" whose width and</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>dialog</keyword>
+        <keyword>settings</keyword>
+        <keyword>width</keyword>
+        <keyword>height</keyword>
+        <keyword>network</keyword>
+        <keyword>Image</keyword>
+        <indexterm>dialog</indexterm>
+        <indexterm>settings</indexterm>
+        <indexterm>width</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a paragraph that contains a medium-sized image of a "dialog box" whose width and height attributes are both larger than 50 pixels.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image larger than 50 pixels</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_m3j_kl4_lkc">
+&lt;p>
+  The following dialog box displays the available network settings:
+  &lt;img src="media/network_settings_dialog.png" alt="Network settings dialog" width="320" height="240"/>
+&lt;/p></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_qnm_ll4_lkc">
+&lt;p>
+  The following dialog box displays the available network settings:
+  &lt;image href="media/network_settings_dialog.png" placement="break" width="4" height="3">
+    &lt;alt>Network settings dialog&lt;/alt>
+  &lt;/image>
+&lt;/p></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> If the <codeph>&lt;img&gt;</codeph> element's width and height are equal to or
+   larger than <b>50 × 50 pixels</b>, the converter generates an <codeph>&lt;image/&gt;</codeph> element with the
+            placement attribute as break. The converter does not wrap the image in a
+               <codeph>&lt;fig&gt;</codeph> tag.</p>
+         </section>
+   </refbody>
+</reference>

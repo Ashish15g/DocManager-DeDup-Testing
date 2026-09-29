@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="markdown_input_3" xml:lang="en-us">
+   <title>Markdown input</title>
+   <refbody><section>
+      <codeblock>Alarms/
+  ├── Alarm_Notifier/
+  │   └── index.md
+  └── Alarm_Types/
+      └── index.md
+</codeblock>
+      <p>
+         <b>Result:</b>No DITA topic is created because no source content exists, and a topic head
+         is created instead. Any parent folder without an index file becomes a navigation-only
+            node.<note id="note_qp4_svr_kkc">Provide an index.md file for every major
+         folder.</note></p>
+   </section></refbody>
+</reference>

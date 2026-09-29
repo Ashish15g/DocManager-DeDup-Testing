@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc238560345" xml:lang="en-us">
+   <title>Scenario 9: Three-level deep nested numbered list in a workflow</title>
+   <shortdesc>Consider an alarm lifecycle workflow that contains stages, sub-stages, and detailed activities.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Alarm</keyword>
+        <keyword>workflow</keyword>
+        <keyword>nested</keyword>
+        <keyword>Evaluate</keyword>
+        <keyword>Three</keyword>
+        <keyword>level</keyword>
+        <indexterm>Alarm</indexterm>
+        <indexterm>workflow</indexterm>
+        <indexterm>nested</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>Consider an alarm lifecycle workflow that contains stages, sub-stages, and detailed activities.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Three-level deep nested numbered list (workflow)</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock># Alarm Lifecycle
+  1. Alarm Detection
+  1. Rule Evaluation
+  1. Evaluate Thresholds
+  2. Evaluate Conditions
+  2. Alarm Creation
+  2. Alarm Resolution</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;concept id="alarm_lifecycle"&gt;     &lt;title&gt;Alarm Lifecycle&lt;/title&gt;     &lt;conbody&gt;         &lt;ol&gt;             &lt;li&gt;                 Alarm Detection                 &lt;ol&gt;                     &lt;li&gt;                         Rule Evaluation                         &lt;ol&gt;   &lt;li&gt;Evaluate Thresholds&lt;/li&gt;  &lt;li&gt;Evaluate Conditions&lt;/li&gt;                         &lt;/ol&gt;                     &lt;/li&gt;                     &lt;li&gt;Alarm Creation&lt;/li&gt;                 &lt;/ol&gt;             &lt;/li&gt;             &lt;li&gt;Alarm Resolution&lt;/li&gt;         &lt;/ol&gt;     &lt;/conbody&gt; &lt;/concept&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>
+            <b>Result:</b> The content describes a workflow rather than a procedure, and all list levels are preserved as nested DITA ordered lists (<codeph>&lt;ol&gt;</codeph>).</p></section></refbody>
+</reference>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450430" xml:lang="en-us">
+   <title>Scenario 2 — Inline equation</title>
+   <shortdesc>Consider a &lt;math&gt; element placed inline within a &lt;p&gt; element alongside surrounding text.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>element</keyword>
+        <keyword>equation</keyword>
+        <keyword>inline</keyword>
+        <keyword>within</keyword>
+        <keyword>MathML</keyword>
+        <keyword>Inline</keyword>
+        <indexterm>element</indexterm>
+        <indexterm>equation</indexterm>
+        <indexterm>inline</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+     <section>
+     <p>Consider a <codeph>&lt;math&gt;</codeph> element placed inline within a <codeph>&lt;p&gt;</codeph> element alongside surrounding text.</p>
+       <table frame="all" colsep="1" rowsep="1">
+         <title>Inline equation within text</title>
+         <tgroup cols="2">
+           <colspec colname="c1"/>
+           <colspec colname="c2"/>
+           <thead>
+             <row>
+               <entry>
+                 <b>HTML Input</b>
+               </entry>
+               <entry>
+                 <b>DITA Output</b>
+               </entry>
+             </row>
+           </thead>
+           <tbody>
+             <row>
+               <entry>
+                 <codeblock>
+&lt;p>
+  The formula
+  &lt;math xmlns="http://www.w3.org/1998/Math/MathML">
+    &lt;mrow>
+      &lt;mi>E&lt;/mi>
+      &lt;mo>=&lt;/mo>
+      &lt;mi>m&lt;/mi>
+      &lt;msup>
+        &lt;mi>c&lt;/mi>
+        &lt;mn>2&lt;/mn>
+      &lt;/msup>
+    &lt;/mrow>
+  &lt;/math>
+  defines energy equivalence.
+&lt;/p></codeblock>
+               </entry>
+               <entry>
+                 <codeblock>
+&lt;p>
+  The formula
+  &lt;equation-inline>
+    &lt;mathml>
+      &lt;math xmlns="http://www.w3.org/1998/Math/MathML">
+        &lt;mrow>
+          &lt;mi>E&lt;/mi>
+          &lt;mo>=&lt;/mo>
+          &lt;mi>m&lt;/mi>
+          &lt;msup>
+            &lt;mi>c&lt;/mi>
+            &lt;mn>2&lt;/mn>
+          &lt;/msup>
+        &lt;/mrow>
+      &lt;/math>
+    &lt;/mathml>
+  &lt;/equation-inline>
+  defines energy equivalence.
+&lt;/p></codeblock>
+               </entry>
+             </row>
+           </tbody>
+         </tgroup>
+       </table>
+<p><b>Result:</b> The converter detects the <codeph>&lt;math&gt;</codeph> element positioned inline within a <codeph>&lt;p&gt;</codeph> element and preserves the MathML content inline within the surrounding <codeph>&lt;p&gt;</codeph> element. No <codeph>&lt;equation-block&gt;</codeph> wrapper is produced for inline equations.</p>
+<note type="note"> The generated MathML structure is preserved from the HTML source. Validate mathematical output after conversion to ensure rendering accuracy in HTML, PDF, and downstream publishing systems.</note>
+       </section>
+   </refbody>
+</reference>

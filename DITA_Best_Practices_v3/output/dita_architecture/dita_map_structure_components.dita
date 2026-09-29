@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc235705913" xml:lang="en-us">
+   <title>DITA map structure components</title>
+   <shortdesc>Unlike a book map, which is designed to mirror a traditional printed book with front</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>DITA</keyword>
+        <keyword>structure</keyword>
+        <keyword>components</keyword>
+        <keyword>topics</keyword>
+        <keyword>modular</keyword>
+        <keyword>navigation</keyword>
+        <indexterm>DITA</indexterm>
+        <indexterm>structure</indexterm>
+        <indexterm>components</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>Unlike a book map, which is designed to mirror a traditional printed book with front matter, chapters, appendices, and backmatter, a DITA map is structured as a more flexible, modular container for topics. Its components focus on logical grouping and navigation for web or portal‑style experiences rather than formal print structure.</p>
+      <p>Typical DITA map structure components include:<ul id="ul_11014314">
+        <li>Title: the main label for the map (for example, “User Guide” or “API Reference”).</li>
+        <li>Topic groups <codeph>&lt;topicgroup&gt;:</codeph> clusters of related topics (such as
+          “Getting Started”, “Administration”, or “Troubleshooting”) that help organize content
+          without implying a fixed “chapter” boundary.</li>
+        <li>Topic references <codeph>&lt;topicref&gt;</codeph>: links to individual topics, often
+          nested to show a hierarchy (such as concept → task → reference) and reused across multiple
+          maps.</li>
+        <li>Topic heads <codeph>&lt;topichead&gt;</codeph>: navigation labels that group related
+            <codeph>&lt;topicref&gt;</codeph> entries (for example, “Getting Started” or
+          “Reference”) without pointing to a physical topic, making the TOC and portal navigation
+          clearer and more modular.</li>
+        <li>Key definitions <codeph>&lt;keydef&gt;</codeph>: reusable keys for topics, products, or
+          phrases that can be referenced via <codeph>keyref</codeph> throughout the map.</li>
+      </ul></p>
+      <p>In short, while a book map emphasizes a fixed, publication‑oriented structure (frontmatter, chapters, backmatter), a DITA map emphasizes modular, topic‑based groupings that can be repurposed across different outputs and user journeys.</p>
+   </conbody>
+</concept>

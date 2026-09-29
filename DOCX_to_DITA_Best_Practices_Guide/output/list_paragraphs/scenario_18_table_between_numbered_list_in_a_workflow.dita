@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_18_table_between_numbered_list_in_a_workflow" xml:lang="en-us">
+   <title>Scenario 18 — Table Between Numbered List in a Workflow</title>
+   <refbody>
+      <section id="sec_d467e7">
+         <p>Consider a workflow represented as a numbered list where the author inserts a reference table between lifecycle stages.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Table between stages in workflow</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Heading 2]: Deployment Environment Lifecycle [Normal]: The following workflow shows the deployment lifecycle. [List Number]: Development Environment [Caption]: Environment responsibilities [Table Header]: Environment │ Purpose [Row]: Development │ Feature implementation [Row]: Staging │ Pre-production validation [List Number]: Staging Environment [List Number]: Production Environment</entry>
+                     <entry>
+                        <codeblock id="codeblock_rmc_qtz_kkc">
+&lt;concept id="deployment_environment_lifecycle">
+  &lt;title>Deployment Environment Lifecycle&lt;/title>
+  &lt;conbody>
+    &lt;p>The following workflow shows the deployment lifecycle.&lt;/p>
+    &lt;ol>
+      &lt;li>
+        Development Environment
+        &lt;table>
+          &lt;title>Environment responsibilities&lt;/title>
+          &lt;tgroup cols="2">
+            &lt;colspec colname="c1"/>
+            &lt;colspec colname="c2"/>
+            &lt;thead>
+              &lt;row>
+                &lt;entry>Environment&lt;/entry>
+                &lt;entry>Purpose&lt;/entry>
+              &lt;/row>
+            &lt;/thead>
+            &lt;tbody>
+              &lt;row>
+                &lt;entry>Development&lt;/entry>
+                &lt;entry>Feature implementation&lt;/entry>
+              &lt;/row>
+              &lt;row>
+                &lt;entry>Staging&lt;/entry>
+                &lt;entry>Pre-production validation&lt;/entry>
+              &lt;/row>
+            &lt;/tbody>
+          &lt;/tgroup>
+        &lt;/table>
+      &lt;/li>
+      &lt;li>Staging Environment&lt;/li>
+      &lt;li>Production Environment&lt;/li>
+    &lt;/ol>
+  &lt;/conbody>
+&lt;/concept></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b> The converter treats the inserted table as content inside the numbered workflow structure and the table is nested inside the preceding <codeph>&lt;li&gt;</codeph> and the list stays as a single, unsplit <codeph>&lt;ol&gt;</codeph>.</p>
+      </section>
+   </refbody>
+</reference>

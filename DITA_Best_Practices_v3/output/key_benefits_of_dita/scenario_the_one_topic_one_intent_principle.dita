@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705874" xml:lang="en-us">
+   <title>Scenario: the one topic = one intent principle</title>
+   <shortdesc>A cloud computing software company has documentation with overview, procedural, specifications, troubleshooting, and glossary content.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>topic</keyword>
+        <keyword>content</keyword>
+        <keyword>principle</keyword>
+        <keyword>cloud</keyword>
+        <keyword>Topic</keyword>
+        <keyword>What</keyword>
+        <indexterm>topic</indexterm>
+        <indexterm>content</indexterm>
+        <indexterm>principle</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><p>A cloud computing software company has documentation with overview, procedural, specifications, troubleshooting, and glossary content. This content needs to be separated based on the user need. This is achieved through the “One Topic = One Intent” principle.</p>
+<p>“One Topic = One Intent” means assigning each DITA topic is designed around a single user question or need and mapped to a specific topic type: concept, task, reference, troubleshooting, or glossary. This keeps content focused, reusable, and easy to assemble into different guides or outputs. The content can be separated as follows:</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>user needs and topic types</title>
+            <tgroup cols="3">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <thead>
+                  <row>
+                     <entry>User need</entry>
+                     <entry>Topic type</entry>
+                     <entry>Example</entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>What is this?</entry>
+                     <entry>Concept</entry>
+                     <entry>c_cloud_computing_overview.dita</entry>
+                  </row>
+                  <row>
+                     <entry>How do I do this?</entry>
+                     <entry>Task</entry>
+                     <entry>t_deploy_cloud_instance.dita</entry>
+                  </row>
+                  <row>
+                     <entry>What are the specifications?</entry>
+                     <entry>Reference</entry>
+                     <entry>r_instance_parameters.dita</entry>
+                  </row>
+                  <row>
+                     <entry>Why isn't this working?</entry>
+                     <entry>Troubleshooting</entry>
+                     <entry>ts_instance_deployment_fails.dita</entry>
+                  </row>
+                  <row>
+                     <entry>What does this term mean?</entry>
+                     <entry>Glossary</entry>
+                     <entry>g_api.dita</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table></section></refbody>
+</reference>

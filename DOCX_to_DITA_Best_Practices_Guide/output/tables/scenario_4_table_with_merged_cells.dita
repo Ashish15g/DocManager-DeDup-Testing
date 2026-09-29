@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_4_table_with_merged_cells" xml:lang="en-us">
+   <title>Scenario 4 — Table with merged cells</title>
+   <refbody>
+      <section id="sec_d737e7">
+         <p>Consider a table where cells are merged vertically across rows— for example, to create spanning headers or associate one value with several related rows.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Table with merged cells</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Caption]:</b> Server role mapping   <b>[Header Row]:</b> Server Group | Server Name | Status  <b>[Merged Cell]:</b> Production spans two rows in the first column  <b>[Row]:</b> Production | server-01 | Active  <b>[Row]:</b> (merged from above) | server-02 | Active  <b>[Row]:</b> Backup | server-03 | Standby</entry>
+                     <entry>
+                        <codeblock id="codeblock_jrb_x3t_kkc">
+&lt;reference id="server_role_mapping">
+  &lt;title>Server Role Mapping&lt;/title>
+  &lt;refbody>
+    &lt;table frame="all" rowsep="1" colsep="1" id="table_outer">
+      &lt;tgroup cols="2">
+        &lt;colspec colnum="1" colwidth="301" colname="col1"/>
+        &lt;colspec colnum="2" colwidth="301" colname="col2"/>
+        &lt;thead>
+          &lt;row>
+            &lt;entry>
+              &lt;b>Label&lt;/b>
+            &lt;/entry>
+            &lt;entry>
+              &lt;b>Details&lt;/b>
+            &lt;/entry>
+          &lt;/row>
+        &lt;/thead>
+        &lt;tbody>
+          &lt;row>
+            &lt;entry>Label&lt;/entry>
+            &lt;entry>
+              &lt;table frame="all" rowsep="1" colsep="1" id="table_inner">
+                &lt;tgroup cols="2">
+                  &lt;colspec colnum="1" colwidth="143" colname="col1"/>
+                  &lt;colspec colnum="2" colwidth="143" colname="col2"/>
+                  &lt;tbody>
+                    &lt;row>
+                      &lt;entry>Sub-item A&lt;/entry>
+                      &lt;entry>Value 1&lt;/entry>
+                    &lt;/row>
+                    &lt;row>
+                      &lt;entry>Sub-item B&lt;/entry>
+                      &lt;entry>Value 2&lt;/entry>
+                    &lt;/row>
+                  &lt;/tbody>
+                &lt;/tgroup>
+              &lt;/table>
+            &lt;/entry>
+          &lt;/row>
+        &lt;/tbody>
+      &lt;/tgroup>
+    &lt;/table>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b>Merged-cell tables will be converted to a CALS <codeph>&lt;table&gt;</codeph> when the merge affects the meaning or structure of the data.</p>
+         <note type="warning">Complex merged-cell structures, such as spanning headers, grouped
+            values, nested relationships, or irregular row layouts, may not always be preserved
+            correctly. Always verify merged-cell tables after conversion.</note>
+      </section>
+   </refbody>
+</reference>

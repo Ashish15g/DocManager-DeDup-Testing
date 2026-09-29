@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_7_image_inside_a_table_cell" xml:lang="en-us">
+   <title>Scenario 7 — Image inside a table cell</title>
+   <refbody>  
+      <section>
+    <p>Consider a table where the author has inserted an inline image directly into a table cell — for example, a status icon or a screenshot thumbnail. The image must be set to In Line with Text wrapping.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Image inside a table cell</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>│ Status │ Icon                      │ Description    │ │ OK     │ [inline: ok_icon.png]     │ System running │ │ Error  │ [inline: err_icon.png]    │ Error detected │</entry>
+                     <entry>
+                        <codeblock id="codeblock_bdh_b3s_kkc">
+&lt;reference id="status_icon_descriptions">
+  &lt;title>Status Icon Descriptions&lt;/title>
+  &lt;refbody>
+    &lt;simpletable>
+      &lt;sthead>
+        &lt;stentry>Status&lt;/stentry>
+        &lt;stentry>Icon&lt;/stentry>
+        &lt;stentry>Description&lt;/stentry>
+      &lt;/sthead>
+      &lt;strow>
+        &lt;stentry>OK&lt;/stentry>
+        &lt;stentry>
+          &lt;image href="media/ok_icon.png" placement="inline"/>
+        &lt;/stentry>
+        &lt;stentry>System running.&lt;/stentry>
+      &lt;/strow>
+      &lt;strow>
+        &lt;stentry>Error&lt;/stentry>
+        &lt;stentry>
+          &lt;image href="media/err_icon.png" placement="inline"/>
+        &lt;/stentry>
+        &lt;stentry>Error detected.&lt;/stentry>
+      &lt;/strow>
+    &lt;/simpletable>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b>Inline images in table cells are extracted and mapped to <codeph>&lt;image placement="inline"/&gt;</codeph> inside the <codeph>&lt;stentry&gt;</codeph>. For more information on images, see <xref href="../images_and_graphics/images_and_graphics.dita" format="dita">Images and Graphics</xref>.</p>
+      </section>
+   </refbody>
+</reference>

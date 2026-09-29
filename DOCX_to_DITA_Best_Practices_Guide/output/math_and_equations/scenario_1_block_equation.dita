@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_1_block_equation" xml:lang="en-us">
+   <title>Scenario 1 — Block equation</title>
+   <shortdesc>Consider a math equation added after the normal paragraph.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>equation</keyword>
+        <keyword>Block</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>after</keyword>
+        <keyword>paragraph</keyword>
+        <keyword>DITA</keyword>
+        <indexterm>equation</indexterm>
+        <indexterm>Block</indexterm>
+        <indexterm>Scenario</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>Consider a math equation added after the normal paragraph.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Block equation after paragraph</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>[Normal]:</b> The transfer rate is:  <b>[Equation object: R = B/T]</b>
+                        <b>[Normal]:</b> where B is total bytes and T is elapsed time.</entry>
+                     <entry>
+                        <codeblock id="codeblock_rfh_tlr_kkc">
+&lt;p>The transfer rate is:&lt;/p>
+&lt;equation-block>
+  &lt;math xmlns="http://www.w3.org/1998/Math/MathML">
+    &lt;mrow>
+      &lt;mi>R&lt;/mi>
+      &lt;mo>=&lt;/mo>
+      &lt;mfrac>
+        &lt;mi>B&lt;/mi>
+        &lt;mi>T&lt;/mi>
+      &lt;/mfrac>
+    &lt;/mrow>
+  &lt;/math>
+&lt;/equation-block>
+&lt;p>
+  where B is total bytes and T is elapsed time.
+&lt;/p></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result</b>: The converter processes supported Word equation objects and converts them into MathML elements and places it within the <codeph>&lt;equation&gt;</codeph> element embedded within the DITA topic.</p>
+   </section>
+   </refbody>
+</reference>

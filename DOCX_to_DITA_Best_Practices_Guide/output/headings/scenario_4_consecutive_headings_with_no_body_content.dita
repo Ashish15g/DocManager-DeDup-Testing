@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_4_consecutive_headings_with_no_body_content" xml:lang="en-us">
+   <title>Scenario 4 — Consecutive headings with no body content</title>
+   <shortdesc>Consider a document where multiple consecutive headings at any level contain no body content between</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>content</keyword>
+        <keyword>headings</keyword>
+        <keyword>Heading</keyword>
+        <keyword>topichead</keyword>
+        <keyword>Consecutive</keyword>
+        <keyword>Installation</keyword>
+        <indexterm>content</indexterm>
+        <indexterm>headings</indexterm>
+        <indexterm>Heading</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a document where multiple consecutive headings at any level contain no body content between them.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Consecutive headings with no body content</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Heading 1]: Installation [Heading 2]: Prerequisites [Heading 3]: System Requirements [Normal]: System requires 4 GB RAM. (No body under Heading 1 or Heading 2)</entry>
+                     <entry>
+                        <codeblock id="codeblock_awm_zyz_kkc">
+&lt;map id="m001_installation">
+  &lt;title>Installation&lt;/title>
+  &lt;topichead navtitle="Installation">
+    &lt;topichead navtitle="Prerequisites">
+      &lt;topicref href="t001_system_requirements.dita"/>
+    &lt;/topichead>
+  &lt;/topichead>
+&lt;/map></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b>Each heading without body content becomes a <codeph>&lt;topichead&gt;</codeph>. The first heading with body content becomes a real DITA topic referenced with <codeph>&lt;topicref&gt;</codeph>.</p><note type="note"> Add at least a short introductory paragraph under major headings when the heading
+            should become a real topic instead of a navigation-only
+               <codeph>&lt;topichead&gt;</codeph>.</note>
+  </section>
+   </refbody>
+</reference>

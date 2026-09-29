@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="scenario_3_paragraph_before_the_first_heading" xml:lang="en-us">
+   <title>Scenario 3 — Paragraph before the first heading</title>
+   <shortdesc>Consider a document where Normal paragraphs appear between the Title-styled paragraph and the first Heading</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>first</keyword>
+        <keyword>title</keyword>
+        <keyword>before</keyword>
+        <keyword>Normal</keyword>
+        <keyword>Title</keyword>
+        <keyword>DITA</keyword>
+        <indexterm>first</indexterm>
+        <indexterm>title</indexterm>
+        <indexterm>before</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+     <section>
+       <p>Consider a document where Normal paragraphs appear between the Title-styled paragraph and the first Heading 1 — for example, a version statement or an executive summary that appears after the document title.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Paragraph before first heading</title>
+  <tgroup cols="2">
+    <colspec colname="c1" colwidth="1*"/>
+    <colspec colname="c2" colwidth="1.31*"/>
+    <thead>
+      <row>
+        <entry>
+          <b>.docx Style / Input</b>
+        </entry>
+        <entry>
+          <b>DITA Output</b>
+        </entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>[Title]: Cloud Platform Guide [Normal]: Version 3.2 | April 2025 [Normal]: This
+          guide covers installation, configuration, and administration. [Heading 1]:
+          Installation</entry>
+        <entry>
+                <codeblock id="codeblock_lmx_zvw_jkc">
+&lt;map>...&lt;/map>
+&lt;topicref href="cloud_platform_guide.dita"/>
+&lt;topic id="cloud_platform_guide">
+  &lt;title>Cloud Platform Guide&lt;/title>
+  &lt;body>
+    &lt;p>Version 3.2 | April 2025&lt;/p>
+    &lt;p>This guide covers installation, configuration, and administration.&lt;/p>
+  &lt;/body>
+&lt;/topic>
+&lt;topicref href="installation.dita"/></codeblock>
+              </entry>
+      </row>
+    </tbody>
+  </tgroup>
+         </table>
+<p> <b>Result:</b>Paragraphs placed between the Title and the first Heading 1 are treated as body content belonging to the title. The converter creates a DITA topic file using the document title as the topic title and places all paragraphs inside its <codeph>&lt;body&gt;</codeph> as <codeph>&lt;p&gt;</codeph> elements.</p>
+
+ <note type="warning"> Do not place important Normal paragraphs before the <b>Title</b> style. Pre-title content such as version numbers, draft status, confidentiality notices, or disclaimers may be excluded from the DITA output. If this content must appear in the converted DITA, apply a registered structural style, such as <b>Disclaimer</b>, <b>Copyright</b>, <b>Notice</b>, or another converter-supported style.</note>
+       </section>
+   </refbody>
+</reference>

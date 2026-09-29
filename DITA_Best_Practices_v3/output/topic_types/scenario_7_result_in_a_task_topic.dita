@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705939" xml:lang="en-us">
+   <title>Scenario 7: result in a task topic</title>
+   <shortdesc>Consider a "Deploy Web App" chapter in a "Release Operations Guide" document where you want</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>artifact</keyword>
+        <keyword>result</keyword>
+        <keyword>staging</keyword>
+        <keyword>topic</keyword>
+        <keyword>Deploy</keyword>
+        <keyword>Scenario</keyword>
+        <indexterm>artifact</indexterm>
+        <indexterm>result</indexterm>
+        <indexterm>staging</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>  <section>
+    <p>Consider a "Deploy Web App" chapter in a "Release Operations Guide" document where you want to correctly place the result in the task topic.</p>
+      <codeblock id="codeblock_ux1_mqs_kkc">&lt;task id="deploy-webapp" title="Deploy Web Application to Staging"&gt;
+&lt;shortdesc&gt;
+Deploy the web application to the staging environment for QA testing.
+&lt;/shortdesc&gt;
+&lt;prereq&gt;
+&lt;p&gt;
+Build artifact is available in the artifact repository and environment variables are configured.
+&lt;/p&gt;
+&lt;/prereq&gt;
+&lt;steps&gt;
+&lt;step id="step-1"&gt;
+&lt;cmd&gt;
+Download the build artifact from the artifact repository.
+&lt;/cmd&gt;
+&lt;stepresult&gt;
+&lt;p&gt;
+Artifact &lt;ph&gt;webapp-2.1.0.zip&lt;/ph&gt; is downloaded to the local
+workspace.
+&lt;/p&gt;
+&lt;/stepresult&gt;
+&lt;/step&gt;
+&lt;step id="step-2"&gt;
+&lt;cmd&gt;
+Unzip the artifact and run the deployment script:
+&lt;codeph&gt;./deploy.sh staging&lt;/codeph&gt;.
+&lt;/cmd&gt;
+&lt;stepresult&gt;
+&lt;p&gt;Deployment script completes without errors.&lt;/p&gt;
+&lt;/stepresult&gt;
+&lt;/step&gt;
+&lt;/steps&gt;
+&lt;result&gt;
+&lt;p&gt;
+The web application is accessible at &lt;xref href=https://staging.example.com format="html" scope="external"&gt; https://staging.example.com&lt;/xref&gt; and health checks return 200 OK.
+&lt;/p&gt;
+&lt;/result&gt;
+&lt;/task&gt;</codeblock><p>
+         <b>Result:</b> Put the outcome, verification steps, and what success looks like in the <codeph>&lt;result&gt;</codeph> element so users and automation can quickly confirm completion.</p>
+  </section></refbody>
+</reference>

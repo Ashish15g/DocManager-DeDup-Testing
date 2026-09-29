@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc235450410" xml:lang="en-us">
+   <title>Scenario 4 — Table with merged cells</title>
+   <refbody>
+      <section id="sec_d749e7">
+         <p>Consider a table where cells are merged vertically across rows using the <codeph>rowspan</codeph> attribute — for example, to associate one server group value with several related rows.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Table with merged cells</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock id="codeblock_qtr_vzn_lkc">
+&lt;table>
+  &lt;caption>Server Role Mapping&lt;/caption>
+  &lt;tr>
+    &lt;th>Server Group&lt;/th>
+    &lt;th>Server Name&lt;/th>
+    &lt;th>Status&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td rowspan="2">Production&lt;/td>
+    &lt;td>server-01&lt;/td>
+    &lt;td>Active&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>server-02&lt;/td>
+    &lt;td>Active&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Backup&lt;/td>
+    &lt;td>server-03&lt;/td>
+    &lt;td>Standby&lt;/td>
+  &lt;/tr>
+&lt;/table></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock id="codeblock_efc_wzn_lkc">
+&lt;reference id="server_role_mapping">
+  &lt;title>Server Role Mapping&lt;/title>
+  &lt;refbody>
+    &lt;table>
+      &lt;title>Server Role Mapping&lt;/title>
+      &lt;tgroup cols="3">
+        &lt;colspec colname="c1"/>
+        &lt;colspec colname="c2"/>
+        &lt;colspec colname="c3"/>
+        &lt;thead>
+          &lt;row>
+            &lt;entry>Server Group&lt;/entry>
+            &lt;entry>Server Name&lt;/entry>
+            &lt;entry>Status&lt;/entry>
+          &lt;/row>
+        &lt;/thead>
+        &lt;tbody>
+          &lt;row>
+            &lt;entry morerows="1">Production&lt;/entry>
+            &lt;entry>server-01&lt;/entry>
+            &lt;entry>Active&lt;/entry>
+          &lt;/row>
+          &lt;row>
+            &lt;entry>server-02&lt;/entry>
+            &lt;entry>Active&lt;/entry>
+          &lt;/row>
+          &lt;row>
+            &lt;entry>Backup&lt;/entry>
+            &lt;entry>server-03&lt;/entry>
+            &lt;entry>Standby&lt;/entry>
+          &lt;/row>
+        &lt;/tbody>
+      &lt;/tgroup>
+    &lt;/table>
+  &lt;/refbody>
+&lt;/reference></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p><b>Result:</b>The rowspan=\"2\" maps to morerows=\"1\" on the DITA <codeph>&lt;entry&gt;</codeph> element. Merged cells always produce CALS <codeph>&lt;table&gt;</codeph> + <codeph>&lt;tgroup&gt;</codeph> output.</p>
+         <note type="warning"> Merged-cell structures with spanning headers, grouped values, or irregular layouts require manual review after conversion. Verify that the generated DITA table accurately reflects the source structure.</note>
+      </section>
+   </refbody>
+</reference>

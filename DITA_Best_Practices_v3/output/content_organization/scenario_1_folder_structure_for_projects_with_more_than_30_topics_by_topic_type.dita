@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="scenario_1_folder_structure_for_projects_with_more_than_30_topics_by_topic_type" xml:lang="en-us">
+   <title>Scenario 1: folder structure for projects with more than 30 topics by topic type</title>
+   <shortdesc>/project-root bookmap.ditamap user-guide.ditamap /concepts c_overview.dita &lt;!-- Concept --&gt; c_architecture.dita &lt;!-- Concept --&gt; c_system_requirements.dita &lt;!-- Concept</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Concept</keyword>
+        <keyword>Task</keyword>
+        <keyword>Reference</keyword>
+        <keyword>Topic</keyword>
+        <keyword>Scenario</keyword>
+        <keyword>folder</keyword>
+        <indexterm>Concept</indexterm>
+        <indexterm>Task</indexterm>
+        <indexterm>Reference</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section>
+      <codeblock>/project-root
+bookmap.ditamap
+user-guide.ditamap
+/concepts
+c_overview.dita              &lt;!-- Concept --&gt;
+c_architecture.dita              &lt;!-- Concept --&gt;
+c_system_requirements.dita              &lt;!-- Concept --&gt;
+/tasks
+t_installation.dita              &lt;!-- Task --&gt;
+t_configuration.dita              &lt;!-- Task --&gt;
+t_adding_users.dita              &lt;!-- Task --&gt;
+/references
+r_api_parameters.dita            &lt;!-- Reference --&gt;
+r_config_options.dita            &lt;!-- Reference --&gt;
+r_appendix.dita            &lt;!-- Reference --&gt;
+/troubleshooting
+ts_installation_errors.dita        &lt;!-- Troubleshooting --&gt;
+ts_connection_issues.dita        &lt;!-- Troubleshooting --&gt;
+/global
+reusable_notes.dita        &lt;!-- Topic --&gt;
+common_warnings.dita        &lt;!-- Topic --&gt;
+shared_procedures.dita        &lt;!-- Topic --&gt;
+/media
+screenshot_login.png
+diagram_architecture.png
+workflow.svg</codeblock>
+   </section></refbody>
+</reference>

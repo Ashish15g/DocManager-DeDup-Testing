@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705983" xml:lang="en-us">
+   <title>Metadata elements</title>
+   <shortdesc>common metadata elements Element Purpose Example &lt;author&gt; Content creator/owner John Smith &lt;critdates&gt; Critical lifecycle dates</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>elements</keyword>
+        <keyword>audience</keyword>
+        <keyword>version</keyword>
+        <keyword>Metadata</keyword>
+        <keyword>metadata</keyword>
+        <keyword>Content</keyword>
+        <indexterm>elements</indexterm>
+        <indexterm>audience</indexterm>
+        <indexterm>version</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody><section><table frame="all" colsep="1" rowsep="1">
+            <title>common metadata elements</title>
+            <tgroup cols="3">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <thead>
+                  <row>
+                     <entry>Element</entry>
+                     <entry>Purpose</entry>
+                     <entry>Example</entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;author&gt;</codeblock>
+                     </entry>
+                     <entry>Content creator/owner</entry>
+                     <entry>
+                        <codeblock>
+                           &lt;author&gt;John Smith&lt;/author&gt;
+                        </codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;critdates&gt;</codeblock>
+                     </entry>
+                     <entry>Critical lifecycle dates such as when topic was created and modified</entry>
+                     <entry>
+                        <codeblock>
+                           &lt;critdates&gt; 
+                           &lt;created date="2025-01-15"/&gt; 
+                           &lt;revised modified="2025-03-22"/&gt; 
+                           &lt;/critdates&gt;
+                        </codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;metadata&gt;</codeblock>
+                     </entry>
+                     <entry>Container for descriptive information</entry>
+                     <entry>Contains <codeph>&lt;audience&gt;</codeph>, <codeph>&lt;keywords&gt;</codeph>, and other such elements</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;audience&gt;</codeblock>
+                     </entry>
+                     <entry>Intended user group</entry>
+                     <entry>
+                        <codeblock>&lt;audience type="admin"/&gt;</codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;category&gt;</codeblock>
+                     </entry>
+                     <entry>Content classification</entry>
+                     <entry>
+                        <codeblock>
+                           &lt;category&gt;Installation&lt;/category&gt;
+                        </codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;keywords&gt;</codeblock>
+                     </entry>
+                     <entry>Container for search terms</entry>
+                     <entry>Contains <codeph>&lt;keyword&gt;</codeph> elements</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;keyword&gt;</codeblock>
+                     </entry>
+                     <entry>Individual search term</entry>
+                     <entry>
+                        <codeblock>
+                           &lt;keyword&gt;setup&lt;/keyword&gt;
+                        </codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;indexterm&gt;</codeblock>
+                     </entry>
+                     <entry>Index entry</entry>
+                     <entry>
+                        <codeblock>
+                           &lt;indexterm&gt;configuration&lt;/indexterm&gt;
+                        </codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;prodinfo&gt;</codeblock>
+                     </entry>
+                     <entry>Product information such as product name, version, audience, version/release/modification list, and platform.</entry>
+                     <entry>
+                        <codeblock>
+                           &lt;prodinfo&gt; 
+                           &lt;prodname&gt;Application Server&lt;/prodname&gt;
+                           &lt;prodversion&gt;Version 5.2&lt;/prodversion&gt;
+                           &lt;aud&gt;Administrator&lt;/aud&gt; 
+                           &lt;vrmlist&gt; &lt;vrm version="5" release="2" modification="1"/&gt; &lt;/vrmlist&gt; 
+                           &lt;platform&gt;Ubuntu 20.04&lt;/platform&gt; 
+                           &lt;/prodinfo&gt;
+                        </codeblock>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>&lt;othermeta&gt;</codeblock>
+                     </entry>
+                     <entry>Custom name/value pairs</entry>
+                     <entry>
+                        <codeblock>&lt;othermeta name="status" content="draft"/&gt;</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table></section></refbody>
+</reference>

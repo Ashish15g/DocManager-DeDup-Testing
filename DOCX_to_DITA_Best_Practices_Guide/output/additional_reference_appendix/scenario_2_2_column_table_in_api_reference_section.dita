@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headingh8yum4vb8u93y" xml:lang="en-us">
+   <title>Scenario 2 — 2-Column Table in API Reference Section</title>
+   <refbody>
+      <section id="sec_d71e7">
+         <p>A section titled "POST /api/print-job" documents a REST API endpoint. The topic is classified as reference because the heading contains the keyword API and the body contains a parameter table.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Two-column table, API reference</title>
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="1*"/>
+               <colspec colname="c2" colwidth="1.4*"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>.docx Style / Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>[Heading 2]: POST /api/print-job [Normal]: Submits a new print job to
+                        the queue. [Table — 2 col, API reference topic]: Field | Description
+                        ──────────────────── document_id | ID of document to print. copies | Number
+                        of copies (def: 1). paper_size | Target size (A4/Letter). colour_mode |
+                        colour or monochrome.</entry>
+                     <entry>
+                        <codeblock id="codeblock_brg_chr_kkc">
+&lt;reference id="post_api_print_job">
+  &lt;title>POST /api/print-job&lt;/title>
+  &lt;shortdesc>Submits a new print job to the
+    queue.&lt;/shortdesc>
+  &lt;refbody>
+    &lt;properties>
+      &lt;prophead>
+        &lt;proptypehd>Field&lt;/proptypehd>
+        &lt;propvaluehd>Description&lt;/propvaluehd>
+      &lt;/prophead>
+      &lt;property>
+        &lt;proptype>document_id&lt;/proptype>
+        &lt;propvalue>ID of document to print.
+        &lt;/propvalue>
+      &lt;/property>
+      ...
+    &lt;/properties>
+  &lt;/refbody>
+&lt;/reference>
+&lt;!-- Same 2-col table in a concept topic: -->
+&lt;!-- &lt;simpletable> not &lt;properties>      --></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b>The 2-column table maps to <codeph>&lt;properties&gt;</codeph> because the topic is classified as API reference. The same table in a concept topic would produce <codeph>&lt;simpletable&gt;</codeph>. For the 2-column table in API reference construct rule, see: <xref href="../tables/tables.dita" format="dita">Tables › Scenario 10 — 2-column table in API Reference Section</xref>.</p>
+         <p>
+            <b>Reference Table Routing Summary</b>
+         </p>
+         <p>The table below summarises which DITA element is produced for each combination of table type and topic classification.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Reference table table type and topic classification</title>
+            <tgroup cols="3">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>Table structure in .docx</b>
+                     </entry>
+                     <entry>
+                        <b>Topic type</b>
+                     </entry>
+                     <entry>
+                        <b>DITA output element</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>Any table with Caption-styled paragraph above it</entry>
+                     <entry>Any</entry>
+                     <entry>CALS <codeph>&lt;table&gt;</codeph> + <codeph>&lt;tgroup&gt;</codeph>; Caption → <codeph>&lt;title&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Any table with merged cells or spanning rows/cols</entry>
+                     <entry>Any</entry>
+                     <entry>CALS <codeph>&lt;table&gt;</codeph> + <codeph>&lt;tgroup&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>2-column table, no caption, no merge</entry>
+                     <entry>Reference (API keyword context)</entry>
+                     <entry>
+                        <codeph>&lt;properties&gt;</codeph> with <codeph>&lt;proptype&gt;</codeph>/<codeph>&lt;propvalue&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>2-column table, no caption, no merge</entry>
+                     <entry>Concept / Task / Generic</entry>
+                     <entry>
+                        <codeph>&lt;simpletable&gt;</codeph> with <codeph>&lt;sthead&gt;</codeph>/<codeph>&lt;strow&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Multi-column table, no caption, no merge</entry>
+                     <entry>Any</entry>
+                     <entry>
+                        <codeph>&lt;simpletable&gt;</codeph> with <codeph>&lt;sthead&gt;</codeph>/<codeph>&lt;strow&gt;</codeph>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Non-table prose before a table</entry>
+                     <entry>Reference</entry>
+                     <entry>Prose in <codeph>&lt;section&gt;</codeph>; table follows separately</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </refbody>
+</reference>

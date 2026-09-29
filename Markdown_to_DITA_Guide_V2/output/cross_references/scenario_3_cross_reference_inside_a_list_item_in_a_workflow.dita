@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc238560406" xml:lang="en-us">
+   <title>Scenario 3: Cross reference inside a list item in a workflow</title>
+   <refbody>
+      <section id="sec_d347e7">
+         <p>Consider a list of related topics where each item contains a link.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Cross reference is inside a list item (workflow)</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry> .md input </entry>
+                     <entry> DITA output </entry>
+                  </row>                  
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>#Alarm
+  - [Alarm Notifier](alarm-notifier.md)
+  - [Alarm Types](alarm-types.md)
+  - [Alarm Management](alarm-management.md)</codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>&lt;concept id="alarm"&gt;
+                           &lt;title&gt;Alarm&lt;/title&gt;
+                           &lt;conbody&gt;
+                           &lt;ul&gt;
+                           &lt;li&gt;
+                           &lt;xref href="alarm-notifier.dita"&gt;
+                           Alarm Notifier
+                           &lt;/xref&gt;
+                           &lt;/li&gt;
+                           &lt;li&gt;
+                           &lt;xref href="alarm-types.dita"&gt;
+                           Alarm Types
+                           &lt;/xref&gt;
+                           &lt;/li&gt;
+                           &lt;li&gt;
+                           &lt;xref href="alarm-management.dita"&gt;
+                           Alarm Management
+                           &lt;/xref&gt;
+                           &lt;/li&gt;
+                           &lt;/ul&gt;
+                           &lt;/conbody&gt;
+                           &lt;/concept&gt;
+                        </codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>
+            <b>Result:</b>The converter preserves the list structure while converting each Markdown link into a DITA cross-reference.</p>
+      </section>
+   </refbody>
+</reference>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="_Toc235705957" xml:lang="en-us">
+   <title>Scenario 8: checklists in a reference topic</title>
+   <refbody><section>
+      <p>Consider a "Pre-Startup Inspection Checklist" chapter in a "Pump Station Maintenance Reference Guide" document where operators need a quick lookup list of items that must be verified before starting an industrial pumping system. Since the information serves as a reference that users consult repeatedly, document it in a reference topic using a simple list.</p>
+      <codeblock>&lt;reference id="pump-startup-checklist"&gt;
+         &lt;title&gt;Pre-Startup Inspection Checklist&lt;/title&gt;
+         &lt;shortdesc&gt;
+         Verify the following items before starting the pumping system.
+         &lt;/shortdesc&gt;
+         &lt;refbody&gt;
+         &lt;section&gt;
+         &lt;title&gt;Startup Readiness Checklist&lt;/title&gt;
+         
+         &lt;ul&gt;
+         &lt;li&gt;
+         Suction and discharge valves are in the correct
+         operating position.
+         &lt;/li&gt;
+         &lt;li&gt;
+         Oil levels in the pump bearings are within the
+         recommended range.
+         &lt;/li&gt;
+         &lt;li&gt;
+         Electrical connections and grounding cables are secure.
+         &lt;/li&gt;
+         &lt;li&gt;
+         Pressure gauges and flow indicators are functioning
+         correctly.
+         &lt;/li&gt;
+         &lt;li&gt;
+         Safety guards and protective covers are installed and
+         undamaged.
+         &lt;/li&gt;
+         &lt;li&gt;
+         The work area is free of obstructions, spills, and
+         safety hazards.
+         &lt;/li&gt;
+         &lt;/ul&gt;
+         &lt;/section&gt;
+         &lt;/refbody&gt;
+         &lt;/reference&gt;
+      </codeblock>
+      <p>
+         <b>Result:</b> Use unordered lists (<codeph>&lt;ul&gt;</codeph>) for checklists in reference topics because the information is intended for lookup and verification rather than procedural execution. Avoid turning checklists into task topics when no sequence of actions exists.</p>
+   </section></refbody>
+</reference>

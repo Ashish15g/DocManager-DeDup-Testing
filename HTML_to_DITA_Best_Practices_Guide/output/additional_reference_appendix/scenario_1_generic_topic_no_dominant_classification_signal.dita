@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_headinghem4752qtfk5x" xml:lang="en-us">
+   <title>Scenario 1 — Generic Topic - No Dominant Classification Signal</title>
+   <shortdesc>A section titled "What's New in Version 4.2" has an introductory sentence and a bullet</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Version</keyword>
+        <keyword>topic</keyword>
+        <keyword>Generic</keyword>
+        <keyword>What</keyword>
+        <keyword>introduces</keyword>
+        <keyword>following</keyword>
+        <indexterm>Version</indexterm>
+        <indexterm>topic</indexterm>
+        <indexterm>Generic</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section>
+      <p>A section titled "What's New in Version 4.2" has an introductory sentence and a bullet list of features. The heading contains no classification keyword, and the body does not contain any numbered list or table.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Generic topic, no clear signal</title>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <b>HTML Input</b>
+                     </entry>
+                     <entry>
+                        <b>DITA Output</b>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <codeblock>
+&lt;h2 id="whats-new-v4-2">What's new in version 4.2&lt;/h2>
+&lt;p>Version 4.2 introduces the following improvements.&lt;/p>
+&lt;ul>
+  &lt;li>Faster print spooling.&lt;/li>
+  &lt;li>Improved Wi-Fi reconnect logic.&lt;/li>
+  &lt;li>Reduced energy use in standby.&lt;/li>
+&lt;/ul></codeblock>
+                     </entry>
+                     <entry>
+                        <codeblock>
+&lt;topic id="whats_new_in_version_4_2">
+  &lt;title>What's New in Version 4.2&lt;/title>
+  &lt;shortdesc>Version 4.2 introduces the following improvements.&lt;/shortdesc>
+  &lt;body>
+    &lt;p>Version 4.2 introduces the following improvements.&lt;/p>
+    &lt;ul>
+      &lt;li>Faster print spooling.&lt;/li>
+      &lt;li>Improved Wi-Fi reconnect logic.&lt;/li>
+      &lt;li>Reduced energy use in standby.&lt;/li>
+    &lt;/ul>
+  &lt;/body>
+&lt;/topic></codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p><b>Result:</b> No classification signal is strong enough, so the topic becomes generic <codeph>&lt;topic&gt;</codeph> with plain <codeph>&lt;body&gt;</codeph>.</p>
+         </section>
+   </refbody>
+</reference>

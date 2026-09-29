@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="paragraphs" xml:lang="en-us">
+   <title>Paragraphs</title>
+  <abstract>This section covers the Paragraph style in DOCX— its role as the primary carrier of
+    explanatory, introductory, and transitional prose in any technical document — and four
+    scenarios: a paragraph in a concept topic, a paragraph containing mixed inline character styles,
+    a paragraph placed before the first heading, and a code paragraph. The converter maps each
+    paragraph to a <codeph>&lt;p&gt;</codeph> element inside the classified topic body, extracts the
+      <codeph>&lt;shortdesc&gt;</codeph> based on the paragraph context, and maps recognized inline
+    character styles to their corresponding DITA inline elements.</abstract>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>paragraph</keyword>
+        <keyword>topic</keyword>
+        <keyword>content</keyword>
+        <keyword>element</keyword>
+        <keyword>prose</keyword>
+        <keyword>technical</keyword>
+        <indexterm>paragraph</indexterm>
+        <indexterm>topic</indexterm>
+        <indexterm>content</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>
+         <b>Paragraphs</b>are the fundamental unit of prose communication in any technical publication. They carry three types of content as described below:</p>
+      <ul id="ul_07233404">
+         <li>Explanatory content that defines concepts and terms</li>
+         <li>Introductory content that sets the context for the structured elements that follow such as list, workflows, tables, procedures, and images</li>
+         <li>Transitional content that connects sections and chapters through the document's logic</li>
+      </ul>
+      <p>This prose content is essential not only for readability but for building complete technical context, search discoverability and structural completeness.</p>
+      <note type="tip">A topic consisting only of a list or a table, with no surrounding prose, is a
+      valid but an incomplete piece of technical communication. It is recommended to add the context
+      to such structured elements.</note>
+      <p>In a .docx file, Normal and Body Text paragraphs appear between headings, list items, tables, and images. The converter maps each Normal or Body Text paragraph to a <codeph>&lt;p&gt;</codeph> element inside the classified topic body and evaluates the first paragraph in a section as a <codeph>&lt;shortdesc&gt;</codeph> candidate when it forms one complete sentence. Empty paragraphs used for spacing are removed during conversion and produce no <codeph>&lt;p&gt;</codeph> element. Use paragraph spacing settings instead of blank paragraphs to control whitespace.</p>
+      <p>The converter identifies Normal and Body Text paragraphs by their style name in the document and maps each one to a <codeph>&lt;p&gt;</codeph> element inside the classified DITA topic body — <codeph>&lt;conbody&gt;</codeph>, <codeph>&lt;taskbody&gt;</codeph>, or <codeph>&lt;refbody&gt;</codeph> — preserving paragraph order and the inline character formatting of every run within it.</p>
+      <p>The converter evaluates the <codeph>&lt;p&gt;</codeph> tag content to add <codeph>&lt;abstract&gt;</codeph>, <codeph>&lt;shortdesc&gt;</codeph>, <codeph>&lt;prolog&gt;</codeph>, and <codeph>&lt;metadata&gt;</codeph> for the generated DITA topic.  They are placed after <codeph>&lt;title&gt;</codeph> and before the body element. It propagates to search and AI discoverability or retrieval, and relationship table summaries in the published output.</p>
+      <p>The equivalent of each paragraph style from the .docx file in the DITA conversion process is explained according to the scenarios in the following table:</p>
+   </conbody>
+</concept>
