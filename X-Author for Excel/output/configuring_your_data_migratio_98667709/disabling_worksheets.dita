@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="disabling_worksheets_80dafb" xml:lang="en-us">
+   <title>Disabling Worksheets</title>
+     <shortdesc>By default, each object you add to your Data Migration app representing a Query or</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>worksheet</keyword>
+        <keyword>Data</keyword>
+        <keyword>Migration</keyword>
+        <keyword>Wizard</keyword>
+        <keyword>object</keyword>
+        <keyword>migration</keyword>
+        <indexterm>worksheet</indexterm>
+        <indexterm>Data</indexterm>
+        <indexterm>Migration</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>By default, each object you add to your Data Migration app representing a Query or Search &amp; Select action creates a separate worksheet to retrieve data for migration. You can choose to disable creation of a worksheet for specific objects defined in the app. To disable the worksheet for an object, click the corresponding check box under the <b>Display</b> column. After you create the app, the resulting workbook will not create a worksheet for the disabled objects. Any queries for those objects will still execute–the output from those queries can still be used as input for other actions in the migration).</p><p>In the below example, the "Sub Bundle Products" object query retrieves data that is then used by the "Product Option Component" query to retrieve records for migration and populated in the <i>Product_Option_Component</i> worksheet. Because "Sub Bundle Products" is only used as input for another query, a worksheet is not required for that data. </p><fig>
+         <title>98667971</title>
+         <image href="../attachments/98667709/98667971.png" width="1187" height="654" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig><p>For step-by-step instructions on creating a Data Migration Wizard, refer to <xref href="../using_the_data_migration_wizar_98667704/using_the_data_migration_wizard.dita">Using the Data Migration Wizard</xref> in the X-Author for Excel Designer and Runtime guide.</p><p>
+         <b>Next: </b>
+         <xref href="../finalizing_your_data_migration_98667707/finalizing_your_data_migration_app.dita">Finalizing your app</xref>.</p>
+  </context></taskbody>
+</task>

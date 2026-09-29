@@ -1,0 +1,55 @@
+================================================================================
+ metR HTML DocMigrate — TRANSFORMATION REPORT
+================================================================================
+ Source File           : X-Author for Chatter FBR.zip
+ Started               : 2026-08-20 06:49:22 UTC
+================================================================================
+
+2026-08-20T06:49:22 [INFO] STEP 3: HTML → DITA conversion. 6 files to process.
+2026-08-20T06:49:22 [INFO] Pass 1: ID discovery & deduplication
+2026-08-20T06:49:22 [INFO] ID Registry built: 6 files, 72 total IDs, 0 duplicates found
+2026-08-20T06:49:22 [INFO] ID registry built: 72 IDs across 6 files, 0 duplicates resolved
+2026-08-20T06:49:22 [INFO] Pass 2: Converting 6 files with ID tracking
+2026-08-20T06:49:22 [INFO] Topic classifier: task/reference/concept/topic detection active
+2026-08-20T06:49:22 [INFO] Converting: 109962850.html
+2026-08-20T06:49:22 [INFO] Converted '109962850.html' → map='109962850.ditamap' folder='109962850/' 3 topics, 0 tasks
+2026-08-20T06:49:22 [INFO] ✓ 109962850.html → 3 topics, 0 tasks
+2026-08-20T06:49:22 [INFO] Converting: 109962860.html
+2026-08-20T06:49:22 [INFO] Converted '109962860.html' → map='109962860.ditamap' folder='109962860/' 3 topics, 0 tasks
+2026-08-20T06:49:22 [INFO] ✓ 109962860.html → 3 topics, 0 tasks
+2026-08-20T06:49:22 [INFO] Converting: apttus_copyright_disclaimer_109962852.html
+2026-08-20T06:49:22 [INFO] Converted 'apttus_copyright_disclaimer_109962852.html' → map='apttus_copyright_disclaimer_109962852.ditamap' folder='apttus_copyright_disclaimer_109962852/' 1 topics, 0 tasks
+2026-08-20T06:49:22 [INFO] ✓ apttus_copyright_disclaimer_109962852.html → 1 topics, 0 tasks
+2026-08-20T06:49:22 [INFO] Converting: features_list_109962851.html
+2026-08-20T06:49:22 [INFO] Converted 'features_list_109962851.html' → map='features_list_109962851.ditamap' folder='features_list_109962851/' 1 topics, 0 tasks
+2026-08-20T06:49:22 [INFO] ✓ features_list_109962851.html → 1 topics, 0 tasks
+2026-08-20T06:49:22 [INFO] Converting: x_author_for_chatter_on_salesforce_features_by_release_109962849.html
+2026-08-20T06:49:22 [INFO] Converted 'x_author_for_chatter_on_salesforce_features_by_release_109962849.html' → map='x_author_for_chatter_on_salesf_109962849.ditamap' folder='x_author_for_chatter_on_salesf_109962849/' 2 topics, 0 tasks
+2026-08-20T06:49:22 [INFO] ✓ x_author_for_chatter_on_salesforce_features_by_release_109962849.html → 2 topics, 0 tasks
+2026-08-20T06:49:22 [INFO] Converting: index.html
+2026-08-20T06:49:22 [INFO] Converted 'index.html' → map='index.ditamap' folder='index/' 1 topics, 0 tasks
+2026-08-20T06:49:22 [INFO] ✓ index.html → 1 topics, 0 tasks
+2026-08-20T06:49:22 [INFO] index.html found — attempting hierarchical ditamap
+2026-08-20T06:49:22 [INFO] [HIERARCHY] analyze_and_generate_hierarchy called
+2026-08-20T06:49:22 [INFO] [HIERARCHY] Extracting hierarchy from index.html...
+2026-08-20T06:49:22 [INFO] [HIERARCHY] Extracted 1 top-level items
+2026-08-20T06:49:22 [INFO] [HIERARCHY] Detailed analysis saved: hierarchy_detailed.json
+2026-08-20T06:49:22 [INFO] [HIERARCHY] Analysis saved: hierarchy_analysis.json
+2026-08-20T06:49:22 [INFO] [HIERARCHY] Generated: x_author_for_chatter_fbr.ditamap — 5 topics, max depth 2, 5 IDs, 0 collisions resolved
+2026-08-20T06:49:22 [INFO] Hierarchical ditamap written: x_author_for_chatter_fbr.ditamap — 5 topics, max depth 2
+2026-08-20T06:49:22 [INFO] Media copied: 1 files
+2026-08-20T06:49:22 [INFO] Running DITALinkValidator
+2026-08-20T06:49:22 [INFO] [LINK-VALIDATOR] 11 files scanned — 1 valid, 0 fixed, 0 broken
+2026-08-20T06:49:22 [INFO] Links: valid=1, fixed=0, broken=0
+
+--------------------------------------------------------------------------------
+ Transformation Summary
+================================================================================
+ Files Converted       : 6
+ Topics Generated      : 11
+ DITA Maps Generated   : 7
+ Completed             : 2026-08-20 06:49:22 UTC
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+Success: Content transformation completed successfully.
+================================================================================

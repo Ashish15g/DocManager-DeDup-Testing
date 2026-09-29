@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_macro_action_1f42fc" xml:lang="en-us">
+   <title>To create a Macro action</title>
+   <shortdesc>Terminate Action Flow conditionally check box</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>action</keyword>
+        <keyword>Macro</keyword>
+        <keyword>macro</keyword>
+        <keyword>Action</keyword>
+        <keyword>conditionally</keyword>
+        <keyword>check</keyword>
+        <indexterm>action</indexterm>
+        <indexterm>Macro</indexterm>
+        <indexterm>macro</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd> Click on the arrow beneath the Actions button and select <b>Macro</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In Action Name, type a value that describes which Macro will be executed.</cmd>
+         </step>
+         <step>
+            <cmd>From Macro Name, select an existing macro.</cmd>
+         </step>
+         <step>
+            <cmd>Select the <b>Terminate Action Flow conditionally</b> check box if you want to terminate the action flow conditionally. The table below describes the behavior of the check box.</cmd>
+            <info>
+               <table>
+                  <tgroup cols="3">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <colspec colname="c3"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Macro</p>
+                           </entry>
+                           <entry>
+                              <p>Terminate Action Flow conditionally check box</p>
+                           </entry>
+                           <entry>
+                              <p>Result</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>True</p>
+                           </entry>
+                           <entry>
+                              <p>Selected</p>
+                           </entry>
+                           <entry>
+                              <p>The action flow will be terminated.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>False</p>
+                           </entry>
+                           <entry>
+                              <p>Selected</p>
+                           </entry>
+                           <entry>
+                              <p>The action flow will continue.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+            <info>
+               <note type="note">
+                  <p>To ensure the smooth execution of the terminate action flow, write the macro code in the module file rather than the sheet event, as shown below.</p>
+                  <fig>
+                     <title>235408234</title>
+                     <image href="../attachments/98667679/235408234.png" width="1630" height="501" placement="break">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the <b>Disable excel events before macro execution</b> checkbox.</cmd>
+            <info>
+               <p>Enable or disable the Excel events in macro action depending on the value of the checkbox.</p>
+            </info>
+            <info>
+               <fig>
+                     <title>98668102</title>
+                     <image href="../attachments/98667679/98668102.png" placement="break" width="439" height="239">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+            <info>
+               <p>
+</p>
+            </info>
+         </step>
+      </steps>
+      <result>
+         <p>The following use case shows an example of this.</p>
+         <p>Use Case: Creating a Macro Action</p>
+         <p>Diana Designer wants her end-users to fill out certain information within an App before sending an update to her environment. To enforce this, she creates a macro that looks at certain criteria, such as making sure there are values in a few records. Example: Amount and Close Date fields. This macro generates a True or False output depending on if the logic in the macro is met. Next, she creates a Macro action and associates the macro with it. She sequences the Macro action before the Save action in an action flow. Diana created the Macro action to conditionally stop the Save action from executing. Now, when the end user performs tasks and if the criteria is not met at the time the Macro action executes, the macro action reads the TRUE output from the macro and then terminates the action flow. The Save action is not enabled.</p>
+      </result>
+   </taskbody>
+</task>

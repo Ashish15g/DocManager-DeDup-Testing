@@ -1,0 +1,61 @@
+================================================================================
+ metR HTML DocMigrate — TRANSFORMATION REPORT
+================================================================================
+ Source File           : X-Author for Chatter User Guide.zip
+ Started               : 2026-08-20 06:51:18 UTC
+================================================================================
+
+2026-08-20T06:51:18 [INFO] STEP 3: HTML → DITA conversion. 8 files to process.
+2026-08-20T06:51:18 [INFO] Pass 1: ID discovery & deduplication
+2026-08-20T06:51:18 [INFO] ID Registry built: 8 files, 94 total IDs, 0 duplicates found
+2026-08-20T06:51:18 [INFO] ID registry built: 94 IDs across 8 files, 0 duplicates resolved
+2026-08-20T06:51:18 [INFO] Pass 2: Converting 8 files with ID tracking
+2026-08-20T06:51:18 [INFO] Topic classifier: task/reference/concept/topic detection active
+2026-08-20T06:51:18 [INFO] Converting: collaborating_using_excel_40370455.html
+2026-08-20T06:51:18 [INFO] Converted 'collaborating_using_excel_40370455.html' → map='collaborating_using_excel_40370455.ditamap' folder='collaborating_using_excel_40370455/' 1 topics, 1 tasks
+2026-08-20T06:51:18 [INFO] ✓ collaborating_using_excel_40370455.html → 1 topics, 1 tasks
+2026-08-20T06:51:18 [INFO] Converting: collaborating_using_outlook_40370459.html
+2026-08-20T06:51:18 [INFO] Converted 'collaborating_using_outlook_40370459.html' → map='collaborating_using_outlook_40370459.ditamap' folder='collaborating_using_outlook_40370459/' 1 topics, 1 tasks
+2026-08-20T06:51:18 [INFO] ✓ collaborating_using_outlook_40370459.html → 1 topics, 1 tasks
+2026-08-20T06:51:18 [INFO] Converting: collaborating_using_powerpoint_40370457.html
+2026-08-20T06:51:18 [INFO] Converted 'collaborating_using_powerpoint_40370457.html' → map='collaborating_using_powerpoint_40370457.ditamap' folder='collaborating_using_powerpoint_40370457/' 1 topics, 1 tasks
+2026-08-20T06:51:18 [INFO] ✓ collaborating_using_powerpoint_40370457.html → 1 topics, 1 tasks
+2026-08-20T06:51:18 [INFO] Converting: collaborating_using_word_40370453.html
+2026-08-20T06:51:18 [INFO] Converted 'collaborating_using_word_40370453.html' → map='collaborating_using_word_40370453.ditamap' folder='collaborating_using_word_40370453/' 1 topics, 1 tasks
+2026-08-20T06:51:18 [INFO] ✓ collaborating_using_word_40370453.html → 1 topics, 1 tasks
+2026-08-20T06:51:19 [INFO] Converting: collaborating_using_x_author_chatter_40370451.html
+2026-08-20T06:51:19 [INFO] Converted 'collaborating_using_x_author_chatter_40370451.html' → map='collaborating_using_x_author_c_40370451.ditamap' folder='collaborating_using_x_author_c_40370451/' 4 topics, 0 tasks
+2026-08-20T06:51:19 [INFO] ✓ collaborating_using_x_author_chatter_40370451.html → 4 topics, 0 tasks
+2026-08-20T06:51:19 [INFO] Converting: connecting_to_x_author_chatter_online_40370449.html
+2026-08-20T06:51:19 [INFO] Converted 'connecting_to_x_author_chatter_online_40370449.html' → map='connecting_to_x_author_chatter_40370449.ditamap' folder='connecting_to_x_author_chatter_40370449/' 0 topics, 2 tasks
+2026-08-20T06:51:19 [INFO] ✓ connecting_to_x_author_chatter_online_40370449.html → 0 topics, 2 tasks
+2026-08-20T06:51:19 [INFO] Converting: x_author_chatter_online_june_2016_user_guide_40370424.html
+2026-08-20T06:51:19 [INFO] Converted 'x_author_chatter_online_june_2016_user_guide_40370424.html' → map='x_author_chatter_online_june_2_40370424.ditamap' folder='x_author_chatter_online_june_2_40370424/' 1 topics, 0 tasks
+2026-08-20T06:51:19 [INFO] ✓ x_author_chatter_online_june_2016_user_guide_40370424.html → 1 topics, 0 tasks
+2026-08-20T06:51:19 [INFO] Converting: index.html
+2026-08-20T06:51:19 [INFO] Converted 'index.html' → map='index.ditamap' folder='index/' 1 topics, 0 tasks
+2026-08-20T06:51:19 [INFO] ✓ index.html → 1 topics, 0 tasks
+2026-08-20T06:51:19 [INFO] index.html found — attempting hierarchical ditamap
+2026-08-20T06:51:19 [INFO] [HIERARCHY] analyze_and_generate_hierarchy called
+2026-08-20T06:51:19 [INFO] [HIERARCHY] Extracting hierarchy from index.html...
+2026-08-20T06:51:19 [INFO] [HIERARCHY] Extracted 1 top-level items
+2026-08-20T06:51:19 [INFO] [HIERARCHY] Detailed analysis saved: hierarchy_detailed.json
+2026-08-20T06:51:19 [INFO] [HIERARCHY] Analysis saved: hierarchy_analysis.json
+2026-08-20T06:51:19 [INFO] [HIERARCHY] Generated: x_author_for_chatter_user_guide.ditamap — 7 topics, max depth 3, 7 IDs, 0 collisions resolved
+2026-08-20T06:51:19 [INFO] Hierarchical ditamap written: x_author_for_chatter_user_guide.ditamap — 7 topics, max depth 3
+2026-08-20T06:51:19 [INFO] Media copied: 1 files
+2026-08-20T06:51:19 [INFO] Running DITALinkValidator
+2026-08-20T06:51:19 [INFO] [LINK-VALIDATOR] 16 files scanned — 2 valid, 4 fixed, 0 broken
+2026-08-20T06:51:19 [INFO] Links: valid=2, fixed=4, broken=0
+
+--------------------------------------------------------------------------------
+ Transformation Summary
+================================================================================
+ Files Converted       : 8
+ Topics Generated      : 16
+ DITA Maps Generated   : 9
+ Completed             : 2026-08-20 06:51:19 UTC
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+Success: Content transformation completed successfully.
+================================================================================

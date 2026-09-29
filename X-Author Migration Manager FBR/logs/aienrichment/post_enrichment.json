@@ -1,0 +1,478 @@
+{
+  "job_id": "e59fab4a-cc53-4622-a4bc-53c572fdc160",
+  "mode": "enrich-only",
+  "output_dir": "storage/e59fab4a-cc53-4622-a4bc-53c572fdc160/xslt_output",
+  "processed_at": "2026-08-20T07:00:06.107094+00:00",
+  "counts": {
+    "dita_files_total": 5,
+    "ditamap_files_total": 5,
+    "topics_reclassified": 2,
+    "issues_fixed_by_zone1": 5,
+    "issues_fixed_by_ai": 2,
+    "issues_remaining": 4,
+    "ai_obligations_missed": 0,
+    "new_issues_by_ai": 1,
+    "pending_suggestions": 10,
+    "alt_text_images_filled": 0,
+    "alt_text_images_skipped": 0,
+    "alt_text_images_scanned": 0
+  },
+  "quality_metrics": {
+    "element_validation_success_pct": 100,
+    "attribute_mapping_success_pct": 50,
+    "href_resolution_success_pct": 100,
+    "table_resolution": {
+      "validated": 2,
+      "total": 2,
+      "success_pct": 100
+    }
+  },
+  "token_usage": {
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "total_cost_usd": 0,
+    "by_model": {}
+  },
+  "element_counts": {
+    "ol": 0,
+    "ul": 1,
+    "table": 2,
+    "image": 0,
+    "crosslink": 0,
+    "hyperlink": 1,
+    "concept": 3,
+    "task": 1,
+    "reference": 0,
+    "topic": 1
+  },
+  "enrichment_summary": [
+    {
+      "file": "x_author_migration_manager_fbr/apttus_copyright_disclaimer_109940507/apttus_copyright_disclaimer.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager_fbr/index/space_details.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/versions.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/xauthor_migration_manager_on_salesforce_features_by_release.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    }
+  ],
+  "alt_text_summary": {
+    "images_filled": 0,
+    "images_skipped": 0,
+    "total_images_scanned": 0
+  },
+  "alt_text_events": {
+    "filled": [],
+    "skipped": []
+  },
+  "structural_issues_remaining": [
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_migration_manager_fbr/index/space_details.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 29
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/versions.dita",
+      "message": "<shortdesc> starts with generic opener 'this document': 'This document covers versions 5.1 to x'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/xauthor_migration_manager_on_salesforce_features_by_release.dita",
+      "message": "<shortdesc> starts with generic opener 'this document': 'This document contains an overview of features introduced in...'",
+      "line": 5
+    }
+  ],
+  "enrichment_quality": {
+    "summary": {
+      "dita_file_count": 5,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "WARNING": 2,
+        "INFO": 0
+      },
+      "category_counts": {
+        "shortdesc_too_generic": 2
+      }
+    },
+    "issues": [
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/versions.dita",
+        "message": "<shortdesc> starts with generic opener 'this document': 'This document covers versions 5.1 to x'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/xauthor_migration_manager_on_salesforce_features_by_release.dita",
+        "message": "<shortdesc> starts with generic opener 'this document': 'This document contains an overview of features introduced in...'",
+        "line": 5
+      }
+    ]
+  },
+  "fix_diff": {
+    "fixed_by_zone1": [
+      {
+        "file": "x_author_migration_manager_fbr/apttus_copyright_disclaimer_109940507/apttus_copyright_disclaimer.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager_fbr/index/space_details.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/versions.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/xauthor_migration_manager_on_salesforce_features_by_release.dita",
+        "fix": "added xml:lang=\"en-us\""
+      }
+    ],
+    "fixed_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_migration_manager_fbr/index/space_details.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      }
+    ],
+    "ai_obligations_missed": [],
+    "new_issues_introduced_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      }
+    ],
+    "summary": {
+      "pre_enrichment_issue_count": 11,
+      "post_enrichment_issue_count": 7,
+      "backend_error_file_count": 0,
+      "fixed_by_zone1_count": 5,
+      "fixed_by_ai_count": 2,
+      "remaining_count": 4,
+      "ai_obligations_missed_count": 0,
+      "new_issues_count": 1
+    }
+  },
+  "ai_quality_review": {
+    "layer4": {
+      "overall_quality": "fair",
+      "topic_type_accuracy_pct": 0,
+      "recommendations": [],
+      "dita_best_practice_gaps": [],
+      "autofix": {
+        "fixed": [],
+        "flagged": [],
+        "failed": []
+      }
+    },
+    "layer5": {
+      "validation_passed": true,
+      "overall_accuracy_pct": 100,
+      "per_topic_issues": [
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager_fbr/apttus_copyright_disclaimer_109940507/apttus_copyright_disclaimer.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Apttus Copyright Disclaimer' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Feature List' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager_fbr/index/space_details.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Space Details:' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/versions.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Versions' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/xauthor_migration_manager_on_salesforce_features_by_release.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'X-Author Migration Manager on Salesforce Features By Release' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        }
+      ],
+      "shortdesc_issues": [],
+      "recommendations": [
+        "5 WARNING(s) \u2014 missing id, DOCTYPE, or shortdesc"
+      ],
+      "schema_validation": {
+        "schema_passed": true,
+        "total_files": 5,
+        "valid_files": 5,
+        "invalid_files": 0,
+        "results": [
+          {
+            "file": "apttus_copyright_disclaimer.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "feature_list.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "space_details.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "versions.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "xauthor_migration_manager_on_salesforce_features_by_release.dita",
+            "valid": true,
+            "issues": []
+          }
+        ]
+      }
+    }
+  },
+  "element_counts_per_file": [
+    {
+      "file": "x_author_migration_manager_fbr/apttus_copyright_disclaimer_109940507/apttus_copyright_disclaimer.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager_fbr/index/space_details.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/versions.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/xauthor_migration_manager_on_salesforce_features_by_release.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    }
+  ],
+  "pre_clean": {
+    "status": "completed",
+    "summary": {
+      "files_processed": 10,
+      "files_modified": 0,
+      "files_unchanged": 10,
+      "files_failed": 0,
+      "total_fixes_by_type": {}
+    },
+    "per_file": [
+      {
+        "file": "x_author_migration_manager_fbr/apttus_copyright_disclaimer_109940507/apttus_copyright_disclaimer.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager_fbr/apttus_copyright_disclaimer_109940507.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager_fbr/feature_list_109940506.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager_fbr/index/space_details.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager_fbr/index.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager_fbr/x_author_migration_manager_fbr.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/versions.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/xauthor_migration_manager_on_salesforce_features_by_release.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      }
+    ]
+  },
+  "validation": {
+    "fix_passes": [],
+    "final_violations": 0,
+    "final_files_with_violations": 0,
+    "final_details": []
+  }
+}

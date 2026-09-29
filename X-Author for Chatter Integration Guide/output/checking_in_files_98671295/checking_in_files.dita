@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="checking_in_files_25d643" xml:lang="en-us">
+   <title>Checking in Files</title>
+     <shortdesc>While Chatter can provide an audit trail for the collaboration process of a document, the</shortdesc>
+   <prolog>
+      <author type="creator">user-0266f</author>
+      <critdates>
+         <revised modified="Nov 30, 2018"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Files</keyword>
+        <keyword>Chatter</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>Checking</keyword>
+        <keyword>While</keyword>
+        <keyword>provide</keyword>
+        <indexterm>Files</indexterm>
+        <indexterm>Chatter</indexterm>
+        <indexterm>Salesforce</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>While Chatter can provide an audit trail for the collaboration process of a document, the ability to check-in a file ensures that it is under version control.</p>
+      <p>Files are kept in either Chatter &gt; Files or the Notes and Attachments section of a Salesforce object, such as Account or Opportunity.</p>
+      <p>Files that are already kept within Salesforce are identified as such and there are no options for where the file is checked in and what filename it will have.</p>
+      <p>If a file is checked in without changing the name, it will overwrite the existing file and create a new revision of it. If the name is changed, then it will create a new file in Salesforce.</p>
+   </conbody>
+</concept>

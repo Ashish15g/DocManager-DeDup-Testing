@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="marking_clauses_in_a_template_a60847" xml:lang="en-us">
+   <title>Marking Clauses in a Template</title>
+     <shortdesc>You can use the mark Clause menu to apply clause boundary and smartness property to</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="May 27, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>clause</keyword>
+        <keyword>property</keyword>
+        <keyword>Clauses</keyword>
+        <keyword>smartness</keyword>
+        <keyword>block</keyword>
+        <keyword>Clause</keyword>
+        <indexterm>clause</indexterm>
+        <indexterm>property</indexterm>
+        <indexterm>Clauses</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>You can use the mark Clause menu to apply clause boundary and smartness property to a block of text. On generating a document, only the clauses marked as smart have the clause boundaries.</p>
+      <p>While constructing a template, you may have a block of text that you may not want in the playbook, but in the context of an agreement template (and later a contract), you would like to add the smartness property. Using <b>Mark Clauses</b> feature, you can add smartness property to an inline text in the agreement template. Any clause formed from the <b>Mark Clauses</b> feature will, by default, have <b>Smart Clause</b> property turned on.</p>
+      <p>While marking a clause, you have to keep in mind the following points:</p>
+      <ul>
+         <li>Apttus recommends to only mark clauses which are not inserted from the Playbook. In other words, you cannot mark a clause as smart inside an existing clause record.</li>
+         <li>After you mark a block of text as a clause, you cannot mark any other clause within the boundary of the marked clause.</li>
+      </ul>
+    </section></refbody>
+</reference>

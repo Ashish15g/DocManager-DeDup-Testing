@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="filter_logic_a3bee5" xml:lang="en-us">
+   <title>Filter Logic</title>
+     <shortdesc>X-Author uses the same filter logic method as your environment.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>filter</keyword>
+        <keyword>logic</keyword>
+        <keyword>Filter</keyword>
+        <keyword>Logic</keyword>
+        <keyword>Author</keyword>
+        <keyword>method</keyword>
+        <indexterm>filter</indexterm>
+        <indexterm>logic</indexterm>
+        <indexterm>Filter</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <ul>
+         <li>
+            <p>X-Author uses the same filter logic method as your environment.</p>
+            <p>
+               <b>Example:</b> For the defined filters, find records that match both the first two filters or the third. Enter filter logic as (1 AND 2) OR 3, or 3 OR (1 AND 2). </p>
+         </li>
+      </ul><p>Important</p><p>In Microsoft Dynamics, define filter logic within brackets. Example: (1 OR 2), ((1 AND 2) OR 3), ((1 OR 2) AND 3)</p><p>Find records, where the amount is greater than “$10 million” AND the close date, is earlier than “03/19/2016” OR any opportunity where stage equals “Qualification".</p><ul>
+         <li>
+            <p>Amount &gt; 10000000, Close Data &lt; 03/19/2016, Stage = 'Qualification'</p>
+         </li>
+      </ul><fig>
+         <title>190354459</title>
+         <image href="../attachments/98667690/190354459.png" width="665" height="506" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig>
+  </context></taskbody>
+</task>

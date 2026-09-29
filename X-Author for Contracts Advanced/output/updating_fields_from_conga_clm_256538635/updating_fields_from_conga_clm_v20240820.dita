@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="updating_fields_from_conga_clm_v20240820_9d0336" xml:lang="en-us">
+   <title>Updating Fields from Conga CLM v202408.2.0</title>
+     <shortdesc>The following applies when you select Update from CLM:</shortdesc>
+   <prolog>
+      <author type="creator">Jessica Halbhuber</author>
+      <critdates>
+         <revised modified="Aug 29, 2024"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>fields</keyword>
+        <keyword>Update</keyword>
+        <keyword>smart</keyword>
+        <keyword>document</keyword>
+        <keyword>Smart</keyword>
+        <keyword>repeat</keyword>
+        <indexterm>fields</indexterm>
+        <indexterm>Update</indexterm>
+        <indexterm>smart</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>
+            <b>Update from CLM</b> is an option available in the Work tab that allows you to update smart fields and read-only fields in your agreement document with the current values in Conga CLM. Update from CLM updates all header - second, and third-level smart fields in your document, including:</p><ul>
+            <li>Smart and read-only fields in the body of the agreement document.</li>
+            <li>Smart and read-only fields in sections, repeat sections and repeat sections with conditions. </li>
+            <li>Smart and read-only fields in tables, repeat tables and repeat tables with conditions. </li>
+            <li>Smart and read-only fields in generated clauses.</li>
+         </ul><p>The following applies when you select Update from CLM:</p><ul>
+            <li>All edited smart field values and read-only field values are updated. You cannot select and update for one specific field.</li>
+            <li>Fields cannot be updated to an empty (null) value.</li>
+         </ul>
+  </context></taskbody>
+</task>

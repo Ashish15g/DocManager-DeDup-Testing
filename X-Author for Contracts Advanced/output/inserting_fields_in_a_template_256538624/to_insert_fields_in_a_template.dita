@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="to_insert_fields_in_a_template_189e04" xml:lang="en-us">
+   <title>To insert fields in a template</title>
+   <shortdesc>To select multiple fields,</shortdesc>
+   <prolog>
+      <author type="creator">Jessica Halbhuber</author>
+      <critdates>
+         <revised modified="Sep 10, 2024"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>field</keyword>
+        <keyword>fields</keyword>
+        <keyword>template</keyword>
+        <keyword>insert</keyword>
+        <keyword>Insert</keyword>
+        <keyword>click</keyword>
+        <indexterm>field</indexterm>
+        <indexterm>fields</indexterm>
+        <indexterm>template</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <ol>
+    <li>Open a template in X-Author for Contracts Advanced.</li>
+    <li>In the Work tab, click <b>Fields. </b></li>
+    <li>Put the cursor in the template text where you want to insert a field and click <b>Insert Field</b>. This opens the Insert Field dialog box.</li>
+    <li><p>Select an Object<b> </b>(For example, "Agreement") from the left column. The fields related to the selected object are generated in the right column. To search for a particular field, enter a keyword and click the Search icon<b> </b>() or press enter. When you hover over the field name, the API name of the field is displayed.</p>
+      <image href="../attachments/256538624/256538613.png" width="54" height="44" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </li>
+    <li><p>After selecting the required fields, click <b>Insert</b>.</p>
+      <note type="tip">
+                  <p>Tip</p>
+                  <p>To select multiple fields,</p>
+                  <ul>
+                     <li>On Windows, hold the Ctrl key and select the fields.</li>
+                     <li>On Mac, hold the Command key and select the fields.</li>
+                  </ul>
+               </note></li>
+    </ol>
+    </section>
+<section>
+      <title>Result</title>
+      <p>The fields are inserted in the template. The <b>Fields</b> page shows the list of all the fields present in your current template. Select a field from the list to highlight it in the template document.</p>
+         <ul>
+            <li>When you insert a <b>Rich Text Field</b>, by default, the field's property value is set to Image. Image and HTML are the two available properties. If you want the image to display as its original size, set a size <b>0</b> for Height and Width. Large images may cause alignment issues within the document. For more information, see <xref href="https://documentation.conga.com/display/XACADV/.Image+References+in+Templates+v202406.2.0" scope="external" format="html">Image References in Templates</xref>. </li>
+            <li>You can also insert a field in the header and footer of the template document. While inserting a field in the header or footer, the field cannot be set as read-only or smart, it will only be a merge field. </li>
+            <li>When you are working on a clause template, you cannot insert a field as a repeat table or repeat section. When you try inserting a filed, only the agreement object will be displayed on the left column, the child objects will not be displayed by default and the Insert as Table and Insert as Section buttons will be disabled. </li>
+            <li>You can toggle the <b>Read-Only Field</b> option for rich text fields on or off by clicking the Settings icon after you insert the field. </li>
+         </ul>
+    </section></refbody>
+</reference>

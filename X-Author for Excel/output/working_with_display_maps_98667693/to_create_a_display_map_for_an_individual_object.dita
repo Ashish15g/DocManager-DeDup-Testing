@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_display_map_for_an_individual_object_c094a2" xml:lang="en-us">
+   <title>To create a Display Map for an Individual object</title>
+   <shortdesc>placeholder</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Display</keyword>
+        <keyword>field</keyword>
+        <keyword>Individual</keyword>
+        <keyword>click</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>mapped</keyword>
+        <indexterm>Display</indexterm>
+        <indexterm>field</indexterm>
+        <indexterm>Individual</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From, the X-Author Designer ribbon, click <b>Display Map.</b>
+            </cmd>
+            <info>
+               <p>
+                  <b>
+                     <fig><title>98668200</title><image href="../attachments/98667693/98668200.png" placement="break" width="405" height="158">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></b>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Create</b>. The Display Map panel opens in Excel.</cmd>
+         </step>
+         <step>
+            <cmd>In the Name field, enter a name for your Display Map. Pick a name that makes it easy to distinguish from your other Display Maps.</cmd>
+         </step>
+         <step>
+            <cmd>Select <b>Individual</b> from the Type picklist.</cmd>
+            <info>
+               <fig>
+                     <title>98668185</title>
+                     <image href="../attachments/98667693/98668185.png" placement="break" width="749" height="586">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+            <info>
+               <note type="tip">
+                  <p>Click the <image href="../attachments/98667693/98668184.png" placement="inline" width="16" height="14">
+                           <alt>placeholder</alt>
+                        </image>
+                      icon in the upper right-hand corner and choose an option to move or resize the Display Map panel.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Add a field to the Display Map by dragging it from the Display Map panel and dropping it on the worksheet. The field label is automatically inserted into the cell directly to the left of the mapped cell. You can search for specific fields using the Search box.</cmd>
+            <info>
+               <fig>
+                  <title>98668183</title>
+                  <image href="../attachments/98667693/98668183.png" width="1235" height="660" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <note type="note">
+                  <p>Best Practice</p>
+                  <p>To make the Display Map more appealing to the end user, highlight a cell containing a mapped field displayed in brackets and press the Delete key. Never delete rows to remove these values as it will corrupt the spreadsheet.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>To remove a mapped field from the worksheet, select the check box next to the field in the Mapped Details section of the Display Map and click <b>Remove Fields</b>. </cmd>
+            <info>
+               <fig>
+                     <title>98668182</title>
+                     <image href="../attachments/98667693/98668182.png" placement="break" width="728" height="267">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+            <info>
+               <note type="note">
+                  <p>Display Map Look Aheads</p>
+                  <p>You can click the magnify icon<image href="../attachments/98667693/98668170.png" placement="inline" width="19" height="18">
+                           <alt>placeholder</alt>
+                        </image>
+                      next to any mapped field to create a <b>Look Ahead</b>. This feature allows the runtime user to double-click on any cell in the retrieved list of data to lookup specific record values based on how you configure the Look Ahead. For information on the different types of Look Aheads and how to add them to your app design, refer to <xref href="../creating_look_aheads_98667726/creating_look_aheads.dita">Creating Look Aheads</xref> in the Advanced App design section of this guide.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>After you have mapped all Individual object fields to your worksheet, click <b>Save</b>. </cmd>
+            <info>
+               <p>
+                  <b>
+                     <fig><title>98668181</title><image href="../attachments/98667693/98668181.png" placement="break" width="749" height="586">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></b>
+               </p>
+            </info>
+            <info>
+               <p>
+</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Close</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save App</b> to save your app.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Watch a <xref href="http://info.apttus.com/X-Author-for-Excel-Tutorials-Display-Maps-1.html" scope="external" format="html">video tutorial</xref> on creating a Display Map and mapping Individual object fields.</p>
+      </result>
+   </taskbody>
+</task>

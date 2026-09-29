@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_the_edit_in_excel_button_on_any_standard_or_custom_object_209649" xml:lang="en-us">
+   <title>To create the Edit in Excel button on any standard or custom object</title>
+   <shortdesc>Display Type</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>button</keyword>
+        <keyword>custom</keyword>
+        <keyword>Edit</keyword>
+        <keyword>display</keyword>
+        <keyword>Excel</keyword>
+        <keyword>Name</keyword>
+        <indexterm>button</indexterm>
+        <indexterm>custom</indexterm>
+        <indexterm>Edit</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <b>Setup &gt; Build &gt; Customize &gt; Opportunities</b> and select <b>Buttons, Links and Actions</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click New Button or Link.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the Label. Name is auto-populated.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the Description of the button to help users understand the button.</cmd>
+         </step>
+         <step>
+            <cmd>Select a Display Type for the button.</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Display Type</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Detail Link Page</p>
+                           </entry>
+                           <entry>
+                              <p>To display the custom button as a link</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Detail Page Button</p>
+                           </entry>
+                           <entry>
+                              <p>To display the custom button as a detail button. For example, to display the custom button with Edit, Delete, Cancel, and Clone buttons.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>List Button</p>
+                           </entry>
+                           <entry>
+                              <p>To display the custom button as a list button. For example, to display the custom button with Merge Contacts, New, Add to Categories and so on.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Select a <b>Behavior</b>. Click View Behavior Options to view the options of behavior. </cmd>
+         </step>
+         <step>
+            <cmd>Select Custom Source. </cmd>
+         </step>
+         <step>
+            <cmd>Enter the following code into the Formula Editor:</cmd>
+            <info>
+               <p>
+                  <b>parentRecordId</b> is the Id of the context object, and <b>appName is </b>the name you enter in the Edit in Excel table.
+
+</p>
+            </info>
+            <info>
+               <note type="note">
+                  <codeblock>/apex/Apttus_XApps__EditInExcelLaunch?parentRecordId={!Account.Id}&amp;appName=&lt;your_app_Name&gt;</codeblock>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>. Don't forget to add the Edit in Excel button to the Salesforce page.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_insert_a_clause_from_clause_library_into_a_template_c3193f" xml:lang="en-us">
+   <title>To insert a clause from Clause Library into a template</title>
+   <shortdesc>You can configure custom locales in Conga CLM. For more information, see Adding Custom Locale</shortdesc>
+   <prolog>
+      <author type="creator">Jessica Halbhuber</author>
+      <critdates>
+         <created date="Aug 19, 2024"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>clause</keyword>
+        <keyword>insert</keyword>
+        <keyword>search</keyword>
+        <keyword>Clause</keyword>
+        <keyword>template</keyword>
+        <keyword>button</keyword>
+        <indexterm>clause</indexterm>
+        <indexterm>insert</indexterm>
+        <indexterm>search</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts<b> </b>pane, click the Home button () and select <b>Templates</b>.</cmd>
+            <info>
+               <image href="../attachments/256537130/256537125.png" width="58" height="52" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to <b>Work &gt; Clause Library</b>. The list of all the available clauses is displayed.  To view the complete clause name, either hover the mouse over the clause name or expand the X-Author window. </cmd>
+         </step>
+         <step>
+            <cmd>You can use the Search by Clause Name box to search a clause by keyword. Click the Filter button () to view the drop-down menus that can help you to refine your search according to Type, Category, Subcategory, Locale, and Language.
+</cmd>
+            <info>
+               <image href="../attachments/256537130/256537128.png" width="21" height="20" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <info>
+               <note type="note">
+                  <p>You can configure custom locales in Conga CLM. For more information, see <xref href="https://documentation.conga.com/clm/latest/salesforce/adding-custom-locale-143884777.html" scope="external" format="html">Adding Custom Locale</xref> in <i>CLM for Administrators.</i>
+                  </p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>To search using the advanced filters option, click the <b>Advance Search Filters</b> button () next to the Filter button. The Advance Search Filters dialog box opens.</cmd>
+            <info>
+               <image href="../attachments/256537130/256537124.png" width="45" height="42" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>Select the specific field, an operator to apply to the field, and a value to search for. </cmd>
+         </step>
+         <step>
+            <cmd>Click<b> Add Row</b> to add search fields. Click the Delete button to remove any field that you have already entered. </cmd>
+         </step>
+         <step>
+            <cmd>After entering all the filed search criteria, click <b>Apply Filters</b> to search. The clauses that match your search criteria are displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Place the cursor in the section of the template where you will insert a clause. </cmd>
+         </step>
+         <step>
+            <cmd>Click a clause from the list to view the clause text and active version. To insert the clause into your template as inline text, click the Expand button () next to the clause name and click <b>Insert this Clause. </b>
+When the clause is inserted, a success message is displayed. The clause content is marked by a content control boundary in your template. </cmd>
+            <info>
+               <image href="../attachments/256537130/256537129.png" width="29" height="30" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+      </steps>
+      <result>
+         <p>Note</p>
+         <ul>
+            <li>When you insert a clause using the <b>Insert this Clause</b> option, the clause takes the format of the document. For example, if you insert a plain text clause inside a bulleted list, the clause takes the bulleted list format. </li>
+            <li>You cannot search and insert an alternate clause from the Clause Library.</li>
+            <li>After you insert a clause into a template, you cannot edit text, insert or mark a field, or mark segments within the clause. </li>
+         </ul>
+      </result>
+   </taskbody>
+</task>

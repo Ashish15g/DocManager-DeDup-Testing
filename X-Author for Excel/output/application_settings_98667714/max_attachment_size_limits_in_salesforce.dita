@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="max_attachment_size_limits_in_salesforce_a05e4d" xml:lang="en-us">
+   <title>Max Attachment Size Limits in Salesforce</title>
+     <shortdesc>Salesforce has a File Size Limit which limits the size of the attachments to be</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Salesforce</keyword>
+        <keyword>Size</keyword>
+        <keyword>File</keyword>
+        <keyword>limits</keyword>
+        <keyword>attachments</keyword>
+        <keyword>attachment</keyword>
+        <indexterm>Salesforce</indexterm>
+        <indexterm>Size</indexterm>
+        <indexterm>File</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Salesforce has a File Size Limit which limits the size of the attachments to be uploaded for a single record on Salesforce. For more information regarding attachment limits refer, <xref href="https://help.salesforce.com/apex/HTViewHelpDoc?id=collab_files_size_limits.htm" scope="external" format="html">File Size Attachment Limits in Salesforce</xref>.</p><p>If you increase the file size limits in Salesforce, you can set the file size limit per attachment in a record in X-Author for Excel. Navigate to App Settings and set the Max File Size limit. This limit indicates the maximum size of an attachment that can be uploaded to Salesforce.</p><p>Suppose the records in your application comprise the attachment field and have multiple attachments. During insert or upsert, the insert or upsert transaction request is chunked into multiple Salesforce transactions so that all the attachments are inserted or upserted successfully.</p>
+  </context></taskbody>
+</task>

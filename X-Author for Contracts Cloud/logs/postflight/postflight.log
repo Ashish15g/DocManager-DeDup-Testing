@@ -1,0 +1,1037 @@
+================================================================================
+ metR DocMigrate — POST-FLIGHT VALIDATION REPORT
+================================================================================
+ Total Files Validated      : 194
+ Files With Violations       : 101 (initial)  →  39 (after correction)
+ Total Violations Detected   : 339  (246 errors, 93 warnings)
+ Violations Auto-Corrected   : 268  (129 errors, 54 warnings)
+ Violations Remaining        : 156  (117 errors, 39 warnings)
+ Started                     : 2026-08-20 07:11:51 UTC
+ Completed                   : 2026-08-20 07:12:04 UTC
+ Duration                    : 12s
+ Overall Status               : WARNING
+--------------------------------------------------------------------------------
+
+2026-08-20T07:11:51 [INFO] STEP 4: DITA validation (auto-fix on).
+2026-08-20T07:11:51 [INFO] Validated: 102413196.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: preview_reconciliation_102413209.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: apttus_copyright_disclaimer_102413243.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: updating_fields_from_contract_102413215.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: deleting_smart_elements_using_102413237.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: making_clauses_condition_based_102413228.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: working_with_agreements_102413202.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: promoting_clauses_to_playbook_102413208.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: about_template_clauses_menu_102413226.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: localization_102415463.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: making_fields_smart_in_a_templ_102413234.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: hiding_or_showing_smart_bounda_102413210.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: inserting_clauses_102413206.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: fields_102413231.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: inserting_fields_in_a_template_102413232.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: making_clauses_smart_in_a_temp_102413227.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: index.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: logging_in_to_x_author_contrac_102413201.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: doc_clauses_102413211.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: creating_offline_agreements_102413217.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: opening_templates_102413221.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: importing_offline_agreements_102413218.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: creating_new_templates_102413222.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: using_playbook_102413205.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: appendix_102413241.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: comparing_and_merging_agreemen_102424195.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: marking_fields_107120058.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: setting_segments_in_templates_102413240.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: checking_in_an_agreement_docum_102413213.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: using_playbook_for_templates_102413225.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: restricting_agreement_document_102421117.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: inserting_fields_in_a_template_102413236.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: working_with_templates_102413220.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: x_author_for_contracts_cloud.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: x_author_contracts_for_cloud_o_102413195.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: checking_in_templates_102413223.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: opening_an_agreement_document_102413203.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: inserting_fields_in_a_template_102413235.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: clauses_102413224.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: installing_x_author_contracts_102413200.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: 102420611.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: opening_agreements_in_contract_102413216.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: doc_fields_102413212.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: tracking_clauses_in_your_agree_102413219.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: troubleshooting_manifest_file_102413242.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: marking_clauses_in_a_template_102413229.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: reconciliation_102413214.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: getting_started_102413198.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: marking_clauses_102413207.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: about_x_author_contracts_for_c_102413197.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: installing_x_author_contracts_102413199.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: making_fields_read_only_in_a_t_102413233.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: template_expression_builder_102413239.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: locking_and_unlocking_document_102413204.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: cloning_a_template_102413238.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: sending_an_agreement_document_102426165.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: unlocking_read_only_clauses_102426929.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: refreshing_clauses_in_a_templa_102413230.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: working_with_files_102421124.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: inserting_fields_in_a_template.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: apttus_copyright_disclaimer.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_configure_the_manifest_file_in_your_system.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: installing_xauthor_contracts.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: system_requirements.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_install_the_xauthor_contracts_addin.dita | type=task | score=95.2% | errors=0 | warnings=3 | fixes=2
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_launch_the_xauthor_contracts_addin.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: xauthor_contracts_for_cloud_on_salesforce_summer_2019_user_guide.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: about_xauthor_contracts_for_cloud.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: inserting_clauses.dita | type=concept | score=100.0% | errors=0 | warnings=1 | fixes=1
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_insert_a_clause.dita | type=task | score=95.2% | errors=0 | warnings=4 | fixes=3
+2026-08-20T07:11:51 [INFO] Validated: best_practices_and_xauthor_contracts_behavior_when_deleting_smart_elements_or_read_only_fields.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_delete_a_repeattable.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_delete_a_smart_field_smart_clause_or_repeat_section.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: to_delete_a_read_only_field.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: deleting_smart_elements_using_delete_or_backspace_key.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: whats_new.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: checking_in_templates.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_checkin_a_template.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: working_with_templates.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 4/4 fixes
+2026-08-20T07:11:51 [INFO] Validated: inserting_fields_in_a_template_as_a_section.dita | type=task | score=95.2% | errors=0 | warnings=5 | fixes=4
+2026-08-20T07:11:51 [INFO] Validated: tracking_clauses_in_your_agreement_document.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: updating_fields_from_contract_management.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_update_from_contract_management.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_compare_different_versions_of_an_agreement_document.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: comparing_and_merging_agreement_documents.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: compare_vs_merge.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_merge_different_versions_of_an_agreement_document.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: appendix.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_mark_a_field_in_an_agreement.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: marking_fields.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_mark_fields_for_deletion.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: rejecting_changes_to_a_field.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_mark_a_field_in_an_agreement.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: marking_fields_for_deletion.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_reject_changes.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_unmark_fields_for_deletion.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: marking_fields.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: doc_fields.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_view_and_change_fields.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: validating_fields.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_validate_fields.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_check_in_and_reconcile_smart_fields_and_clauses.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: reconciliation.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: clearing_cache_from_macbook.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: clearing_cache_from_imac_desktop.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: troubleshooting_manifest_file_change_errors.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_remove_the_microsoft_application_cache.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_remove_library_cache.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: localization.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: working_with_agreements.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_mark_a_field_as_smart.dita | type=task | score=95.2% | errors=0 | warnings=3 | fixes=2
+2026-08-20T07:11:51 [INFO] Validated: making_fields_smart_in_a_template.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: making_fields_read_only_in_a_template.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_mark_a_field_readonly.dita | type=task | score=95.2% | errors=0 | warnings=3 | fixes=2
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: adding_filter_logic.dita | type=concept | score=100.0% | errors=0 | warnings=1 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: template_expression_builder.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 16/16 fixes
+2026-08-20T07:11:51 [INFO] Validated: use_case_managing_localization.dita | type=task | score=95.2% | errors=0 | warnings=17 | fixes=16
+2026-08-20T07:11:51 [INFO] Validated: space_details.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: getting_started.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: restricting_agreement_document_checkin_and_check_out.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: use_case.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: importing_offline_agreements.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_import_an_offline_agreement.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: doc_clauses.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: unmarking_a_clause.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_mark_a_clause_for_deletion.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: to_unmark_a_clause.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_view_a_clause.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: working_with_files.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_mark_a_clause.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: to_mark_a_new_clause.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: marking_clauses.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: restrictions.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: prerequisite.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_refresh_clauses_in_a_template.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: refreshing_clauses_in_a_template.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: cloning_a_template.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_clone_a_template_from_an_existing_template.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: promoting_clauses_to_playbook.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_promote_a_clause_to_the_playbook.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: fields.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: preview_reconciliation.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_preview_reconciliation.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: opening_an_agreement_document.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 4/4 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_open_or_open_and_update_an_agreement_document.dita | type=task | score=95.2% | errors=0 | warnings=5 | fixes=4
+2026-08-20T07:11:51 [INFO] Validated: to_unlock_or_lock_readonly_clauses.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: unlocking_read_only_clauses.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: prerequisite.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: sending_an_agreement_document_for_parallel_review.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: prerequisites.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: checking_in_a_reviewed_document.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: restriction.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_send_an_agreement_document_for_review.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_open_an_agreement_in_contract_management.dita | type=task | score=95.2% | errors=0 | warnings=4 | fixes=3
+2026-08-20T07:11:51 [INFO] Validated: opening_agreements_in_contract_management.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_log_in_to_xauthor_contracts.dita | type=task | score=95.2% | errors=0 | warnings=4 | fixes=3
+2026-08-20T07:11:51 [INFO] Validated: prerequisite.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: logging_in_to_xauthor_contracts.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_hide_smart_boundaries_in_an_agreement_document.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_see_smart_boundaries_in_an_agreement_document.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: prerequisite.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: hiding_or_showing_smart_boundaries.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: opening_templates.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_open_a_template.dita | type=task | score=95.2% | errors=0 | warnings=4 | fixes=3
+2026-08-20T07:11:51 [INFO] Validated: using_playbook_for_templates.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_insert_a_clause_from_playbook_into_a_template.dita | type=task | score=95.2% | errors=0 | warnings=4 | fixes=3
+2026-08-20T07:11:51 [INFO] Validated: to_delete_a_clause.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: setting_segments_in_templates.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_make_a_segment_conditional_in_a_template.dita | type=task | score=95.2% | errors=0 | warnings=4 | fixes=3
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_delete_a_conditional_segment_in_a_template.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_delete_a_style_for_a_segment_in_a_template.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 5/5 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_set_a_style_for_a_segment_in_a_template.dita | type=task | score=95.2% | errors=0 | warnings=6 | fixes=5
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_create_a_new_template.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: creating_new_templates.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: about_template_clauses_menu.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_view_a_clause.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 5/5 fixes
+2026-08-20T07:11:51 [INFO] Validated: inserting_fields_in_a_template_as_a_table.dita | type=task | score=95.2% | errors=0 | warnings=6 | fixes=5
+2026-08-20T07:11:51 [INFO] Validated: to_check_in_an_agreement_document.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: checking_in_an_agreement_document.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: clauses.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_release_a_document_lock.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: locking_and_unlocking_documents.dita | type=concept | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: to_mark_a_clause_in_a_template.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: marking_clauses_in_a_template.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_search_clauses_in_the_playbook.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: using_playbook.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: installing_xauthor_contracts_without_an_installer.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: to_create_an_xml_manifest_file.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_add_a_condition_to_a_clause.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Validated: making_clauses_conditionbased_in_a_template.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Validated: creating_offline_agreements.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_create_an_offline_agreement.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:11:51 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T07:11:51 [INFO] Validated: to_make_a_clause_smart_in_a_template.dita | type=task | score=95.2% | errors=0 | warnings=3 | fixes=2
+2026-08-20T07:11:51 [INFO] Validated: making_clauses_smart_in_a_template.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:11:51 [INFO] Validation done: 194/194 passed, 85 auto-fixes, avg score 98.1%
+2026-08-20T07:11:51 [INFO] Schematron: validating 194 DITA files (gates 1-4).
+2026-08-20T07:11:51 [INFO] Found 194 files to validate.
+2026-08-20T07:11:51 [INFO] [  1/194] whats_new.dita
+2026-08-20T07:11:54 [INFO] [  2/194] 102413196.ditamap
+2026-08-20T07:11:54 [INFO] [  3/194] use_case_managing_localization.dita
+2026-08-20T07:11:54 [INFO] [  4/194] 102420611.ditamap
+2026-08-20T07:11:54 [INFO] [  5/194] about_template_clauses_menu.dita
+2026-08-20T07:11:54 [INFO] [  6/194] to_view_a_clause.dita
+2026-08-20T07:11:54 [INFO] [  7/194] about_template_clauses_menu_102413226.ditamap
+2026-08-20T07:11:54 [INFO] [  8/194] about_xauthor_contracts_for_cloud.dita
+2026-08-20T07:11:54 [INFO] [  9/194] about_x_author_contracts_for_c_102413197.ditamap
+2026-08-20T07:11:54 [INFO] [ 10/194] appendix.dita
+2026-08-20T07:11:54 [INFO] [ 11/194] appendix_102413241.ditamap
+2026-08-20T07:11:54 [INFO] [ 12/194] apttus_copyright_disclaimer.dita
+2026-08-20T07:11:54 [INFO] [ 13/194] apttus_copyright_disclaimer_102413243.ditamap
+2026-08-20T07:11:54 [INFO] [ 14/194] checking_in_an_agreement_document.dita
+2026-08-20T07:11:54 [INFO] [ 15/194] to_check_in_an_agreement_document.dita
+2026-08-20T07:11:54 [INFO] [ 16/194] checking_in_an_agreement_docum_102413213.ditamap
+2026-08-20T07:11:54 [INFO] [ 17/194] checking_in_templates.dita
+2026-08-20T07:11:54 [INFO] [ 18/194] to_checkin_a_template.dita
+2026-08-20T07:11:54 [INFO] [ 19/194] checking_in_templates_102413223.ditamap
+2026-08-20T07:11:54 [INFO] [ 20/194] clauses.dita
+2026-08-20T07:11:54 [INFO] [ 21/194] clauses_102413224.ditamap
+2026-08-20T07:11:54 [INFO] [ 22/194] cloning_a_template.dita
+2026-08-20T07:11:54 [INFO] [ 23/194] to_clone_a_template_from_an_existing_template.dita
+2026-08-20T07:11:54 [INFO] [ 24/194] cloning_a_template_102413238.ditamap
+2026-08-20T07:11:54 [INFO] [ 25/194] compare_vs_merge.dita
+2026-08-20T07:11:54 [INFO] [ 26/194] comparing_and_merging_agreement_documents.dita
+2026-08-20T07:11:54 [INFO] [ 27/194] to_compare_different_versions_of_an_agreement_document.dita
+2026-08-20T07:11:54 [INFO] [ 28/194] to_merge_different_versions_of_an_agreement_document.dita
+2026-08-20T07:11:54 [INFO] [ 29/194] comparing_and_merging_agreemen_102424195.ditamap
+2026-08-20T07:11:54 [INFO] [ 30/194] creating_new_templates.dita
+2026-08-20T07:11:54 [INFO] [ 31/194] to_create_a_new_template.dita
+2026-08-20T07:11:54 [INFO] [ 32/194] creating_new_templates_102413222.ditamap
+2026-08-20T07:11:54 [INFO] [ 33/194] creating_offline_agreements.dita
+2026-08-20T07:11:54 [INFO] [ 34/194] to_create_an_offline_agreement.dita
+2026-08-20T07:11:54 [INFO] [ 35/194] creating_offline_agreements_102413217.ditamap
+2026-08-20T07:11:54 [INFO] [ 36/194] best_practices_and_xauthor_contracts_behavior_when_deleting_smart_elements_or_read_only_fields.dita
+2026-08-20T07:11:54 [INFO] [ 37/194] deleting_smart_elements_using_delete_or_backspace_key.dita
+2026-08-20T07:11:54 [INFO] [ 38/194] to_delete_a_read_only_field.dita
+2026-08-20T07:11:54 [INFO] [ 39/194] to_delete_a_repeattable.dita
+2026-08-20T07:11:54 [INFO] [ 40/194] to_delete_a_smart_field_smart_clause_or_repeat_section.dita
+2026-08-20T07:11:54 [INFO] [ 41/194] deleting_smart_elements_using_102413237.ditamap
+2026-08-20T07:11:54 [INFO] [ 42/194] doc_clauses.dita
+2026-08-20T07:11:54 [INFO] [ 43/194] to_mark_a_clause_for_deletion.dita
+2026-08-20T07:11:54 [INFO] [ 44/194] to_unmark_a_clause.dita
+2026-08-20T07:11:54 [INFO] [ 45/194] to_view_a_clause.dita
+2026-08-20T07:11:54 [INFO] [ 46/194] unmarking_a_clause.dita
+2026-08-20T07:11:54 [INFO] [ 47/194] doc_clauses_102413211.ditamap
+2026-08-20T07:11:54 [INFO] [ 48/194] doc_fields.dita
+2026-08-20T07:11:54 [INFO] [ 49/194] marking_fields.dita
+2026-08-20T07:11:54 [INFO] [ 50/194] marking_fields_for_deletion.dita
+2026-08-20T07:11:54 [INFO] [ 51/194] rejecting_changes_to_a_field.dita
+2026-08-20T07:11:54 [INFO] [ 52/194] to_mark_a_field_in_an_agreement.dita
+2026-08-20T07:11:54 [INFO] [ 53/194] to_mark_fields_for_deletion.dita
+2026-08-20T07:11:54 [INFO] [ 54/194] to_reject_changes.dita
+2026-08-20T07:11:54 [INFO] [ 55/194] to_unmark_fields_for_deletion.dita
+2026-08-20T07:11:54 [INFO] [ 56/194] to_validate_fields.dita
+2026-08-20T07:11:54 [INFO] [ 57/194] to_view_and_change_fields.dita
+2026-08-20T07:11:54 [INFO] [ 58/194] validating_fields.dita
+2026-08-20T07:11:54 [INFO] [ 59/194] doc_fields_102413212.ditamap
+2026-08-20T07:11:54 [INFO] [ 60/194] fields.dita
+2026-08-20T07:11:54 [INFO] [ 61/194] fields_102413231.ditamap
+2026-08-20T07:11:54 [INFO] [ 62/194] getting_started.dita
+2026-08-20T07:11:54 [INFO] [ 63/194] getting_started_102413198.ditamap
+2026-08-20T07:11:54 [INFO] [ 64/194] hiding_or_showing_smart_boundaries.dita
+2026-08-20T07:11:54 [INFO] [ 65/194] prerequisite.dita
+2026-08-20T07:11:54 [INFO] [ 66/194] to_hide_smart_boundaries_in_an_agreement_document.dita
+2026-08-20T07:11:54 [INFO] [ 67/194] to_see_smart_boundaries_in_an_agreement_document.dita
+2026-08-20T07:11:54 [INFO] [ 68/194] hiding_or_showing_smart_bounda_102413210.ditamap
+2026-08-20T07:11:54 [INFO] [ 69/194] importing_offline_agreements.dita
+2026-08-20T07:11:54 [INFO] [ 70/194] to_import_an_offline_agreement.dita
+2026-08-20T07:11:54 [INFO] [ 71/194] importing_offline_agreements_102413218.ditamap
+2026-08-20T07:11:54 [INFO] [ 72/194] space_details.dita
+2026-08-20T07:11:54 [INFO] [ 73/194] index.ditamap
+2026-08-20T07:11:54 [INFO] [ 74/194] inserting_clauses.dita
+2026-08-20T07:11:54 [INFO] [ 75/194] to_insert_a_clause.dita
+2026-08-20T07:11:54 [INFO] [ 76/194] inserting_clauses_102413206.ditamap
+2026-08-20T07:11:54 [INFO] [ 77/194] inserting_fields_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [ 78/194] inserting_fields_in_a_template_102413232.ditamap
+2026-08-20T07:11:55 [INFO] [ 79/194] inserting_fields_in_a_template_as_a_table.dita
+2026-08-20T07:11:55 [INFO] [ 80/194] inserting_fields_in_a_template_102413235.ditamap
+2026-08-20T07:11:55 [INFO] [ 81/194] inserting_fields_in_a_template_as_a_section.dita
+2026-08-20T07:11:55 [INFO] [ 82/194] inserting_fields_in_a_template_102413236.ditamap
+2026-08-20T07:11:55 [INFO] [ 83/194] installing_xauthor_contracts.dita
+2026-08-20T07:11:55 [INFO] [ 84/194] system_requirements.dita
+2026-08-20T07:11:55 [INFO] [ 85/194] to_configure_the_manifest_file_in_your_system.dita
+2026-08-20T07:11:55 [INFO] [ 86/194] to_install_the_xauthor_contracts_addin.dita
+2026-08-20T07:11:55 [INFO] [ 87/194] to_launch_the_xauthor_contracts_addin.dita
+2026-08-20T07:11:55 [INFO] [ 88/194] installing_x_author_contracts_102413199.ditamap
+2026-08-20T07:11:55 [INFO] [ 89/194] installing_xauthor_contracts_without_an_installer.dita
+2026-08-20T07:11:55 [INFO] [ 90/194] to_create_an_xml_manifest_file.dita
+2026-08-20T07:11:55 [INFO] [ 91/194] installing_x_author_contracts_102413200.ditamap
+2026-08-20T07:11:55 [INFO] [ 92/194] localization.dita
+2026-08-20T07:11:55 [INFO] [ 93/194] localization_102415463.ditamap
+2026-08-20T07:11:55 [INFO] [ 94/194] locking_and_unlocking_documents.dita
+2026-08-20T07:11:55 [INFO] [ 95/194] to_release_a_document_lock.dita
+2026-08-20T07:11:55 [INFO] [ 96/194] locking_and_unlocking_document_102413204.ditamap
+2026-08-20T07:11:55 [INFO] [ 97/194] logging_in_to_xauthor_contracts.dita
+2026-08-20T07:11:55 [INFO] [ 98/194] prerequisite.dita
+2026-08-20T07:11:55 [INFO] [ 99/194] to_log_in_to_xauthor_contracts.dita
+2026-08-20T07:11:55 [INFO] [100/194] logging_in_to_x_author_contrac_102413201.ditamap
+2026-08-20T07:11:55 [INFO] [101/194] making_clauses_conditionbased_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [102/194] to_add_a_condition_to_a_clause.dita
+2026-08-20T07:11:55 [INFO] [103/194] making_clauses_condition_based_102413228.ditamap
+2026-08-20T07:11:55 [INFO] [104/194] making_clauses_smart_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [105/194] to_make_a_clause_smart_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [106/194] making_clauses_smart_in_a_temp_102413227.ditamap
+2026-08-20T07:11:55 [INFO] [107/194] making_fields_read_only_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [108/194] to_mark_a_field_readonly.dita
+2026-08-20T07:11:55 [INFO] [109/194] making_fields_read_only_in_a_t_102413233.ditamap
+2026-08-20T07:11:55 [INFO] [110/194] making_fields_smart_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [111/194] to_mark_a_field_as_smart.dita
+2026-08-20T07:11:55 [INFO] [112/194] making_fields_smart_in_a_templ_102413234.ditamap
+2026-08-20T07:11:55 [INFO] [113/194] marking_clauses.dita
+2026-08-20T07:11:55 [INFO] [114/194] to_mark_a_clause.dita
+2026-08-20T07:11:55 [INFO] [115/194] to_mark_a_new_clause.dita
+2026-08-20T07:11:55 [INFO] [116/194] marking_clauses_102413207.ditamap
+2026-08-20T07:11:55 [INFO] [117/194] marking_clauses_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [118/194] to_mark_a_clause_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [119/194] marking_clauses_in_a_template_102413229.ditamap
+2026-08-20T07:11:55 [INFO] [120/194] marking_fields.dita
+2026-08-20T07:11:55 [INFO] [121/194] to_mark_a_field_in_an_agreement.dita
+2026-08-20T07:11:55 [INFO] [122/194] marking_fields_107120058.ditamap
+2026-08-20T07:11:55 [INFO] [123/194] opening_agreements_in_contract_management.dita
+2026-08-20T07:11:55 [INFO] [124/194] to_open_an_agreement_in_contract_management.dita
+2026-08-20T07:11:55 [INFO] [125/194] opening_agreements_in_contract_102413216.ditamap
+2026-08-20T07:11:55 [INFO] [126/194] opening_an_agreement_document.dita
+2026-08-20T07:11:55 [INFO] [127/194] to_open_or_open_and_update_an_agreement_document.dita
+2026-08-20T07:11:55 [INFO] [128/194] opening_an_agreement_document_102413203.ditamap
+2026-08-20T07:11:55 [INFO] [129/194] opening_templates.dita
+2026-08-20T07:11:55 [INFO] [130/194] to_open_a_template.dita
+2026-08-20T07:11:55 [INFO] [131/194] opening_templates_102413221.ditamap
+2026-08-20T07:11:55 [INFO] [132/194] preview_reconciliation.dita
+2026-08-20T07:11:55 [INFO] [133/194] to_preview_reconciliation.dita
+2026-08-20T07:11:55 [INFO] [134/194] preview_reconciliation_102413209.ditamap
+2026-08-20T07:11:55 [INFO] [135/194] promoting_clauses_to_playbook.dita
+2026-08-20T07:11:55 [INFO] [136/194] to_promote_a_clause_to_the_playbook.dita
+2026-08-20T07:11:55 [INFO] [137/194] promoting_clauses_to_playbook_102413208.ditamap
+2026-08-20T07:11:55 [INFO] [138/194] reconciliation.dita
+2026-08-20T07:11:55 [INFO] [139/194] to_check_in_and_reconcile_smart_fields_and_clauses.dita
+2026-08-20T07:11:55 [INFO] [140/194] reconciliation_102413214.ditamap
+2026-08-20T07:11:55 [INFO] [141/194] prerequisite.dita
+2026-08-20T07:11:55 [INFO] [142/194] refreshing_clauses_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [143/194] restrictions.dita
+2026-08-20T07:11:55 [INFO] [144/194] to_refresh_clauses_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [145/194] refreshing_clauses_in_a_templa_102413230.ditamap
+2026-08-20T07:11:55 [INFO] [146/194] restricting_agreement_document_checkin_and_check_out.dita
+2026-08-20T07:11:55 [INFO] [147/194] use_case.dita
+2026-08-20T07:11:55 [INFO] [148/194] restricting_agreement_document_102421117.ditamap
+2026-08-20T07:11:55 [INFO] [149/194] checking_in_a_reviewed_document.dita
+2026-08-20T07:11:55 [INFO] [150/194] prerequisites.dita
+2026-08-20T07:11:55 [INFO] [151/194] restriction.dita
+2026-08-20T07:11:55 [INFO] [152/194] sending_an_agreement_document_for_parallel_review.dita
+2026-08-20T07:11:55 [INFO] [153/194] to_send_an_agreement_document_for_review.dita
+2026-08-20T07:11:55 [INFO] [154/194] sending_an_agreement_document_102426165.ditamap
+2026-08-20T07:11:55 [INFO] [155/194] setting_segments_in_templates.dita
+2026-08-20T07:11:55 [INFO] [156/194] to_delete_a_conditional_segment_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [157/194] to_delete_a_style_for_a_segment_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [158/194] to_make_a_segment_conditional_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [159/194] to_set_a_style_for_a_segment_in_a_template.dita
+2026-08-20T07:11:55 [INFO] [160/194] setting_segments_in_templates_102413240.ditamap
+2026-08-20T07:11:55 [INFO] [161/194] adding_filter_logic.dita
+2026-08-20T07:11:55 [INFO] [162/194] template_expression_builder.dita
+2026-08-20T07:11:55 [INFO] [163/194] template_expression_builder_102413239.ditamap
+2026-08-20T07:11:55 [INFO] [164/194] tracking_clauses_in_your_agreement_document.dita
+2026-08-20T07:11:55 [INFO] [165/194] tracking_clauses_in_your_agree_102413219.ditamap
+2026-08-20T07:11:55 [INFO] [166/194] clearing_cache_from_imac_desktop.dita
+2026-08-20T07:11:55 [INFO] [167/194] clearing_cache_from_macbook.dita
+2026-08-20T07:11:55 [INFO] [168/194] to_remove_library_cache.dita
+2026-08-20T07:11:55 [INFO] [169/194] to_remove_the_microsoft_application_cache.dita
+2026-08-20T07:11:55 [INFO] [170/194] troubleshooting_manifest_file_change_errors.dita
+2026-08-20T07:11:55 [INFO] [171/194] troubleshooting_manifest_file_102413242.ditamap
+2026-08-20T07:11:55 [INFO] [172/194] prerequisite.dita
+2026-08-20T07:11:55 [INFO] [173/194] to_unlock_or_lock_readonly_clauses.dita
+2026-08-20T07:11:55 [INFO] [174/194] unlocking_read_only_clauses.dita
+2026-08-20T07:11:55 [INFO] [175/194] unlocking_read_only_clauses_102426929.ditamap
+2026-08-20T07:11:55 [INFO] [176/194] to_update_from_contract_management.dita
+2026-08-20T07:11:55 [INFO] [177/194] updating_fields_from_contract_management.dita
+2026-08-20T07:11:55 [INFO] [178/194] updating_fields_from_contract_102413215.ditamap
+2026-08-20T07:11:55 [INFO] [179/194] to_search_clauses_in_the_playbook.dita
+2026-08-20T07:11:55 [INFO] [180/194] using_playbook.dita
+2026-08-20T07:11:55 [INFO] [181/194] using_playbook_102413205.ditamap
+2026-08-20T07:11:55 [INFO] [182/194] to_delete_a_clause.dita
+2026-08-20T07:11:55 [INFO] [183/194] to_insert_a_clause_from_playbook_into_a_template.dita
+2026-08-20T07:11:55 [INFO] [184/194] using_playbook_for_templates.dita
+2026-08-20T07:11:55 [INFO] [185/194] using_playbook_for_templates_102413225.ditamap
+2026-08-20T07:11:55 [INFO] [186/194] working_with_agreements.dita
+2026-08-20T07:11:55 [INFO] [187/194] working_with_agreements_102413202.ditamap
+2026-08-20T07:11:55 [INFO] [188/194] working_with_files.dita
+2026-08-20T07:11:55 [INFO] [189/194] working_with_files_102421124.ditamap
+2026-08-20T07:11:55 [INFO] [190/194] working_with_templates.dita
+2026-08-20T07:11:55 [INFO] [191/194] working_with_templates_102413220.ditamap
+2026-08-20T07:11:55 [INFO] [192/194] xauthor_contracts_for_cloud_on_salesforce_summer_2019_user_guide.dita
+2026-08-20T07:11:55 [INFO] [193/194] x_author_contracts_for_cloud_o_102413195.ditamap
+2026-08-20T07:11:55 [INFO] [194/194] x_author_for_contracts_cloud.ditamap
+2026-08-20T07:11:55 [INFO] Found 194 files to validate.
+2026-08-20T07:11:55 [INFO] [  1/194] whats_new.dita
+2026-08-20T07:11:55 [INFO] [  2/194] 102413196.ditamap
+2026-08-20T07:11:55 [INFO] [  3/194] use_case_managing_localization.dita
+2026-08-20T07:11:56 [INFO] [  4/194] 102420611.ditamap
+2026-08-20T07:11:56 [INFO] [  5/194] about_template_clauses_menu.dita
+2026-08-20T07:11:56 [INFO] [  6/194] to_view_a_clause.dita
+2026-08-20T07:11:56 [INFO] [  7/194] about_template_clauses_menu_102413226.ditamap
+2026-08-20T07:11:56 [INFO] [  8/194] about_xauthor_contracts_for_cloud.dita
+2026-08-20T07:11:56 [INFO] [  9/194] about_x_author_contracts_for_c_102413197.ditamap
+2026-08-20T07:11:56 [INFO] [ 10/194] appendix.dita
+2026-08-20T07:11:56 [INFO] [ 11/194] appendix_102413241.ditamap
+2026-08-20T07:11:56 [INFO] [ 12/194] apttus_copyright_disclaimer.dita
+2026-08-20T07:11:56 [INFO] [ 13/194] apttus_copyright_disclaimer_102413243.ditamap
+2026-08-20T07:11:56 [INFO] [ 14/194] checking_in_an_agreement_document.dita
+2026-08-20T07:11:56 [INFO] [ 15/194] to_check_in_an_agreement_document.dita
+2026-08-20T07:11:56 [INFO] [ 16/194] checking_in_an_agreement_docum_102413213.ditamap
+2026-08-20T07:11:56 [INFO] [ 17/194] checking_in_templates.dita
+2026-08-20T07:11:56 [INFO] [ 18/194] to_checkin_a_template.dita
+2026-08-20T07:11:56 [INFO] [ 19/194] checking_in_templates_102413223.ditamap
+2026-08-20T07:11:56 [INFO] [ 20/194] clauses.dita
+2026-08-20T07:11:56 [INFO] [ 21/194] clauses_102413224.ditamap
+2026-08-20T07:11:56 [INFO] [ 22/194] cloning_a_template.dita
+2026-08-20T07:11:56 [INFO] [ 23/194] to_clone_a_template_from_an_existing_template.dita
+2026-08-20T07:11:56 [INFO] [ 24/194] cloning_a_template_102413238.ditamap
+2026-08-20T07:11:56 [INFO] [ 25/194] compare_vs_merge.dita
+2026-08-20T07:11:56 [INFO] [ 26/194] comparing_and_merging_agreement_documents.dita
+2026-08-20T07:11:56 [INFO] [ 27/194] to_compare_different_versions_of_an_agreement_document.dita
+2026-08-20T07:11:56 [INFO] [ 28/194] to_merge_different_versions_of_an_agreement_document.dita
+2026-08-20T07:11:56 [INFO] [ 29/194] comparing_and_merging_agreemen_102424195.ditamap
+2026-08-20T07:11:56 [INFO] [ 30/194] creating_new_templates.dita
+2026-08-20T07:11:56 [INFO] [ 31/194] to_create_a_new_template.dita
+2026-08-20T07:11:56 [INFO] [ 32/194] creating_new_templates_102413222.ditamap
+2026-08-20T07:11:56 [INFO] [ 33/194] creating_offline_agreements.dita
+2026-08-20T07:11:56 [INFO] [ 34/194] to_create_an_offline_agreement.dita
+2026-08-20T07:11:56 [INFO] [ 35/194] creating_offline_agreements_102413217.ditamap
+2026-08-20T07:11:56 [INFO] [ 36/194] best_practices_and_xauthor_contracts_behavior_when_deleting_smart_elements_or_read_only_fields.dita
+2026-08-20T07:11:56 [INFO] [ 37/194] deleting_smart_elements_using_delete_or_backspace_key.dita
+2026-08-20T07:11:56 [INFO] [ 38/194] to_delete_a_read_only_field.dita
+2026-08-20T07:11:56 [INFO] [ 39/194] to_delete_a_repeattable.dita
+2026-08-20T07:11:56 [INFO] [ 40/194] to_delete_a_smart_field_smart_clause_or_repeat_section.dita
+2026-08-20T07:11:56 [INFO] [ 41/194] deleting_smart_elements_using_102413237.ditamap
+2026-08-20T07:11:56 [INFO] [ 42/194] doc_clauses.dita
+2026-08-20T07:11:56 [INFO] [ 43/194] to_mark_a_clause_for_deletion.dita
+2026-08-20T07:11:56 [INFO] [ 44/194] to_unmark_a_clause.dita
+2026-08-20T07:11:56 [INFO] [ 45/194] to_view_a_clause.dita
+2026-08-20T07:11:56 [INFO] [ 46/194] unmarking_a_clause.dita
+2026-08-20T07:11:56 [INFO] [ 47/194] doc_clauses_102413211.ditamap
+2026-08-20T07:11:56 [INFO] [ 48/194] doc_fields.dita
+2026-08-20T07:11:56 [INFO] [ 49/194] marking_fields.dita
+2026-08-20T07:11:56 [INFO] [ 50/194] marking_fields_for_deletion.dita
+2026-08-20T07:11:56 [INFO] [ 51/194] rejecting_changes_to_a_field.dita
+2026-08-20T07:11:56 [INFO] [ 52/194] to_mark_a_field_in_an_agreement.dita
+2026-08-20T07:11:56 [INFO] [ 53/194] to_mark_fields_for_deletion.dita
+2026-08-20T07:11:56 [INFO] [ 54/194] to_reject_changes.dita
+2026-08-20T07:11:56 [INFO] [ 55/194] to_unmark_fields_for_deletion.dita
+2026-08-20T07:11:56 [INFO] [ 56/194] to_validate_fields.dita
+2026-08-20T07:11:56 [INFO] [ 57/194] to_view_and_change_fields.dita
+2026-08-20T07:11:56 [INFO] [ 58/194] validating_fields.dita
+2026-08-20T07:11:56 [INFO] [ 59/194] doc_fields_102413212.ditamap
+2026-08-20T07:11:56 [INFO] [ 60/194] fields.dita
+2026-08-20T07:11:56 [INFO] [ 61/194] fields_102413231.ditamap
+2026-08-20T07:11:56 [INFO] [ 62/194] getting_started.dita
+2026-08-20T07:11:56 [INFO] [ 63/194] getting_started_102413198.ditamap
+2026-08-20T07:11:56 [INFO] [ 64/194] hiding_or_showing_smart_boundaries.dita
+2026-08-20T07:11:56 [INFO] [ 65/194] prerequisite.dita
+2026-08-20T07:11:56 [INFO] [ 66/194] to_hide_smart_boundaries_in_an_agreement_document.dita
+2026-08-20T07:11:56 [INFO] [ 67/194] to_see_smart_boundaries_in_an_agreement_document.dita
+2026-08-20T07:11:56 [INFO] [ 68/194] hiding_or_showing_smart_bounda_102413210.ditamap
+2026-08-20T07:11:56 [INFO] [ 69/194] importing_offline_agreements.dita
+2026-08-20T07:11:56 [INFO] [ 70/194] to_import_an_offline_agreement.dita
+2026-08-20T07:11:56 [INFO] [ 71/194] importing_offline_agreements_102413218.ditamap
+2026-08-20T07:11:56 [INFO] [ 72/194] space_details.dita
+2026-08-20T07:11:56 [INFO] [ 73/194] index.ditamap
+2026-08-20T07:11:56 [INFO] [ 74/194] inserting_clauses.dita
+2026-08-20T07:11:56 [INFO] [ 75/194] to_insert_a_clause.dita
+2026-08-20T07:11:56 [INFO] [ 76/194] inserting_clauses_102413206.ditamap
+2026-08-20T07:11:56 [INFO] [ 77/194] inserting_fields_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [ 78/194] inserting_fields_in_a_template_102413232.ditamap
+2026-08-20T07:11:56 [INFO] [ 79/194] inserting_fields_in_a_template_as_a_table.dita
+2026-08-20T07:11:56 [INFO] [ 80/194] inserting_fields_in_a_template_102413235.ditamap
+2026-08-20T07:11:56 [INFO] [ 81/194] inserting_fields_in_a_template_as_a_section.dita
+2026-08-20T07:11:56 [INFO] [ 82/194] inserting_fields_in_a_template_102413236.ditamap
+2026-08-20T07:11:56 [INFO] [ 83/194] installing_xauthor_contracts.dita
+2026-08-20T07:11:56 [INFO] [ 84/194] system_requirements.dita
+2026-08-20T07:11:56 [INFO] [ 85/194] to_configure_the_manifest_file_in_your_system.dita
+2026-08-20T07:11:56 [INFO] [ 86/194] to_install_the_xauthor_contracts_addin.dita
+2026-08-20T07:11:56 [INFO] [ 87/194] to_launch_the_xauthor_contracts_addin.dita
+2026-08-20T07:11:56 [INFO] [ 88/194] installing_x_author_contracts_102413199.ditamap
+2026-08-20T07:11:56 [INFO] [ 89/194] installing_xauthor_contracts_without_an_installer.dita
+2026-08-20T07:11:56 [INFO] [ 90/194] to_create_an_xml_manifest_file.dita
+2026-08-20T07:11:56 [INFO] [ 91/194] installing_x_author_contracts_102413200.ditamap
+2026-08-20T07:11:56 [INFO] [ 92/194] localization.dita
+2026-08-20T07:11:56 [INFO] [ 93/194] localization_102415463.ditamap
+2026-08-20T07:11:56 [INFO] [ 94/194] locking_and_unlocking_documents.dita
+2026-08-20T07:11:56 [INFO] [ 95/194] to_release_a_document_lock.dita
+2026-08-20T07:11:56 [INFO] [ 96/194] locking_and_unlocking_document_102413204.ditamap
+2026-08-20T07:11:56 [INFO] [ 97/194] logging_in_to_xauthor_contracts.dita
+2026-08-20T07:11:56 [INFO] [ 98/194] prerequisite.dita
+2026-08-20T07:11:56 [INFO] [ 99/194] to_log_in_to_xauthor_contracts.dita
+2026-08-20T07:11:56 [INFO] [100/194] logging_in_to_x_author_contrac_102413201.ditamap
+2026-08-20T07:11:56 [INFO] [101/194] making_clauses_conditionbased_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [102/194] to_add_a_condition_to_a_clause.dita
+2026-08-20T07:11:56 [INFO] [103/194] making_clauses_condition_based_102413228.ditamap
+2026-08-20T07:11:56 [INFO] [104/194] making_clauses_smart_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [105/194] to_make_a_clause_smart_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [106/194] making_clauses_smart_in_a_temp_102413227.ditamap
+2026-08-20T07:11:56 [INFO] [107/194] making_fields_read_only_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [108/194] to_mark_a_field_readonly.dita
+2026-08-20T07:11:56 [INFO] [109/194] making_fields_read_only_in_a_t_102413233.ditamap
+2026-08-20T07:11:56 [INFO] [110/194] making_fields_smart_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [111/194] to_mark_a_field_as_smart.dita
+2026-08-20T07:11:56 [INFO] [112/194] making_fields_smart_in_a_templ_102413234.ditamap
+2026-08-20T07:11:56 [INFO] [113/194] marking_clauses.dita
+2026-08-20T07:11:56 [INFO] [114/194] to_mark_a_clause.dita
+2026-08-20T07:11:56 [INFO] [115/194] to_mark_a_new_clause.dita
+2026-08-20T07:11:56 [INFO] [116/194] marking_clauses_102413207.ditamap
+2026-08-20T07:11:56 [INFO] [117/194] marking_clauses_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [118/194] to_mark_a_clause_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [119/194] marking_clauses_in_a_template_102413229.ditamap
+2026-08-20T07:11:56 [INFO] [120/194] marking_fields.dita
+2026-08-20T07:11:56 [INFO] [121/194] to_mark_a_field_in_an_agreement.dita
+2026-08-20T07:11:56 [INFO] [122/194] marking_fields_107120058.ditamap
+2026-08-20T07:11:56 [INFO] [123/194] opening_agreements_in_contract_management.dita
+2026-08-20T07:11:56 [INFO] [124/194] to_open_an_agreement_in_contract_management.dita
+2026-08-20T07:11:56 [INFO] [125/194] opening_agreements_in_contract_102413216.ditamap
+2026-08-20T07:11:56 [INFO] [126/194] opening_an_agreement_document.dita
+2026-08-20T07:11:56 [INFO] [127/194] to_open_or_open_and_update_an_agreement_document.dita
+2026-08-20T07:11:56 [INFO] [128/194] opening_an_agreement_document_102413203.ditamap
+2026-08-20T07:11:56 [INFO] [129/194] opening_templates.dita
+2026-08-20T07:11:56 [INFO] [130/194] to_open_a_template.dita
+2026-08-20T07:11:56 [INFO] [131/194] opening_templates_102413221.ditamap
+2026-08-20T07:11:56 [INFO] [132/194] preview_reconciliation.dita
+2026-08-20T07:11:56 [INFO] [133/194] to_preview_reconciliation.dita
+2026-08-20T07:11:56 [INFO] [134/194] preview_reconciliation_102413209.ditamap
+2026-08-20T07:11:56 [INFO] [135/194] promoting_clauses_to_playbook.dita
+2026-08-20T07:11:56 [INFO] [136/194] to_promote_a_clause_to_the_playbook.dita
+2026-08-20T07:11:56 [INFO] [137/194] promoting_clauses_to_playbook_102413208.ditamap
+2026-08-20T07:11:56 [INFO] [138/194] reconciliation.dita
+2026-08-20T07:11:56 [INFO] [139/194] to_check_in_and_reconcile_smart_fields_and_clauses.dita
+2026-08-20T07:11:56 [INFO] [140/194] reconciliation_102413214.ditamap
+2026-08-20T07:11:56 [INFO] [141/194] prerequisite.dita
+2026-08-20T07:11:56 [INFO] [142/194] refreshing_clauses_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [143/194] restrictions.dita
+2026-08-20T07:11:56 [INFO] [144/194] to_refresh_clauses_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [145/194] refreshing_clauses_in_a_templa_102413230.ditamap
+2026-08-20T07:11:56 [INFO] [146/194] restricting_agreement_document_checkin_and_check_out.dita
+2026-08-20T07:11:56 [INFO] [147/194] use_case.dita
+2026-08-20T07:11:56 [INFO] [148/194] restricting_agreement_document_102421117.ditamap
+2026-08-20T07:11:56 [INFO] [149/194] checking_in_a_reviewed_document.dita
+2026-08-20T07:11:56 [INFO] [150/194] prerequisites.dita
+2026-08-20T07:11:56 [INFO] [151/194] restriction.dita
+2026-08-20T07:11:56 [INFO] [152/194] sending_an_agreement_document_for_parallel_review.dita
+2026-08-20T07:11:56 [INFO] [153/194] to_send_an_agreement_document_for_review.dita
+2026-08-20T07:11:56 [INFO] [154/194] sending_an_agreement_document_102426165.ditamap
+2026-08-20T07:11:56 [INFO] [155/194] setting_segments_in_templates.dita
+2026-08-20T07:11:56 [INFO] [156/194] to_delete_a_conditional_segment_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [157/194] to_delete_a_style_for_a_segment_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [158/194] to_make_a_segment_conditional_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [159/194] to_set_a_style_for_a_segment_in_a_template.dita
+2026-08-20T07:11:56 [INFO] [160/194] setting_segments_in_templates_102413240.ditamap
+2026-08-20T07:11:56 [INFO] [161/194] adding_filter_logic.dita
+2026-08-20T07:11:56 [INFO] [162/194] template_expression_builder.dita
+2026-08-20T07:11:56 [INFO] [163/194] template_expression_builder_102413239.ditamap
+2026-08-20T07:11:56 [INFO] [164/194] tracking_clauses_in_your_agreement_document.dita
+2026-08-20T07:11:56 [INFO] [165/194] tracking_clauses_in_your_agree_102413219.ditamap
+2026-08-20T07:11:56 [INFO] [166/194] clearing_cache_from_imac_desktop.dita
+2026-08-20T07:11:56 [INFO] [167/194] clearing_cache_from_macbook.dita
+2026-08-20T07:11:56 [INFO] [168/194] to_remove_library_cache.dita
+2026-08-20T07:11:56 [INFO] [169/194] to_remove_the_microsoft_application_cache.dita
+2026-08-20T07:11:56 [INFO] [170/194] troubleshooting_manifest_file_change_errors.dita
+2026-08-20T07:11:56 [INFO] [171/194] troubleshooting_manifest_file_102413242.ditamap
+2026-08-20T07:11:56 [INFO] [172/194] prerequisite.dita
+2026-08-20T07:11:56 [INFO] [173/194] to_unlock_or_lock_readonly_clauses.dita
+2026-08-20T07:11:56 [INFO] [174/194] unlocking_read_only_clauses.dita
+2026-08-20T07:11:56 [INFO] [175/194] unlocking_read_only_clauses_102426929.ditamap
+2026-08-20T07:11:56 [INFO] [176/194] to_update_from_contract_management.dita
+2026-08-20T07:11:56 [INFO] [177/194] updating_fields_from_contract_management.dita
+2026-08-20T07:11:56 [INFO] [178/194] updating_fields_from_contract_102413215.ditamap
+2026-08-20T07:11:56 [INFO] [179/194] to_search_clauses_in_the_playbook.dita
+2026-08-20T07:11:56 [INFO] [180/194] using_playbook.dita
+2026-08-20T07:11:56 [INFO] [181/194] using_playbook_102413205.ditamap
+2026-08-20T07:11:56 [INFO] [182/194] to_delete_a_clause.dita
+2026-08-20T07:11:56 [INFO] [183/194] to_insert_a_clause_from_playbook_into_a_template.dita
+2026-08-20T07:11:56 [INFO] [184/194] using_playbook_for_templates.dita
+2026-08-20T07:11:56 [INFO] [185/194] using_playbook_for_templates_102413225.ditamap
+2026-08-20T07:11:56 [INFO] [186/194] working_with_agreements.dita
+2026-08-20T07:11:56 [INFO] [187/194] working_with_agreements_102413202.ditamap
+2026-08-20T07:11:56 [INFO] [188/194] working_with_files.dita
+2026-08-20T07:11:56 [INFO] [189/194] working_with_files_102421124.ditamap
+2026-08-20T07:11:56 [INFO] [190/194] working_with_templates.dita
+2026-08-20T07:11:56 [INFO] [191/194] working_with_templates_102413220.ditamap
+2026-08-20T07:11:56 [INFO] [192/194] xauthor_contracts_for_cloud_on_salesforce_summer_2019_user_guide.dita
+2026-08-20T07:11:56 [INFO] [193/194] x_author_contracts_for_cloud_o_102413195.ditamap
+2026-08-20T07:11:56 [INFO] [194/194] x_author_for_contracts_cloud.ditamap
+2026-08-20T07:11:56 [INFO] XSLT transform: 5 common XSL sheets + doctype-specific final stage → xslt_output/
+2026-08-20T07:11:57 [INFO] Schematron: validating 194 DITA files (gates 1-4).
+2026-08-20T07:11:57 [INFO] Found 194 files to validate.
+2026-08-20T07:11:57 [INFO] [  1/194] whats_new.dita
+2026-08-20T07:12:00 [INFO] [  2/194] 102413196.ditamap
+2026-08-20T07:12:00 [INFO] [  3/194] use_case_managing_localization.dita
+2026-08-20T07:12:00 [INFO] [  4/194] 102420611.ditamap
+2026-08-20T07:12:00 [INFO] [  5/194] about_template_clauses_menu.dita
+2026-08-20T07:12:00 [INFO] [  6/194] to_view_a_clause.dita
+2026-08-20T07:12:00 [INFO] [  7/194] about_template_clauses_menu_102413226.ditamap
+2026-08-20T07:12:00 [INFO] [  8/194] about_xauthor_contracts_for_cloud.dita
+2026-08-20T07:12:00 [INFO] [  9/194] about_x_author_contracts_for_c_102413197.ditamap
+2026-08-20T07:12:00 [INFO] [ 10/194] appendix.dita
+2026-08-20T07:12:00 [INFO] [ 11/194] appendix_102413241.ditamap
+2026-08-20T07:12:00 [INFO] [ 12/194] apttus_copyright_disclaimer.dita
+2026-08-20T07:12:00 [INFO] [ 13/194] apttus_copyright_disclaimer_102413243.ditamap
+2026-08-20T07:12:00 [INFO] [ 14/194] checking_in_an_agreement_document.dita
+2026-08-20T07:12:00 [INFO] [ 15/194] to_check_in_an_agreement_document.dita
+2026-08-20T07:12:00 [INFO] [ 16/194] checking_in_an_agreement_docum_102413213.ditamap
+2026-08-20T07:12:00 [INFO] [ 17/194] checking_in_templates.dita
+2026-08-20T07:12:00 [INFO] [ 18/194] to_checkin_a_template.dita
+2026-08-20T07:12:00 [INFO] [ 19/194] checking_in_templates_102413223.ditamap
+2026-08-20T07:12:00 [INFO] [ 20/194] clauses.dita
+2026-08-20T07:12:00 [INFO] [ 21/194] clauses_102413224.ditamap
+2026-08-20T07:12:00 [INFO] [ 22/194] cloning_a_template.dita
+2026-08-20T07:12:00 [INFO] [ 23/194] to_clone_a_template_from_an_existing_template.dita
+2026-08-20T07:12:00 [INFO] [ 24/194] cloning_a_template_102413238.ditamap
+2026-08-20T07:12:00 [INFO] [ 25/194] compare_vs_merge.dita
+2026-08-20T07:12:00 [INFO] [ 26/194] comparing_and_merging_agreement_documents.dita
+2026-08-20T07:12:00 [INFO] [ 27/194] to_compare_different_versions_of_an_agreement_document.dita
+2026-08-20T07:12:00 [INFO] [ 28/194] to_merge_different_versions_of_an_agreement_document.dita
+2026-08-20T07:12:00 [INFO] [ 29/194] comparing_and_merging_agreemen_102424195.ditamap
+2026-08-20T07:12:00 [INFO] [ 30/194] creating_new_templates.dita
+2026-08-20T07:12:00 [INFO] [ 31/194] to_create_a_new_template.dita
+2026-08-20T07:12:00 [INFO] [ 32/194] creating_new_templates_102413222.ditamap
+2026-08-20T07:12:00 [INFO] [ 33/194] creating_offline_agreements.dita
+2026-08-20T07:12:00 [INFO] [ 34/194] to_create_an_offline_agreement.dita
+2026-08-20T07:12:00 [INFO] [ 35/194] creating_offline_agreements_102413217.ditamap
+2026-08-20T07:12:00 [INFO] [ 36/194] best_practices_and_xauthor_contracts_behavior_when_deleting_smart_elements_or_read_only_fields.dita
+2026-08-20T07:12:00 [INFO] [ 37/194] deleting_smart_elements_using_delete_or_backspace_key.dita
+2026-08-20T07:12:00 [INFO] [ 38/194] to_delete_a_read_only_field.dita
+2026-08-20T07:12:00 [INFO] [ 39/194] to_delete_a_repeattable.dita
+2026-08-20T07:12:00 [INFO] [ 40/194] to_delete_a_smart_field_smart_clause_or_repeat_section.dita
+2026-08-20T07:12:00 [INFO] [ 41/194] deleting_smart_elements_using_102413237.ditamap
+2026-08-20T07:12:00 [INFO] [ 42/194] doc_clauses.dita
+2026-08-20T07:12:00 [INFO] [ 43/194] to_mark_a_clause_for_deletion.dita
+2026-08-20T07:12:00 [INFO] [ 44/194] to_unmark_a_clause.dita
+2026-08-20T07:12:00 [INFO] [ 45/194] to_view_a_clause.dita
+2026-08-20T07:12:00 [INFO] [ 46/194] unmarking_a_clause.dita
+2026-08-20T07:12:00 [INFO] [ 47/194] doc_clauses_102413211.ditamap
+2026-08-20T07:12:00 [INFO] [ 48/194] doc_fields.dita
+2026-08-20T07:12:00 [INFO] [ 49/194] marking_fields.dita
+2026-08-20T07:12:01 [INFO] [ 50/194] marking_fields_for_deletion.dita
+2026-08-20T07:12:01 [INFO] [ 51/194] rejecting_changes_to_a_field.dita
+2026-08-20T07:12:01 [INFO] [ 52/194] to_mark_a_field_in_an_agreement.dita
+2026-08-20T07:12:01 [INFO] [ 53/194] to_mark_fields_for_deletion.dita
+2026-08-20T07:12:01 [INFO] [ 54/194] to_reject_changes.dita
+2026-08-20T07:12:01 [INFO] [ 55/194] to_unmark_fields_for_deletion.dita
+2026-08-20T07:12:01 [INFO] [ 56/194] to_validate_fields.dita
+2026-08-20T07:12:01 [INFO] [ 57/194] to_view_and_change_fields.dita
+2026-08-20T07:12:01 [INFO] [ 58/194] validating_fields.dita
+2026-08-20T07:12:01 [INFO] [ 59/194] doc_fields_102413212.ditamap
+2026-08-20T07:12:01 [INFO] [ 60/194] fields.dita
+2026-08-20T07:12:01 [INFO] [ 61/194] fields_102413231.ditamap
+2026-08-20T07:12:01 [INFO] [ 62/194] getting_started.dita
+2026-08-20T07:12:01 [INFO] [ 63/194] getting_started_102413198.ditamap
+2026-08-20T07:12:01 [INFO] [ 64/194] hiding_or_showing_smart_boundaries.dita
+2026-08-20T07:12:01 [INFO] [ 65/194] prerequisite.dita
+2026-08-20T07:12:01 [INFO] [ 66/194] to_hide_smart_boundaries_in_an_agreement_document.dita
+2026-08-20T07:12:01 [INFO] [ 67/194] to_see_smart_boundaries_in_an_agreement_document.dita
+2026-08-20T07:12:01 [INFO] [ 68/194] hiding_or_showing_smart_bounda_102413210.ditamap
+2026-08-20T07:12:01 [INFO] [ 69/194] importing_offline_agreements.dita
+2026-08-20T07:12:01 [INFO] [ 70/194] to_import_an_offline_agreement.dita
+2026-08-20T07:12:01 [INFO] [ 71/194] importing_offline_agreements_102413218.ditamap
+2026-08-20T07:12:01 [INFO] [ 72/194] space_details.dita
+2026-08-20T07:12:01 [INFO] [ 73/194] index.ditamap
+2026-08-20T07:12:01 [INFO] [ 74/194] inserting_clauses.dita
+2026-08-20T07:12:01 [INFO] [ 75/194] to_insert_a_clause.dita
+2026-08-20T07:12:01 [INFO] [ 76/194] inserting_clauses_102413206.ditamap
+2026-08-20T07:12:01 [INFO] [ 77/194] inserting_fields_in_a_template.dita
+2026-08-20T07:12:01 [INFO] [ 78/194] inserting_fields_in_a_template_102413232.ditamap
+2026-08-20T07:12:01 [INFO] [ 79/194] inserting_fields_in_a_template_as_a_table.dita
+2026-08-20T07:12:01 [INFO] [ 80/194] inserting_fields_in_a_template_102413235.ditamap
+2026-08-20T07:12:01 [INFO] [ 81/194] inserting_fields_in_a_template_as_a_section.dita
+2026-08-20T07:12:01 [INFO] [ 82/194] inserting_fields_in_a_template_102413236.ditamap
+2026-08-20T07:12:01 [INFO] [ 83/194] installing_xauthor_contracts.dita
+2026-08-20T07:12:01 [INFO] [ 84/194] system_requirements.dita
+2026-08-20T07:12:01 [INFO] [ 85/194] to_configure_the_manifest_file_in_your_system.dita
+2026-08-20T07:12:01 [INFO] [ 86/194] to_install_the_xauthor_contracts_addin.dita
+2026-08-20T07:12:01 [INFO] [ 87/194] to_launch_the_xauthor_contracts_addin.dita
+2026-08-20T07:12:01 [INFO] [ 88/194] installing_x_author_contracts_102413199.ditamap
+2026-08-20T07:12:01 [INFO] [ 89/194] installing_xauthor_contracts_without_an_installer.dita
+2026-08-20T07:12:01 [INFO] [ 90/194] to_create_an_xml_manifest_file.dita
+2026-08-20T07:12:01 [INFO] [ 91/194] installing_x_author_contracts_102413200.ditamap
+2026-08-20T07:12:01 [INFO] [ 92/194] localization.dita
+2026-08-20T07:12:01 [INFO] [ 93/194] localization_102415463.ditamap
+2026-08-20T07:12:01 [INFO] [ 94/194] locking_and_unlocking_documents.dita
+2026-08-20T07:12:01 [INFO] [ 95/194] to_release_a_document_lock.dita
+2026-08-20T07:12:01 [INFO] [ 96/194] locking_and_unlocking_document_102413204.ditamap
+2026-08-20T07:12:01 [INFO] [ 97/194] logging_in_to_xauthor_contracts.dita
+2026-08-20T07:12:01 [INFO] [ 98/194] prerequisite.dita
+2026-08-20T07:12:01 [INFO] [ 99/194] to_log_in_to_xauthor_contracts.dita
+2026-08-20T07:12:01 [INFO] [100/194] logging_in_to_x_author_contrac_102413201.ditamap
+2026-08-20T07:12:01 [INFO] [101/194] making_clauses_conditionbased_in_a_template.dita
+2026-08-20T07:12:01 [INFO] [102/194] to_add_a_condition_to_a_clause.dita
+2026-08-20T07:12:01 [INFO] [103/194] making_clauses_condition_based_102413228.ditamap
+2026-08-20T07:12:01 [INFO] [104/194] making_clauses_smart_in_a_template.dita
+2026-08-20T07:12:02 [INFO] [105/194] to_make_a_clause_smart_in_a_template.dita
+2026-08-20T07:12:02 [INFO] [106/194] making_clauses_smart_in_a_temp_102413227.ditamap
+2026-08-20T07:12:02 [INFO] [107/194] making_fields_read_only_in_a_template.dita
+2026-08-20T07:12:02 [INFO] [108/194] to_mark_a_field_readonly.dita
+2026-08-20T07:12:02 [INFO] [109/194] making_fields_read_only_in_a_t_102413233.ditamap
+2026-08-20T07:12:02 [INFO] [110/194] making_fields_smart_in_a_template.dita
+2026-08-20T07:12:02 [INFO] [111/194] to_mark_a_field_as_smart.dita
+2026-08-20T07:12:02 [INFO] [112/194] making_fields_smart_in_a_templ_102413234.ditamap
+2026-08-20T07:12:02 [INFO] [113/194] marking_clauses.dita
+2026-08-20T07:12:02 [INFO] [114/194] to_mark_a_clause.dita
+2026-08-20T07:12:02 [INFO] [115/194] to_mark_a_new_clause.dita
+2026-08-20T07:12:02 [INFO] [116/194] marking_clauses_102413207.ditamap
+2026-08-20T07:12:02 [INFO] [117/194] marking_clauses_in_a_template.dita
+2026-08-20T07:12:02 [INFO] [118/194] to_mark_a_clause_in_a_template.dita
+2026-08-20T07:12:02 [INFO] [119/194] marking_clauses_in_a_template_102413229.ditamap
+2026-08-20T07:12:02 [INFO] [120/194] marking_fields.dita
+2026-08-20T07:12:02 [INFO] [121/194] to_mark_a_field_in_an_agreement.dita
+2026-08-20T07:12:02 [INFO] [122/194] marking_fields_107120058.ditamap
+2026-08-20T07:12:02 [INFO] [123/194] opening_agreements_in_contract_management.dita
+2026-08-20T07:12:02 [INFO] [124/194] to_open_an_agreement_in_contract_management.dita
+2026-08-20T07:12:02 [INFO] [125/194] opening_agreements_in_contract_102413216.ditamap
+2026-08-20T07:12:02 [INFO] [126/194] opening_an_agreement_document.dita
+2026-08-20T07:12:02 [INFO] [127/194] to_open_or_open_and_update_an_agreement_document.dita
+2026-08-20T07:12:02 [INFO] [128/194] opening_an_agreement_document_102413203.ditamap
+2026-08-20T07:12:02 [INFO] [129/194] opening_templates.dita
+2026-08-20T07:12:02 [INFO] [130/194] to_open_a_template.dita
+2026-08-20T07:12:02 [INFO] [131/194] opening_templates_102413221.ditamap
+2026-08-20T07:12:02 [INFO] [132/194] preview_reconciliation.dita
+2026-08-20T07:12:02 [INFO] [133/194] to_preview_reconciliation.dita
+2026-08-20T07:12:02 [INFO] [134/194] preview_reconciliation_102413209.ditamap
+2026-08-20T07:12:02 [INFO] [135/194] promoting_clauses_to_playbook.dita
+2026-08-20T07:12:02 [INFO] [136/194] to_promote_a_clause_to_the_playbook.dita
+2026-08-20T07:12:02 [INFO] [137/194] promoting_clauses_to_playbook_102413208.ditamap
+2026-08-20T07:12:02 [INFO] [138/194] reconciliation.dita
+2026-08-20T07:12:02 [INFO] [139/194] to_check_in_and_reconcile_smart_fields_and_clauses.dita
+2026-08-20T07:12:02 [INFO] [140/194] reconciliation_102413214.ditamap
+2026-08-20T07:12:02 [INFO] [141/194] prerequisite.dita
+2026-08-20T07:12:02 [INFO] [142/194] refreshing_clauses_in_a_template.dita
+2026-08-20T07:12:02 [INFO] [143/194] restrictions.dita
+2026-08-20T07:12:02 [INFO] [144/194] to_refresh_clauses_in_a_template.dita
+2026-08-20T07:12:02 [INFO] [145/194] refreshing_clauses_in_a_templa_102413230.ditamap
+2026-08-20T07:12:02 [INFO] [146/194] restricting_agreement_document_checkin_and_check_out.dita
+2026-08-20T07:12:02 [INFO] [147/194] use_case.dita
+2026-08-20T07:12:02 [INFO] [148/194] restricting_agreement_document_102421117.ditamap
+2026-08-20T07:12:02 [INFO] [149/194] checking_in_a_reviewed_document.dita
+2026-08-20T07:12:02 [INFO] [150/194] prerequisites.dita
+2026-08-20T07:12:02 [INFO] [151/194] restriction.dita
+2026-08-20T07:12:02 [INFO] [152/194] sending_an_agreement_document_for_parallel_review.dita
+2026-08-20T07:12:02 [INFO] [153/194] to_send_an_agreement_document_for_review.dita
+2026-08-20T07:12:02 [INFO] [154/194] sending_an_agreement_document_102426165.ditamap
+2026-08-20T07:12:02 [INFO] [155/194] setting_segments_in_templates.dita
+2026-08-20T07:12:02 [INFO] [156/194] to_delete_a_conditional_segment_in_a_template.dita
+2026-08-20T07:12:02 [INFO] [157/194] to_delete_a_style_for_a_segment_in_a_template.dita
+2026-08-20T07:12:02 [INFO] [158/194] to_make_a_segment_conditional_in_a_template.dita
+2026-08-20T07:12:02 [INFO] [159/194] to_set_a_style_for_a_segment_in_a_template.dita
+2026-08-20T07:12:02 [INFO] [160/194] setting_segments_in_templates_102413240.ditamap
+2026-08-20T07:12:02 [INFO] [161/194] adding_filter_logic.dita
+2026-08-20T07:12:02 [INFO] [162/194] template_expression_builder.dita
+2026-08-20T07:12:02 [INFO] [163/194] template_expression_builder_102413239.ditamap
+2026-08-20T07:12:02 [INFO] [164/194] tracking_clauses_in_your_agreement_document.dita
+2026-08-20T07:12:02 [INFO] [165/194] tracking_clauses_in_your_agree_102413219.ditamap
+2026-08-20T07:12:02 [INFO] [166/194] clearing_cache_from_imac_desktop.dita
+2026-08-20T07:12:02 [INFO] [167/194] clearing_cache_from_macbook.dita
+2026-08-20T07:12:02 [INFO] [168/194] to_remove_library_cache.dita
+2026-08-20T07:12:02 [INFO] [169/194] to_remove_the_microsoft_application_cache.dita
+2026-08-20T07:12:02 [INFO] [170/194] troubleshooting_manifest_file_change_errors.dita
+2026-08-20T07:12:02 [INFO] [171/194] troubleshooting_manifest_file_102413242.ditamap
+2026-08-20T07:12:02 [INFO] [172/194] prerequisite.dita
+2026-08-20T07:12:02 [INFO] [173/194] to_unlock_or_lock_readonly_clauses.dita
+2026-08-20T07:12:02 [INFO] [174/194] unlocking_read_only_clauses.dita
+2026-08-20T07:12:02 [INFO] [175/194] unlocking_read_only_clauses_102426929.ditamap
+2026-08-20T07:12:02 [INFO] [176/194] to_update_from_contract_management.dita
+2026-08-20T07:12:02 [INFO] [177/194] updating_fields_from_contract_management.dita
+2026-08-20T07:12:02 [INFO] [178/194] updating_fields_from_contract_102413215.ditamap
+2026-08-20T07:12:02 [INFO] [179/194] to_search_clauses_in_the_playbook.dita
+2026-08-20T07:12:02 [INFO] [180/194] using_playbook.dita
+2026-08-20T07:12:02 [INFO] [181/194] using_playbook_102413205.ditamap
+2026-08-20T07:12:02 [INFO] [182/194] to_delete_a_clause.dita
+2026-08-20T07:12:02 [INFO] [183/194] to_insert_a_clause_from_playbook_into_a_template.dita
+2026-08-20T07:12:02 [INFO] [184/194] using_playbook_for_templates.dita
+2026-08-20T07:12:02 [INFO] [185/194] using_playbook_for_templates_102413225.ditamap
+2026-08-20T07:12:02 [INFO] [186/194] working_with_agreements.dita
+2026-08-20T07:12:02 [INFO] [187/194] working_with_agreements_102413202.ditamap
+2026-08-20T07:12:03 [INFO] [188/194] working_with_files.dita
+2026-08-20T07:12:03 [INFO] [189/194] working_with_files_102421124.ditamap
+2026-08-20T07:12:03 [INFO] [190/194] working_with_templates.dita
+2026-08-20T07:12:03 [INFO] [191/194] working_with_templates_102413220.ditamap
+2026-08-20T07:12:03 [INFO] [192/194] xauthor_contracts_for_cloud_on_salesforce_summer_2019_user_guide.dita
+2026-08-20T07:12:03 [INFO] [193/194] x_author_contracts_for_cloud_o_102413195.ditamap
+2026-08-20T07:12:03 [INFO] [194/194] x_author_for_contracts_cloud.ditamap
+2026-08-20T07:12:03 [INFO] Found 194 files to validate.
+2026-08-20T07:12:03 [INFO] [  1/194] whats_new.dita
+2026-08-20T07:12:03 [INFO] [  2/194] 102413196.ditamap
+2026-08-20T07:12:03 [INFO] [  3/194] use_case_managing_localization.dita
+2026-08-20T07:12:03 [INFO] [  4/194] 102420611.ditamap
+2026-08-20T07:12:03 [INFO] [  5/194] about_template_clauses_menu.dita
+2026-08-20T07:12:03 [INFO] [  6/194] to_view_a_clause.dita
+2026-08-20T07:12:03 [INFO] [  7/194] about_template_clauses_menu_102413226.ditamap
+2026-08-20T07:12:03 [INFO] [  8/194] about_xauthor_contracts_for_cloud.dita
+2026-08-20T07:12:03 [INFO] [  9/194] about_x_author_contracts_for_c_102413197.ditamap
+2026-08-20T07:12:03 [INFO] [ 10/194] appendix.dita
+2026-08-20T07:12:03 [INFO] [ 11/194] appendix_102413241.ditamap
+2026-08-20T07:12:03 [INFO] [ 12/194] apttus_copyright_disclaimer.dita
+2026-08-20T07:12:03 [INFO] [ 13/194] apttus_copyright_disclaimer_102413243.ditamap
+2026-08-20T07:12:03 [INFO] [ 14/194] checking_in_an_agreement_document.dita
+2026-08-20T07:12:03 [INFO] [ 15/194] to_check_in_an_agreement_document.dita
+2026-08-20T07:12:03 [INFO] [ 16/194] checking_in_an_agreement_docum_102413213.ditamap
+2026-08-20T07:12:03 [INFO] [ 17/194] checking_in_templates.dita
+2026-08-20T07:12:03 [INFO] [ 18/194] to_checkin_a_template.dita
+2026-08-20T07:12:03 [INFO] [ 19/194] checking_in_templates_102413223.ditamap
+2026-08-20T07:12:03 [INFO] [ 20/194] clauses.dita
+2026-08-20T07:12:03 [INFO] [ 21/194] clauses_102413224.ditamap
+2026-08-20T07:12:03 [INFO] [ 22/194] cloning_a_template.dita
+2026-08-20T07:12:03 [INFO] [ 23/194] to_clone_a_template_from_an_existing_template.dita
+2026-08-20T07:12:03 [INFO] [ 24/194] cloning_a_template_102413238.ditamap
+2026-08-20T07:12:03 [INFO] [ 25/194] compare_vs_merge.dita
+2026-08-20T07:12:03 [INFO] [ 26/194] comparing_and_merging_agreement_documents.dita
+2026-08-20T07:12:03 [INFO] [ 27/194] to_compare_different_versions_of_an_agreement_document.dita
+2026-08-20T07:12:03 [INFO] [ 28/194] to_merge_different_versions_of_an_agreement_document.dita
+2026-08-20T07:12:03 [INFO] [ 29/194] comparing_and_merging_agreemen_102424195.ditamap
+2026-08-20T07:12:03 [INFO] [ 30/194] creating_new_templates.dita
+2026-08-20T07:12:03 [INFO] [ 31/194] to_create_a_new_template.dita
+2026-08-20T07:12:03 [INFO] [ 32/194] creating_new_templates_102413222.ditamap
+2026-08-20T07:12:03 [INFO] [ 33/194] creating_offline_agreements.dita
+2026-08-20T07:12:03 [INFO] [ 34/194] to_create_an_offline_agreement.dita
+2026-08-20T07:12:03 [INFO] [ 35/194] creating_offline_agreements_102413217.ditamap
+2026-08-20T07:12:03 [INFO] [ 36/194] best_practices_and_xauthor_contracts_behavior_when_deleting_smart_elements_or_read_only_fields.dita
+2026-08-20T07:12:03 [INFO] [ 37/194] deleting_smart_elements_using_delete_or_backspace_key.dita
+2026-08-20T07:12:03 [INFO] [ 38/194] to_delete_a_read_only_field.dita
+2026-08-20T07:12:03 [INFO] [ 39/194] to_delete_a_repeattable.dita
+2026-08-20T07:12:03 [INFO] [ 40/194] to_delete_a_smart_field_smart_clause_or_repeat_section.dita
+2026-08-20T07:12:03 [INFO] [ 41/194] deleting_smart_elements_using_102413237.ditamap
+2026-08-20T07:12:03 [INFO] [ 42/194] doc_clauses.dita
+2026-08-20T07:12:03 [INFO] [ 43/194] to_mark_a_clause_for_deletion.dita
+2026-08-20T07:12:03 [INFO] [ 44/194] to_unmark_a_clause.dita
+2026-08-20T07:12:03 [INFO] [ 45/194] to_view_a_clause.dita
+2026-08-20T07:12:03 [INFO] [ 46/194] unmarking_a_clause.dita
+2026-08-20T07:12:03 [INFO] [ 47/194] doc_clauses_102413211.ditamap
+2026-08-20T07:12:03 [INFO] [ 48/194] doc_fields.dita
+2026-08-20T07:12:03 [INFO] [ 49/194] marking_fields.dita
+2026-08-20T07:12:03 [INFO] [ 50/194] marking_fields_for_deletion.dita
+2026-08-20T07:12:03 [INFO] [ 51/194] rejecting_changes_to_a_field.dita
+2026-08-20T07:12:03 [INFO] [ 52/194] to_mark_a_field_in_an_agreement.dita
+2026-08-20T07:12:03 [INFO] [ 53/194] to_mark_fields_for_deletion.dita
+2026-08-20T07:12:03 [INFO] [ 54/194] to_reject_changes.dita
+2026-08-20T07:12:03 [INFO] [ 55/194] to_unmark_fields_for_deletion.dita
+2026-08-20T07:12:03 [INFO] [ 56/194] to_validate_fields.dita
+2026-08-20T07:12:03 [INFO] [ 57/194] to_view_and_change_fields.dita
+2026-08-20T07:12:03 [INFO] [ 58/194] validating_fields.dita
+2026-08-20T07:12:03 [INFO] [ 59/194] doc_fields_102413212.ditamap
+2026-08-20T07:12:03 [INFO] [ 60/194] fields.dita
+2026-08-20T07:12:03 [INFO] [ 61/194] fields_102413231.ditamap
+2026-08-20T07:12:03 [INFO] [ 62/194] getting_started.dita
+2026-08-20T07:12:03 [INFO] [ 63/194] getting_started_102413198.ditamap
+2026-08-20T07:12:03 [INFO] [ 64/194] hiding_or_showing_smart_boundaries.dita
+2026-08-20T07:12:03 [INFO] [ 65/194] prerequisite.dita
+2026-08-20T07:12:03 [INFO] [ 66/194] to_hide_smart_boundaries_in_an_agreement_document.dita
+2026-08-20T07:12:03 [INFO] [ 67/194] to_see_smart_boundaries_in_an_agreement_document.dita
+2026-08-20T07:12:03 [INFO] [ 68/194] hiding_or_showing_smart_bounda_102413210.ditamap
+2026-08-20T07:12:03 [INFO] [ 69/194] importing_offline_agreements.dita
+2026-08-20T07:12:03 [INFO] [ 70/194] to_import_an_offline_agreement.dita
+2026-08-20T07:12:03 [INFO] [ 71/194] importing_offline_agreements_102413218.ditamap
+2026-08-20T07:12:03 [INFO] [ 72/194] space_details.dita
+2026-08-20T07:12:03 [INFO] [ 73/194] index.ditamap
+2026-08-20T07:12:03 [INFO] [ 74/194] inserting_clauses.dita
+2026-08-20T07:12:03 [INFO] [ 75/194] to_insert_a_clause.dita
+2026-08-20T07:12:03 [INFO] [ 76/194] inserting_clauses_102413206.ditamap
+2026-08-20T07:12:03 [INFO] [ 77/194] inserting_fields_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [ 78/194] inserting_fields_in_a_template_102413232.ditamap
+2026-08-20T07:12:03 [INFO] [ 79/194] inserting_fields_in_a_template_as_a_table.dita
+2026-08-20T07:12:03 [INFO] [ 80/194] inserting_fields_in_a_template_102413235.ditamap
+2026-08-20T07:12:03 [INFO] [ 81/194] inserting_fields_in_a_template_as_a_section.dita
+2026-08-20T07:12:03 [INFO] [ 82/194] inserting_fields_in_a_template_102413236.ditamap
+2026-08-20T07:12:03 [INFO] [ 83/194] installing_xauthor_contracts.dita
+2026-08-20T07:12:03 [INFO] [ 84/194] system_requirements.dita
+2026-08-20T07:12:03 [INFO] [ 85/194] to_configure_the_manifest_file_in_your_system.dita
+2026-08-20T07:12:03 [INFO] [ 86/194] to_install_the_xauthor_contracts_addin.dita
+2026-08-20T07:12:03 [INFO] [ 87/194] to_launch_the_xauthor_contracts_addin.dita
+2026-08-20T07:12:03 [INFO] [ 88/194] installing_x_author_contracts_102413199.ditamap
+2026-08-20T07:12:03 [INFO] [ 89/194] installing_xauthor_contracts_without_an_installer.dita
+2026-08-20T07:12:03 [INFO] [ 90/194] to_create_an_xml_manifest_file.dita
+2026-08-20T07:12:03 [INFO] [ 91/194] installing_x_author_contracts_102413200.ditamap
+2026-08-20T07:12:03 [INFO] [ 92/194] localization.dita
+2026-08-20T07:12:03 [INFO] [ 93/194] localization_102415463.ditamap
+2026-08-20T07:12:03 [INFO] [ 94/194] locking_and_unlocking_documents.dita
+2026-08-20T07:12:03 [INFO] [ 95/194] to_release_a_document_lock.dita
+2026-08-20T07:12:03 [INFO] [ 96/194] locking_and_unlocking_document_102413204.ditamap
+2026-08-20T07:12:03 [INFO] [ 97/194] logging_in_to_xauthor_contracts.dita
+2026-08-20T07:12:03 [INFO] [ 98/194] prerequisite.dita
+2026-08-20T07:12:03 [INFO] [ 99/194] to_log_in_to_xauthor_contracts.dita
+2026-08-20T07:12:03 [INFO] [100/194] logging_in_to_x_author_contrac_102413201.ditamap
+2026-08-20T07:12:03 [INFO] [101/194] making_clauses_conditionbased_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [102/194] to_add_a_condition_to_a_clause.dita
+2026-08-20T07:12:03 [INFO] [103/194] making_clauses_condition_based_102413228.ditamap
+2026-08-20T07:12:03 [INFO] [104/194] making_clauses_smart_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [105/194] to_make_a_clause_smart_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [106/194] making_clauses_smart_in_a_temp_102413227.ditamap
+2026-08-20T07:12:03 [INFO] [107/194] making_fields_read_only_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [108/194] to_mark_a_field_readonly.dita
+2026-08-20T07:12:03 [INFO] [109/194] making_fields_read_only_in_a_t_102413233.ditamap
+2026-08-20T07:12:03 [INFO] [110/194] making_fields_smart_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [111/194] to_mark_a_field_as_smart.dita
+2026-08-20T07:12:03 [INFO] [112/194] making_fields_smart_in_a_templ_102413234.ditamap
+2026-08-20T07:12:03 [INFO] [113/194] marking_clauses.dita
+2026-08-20T07:12:03 [INFO] [114/194] to_mark_a_clause.dita
+2026-08-20T07:12:03 [INFO] [115/194] to_mark_a_new_clause.dita
+2026-08-20T07:12:03 [INFO] [116/194] marking_clauses_102413207.ditamap
+2026-08-20T07:12:03 [INFO] [117/194] marking_clauses_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [118/194] to_mark_a_clause_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [119/194] marking_clauses_in_a_template_102413229.ditamap
+2026-08-20T07:12:03 [INFO] [120/194] marking_fields.dita
+2026-08-20T07:12:03 [INFO] [121/194] to_mark_a_field_in_an_agreement.dita
+2026-08-20T07:12:03 [INFO] [122/194] marking_fields_107120058.ditamap
+2026-08-20T07:12:03 [INFO] [123/194] opening_agreements_in_contract_management.dita
+2026-08-20T07:12:03 [INFO] [124/194] to_open_an_agreement_in_contract_management.dita
+2026-08-20T07:12:03 [INFO] [125/194] opening_agreements_in_contract_102413216.ditamap
+2026-08-20T07:12:03 [INFO] [126/194] opening_an_agreement_document.dita
+2026-08-20T07:12:03 [INFO] [127/194] to_open_or_open_and_update_an_agreement_document.dita
+2026-08-20T07:12:03 [INFO] [128/194] opening_an_agreement_document_102413203.ditamap
+2026-08-20T07:12:03 [INFO] [129/194] opening_templates.dita
+2026-08-20T07:12:03 [INFO] [130/194] to_open_a_template.dita
+2026-08-20T07:12:03 [INFO] [131/194] opening_templates_102413221.ditamap
+2026-08-20T07:12:03 [INFO] [132/194] preview_reconciliation.dita
+2026-08-20T07:12:03 [INFO] [133/194] to_preview_reconciliation.dita
+2026-08-20T07:12:03 [INFO] [134/194] preview_reconciliation_102413209.ditamap
+2026-08-20T07:12:03 [INFO] [135/194] promoting_clauses_to_playbook.dita
+2026-08-20T07:12:03 [INFO] [136/194] to_promote_a_clause_to_the_playbook.dita
+2026-08-20T07:12:03 [INFO] [137/194] promoting_clauses_to_playbook_102413208.ditamap
+2026-08-20T07:12:03 [INFO] [138/194] reconciliation.dita
+2026-08-20T07:12:03 [INFO] [139/194] to_check_in_and_reconcile_smart_fields_and_clauses.dita
+2026-08-20T07:12:03 [INFO] [140/194] reconciliation_102413214.ditamap
+2026-08-20T07:12:03 [INFO] [141/194] prerequisite.dita
+2026-08-20T07:12:03 [INFO] [142/194] refreshing_clauses_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [143/194] restrictions.dita
+2026-08-20T07:12:03 [INFO] [144/194] to_refresh_clauses_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [145/194] refreshing_clauses_in_a_templa_102413230.ditamap
+2026-08-20T07:12:03 [INFO] [146/194] restricting_agreement_document_checkin_and_check_out.dita
+2026-08-20T07:12:03 [INFO] [147/194] use_case.dita
+2026-08-20T07:12:03 [INFO] [148/194] restricting_agreement_document_102421117.ditamap
+2026-08-20T07:12:03 [INFO] [149/194] checking_in_a_reviewed_document.dita
+2026-08-20T07:12:03 [INFO] [150/194] prerequisites.dita
+2026-08-20T07:12:03 [INFO] [151/194] restriction.dita
+2026-08-20T07:12:03 [INFO] [152/194] sending_an_agreement_document_for_parallel_review.dita
+2026-08-20T07:12:03 [INFO] [153/194] to_send_an_agreement_document_for_review.dita
+2026-08-20T07:12:03 [INFO] [154/194] sending_an_agreement_document_102426165.ditamap
+2026-08-20T07:12:03 [INFO] [155/194] setting_segments_in_templates.dita
+2026-08-20T07:12:03 [INFO] [156/194] to_delete_a_conditional_segment_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [157/194] to_delete_a_style_for_a_segment_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [158/194] to_make_a_segment_conditional_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [159/194] to_set_a_style_for_a_segment_in_a_template.dita
+2026-08-20T07:12:03 [INFO] [160/194] setting_segments_in_templates_102413240.ditamap
+2026-08-20T07:12:03 [INFO] [161/194] adding_filter_logic.dita
+2026-08-20T07:12:03 [INFO] [162/194] template_expression_builder.dita
+2026-08-20T07:12:03 [INFO] [163/194] template_expression_builder_102413239.ditamap
+2026-08-20T07:12:03 [INFO] [164/194] tracking_clauses_in_your_agreement_document.dita
+2026-08-20T07:12:03 [INFO] [165/194] tracking_clauses_in_your_agree_102413219.ditamap
+2026-08-20T07:12:03 [INFO] [166/194] clearing_cache_from_imac_desktop.dita
+2026-08-20T07:12:03 [INFO] [167/194] clearing_cache_from_macbook.dita
+2026-08-20T07:12:03 [INFO] [168/194] to_remove_library_cache.dita
+2026-08-20T07:12:03 [INFO] [169/194] to_remove_the_microsoft_application_cache.dita
+2026-08-20T07:12:03 [INFO] [170/194] troubleshooting_manifest_file_change_errors.dita
+2026-08-20T07:12:03 [INFO] [171/194] troubleshooting_manifest_file_102413242.ditamap
+2026-08-20T07:12:03 [INFO] [172/194] prerequisite.dita
+2026-08-20T07:12:03 [INFO] [173/194] to_unlock_or_lock_readonly_clauses.dita
+2026-08-20T07:12:03 [INFO] [174/194] unlocking_read_only_clauses.dita
+2026-08-20T07:12:03 [INFO] [175/194] unlocking_read_only_clauses_102426929.ditamap
+2026-08-20T07:12:03 [INFO] [176/194] to_update_from_contract_management.dita
+2026-08-20T07:12:03 [INFO] [177/194] updating_fields_from_contract_management.dita
+2026-08-20T07:12:03 [INFO] [178/194] updating_fields_from_contract_102413215.ditamap
+2026-08-20T07:12:03 [INFO] [179/194] to_search_clauses_in_the_playbook.dita
+2026-08-20T07:12:03 [INFO] [180/194] using_playbook.dita
+2026-08-20T07:12:03 [INFO] [181/194] using_playbook_102413205.ditamap
+2026-08-20T07:12:03 [INFO] [182/194] to_delete_a_clause.dita
+2026-08-20T07:12:03 [INFO] [183/194] to_insert_a_clause_from_playbook_into_a_template.dita
+2026-08-20T07:12:03 [INFO] [184/194] using_playbook_for_templates.dita
+2026-08-20T07:12:03 [INFO] [185/194] using_playbook_for_templates_102413225.ditamap
+2026-08-20T07:12:03 [INFO] [186/194] working_with_agreements.dita
+2026-08-20T07:12:03 [INFO] [187/194] working_with_agreements_102413202.ditamap
+2026-08-20T07:12:03 [INFO] [188/194] working_with_files.dita
+2026-08-20T07:12:03 [INFO] [189/194] working_with_files_102421124.ditamap
+2026-08-20T07:12:03 [INFO] [190/194] working_with_templates.dita
+2026-08-20T07:12:03 [INFO] [191/194] working_with_templates_102413220.ditamap
+2026-08-20T07:12:04 [INFO] [192/194] xauthor_contracts_for_cloud_on_salesforce_summer_2019_user_guide.dita
+2026-08-20T07:12:04 [INFO] [193/194] x_author_contracts_for_cloud_o_102413195.ditamap
+2026-08-20T07:12:04 [INFO] [194/194] x_author_for_contracts_cloud.ditamap
+
+================================================================================
+Success: Post-flight validation completed successfully.
+================================================================================

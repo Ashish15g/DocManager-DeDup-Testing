@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="to_sort_and_group_list_ranges_fa2054" xml:lang="en-us">
+   <title>To sort and group List Ranges</title>
+   <shortdesc>Best Practice</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>field</keyword>
+        <keyword>Display</keyword>
+        <keyword>Account</keyword>
+        <keyword>Opportunity</keyword>
+        <keyword>Group</keyword>
+        <keyword>clicks</keyword>
+        <indexterm>field</indexterm>
+        <indexterm>Display</indexterm>
+        <indexterm>Account</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <ol>
+    <li>From the Display Map panel, click on the <b>Type</b> picklist and select <b>"</b>List."</li>
+    <li>Click the <b>Options</b> tab.</li>
+    <li>(Optional) Type a description in the Header field to display above the label row of the list range.</li>
+    <li>For <b>Sort by field 1</b> and <b>Sort by field 2</b>, select an individual column to sort by. Choose whether records will be sorted in Ascending or Descending order.</li>
+    <li><p>For <b>Group by field 1 </b>and <b>Group by field 2</b>, select a column in the repeating range to group by.</p>
+      <note type="note">
+                  <p>Best Practice</p>
+                  <p>Fields you intend to Group by should be mapped at the leftmost side of the List Range when you create a Display Map.</p>
+               </note></li>
+    <li><p>Click Save.</p>
+      <fig>
+                  <title>98668136</title>
+                  <image href="../attachments/98667695/98668136.png" width="646" height="523" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li>Danny decides that the Display Map he created (see <xref href="../working_with_display_maps_98667693/working_with_display_maps.dita">Working with Display Maps</xref>) needs some grouping and sorting options. He clicks on <b>Display Map</b>, selects the "Pipeline Main" map and clicks <b>Edit</b>.</li>
+    <li>From the Display Map panel, Danny clicks on the <b>Type</b> picklist and selects "List."</li>
+    <li><p>He clicks on the <b>Options</b> tab in the Display Map panel and selects the following options:Objects: Account.OpportunityLayout: VerticalSort by field 1: Account.Opportunity.NameGroup by field 1: Account.Opportunity.Owner (Name)Group by field 2: Account.Opportunity.Account (Name)</p>
+      <fig>
+                  <title>98668132</title>
+                  <image href="../attachments/98667695/98668132.png" width="470" height="278" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+      <ul>
+                  <li>Objects: Account.Opportunity</li>
+                  <li>Layout: Vertical</li>
+                  <li>Sort by field 1: Account.Opportunity.Name</li>
+                  <li>Group by field 1: Account.Opportunity.Owner (Name)</li>
+                  <li>Group by field 2: Account.Opportunity.Account (Name)</li>
+               </ul></li>
+    <li><p>To improve the appearance of the app, Danny removes the bracketed text from each cell in row 4, removes the gridlines and adds some color to the app.</p>
+      <fig>
+                  <title>98668131</title>
+                  <image href="../attachments/98667695/98668131.png" width="816" height="195" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li>He clicks <b>Save </b>on the Display Map and <b>Close</b>.</li>
+    <li>Danny clicks <b>Save App</b> to save all changes to the app.</li>
+    </ol>
+    </section>
+<section>
+      <title>Result</title>
+      <p>Grouping and Sorting support for numbers, decimals and currency</p>
+         <p>Support is included for both single and two levels of grouping in Display Maps:</p>
+         <ul>
+            <li>You can total all numbers, decimals and currency fields</li>
+            <li>You can create totals on all Formula fields. Totals are displayed for formula fields having datatype as number, decimal and currency.</li>
+         </ul>
+         <fig>
+            <title>98668130</title>
+            <image href="../attachments/98667695/98668130.png" width="222" height="199" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+         <p>Use Case: Sales Pipeline Display Map Part 2</p>
+    </section></refbody>
+</reference>

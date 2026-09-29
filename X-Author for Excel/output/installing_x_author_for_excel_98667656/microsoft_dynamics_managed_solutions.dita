@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="microsoft_dynamics_managed_solutions_7ffc59" xml:lang="en-us">
+   <title>Microsoft Dynamics Managed Solutions</title>
+     <shortdesc>The following Microsoft Dynamics managed solution must be installed:</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Excel</keyword>
+        <keyword>Author</keyword>
+        <keyword>Microsoft</keyword>
+        <keyword>Dynamics</keyword>
+        <keyword>Managed</keyword>
+        <keyword>solution</keyword>
+        <indexterm>Excel</indexterm>
+        <indexterm>Author</indexterm>
+        <indexterm>Microsoft</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>The following Microsoft Dynamics managed solution must be installed: </p><table>
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <thead>
+               <row>
+                  <entry>
+                     <p>Component</p>
+                  </entry>
+                  <entry>
+                     <p>Type</p>
+                  </entry>
+                  <entry>
+                     <p>Notes</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>XAuthorForExcelSolution_0_1</p>
+                  </entry>
+                  <entry>
+                     <p>Microsoft Managed Solution</p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>This solution must be installed first.</b>
+                     </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table><p>User must have System Administrator Role.</p><p>You must have an Apttus Omni hosted tenant and the Excel add-in for each user.</p><p>Designers will see both the X-Author Designer and X-Author for Excel tabs in the Excel menu. End users should install the runtime-only add-in and they will see only the X-Author for Excel tab.</p><p>The installation process creates a folder on your computer that contains the files required to use both the X-Author Designer and the X-Author for Excel tabs in Excel. Depending on the version of Windows you are using, the folder is created either in your Program Files or Program Files (x86) directory.</p><ul>
+            <li>
+               <b>For Designers</b>, install the <i>X-Author for Excel Add In : Designer + Runtime </i>Microsoft Excel. </li>
+            <li>
+               <b>For Runtime Users</b>, install the <i>X-Author for Excel Add In : Runtime Only</i> version.</li>
+         </ul>
+  </context></taskbody>
+</task>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="updating_records_during_migration_182b16" xml:lang="en-us">
+   <title>Updating Records during Migration</title>
+   <shortdesc>As part of the migration, you may choose to update (or upsert) existing records in</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>migration</keyword>
+        <keyword>records</keyword>
+        <keyword>source</keyword>
+        <keyword>Diana</keyword>
+        <keyword>update</keyword>
+        <keyword>Migration</keyword>
+        <indexterm>migration</indexterm>
+        <indexterm>records</indexterm>
+        <indexterm>source</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>As part of the migration, you may choose to update (or upsert) existing records in the target org with updated data from the source org. In this case, you are updating or upserting data from the source org records to target org records. You do this by modifying the exported data from the source org prior to migration. You can also update/upsert records following the initial migration by reusing source data in a subsequent migration. The following use case shows an example of this.</p>
+         <p>Use Case: Updating Records after Migration</p>
+         <p>Diana Designer has performed an initial migration of data from a source production org to a target production org. After the migration, she decides that she would like to perform some updates to some Opportunities in the migration. Diana can use X-Author functionality to update (or upsert) records by modifying the same source data she used during the initial migration.</p>
+         <p>She performs the following steps to update the migration data:</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Diana connects to the <b>Target Org</b> and reopens the Data Migration app in <b>X-Author for Excel Runtime</b>.</cmd>
+         </step>
+         <step>
+            <cmd>She selects <b>Edit &gt; Paste from Mapping</b>. Diana browses to the source data workbook from the previous migration and opens it in the app. The <b>Account</b> worksheet is displayed.</cmd>
+            <info>
+               <fig>
+                  <title>98668116</title>
+                  <image href="../attachments/98667705/98668116.png" width="657" height="300" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Diana chooses to update some Account phone numbers.</cmd>
+            <info>
+               <fig>
+                  <title>98668115</title>
+                  <image href="../attachments/98667705/98668115.png" width="655" height="300" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>She then moves to the Opportunity worksheet. 
+
+
+
+</cmd>
+            <info>
+               <fig>
+                  <title>98668114</title>
+                  <image href="../attachments/98667705/98668114.png" width="688" height="300" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Diana modifies some Opportunity amounts.</cmd>
+            <info>
+               <fig>
+                  <title>98668113</title>
+                  <image href="../attachments/98667705/98668113.png" width="710" height="300" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Diana selects <b>Target Org &gt; Save All</b>. She has successfully upserted the migrated records.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Note</p>
+         <p>You can also add rows using the method to Insert new records. Because the workbook is protected, you must copy an existing row, use the "Paste Values Only" action from the X-Author ribbon and make changes (remember to remove the Target Record ID if one is displayed).</p>
+      </result>
+   </taskbody>
+</task>

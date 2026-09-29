@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="making_an_app_launchready_from_salesforce_25f677" xml:lang="en-us">
+   <title>Making an App Launch-Ready from Salesforce</title>
+     <shortdesc>An app needs an Action Flow to be specified to automatically run when the app</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Action</keyword>
+        <keyword>Flow</keyword>
+        <keyword>Launch</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>launched</keyword>
+        <keyword>Making</keyword>
+        <indexterm>Action</indexterm>
+        <indexterm>Flow</indexterm>
+        <indexterm>Launch</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>An app needs an Action Flow to be specified to automatically run when the app is launched. There are two ways to specify an Action Flow:</p><ul>
+         <li>
+            <b>Named Action Flow </b>(from Option 1, above). Enter the name of the Action Flow from the App that you want to execute on launch by defining the <b>actionflowName</b> parameter. This is recommended when the same app is required to be launched from different object records.</li>
+         <li>
+            <b>Auto-Execute</b> configuration from the App (Option 1 or 2, above). From the X-Author for Excel Designer ribbon in the app, click <b>Action Flow</b>. Click the check box for the correct action flow under "Auto-Execute (Launch from Salesforce") and save the app. Only one Action Flow can be selected.
+
+<fig>
+               <title>190354576</title>
+               <image href="../attachments/98667728/190354576.png" placement="break" width="570" height="349">
+                  <alt>placeholder</alt>
+               </image>
+            </fig>
+         </li>
+      </ul>
+  </context></taskbody>
+</task>

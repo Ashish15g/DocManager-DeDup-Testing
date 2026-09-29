@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_promote_a_clause_to_the_playbook_c3e39d" xml:lang="en-us">
+   <title>To promote a clause to the Playbook</title>
+   <shortdesc>Description</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>clause</keyword>
+        <keyword>Promote</keyword>
+        <keyword>Playbook</keyword>
+        <keyword>Enter</keyword>
+        <keyword>promote</keyword>
+        <keyword>Clauses</keyword>
+        <indexterm>clause</indexterm>
+        <indexterm>Promote</indexterm>
+        <indexterm>Playbook</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <b>Work tab &gt; Promote Clauses</b>. If you cannot see Promote Clauses under the <b>Work</b> tab, click the more icon  and from the menu, select <b>Promote Clauses</b>.</cmd>
+            <info>
+               <image href="../attachments/102413208/102413432.png" width="6" height="19" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>From the list of marked clauses, select the clause you want to promote to the clause library and click <b>Promote Clause</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Promote Clause form, specify the following details,</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Field</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Clause Name</p>
+                           </entry>
+                           <entry>
+                              <p>Enter a new name of the clause.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Category</p>
+                           </entry>
+                           <entry>
+                              <p>Select a category for your clause. The values of the categories are defined by your admin and help in filtering the clauses.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Subcategory</p>
+                           </entry>
+                           <entry>
+                              <p>Select a sub category for your clause. Options in the list will change based on the category you selected.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Language</p>
+                           </entry>
+                           <entry>
+                              <p>Choose the default clause language.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                           <entry>
+                              <p>Enter a new description or modify the existing description for the clause. Maximum of 255 characters (an error will be thrown if this limit is exceeded).</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Guidance</p>
+                           </entry>
+                           <entry>
+                              <p>Enter new guidance or modify existing guidance to help users determine the purpose of the clause.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Keywords</p>
+                           </entry>
+                           <entry>
+                              <p>Enter comma-separated keywords to associate with the template. Keywords make it easier to search the templates.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Your have promoted the clause to the Playbook. You can open the Playbook and search the promoted clause to use it in any other document or template.</p>
+      </result>
+   </taskbody>
+</task>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_connect_to_apttus_omni_from_xauthor_designer_725b0d" xml:lang="en-us">
+   <title>To connect to Apttus Omni from X-Author Designer</title>
+   <shortdesc>If you have previously connected to your environment, but need to connect to a different</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Author</keyword>
+        <keyword>connect</keyword>
+        <keyword>Designer</keyword>
+        <keyword>environment</keyword>
+        <keyword>Apttus</keyword>
+        <keyword>Omni</keyword>
+        <indexterm>Author</indexterm>
+        <indexterm>connect</indexterm>
+        <indexterm>Designer</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Excel.</cmd>
+         </step>
+         <step>
+            <cmd>In the X-Author Designer or X-Author for Excel ribbon menu, click <b>Connect</b>. 
+If this is the first time you have connected to your environment, the Manage Connections window opens. 
+
+
+ </cmd>
+            <info>
+               <fig>
+                  <title>98667986</title>
+                  <image href="../attachments/98667665/98667986.png" width="584" height="450" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Under the Create a new connection section, in the first field, enter a name for your connection.
+</cmd>
+            <info>
+               <p> </p>
+            </info>
+            <info>
+               <note type="note">
+                  <p>If you have previously connected to your environment, but need to connect to a different instance, refer to <i>
+                        <xref href="#connectingtoyourenvironmentfromexcelswitchconnect">Switching Connections</xref>
+                     </i>.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>In the second field, enter the URL you use to log in to your environment.</cmd>
+         </step>
+         <step>
+            <cmd>Click Authorize. The Microsoft login window opens.</cmd>
+            <info>
+               <p>
+</p>
+            </info>
+            <info>
+               <note type="note">
+                  <p>If you have previously connected to Microsoft Dynamics CRM, you will see the last user information by default. To log in to your Apttus Omni instance, click "+ Use another account" to log in.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter your username and password in the provided fields and click Sign in.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The X-Author Designer ribbon is fully enabled. Now you can start, designing an app or using existing apps.</p>
+         <p>You can use X-Author for Excel to connect to multiple instances of your environment.</p>
+      </result>
+   </taskbody>
+</task>

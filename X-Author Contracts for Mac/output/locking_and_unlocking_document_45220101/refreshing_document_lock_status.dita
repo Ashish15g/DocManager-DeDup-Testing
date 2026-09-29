@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="refreshing_document_lock_status_209be5" xml:lang="en-us">
+   <title>Refreshing document lock status</title>
+     <shortdesc>Because more than one user may have access to agreement documents on an agreement record,</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Jun 02, 2017"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>document</keyword>
+        <keyword>status</keyword>
+        <keyword>another</keyword>
+        <keyword>Lock</keyword>
+        <keyword>agreement</keyword>
+        <keyword>checked</keyword>
+        <indexterm>document</indexterm>
+        <indexterm>status</indexterm>
+        <indexterm>another</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Because more than one user may have access to agreement documents on an agreement record, you may come across a situation where another user has checked out the document. </p><p>From the Lock Status tab, you can click the <b>Refresh Lock</b> button at any time to display the current lock status for the open document (except for when you have checked out the document already). If the document is checked out by another user, the only actions you can take are to <b>List Agreements</b> and Refresh Lock. </p><ul>
+         <li>
+            <p>Consider the following example:</p>
+         </li>
+         <li>
+            <p>Use Case: Reacquiring the document lock from another user</p>
+            <p>You have opened a contract document version from the agreement's Document Version Details in Microsoft Word. Another user checks out the document before you.</p>
+         </li>
+         <li>
+            <p>A message is displayed showing that the other user controls the lock.</p>
+         </li>
+      </ul><fig>
+         <title>49676312</title>
+         <image href="../attachments/45220101/49676312.png" height="1600" width="2560" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig><ul>
+         <li>
+            <p>The document cannot be checked out, because another user has already locked it. </p>
+            <p>You click on the <b>Lock Status</b> tab to view the current lock status. The "Document locked by" field shows the document is locked by another user.</p>
+         </li>
+      </ul><fig>
+         <title>49676313</title>
+         <image href="../attachments/45220101/49676313.png" height="1276" width="702" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig><p>The other user releases the document lock or checks in a new version. You click <b>Refresh Lock</b> to refresh the current lock status. The pane refreshes, showing updated lock status details.</p><fig>
+         <title>49676311</title>
+         <image href="../attachments/45220101/49676311.png" height="978" width="680" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig><p>You click <b>Acquire Lock</b> to lock the document and start working. All menu items are enabled.</p>
+  </context></taskbody>
+</task>

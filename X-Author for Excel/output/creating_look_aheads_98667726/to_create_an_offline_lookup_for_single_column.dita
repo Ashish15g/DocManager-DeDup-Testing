@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_an_offline_lookup_for_single_column_9fed9a" xml:lang="en-us">
+   <title>To create an offline lookup for single column</title>
+   <shortdesc>The first time a lookup is initiated by the end user, the lookup function loads</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>lookup</keyword>
+        <keyword>Display</keyword>
+        <keyword>click</keyword>
+        <keyword>create</keyword>
+        <keyword>offline</keyword>
+        <keyword>single</keyword>
+        <indexterm>lookup</indexterm>
+        <indexterm>Display</indexterm>
+        <indexterm>click</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <b>Display Map</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select a Display Map and click <b>Edit</b>. The Display Map panel opens.</cmd>
+         </step>
+         <step>
+            <cmd>In the Mapped Details section of the Display Map pane, click the magnify icon  to open lookup properties for that field. The X-Author Designer window opens.</cmd>
+            <info>
+               <image href="../attachments/98667726/98668079.jpg" width="21" height="23" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <info>
+               <fig>
+                  <title>98668082</title>
+                  <image href="../attachments/98667726/98668082.png" width="621" height="178" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the <b>Excel (Offline) </b>radio button.
+</cmd>
+         </step>
+         <step>
+            <cmd>From Range Selection, click <b>Get Current Selection</b> and highlight the list values in the worksheet.</cmd>
+            <info>
+               <note type="note">
+                  <p>The first time a lookup is initiated by the end user, the lookup function loads data from the worksheet and stores it in the Lookup window for quick results on successive lookups. If you expect changes in lookup data, then refresh the lookup fields every time you load the lookup by selecting the <b>Refresh data on every load</b> check box.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>. </cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_delete_a_repeattable_ea9995" xml:lang="en-us">
+   <title>To delete a repeat-table</title>
+   <shortdesc>The cell values are deleted but the table remains with blank cells. When you delete</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>table</keyword>
+        <keyword>delete</keyword>
+        <keyword>repeat</keyword>
+        <keyword>value</keyword>
+        <keyword>smart</keyword>
+        <keyword>remains</keyword>
+        <indexterm>table</indexterm>
+        <indexterm>delete</indexterm>
+        <indexterm>repeat</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Identify the smart table in the document.</cmd>
+         </step>
+         <step>
+            <cmd>Click the vertical ellipsis icon  on the content control border of the table.</cmd>
+            <info>
+               <image href="../attachments/102413237/102413415.jpg" width="43" height="52" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>Press <b>Delete</b> or <b>Backspace</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The cell values are deleted but the table remains with blank cells. When you delete a cell value within a table, the changes are shown as strikethrough in the reconcile smart fields in table screen. The new value column remains blank and the previous value is shown as strikethrough. However, this practice is not recommended because if you delete a cell in a repeat a table, you may see some issues during reconciliation.</p>
+      </result>
+   </taskbody>
+</task>

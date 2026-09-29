@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_show_query_filters_in_the_worksheet_429388" xml:lang="en-us">
+   <title>To show query filters in the worksheet</title>
+   <shortdesc>Perform the following optional steps when creating a Display Map if you want to display</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>filters</keyword>
+        <keyword>query</keyword>
+        <keyword>Display</keyword>
+        <keyword>location</keyword>
+        <keyword>worksheet</keyword>
+        <keyword>display</keyword>
+        <indexterm>filters</indexterm>
+        <indexterm>query</indexterm>
+        <indexterm>Display</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>Perform the following optional steps when creating a Display Map if you want to display the filters used in any Query or Search &amp; Select actions used to display records for the specified Display Map.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Select the <b>Show Query Filters</b> check box.</cmd>
+         </step>
+         <step>
+            <cmd>Select one or more <b>Display Map Objects</b> for which you want to display the query filters for during runtime. </cmd>
+         </step>
+         <step>
+            <cmd>For each Display Map object selected, enter a worksheet cell location in the <b>Filter Location in Excel </b>field. At runtime, all configured filters for queries used in that Display Map are populated in the specified cell location. For example, specifying the filter location <b>Sheet2!B2</b> displays query filters for the corresponding Display Map object in the cell <b>B2</b> on <b>Sheet 2</b>. You can also specify a named range as a filter location.</cmd>
+            <info>
+               <fig>
+                  <title>190354471</title>
+                  <image href="../attachments/98667691/190354471.png" width="438" height="308" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>
+            <b>Runtime Behavior:</b> When the App is executed during runtime, the query filter is displayed in Sheet 2 in cell B2. The query filters can also be displayed in merged cells.</p>
+         <fig>
+            <title>98667801</title>
+            <image href="../attachments/98667691/98667801.png" width="624" height="72" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+      </result>
+   </taskbody>
+</task>

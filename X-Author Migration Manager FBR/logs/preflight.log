@@ -1,0 +1,42 @@
+================================================================================
+ metR HTML DocMigrate — PRE-FLIGHT REPORT
+================================================================================
+ Total HTML Files  : 4
+ Total Media Files     : 1
+
+ Started               : 2026-08-20 06:59:54 UTC
+ Completed             : 2026-08-20 06:59:54 UTC
+ Duration              : <1s
+ Overall Status        : SUCCESS WITH WARNINGS
+--------------------------------------------------------------------------------
+
+2026-08-20T06:59:54 [INFO] STEP 2: Preflight checks (4 files)
+2026-08-20T06:59:54 [INFO] Pre-flight [apttus_copyright_disclaimer_109940507.html]: errors=0 warnings=0 infos=1 | PASS
+2026-08-20T06:59:54 [INFO] Preflight OK: apttus_copyright_disclaimer_109940507.html
+2026-08-20T06:59:54 [INFO] Pre-flight [feature_list_109940506.html]: errors=0 warnings=0 infos=1 | PASS
+2026-08-20T06:59:54 [INFO] Preflight OK: feature_list_109940506.html
+2026-08-20T06:59:54 [INFO] Pre-flight [x_author_migration_manager_on_salesforce_features_by_release_109940505.html]: errors=0 warnings=1 infos=1 | PASS
+2026-08-20T06:59:54 [INFO] Preflight OK: x_author_migration_manager_on_salesforce_features_by_release_109940505.html
+2026-08-20T06:59:54 [INFO] Pre-flight [index.html]: errors=0 warnings=1 infos=0 | PASS
+2026-08-20T06:59:54 [INFO] Preflight OK: index.html
+2026-08-20T06:59:54 [INFO] Preflight done: 4 checked, 0 blocked
+
+
+CHECKS
+--------------------------------------------------------------------------------
+ File                                    Rule
+--------------------------------------------------------------------------------
+ x_author_migration_manager_on_salesforce_features_by_release_109940505.html
+                                         CHECK_MULTIPLE_H1
+                                         Multiple <h1> elements found (2) — only
+                                         first will be used as DITAMAP title
+
+ index.html                              CHECK_MISSING_ALT
+                                         <img> missing alt attribute: images/ico
+                                         ns/contenttypes/home_page_16.png
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ 4 HTML files checked with 2 warning(s) and 0 non-blocking error(s).
+================================================================================
+Success: Pre-flight analysis completed successfully.
+================================================================================

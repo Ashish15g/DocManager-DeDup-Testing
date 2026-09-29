@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="creating_user_menus_98058d" xml:lang="en-us">
+   <title>Creating User Menus</title>
+     <shortdesc>User Menus allow the Designer to create menus that the end user will see in</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Microsoft</keyword>
+        <keyword>Author</keyword>
+        <keyword>User</keyword>
+        <keyword>Menus</keyword>
+        <keyword>Designer</keyword>
+        <keyword>allow</keyword>
+        <indexterm>Microsoft</indexterm>
+        <indexterm>Author</indexterm>
+        <indexterm>User</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>User Menus allow the Designer to create menus that the end user will see in their Microsoft Excel ribbon when they open an X-Author App in runtime. There are two types of menu items:
+ </p><ul>
+         <li>Configurable menu buttons that execute the Action Flows.</li>
+         <li>Optional standard buttons that the Designer can use to allow the end user to add rows, delete rows, use special paste functions, and have access to embedded X-Author Chatter.</li>
+      </ul><p>Chatter relates to Salesforce and hence is not supported in Microsoft Dynamics and Apttus Omni. Add columns menu is supported as part of Matrix Map.</p><ul>
+         <li>Groups: These divide the menu buttons into logical areas for the end user. For example, on the X-Author Designer menu, the groups are Create, Build, Save, Migrate, and Access.</li>
+         <li>Buttons: These are the menu commands within each menu Group. At least one group and one button within that group are required.<b>Standard Microsoft Excel Ribbon</b>
+            <b>
+               <fig><title>98667793</title><image href="../attachments/98667673/98667793.png" placement="break" width="1372" height="317">
+                  <alt>placeholder</alt>
+               </image>
+            </fig></b>
+            <b>X-Author Ribbon
+
+<fig><title>98667795</title><image href="../attachments/98667673/98667795.png" placement="break" width="1013" height="183">
+                  <alt>placeholder</alt>
+               </image>
+            </fig></b>
+         </li>
+      </ul><ul>
+         <li>
+            <b>Microsoft Icons</b>
+For icons, X-Author uses the standard Microsoft Office icon list, which can be found here: <xref href="http://www.microsoft.com/en-us/download/details.aspx?id=21103" scope="external" format="html">http://www.microsoft.com/en-us/download/details.aspx?id=21103</xref>. Use the procedure below or any other icon from the list. You must enter the icon capitalization exactly as described in the procedure.</li>
+      </ul>
+  </context></taskbody>
+</task>

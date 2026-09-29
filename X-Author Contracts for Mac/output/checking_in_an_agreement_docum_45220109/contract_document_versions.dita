@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="contract_document_versions_07b77f" xml:lang="en-us">
+   <title>Contract Document Versions</title>
+     <shortdesc>When you check in documents from X-Author, document versions are incremented based on Contract Document</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Oct 10, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>rating</keyword>
+        <keyword>display</keyword>
+        <keyword>Filter</keyword>
+        <keyword>include</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>version</keyword>
+        <indexterm>rating</indexterm>
+        <indexterm>display</indexterm>
+        <indexterm>Filter</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>When you check in documents from X-Author, document versions are incremented based on Contract Document Versioning. For example, if you work with version 1.0.0 (the first generated draft of an agreement), and check it in as a new redlined version, the version of the document increments to a new "negotiator" version, version 1.1.0. The following section describes how Contract Document Versioning works. Keep in mind that minor (reviewer) versions cannot be created from the X-Author client but that you may work potentially check out reviewer versions as part of the negotiation process.</p>
+<fig>
+            <title>Unknown Macro</title>
+            <image href="../plugins/servlet/confluence/placeholder/unknown-macro" width="600" height="400" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+<fig>
+            <title>Loading Mini</title>
+            <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/loading_mini.gif" width="0px" height="0px" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+<fig>
+            <title>Rater</title>
+            <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/rater.gif" width="0px" height="0px" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+<table>
+         <tgroup cols="9">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <colspec colname="c4"/>
+            <colspec colname="c5"/>
+            <colspec colname="c6"/>
+            <colspec colname="c7"/>
+            <colspec colname="c8"/>
+            <colspec colname="c9"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Your Rating:</p>
+                  </entry>
+                  <entry>
+                     <p>Thanks for voting!</p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref href="/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220109&amp;rating=1&amp;redirect=true">/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220109&amp;rating=1&amp;redirect=true</xref>
+                        <xref href="/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220109&amp;rating=2&amp;redirect=true">/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220109&amp;rating=2&amp;redirect=true</xref>
+                        <xref href="/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220109&amp;rating=3&amp;redirect=true">/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220109&amp;rating=3&amp;redirect=true</xref>
+                        <xref href="/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220109&amp;rating=4&amp;redirect=true">/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220109&amp;rating=4&amp;redirect=true</xref>
+                        <xref href="/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220109&amp;rating=5&amp;redirect=true">/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220109&amp;rating=5&amp;redirect=true</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <fig>
+                           <title>Blank</title>
+                           <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/blank.gif" placement="break" width="600" height="400">
+                              <alt>Please Wait</alt>
+                           </image>
+                        </fig></entry>
+                  <entry>
+                     <p>
+ Please Wait
+ </p>
+                  </entry>
+                  <entry>
+                     <p>Results:</p>
+                  </entry>
+                  <entry>
+                     <fig>
+                           <title>Blank</title>
+                           <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/blank.gif" placement="break" width="600" height="400">
+                              <alt>5 Star</alt>
+                           </image>
+                        </fig><fig>
+                           <title>Blank</title>
+                           <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/blank.gif" placement="break" width="600" height="400">
+                              <alt>4 Star</alt>
+                           </image>
+                        </fig><fig>
+                           <title>Blank</title>
+                           <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/blank.gif" placement="break" width="600" height="400">
+                              <alt>3 Star</alt>
+                           </image>
+                        </fig><fig>
+                           <title>Blank</title>
+                           <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/blank.gif" placement="break" width="600" height="400">
+                              <alt>2 Star</alt>
+                           </image>
+                        </fig><fig>
+                           <title>Blank</title>
+                           <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/blank.gif" placement="break" width="600" height="400">
+                              <alt>1 Star</alt>
+                           </image>
+                        </fig></entry>
+                  <entry>
+                     <p>0</p>
+                  </entry>
+                  <entry>
+                     <p>rates</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+<p>If you gave us a low rating, please email us your feedback at documentation@apttus.com.</p></conbody>
+</concept>

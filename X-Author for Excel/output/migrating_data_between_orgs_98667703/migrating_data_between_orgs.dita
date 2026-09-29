@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="migrating_data_between_orgs_14e551" xml:lang="en-us">
+   <title>Migrating Data Between Orgs</title>
+     <shortdesc>Refer to Using the Data Migration Wizard for step-by-step instructions using the Data Migration Wizard</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Data</keyword>
+        <keyword>Migration</keyword>
+        <keyword>between</keyword>
+        <keyword>Migrating</keyword>
+        <keyword>Wizard</keyword>
+        <keyword>create</keyword>
+        <indexterm>Data</indexterm>
+        <indexterm>Migration</indexterm>
+        <indexterm>between</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Refer to <xref href="../using_the_data_migration_wizar_98667704/using_the_data_migration_wizard.dita">Using the Data Migration Wizard</xref> for step-by-step instructions using the Data Migration Wizard to create an app for data migration between orgs.</p><p>
+Migrating data requires the following functions:</p><ul>
+         <li>Source Data provides a mapping mechanism for helping to migrate data between orgs.</li>
+         <li>It is combined with the Paste from Mapping menu option in runtime or Paste Source Data action function to copy data from an entire workbook to another workbook in the desired format.</li>
+      </ul><p>The most common use case for this is for migrating data from one instance to another far more easily and quickly than can be done with the traditional single object data loading tools. The source App is for downloading all the data you need to migrate. Each object can be represented in one worksheet for example. The target app is a replica of the source app except it is for uploading data to the target org. The Source Data function provides the mapping between the Apps.</p><p>You could also choose to create a more advanced single app that handles both the source download and target upload. For this, you would need to make use of both the Switch Connection and Clear Actions as well.</p>
+  </context></taskbody>
+</task>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="save_attachment_action_ae5212" xml:lang="en-us">
+   <title>Save Attachment Action</title>
+     <shortdesc>The Save Attachment action saves the entire workbook or specific worksheets to the Notes and</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>action</keyword>
+        <keyword>filename</keyword>
+        <keyword>Save</keyword>
+        <keyword>Attachment</keyword>
+        <keyword>attachment</keyword>
+        <keyword>extension</keyword>
+        <indexterm>action</indexterm>
+        <indexterm>filename</indexterm>
+        <indexterm>Save</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>The Save Attachment action saves the entire workbook or specific worksheets to the Notes and Attachments section of an Individual object. A new attachment is inserted each time this action is executed. This action does not provide any file locking. Use a Check-Out action if the file locking is required.</p>
+      <ul>
+         <li>
+            <p>An attachment can be saved either in an Excel or PDF file format.</p>
+         </li>
+         <li>
+            <p>When an attachment is downloaded, the file name is the actual filename in your environment. <b>&lt;filename&gt;.&lt;extension&gt;</b>
+            </p>
+         </li>
+         <li>
+            <p>Limitation in Apttus Intelligent Cloud environment</p>
+         </li>
+         <li>
+            <p>You cannot retrieve attachments.</p>
+            <p>If a file with the same name and extension exists, a sequence number is appended after the filename, such as <b>&lt;filename&gt; (2).&lt;extension&gt;</b> and <b>&lt;filename&gt; (3).&lt;extension&gt;</b>.</p>
+         </li>
+         <li>
+            <p>To create a Save Attachment action, at least one object must be identified as an <i>Individual</i>.</p>
+         </li>
+      </ul>
+   </conbody>
+</concept>

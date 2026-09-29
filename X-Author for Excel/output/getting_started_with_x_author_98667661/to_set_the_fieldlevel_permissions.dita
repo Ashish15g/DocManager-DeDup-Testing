@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_set_the_fieldlevel_permissions_db4571" xml:lang="en-us">
+   <title>To set the field-level permissions</title>
+   <shortdesc>After you install X-Author for Excel, you must provide users with the proper permissions for</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>field</keyword>
+        <keyword>permissions</keyword>
+        <keyword>Click</keyword>
+        <keyword>level</keyword>
+        <keyword>managed</keyword>
+        <keyword>Rakesh</keyword>
+        <indexterm>field</indexterm>
+        <indexterm>permissions</indexterm>
+        <indexterm>Click</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In Salesforce App Setup, go to <b>Create &gt; Objects &gt; App</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Custom Fields and Relationships</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Activated</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Set Field Level Security</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Make sure that the <b>Visible</b> check box is selected for every profile that requires app access.</cmd>
+         </step>
+         <step>
+            <cmd>Repeat steps 3 – 5 for the <b>UniqueId</b> custom field definition.</cmd>
+         </step>
+         <step>
+            <cmd>Click Save.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>After you install X-Author for Excel, you must provide users with the proper permissions for accessing the managed solutions. Additionally, you must set field-level permissions on the App object that is created during the installation of the managed solution.</p>
+      </result>
+   </taskbody>
+</task>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="installing_xauthor_for_contracts_advanced_v20240810_82e6fc" xml:lang="en-us">
+   <title>Installing X-Author for Contracts Advanced v202408.1.0</title>
+   <shortdesc>To install X-Author for Contracts Advanced, you can use the Centralized Deployment Method or the</shortdesc>
+   <prolog>
+      <author type="creator">Jessica Halbhuber</author>
+      <critdates>
+         <created date="Aug 26, 2024"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>environment</keyword>
+        <keyword>Conga</keyword>
+        <keyword>Author</keyword>
+        <keyword>Method</keyword>
+        <keyword>install</keyword>
+        <keyword>Centralized</keyword>
+        <indexterm>environment</indexterm>
+        <indexterm>Conga</indexterm>
+        <indexterm>Author</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>To install X-Author for Contracts Advanced, you can use the <xref href="https://documentation.conga.com/display/XACADV/.Installing+Production+X-Author+for+Contracts+on+the+Conga+Platform+Using+Centralized+Deployment+Approach+v202407.1.1" scope="external" format="html">Centralized Deployment Method</xref> or the <xref href="https://documentation.conga.com/display/XACADV/.Installing+Production+X-Author+for+Contracts+Using+Microsoft+AppSource+v202407.1.1" scope="external" format="html">App Source Installation Method.</xref> There are also four different add-in environments available, which are described below:</p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Product</p>
+                     </entry>
+                     <entry>
+                        <p>How to Install</p>
+                     </entry>
+                     <entry>
+                        <p>Environment </p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Conga X-Author for Contracts Advanced (Preview)</p>
+                     </entry>
+                     <entry>
+                        <p>Only available with the <xref href="https://documentation.conga.com/display/XACADV/.Installing+Production+X-Author+for+Contracts+on+the+Conga+Platform+Using+Centralized+Deployment+Approach+v202407.1.1" scope="external" format="html">Centralized Deployment Method</xref>Download the Preview XML file from the install center located at: <xref href="https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcommunity.conga.com%2Fs%2Fcongainstallcenter&amp;data=05%7C02%7Cjhalbhuber%40conga.com%7C676e909e273242c182f508dc65e3a380%7C3a41ae53fb354431be7ba0b3e1aee3c0%7C0%7C0%7C638497275583525531%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=Djbrhsr%2F1BOptSe%2FqverfRcdnjUX2VPzJNNzENfb7c8%3D&amp;reserved=0" scope="external" format="html">https://community.conga.com/s/congainstallcenter</xref>The user must submit an IT ticket to install the XML file.In Web CLM, the user needs to set the following value: Contract Apps -&gt; X-Author Configuration Settings Custom setup -&gt; Select the Load Type -&gt; <b>Centralized</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>This add-in will only connect with the preview environment (tenants that are onboarded to preview environment only) of Conga Web CLMUsers cannot connect with the production environment (use the Production add-in for tenants that are onboarded to the Production environment) of Conga Web CLMUsers cannot connect with the European version of the add-in</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Conga X-Author for Contracts Advanced (EU-Preview)</p>
+                     </entry>
+                     <entry>
+                        <p>Only available with the <xref href="https://documentation.conga.com/display/XACADV/.Installing+Production+X-Author+for+Contracts+on+the+Conga+Platform+Using+Centralized+Deployment+Approach+v202407.1.1" scope="external" format="html">Centralized Deployment Method</xref>Download the (EU-Preview) XML file from the install center located at: <xref href="https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcommunity.conga.com%2Fs%2Fcongainstallcenter&amp;data=05%7C02%7Cjhalbhuber%40conga.com%7C676e909e273242c182f508dc65e3a380%7C3a41ae53fb354431be7ba0b3e1aee3c0%7C0%7C0%7C638497275583525531%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=Djbrhsr%2F1BOptSe%2FqverfRcdnjUX2VPzJNNzENfb7c8%3D&amp;reserved=0" scope="external" format="html">https://community.conga.com/s/congainstallcenter</xref>The user must submit an IT ticket to install the XML file.In Web CLM, the user needs to set the following value: Contract Apps -&gt; X-Author Configuration Settings Custom setup -&gt; Select the Load Type -&gt; Centralized</p>
+                     </entry>
+                     <entry>
+                        <p>This add-in will only connect with the EU Preview environment (tenants that are onboarded to EU Preview environment only) of Conga Web CLMUsers cannot connect with the EU production environment (use the EU Production add-in for tenants that are onboarded to Production environment) of Conga Web CLM</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Conga X-Author for Contracts Advanced (Production)</p>
+                     </entry>
+                     <entry>
+                        <p>Available with the <xref href="https://documentation.conga.com/display/XACADV/.Installing+Production+X-Author+for+Contracts+on+the+Conga+Platform+Using+Centralized+Deployment+Approach+v202407.1.1" scope="external" format="html">Centralized Deployment Method</xref> and the <xref href="https://documentation.conga.com/display/XACADV/.Installing+Production+X-Author+for+Contracts+Using+Microsoft+AppSource+v202407.1.1" scope="external" format="html">App Source Installation Method</xref>
+                           <b>Centralized Deployment Method</b>Download the Production XML file from the install center located at: <xref href="https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcommunity.conga.com%2Fs%2Fcongainstallcenter&amp;data=05%7C02%7Cjhalbhuber%40conga.com%7C676e909e273242c182f508dc65e3a380%7C3a41ae53fb354431be7ba0b3e1aee3c0%7C0%7C0%7C638497275583525531%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=Djbrhsr%2F1BOptSe%2FqverfRcdnjUX2VPzJNNzENfb7c8%3D&amp;reserved=0" scope="external" format="html">https://community.conga.com/s/congainstallcenter</xref>The user must submit an IT ticket to install the XML file.In Web CLM, the user needs to set the following value: Contract Apps -&gt; X-Author Configuration Settings Custom setup -&gt; Select the Load Type -&gt; <b>Centralized</b>
+                           <b>App Source Installation Method </b>In the Microsoft Add-in, navigate to the StoreSearch for and install Conga XA AdvancedIn Web CLM, the User needs to set the following value - Contract Apps -&gt; X-Author Configuration Settings Custom setup -&gt; Select the Load Type -&gt; <b>App source</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>This add-in will only connect with the production environment (tenants that are onboarded to production environment only) of Conga Web CLMUsers cannot connect with the Preview environment (use the Preview add-in for tenants that are onboarded to the Preview environment) of Conga Web CLMUsers cannot connect with the European version of the add-in</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Conga X-Author for Contracts Advanced (EU Production)</p>
+                     </entry>
+                     <entry>
+                        <p>Available with the <xref href="https://documentation.conga.com/display/XACADV/.Installing+Production+X-Author+for+Contracts+on+the+Conga+Platform+Using+Centralized+Deployment+Approach+v202407.1.1" scope="external" format="html">Centralized Deployment Method</xref> and the <xref href="https://documentation.conga.com/display/XACADV/.Installing+Production+X-Author+for+Contracts+Using+Microsoft+AppSource+v202407.1.1" scope="external" format="html">App Source Installation Method</xref>
+                           <b>Centralized Deployment Method</b>Download the EU Production XML file from the install center located at: <xref href="https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcommunity.conga.com%2Fs%2Fcongainstallcenter&amp;data=05%7C02%7Cjhalbhuber%40conga.com%7C676e909e273242c182f508dc65e3a380%7C3a41ae53fb354431be7ba0b3e1aee3c0%7C0%7C0%7C638497275583525531%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=Djbrhsr%2F1BOptSe%2FqverfRcdnjUX2VPzJNNzENfb7c8%3D&amp;reserved=0" scope="external" format="html">https://community.conga.com/s/congainstallcenter</xref>The user must submit an IT ticket to install the XML file.In Web CLM, the user needs to set the following value: Contract Apps -&gt; X-Author Configuration Settings Custom setup -&gt; Select the Load Type -&gt; <b>Centralized</b>
+                           <b>App Source Installation Method </b>In the Microsoft Add-in, navigate to the StoreSearch for and install Conga XA AdvancedIn Web CLM, the User needs to set the following value - Contract Apps -&gt; X-Author Configuration Settings Custom setup -&gt; Select the Load Type -&gt; <b>App source</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>This add-in will only connect with the EU production review environment (tenants that are onboarded to EU production environment only) of Conga Web CLM.Users cannot connect with the EU preview environment (use the EU Preview add-in for tenants that are onboarded to the Preview environment) of Conga Web CLM</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </context>
+   </taskbody>
+</task>

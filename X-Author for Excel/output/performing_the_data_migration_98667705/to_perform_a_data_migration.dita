@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_perform_a_data_migration_babfd5" xml:lang="en-us">
+   <title>To perform a data migration</title>
+   <shortdesc>Import Best Practice</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>click</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>migration</keyword>
+        <keyword>records</keyword>
+        <keyword>source</keyword>
+        <keyword>Author</keyword>
+        <indexterm>click</indexterm>
+        <indexterm>placeholder</indexterm>
+        <indexterm>migration</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author Designer tab, export the app to your computer and Import the app to the instance where your source data resides. Follow the instructions under <xref href="../importing_and_exporting_an_app_98667712/importing_and_exporting_an_application.dita">Importing and Exporting an Application</xref>, then move to step 2 on this page.</cmd>
+            <info>
+               <note type="note">
+                  <p>Import Best Practice</p>
+                  <p>To avoid errors using the app in the new org, make sure to click <b>Sync App</b> (from the Admin menu)</p>
+                  <p> after the import is complete. This will identify any existing mismatches in objects and fields defined in the app. If you do encounter errors upon validation, check the objects and fields affected, make changes to your app or in your org as needed, and perform the import process again. </p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on the <b>X-Author for Excel</b> tab to switch to the runtime view.</cmd>
+         </step>
+         <step>
+            <cmd>Select <b>App &gt; (your Data Migration App Name) </b>to open the app.</cmd>
+            <info>
+               <fig>
+                  <title>190354542</title>
+                  <image href="../attachments/98667705/190354542.png" width="612" height="449" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Populate the app by choosing one of two options:
+
+
+
+<u>
+                  <b>Export Selective</b>
+               </u>
+               <b> - </b>Choose this action if you want to search for and select specific records to export from the source org for each Object in the data migration app. After making your selections, click <b>Next</b> to retrieve data into the app.Use this option when there are Filter criteria defined for any of the Objects in the app. User actions defined for Objects in the app (like Search &amp; Select) only execute when this option is chosen.
+<u>
+                  <b>Export All</b>
+               </u>
+               <b> </b>- Choose this action if you want to export ALL records from the source org for each Object in the data migration app. No filters are applied.
+
+NoteThis option may take an unusually long amount of time to retrieve data if there are a large number of records in your Org.</cmd>
+            <info>
+               <fig>
+                  <title>98668126</title>
+                  <image href="../attachments/98667705/98668126.png" width="163" height="89" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <fig>
+                  <title>190354543</title>
+                  <image href="../attachments/98667705/190354543.png" width="713" height="513" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <ul>
+                  <li>Export Selective - Choose this action if you want to search for and select specific records to export from the source org for each Object in the data migration app. After making your selections, click Next to retrieve data into the app. Use this option when there are Filter criteria defined for any of the Objects in the app. User actions defined for Objects in the app (like Search &amp; Select) only execute when this option is chosen.</li>
+                  <li>Export All - Choose this action if you want to export ALL records from the source org for each Object in the data migration app. No filters are applied. Note This option may take an unusually long amount of time to retrieve data if there are a large number of records in your Org.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>From the Source Org section of the X-Author Excel tab, click <b>Save Source Data</b>. </cmd>
+         </step>
+         <step>
+            <cmd>Browse to a location on your system to save the workbook. Name the file and click <b>Save</b>. All data retrieved by the Export action is saved to the app.</cmd>
+            <info>
+               <fig>
+                  <title>98668124</title>
+                  <image href="../attachments/98667705/98668124.png" width="418" height="109" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Close the app.</cmd>
+         </step>
+         <step>
+            <cmd>From the X-Author Designer tab, click on <b>Switch Connection</b> and select the target org for data migration. Enter your credentials and connect.</cmd>
+         </step>
+         <step>
+            <cmd>You must now import the Data Migration app you exported in Step 1 into the target org. Select <b>Migrate &gt; Import</b> and browse to the app file.</cmd>
+            <info>
+               <fig>
+                  <title>190354544</title>
+                  <image href="../attachments/98667705/190354544.png" width="410" height="197" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Import</b>. Verify the app imported successfully and click <b>OK</b>.</cmd>
+            <info>
+               <fig>
+                  <title>98668122</title>
+                  <image href="../attachments/98667705/98668122.png" width="376" height="131" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on the <b>X-Author for Excel</b> tab to switch to the runtime view.</cmd>
+         </step>
+         <step>
+            <cmd>Connect to the target org.</cmd>
+         </step>
+         <step>
+            <cmd>Click on <b>Apps &gt; Open App</b> and open the imported app.</cmd>
+         </step>
+         <step>
+            <cmd>From the Edit section, click on Paste and select <b>Paste from Mapping</b>.</cmd>
+            <info>
+               <fig>
+                  <title>98668121</title>
+                  <image href="../attachments/98667705/98668121.png" width="483" height="179" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Browse to the app file save in Step 5 (saved source data) and click <b>Open</b>.</cmd>
+            <info>
+               <fig>
+                  <title>190354545</title>
+                  <image href="../attachments/98667705/190354545.png" width="386" height="119" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <note type="note">
+                  <p>Note</p>
+                  <p>Source data that you exported is pasted into the app without <b>Target Record ID</b>. Record IDs will be assigned to all new records that are created when you migrate that data to the Target Org (but will not be represented in the app).</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>From the Target Org section of the ribbon, click <b>Save All</b>. The exported records from the source org are migrated to the target org. Depending on how much data you are migrating, this can take some time. When data migration is complete, a separate success message is shown for each Object being migrated. Click on <b>Show details</b> to view details.</cmd>
+            <info>
+               <fig>
+                     <title>98668119</title>
+                     <image href="../attachments/98667705/98668119.png" placement="break" width="389" height="271">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+            <info>
+               <note type="note">
+                  <p>Note</p>
+                  <p>The success message may not be shown if settings have been changed in X-Author Excel to suppress messages. Refer to <xref href="../application_settings_98667714/application_settings.dita">Application Settings</xref> for more information. </p>
+               </note>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="best_practices_and_xauthor_contracts_behavior_when_deleting_smart_elements_or_read_only_fields_946c8d" xml:lang="en-us">
+   <title>Best Practices and X-Author Contracts Behavior When Deleting Smart Elements or Read Only Fields</title>
+     <shortdesc>Smart elements can be deleted using the Del or Backspace key but, while doing it</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Author</keyword>
+        <keyword>document</keyword>
+        <keyword>delete</keyword>
+        <keyword>field</keyword>
+        <keyword>Contracts</keyword>
+        <keyword>When</keyword>
+        <indexterm>Author</indexterm>
+        <indexterm>document</indexterm>
+        <indexterm>delete</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Smart elements can be deleted using the Del or Backspace key but, while doing it you must adhere to the following recommended best practices to avoid errors.</p><ul>
+            <li>Existing documents would not support delete using Delete or Backspace key unless they are regenerated from Contract Management or checked out in X-Author Contracts.</li>
+            <li>Deleting with Backspace and Delete keys may not work with custom fields.</li>
+            <li>Apttus recommends not to delete fields or smart elements in the following scenarios:If the fields are part of a nested clause, sections, X-Author Tables, Headers, or Footers.If the smart elements are part of a section with third level X-Author table.</li>
+         </ul><p>
+            <b>When Document Protection is set to <i>Full Access</i>
+            </b>
+         </p><ul>
+            <li>You must <b>Accept</b> or <b>Reject</b> each change in the <b>Review</b> tab of Microsoft Word, before checking in the document using X-Author Contracts.</li>
+            <li>If you delete a field by selecting the field value text and pressing Delete or Backspace, hit Backspace or delete twice to remove the text and the content control border of the field. If you fail to do so, you'll see a validation error on reconciliation or while validating the fields using <b>Validate Fields</b>.</li>
+         </ul><p>
+            <b>When Document Protection is set to <i>Insert Comments and Track Changes</i>
+            </b>
+         </p><ul>
+            <li>In <i>Insert Comments and Track Changes</i> protection mode, it is mandatory for you to first <b>Accept</b> or <b>Reject</b> the changes in the document from the <b>Review</b> tab of Microsoft Word before you perform any action from X-Author Contracts. Failing to do so will give you validation errors or unexpected behavior in X-Author Contracts. X-Author Contracts actions include performing <b>Update from Salesforce</b>, Checking in the document, reconciling the document, <b>Preview Reconcile</b>, and <b>Validate Fields</b>.</li>
+            <li>You must remove the document protection by manually entering the password before you can delete smart elements as well as read-only fields from your document.</li>
+            <li>If you select a content control and partially delete the text, the partial text would remain as static text.</li>
+            <li>When you delete a smart field in the document and then open the control field, the <b>Current Value</b> column of the <b>Control Panel</b> will show blank values for the deleted fields.</li>
+            <li>When you delete a smart field which has multiple occurrences in the document, the smart field's occurrence index is not updated in the Control Panel unless you check-in the document. The index number helps identify which occurrence of the field you have deleted.</li>
+         </ul>
+  </context></taskbody>
+</task>

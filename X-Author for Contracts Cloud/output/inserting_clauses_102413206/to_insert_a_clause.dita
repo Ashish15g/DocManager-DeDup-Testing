@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_insert_a_clause_7fd2ec" xml:lang="en-us">
+   <title>To insert a clause</title>
+   <shortdesc>You get a success message and if you have selected Insert Smart , the inserted</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="Aug 13, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>clause</keyword>
+        <keyword>click</keyword>
+        <keyword>document</keyword>
+        <keyword>insert</keyword>
+        <keyword>agreement</keyword>
+        <keyword>smart</keyword>
+        <indexterm>clause</indexterm>
+        <indexterm>click</indexterm>
+        <indexterm>document</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In the X-Author Contracts pane, go to <b>Work &gt; Playbook &gt; Search Clauses</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In <b>Search Clauses</b>, click the search icon to list all the available clauses or enter a search string to search a specific clause. You can also click clause filter icon  to get filtering options. You can also filter your clause search based on clause <b>Category, Subcategory, Locale, Language, </b>and<b> Type</b>.</cmd>
+            <info>
+               <image href="../attachments/102413206/102413313.png" width="39" height="29" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>In the agreement document, place your cursor at the point of insertion.</cmd>
+         </step>
+         <step>
+            <cmd>Select the clause from the <b>Playbook</b> pane, click more icon  next to the clause name and click <b>Insert </b>to insert the clause as an inline clause (or non-smart clause) in your document.
+<b>OR</b>
+Select the clause from the <b>Playbook</b> pane, click more icon  next to the clause name and click <b>Insert Smart </b>to insert the clause as a smart clause in your document.</cmd>
+            <info>
+               <image href="../attachments/102413206/102413311.png" width="6" height="19" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <info>
+               <image href="../attachments/102413206/102413311.png" width="6" height="19" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+      </steps>
+      <result>
+         <p>You get a success message and if you have selected <b>Insert Smart</b>, the inserted clause is marked as a smart clause (shown with a grey border). The text of the inserted clause appears redlined in the agreement document if the agreement's protection level is set to<i> Insert Comments and Track Changes</i>.</p>
+         <p>If you have inserted the clause as smart, you can go to<b> Work </b>tab<b> &gt; Doc Clauses</b> to confirm that the clause is now recognized in the document. When you check in the document, any smart clauses can be reconciled to the agreement and information of the inserted clause is added to the <b>Agreement Clause</b> related list on the agreement record.</p>
+         <p>To learn how the Agreement Clause related list is populated with each insert, modify and delete action, refer to the <i>Apttus Contract Management Administrator Guide</i>.</p>
+      </result>
+   </taskbody>
+</task>

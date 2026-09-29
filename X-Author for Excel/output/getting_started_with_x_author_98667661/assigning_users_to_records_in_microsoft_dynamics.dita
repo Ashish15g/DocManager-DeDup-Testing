@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="assigning_users_to_records_in_microsoft_dynamics_10d0fb" xml:lang="en-us">
+   <title>Assigning Users to Records in Microsoft Dynamics</title>
+   <shortdesc>Assigning users to the Solution is always controlled by Security Role Permission Setup. Solution in</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Append</keyword>
+        <keyword>access</keyword>
+        <keyword>Assigning</keyword>
+        <keyword>Microsoft</keyword>
+        <keyword>Dynamics</keyword>
+        <keyword>users</keyword>
+        <indexterm>Append</indexterm>
+        <indexterm>access</indexterm>
+        <indexterm>Assigning</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>Assigning users to the Solution is always controlled by Security Role Permission Setup. Solution in Microsoft Dynamics is used for installing your customization only. Applying security to a user has to be done through Security Roles. For example, Runtime user should be assigned with a Role which has user Level Permission to App Object (Entity) for Read, Write, Delete, Update, Assign, Append, and Append To.</p>
+         <p>User level roles make sure that user can only access apps created by them. Also a user can assign only their application to other users.</p>
+         <p>Designers must have access to a Role which has Organization level access to App Object with Read, Write, Assign, Delete, Append, and Append to. This implies that a Designer would have access to All Apps and can assign any app to any runtime users.</p>
+         <p>To assign a user to a specific record</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Go to <b>Advanced Find &gt; Query</b> and in <b>Look for</b>, type Apps.</cmd>
+         </step>
+         <step>
+            <cmd>From the <b>Use Saved View</b> drop-down list, select <b>Active Apps</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Results</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select an App.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Assign</b> in the fixed bar.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="data_set_action_b4ae7e" xml:lang="en-us">
+   <title>Data Set Action</title>
+   <shortdesc>This feature relates to Salesforce and hence, it is not supported in Microsoft Dynamics and</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>query</keyword>
+        <keyword>Data</keyword>
+        <keyword>Action</keyword>
+        <keyword>clause</keyword>
+        <keyword>cannot</keyword>
+        <keyword>queries</keyword>
+        <indexterm>query</indexterm>
+        <indexterm>Data</indexterm>
+        <indexterm>Action</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>This feature relates to Salesforce and hence, it is not supported in Microsoft Dynamics and Apttus Omni.</p>
+         <p>Salesforce has various query limitations:</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>SOQL statements cannot have more than one level of sub-query.</cmd>
+         </step>
+         <step>
+            <cmd>Sub-queries cannot be executed when there is an 'OR' clause in the filter.</cmd>
+         </step>
+         <step>
+            <cmd>SOQL statements cannot exceed 20,000 characters in length.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>If your query exceeds 20K characters, a SOQL error appears stating the query cannot exceed 20,000 characters in length. X-Author helps overcome these limitations using a combination of automated functionality and the Data Set Action (simulates a SQL union function).</p>
+         <p>X-Author checks the queries in runtime and automatically runs sub-queries and data chunking functionality to overcome a &gt;20K character query. If during testing you find that even this is insufficient, then create a Data Set Action where you can break the query action into multiple query actions and use the query output as an input to the Data Set action.</p>
+         <p>Using the Data Set Action, you can merge the output of two queries into a single Data Set based on the OR clause or AND clause. When you specify the 'OR' clause for query outputs, one output Data Set is created by the union of the two query outputs. When you specify the AND clause for query outputs, one output Data Set is created by the intersection of two query outputs.</p>
+      </result>
+   </taskbody>
+</task>

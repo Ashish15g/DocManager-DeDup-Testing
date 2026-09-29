@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_revoke_connections_e4ed25" xml:lang="en-us">
+   <title>To revoke connections</title>
+   <shortdesc>Prerequisites</shortdesc>
+   <prolog>
+      <author type="creator">user-0266f</author>
+       <metadata>
+      <keywords>
+        <keyword>connections</keyword>
+        <keyword>revoke</keyword>
+        <keyword>Manage</keyword>
+        <keyword>Prerequisites</keyword>
+        <keyword>There</keyword>
+        <keyword>existing</keyword>
+        <indexterm>connections</indexterm>
+        <indexterm>revoke</indexterm>
+        <indexterm>Manage</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>
+            <b>Prerequisites</b>
+         </p>
+         <p>There must be existing connections.</p>
+         <p>
+            <b>Steps</b>
+         </p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Select <b>Switch Connection &gt; Manage Connectio</b>n to display the Manage Connections window. 
+The list of users who have been configured for that computer is displayed, with the option for the currently logged in user disabled.
+</cmd>
+            <info>
+               <fig>
+                  <title>98671119</title>
+                  <image href="../attachments/98670311/98671119.jpg" width="570" height="369" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Revoke</b> and then click <b>Yes</b> in the confirmation dialog.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>
+            <b>Results</b>
+         </p>
+         <p>That user's login credentials are removed and they cannot log in to X-Author for Chatter until they have created a new connection.</p>
+      </result>
+   </taskbody>
+</task>

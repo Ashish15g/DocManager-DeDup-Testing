@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_an_online_lookup_f7f69e" xml:lang="en-us">
+   <title>To create an online lookup</title>
+   <shortdesc>A Search and Select Action on the object that corresponds to the lookup value field</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>lookup</keyword>
+        <keyword>Select</keyword>
+        <keyword>click</keyword>
+        <keyword>Search</keyword>
+        <keyword>field</keyword>
+        <keyword>Display</keyword>
+        <indexterm>lookup</indexterm>
+        <indexterm>Select</indexterm>
+        <indexterm>click</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p> A Search and Select Action on the object that corresponds to the lookup value field must exist. For example, if you need an account lookup, there must be a Search and Select Action on the Account object.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Click <b>Display Map</b>. </cmd>
+         </step>
+         <step>
+            <cmd>Select a Display Map and click <b>Edit</b>. The Display Map panel opens.</cmd>
+         </step>
+         <step>
+            <cmd>In the Mapped Details section of the Display Map pane, click the magnify icon  to open lookup properties for that field.</cmd>
+            <info>
+               <image href="../attachments/98667726/98668079.jpg" width="21" height="23" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>Select <b>Search And Select (Online)</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the applicable Search and Select Actions.</cmd>
+         </step>
+         <step>
+            <cmd>In the <b>Mapped Record ID</b> field, select the record ID field and click <b>Save</b>.This ensures that the correct lookup will be returned to the record. To remove an existing Online Lookup, click <b>Remove</b>.</cmd>
+            <info>
+               <fig>
+                  <title>98668077</title>
+                  <image href="../attachments/98667726/98668077.png" width="440" height="277" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <p>This ensures that the correct lookup will be returned to the record. To remove an existing Online Lookup, click<b>Remove</b>.
+
+</p>
+            <fig>
+                     <title>98668077</title>
+                     <image href="../attachments/98667726/98668077.png" placement="break" width="440" height="277">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+         </step>
+         <step>
+            <cmd>Click <b>Close</b>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

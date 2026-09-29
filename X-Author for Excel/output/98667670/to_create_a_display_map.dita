@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_display_map_31b915" xml:lang="en-us">
+   <title>To create a Display Map</title>
+   <shortdesc>Rakesh Singh Example Select Display Maps and click Create .</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <metadata>
+         <keywords>
+        <keyword>field</keyword>
+        <keyword>Display</keyword>
+        <keyword>Name</keyword>
+        <keyword>Account</keyword>
+        <keyword>Select</keyword>
+        <keyword>click</keyword>
+        <indexterm>field</indexterm>
+        <indexterm>Display</indexterm>
+        <indexterm>Name</indexterm>
+      </keywords>
+      <prodinfo>
+            <prodname>Example</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Select <b>Display Maps</b> and click <b>Create</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Name field, type <i>Main</i> and from the Type list, select <i>Individual</i>.</cmd>
+         </step>
+         <step>
+            <cmd>Drag the <i>Account Name</i> field to C3 and <i>Phone</i> to C4. You will see the link between the cell and field stamped in the bottom right-hand window.
+</cmd>
+         </step>
+         <step>
+            <cmd>Switch to <b>List</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Drag the <i>Name</i> field to B7, <i>Amount</i> to C7, <i>Close Date</i> to D7, <i>Stage</i> to F7, and <i>Id</i> to H7. Now click on the orange Account iD field (with a + next to it) and it will take you to the Account object. Select the <i>Region</i> field from there and drag it to G7. X-Author allows you to have fields from any related object on the same list row.</cmd>
+         </step>
+         <step>
+            <cmd>Select Options and change the <b>Sort by</b> picklist to Name.</cmd>
+         </step>
+         <step>
+            <cmd>Save the Display Map and click <b>Close</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Add a title to B1: <i>Opportunities by Account</i>.</cmd>
+         </step>
+         <step>
+            <cmd>Save the Display map.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

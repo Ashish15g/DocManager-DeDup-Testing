@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_checkin_action_25d05a" xml:lang="en-us">
+   <title>To create a Check-In action</title>
+   <shortdesc>placeholder</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Name</keyword>
+        <keyword>File</keyword>
+        <keyword>option</keyword>
+        <keyword>Select</keyword>
+        <keyword>Check</keyword>
+        <keyword>action</keyword>
+        <indexterm>Name</indexterm>
+        <indexterm>File</indexterm>
+        <indexterm>option</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click on the arrow beneath the Actions button and select <b>Check-In</b>. </cmd>
+         </step>
+         <step>
+            <cmd>In the Action Name field, type a descriptive name for the action.</cmd>
+         </step>
+         <step>
+            <cmd>From Object, select an object and click <b>Save</b>. The list of objects includes only Individual Objects.</cmd>
+         </step>
+         <step>
+            <cmd>In the File Name, select the option to type the file name that will be used when the file is checked-in.</cmd>
+            <info>
+               <fig>
+                     <title>98667952</title>
+                     <image href="../attachments/98667684/98667952.png" placement="break" width="495" height="296">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Field Name</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Use Runtime Filename</p>
+                           </entry>
+                           <entry>
+                              <p>Select this option to allow your user to enter the File Name at run time.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Manually Provide File Name</p>
+                           </entry>
+                           <entry>
+                              <p>Select this option to allow your user to enter the File Name manually. Enter the file name manually.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Use Cell Reference as File Name</p>
+                           </entry>
+                           <entry>
+                              <p>Select this option to allow your user to use a cell reference as the File Name. Select the cell and click the icon.This feature is not available with Presto apps.
+
+</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

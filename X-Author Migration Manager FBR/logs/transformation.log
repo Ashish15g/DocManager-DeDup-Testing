@@ -1,0 +1,49 @@
+================================================================================
+ metR HTML DocMigrate — TRANSFORMATION REPORT
+================================================================================
+ Source File           : X-Author Migration Manager FBR.zip
+ Started               : 2026-08-20 06:59:54 UTC
+================================================================================
+
+2026-08-20T06:59:54 [INFO] STEP 3: HTML → DITA conversion. 4 files to process.
+2026-08-20T06:59:54 [INFO] Pass 1: ID discovery & deduplication
+2026-08-20T06:59:54 [INFO] ID Registry built: 4 files, 44 total IDs, 0 duplicates found
+2026-08-20T06:59:54 [INFO] ID registry built: 44 IDs across 4 files, 0 duplicates resolved
+2026-08-20T06:59:54 [INFO] Pass 2: Converting 4 files with ID tracking
+2026-08-20T06:59:54 [INFO] Topic classifier: task/reference/concept/topic detection active
+2026-08-20T06:59:54 [INFO] Converting: apttus_copyright_disclaimer_109940507.html
+2026-08-20T06:59:54 [INFO] Converted 'apttus_copyright_disclaimer_109940507.html' → map='apttus_copyright_disclaimer_109940507.ditamap' folder='apttus_copyright_disclaimer_109940507/' 1 topics, 0 tasks
+2026-08-20T06:59:54 [INFO] ✓ apttus_copyright_disclaimer_109940507.html → 1 topics, 0 tasks
+2026-08-20T06:59:54 [INFO] Converting: feature_list_109940506.html
+2026-08-20T06:59:54 [INFO] Converted 'feature_list_109940506.html' → map='feature_list_109940506.ditamap' folder='feature_list_109940506/' 1 topics, 0 tasks
+2026-08-20T06:59:54 [INFO] ✓ feature_list_109940506.html → 1 topics, 0 tasks
+2026-08-20T06:59:54 [INFO] Converting: x_author_migration_manager_on_salesforce_features_by_release_109940505.html
+2026-08-20T06:59:54 [INFO] Converted 'x_author_migration_manager_on_salesforce_features_by_release_109940505.html' → map='x_author_migration_manager_on_109940505.ditamap' folder='x_author_migration_manager_on_109940505/' 2 topics, 0 tasks
+2026-08-20T06:59:54 [INFO] ✓ x_author_migration_manager_on_salesforce_features_by_release_109940505.html → 2 topics, 0 tasks
+2026-08-20T06:59:54 [INFO] Converting: index.html
+2026-08-20T06:59:54 [INFO] Converted 'index.html' → map='index.ditamap' folder='index/' 1 topics, 0 tasks
+2026-08-20T06:59:54 [INFO] ✓ index.html → 1 topics, 0 tasks
+2026-08-20T06:59:54 [INFO] index.html found — attempting hierarchical ditamap
+2026-08-20T06:59:54 [INFO] [HIERARCHY] analyze_and_generate_hierarchy called
+2026-08-20T06:59:54 [INFO] [HIERARCHY] Extracting hierarchy from index.html...
+2026-08-20T06:59:54 [INFO] [HIERARCHY] Extracted 1 top-level items
+2026-08-20T06:59:54 [INFO] [HIERARCHY] Detailed analysis saved: hierarchy_detailed.json
+2026-08-20T06:59:54 [INFO] [HIERARCHY] Analysis saved: hierarchy_analysis.json
+2026-08-20T06:59:54 [INFO] [HIERARCHY] Generated: x_author_migration_manager_fbr.ditamap — 3 topics, max depth 2, 3 IDs, 0 collisions resolved
+2026-08-20T06:59:54 [INFO] Hierarchical ditamap written: x_author_migration_manager_fbr.ditamap — 3 topics, max depth 2
+2026-08-20T06:59:54 [INFO] Media copied: 1 files
+2026-08-20T06:59:54 [INFO] Running DITALinkValidator
+2026-08-20T06:59:54 [INFO] [LINK-VALIDATOR] 5 files scanned — 1 valid, 0 fixed, 0 broken
+2026-08-20T06:59:54 [INFO] Links: valid=1, fixed=0, broken=0
+
+--------------------------------------------------------------------------------
+ Transformation Summary
+================================================================================
+ Files Converted       : 4
+ Topics Generated      : 5
+ DITA Maps Generated   : 5
+ Completed             : 2026-08-20 06:59:54 UTC
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+Success: Content transformation completed successfully.
+================================================================================

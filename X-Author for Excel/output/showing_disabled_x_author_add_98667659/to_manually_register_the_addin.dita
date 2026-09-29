@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_manually_register_the_addin_09c089" xml:lang="en-us">
+   <title>To manually register the Add-In</title>
+   <shortdesc>The add-ins are now available in the Excel ribbon. You may need to restart Excel</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <critdates>
+         <created date="Oct 29, 2018"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Excel</keyword>
+        <keyword>manually</keyword>
+        <keyword>register</keyword>
+        <keyword>select</keyword>
+        <keyword>Options</keyword>
+        <keyword>display</keyword>
+        <indexterm>Excel</indexterm>
+        <indexterm>manually</indexterm>
+        <indexterm>register</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Start Excel and select <b>File &gt; Options</b> to display the Excel Options dialog.
+</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Add-Ins</b>, select <b>COM Add-ins</b> from the Manage list, and click <b>Go</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the <b>Apttus X-Author Designer</b> and <b>X-Author for Excel</b> check boxes and click <b>OK</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The add-ins are now available in the Excel ribbon. You may need to restart Excel for the tabs to display as expected.</p>
+      </result>
+   </taskbody>
+</task>

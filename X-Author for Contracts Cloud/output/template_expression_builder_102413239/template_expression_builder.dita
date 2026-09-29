@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="template_expression_builder_875490" xml:lang="en-us">
+   <title>Template Expression Builder</title>
+     <shortdesc>You can use a template expression builder to conditionally display content in your generated agreement</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>expression</keyword>
+        <keyword>builder</keyword>
+        <keyword>fields</keyword>
+        <keyword>conditional</keyword>
+        <keyword>object</keyword>
+        <keyword>field</keyword>
+        <indexterm>expression</indexterm>
+        <indexterm>builder</indexterm>
+        <indexterm>fields</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>You can use a template expression builder to conditionally display content in your generated agreement document. You can write a conditional expression using the expression builder; this expression is evaluated to include or exclude the conditional content. The expression builder can be used with clauses, sections, segments or tables for their conditional rendering.</p>
+      <p>The expression builder has three main components or fields,</p>
+      <ul>
+         <li>
+            <b>Fields</b> are object fields. <b>Fields</b> lists all the available fields of the selected business object. It is a drop-down list which shows the field names listed according to their hierarchy. Each expression condition requires the identification of the field control to which the condition will apply.</li>
+         <li>
+            <b>Operator</b> lists the logical operators for carrying out the logical operation.</li>
+         <li>
+            <b>Value</b> is the value of the object field selected earlier. The value finishes the expression and is used to determine whether the condition evaluates to <i>True</i> or <i>False</i>.</li>
+      </ul>
+   </conbody>
+</concept>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_search_and_select_action_b0af33" xml:lang="en-us">
+   <title>To create a Search and Select action</title>
+   <shortdesc>Rakesh Singh Click on the arrow beneath the Actions button and select Search and Select</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>select</keyword>
+        <keyword>Search</keyword>
+        <keyword>Select</keyword>
+        <keyword>create</keyword>
+        <keyword>action</keyword>
+        <keyword>Click</keyword>
+        <indexterm>select</indexterm>
+        <indexterm>Search</indexterm>
+        <indexterm>Select</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click on the arrow beneath the Actions button and select <b>Search and Select</b>. </cmd>
+         </step>
+         <step>
+            <cmd>On the Options tab, under Search and Select Action, type an Action Name. Use a descriptive name, for example, <i>Search Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>In Object, select an object. </cmd>
+         </step>
+         <step>
+            <cmd>Click the <b>Enable Favorite Filters </b>check box to enable Favorite Filters for this action. Refer to <xref href="../enabling_and_using_favorite_fi_98667732/enabling_and_using_favorite_filters_in_queries.dita">Enabling and Using Favorite Filters in Queries</xref> for more information.
+</cmd>
+         </step>
+         <step>
+            <cmd>In Searchable Fields, select one or more fields that will be displayed to the end user as input fields at runtime.</cmd>
+         </step>
+         <step>
+            <cmd>In the Result Selection, decide whether the user can select single or multiple results that are returned to Excel, and select a Result selection. (You can only select <b>Single</b> for an Individual object, or <b>Multiple</b> for a List object.)</cmd>
+         </step>
+         <step>
+            <cmd>In the Fields to Display in Search Results, select one more fields to display in the search results. Select a check box in the <b>Sort By</b> column to choose the primary sort. Note: At runtime, the user can also sort by any column when the results are displayed. You can also reorder the result columns using the Arrows to the right of the grid.</cmd>
+            <info>
+               <fig>
+                  <title>190354451</title>
+                  <image href="../attachments/98667689/190354451.png" width="721" height="630" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Add filters as required. Refer to the <xref href="../query_action_98667690/query_action.dita">Query Action</xref> for details on how to create filters.</cmd>
+            <info>
+               <fig>
+                  <title>190354454</title>
+                  <image href="../attachments/98667689/190354454.png" width="724" height="639" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

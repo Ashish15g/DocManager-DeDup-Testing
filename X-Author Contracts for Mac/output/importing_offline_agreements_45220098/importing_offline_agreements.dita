@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="importing_offline_agreements_a170cd" xml:lang="en-us">
+   <title>Importing Offline Agreements</title>
+     <shortdesc>Business requirements often dictate the use of third-party agreements that are not generated using Apttus</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Sep 27, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Apttus</keyword>
+        <keyword>agreement</keyword>
+        <keyword>Importing</keyword>
+        <keyword>generated</keyword>
+        <keyword>Contract</keyword>
+        <keyword>Management</keyword>
+        <indexterm>Apttus</indexterm>
+        <indexterm>agreement</indexterm>
+        <indexterm>Importing</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>Business requirements often dictate the use of third-party agreements that are not generated using Apttus Contract Management templates. In these cases, you need to import those documents into Salesforce and apply Apttus properties to use X-Author's features for negotiation. </p>
+      <p>X-Author Contracts provides a means to import a document into Salesforce and attach it to a pre-existing agreement record. After you import the document successfully, it is stored on the agreement record under <i>Document Versions</i> as an imported offline agreement, and available for check out, editing, and redlining in X-Author just as if it were generated in Apttus Contract Management.</p>
+      <p>Importing an offline agreement requires you to have the document stored locally on your computer. </p>
+   </conbody>
+</concept>

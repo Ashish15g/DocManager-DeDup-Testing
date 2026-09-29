@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_configure_settings_for_your_data_migration_app_8d0f43" xml:lang="en-us">
+   <title>To configure settings for your Data Migration App</title>
+   <shortdesc>Description</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>settings</keyword>
+        <keyword>Export</keyword>
+        <keyword>Data</keyword>
+        <keyword>Migration</keyword>
+        <keyword>Suffix</keyword>
+        <keyword>Selective</keyword>
+        <indexterm>settings</indexterm>
+        <indexterm>Export</indexterm>
+        <indexterm>Data</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the Data Migration screen, click on <b>Settings</b>.</cmd>
+            <info>
+               <fig>
+                  <title>98667959</title>
+                  <image href="../attachments/98667708/98667959.png" width="375" height="82" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Specify values for your app settings. Refer to the table below for a list of settings and their descriptions.</cmd>
+            <info>
+               <fig>
+                  <title>190354553</title>
+                  <image href="../attachments/98667708/190354553.png" width="463" height="209" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <p>
+
+</p>
+            </info>
+            <info>
+               <table>
+                  <tgroup cols="3">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <colspec colname="c3"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Setting</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                           <entry>
+                              <p>Guidance</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Export All Suffix</p>
+                           </entry>
+                           <entry>
+                              <p>Enter custom text to replace "All" for the "Export All" button of the app.</p>
+                           </entry>
+                           <entry>
+                              <p>Limit the suffix to fit text in the X-Author ribbon.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Export Selective Suffix</p>
+                           </entry>
+                           <entry>
+                              <p>Enter custom text to replace "Selective" for the "Export Selective" button of the app.</p>
+                           </entry>
+                           <entry>
+                              <p>Limit the suffix to fit text in the X-Author ribbon. The Suffix should represent filters defined for your Objects.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>OK</b> to apply your settings.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

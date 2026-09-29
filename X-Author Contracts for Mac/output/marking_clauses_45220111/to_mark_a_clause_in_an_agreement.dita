@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_mark_a_clause_in_an_agreement_87beea" xml:lang="en-us">
+   <title>To mark a clause in an agreement</title>
+   <shortdesc>Description</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Oct 10, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>clause</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>rating</keyword>
+        <keyword>display</keyword>
+        <keyword>Filter</keyword>
+        <keyword>include</keyword>
+        <indexterm>clause</indexterm>
+        <indexterm>placeholder</indexterm>
+        <indexterm>rating</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Hover over the <b>Playbook </b>tab and select <b>Clauses</b> to open the Playbook.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight the content in the contract to be marked as a clause. 
+
+
+
+</cmd>
+            <info>
+               <fig>
+                  <title>49676328</title>
+                  <image href="../attachments/45220111/49676328.png" width="1346" height="96" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on the  <b>Mark Clause </b>icon next to the clause in the Playbook which you want to associate with the content.
+
+
+
+The Mark Clause form appears inside the X-Author pane.</cmd>
+            <info>
+               <image href="../attachments/45220111/49676329.png" width="34" height="30" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <info>
+               <fig>
+                  <title>49676331</title>
+                  <image href="../attachments/45220111/49676331.png" width="2346" height="398" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <fig>
+                  <title>49676333</title>
+                  <image href="../attachments/45220111/49676333.png" width="686" height="1135" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>The clause will be automatically marked as a 1-off instance of the clause for this agreement. Specify the following fields for marking the clause.</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Field</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Clause Name</p>
+                           </entry>
+                           <entry>
+                              <p>Enter a new name for the clause, or leave unmodified (Playbook clause name displayed by default).</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Action</p>
+                           </entry>
+                           <entry>
+                              <p>By default, <i>Inserted </i>is chosen and is Read-Only.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Category</p>
+                           </entry>
+                           <entry>
+                              <p>Select a category for your clause.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Sub Category</p>
+                           </entry>
+                           <entry>
+                              <p>Select a sub category for your clause. Options in the list will change based on the category you selected.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Exception</p>
+                           </entry>
+                           <entry>
+                              <p>Select a term exception record from the drop-down list to associate with your clause.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Risk Rating</p>
+                           </entry>
+                           <entry>
+                              <p>Select an appropriate risk rating for your clause. Valid values are:GreenRedYellow</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Materially Significant</p>
+                           </entry>
+                           <entry>
+                              <p>Select this check box if you want to make your clause materially significant.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Clause Text (Selected)</p>
+                           </entry>
+                           <entry>
+                              <p>This text area shows the selected text which you want to mark as a clause.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+            <info>
+               <note type="note">
+                  <p>Note</p>
+                  <p>Scroll past the Clause Text to view additional fields and buttons required to mark the clause.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Compare the text you have highlighted with the clause library text displayed in the Playbook panel. Select <b>Replace current clause selection with the clause from library </b>if you want to replace the document content with the text of the clause from Playbook. </cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b> to apply Apttus clause properties to the highlighted content and mark the content as a smart clause. When you check in and reconcile your agreement document, the clause will be displayed as inserted in the <b>Agreement Clauses</b> related list and is listed in the Document panel under <b>Clauses</b>.</cmd>
+            <info>
+               <note type="note">
+                  <p>If you decide you want to unmark a clause during the same session in which you marked it, you must use the <xref href="../working_with_clauses_45220112/working_with_clauses.dita#workingwithclausesunmarkclause">Document Panel</xref> to remove Apttus clause properties. Note that if you chose to replace the text with a clause from the library, you cannot choose to unmark the clause, it can only be deleted.</p>
+               </note>
+            </info>
+         </step>
+      </steps>
+      <result>
+         <fig>
+            <title>Loading Mini</title>
+            <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/loading_mini.gif" width="0px" height="0px" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+         <fig>
+            <title>Rater</title>
+            <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/rater.gif" width="0px" height="0px" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+         <table>
+            <tgroup cols="9">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <colspec colname="c4"/>
+               <colspec colname="c5"/>
+               <colspec colname="c6"/>
+               <colspec colname="c7"/>
+               <colspec colname="c8"/>
+               <colspec colname="c9"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Your Rating:</p>
+                     </entry>
+                     <entry>
+                        <p>Thanks for voting!</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <xref href="/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220111&amp;rating=1&amp;redirect=true">/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220111&amp;rating=1&amp;redirect=true</xref>
+                           <xref href="/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220111&amp;rating=2&amp;redirect=true">/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220111&amp;rating=2&amp;redirect=true</xref>
+                           <xref href="/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220111&amp;rating=3&amp;redirect=true">/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220111&amp;rating=3&amp;redirect=true</xref>
+                           <xref href="/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220111&amp;rating=4&amp;redirect=true">/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220111&amp;rating=4&amp;redirect=true</xref>
+                           <xref href="/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220111&amp;rating=5&amp;redirect=true">/plugins/rate/rating.action?decorator=none&amp;displayFilter.includeCookies=true&amp;displayFilter.includeUsers=true&amp;ceoId=45220111&amp;rating=5&amp;redirect=true</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <fig>
+                              <title>Blank</title>
+                              <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/blank.gif" placement="break" width="600" height="400">
+                                 <alt>Please Wait</alt>
+                              </image>
+                           </fig></entry>
+                     <entry>
+                        <p>
+ Please Wait
+ </p>
+                     </entry>
+                     <entry>
+                        <p>Results:</p>
+                     </entry>
+                     <entry>
+                        <fig>
+                              <title>Blank</title>
+                              <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/blank.gif" placement="break" width="600" height="400">
+                                 <alt>5 Star</alt>
+                              </image>
+                           </fig><fig>
+                              <title>Blank</title>
+                              <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/blank.gif" placement="break" width="600" height="400">
+                                 <alt>4 Star</alt>
+                              </image>
+                           </fig><fig>
+                              <title>Blank</title>
+                              <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/blank.gif" placement="break" width="600" height="400">
+                                 <alt>3 Star</alt>
+                              </image>
+                           </fig><fig>
+                              <title>Blank</title>
+                              <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/blank.gif" placement="break" width="600" height="400">
+                                 <alt>2 Star</alt>
+                              </image>
+                           </fig><fig>
+                              <title>Blank</title>
+                              <image href="../download/resources/com.adaptavist.confluence.rate:rate/resources/themes/v2/gfx/blank.gif" placement="break" width="600" height="400">
+                                 <alt>1 Star</alt>
+                              </image>
+                           </fig></entry>
+                     <entry>
+                        <p>0</p>
+                     </entry>
+                     <entry>
+                        <p>rates</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>If you gave us a low rating, please email us your feedback at documentation@apttus.com.</p>
+      </result>
+   </taskbody>
+</task>

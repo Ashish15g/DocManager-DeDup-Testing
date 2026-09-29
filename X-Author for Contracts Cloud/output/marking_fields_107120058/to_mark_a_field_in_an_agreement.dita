@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="to_mark_a_field_in_an_agreement_ff5f6b" xml:lang="en-us">
+   <title>To mark a field in an agreement</title>
+   <shortdesc>Make sure the format of the text you are marking matches the data type you</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="Aug 13, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>field</keyword>
+        <keyword>Mark</keyword>
+        <keyword>Fields</keyword>
+        <keyword>agreement</keyword>
+        <keyword>content</keyword>
+        <keyword>fields</keyword>
+        <indexterm>field</indexterm>
+        <indexterm>Mark</indexterm>
+        <indexterm>Fields</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <ol>
+    <li>Highlight the content of the contract to be marked as a field.</li>
+    <li>In the Work pane, click the more icon and select <b>Mark Fields</b> to open the Mark Fields form.</li>
+    <li>The <b>Mark Fields</b> form lists all the available CLM fields with their name and type that could be made smart. These fields are grouped into different categories according to the field type, like <i>Information, Key Dates, Miscellaneous</i>, etc.</li>
+    <li>Use Search Fields to enter the field name and search or scroll through the list of fields to select the field to be applied to the selected text.</li>
+    <li>Click the more icon next to the field name and click <b>Mark Field</b>. You will get a confirmation message.</li>
+    <li>Select <b>Mark</b> in the confirmation message to mark the selected text as a smart field.</li>
+    </ol>
+    </section>
+<section>
+      <title>Result</title>
+      <p>Note</p>
+         <p>Make sure the format of the text you are marking matches the data type you are mapping to. You will receive an error if the text is not valid for the field type you choose.</p>
+         <p>You will get a success message and the selected text in the contract will acquire content control boundary. The content adopts the properties of the same field on the agreement record.</p>
+    </section></refbody>
+</reference>

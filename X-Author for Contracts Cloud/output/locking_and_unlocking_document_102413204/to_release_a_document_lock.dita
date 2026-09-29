@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_release_a_document_lock_3934d2" xml:lang="en-us">
+   <title>To release a document lock</title>
+   <shortdesc>Before you can release a lock on a document, it must be opened in X-Author</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="Jul 23, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Lock</keyword>
+        <keyword>document</keyword>
+        <keyword>Status</keyword>
+        <keyword>Author</keyword>
+        <keyword>release</keyword>
+        <keyword>Contracts</keyword>
+        <indexterm>Lock</indexterm>
+        <indexterm>document</indexterm>
+        <indexterm>Status</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>Before you can release a lock on a document, it must be opened in X-Author Contracts.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>From the X-Author pane, click the <b>Lock Status</b> button. The Lock Status page shows agreement details and information on the current document lock.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Release Lock</b> on the Lock Status page.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The document page refreshes and shows the <b>Start</b> tab of X-Author Contracts. You cannot access the <b>Work</b> and <b>Finish</b> tabs of X-Author Contracts after releasing the lock. When you click the <b>Lock Status</b> icon, the <b>Acquire Lock</b> button replaces the <b>Release Lock</b> button in the Lock Status page.</p>
+         <p>If you released a document lock by mistake and want to continue working with the document, go to the <b>Lock Status</b> page and click <b>Acquire Lock</b>.</p>
+      </result>
+   </taskbody>
+</task>

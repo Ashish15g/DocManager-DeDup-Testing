@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="when_the_app_is_opened_from_a_source_crm_button_f92d7d" xml:lang="en-us">
+   <title>When the App is opened from a Source CRM button</title>
+     <shortdesc>There are two choices:</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>button</keyword>
+        <keyword>Quote</keyword>
+        <keyword>Source</keyword>
+        <keyword>Action</keyword>
+        <keyword>Flow</keyword>
+        <keyword>When</keyword>
+        <indexterm>button</indexterm>
+        <indexterm>Quote</indexterm>
+        <indexterm>Source</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>There are two choices:</p><p>For example, if you are creating a quote from an Opportunity, you may want to execute the Create Quote Action Flow from the Create Quote button in your environment. For the Edit Quote, you may want a completely different user experience so you would create a second Action Flow and attach that to the Edit Quote button.</p>
+  </context>
+  <steps id="steps_065707">
+    <step>
+      <cmd>Follow the steps above and select the <b> Auto Execute (Launch from Source CRM) </b>check box</cmd>
+    </step>
+    <step>
+      <cmd>Execute a different Action Flow for each source CRM button.</cmd>
+    </step>
+  </steps></taskbody>
+</task>

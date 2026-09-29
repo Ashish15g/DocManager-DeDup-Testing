@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_add_objects_and_fields_58fe9a" xml:lang="en-us">
+   <title>To add objects and fields</title>
+   <shortdesc>Type the first letter of the Object you want to add and X-Author will jump</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>Account</keyword>
+        <keyword>objects</keyword>
+        <keyword>fields</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>Opportunity</keyword>
+        <indexterm>object</indexterm>
+        <indexterm>Account</indexterm>
+        <indexterm>objects</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author Designer ribbon, click the object selection dialog. Depending on your environment, the object selection button is displayed.</cmd>
+            <info>
+               <ul>
+                  <li>For Salesforce, click</li>
+                  <li>For Microsoft Dynamics and Apttus Omni, click</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>From the left pane under <b>Select Objects</b>, choose an object or drill down to other objects by clicking the <b>+ </b>next to the object name.</cmd>
+            <info>
+               <note type="tip">
+                  <p>Type the first letter of the Object you want to add and X-Author will jump to the first matching object in the list.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>To select a top-level (header level) object, click <b>Add Parent Object</b> to move the object to Selected Objects. 
+
+
+
+</cmd>
+            <info>
+               <fig>
+                  <title>190354486</title>
+                  <image href="../attachments/98667696/190354486.png" width="501" height="520" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>If you need to add one or more child objects, drill down from the Parent object one or more levels, select the child object and click <b>Add Child Objects</b> to add objects in the hierarchy (from child up to parent) to Selected Objects.</cmd>
+            <info>
+               <fig>
+                     <title>98667764</title>
+                     <image href="../attachments/98667696/98667764.png" placement="break" width="708" height="683">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+            <info>
+               <p>
+</p>
+            </info>
+            <info>
+               <note type="note">
+                  <p>Changing Object Behavior</p>
+                  <p>By default, when objects are added in a parent-child relationship, parent objects adopt the "Individual" behavior and the bottom child object in the hierarchy adopts the "List" behavior.</p>
+                  <p>You can manually change the behavior of any object by right-clicking on the object name and choosing either option from the drop-down that is displayed (for example, if you want two objects to have a many-to-many relationship, make both objects "List").</p>
+                  <fig>
+                     <title>98667750</title>
+                     <image href="../attachments/98667696/98667750.png" width="236" height="85" placement="break">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig>
+                  <p>
+                     <b>Caution: </b>Be careful when changing object behavior. If you have already created other parts of the app, changing object behavior may not make sense in some circumstances.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Remove Object</b> to remove a selected object from the list.</cmd>
+         </step>
+         <step>
+            <cmd>From Select Fields, scroll through the list of fields for the object and select the check box next to one or more fields to add them to the app. You can also type the name of the field into the Search Fields dialog to narrow the list of displayed fields.</cmd>
+            <info>
+               <fig>
+                     <title>190354489</title>
+                     <image href="../attachments/98667696/190354489.png" placement="break" width="712" height="680">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+            <info>
+               <note type="note">
+                  <p>Note</p>
+                  <p>Click on the heading for any column in the fields table to sort fields by that category.</p>
+                  <p>When a picklist field is selected, all picklist values will automatically be retrieved during runtime. Regular, dependent, and multi-select picklists are supported.</p>
+                  <p>The following fields are automatically selected for each object and cannot be deselected.</p>
+                  <ul>
+                     <li>ID</li>
+                     <li>Name, if there is a Name field</li>
+                     <li>Look-up for a parent object that is selected as part of the object hierarchy (for example, "AccountId" for Opportunity).</li>
+                  </ul>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Apply</b> after you have finished adding fields for an object. You <i>must </i>click Apply as you move between objects or your selections will not be saved.</cmd>
+         </step>
+         <step>
+            <cmd>When you finished adding objects and fields to your app, click <b>Save and Close</b>. 
+</cmd>
+         </step>
+         <step>
+            <cmd>He goes to <b>Apps &gt; New </b>and creates a new app named "Pipeline CC."</cmd>
+         </step>
+         <step>
+            <cmd>Danny clicks the object selection button.</cmd>
+         </step>
+         <step>
+            <cmd>He finds the Opportunity child object under the Account object and clicks <b>Add Child Object</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Next, he clicks <b>Add Parent Object</b> for User and Account.</cmd>
+            <info>
+               <fig>
+                  <title>190354491</title>
+                  <image href="../attachments/98667696/190354491.png" width="720" height="684" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Danny selects fields for each object. After selecting fields for any object, he clicks <b>Apply </b>to save his selections.For<b> Account (Individual) </b>and <b>Account (List)</b>: <i>Account Description, Account Phone, Account Type, Annual Revenue, Number of Employees </i>(<i>Account Name </i>and<i> Account Id </i>are added by default)
+<i>
+</i>
+               <i>
+</i>For <b>Opportunity (List): </b>
+               <i>Amount, Description, Stage Name, Is Closed, Close Date, Owner Id </i>(<i>Account (Lookup), Opportunity Id, </i>and<i> Opportunity Name</i> are added by default)
+
+
+
+For <b>User </b>
+               <b>(List)</b>: <i>Active </i>(<i>User Id </i>and<i> Full Name</i> are added by default)</cmd>
+            <info>
+               <fig>
+                  <title>98667744</title>
+                  <image href="../attachments/98667696/98667744.png" width="711" height="315" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <fig>
+                  <title>98667743</title>
+                  <image href="../attachments/98667696/98667743.png" width="711" height="315" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <fig>
+                  <title>98667742</title>
+                  <image href="../attachments/98667696/98667742.png" width="711" height="315" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <substeps>
+               <substep>
+                  <cmd>For<b> Account (Individual) </b>and <b>Account (List)</b>: <i>Account Description, Account Phone, Account Type, Annual Revenue, Number of Employees </i>(<i>Account Name </i>and<i> Account Id </i>are added by default)
+<i>
+</i>
+                     <i>
+</i>
+                  </cmd>
+                  <info>
+                     <fig>
+                        <title>98667744</title>
+                        <image href="../attachments/98667696/98667744.png" width="711" height="315" placement="break">
+                           <alt>placeholder</alt>
+                        </image>
+                     </fig>
+                  </info>
+               </substep>
+               <substep>
+                  <cmd>For <b>Opportunity (List): </b>
+                     <i>Amount, Description, Stage Name, Is Closed, Close Date, Owner Id </i>(<i>Account (Lookup), Opportunity Id, </i>and<i> Opportunity Name</i> are added by default)</cmd>
+                  <info>
+                     <fig>
+                        <title>98667743</title>
+                        <image href="../attachments/98667696/98667743.png" width="711" height="315" placement="break">
+                           <alt>placeholder</alt>
+                        </image>
+                     </fig>
+                  </info>
+               </substep>
+               <substep>
+                  <cmd>For <b>User </b>
+                     <b>(List)</b>: <i>Active </i>(<i>User Id </i>and<i> Full Name</i> are added by default)</cmd>
+                  <info>
+                     <fig>
+                        <title>98667742</title>
+                        <image href="../attachments/98667696/98667742.png" width="711" height="315" placement="break">
+                           <alt>placeholder</alt>
+                        </image>
+                     </fig>
+                  </info>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Danny clicks <b>Save and Close</b> to save his objects and fields to the app.</cmd>
+         </step>
+         <step>
+            <cmd>Finally, he clicks the <b>Save App</b> button in the X-Author Designer ribbon to update the app file in his environment.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Best Practices for adding Objects</p>
+         <p>Be careful when removing objects if your app already contains Display Maps or other components. Removing an object will invalidate any maps and actions in the app. You must remove those links manually before you remove the object. Generally, if you have selected the incorrect objects and have already created maps and actions, you should start over. If it is just unrelated objects that need to be changed, then you can remove that object after you correct the maps and actions. Then you can add in a new object.</p>
+         <p>Use Case: Adding objects for a Sales Pipeline app</p>
+         <p>Danny Designer needs to create an app that will be used to manage Opportunity data for a Sales Pipeline.</p>
+         <p>He decides that his app is going to need date from the Account, Opportunity, and User objects. Opportunity will be added as a child object of Account, and Account and User will be added separately as List objects.</p>
+         <p>Danny takes the following steps to add objects to his app:</p>
+      </result>
+   </taskbody>
+</task>

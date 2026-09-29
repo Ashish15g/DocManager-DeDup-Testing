@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="configuring_additional_values_f35e59" xml:lang="en-us">
+   <title>Configuring Additional Values</title>
+   <shortdesc>You can capture additional information for an object during the check-in process by configuring Additional</shortdesc>
+   <prolog>
+      <author type="creator">user-0266f</author>
+      <critdates>
+         <revised modified="Nov 25, 2018"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Additional</keyword>
+        <keyword>object</keyword>
+        <keyword>Values</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>Field</keyword>
+        <keyword>Value</keyword>
+        <indexterm>Additional</indexterm>
+        <indexterm>object</indexterm>
+        <indexterm>Values</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>You can capture additional information for an object during the check-in process by configuring Additional Values to be displayed during the check-in process. </p>
+         <p>To enable Additional Values: </p>
+      </context>
+      <steps>
+         <step>
+            <cmd>For an object, create a fieldset in your Salesforce Org. For example, to configure Additional Values for Account object, you need to create a fieldset on the Account object. </cmd>
+         </step>
+         <step>
+            <cmd>To create a fieldset, navigate to your Salesforce object and click Field Set from the right-hand side setup menu.
+Enter the following values for the Field Set Label and Field Set Name:</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Field</p>
+                           </entry>
+                           <entry>
+                              <p>Value</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Field Set Label</p>
+                           </entry>
+                           <entry>
+                              <p>ChatterAdditionalValueFieldSet</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Field Set Name</p>
+                           </entry>
+                           <entry>
+                              <p>ChatterAdditionalValueFieldSet</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Click Save.</cmd>
+         </step>
+         <step>
+            <cmd>Drag and drop your required fields in the fieldset area. </cmd>
+         </step>
+         <step>
+            <cmd>Click Save. </cmd>
+         </step>
+         <step>
+            <cmd>Navigate to <xref href="../configuring_system_properties_98672551/configuring_system_properties.dita">X-Author System Properties.</xref>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Set <b>Additional Value Check</b> as <i>true.</i>
+            </cmd>
+         </step>
+         <step>
+            <cmd>In the field <b>Additional Object Value API Name</b>, enter the API of the Salesforce object that you want to enable for Additional Values.</cmd>
+         </step>
+         <step>
+            <cmd>Click Save.</cmd>
+         </step>
+         <step>
+            <cmd>Click on Additional Value button to update data of the Salesforce object. For example, if you have set Additional Object Value API Name as Opportunity, you can now update the data fields of the opportunity record. All the data updates that you make are reflected in your Salesforce Org. </cmd>
+         </step>
+         <step>
+            <cmd>Click Save.</cmd>
+         </step>
+         <step>
+            <cmd>On the check-in page, Click Select. </cmd>
+         </step>
+      </steps>
+      <result>
+         <p>During the check-in process, an Additional Value button is now available. </p>
+         <p>
+            <b>Using Additional Values functionality</b>
+         </p>
+         <p>You can update the data only for existing records of the Salesforce object. If there is no record of the Salesforce object, X-Author Chatter displays an error.</p>
+         <p>Additional Values functionality is not supported for Files object.</p>
+      </result>
+   </taskbody>
+</task>

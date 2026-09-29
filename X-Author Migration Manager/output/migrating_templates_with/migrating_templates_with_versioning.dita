@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="migrating_templates_with_versioning_e0c8ee" xml:lang="en-us">
+   <title>Migrating Templates with Versioning</title>
+     <shortdesc>You can migrate versioned templates from the source org to the destination org using X-Author</shortdesc>
+   <prolog>
+      <author type="creator">user-090d1</author>
+      <critdates>
+         <revised modified="Jul 23, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>template</keyword>
+        <keyword>version</keyword>
+        <keyword>migrate</keyword>
+        <keyword>templates</keyword>
+        <keyword>migrated</keyword>
+        <keyword>When</keyword>
+        <indexterm>template</indexterm>
+        <indexterm>version</indexterm>
+        <indexterm>migrate</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>You can migrate versioned templates from the source org to the destination org using X-Author Migration Manager. The templates migrated from the source org to the destination org are labeled with a template version. Read the following guidelines before migrating templates:</p><ul>
+         <li>Versioning must be either enabled or disabled in both the orgs. You cannot migrate templates where only one of the org has versioning enabled.</li>
+         <li>To migrate templates with custom fields, you must first create similar custom fields in the target org.</li>
+         <li>When you migrate templates, the active version of the template is migrated to the target org.</li>
+         <li>When you migrate a template for the first time, the template created in the Target org is versioned v1.0. and marked active.</li>
+         <li>When you migrate a template which already exists in the Target org, the new version of the migrated template is the increment of the last major version and is marked active. For example, if the last version was 2.0. the new version would be 3.0.
+</li>
+         <li>When you migrate a template version, clauses and dynamic segments are migrated along with it and clause versions and dynamic segment versions are created with the template version.</li>
+      </ul><p>Migrating template with versions feature can only be used with X-Author Contracts version Summer 2019 and onwards.</p>
+  </context></taskbody>
+</task>

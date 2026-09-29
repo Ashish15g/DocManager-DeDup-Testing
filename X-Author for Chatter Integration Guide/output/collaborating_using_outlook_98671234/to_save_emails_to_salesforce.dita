@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_save_emails_to_salesforce_486d8b" xml:lang="en-us">
+   <title>To save emails to Salesforce</title>
+   <shortdesc>Prerequisites</shortdesc>
+   <prolog>
+      <author type="creator">user-0266f</author>
+      <critdates>
+         <revised modified="Nov 05, 2018"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>email</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>Format</keyword>
+        <keyword>Saves</keyword>
+        <keyword>Outlook</keyword>
+        <keyword>Select</keyword>
+        <indexterm>email</indexterm>
+        <indexterm>Salesforce</indexterm>
+        <indexterm>Format</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>
+            <b>Prerequisites</b>
+         </p>
+         <p>The X-Author Outlook add-in must have been installed and you are connected.</p>
+         <p>
+            <b>Steps</b>
+         </p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Select the email you want to save and select <b>New</b> in the<b> Save to Salesforce</b> ribbon section to display the different format options.
+</cmd>
+            <info>
+               <fig>
+                  <title>98671238</title>
+                  <image href="../attachments/98671234/98671238.jpg" width="1003" height="414" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Select one of the following options:</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>HTML Format (*.html)</p>
+                           </entry>
+                           <entry>
+                              <p>Saves the body of the email in an HTML file.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Outlook Message Format (*.msg)</p>
+                           </entry>
+                           <entry>
+                              <p>Saves the body of the email and any attachments in a file that can only
+be opened in Outlook.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Text Format (*.txt)</p>
+                           </entry>
+                           <entry>
+                              <p>Saves the body of the email in a text file.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Word Format (*.doc)</p>
+                           </entry>
+                           <entry>
+                              <p> Saves the body of the email in a Word file.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>In the Checkin window, select an <b>Object</b> and enter a name or owner name to help refine the search and click.</cmd>
+            <info>
+               <image href="../attachments/98671234/98671239.jpg" width="21" height="16" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Select</b> for the specific object record you want to save the file to.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>
+            <b>Results</b>
+         </p>
+         <p>A confirmation message indicates the email was successfully saved to Salesforce.</p>
+         <p>
+            <b>What's Next</b>
+         </p>
+         <p>You can go to that object record in Salesforce and see that the message has been added to the Notes and Attachments related list.</p>
+      </result>
+   </taskbody>
+</task>

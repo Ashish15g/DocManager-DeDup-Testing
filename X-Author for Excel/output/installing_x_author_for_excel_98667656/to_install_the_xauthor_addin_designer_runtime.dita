@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_install_the_xauthor_addin_designer_runtime_6e7a48" xml:lang="en-us">
+   <title>To Install the X-Author Add-in: Designer + Runtime</title>
+   <shortdesc>Designers: The X-Author Designer and X-Author for Excel ribbon tab should be available in Excel.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Author</keyword>
+        <keyword>Excel</keyword>
+        <keyword>Designer</keyword>
+        <keyword>Click</keyword>
+        <keyword>installed</keyword>
+        <keyword>Install</keyword>
+        <indexterm>Author</indexterm>
+        <indexterm>Excel</indexterm>
+        <indexterm>Designer</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Double-click the installer executable to display the InstallShield Wizard. In rare instances, a restart of Windows may be required. Click <b>Yes</b> to confirm the restart. After you log in to Windows, the installer automatically resumes.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Next</b> to start the wizard.</cmd>
+         </step>
+         <step>
+            <cmd>On the License Agreement screen, select <b>I Accept</b> and click <b>Next</b>. If you do not accept the terms of the agreement, X-Author will not be installed on your computer.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Install</b> to begin the installation process. If any components need to be installed for X-Author to work as expected, they will be automatically detected as missing and installed. If components are required but cannot be accessed through the Internet, an appropriate message will be displayed and the installation will need to be completed after all missing components have been manually installed.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Finish</b> to close the wizard and complete the installation.</cmd>
+         </step>
+         <step>
+            <cmd>Open Microsoft Excel.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Designers: The <b>X-Author Designer</b> and <b>X-Author for Excel</b> ribbon tab should be available in Excel. If the ribbon tab is not displayed, you may need to <xref href="../showing_disabled_x_author_add_98667659/showing_disabled_xauthor_addin_tabs.dita">register</xref> X-Author Designer or X-Author for Excel with Excel.</p>
+         <fig>
+            <title>98667813</title>
+            <image href="../attachments/98667656/98667813.png" width="946" height="147" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+         <p>Runtime Users: The <b>X-Author for Excel</b> ribbon tab should be available in Excel.</p>
+      </result>
+   </taskbody>
+</task>

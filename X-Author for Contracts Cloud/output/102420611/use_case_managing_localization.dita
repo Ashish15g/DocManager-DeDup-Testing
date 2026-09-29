@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="use_case_managing_localization_629a93" xml:lang="en-us">
+   <title>Use Case: Managing Localization</title>
+   <shortdesc>This topic describes how a template administrator can create a template using X-Author for Contracts</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="May 27, 2019"/>
+      </critdates>
+      <metadata>
+         <keywords>
+        <keyword>Select</keyword>
+        <keyword>Agreement</keyword>
+        <keyword>Complete</keyword>
+        <keyword>action</keyword>
+        <keyword>template</keyword>
+        <keyword>click</keyword>
+        <indexterm>Select</indexterm>
+        <indexterm>Agreement</indexterm>
+        <indexterm>Complete</indexterm>
+      </keywords>
+      <prodinfo>
+            <prodname>Use Case</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <taskbody>
+      <context>
+         <p>This topic describes how a template administrator can create a template using X-Author for Contracts (Windows) with Japanese locale, generate a document using the template, and review it in X-Author Contracts for Cloud (MAC).</p>
+         <p>Prerequisite</p>
+         <ul>
+            <li>You must create the template in X-Author Contracts using the latest X-Author for Contracts Salesforce Template.</li>
+            <li>You must disable the Enable Template Versioning property in the Contract Management Comply System Properties.</li>
+         </ul>
+         <p>To define locale settings for a new template in X-Author for Contracts</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and click <b>Connect </b>on the X-Author Templates or X-Author Contracts ribbon and select <b>Manage Connections</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Create a new connection section, enter a name for the connection and enter the host URL of your CRM in the Login URL field. The login URL is the URL of the CRM with which you want to connect.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <b>X-Author Templates tab</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>New</b>. The Specify Template Attributes dialog opens. </cmd>
+         </step>
+         <step>
+            <cmd>Enter the following values in the fields and then click <b>OK</b>. 
+<b>Type</b>: Select Agreement<b>Business Object</b>: Select Apttus__APTS_Agreement__c<b>Locale</b>: Select Japanese<b>Enable</b>
+               <b>Formatting</b>: Select the checkbox<b>Date</b>
+               <b>Format</b>: Select yyyy'年'M月'd'日'<b>Currency</b>
+               <b>Format</b>: Select Currency Symbol<b>Number</b>
+               <b>Precision</b>: Enter 2<b>Currency</b>
+               <b>Precision</b>: Enter 2</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Complete this action.<b>Type</b>: Select Agreement</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Business Object</b>: Select Apttus__APTS_Agreement__c</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Locale</b>: Select Japanese</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Enable</b>
+                     <b>Formatting</b>: Select the checkbox</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Date</b>
+                     <b>Format</b>: Select yyyy'年'M月'd'日'</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Currency</b>
+                     <b>Format</b>: Select Currency Symbol</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Number</b>
+                     <b>Precision</b>: Enter 2</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Currency</b>
+                     <b>Precision</b>: Enter 2</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Navigate to X-Author Templates tab.</cmd>
+         </step>
+         <step>
+            <cmd>Paste the following content in the document:</cmd>
+            <info>
+               <note type="note">
+                  <codeblock>This Master Service Agreement "Agreement" with XYZ corporation and has a start date of "Agreement Start Date".</codeblock>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Select Agreement in the content and click <b>Insert Fields</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select Agreement Name and click <b>Finish</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select Agreement Start Date in the content and click <b>Insert Fields</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select Agreement Start Date and click <b>Finish</b>. Mark the Agreement Start Date field as smart.</cmd>
+            <info>
+               <note type="tip">
+                  <p>Tip</p>
+                  <p>The Control Panel shows all the field present in the template and when you select a field the Properties pane is displayed under the Navigation pane of the Control Panel. From the Properties pane, under Display Attributes, you can change or define the format for Number, Currency, and Date fields.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Check-In.
+</b>
+            </cmd>
+            <info>
+               <note type="tip">
+                  <p>Tip</p>
+                  <p>You can change the locale of a template in the check-in window.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter the following values in the fields:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Complete this action.<b>Name</b>: Enter JLocale</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Agreement</b>
+                     <b>Types</b>: Select Corporate</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Category</b>: Select Category</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Subcategory</b>: Select Subcategory</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Language</b>: Select Japanese</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Click <b>Check-In.</b>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Log into the Apttus Contract Management application.<b>
+</b>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Navigate to the Agreements tab, and click <b>New</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select Corporate from the Record Type of new record and click <b>Continue</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the following values in the fields:<b>Agreement</b>
+               <b>Name</b>: Enter JAgreement<b>Agreement</b>
+               <b>Start</b>
+               <b>Date</b>: Select 5/20/2019<b>Account</b>: Acc</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Complete this action.<b>Agreement</b>
+                     <b>Name</b>: Enter JAgreement</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Agreement</b>
+                     <b>Start</b>
+                     <b>Date</b>: Select 5/20/2019</cmd>
+               </substep>
+               <substep>
+                  <cmd>Complete this action.<b>Account</b>: Acc</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Click <b>Continue </b>and click <b>Save</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select JLocale as the template and click <b>Generate</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Open the generated document in X-Author Contracts for Cloud. The locale settings in the document are inherited from the template.</cmd>
+         </step>
+         <step>
+            <cmd>Change the agreement start date to 2020年8月21日.</cmd>
+         </step>
+         <step>
+            <cmd>Insert a clause with smart fields. All the fields are updated based on the template locale</cmd>
+         </step>
+         <step>
+            <cmd>Navigate to Doc Fields and click <b>Validate</b>. All the fields are validated based on the template locale and template date format.</cmd>
+         </step>
+         <step>
+            <cmd>Change smart field values in the contract management application and click <b>Update from CLM</b>. The field values are updated in X-Author Contracts for Cloud as per the template locale.</cmd>
+         </step>
+         <step>
+            <cmd>Change the agreement start date to 2020年8月22日.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Preview Reconcile</b> or <b>Reconcile</b> to view the locale based changes in the agreement document.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Check-In</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Note</p>
+         <p>You can also use the above steps to create a clause template and generate the clause document.</p>
+      </result>
+   </taskbody>
+</task>

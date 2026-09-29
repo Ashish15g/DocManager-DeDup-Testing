@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="assigning_user_role_permissions_in_microsoft_dynamics_96968d" xml:lang="en-us">
+   <title>Assigning User Role Permissions in Microsoft Dynamics</title>
+   <shortdesc>You must assign the following permissions in the Microsoft Dynamics CRM to the roles of</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Author</keyword>
+        <keyword>Entities</keyword>
+        <keyword>Dynamics</keyword>
+        <keyword>following</keyword>
+        <keyword>permissions</keyword>
+        <keyword>access</keyword>
+        <indexterm>Author</indexterm>
+        <indexterm>Entities</indexterm>
+        <indexterm>Dynamics</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>You must assign the following permissions in the Microsoft Dynamics CRM to the roles of users who will use X-Author for Excel. Unless they have a System Administrator profile, users will not automatically have access to the package contents that are required to access X-Author functionality. The following permissions must be configured.</p><table>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry namest="c1" nameend="c2">
+                     <p>Runtime Users</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Create Tabs for X-Author for Excel in Dynamics CRMNavigate to Customizations &gt; Customize the System &gt; Entities &gt; Click Display in Activities Menu</p>
+                  </entry>
+                  <entry>
+                     <p>Apps</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Custom Entities permissionsSettings &gt; Security &gt; Security Roles (Select an existing security role or create a new role and provide access to the following Custom Entities.)</p>
+                  </entry>
+                  <entry>
+                     <p>Apps: ReadApp Assignments: No AccessApp Files: Read / Create / Edit / Delete</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table><table>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry namest="c1" nameend="c2">
+                     <p>Designer Users</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Create Tabs for X-Author for Excel in Dynamics CRMNavigate to Customizations &gt; Customize the System &gt; Entities &gt; Click Display in Activities Menu</p>
+                  </entry>
+                  <entry>
+                     <p>X-Author for ExcelX-Author DesignerApps</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Custom Entities permissionsSettings &gt; Security &gt; Security Roles (Select an existing security role or create a new role and provide access to the following Custom Entities.)</p>
+                  </entry>
+                  <entry>
+                     <p>Apps: Read / WriteApp Assignments: Read / WriteApp Files: Read / Create / Edit / Delete</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </context></taskbody>
+</task>

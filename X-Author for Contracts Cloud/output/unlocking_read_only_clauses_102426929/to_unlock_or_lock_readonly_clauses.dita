@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_unlock_or_lock_readonly_clauses_5f445d" xml:lang="en-us">
+   <title>To unlock or lock Read-Only clauses</title>
+   <shortdesc>You can view modified unlocked Read-Only clauses on the Reconciliation page or Agreement Clause tab.</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="Jul 26, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Read</keyword>
+        <keyword>Only</keyword>
+        <keyword>clauses</keyword>
+        <keyword>agreement</keyword>
+        <keyword>document</keyword>
+        <keyword>Clauses</keyword>
+        <indexterm>Read</indexterm>
+        <indexterm>Only</indexterm>
+        <indexterm>clauses</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open a generated agreement document containing Read-Only clauses.</cmd>
+         </step>
+         <step>
+            <cmd>Go to <b>Work</b> tab &gt; <b>Unlock Clauses</b>. If there are no read-only clauses in the agreement document and you select <b>Unlock Clauses</b>, an error message is displayed.
+All the Read-Only clauses in the agreement document become editable. </cmd>
+         </step>
+         <step>
+            <cmd>Make the required changes to the Read-Only clauses or delete Read-Only clauses. 
+To delete a Read-Only Clause, see <xref href="https://documentation.apttus.com/display/XAJSSFSUM19UG/Doc+Clauses" scope="external" format="html">To mark a clause for deletion</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>Go to <b>Work</b> tab &gt; <b>Lock Clauses</b>.
+The Read-Only clauses become uneditable. You cannot undo changes after the Read-Only clauses are locked.</cmd>
+         </step>
+         <step>
+            <cmd>Check in the agreement document.
+If you do not lock Read-Only clauses and check in the agreement document, the Read-Only clauses get locked.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Note</p>
+         <p>You can view modified unlocked Read-Only clauses on the Reconciliation page or Agreement Clause tab.</p>
+      </result>
+   </taskbody>
+</task>

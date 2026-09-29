@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="launching_an_xauthor_for_excel_app_from_apttus_omni_0ddb02" xml:lang="en-us">
+   <title>Launching an X-Author for Excel App from Apttus Omni</title>
+   <shortdesc>You can launch an X-Author app directly from a button on any page in Apttus</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <critdates>
+         <created date="Oct 29, 2018"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Author</keyword>
+        <keyword>button</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>Excel</keyword>
+        <keyword>https</keyword>
+        <keyword>value</keyword>
+        <indexterm>Author</indexterm>
+        <indexterm>button</indexterm>
+        <indexterm>placeholder</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>You can launch an X-Author app directly from a button on any page in Apttus Omni. After clicking the button, the app opens in Microsoft Excel and automatically executes based on one or more defined action flows.</p>
+         <p>Prerequisites</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>In your tenant, go to the Layout Builder. Use the URL: https://yourTenantEndpoint/ui/layoutbuilder/</cmd>
+         </step>
+         <step>
+            <cmd>Find the Layout on which you want to configure Launch X-Author for Excel button.</cmd>
+         </step>
+         <step>
+            <cmd>Add the button to the selected Layout and provide a name. Name it Launch XAE or whatever you want.</cmd>
+            <info>
+               <fig>
+                  <title>98667935</title>
+                  <image href="../attachments/98667730/98667935.png?effects=drop-shadow" width="600" height="400" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on new button and go to Properties and click Edit JSON.</cmd>
+            <info>
+               <fig>
+                  <title>98667934</title>
+                  <image href="../attachments/98667730/98667934.png" width="325" height="581" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on Text from Tree drop-down on EditJSON popup and you will get JSON text.</cmd>
+            <info>
+               <fig>
+                  <title>98667933</title>
+                  <image href="../attachments/98667730/98667933.png" width="799" height="355" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Copy Following JSON text there.</cmd>
+            <info>
+               <fig>
+                     <title>98667932</title>
+                     <image href="../attachments/98667730/98667932.png" placement="break" width="802" height="319">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+            <info>
+               <note type="note">
+                  <p> Expand source</p>
+                  <codeblock xml:space="preserve">{
+"type": "Button",
+"label": "Launch X Author",
+"actionFunc":"xAuthor::launchApp",
+"xAuthorAppId":"17776ae9-dec3-4781-9111-5c0f0c472ebb",
+"xAuthorHostUrl":"https://apttus-clm-dev1.crm.dynamics.com"
+}</codeblock>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>xAuhorAppId value should be UniqueID field value of XAE App, to get UniqueId value, go to this link<xref href="https://yourTenantEndpoint/ui/common/entity/xae_App" scope="external" format="html">https://yourTenantEndpoint/ui/common/entity/xae_App</xref> Find XAE App you want to launch on click of this button and Click on it, you will go to Details view page where you will Unique Id Value.</cmd>
+            <info>
+               <fig>
+                     <title>98667931</title>
+                     <image href="../attachments/98667730/98667931.png" placement="break" width="506" height="703">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+         </step>
+         <step>
+            <cmd>xAuthorHostUrl value should be your Tenant End Point URL only e.g. <xref href="https://dev2-eng4-aql.apttuscloud.io" scope="external" format="html">https://dev2-eng4-aql.apttuscloud.io</xref>Save layout and it should appear on your layout in AIC page.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

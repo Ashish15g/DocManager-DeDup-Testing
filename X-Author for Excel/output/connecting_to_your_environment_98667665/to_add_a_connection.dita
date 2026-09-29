@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_add_a_connection_de4208" xml:lang="en-us">
+   <title>To add a connection</title>
+   <shortdesc>The X-Author Designer ribbon is fully enabled. Now you can start designing an app or</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>connection</keyword>
+        <keyword>instance</keyword>
+        <keyword>Author</keyword>
+        <keyword>Excel</keyword>
+        <keyword>Designer</keyword>
+        <keyword>ribbon</keyword>
+        <indexterm>connection</indexterm>
+        <indexterm>instance</indexterm>
+        <indexterm>Author</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Excel.</cmd>
+         </step>
+         <step>
+            <cmd>In the X-Author Designer or X-Author for Excel ribbon menu, click <b>Switch Connection</b> and select <b>Manage Connections</b>. The Manage Connections window opens.</cmd>
+         </step>
+         <step>
+            <cmd>Under the Create a New Connection section, enter the name for the connection.
+</cmd>
+         </step>
+         <step>
+            <cmd>In the Login URL field, enter the URL you use to log in to your environment.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Authorize</b>. The login window opens.</cmd>
+         </step>
+         <step>
+            <cmd>Enter your username and password in the provided fields to log in.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The X-Author Designer ribbon is fully enabled. Now you can start designing an app or using existing apps.</p>
+         <p>If you have previously connected to an instance and now need to connect to a different instance, then you will need to switch connections because the connection will default to the instance you most recently connected to. Use the following procedure to switch to a different instance.</p>
+      </result>
+   </taskbody>
+</task>

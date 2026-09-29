@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_enable_licenses_in_salesforce_9730ce" xml:lang="en-us">
+   <title>To enable licenses in Salesforce</title>
+   <shortdesc>After you install the X-Author for Excel Salesforce packages, you must send your Org ID</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Author</keyword>
+        <keyword>Excel</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>enable</keyword>
+        <keyword>Conga</keyword>
+        <keyword>licenses</keyword>
+        <indexterm>Author</indexterm>
+        <indexterm>Excel</indexterm>
+        <indexterm>Salesforce</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>After you install the X-Author for Excel Salesforce packages, you must send your Org ID to Conga. By default, when X-Author for Excel is installed, the lowest level of license is provisioned. After Conga has upgraded functionality in your environments, take the following steps to enable X-Author functionality according to your license:</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Log in to Salesforce.</cmd>
+         </step>
+         <step>
+            <cmd>Click on the <b>Conga X-Author for Excel</b> tab.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Refresh License</b>.
+
+
+All users connecting to X-Author for Excel are now able to use licensed product features.</cmd>
+            <info>
+               <fig>
+                  <title>190354237</title>
+                  <image href="../attachments/98667656/190354237.png" width="1920" height="866" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+      </steps>
+      <result>
+         <p>X-Author for Excel is comprised of both Microsoft Dynamics managed solutions and an Excel add-in for each user.</p>
+         <p>Designers will see both the X-Author Designer and X-Author for Excel tabs in the Excel menu. End users should install the runtime-only add-in and they will see only the X-Author for Excel tab.</p>
+      </result>
+   </taskbody>
+</task>

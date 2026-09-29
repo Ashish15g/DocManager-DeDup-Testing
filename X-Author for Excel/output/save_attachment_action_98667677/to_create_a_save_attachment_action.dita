@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_save_attachment_action_d32c80" xml:lang="en-us">
+   <title>To create a Save Attachment action</title>
+   <shortdesc>Field Name</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Name</keyword>
+        <keyword>File</keyword>
+        <keyword>select</keyword>
+        <keyword>Save</keyword>
+        <keyword>Select</keyword>
+        <keyword>Attachment</keyword>
+        <indexterm>Name</indexterm>
+        <indexterm>File</indexterm>
+        <indexterm>select</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click on the arrow beneath the Actions button and select <b>Save Attachment</b>.</cmd>
+            <info>
+               <fig>
+                  <title>190354418</title>
+                  <image href="../attachments/98667677/190354418.png" width="164" height="452" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>In Action Name, type a descriptive name for the action.</cmd>
+         </step>
+         <step>
+            <cmd>In File Name, type a file name to be used when the file is executed.
+</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Field Name</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Use Runtime File Name</p>
+                           </entry>
+                           <entry>
+                              <p>Select this option to use the existing File Name at runtime.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Manually Provide File Name</p>
+                           </entry>
+                           <entry>
+                              <p>Select this option to allow your user to provide the File Name manually.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Use Cell Reference as File Name</p>
+                           </entry>
+                           <entry>
+                              <p>Select this option to allow your user to use a cell reference as the File Name. Select the cell and click the icon.This feature is not available with Presto apps.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>From Object, select an Individual object.</cmd>
+         </step>
+         <step>
+            <cmd>In Format, select whether to save the attachment as <i>Excel</i> or <i>PDF</i>.</cmd>
+         </step>
+         <step>
+            <cmd>Leave <b>Custom Sheet Selection</b> blank to save the entire file as an attachment or select the check box to save specific worksheets. Hold the Ctrl key to select multiple worksheets listed in <b>Include Sheets</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+            <info>
+               <fig>
+                  <title>190354410</title>
+                  <image href="../attachments/98667677/190354410.png" width="328" height="398" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

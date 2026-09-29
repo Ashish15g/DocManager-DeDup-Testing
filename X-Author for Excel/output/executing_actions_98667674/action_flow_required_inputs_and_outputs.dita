@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="action_flow_required_inputs_and_outputs_15fb7b" xml:lang="en-us">
+   <title>Action Flow Required Inputs and Outputs</title>
+   <shortdesc>It always requires input because the Excel workbook is saved to an individual record. Although</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>action</keyword>
+        <keyword>Never</keyword>
+        <keyword>Action</keyword>
+        <keyword>input</keyword>
+        <keyword>requires</keyword>
+        <keyword>object</keyword>
+        <indexterm>action</indexterm>
+        <indexterm>Never</indexterm>
+        <indexterm>Action</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><table>
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <thead>
+               <row>
+                  <entry>
+                     <p>Action</p>
+                  </entry>
+                  <entry>
+                     <p>Input</p>
+                  </entry>
+                  <entry>
+                     <p>Output</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Check-in</p>
+                  </entry>
+                  <entry>
+                     <p>It always requires input because the Excel workbook is saved to an individual record. Although the individual object is already identified when you create the action itself, it is possible you could have used that object in different ways in various action flows. Therefore, the Action Flow requires specific output from a prior action as input to this one.</p>
+                  </entry>
+                  <entry>
+                     <p>Never</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Check-out</p>
+                  </entry>
+                  <entry>
+                     <p>It always requires input because the Excel file is opened from an individual record. Although the individual object is already identified when you create the action itself, it is possible you could have used that object in different ways in various action flows. Therefore, the Action Flow needs to have the specific output from a prior action as input to this one.</p>
+                  </entry>
+                  <entry>
+                     <p>Never</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Clear Fields</p>
+                  </entry>
+                  <entry>
+                     <p>Never. Clear Fields is tied to a specific Save Map.</p>
+                  </entry>
+                  <entry>
+                     <p>Never</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Display</p>
+                  </entry>
+                  <entry>
+                     <p>It always requires input. An output from a prior Action must represent any object on a Display Map.</p>
+                  </entry>
+                  <entry>
+                     <p>
+</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Macro</p>
+                  </entry>
+                  <entry>
+                     <p>Never.</p>
+                  </entry>
+                  <entry>
+                     <p>Never</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Query</p>
+                  </entry>
+                  <entry>
+                     <p>Only if INPUT has been used in the query action filter.</p>
+                  </entry>
+                  <entry>
+                     <p>Always</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Dataset</p>
+                  </entry>
+                  <entry>
+                     <p>It always requires input. Datasets take the outputs of query action as inputs. Output can be saved as a single dataset.</p>
+                  </entry>
+                  <entry>
+                     <p>Always</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Salesforce Method</p>
+                  </entry>
+                  <entry>
+                     <p>Optional.</p>
+                  </entry>
+                  <entry>
+                     <p>Optional</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Save</p>
+                  </entry>
+                  <entry>
+                     <p>Never.</p>
+                  </entry>
+                  <entry>
+                     <p>Never</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Search and Select</p>
+                  </entry>
+                  <entry>
+                     <p>Input is required only if INPUT has been used in the Search and Select action filter.</p>
+                  </entry>
+                  <entry>
+                     <p>Always</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table></conbody>
+</concept>

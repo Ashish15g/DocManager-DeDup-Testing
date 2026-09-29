@@ -1,0 +1,2058 @@
+{
+  "job_id": "ef6d4870-15d1-4263-acb4-2272aec97d23",
+  "mode": "enrich-only",
+  "output_dir": "storage/ef6d4870-15d1-4263-acb4-2272aec97d23/xslt_output",
+  "processed_at": "2026-08-20T06:53:27.363809+00:00",
+  "counts": {
+    "dita_files_total": 24,
+    "ditamap_files_total": 12,
+    "topics_reclassified": 8,
+    "issues_fixed_by_zone1": 24,
+    "issues_fixed_by_ai": 27,
+    "issues_remaining": 24,
+    "ai_obligations_missed": 0,
+    "new_issues_by_ai": 5,
+    "pending_suggestions": 35,
+    "alt_text_images_filled": 0,
+    "alt_text_images_skipped": 23,
+    "alt_text_images_scanned": 23
+  },
+  "quality_metrics": {
+    "element_validation_success_pct": 8,
+    "attribute_mapping_success_pct": 50,
+    "href_resolution_success_pct": 100,
+    "table_resolution": {
+      "validated": 19,
+      "total": 19,
+      "success_pct": 100
+    }
+  },
+  "token_usage": {
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "total_cost_usd": 0,
+    "by_model": {}
+  },
+  "element_counts": {
+    "ol": 1,
+    "ul": 17,
+    "table": 19,
+    "image": 15,
+    "crosslink": 16,
+    "hyperlink": 65,
+    "concept": 7,
+    "task": 16,
+    "reference": 1,
+    "topic": 0
+  },
+  "enrichment_summary": [
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079427/inserting_xauthor_contracts_addin_production_xauthor_for_contracts_on_the_conga_platform_v20240820.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079427/to_insert_the_xauthor_for_contracts_advanced_addin.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/index/space_details.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/inserting_and_deleting_clauses_v20240810.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/to_insert_a_clause.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/inserting_fields_in_a_template_v20240820.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+      "original_type": "task",
+      "ai_assigned_type": "reference",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/installing_x_author_for_contra_256537977/installing_xauthor_for_contracts_advanced_v20240810.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/opening_an_agreement_document_v20240810.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_an_agreement_document.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/to_update_from_conga_clm.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/updating_fields_from_conga_clm_v20240820.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_delete_a_clause.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_from_clause_library_into_a_template.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_with_formatting_from_clause_library_into_a_template.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/using_clause_library_for_template_v20240810.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_for_contracts_advanced_templates.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_templates_in_conga_drive_v20240720.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_for_generated_create_offline_and_generated_offline_documents.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_with_conga_copilot_for_documents_processed_with_discovery_ai.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/limitations.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/working_with_conga_copilot_v20240910.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    }
+  ],
+  "alt_text_summary": {
+    "images_filled": 0,
+    "images_skipped": 23,
+    "total_images_scanned": 23
+  },
+  "alt_text_events": {
+    "filled": [],
+    "skipped": [
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/to_insert_a_clause.dita",
+        "href": "../attachments/256537119/256537114.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/to_insert_a_clause.dita",
+        "href": "../attachments/256537119/256537115.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/to_insert_a_clause.dita",
+        "href": "../attachments/256537119/256537116.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+        "href": "../attachments/256538624/256538613.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+        "href": "../attachments/256537088/256537074.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+        "href": "../attachments/256537088/256537076.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+        "href": "../attachments/256537088/256537073.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_an_agreement_document.dita",
+        "href": "../attachments/256537088/256537074.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_an_agreement_document.dita",
+        "href": "../attachments/256537088/256537076.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_an_agreement_document.dita",
+        "href": "../attachments/256537088/256537073.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/to_update_from_conga_clm.dita",
+        "href": "../attachments/256538635/256538628.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/to_update_from_conga_clm.dita",
+        "href": "../attachments/256538635/256538634.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_from_clause_library_into_a_template.dita",
+        "href": "../attachments/256537130/256537125.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_from_clause_library_into_a_template.dita",
+        "href": "../attachments/256537130/256537128.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_from_clause_library_into_a_template.dita",
+        "href": "../attachments/256537130/256537124.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_from_clause_library_into_a_template.dita",
+        "href": "../attachments/256537130/256537129.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_with_formatting_from_clause_library_into_a_template.dita",
+        "href": "../attachments/256537130/256537125.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_with_formatting_from_clause_library_into_a_template.dita",
+        "href": "../attachments/256537130/256537128.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_for_contracts_advanced_templates.dita",
+        "href": "../attachments/256535818/256535820.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_for_generated_create_offline_and_generated_offline_documents.dita",
+        "href": "../attachments/thumbnails/231214040/231214010",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_with_conga_copilot_for_documents_processed_with_discovery_ai.dita",
+        "href": "../attachments/thumbnails/231214040/231214010",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_with_conga_copilot_for_documents_processed_with_discovery_ai.dita",
+        "href": "../attachments/thumbnails/231214040/231214010",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_with_conga_copilot_for_documents_processed_with_discovery_ai.dita",
+        "href": "../attachments/thumbnails/231214040/231214010",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      }
+    ]
+  },
+  "structural_issues_remaining": [
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/installing_x_author_for_contra_256537977/installing_xauthor_for_contracts_advanced_v20240810.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/installing_x_author_for_contra_256537977/installing_xauthor_for_contracts_advanced_v20240810.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 31
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/updating_fields_from_conga_clm_v20240820.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 28
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/index/space_details.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 48
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+      "message": "<p> #2 is empty \u2014 remove or add content",
+      "line": 52
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+      "message": "<p> #3 is empty \u2014 remove or add content",
+      "line": 56
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 32
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #2 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 83
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #3 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 146
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #4 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 221
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #5 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 285
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #6 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 400
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #7 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 459
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #8 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 502
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #9 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 572
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #10 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 655
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #11 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 718
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #12 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 803
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #13 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 960
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #14 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 1066
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #15 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 1133
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #16 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 1174
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<table> #17 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 1336
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section lists changes in the documentation to support e...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "message": "<p> #72 is empty \u2014 remove or add content",
+      "line": 430
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/working_with_conga_copilot_v20240910.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    }
+  ],
+  "enrichment_quality": {
+    "summary": {
+      "dita_file_count": 24,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "WARNING": 1,
+        "INFO": 0
+      },
+      "category_counts": {
+        "shortdesc_too_generic": 1
+      }
+    },
+    "issues": [
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section lists changes in the documentation to support e...'",
+        "line": 5
+      }
+    ]
+  },
+  "fix_diff": {
+    "fixed_by_zone1": [
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079427/inserting_xauthor_contracts_addin_production_xauthor_for_contracts_on_the_conga_platform_v20240820.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079427/to_insert_the_xauthor_for_contracts_advanced_addin.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/index/space_details.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/inserting_and_deleting_clauses_v20240810.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/to_insert_a_clause.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/inserting_fields_in_a_template_v20240820.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/installing_x_author_for_contra_256537977/installing_xauthor_for_contracts_advanced_v20240810.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/opening_an_agreement_document_v20240810.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_an_agreement_document.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/to_update_from_conga_clm.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/updating_fields_from_conga_clm_v20240820.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_delete_a_clause.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_from_clause_library_into_a_template.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_with_formatting_from_clause_library_into_a_template.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/using_clause_library_for_template_v20240810.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_for_contracts_advanced_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_templates_in_conga_drive_v20240720.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_for_generated_create_offline_and_generated_offline_documents.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_with_conga_copilot_for_documents_processed_with_discovery_ai.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/limitations.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/working_with_conga_copilot_v20240910.dita",
+        "fix": "added xml:lang=\"en-us\""
+      }
+    ],
+    "fixed_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/to_insert_a_clause.dita",
+        "message": "<image> #1 (href='../attachments/256537119/256537114.png') has no alt text \u2014 required for accessibility",
+        "line": 26
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/to_insert_a_clause.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_for_contracts_advanced_templates.dita",
+        "message": "<image> #1 (href='../attachments/256535818/256535820.png') has no alt text \u2014 required for accessibility",
+        "line": 32
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_for_contracts_advanced_templates.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/installing_x_author_for_contra_256537977/installing_xauthor_for_contracts_advanced_v20240810.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079427/to_insert_the_xauthor_for_contracts_advanced_addin.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/to_update_from_conga_clm.dita",
+        "message": "<image> #1 (href='../attachments/256538635/256538628.png') has no alt text \u2014 required for accessibility",
+        "line": 24
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/to_update_from_conga_clm.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/updating_fields_from_conga_clm_v20240820.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 13
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+        "message": "<image> #1 (href='../attachments/256538624/256538613.png') has no alt text \u2014 required for accessibility",
+        "line": 27
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/inserting_fields_in_a_template_v20240820.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 13
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/index/space_details.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_an_agreement_document.dita",
+        "message": "<image> #1 (href='../attachments/256537088/256537074.png') has no alt text \u2014 required for accessibility",
+        "line": 33
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_an_agreement_document.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+        "message": "<image> #1 (href='../attachments/256537088/256537074.png') has no alt text \u2014 required for accessibility",
+        "line": 53
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 15
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_from_clause_library_into_a_template.dita",
+        "message": "<image> #1 (href='../attachments/256537130/256537125.png') has no alt text \u2014 required for accessibility",
+        "line": 20
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_from_clause_library_into_a_template.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_with_formatting_from_clause_library_into_a_template.dita",
+        "message": "<image> #1 (href='../attachments/256537130/256537125.png') has no alt text \u2014 required for accessibility",
+        "line": 20
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_with_formatting_from_clause_library_into_a_template.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_for_generated_create_offline_and_generated_offline_documents.dita",
+        "message": "<image> #1 (href='../attachments/thumbnails/231214040/231214010') has no alt text \u2014 required for accessibility",
+        "line": 20
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_for_generated_create_offline_and_generated_offline_documents.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_with_conga_copilot_for_documents_processed_with_discovery_ai.dita",
+        "message": "<image> #1 (href='../attachments/thumbnails/231214040/231214010') has no alt text \u2014 required for accessibility",
+        "line": 20
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_with_conga_copilot_for_documents_processed_with_discovery_ai.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      }
+    ],
+    "ai_obligations_missed": [],
+    "new_issues_introduced_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/updating_fields_from_conga_clm_v20240820.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 28
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section lists changes in the documentation to support e...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/working_with_conga_copilot_v20240910.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      }
+    ],
+    "summary": {
+      "pre_enrichment_issue_count": 106,
+      "post_enrichment_issue_count": 30,
+      "backend_error_file_count": 0,
+      "fixed_by_zone1_count": 24,
+      "fixed_by_ai_count": 27,
+      "remaining_count": 24,
+      "ai_obligations_missed_count": 0,
+      "new_issues_count": 5
+    }
+  },
+  "ai_quality_review": {
+    "layer4": {
+      "overall_quality": "fair",
+      "topic_type_accuracy_pct": 0,
+      "recommendations": [],
+      "dita_best_practice_gaps": [],
+      "autofix": {
+        "fixed": [],
+        "flagged": [],
+        "failed": []
+      }
+    },
+    "layer5": {
+      "validation_passed": true,
+      "overall_accuracy_pct": 100,
+      "per_topic_issues": [
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/266079427/inserting_xauthor_contracts_addin_production_xauthor_for_contracts_on_the_conga_platform_v20240820.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Inserting X-Author Contracts Add-in \u2014 Production X-Author for Contracts on the Conga Platform v202408.2.0' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/266079427/to_insert_the_xauthor_for_contracts_advanced_addin.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To insert the X-Author for Contracts Advanced add-in' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'What's New in X-Author for Contracts v202409.1.0' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 25
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/index/space_details.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Space Details:' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/inserting_and_deleting_clauses_v20240810.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Inserting and Deleting Clauses v202408.1.0' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/to_insert_a_clause.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To insert a clause' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/inserting_fields_in_a_template_v20240820.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Inserting Fields in a Template v202408.2.0' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To insert fields in a template' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/installing_x_author_for_contra_256537977/installing_xauthor_for_contracts_advanced_v20240810.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Installing X-Author for Contracts Advanced v202408.1.0' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/opening_an_agreement_document_v20240810.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Opening an Agreement Document v202408.1.0' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To open or open and update a contract document' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_an_agreement_document.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To open or open and update an agreement document' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/to_update_from_conga_clm.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To Update from Conga CLM' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/updating_fields_from_conga_clm_v20240820.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Updating Fields from Conga CLM v202408.2.0' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_delete_a_clause.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To delete a clause' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_from_clause_library_into_a_template.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To insert a clause from Clause Library into a template' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_with_formatting_from_clause_library_into_a_template.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To insert a clause with formatting from Clause Library into a template' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/using_clause_library_for_template_v20240810.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Using Clause Library for Template v202408.1.0' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_for_contracts_advanced_templates.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Viewing X-Author for Contracts Advanced Templates' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_templates_in_conga_drive_v20240720.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Viewing X-Author Templates in Conga Drive v202407.2.0' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_for_generated_create_offline_and_generated_offline_documents.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Asking Questions for Generated, Create Offline, and Generated Offline Documents' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_with_conga_copilot_for_documents_processed_with_discovery_ai.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Asking Questions with Conga Copilot for Documents Processed with Discovery AI' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/limitations.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Limitations' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/working_with_conga_copilot_v20240910.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Working with Conga Copilot v202409.1.0' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        }
+      ],
+      "shortdesc_issues": [],
+      "recommendations": [
+        "24 WARNING(s) \u2014 missing id, DOCTYPE, or shortdesc"
+      ],
+      "schema_validation": {
+        "schema_passed": true,
+        "total_files": 24,
+        "valid_files": 24,
+        "invalid_files": 0,
+        "results": [
+          {
+            "file": "inserting_xauthor_contracts_addin_production_xauthor_for_contracts_on_the_conga_platform_v20240820.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_insert_the_xauthor_for_contracts_advanced_addin.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "whats_new_in_xauthor_for_contracts_v20240910.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "space_details.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "inserting_and_deleting_clauses_v20240810.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_insert_a_clause.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "inserting_fields_in_a_template_v20240820.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_insert_fields_in_a_template.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "installing_xauthor_for_contracts_advanced_v20240810.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "opening_an_agreement_document_v20240810.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_open_or_open_and_update_a_contract_document.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_open_or_open_and_update_an_agreement_document.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_update_from_conga_clm.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "updating_fields_from_conga_clm_v20240820.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_delete_a_clause.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_insert_a_clause_from_clause_library_into_a_template.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_insert_a_clause_with_formatting_from_clause_library_into_a_template.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "using_clause_library_for_template_v20240810.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "viewing_xauthor_for_contracts_advanced_templates.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "viewing_xauthor_templates_in_conga_drive_v20240720.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "asking_questions_for_generated_create_offline_and_generated_offline_documents.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "asking_questions_with_conga_copilot_for_documents_processed_with_discovery_ai.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "limitations.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "working_with_conga_copilot_v20240910.dita",
+            "valid": true,
+            "issues": []
+          }
+        ]
+      }
+    }
+  },
+  "element_counts_per_file": [
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079427/inserting_xauthor_contracts_addin_production_xauthor_for_contracts_on_the_conga_platform_v20240820.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079427/to_insert_the_xauthor_for_contracts_advanced_addin.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 17,
+      "image": 0,
+      "crosslink": 15,
+      "hyperlink": 47,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/index/space_details.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/inserting_and_deleting_clauses_v20240810.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/to_insert_a_clause.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/inserting_fields_in_a_template_v20240820.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+      "ol": 1,
+      "ul": 2,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 0,
+      "reference": 1,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/installing_x_author_for_contra_256537977/installing_xauthor_for_contracts_advanced_v20240810.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 12,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/opening_an_agreement_document_v20240810.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+      "ol": 0,
+      "ul": 3,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_an_agreement_document.dita",
+      "ol": 0,
+      "ul": 3,
+      "table": 0,
+      "image": 3,
+      "crosslink": 1,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/to_update_from_conga_clm.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/updating_fields_from_conga_clm_v20240820.dita",
+      "ol": 0,
+      "ul": 2,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_delete_a_clause.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_from_clause_library_into_a_template.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 4,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_with_formatting_from_clause_library_into_a_template.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/using_clause_library_for_template_v20240810.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_for_contracts_advanced_templates.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_templates_in_conga_drive_v20240720.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_for_generated_create_offline_and_generated_offline_documents.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_with_conga_copilot_for_documents_processed_with_discovery_ai.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/limitations.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/working_with_conga_copilot_v20240910.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    }
+  ],
+  "pre_clean": {
+    "status": "completed",
+    "summary": {
+      "files_processed": 36,
+      "files_modified": 0,
+      "files_unchanged": 36,
+      "files_failed": 0,
+      "total_fixes_by_type": {}
+    },
+    "per_file": [
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079427/inserting_xauthor_contracts_addin_production_xauthor_for_contracts_on_the_conga_platform_v20240820.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079427/to_insert_the_xauthor_for_contracts_advanced_addin.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079427.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478/whats_new_in_xauthor_for_contracts_v20240910.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/266079478.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/index/space_details.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/index.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/inserting_and_deleting_clauses_v20240810.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/to_insert_a_clause.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/inserting_fields_in_a_template_v20240820.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/installing_x_author_for_contra_256537977/installing_xauthor_for_contracts_advanced_v20240810.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/installing_x_author_for_contra_256537977.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/opening_an_agreement_document_v20240810.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_an_agreement_document.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/to_update_from_conga_clm.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/updating_fields_from_conga_clm_v20240820.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_delete_a_clause.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_from_clause_library_into_a_template.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_with_formatting_from_clause_library_into_a_template.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/using_clause_library_for_template_v20240810.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_for_contracts_advanced_templates.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_templates_in_conga_drive_v20240720.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_for_generated_create_offline_and_generated_offline_documents.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_with_conga_copilot_for_documents_processed_with_discovery_ai.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/limitations.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/working_with_conga_copilot_v20240910.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/x_author_for_contracts_advanced_202409.1.0_version.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      }
+    ]
+  },
+  "validation": {
+    "fix_passes": [
+      {
+        "pass": 1,
+        "files_fixed": 10,
+        "total_fixed": 47,
+        "file_results": [
+          {
+            "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_and_deleting_clauses_256537119/to_insert_a_clause.dita",
+            "violations_in": 6,
+            "fixes_applied": 6,
+            "fix_types": [
+              "image_dims(3)",
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+            "violations_in": 4,
+            "fixes_applied": 2,
+            "fix_types": [
+              "image_dims(1)",
+              "image_placement(1)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_a_contract_document.dita",
+            "violations_in": 6,
+            "fixes_applied": 6,
+            "fix_types": [
+              "image_dims(3)",
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_contracts_advanced_202409.1.0_version/opening_an_agreement_document_256537088/to_open_or_open_and_update_an_agreement_document.dita",
+            "violations_in": 6,
+            "fixes_applied": 6,
+            "fix_types": [
+              "image_dims(3)",
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_contracts_advanced_202409.1.0_version/updating_fields_from_conga_clm_256538635/to_update_from_conga_clm.dita",
+            "violations_in": 4,
+            "fixes_applied": 5,
+            "fix_types": [
+              "image_dims(2)",
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_from_clause_library_into_a_template.dita",
+            "violations_in": 8,
+            "fixes_applied": 8,
+            "fix_types": [
+              "image_dims(4)",
+              "image_placement(4)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_contracts_advanced_202409.1.0_version/using_clause_library_for_templ_256537130/to_insert_a_clause_with_formatting_from_clause_library_into_a_template.dita",
+            "violations_in": 4,
+            "fixes_applied": 4,
+            "fix_types": [
+              "image_dims(2)",
+              "image_placement(2)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_contracts_advanced_202409.1.0_version/viewing_x_author_templates_in_256535818/viewing_xauthor_for_contracts_advanced_templates.dita",
+            "violations_in": 2,
+            "fixes_applied": 2,
+            "fix_types": [
+              "image_dims(1)",
+              "image_placement(1)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_for_generated_create_offline_and_generated_offline_documents.dita",
+            "violations_in": 2,
+            "fixes_applied": 2,
+            "fix_types": [
+              "image_dims(1)",
+              "image_placement(1)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_contracts_advanced_202409.1.0_version/working_with_conga_copilot_v20_266079470/asking_questions_with_conga_copilot_for_documents_processed_with_discovery_ai.dita",
+            "violations_in": 6,
+            "fixes_applied": 6,
+            "fix_types": [
+              "image_dims(3)",
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "files_fixed": 0,
+        "total_fixed": 0,
+        "file_results": [
+          {
+            "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+            "violations_in": 2,
+            "fixes_applied": 0,
+            "fix_types": [],
+            "warnings": [],
+            "inline_warnings": []
+          }
+        ]
+      }
+    ],
+    "final_violations": 2,
+    "final_files_with_violations": 1,
+    "final_details": [
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "x_author_for_contracts_advanced_202409.1.0_version/inserting_fields_in_a_template_256538624/to_insert_fields_in_a_template.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      }
+    ]
+  }
+}

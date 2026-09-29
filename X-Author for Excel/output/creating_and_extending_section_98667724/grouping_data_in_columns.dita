@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="grouping_data_in_columns_e5ef61" xml:lang="en-us">
+   <title>Grouping Data in Columns</title>
+   <shortdesc>You can use matrix grouping features to display data in grouped columns within a matrix.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <critdates>
+         <revised modified="Jan 30, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>matrix</keyword>
+        <keyword>field</keyword>
+        <keyword>Column</keyword>
+        <keyword>Matrix</keyword>
+        <keyword>grouped</keyword>
+        <keyword>grouping</keyword>
+        <indexterm>matrix</indexterm>
+        <indexterm>field</indexterm>
+        <indexterm>Column</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>You can use matrix grouping features to display data in grouped columns within a matrix.</p>
+      <p>If you want to group pricing data for a region, for a specific device type for a particular processor, configure the following</p>
+      <ol>
+    <li>Set the <b>Device Type</b> field as a regular Dynamic Matrix Column.</li>
+    <li>Set the <b>Region</b> field as a Grouped Column on which the data is grouped.</li>
+    <li>Add <b>Processor Name</b> as Matrix Row.</li>
+    <li>Add <b>Price as a Data Field</b> to the Matrix.</li>
+    <li>You can add one or more grouped columns on top of the Region Grouped Column field.</li>
+    </ol>
+    </section>
+<section>
+      <title>Result</title>
+      <table>
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry>
+                        <p>Region (Grouped Column)</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry namest="c1" nameend="c2">
+                        <p>Device Type (Column)</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Processor Name (Row)</p>
+                     </entry>
+                     <entry>
+                        <p>Price (Data Field)</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>In this use case all the fields belong to the same object.While grouping data in columns ensure that the fields belong to the same object or are associated with each other via a lookup.</p>
+         <p>For every Individual Matrix Column of Rendering Type – Dynamic, one or multiple grouped columns may exist.</p>
+         <p>If the same record exists across multiple objects, you can group the data in the cells of a matrix based on the objects the data exists in. For Matrix grouping to work, the data has to be structured in such a way where the data for a particular field is common. Not every List can be transformed into a matrix grouping use-case.</p>
+         <p>Matrix Grouping is applicable only on columns with Rendering Type as Dynamic. For matrix grouping to work, there must be a valid Dynamic matrix column. A user can drag a matrix field on top of an already created dynamic Matrix Column. X-Author for Excel automatically detects whether a dragged matrix field is a matrix grouped field or not. If it is a grouped field, the Grouped Field property is set to true automatically and within the elements of the matrix, the column categorized as a Grouped Column.</p>
+         <fig>
+            <title>98667826</title>
+            <image href="../attachments/98667724/98667826.png" height="295" width="331" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+    </section></refbody>
+</reference>

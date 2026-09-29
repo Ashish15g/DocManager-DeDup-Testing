@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="defining_the_open_in_excel_button_c7b2e4" xml:lang="en-us">
+   <title>Defining the Open in Excel Button</title>
+   <shortdesc>Continue to follow the instructions on the Ribbon Workbench help page to create your button</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>button</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>click</keyword>
+        <keyword>Excel</keyword>
+        <keyword>Ribbon</keyword>
+        <keyword>Workbench</keyword>
+        <indexterm>button</indexterm>
+        <indexterm>placeholder</indexterm>
+        <indexterm>click</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>Continue to follow the instructions on the Ribbon Workbench help page to <b>create your button</b> and define your <b>button command</b>.</p>
+         <p>Where should I put the Edit in Excel button</p>
+         <p>You create the button by clicking on it in the Toolbox and dragging it to <b>Form</b> tab in the Ribbon Workbench.</p>
+         <fig>
+            <title>98668029</title>
+            <image href="../attachments/98667729/98668029.png" width="922" height="557" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+         <p>After the button is created, make sure to specify a <b>Label</b> and a 16x16 and 32x32 image. The button Label also automatically defines the button <b>Command </b>name.</p>
+         <fig>
+            <title>98668030</title>
+            <image href="../attachments/98667729/98668030.png" width="832" height="357" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+         <p>Because the button uses a JavaScript action to invoke Excel, you will need to specify the following in the Command Properties.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>From the Solutions page, click on the <b>Ribbon Workbench</b>.</cmd>
+            <info>
+               <fig>
+                  <title>98668031</title>
+                  <image href="../attachments/98667729/98668031.png" width="792" height="396" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>From the Load Solution pop-up, select the unmanaged solution you created for the button and click <b>OK</b>. This may take several moments to load.</cmd>
+            <info>
+               <fig>
+                  <title>98668032</title>
+                  <image href="../attachments/98667729/98668032.png" width="426" height="380" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>From the Solution Elements pane of the Command Bar, click on the Entity picklist and select the entity where you created the button.</cmd>
+            <info>
+               <fig>
+                  <title>98668033</title>
+                  <image href="../attachments/98667729/98668033.png" width="563" height="388" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Expand the commands section and click on the command you defined for the button.</cmd>
+            <info>
+               <fig>
+                  <title>98668034</title>
+                  <image href="../attachments/98667729/98668034.png" width="561" height="389" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>From the Command Properties pane, click <b>Add Action</b> and choose <b>Javascript Action</b> from the picklist.</cmd>
+            <info>
+               <fig>
+                  <title>98668035</title>
+                  <image href="../attachments/98667729/98668035.png" width="208" height="76" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click the  icon to find the Web Resource you created that represents the JavaScript code in the solution.</cmd>
+            <info>
+               <image href="../attachments/98667729/98668036.png" width="21" height="23" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <info>
+               <fig>
+                  <title>98668037</title>
+                  <image href="../attachments/98667729/98668037.png" width="832" height="222" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Finally, you need to add the <b>Function Name</b> from the script to the action. Enter "OpenInExcel" as the function name.</cmd>
+            <info>
+               <fig>
+                  <title>98668038</title>
+                  <image href="../attachments/98667729/98668038.png" width="812" height="220" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>From the top of the Ribbon Workbench, click <b>Publish</b>.
+
+The button is now ready to use from any record for the defined entity.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

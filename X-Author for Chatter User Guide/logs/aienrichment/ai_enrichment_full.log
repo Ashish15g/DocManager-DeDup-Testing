@@ -1,0 +1,486 @@
+2026-08-20 06:51:26,316 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-20 06:51:26,316 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname    = (not provided)
+2026-08-20 06:51:26,316 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-20 06:51:26,321 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup created: .tmp_backup_xslt_output
+2026-08-20 06:51:26,322 [INFO] pipeline.enrich_runner: [EnrichPipeline] Discovered 16 .dita files, 9 .ditamap files
+2026-08-20 06:51:26,324 [INFO] pipeline.enrich_runner: [EnrichPipeline] Parsed 16 DITA files
+2026-08-20 06:51:26,324 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ BEFORE ENRICHMENT ══════════════════════════════
+2026-08-20 06:51:26,324 [INFO] pipeline.enrich_runner: [EnrichPipeline] Total DITA files: 16
+2026-08-20 06:51:26,324 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/collaborating_using_excel_40370455/collaborating_using_excel.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/collaborating_using_outlook.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/collaborating_using_powerpoint.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/collaborating_using_word_40370453/collaborating_using_word.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaborating_using_xauthor_chatter.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita type=reference  shortdesc=YES prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_content.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita type=reference  shortdesc=YES prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/connecting_to_xauthor_chatter_online.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/to_launch_xauthor_chatter_online_and_load_the_addin.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/index/space_details.dita type=reference  shortdesc=NO  prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita type=topic      shortdesc=NO  prolog=YES
+2026-08-20 06:51:26,325 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Structure & Schema Validation (DITA-only) ──
+2026-08-20 06:51:26,325 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-08-20 06:51:26,330 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-08-20 06:51:26,332 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-08-20 06:51:26,335 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-08-20 06:51:26,336 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-08-20 06:51:26,337 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/collaborating_using_excel_40370455/collaborating_using_excel.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,337 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,337 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,337 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,338 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 06:51:26,338 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_content.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,339 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita' — <reference> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,339 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-20 06:51:26,339 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,339 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,339 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita' — <table> #3 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,339 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita' — <table> #4 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,340 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaborating_using_xauthor_chatter.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,340 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita' — <reference> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,340 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-20 06:51:26,340 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,341 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/collaborating_using_outlook.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,341 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,342 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,342 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,342 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 06:51:26,342 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/index/space_details.dita' — <reference> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,342 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/index/space_details.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,342 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_for_chatter_user_guide/index/space_details.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 06:51:26,343 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/collaborating_using_powerpoint.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,343 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,343 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,344 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,344 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 06:51:26,344 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/connecting_to_xauthor_chatter_online.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,344 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/connecting_to_xauthor_chatter_online.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 06:51:26,345 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/to_launch_xauthor_chatter_online_and_load_the_addin.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,345 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/to_launch_xauthor_chatter_online_and_load_the_addin.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 06:51:26,345 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,345 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,346 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:26,346 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 06:51:26,346 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/collaborating_using_word_40370453/collaborating_using_word.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,347 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita' — <topic> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 06:51:26,347 [WARNING] utils.structure_validator: [StructureValidator] WARNING [broken_image_ref]: 'x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita' — <image href="../plugins/servlet/confluence/placeholder/unknown-macro"> — referenced file 'unknown-macro' does not exist anywhere in the output
+2026-08-20 06:51:26,347 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita' — <image> #1 (href='../plugins/servlet/confluence/placeholder/unknown-macro') has no alt text — required for accessibility
+2026-08-20 06:51:26,347 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 06:51:26,348 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=42 | dita_files=16, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-08-20 06:51:26,348 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation done — CRITICAL=0, WARNING=42 | broken_xml=0, empty=0, broken_refs=0, orphans=0
+2026-08-20 06:51:26,348 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Safe Fixer: Zone 1 auto-fixes ──
+2026-08-20 06:51:26,349 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/collaborating_using_excel_40370455/collaborating_using_excel.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,350 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,350 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/collaborating_using_outlook.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,350 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,351 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/collaborating_using_powerpoint.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,351 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,351 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/collaborating_using_word_40370453/collaborating_using_word.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,352 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,352 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaborating_using_xauthor_chatter.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,352 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,352 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_content.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,353 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,353 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/connecting_to_xauthor_chatter_online.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,353 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/to_launch_xauthor_chatter_online_and_load_the_addin.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,354 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/index/space_details.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,354 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita — added xml:lang="en-us"
+2026-08-20 06:51:26,355 [INFO] utils.dita_safe_fixer: [SafeFixer] Complete — 16 fix(es) applied, 0 write failure(s)
+2026-08-20 06:51:26,355 [INFO] pipeline.enrich_runner: [EnrichPipeline] Safe fixes applied=16, write_failures=0
+2026-08-20 06:51:26,663 [WARNING] pipeline.enrich_runner: [EnrichPipeline] ANTHROPIC_API_KEY is invalid or expired — heuristic fallbacks will be used.
+2026-08-20 06:51:26,665 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Extracting document context from DITA files ──
+2026-08-20 06:51:26,669 [INFO] utils.document_context_extractor: [DocContext] extract_context_from_dita — 16 files found, stem='x_author_chatter_online_june_2_40370424'
+2026-08-20 06:51:26,669 [INFO] utils.document_context_extractor: [DocContext] Extracting document-level context from: x_author_chatter_online_june_2_40370424.ditamap
+2026-08-20 06:51:26,669 [INFO] utils.document_context_extractor: [DocContext] Aggregated content from 16 files
+2026-08-20 06:51:26,941 [WARNING] utils.document_context_extractor: [DocContext] AI extraction failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:26,941 [INFO] utils.document_context_extractor: [DocContext] AI confidence low (0.00), using heuristic for task_type only
+2026-08-20 06:51:26,942 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Author Chatter Online' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 06:51:26,943 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Author Chatter' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 06:51:26,943 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Ink Outlook Online' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 06:51:26,944 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Chris Castro The' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 06:51:26,944 [INFO] utils.document_context_extractor: [DocContext] Heuristic task_type: 'user guide'
+2026-08-20 06:51:26,944 [INFO] utils.document_context_extractor: [DocContext] Final context: {'prodname': 'x_author_chatter_online_june_2_40370424', 'prodname_confirmed': False, 'equipment_name': '', 'task_type': 'user guide', 'document_keywords': ['user guide'], 'extraction_method': 'heuristic', 'confidence': 0.0}
+2026-08-20 06:51:26,944 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname 'x_author_chatter_online_june_2_40370424' is AI-inferred — clearing so DITA gets empty <prodname>
+2026-08-20 06:51:26,944 [INFO] pipeline.enrich_runner: [EnrichPipeline] Context — prodname='', equipment='', task_type='user guide', method=heuristic, confidence=0.00
+2026-08-20 06:51:26,944 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layers 1+2+3+4: Classify + Shortdesc + Keywords + Alt Text ──
+2026-08-20 06:51:26,946 [INFO] utils.structural_fixer: [StructuralFix] Loaded task → task.xsl (pre-steps: 5)
+2026-08-20 06:51:26,946 [INFO] utils.structural_fixer: [StructuralFix] Loaded concept → concept.xsl (pre-steps: 5)
+2026-08-20 06:51:26,946 [INFO] utils.structural_fixer: [StructuralFix] Loaded reference → reference.xsl (pre-steps: 5)
+2026-08-20 06:51:26,946 [INFO] utils.structural_fixer: [StructuralFix] Loaded map → map.xsl (pre-steps: 0)
+2026-08-20 06:51:26,946 [INFO] utils.structural_fixer: [StructuralFix] Loaded bookmap → bookmap.xsl (pre-steps: 0)
+2026-08-20 06:51:26,946 [INFO] utils.structural_fixer: [StructuralFix] Loaded glossentry → glossentry.xsl (pre-steps: 5)
+2026-08-20 06:51:26,947 [INFO] utils.structural_fixer: [StructuralFix] Loaded topic → topic.xsl (pre-steps: 5)
+2026-08-20 06:51:27,235 [INFO] utils.structural_fixer: [StructuralFix] Done — processed=25, modified=0, unchanged=25, failed=0
+2026-08-20 06:51:27,243 [INFO] layers.layer1234_enrichment: L1234 › 'Collaborating Using Excel' x_author_for_chatter_user_guide/collaborating_using_excel_40370455/collaborating_using_excel.dita | images=0
+2026-08-20 06:51:27,246 [INFO] layers.layer1234_enrichment: L1234 › 'To Collaborate Using Excel' x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita | images=0
+2026-08-20 06:51:27,248 [INFO] layers.layer1234_enrichment: L1234 › 'Collaborating Using Outlook' x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/collaborating_using_outlook.dita | images=0
+2026-08-20 06:51:27,251 [INFO] layers.layer1234_enrichment: L1234 › 'To Collaborate Using Outlook' x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita | images=0
+2026-08-20 06:51:27,253 [INFO] layers.layer1234_enrichment: L1234 › 'Collaborating Using PowerPoint' x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/collaborating_using_powerpoint.dita | images=0
+2026-08-20 06:51:27,256 [INFO] layers.layer1234_enrichment: L1234 › 'To Collaborate Using PowerPoint' x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita | images=0
+2026-08-20 06:51:27,257 [INFO] layers.layer1234_enrichment: L1234 › 'Collaborating Using Word' x_author_for_chatter_user_guide/collaborating_using_word_40370453/collaborating_using_word.dita | images=0
+2026-08-20 06:51:27,258 [INFO] layers.layer1234_enrichment: L1234 › 'To Collaborate Using Word' x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita | images=0
+2026-08-20 06:51:27,259 [INFO] layers.layer1234_enrichment: L1234 › 'Collaborating Using X-Author Chatter' x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaborating_using_xauthor_chatter.dita | images=0
+2026-08-20 06:51:27,261 [INFO] layers.layer1234_enrichment: L1234 › 'Collaboration Options' x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita | images=0
+2026-08-20 06:51:27,262 [INFO] layers.layer1234_enrichment: L1234 › 'Sharing Content' x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_content.dita | images=0
+2026-08-20 06:51:27,264 [INFO] layers.layer1234_enrichment: L1234 › 'Sharing Options' x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita | images=0
+2026-08-20 06:51:27,265 [INFO] layers.layer1234_enrichment: L1234 › 'Connecting to X-Author Chatter Online' x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/connecting_to_xauthor_chatter_online.dita | images=0
+2026-08-20 06:51:27,266 [INFO] layers.layer1234_enrichment: L1234 › 'To Launch X-Author Chatter Online and Load the Add-In' x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/to_launch_xauthor_chatter_online_and_load_the_addin.dita | images=0
+2026-08-20 06:51:27,267 [INFO] layers.layer1234_enrichment: L1234 › 'Space Details:' x_author_for_chatter_user_guide/index/space_details.dita | images=0
+2026-08-20 06:51:27,268 [INFO] layers.layer1234_enrichment: L1234 › 'X-Author Chatter Online June 2016 User Guide' x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita | images=1
+2026-08-20 06:51:27,526 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:27,526 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'To Collaborate Using Excel'
+2026-08-20 06:51:27,527 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 06:51:27,528 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc to_collaborate_using_excel.dita
+2026-08-20 06:51:27,529 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) to_collaborate_using_excel.dita
+2026-08-20 06:51:27,530 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'To Collaborate Using Excel' → type=task, confidence=low
+2026-08-20 06:51:27,554 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:27,554 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Collaborating Using Excel'
+2026-08-20 06:51:27,555 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task collaborating_using_excel.dita
+2026-08-20 06:51:27,556 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced collaborating_using_excel.dita
+2026-08-20 06:51:27,557 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) collaborating_using_excel.dita
+2026-08-20 06:51:27,558 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Collaborating Using Excel' → type=task, confidence=low
+2026-08-20 06:51:27,562 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:27,562 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Collaborating Using Outlook'
+2026-08-20 06:51:27,563 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task collaborating_using_outlook.dita
+2026-08-20 06:51:27,564 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced collaborating_using_outlook.dita
+2026-08-20 06:51:27,565 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) collaborating_using_outlook.dita
+2026-08-20 06:51:27,565 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Collaborating Using Outlook' → type=task, confidence=low
+2026-08-20 06:51:27,568 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:27,568 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'To Collaborate Using Outlook'
+2026-08-20 06:51:27,569 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 06:51:27,569 [INFO] utils.body_preserver: [BodyPreserver] All substeps properly nested under step — validation PASSED
+2026-08-20 06:51:27,570 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc to_collaborate_using_outlook.dita
+2026-08-20 06:51:27,571 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) to_collaborate_using_outlook.dita
+2026-08-20 06:51:27,572 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'To Collaborate Using Outlook' → type=task, confidence=low
+2026-08-20 06:51:27,579 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:27,579 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Collaborating Using PowerPoint'
+2026-08-20 06:51:27,580 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task collaborating_using_powerpoint.dita
+2026-08-20 06:51:27,581 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced collaborating_using_powerpoint.dita
+2026-08-20 06:51:27,582 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) collaborating_using_powerpoint.dita
+2026-08-20 06:51:27,583 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Collaborating Using PowerPoint' → type=task, confidence=low
+2026-08-20 06:51:27,813 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:27,813 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'To Collaborate Using PowerPoint'
+2026-08-20 06:51:27,814 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 06:51:27,815 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc to_collaborate_using_powerpoint.dita
+2026-08-20 06:51:27,816 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) to_collaborate_using_powerpoint.dita
+2026-08-20 06:51:27,818 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'To Collaborate Using PowerPoint' → type=task, confidence=low
+2026-08-20 06:51:27,828 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:27,828 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Collaborating Using Word'
+2026-08-20 06:51:27,829 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task collaborating_using_word.dita
+2026-08-20 06:51:27,830 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced collaborating_using_word.dita
+2026-08-20 06:51:27,831 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) collaborating_using_word.dita
+2026-08-20 06:51:27,832 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Collaborating Using Word' → type=task, confidence=low
+2026-08-20 06:51:27,850 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:27,850 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'To Collaborate Using Word'
+2026-08-20 06:51:27,851 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 06:51:27,852 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc to_collaborate_using_word.dita
+2026-08-20 06:51:27,853 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) to_collaborate_using_word.dita
+2026-08-20 06:51:27,854 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'To Collaborate Using Word' → type=task, confidence=low
+2026-08-20 06:51:27,858 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:27,858 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Collaborating Using X-Author Chatter'
+2026-08-20 06:51:27,858 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task collaborating_using_xauthor_chatter.dita
+2026-08-20 06:51:27,860 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced collaborating_using_xauthor_chatter.dita
+2026-08-20 06:51:27,861 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) collaborating_using_xauthor_chatter.dita
+2026-08-20 06:51:27,862 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Collaborating Using X-Author Chatter' → type=task, confidence=low
+2026-08-20 06:51:27,870 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:27,871 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Collaboration Options'
+2026-08-20 06:51:27,872 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→concept collaboration_options.dita
+2026-08-20 06:51:27,873 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced collaboration_options.dita
+2026-08-20 06:51:27,874 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) collaboration_options.dita
+2026-08-20 06:51:27,875 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Collaboration Options' → type=concept, confidence=low
+2026-08-20 06:51:28,078 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:28,078 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Sharing Content'
+2026-08-20 06:51:28,079 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced sharing_content.dita
+2026-08-20 06:51:28,080 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) sharing_content.dita
+2026-08-20 06:51:28,081 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Sharing Content' → type=concept, confidence=low
+2026-08-20 06:51:28,139 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:28,139 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Sharing Options'
+2026-08-20 06:51:28,141 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→concept sharing_options.dita
+2026-08-20 06:51:28,142 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced sharing_options.dita
+2026-08-20 06:51:28,143 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) sharing_options.dita
+2026-08-20 06:51:28,145 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Sharing Options' → type=concept, confidence=low
+2026-08-20 06:51:28,147 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:28,147 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Connecting to X-Author Chatter Online'
+2026-08-20 06:51:28,148 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 06:51:28,148 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc connecting_to_xauthor_chatter_online.dita
+2026-08-20 06:51:28,149 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) connecting_to_xauthor_chatter_online.dita
+2026-08-20 06:51:28,151 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Connecting to X-Author Chatter Online' → type=task, confidence=low
+2026-08-20 06:51:28,151 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:28,151 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Space Details:'
+2026-08-20 06:51:28,152 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→topic space_details.dita
+2026-08-20 06:51:28,152 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 06:51:28,153 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc space_details.dita
+2026-08-20 06:51:28,154 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 06:51:28,154 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog space_details.dita
+2026-08-20 06:51:28,158 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Space Details:' → type=topic, confidence=low
+2026-08-20 06:51:28,159 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:28,159 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'To Launch X-Author Chatter Online and Load the Add-In'
+2026-08-20 06:51:28,160 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 06:51:28,160 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc to_launch_xauthor_chatter_online_and_load_the_addin.dita
+2026-08-20 06:51:28,161 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) to_launch_xauthor_chatter_online_and_load_the_addin.dita
+2026-08-20 06:51:28,163 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'To Launch X-Author Chatter Online and Load the Add-In' → type=task, confidence=low
+2026-08-20 06:51:28,334 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:28,334 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'X-Author Chatter Online June 2016 User Guide'
+2026-08-20 06:51:28,335 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 06:51:28,335 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc xauthor_chatter_online_june_2016_user_guide.dita
+2026-08-20 06:51:28,336 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) xauthor_chatter_online_june_2016_user_guide.dita
+2026-08-20 06:51:28,337 [INFO] layers.layer4_alt_text: [AltText] wrote back xauthor_chatter_online_june_2016_user_guide.dita
+2026-08-20 06:51:28,338 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'X-Author Chatter Online June 2016 User Guide' → type=topic, confidence=low
+2026-08-20 06:51:28,341 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layers 1+2+3+4 complete — 16 topics processed
+2026-08-20 06:51:28,343 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reclassification summary — 8 of 16 topics had type changed by AI
+2026-08-20 06:51:28,343 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_for_chatter_user_guide/collaborating_using_excel_40370455/collaborating_using_excel.dita concept → task (confidence=low)
+2026-08-20 06:51:28,343 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/collaborating_using_outlook.dita concept → task (confidence=low)
+2026-08-20 06:51:28,343 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/collaborating_using_powerpoint.dita concept → task (confidence=low)
+2026-08-20 06:51:28,343 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_for_chatter_user_guide/collaborating_using_word_40370453/collaborating_using_word.dita concept → task (confidence=low)
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaborating_using_xauthor_chatter.dita concept → task (confidence=low)
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita reference → concept (confidence=low)
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita reference → concept (confidence=low)
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_for_chatter_user_guide/index/space_details.dita     reference → topic (confidence=low)
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ AFTER ENRICHMENT ═══════════════════════════════
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/collaborating_using_excel_40370455/collaborating_using_excel.dita type=task       shortdesc='Working in Excel, you can add comments to your Chatter feed or share w…'
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Excel', 'Collaborating', 'Using', 'Working', 'comments', 'Chatter'] | indexterms=['Excel', 'Collaborating', 'Using']
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita type=task       shortdesc='/Chatter icon/'
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Chatter', 'workbook', 'content', 'attached', 'Excel', 'Your'] | indexterms=['Chatter', 'workbook', 'content']
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/collaborating_using_outlook.dita type=task       shortdesc='Outlook provides the ability to enter comments into Chatter to solicit…'
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Chatter', 'Outlook', 'Collaborating', 'Using', 'provides', 'ability'] | indexterms=['Chatter', 'Outlook', 'Collaborating']
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita type=task       shortdesc='/Chatter icon/'
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['email', 'Chatter', 'Author', 'Online', 'Outlook', 'message'] | indexterms=['email', 'Chatter', 'Author']
+2026-08-20 06:51:28,344 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/collaborating_using_powerpoint.dita type=task       shortdesc='Working in PowerPoint, you can add comments to your Chatter feed or sh…'
+2026-08-20 06:51:28,345 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['PowerPoint', 'Collaborating', 'Using', 'Working', 'comments', 'Chatter'] | indexterms=['PowerPoint', 'Collaborating', 'Using']
+2026-08-20 06:51:28,345 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita type=task       shortdesc='/Chatter icon/'
+2026-08-20 06:51:28,345 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Chatter', 'presentation', 'PowerPoint', 'select', 'attached', 'slides'] | indexterms=['Chatter', 'presentation', 'PowerPoint']
+2026-08-20 06:51:28,345 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/collaborating_using_word_40370453/collaborating_using_word.dita type=task       shortdesc='Working in Word, you can add comments to your Chatter feed or share wh…'
+2026-08-20 06:51:28,345 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Word', 'Collaborating', 'Using', 'Working', 'comments', 'Chatter'] | indexterms=['Word', 'Collaborating', 'Using']
+2026-08-20 06:51:28,345 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita type=task       shortdesc='/Chatter icon/'
+2026-08-20 06:51:28,345 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Chatter', 'document', 'Word', 'content', 'Your', 'audience'] | indexterms=['Chatter', 'document', 'Word']
+2026-08-20 06:51:28,345 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaborating_using_xauthor_chatter.dita type=task       shortdesc='With Word, Excel, PowerPoint or Outlook open and connected to X-Author…'
+2026-08-20 06:51:28,345 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Chatter', 'Author', 'Collaborating', 'Using', 'Word', 'Excel'] | indexterms=['Chatter', 'Author', 'Collaborating']
+2026-08-20 06:51:28,345 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita type=concept    shortdesc='The following collaboration options are available in X-Author Chatter …'
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['share', 'Collaboration', 'Options', 'Chatter', 'group', 'following'] | indexterms=['share', 'Collaboration', 'Options']
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_content.dita type=concept    shortdesc='When you are working on files with X-Author Chatter, two main aspects …'
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Sharing', 'Content', 'When', 'working', 'files', 'Author'] | indexterms=['Sharing', 'Content', 'When']
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita type=concept    shortdesc='The following options for sharing content are available in X-Author Ch…'
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Chatter', 'attached', 'content', 'Comments', 'currently', 'supported'] | indexterms=['Chatter', 'attached', 'content']
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/connecting_to_xauthor_chatter_online.dita type=task       shortdesc='This page describes the following steps for connecting to X-Author Cha…'
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Author', 'Chatter', 'Online', 'Connecting', 'Chris', 'Castro'] | indexterms=['Author', 'Chatter', 'Online']
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/to_launch_xauthor_chatter_online_and_load_the_addin.dita type=task       shortdesc='Chris Castro Open the following link in your browser: https://xauthor.…'
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Chatter', 'screenshot', 'click', 'Author', 'document', 'following'] | indexterms=['Chatter', 'screenshot', 'click']
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/index/space_details.dita type=topic      shortdesc='XACHUGJUN16'
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Space', 'Details', 'XACHUGJUN', 'Name', 'Author', 'Chatter'] | indexterms=['Space', 'Details', 'XACHUGJUN']
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita type=topic      shortdesc='Chris Castro placeholder'
+2026-08-20 06:51:28,346 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Author', 'Chatter', 'Online', 'June', 'User', 'Guide'] | indexterms=['Author', 'Chatter', 'Online']
+2026-08-20 06:51:28,347 [INFO] pipeline.enrich_runner: [EnrichPipeline] Alt text — filled=0, skipped=1
+2026-08-20 06:51:28,347 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Quality Review ──
+2026-08-20 06:51:28,348 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/collaborating_using_excel_40370455/collaborating_using_excel.dita
+2026-08-20 06:51:28,348 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita
+2026-08-20 06:51:28,348 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/collaborating_using_outlook.dita
+2026-08-20 06:51:28,348 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita
+2026-08-20 06:51:28,349 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/collaborating_using_powerpoint.dita
+2026-08-20 06:51:28,349 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita
+2026-08-20 06:51:28,349 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/collaborating_using_word_40370453/collaborating_using_word.dita
+2026-08-20 06:51:28,349 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita
+2026-08-20 06:51:28,349 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaborating_using_xauthor_chatter.dita
+2026-08-20 06:51:28,349 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita
+2026-08-20 06:51:28,350 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_content.dita
+2026-08-20 06:51:28,350 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita
+2026-08-20 06:51:28,350 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/connecting_to_xauthor_chatter_online.dita
+2026-08-20 06:51:28,350 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/to_launch_xauthor_chatter_online_and_load_the_addin.dita
+2026-08-20 06:51:28,350 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/index/space_details.dita
+2026-08-20 06:51:28,350 [INFO] layers.layer5_quality_autofix: L5 › x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita
+2026-08-20 06:51:28,350 [INFO] layers.layer5_quality_autofix: L5 › review 16/16 topics (0 skipped)
+2026-08-20 06:51:28,620 [WARNING] layers.layer5_quality_autofix: L5 ✗ review: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:28,620 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 review — quality=fair, accuracy=0%
+2026-08-20 06:51:28,620 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Autofix ──
+2026-08-20 06:51:28,620 [INFO] layers.layer5_quality_autofix: L5 › autofix: 0 broken
+2026-08-20 06:51:28,621 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 autofix — fixed=0, flagged=0, failed=0
+2026-08-20 06:51:28,621 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 6: Final Validation ──
+2026-08-20 06:51:28,622 [INFO] layers.layer6_final_validation: L6 ── structural validation start
+2026-08-20 06:51:28,623 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/collaborating_using_excel_40370455/collaborating_using_excel.dita — 1 issue(s)
+2026-08-20 06:51:28,624 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita — 1 issue(s)
+2026-08-20 06:51:28,624 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/collaborating_using_outlook.dita — 1 issue(s)
+2026-08-20 06:51:28,625 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita — 1 issue(s)
+2026-08-20 06:51:28,626 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/collaborating_using_powerpoint.dita — 1 issue(s)
+2026-08-20 06:51:28,627 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita — 1 issue(s)
+2026-08-20 06:51:28,628 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/collaborating_using_word_40370453/collaborating_using_word.dita — 1 issue(s)
+2026-08-20 06:51:28,629 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita — 1 issue(s)
+2026-08-20 06:51:28,630 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaborating_using_xauthor_chatter.dita — 1 issue(s)
+2026-08-20 06:51:28,630 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita — 1 issue(s)
+2026-08-20 06:51:28,631 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_content.dita — 1 issue(s)
+2026-08-20 06:51:28,632 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita — 1 issue(s)
+2026-08-20 06:51:28,633 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/connecting_to_xauthor_chatter_online.dita — 1 issue(s)
+2026-08-20 06:51:28,634 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/to_launch_xauthor_chatter_online_and_load_the_addin.dita — 1 issue(s)
+2026-08-20 06:51:28,635 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/index/space_details.dita — 1 issue(s)
+2026-08-20 06:51:28,636 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita — 1 issue(s)
+2026-08-20 06:51:28,636 [INFO] layers.layer6_final_validation: L6 ✓ done pass=True acc=100% crit=0 err=0 warn=16
+2026-08-20 06:51:28,636 [INFO] layers.layer6_final_validation: L6 DTD schema start
+2026-08-20 06:51:28,637 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    collaborating_using_excel.dita
+2026-08-20 06:51:28,637 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    to_collaborate_using_excel.dita
+2026-08-20 06:51:28,637 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    collaborating_using_outlook.dita
+2026-08-20 06:51:28,638 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    to_collaborate_using_outlook.dita
+2026-08-20 06:51:28,638 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    collaborating_using_powerpoint.dita
+2026-08-20 06:51:28,639 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    to_collaborate_using_powerpoint.dita
+2026-08-20 06:51:28,639 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    collaborating_using_word.dita
+2026-08-20 06:51:28,639 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    to_collaborate_using_word.dita
+2026-08-20 06:51:28,640 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    collaborating_using_xauthor_chatter.dita
+2026-08-20 06:51:28,640 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    collaboration_options.dita
+2026-08-20 06:51:28,640 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    sharing_content.dita
+2026-08-20 06:51:28,641 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    sharing_options.dita
+2026-08-20 06:51:28,641 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    connecting_to_xauthor_chatter_online.dita
+2026-08-20 06:51:28,641 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    to_launch_xauthor_chatter_online_and_load_the_addin.dita
+2026-08-20 06:51:28,642 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    space_details.dita
+2026-08-20 06:51:28,642 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    xauthor_chatter_online_june_2016_user_guide.dita
+2026-08-20 06:51:28,642 [INFO] utils.dita_schema_validator: [SchemaValidator] ── DONE ── schema_passed=True, valid=16/16
+2026-08-20 06:51:28,642 [INFO] layers.layer6_final_validation: L6 DTD schema pass=True valid=16/16
+2026-08-20 06:51:28,642 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 6 — passed=True, accuracy=100%
+2026-08-20 06:51:28,642 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment Structural Validation ──
+2026-08-20 06:51:28,642 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-08-20 06:51:28,647 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-08-20 06:51:28,650 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-08-20 06:51:28,654 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-08-20 06:51:28,655 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-08-20 06:51:28,656 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'x_author_for_chatter_user_guide/collaborating_using_excel_40370455/collaborating_using_excel.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-20 06:51:28,657 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,657 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,658 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,658 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,658 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita' — <table> #3 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,658 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita' — <table> #4 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,659 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaborating_using_xauthor_chatter.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-20 06:51:28,659 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,660 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/collaborating_using_outlook.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-20 06:51:28,660 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,661 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,661 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/index/space_details.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,662 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/collaborating_using_powerpoint.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-20 06:51:28,662 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,662 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,663 [WARNING] utils.structure_validator: [StructureValidator] WARNING [shortdesc_too_generic]: 'x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/connecting_to_xauthor_chatter_online.dita' — <shortdesc> starts with generic opener 'this page': 'This page describes the following steps for connecting to X-...'
+2026-08-20 06:51:28,664 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,664 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita' — <table> #2 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 06:51:28,665 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'x_author_for_chatter_user_guide/collaborating_using_word_40370453/collaborating_using_word.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-20 06:51:28,666 [WARNING] utils.structure_validator: [StructureValidator] WARNING [broken_image_ref]: 'x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita' — <image href="../plugins/servlet/confluence/placeholder/unknown-macro"> — referenced file 'unknown-macro' does not exist anywhere in the output
+2026-08-20 06:51:28,667 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=21 | dita_files=16, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-08-20 06:51:28,667 [INFO] pipeline.enrich_runner: [EnrichPipeline] Post-structural — CRITICAL=0, WARNING=21
+2026-08-20 06:51:28,667 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment AI Content Quality Check ──
+2026-08-20 06:51:28,670 [INFO] utils.structure_validator: [EnrichmentQuality] Post-AI check — 1 issues in 16 files (CRITICAL=0, WARNING=1)
+2026-08-20 06:51:28,670 [INFO] pipeline.enrich_runner: [EnrichPipeline] AI content quality — CRITICAL=0, WARNING=1 (checks: shortdesc, keywords, indexterms)
+2026-08-20 06:51:28,670 [INFO] pipeline.enrich_runner: [EnrichPipeline] Fix report — backend_errors=0 | fixed_by_zone1=16, fixed_by_ai=11, remaining=15, ai_obligations_missed=0, new_by_ai=6
+2026-08-20 06:51:32,217 [INFO] pipeline.enrich_runner: [Validating] 1/25 — collaborating_using_excel.dita
+2026-08-20 06:51:32,245 [INFO] pipeline.enrich_runner: [Validating] 2/25 — to_collaborate_using_excel.dita
+2026-08-20 06:51:32,265 [INFO] pipeline.enrich_runner: [Validating] 3/25 — collaborating_using_outlook.dita
+2026-08-20 06:51:32,490 [INFO] pipeline.enrich_runner: [Validating] 4/25 — to_collaborate_using_outlook.dita
+2026-08-20 06:51:32,504 [INFO] pipeline.enrich_runner: [Validating] 5/25 — collaborating_using_powerpoint.dita
+2026-08-20 06:51:32,521 [INFO] pipeline.enrich_runner: [Validating] 6/25 — to_collaborate_using_powerpoint.dita
+2026-08-20 06:51:32,533 [INFO] pipeline.enrich_runner: [Validating] 7/25 — collaborating_using_word.dita
+2026-08-20 06:51:32,552 [INFO] pipeline.enrich_runner: [Validating] 8/25 — to_collaborate_using_word.dita
+2026-08-20 06:51:32,562 [INFO] pipeline.enrich_runner: [Validating] 9/25 — collaborating_using_xauthor_chatter.dita
+2026-08-20 06:51:32,642 [INFO] pipeline.enrich_runner: [Validating] 10/25 — collaboration_options.dita
+2026-08-20 06:51:32,652 [INFO] pipeline.enrich_runner: [Validating] 11/25 — sharing_content.dita
+2026-08-20 06:51:32,674 [INFO] pipeline.enrich_runner: [Validating] 12/25 — sharing_options.dita
+2026-08-20 06:51:32,687 [INFO] pipeline.enrich_runner: [Validating] 13/25 — connecting_to_xauthor_chatter_online.dita
+2026-08-20 06:51:32,699 [INFO] pipeline.enrich_runner: [Validating] 14/25 — to_launch_xauthor_chatter_online_and_load_the_addin.dita
+2026-08-20 06:51:32,771 [INFO] pipeline.enrich_runner: [Validating] 15/25 — space_details.dita
+2026-08-20 06:51:32,782 [INFO] pipeline.enrich_runner: [Validating] 16/25 — xauthor_chatter_online_june_2016_user_guide.dita
+2026-08-20 06:51:32,868 [INFO] pipeline.enrich_runner: [Validating] 17/25 — collaborating_using_excel_40370455.ditamap
+2026-08-20 06:51:32,876 [INFO] pipeline.enrich_runner: [Validating] 18/25 — collaborating_using_outlook_40370459.ditamap
+2026-08-20 06:51:32,883 [INFO] pipeline.enrich_runner: [Validating] 19/25 — collaborating_using_powerpoint_40370457.ditamap
+2026-08-20 06:51:32,890 [INFO] pipeline.enrich_runner: [Validating] 20/25 — collaborating_using_word_40370453.ditamap
+2026-08-20 06:51:32,899 [INFO] pipeline.enrich_runner: [Validating] 21/25 — collaborating_using_x_author_c_40370451.ditamap
+2026-08-20 06:51:32,906 [INFO] pipeline.enrich_runner: [Validating] 22/25 — connecting_to_x_author_chatter_40370449.ditamap
+2026-08-20 06:51:32,913 [INFO] pipeline.enrich_runner: [Validating] 23/25 — index.ditamap
+2026-08-20 06:51:32,921 [INFO] pipeline.enrich_runner: [Validating] 24/25 — x_author_chatter_online_june_2_40370424.ditamap
+2026-08-20 06:51:32,930 [INFO] pipeline.enrich_runner: [Validating] 25/25 — x_author_for_chatter_user_guide.ditamap
+2026-08-20 06:51:32,935 [INFO] utils.validation_runner: [Validation] Done — files=25, violations=2 (errors=2, warnings=0)
+2026-08-20 06:51:32,935 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation — status=completed, violations=2, files_affected=1
+2026-08-20 06:51:32,937 [INFO] pipeline.enrich_runner: [EnrichPipeline] Auto-fix pass 1/3 — 2 violation(s) remaining
+2026-08-20 06:51:32,940 [INFO] utils.auto_fixer: [AutoFixer] x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita — fixed 3 violation(s): ['image_dims(1)', 'image_placement(2)']
+2026-08-20 06:51:32,940 [INFO] utils.auto_fixer: [AutoFixer] Done — 1 file(s) fixed, 3 total fixes applied
+2026-08-20 06:51:32,941 [INFO] pipeline.enrich_runner: [EnrichPipeline] Auto-fix pass 1 — fixed 3 in 1 file(s)
+2026-08-20 06:51:35,718 [INFO] pipeline.enrich_runner: [Re-validating] 1/25 — collaborating_using_excel.dita
+2026-08-20 06:51:35,734 [INFO] pipeline.enrich_runner: [Re-validating] 2/25 — to_collaborate_using_excel.dita
+2026-08-20 06:51:35,744 [INFO] pipeline.enrich_runner: [Re-validating] 3/25 — collaborating_using_outlook.dita
+2026-08-20 06:51:35,761 [INFO] pipeline.enrich_runner: [Re-validating] 4/25 — to_collaborate_using_outlook.dita
+2026-08-20 06:51:35,771 [INFO] pipeline.enrich_runner: [Re-validating] 5/25 — collaborating_using_powerpoint.dita
+2026-08-20 06:51:35,786 [INFO] pipeline.enrich_runner: [Re-validating] 6/25 — to_collaborate_using_powerpoint.dita
+2026-08-20 06:51:35,796 [INFO] pipeline.enrich_runner: [Re-validating] 7/25 — collaborating_using_word.dita
+2026-08-20 06:51:35,811 [INFO] pipeline.enrich_runner: [Re-validating] 8/25 — to_collaborate_using_word.dita
+2026-08-20 06:51:35,822 [INFO] pipeline.enrich_runner: [Re-validating] 9/25 — collaborating_using_xauthor_chatter.dita
+2026-08-20 06:51:35,899 [INFO] pipeline.enrich_runner: [Re-validating] 10/25 — collaboration_options.dita
+2026-08-20 06:51:35,909 [INFO] pipeline.enrich_runner: [Re-validating] 11/25 — sharing_content.dita
+2026-08-20 06:51:35,930 [INFO] pipeline.enrich_runner: [Re-validating] 12/25 — sharing_options.dita
+2026-08-20 06:51:35,942 [INFO] pipeline.enrich_runner: [Re-validating] 13/25 — connecting_to_xauthor_chatter_online.dita
+2026-08-20 06:51:35,958 [INFO] pipeline.enrich_runner: [Re-validating] 14/25 — to_launch_xauthor_chatter_online_and_load_the_addin.dita
+2026-08-20 06:51:36,176 [INFO] pipeline.enrich_runner: [Re-validating] 15/25 — space_details.dita
+2026-08-20 06:51:36,185 [INFO] pipeline.enrich_runner: [Re-validating] 16/25 — xauthor_chatter_online_june_2016_user_guide.dita
+2026-08-20 06:51:36,237 [INFO] pipeline.enrich_runner: [Re-validating] 17/25 — collaborating_using_excel_40370455.ditamap
+2026-08-20 06:51:36,317 [INFO] pipeline.enrich_runner: [Re-validating] 18/25 — collaborating_using_outlook_40370459.ditamap
+2026-08-20 06:51:36,326 [INFO] pipeline.enrich_runner: [Re-validating] 19/25 — collaborating_using_powerpoint_40370457.ditamap
+2026-08-20 06:51:36,334 [INFO] pipeline.enrich_runner: [Re-validating] 20/25 — collaborating_using_word_40370453.ditamap
+2026-08-20 06:51:36,345 [INFO] pipeline.enrich_runner: [Re-validating] 21/25 — collaborating_using_x_author_c_40370451.ditamap
+2026-08-20 06:51:36,353 [INFO] pipeline.enrich_runner: [Re-validating] 22/25 — connecting_to_x_author_chatter_40370449.ditamap
+2026-08-20 06:51:36,361 [INFO] pipeline.enrich_runner: [Re-validating] 23/25 — index.ditamap
+2026-08-20 06:51:36,370 [INFO] pipeline.enrich_runner: [Re-validating] 24/25 — x_author_chatter_online_june_2_40370424.ditamap
+2026-08-20 06:51:36,378 [INFO] pipeline.enrich_runner: [Re-validating] 25/25 — x_author_for_chatter_user_guide.ditamap
+2026-08-20 06:51:36,381 [INFO] utils.validation_runner: [Validation] Done — files=25, violations=0 (errors=0, warnings=0)
+2026-08-20 06:51:36,381 [INFO] pipeline.enrich_runner: [EnrichPipeline] Re-validation pass 1 — 2 → 0 violation(s)
+2026-08-20 06:51:36,386 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Image Placement Fix ──
+2026-08-20 06:51:36,389 [INFO] utils.auto_fixer: [ImagePlacement] Done — 0 file(s), 0 total fix(es)
+2026-08-20 06:51:36,390 [INFO] pipeline.enrich_runner: [EnrichPipeline] Image placement — files_fixed=0, total_fixes=0
+2026-08-20 06:51:36,390 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Image Placement Fix ──
+2026-08-20 06:51:36,392 [INFO] utils.auto_fixer: [ImagePlacement] Done — 0 file(s), 0 total fix(es)
+2026-08-20 06:51:36,392 [INFO] pipeline.enrich_runner: [EnrichPipeline] Image placement — files_fixed=0, total_fixes=0
+2026-08-20 06:51:36,394 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: _agent_report.json
+2026-08-20 06:51:36,395 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 7: Suggestion Agent ──
+2026-08-20 06:51:36,405 [INFO] layers.layer7_fix_agent: L7/Suggest ── Started ──
+2026-08-20 06:51:36,406 [INFO] layers.layer7_fix_agent: L7/Suggest 30 issues (pre-dedup)
+2026-08-20 06:51:36,406 [INFO] layers.layer7_fix_agent: L7/Suggest 30 unique issues
+2026-08-20 06:51:36,429 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl table_missing_title x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita
+2026-08-20 06:51:36,429 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl table_missing_title x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita
+2026-08-20 06:51:36,430 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl table_missing_title x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita
+2026-08-20 06:51:36,430 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl table_missing_title x_author_for_chatter_user_guide/index/space_details.dita
+2026-08-20 06:51:36,431 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl table_missing_title x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita
+2026-08-20 06:51:36,431 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl table_missing_title x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita
+2026-08-20 06:51:36,432 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaborating_using_xauthor_chatter.dita
+2026-08-20 06:51:36,433 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/collaborating_using_outlook.dita
+2026-08-20 06:51:36,434 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/collaborating_using_excel_40370455/collaborating_using_excel.dita
+2026-08-20 06:51:36,434 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/collaborating_using_excel_40370455/to_collaborate_using_excel.dita
+2026-08-20 06:51:36,435 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/collaborating_using_outlook.dita
+2026-08-20 06:51:36,435 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/collaborating_using_outlook_40370459/to_collaborate_using_outlook.dita
+2026-08-20 06:51:36,436 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/collaborating_using_powerpoint.dita
+2026-08-20 06:51:36,436 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/to_collaborate_using_powerpoint.dita
+2026-08-20 06:51:36,437 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/collaborating_using_word_40370453/collaborating_using_word.dita
+2026-08-20 06:51:36,437 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/collaborating_using_word_40370453/to_collaborate_using_word.dita
+2026-08-20 06:51:36,438 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaborating_using_xauthor_chatter.dita
+2026-08-20 06:51:36,438 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita
+2026-08-20 06:51:36,438 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_content.dita
+2026-08-20 06:51:36,439 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/sharing_options.dita
+2026-08-20 06:51:36,439 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/connecting_to_xauthor_chatter_online.dita
+2026-08-20 06:51:36,440 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/to_launch_xauthor_chatter_online_and_load_the_addin.dita
+2026-08-20 06:51:36,440 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/index/space_details.dita
+2026-08-20 06:51:36,442 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita
+2026-08-20 06:51:36,442 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps x_author_for_chatter_user_guide/collaborating_using_excel_40370455/collaborating_using_excel.dita
+2026-08-20 06:51:36,442 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps x_author_for_chatter_user_guide/collaborating_using_word_40370453/collaborating_using_word.dita
+2026-08-20 06:51:36,442 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps x_author_for_chatter_user_guide/collaborating_using_powerpoint_40370457/collaborating_using_powerpoint.dita
+2026-08-20 06:51:36,442 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl table_missing_title x_author_for_chatter_user_guide/collaborating_using_x_author_c_40370451/collaboration_options.dita
+2026-08-20 06:51:36,730 [WARNING] layers.layer7_fix_agent: L7/Suggest ✗ Claude x_author_for_chatter_user_guide/x_author_chatter_online_june_2_40370424/xauthor_chatter_online_june_2016_user_guide.dita: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:36,740 [WARNING] layers.layer7_fix_agent: L7/Suggest ✗ Claude x_author_for_chatter_user_guide/connecting_to_x_author_chatter_40370449/connecting_to_xauthor_chatter_online.dita: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 06:51:36,740 [INFO] layers.layer7_fix_agent: L7/Suggest ✓ 30 suggestions
+2026-08-20 06:51:36,741 [INFO] layers.layer7_fix_agent: L7/Suggest ✓ saved 30 suggestions
+2026-08-20 06:51:36,741 [INFO] layers.layer7_fix_agent: L7/Suggest ── Done ──
+2026-08-20 06:51:36,742 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 7 — suggestions_generated=30
+2026-08-20 06:51:36,747 [INFO] pipeline.enrich_runner: [EnrichPipeline] Final element counts (post-enrichment): {'ol': 0, 'ul': 0, 'table': 14, 'image': 1, 'crosslink': 4, 'hyperlink': 2, 'concept': 3, 'task': 11, 'reference': 0, 'topic': 2}
+2026-08-20 06:51:36,750 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: _agent_report.json
+2026-08-20 06:51:36,751 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: pre_enrichment.json
+2026-08-20 06:51:36,753 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: post_enrichment.json
+2026-08-20 06:51:36,754 [INFO] pipeline.enrich_runner: [EnrichPipeline] Summary log written: ai_enrichment_summary.log
+2026-08-20 06:51:36,754 [INFO] pipeline.enrich_runner: [EnrichPipeline] migration_summary.log updated with AI enrichment values
+2026-08-20 06:51:36,754 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-20 06:51:36,754 [INFO] pipeline.enrich_runner: [EnrichPipeline] Log file : ai_enrichment_full.log
+2026-08-20 06:51:36,754 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-20 06:51:36,803 [INFO] utils.structural_fixer: [StructuralFix] post-AI unescape-tags: 25 processed, 0 failed
+2026-08-20 06:51:36,803 [INFO] pipeline.enrich_runner: [EnrichPipeline] post-AI unescape-tags: status=completed, modified=25, failed=0
+2026-08-20 06:51:36,813 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup deleted after successful enrichment

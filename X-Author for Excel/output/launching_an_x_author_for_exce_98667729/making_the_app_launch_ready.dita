@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="making_the_app_launch_ready_1f949b" xml:lang="en-us">
+   <title>Making the App Launch Ready</title>
+   <shortdesc>There are two main differences with an app that can be launched from Dynamics CRM:</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>query</keyword>
+        <keyword>action</keyword>
+        <keyword>Launch</keyword>
+        <keyword>parent</keyword>
+        <keyword>filter</keyword>
+        <keyword>Author</keyword>
+        <indexterm>query</indexterm>
+        <indexterm>action</indexterm>
+        <indexterm>Launch</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>There are two main differences with an app that can be launched from Dynamics CRM:</p>
+         <ul>
+            <li>action flow to auto-execute upon launch from CRM must be flagged in the app</li>
+            <li>when the app has a parent-child relationship (e.g., Opportunities by Account), an External ID filter is required on the query action to identify the parent entity. </li>
+         </ul>
+         <p>Follow these steps to make your app launch ready:</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Open Excel and connect X-Author for Excel Designer.</cmd>
+         </step>
+         <step>
+            <cmd>Open the app that must be executed from Dynamics. The app should already be fully designed and include at least one action flow and one query.</cmd>
+         </step>
+         <step>
+            <cmd>From the X-Author Designer ribbon select <b>Action Flow</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Action Flow pop-up, enable the <b>Auto Execute (Launch from CRM)</b> check box for the action flow that you want to auto-execute.
+Click <b>Cancel</b> to exit the Action Flow list.</cmd>
+         </step>
+         <step>
+            <cmd>From the X-Author ribbon, select <b>Actions</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the correct query from the list of actions and click <b>Edit</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Create a filter with the Entity ID as the chosen field and the expression <b>System Variables equals ExportRecordId</b>.
+</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save App</b> to save your changes to the app.</cmd>
+            <info>
+               <note type="note">
+                  <p>Remember that the query filter is only required in parent-child apps and only for the top-level entity. For example, if your app is simply retrieving a list of opportunities, create the query as normal, applying filters to refine the data retrieved.</p>
+               </note>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

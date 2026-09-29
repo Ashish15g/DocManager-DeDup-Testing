@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_flow_to_retrieve_and_display_opportunities_a448f8" xml:lang="en-us">
+   <title>To create a flow to retrieve and display Opportunities</title>
+   <shortdesc>Rakesh Singh Example Click Action Flow and then click Create .</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <metadata>
+         <keywords>
+        <keyword>Opportunities</keyword>
+        <keyword>Click</keyword>
+        <keyword>Action</keyword>
+        <keyword>click</keyword>
+        <keyword>Step</keyword>
+        <keyword>Name</keyword>
+        <indexterm>Opportunities</indexterm>
+        <indexterm>Click</indexterm>
+        <indexterm>Action</indexterm>
+      </keywords>
+      <prodinfo>
+            <prodname>Example</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click<b> Action Flow </b>and then click <b>Create</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Action Flow Name field, type Retrieve Opportunities and click <b>Apply</b>. The left-hand window is updated.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Add Step</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Step Name field, type <i>Query Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>From the Action list, select <i>Query Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>Check <b>Persist Data as Output</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter <i>Opps</i>, then click <b>Apply</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Add Step</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Step Name, enter <i>Display Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>From the Action list, select <i>Display Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>Check <b>Provide Input</b> and choose <i>Opps</i> as default.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Apply</b> and then click <b>Save</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save App</b>.
+</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

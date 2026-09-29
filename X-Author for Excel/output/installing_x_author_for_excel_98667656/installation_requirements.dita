@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="installation_requirements_2ff147" xml:lang="en-us">
+   <title>Installation Requirements</title>
+     <shortdesc>Your computer must meet the minimum requirements listed below.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Microsoft</keyword>
+        <keyword>Excel</keyword>
+        <keyword>computer</keyword>
+        <keyword>Author</keyword>
+        <keyword>Installation</keyword>
+        <keyword>Requirements</keyword>
+        <indexterm>Microsoft</indexterm>
+        <indexterm>Excel</indexterm>
+        <indexterm>computer</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Your computer must meet the minimum requirements listed below.</p><p>The Mac OS X operating system is not supported; however, X-Author can be used on a Mac that is running a Windows Virtual Machine in a VMWare or Parallels environment.</p><table>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <p>Component</p>
+                  </entry>
+                  <entry>
+                     <p>Requirement</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Microsoft</p>
+                  </entry>
+                  <entry>
+                     <p>Microsoft Excel 2010 (32 bit &amp; 64 bit), Microsoft Excel 2013 (32 bit &amp; 64 bit), Microsoft Excel 2016 (32 bit &amp; 64 bit)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Microsoft</p>
+                  </entry>
+                  <entry>
+                     <p>Microsoft .NET Framework 4.5</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Microsoft</p>
+                  </entry>
+                  <entry>
+                     <p>Microsoft Visual Studio 2010 Tools for Office Runtime</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Microsoft</p>
+                  </entry>
+                  <entry>
+                     <p>Microsoft Office 2010 Primary Interop Assemblies</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Environment</p>
+                  </entry>
+                  <entry>
+                     <p>Any environment (example: Salesforce, Microsoft Dynamics) edition that provides API support for the objects that will be accessed in an X-Author for Excel App.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table><p>Before you install the X-Author add-in:</p><ul>
+            <li>You must be connected to the Internet.</li>
+            <li>You must have access to the add-in executable file.</li>
+            <li>You must have Administrator permissions on the computer being used for the installation.</li>
+            <li>You must close all instances of Microsoft Excel.</li>
+            <li>You must have Conga provided login credentials to access the Conga Community Portal and download packages.</li>
+         </ul>
+  </context></taskbody>
+</task>

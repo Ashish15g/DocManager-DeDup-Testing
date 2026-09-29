@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_grouped_matrices_2febb4" xml:lang="en-us">
+   <title>To create Grouped Matrices</title>
+   <shortdesc>If you are creating one Matrix Map, you can use Map or any other name.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <critdates>
+         <revised modified="Jan 30, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Matrix</keyword>
+        <keyword>field</keyword>
+        <keyword>Click</keyword>
+        <keyword>column</keyword>
+        <keyword>Type</keyword>
+        <keyword>List</keyword>
+        <indexterm>Matrix</indexterm>
+        <indexterm>field</indexterm>
+        <indexterm>Click</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <b>Matrix Map</b>.</cmd>
+            <info>
+               <fig>
+                  <title>98667833</title>
+                  <image href="../attachments/98667724/98667833.png" width="476" height="158" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Create</b>.
+
+
+
+The Matrix Map pane opens on the right side of Excel.</cmd>
+            <info>
+               <fig>
+                  <title>98667829</title>
+                  <image href="../attachments/98667724/98667829.png" width="562" height="368" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Type a Name for the Matrix Map.
+If you are creating one Matrix Map, you can use <i>Map</i> or any other name. If you are using multiple Matrix Maps, then you need a more descriptive name to identify each one.Each object and its fields selected in objects will be available for use in the Matrix Map. Objects are listed based on the object behavior from Objects (<b>List</b>). List fields are displayed by default.</cmd>
+            <info>
+               <p>If you are creating one Matrix Map, you can use <i>Map</i> or any other name. If you are using multiple Matrix Maps, then you need a more descriptive name to identify each one.</p>
+            </info>
+            <info>
+               <p>Each object and its fields selected in objects will be available for use in the Matrix Map. Objects are listed based on the object behavior from Objects (<b>List</b>). List fields are displayed by default.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>In an existing Matrix Map if you want to add a grouped column, create a Column Mapping for each section. Drag a List field onto the worksheet. When you release the mouse, a pop-up window appears.
+
+
+
+ Click the Column radio button. The Rendering Type, Value Type, Grouped Field and Sort options are displayed. All of these work together to determine how column values are grouped.
+
+Ensure that the Grouped Field column is True. If this field is set it to false, the column added to the Matrix is not a part of other objects.Select a Rendering Type.
+Dynamic: Field data is retrieved automatically based on the data getter actions.Click <b>OK</b> to complete the settings for that field. 
+
+</cmd>
+            <info>
+               <fig>
+                  <title>98667826</title>
+                  <image href="../attachments/98667724/98667826.png" width="331" height="295" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <substeps>
+               <substep>
+                  <cmd>Drag a List field onto the worksheet. When you release the mouse, a pop-up window appears.</cmd>
+                  <info>
+                     <fig>
+                        <title>98667826</title>
+                        <image href="../attachments/98667724/98667826.png" width="331" height="295" placement="break">
+                           <alt>placeholder</alt>
+                        </image>
+                     </fig>
+                  </info>
+               </substep>
+               <substep>
+                  <cmd>Click the Column radio button. The Rendering Type, Value Type, Grouped Field and Sort options are displayed. All of these work together to determine how column values are grouped.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Select a Rendering Type.
+Dynamic: Field data is retrieved automatically based on the data getter actions.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click <b>OK</b> to complete the settings for that field. 
+
+</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Create Data Mappings for each section. Make sure that the cell you are mapping to is an intersection of a row and column mapping.After you have created column and row mappings, you can drag and drop the field that represents the intersection. When you drop the field, the pop up window will appear and, in this case, the radio button will automatically default to Data. It uses the closest row and column combination.Enter a Section Name for the data or select an existing section name from the drop-down menu.Select a Row Lookup.Select a Column Lookup. Click OK to complete the settings for that field. </cmd>
+            <substeps>
+               <substep>
+                  <cmd>After you have created column and row mappings, you can drag and drop the field that represents the intersection. When you drop the field, the pop up window will appear and, in this case, the radio button will automatically default to Data. It uses the closest row and column combination.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Enter a Section Name for the data or select an existing section name from the drop-down menu.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Select a Row Lookup.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Select a Column Lookup. Click OK to complete the settings for that field. </cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Click <b>Save and Close</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save App</b>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_mark_a_clause_for_deletion_ec7c3c" xml:lang="en-us">
+   <title>To mark a clause for deletion</title>
+   <shortdesc>When you delete a clause from an agreement, the entire clause is removed from the</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Oct 10, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>clause</keyword>
+        <keyword>deletion</keyword>
+        <keyword>document</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>delete</keyword>
+        <keyword>agreement</keyword>
+        <indexterm>clause</indexterm>
+        <indexterm>deletion</indexterm>
+        <indexterm>document</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>When you delete a clause from an agreement, the entire clause is removed from the text of the document. </p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Go to <b>Document &gt; Clauses.</b>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click the  icon to delete the selected clause. A dialog is displayed in the X-Author pane asking you to confirm the deletion.</cmd>
+            <info>
+               <image href="../attachments/45220112/49676345.png" width="25" height="23" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <info>
+               <fig>
+                  <title>51576895</title>
+                  <image href="../attachments/45220112/51576895.png" width="2345" height="1180" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Yes</b> to mark the clause for deletion. The clause is marked with a strikethrough in the document and the Document pane. You can click the  <b>Undo </b>icon to remove the mark at any time in the same session.</cmd>
+            <info>
+               <image href="../attachments/45220112/51576896.png" width="32" height="28" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>Complete this action.<b>Check-in</b> the document and choose <b>Reconcile</b>. The clause is removed from the document and a <xref href="../tracking_clauses_in_your_agree_45220100/tracking_clauses_in_your_agreement_document.dita">"Deleted" entry is recorded in the Agreement Clause related list on the agreement record in Salesforce.</xref>
+            </cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

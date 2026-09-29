@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="inserting_fields_in_a_template_as_a_table_cfbdce" xml:lang="en-us">
+   <title>Inserting Fields in a Template as a Table</title>
+   <shortdesc>You can insert fields as a table in your template and the inserted table is</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>table</keyword>
+        <keyword>select</keyword>
+        <keyword>field</keyword>
+        <keyword>captions</keyword>
+        <keyword>Fields</keyword>
+        <keyword>Table</keyword>
+        <indexterm>table</indexterm>
+        <indexterm>select</indexterm>
+        <indexterm>field</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>You can insert fields as a table in your template and the inserted table is added as a repeat table. When template with repeat table is used to generate an agreement, the repeat table of a header row with inserted fields and their values in the preceding rows. </p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Open a template in X-Author Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>From the left navigation pane, select <b>X-Author Templates</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Go to the<b> Work </b>tab.</cmd>
+         </step>
+         <step>
+            <cmd>Place the cursor in the section of the template text, where you want to insert a field and click <b>Insert New Fields</b>.
+This displays the Insert Fields window.</cmd>
+         </step>
+         <step>
+            <cmd>From the left column select a line item object, such as <b>Agreement Line Items</b>. </cmd>
+         </step>
+         <step>
+            <cmd>In the window to the right, hold <b>command </b>and select one or more fields from the list. Each field you select is displayed in a column in the table. </cmd>
+            <info>
+               <note type="note">
+                  <p>Fields are inserted as columns in the table based on the order you select. Do not move your cursor when the fields are being inserted.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the checkbox <b>Insert as a table.</b>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Submit</b>. A Repeat table is inserted into your template with each field displayed as a separate column.</cmd>
+         </step>
+         <step>
+            <cmd>To search inserted fields:Navigate to the <b>Template Fields</b> tab. This displays the Repeat Table (object name) and the fields in the repeat table.Enter the field name in the search field and click the search icon ().</cmd>
+            <info>
+               <image href="../attachments/102413235/102413414.png" width="31" height="27" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <substeps>
+               <substep>
+                  <cmd>Navigate to the <b>Template Fields</b> tab. This displays the Repeat Table (object name) and the fields in the repeat table.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Enter the field name in the search field and click the search icon ().</cmd>
+                  <info>
+                     <image href="../attachments/102413235/102413414.png" width="31" height="27" placement="inline">
+                           <alt>placeholder</alt>
+                        </image>
+                     
+                  </info>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>To make an inserted field smart field or readonly:Click the gear icon () adjacent to the selected field name to open the <b>Properties</b> page.In the attributes list, turn on the <b>Smart Field</b> or <b>Readonly </b>switch based on your requirement and click <b>Ok</b>.
+</cmd>
+            <info>
+               <image href="../attachments/102413235/102413413.png" width="20" height="20" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <substeps>
+               <substep>
+                  <cmd>Click the gear icon () adjacent to the selected field name to open the <b>Properties</b> page.</cmd>
+                  <info>
+                     <image href="../attachments/102413235/102413413.png" width="20" height="20" placement="inline">
+                           <alt>placeholder</alt>
+                        </image>
+                     
+                  </info>
+               </substep>
+               <substep>
+                  <cmd>In the attributes list, turn on the <b>Smart Field</b> or <b>Readonly </b>switch based on your requirement and click <b>Ok</b>.
+</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>To show or hide captions for a generated table:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Click the gear icon () adjacent to the Repeat Table.</cmd>
+                  <info>
+                     <image href="../attachments/102413235/102413413.png" width="20" height="20" placement="inline">
+                           <alt>placeholder</alt>
+                        </image>
+                     
+                  </info>
+               </substep>
+               <substep>
+                  <cmd>In the Table Attributes section, turn on the <b>Show Caption</b> switch.</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>To select table formatting when no data is present:Under the Table Display Attributes, click <b>Format</b>. This displays a drop-down menu. Select one of the following options based on your requirement.To show table captions and one empty row, select <b>Show captions and one empty row</b>.To show captions only and no rows, select <b>Show captions only</b>.To remove the entire table from the generated document, select <b>Remove whole table</b>.Click <b>Ok</b>.</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Under the Table Display Attributes, click <b>Format</b>. This displays a drop-down menu. Select one of the following options based on your requirement.To show table captions and one empty row, select <b>Show captions and one empty row</b>.To show captions only and no rows, select <b>Show captions only</b>.To remove the entire table from the generated document, select <b>Remove whole table</b>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click <b>Ok</b>.</cmd>
+               </substep>
+            </substeps>
+         </step>
+      </steps>
+      <result>
+         <p>Fields inserted in a table cannot be made conditional.</p>
+      </result>
+   </taskbody>
+</task>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="deleting_smart_elements_using_delete_or_backspace_key_eb3e5f" xml:lang="en-us">
+   <title>Deleting Smart Elements Using Delete or Backspace Key</title>
+     <shortdesc>You can now use the Backspace or Delete key to delete clauses, fields, nested clauses,</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>smart</keyword>
+        <keyword>fields</keyword>
+        <keyword>clauses</keyword>
+        <keyword>elements</keyword>
+        <keyword>Delete</keyword>
+        <keyword>Backspace</keyword>
+        <indexterm>smart</indexterm>
+        <indexterm>fields</indexterm>
+        <indexterm>clauses</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>You can now use the <b>Backspace</b> or <b>Delete</b> key to delete clauses, fields, nested clauses, smart clauses, smart fields and read-only fields from an agreement document. Clauses or fields deleted from the document are recorded in the reconciliation screen as deleted. This feature improves the usability experience of X-Author Contracts.</p><p>Earlier smart elements like smart fields or smart clauses could be deleted only by marking them for deletion from the control panel and then reconciling them. This feature removes that limitation. Also, if you are not an Apttus user and do not have X-Author installed, you would still be able to delete smart elements from the agreement document. Additionally, earlier it was difficult to remove static text if it was in between two smart elements. That problem is solved with this feature.</p><p>
+         <b>Prerequisites</b>
+      </p><ul>
+         <li>To delete a smart element you must ensure that the value of the Comply System Property, <b>UnlockSmartElements</b> is set to <i>True</i> in Contract Management. Only then the smart elements become available for deletion.
+For more information on how to configure the comply system property, refer to Contract Management on Salesforce Administrator Guide.</li>
+      </ul>
+  </context></taskbody>
+</task>

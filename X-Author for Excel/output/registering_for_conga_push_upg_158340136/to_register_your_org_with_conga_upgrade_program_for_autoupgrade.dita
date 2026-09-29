@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_register_your_org_with_conga_upgrade_program_for_autoupgrade_f4f5a0" xml:lang="en-us">
+   <title>To register your org with Conga Upgrade Program for auto-upgrade</title>
+   <shortdesc>This section provides a high-level flow of the org registration process and early feedback programs.</shortdesc>
+   <prolog>
+      <author type="creator">Sagar Talamarla</author>
+      <critdates>
+         <created date="Aug 18, 2021"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Conga</keyword>
+        <keyword>Click</keyword>
+        <keyword>Upgrade</keyword>
+        <keyword>Program</keyword>
+        <keyword>displayed</keyword>
+        <keyword>upgrade</keyword>
+        <indexterm>Conga</indexterm>
+        <indexterm>Click</indexterm>
+        <indexterm>Upgrade</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>This section provides a high-level flow of the org registration process and early feedback programs. Refer to <i>Conga Upgrade Program documentation</i> for a comprehensive overview of features.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Launch the <xref href="https://pushupgrades.congacloud.com" scope="external" format="html">Conga Upgrade Program's registration page</xref>. </cmd>
+         </step>
+         <step>
+            <cmd>Select your Salesforce org type (<b>Production </b>or <b>Sandbox</b>). The Salesforce login page is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Enter your credentials and click <b>Login</b>. You are redirected to the connected app called <b>Conga Push Upgrade CA</b>, which prompts you to allow access to the org information.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Allow</b>.<b> </b>The org registration form is displayed.
+</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Set Package Access Control </b>to set the accessibility for Conga packages to be upgraded with Conga Upgrade Program.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Submit</b>. 
+The <b>Early Feedback</b> pop-up is displayed. In addition, Conga sends an email notification to the system administrator on successful registration with a list of packages (including dependent packages, if any) handled in the upgrade process. </cmd>
+            <info>
+               <note type="note">
+                  <p>The early feedback program executes a test suite to check if the customizations in your org are compatible with the upgrade. For more information, see the <xref href="https://documentation.conga.com/push-upgrade/summer-21/conga-automation-early-feedback-program-152572477.html" scope="external" format="html">Conga Automation Early Feedback program.</xref>
+                  </p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Try Now</b>. A <b>Conga Automation Dashboard</b> is displayed with a <b>Quick Guide</b> pop-up. Click <b>Yes </b>to go through the quick tour of the dashboard.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Click to see the test t</b>o view a list of tests to be executed for your org<b>, </b>A <b>List of Tests</b> pop-up is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Enter your Email ID and Organization Name. You can enter multiple email ids. </cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Trigger Welcome Email</b>. Conga sends a welcome email to the email ids entered in the previous step with a list of tests performed in the early feedback program.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Proceed</b>. A <b>Conga Services Test Automation Execution Page</b> is displayed. </cmd>
+         </step>
+         <step>
+            <cmd>Click the checkbox next to the Job ID and click <b>Begin Test Execution </b>to run the predefined automated test suite against your org. </cmd>
+         </step>
+      </steps>
+      <result>
+         <p>For the latest information on Conga Upgrade Program, see <xref href="https://documentation.conga.com/push-upgrade/2022.4.0/conga-upgrade-program-193698855.html" scope="external" format="html">Conga Upgrade Program documentation</xref>.</p>
+      </result>
+   </taskbody>
+</task>

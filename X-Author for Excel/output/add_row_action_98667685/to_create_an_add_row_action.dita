@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_an_add_row_action_f2b9a3" xml:lang="en-us">
+   <title>To create an Add Row action</title>
+   <shortdesc>Description</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Select</keyword>
+        <keyword>action</keyword>
+        <keyword>number</keyword>
+        <keyword>Save</keyword>
+        <keyword>Input</keyword>
+        <keyword>added</keyword>
+        <indexterm>Select</indexterm>
+        <indexterm>action</indexterm>
+        <indexterm>number</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In the ribbon menu, click the Actions drop-down menu and select <b>Add Row</b>. The Add Row Action window opens.</cmd>
+         </step>
+         <step>
+            <cmd>Complete the fields described in the following table.</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Field</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Name</p>
+                           </entry>
+                           <entry>
+                              <p>Type a descriptive name for action (for example, <i>Add Row – Opportunities</i>).</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Save Map</p>
+                           </entry>
+                           <entry>
+                              <p>Select an existing Save Map to use when adding rows.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>List Object</p>
+                           </entry>
+                           <entry>
+                              <p>Select the list object for which you will add rows.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Location</p>
+                           </entry>
+                           <entry>
+                              <p>Specify whether to add the new rows before or after the existing data.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Disable Excel Events during execution</p>
+                           </entry>
+                           <entry>
+                              <p>Select to disable excel events while performing add row action.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Input Type</p>
+                           </entry>
+                           <entry>
+                              <p>Select the method used to determine how many rows will be added.<b>Action Flow Step Input</b> – The number of rows added will be determined by the outcome of a previous step in the action flow. For example, if you have a Search and Select action in the flow, the number of rows added will equal the number of rows selected during that step.<b>Cell Reference</b> – Select this option to specify a cell in the workbook, such as <i>Sheet3!A1</i>, that contains the numerical value of the number of cells you want to add.<b>Number of Rows</b> – Select this option to specify a static number of rows to add.<b>User Input</b> – Select this option to allow the runtime user to specify the number of rows to add.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd> Click <b>Save</b>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

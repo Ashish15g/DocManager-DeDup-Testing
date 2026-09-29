@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_collaborate_using_word_90fcbd" xml:lang="en-us">
+   <title>To Collaborate Using Word</title>
+   <shortdesc>/Chatter icon/</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Jun 22, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Chatter</keyword>
+        <keyword>document</keyword>
+        <keyword>Word</keyword>
+        <keyword>content</keyword>
+        <keyword>Your</keyword>
+        <keyword>audience</keyword>
+        <indexterm>Chatter</indexterm>
+        <indexterm>document</indexterm>
+        <indexterm>Word</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Create a new document or open an existing document in Word.</cmd>
+         </step>
+         <step>
+            <cmd>Connect to X-Author Chatter as described in <xref href="../connecting_to_x_author_chatter_40370449/connecting_to_xauthor_chatter_online.dita">Connecting to X-Author Chatter Online</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>Select who you want to collaborate with in your Chatter feed by clicking one of the icons:</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>/Chatter icon/</p>
+                           </entry>
+                           <entry>
+                              <p>Your audience will be everyone in your organization with a Chatter account.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>/Group icon/</p>
+                           </entry>
+                           <entry>
+                              <p>Your audience will be all the members of the group you select.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>/Individual icon/</p>
+                           </entry>
+                           <entry>
+                              <p>Your audience will be the single individual you select.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd> Make changes to the document using Word and then choose what content to share.
+
+/screenshot of chatter window and drop-down/</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Post</p>
+                           </entry>
+                           <entry>
+                              <p>Comments you provide in Chatter are included, but no part of the document is included.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Selected Content</p>
+                           </entry>
+                           <entry>
+                              <p>The content highlighted in your document is inserted into the Chatter feed, as unformatted text. There is a maximum of 1000 characters.(<b>Not currently supported. Choosing this option shares your Comments to the feed and the entire document is attached to the Chatter feed.</b>)</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Entire Document</p>
+                           </entry>
+                           <entry>
+                              <p>The document is attached to the feed.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Selected Content + Entire Document</p>
+                           </entry>
+                           <entry>
+                              <p>Highlighted content (up to 1000 characters) and the document (as an attachment) are included in the feed.(<b>Not currently supported. Choosing this option shares your Comments to the feed and the entire document is attached to the Chatter feed.</b>)</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Share</b> to share your content to the Chatter feed.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

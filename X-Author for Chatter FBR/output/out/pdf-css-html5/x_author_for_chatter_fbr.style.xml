@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?><css:root xmlns:chfox="http://www.oxygenxml.com/chemistry/extensions/fop" xmlns:css="http://www.w3.org/1998/CSS"><css:pages><css:page><css:footnote><css:property name="border-top-style" value="solid"/><css:property name="border-top-color" value="black"/><css:property name="border-top-width" value="thin"/><css:property name="padding-top" value="8pt"/></css:footnote></css:page><css:page><css:property name="padding-top" value="0.2em"/><css:property name="padding-bottom" value="0.2em"/><css:property name="width" value="8.5in"/><css:property name="height" value="11.0in"/><css:property name="margin-top" value="1in"/><css:property name="margin-right" value="1in"/><css:property name="margin-left" value="1in"/><css:property name="margin-bottom" value="1in"/></css:page><css:page><css:property name="font-size" value="8pt"/></css:page><css:page><css:property name="font-size" value="10pt"/><css:property name="font-family" value="Roboto , sans-serif"/></css:page><css:page pseudo="left "><css:top-left><css:property name="content"><css:string name="maptitle" position="first"/><css:string name="parttitle" position="first"/><css:string name="chaptertitle" position="first"/><css:string name="sectiontitle" position="first"/><css:text> | </css:text><css:counter format="decimal" name="page"/></css:property></css:top-left></css:page><css:page pseudo="right "><css:top-right><css:property name="content"><css:string name="maptitle" position="first"/><css:string name="parttitle" position="first"/><css:string name="chaptertitle" position="first"/><css:string name="sectiontitle" position="first"/><css:text> | </css:text><css:counter format="decimal" name="page"/></css:property></css:top-right></css:page><css:page pseudo="blank "><css:top-left><css:property name="content"/></css:top-left><css:top-right><css:property name="content"/></css:top-right></css:page><css:page name="front-page"><css:top-left-corner><css:property name="content"/></css:top-left-corner><css:top-left><css:property name="content"/></css:top-left><css:top-center><css:property name="content"/></css:top-center><css:top-right><css:property name="content"/></css:top-right><css:top-right-corner><css:property name="content"/></css:top-right-corner><css:bottom-left-corner><css:property name="content"/></css:bottom-left-corner><css:bottom-left><css:property name="content"/></css:bottom-left><css:bottom-center><css:property name="content"/></css:bottom-center><css:bottom-right><css:property name="content"/></css:bottom-right><css:bottom-right-corner><css:property name="content"/></css:bottom-right-corner></css:page><css:page name="table-of-contents"><css:top-left><css:property name="content"/></css:top-left><css:top-center><css:property name="content"/></css:top-center><css:top-right><css:property name="content"/></css:top-right><css:bottom-left><css:property name="content"/></css:bottom-left><css:bottom-center><css:property name="content"/></css:bottom-center><css:bottom-right><css:property name="content"/></css:bottom-right></css:page><css:page name="index"><css:top-left-corner><css:property name="content"/></css:top-left-corner><css:top-left><css:property name="content"/></css:top-left><css:top-right><css:property name="content"/></css:top-right><css:top-right-corner><css:property name="content"/></css:top-right-corner><css:top-center><css:property name="content"/></css:top-center><css:bottom-left-corner><css:property name="content"/></css:bottom-left-corner><css:bottom-left><css:property name="content"/></css:bottom-left><css:bottom-right><css:property name="content"/></css:bottom-right><css:bottom-right-corner><css:property name="content"/></css:bottom-right-corner><css:bottom-center><css:property name="content"><css:counter format="lower-alpha" name="page"/></css:property><css:property name="font-size" value="11pt"/></css:bottom-center></css:page><css:page name="index"><css:property name="column-count" value="2"/><css:property name="column-fill" value="auto"/></css:page><css:page name="chapter"/><css:page name="matter-page"><css:top-left-corner><css:property name="content"/></css:top-left-corner><css:top-center><css:property name="content"/></css:top-center><css:top-right-corner><css:property name="content"/></css:top-right-corner><css:bottom-left-corner><css:property name="content"/></css:bottom-left-corner><css:bottom-left><css:property name="content"/></css:bottom-left><css:bottom-center><css:property name="content"/></css:bottom-center><css:bottom-right><css:property name="content"/></css:bottom-right><css:bottom-right-corner><css:property name="content"/></css:bottom-right-corner></css:page><css:page name="portrait-page"><css:property name="orientation" value="portrait"/></css:page><css:page name="table-of-contents" pseudo="left "><css:top-left><css:property name="content"><css:string name="toc-header" position="first"/><css:text> | </css:text><css:counter format="lower-roman" name="page"/></css:property></css:top-left></css:page><css:page name="table-of-contents" pseudo="right "><css:top-right><css:property name="content"><css:string name="toc-header" position="first"/><css:text> | </css:text><css:counter format="lower-roman" name="page"/></css:property></css:top-right></css:page><css:page name="matter-page" pseudo="left "><css:top-left><css:property name="content"><css:counter format="lower-roman" name="page"/></css:property></css:top-left></css:page><css:page name="matter-page" pseudo="right "><css:top-right><css:property name="content"><css:counter format="lower-roman" name="page"/></css:property></css:top-right></css:page><css:page name="landscape-page" pseudo="right "><css:property name="orientation" value="landscape"/><css:top-left><css:property name="content"/></css:top-left><css:top-center><css:property name="content"/></css:top-center><css:top-right><css:property name="content"/></css:top-right><css:right-bottom><css:property name="content"><css:reference-orientation-container-pmb reference-orientation="270"><css:string name="maptitle" position="first"/><css:string name="parttitle" position="first"/><css:string name="chaptertitle" position="first"/><css:string name="sectiontitle" position="first"/><css:text> | </css:text><css:counter format="decimal" name="page"/></css:reference-orientation-container-pmb></css:property><css:property name="vertical-align" value="middle"/><css:property name="text-align" value="right"/></css:right-bottom></css:page><css:page name="landscape-page" pseudo="left "><css:property name="orientation" value="landscape"/><css:top-left><css:property name="content"/></css:top-left><css:top-center><css:property name="content"/></css:top-center><css:top-right><css:property name="content"/></css:top-right><css:right-top><css:property name="content"><css:reference-orientation-container-pmb reference-orientation="270"><css:string name="maptitle" position="first"/><css:string name="parttitle" position="first"/><css:string name="chaptertitle" position="first"/><css:string name="sectiontitle" position="first"/><css:text> | </css:text><css:counter format="decimal" name="page"/></css:reference-orientation-container-pmb></css:property><css:property name="vertical-align" value="middle"/><css:property name="text-align" value="left"/></css:right-top></css:page><css:page name="table-of-contents" pseudo="first left "><css:top-left><css:property name="content"/></css:top-left></css:page><css:page name="table-of-contents" pseudo="first right "><css:top-right><css:property name="content"/></css:top-right></css:page><css:page name="chapter" pseudo="first left "><css:top-left><css:property name="content"/></css:top-left></css:page><css:page name="chapter" pseudo="first right "><css:top-right><css:property name="content"/></css:top-right></css:page></css:pages><css:page-sequence initial-page-number="1" page="front-page"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adity/Downloads/Power_Documentation/X-Author%20for%20Chatter%20FBR/output/x_author_for_chatter_fbr/x_author_for_chatter_fbr.ditamap">
+    <head css:border-bottom-color="white" css:border-bottom-style="solid" css:border-bottom-width="1pt" css:border-left-color="white" css:border-left-style="solid" css:border-left-width="1pt" css:border-right-color="white" css:border-right-style="solid" css:border-right-width="1pt" css:border-top-color="white" css:border-top-style="solid" css:border-top-width="1pt" css:display="none" css:padding-bottom="1em" css:padding-left="1em" css:padding-right="1em" css:padding-top="1em">
+        <meta content="text/html; charset=UTF-8" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" http-equiv="Content-Type"/>
+        <meta content="(C) Copyright 2026" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="copyright"/>
+        <meta content="(C) Copyright 2026" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.rights.owner"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Program%20Files/Oxygen%20XML%20Author%2028/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Program%20Files/Oxygen%20XML%20Author%2028/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Program%20Files/Oxygen%20XML%20Author%2028/frameworks/dita/DITA-OT/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Program%20Files/Oxygen%20XML%20Author%2028/frameworks/dita/DITA-OT/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Program%20Files/Oxygen%20XML%20Author%2028/frameworks/dita/DITA-OT/plugins/com.oxygenxml.editlink/pdf-css.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Program%20Files/Oxygen%20XML%20Author%2028/frameworks/dita/DITA-OT/plugins/com.oxygenxml.editlink/pdf-css.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Program%20Files/Oxygen%20XML%20Author%2028/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-theme.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Program%20Files/Oxygen%20XML%20Author%2028/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-theme.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Program%20Files/Oxygen%20XML%20Author%2028/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Program%20Files/Oxygen%20XML%20Author%2028/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Program%20Files/Oxygen%20XML%20Author%2028/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Program%20Files/Oxygen%20XML%20Author%2028/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css" rel="stylesheet" type="text/css"/>
+        <meta content="DITA-OT" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="generator"/>
+        <meta content="map" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.type"/>
+        <meta content="Space, Details, XACHSFFBR, Name, Author, Chatter, Version, Winter, Following, features, introduced, release, check, Configurable, Search, Criteria, configure, fields, during, additional, available, Updating, Additional, July, Salesforce, Upgrade, updated, accommodate, Icon, custom, icons, Features, List, Release, Added, Conga, software, third, license, Apttus, including" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="keywords">
+            <css:oxy-pdf-meta-keywords><css:text>Space, Details, XACHSFFBR, Name, Author, Chatter, Version, Winter, Following, features, introduced, release, check, Configurable, Search, Criteria, configure, fields, during, additional, available, Updating, Additional, July, Salesforce, Upgrade, updated, accommodate, Icon, custom, icons, Features, List, Release, Added, Conga, software, third, license, Apttus, including</css:text></css:oxy-pdf-meta-keywords>
+        </meta>
+        <meta content="HTML5" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.format"/>
+        <meta content="id-root-map" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.identifier"/>
+        <meta content="en" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.language"/>
+        <title css:border-bottom-color="rgb(0 , 68 , 119)" css:border-bottom-style="solid" css:border-bottom-width="2px" css:color="rgb(0 , 34 , 68)" css:display="none" css:font-size="2.2em" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">X-Author for Chatter on Salesforce Features by Release</title>
+    </head>
+    <body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%">
+        <div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px">
+            <div class="wh_topic_body" css:display="block">
+                <div class="wh_topic_content" css:display="block" css:margin-bottom="80px">
+                    <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="2.0" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)" id="id-root-map" lang="en" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" xml:lang="en">
+                        <div class="- front-page/front-page front-page" css:display="block"><css:before css:display="block" css:height="0.1px"><css:text/></css:before><div class="- front-page/front-page-title front-page-title" css:display="block" css:font-size="2em" css:font-weight="bold" css:line-height="1.5em" css:margin-top="3in" css:text-align="center">
+                                <div class="- topic/title title" css:bookmark-level="1" css:break-after="avoid" css:display="block"><css:string-set name="maptitle"><css:content source="text"/></css:string-set><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><css:oxy-pdf-meta-title><css:content source="text"/></css:oxy-pdf-meta-title>X-Author
+                                    for Chatter on Salesforce Features by Release</div>
+                            </div></div>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="table-of-contents"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adity/Downloads/Power_Documentation/X-Author%20for%20Chatter%20FBR/output/x_author_for_chatter_fbr/x_author_for_chatter_fbr.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="2.0" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)" lang="en" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" xml:lang="en"><div class="- toc/toc toc" css:display="block">
+                            <div class="- toc/title title" css:bookmark-level="1" css:display="block" css:font-size="2em" css:margin-bottom="1em" empty="true"><css:string-set name="toc-header"><css:text>Contents</css:text></css:string-set><css:before css:display="inline"><css:text>Contents</css:text></css:before><css:bookmark-label><css:content source="before"/></css:bookmark-label></div>
+                            <div class="- topic/title title" css:break-after="avoid" css:display="none">X-Author for Chatter on Salesforce Features
+                                by Release</div>
+                            <div class="- map/topicref topicref" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" href="#unique_1" impose-role="keeptarget" is-chapter="true" type="reference">
+                                <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="space_details_fee340">
+                                    <div appid="space_details_fee340" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_1" css:text-align-last="justify" href="#unique_1"><css:before css:display="inline" css:link="#unique_1"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="1"/><css:text/><css:text>. </css:text></css:before>Space
+                                        Details:<css:after css:display="inline" css:link="#unique_1"><css:leader pattern="."/><css:target-counter url-fragment="unique_1"/></css:after></div>
+                                    <div class="- map/shortdesc shortdesc" css:display="none">X-Author for Chatter on Salesforce Features by
+                                        Release</div>
+                                </div>
+                            </div>
+                            <div class="- map/topicref topicref" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" href="#unique_2" impose-role="keeptarget" is-chapter="true" type="concept">
+                                <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="version_481_winter_2018_30d3ee">
+                                    <div appid="version_481_winter_2018_30d3ee" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_2" css:text-align-last="justify" href="#unique_2"><css:before css:display="inline" css:link="#unique_2"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="2"/><css:text/><css:text>. </css:text></css:before>Version
+                                        4.81 (Winter
+                                        2018)<css:after css:display="inline" css:link="#unique_2"><css:leader pattern="."/><css:target-counter url-fragment="unique_2"/></css:after></div>
+                                    <div class="- map/shortdesc shortdesc" css:display="none">Following are the new features introduced in this
+                                        release:</div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_3" impose-role="keeptarget" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="configurable_search_criteria_8db0e6">
+                                        <div appid="configurable_search_criteria_8db0e6" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_3" css:text-align-last="justify" href="#unique_3"><css:before css:display="inline" css:link="#unique_3"/>Configurable
+                                            Search
+                                            Criteria<css:after css:display="inline" css:link="#unique_3"><css:leader pattern="."/><css:target-counter url-fragment="unique_3"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">You can now configure the fields available for search
+                                            functionality during the check-in and check-out</div>
+                                    </div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_4" impose-role="keeptarget" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="updating_additional_values_during_checkin_process_afb1c1">
+                                        <div appid="updating_additional_values_during_checkin_process_afb1c1" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_4" css:text-align-last="justify" href="#unique_4"><css:before css:display="inline" css:link="#unique_4"/>Updating
+                                            Additional Values during Check-In
+                                            Process<css:after css:display="inline" css:link="#unique_4"><css:leader pattern="."/><css:target-counter url-fragment="unique_4"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">You can configure additional fields to be available
+                                            during the check-in process. You can add</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="- map/topicref topicref" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" href="#unique_5" impose-role="keeptarget" is-chapter="true" type="concept">
+                                <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="version_371_july_2016_7f3a17">
+                                    <div appid="version_371_july_2016_7f3a17" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_5" css:text-align-last="justify" href="#unique_5"><css:before css:display="inline" css:link="#unique_5"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="3"/><css:text/><css:text>. </css:text></css:before>Version
+                                        3.71 (July
+                                        2016)<css:after css:display="inline" css:link="#unique_5"><css:leader pattern="."/><css:target-counter url-fragment="unique_5"/></css:after></div>
+                                    <div class="- map/shortdesc shortdesc" css:display="none">Following are the new features introduced in this
+                                        release:</div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_6" impose-role="keeptarget" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="salesforce_tls_1112_upgrade_2ea7f0">
+                                        <div appid="salesforce_tls_1112_upgrade_2ea7f0" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_6" css:text-align-last="justify" href="#unique_6"><css:before css:display="inline" css:link="#unique_6"/>Salesforce
+                                            TLS 1.1/1.2
+                                            Upgrade<css:after css:display="inline" css:link="#unique_6"><css:leader pattern="."/><css:target-counter url-fragment="unique_6"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">X-Author for Chatter has been updated to accommodate
+                                            Salesforce’s retirement of the TLS 1.0 encryption</div>
+                                    </div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_7" impose-role="keeptarget" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="configurable_chatter_icon_97f912">
+                                        <div appid="configurable_chatter_icon_97f912" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_7" css:text-align-last="justify" href="#unique_7"><css:before css:display="inline" css:link="#unique_7"/>Configurable
+                                            Chatter
+                                            Icon<css:after css:display="inline" css:link="#unique_7"><css:leader pattern="."/><css:target-counter url-fragment="unique_7"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Administrators can now configure X-Author for Chatter
+                                            settings to display a custom chatter icon in</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="- map/topicref topicref" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" href="#unique_8" impose-role="keeptarget" is-chapter="true" type="reference">
+                                <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="features_list_803055">
+                                    <div appid="features_list_803055" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_8" css:text-align-last="justify" href="#unique_8"><css:before css:display="inline" css:link="#unique_8"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="4"/><css:text/><css:text>. </css:text></css:before>Features
+                                        List<css:after css:display="inline" css:link="#unique_8"><css:leader pattern="."/><css:target-counter url-fragment="unique_8"/></css:after></div>
+                                    <div class="- map/shortdesc shortdesc" css:display="none">Release Added/ Modified</div>
+                                </div>
+                            </div>
+                            <div class="- map/topicref topicref" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" href="#unique_9" impose-role="keeptarget" is-chapter="true" type="concept">
+                                <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="apttus_copyright_disclaimer_1cdc94">
+                                    <div appid="apttus_copyright_disclaimer_1cdc94" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_9" css:text-align-last="justify" href="#unique_9"><css:before css:display="inline" css:link="#unique_9"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="5"/><css:text/><css:text>. </css:text></css:before>Apttus
+                                        Copyright
+                                        Disclaimer<css:after css:display="inline" css:link="#unique_9"><css:leader pattern="."/><css:target-counter url-fragment="unique_9"/></css:after></div>
+                                    <div class="- map/shortdesc shortdesc" css:display="none">Copyright © 2022 Apttus Corporation (“Conga”) and/or its
+                                        affiliates. All rights reserved.</div>
+                                </div>
+                            </div>
+                            <div class="- map/topicref topicref" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" is-index="true">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d189e894" css:text-align-last="justify" href="#d189e894"><css:before css:display="inline" css:link="#d189e894"/>Index<css:after css:display="inline" css:link="#d189e894"><css:leader pattern="."/><css:target-counter url-fragment="d189e894"/></css:after></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adity/Downloads/Power_Documentation/X-Author%20for%20Chatter%20FBR/output/x_author_for_chatter_fbr/x_author_for_chatter_fbr.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="2.0" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)" lang="en" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" xml:lang="en"><article aria-labelledby="ariaid-title1" break-before="true" class="- topic/topic topic nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_1" is-chapter="true" lang="en-us" nd:nd-id="space_details_fee340" oid="space_details_fee340" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" topicrefclass="- map/topicref " xml:lang="en-us">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:break-after="avoid" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" id="ariaid-title1"><css:string-set name="chaptertitle-only"><css:text> </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="1"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="1"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="1"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e147" indexid="indexid-1812325356" value="Space:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e151" indexid="indexid1109375576" value="Details:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e155" indexid="indexid1089206085" value="XACHSFFBR:"/><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Space Details:</span></h1>
+                            <div class="- topic/prolog prolog" css:background-color="transparent" css:border-bottom-style="none" css:border-left-style="none" css:border-right-style="none" css:border-top-style="none" css:break-after="avoid" css:color="transparent" css:display="none" css:font-size="0" css:height="0" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:padding-bottom="0" css:padding-left="0" css:padding-right="0" css:padding-top="0" css:width="0">
+                                <div class="- topic/metadata metadata" css:display="none">
+                                    <div class="- topic/keywords keywords" css:display="none">
+                                        <div class="- topic/keyword keyword" css:display="none">Space</div>
+                                        <div class="- topic/keyword keyword" css:display="none">Details</div>
+                                        <div class="- topic/keyword keyword" css:display="none">XACHSFFBR</div>
+                                        <div class="- topic/keyword keyword" css:display="none">Name</div>
+                                        <div class="- topic/keyword keyword" css:display="none">Author</div>
+                                        <div class="- topic/keyword keyword" css:display="none">Chatter</div>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Space">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">Space</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e147" indexid="indexid-1812325356" value="Space:"/>
+                                        </span>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Details">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">Details</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e151" indexid="indexid1109375576" value="Details:"/>
+                                        </span>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="XACHSFFBR">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">XACHSFFBR</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e155" indexid="indexid1089206085" value="XACHSFFBR:"/>
+                                        </span>
+                                    </div>
+                                    <div class="- topic/prodinfo prodinfo" css:display="none">
+                                        <div class="- topic/prodname prodname" css:display="none"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="- topic/body body" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">X-Author for Chatter
+                                    on Salesforce Features by Release</p>
+                                <div xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="table-container" css:display="block">
+                                    <table class="- topic/table table" css:border-collapse="collapse" css:display="table" css:hyphens="auto" css:margin-bottom="1em" css:margin-top="1em" css:table-layout="auto" data-cols="2">
+                                        <caption css:break-after="avoid" css:display="table-caption" css:font-weight="bold" css:margin-top="0.5em" css:text-align="center"/>
+                                        <colgroup css:display="table-column-group">
+                                            <col css:display="table-column"/>
+                                            <col css:display="table-column"/>
+                                        </colgroup>
+                                        <tbody class="- topic/tbody tbody" css:display="table-row-group" css:vertical-align="middle">
+                                            <tr class="- topic/row row" css:display="table-row" css:vertical-align="middle">
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col1" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="0" css:table-row="0" css:vertical-align="top" dita-ot:x="1" dita-ot:y="1">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">Key</p>
+                                                </td>
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col2" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="1" css:table-row="0" css:vertical-align="top" dita-ot:x="2" dita-ot:y="1">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">XACHSFFBR</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="- topic/row row" css:display="table-row" css:vertical-align="middle">
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col1" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="0" css:table-row="1" css:vertical-align="top" dita-ot:x="1" dita-ot:y="2">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">Name</p>
+                                                </td>
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col2" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="1" css:table-row="1" css:vertical-align="top" dita-ot:x="2" dita-ot:y="2">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">X-Author for Chatter on Salesforce Features by
+                                                  Release</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="- topic/row row" css:display="table-row" css:vertical-align="middle">
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col1" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="0" css:table-row="2" css:vertical-align="top" dita-ot:x="1" dita-ot:y="3">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">Description</p>
+                                                </td>
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col2" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="1" css:table-row="2" css:vertical-align="top" dita-ot:x="2" dita-ot:y="3"/>
+                                            </tr>
+                                            <tr class="- topic/row row" css:display="table-row" css:vertical-align="middle">
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col1" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="0" css:table-row="3" css:vertical-align="top" dita-ot:x="1" dita-ot:y="4">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">Created by</p>
+                                                </td>
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col2" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="1" css:table-row="3" css:vertical-align="top" dita-ot:x="2" dita-ot:y="4">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">ff80808158f817cb015a186752120004 (Feb 20,
+                                                  2020)</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adity/Downloads/Power_Documentation/X-Author%20for%20Chatter%20FBR/output/x_author_for_chatter_fbr/x_author_for_chatter_fbr.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="2.0" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)" lang="en" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" xml:lang="en"><article aria-labelledby="ariaid-title2" break-before="true" class="- topic/topic concept/concept topic concept nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_2" is-chapter="true" lang="en-us" nd:nd-id="version_481_winter_2018_30d3ee" oid="version_481_winter_2018_30d3ee" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" topicrefclass="- map/topicref " xml:lang="en-us">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:break-after="avoid" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" id="ariaid-title2"><css:string-set name="chaptertitle-only"><css:text> </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="2"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="2"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="2"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e278" indexid="indexid-1920408958" value="Version:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e282" indexid="indexid-1280353803" value="Winter:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e286" indexid="indexid-32949271" value="Following:"/><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Version 4.81 (Winter 2018)</span></h1>
+                            <div class="- topic/prolog prolog" css:background-color="transparent" css:border-bottom-style="none" css:border-left-style="none" css:border-right-style="none" css:border-top-style="none" css:break-after="avoid" css:color="transparent" css:display="none" css:font-size="0" css:height="0" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:padding-bottom="0" css:padding-left="0" css:padding-right="0" css:padding-top="0" css:width="0">
+                                <div class="- topic/author author" css:display="none" type="creator">user-0266f</div>
+                                <div class="- topic/critdates critdates" css:display="none">
+                                    <div class="- topic/created created" css:display="none" date="Feb 20, 2020"/>
+                                </div>
+                                <div class="- topic/metadata metadata" css:display="none">
+                                    <div class="- topic/keywords keywords" css:display="none">
+                                        <div class="- topic/keyword keyword" css:display="none">Version</div>
+                                        <div class="- topic/keyword keyword" css:display="none">Winter</div>
+                                        <div class="- topic/keyword keyword" css:display="none">Following</div>
+                                        <div class="- topic/keyword keyword" css:display="none">features</div>
+                                        <div class="- topic/keyword keyword" css:display="none">introduced</div>
+                                        <div class="- topic/keyword keyword" css:display="none">release</div>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Version">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">Version</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e278" indexid="indexid-1920408958" value="Version:"/>
+                                        </span>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Winter">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">Winter</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e282" indexid="indexid-1280353803" value="Winter:"/>
+                                        </span>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Following">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">Following</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e286" indexid="indexid-32949271" value="Following:"/>
+                                        </span>
+                                    </div>
+                                    <div class="- topic/prodinfo prodinfo" css:display="none">
+                                        <div class="- topic/prodname prodname" css:display="none"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Following are the
+                                    new features introduced in this release:</p>
+                                <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Following are the new features introduced in this release:</p>
+                            </div>
+                            <article aria-labelledby="ariaid-title3" class="- topic/topic task/task topic task nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_3" lang="en-us" nd:nd-id="configurable_search_criteria_8db0e6" oid="configurable_search_criteria_8db0e6" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" topicrefclass="- map/topicref " xml:lang="en-us">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:break-after="avoid" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" id="ariaid-title3"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e345" indexid="indexid-1361527758" value="check:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e349" indexid="indexid-1563787263" value="Configurable:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e353" indexid="indexid-661985422" value="Search:"/><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Configurable Search
+                                    Criteria</span></h2>
+                                <div class="- topic/prolog prolog" css:background-color="transparent" css:border-bottom-style="none" css:border-left-style="none" css:border-right-style="none" css:border-top-style="none" css:break-after="avoid" css:color="transparent" css:display="none" css:font-size="0" css:height="0" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:padding-bottom="0" css:padding-left="0" css:padding-right="0" css:padding-top="0" css:width="0">
+                                    <div class="- topic/author author" css:display="none" type="creator">user-0266f</div>
+                                    <div class="- topic/critdates critdates" css:display="none">
+                                        <div class="- topic/created created" css:display="none" date="Feb 20, 2020"/>
+                                    </div>
+                                    <div class="- topic/metadata metadata" css:display="none">
+                                        <div class="- topic/keywords keywords" css:display="none">
+                                            <div class="- topic/keyword keyword" css:display="none">check</div>
+                                            <div class="- topic/keyword keyword" css:display="none">Configurable</div>
+                                            <div class="- topic/keyword keyword" css:display="none">Search</div>
+                                            <div class="- topic/keyword keyword" css:display="none">Criteria</div>
+                                            <div class="- topic/keyword keyword" css:display="none">configure</div>
+                                            <div class="- topic/keyword keyword" css:display="none">fields</div>
+                                            <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="check">
+                                                <span class="- index/formatted-value formatted-value" css:display="none">check</span>
+                                                <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e345" indexid="indexid-1361527758" value="check:"/>
+                                            </span>
+                                            <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Configurable">
+                                                <span class="- index/formatted-value formatted-value" css:display="none">Configurable</span>
+                                                <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e349" indexid="indexid-1563787263" value="Configurable:"/>
+                                            </span>
+                                            <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Search">
+                                                <span class="- index/formatted-value formatted-value" css:display="none">Search</span>
+                                                <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e353" indexid="indexid-661985422" value="Search:"/>
+                                            </span>
+                                        </div>
+                                        <div class="- topic/prodinfo prodinfo" css:display="none">
+                                            <div class="- topic/prodname prodname" css:display="none"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">You can now
+                                        configure the fields available for search functionality
+                                        during the check-in and check-out</p>
+                                    <section class="- topic/section task/context section context" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect">
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">You can now
+                                            configure the fields available for search functionality
+                                            during the check-in and check-out process. This feature
+                                            enhances the searching experience.</p>
+                                    </section>
+                                </div>
+                            </article>
+                            <article aria-labelledby="ariaid-title4" class="- topic/topic task/task topic task nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_4" lang="en-us" nd:nd-id="updating_additional_values_during_checkin_process_afb1c1" oid="updating_additional_values_during_checkin_process_afb1c1" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" topicrefclass="- map/topicref " xml:lang="en-us">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:break-after="avoid" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" id="ariaid-title4"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e414" indexid="indexid2014183961" value="during:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e418" indexid="indexid255724787" value="additional:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e422" indexid="indexid-1276129647" value="available:"/><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Updating Additional Values during
+                                        Check-In Process</span></h2>
+                                <div class="- topic/prolog prolog" css:background-color="transparent" css:border-bottom-style="none" css:border-left-style="none" css:border-right-style="none" css:border-top-style="none" css:break-after="avoid" css:color="transparent" css:display="none" css:font-size="0" css:height="0" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:padding-bottom="0" css:padding-left="0" css:padding-right="0" css:padding-top="0" css:width="0">
+                                    <div class="- topic/author author" css:display="none" type="creator">user-0266f</div>
+                                    <div class="- topic/critdates critdates" css:display="none">
+                                        <div class="- topic/created created" css:display="none" date="Feb 20, 2020"/>
+                                    </div>
+                                    <div class="- topic/metadata metadata" css:display="none">
+                                        <div class="- topic/keywords keywords" css:display="none">
+                                            <div class="- topic/keyword keyword" css:display="none">during</div>
+                                            <div class="- topic/keyword keyword" css:display="none">additional</div>
+                                            <div class="- topic/keyword keyword" css:display="none">available</div>
+                                            <div class="- topic/keyword keyword" css:display="none">check</div>
+                                            <div class="- topic/keyword keyword" css:display="none">Updating</div>
+                                            <div class="- topic/keyword keyword" css:display="none">Additional</div>
+                                            <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="during">
+                                                <span class="- index/formatted-value formatted-value" css:display="none">during</span>
+                                                <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e414" indexid="indexid2014183961" value="during:"/>
+                                            </span>
+                                            <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="additional">
+                                                <span class="- index/formatted-value formatted-value" css:display="none">additional</span>
+                                                <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e418" indexid="indexid255724787" value="additional:"/>
+                                            </span>
+                                            <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="available">
+                                                <span class="- index/formatted-value formatted-value" css:display="none">available</span>
+                                                <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e422" indexid="indexid-1276129647" value="available:"/>
+                                            </span>
+                                        </div>
+                                        <div class="- topic/prodinfo prodinfo" css:display="none">
+                                            <div class="- topic/prodname prodname" css:display="none"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">You can
+                                        configure additional fields to be available during the
+                                        check-in process. You can add</p>
+                                    <section class="- topic/section task/context section context" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect">
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">You can
+                                            configure additional fields to be available during the
+                                            check-in process. You can add or update the values of
+                                            the additional field records during check-in. This
+                                            feature is available for all the Microsoft Office
+                                            applications that are supported by Chatter.</p>
+                                    </section>
+                                </div>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adity/Downloads/Power_Documentation/X-Author%20for%20Chatter%20FBR/output/x_author_for_chatter_fbr/x_author_for_chatter_fbr.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="2.0" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)" lang="en" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" xml:lang="en"><article aria-labelledby="ariaid-title5" break-before="true" class="- topic/topic concept/concept topic concept nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_5" is-chapter="true" lang="en-us" nd:nd-id="version_371_july_2016_7f3a17" oid="version_371_july_2016_7f3a17" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" topicrefclass="- map/topicref " xml:lang="en-us">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:break-after="avoid" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" id="ariaid-title5"><css:string-set name="chaptertitle-only"><css:text> </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="3"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="3"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="3"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e483" indexid="indexid-1920408958" value="Version:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e487" indexid="indexid71933698" value="July:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e491" indexid="indexid-32949271" value="Following:"/><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Version 3.71 (July 2016)</span></h1>
+                            <div class="- topic/prolog prolog" css:background-color="transparent" css:border-bottom-style="none" css:border-left-style="none" css:border-right-style="none" css:border-top-style="none" css:break-after="avoid" css:color="transparent" css:display="none" css:font-size="0" css:height="0" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:padding-bottom="0" css:padding-left="0" css:padding-right="0" css:padding-top="0" css:width="0">
+                                <div class="- topic/author author" css:display="none" type="creator">user-0266f</div>
+                                <div class="- topic/critdates critdates" css:display="none">
+                                    <div class="- topic/revised revised" css:display="none" modified="Feb 20, 2020"/>
+                                </div>
+                                <div class="- topic/metadata metadata" css:display="none">
+                                    <div class="- topic/keywords keywords" css:display="none">
+                                        <div class="- topic/keyword keyword" css:display="none">Version</div>
+                                        <div class="- topic/keyword keyword" css:display="none">July</div>
+                                        <div class="- topic/keyword keyword" css:display="none">Following</div>
+                                        <div class="- topic/keyword keyword" css:display="none">features</div>
+                                        <div class="- topic/keyword keyword" css:display="none">introduced</div>
+                                        <div class="- topic/keyword keyword" css:display="none">release</div>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Version">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">Version</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e483" indexid="indexid-1920408958" value="Version:"/>
+                                        </span>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="July">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">July</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e487" indexid="indexid71933698" value="July:"/>
+                                        </span>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Following">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">Following</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e491" indexid="indexid-32949271" value="Following:"/>
+                                        </span>
+                                    </div>
+                                    <div class="- topic/prodinfo prodinfo" css:display="none">
+                                        <div class="- topic/prodname prodname" css:display="none"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Following are the
+                                    new features introduced in this release:</p>
+                                <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Following are the new features introduced in this release:</p>
+                            </div>
+                            <article aria-labelledby="ariaid-title6" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_6" lang="en-us" nd:nd-id="salesforce_tls_1112_upgrade_2ea7f0" oid="salesforce_tls_1112_upgrade_2ea7f0" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" topicrefclass="- map/topicref " xml:lang="en-us">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:break-after="avoid" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" id="ariaid-title6"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e550" indexid="indexid-696530277" value="Salesforce:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e554" indexid="indexid1488260542" value="Upgrade:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e558" indexid="indexid1018144751" value="Author:"/><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Salesforce TLS 1.1/1.2
+                                    Upgrade</span></h2>
+                                <div class="- topic/prolog prolog" css:background-color="transparent" css:border-bottom-style="none" css:border-left-style="none" css:border-right-style="none" css:border-top-style="none" css:break-after="avoid" css:color="transparent" css:display="none" css:font-size="0" css:height="0" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:padding-bottom="0" css:padding-left="0" css:padding-right="0" css:padding-top="0" css:width="0">
+                                    <div class="- topic/author author" css:display="none" type="creator">user-0266f</div>
+                                    <div class="- topic/critdates critdates" css:display="none">
+                                        <div class="- topic/revised revised" css:display="none" modified="Feb 20, 2020"/>
+                                    </div>
+                                    <div class="- topic/metadata metadata" css:display="none">
+                                        <div class="- topic/keywords keywords" css:display="none">
+                                            <div class="- topic/keyword keyword" css:display="none">Salesforce</div>
+                                            <div class="- topic/keyword keyword" css:display="none">Upgrade</div>
+                                            <div class="- topic/keyword keyword" css:display="none">Author</div>
+                                            <div class="- topic/keyword keyword" css:display="none">Chatter</div>
+                                            <div class="- topic/keyword keyword" css:display="none">updated</div>
+                                            <div class="- topic/keyword keyword" css:display="none">accommodate</div>
+                                            <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Salesforce">
+                                                <span class="- index/formatted-value formatted-value" css:display="none">Salesforce</span>
+                                                <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e550" indexid="indexid-696530277" value="Salesforce:"/>
+                                            </span>
+                                            <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Upgrade">
+                                                <span class="- index/formatted-value formatted-value" css:display="none">Upgrade</span>
+                                                <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e554" indexid="indexid1488260542" value="Upgrade:"/>
+                                            </span>
+                                            <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Author">
+                                                <span class="- index/formatted-value formatted-value" css:display="none">Author</span>
+                                                <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e558" indexid="indexid1018144751" value="Author:"/>
+                                            </span>
+                                        </div>
+                                        <div class="- topic/prodinfo prodinfo" css:display="none">
+                                            <div class="- topic/prodname prodname" css:display="none"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">X-Author for
+                                        Chatter has been updated to accommodate Salesforce’s
+                                        retirement of the TLS 1.0 encryption</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">X-Author for
+                                        Chatter has been updated to accommodate Salesforce’s
+                                        retirement of the TLS 1.0 encryption protocol for inbound
+                                        and outbound connections.</p>
+                                </div>
+                            </article>
+                            <article aria-labelledby="ariaid-title7" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_7" lang="en-us" nd:nd-id="configurable_chatter_icon_97f912" oid="configurable_chatter_icon_97f912" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" topicrefclass="- map/topicref " xml:lang="en-us">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:break-after="avoid" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" id="ariaid-title7"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e617" indexid="indexid1502990257" value="Chatter:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e621" indexid="indexid-1563787263" value="Configurable:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e625" indexid="indexid70476481" value="Icon:"/><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Configurable Chatter Icon</span></h2>
+                                <div class="- topic/prolog prolog" css:background-color="transparent" css:border-bottom-style="none" css:border-left-style="none" css:border-right-style="none" css:border-top-style="none" css:break-after="avoid" css:color="transparent" css:display="none" css:font-size="0" css:height="0" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:padding-bottom="0" css:padding-left="0" css:padding-right="0" css:padding-top="0" css:width="0">
+                                    <div class="- topic/author author" css:display="none" type="creator">user-0266f</div>
+                                    <div class="- topic/critdates critdates" css:display="none">
+                                        <div class="- topic/revised revised" css:display="none" modified="Feb 20, 2020"/>
+                                    </div>
+                                    <div class="- topic/metadata metadata" css:display="none">
+                                        <div class="- topic/keywords keywords" css:display="none">
+                                            <div class="- topic/keyword keyword" css:display="none">Chatter</div>
+                                            <div class="- topic/keyword keyword" css:display="none">Configurable</div>
+                                            <div class="- topic/keyword keyword" css:display="none">Icon</div>
+                                            <div class="- topic/keyword keyword" css:display="none">Author</div>
+                                            <div class="- topic/keyword keyword" css:display="none">custom</div>
+                                            <div class="- topic/keyword keyword" css:display="none">icons</div>
+                                            <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Chatter">
+                                                <span class="- index/formatted-value formatted-value" css:display="none">Chatter</span>
+                                                <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e617" indexid="indexid1502990257" value="Chatter:"/>
+                                            </span>
+                                            <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Configurable">
+                                                <span class="- index/formatted-value formatted-value" css:display="none">Configurable</span>
+                                                <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e621" indexid="indexid-1563787263" value="Configurable:"/>
+                                            </span>
+                                            <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Icon">
+                                                <span class="- index/formatted-value formatted-value" css:display="none">Icon</span>
+                                                <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e625" indexid="indexid70476481" value="Icon:"/>
+                                            </span>
+                                        </div>
+                                        <div class="- topic/prodinfo prodinfo" css:display="none">
+                                            <div class="- topic/prodname prodname" css:display="none"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Administrators
+                                        can now configure X-Author for Chatter settings to display a
+                                        custom chatter icon in</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Administrators can
+                                        now configure X-Author for Chatter settings to display a
+                                        custom chatter icon in the Chatter task pane in MS Office.
+                                        In this version, X-Author Chatter introduces new System
+                                        Properties defined as a Custom Setting in Salesforce to
+                                        specify custom Chatter icons and the Static Resource holding
+                                        these icons.</p>
+                                </div>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adity/Downloads/Power_Documentation/X-Author%20for%20Chatter%20FBR/output/x_author_for_chatter_fbr/x_author_for_chatter_fbr.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="2.0" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)" lang="en" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" xml:lang="en"><article aria-labelledby="ariaid-title8" break-before="true" class="- topic/topic topic nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_8" is-chapter="true" lang="en-us" nd:nd-id="features_list_803055" oid="features_list_803055" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" topicrefclass="- map/topicref " xml:lang="en-us">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:break-after="avoid" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" id="ariaid-title8"><css:string-set name="chaptertitle-only"><css:text> </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="4"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="4"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="4"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e684" indexid="indexid1583465341" value="Features:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e688" indexid="indexid73429820" value="List:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e692" indexid="indexid-1920408958" value="Version:"/><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Features List</span></h1>
+                            <div class="- topic/prolog prolog" css:background-color="transparent" css:border-bottom-style="none" css:border-left-style="none" css:border-right-style="none" css:border-top-style="none" css:break-after="avoid" css:color="transparent" css:display="none" css:font-size="0" css:height="0" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:padding-bottom="0" css:padding-left="0" css:padding-right="0" css:padding-top="0" css:width="0">
+                                <div class="- topic/author author" css:display="none" type="creator">user-0266f</div>
+                                <div class="- topic/critdates critdates" css:display="none">
+                                    <div class="- topic/revised revised" css:display="none" modified="Feb 26, 2020"/>
+                                </div>
+                                <div class="- topic/metadata metadata" css:display="none">
+                                    <div class="- topic/keywords keywords" css:display="none">
+                                        <div class="- topic/keyword keyword" css:display="none">Features</div>
+                                        <div class="- topic/keyword keyword" css:display="none">List</div>
+                                        <div class="- topic/keyword keyword" css:display="none">Version</div>
+                                        <div class="- topic/keyword keyword" css:display="none">Configurable</div>
+                                        <div class="- topic/keyword keyword" css:display="none">Release</div>
+                                        <div class="- topic/keyword keyword" css:display="none">Added</div>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Features">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">Features</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e684" indexid="indexid1583465341" value="Features:"/>
+                                        </span>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="List">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">List</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e688" indexid="indexid73429820" value="List:"/>
+                                        </span>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Version">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">Version</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e692" indexid="indexid-1920408958" value="Version:"/>
+                                        </span>
+                                    </div>
+                                    <div class="- topic/prodinfo prodinfo" css:display="none">
+                                        <div class="- topic/prodname prodname" css:display="none"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="- topic/body body" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Release Added/
+                                    Modified</p>
+                                <div xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="table-container" css:display="block">
+                                    <table class="- topic/table table" css:border-collapse="collapse" css:display="table" css:hyphens="auto" css:margin-bottom="1em" css:margin-top="1em" css:table-layout="auto" data-cols="2">
+                                        <caption css:break-after="avoid" css:display="table-caption" css:font-weight="bold" css:margin-top="0.5em" css:text-align="center"/>
+                                        <colgroup css:display="table-column-group">
+                                            <col css:display="table-column"/>
+                                            <col css:display="table-column"/>
+                                        </colgroup>
+                                        <thead class="- topic/thead thead" css:display="table-header-group" css:font-weight="bold" css:text-align="center" css:vertical-align="middle">
+                                            <tr class="- topic/row row" css:display="table-row" css:vertical-align="middle">
+                                                <th class="- topic/entry entry colsep-0 rowsep-0" colname="col1" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="0" css:table-row="0" dita-ot:x="1" dita-ot:y="1" id="unique_8__entry__1">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">Release Added/ Modified</p>
+                                                </th>
+                                                <th class="- topic/entry entry colsep-0 rowsep-0" colname="col2" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="1" css:table-row="0" dita-ot:x="2" dita-ot:y="1" id="unique_8__entry__2">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">Feature</p>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="- topic/tbody tbody" css:display="table-row-group" css:vertical-align="middle">
+                                            <tr class="- topic/row row" css:display="table-row" css:vertical-align="middle">
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col1" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="0" css:table-row="1" css:vertical-align="top" dita-ot:x="1" dita-ot:y="2" headers="unique_8__entry__1">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">Version 4.81 (Winter 2018)</p>
+                                                </td>
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col2" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="1" css:table-row="1" css:vertical-align="top" dita-ot:x="2" dita-ot:y="2" headers="unique_8__entry__2">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">Configurable Search Criteria</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="- topic/row row" css:display="table-row" css:vertical-align="middle">
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col1" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="0" css:table-row="2" css:vertical-align="top" dita-ot:x="1" dita-ot:y="3" headers="unique_8__entry__1"/>
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col2" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="1" css:table-row="2" css:vertical-align="top" dita-ot:x="2" dita-ot:y="3" headers="unique_8__entry__2">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">Updating Additional Values during Check-In
+                                                  Process</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="- topic/row row" css:display="table-row" css:vertical-align="middle">
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col1" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="0" css:table-row="3" css:vertical-align="top" dita-ot:x="1" dita-ot:y="4" headers="unique_8__entry__1">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">Version 3.71 (July 2016)</p>
+                                                </td>
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col2" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="1" css:table-row="3" css:vertical-align="top" dita-ot:x="2" dita-ot:y="4" headers="unique_8__entry__2">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">Salesforce TLS 1.1/1.2 Upgrade</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="- topic/row row" css:display="table-row" css:vertical-align="middle">
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col1" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="0" css:table-row="4" css:vertical-align="top" dita-ot:x="1" dita-ot:y="5" headers="unique_8__entry__1"/>
+                                                <td class="- topic/entry entry colsep-0 rowsep-0" colname="col2" css:display="table-cell" css:padding-bottom="0.3em" css:padding-left="0.3em" css:padding-right="0.3em" css:padding-top="0.3em" css:table-column="1" css:table-row="4" css:vertical-align="top" dita-ot:x="2" dita-ot:y="5" headers="unique_8__entry__2">
+                                                  <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-space-after-conditionality="retain" css:oxy-space-before-conditionality="retain">Configurable Chatter Icon</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adity/Downloads/Power_Documentation/X-Author%20for%20Chatter%20FBR/output/x_author_for_chatter_fbr/x_author_for_chatter_fbr.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="2.0" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)" lang="en" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" xml:lang="en"><article aria-labelledby="ariaid-title9" break-before="true" class="- topic/topic concept/concept topic concept nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_9" is-chapter="true" lang="en-us" nd:nd-id="apttus_copyright_disclaimer_1cdc94" oid="apttus_copyright_disclaimer_1cdc94" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" topicrefclass="- map/topicref " xml:lang="en-us">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:break-after="avoid" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" id="ariaid-title9"><css:string-set name="chaptertitle-only"><css:text> </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="5"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="5"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="5"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e829" indexid="indexid2024043006" value="Conga:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e833" indexid="indexid-2050436237" value="software:"/><span class="- index/refid refid" css:background-color="transparent" css:color="transparent" css:display="inline" css:font-size="0px" css:max-width="2px" css:vertical-align="super" id="d189e837" indexid="indexid-874698829" value="third:"/><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Apttus Copyright Disclaimer</span></h1>
+                            <div class="- topic/prolog prolog" css:background-color="transparent" css:border-bottom-style="none" css:border-left-style="none" css:border-right-style="none" css:border-top-style="none" css:break-after="avoid" css:color="transparent" css:display="none" css:font-size="0" css:height="0" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:padding-bottom="0" css:padding-left="0" css:padding-right="0" css:padding-top="0" css:width="0">
+                                <div class="- topic/author author" css:display="none" type="creator">user-0266f</div>
+                                <div class="- topic/critdates critdates" css:display="none">
+                                    <div class="- topic/revised revised" css:display="none" modified="Feb 26, 2020"/>
+                                </div>
+                                <div class="- topic/metadata metadata" css:display="none">
+                                    <div class="- topic/keywords keywords" css:display="none">
+                                        <div class="- topic/keyword keyword" css:display="none">Conga</div>
+                                        <div class="- topic/keyword keyword" css:display="none">software</div>
+                                        <div class="- topic/keyword keyword" css:display="none">third</div>
+                                        <div class="- topic/keyword keyword" css:display="none">license</div>
+                                        <div class="- topic/keyword keyword" css:display="none">Apttus</div>
+                                        <div class="- topic/keyword keyword" css:display="none">including</div>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="Conga">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">Conga</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e829" indexid="indexid2024043006" value="Conga:"/>
+                                        </span>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="software">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">software</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e833" indexid="indexid-2050436237" value="software:"/>
+                                        </span>
+                                        <span class="- index/entry entry" css:background-color="transparent" css:display="none" css:font-size="0px" css:max-width="2px" css:vertical-align="super" value="third">
+                                            <span class="- index/formatted-value formatted-value" css:display="none">third</span>
+                                            <span class="- index/refid refid" css:background-color="transparent" css:display="none" css:max-width="2px" css:vertical-align="super" id="d189e837" indexid="indexid-874698829" value="third:"/>
+                                        </span>
+                                    </div>
+                                    <div class="- topic/prodinfo prodinfo" css:display="none">
+                                        <div class="- topic/prodname prodname" css:display="none"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Copyright © 2022
+                                    Apttus Corporation (“Conga”) and/or its affiliates. All rights
+                                    reserved.</p>
+                                <ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px">
+                                    <li class="- topic/li li" css:display="list-item">
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Copyright ©
+                                            2022 Apttus Corporation (“Conga”) and/or its affiliates.
+                                            All rights reserved.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">No part of
+                                            this document, or any information linked to or
+                                            referenced herein, may be reproduced, distributed, or
+                                            transmitted in any form or by any means, including
+                                            photocopying, recording, or other electronic or
+                                            mechanical methods, without the prior written consent of
+                                            Conga. All information contained herein is subject to
+                                            change without notice and is not warranted to be error
+                                            free.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">This document
+                                            may describe certain features and functionality of
+                                            software that Conga makes available for use under a
+                                            license agreement containing restrictions on use and
+                                            disclosure and are protected by intellectual property
+                                            laws. Except as expressly permitted in your license
+                                            agreement or allowed by law, you may not, in any form,
+                                            or by any means, use, copy, reproduce, translate,
+                                            broadcast, modify, license, transmit, distribute,
+                                            exhibit, perform, publish, or display any part of the
+                                            software. Reverse engineering, disassembly,
+                                            decompilation of, or the creation of derivative work(s)
+                                            from, the software is strictly prohibited. Additionally,
+                                            this document may contain descriptions of software
+                                            modules that are optional and for which you may not have
+                                            purchased a license. As a result, your specific software
+                                            solution and/or implementation may differ from those
+                                            described in this document.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">U.S.
+                                            GOVERNMENT END USERS: Conga software, including any
+                                            operating system(s), integrated software, any programs
+                                            installed on the hardware, and/or documentation,
+                                            delivered to U.S. Government end users are “commercial
+                                            computer software” pursuant to the applicable Federal
+                                            Acquisition Regulation and agency-specific supplemental
+                                            regulations. As such, use, duplication, disclosure,
+                                            modification, and adaptation of the programs, including
+                                            any operating system, integrated software, any programs
+                                            installed on the hardware, and/or documentation, shall
+                                            be subject to license terms and license restrictions
+                                            applicable to the programs. No other rights are granted
+                                            to the U.S. Government.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Neither the
+                                            software nor the documentation were developed or
+                                            intended for use in any inherently dangerous
+                                            applications, including applications that may create a
+                                            risk of personal injury. If you use this software or
+                                            hardware in dangerous applications, then you shall be
+                                            responsible to take all appropriate fail-safe, backup,
+                                            redundancy, and other measures to ensure its safe use.
+                                            Conga and its affiliates disclaim any liability for any
+                                            damages caused by use of this software or hardware in
+                                            dangerous applications.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Apttus, AI
+                                            Analyze, Conga, Conga AI, Conga AI Discover, Conga
+                                            Batch, Conga Collaborate, Conga Composer, Conga
+                                            Conductor, Conga Connect, Conga Courier, Conga Grid,
+                                            Conga Mail Merge, Conga Merge, Conga Orchestrate, Conga
+                                            Sign, Conga Trigger, Digital Document Transformation,
+                                            True-Up, and X-Author are registered trademarks of Conga
+                                            and/or its affiliates.</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">The
+                                            documentation and/or software may provide links to web
+                                            sites and access to content, products, and services from
+                                            third parties. Conga is not responsible for the
+                                            availability of, or any content provided by third
+                                            parties. You bear all risks associated with the use of
+                                            such content. If you choose to purchase any products or
+                                            services from a third party, the relationship is
+                                            directly between you and the third party. Conga is not
+                                            responsible for: (a) the quality of third-party products
+                                            or services; or (b) fulfilling any of the terms of the
+                                            agreement with the third party, including delivery of
+                                            products or services and warranty obligations related to
+                                            purchased products or services. Conga is not responsible
+                                            for any loss or damage of any sort that you may incur
+                                            from dealing with any third party.</p>
+                                    </li>
+                                    <li class="- topic/li li" css:display="list-item">
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">For additional
+                                            resources and support, please visit <a class="- topic/xref xref" css:color="rgb(51 , 122 , 183)" css:display="inline" css:link="https://community.apttus.com" format="html" href="https://community.apttus.com" rel="external noopener" scope="external" target="_blank">https://community.conga.com<css:after css:display="inline" css:font-style="italic" css:link="https://community.apttus.com" css:oxy-alt-text=" "/></a>.</p>
+                                    </li>
+                                    <li class="- topic/li li" css:display="list-item">
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">DOC ID:
+                                            XACHSFBR20200227</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" initial-page-number="1" page="index"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adity/Downloads/Power_Documentation/X-Author%20for%20Chatter%20FBR/output/x_author_for_chatter_fbr/x_author_for_chatter_fbr.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="2.0" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)" lang="en" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" xml:lang="en"><div class="- index/groups groups" css:bookmark-level="1" css:counter-reset="page 1" css:display="block" css:oxy-pdf-tag-type="Index" id="d189e894"/></div></div></div></div></body></html><html css:column-span="all" css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adity/Downloads/Power_Documentation/X-Author%20for%20Chatter%20FBR/output/x_author_for_chatter_fbr/x_author_for_chatter_fbr.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="2.0" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)" lang="en" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" xml:lang="en"><div class="- index/groups groups" css:bookmark-level="1" css:counter-reset="page 1" css:display="block" css:oxy-pdf-tag-type="Index"><css:before css:display="block" css:font-size="3em" css:margin-bottom="0.5em"><css:text>Index</css:text></css:before></div></div></div></div></div></body></html><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/adity/Downloads/Power_Documentation/X-Author%20for%20Chatter%20FBR/output/x_author_for_chatter_fbr/x_author_for_chatter_fbr.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="2.0" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)" lang="en" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" xml:lang="en"><div class="- index/groups groups" css:bookmark-level="1" css:counter-reset="page 1" css:display="block" css:oxy-pdf-tag-type="Index"><css:bookmark-label><css:text>Index</css:text></css:bookmark-label><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">A</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="additional">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e899a1267">additional</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e899a1267" value="additional:"><div class="- index/link link" css:display="inline" css:link="#d189e418" href="#d189e418"><css:before css:display="inline" css:link="#d189e418"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e418"/></css:content-on-element>
+                                            [d189e418] </div></div>
+                                </div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Author">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e902a1267">Author</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e902a1267" value="Author:"><div class="- index/link link" css:display="inline" css:link="#d189e558" href="#d189e558"><css:before css:display="inline" css:link="#d189e558"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e558"/></css:content-on-element>
+                                            [d189e558] </div></div>
+                                </div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="available">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e905a1267">available</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e905a1267" value="available:"><div class="- index/link link" css:display="inline" css:link="#d189e422" href="#d189e422"><css:before css:display="inline" css:link="#d189e422"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e422"/></css:content-on-element>
+                                            [d189e422] </div></div>
+                                </div>
+                            </div><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">C</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Chatter">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e910a1267">Chatter</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e910a1267" value="Chatter:"><div class="- index/link link" css:display="inline" css:link="#d189e617" href="#d189e617"><css:before css:display="inline" css:link="#d189e617"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e617"/></css:content-on-element>
+                                            [d189e617] </div></div>
+                                </div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="check">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e913a1267">check</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e913a1267" value="check:"><div class="- index/link link" css:display="inline" css:link="#d189e345" href="#d189e345"><css:before css:display="inline" css:link="#d189e345"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e345"/></css:content-on-element>
+                                            [d189e345] </div></div>
+                                </div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Configurable">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e916a1267">Configurable</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e916a1267" value="Configurable:"><div class="- index/link link" css:display="inline" css:link="#d189e349" href="#d189e349"><css:before css:display="inline" css:link="#d189e349"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e349"/><css:text>, ​</css:text></css:content-on-element>
+                                            [d189e349] </div><div class="- index/link link" css:display="inline" css:link="#d189e621" href="#d189e621"><css:content-on-element><css:target-counter url-fragment="d189e621"/></css:content-on-element>
+                                            [d189e621] </div></div>
+                                </div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Conga">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e919a1267">Conga</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e919a1267" value="Conga:"><div class="- index/link link" css:display="inline" css:link="#d189e829" href="#d189e829"><css:before css:display="inline" css:link="#d189e829"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e829"/></css:content-on-element>
+                                            [d189e829] </div></div>
+                                </div>
+                            </div><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">D</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Details">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e924a1267">Details</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e924a1267" value="Details:"><div class="- index/link link" css:display="inline" css:link="#d189e151" href="#d189e151"><css:before css:display="inline" css:link="#d189e151"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e151"/></css:content-on-element>
+                                            [d189e151] </div></div>
+                                </div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="during">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e927a1267">during</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e927a1267" value="during:"><div class="- index/link link" css:display="inline" css:link="#d189e414" href="#d189e414"><css:before css:display="inline" css:link="#d189e414"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e414"/></css:content-on-element>
+                                            [d189e414] </div></div>
+                                </div>
+                            </div><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">F</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Features">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e932a1267">Features</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e932a1267" value="Features:"><div class="- index/link link" css:display="inline" css:link="#d189e684" href="#d189e684"><css:before css:display="inline" css:link="#d189e684"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e684"/></css:content-on-element>
+                                            [d189e684] </div></div>
+                                </div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Following">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e935a1267">Following</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e935a1267" value="Following:"><div class="- index/link link" css:display="inline" css:link="#d189e286" href="#d189e286"><css:before css:display="inline" css:link="#d189e286"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e286"/><css:text>, ​</css:text></css:content-on-element>
+                                            [d189e286] </div><div class="- index/link link" css:display="inline" css:link="#d189e491" href="#d189e491"><css:content-on-element><css:target-counter url-fragment="d189e491"/></css:content-on-element>
+                                            [d189e491] </div></div>
+                                </div>
+                            </div><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">I</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Icon">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e940a1267">Icon</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e940a1267" value="Icon:"><div class="- index/link link" css:display="inline" css:link="#d189e625" href="#d189e625"><css:before css:display="inline" css:link="#d189e625"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e625"/></css:content-on-element>
+                                            [d189e625] </div></div>
+                                </div>
+                            </div><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">J</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="July">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e945a1267">July</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e945a1267" value="July:"><div class="- index/link link" css:display="inline" css:link="#d189e487" href="#d189e487"><css:before css:display="inline" css:link="#d189e487"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e487"/></css:content-on-element>
+                                            [d189e487] </div></div>
+                                </div>
+                            </div><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">L</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="List">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e950a1267">List</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e950a1267" value="List:"><div class="- index/link link" css:display="inline" css:link="#d189e688" href="#d189e688"><css:before css:display="inline" css:link="#d189e688"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e688"/></css:content-on-element>
+                                            [d189e688] </div></div>
+                                </div>
+                            </div><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">S</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Salesforce">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e955a1267">Salesforce</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e955a1267" value="Salesforce:"><div class="- index/link link" css:display="inline" css:link="#d189e550" href="#d189e550"><css:before css:display="inline" css:link="#d189e550"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e550"/></css:content-on-element>
+                                            [d189e550] </div></div>
+                                </div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Search">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e958a1267">Search</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e958a1267" value="Search:"><div class="- index/link link" css:display="inline" css:link="#d189e353" href="#d189e353"><css:before css:display="inline" css:link="#d189e353"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e353"/></css:content-on-element>
+                                            [d189e353] </div></div>
+                                </div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="software">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e961a1267">software</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e961a1267" value="software:"><div class="- index/link link" css:display="inline" css:link="#d189e833" href="#d189e833"><css:before css:display="inline" css:link="#d189e833"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e833"/></css:content-on-element>
+                                            [d189e833] </div></div>
+                                </div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Space">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e964a1267">Space</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e964a1267" value="Space:"><div class="- index/link link" css:display="inline" css:link="#d189e147" href="#d189e147"><css:before css:display="inline" css:link="#d189e147"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e147"/></css:content-on-element>
+                                            [d189e147] </div></div>
+                                </div>
+                            </div><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">T</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="third">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e969a1267">third</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e969a1267" value="third:"><div class="- index/link link" css:display="inline" css:link="#d189e837" href="#d189e837"><css:before css:display="inline" css:link="#d189e837"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e837"/></css:content-on-element>
+                                            [d189e837] </div></div>
+                                </div>
+                            </div><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">U</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Upgrade">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e974a1267">Upgrade</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e974a1267" value="Upgrade:"><div class="- index/link link" css:display="inline" css:link="#d189e554" href="#d189e554"><css:before css:display="inline" css:link="#d189e554"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e554"/></css:content-on-element>
+                                            [d189e554] </div></div>
+                                </div>
+                            </div><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">V</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Version">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e979a1267">Version</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e979a1267" value="Version:"><div class="- index/link link" css:display="inline" css:link="#d189e278" href="#d189e278"><css:before css:display="inline" css:link="#d189e278"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e278"/><css:text>, ​</css:text></css:content-on-element>
+                                            [d189e278] </div><div class="- index/link link" css:display="inline" css:link="#d189e483" href="#d189e483"><css:content-on-element><css:target-counter url-fragment="d189e483"/><css:text>, ​</css:text></css:content-on-element>
+                                            [d189e483] </div><div class="- index/link link" css:display="inline" css:link="#d189e692" href="#d189e692"><css:content-on-element><css:target-counter url-fragment="d189e692"/></css:content-on-element>
+                                            [d189e692] </div></div>
+                                </div>
+                            </div><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">W</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="Winter">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e985a1267">Winter</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e985a1267" value="Winter:"><div class="- index/link link" css:display="inline" css:link="#d189e282" href="#d189e282"><css:before css:display="inline" css:link="#d189e282"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e282"/></css:content-on-element>
+                                            [d189e282] </div></div>
+                                </div>
+                            </div><div class="- index/group group" css:display="block">
+                                <div class="- index/label label" css:display="block" css:font-size="larger" css:font-weight="bold">X</div>
+                                <div class="- index/entry entry" css:display="block" css:margin-left="1em" value="XACHSFFBR">
+                                    <div class="- index/formatted-value formatted-value" css:display="block" id="d189e990a1267">XACHSFFBR</div>
+                                    <div class="- index/refid refid" css:display="block" indexid="d189e990a1267" value="XACHSFFBR:"><div class="- index/link link" css:display="inline" css:link="#d189e155" href="#d189e155"><css:before css:display="inline" css:link="#d189e155"><css:text> </css:text></css:before><css:content-on-element><css:target-counter url-fragment="d189e155"/></css:content-on-element>
+                                            [d189e155] </div></div>
+                                </div>
+                            </div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html></css:page-sequence></css:root>

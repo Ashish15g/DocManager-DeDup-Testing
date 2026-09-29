@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 2.x Topic//EN" "topic.dtd">
+<topic id="to_create_an_xml_manifest_file_b95ffd" xml:lang="en-us">
+  <title>To create an XML manifest file:</title>
+  <shortdesc>To create an XML manifest file: Maanasa Suthrave Open a text editor such as Notepad.</shortdesc>
+  <prolog>
+    <author type="creator">Maanasa Suthrave</author>
+    <critdates>
+      <created date="Apr 16, 2019"/>
+    </critdates>
+      <metadata>
+      <keywords>
+        <keyword>https</keyword>
+        <keyword>DefaultValue</keyword>
+        <keyword>XAJS</keyword>
+        <keyword>HOSTNAME</keyword>
+        <keyword>manifest</keyword>
+        <keyword>following</keyword>
+        <indexterm>https</indexterm>
+        <indexterm>DefaultValue</indexterm>
+        <indexterm>XAJS</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <body>    <ol>
+    <li>Open a text editor such as Notepad.</li>
+    <li><p>Copy the following lines and paste them into the text editor:</p>
+      <note type="note">
+            <section>
+              <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9--&gt;
+&lt;OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+ xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+ xsi:type="TaskPaneApp"&gt;
+ <Id>f28a4a81-39b5-4fe7-8806-c8505c24d311</Id>
+ <Version>1.0.228.2017</Version>
+ <ProviderName>Apttus Corporation</ProviderName>
+ <DefaultLocale>en-US</DefaultLocale>
+ &lt;DisplayName DefaultValue="X-Author Contracts" /&gt;
+ &lt;Description DefaultValue="X Author Contracts"/&gt;
+ &lt;IconUrl DefaultValue="https://XAJS_HOSTNAME/ui/xajs/Images/icon_32x32.png" /&gt;
+ &lt;HighResolutionIconUrl DefaultValue="https://XAJS_HOSTNAME/ui/xajs/Images/icon_64x64.png" /&gt;
+ &lt;SupportUrl DefaultValue="https://www.apttus.com" /&gt;
+ <AppDomains>
+ <AppDomain>https://XAJS_HOSTNAME</AppDomain> 
+ </AppDomains>
+ <Hosts>
+ &lt;Host Name="Document" /&gt;
+ </Hosts>
+ <DefaultSettings>
+ &lt;SourceLocation DefaultValue="https://XAJS_HOSTNAME/ui/xajs/App/index.html" /&gt;
+ </DefaultSettings>
+ <Permissions>ReadWriteDocument</Permissions> 
+</OfficeApp></pre>
+            </section>
+          </note></li>
+    <li><p>Replace XAJS_HOSTNAME with your hostname.</p>
+      <note type="note">
+            <p>Contact your implementation Or CloudOps team to obtain XAJS_HOSTNAME.</p>
+          </note></li>
+    <li><p>For Multi-Tenant Environment OR Salesforce Platform:Add the following app domain in the app domains section, if it is not in manifest XML.
+<AppDomains>
+<AppDomain>https://test.salesforce.com</AppDomain>
+<AppDomain>https://login.salesforce.com</AppDomain> 
+<AppDomain>https://xajs.apttuscloud.com</AppDomain> 
+</AppDomains></p>
+      <ul>
+    <li>Add the following app domain in the app domains section, if it is not in manifest XML.</li>
+    </ul></li>
+    <li>Select <b>File</b> &gt; <b>Save As</b>. 
+b. In the Save as type dropdown list, select <b>All Types</b>. 
+c. In the Filename text box type the filename including the .xml extension.</li>
+    <li>Copy the manifest XML file and paste it in the following folder location in mac: 
+<i>~/Library/Containers/com.microsoft.Word/Data/Documents/</i>wef</li>
+    <li>Close the Microsoft Word application on your system (if open) and open it again.</li>
+    <li>In Microsoft Word, go to <b>Insert</b> &gt; <b>My add-in &gt; X-Author Contracts</b>.</li>
+    </ol></body>
+</topic>

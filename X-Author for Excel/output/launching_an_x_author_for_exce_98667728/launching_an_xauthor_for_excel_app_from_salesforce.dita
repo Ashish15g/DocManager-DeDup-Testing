@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="launching_an_xauthor_for_excel_app_from_salesforce_51d2dc" xml:lang="en-us">
+   <title>Launching an X-Author for Excel App from Salesforce</title>
+   <shortdesc>From a button on any page in Salesforce, users can launch an App that opens</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Salesforce</keyword>
+        <keyword>Excel</keyword>
+        <keyword>button</keyword>
+        <keyword>Author</keyword>
+        <keyword>launch</keyword>
+        <keyword>opens</keyword>
+        <indexterm>Salesforce</indexterm>
+        <indexterm>Excel</indexterm>
+        <indexterm>button</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>From a button on any page in Salesforce, users can launch an App that opens in Excel and automatically retrieves data from Salesforce. Depending on how this feature is configured, the flow can vary, but is essential as follows:</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>The X-Author user clicks a button on any Salesforce page (that can accommodate a button).</cmd>
+         </step>
+         <step>
+            <cmd>A new instance of Excel is opened and connects to Salesforce without any additional login required by the user.</cmd>
+         </step>
+         <step>
+            <cmd>The App id specified in the button and (optionally) parent id are passed as parameters to the App.</cmd>
+         </step>
+         <step>
+            <cmd>The App opens in Excel and executes the named or auto-execute Action Flow.</cmd>
+         </step>
+         <step>
+            <cmd>Configure Launch from Salesforce using a custom button or Excel App setup.</cmd>
+         </step>
+         <step>
+            <cmd>Make your app launch-ready from Salesforce.</cmd>
+         </step>
+         <step>
+            <cmd>Add an External ID to action flow query actions.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>To implement this feature, perform the following steps in order.</p>
+         <p>Any app configured to launch from Salesforce must have at least one Action Flow to execute when the app opens.</p>
+      </result>
+   </taskbody>
+</task>

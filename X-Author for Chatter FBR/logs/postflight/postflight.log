@@ -1,0 +1,117 @@
+================================================================================
+ metR DocMigrate — POST-FLIGHT VALIDATION REPORT
+================================================================================
+ Total Files Validated      : 18
+ Files With Violations       : 8 (initial)  →  0 (after correction)
+ Total Violations Detected   : 13  (13 errors, 0 warnings)
+ Violations Auto-Corrected   : 13  (13 errors, 0 warnings)
+ Violations Remaining        : 0  (0 errors, 0 warnings)
+ Started                     : 2026-08-20 06:49:22 UTC
+ Completed                   : 2026-08-20 06:49:31 UTC
+ Duration                    : 9s
+ Overall Status               : WARNING
+--------------------------------------------------------------------------------
+
+2026-08-20T06:49:22 [INFO] STEP 4: DITA validation (auto-fix on).
+2026-08-20T06:49:22 [INFO] Validated: index.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: apttus_copyright_disclaimer_109962852.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: 109962850.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: 109962860.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: features_list_109962851.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: x_author_for_chatter_on_salesf_109962849.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: x_author_for_chatter_fbr.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: features_list.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: space_details.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: salesforce_tls_1112_upgrade.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: configurable_chatter_icon.dita | type=concept | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: version_371_july_2016.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: apttus_copyright_disclaimer.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: updating_additional_values_during_checkin_process.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: configurable_search_criteria.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: version_481_winter_2018.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: xauthor_for_chatter_on_salesforce_features_by_release.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validated: versions.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:49:22 [INFO] Validation done: 18/18 passed, 0 auto-fixes, avg score 99.7%
+2026-08-20T06:49:22 [INFO] Schematron: validating 18 DITA files (gates 1-4).
+2026-08-20T06:49:22 [INFO] Found 18 files to validate.
+2026-08-20T06:49:22 [INFO] [  1/18] configurable_chatter_icon.dita
+2026-08-20T06:49:26 [INFO] [  2/18] salesforce_tls_1112_upgrade.dita
+2026-08-20T06:49:26 [INFO] [  3/18] version_371_july_2016.dita
+2026-08-20T06:49:26 [INFO] [  4/18] 109962850.ditamap
+2026-08-20T06:49:26 [INFO] [  5/18] configurable_search_criteria.dita
+2026-08-20T06:49:26 [INFO] [  6/18] updating_additional_values_during_checkin_process.dita
+2026-08-20T06:49:26 [INFO] [  7/18] version_481_winter_2018.dita
+2026-08-20T06:49:26 [INFO] [  8/18] 109962860.ditamap
+2026-08-20T06:49:26 [INFO] [  9/18] apttus_copyright_disclaimer.dita
+2026-08-20T06:49:26 [INFO] [ 10/18] apttus_copyright_disclaimer_109962852.ditamap
+2026-08-20T06:49:26 [INFO] [ 11/18] features_list.dita
+2026-08-20T06:49:26 [INFO] [ 12/18] features_list_109962851.ditamap
+2026-08-20T06:49:27 [INFO] [ 13/18] space_details.dita
+2026-08-20T06:49:27 [INFO] [ 14/18] index.ditamap
+2026-08-20T06:49:27 [INFO] [ 15/18] x_author_for_chatter_fbr.ditamap
+2026-08-20T06:49:27 [INFO] [ 16/18] versions.dita
+2026-08-20T06:49:27 [INFO] [ 17/18] xauthor_for_chatter_on_salesforce_features_by_release.dita
+2026-08-20T06:49:27 [INFO] [ 18/18] x_author_for_chatter_on_salesf_109962849.ditamap
+2026-08-20T06:49:27 [INFO] Found 18 files to validate.
+2026-08-20T06:49:27 [INFO] [  1/18] configurable_chatter_icon.dita
+2026-08-20T06:49:27 [INFO] [  2/18] salesforce_tls_1112_upgrade.dita
+2026-08-20T06:49:27 [INFO] [  3/18] version_371_july_2016.dita
+2026-08-20T06:49:27 [INFO] [  4/18] 109962850.ditamap
+2026-08-20T06:49:27 [INFO] [  5/18] configurable_search_criteria.dita
+2026-08-20T06:49:27 [INFO] [  6/18] updating_additional_values_during_checkin_process.dita
+2026-08-20T06:49:27 [INFO] [  7/18] version_481_winter_2018.dita
+2026-08-20T06:49:27 [INFO] [  8/18] 109962860.ditamap
+2026-08-20T06:49:27 [INFO] [  9/18] apttus_copyright_disclaimer.dita
+2026-08-20T06:49:27 [INFO] [ 10/18] apttus_copyright_disclaimer_109962852.ditamap
+2026-08-20T06:49:27 [INFO] [ 11/18] features_list.dita
+2026-08-20T06:49:27 [INFO] [ 12/18] features_list_109962851.ditamap
+2026-08-20T06:49:27 [INFO] [ 13/18] space_details.dita
+2026-08-20T06:49:27 [INFO] [ 14/18] index.ditamap
+2026-08-20T06:49:27 [INFO] [ 15/18] x_author_for_chatter_fbr.ditamap
+2026-08-20T06:49:27 [INFO] [ 16/18] versions.dita
+2026-08-20T06:49:27 [INFO] [ 17/18] xauthor_for_chatter_on_salesforce_features_by_release.dita
+2026-08-20T06:49:27 [INFO] [ 18/18] x_author_for_chatter_on_salesf_109962849.ditamap
+2026-08-20T06:49:27 [INFO] XSLT transform: 5 common XSL sheets + doctype-specific final stage → xslt_output/
+2026-08-20T06:49:27 [INFO] Schematron: validating 18 DITA files (gates 1-4).
+2026-08-20T06:49:27 [INFO] Found 18 files to validate.
+2026-08-20T06:49:27 [INFO] [  1/18] configurable_chatter_icon.dita
+2026-08-20T06:49:31 [INFO] [  2/18] salesforce_tls_1112_upgrade.dita
+2026-08-20T06:49:31 [INFO] [  3/18] version_371_july_2016.dita
+2026-08-20T06:49:31 [INFO] [  4/18] 109962850.ditamap
+2026-08-20T06:49:31 [INFO] [  5/18] configurable_search_criteria.dita
+2026-08-20T06:49:31 [INFO] [  6/18] updating_additional_values_during_checkin_process.dita
+2026-08-20T06:49:31 [INFO] [  7/18] version_481_winter_2018.dita
+2026-08-20T06:49:31 [INFO] [  8/18] 109962860.ditamap
+2026-08-20T06:49:31 [INFO] [  9/18] apttus_copyright_disclaimer.dita
+2026-08-20T06:49:31 [INFO] [ 10/18] apttus_copyright_disclaimer_109962852.ditamap
+2026-08-20T06:49:31 [INFO] [ 11/18] features_list.dita
+2026-08-20T06:49:31 [INFO] [ 12/18] features_list_109962851.ditamap
+2026-08-20T06:49:31 [INFO] [ 13/18] space_details.dita
+2026-08-20T06:49:31 [INFO] [ 14/18] index.ditamap
+2026-08-20T06:49:31 [INFO] [ 15/18] x_author_for_chatter_fbr.ditamap
+2026-08-20T06:49:31 [INFO] [ 16/18] versions.dita
+2026-08-20T06:49:31 [INFO] [ 17/18] xauthor_for_chatter_on_salesforce_features_by_release.dita
+2026-08-20T06:49:31 [INFO] [ 18/18] x_author_for_chatter_on_salesf_109962849.ditamap
+2026-08-20T06:49:31 [INFO] Found 18 files to validate.
+2026-08-20T06:49:31 [INFO] [  1/18] configurable_chatter_icon.dita
+2026-08-20T06:49:31 [INFO] [  2/18] salesforce_tls_1112_upgrade.dita
+2026-08-20T06:49:31 [INFO] [  3/18] version_371_july_2016.dita
+2026-08-20T06:49:31 [INFO] [  4/18] 109962850.ditamap
+2026-08-20T06:49:31 [INFO] [  5/18] configurable_search_criteria.dita
+2026-08-20T06:49:31 [INFO] [  6/18] updating_additional_values_during_checkin_process.dita
+2026-08-20T06:49:31 [INFO] [  7/18] version_481_winter_2018.dita
+2026-08-20T06:49:31 [INFO] [  8/18] 109962860.ditamap
+2026-08-20T06:49:31 [INFO] [  9/18] apttus_copyright_disclaimer.dita
+2026-08-20T06:49:31 [INFO] [ 10/18] apttus_copyright_disclaimer_109962852.ditamap
+2026-08-20T06:49:31 [INFO] [ 11/18] features_list.dita
+2026-08-20T06:49:31 [INFO] [ 12/18] features_list_109962851.ditamap
+2026-08-20T06:49:31 [INFO] [ 13/18] space_details.dita
+2026-08-20T06:49:31 [INFO] [ 14/18] index.ditamap
+2026-08-20T06:49:31 [INFO] [ 15/18] x_author_for_chatter_fbr.ditamap
+2026-08-20T06:49:31 [INFO] [ 16/18] versions.dita
+2026-08-20T06:49:31 [INFO] [ 17/18] xauthor_for_chatter_on_salesforce_features_by_release.dita
+2026-08-20T06:49:31 [INFO] [ 18/18] x_author_for_chatter_on_salesf_109962849.ditamap
+
+================================================================================
+Success: Post-flight validation completed successfully.
+================================================================================

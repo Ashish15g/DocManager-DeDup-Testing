@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="how_to_design_an_external_action_566d45" xml:lang="en-us">
+   <title>How to design an External Action</title>
+   <shortdesc>The code sample shows the functions to use and it will pop up a message</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Action</keyword>
+        <keyword>using</keyword>
+        <keyword>System</keyword>
+        <keyword>custom</keyword>
+        <keyword>class</keyword>
+        <keyword>External</keyword>
+        <indexterm>Action</indexterm>
+        <indexterm>using</indexterm>
+        <indexterm>System</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Create a Visual Studio Class Library Project. The X-Author client installer includes a sample C# file.</cmd>
+            <info>
+               <p>The code sample shows the functions to use and it will pop up a message box in runtime. You can extend the <i>Execute()</i> function to write your custom logic using the full power of Visual Studio and .NET.</p>
+            </info>
+            <info>
+               <fig>
+                     <title>98668048</title>
+                     <image href="../attachments/98667727/98668048.png" placement="break" width="275" height="558">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+            <info>
+               <p>
+</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Add a reference of the Apttus.XAuthor.ExtensionLib module into the project. The Apttus.XAuthor.ExtensionLib action class which represents an action is available for external use in this SDK Library. Any user who designs a new action, needs to add a reference of this library in their Visual Studio project. This library extends the following:Action Class extends the capabilities of the Base class capabilities to the custom <i>.cs</i> file.IActionRuntime interface invokes the execute method defined in a custom .<i>cs</i> file.</cmd>
+            <info>
+               <ul>
+                  <li>Action Class extends the capabilities of the Base class capabilities to the custom .cs file.</li>
+                  <li>IActionRuntime interface invokes the execute method defined in a custom . cs file.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd> Provide <i>Name</i> and <i>Type</i> for the external action and provide custom logic for the <i>Execute()</i> function.</cmd>
+         </step>
+         <step>
+            <cmd> Compile and link the assembly to generate the output .NET assembly. The .NET assembly should be a<i> </i>.dll file.</cmd>
+            <info>
+               <note type="note">
+                  <codeblock xml:space="preserve">using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Apttus.XAuthor.Core;
+using System.Xml.Serialization;
+using System.Runtime.InteropServices;
+namespace TestExternalAction
+
+//Apttus.XAuthor.Core.Action is the base class of the module for which the capabilities are extended. Using the IActionRuntime interface invokes the custom execute method. 
+{
+ public class FirstExternalAction : Apttus.XAuthor.Core.Action, IActionRuntime
+ {
+ //Custom class. You can define any object that you choose in your class. 
+ public FirstExternalAction()
+ {
+ Name = "First External Action";
+ Type = "External Message Action";
+ }
+ //Defining the logic on execution of the external action. 
+ public ActionResponse Execute(ActionRequest request)
+ {
+ ActionResponse r = new ActionResponse();
+ System.Windows.Forms.MessageBox.Show("External Action : Executed");
+ r.Status = ActionResultStatus.Success;
+ return r;
+ }
+ 
+ } 
+}</codeblock>
+               </note>
+            </info>
+         </step>
+      </steps>
+      <result>
+         <p>The sample *.cs file can contain one or more external actions.</p>
+      </result>
+   </taskbody>
+</task>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="suppressing_messages_573f38" xml:lang="en-us">
+   <title>Suppressing Messages</title>
+     <shortdesc>Select these options to suppress messages for the specific conditions described.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>records</keyword>
+        <keyword>Action</keyword>
+        <keyword>Select</keyword>
+        <keyword>suppress</keyword>
+        <keyword>messages</keyword>
+        <keyword>When</keyword>
+        <indexterm>records</indexterm>
+        <indexterm>Action</indexterm>
+        <indexterm>Select</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Select these options to suppress messages for the specific conditions described.</p><table>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <p>Field</p>
+                  </entry>
+                  <entry>
+                     <p>Description</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>When all records are saved successfully in a Save Action</p>
+                  </entry>
+                  <entry>
+                     <p>Select this check box if you want to suppress the messages when all records are saved successfully in a Save Action. </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>When no records are retrieved for a parent object from a Query Action</p>
+                  </entry>
+                  <entry>
+                     <p>Select this check box if you want to suppress the messages when no records retrieved for a parent object from a Query Action.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>When no records are found to save in a Save Action</p>
+                  </entry>
+                  <entry>
+                     <p>Select this check box if you want to suppress the messages when no records are found to save in a Save Action.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>When no records are retrieved from a Query Action</p>
+                  </entry>
+                  <entry>
+                     <p>Select this check box if you want to suppress the messages when no records are retrieved from a Query Action.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </context></taskbody>
+</task>

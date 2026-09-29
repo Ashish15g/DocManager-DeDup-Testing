@@ -1,0 +1,77 @@
+================================================================================
+ metR DocMigrate — POST-FLIGHT VALIDATION REPORT
+================================================================================
+ Total Files Validated      : 10
+ Files With Violations       : 6 (initial)  →  0 (after correction)
+ Total Violations Detected   : 9  (9 errors, 0 warnings)
+ Violations Auto-Corrected   : 9  (9 errors, 0 warnings)
+ Violations Remaining        : 0  (0 errors, 0 warnings)
+ Started                     : 2026-08-20 06:59:54 UTC
+ Completed                   : 2026-08-20 07:00:00 UTC
+ Duration                    : 5s
+ Overall Status               : SUCCESS
+--------------------------------------------------------------------------------
+
+2026-08-20T06:59:54 [INFO] STEP 4: DITA validation (auto-fix on).
+2026-08-20T06:59:54 [INFO] Validated: apttus_copyright_disclaimer_109940507.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:59:54 [INFO] Validated: x_author_migration_manager_on_109940505.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:59:54 [INFO] Validated: index.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:59:54 [INFO] Validated: x_author_migration_manager_fbr.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:59:54 [INFO] Validated: feature_list_109940506.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:59:54 [INFO] Validated: apttus_copyright_disclaimer.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:59:54 [INFO] Validated: space_details.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:59:54 [INFO] Validated: feature_list.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:59:54 [INFO] Validated: versions.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:59:54 [INFO] Validated: xauthor_migration_manager_on_salesforce_features_by_release.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:59:54 [INFO] Validation done: 10/10 passed, 0 auto-fixes, avg score 100.0%
+2026-08-20T06:59:54 [INFO] Schematron: validating 10 DITA files (gates 1-4).
+2026-08-20T06:59:54 [INFO] Found 10 files to validate.
+2026-08-20T06:59:54 [INFO] [  1/10] apttus_copyright_disclaimer.dita
+2026-08-20T06:59:56 [INFO] [  2/10] apttus_copyright_disclaimer_109940507.ditamap
+2026-08-20T06:59:56 [INFO] [  3/10] feature_list.dita
+2026-08-20T06:59:56 [INFO] [  4/10] feature_list_109940506.ditamap
+2026-08-20T06:59:56 [INFO] [  5/10] space_details.dita
+2026-08-20T06:59:56 [INFO] [  6/10] index.ditamap
+2026-08-20T06:59:56 [INFO] [  7/10] x_author_migration_manager_fbr.ditamap
+2026-08-20T06:59:56 [INFO] [  8/10] versions.dita
+2026-08-20T06:59:56 [INFO] [  9/10] xauthor_migration_manager_on_salesforce_features_by_release.dita
+2026-08-20T06:59:56 [INFO] [ 10/10] x_author_migration_manager_on_109940505.ditamap
+2026-08-20T06:59:56 [INFO] Found 10 files to validate.
+2026-08-20T06:59:57 [INFO] [  1/10] apttus_copyright_disclaimer.dita
+2026-08-20T06:59:57 [INFO] [  2/10] apttus_copyright_disclaimer_109940507.ditamap
+2026-08-20T06:59:57 [INFO] [  3/10] feature_list.dita
+2026-08-20T06:59:57 [INFO] [  4/10] feature_list_109940506.ditamap
+2026-08-20T06:59:57 [INFO] [  5/10] space_details.dita
+2026-08-20T06:59:57 [INFO] [  6/10] index.ditamap
+2026-08-20T06:59:57 [INFO] [  7/10] x_author_migration_manager_fbr.ditamap
+2026-08-20T06:59:57 [INFO] [  8/10] versions.dita
+2026-08-20T06:59:57 [INFO] [  9/10] xauthor_migration_manager_on_salesforce_features_by_release.dita
+2026-08-20T06:59:57 [INFO] [ 10/10] x_author_migration_manager_on_109940505.ditamap
+2026-08-20T06:59:57 [INFO] XSLT transform: 5 common XSL sheets + doctype-specific final stage → xslt_output/
+2026-08-20T06:59:57 [INFO] Schematron: validating 10 DITA files (gates 1-4).
+2026-08-20T06:59:57 [INFO] Found 10 files to validate.
+2026-08-20T06:59:57 [INFO] [  1/10] apttus_copyright_disclaimer.dita
+2026-08-20T06:59:59 [INFO] [  2/10] apttus_copyright_disclaimer_109940507.ditamap
+2026-08-20T06:59:59 [INFO] [  3/10] feature_list.dita
+2026-08-20T06:59:59 [INFO] [  4/10] feature_list_109940506.ditamap
+2026-08-20T06:59:59 [INFO] [  5/10] space_details.dita
+2026-08-20T06:59:59 [INFO] [  6/10] index.ditamap
+2026-08-20T06:59:59 [INFO] [  7/10] x_author_migration_manager_fbr.ditamap
+2026-08-20T06:59:59 [INFO] [  8/10] versions.dita
+2026-08-20T06:59:59 [INFO] [  9/10] xauthor_migration_manager_on_salesforce_features_by_release.dita
+2026-08-20T06:59:59 [INFO] [ 10/10] x_author_migration_manager_on_109940505.ditamap
+2026-08-20T06:59:59 [INFO] Found 10 files to validate.
+2026-08-20T06:59:59 [INFO] [  1/10] apttus_copyright_disclaimer.dita
+2026-08-20T07:00:00 [INFO] [  2/10] apttus_copyright_disclaimer_109940507.ditamap
+2026-08-20T07:00:00 [INFO] [  3/10] feature_list.dita
+2026-08-20T07:00:00 [INFO] [  4/10] feature_list_109940506.ditamap
+2026-08-20T07:00:00 [INFO] [  5/10] space_details.dita
+2026-08-20T07:00:00 [INFO] [  6/10] index.ditamap
+2026-08-20T07:00:00 [INFO] [  7/10] x_author_migration_manager_fbr.ditamap
+2026-08-20T07:00:00 [INFO] [  8/10] versions.dita
+2026-08-20T07:00:00 [INFO] [  9/10] xauthor_migration_manager_on_salesforce_features_by_release.dita
+2026-08-20T07:00:00 [INFO] [ 10/10] x_author_migration_manager_on_109940505.ditamap
+
+================================================================================
+Success: Post-flight validation completed successfully.
+================================================================================

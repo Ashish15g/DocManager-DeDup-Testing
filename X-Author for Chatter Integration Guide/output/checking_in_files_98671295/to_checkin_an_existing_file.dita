@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_checkin_an_existing_file_fa1b15" xml:lang="en-us">
+   <title>To check-in an existing file</title>
+   <shortdesc>Prerequisites</shortdesc>
+   <prolog>
+      <author type="creator">user-0266f</author>
+      <critdates>
+         <revised modified="Nov 30, 2018"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>existing</keyword>
+        <keyword>version</keyword>
+        <keyword>check</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>Click</keyword>
+        <keyword>changed</keyword>
+        <indexterm>existing</indexterm>
+        <indexterm>version</indexterm>
+        <indexterm>check</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>
+            <b>Prerequisites</b>
+         </p>
+         <p>There must already be a version of the file in Salesforce.</p>
+         <p>
+            <b>Steps</b>
+         </p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Click<b> Check-in</b> from the X-Author Chatter ribbon.</cmd>
+         </step>
+         <step>
+            <cmd>Enter comments in the What changed field and click <b>OK</b>.
+The filename cannot be changed, ensuring you are checking in a new revision of the existing file.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>OK</b>, in the confirmation dialog, which indicates the version of the file</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>
+            <b>Result</b>
+         </p>
+         <p>The new version of the file is in Salesforce.</p>
+      </result>
+   </taskbody>
+</task>

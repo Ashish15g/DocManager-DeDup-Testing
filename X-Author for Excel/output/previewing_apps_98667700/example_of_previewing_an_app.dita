@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="example_of_previewing_an_app_374d69" xml:lang="en-us">
+   <title>Example of previewing an app</title>
+     <shortdesc>In this example, we will preview a parent-child app (Accounts and Opportunities, respectively) that allows</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>search</keyword>
+        <keyword>fields</keyword>
+        <keyword>Opportunities</keyword>
+        <keyword>Account</keyword>
+        <keyword>Billing</keyword>
+        <keyword>placeholder</keyword>
+        <indexterm>search</indexterm>
+        <indexterm>fields</indexterm>
+        <indexterm>Opportunities</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>In this example, we will preview a parent-child app (Accounts and Opportunities, respectively) that allows us to search by Account Name or Billing City. This is what our app looks like when it first opens.</p><p>In this example, Display fields are indicated by the blue background and Save fields are indicated by the green background. These colors can be set when creating apps.</p><fig>
+            <title>98668006</title>
+            <image href="../attachments/98667700/98668006.jpg" placement="break" width="796" height="710">
+               <alt>placeholder</alt>
+            </image>
+         </fig><ul>
+         <li>
+            <p>When you click the <b>Retrieve</b> button, the Search Account window opens. (Account is the parent object in our app.)
+ </p>
+         </li>
+      </ul><fig>
+         <title>98668007</title>
+         <image href="../attachments/98667700/98668007.jpg" width="859" height="567" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig><p>Notice that you can search by <i>Account Name </i>and <i>Billing City</i>. These are the fields that were set as Search fields for the Accounts object when the app was designed.</p><p>Notice that the <i>Account Name</i>, <i>Billing City</i>, <i>Billing Country</i>, and <i>Last Activity</i> fields are all displaying in the results panel. These are the fields that were set as Results fields when the app was designed.</p><p>If you want to see all Opportunities for only the Toronto office of Global Media, you can type search text into both search fields.</p><p>To search all available search fields at one time, you would type your search text in the Search Across Filters text box.</p><ul>
+         <li>
+            <p>For this example, we will search for all opportunities in Toronto, Canada.</p>
+         </li>
+      </ul><fig>
+         <title>98668008</title>
+         <image href="../attachments/98667700/98668008.jpg" width="861" height="323" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig><p>Double-click the search result you want to retrieve data from, or select a row and click <b>Next</b>. The Search Opportunities window opens. (Opportunities is the child object in our app.)
+ </p><fig>
+         <title>190354536</title>
+         <image href="../attachments/98667700/190354536.png" width="860" height="357" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig><p>Again, all of the search fields available on this page are the fields that were configured to be search fields for the Opportunities object when the app was created. You can use these search fields to narrow your results.</p><p>In our case, we want to retrieve all three of the opportunities that were retrieved, so we will click the <b>Select All</b> check box and click <b>Next</b>.</p><ul>
+         <li>
+            <p>The search window closes and our data is retrieved and added to our Excel worksheet.</p>
+         <fig>
+                  <title>98668010</title>
+                  <image href="../attachments/98667700/98668010.jpg" placement="break" width="1058" height="367">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+      </ul>
+  </context></taskbody>
+</task>

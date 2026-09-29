@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="making_changes_to_your_data_migration_app_71ea3f" xml:lang="en-us">
+   <title>Making Changes to your Data Migration App</title>
+     <shortdesc>Since the Data Migration app is just another X-Author app, created using the Wizard instead</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Data</keyword>
+        <keyword>Migration</keyword>
+        <keyword>Wizard</keyword>
+        <keyword>Actions</keyword>
+        <keyword>User</keyword>
+        <keyword>Menus</keyword>
+        <indexterm>Data</indexterm>
+        <indexterm>Migration</indexterm>
+        <indexterm>Wizard</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Since the Data Migration app is just another X-Author app, created using the Wizard instead of the individual designer tools, most elements of the app can still be modified by the designer before the app is finalized. Click on any of the buttons in the Designer tab to see the Display Maps, Save Maps, Actions and User Menus created by the Data Migration Wizard.</p><p>Be especially careful when modifying a Data Migration app after you create it with the Wizard. Because the app is assembled using the Wizard, you may inadvertently break the functionality if you modify maps or remove other components. If you want to add or modify any Objects or Fields, it is recommended to <b>Edit</b> the app using the Data Migration Wizard (see below), rather than editing Display/Save Maps and other elements of the app directly.</p>
+  </context>
+  <steps id="steps_06570701">
+    <step>
+      <cmd>Add Custom Actions or User Menus to your app as required to finalize your Data Migration App.</cmd>
+    </step>
+  </steps></taskbody>
+</task>

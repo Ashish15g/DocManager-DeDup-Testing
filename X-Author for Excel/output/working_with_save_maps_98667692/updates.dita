@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="updates_1a66e9" xml:lang="en-us">
+   <title>Updates</title>
+     <shortdesc>Save Maps can be designed to update records in your environment in three ways:</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>environment</keyword>
+        <keyword>Save</keyword>
+        <keyword>update</keyword>
+        <keyword>fields</keyword>
+        <keyword>function</keyword>
+        <keyword>record</keyword>
+        <indexterm>environment</indexterm>
+        <indexterm>Save</indexterm>
+        <indexterm>update</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Save Maps can be designed to update records in your environment in three ways:</p><ul>
+         <li>Records were retrieved from your environment and the data from one or more fields in that record were placed on the worksheet through a Display Map. Using the <b>Add</b>
+            <b>Display Map Fields</b> function in a Save Map, user modifications to any cell can be updated on the record. </li>
+         <li>Using the <b>Add Other Fields</b> function to save data from one or more fields that were not retrieved from your environment. It is not recommended to update fields to the environment using this function, but if you do update in this way, you must always include a Record ID in the same row as the fields you are updating.</li>
+         <li>Using the <b>Add Matrix Map Section</b> function in a Save Map, modifications to matrix map sections can be updated on the record.Add Matrix Map Section is not supported in Apttus Omni.</li>
+      </ul>
+  </context></taskbody>
+</task>

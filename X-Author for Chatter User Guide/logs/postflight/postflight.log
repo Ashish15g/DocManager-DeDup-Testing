@@ -1,0 +1,153 @@
+================================================================================
+ metR DocMigrate — POST-FLIGHT VALIDATION REPORT
+================================================================================
+ Total Files Validated      : 25
+ Files With Violations       : 10 (initial)  →  1 (after correction)
+ Total Violations Detected   : 23  (19 errors, 4 warnings)
+ Violations Auto-Corrected   : 21  (17 errors, 3 warnings)
+ Violations Remaining        : 3  (2 errors, 1 warnings)
+ Started                     : 2026-08-20 06:51:19 UTC
+ Completed                   : 2026-08-20 06:51:26 UTC
+ Duration                    : 7s
+ Overall Status               : WARNING
+--------------------------------------------------------------------------------
+
+2026-08-20T06:51:19 [INFO] STEP 4: DITA validation (auto-fix on).
+2026-08-20T06:51:19 [INFO] Validated: x_author_chatter_online_june_2_40370424.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: collaborating_using_outlook_40370459.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: connecting_to_x_author_chatter_40370449.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: index.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: x_author_for_chatter_user_guide.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: collaborating_using_x_author_c_40370451.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: collaborating_using_word_40370453.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: collaborating_using_powerpoint_40370457.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: collaborating_using_excel_40370455.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: collaborating_using_excel.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: to_collaborate_using_excel.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: sharing_content.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: sharing_options.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: collaborating_using_xauthor_chatter.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: collaboration_options.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: collaborating_using_outlook.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: to_collaborate_using_outlook.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: space_details.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: collaborating_using_powerpoint.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: to_collaborate_using_powerpoint.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: connecting_to_xauthor_chatter_online.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: to_launch_xauthor_chatter_online_and_load_the_addin.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: to_collaborate_using_word.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T06:51:19 [INFO] Validated: collaborating_using_word.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:19 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T06:51:19 [INFO] Validated: xauthor_chatter_online_june_2016_user_guide.dita | type=topic | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T06:51:19 [INFO] Validation done: 25/25 passed, 1 auto-fixes, avg score 98.7%
+2026-08-20T06:51:19 [INFO] Schematron: validating 25 DITA files (gates 1-4).
+2026-08-20T06:51:19 [INFO] Found 25 files to validate.
+2026-08-20T06:51:19 [INFO] [  1/25] collaborating_using_excel.dita
+2026-08-20T06:51:22 [INFO] [  2/25] to_collaborate_using_excel.dita
+2026-08-20T06:51:22 [INFO] [  3/25] collaborating_using_excel_40370455.ditamap
+2026-08-20T06:51:22 [INFO] [  4/25] collaborating_using_outlook.dita
+2026-08-20T06:51:22 [INFO] [  5/25] to_collaborate_using_outlook.dita
+2026-08-20T06:51:22 [INFO] [  6/25] collaborating_using_outlook_40370459.ditamap
+2026-08-20T06:51:22 [INFO] [  7/25] collaborating_using_powerpoint.dita
+2026-08-20T06:51:22 [INFO] [  8/25] to_collaborate_using_powerpoint.dita
+2026-08-20T06:51:22 [INFO] [  9/25] collaborating_using_powerpoint_40370457.ditamap
+2026-08-20T06:51:22 [INFO] [ 10/25] collaborating_using_word.dita
+2026-08-20T06:51:22 [INFO] [ 11/25] to_collaborate_using_word.dita
+2026-08-20T06:51:22 [INFO] [ 12/25] collaborating_using_word_40370453.ditamap
+2026-08-20T06:51:22 [INFO] [ 13/25] collaborating_using_xauthor_chatter.dita
+2026-08-20T06:51:22 [INFO] [ 14/25] collaboration_options.dita
+2026-08-20T06:51:22 [INFO] [ 15/25] sharing_content.dita
+2026-08-20T06:51:22 [INFO] [ 16/25] sharing_options.dita
+2026-08-20T06:51:22 [INFO] [ 17/25] collaborating_using_x_author_c_40370451.ditamap
+2026-08-20T06:51:22 [INFO] [ 18/25] connecting_to_xauthor_chatter_online.dita
+2026-08-20T06:51:22 [INFO] [ 19/25] to_launch_xauthor_chatter_online_and_load_the_addin.dita
+2026-08-20T06:51:22 [INFO] [ 20/25] connecting_to_x_author_chatter_40370449.ditamap
+2026-08-20T06:51:22 [INFO] [ 21/25] space_details.dita
+2026-08-20T06:51:22 [INFO] [ 22/25] index.ditamap
+2026-08-20T06:51:22 [INFO] [ 23/25] xauthor_chatter_online_june_2016_user_guide.dita
+2026-08-20T06:51:22 [INFO] [ 24/25] x_author_chatter_online_june_2_40370424.ditamap
+2026-08-20T06:51:22 [INFO] [ 25/25] x_author_for_chatter_user_guide.ditamap
+2026-08-20T06:51:22 [INFO] Found 25 files to validate.
+2026-08-20T06:51:22 [INFO] [  1/25] collaborating_using_excel.dita
+2026-08-20T06:51:22 [INFO] [  2/25] to_collaborate_using_excel.dita
+2026-08-20T06:51:22 [INFO] [  3/25] collaborating_using_excel_40370455.ditamap
+2026-08-20T06:51:22 [INFO] [  4/25] collaborating_using_outlook.dita
+2026-08-20T06:51:22 [INFO] [  5/25] to_collaborate_using_outlook.dita
+2026-08-20T06:51:22 [INFO] [  6/25] collaborating_using_outlook_40370459.ditamap
+2026-08-20T06:51:22 [INFO] [  7/25] collaborating_using_powerpoint.dita
+2026-08-20T06:51:22 [INFO] [  8/25] to_collaborate_using_powerpoint.dita
+2026-08-20T06:51:22 [INFO] [  9/25] collaborating_using_powerpoint_40370457.ditamap
+2026-08-20T06:51:22 [INFO] [ 10/25] collaborating_using_word.dita
+2026-08-20T06:51:22 [INFO] [ 11/25] to_collaborate_using_word.dita
+2026-08-20T06:51:22 [INFO] [ 12/25] collaborating_using_word_40370453.ditamap
+2026-08-20T06:51:22 [INFO] [ 13/25] collaborating_using_xauthor_chatter.dita
+2026-08-20T06:51:22 [INFO] [ 14/25] collaboration_options.dita
+2026-08-20T06:51:22 [INFO] [ 15/25] sharing_content.dita
+2026-08-20T06:51:22 [INFO] [ 16/25] sharing_options.dita
+2026-08-20T06:51:22 [INFO] [ 17/25] collaborating_using_x_author_c_40370451.ditamap
+2026-08-20T06:51:22 [INFO] [ 18/25] connecting_to_xauthor_chatter_online.dita
+2026-08-20T06:51:22 [INFO] [ 19/25] to_launch_xauthor_chatter_online_and_load_the_addin.dita
+2026-08-20T06:51:22 [INFO] [ 20/25] connecting_to_x_author_chatter_40370449.ditamap
+2026-08-20T06:51:22 [INFO] [ 21/25] space_details.dita
+2026-08-20T06:51:22 [INFO] [ 22/25] index.ditamap
+2026-08-20T06:51:22 [INFO] [ 23/25] xauthor_chatter_online_june_2016_user_guide.dita
+2026-08-20T06:51:22 [INFO] [ 24/25] x_author_chatter_online_june_2_40370424.ditamap
+2026-08-20T06:51:22 [INFO] [ 25/25] x_author_for_chatter_user_guide.ditamap
+2026-08-20T06:51:22 [INFO] XSLT transform: 5 common XSL sheets + doctype-specific final stage → xslt_output/
+2026-08-20T06:51:22 [INFO] Schematron: validating 25 DITA files (gates 1-4).
+2026-08-20T06:51:22 [INFO] Found 25 files to validate.
+2026-08-20T06:51:22 [INFO] [  1/25] collaborating_using_excel.dita
+2026-08-20T06:51:25 [INFO] [  2/25] to_collaborate_using_excel.dita
+2026-08-20T06:51:25 [INFO] [  3/25] collaborating_using_excel_40370455.ditamap
+2026-08-20T06:51:25 [INFO] [  4/25] collaborating_using_outlook.dita
+2026-08-20T06:51:25 [INFO] [  5/25] to_collaborate_using_outlook.dita
+2026-08-20T06:51:25 [INFO] [  6/25] collaborating_using_outlook_40370459.ditamap
+2026-08-20T06:51:25 [INFO] [  7/25] collaborating_using_powerpoint.dita
+2026-08-20T06:51:25 [INFO] [  8/25] to_collaborate_using_powerpoint.dita
+2026-08-20T06:51:25 [INFO] [  9/25] collaborating_using_powerpoint_40370457.ditamap
+2026-08-20T06:51:25 [INFO] [ 10/25] collaborating_using_word.dita
+2026-08-20T06:51:25 [INFO] [ 11/25] to_collaborate_using_word.dita
+2026-08-20T06:51:25 [INFO] [ 12/25] collaborating_using_word_40370453.ditamap
+2026-08-20T06:51:25 [INFO] [ 13/25] collaborating_using_xauthor_chatter.dita
+2026-08-20T06:51:25 [INFO] [ 14/25] collaboration_options.dita
+2026-08-20T06:51:25 [INFO] [ 15/25] sharing_content.dita
+2026-08-20T06:51:25 [INFO] [ 16/25] sharing_options.dita
+2026-08-20T06:51:25 [INFO] [ 17/25] collaborating_using_x_author_c_40370451.ditamap
+2026-08-20T06:51:25 [INFO] [ 18/25] connecting_to_xauthor_chatter_online.dita
+2026-08-20T06:51:25 [INFO] [ 19/25] to_launch_xauthor_chatter_online_and_load_the_addin.dita
+2026-08-20T06:51:25 [INFO] [ 20/25] connecting_to_x_author_chatter_40370449.ditamap
+2026-08-20T06:51:25 [INFO] [ 21/25] space_details.dita
+2026-08-20T06:51:25 [INFO] [ 22/25] index.ditamap
+2026-08-20T06:51:25 [INFO] [ 23/25] xauthor_chatter_online_june_2016_user_guide.dita
+2026-08-20T06:51:25 [INFO] [ 24/25] x_author_chatter_online_june_2_40370424.ditamap
+2026-08-20T06:51:25 [INFO] [ 25/25] x_author_for_chatter_user_guide.ditamap
+2026-08-20T06:51:25 [INFO] Found 25 files to validate.
+2026-08-20T06:51:25 [INFO] [  1/25] collaborating_using_excel.dita
+2026-08-20T06:51:25 [INFO] [  2/25] to_collaborate_using_excel.dita
+2026-08-20T06:51:26 [INFO] [  3/25] collaborating_using_excel_40370455.ditamap
+2026-08-20T06:51:26 [INFO] [  4/25] collaborating_using_outlook.dita
+2026-08-20T06:51:26 [INFO] [  5/25] to_collaborate_using_outlook.dita
+2026-08-20T06:51:26 [INFO] [  6/25] collaborating_using_outlook_40370459.ditamap
+2026-08-20T06:51:26 [INFO] [  7/25] collaborating_using_powerpoint.dita
+2026-08-20T06:51:26 [INFO] [  8/25] to_collaborate_using_powerpoint.dita
+2026-08-20T06:51:26 [INFO] [  9/25] collaborating_using_powerpoint_40370457.ditamap
+2026-08-20T06:51:26 [INFO] [ 10/25] collaborating_using_word.dita
+2026-08-20T06:51:26 [INFO] [ 11/25] to_collaborate_using_word.dita
+2026-08-20T06:51:26 [INFO] [ 12/25] collaborating_using_word_40370453.ditamap
+2026-08-20T06:51:26 [INFO] [ 13/25] collaborating_using_xauthor_chatter.dita
+2026-08-20T06:51:26 [INFO] [ 14/25] collaboration_options.dita
+2026-08-20T06:51:26 [INFO] [ 15/25] sharing_content.dita
+2026-08-20T06:51:26 [INFO] [ 16/25] sharing_options.dita
+2026-08-20T06:51:26 [INFO] [ 17/25] collaborating_using_x_author_c_40370451.ditamap
+2026-08-20T06:51:26 [INFO] [ 18/25] connecting_to_xauthor_chatter_online.dita
+2026-08-20T06:51:26 [INFO] [ 19/25] to_launch_xauthor_chatter_online_and_load_the_addin.dita
+2026-08-20T06:51:26 [INFO] [ 20/25] connecting_to_x_author_chatter_40370449.ditamap
+2026-08-20T06:51:26 [INFO] [ 21/25] space_details.dita
+2026-08-20T06:51:26 [INFO] [ 22/25] index.ditamap
+2026-08-20T06:51:26 [INFO] [ 23/25] xauthor_chatter_online_june_2016_user_guide.dita
+2026-08-20T06:51:26 [INFO] [ 24/25] x_author_chatter_online_june_2_40370424.ditamap
+2026-08-20T06:51:26 [INFO] [ 25/25] x_author_for_chatter_user_guide.ditamap
+
+================================================================================
+Success: Post-flight validation completed successfully.
+================================================================================

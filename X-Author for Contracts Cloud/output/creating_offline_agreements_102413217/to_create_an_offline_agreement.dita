@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_an_offline_agreement_3dbaad" xml:lang="en-us">
+   <title>To create an offline agreement</title>
+   <shortdesc>The document you want to use must not have previously been uploaded.</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>agreement</keyword>
+        <keyword>Select</keyword>
+        <keyword>document</keyword>
+        <keyword>Create</keyword>
+        <keyword>picklist</keyword>
+        <keyword>create</keyword>
+        <indexterm>agreement</indexterm>
+        <indexterm>Select</indexterm>
+        <indexterm>document</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>The document you want to use must not have previously been uploaded.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Open the document in Microsoft Word and connect to X-Author Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>Select the X-Author Contracts option from the left-hand menu and go to<b> Start &gt; Create</b>. The Create New Offline Agreement page is displayed.
+</cmd>
+            <info>
+               <fig>
+                  <title>102413293</title>
+                  <image href="../attachments/102413217/102413293.png" width="435" height="738" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>In the Create New Offline Agreement window, enter the following details (fields marked with an asterisk are required):</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Fields</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Record Type*</p>
+                           </entry>
+                           <entry>
+                              <p>Select the Record Type from the picklist.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Name*</p>
+                           </entry>
+                           <entry>
+                              <p>Enter the agreement name.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Account*</p>
+                           </entry>
+                           <entry>
+                              <p>Select the Account from the picklist.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Primary Contact*</p>
+                           </entry>
+                           <entry>
+                              <p>Select the primary contact from the picklist.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Start Date</p>
+                           </entry>
+                           <entry>
+                              <p>Select the start date of the agreement from the date picker.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>End Date</p>
+                           </entry>
+                           <entry>
+                              <p>Select the end date of the agreement from the date picker.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>. You will see a confirmation message.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>A new agreement record is created in Apttus Contract Management and the document is attached to the Notes &amp; Attachments related list.</p>
+      </result>
+   </taskbody>
+</task>

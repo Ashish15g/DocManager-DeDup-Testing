@@ -1,0 +1,51 @@
+================================================================================
+ metR HTML DocMigrate — PRE-FLIGHT REPORT
+================================================================================
+ Total HTML Files  : 8
+ Total Media Files     : 1
+
+ Started               : 2026-08-20 06:51:18 UTC
+ Completed             : 2026-08-20 06:51:18 UTC
+ Duration              : <1s
+ Overall Status        : SUCCESS WITH WARNINGS
+--------------------------------------------------------------------------------
+
+2026-08-20T06:51:18 [INFO] STEP 2: Preflight checks (8 files)
+2026-08-20T06:51:18 [INFO] Pre-flight [collaborating_using_excel_40370455.html]: errors=0 warnings=0 infos=1 | PASS
+2026-08-20T06:51:18 [INFO] Preflight OK: collaborating_using_excel_40370455.html
+2026-08-20T06:51:18 [INFO] Pre-flight [collaborating_using_outlook_40370459.html]: errors=0 warnings=0 infos=1 | PASS
+2026-08-20T06:51:18 [INFO] Preflight OK: collaborating_using_outlook_40370459.html
+2026-08-20T06:51:18 [INFO] Pre-flight [collaborating_using_powerpoint_40370457.html]: errors=0 warnings=0 infos=1 | PASS
+2026-08-20T06:51:18 [INFO] Preflight OK: collaborating_using_powerpoint_40370457.html
+2026-08-20T06:51:18 [INFO] Pre-flight [collaborating_using_word_40370453.html]: errors=0 warnings=0 infos=1 | PASS
+2026-08-20T06:51:18 [INFO] Preflight OK: collaborating_using_word_40370453.html
+2026-08-20T06:51:18 [INFO] Pre-flight [collaborating_using_x_author_chatter_40370451.html]: errors=0 warnings=0 infos=1 | PASS
+2026-08-20T06:51:18 [INFO] Preflight OK: collaborating_using_x_author_chatter_40370451.html
+2026-08-20T06:51:18 [INFO] Pre-flight [connecting_to_x_author_chatter_online_40370449.html]: errors=0 warnings=0 infos=1 | PASS
+2026-08-20T06:51:18 [INFO] Preflight OK: connecting_to_x_author_chatter_online_40370449.html
+2026-08-20T06:51:18 [INFO] Pre-flight [x_author_chatter_online_june_2016_user_guide_40370424.html]: errors=0 warnings=1 infos=0 | PASS
+2026-08-20T06:51:18 [INFO] Preflight OK: x_author_chatter_online_june_2016_user_guide_40370424.html
+2026-08-20T06:51:18 [INFO] Pre-flight [index.html]: errors=0 warnings=1 infos=0 | PASS
+2026-08-20T06:51:18 [INFO] Preflight OK: index.html
+2026-08-20T06:51:18 [INFO] Preflight done: 8 checked, 0 blocked
+
+
+CHECKS
+--------------------------------------------------------------------------------
+ File                                    Rule
+--------------------------------------------------------------------------------
+ x_author_chatter_online_june_2016_user_guide_40370424.html
+                                         CHECK_MISSING_ALT
+                                         <img> missing alt attribute: plugins/se
+                                         rvlet/confluence/placeholder/unknown-
+                                         macro
+
+ index.html                              CHECK_MISSING_ALT
+                                         <img> missing alt attribute: images/ico
+                                         ns/contenttypes/home_page_16.png
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ 8 HTML files checked with 2 warning(s) and 0 non-blocking error(s).
+================================================================================
+Success: Pre-flight analysis completed successfully.
+================================================================================

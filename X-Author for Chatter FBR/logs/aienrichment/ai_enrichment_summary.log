@@ -1,0 +1,67 @@
+metR HTML DocMigrate — AI ENRICHMENT REPORT
+================================================================================
+ DITA OUTPUT               : xslt_output
+ Total Files               : 18 (11 DITA, 7 DITAMAP)
+ Topics Reclassified       : 4
+ Shortdescs Generated      : 11
+ Metadata Generated        : 11
+ Alt Text Filled           : 0 of 0 images
+ Author Suggestions        : 17 (all pending review)
+ AI Enrichment Mode        : AI available for this run
+ Overall Status            : WARNING (issues remain — manual review required)
+--------------------------------------------------------------------------------
+
+PRE-CLEAN CORRECTIONS APPLIED
+--------------------------------------------------------------------------------
+ Structural Pre-fixes       : 0 files modified, 0 failed
+ Zone 1 Auto-fixes         : 11 applied
+--------------------------------------------------------------------------------
+
+POST ENRICHMENT & VALIDATION (4-gate DITA 2.x validation)
+--------------------------------------------------------------------------------
+ Files validated           : 18
+ Files with violations     : 0
+ Total violations          : 0  (0 ERROR, 0 WARNING)
+   Gate 1 (vocabulary)     : 0
+   Gate 2 (structure)      : 0
+   Gate 3 (content model)  : 0
+   Gate 4 (attributes)     : 0
+ Fix passes applied        : None (0 violations found)
+--------------------------------------------------------------------------------
+ MANUAL ACTION REQUIRED — please review before packaging
+--------------------------------------------------------------------------------
+
+ 1. Add product name to all 11 files            [HIGH PRIORITY]
+    No product name could be determined automatically.
+    Every topic's <prodname> field is currently empty.
+
+ 2. Review 17 pending author suggestions before final packaging:
+      missing_prodname                11
+      table_missing_title             2
+      shortdesc_too_generic           2
+      missing_steps                   2
+
+ 3. Review 2 shortdescs flagged as too generic (auto-detected opener
+    phrases like "This section...").
+
+ 4. 4 structural issues remain open after enrichment:
+      table_missing_title             2
+      missing_steps                   2
+
+--------------------------------------------------------------------------------
+
+SUPPORTING REPORTS (aienrichment folder)
+--------------------------------------------------------------------------------
+ File                                Contents
+--------------------------------------------------------------------------------
+ pre_enrichment.json                 File inventory, structural-issue scan, and
+                                      initial 4-gate DITA validation.
+ post_enrichment.json                Full per-file enrichment results, quality
+                                      metrics and validation fixes.
+ author_suggestions.json             All 17 author suggestions listed above,
+                                      with file, line, and suggested fix.
+ topic_inference_map.json            Per-topic classification detail — type,
+                                      confidence, and reasoning for every file.
+ ai_enrichment_full.log              Full technical run log (all layers, all
+                                      files) — for troubleshooting use only.
+--------------------------------------------------------------------------------

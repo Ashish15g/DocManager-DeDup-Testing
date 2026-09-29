@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="working_with_the_data_migration_dashboard_54f85f" xml:lang="en-us">
+   <title>Working with the Data Migration Dashboard</title>
+     <shortdesc>After adding Objects and Fields to your app, you can take the following actions as</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Fields</keyword>
+        <keyword>Object</keyword>
+        <keyword>Click</keyword>
+        <keyword>Data</keyword>
+        <keyword>Migration</keyword>
+        <keyword>remove</keyword>
+        <indexterm>Fields</indexterm>
+        <indexterm>Object</indexterm>
+        <indexterm>Click</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>After adding Objects and Fields to your app, you can take the following actions as needed:</p><p>
+         <b>Next:</b>
+         <xref href="../adding_lookups_to_your_data_mi_98667710/adding_lookups_to_your_data_migration_app.dita">Add Lookups to your app.</xref>
+      </p>
+  </context>
+  <steps id="steps_06570101">
+    <step>
+      <cmd>Specify a unique <b>Display Name</b> for each Object in the app.</cmd>
+    </step>
+    <step>
+      <cmd>Click on the link under the <b>Fields</b> column to add or remove more Fields for an Object.</cmd>
+    </step>
+    <step>
+      <cmd>Click on the link under the <b>Lookup Fields</b> column to add or remove more Lookup Fields for an Object.</cmd>
+    </step>
+    <step>
+      <cmd>Click on the <image href="../attachments/98667711/98668209.png" placement="inline" width="20" height="21">
+                  <alt>placeholder</alt>
+               </image>
+            
+            <b>Copy </b>icon to copy an Object listing and modify it as required (for example, you want to add the same Object and a different set of Fields for filtering purposes).</cmd>
+    </step>
+    <step>
+      <cmd>Click on the <image href="../attachments/98667711/98668208.png" placement="inline" width="18" height="17">
+                  <alt>placeholder</alt>
+               </image>
+            
+            <b>Remove</b> icon to remove an Object from your app.</cmd>
+    </step>
+    <step>
+      <cmd>Click the <b>Display</b> check box to enable/disable creation of a separate worksheet for the object during migration. Refer to <xref href="../configuring_your_data_migratio_98667709/configuring_your_data_migration_app.dita">Configuring your Data Migration App</xref> for a complete description.</cmd>
+    </step>
+    <step>
+      <cmd>Specify <b>Load Sequence</b>, <b>Actions</b>, and <b>Filters</b>. Refer to <xref href="../configuring_your_data_migratio_98667709/configuring_your_data_migration_app.dita">Configuring your Data Migration App</xref> for step-by-step instructions for these tasks.</cmd>
+    </step>
+  </steps></taskbody>
+</task>

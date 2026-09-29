@@ -1,0 +1,88 @@
+metR HTML DocMigrate — AI ENRICHMENT REPORT
+================================================================================
+ DITA OUTPUT               : xslt_output
+ Total Files               : 385 (298 DITA, 87 DITAMAP)
+ Topics Reclassified       : 118
+ Shortdescs Generated      : 297
+ Metadata Generated        : 297
+ Alt Text Filled           : 0 of 268 images
+ Author Suggestions        : 473 (all pending review)
+ AI Enrichment Mode        : AI available for this run
+ Overall Status            : WARNING (issues remain — manual review required)
+--------------------------------------------------------------------------------
+
+PRE-CLEAN CORRECTIONS APPLIED
+--------------------------------------------------------------------------------
+ Structural Pre-fixes       : 0 files modified, 0 failed
+ Zone 1 Auto-fixes         : 298 applied
+--------------------------------------------------------------------------------
+
+POST ENRICHMENT & VALIDATION (4-gate DITA 2.x validation)
+--------------------------------------------------------------------------------
+ Files validated           : 385
+ Files with violations     : 26
+ Total violations          : 45  (30 ERROR, 15 WARNING)
+   Gate 1 (vocabulary)     : 0
+   Gate 2 (structure)      : 18
+   Gate 3 (content model)  : 27
+   Gate 4 (attributes)     : 0
+ Fix passes applied        : Pass 1 — 707 fixes / 99 files · Pass 2 — 1 fix / 1 file
+--------------------------------------------------------------------------------
+ MANUAL ACTION REQUIRED — please review before packaging
+--------------------------------------------------------------------------------
+
+ 1. Add product name to all 298 files            [HIGH PRIORITY]
+    No product name could be determined automatically.
+    Every topic's <prodname> field is currently empty.
+
+ 2. Review 473 pending author suggestions before final packaging:
+      missing_prodname                278
+      missing_steps                   82
+      table_missing_title             39
+      empty_p                         20
+      section_missing_title           18
+      broken_xref_anchor              13
+      table_col_mismatch              9
+      shortdesc_too_generic           6
+      broken_xref                     2
+      broken_image_ref                2
+      missing_shortdesc               1
+      missing_keywords                1
+      missing_indexterms              1
+      invalid_conbody_child           1
+
+ 3. Review 6 shortdescs flagged as too generic (auto-detected opener
+    phrases like "This section...").
+
+ 4. Add alt text to 268 images — AI alt-text generation did not run this
+    pass; none were filled automatically.
+
+ 5. 191 structural issues remain open after enrichment:
+      missing_steps                   82
+      empty_p                         50
+      table_missing_title             49
+      broken_xref_anchor              41
+      table_col_mismatch              32
+      section_missing_title           20
+      broken_xref                     3
+      broken_image_ref                3
+      missing_shortdesc               1
+      invalid_conbody_child           1
+
+--------------------------------------------------------------------------------
+
+SUPPORTING REPORTS (aienrichment folder)
+--------------------------------------------------------------------------------
+ File                                Contents
+--------------------------------------------------------------------------------
+ pre_enrichment.json                 File inventory, structural-issue scan, and
+                                      initial 4-gate DITA validation.
+ post_enrichment.json                Full per-file enrichment results, quality
+                                      metrics and validation fixes.
+ author_suggestions.json             All 473 author suggestions listed above,
+                                      with file, line, and suggested fix.
+ topic_inference_map.json            Per-topic classification detail — type,
+                                      confidence, and reasoning for every file.
+ ai_enrichment_full.log              Full technical run log (all layers, all
+                                      files) — for troubleshooting use only.
+--------------------------------------------------------------------------------

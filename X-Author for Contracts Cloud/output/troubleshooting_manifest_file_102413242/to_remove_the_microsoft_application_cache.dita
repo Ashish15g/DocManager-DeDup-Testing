@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_remove_the_microsoft_application_cache_dc5113" xml:lang="en-us">
+   <title>To remove the Microsoft application cache</title>
+   <shortdesc>After this open Microsoft Word and open the X-Author Contracts Add-in.</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="Jul 25, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Microsoft</keyword>
+        <keyword>remove</keyword>
+        <keyword>application</keyword>
+        <keyword>cache</keyword>
+        <keyword>Folder</keyword>
+        <keyword>click</keyword>
+        <indexterm>Microsoft</indexterm>
+        <indexterm>remove</indexterm>
+        <indexterm>application</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <b>Menu Bar &gt; Go &gt; Go to Folder</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the go to Folder dialog box enter the following path and click Go: <i>~/Library/Containers/com.Microsoft.Word/data/Library/Caches/</i>
+            </cmd>
+         </step>
+         <step>
+            <cmd>In the <b>Caches</b> folder, select the folders starting with ‘com.microsoft..’</cmd>
+         </step>
+         <step>
+            <cmd>Right-click on the selected folder name and select <b>Move to Trash</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>After this open Microsoft Word and open the X-Author Contracts Add-in.</p>
+      </result>
+   </taskbody>
+</task>

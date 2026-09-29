@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="about_xauthor_migration_manager_e9f9c3" xml:lang="en-us">
+   <title>About X-Author Migration Manager</title>
+     <shortdesc>X-Author Migration Manager (XAMM) is a Windows-based tool that enables you to upgrade, migrate, and</shortdesc>
+   <prolog>
+      <author type="creator">user-090d1</author>
+      <critdates>
+         <created date="Sep 20, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>templates</keyword>
+        <keyword>Migration</keyword>
+        <keyword>Author</keyword>
+        <keyword>Manager</keyword>
+        <keyword>migrate</keyword>
+        <keyword>convert</keyword>
+        <indexterm>templates</indexterm>
+        <indexterm>Migration</indexterm>
+        <indexterm>Author</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>X-Author Migration Manager (XAMM) is a Windows-based tool that enables you to upgrade, migrate, and convert templates. You can use X-author Migration Manager to upgrade templates from an older version of Contract Management to Contract Management 7 and higher.</p><p>X-Author Migrations lets you migrate versioned and non-versioned templates from one Salesforce org to another. You can use Migration Manager for complete migration of the templates or you can create conditions and migrate only templates that fulfill certain criteria. This conditional migration allows you to automate template selection during migration thus eliminating the need to manually pick and choose the templates to migrate.</p><p>You can also convert your existing pre-FX2 templates to FX2 format. During this process, the existing pre-FX2 templates are cloned with the same name, keeping the new FX2 templates in an inactive state in the same org. You can also specify filter criteria to identify only those template records that you want to convert.</p><ul>
+            <li>
+               <p>Apttus X-Author Migration Manager allows a user to perform the following tasks:</p>
+            </li>
+         </ul><ul>
+            <li>Upgrade Templates</li>
+            <li>Migrate Non-versioned templates</li>
+            <li>Migrate versioned Templates</li>
+            <li>Convert pre-FX2 Templates to FX2 Templates</li>
+         </ul><p>It is important to understand how terms are used when working with Apttus X-Author Contracts.</p><table>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <p>Term</p>
+                  </entry>
+                  <entry>
+                     <p>Definition</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Template</p>
+                  </entry>
+                  <entry>
+                     <p>Blueprints to generate a variety of document types when merged with data from quote/ proposal, or agreement, or billing records.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>FX2</p>
+                  </entry>
+                  <entry>
+                     <p>FX2 is a type of template framework with advanced features.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Pre-FX2</p>
+                  </entry>
+                  <entry>
+                     <p>Pre-FX2 refers to the framework used for creating templates before FX2 framework was implemented. In the pre-FX2 framework, templates only supported merge fields.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </context></taskbody>
+</task>

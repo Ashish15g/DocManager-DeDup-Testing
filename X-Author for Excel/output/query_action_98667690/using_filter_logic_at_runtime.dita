@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="using_filter_logic_at_runtime_77c6a0" xml:lang="en-us">
+   <title>Using Filter Logic at Runtime</title>
+     <shortdesc>When a query defined as User Input includes a picklist field as one of the</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>values</keyword>
+        <keyword>Runtime</keyword>
+        <keyword>When</keyword>
+        <keyword>query</keyword>
+        <keyword>picklist</keyword>
+        <keyword>field</keyword>
+        <indexterm>values</indexterm>
+        <indexterm>Runtime</indexterm>
+        <indexterm>When</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>When a query defined as User Input includes a picklist field as one of the criteria, you can see a preview of the values in the list.</p>
+      <fig>
+         <title>98668060</title>
+         <image href="../attachments/98667690/98668060.png" width="323" height="39" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig>
+      <p>To specify a value for the query, click the ellipsis button next to a field to see additional picklist values.</p>
+      <p>When you click the ellipsis button a pop-up appears.</p>
+      <fig>
+         <title>98668059</title>
+         <image href="../attachments/98667690/98668059.png" height="452" width="475" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig>
+      <ul>
+         <li>Add one or many values to the Selected Values area using the right arrow.</li>
+         <li>Quick Search is a wildcard search that automatically filters down the list of available values in the list below.</li>
+         <li>The values moved to the right under the Selected Values area are selected for In or Not in"operator processing.</li>
+         <li>After the user selects a list of values and clicks on Save, the window closes and the text on the Runtime screen shows the values separated by a comma in the textbox.</li>
+      </ul>
+    </section></refbody>
+</reference>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_refresh_your_local_license_files_a4a69f" xml:lang="en-us">
+   <title>To refresh your local license files</title>
+   <shortdesc>The Delete Action is enabled.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>files</keyword>
+        <keyword>refresh</keyword>
+        <keyword>local</keyword>
+        <keyword>license</keyword>
+        <keyword>Excel</keyword>
+        <keyword>placeholder</keyword>
+        <indexterm>files</indexterm>
+        <indexterm>refresh</indexterm>
+        <indexterm>local</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Close all instances of Excel.</cmd>
+         </step>
+         <step>
+            <cmd>In the Run dialog, type <i>%appdata%\Apttus</i>
+            </cmd>
+            <info>
+               <fig>
+                  <title>98667815</title>
+                  <image href="../attachments/98667686/98667815.png" width="406" height="211" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>OK</b>. Windows explorer appears.</cmd>
+         </step>
+         <step>
+            <cmd>Delete the two files starting with <i>lma</i>.</cmd>
+            <info>
+               <fig>
+                  <title>98667814</title>
+                  <image href="../attachments/98667686/98667814.png" width="932" height="447" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Open Excel and log in to your Org and open the App.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The Delete Action is enabled.</p>
+      </result>
+   </taskbody>
+</task>

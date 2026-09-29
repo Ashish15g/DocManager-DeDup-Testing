@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="locking_and_unlocking_documents_4b6eae" xml:lang="en-us">
+   <title>Locking and Unlocking Documents</title>
+   <shortdesc>When you open a document in X-Author Contracts, the document is locked for editing and</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="Jul 23, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>document</keyword>
+        <keyword>locked</keyword>
+        <keyword>Lock</keyword>
+        <keyword>Shows</keyword>
+        <keyword>agreement</keyword>
+        <keyword>button</keyword>
+        <indexterm>document</indexterm>
+        <indexterm>locked</indexterm>
+        <indexterm>Lock</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>When you open a document in X-Author Contracts, the document is locked for editing and cannot be checked out by anyone else. Anyone with proper permissions for the document's agreement record can still view and/or download the document, but they cannot make edits and check the document back in while you have it locked (the Work and Finish tabs are disabled). You can always check the lock status of a document by clicking the <image href="../attachments/102413204/102413286.png" placement="inline" width="25" height="25">
+               <alt>placeholder</alt>
+            </image>
+         
+         <b>Lock Status </b>button. This opens the Lock Status page with the following information:</p>
+      <ul>
+         <li>
+            <b>Agreement Name: </b>Shows the name of the agreement.</li>
+         <li>
+            <b>Document protection mode: </b>Shows the protection level of the agreement document. The values could be <i>Full Access, Insert Comment and Track Changes Only, Track Changes Only, Fill in form fields only and Read Only.</i>
+            <b>
+</b>
+         </li>
+         <li>
+            <b>Document locked by: </b>Shows the name of the user who has locked the document. If the document is locked by another user, this field will show the name of the user who has locked the document.<b>
+</b>
+         </li>
+         <li>
+            <b>Locked date: </b>Shows the date and time of locking.<b>
+</b>
+         </li>
+         <li>
+            <b>Release Lock</b> or <b>Acquire Lock</b>: This is a toggle button. If a document is already locked you can unlock it using the <b>Release Lock</b>. If you have accidentally unlocked a document, you can lock it again by clicking <b>Acquire Lock</b>.</li>
+         <li>
+            <b>Refresh Lock:</b> This button checks the current lock status of your document. <b>
+</b>
+         </li>
+         <li>
+            <b>Cancel: </b>Takes you back to the previous screen that you were working on.</li>
+      </ul>
+   </conbody>
+</concept>

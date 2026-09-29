@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_an_action_flow_df030c" xml:lang="en-us">
+   <title>To create an Action Flow</title>
+   <shortdesc>Each Action Flow will ultimately be associated with an end user menu command, so use</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Action</keyword>
+        <keyword>Flow</keyword>
+        <keyword>click</keyword>
+        <keyword>Step</keyword>
+        <keyword>select</keyword>
+        <keyword>Apply</keyword>
+        <indexterm>Action</indexterm>
+        <indexterm>Flow</indexterm>
+        <indexterm>click</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click the <b>Action Flow</b> button on the X-Author Designer ribbon. </cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Create</b>.</cmd>
+            <info>
+               <fig>
+                  <title>190354404</title>
+                  <image href="../attachments/98667674/190354404.png" width="383" height="280" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter an Action Flow Name and then click <b>Apply</b>.</cmd>
+            <info>
+               <note type="note">
+                  <p>Note</p>
+                  <p>Each Action Flow will ultimately be associated with an end user menu command, so use a name that clearly represents this flow. When you click Apply, the Action Flow in the left pane is updated with the name you enter.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>To add a step in the flow, click <b>Add Step</b>.</cmd>
+         </step>
+         <step>
+            <cmd>On the right pane, under Step, type a <b>Step Name</b> (use any name, such as <i>1</i> or <i>Search Account</i>) and then click <b>Apply</b>. Under the <b>Select Action</b> section, select an Action from the list. If this action generates any output, select <b>Persist Data as Output</b> and under the Action Output section, type a Name for the output. You can use any name (like <i>Opps)</i>. If this action requires an input, select <b>Provide Input </b>and select an input from the Action Input list. Based on the type of Action, X-Author Designer provides input suggestions. See the <xref href="#executingactionsactionflowcheckboxes">Action Flow Check Boxes</xref> table below for more information on when to use inputs and outputs.</cmd>
+            <info>
+               <fig>
+                     <title>98667865</title>
+                     <image href="../attachments/98667674/98667865.png" placement="break" width="727" height="218">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+         </step>
+         <step>
+            <cmd>Repeat steps 3 – 5 to add more than one step. Ensure that you click <b>Apply</b> after each step and notice the hierarchy updated in the left-hand pane.</cmd>
+         </step>
+         <step>
+            <cmd>To reorder a step in the hierarchy, select the step from the left pane and click <b>Step Up</b> to move the step up in the hierarchy. Click <b>Step Down</b> to move step down in the hierarchy.</cmd>
+         </step>
+         <step>
+            <cmd>After you have created the Action Flow, click <b>Save</b> and click <b>Save App</b>.</cmd>
+            <info>
+               <fig>
+                  <title>98667864</title>
+                  <image href="../attachments/98667674/98667864.png" width="684" height="709" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

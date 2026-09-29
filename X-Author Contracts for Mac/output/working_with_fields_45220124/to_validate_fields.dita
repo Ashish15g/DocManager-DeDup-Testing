@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="to_validate_fields_33936d" xml:lang="en-us">
+   <title>To validate fields</title>
+   <shortdesc>Use the Validate action to ensure that all smart fields in your document are in</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Oct 10, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>fields</keyword>
+        <keyword>document</keyword>
+        <keyword>validate</keyword>
+        <keyword>Validate</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>invalid</keyword>
+        <indexterm>fields</indexterm>
+        <indexterm>document</indexterm>
+        <indexterm>validate</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>Use the <b>Validate</b> action to ensure that all smart fields in your document are in the proper format for their assigned data type (e.g., Date, Number, DateTime, selected values from picklists,etc.). The agreement document cannot be reconciled at check-in unless all fields in your document are valid.</p>
+         <p>To validate fields:</p>
+    <ol>
+    <li><p>Go to <b>Document &gt; Fields</b>.</p>
+      <fig>
+                  <title>49086833</title>
+                  <image href="../attachments/45220124/49086833.png" width="684" height="652" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li><p>Click on the <b>Validate</b> button. If any fields are invalid, the field row in the Document pane will be highlighted in red.</p>
+      <fig>
+                  <title>50036846</title>
+                  <image href="../attachments/45220124/50036846.png" width="699" height="615" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li><p>Make any corrections to invalid fields as needed and click <b>Validate</b> again to confirm there are no invalid fields. If all fields are valid, a success message is displayed at the bottom of the pane. You can now check in your document.</p>
+      <fig>
+                  <title>50036842</title>
+                  <image href="../attachments/45220124/50036842.png" width="700" height="1238" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    </ol></conbody>
+</concept>

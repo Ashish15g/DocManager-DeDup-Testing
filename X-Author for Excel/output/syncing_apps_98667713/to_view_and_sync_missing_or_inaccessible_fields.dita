@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_view_and_sync_missing_or_inaccessible_fields_d950a7" xml:lang="en-us">
+   <title>To view and sync missing or inaccessible fields</title>
+   <shortdesc>Fields used in Search &amp; Select and Query filters are only removed in this way</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>fields</keyword>
+        <keyword>click</keyword>
+        <keyword>field</keyword>
+        <keyword>missing</keyword>
+        <keyword>inaccessible</keyword>
+        <keyword>Sync</keyword>
+        <indexterm>fields</indexterm>
+        <indexterm>click</indexterm>
+        <indexterm>field</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author Designer ribbon, open the app you want to sync.</cmd>
+         </step>
+         <step>
+            <cmd>From the Admin section of the X-Author Designer ribbon, click <b>Sync App</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Review the Sync App Summary. Click the link next to Fields in the Summary or on <b># Fields</b> in the sidebar.
+Review the list of missing or inaccessible fields. This screen displays all of the fields that exist in your app that do not match a field in the connected instance for a given object. For each field, the Display Map, Save Map and Search Filters columns indicate whether the field is used in one or more Display Maps, Save Maps or Search/Query Filters, respectively.</cmd>
+         </step>
+         <step>
+            <cmd>Double-click on a row to display a pop-up and to view all areas of the App with that field.</cmd>
+            <info>
+               <fig>
+                  <title>98667782</title>
+                  <image href="../attachments/98667713/98667782.png" width="366" height="229" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>If you decide to remove any of the fields in the list from your app, click one or more check boxes corresponding to the fields you want to remove and click <b>Remove</b>.</cmd>
+            <info>
+               <note type="warning">
+                  <p>Fields used in Search &amp; Select and Query filters are only removed in this way if the filter type is "User Input" and there is no Filter Logic defined. In all other cases, you must go to the filter and manually remove it from your app.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>OK</b> to close the Sync App dialog.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save App</b> to save the changes you made to your app.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

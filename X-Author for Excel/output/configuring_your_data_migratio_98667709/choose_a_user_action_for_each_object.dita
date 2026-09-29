@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="choose_a_user_action_for_each_object_496810" xml:lang="en-us">
+   <title>Choose a User Action for each Object</title>
+     <shortdesc>Each Object in the Data Migration must have a corresponding action in the runtime app.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Object</keyword>
+        <keyword>Search</keyword>
+        <keyword>actions</keyword>
+        <keyword>Select</keyword>
+        <keyword>Query</keyword>
+        <keyword>Choose</keyword>
+        <indexterm>Object</indexterm>
+        <indexterm>Search</indexterm>
+        <indexterm>actions</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Each Object in the Data Migration must have a corresponding action in the runtime app. This allows the user to make use of X-Author's Search and Select or Query actions to request data from the source org during the migration.</p><p>To choose actions, click the drop-down menu next to each Object and select either <b>Search &amp; Select </b>or <b>Query</b>.</p><fig>
+         <title>98667970</title>
+         <image href="../attachments/98667709/98667970.png" width="783" height="130" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig><p>For both <b>Search &amp; Select </b>and <b>Query</b> actions, the Options are automatically filled based on the Objects and Fields you added to your app. You can make changes to these options as required when you define <i>Filters</i>.</p><p>For more information on these actions, refer to <xref href="../search_and_select_action_98667689/search_and_select_action.dita">Search and Select</xref> and <xref href="../query_action_98667690/query_action.dita">Query</xref> actions in this guide</p>
+  </context></taskbody>
+</task>

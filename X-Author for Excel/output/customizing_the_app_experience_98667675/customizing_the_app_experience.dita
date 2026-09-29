@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="customizing_the_app_experience_6ceb70" xml:lang="en-us">
+   <title>Customizing the App Experience</title>
+     <shortdesc>Actions are used to create a specific user experience. They include being able to query,</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Actions</keyword>
+        <keyword>environment</keyword>
+        <keyword>Action</keyword>
+        <keyword>Excel</keyword>
+        <keyword>create</keyword>
+        <keyword>specific</keyword>
+        <indexterm>Actions</indexterm>
+        <indexterm>environment</indexterm>
+        <indexterm>Action</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Actions are used to create a specific user experience. They include being able to query, display, save, and manipulate data within the workbook. The top section of the Actions menu button provides access to existing Actions. Click the down arrow at the bottom of the button to create new Actions.</p><p>Click on the <b>Action Name</b> in the following table for more information on the action.</p><table>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <p>Action Name</p>
+                  </entry>
+                  <entry>
+                     <p>Action Type</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../add_row_action_98667685/add_row_action.dita">Add Row Action</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Adds a row to the top or bottom of your Display Map.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../check_in_action_98667684/checkin_action.dita">Check-In</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Saves the Excel file to Notes and Attachments in your environment and unlocks the file.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../check_out_action_98667683/checkout_action.dita">Check-Out</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Opens a previously saved X-Author for Excel file from your environment Notes and Attachments and then locks the file to prevent editing by any other user.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../clear_action_98667687/clear_action.dita">Clear</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Clears cell data.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../data_set_action_98667676/data_set_action.dita">Data Set</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Combines outputs of Query Actions to overcome SOQL limitations.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../display_action_98667691/display_action.dita">Display</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Places retrieved data in the worksheet based on a Display Map.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../macro_action_98667679/macro_action.dita">Macro</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Runs an existing macro.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../paste_action_98667682/paste_action.dita">Paste</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Counts the rows from which data has been copied and then pastes the copied data into those rows.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../query_action_98667690/query_action.dita">Query</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Queries data from your environment.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../salesforce_method_action_98667678/salesforce_method_action.dita">Salesforce Method</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Calls a Salesforce Method.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../save_action_98667688/save_action.dita">Save</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Saves worksheet data to the environment based on a Save Map.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../save_attachment_action_98667677/save_attachment_action.dita">Save Attachment</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Saves the entire Excel file or specific worksheets in the Excel file to Notes and Attachments as an xls or pdf.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../search_and_select_action_98667689/search_and_select_action.dita">Search and Select</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Allows a user to search for and select data that will then be retrieved into the workbook or that will provide a filter to a subsequent search or query. Retrieves data from your environment based on the user record selection.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../switch_connection_action_98667680/switch_connection_action.dita">Switch Connection</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Switches between orgs to allow uploading and downloading data across multiple orgs.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </context></taskbody>
+</task>

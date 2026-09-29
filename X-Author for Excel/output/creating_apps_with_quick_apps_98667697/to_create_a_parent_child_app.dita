@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_parent_child_app_ad8978" xml:lang="en-us">
+   <title>To create a Parent Child app</title>
+   <shortdesc>Give your app a name that is concise but also summarizes the basic purpose of</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>field</keyword>
+        <keyword>Click</keyword>
+        <keyword>Select</keyword>
+        <keyword>fields</keyword>
+        <keyword>value</keyword>
+        <keyword>check</keyword>
+        <indexterm>field</indexterm>
+        <indexterm>Click</indexterm>
+        <indexterm>Select</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click Quick App and select <b>New</b>. 
+
+
+
+The Build a Quick App window opens. 
+
+</cmd>
+            <info>
+               <fig>
+                  <title>98667846</title>
+                  <image href="../attachments/98667697/98667846.png" width="1008" height="179" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Type the application name in the App Name field. Use only English characters for the app name. Non English characters are not supported as they impact import/export operations, offline capability and more. 
+
+</cmd>
+            <info>
+               <p>
+</p>
+            </info>
+            <info>
+               <note type="tip">
+                  <p>Give your app a name that is concise but also summarizes the basic purpose of the app.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click the Parent Child radio button and then click <b>Next</b>. The Build a Quick App page opens.</cmd>
+            <info>
+               <fig>
+                  <title>190354499</title>
+                  <image href="../attachments/98667697/190354499.png" width="585" height="482" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click the Object drop-down menu and select an object. The Select Fields section will display the fields associated with the object. </cmd>
+         </step>
+         <step>
+            <cmd>Click the check box next to the fields you want to include in your app. (Notice that the two primary fields of the object are selected by default)
+You can search for fields using the Search Fields search box. Click Clear to clear search terms and view the full list.</cmd>
+            <info>
+               <note type="note">
+                  <p>
+</p>
+                  <p>You can search for fields using the Search Fields search box. Click Clear to clear search terms and view the full list.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Next.</b> The Select Field Options window opens, displaying the fields that you selected in the previous step. 
+
+
+
+</cmd>
+            <info>
+               <fig>
+                  <title>98667834</title>
+                  <image href="../attachments/98667697/98667834.png" width="591" height="466" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the Child Object and the fields that you want to include in your app. 
+
+
+
+As shown in the following images, the displayed columns will vary based on the Data Criteria you select.
+ <b>Selecting Field Options with <i>Query </i>Data Criteria</b>
+               <b>Selecting Field Options with <i>User Selection </i>Data Criteria</b>
+            </cmd>
+            <info>
+               <fig>
+                  <title>98667836</title>
+                  <image href="../attachments/98667697/98667836.png" width="593" height="469" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <fig>
+                  <title>98667835</title>
+                  <image href="../attachments/98667697/98667835.png" width="593" height="469" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <fig>
+                  <title>98667834</title>
+                  <image href="../attachments/98667697/98667834.png" width="591" height="466" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <p>As shown in the following images, the displayed columns will vary based on the Data Criteria you select.
+ </p>
+            </info>
+            <info>
+               <table>
+                  <tgroup cols="1">
+                     <colspec colname="c1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Selecting Field Options with <i>Query </i>Data Criteria</b>
+                              </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <fig>
+                                    <title>98667835</title>
+                                    <image href="../attachments/98667697/98667835.png" placement="break" width="593" height="469">
+                                       <alt>placeholder</alt>
+                                    </image>
+                                 </fig></entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>
+</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Selecting Field Options with <i>User Selection </i>Data Criteria</b>
+                              </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <fig>
+                                    <title>98667834</title>
+                                    <image href="../attachments/98667697/98667834.png" placement="break" width="591" height="466">
+                                       <alt>placeholder</alt>
+                                    </image>
+                                 </fig></entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Select from the options in the following table.
+
+ColumnDescriptionData CriteriaSelect the method you would like to use to retrieve data. <b>Query</b>—Select this method to have the query automatically run, based on your app's predetermined search filters, and retrieve the data without user intervention. <b>User Selection</b>—Select this method to allow users to apply search filter criteria before retrieving data.<b>Select All</b>Display FieldsClick this check box to include all object fields in the Display Map.Save FieldsClick this check box to include all object fields in the Save Map.
+<b>Note</b>: This check box is inactive unless Display Fields is checked. <b>Grid Columns</b>DisplayClick this check box to include this field's data in the data retrieved from your environment and displayed in the Excel workbook.Display OrderThis represents the order, left to right, that fields will be displayed. Click in the cell to edit the order.SaveClick this check box to allow users to change the data in these cells in the Excel workbook and then save those changes to your environment.Fields that are not Display fields cannot be Save fields.Search Fields<b>This field appears only when the Data Criteria is set to User Selection.</b> Click this check box to add a runtime search filter for this field. These filters will be used to limit the type of records returned when the runtime user retrieves data. For example, might make Billing Country a Search field so that you can retrieve data from only those accounts who have a billing address in Canada.You must select at least one field, and ID fields are <b>not</b> searchable.Result Fields<b>This field appears only when the Data Criteria is set to User Selection.</b> Click this check box to display this field in the search results when retrieving and filtering data from your environment.You must select at least one field and ID fields <b>cannot</b> be used.</cmd>
+            <info>
+               <section id="sec_d771e276">
+                  <p>
+</p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="c1"/>
+                        <colspec colname="c2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Column</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Data Criteria</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the method you would like to use to retrieve data. <b>Query</b>—Select this method to have the query automatically run, based on your app's predetermined search filters, and retrieve the data without user intervention. <b>User Selection</b>—Select this method to allow users to apply search filter criteria before retrieving data.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry namest="c1" nameend="c2">
+                                 <p>
+                                    <b>Select All</b>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Display Fields</p>
+                              </entry>
+                              <entry>
+                                 <p>Click this check box to include all object fields in the Display Map.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Save Fields</p>
+                              </entry>
+                              <entry>
+                                 <p>Click this check box to include all object fields in the Save Map.
+<b>Note</b>: This check box is inactive unless Display Fields is checked. </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry namest="c1" nameend="c2">
+                                 <p>
+                                    <b>Grid Columns</b>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Display</p>
+                              </entry>
+                              <entry>
+                                 <p>Click this check box to include this field's data in the data retrieved from your environment and displayed in the Excel workbook.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Display Order</p>
+                              </entry>
+                              <entry>
+                                 <p>This represents the order, left to right, that fields will be displayed. Click in the cell to edit the order.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Save</p>
+                              </entry>
+                              <entry>
+                                 <p>Click this check box to allow users to change the data in these cells in the Excel workbook and then save those changes to your environment.Fields that are not Display fields cannot be Save fields.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Search Fields</p>
+                              </entry>
+                              <entry>
+                                 <p>
+                                    <b>This field appears only when the Data Criteria is set to User Selection.</b> Click this check box to add a runtime search filter for this field. These filters will be used to limit the type of records returned when the runtime user retrieves data. For example, might make Billing Country a Search field so that you can retrieve data from only those accounts who have a billing address in Canada.You must select at least one field, and ID fields are <b>not</b> searchable.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Result Fields</p>
+                              </entry>
+                              <entry>
+                                 <p>
+                                    <b>This field appears only when the Data Criteria is set to User Selection.</b> Click this check box to display this field in the search results when retrieving and filtering data from your environment.You must select at least one field and ID fields <b>cannot</b> be used.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </section>
+            </info>
+         </step>
+         <step>
+            <cmd>To add a filter to the data, click <b>Filters</b>.
+Complete the fields described in the following table to build your filter.</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Field</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Object and Field</p>
+                           </entry>
+                           <entry>
+                              <p>Click the lookup icon <image href="../attachments/98667697/98667847.jpg" placement="inline" width="24" height="22">
+                                       <alt>placeholder</alt>
+                                    </image>
+                                  to select the object and field that you want the filter to apply to.You cannot type the field name in the text field.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Value Type</p>
+                           </entry>
+                           <entry>
+                              <p>Select the value type from the drop-down menu. <b>The value types change based on the field or object selected.</b>
+• <b>Input</b>—Select this value to allow users to type in a value to search for. For example, if the field is Account ID, you might choose to let them type or paste the account ID in the filter at runtime.
+• <b>Static</b>—Select this value to prevent users from changing the Value field at runtime.
+• <b>System Variable</b>—Select this value to specify a system variable, such as CurrentUser or CurrentDate, as the filter value.
+• <b>User Input</b>—Select this value to allow users to change the Value field at runtime.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Operator</p>
+                           </entry>
+                           <entry>
+                              <p>Select a relational operator from the drop-down menu. 
+• <b>Equals</b>—The field value is equal to the specified value. 
+• <b>Not equal to</b>—The field value is <b>not</b> equal to the specified value.
+• <b>Starts with</b>—The field value begins with the specified value.
+• <b>Contains</b>—The field value contains the specified value string.
+• <b>Not contains</b>—The field does not contain the specified value string.
+• <b>In</b>—The field value is in the specified list of hard-return-separated values.
+• <b>Not In</b>—The field value is in the specified list of hard-return-separated values.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Value</p>
+                           </entry>
+                           <entry>
+                              <p>Type the comparison value in this field or select the value from the drop-down menu. <b>Your options will vary depending on the type of field you are filtering on.</b>
+                              </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <image href="../attachments/98667697/98667848.jpg" placement="inline" width="24" height="22">
+                                       <alt>placeholder</alt>
+                                    </image>
+                                 </entry>
+                           <entry>
+                              <p>Click this button to delete a filter row.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Add Row</p>
+                           </entry>
+                           <entry>
+                              <p>Click this button to add a new filter row.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Clear All</p>
+                           </entry>
+                           <entry>
+                              <p>Click this button to remove all filter rows.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Add Filter Logic</p>
+                           </entry>
+                           <entry>
+                              <p>Click this button to display the Filter Logic field and define the Boolean logic used to relate filters. For example, you might want display results only when <b>all</b> of your filter conditions are met or you might want to display results when <b>any</b> filter conditions are met. You can use filter logic to do this. Filter logic in X-Author for Excel works the same as it does in your environment. 
+ImportantIn Microsoft Dynamics, define filter logic within brackets. Example: (1 OR 2), ((1 AND 2) OR 3), ((1 OR 2) AND 3)</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Next</b>.</cmd>
+         </step>
+         <step>
+            <cmd>On Provide App Settings page, provide requisite information as described in the table.</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Field</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Enable App Launch from Source CRM (Salesforce, Microsoft Dynamics, Apttus Omni)</p>
+                           </entry>
+                           <entry>
+                              <p>Select this check box to allow users to open this X-Author app from within your environment (as well as from within Excel).</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Enable for Google Sheets</p>
+                           </entry>
+                           <entry>
+                              <p>Select this check box to allow users to open this X-Author app from within the Google Sheets application (as well as from within Excel).</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Worksheet Title</p>
+                           </entry>
+                           <entry>
+                              <p>Type the title of the Excel worksheet. The title appears in the top row of the worksheet.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Max Column Width</p>
+                           </entry>
+                           <entry>
+                              <p>Type the maximum width of an Excel column (in characters).</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>View Gridlines</p>
+                           </entry>
+                           <entry>
+                              <p>Select this check box to display the gridlines in the Excel worksheet.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Display Filters</p>
+                           </entry>
+                           <entry>
+                              <p>Clear this check box if you do not want the filters that you created to appear in the Excel worksheet.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Group Label</p>
+                           </entry>
+                           <entry>
+                              <p>Type the ribbon menu group name. This value appears beneath the buttons in the X-Author for Excel ribbon tab. </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Retrieve Data Button Label</p>
+                           </entry>
+                           <entry>
+                              <p>Type the text you want to appear on the ribbon menu button used for data retrieval. </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Save Data Button Label</p>
+                           </entry>
+                           <entry>
+                              <p>Type the text you want to appear on the ribbon menu button used for saving data to the database. </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Enable Add Row</p>
+                           </entry>
+                           <entry>
+                              <p>Select this check box to allow users to add rows to the Excel worksheet. This option could be used to add records to the workbook so those records can be uploaded to your environment.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Enable Delete Row</p>
+                           </entry>
+                           <entry>
+                              <p>Select this check box to allow users to delete rows from the Excel worksheet.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Finish.</b>
+            </cmd>
+         </step>
+      </steps>
+      <result>
+         <p>An app has been created with all design functions complete. You can now <xref href="../previewing_apps_98667700/previewing_apps.dita">Preview the app</xref>, run the app, or use X-Author Designer to make additional modifications.</p>
+      </result>
+   </taskbody>
+</task>

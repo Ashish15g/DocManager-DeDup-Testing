@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="specify_external_id_71ee40" xml:lang="en-us">
+   <title>Specify External ID</title>
+     <shortdesc>This is an optional step that is only required if your Object has more than</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>External</keyword>
+        <keyword>Object</keyword>
+        <keyword>Objects</keyword>
+        <keyword>Specify</keyword>
+        <keyword>Note</keyword>
+        <keyword>configure</keyword>
+        <indexterm>External</indexterm>
+        <indexterm>Object</indexterm>
+        <indexterm>Objects</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>This is an optional step that is only required if your Object has more than one External ID. Most Objects will only have a single External ID, but in some cases, an Object will have more than one (for example, you export data for this object to more than one external source). Setting the External ID is important to prevent duplication of records during data migration.</p><p>Note</p><p> All Objects must have a set External ID. <b>If an Object does not have an External ID set, you will not be able to save the app</b>. It is recommended to configure External ID's in your environment for every Object that you want to migrate before creating the Data Migration app. You can configure External ID's for your Objects in one of two ways:</p><ul>
+         <li>You will need to restart X-Author after adding the External IDs.</li>
+      </ul><p>When an Object has more than one External ID, a <u>Not Set</u> link will be visible under the "External ID" column.</p>
+  </context>
+  <steps id="steps_065703">
+    <step>
+      <cmd>Use Conga Metadata utility to create External IDs for each Object you want to migrate. Contact your Conga representative to get access.</cmd>
+    </step>
+    <step>
+      <cmd>Configure External ID's for your Objects. Create a text field labeled <b>APTS Ext ID</b>, field name <b>APTS_Ext_ID</b> per configuration in the image below.</cmd>
+      <info><fig>
+         <title>98667964</title>
+         <image href="../attachments/98667709/98667964.png" height="717" width="1330" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig></info>
+    </step>
+  </steps></taskbody>
+</task>

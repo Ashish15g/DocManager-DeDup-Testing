@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_install_xauthor_migration_manager_2c3285" xml:lang="en-us">
+   <title>To install X-Author Migration Manager</title>
+   <shortdesc>You are now ready to use X-Author Migration Manager.</shortdesc>
+   <prolog>
+      <author type="creator">user-090d1</author>
+      <critdates>
+         <revised modified="Jul 25, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Author</keyword>
+        <keyword>Migration</keyword>
+        <keyword>Manager</keyword>
+        <keyword>install</keyword>
+        <keyword>installation</keyword>
+        <keyword>Microsoft</keyword>
+        <indexterm>Author</indexterm>
+        <indexterm>Migration</indexterm>
+        <indexterm>Manager</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Run <i>ApttusMigrationManagerInstaller_nn.exe</i> to launch the installer.</cmd>
+         </step>
+         <step>
+            <cmd>Accept the terms in the license agreement and click <b>Next.</b>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Install</b> to begin the installation process.</cmd>
+         </step>
+         <step>
+            <cmd>Following installation, select <b>Launch X-Author Migration Manager</b> to run the application and click <b>Finish</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>You are now ready to use X-Author Migration Manager.</p>
+         <p>If you encounter the following exception during the installation of X-Author Migration Manager, follow the steps described as under to solve it.</p>
+         <p>"Unable to cast COM object of type 'Microsoft.Office.Interop.Word.ApplicationClass' to interface type 'Microsoft.Office.Interop.Word._Application'.</p>
+         <p> This operation failed because the QueryInterface call on the COM component for the interface with IID '{00020970-0000-0000-C000-000000000046}'</p>
+         <p> failed due to the following error: Error loading type library/DLL. (Exception from HRESULT: 0x80029C4A (TYPE_E_CANTLOADLIBRARY))."</p>
+         <p>
+            <b>Solution:</b> The above exception could be a registry issue due to a faulty Microsoft Office installation. Re-install Microsoft Office and then install X-Author Migration Manager.</p>
+      </result>
+   </taskbody>
+</task>

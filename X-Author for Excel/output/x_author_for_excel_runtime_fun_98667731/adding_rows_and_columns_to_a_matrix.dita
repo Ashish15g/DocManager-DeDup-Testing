@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="adding_rows_and_columns_to_a_matrix_6bc0d0" xml:lang="en-us">
+   <title>Adding Rows and Columns to a Matrix</title>
+   <shortdesc>Using the Add Matrix Row and Add Matrix Column buttons, you can add more data</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <critdates>
+         <revised modified="Jan 30, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Field</keyword>
+        <keyword>Value</keyword>
+        <keyword>Static</keyword>
+        <keyword>Column</keyword>
+        <keyword>Data</keyword>
+        <keyword>Dynamic</keyword>
+        <indexterm>Field</indexterm>
+        <indexterm>Value</indexterm>
+        <indexterm>Static</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section id="sec_d2229e18">
+         <p>Using the Add Matrix Row and Add Matrix Column buttons, you can add more data to your matrix. However, there are specific rules you must follow. The only time you can add a column or a row is when that row or column is defined with a Rendering Type of "Dynamic" and a Field Type of "Field Value". If either the Rendering Type is set to Static, or the Field Type is set to Field Label, or both, then you <b>cannot</b> add the row or column to the matrix at runtime. Click the link after the following image to see all the possible combinations and which combinations allow you to add rows and columns to matrices.</p>
+         <fig>
+            <title>98667972</title>
+            <image href="../attachments/98667731/98667972.jpg" width="127" height="84" placement="break">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+      </section>
+      <section id="sec_d2229e34">
+         <p>
+            <b>See all possible matrix combinations and whether or not you can add rows and columns</b>
+         </p>
+         <table>
+            <tgroup cols="7">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <colspec colname="c4"/>
+               <colspec colname="c5"/>
+               <colspec colname="c6"/>
+               <colspec colname="c7"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Matrix Configuration</p>
+                     </entry>
+                     <entry>
+                        <p>Add Row?</p>
+                     </entry>
+                     <entry namest="c3" nameend="c7">
+                        <p>Add Column?</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Column: Static - Field Label </b>
+                           <b>Row: Static - Field Label </b>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Column: Static - Field Label </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Row: Static - Field Label </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>NO</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>NO</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>
+                           <b>Column: Static - Field Label </b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Row: Static - Field Label </b>
+                        </p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>#########Data########</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Column: Static - Field Value </b>
+                           <b>Row: Static - Field Label </b>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Column: Static - Field Value </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Row: Static - Field Label </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>
+</b>
+                           <b>NO</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>NO</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>
+                           <b>Column: Static - Field Value </b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Row: Static - Field Label </b>
+                        </p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>#########Data########</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Column: Dynamic - Field Value</b>
+                           <b>Row: Static - Field Label </b>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Column: Dynamic - Field Value</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Row: Static - Field Label </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>
+</b>
+                           <b>NO</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>YES</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>
+                           <b>Column: Dynamic - Field Value</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Row: Static - Field Label </b>
+                        </p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>#########Data########</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Column: Static - Field Label </b>
+                           <b>Row: Static - Field Value </b>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Column: Static - Field Label </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Row: Static - Field Value </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>
+</b>
+                           <b>NO</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>NO</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>
+                           <b>Column: Static - Field Label </b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Row: Static - Field Value </b>
+                        </p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>#########Data########</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Column: Static - Field Value </b>
+                           <b>Row: Static - Field Value </b>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Column: Static - Field Value </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Row: Static - Field Value </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>
+</b>
+                           <b>NO</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>NO</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>
+                           <b>Column: Static - Field Value </b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Row: Static - Field Value </b>
+                        </p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>#########Data########</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Column: Dynamic - Field Value</b>
+                           <b>Row: Static - Field Value </b>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Column: Dynamic - Field Value</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Row: Static - Field Value </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>
+</b>
+                           <b>NO</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>YES</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>
+                           <b>Column: Dynamic - Field Value</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Row: Static - Field Value </b>
+                        </p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>#########Data########</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Column: Static - Field Label</b>
+                           <b>Row: Dynamic - Field Value </b>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Column: Static - Field Label</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Row: Dynamic - Field Value </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>
+</b>
+                           <b>YES</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>NO</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>
+                           <b>Column: Static - Field Label</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Row: Dynamic - Field Value </b>
+                        </p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>#########Data########</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Column: Static - Field Value</b>
+                           <b>Row: Dynamic - Field Value </b>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Column: Static - Field Value</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Row: Dynamic - Field Value </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>
+</b>
+                           <b>YES</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>NO</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>
+                           <b>Column: Static - Field Value</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Row: Dynamic - Field Value </b>
+                        </p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>#########Data########</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Column: Dynamic - Field Value</b>
+                           <b>Row: Dynamic - Field Value</b>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Column: Dynamic - Field Value</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Row: Dynamic - Field Value</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>#########Data########</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>
+</b>
+                           <b>YES</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>YES</b>
+                           <b>
+</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+</p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>
+                           <b>Column: Dynamic - Field Value</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Row: Dynamic - Field Value</b>
+                        </p>
+                     </entry>
+                     <entry namest="c2" nameend="c7">
+                        <p>#########Data########</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </refbody>
+</reference>

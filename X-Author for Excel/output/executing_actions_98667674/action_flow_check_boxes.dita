@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="action_flow_check_boxes_6b0150" xml:lang="en-us">
+   <title>Action Flow Check boxes</title>
+   <shortdesc>Description</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>action</keyword>
+        <keyword>Action</keyword>
+        <keyword>Select</keyword>
+        <keyword>check</keyword>
+        <keyword>Flow</keyword>
+        <keyword>Check</keyword>
+        <indexterm>action</indexterm>
+        <indexterm>Action</indexterm>
+        <indexterm>Select</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <table>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <p>Field</p>
+                  </entry>
+                  <entry>
+                     <p>Description</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Persist Data as Output</p>
+                  </entry>
+                  <entry>
+                     <p>Select this check box if an action generates any output. Type a <b>Name </b>for the output. You can use any name. For example, <i>Opps</i>.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Provide Input</p>
+                  </entry>
+                  <entry>
+                     <p>Select this check box if an action requires input. Select an action from the <b>Action Input</b> list. Based on the type of Action, X-Author Designer provides input suggestions.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Suppress Save Message</p>
+                  </entry>
+                  <entry>
+                     <p>Select this check box if you have multiple save actions in a single action flow and you want to suppress the save message of that particular action. <b>Note:</b> This check box is enabled for the Save action only.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </context></taskbody>
+</task>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="installing_xauthor_for_excel_0b991f" xml:lang="en-us">
+   <title>Installing X-Author for Excel</title>
+     <shortdesc>Installing and using X-Author for Excel requires you to install specific managed packages (for Salesforce)</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Author</keyword>
+        <keyword>Excel</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>Conga</keyword>
+        <keyword>Installing</keyword>
+        <keyword>Managed</keyword>
+        <indexterm>Author</indexterm>
+        <indexterm>Excel</indexterm>
+        <indexterm>Salesforce</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Installing and using X-Author for Excel requires you to install specific managed packages (for Salesforce) or solutions (for Microsoft Dynamics) in your environment (example: Salesforce, Microsoft Dynamics) and X-Author for Excel Add-in on your computer. Depending on your environment, refer to the specific sections below:
+</p><ul>
+            <li>
+               <xref href="#installingxauthorforexcelinstallingxauthorforexcelinsalesforce">Installing X-Author for Excel in Salesforce</xref>
+            </li>
+            <li>
+               <xref href="#installingxauthorforexcelinstallingxauthorforexcelinmicrosoftdynamics">Installing X-Author for Excel in Microsoft Dynamics</xref>
+            </li>
+            <li>
+               <xref href="#installingxauthorforexcelinstallingxauthorforexcelinapttusomni">Installing X-Author for Excel in Apttus Omni</xref>
+            </li>
+            <li>
+               <xref href="#installingxauthorforexcelinstallingthexauthorforexceladdin">Installing the X-Author for Excel Add-in</xref>
+            </li>
+         </ul><p>The Conga Push Upgrade is an automated tool that upgrades packages available in your Salesforce org (Production or Sandbox) to the latest versions. In addition, it ensures all the Conga published managed packages are on the latest versions for the registered orgs. To register your org for push upgrade, see <xref href="../registering_for_conga_push_upg_158340136/registering_for_conga_push_upgrade.dita">Registering for Conga Push Upgrade</xref>.</p><p>The following table summarizes the components required to install and begin working with X-Author for Excel. Refer to the most recent X-Author for Excel Release Notes for the current versions.</p><table>
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <thead>
+               <row>
+                  <entry>
+                     <p>Component</p>
+                  </entry>
+                  <entry>
+                     <p>Type</p>
+                  </entry>
+                  <entry>
+                     <p>Notes</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Conga X-Author for Excel (Apttus_XApps / Runtime).</p>
+                  </entry>
+                  <entry>
+                     <p>Salesforce Managed Package</p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>This package must be installed first.</b>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Conga X-Author Designer for Excel (Apttus_XAppsDS / Designer).</p>
+                  </entry>
+                  <entry>
+                     <p>Salesforce Managed Package</p>
+                  </entry>
+                  <entry>
+                     <p>
+</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="c1" nameend="c3">
+                     <p>The following packages are optional and may be required in addition to the above components based on your license or licenses.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Conga X-Author for Excel (Admin)</p>
+                  </entry>
+                  <entry>
+                     <p>Salesforce Managed Package</p>
+                  </entry>
+                  <entry>
+                     <p>Required for Power Admin licenses or the legacy Data Migration product.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Conga Document Generation</p>
+                  </entry>
+                  <entry>
+                     <p>Salesforce Managed Package</p>
+                  </entry>
+                  <entry>
+                     <p>Required for X-Author Presto licenses. <b>This package must be installed first.</b>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Conga X-Author for Excel Document Generation</p>
+                  </entry>
+                  <entry>
+                     <p>Salesforce Managed Package</p>
+                  </entry>
+                  <entry>
+                     <p>Required for X-Author Presto licenses.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </context></taskbody>
+</task>

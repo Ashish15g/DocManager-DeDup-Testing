@@ -1,0 +1,613 @@
+{
+  "job_id": "1ee03ee4-f87b-4f5b-9d53-f12a3e3e4623",
+  "output_dir": "storage/1ee03ee4-f87b-4f5b-9d53-f12a3e3e4623/xslt_output",
+  "run_at": "2026-08-20T07:02:55.350159+00:00",
+  "files_discovered": {
+    "dita_file_count": 19,
+    "dita_files": [
+      "x_author_migration_manager/102428125/whats_new.dita",
+      "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+      "x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita",
+      "x_author_migration_manager/converting_templates_102415194/converting_templates.dita",
+      "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+      "x_author_migration_manager/index/space_details.dita",
+      "x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita",
+      "x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita",
+      "x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita",
+      "x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita",
+      "x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita",
+      "x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita",
+      "x_author_migration_manager/migrating_templates_102415193/prerequisites.dita",
+      "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+      "x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita",
+      "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+      "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+      "x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita",
+      "x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita"
+    ],
+    "ditamap_file_count": 11,
+    "ditamap_files": [
+      "x_author_migration_manager/102428125.ditamap",
+      "x_author_migration_manager/about_x_author_migration_manag_109937029.ditamap",
+      "x_author_migration_manager/apttus_copyright_disclaimer_102428127.ditamap",
+      "x_author_migration_manager/converting_templates_102415194.ditamap",
+      "x_author_migration_manager/index.ditamap",
+      "x_author_migration_manager/installing_x_author_migration_102415190.ditamap",
+      "x_author_migration_manager/migrating_templates_102415193.ditamap",
+      "x_author_migration_manager/migrating_templates_with.ditamap",
+      "x_author_migration_manager/upgrading_templates_102415192.ditamap",
+      "x_author_migration_manager/x_author_migration_manager.ditamap",
+      "x_author_migration_manager/x_author_migration_manager_on_102415187.ditamap"
+    ]
+  },
+  "document_context": {
+    "prodname": "",
+    "equipment_name": "",
+    "task_type": "installation guide",
+    "document_keywords": [
+      "installation guide"
+    ],
+    "extraction_method": "heuristic"
+  },
+  "structural_issues": [
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+      "message": "<task> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+      "message": "<image> #1 (href='../attachments/102428129/102428763.jpg') has no alt text \u2014 required for accessibility",
+      "line": 32
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+      "message": "<task> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 40
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/index/space_details.dita",
+      "message": "<reference> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_migration_manager/index/space_details.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 7
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "x_author_migration_manager/index/space_details.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+      "message": "<reference> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 13
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 30
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+      "message": "<task> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 44
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+      "message": "<image> #1 (href='../attachments/102415193/102415226.png') has no alt text \u2014 required for accessibility",
+      "line": 23
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+      "message": "<image> #2 (href='../attachments/102415194/102429236.jpg') has no alt text \u2014 required for accessibility",
+      "line": 38
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/converting_templates_102415194/converting_templates.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<reference> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 16
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 19
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<p> #8 is empty \u2014 remove or add content",
+      "line": 53
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<p> #11 is empty \u2014 remove or add content",
+      "line": 67
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<p> #14 is empty \u2014 remove or add content",
+      "line": 79
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<p> #17 is empty \u2014 remove or add content",
+      "line": 91
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<p> #20 is empty \u2014 remove or add content",
+      "line": 105
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<p> #23 is empty \u2014 remove or add content",
+      "line": 119
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/migrating_templates_102415193/prerequisites.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+      "message": "<task> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+      "message": "<image> #1 (href='../attachments/102415193/102415226.png') has no alt text \u2014 required for accessibility",
+      "line": 22
+    },
+    {
+      "severity": "WARNING",
+      "category": "image_missing_alt",
+      "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+      "message": "<image> #2 (href='../attachments/102415193/102429204.jpg') has no alt text \u2014 required for accessibility",
+      "line": 64
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita",
+      "message": "<task> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita",
+      "message": "<task> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita",
+      "message": "<task> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    }
+  ],
+  "summary": {
+    "dita_file_count": 19,
+    "missing_count": 0,
+    "broken_xml_count": 0,
+    "empty_count": 0,
+    "ditamap_broken_ref_count": 0,
+    "broken_mapref_count": 0,
+    "orphan_file_count": 0,
+    "duplicate_id_count": 0,
+    "broken_xref_count": 0,
+    "filename_space_count": 0,
+    "severity_counts": {
+      "CRITICAL": 0,
+      "WARNING": 45,
+      "INFO": 0
+    },
+    "category_counts": {
+      "missing_xml_lang": 19,
+      "image_missing_alt": 5,
+      "missing_shortdesc": 8,
+      "section_missing_title": 4,
+      "table_missing_title": 3,
+      "empty_p": 6
+    }
+  },
+  "zone1_auto_fixes": {
+    "fixed": [
+      {
+        "file": "x_author_migration_manager/102428125/whats_new.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/converting_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/index/space_details.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/prerequisites.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita",
+        "fix": "added xml:lang=\"en-us\""
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "fixed_count": 19,
+      "error_count": 0
+    }
+  },
+  "backend_dtd_errors": {
+    "source": "backend core _report.txt",
+    "errors_by_file": {},
+    "file_count_with_errors": 0
+  },
+  "validation": {
+    "status": "completed",
+    "total_violations": 12,
+    "files_with_violations": 4,
+    "violations_by_severity": {
+      "error": 12,
+      "warning": 0
+    },
+    "violations_by_gate": {
+      "gate1": 0,
+      "gate2": 10,
+      "gate3": 2,
+      "gate4": 0
+    },
+    "details": [
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "doc_type": "task",
+        "gate": 2,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "ERROR: <image> element with href=\"../attachments/102415193/102415226.png\" is missing the required @width attribute.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "doc_type": "task",
+        "gate": 2,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "ERROR: <image> element with href=\"../attachments/102415193/102415226.png\" is missing the required @height attribute.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "doc_type": "task",
+        "gate": 2,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "ERROR: <image> element with href=\"../attachments/102415194/102429236.jpg\" is missing the required @width attribute.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "doc_type": "task",
+        "gate": 2,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "ERROR: <image> element with href=\"../attachments/102415194/102429236.jpg\" is missing the required @height attribute.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "doc_type": "task",
+        "gate": 3,
+        "rule_code": "CM-INFO",
+        "severity": "ERROR",
+        "message": "[CM-INFO] <section> is not a permitted child of <info> per the DITA 2.0 DTD. Permitted children: codeph varname userinput dl div fig image lines lq note object ol p pre simpletable sl table ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+        "doc_type": "task",
+        "gate": 2,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "ERROR: <image> element with href=\"../attachments/102415193/102415226.png\" is missing the required @width attribute.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+        "doc_type": "task",
+        "gate": 2,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "ERROR: <image> element with href=\"../attachments/102415193/102415226.png\" is missing the required @height attribute.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+        "doc_type": "task",
+        "gate": 2,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "ERROR: <image> element with href=\"../attachments/102415193/102429204.jpg\" is missing the required @width attribute.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+        "doc_type": "task",
+        "gate": 2,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "ERROR: <image> element with href=\"../attachments/102415193/102429204.jpg\" is missing the required @height attribute.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+        "doc_type": "task",
+        "gate": 2,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "ERROR: <image> element with href=\"../attachments/102428129/102428763.jpg\" is missing the required @width attribute.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+        "doc_type": "task",
+        "gate": 2,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "ERROR: <image> element with href=\"../attachments/102428129/102428763.jpg\" is missing the required @height attribute.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+        "doc_type": "task",
+        "gate": 3,
+        "rule_code": "CM-INFO",
+        "severity": "ERROR",
+        "message": "[CM-INFO] <section> is not a permitted child of <info> per the DITA 2.0 DTD. Permitted children: codeph varname userinput dl div fig image lines lq note object ol p pre simpletable sl table ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      }
+    ]
+  }
+}

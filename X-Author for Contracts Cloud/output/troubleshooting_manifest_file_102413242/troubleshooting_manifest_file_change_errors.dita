@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="troubleshooting_manifest_file_change_errors_4fc222" xml:lang="en-us">
+   <title>Troubleshooting Manifest File Change Errors</title>
+     <shortdesc>Sometimes after upgrading your X-Author Contracts for Cloud application, you’re not able to access the</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="Jul 25, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>after</keyword>
+        <keyword>manifest</keyword>
+        <keyword>clear</keyword>
+        <keyword>cache</keyword>
+        <keyword>Troubleshooting</keyword>
+        <keyword>Manifest</keyword>
+        <indexterm>after</indexterm>
+        <indexterm>manifest</indexterm>
+        <indexterm>clear</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>Sometimes after upgrading your X-Author Contracts for Cloud application, you’re not able to access the new settings or configurations, or configurations show the old values. Also, if you change your X-Author Contracts manifest file to switch between different environments, the connections are not configured properly, and you get an ‘Undefined error’.</p>
+      <p>To overcome these configuration problems, after an upgrade or after switching the manifest file, you must clear your system’s cache. The following section describes the steps to clear cache on different Mac machines including the iMac and the MacBook.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="to_create_sections_74bc7c" xml:lang="en-us">
+   <title>To create sections</title>
+   <shortdesc>You must have at least one object selected in Objects.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <critdates>
+         <revised modified="Jan 30, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>field</keyword>
+        <keyword>value</keyword>
+        <keyword>Type</keyword>
+        <keyword>column</keyword>
+        <keyword>fields</keyword>
+        <keyword>Select</keyword>
+        <indexterm>field</indexterm>
+        <indexterm>value</indexterm>
+        <indexterm>Type</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>You must have at least one object selected in Objects.</p>
+      <ol>
+    <li><p>From the X-Author Designer ribbon, click <b>Matrix Map</b>.</p>
+      <fig>
+                  <title>98667833</title>
+                  <image href="../attachments/98667724/98667833.png" width="476" height="158" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li><p>Click <b>Create</b>.
+
+
+
+The Matrix Map pane opens on the right side of Excel.</p>
+      <fig>
+                  <title>98667829</title>
+                  <image href="../attachments/98667724/98667829.png" width="562" height="368" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li><p>Type a Name for the Matrix Map.
+If you are creating one Matrix Map, you can use <i>Map</i> or any other name. If you are using multiple Matrix Maps, then you need a more descriptive name to identify each one.Each object and its fields selected in objects will be available for use in the Matrix Map. Objects are listed based on the object behavior from Objects (<b>Ind</b> and <b>List</b>). List fields are displayed by default. You can switch to Individual fields using the Type list.</p>
+      <p>If you are creating one Matrix Map, you can use <i>Map</i> or any other name. If you are using multiple Matrix Maps, then you need a more descriptive name to identify each one.</p>
+      <p>Each object and its fields selected in objects will be available for use in the Matrix Map. Objects are listed based on the object behavior from Objects (<b>Ind</b> and <b>List</b>). List fields are displayed by default. You can switch to Individual fields using the Type list.</p></li>
+    <li><p>Create a Row and Column Mapping for each section. Drag a List field onto the worksheet. When you release the mouse, a pop-up window appears.
+
+
+ Select either the <b>Row</b> or <b>Column</b> radio button. The Rendering Type, Value Type, and Sort options are displayed. All of these work together to determine how row or column values are populated.Select a Rendering Type.<b>Static</b>: This requires you to enter the cell value manually or X-Author uses the Field Label.<b>Dynamic</b>: Field data is retrieved automatically based on the data getter actions.Select a <b>Value Type</b>.If you select the Dynamic Rendering Type, this option is unavailable.If you select Static from Rendering Type, this option becomes available with the following options.<b>Field Label</b>: Sometimes, the row or column label and the data value will use the same field mapping. This occurs when you have multiple fields from the same record in the section. This is a placeholder for the Designer to use the Field Name as the row or column label. It is the one instance where the intersecting value is determined from just the column or row mapping plus the data value. For example, if, for a single opportunity, you want to display three fields—amount, volume, and average selling price—then, in the rows, the field names would be described one on top of the other, and, in the data, you would drag the field and the value of that field would be rendered.<b>Field Value</b>: Enter the value of the field to be used in determining the data value. If you look at the previous example, the field value would be either Revenue or Cost of Revenue.Click <b>OK</b> to complete the settings for that field.</p>
+      <fig>
+                  <title>98667830</title>
+                  <image href="../attachments/98667724/98667830.png" width="335" height="299" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+      <fig>
+                  <title>98667831</title>
+                  <image href="../attachments/98667724/98667831.png" width="335" height="299" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+      <ul>
+    <li><p>Drag a List field onto the worksheet. When you release the mouse, a pop-up window appears.</p>
+      <fig>
+                        <title>98667830</title>
+                        <image href="../attachments/98667724/98667830.png" width="335" height="299" placement="break">
+                           <alt>placeholder</alt>
+                        </image>
+                     </fig></li>
+    <li>Select either the <b>Row</b> or <b>Column</b> radio button. The Rendering Type, Value Type, and Sort options are displayed. All of these work together to determine how row or column values are populated.</li>
+    <li>Select a Rendering Type.<b>Static</b>: This requires you to enter the cell value manually or X-Author uses the Field Label.<b>Dynamic</b>: Field data is retrieved automatically based on the data getter actions.</li>
+    <li>Select a <b>Value Type</b>.If you select the Dynamic Rendering Type, this option is unavailable.If you select Static from Rendering Type, this option becomes available with the following options.<b>Field Label</b>: Sometimes, the row or column label and the data value will use the same field mapping. This occurs when you have multiple fields from the same record in the section. This is a placeholder for the Designer to use the Field Name as the row or column label. It is the one instance where the intersecting value is determined from just the column or row mapping plus the data value. For example, if, for a single opportunity, you want to display three fields—amount, volume, and average selling price—then, in the rows, the field names would be described one on top of the other, and, in the data, you would drag the field and the value of that field would be rendered.<b>Field Value</b>: Enter the value of the field to be used in determining the data value. If you look at the previous example, the field value would be either Revenue or Cost of Revenue.</li>
+    <li><p>Click <b>OK</b> to complete the settings for that field.</p>
+      <fig>
+                        <title>98667831</title>
+                        <image href="../attachments/98667724/98667831.png" width="335" height="299" placement="break">
+                           <alt>placeholder</alt>
+                        </image>
+                     </fig></li>
+    </ul></li>
+    <li><p>Create Data Mappings for each section. Make sure that the cell you are mapping to is an intersection of a row and column mapping.Once you have created column and row mappings, you can drag and drop the field that represents the intersection. When you drop the field, the pop up window will appear and, in this case, the radio button will automatically default to Data. It uses the closest row and column combination.Enter a Section Name for the data or select an existing section name from the drop-down menu.Select a Row Lookup.Select a Column Lookup.Click <b>OK</b>.</p>
+      <ul>
+    <li>Once you have created column and row mappings, you can drag and drop the field that represents the intersection. When you drop the field, the pop up window will appear and, in this case, the radio button will automatically default to Data. It uses the closest row and column combination.</li>
+    <li>Enter a Section Name for the data or select an existing section name from the drop-down menu.</li>
+    <li>Select a Row Lookup.</li>
+    <li>Select a Column Lookup.</li>
+    <li>Click <b>OK</b>.</li>
+    </ul></li>
+    <li>Click <b>Save and Close</b>.</li>
+    <li>Click <b>Save App</b>.</li>
+    </ol>
+    </section></refbody>
+</reference>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="uploading_or_downloading_salesforce_files_a3fe76" xml:lang="en-us">
+   <title>Uploading or Downloading Salesforce Files</title>
+     <shortdesc>You can upload and download various types of Salesforce files and maintain their versions using</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Salesforce</keyword>
+        <keyword>Files</keyword>
+        <keyword>files</keyword>
+        <keyword>upload</keyword>
+        <keyword>AppData</keyword>
+        <keyword>using</keyword>
+        <indexterm>Salesforce</indexterm>
+        <indexterm>Files</indexterm>
+        <indexterm>files</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>You can upload and download various types of Salesforce files and maintain their versions using X-Author for Excel. Files can be configured in an app using Content Version object. The fields configured in Display Map and Save Map are rendered and displayed in runtime as shown below.</p><fig>
+         <title>98667736</title>
+         <image href="../attachments/98667716/98667736.png" width="1159" height="472" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig><p>All you need to do is add the following required fields to the Display Map, and—if you are uploading attachments—the Save Map, as part of the Content Version object.</p><ul>
+         <li>Version Data</li>
+         <li>Title</li>
+         <li>Path On Client</li>
+         <li>File Type</li>
+         <li>File Extension</li>
+      </ul><p>If any of these fields are not added, the system displays a validation message.</p><fig>
+         <title>98667738</title>
+         <image href="../attachments/98667716/98667738.png" width="691" height="325" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig><p>Downloaded files are located in <b>%AppData%\Local\</b>, where %AppData% is the location of the logged-in user's AppData directory in Windows (for example, C:\Users\bdwyer\AppData). You can upload files from anywhere on your workstation, though. To upload a file, you need to provide the full path to the document and the document name as shown in the above example.</p><ul>
+         <li>
+            <p>In Salesforce, all the files are displayed in the Files tab.</p>
+         </li>
+      </ul><fig>
+         <title>98667737</title>
+         <image href="../attachments/98667716/98667737.png" width="1366" height="728" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig>
+  </context></taskbody>
+</task>

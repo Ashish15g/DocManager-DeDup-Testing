@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="prerequisites_3dc712" xml:lang="en-us">
+   <title>Prerequisites</title>
+   <shortdesc>Rakesh Singh Make sure that the application type is Power Admin .</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>query</keyword>
+        <keyword>action</keyword>
+        <keyword>Data</keyword>
+        <keyword>filters</keyword>
+        <keyword>ensure</keyword>
+        <keyword>Action</keyword>
+        <indexterm>query</indexterm>
+        <indexterm>action</indexterm>
+        <indexterm>Data</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Make sure that the application type is <b>Power Admin</b>. The Data Set Action can be only executed in applications that have the Power Admin edition.</cmd>
+         </step>
+         <step>
+            <cmd>For all queries that cross the limit of 20K, split the query into separate query actions. Ensure that your split query meets the following criteria:</cmd>
+         </step>
+         <step>
+            <cmd>Complete this step.</cmd>
+            <info>
+               <ul>
+                  <li>If there are two 'IN' filters or 'NOT IN' filters and if the query crosses the limit of 20K, ensure that you: Separate the 'IN' clause from the query and create a different query action. Create two separate Query Actions each having a single 'IN' filter. While creating an action flow and selecting a query action, ensure that the Persist Data in Output checkbox is selected. Using the Data Set action procedure below, merge the data retrieved by both the query action in a single Data Set using a Data Set Action. You can choose to use the 'OR' clause or 'AND' clause to merge the data into a Data Set.</li>
+                  <li>If there are two or more 'IN' filters or 'NOT IN' filters and if the query crosses the limit of 20K, ensure that you: Separate the 'IN' clauses into a separate query action. While creating an action flow and selecting a query action, ensure that the Persist Data in Output checkbox is selected. Using the Data Set action procedure below, merge the output of those query action flows using a Data Set Action into a single data set.</li>
+               </ul>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

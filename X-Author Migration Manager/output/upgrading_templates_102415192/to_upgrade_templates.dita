@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_upgrade_templates_a566fe" xml:lang="en-us">
+   <title>To upgrade templates</title>
+   <shortdesc>Use an existing migration configuration is typically used for migrations and not upgrades.</shortdesc>
+   <prolog>
+      <author type="creator">user-090d1</author>
+      <critdates>
+         <revised modified="Jul 23, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>upgrade</keyword>
+        <keyword>Author</keyword>
+        <keyword>Migration</keyword>
+        <keyword>Click</keyword>
+        <keyword>Manager</keyword>
+        <keyword>Next</keyword>
+        <indexterm>upgrade</indexterm>
+        <indexterm>Author</indexterm>
+        <indexterm>Migration</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to the Windows <b>Start </b>menu and select <b>Apttus &gt; X-Author Migration Manager</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select <b>Create a new migration configuration</b>.</cmd>
+            <info>
+               <note type="note">
+                  <p>
+                     <b>Use an existing migration configuration </b>is typically used for migrations and not upgrades.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Next</b>, select <b>Upgrade Templates to support Unique Identifier </b>and click <b>Next</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Authorize </b>to display the Manage Connections window. The listed available connections are those you have already configured on your machine, via either X-Author Migration Manager or X-Author Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Connect </b>for the user with the appropriate permissions to use the Migration Manager.</cmd>
+            <info>
+               <p>Enter a new user and Login URL and click <b>Authorize</b>.</p>
+            </info>
+            <info>
+               <p>If the above action is successful, the Manage Connections window closes and returns you to the X-Author Migration Configuration Wizard. If you do not connect successfully, verify that you have entered the correct username and URL.</p>
+            </info>
+            <info>
+               <section id="sec_d158e91">
+                  <p>- OR -</p>
+               </section>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Next </b>to display the Upgrade Summary page and click <b>Finish</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The upgrade runs and displays the progress for each template that is updated. Each upgrade creates a log file which you can review to see the specifics for the upgrade.</p>
+      </result>
+   </taskbody>
+</task>

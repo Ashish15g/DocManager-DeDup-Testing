@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="post_installationupgrade_tasks_6ac78b" xml:lang="en-us">
+   <title>Post Installation/Upgrade Tasks</title>
+   <shortdesc>After installing or upgrading X-Author for Excel, you must complete the following tasks before you</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Author</keyword>
+        <keyword>Excel</keyword>
+        <keyword>Apps</keyword>
+        <keyword>users</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>After</keyword>
+        <indexterm>Author</indexterm>
+        <indexterm>Excel</indexterm>
+        <indexterm>Apps</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>After installing or upgrading X-Author for Excel, you must complete the following tasks before you start working with X-Author for Excel.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Setting up Permission Sets: Based on your requirement, you must set up Permission Sets for <xref href="../getting_started_with_x_author_98667661/getting_started_with_xauthor_for_excel.dita">Designerand Runtime</xref> users. After permission sets are created, you must assign the permission sets to users for accessing Apps.</cmd>
+            <info>
+               <note type="note">
+                  <p>It is recommended to use a single permission set approach.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Migrating Apps: X-Author for Excel Designer has built-in capability for migrating apps. For detailed information, see <xref href="../importing_and_exporting_an_app_98667712/importing_and_exporting_an_application.dita">Importing and Exporting an Application</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>Assigning Licenses (Production only): X-Author for Excel license is controlled by the Salesforce License Management App. For details, see <xref href="../getting_started_with_x_author_98667661/getting_started_with_xauthor_for_excel.dita">License Information</xref>.</cmd>
+            <info>
+               <ul>
+                  <li>Runtime users need to be assigned X-Author for Excel license in Production.</li>
+                  <li>Designer users will need to be assigned both X-Author for Excel and X-Author Designer for Excel licenses in Production.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Assigning Apps (Production only): X-Author for Excel App has additional security that authenticates runtime users and profiles to access designated Apps. For detailed instructions on assigning Apps, see <xref href="../activating_and_assigning_apps_98667701/activating_and_assigning_apps.dita">Assigning Apps to Runtime Users</xref>. You may also use the user assignment app to assign App access in bulk.</cmd>
+         </step>
+         <step>
+            <cmd>Enable the Licences in Salesforce: After you install the X-Author for Excel Salesforce packages, you must send your Org ID to Conga. By default, when X-Author for Excel is installed, the lowest level of license is provisioned. After Conga has upgraded functionality in your environments, take the following steps to enable X-Author functionality according to your license:Log in to Salesforce.Click on the <b>Conga X-Author for Excel</b> tab.Click <b>Refresh License</b>.</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Log in to Salesforce.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click on the <b>Conga X-Author for Excel</b> tab.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click <b>Refresh License</b>.</cmd>
+               </substep>
+            </substeps>
+         </step>
+      </steps>
+   </taskbody>
+</task>

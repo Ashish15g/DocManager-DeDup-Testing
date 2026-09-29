@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_add_the_excel_app_setup_button_in_salesforce_f2a6fd" xml:lang="en-us">
+   <title>To add the Excel App Setup button in Salesforce</title>
+   <shortdesc>Designers must have the Excel App Setup button added to their layout on the Apps</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Salesforce</keyword>
+        <keyword>Excel</keyword>
+        <keyword>Setup</keyword>
+        <keyword>button</keyword>
+        <keyword>Apps</keyword>
+        <keyword>List</keyword>
+        <indexterm>Salesforce</indexterm>
+        <indexterm>Excel</indexterm>
+        <indexterm>Setup</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>Designers must have the Excel App Setup button added to their layout on the Apps List view to use the Launch from Salesforce feature.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Log in to Salesforce and go to <b>Setup &gt; Create &gt; Objects</b> and click <b>App</b>.</cmd>
+         </step>
+         <step>
+            <cmd>From the top of the page, click <b>Search Layouts.</b>
+            </cmd>
+            <info>
+               <fig>
+                  <title>98668051</title>
+                  <image href="../attachments/98667667/98668051.png" width="869" height="206" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Edit</b> next to Apps List View and move Excel App Setup to Selected Buttons.</cmd>
+            <info>
+               <fig>
+                  <title>98668050</title>
+                  <image href="../attachments/98667667/98668050.png" width="345" height="267" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <ul>
+            <li>For step-by-step instructions on launching an app from Salesforce, refer to <xref href="../launching_an_x_author_for_exce_98667728/launching_an_xauthor_for_excel_app_from_salesforce.dita">Launching an X-Author for Excel App from Salesforce</xref>.</li>
+            <li>For step-by-step instructions on activating and assigning apps, refer to <xref href="/pages/createpage.action?spaceKey=XAEWIN18&amp;title=Activating+and+Assigning+Apps+in+Salesforce&amp;linkCreation=true&amp;fromPageId=98667667">Activating and Assigning Apps in Salesforce</xref>.</li>
+         </ul>
+      </result>
+   </taskbody>
+</task>

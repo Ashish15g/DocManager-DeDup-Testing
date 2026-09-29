@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_enable_xauthor_for_proxyauthentication_d3ffac" xml:lang="en-us">
+   <title>To enable X-Author for proxyauthentication</title>
+   <shortdesc>Description</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Author</keyword>
+        <keyword>proxy</keyword>
+        <keyword>Click</keyword>
+        <keyword>settings</keyword>
+        <keyword>click</keyword>
+        <keyword>Settings</keyword>
+        <indexterm>Author</indexterm>
+        <indexterm>proxy</indexterm>
+        <indexterm>Click</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Excel and click on either the X-Author Designer or X-Author for Excel tab. </cmd>
+         </step>
+         <step>
+            <cmd>Click<b> Settings </b>and click<b> Settings</b> again.</cmd>
+         </step>
+         <step>
+            <cmd>Under the "Proxy Settings" section, choose one of the options described in the following table. </cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Setting</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>No proxy</p>
+                           </entry>
+                           <entry>
+                              <p>Click this radio button if you do not use a proxy connection.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Use system proxy</p>
+                           </entry>
+                           <entry>
+                              <p>Click this radio button to use the Microsoft Internet Options setting to determine your proxy server settings. If you choose this option, X-Author will automatically resolve the connection so that you can successfully login to X-Author and connect to your environment. <i>This is the default setting.</i>
+                              </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Manual proxy configuration</p>
+                           </entry>
+                           <entry>
+                              <p>Click this radio button to enter settings for the proxy server you will be using. If you choose this option, you must enter the address and port number of your proxy server in the <b>Proxy Address to Use</b> and <b>Port</b> fields, respectively. If you are required to provide authentication information, click the <b>Authenticated</b> check box and enter a user name and password in the provided fields.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>OK</b> to apply settings and <b>Close </b>to return to X-Author.
+</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Your system proxy settings are now associated with X-Author Designer and will take effect the next time you log in.
+</p>
+      </result>
+   </taskbody>
+</task>

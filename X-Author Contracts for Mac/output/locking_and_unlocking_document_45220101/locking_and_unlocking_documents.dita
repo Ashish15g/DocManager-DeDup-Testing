@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="locking_and_unlocking_documents_889934" xml:lang="en-us">
+   <title>Locking and Unlocking Documents</title>
+     <shortdesc>When you check out a document in X-Author, the document is locked for editing and</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Jun 02, 2017"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>document</keyword>
+        <keyword>check</keyword>
+        <keyword>agreement</keyword>
+        <keyword>locked</keyword>
+        <keyword>checked</keyword>
+        <keyword>Locking</keyword>
+        <indexterm>document</indexterm>
+        <indexterm>check</indexterm>
+        <indexterm>agreement</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>When you check out a document in X-Author, the document is locked for editing and cannot be checked out by anyone else. Anyone with proper permissions for the document's agreement record can still view and/or download the document, but they cannot make edits and check the document back in while you have it locked.</p>
+      <p>You can always check the lock status of a document by clicking on the <image href="../attachments/45220101/49676309.png" placement="inline" width="26" height="29">
+               <alt>placeholder</alt>
+            </image>
+         
+         <b>Lock Status</b> tab.</p>
+      <p>Locks can only be released when a user either manually releases the lock, or checks the document into Salesforce.</p>
+      <p>By default, document locks are used for agreement documents. However, if the Comply System Property <b>Use Agreement Locks for Versioning </b>is enabled the agreement will be locked instead of a single document. This means that while you or anyone else has a document checked out that no other documents for the same agreement record can be checked out. Be sure to check whether or not this property is enabled before you begin editing a contract document.</p>
+   </conbody>
+</concept>

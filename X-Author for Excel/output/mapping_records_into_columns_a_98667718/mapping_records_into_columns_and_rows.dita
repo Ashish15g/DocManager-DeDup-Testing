@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="mapping_records_into_columns_and_rows_a0e715" xml:lang="en-us">
+   <title>Mapping Records into Columns and Rows</title>
+   <shortdesc>Matrix maps extend the capabilities of X-Author for Excel well beyond the list format. In</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <critdates>
+         <revised modified="Jan 30, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>field</keyword>
+        <keyword>matrix</keyword>
+        <keyword>section</keyword>
+        <keyword>column</keyword>
+        <keyword>mapping</keyword>
+        <keyword>value</keyword>
+        <indexterm>field</indexterm>
+        <indexterm>matrix</indexterm>
+        <indexterm>section</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section id="sec_d1557e18">
+         <p>Matrix maps extend the capabilities of X-Author for Excel well beyond the list format. In lists, one record is represented per Excel row or column. Using matrices, a record can be represented by one or more cells by mapping columns and rows (the X and Y axes) of a matrix as well as the data contained in the cell at the intersection of the mapped column and row. Depending on the design, some matrix cells may be updatable by a user. If no value exists in that cell, adding a value can create a new record depending on the matrix design. The following table describes the basic elements of Matrix Maps.</p>
+      </section>
+      <table>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <p>Term</p>
+                  </entry>
+                  <entry>
+                     <p>Definition</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Matrix</p>
+                  </entry>
+                  <entry>
+                     <p>A matrix is any area comprised of one or more sections.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Section</p>
+                  </entry>
+                  <entry>
+                     <p>A section is an area of the matrix that represents a single record. It can include one or many row-column-data combinations. Every matrix has at least one section. Each section can also have its own section filters.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Column mapping</p>
+                  </entry>
+                  <entry>
+                     <p>A column mapping is created when you drag a field to the worksheet from a List object. The value in the cell can either be a static field label, a static field value, or a dynamic field value.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Row mapping</p>
+                  </entry>
+                  <entry>
+                     <p>A row mapping is created when you drag a field to the worksheet from a List object. The value in the cell can either be a static field label, a static field value, or a dynamic field value.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Data mapping</p>
+                  </entry>
+                  <entry>
+                     <p>A data mapping is created when you drag a field to the worksheet from a List object. It must be created <b>after</b> the column and row mappings are in place. Each data mapping with its column and row mappings must be its own section or must be added to an existing section.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Matrix filters</p>
+                  </entry>
+                  <entry>
+                     <p>Matrix filters are part of the data-getter actions and filter the data as it moves from your environment into the matrix. Matrix filters can be displayed above the matrix or elsewhere in the workbook.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <section id="sec_d1557e134">
+         <ul>
+            <li>A section is simply any combination of a column and/or a row and the associated data cells, either with or without filters, that represents a single record.</li>
+            <li>A section may also be that same column-and-row-plus-data combination with the addition of filters.</li>
+            <li>There can be an unlimited number of sections in a matrix and an unlimited number of matrices in a worksheet.</li>
+            <li>The data values can be static or dynamic and can be either field names or field values from one or more objects.</li>
+            <li>Filters can be applied to an entire matrix through both the Query action and the Search or Select action, or they can be applied separately for each section.</li>
+            <li>Empty rows or columns, with or without formulas, can be added.</li>
+            <li>Data is saved via Save Maps which are associated with Sections, not fields.</li>
+         </ul>
+      </section>
+   </refbody>
+</reference>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="option_1_create_a_custom_button_with_a_launch_script_for_salesforce_classic_users_f382cd" xml:lang="en-us">
+   <title>Option 1: Create a custom button with a launch script (For Salesforce classic Users)</title>
+   <shortdesc>Display Type</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>button</keyword>
+        <keyword>custom</keyword>
+        <keyword>Name</keyword>
+        <keyword>Click</keyword>
+        <keyword>display</keyword>
+        <keyword>parent</keyword>
+        <indexterm>button</indexterm>
+        <indexterm>custom</indexterm>
+        <indexterm>Name</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <b>Setup &gt; Create &gt; Object &gt; Buttons, Links, and Actions</b>. (for standard objects, go to Customize &gt; Object &gt; Buttons Links, and Actions)</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>New Button or Link</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the Label. Name is auto-populated.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the Description of the button to help users understand the button.</cmd>
+         </step>
+         <step>
+            <cmd>Select a Display Type for the button.</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Display Type</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Detail Link Page</p>
+                           </entry>
+                           <entry>
+                              <p>To display the custom button as a link</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Detail Page Button</p>
+                           </entry>
+                           <entry>
+                              <p>To display the custom button as a detail button. For example, to display the custom button with Edit, Delete, Cancel, and Clone buttons.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>List Button</p>
+                           </entry>
+                           <entry>
+                              <p>To display the custom button as a list button. For example, to display the custom button with Merge Contacts, New, Add to Categories and so on.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Click the Behavior drop-down and select <b>Execute JavaScript</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <b>Content Source</b> and select <b>OnClick JavaScript</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the following JavaScript code in the Formula Editor:</cmd>
+            <info>
+               <ul>
+                  <li>parentId – id of the context object or related parent object where the button is placed.</li>
+                  <li>hostURL – top domain name of the Salesforce URL</li>
+                  <li>appId – App's unique id taken from any app record.</li>
+                  <li>actionflowName – (Optional) Name of the action flow to execute when the App launches.</li>
+               </ul>
+            </info>
+            <info>
+               <p>Change the following in the above code to refer to your app and action flow:</p>
+            </info>
+            <info>
+               <fig>
+                     <title>98667996</title>
+                     <image href="../attachments/98667728/98667996.png" placement="break" width="1035" height="773">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+            <info>
+               <note type="note">
+                  <p> Expand source</p>
+                  <codeblock xml:space="preserve">{!REQUIRESCRIPT("/xdomain/xdomain.js")} 
+{!REQUIRESCRIPT("/soap/ajax/26.0/connection.js")} 
+{!REQUIRESCRIPT("/support/console/28.0/integration.js")} 
+
+var parentId = "{!Opportunity.Id}"; 
+var hostUrl = "https://na16.salesforce.com"; 
+var appId = "e4a933ff-6648-46ae-80b8-a4e66c6f7d29" 
+var actionflowName = "TestActionFlow2" 
+var sessionId = '{!GETSESSIONID()}'; 
+
+try {
+ sforce.connection.sessionId = "{!$Api.Session_ID}"; //to avoid session timeout 
+} catch(e) { 
+ erroralert(cERROR_UNKNOWN,e); 
+}
+
+var urlVal = ('xauthorforexcel:export '+ appId + ' ' + parentId + ' ' + sessionId + ' ' + hostUrl + ' ' + actionflowName); 
+window.top.location.href =urlVal;</codeblock>
+               </note>
+            </info>
+            <info>
+               <note type="tip">
+                  <p>We recommend the use of a named action flow (actionflowName) when the same app with all its mappings needs to be launched from different object records. This prevents the need to clone copies of the same app and helps in better maintainability.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Check Syntax</b> to verify that no errors have been made in the script.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

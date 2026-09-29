@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="inserting_clauses_ff077a" xml:lang="en-us">
+   <title>Inserting Clauses</title>
+     <shortdesc>Playbook lists all clauses available for the specific agreement type associated with the document. Clause</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Oct 10, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>clause</keyword>
+        <keyword>agreement</keyword>
+        <keyword>document</keyword>
+        <keyword>When</keyword>
+        <keyword>insert</keyword>
+        <keyword>specific</keyword>
+        <indexterm>clause</indexterm>
+        <indexterm>agreement</indexterm>
+        <indexterm>document</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>Playbook lists all clauses available for the specific agreement type associated with the document. Clause content typically includes only static text, but it can also contain smart fields, including header level and lookup merge fields. When you insert a clause that contains smart fields, field values are automatically populated with values from the associated Salesforce agreement record.</p>
+      <p>When you insert an agreement clause into a document, it is only valid for that specific agreement document.</p>
+      <p>To view the content of a clause listed in the Playbook panel, click on the <b>Clause Name</b>. A section displaying the Text of the clause is displayed below the clause list. Click on the clause text to scroll.</p>
+      <fig>
+         <title>49676322</title>
+         <image href="../attachments/45220128/49676322.png" height="1221" width="671" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig>
+   </conbody>
+</concept>

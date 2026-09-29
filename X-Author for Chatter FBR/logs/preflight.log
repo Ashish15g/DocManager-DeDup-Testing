@@ -1,0 +1,54 @@
+================================================================================
+ metR HTML DocMigrate — PRE-FLIGHT REPORT
+================================================================================
+ Total HTML Files  : 6
+ Total Media Files     : 1
+
+ Started               : 2026-08-20 06:49:22 UTC
+ Completed             : 2026-08-20 06:49:22 UTC
+ Duration              : <1s
+ Overall Status        : SUCCESS WITH WARNINGS
+--------------------------------------------------------------------------------
+
+2026-08-20T06:49:22 [INFO] STEP 2: Preflight checks (6 files)
+2026-08-20T06:49:22 [INFO] Pre-flight [109962850.html]: errors=0 warnings=1 infos=1 | PASS
+2026-08-20T06:49:22 [INFO] Preflight OK: 109962850.html
+2026-08-20T06:49:22 [INFO] Pre-flight [109962860.html]: errors=0 warnings=1 infos=0 | PASS
+2026-08-20T06:49:22 [INFO] Preflight OK: 109962860.html
+2026-08-20T06:49:22 [INFO] Pre-flight [apttus_copyright_disclaimer_109962852.html]: errors=0 warnings=0 infos=1 | PASS
+2026-08-20T06:49:22 [INFO] Preflight OK: apttus_copyright_disclaimer_109962852.html
+2026-08-20T06:49:22 [INFO] Pre-flight [features_list_109962851.html]: errors=0 warnings=0 infos=0 | PASS
+2026-08-20T06:49:22 [INFO] Preflight OK: features_list_109962851.html
+2026-08-20T06:49:22 [INFO] Pre-flight [x_author_for_chatter_on_salesforce_features_by_release_109962849.html]: errors=0 warnings=1 infos=1 | PASS
+2026-08-20T06:49:22 [INFO] Preflight OK: x_author_for_chatter_on_salesforce_features_by_release_109962849.html
+2026-08-20T06:49:22 [INFO] Pre-flight [index.html]: errors=0 warnings=1 infos=0 | PASS
+2026-08-20T06:49:22 [INFO] Preflight OK: index.html
+2026-08-20T06:49:22 [INFO] Preflight done: 6 checked, 0 blocked
+
+
+CHECKS
+--------------------------------------------------------------------------------
+ File                                    Rule
+--------------------------------------------------------------------------------
+ 109962850.html                          CHECK_MULTIPLE_H1
+                                         Multiple <h1> elements found (2) — only
+                                         first will be used as DITAMAP title
+
+ 109962860.html                          CHECK_MULTIPLE_H1
+                                         Multiple <h1> elements found (2) — only
+                                         first will be used as DITAMAP title
+
+ x_author_for_chatter_on_salesforce_features_by_release_109962849.html
+                                         CHECK_MULTIPLE_H1
+                                         Multiple <h1> elements found (2) — only
+                                         first will be used as DITAMAP title
+
+ index.html                              CHECK_MISSING_ALT
+                                         <img> missing alt attribute: images/ico
+                                         ns/contenttypes/home_page_16.png
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ 6 HTML files checked with 4 warning(s) and 0 non-blocking error(s).
+================================================================================
+Success: Pre-flight analysis completed successfully.
+================================================================================

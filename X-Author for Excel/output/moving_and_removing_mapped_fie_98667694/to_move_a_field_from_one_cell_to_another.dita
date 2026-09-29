@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_move_a_field_from_one_cell_to_another_3e168f" xml:lang="en-us">
+   <title>To move a field from one cell to another</title>
+   <shortdesc>Rakesh Singh Close all open Display Maps and Save Maps.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>field</keyword>
+        <keyword>Display</keyword>
+        <keyword>Save</keyword>
+        <keyword>mapped</keyword>
+        <keyword>label</keyword>
+        <keyword>another</keyword>
+        <indexterm>field</indexterm>
+        <indexterm>Display</indexterm>
+        <indexterm>Save</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Close all open Display Maps and Save Maps.</cmd>
+         </step>
+         <step>
+            <cmd>Place your cursor in the cell to be moved. Right-click on the cell and select <b>Cut</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Place your cursor in the target cell. Make sure there is not already a mapped field in that cell. Right-click on the cell and select <b>Paste</b>.</cmd>
+         </step>
+         <step>
+            <cmd>The label (which may be above or alongside the field) will also need to be moved or just re-entered. Moving the label does not move the data field itself. You can simply drag the label to the new location; it has no impact on the Display Map.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save App</b>. This last step relocates the field mapping.</cmd>
+         </step>
+         <step>
+            <cmd>Open the Display Map or Save Map that contains the mapped field or fields. The Mapped Details pane shows the new mapped cell locations.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

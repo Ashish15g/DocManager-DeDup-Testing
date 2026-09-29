@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_attach_a_file_in_salesforce_to_a_new_emails_0fd44f" xml:lang="en-us">
+   <title>To attach a file in Salesforce to a new emails</title>
+   <shortdesc>Prerequisites</shortdesc>
+   <prolog>
+      <author type="creator">user-0266f</author>
+      <critdates>
+         <revised modified="Nov 05, 2018"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>attach</keyword>
+        <keyword>click</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>emails</keyword>
+        <keyword>Outlook</keyword>
+        <keyword>select</keyword>
+        <indexterm>attach</indexterm>
+        <indexterm>click</indexterm>
+        <indexterm>Salesforce</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>
+            <b>Prerequisites</b>
+         </p>
+         <p>The X-Author Outlook add-in must have been installed and you are connected.</p>
+         <p>
+            <b>Steps</b>
+         </p>
+      </context>
+      <steps>
+         <step>
+            <cmd>In Outlook, click <b>New E-mail</b> and from the <b>Message</b> tab select Attach Salesforce File.
+
+The default is to use Chatter files. To change this to Attachments, click <b>Show Criteria</b> and select <b>Attachments.</b>
+            </cmd>
+            <info>
+               <fig>
+                  <title>98671240</title>
+                  <image href="../attachments/98671234/98671240.jpg" width="288" height="97" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter a name or partial name for the object record which contains the file you want to attach and click.</cmd>
+            <info>
+               <image href="../attachments/98671234/98671239.jpg" width="21" height="16" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Select</b> beside the object that contains the file and then click <b>Open</b> besides the file you want to attach.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>
+            <b>Results</b>
+         </p>
+         <p>The file is now attached to the draft email.</p>
+         <p>
+            <b>What's Next</b>
+         </p>
+         <p>You can repeat the task to attach another file or send the email.</p>
+      </result>
+   </taskbody>
+</task>

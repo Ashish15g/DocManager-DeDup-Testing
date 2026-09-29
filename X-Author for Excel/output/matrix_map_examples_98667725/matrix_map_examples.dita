@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="matrix_map_examples_eee700" xml:lang="en-us">
+   <title>Matrix Map Examples</title>
+     <shortdesc>The following examples illustrate some of the capabilities of matrices. The first example uses three</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>object</keyword>
+        <keyword>field</keyword>
+        <keyword>values</keyword>
+        <keyword>example</keyword>
+        <keyword>intersecting</keyword>
+        <keyword>GLAccount</keyword>
+        <indexterm>object</indexterm>
+        <indexterm>field</indexterm>
+        <indexterm>values</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>The following examples illustrate some of the capabilities of matrices. The first example uses three objects Budgettrx, GLAccount, and FiscalYear. The objective is to retrieve the Amount field from the Budgettrx object for all Marketing Accounts in the GLAccount object and for each Fiscal Period in Fiscal Year 14.</p>
+      <fig>
+         <title>98668013</title>
+         <image href="../attachments/98667725/98668013.png?effects=drop-shadow" width="291" height="250" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig>
+      <ul>
+         <li>Each intersecting cell is one record from the BudgetTrx object. </li>
+         <li>The data is filtered for the entire matrix to return only Marketing Department data for January 2014 – March 2014.</li>
+         <li>Both the X and Y values are dynamically generated based on “Marketing Department” and FY 14 filters.</li>
+         <li>There is only one section in the matrix comprised of:Y axis values using the AccountName field values in the GLAccount object.X axis values using the FiscalPeriod field values from the FiscalYear object.The XY intersection, which contains the Amount field from the BudgetTrx object.</li>
+      </ul>
+      <p>The second example is a financial plan from a single object where the columns and rows are static field values and the intersecting cell is the Amount field in that object. </p>
+      <fig>
+         <title>98668014</title>
+         <image href="../attachments/98667725/98668014.png?effects=drop-shadow" width="607" height="246" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig>
+   </conbody>
+</concept>

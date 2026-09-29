@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_map_list_object_fields_to_a_display_map_0f240f" xml:lang="en-us">
+   <title>To map List object fields to a Display Map</title>
+   <shortdesc>Note: In this task, you will map List fields to the same Display Map created</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>List</keyword>
+        <keyword>Display</keyword>
+        <keyword>fields</keyword>
+        <keyword>objects</keyword>
+        <keyword>environment</keyword>
+        <keyword>Danny</keyword>
+        <indexterm>List</indexterm>
+        <indexterm>Display</indexterm>
+        <indexterm>fields</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>Note: In this task, you will map List fields to the same Display Map created in the previous task. You can also create a new Display Map for your List fields, but it is often easier, especially with parent-child apps, to use both Individual and List field types in your Display Map.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>From the X-Author Designer ribbon, click <b>Display Map</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Edit</b>. The Display Map panel opens in Excel.</cmd>
+         </step>
+         <step>
+            <cmd>Select <b>List</b> from the Type picklist. All List objects and fields defined in objects are displayed in the panel.</cmd>
+            <info>
+               <fig>
+                     <title>98668178</title>
+                     <image href="../attachments/98667693/98668178.png" placement="break" width="804" height="603">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig></info>
+            <info>
+               <p>
+</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the <b>Vertical</b> check box so that the list of displayed records will be shown from top to bottom. Horizontal layouts are covered in a later section.</cmd>
+         </step>
+         <step>
+            <cmd>Add fields to the Display Map by dragging them from the Display Map panel and dropping them onto the worksheet in the same row. You can search for specific fields using the Search box. Fields are not required to be adjacent to each other, but there must be a start cell and end cell, which forms a <b>List Range</b>. You can also add fields from related objects (such as Account, if you are creating a list of Opportunities). 
+
+</cmd>
+            <info>
+               <fig>
+                  <title>98668175</title>
+                  <image href="../attachments/98667693/98668175.png" width="918" height="297" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <note type="note">
+                  <p>Working with List Ranges</p>
+                  <p>The following rules and guidelines apply when you are mapping List Ranges:</p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="c1"/>
+                        <colspec colname="c2"/>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <b>Must include the record id if you are planning to save data</b>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>If you are planning to save back to your environment any data that has been retrieved into a List Range, you must include the record ID somewhere in the range. The best place to put this field is at the end of the range but it can be placed anywhere.The record ID is used to make sure that the Excel rows and environment records remain connected should the end user sort data in the range.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <b>Formulas in a List Range</b>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>Formulas can be added into either mapped or non-mapped cells in a List Range.Formulas are inserted into the List Range cells as each record is retrieved into the worksheet via the Display Map.Formulas in cells where environment data is being retrieved and displayed will be overwritten by the environment data but are still very useful if you allow users to add rows. This is covered in <i>Adding Rows to Worksheets</i>.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <b>List Rows are Inserted</b>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>As each List environment record is retrieved and displayed, an Excel row is inserted in the workbook.Anything you have placed below or alongside a List Range (for example: a total formula below the range or a pivot table), is pushed down accordingly.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <b>Fields from related objects</b>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>Fields selected from related objects in the hierarchy can also be included on the same row in the List Range. You can select to save related object fields by including them in the Save Map. See <xref href="../working_with_save_maps_98667692/working_with_save_maps.dita">Working with Save Maps</xref> for more information.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <b>List Ranges for different objects</b>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>These can be created below other ranges or on other worksheets.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <b>Grouping and sorting</b>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>Map fields that you want to group by at the left of the list range. See Grouping and Sorting List Ranges for more information.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Close</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save App</b> to save your app.</cmd>
+         </step>
+         <step>
+            <cmd>Danny connects to his environment and opens the Sales Pipeline app.</cmd>
+         </step>
+         <step>
+            <cmd>He clicks <b>Display Map</b> and clicks <b>Create</b> to start a new Display Map.</cmd>
+         </step>
+         <step>
+            <cmd>Danny enters the name "Pipeline Main" for his Display Map and selects <b>List</b> from the Type drop-down.</cmd>
+            <info>
+               <fig>
+                  <title>98668173</title>
+                  <image href="../attachments/98667693/98668173.png" width="640" height="235" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Next, he drags and drops fields from the Account.Opportunity child object list to map them to the Display Map.</cmd>
+            <info>
+               <fig>
+                  <title>98668172</title>
+                  <image href="../attachments/98667693/98668172.png" width="1314" height="661" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Danny chooses to <b>Hide</b> column H. He added the field so that the user can save data back to the environment but he does not want to display it in the worksheet.</cmd>
+         </step>
+         <step>
+            <cmd>Next, Danny adds a formula in D6 to SUM the Opportunity Amounts in D4.</cmd>
+            <info>
+               <fig>
+                  <title>98668171</title>
+                  <image href="../attachments/98667693/98668171.png" width="790" height="202" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Danny clicks <b>Save</b> on the Display Map Panel and clicks <b>Close.</b>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Danny clicks <b>Save App</b> to save all changes to the app.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Rich Text Fields in List Ranges</p>
+         <p>You can insert Rich Text fields in the same way you enter any other field. Rich text fields appear to runtime users as a single link. The link opens an editor that allows the runtime user to modify the Rich Text field. Rich Text fields can only be edited by the runtime user if it is part of a list range (List object field). Rich Text fields of the SaveOnly type cannot be edited.</p>
+         <p>Watch a <xref href="http://info.apttus.com/X-Author-for-Excel-Tutorials-Display-Maps-2.html" scope="external" format="html">video tutorial</xref> on mapping List object fields to a Display Map.</p>
+         <p>Use Case: Sales Pipeline Display Map Part 1</p>
+         <p>Danny Designer is designing an app with Account, Opportunity and User objects for sales persons to use to manage their sales pipeline. He has already selected the objects for the app and now needs to create a Display Map to link data from his environment to the cells in the Excel workbook.</p>
+         <p>Danny takes the following steps to create a Display Map:</p>
+      </result>
+   </taskbody>
+</task>

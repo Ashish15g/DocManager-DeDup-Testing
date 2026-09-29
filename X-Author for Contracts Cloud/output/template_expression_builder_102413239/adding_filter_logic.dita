@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="adding_filter_logic_502456" xml:lang="en-us">
+   <title>Adding Filter Logic</title>
+     <shortdesc>The Expression Builder allows you to Add Row to add more expression conditions, where two</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>logic</keyword>
+        <keyword>expression</keyword>
+        <keyword>filter</keyword>
+        <keyword>Logic</keyword>
+        <keyword>Filter</keyword>
+        <keyword>conditions</keyword>
+        <indexterm>logic</indexterm>
+        <indexterm>expression</indexterm>
+        <indexterm>filter</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>The Expression Builder allows you to <b>Add Row</b> to add more expression conditions, where two or more conditions are joined in the overall expression by the <b>Filter Logic</b>. In the absence of a filter logic, the default relationship between the rows is the Boolean operator AND.</p><p>You can add up to nine rows of condition expressions which can be used in a single expression using the filter logic. The supported filter logic operators are AND and OR. You can use parentheses for setting the precedence. For example, if you have five rows you can create a filter logic like, (((1 AND 3) OR (2 AND 4)) AND 5). To add filter logic click <b>Add Filter Logic</b> and enter your logic in the field. Click <b>Apply Logic</b> to check whether your filter logic expression is correct. If your logic is incorrect, you'll see message in red.</p><fig>
+         <title>102413334</title>
+         <image href="../attachments/102413239/102413334.png" width="981" height="485" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig>
+  </context>
+  <steps id="steps_07121301">
+    <step>
+      <cmd>Click <b>Add</b> to finalize your conditional expression.</cmd>
+    </step>
+  </steps></taskbody>
+</task>

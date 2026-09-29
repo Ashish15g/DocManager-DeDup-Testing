@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_delete_a_read_only_field_5c0815" xml:lang="en-us">
+   <title>To delete a read only field</title>
+   <shortdesc>Now the complete read only field is deleted.</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>field</keyword>
+        <keyword>delete</keyword>
+        <keyword>Select</keyword>
+        <keyword>Delete</keyword>
+        <keyword>Backspace</keyword>
+        <keyword>document</keyword>
+        <indexterm>field</indexterm>
+        <indexterm>delete</indexterm>
+        <indexterm>Select</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Select the read only field in the document (Protection Mode= <i>Full Access)</i>.</cmd>
+         </step>
+         <step>
+            <cmd>Press <b>Delete</b> or <b>Backspace</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the read only field in the document (Protection Mode= <i>
+                  <i>Insert Comments and Track Changes</i>)</i>.</cmd>
+         </step>
+         <step>
+            <cmd>Press <b>Delete</b> or <b>Backspace</b>.</cmd>
+         </step>
+         <step>
+            <cmd>You will see a Microsoft Word's warning message, click <b>Yes</b> to continue with the delete operation.</cmd>
+         </step>
+         <step>
+            <cmd>Go to Microsoft Word ribbon and click <b>Review</b> tab.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Accept</b>, to accept the delete changes. The content control of the read only field is deleted but the text value remains.</cmd>
+         </step>
+         <step>
+            <cmd>Select the text value and again press <b>Delete</b> or <b>Backspace</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Repeat steps 3 and 4. You have to <b>Accept</b> the delete changes twice.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>OR</p>
+         <p>Now the complete read only field is deleted.</p>
+      </result>
+   </taskbody>
+</task>

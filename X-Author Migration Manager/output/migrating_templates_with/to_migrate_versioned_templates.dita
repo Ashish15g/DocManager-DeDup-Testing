@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_migrate_versioned_templates_1292f0" xml:lang="en-us">
+   <title>To migrate versioned templates</title>
+   <shortdesc>The migration process starts and you can see the log and the progress bar.</shortdesc>
+   <prolog>
+      <author type="creator">user-090d1</author>
+      <critdates>
+         <revised modified="Jul 23, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>fields</keyword>
+        <keyword>expression</keyword>
+        <keyword>Click</keyword>
+        <keyword>condition</keyword>
+        <keyword>Next</keyword>
+        <keyword>business</keyword>
+        <indexterm>fields</indexterm>
+        <indexterm>expression</indexterm>
+        <indexterm>Click</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Launch X-Author Migration Manager.</cmd>
+         </step>
+         <step>
+            <cmd>Select <b>Create a new migration configuration...</b> and click<b> Next.</b>
+            </cmd>
+         </step>
+         <step>
+            <cmd>From the Migration Options page, select<b> Migrate Templates from one Org to another </b>and click<b> Next.</b>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Authorize</b> to connect the source org and the target org and click <b>Next</b>.</cmd>
+         </step>
+         <step>
+            <cmd>(Optional) Select the<b> Show mapping of fields page</b> checkbox to view mapping of the fields from the source org to the target org.
+</cmd>
+            <info>
+               <fig>
+                  <title>102428763</title>
+                  <image href="../attachments/102428129/102428763.jpg" width="945" height="472" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>From the Filter Criteria page, use the Expression Builder to form the filter expressions and filter the templates to migrate.Choose the business object context of the template to define qualified expression fields.After you choose the business object, all of the fields in that business object automatically expand, showing you a list of the available fields to choose from. Choose the necessary fields.Each expression condition requires the identification of the field control to which the condition will apply, the operator to be used in the condition, and the value of the field where the condition shall be True.Click <b>Add </b>
+               <b>Row</b> to add more expression conditions, where 2 or more conditions are joined in the overall expression by the Boolean operator AND.Click <b>Show Filter Expression</b> to view the filter expression created.Click <b>Next</b>.</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Choose the business object context of the template to define qualified expression fields.</cmd>
+               </substep>
+               <substep>
+                  <cmd>After you choose the business object, all of the fields in that business object automatically expand, showing you a list of the available fields to choose from. Choose the necessary fields.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Each expression condition requires the identification of the field control to which the condition will apply, the operator to be used in the condition, and the value of the field where the condition shall be True.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click <b>Add </b>
+                     <b>Row</b> to add more expression conditions, where 2 or more conditions are joined in the overall expression by the Boolean operator AND.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click <b>Show Filter Expression</b> to view the filter expression created.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click <b>Next</b>.</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>The Filter Criteria Result page displays the filtered template list. Click <b>Next</b> to continue the migration process.</cmd>
+         </step>
+         <step>
+            <cmd>To save your current configuration, click <b>Save</b> and then click <b>Finish</b> to begin the migration.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The migration process starts and you can see the log and the progress bar.</p>
+         <p>For more details on how to migrate non-versioned templates, refer to <xref href="../migrating_templates_102415193/migrating_templates.dita">Migrating Templates</xref>.</p>
+      </result>
+   </taskbody>
+</task>

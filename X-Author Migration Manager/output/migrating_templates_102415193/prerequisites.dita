@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="prerequisites_651b40" xml:lang="en-us">
+   <title>Prerequisites</title>
+     <shortdesc>You must have upgraded your source org templates.</shortdesc>
+   <prolog>
+      <author type="creator">user-090d1</author>
+      <critdates>
+         <revised modified="Jul 23, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>source</keyword>
+        <keyword>Prerequisites</keyword>
+        <keyword>templates</keyword>
+        <keyword>changes</keyword>
+        <keyword>master</keyword>
+        <keyword>target</keyword>
+        <indexterm>source</indexterm>
+        <indexterm>Prerequisites</indexterm>
+        <indexterm>templates</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>You must have <xref href="../upgrading_templates_102415192/upgrading_templates.dita">upgraded</xref> your source org templates.</p>
+      <p>Also if there are any schema changes or master data changes that have been made in a source org, they should be rolled out to the target org before migrating. For example, Term Exceptions are lookups from Template object and master records must exist in the target org before migration.</p>
+   </conbody>
+</concept>

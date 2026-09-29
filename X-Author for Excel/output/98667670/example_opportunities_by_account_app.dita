@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="example_opportunities_by_account_app_56e54e" xml:lang="en-us">
+   <title>Example: Opportunities by Account App</title>
+     <shortdesc>You will use the following app components to build your new app:</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <metadata>
+         <keywords>
+        <keyword>Action</keyword>
+        <keyword>Account</keyword>
+        <keyword>fields</keyword>
+        <keyword>Opportunities</keyword>
+        <keyword>retrieve</keyword>
+        <keyword>Example</keyword>
+        <indexterm>Action</indexterm>
+        <indexterm>Account</indexterm>
+        <indexterm>fields</indexterm>
+      </keywords>
+      <prodinfo>
+            <prodname>Example</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <taskbody>  <context>
+    <ul>
+            <li>The end user will search for and select an Account.</li>
+            <li>Based on the account selected, the app will automatically retrieve all Opportunities into Excel.</li>
+            <li>For the Account, the app will include the Name and Phone fields.</li>
+            <li>For each Opportunity<i>, </i>the app will include the Name, Amount, Close Date, and Stage fields.</li>
+            <li>Allow the end user to save modifications to the Amount and Stage fields for each Opportunity.</li>
+         </ul><p> You will use the following app components to build your new app:</p><table>
+         <tgroup cols="2">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <thead>
+               <row>
+                  <entry>
+                     <p>Component</p>
+                  </entry>
+                  <entry>
+                     <p>Component Description</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../adding_objects_to_your_app_98667696/adding_objects_to_your_app.dita">Objects</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Account (Individual) and Opportunity (List)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../working_with_display_maps_98667693/working_with_display_maps.dita">Display Map</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Individual and List fields per objectives</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../working_with_save_maps_98667692/working_with_save_maps.dita">Save Map</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Using fields from the Display Map</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../customizing_the_app_experience_98667675/customizing_the_app_experience.dita">Actions</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>Search and Select Action for the AccountQuery Action to retrieve the Opportunities for the AccountDisplay Action to transfer the retrieved data to the Display MapSave Action to save back to the environment any user modifications</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../executing_actions_98667674/executing_actions.dita">Action Flows</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>One Action Flow to retrieve the data and display it and one Action Flow to save the data</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref href="../creating_user_menus_98667673/creating_user_menus.dita">User Menus</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>One button for the user to retrieve opportunities and one to save opportunities to your environment.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </context></taskbody>
+</task>

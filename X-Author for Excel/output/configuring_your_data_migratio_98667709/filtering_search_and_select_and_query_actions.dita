@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="filtering_search_and_select_and_query_actions_b09179" xml:lang="en-us">
+   <title>Filtering Search and Select and Query Actions</title>
+   <shortdesc>To refine the data selected for migration when the user goes through the Data Migration</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>filters</keyword>
+        <keyword>Click</keyword>
+        <keyword>specify</keyword>
+        <keyword>filter</keyword>
+        <keyword>create</keyword>
+        <keyword>Query</keyword>
+        <indexterm>filters</indexterm>
+        <indexterm>Click</indexterm>
+        <indexterm>specify</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>To refine the data selected for migration when the user goes through the Data Migration app Action Flow, you can specify one or more filters for each Object being migrated. The process for defining filters is the same for each action type.</p>
+         <p>To define Filters for an action:</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Click on the  <b>Filter</b> icon next to the corresponding action.</cmd>
+            <info>
+               <image href="../attachments/98667709/98667969.png" width="30" height="24" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>Define one or more filters to apply to data retrieved for the selected Object and its Fields:Use the Expression builder to specify a <b>Value Type</b>, <b>Operator</b>, and <b>Value</b> for your filter.Click <b>Add Row</b> to create an additional filter.Click <b>Add Filter Logic</b> to specify additional logic for the filters you create.
+
+ImportantIn Microsoft Dynamics, define filter logic within brackets. Example: (1 OR 2), ((1 AND 2) OR 3), ((1 OR 2) AND 3)</cmd>
+            <info>
+               <fig>
+                  <title>190354558</title>
+                  <image href="../attachments/98667709/190354558.png" width="692" height="332" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <substeps>
+               <substep>
+                  <cmd>Use the Expression builder to specify a <b>Value Type</b>, <b>Operator</b>, and <b>Value</b> for your filter.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click <b>Add Row</b> to create an additional filter.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click <b>Add Filter Logic</b> to specify additional logic for the filters you create.</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b> when you are finished defining Object and Field filters.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>When building filters, you can only create expressions for Objects and/or Fields already added to the app.</p>
+         <p>For complete instructions on building S&amp;S and Query filters, refer to <xref href="../query_action_98667690/query_action.dita">Query Action</xref>.</p>
+      </result>
+   </taskbody>
+</task>

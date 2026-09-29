@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_mark_a_clause_in_a_template_8baa73" xml:lang="en-us">
+   <title>To mark a clause in a template</title>
+   <shortdesc>Description</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="May 27, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>clause</keyword>
+        <keyword>Select</keyword>
+        <keyword>template</keyword>
+        <keyword>Mark</keyword>
+        <keyword>Clauses</keyword>
+        <keyword>Author</keyword>
+        <indexterm>clause</indexterm>
+        <indexterm>Select</indexterm>
+        <indexterm>template</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Log in to X-Author Contracts and select X-Author Templates from the left-hand navigation.</cmd>
+         </step>
+         <step>
+            <cmd>Go to <b>Start</b> tab in the X-Author Templates pane and search and open a template.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight the content (inline text) of the template that you want to mark as a clause.</cmd>
+         </step>
+         <step>
+            <cmd>After highlighting the content, go to <b>Work Tab&gt; Mark Clauses</b>. If you cannot see the <b>Mark Clauses</b> option in the <b>Work</b> tab, click the more option and select <b>Mark Clauses</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Mark Clause form, specify the following details for marking a clause,</cmd>
+            <info>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Field</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Clause Name</p>
+                           </entry>
+                           <entry>
+                              <p>Enter a new name of the clause.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Category</p>
+                           </entry>
+                           <entry>
+                              <p>Select a category for your clause. The values of the categories are defined by your admin and help in filtering the clauses.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Subcategory</p>
+                           </entry>
+                           <entry>
+                              <p>Select a subcategory for your clause. Options in the list will change based on the category you selected.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Exception</p>
+                           </entry>
+                           <entry>
+                              <p>Select a term exception record from the drop-down list to associate with your clause.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Risk Rating</p>
+                           </entry>
+                           <entry>
+                              <p>Select an appropriate risk rating for your clause. Valid values are:<i>Green</i>
+                                 <i>Red</i>
+                                 <i>Yellow</i>
+                              </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Materially Significant</p>
+                           </entry>
+                           <entry>
+                              <p>Select this check box if you want to make your clause materially significant.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Your clause is successfully marked and acquires content control border. After marking the clause you can go to <b>Work &gt; Template Clauses</b>, to confirm that the marked clause is recognized in the document.</p>
+      </result>
+   </taskbody>
+</task>

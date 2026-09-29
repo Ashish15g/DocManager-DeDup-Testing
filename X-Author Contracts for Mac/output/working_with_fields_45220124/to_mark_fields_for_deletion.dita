@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="to_mark_fields_for_deletion_e20624" xml:lang="en-us">
+   <title>To mark fields for deletion</title>
+   <shortdesc>There will be times in the negotiation when a negotiating party wants to remove language</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Oct 10, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>field</keyword>
+        <keyword>document</keyword>
+        <keyword>fields</keyword>
+        <keyword>smart</keyword>
+        <keyword>marked</keyword>
+        <keyword>deletion</keyword>
+        <indexterm>field</indexterm>
+        <indexterm>document</indexterm>
+        <indexterm>fields</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>There will be times in the negotiation when a negotiating party wants to remove language from an agreement which contains a smart field. Depending on document protection settings, non-Apttus users can remove content from the agreement, but any smart field content removed will not remove the field itself. Follow the instructions on this page to <b>mark fields for removal</b>. You usually want to mark fields for removal when:</p>
+      <ul>
+            <li>An Apttus user marked static text as a field.</li>
+            <li>A Template Admin marked a field as smart.</li>
+            <li>You need to delete a smart clause from an agreement document.</li>
+         </ul>
+      <ol>
+    <li><p>Go to <b>Document &gt; Fields</b>.</p>
+      <fig>
+                  <title>51576879</title>
+                  <image href="../attachments/45220124/51576879.png" width="692" height="702" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li><p>Right-click on a field and select <b>Mark for Deletion.</b>
+               <b>
+</b>
+               <b>
+</b></p>
+      <fig>
+                  <title>51576882</title>
+                  <image href="../attachments/45220124/51576882.png" width="2328" height="735" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li><p>Click <b>Yes</b> on the confirmation dialog that appears. The field is marked with a strikethrough in the document and the Document pane to denote that it has been marked for deletion.</p>
+      <fig>
+                  <title>51576883</title>
+                  <image href="../attachments/45220124/51576883.png" width="2328" height="1260" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li>Complete this action.<b>Check-in</b> the document and choose <b>Reconcile</b>. The field is removed from the document.</li>
+    </ol>
+    </section></refbody>
+</reference>

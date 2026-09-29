@@ -1,0 +1,1590 @@
+{
+  "job_id": "1ee03ee4-f87b-4f5b-9d53-f12a3e3e4623",
+  "mode": "enrich-only",
+  "output_dir": "storage/1ee03ee4-f87b-4f5b-9d53-f12a3e3e4623/xslt_output",
+  "processed_at": "2026-08-20T07:02:55.350159+00:00",
+  "counts": {
+    "dita_files_total": 19,
+    "ditamap_files_total": 11,
+    "topics_reclassified": 9,
+    "issues_fixed_by_zone1": 19,
+    "issues_fixed_by_ai": 13,
+    "issues_remaining": 11,
+    "ai_obligations_missed": 0,
+    "new_issues_by_ai": 6,
+    "pending_suggestions": 31,
+    "alt_text_images_filled": 0,
+    "alt_text_images_skipped": 5,
+    "alt_text_images_scanned": 5
+  },
+  "quality_metrics": {
+    "element_validation_success_pct": 78,
+    "attribute_mapping_success_pct": 50,
+    "href_resolution_success_pct": 100,
+    "table_resolution": {
+      "validated": 3,
+      "total": 3,
+      "success_pct": 100
+    }
+  },
+  "token_usage": {
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "total_cost_usd": 0,
+    "by_model": {}
+  },
+  "element_counts": {
+    "ol": 0,
+    "ul": 10,
+    "table": 3,
+    "image": 4,
+    "crosslink": 6,
+    "hyperlink": 4,
+    "concept": 4,
+    "task": 14,
+    "reference": 0,
+    "topic": 1
+  },
+  "enrichment_summary": [
+    {
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/converting_templates_102415194/converting_templates.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/index/space_details.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/migrating_templates_102415193/prerequisites.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    }
+  ],
+  "alt_text_summary": {
+    "images_filled": 0,
+    "images_skipped": 5,
+    "total_images_scanned": 5
+  },
+  "alt_text_events": {
+    "filled": [],
+    "skipped": [
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "href": "../attachments/102415193/102415226.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "href": "../attachments/102415194/102429236.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+        "href": "../attachments/102415193/102415226.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+        "href": "../attachments/102415193/102429204.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+        "href": "../attachments/102428129/102428763.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      }
+    ]
+  },
+  "structural_issues_remaining": [
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 57
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_migration_manager/index/space_details.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 38
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 63
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_migration_manager/converting_templates_102415194/converting_templates.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 30
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<p> #8 is empty \u2014 remove or add content",
+      "line": 64
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<p> #11 is empty \u2014 remove or add content",
+      "line": 78
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<p> #14 is empty \u2014 remove or add content",
+      "line": 90
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<p> #17 is empty \u2014 remove or add content",
+      "line": 102
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<p> #20 is empty \u2014 remove or add content",
+      "line": 116
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "message": "<p> #23 is empty \u2014 remove or add content",
+      "line": 130
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    }
+  ],
+  "enrichment_quality": {
+    "summary": {
+      "dita_file_count": 19,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "category_counts": {}
+    },
+    "issues": []
+  },
+  "fix_diff": {
+    "fixed_by_zone1": [
+      {
+        "file": "x_author_migration_manager/102428125/whats_new.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/converting_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/index/space_details.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/prerequisites.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita",
+        "fix": "added xml:lang=\"en-us\""
+      }
+    ],
+    "fixed_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+        "message": "<image> #1 (href='../attachments/102428129/102428763.jpg') has no alt text \u2014 required for accessibility",
+        "line": 32
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_migration_manager/index/space_details.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 13
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "message": "<image> #1 (href='../attachments/102415193/102415226.png') has no alt text \u2014 required for accessibility",
+        "line": 23
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "x_author_migration_manager/102428125/whats_new.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 16
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+        "message": "<image> #1 (href='../attachments/102415193/102415226.png') has no alt text \u2014 required for accessibility",
+        "line": 22
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      }
+    ],
+    "ai_obligations_missed": [],
+    "new_issues_introduced_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_migration_manager/converting_templates_102415194/converting_templates.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      }
+    ],
+    "summary": {
+      "pre_enrichment_issue_count": 45,
+      "post_enrichment_issue_count": 17,
+      "backend_error_file_count": 0,
+      "fixed_by_zone1_count": 19,
+      "fixed_by_ai_count": 13,
+      "remaining_count": 11,
+      "ai_obligations_missed_count": 0,
+      "new_issues_count": 6
+    }
+  },
+  "ai_quality_review": {
+    "layer4": {
+      "overall_quality": "fair",
+      "topic_type_accuracy_pct": 0,
+      "recommendations": [],
+      "dita_best_practice_gaps": [],
+      "autofix": {
+        "fixed": [],
+        "flagged": [],
+        "failed": []
+      }
+    },
+    "layer5": {
+      "validation_passed": true,
+      "overall_accuracy_pct": 100,
+      "per_topic_issues": [
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/102428125/whats_new.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'What's New' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 25
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'About X-Author Migration Manager' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Apttus Copyright Disclaimer' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/converting_templates_102415194/converting_templates.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Converting Templates' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To convert Pre-FX2 templates to FX2 templates' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/index/space_details.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Space Details:' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Installing X-Author Migration Manager' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To download X-Author Migration Manager' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To install X-Author Migration Manager' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To launch X-Author Migration Manager' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Migrating Templates' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Migrating Templates and Universal Unique IDs' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/migrating_templates_102415193/prerequisites.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Prerequisites' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To migrate templates between orgs' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Migrating Templates with Versioning' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To migrate versioned templates' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To upgrade templates' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Upgrading Templates' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'X-Author Migration Manager on Salesforce Summer 2019 User Guide' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        }
+      ],
+      "shortdesc_issues": [],
+      "recommendations": [
+        "19 WARNING(s) \u2014 missing id, DOCTYPE, or shortdesc"
+      ],
+      "schema_validation": {
+        "schema_passed": true,
+        "total_files": 19,
+        "valid_files": 19,
+        "invalid_files": 0,
+        "results": [
+          {
+            "file": "whats_new.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "about_xauthor_migration_manager.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "apttus_copyright_disclaimer.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "converting_templates.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_convert_prefx2_templates_to_fx2_templates.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "space_details.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "installing_xauthor_migration_manager.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_download_xauthor_migration_manager.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_install_xauthor_migration_manager.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_launch_xauthor_migration_manager.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "migrating_templates.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "migrating_templates_and_universal_unique_ids.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "prerequisites.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_migrate_templates_between_orgs.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "migrating_templates_with_versioning.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_migrate_versioned_templates.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_upgrade_templates.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "upgrading_templates.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita",
+            "valid": true,
+            "issues": []
+          }
+        ]
+      }
+    }
+  },
+  "element_counts_per_file": [
+    {
+      "file": "x_author_migration_manager/102428125/whats_new.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 3,
+      "hyperlink": 3,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+      "ol": 0,
+      "ul": 2,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/converting_templates_102415194/converting_templates.dita",
+      "ol": 0,
+      "ul": 2,
+      "table": 0,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/index/space_details.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/migrating_templates_102415193/prerequisites.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita",
+      "ol": 0,
+      "ul": 2,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    }
+  ],
+  "pre_clean": {
+    "status": "completed",
+    "summary": {
+      "files_processed": 30,
+      "files_modified": 0,
+      "files_unchanged": 30,
+      "files_failed": 0,
+      "total_fixes_by_type": {}
+    },
+    "per_file": [
+      {
+        "file": "x_author_migration_manager/102428125/whats_new.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/102428125.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/about_x_author_migration_manag_109937029.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/apttus_copyright_disclaimer_102428127.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/converting_templates.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/index/space_details.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/index.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/installing_x_author_migration_102415190.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/prerequisites.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_102415193.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/migrating_templates_with.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/upgrading_templates_102415192.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/x_author_migration_manager.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_migration_manager/x_author_migration_manager_on_102415187.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      }
+    ]
+  },
+  "validation": {
+    "fix_passes": [
+      {
+        "pass": 1,
+        "files_fixed": 3,
+        "total_fixed": 13,
+        "file_results": [
+          {
+            "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+            "violations_in": 5,
+            "fixes_applied": 5,
+            "fix_types": [
+              "image_dims(2)",
+              "image_placement(3)"
+            ],
+            "warnings": [
+              "<b>(20) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">",
+              "<i>(2) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"italic\">"
+            ],
+            "inline_warnings": [
+              {
+                "tag": "b",
+                "count": 20,
+                "lines": [
+                  31,
+                  31,
+                  34,
+                  36,
+                  48,
+                  48,
+                  52,
+                  69,
+                  69,
+                  74,
+                  78,
+                  78,
+                  78,
+                  78,
+                  82,
+                  82,
+                  85,
+                  85,
+                  85,
+                  88
+                ],
+                "message": "<b>(20) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">",
+                "dita2x_replacement": "<ph outputclass=\"bold\">"
+              },
+              {
+                "tag": "i",
+                "count": 2,
+                "lines": [
+                  34,
+                  36
+                ],
+                "message": "<i>(2) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"italic\">",
+                "dita2x_replacement": "<ph outputclass=\"italic\">"
+              }
+            ]
+          },
+          {
+            "file": "x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita",
+            "violations_in": 4,
+            "fixes_applied": 5,
+            "fix_types": [
+              "image_dims(2)",
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita",
+            "violations_in": 2,
+            "fixes_applied": 3,
+            "fix_types": [
+              "image_dims(1)",
+              "image_placement(2)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+            "violations_in": 1,
+            "fixes_applied": 0,
+            "fix_types": [],
+            "warnings": [
+              "<b>(12) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">"
+            ],
+            "inline_warnings": [
+              {
+                "tag": "b",
+                "count": 12,
+                "lines": [
+                  31,
+                  31,
+                  34,
+                  38,
+                  43,
+                  43,
+                  43,
+                  46,
+                  49,
+                  51,
+                  63,
+                  63
+                ],
+                "message": "<b>(12) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">",
+                "dita2x_replacement": "<ph outputclass=\"bold\">"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "files_fixed": 0,
+        "total_fixed": 0,
+        "file_results": [
+          {
+            "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+            "violations_in": 1,
+            "fixes_applied": 0,
+            "fix_types": [],
+            "warnings": [
+              "<b>(20) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">",
+              "<i>(2) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"italic\">"
+            ],
+            "inline_warnings": [
+              {
+                "tag": "b",
+                "count": 20,
+                "lines": [
+                  31,
+                  31,
+                  34,
+                  36,
+                  46,
+                  46,
+                  50,
+                  67,
+                  67,
+                  72,
+                  76,
+                  76,
+                  76,
+                  76,
+                  80,
+                  80,
+                  83,
+                  83,
+                  83,
+                  86
+                ],
+                "message": "<b>(20) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">",
+                "dita2x_replacement": "<ph outputclass=\"bold\">"
+              },
+              {
+                "tag": "i",
+                "count": 2,
+                "lines": [
+                  34,
+                  36
+                ],
+                "message": "<i>(2) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"italic\">",
+                "dita2x_replacement": "<ph outputclass=\"italic\">"
+              }
+            ]
+          },
+          {
+            "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+            "violations_in": 1,
+            "fixes_applied": 0,
+            "fix_types": [],
+            "warnings": [
+              "<b>(12) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">"
+            ],
+            "inline_warnings": [
+              {
+                "tag": "b",
+                "count": 12,
+                "lines": [
+                  31,
+                  31,
+                  34,
+                  38,
+                  43,
+                  43,
+                  43,
+                  46,
+                  49,
+                  51,
+                  63,
+                  63
+                ],
+                "message": "<b>(12) kept as DITA 1.3 \u2014 as per DITA 2.x should be <ph outputclass=\"bold\">",
+                "dita2x_replacement": "<ph outputclass=\"bold\">"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "final_violations": 2,
+    "final_files_with_violations": 2,
+    "final_details": [
+      {
+        "file": "x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita",
+        "doc_type": "task",
+        "gate": 3,
+        "rule_code": "CM-INFO",
+        "severity": "ERROR",
+        "message": "[CM-INFO] <section> is not a permitted child of <info> per the DITA 2.0 DTD. Permitted children: codeph varname userinput dl div fig image lines lq note object ol p pre simpletable sl table ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      },
+      {
+        "file": "x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita",
+        "doc_type": "task",
+        "gate": 3,
+        "rule_code": "CM-INFO",
+        "severity": "ERROR",
+        "message": "[CM-INFO] <section> is not a permitted child of <info> per the DITA 2.0 DTD. Permitted children: codeph varname userinput dl div fig image lines lq note object ol p pre simpletable sl table ul boolean cite keyword ph q term text tm xref state data data-about foreign unknown draft-comment fn indextermref indexterm required-cleanup.",
+        "category": "invalid_inline_element",
+        "source": "dita_validation_gate3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="reconciliation_b0cbb9" xml:lang="en-us">
+   <title>Reconciliation</title>
+     <shortdesc>X-Author provides a reconciliation feature which enables changes made to smart fields in an agreement</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Oct 07, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>document</keyword>
+        <keyword>Author</keyword>
+        <keyword>changes</keyword>
+        <keyword>provides</keyword>
+        <keyword>reconciliation</keyword>
+        <keyword>agreement</keyword>
+        <indexterm>document</indexterm>
+        <indexterm>Author</indexterm>
+        <indexterm>changes</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>X-Author provides a reconciliation feature which enables changes made to smart fields in an agreement document, outside of the Salesforce/X-Author environment, to be reconciled with the data held in the Agreement record in Salesforce.</p>
+      <p>In a typical scenario where an agreement document is sent to an external party for negotiation, the external party will make changes to the document as part of the negotiation. If the changes to the document involve data belonging to the Agreement record, reconciliation provides the mechanism to ensure the values in the document and the Agreement record are reconciled.</p>
+   </conbody>
+</concept>

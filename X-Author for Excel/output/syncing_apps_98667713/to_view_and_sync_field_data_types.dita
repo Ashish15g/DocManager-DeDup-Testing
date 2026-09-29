@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_view_and_sync_field_data_types_061327" xml:lang="en-us">
+   <title>To view and sync field data types</title>
+   <shortdesc>Best Practice</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>types</keyword>
+        <keyword>Sync</keyword>
+        <keyword>field</keyword>
+        <keyword>Click</keyword>
+        <keyword>click</keyword>
+        <keyword>Author</keyword>
+        <indexterm>types</indexterm>
+        <indexterm>Sync</indexterm>
+        <indexterm>field</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author Designer ribbon, open the app you want to sync.</cmd>
+         </step>
+         <step>
+            <cmd>From the Admin section of the X-Author Designer ribbon, click <b>Sync App</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Review the Sync App Summary. Click the link next to Field Data Types in the Summary or on <b># Field Data Types</b> in the sidebar.</cmd>
+         </step>
+         <step>
+            <cmd>Review the list of mismatched field data types. </cmd>
+         </step>
+         <step>
+            <cmd>Double-click on a row to display a pop-up and to view all areas of the App with that field.</cmd>
+            <info>
+               <fig>
+                  <title>98667784</title>
+                  <image href="../attachments/98667713/98667784.png" width="366" height="199" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>To sync incorrect data types with the data types in your environment, select one or more check boxes and click <b>Sync Fields</b>. </cmd>
+         </step>
+         <step>
+            <cmd>Click <b>OK</b> to close the Sync App dialog.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Objects </b>to verify that the field types have been properly synced.</cmd>
+            <info>
+               <fig>
+                  <title>98667786</title>
+                  <image href="../attachments/98667713/98667786.png" width="697" height="250" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd> Click <b>Save App</b> to save your changes.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Best Practice</p>
+         <p>After you have performed all Sync App operations, choose Sync App again to double-check that there are no more mismatches or discrepancies to validate against your environment.</p>
+      </result>
+   </taskbody>
+</task>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_add_the_javascript_code_to_your_solution_c4be52" xml:lang="en-us">
+   <title>To add the JavaScript code to your solution</title>
+   <shortdesc>Rakesh Singh From the Solution you created, select the Web Resources component and click New</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>parent</keyword>
+        <keyword>Unique</keyword>
+        <keyword>click</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>Resource</keyword>
+        <keyword>JavaScript</keyword>
+        <indexterm>parent</indexterm>
+        <indexterm>Unique</indexterm>
+        <indexterm>click</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the Solution you created, select the <b>Web Resources </b>component<b> </b>and click <b>New</b>.</cmd>
+            <info>
+               <fig>
+                  <title>98668026</title>
+                  <image href="../attachments/98667729/98668026.png" width="1036" height="696" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Give your Web Resource a name, e.g., "EditinExcelScript." Enter the same value in the <b>Display Name</b> field.</cmd>
+         </step>
+         <step>
+            <cmd>Select <b>Script (JScript) </b>from the Type picklist and click the <b>Text Editor </b>button.</cmd>
+            <info>
+               <fig>
+                  <title>98668027</title>
+                  <image href="../attachments/98667729/98668027.png" width="836" height="706" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Copy the following code into the Web Resource content Source dialog.</cmd>
+            <info>
+               <note type="note">
+                  <codeblock xml:space="preserve">function OpenInExcel(){
+ try
+ {
+ // Get Record ID of current record user is viewing
+ var parentId = Xrm.Page.data.entity.getId();
+ // Remove curly braces from start and end
+ parentId = parentId.substring(1, parentId.length - 1);
+ // Get Host URL
+ var hostUrl = Xrm.Page.context.getClientUrl();
+ // XAE App unique Id, open App record from Advanced Search and copy Unique Id (Unique Id is Attribute on App Entity) field value here
+ // Do not use RecordId here
+ var appId = "17776ae9-dec3-4781-9111-5c0f0c472ebb"
+ var sessionId = "";
+ var urlVal = ('xauthorforexcel:export '+ appId + ' ' + parentId + ' ' + sessionId + ' ' + hostUrl );
+ window.top.location.href =urlVal;
+ }
+ catch(err)
+ {
+ alert(err.message);
+ }
+}</codeblock>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Replace the App Unique Id in the code with the Unique Id you saved in the previous task.</cmd>
+            <info>
+               <fig>
+                  <title>98668028</title>
+                  <image href="../attachments/98667729/98668028.png" width="716" height="353" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>OK </b>to exit the text editor, then click <b>Save</b> to save the Web Resource.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

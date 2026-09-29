@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="upgrading_templates_d7107a" xml:lang="en-us">
+   <title>Upgrading Templates</title>
+     <shortdesc>When you upgrade to Contract Management from a version earlier to Contract Management 7.0, you</shortdesc>
+   <prolog>
+      <author type="creator">user-090d1</author>
+      <critdates>
+         <revised modified="Jul 23, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>upgrade</keyword>
+        <keyword>Contract</keyword>
+        <keyword>Management</keyword>
+        <keyword>updated</keyword>
+        <keyword>Upgrading</keyword>
+        <keyword>Templates</keyword>
+        <indexterm>upgrade</indexterm>
+        <indexterm>Contract</indexterm>
+        <indexterm>Management</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>When you upgrade to Contract Management from a version earlier to Contract Management 7.0, you must upgrade all of your templates. The following items are updated by the Migration Manager to support the Universal Unique Identifier (UUID) field:</p>
+      <ul>
+         <li>All template records, including clauses.</li>
+         <li>All clause references are updated to point to the UUID instead of the Salesforce ID </li>
+         <li>Document properties </li>
+         <li>Term Exceptions</li>
+      </ul>
+      <p>Although Term Exceptions are also updated with UUIDs, they cannot be automatically migrated. You have to copy these term exception records from the source to other orgs (if multi-org ecosystem is involved) by data loader or other means after the upgrade.</p>
+      <p>
+         <b>Prerequisites</b>
+      </p>
+      <ul>
+         <li>Close all Microsoft Office products before running an upgrade.</li>
+      </ul>
+   </conbody>
+</concept>

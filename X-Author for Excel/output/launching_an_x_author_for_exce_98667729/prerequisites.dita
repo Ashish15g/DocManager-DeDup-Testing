@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="prerequisites_f26dad" xml:lang="en-us">
+   <title>Prerequisites</title>
+     <shortdesc>Before you can open an app in Excel from Dynamics, the associated record must be</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Dynamics</keyword>
+        <keyword>custom</keyword>
+        <keyword>button</keyword>
+        <keyword>Excel</keyword>
+        <keyword>Prerequisites</keyword>
+        <keyword>Before</keyword>
+        <indexterm>Dynamics</indexterm>
+        <indexterm>custom</indexterm>
+        <indexterm>button</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Before you can open an app in Excel from Dynamics, the associated record must be configured with a custom button. An administrator must complete the following tasks in Dynamics:</p>
+  </context>
+  <steps id="steps_065710">
+    <step>
+      <cmd>Import the <b>Ribbon Workbench</b> solution into your Dynamics org.</cmd>
+    </step>
+    <step>
+      <cmd>Make a note of the <b>App Unique Id</b> to reference in the script that invokes Excel.</cmd>
+    </step>
+    <step>
+      <cmd>Create a new unmanaged solution for all applications or a given entity in your Dynamics org and load it into the Ribbon Workbench.</cmd>
+    </step>
+    <step>
+      <cmd>Add and define your custom button to the ribbon, including custom button images.</cmd>
+    </step>
+  </steps></taskbody>
+</task>

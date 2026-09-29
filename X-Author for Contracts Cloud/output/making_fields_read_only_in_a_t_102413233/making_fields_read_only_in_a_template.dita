@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="making_fields_read_only_in_a_template_3d8a7f" xml:lang="en-us">
+   <title>Making Fields Read Only in a Template</title>
+     <shortdesc>The Read Only fields are the fields with content control border and their values can</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="May 13, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>fields</keyword>
+        <keyword>Read</keyword>
+        <keyword>agreement</keyword>
+        <keyword>Only</keyword>
+        <keyword>values</keyword>
+        <keyword>document</keyword>
+        <indexterm>fields</indexterm>
+        <indexterm>Read</indexterm>
+        <indexterm>agreement</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>The Read Only fields are the fields with content control border and their values can be updated after document generation only using <b>Update from CLM</b>. These fields are different from smart fields and merge fields in that they are not inline like merge fields and their values cannot be edited like smart fields.</p><p>If you have generated an agreement document using a template containing the read-only fields and later want to update the values of the field without generating or regenerating another document, you can click Update from CLM and the values of the read-only fields will be updated from the Contract Management agreement record. This is useful when you need to use the same agreement as a baseline document for creating another agreement with the same content but for a different agreement record. All the fields which are not marked as smart but need to be updated with the values from the new agreement record can be made read-only fields.</p><p>Read Only fields have the following characteristics:</p><ul>
+            <li>Any field can be made a read-only field or smart field but not both.</li>
+            <li>Read-only fields cannot be made Smart.</li>
+            <li>Read-only fields can only be defined in a template.</li>
+            <li>The value of the read-only fields cannot be edited in the generated agreement document and can only be updated.</li>
+            <li>Read Only fields show a content control boundary in the generated agreement documents.</li>
+            <li>Fields in repeat table and repeat section can also be marked as Readonly.</li>
+         </ul>
+  </context></taskbody>
+</task>

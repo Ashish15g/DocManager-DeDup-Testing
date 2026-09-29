@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="to_check_in_an_agreement_document_af853d" xml:lang="en-us">
+   <title>To check in an agreement document</title>
+   <shortdesc>Description</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Oct 10, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>document</keyword>
+        <keyword>version</keyword>
+        <keyword>agreement</keyword>
+        <keyword>option</keyword>
+        <keyword>Redlines</keyword>
+        <keyword>Document</keyword>
+        <indexterm>document</indexterm>
+        <indexterm>version</indexterm>
+        <indexterm>agreement</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>    <ol>
+    <li><p>From the X-Author pane, click  <b>Check In</b>. The Check-in Options page is displayed.</p>
+      <image href="../attachments/45220109/50036849.png" width="35" height="35" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+      <fig>
+                  <title>50036850</title>
+                  <image href="../attachments/45220109/50036850.png" width="688" height="1098" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li><p>Under <b>Options &gt;</b>
+               <b>Save</b>,<b> </b>choose one of three options for saving the document:</p>
+      <p>
+
+</p>
+      <table>
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Option</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>With Redlines</b>
+                              </p>
+                           </entry>
+                           <entry>
+                              <p>This saves a draft version of the agreement document with all markups and <i>Redlines</i> is added to the suggested file name. Selecting this option creates a Minor (Negotiator) version under the <b>Document Version Details</b> related list in your Agreement record.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Without Redlines</b>
+                              </p>
+                           </entry>
+                           <entry>
+                              <p>This saves a draft version of the document without markups and is typically done before sending an agreement to a third party for review. Track changes/redlines and comments are automatically removed from the Word file and <i>Clean</i> is added by default to the suggested file name. Selecting this option creates a Major version under the <b>Document Version Details</b> related list in your Agreement record.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Final - to be signed</b>
+                              </p>
+                           </entry>
+                           <entry>
+                              <p>This saves a version of the document without markups and also enables a PDF version of the document to be created. <i>Final </i>is added to the suggested file name. If this option is selected, both a Major Word version is saved to <b>Document Version Details</b> and a PDF file is be saved to the agreement's <b>Notes &amp; Attachments</b> related list.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table></li>
+    <li>In the <b>Name</b> field, enter the required name for the document or leave it as the name suggested by X-Author. The default name includes the agreement name, revision number, and version type. You do not need to specify a file extension in the <b>Suggested Name</b> field, as X-Author automatically saves it in DOCX format.</li>
+    <li><p>Select the required watermark option.Select <b>Include Watermark</b>
+               <b>,</b> to add one to a non-final version. This option is available with the <b>With Redlines</b> and <b>Without Redlines</b> options.<b>Include Watermark </b>is automatically deselected (greyed out) if you are saving the document as <b>Final - to be signed</b>.If the document already contains a watermark, the watermark will be removed instead when this option is chosen.</p>
+      <ul>
+                  <li>Select Include Watermark , to add one to a non-final version. This option is available with the With Redlines and Without Redlines options.</li>
+                  <li>Include Watermark is automatically deselected (greyed out) if you are saving the document as Final - to be signed . If the document already contains a watermark, the watermark will be removed instead when this option is chosen.</li>
+               </ul></li>
+    <li>Select <b>Reconcile Document</b> to synchronize the Salesforce Agreement object fields with those that were updated in the document. See<xref href=""/>
+               <xref href="../reconciliation_45220099/reconciliation.dita">Reconciliation</xref> for more details.</li>
+    <li>Select <b>Mark as private</b> to enable the <i>Private</i> indicator for this agreement (only for use in custom implementations–see the Apttus Contract Management Administrator Guide for more information).</li>
+    <li>Click <b>Submit</b> to confirm check-in of the document. The document is checked in to Salesforce and the <i>new document version is downloaded</i> from the agreement record.</li>
+    <li>Close the document you just checked in (no need to save) and load the newly downloaded document to continue working with the agreement, if necessary.</li>
+    </ol>
+    <section>
+      <title>Result</title>
+      <p>Note</p>
+         <p>If there are any invalid fields in your agreement, a message is displayed and the check-in is not completed. Return to <xref href="../working_with_fields_45220124/working_with_fields.dita">Document &gt; Fields</xref> to validate fields and make corrected as needed.</p>
+    </section></conbody>
+</concept>

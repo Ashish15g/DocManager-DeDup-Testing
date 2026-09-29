@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="creating_look_aheads_dd51bb" xml:lang="en-us">
+   <title>Creating Look Aheads</title>
+     <shortdesc>Look Aheads allow designers to create field lookups for runtime users. Look Aheads allow users</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Look</keyword>
+        <keyword>Search</keyword>
+        <keyword>Select</keyword>
+        <keyword>Aheads</keyword>
+        <keyword>Ahead</keyword>
+        <keyword>available</keyword>
+        <indexterm>Look</indexterm>
+        <indexterm>Search</indexterm>
+        <indexterm>Select</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Look Aheads allow designers to create field lookups for runtime users. Look Aheads allow users to replace existing records add new records with the values chosen from Search &amp; Select action results or cells from the workbook. For example, a user can look up the account name when they are adding a new opportunity to the app. You can design two types of Look Aheads: </p><ul>
+         <li>
+            <b>Online:</b> these lookups are real-time environment data and are more flexible than offline. See the procedure for details.</li>
+         <li>
+            <b>Offline:</b> these lookups are for data that is already available in Excel (it might have been placed there from any source). For example, from a data invoking action (Query or Search and Select), data that was already in the template, or data that is generated from a macro into a list and made available to the offline lookup feature.</li>
+      </ul><p>Look Ahead can be configured ONLY for <b>Lookup Name</b> fields. By default, the Search and Select (Online) is made available to configure Look Ahead. If there are no existing Search and Select actions, you can create a new Search and Select action using the new Look Ahead dialog.</p><p>Prerequisite</p><p>Before creating a field lookup, you must have an existing field mapping in a Display or Save Map.</p>
+  </context></taskbody>
+</task>

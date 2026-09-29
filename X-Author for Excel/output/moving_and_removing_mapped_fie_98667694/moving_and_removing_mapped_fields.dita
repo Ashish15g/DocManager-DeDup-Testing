@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="moving_and_removing_mapped_fields_62b422" xml:lang="en-us">
+   <title>Moving and Removing Mapped Fields</title>
+     <shortdesc>After a cell has been mapped to a field in Excel, it is critical that</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Delete</keyword>
+        <keyword>Excel</keyword>
+        <keyword>field</keyword>
+        <keyword>Moving</keyword>
+        <keyword>Removing</keyword>
+        <keyword>Mapped</keyword>
+        <indexterm>Delete</indexterm>
+        <indexterm>Excel</indexterm>
+        <indexterm>field</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>After a cell has been mapped to a field in Excel, it is critical that X-Author be able to find that location in runtime. X-Author can easily adjust its map links when fields need to be relocated, provided these changes are performed correctly. Follow the tasks in this section to properly move or remove fields from Display Maps and Save Maps to preserve cell mapping.</p><p>Do not use Excel's Delete Row or Delete Column functions to manually delete a row, field, or column in the worksheet. Cells will no longer be correctly mapped and your app will be corrupted.</p>
+  </context></taskbody>
+</task>

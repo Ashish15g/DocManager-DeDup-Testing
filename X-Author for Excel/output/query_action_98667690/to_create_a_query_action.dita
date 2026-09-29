@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_query_action_ffd103" xml:lang="en-us">
+   <title>To create a Query action</title>
+   <shortdesc>Input : This is for restricting records from the selected object based on a field</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>query</keyword>
+        <keyword>field</keyword>
+        <keyword>records</keyword>
+        <keyword>characters</keyword>
+        <keyword>executed</keyword>
+        <keyword>Type</keyword>
+        <indexterm>query</indexterm>
+        <indexterm>field</indexterm>
+        <indexterm>records</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click on the arrow beneath the Actions button and select <b>Query</b>. </cmd>
+         </step>
+         <step>
+            <cmd>Enter an <b>Action Name</b>. Use a descriptive name, for example, <i>Query Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>From the <b>Object</b> drop-down list, select an Object.</cmd>
+         </step>
+         <step>
+            <cmd>Type a number in <b>Max Records</b> to specify the maximum number of records to be returned. Leaving it blank will return all records unless otherwise restricted by the filters below.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <b>Enable Favorite Filters </b>check box to enable Favorite Filters for this query action. Refer to <xref href="../enabling_and_using_favorite_fi_98667732/enabling_and_using_favorite_filters_in_queries.dita">Enabling and Using Favorite Filters in Queries</xref> for more information.</cmd>
+         </step>
+         <step>
+            <cmd>In the default filter row, click the lookup icon and select a field from the selected object or click on an orange lookup field to navigate to a related object and select a field from there. To select a field from a lookup object, the object and field must have been selected in objects.</cmd>
+            <info>
+               <image href="../attachments/98667722/98667796.png" width="28" height="24" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>Select one of the following <b>Value Types</b>:<b>Input</b>: This is for restricting records from the selected object based on a field from another object. It also implies that an input is required during an Action Flow. For example, retrieve all opportunities for an account that was previously selected by a user in a search and select action. X-Author Designer will automatically suggest matching fields from the related object. Select the correct field from the drop-down list.<b>Static</b>: Type a specific value to restrict which records are retrieved. For example, only get records where the Geo field equals "West". If you set the Value Type as Static, and the operator as in or not in and the query has more than 20,000 characters, the query is executed successfully during run-time. If the query condition comprises more than 20,000 characters, the query is chunked into multiple queries executed separately and the results are combined into a single query execution.<b>System Variables</b>: There are three system variables available for use.Current User - Used to restrict records based on the currently logged in user.Current Date - Used to restrict records to the current date.ExportRecordId - Used for Apps that are <xref href="../launching_an_x_author_for_exce_98667728/launching_an_xauthor_for_excel_app_from_salesforce.dita">launched from your environment</xref>.<b>User Input</b>: This will generate a user input field at runtime. This option will present the field name to the user at runtime unless you change it as follows:Hover over the field name and a pop-up will be displayed. Change the field name in the pop-up and click the green check mark. To remove a label, click the red cross mark.
+
+If you set the Value Type as User Input, the operator <i>as in</i> or <i>not in</i> and the user input query has more than 20,000 characters, the query is executed successfully during run-time. If the query condition comprises more than 20,000 characters, the query is chunked into multiple queries executed separately and the results are assimilated as a single query execution.
+
+<b>Cell Reference</b>: This will filter the query results based on the value of a cell reference provided. If you set the Value Type as Cell Reference, and the operator <i>as in</i> or <i>not in</i> and the query has more than 20,000 characters, the query is executed successfully during run-time. If the query condition comprises more than 20,000 characters, the query is chunked into multiple queries executed separately and the results are combined into a single query execution.The Cell Reference <b>Value Type</b> is not supported in Presto Apps.</cmd>
+            <info>
+               <fig>
+                  <title>190354456</title>
+                  <image href="../attachments/98667690/190354456.png" width="665" height="499" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <choices>
+               <choice>
+                  <p>Input : This is for restricting records from the selected object based on a field from another object. It also implies that an input is required during an Action Flow. For example, retrieve all opportunities for an account that was previously selected by a user in a search and select action. X-Author Designer will automatically suggest matching fields from the related object. Select the correct field from the drop-down list.</p>
+               </choice>
+               <choice>
+                  <p>Static : Type a specific value to restrict which records are retrieved. For example, only get records where the Geo field equals "West". If you set the Value Type as Static, and the operator as in or not in and the query has more than 20,000 characters, the query is executed successfully during run-time. If the query condition comprises more than 20,000 characters, the query is chunked into multiple queries executed separately and the results are combined into a single query execution.</p>
+               </choice>
+               <choice>
+                  <p>System Variables : There are three system variables available for use. Current User - Used to restrict records based on the currently logged in user. Current Date - Used to restrict records to the current date. ExportRecordId - Used for Apps that are launched from your environment .</p>
+               </choice>
+               <choice>
+                  <p>User Input : This will generate a user input field at runtime. This option will present the field name to the user at runtime unless you change it as follows: Hover over the field name and a pop-up will be displayed. Change the field name in the pop-up and click the green check mark. To remove a label, click the red cross mark. If you set the Value Type as User Input, the operator as in or not in and the user input query has more than 20,000 characters, the query is executed successfully during run-time. If the query condition comprises more than 20,000 characters, the query is chunked into multiple queries executed separately and the results are assimilated as a single query execution.</p>
+               </choice>
+               <choice>
+                  <p>Cell Reference : This will filter the query results based on the value of a cell reference provided. If you set the Value Type as Cell Reference, and the operator as in or not in and the query has more than 20,000 characters, the query is executed successfully during run-time. If the query condition comprises more than 20,000 characters, the query is chunked into multiple queries executed separately and the results are combined into a single query execution. The Cell Reference Value Type is not supported in Presto Apps.</p>
+               </choice>
+            </choices>
+         </step>
+         <step>
+            <cmd>Select an Operator. The following table describes combinations of field types, value types, and operators (click to enlarge).</cmd>
+            <info>
+               <fig>
+                  <title>98668064</title>
+                  <image href="../attachments/98667690/98668064.png" width="832" height="593" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <note type="note">
+                  <p>Formula field types are also supported. The corresponding supported operator types depend on the the datatype the formula field returns. The supported return types for formula fields are boolean, double, string, currency, percent, date and email.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Add Row</b> to create more filter conditions.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

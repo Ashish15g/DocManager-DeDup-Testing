@@ -1,0 +1,559 @@
+2026-08-20 07:02:45,533 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-20 07:02:45,533 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname    = (not provided)
+2026-08-20 07:02:45,534 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-20 07:02:45,545 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup created: .tmp_backup_xslt_output
+2026-08-20 07:02:45,547 [INFO] pipeline.enrich_runner: [EnrichPipeline] Discovered 19 .dita files, 11 .ditamap files
+2026-08-20 07:02:45,549 [INFO] pipeline.enrich_runner: [EnrichPipeline] Parsed 19 DITA files
+2026-08-20 07:02:45,549 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ BEFORE ENRICHMENT ══════════════════════════════
+2026-08-20 07:02:45,549 [INFO] pipeline.enrich_runner: [EnrichPipeline] Total DITA files: 19
+2026-08-20 07:02:45,549 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/102428125/whats_new.dita type=reference  shortdesc=YES prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita type=reference  shortdesc=YES prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/converting_templates_102415194/converting_templates.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/index/space_details.dita type=reference  shortdesc=NO  prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/migrating_templates_102415193/prerequisites.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 07:02:45,550 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 07:02:45,551 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 07:02:45,551 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita type=task       shortdesc=NO  prolog=YES
+2026-08-20 07:02:45,551 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 07:02:45,551 [INFO] pipeline.enrich_runner: [EnrichPipeline] [BEFORE] x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita type=concept    shortdesc=YES prolog=YES
+2026-08-20 07:02:45,551 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Structure & Schema Validation (DITA-only) ──
+2026-08-20 07:02:45,551 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-08-20 07:02:45,557 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-08-20 07:02:45,561 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-08-20 07:02:45,565 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-08-20 07:02:45,566 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-08-20 07:02:45,567 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,568 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,568 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,568 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita' — <image> #1 (href='../attachments/102428129/102428763.jpg') has no alt text — required for accessibility
+2026-08-20 07:02:45,568 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 07:02:45,569 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,570 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,570 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,570 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-20 07:02:45,570 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 07:02:45,571 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/index/space_details.dita' — <reference> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,571 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_migration_manager/index/space_details.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 07:02:45,571 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_migration_manager/index/space_details.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 07:02:45,572 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita' — <reference> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,572 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-20 07:02:45,572 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 07:02:45,573 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,573 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-20 07:02:45,573 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita' — <image> #1 (href='../attachments/102415193/102415226.png') has no alt text — required for accessibility
+2026-08-20 07:02:45,573 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita' — <image> #2 (href='../attachments/102415194/102429236.jpg') has no alt text — required for accessibility
+2026-08-20 07:02:45,573 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 07:02:45,574 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/converting_templates_102415194/converting_templates.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,574 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/102428125/whats_new.dita' — <reference> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,574 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'x_author_migration_manager/102428125/whats_new.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-20 07:02:45,575 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_migration_manager/102428125/whats_new.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 07:02:45,575 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'x_author_migration_manager/102428125/whats_new.dita' — <p> #8 is empty — remove or add content
+2026-08-20 07:02:45,575 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'x_author_migration_manager/102428125/whats_new.dita' — <p> #11 is empty — remove or add content
+2026-08-20 07:02:45,575 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'x_author_migration_manager/102428125/whats_new.dita' — <p> #14 is empty — remove or add content
+2026-08-20 07:02:45,575 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'x_author_migration_manager/102428125/whats_new.dita' — <p> #17 is empty — remove or add content
+2026-08-20 07:02:45,575 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'x_author_migration_manager/102428125/whats_new.dita' — <p> #20 is empty — remove or add content
+2026-08-20 07:02:45,575 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'x_author_migration_manager/102428125/whats_new.dita' — <p> #23 is empty — remove or add content
+2026-08-20 07:02:45,576 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/migrating_templates_102415193/prerequisites.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,576 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,576 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,577 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,577 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita' — <image> #1 (href='../attachments/102415193/102415226.png') has no alt text — required for accessibility
+2026-08-20 07:02:45,577 [WARNING] utils.structure_validator: [StructureValidator] WARNING [image_missing_alt]: 'x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita' — <image> #2 (href='../attachments/102415193/102429204.jpg') has no alt text — required for accessibility
+2026-08-20 07:02:45,577 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 07:02:45,578 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,578 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 07:02:45,579 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,579 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 07:02:45,579 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita' — <concept> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,579 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_xml_lang]: 'x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita' — <task> is missing 'xml:lang' attribute (recommended: xml:lang="en-us")
+2026-08-20 07:02:45,580 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_shortdesc]: 'x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita' — <shortdesc> element is missing — required for search previews and navigation
+2026-08-20 07:02:45,581 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=45 | dita_files=19, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-08-20 07:02:45,581 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation done — CRITICAL=0, WARNING=45 | broken_xml=0, empty=0, broken_refs=0, orphans=0
+2026-08-20 07:02:45,581 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Safe Fixer: Zone 1 auto-fixes ──
+2026-08-20 07:02:45,582 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/102428125/whats_new.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,583 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,583 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,583 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/converting_templates_102415194/converting_templates.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,584 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,584 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/index/space_details.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,584 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,585 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,585 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,585 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,586 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,586 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,586 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/migrating_templates_102415193/prerequisites.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,586 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,587 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,587 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,587 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,588 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,588 [INFO] utils.dita_safe_fixer: [SafeFixer] FIXED: x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita — added xml:lang="en-us"
+2026-08-20 07:02:45,588 [INFO] utils.dita_safe_fixer: [SafeFixer] Complete — 19 fix(es) applied, 0 write failure(s)
+2026-08-20 07:02:45,588 [INFO] pipeline.enrich_runner: [EnrichPipeline] Safe fixes applied=19, write_failures=0
+2026-08-20 07:02:45,878 [WARNING] pipeline.enrich_runner: [EnrichPipeline] ANTHROPIC_API_KEY is invalid or expired — heuristic fallbacks will be used.
+2026-08-20 07:02:45,880 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Extracting document context from DITA files ──
+2026-08-20 07:02:45,886 [INFO] utils.document_context_extractor: [DocContext] extract_context_from_dita — 19 files found, stem='x_author_migration_manager_on_102415187'
+2026-08-20 07:02:45,886 [INFO] utils.document_context_extractor: [DocContext] Extracting document-level context from: x_author_migration_manager_on_102415187.ditamap
+2026-08-20 07:02:45,886 [INFO] utils.document_context_extractor: [DocContext] Aggregated content from 19 files
+2026-08-20 07:02:46,153 [WARNING] utils.document_context_extractor: [DocContext] AI extraction failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:46,153 [INFO] utils.document_context_extractor: [DocContext] AI confidence low (0.00), using heuristic for task_type only
+2026-08-20 07:02:46,155 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Author Migration Manager' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 07:02:46,155 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Migration Manager' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 07:02:46,155 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Contract Management' — likely a person name (67% of occurrences adjacent to role-indicator words)
+2026-08-20 07:02:46,156 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Author Contracts' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 07:02:46,156 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Click Next' — likely a person name (60% of occurrences adjacent to role-indicator words)
+2026-08-20 07:02:46,156 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Microsoft Office' — likely a person name (75% of occurrences adjacent to role-indicator words)
+2026-08-20 07:02:46,156 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Manage Connections' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 07:02:46,156 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Select Create' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 07:02:46,156 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Windows Start' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 07:02:46,157 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Click Connect' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 07:02:46,157 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Author Migration Configuration' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 07:02:46,157 [INFO] utils.document_context_extractor: [DocContext] Skipping 'Prerequisites You' — likely a person name (100% of occurrences adjacent to role-indicator words)
+2026-08-20 07:02:46,157 [INFO] utils.document_context_extractor: [DocContext] Heuristic task_type: 'installation guide'
+2026-08-20 07:02:46,157 [INFO] utils.document_context_extractor: [DocContext] Final context: {'prodname': 'x_author_migration_manager_on_102415187', 'prodname_confirmed': False, 'equipment_name': '', 'task_type': 'installation guide', 'document_keywords': ['installation guide'], 'extraction_method': 'heuristic', 'confidence': 0.0}
+2026-08-20 07:02:46,157 [INFO] pipeline.enrich_runner: [EnrichPipeline] prodname 'x_author_migration_manager_on_102415187' is AI-inferred — clearing so DITA gets empty <prodname>
+2026-08-20 07:02:46,157 [INFO] pipeline.enrich_runner: [EnrichPipeline] Context — prodname='', equipment='', task_type='installation guide', method=heuristic, confidence=0.00
+2026-08-20 07:02:46,158 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layers 1+2+3+4: Classify + Shortdesc + Keywords + Alt Text ──
+2026-08-20 07:02:46,160 [INFO] utils.structural_fixer: [StructuralFix] Loaded task → task.xsl (pre-steps: 5)
+2026-08-20 07:02:46,160 [INFO] utils.structural_fixer: [StructuralFix] Loaded concept → concept.xsl (pre-steps: 5)
+2026-08-20 07:02:46,160 [INFO] utils.structural_fixer: [StructuralFix] Loaded reference → reference.xsl (pre-steps: 5)
+2026-08-20 07:02:46,160 [INFO] utils.structural_fixer: [StructuralFix] Loaded map → map.xsl (pre-steps: 0)
+2026-08-20 07:02:46,160 [INFO] utils.structural_fixer: [StructuralFix] Loaded bookmap → bookmap.xsl (pre-steps: 0)
+2026-08-20 07:02:46,161 [INFO] utils.structural_fixer: [StructuralFix] Loaded glossentry → glossentry.xsl (pre-steps: 5)
+2026-08-20 07:02:46,161 [INFO] utils.structural_fixer: [StructuralFix] Loaded topic → topic.xsl (pre-steps: 5)
+2026-08-20 07:02:46,399 [INFO] utils.structural_fixer: [StructuralFix] Done — processed=30, modified=0, unchanged=30, failed=0
+2026-08-20 07:02:46,407 [INFO] layers.layer1234_enrichment: L1234 › 'What's New' x_author_migration_manager/102428125/whats_new.dita | images=0
+2026-08-20 07:02:46,410 [INFO] layers.layer1234_enrichment: L1234 › 'About X-Author Migration Manager' x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita | images=0
+2026-08-20 07:02:46,414 [INFO] layers.layer1234_enrichment: L1234 › 'Apttus Copyright Disclaimer' x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita | images=0
+2026-08-20 07:02:46,417 [INFO] layers.layer1234_enrichment: L1234 › 'Converting Templates' x_author_migration_manager/converting_templates_102415194/converting_templates.dita | images=0
+2026-08-20 07:02:46,420 [INFO] layers.layer1234_enrichment: L1234 › 'To convert Pre-FX2 templates to FX2 templates' x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita | images=2
+2026-08-20 07:02:46,422 [INFO] layers.layer1234_enrichment: L1234 › 'Space Details:' x_author_migration_manager/index/space_details.dita | images=0
+2026-08-20 07:02:46,424 [INFO] layers.layer1234_enrichment: L1234 › 'Installing X-Author Migration Manager' x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita | images=0
+2026-08-20 07:02:46,425 [INFO] layers.layer1234_enrichment: L1234 › 'To download X-Author Migration Manager' x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita | images=0
+2026-08-20 07:02:46,426 [INFO] layers.layer1234_enrichment: L1234 › 'To install X-Author Migration Manager' x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita | images=0
+2026-08-20 07:02:46,428 [INFO] layers.layer1234_enrichment: L1234 › 'To launch X-Author Migration Manager' x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita | images=0
+2026-08-20 07:02:46,429 [INFO] layers.layer1234_enrichment: L1234 › 'Migrating Templates' x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita | images=0
+2026-08-20 07:02:46,430 [INFO] layers.layer1234_enrichment: L1234 › 'Migrating Templates and Universal Unique IDs' x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita | images=0
+2026-08-20 07:02:46,431 [INFO] layers.layer1234_enrichment: L1234 › 'Prerequisites' x_author_migration_manager/migrating_templates_102415193/prerequisites.dita | images=0
+2026-08-20 07:02:46,434 [INFO] layers.layer1234_enrichment: L1234 › 'To migrate templates between orgs' x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita | images=2
+2026-08-20 07:02:46,436 [INFO] layers.layer1234_enrichment: L1234 › 'Migrating Templates with Versioning' x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita | images=0
+2026-08-20 07:02:46,438 [INFO] layers.layer1234_enrichment: L1234 › 'To migrate versioned templates' x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita | images=1
+2026-08-20 07:02:46,439 [INFO] layers.layer1234_enrichment: L1234 › 'To upgrade templates' x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita | images=0
+2026-08-20 07:02:46,440 [INFO] layers.layer1234_enrichment: L1234 › 'Upgrading Templates' x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita | images=0
+2026-08-20 07:02:46,442 [INFO] layers.layer1234_enrichment: L1234 › 'X-Author Migration Manager on Salesforce Summer 2019 User Guide' x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita | images=0
+2026-08-20 07:02:46,722 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:46,722 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'What's New'
+2026-08-20 07:02:46,723 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→concept whats_new.dita
+2026-08-20 07:02:46,725 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced whats_new.dita
+2026-08-20 07:02:46,726 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (keywords into metadata) whats_new.dita
+2026-08-20 07:02:46,726 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'What's New' → type=concept, confidence=low
+2026-08-20 07:02:46,730 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:46,730 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'To convert Pre-FX2 templates to FX2 templates'
+2026-08-20 07:02:46,731 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 07:02:46,731 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc to_convert_prefx2_templates_to_fx2_templates.dita
+2026-08-20 07:02:46,732 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) to_convert_prefx2_templates_to_fx2_templates.dita
+2026-08-20 07:02:46,733 [INFO] layers.layer4_alt_text: [AltText] wrote back to_convert_prefx2_templates_to_fx2_templates.dita
+2026-08-20 07:02:46,735 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'To convert Pre-FX2 templates to FX2 templates' → type=task, confidence=low
+2026-08-20 07:02:46,739 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:46,739 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Apttus Copyright Disclaimer'
+2026-08-20 07:02:46,740 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced apttus_copyright_disclaimer.dita
+2026-08-20 07:02:46,741 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) apttus_copyright_disclaimer.dita
+2026-08-20 07:02:46,743 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Apttus Copyright Disclaimer' → type=concept, confidence=low
+2026-08-20 07:02:46,744 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:46,744 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'About X-Author Migration Manager'
+2026-08-20 07:02:46,745 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→task about_xauthor_migration_manager.dita
+2026-08-20 07:02:46,746 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced about_xauthor_migration_manager.dita
+2026-08-20 07:02:46,747 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) about_xauthor_migration_manager.dita
+2026-08-20 07:02:46,748 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'About X-Author Migration Manager' → type=task, confidence=low
+2026-08-20 07:02:46,749 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:46,749 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Converting Templates'
+2026-08-20 07:02:46,750 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task converting_templates.dita
+2026-08-20 07:02:46,751 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced converting_templates.dita
+2026-08-20 07:02:46,752 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) converting_templates.dita
+2026-08-20 07:02:46,753 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Converting Templates' → type=task, confidence=low
+2026-08-20 07:02:47,029 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,029 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'To install X-Author Migration Manager'
+2026-08-20 07:02:47,030 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 07:02:47,030 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc to_install_xauthor_migration_manager.dita
+2026-08-20 07:02:47,031 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) to_install_xauthor_migration_manager.dita
+2026-08-20 07:02:47,033 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'To install X-Author Migration Manager' → type=task, confidence=low
+2026-08-20 07:02:47,036 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,036 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Space Details:'
+2026-08-20 07:02:47,036 [INFO] layers.layer1_topic_classifier: L1 ✓ reference→topic space_details.dita
+2026-08-20 07:02:47,037 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 07:02:47,037 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc space_details.dita
+2026-08-20 07:02:47,039 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 07:02:47,039 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog space_details.dita
+2026-08-20 07:02:47,041 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Space Details:' → type=topic, confidence=low
+2026-08-20 07:02:47,044 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,044 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Installing X-Author Migration Manager'
+2026-08-20 07:02:47,045 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task installing_xauthor_migration_manager.dita
+2026-08-20 07:02:47,046 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced installing_xauthor_migration_manager.dita
+2026-08-20 07:02:47,047 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) installing_xauthor_migration_manager.dita
+2026-08-20 07:02:47,048 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Installing X-Author Migration Manager' → type=task, confidence=low
+2026-08-20 07:02:47,050 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,051 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'To launch X-Author Migration Manager'
+2026-08-20 07:02:47,051 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 07:02:47,052 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc to_launch_xauthor_migration_manager.dita
+2026-08-20 07:02:47,053 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) to_launch_xauthor_migration_manager.dita
+2026-08-20 07:02:47,054 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'To launch X-Author Migration Manager' → type=task, confidence=low
+2026-08-20 07:02:47,056 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,057 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'To download X-Author Migration Manager'
+2026-08-20 07:02:47,057 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 07:02:47,057 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc to_download_xauthor_migration_manager.dita
+2026-08-20 07:02:47,058 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) to_download_xauthor_migration_manager.dita
+2026-08-20 07:02:47,060 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'To download X-Author Migration Manager' → type=task, confidence=low
+2026-08-20 07:02:47,323 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,324 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Migrating Templates'
+2026-08-20 07:02:47,324 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task migrating_templates.dita
+2026-08-20 07:02:47,325 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced migrating_templates.dita
+2026-08-20 07:02:47,326 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) migrating_templates.dita
+2026-08-20 07:02:47,327 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Migrating Templates' → type=task, confidence=low
+2026-08-20 07:02:47,332 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,332 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'To migrate templates between orgs'
+2026-08-20 07:02:47,333 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 07:02:47,334 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc to_migrate_templates_between_orgs.dita
+2026-08-20 07:02:47,335 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) to_migrate_templates_between_orgs.dita
+2026-08-20 07:02:47,336 [INFO] layers.layer4_alt_text: [AltText] wrote back to_migrate_templates_between_orgs.dita
+2026-08-20 07:02:47,338 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'To migrate templates between orgs' → type=task, confidence=low
+2026-08-20 07:02:47,341 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,341 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Migrating Templates with Versioning'
+2026-08-20 07:02:47,342 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task migrating_templates_with_versioning.dita
+2026-08-20 07:02:47,343 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced migrating_templates_with_versioning.dita
+2026-08-20 07:02:47,344 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) migrating_templates_with_versioning.dita
+2026-08-20 07:02:47,345 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Migrating Templates with Versioning' → type=task, confidence=low
+2026-08-20 07:02:47,346 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,346 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Migrating Templates and Universal Unique IDs'
+2026-08-20 07:02:47,347 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task migrating_templates_and_universal_unique_ids.dita
+2026-08-20 07:02:47,348 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced migrating_templates_and_universal_unique_ids.dita
+2026-08-20 07:02:47,349 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) migrating_templates_and_universal_unique_ids.dita
+2026-08-20 07:02:47,350 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Migrating Templates and Universal Unique IDs' → type=task, confidence=low
+2026-08-20 07:02:47,359 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,359 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Prerequisites'
+2026-08-20 07:02:47,360 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced prerequisites.dita
+2026-08-20 07:02:47,361 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) prerequisites.dita
+2026-08-20 07:02:47,362 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Prerequisites' → type=concept, confidence=low
+2026-08-20 07:02:47,608 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,609 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'To migrate versioned templates'
+2026-08-20 07:02:47,610 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 07:02:47,610 [INFO] utils.body_preserver: [BodyPreserver] All substeps properly nested under step — validation PASSED
+2026-08-20 07:02:47,610 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc to_migrate_versioned_templates.dita
+2026-08-20 07:02:47,613 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) to_migrate_versioned_templates.dita
+2026-08-20 07:02:47,615 [INFO] layers.layer4_alt_text: [AltText] wrote back to_migrate_versioned_templates.dita
+2026-08-20 07:02:47,617 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'To migrate versioned templates' → type=task, confidence=low
+2026-08-20 07:02:47,621 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,621 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'X-Author Migration Manager on Salesforce Summer 2019 User Guide'
+2026-08-20 07:02:47,622 [INFO] layers.layer1_topic_classifier: L1 ✓ concept→task xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20 07:02:47,623 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20 07:02:47,624 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20 07:02:47,626 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'X-Author Migration Manager on Salesforce Summer 2019 User Guide' → type=task, confidence=low
+2026-08-20 07:02:47,628 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,628 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'Upgrading Templates'
+2026-08-20 07:02:47,629 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc replaced upgrading_templates.dita
+2026-08-20 07:02:47,630 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) upgrading_templates.dita
+2026-08-20 07:02:47,632 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'Upgrading Templates' → type=concept, confidence=low
+2026-08-20 07:02:47,632 [ERROR] layers.layer1234_enrichment: L1234 ✗ error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,632 [WARNING] layers.layer1234_enrichment: L1234 ⊘ fallback 'To upgrade templates'
+2026-08-20 07:02:47,633 [INFO] utils.body_preserver: [BodyPreserver] Successfully merged: DOCTYPE preserved, body preserved, AI enrichment applied
+2026-08-20 07:02:47,633 [INFO] layers.layer2_shortdesc_generator: L2 ✓ shortdesc to_upgrade_templates.dita
+2026-08-20 07:02:47,634 [INFO] layers.layer3_keywords_indexterms: L3 ✓ prolog merged (metadata added) to_upgrade_templates.dita
+2026-08-20 07:02:47,636 [INFO] pipeline.enrich_runner: [EnrichPipeline] Enriched 'To upgrade templates' → type=task, confidence=low
+2026-08-20 07:02:47,641 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layers 1+2+3+4 complete — 19 topics processed
+2026-08-20 07:02:47,643 [INFO] pipeline.enrich_runner: [EnrichPipeline] Reclassification summary — 9 of 19 topics had type changed by AI
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_migration_manager/102428125/whats_new.dita          reference → concept (confidence=low)
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita reference → task (confidence=low)
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_migration_manager/converting_templates_102415194/converting_templates.dita concept → task (confidence=low)
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_migration_manager/index/space_details.dita          reference → topic (confidence=low)
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita concept → task (confidence=low)
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita concept → task (confidence=low)
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita concept → task (confidence=low)
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita concept → task (confidence=low)
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] [RECLASSIFIED] x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita concept → task (confidence=low)
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] ══ AFTER ENRICHMENT ═══════════════════════════════
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/102428125/whats_new.dita type=concept    shortdesc='The following table lists changes in the documentation to support each…'
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['topic', 'Modified', 'Migration', 'Manager', 'Templates', 'screenshots'] | indexterms=['topic', 'Modified', 'Migration']
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita type=task       shortdesc='X-Author Migration Manager (XAMM) is a Windows-based tool that enables…'
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['templates', 'Migration', 'Author', 'Manager', 'migrate', 'convert'] | indexterms=['templates', 'Migration', 'Author']
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita type=concept    shortdesc='Copyright © 2022 Apttus Corporation (“Conga”) and/or its affiliates. A…'
+2026-08-20 07:02:47,644 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Conga', 'software', 'third', 'license', 'Apttus', 'including'] | indexterms=['Conga', 'software', 'third']
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/converting_templates_102415194/converting_templates.dita type=task       shortdesc='In X-Author Migration Manager, you can use an automated step-by-step w…'
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['templates', 'Author', 'Migration', 'format', 'template', 'Manager'] | indexterms=['templates', 'Author', 'Migration']
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita type=task       shortdesc='The listed available connections are those you have already configured…'
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['templates', 'Click', 'Author', 'Migration', 'Manager', 'migration'] | indexterms=['templates', 'Click', 'Author']
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/index/space_details.dita type=topic      shortdesc='XAMMSFSUM19UG'
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Space', 'Details', 'XAMMSFSUM', 'Name', 'Author', 'Migration'] | indexterms=['Space', 'Details', 'XAMMSFSUM']
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita type=task       shortdesc='Prerequisites'
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Installing', 'Author', 'Migration', 'Manager', 'Prerequisites', 'administrator'] | indexterms=['Installing', 'Author', 'Migration']
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita type=task       shortdesc='Follow these steps to install the Migration Manager on your computer. …'
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Migration', 'Manager', 'download', 'Author', 'install', 'Apttus'] | indexterms=['Migration', 'Manager', 'download']
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita type=task       shortdesc='You are now ready to use X-Author Migration Manager.'
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Author', 'Migration', 'Manager', 'install', 'installation', 'Microsoft'] | indexterms=['Author', 'Migration', 'Manager']
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita type=task       shortdesc='If you do not see X-Author Migration Manager shortcut on your desktop …'
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Author', 'Migration', 'Manager', 'launch', 'Start', 'shortcut'] | indexterms=['Author', 'Migration', 'Manager']
+2026-08-20 07:02:47,645 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita type=task       shortdesc='enables you to move templates, and their referenced clauses, from one …'
+2026-08-20 07:02:47,646 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['Migrating', 'templates', 'Templates', 'enables', 'referenced', 'clauses'] | indexterms=['Migrating', 'templates', 'Templates']
+2026-08-20 07:02:47,646 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita type=task       shortdesc='Universal unique identifier (UUID) fields of the agreement templates, …'
+2026-08-20 07:02:47,646 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['templates', 'Universal', 'unique', 'UUID', 'Migrating', 'Templates'] | indexterms=['templates', 'Universal', 'unique']
+2026-08-20 07:02:47,646 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/migrating_templates_102415193/prerequisites.dita type=concept    shortdesc='You must have upgraded your source org templates.'
+2026-08-20 07:02:47,646 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['source', 'Prerequisites', 'templates', 'changes', 'master', 'target'] | indexterms=['source', 'Prerequisites', 'templates']
+2026-08-20 07:02:47,646 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita type=task       shortdesc='Enter a new connection name and Login URL and click Authorize .'
+2026-08-20 07:02:47,646 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['migration', 'Click', 'templates', 'click', 'display', 'Next'] | indexterms=['migration', 'Click', 'templates']
+2026-08-20 07:02:47,646 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita type=task       shortdesc='You can migrate versioned templates from the source org to the destina…'
+2026-08-20 07:02:47,646 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['template', 'version', 'migrate', 'templates', 'migrated', 'When'] | indexterms=['template', 'version', 'migrate']
+2026-08-20 07:02:47,646 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita type=task       shortdesc='The migration process starts and you can see the log and the progress …'
+2026-08-20 07:02:47,646 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['fields', 'expression', 'Click', 'condition', 'Next', 'business'] | indexterms=['fields', 'expression', 'Click']
+2026-08-20 07:02:47,646 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita type=task       shortdesc='Use an existing migration configuration is typically used for migratio…'
+2026-08-20 07:02:47,647 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['upgrade', 'Author', 'Migration', 'Click', 'Manager', 'Next'] | indexterms=['upgrade', 'Author', 'Migration']
+2026-08-20 07:02:47,647 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita type=concept    shortdesc='When you upgrade to Contract Management from a version earlier to Cont…'
+2026-08-20 07:02:47,647 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['upgrade', 'Contract', 'Management', 'updated', 'Upgrading', 'Templates'] | indexterms=['upgrade', 'Contract', 'Management']
+2026-08-20 07:02:47,647 [INFO] pipeline.enrich_runner: [EnrichPipeline] [AFTER]  x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita type=task       shortdesc='X-Author Migration Manager (XAMM) is a Windows-based tool that enables…'
+2026-08-20 07:02:47,647 [INFO] pipeline.enrich_runner: [EnrichPipeline]          keywords=['templates', 'Migration', 'Manager', 'migrate', 'Author', 'target'] | indexterms=['templates', 'Migration', 'Manager']
+2026-08-20 07:02:47,647 [INFO] pipeline.enrich_runner: [EnrichPipeline] Alt text — filled=0, skipped=5
+2026-08-20 07:02:47,647 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Quality Review ──
+2026-08-20 07:02:47,649 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/102428125/whats_new.dita
+2026-08-20 07:02:47,650 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita
+2026-08-20 07:02:47,650 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita
+2026-08-20 07:02:47,650 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/converting_templates_102415194/converting_templates.dita
+2026-08-20 07:02:47,650 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita
+2026-08-20 07:02:47,650 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/index/space_details.dita
+2026-08-20 07:02:47,650 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita
+2026-08-20 07:02:47,651 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita
+2026-08-20 07:02:47,651 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita
+2026-08-20 07:02:47,651 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita
+2026-08-20 07:02:47,651 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita
+2026-08-20 07:02:47,651 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita
+2026-08-20 07:02:47,651 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/migrating_templates_102415193/prerequisites.dita
+2026-08-20 07:02:47,652 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita
+2026-08-20 07:02:47,652 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita
+2026-08-20 07:02:47,652 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita
+2026-08-20 07:02:47,652 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita
+2026-08-20 07:02:47,653 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita
+2026-08-20 07:02:47,653 [INFO] layers.layer5_quality_autofix: L5 › x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20 07:02:47,653 [INFO] layers.layer5_quality_autofix: L5 › review 19/19 topics (0 skipped)
+2026-08-20 07:02:47,922 [WARNING] layers.layer5_quality_autofix: L5 ✗ review: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:47,922 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 review — quality=fair, accuracy=0%
+2026-08-20 07:02:47,923 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 5: Autofix ──
+2026-08-20 07:02:47,923 [INFO] layers.layer5_quality_autofix: L5 › autofix: 0 broken
+2026-08-20 07:02:47,925 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 5 autofix — fixed=0, flagged=0, failed=0
+2026-08-20 07:02:47,925 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 6: Final Validation ──
+2026-08-20 07:02:47,925 [INFO] layers.layer6_final_validation: L6 ── structural validation start
+2026-08-20 07:02:47,927 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/102428125/whats_new.dita — 1 issue(s)
+2026-08-20 07:02:47,928 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita — 1 issue(s)
+2026-08-20 07:02:47,929 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita — 1 issue(s)
+2026-08-20 07:02:47,931 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/converting_templates_102415194/converting_templates.dita — 1 issue(s)
+2026-08-20 07:02:47,932 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita — 1 issue(s)
+2026-08-20 07:02:47,933 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/index/space_details.dita — 1 issue(s)
+2026-08-20 07:02:47,934 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita — 1 issue(s)
+2026-08-20 07:02:47,935 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita — 1 issue(s)
+2026-08-20 07:02:47,936 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita — 1 issue(s)
+2026-08-20 07:02:47,937 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita — 1 issue(s)
+2026-08-20 07:02:47,938 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita — 1 issue(s)
+2026-08-20 07:02:47,940 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita — 1 issue(s)
+2026-08-20 07:02:47,941 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/migrating_templates_102415193/prerequisites.dita — 1 issue(s)
+2026-08-20 07:02:47,942 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita — 1 issue(s)
+2026-08-20 07:02:47,943 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita — 1 issue(s)
+2026-08-20 07:02:47,944 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita — 1 issue(s)
+2026-08-20 07:02:47,945 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita — 1 issue(s)
+2026-08-20 07:02:47,946 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita — 1 issue(s)
+2026-08-20 07:02:47,947 [INFO] layers.layer6_final_validation: L6 ⚠ x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita — 1 issue(s)
+2026-08-20 07:02:47,948 [INFO] layers.layer6_final_validation: L6 ✓ done pass=True acc=100% crit=0 err=0 warn=19
+2026-08-20 07:02:47,948 [INFO] layers.layer6_final_validation: L6 DTD schema start
+2026-08-20 07:02:47,949 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    whats_new.dita
+2026-08-20 07:02:47,949 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    about_xauthor_migration_manager.dita
+2026-08-20 07:02:47,950 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    apttus_copyright_disclaimer.dita
+2026-08-20 07:02:47,950 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    converting_templates.dita
+2026-08-20 07:02:47,950 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS to_convert_prefx2_templates_to_fx2_templates.dita — 1 issue(s)
+2026-08-20 07:02:47,951 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    space_details.dita
+2026-08-20 07:02:47,951 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    installing_xauthor_migration_manager.dita
+2026-08-20 07:02:47,951 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    to_download_xauthor_migration_manager.dita
+2026-08-20 07:02:47,952 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    to_install_xauthor_migration_manager.dita
+2026-08-20 07:02:47,952 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    to_launch_xauthor_migration_manager.dita
+2026-08-20 07:02:47,952 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    migrating_templates.dita
+2026-08-20 07:02:47,952 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    migrating_templates_and_universal_unique_ids.dita
+2026-08-20 07:02:47,953 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    prerequisites.dita
+2026-08-20 07:02:47,953 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    to_migrate_templates_between_orgs.dita
+2026-08-20 07:02:47,954 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    migrating_templates_with_versioning.dita
+2026-08-20 07:02:47,954 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    to_migrate_versioned_templates.dita
+2026-08-20 07:02:47,954 [INFO] utils.dita_schema_validator: [SchemaValidator] WARNINGS to_upgrade_templates.dita — 1 issue(s)
+2026-08-20 07:02:47,955 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    upgrading_templates.dita
+2026-08-20 07:02:47,955 [INFO] utils.dita_schema_validator: [SchemaValidator] VALID    xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20 07:02:47,955 [INFO] utils.dita_schema_validator: [SchemaValidator] ── DONE ── schema_passed=True, valid=19/19
+2026-08-20 07:02:47,955 [INFO] layers.layer6_final_validation: L6 DTD schema pass=True valid=19/19
+2026-08-20 07:02:47,955 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 6 — passed=True, accuracy=100%
+2026-08-20 07:02:47,955 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment Structural Validation ──
+2026-08-20 07:02:47,955 [INFO] utils.structure_validator: [StructureValidator] Checking .ditamap topicref and mapref references
+2026-08-20 07:02:47,962 [INFO] utils.structure_validator: [StructureValidator] Checking for duplicate id attributes
+2026-08-20 07:02:47,965 [INFO] utils.structure_validator: [StructureValidator] Checking <xref> href targets
+2026-08-20 07:02:47,969 [INFO] utils.structure_validator: [StructureValidator] Checking for spaces in filenames and folder names
+2026-08-20 07:02:47,970 [INFO] utils.structure_validator: [StructureValidator] Running per-file DITA schema validation
+2026-08-20 07:02:47,971 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-20 07:02:47,972 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-20 07:02:47,974 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-20 07:02:47,974 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_migration_manager/index/space_details.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 07:02:47,975 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-20 07:02:47,975 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 07:02:47,976 [WARNING] utils.structure_validator: [StructureValidator] WARNING [section_missing_title]: 'x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita' — <section> #1 has no <title> — recommended for DITA compliance
+2026-08-20 07:02:47,976 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'x_author_migration_manager/converting_templates_102415194/converting_templates.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-20 07:02:47,977 [WARNING] utils.structure_validator: [StructureValidator] WARNING [table_missing_title]: 'x_author_migration_manager/102428125/whats_new.dita' — <table> #1 has no <title> element — required for accessibility and DITA compliance
+2026-08-20 07:02:47,977 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'x_author_migration_manager/102428125/whats_new.dita' — <p> #8 is empty — remove or add content
+2026-08-20 07:02:47,977 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'x_author_migration_manager/102428125/whats_new.dita' — <p> #11 is empty — remove or add content
+2026-08-20 07:02:47,977 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'x_author_migration_manager/102428125/whats_new.dita' — <p> #14 is empty — remove or add content
+2026-08-20 07:02:47,977 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'x_author_migration_manager/102428125/whats_new.dita' — <p> #17 is empty — remove or add content
+2026-08-20 07:02:47,977 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'x_author_migration_manager/102428125/whats_new.dita' — <p> #20 is empty — remove or add content
+2026-08-20 07:02:47,977 [WARNING] utils.structure_validator: [StructureValidator] WARNING [empty_p]: 'x_author_migration_manager/102428125/whats_new.dita' — <p> #23 is empty — remove or add content
+2026-08-20 07:02:47,978 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-20 07:02:47,980 [WARNING] utils.structure_validator: [StructureValidator] WARNING [missing_steps]: 'x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita' — <taskbody> has no <steps> or <steps-unordered> element
+2026-08-20 07:02:47,981 [INFO] utils.structure_validator: [StructureValidator] Complete — CRITICAL=0, WARNING=17 | dita_files=19, broken_xml=0, empty=0, broken_dita_refs=0, broken_maprefs=0, orphans=0, duplicate_ids=0, broken_xrefs=0, filename_spaces=0
+2026-08-20 07:02:47,982 [INFO] pipeline.enrich_runner: [EnrichPipeline] Post-structural — CRITICAL=0, WARNING=17
+2026-08-20 07:02:47,982 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Post-Enrichment AI Content Quality Check ──
+2026-08-20 07:02:47,985 [INFO] utils.structure_validator: [EnrichmentQuality] Post-AI check — 0 issues in 19 files (CRITICAL=0, WARNING=0)
+2026-08-20 07:02:47,985 [INFO] pipeline.enrich_runner: [EnrichPipeline] AI content quality — CRITICAL=0, WARNING=0 (checks: shortdesc, keywords, indexterms)
+2026-08-20 07:02:47,986 [INFO] pipeline.enrich_runner: [EnrichPipeline] Fix report — backend_errors=0 | fixed_by_zone1=19, fixed_by_ai=13, remaining=11, ai_obligations_missed=0, new_by_ai=6
+2026-08-20 07:02:50,871 [INFO] pipeline.enrich_runner: [Validating] 1/30 — whats_new.dita
+2026-08-20 07:02:50,954 [INFO] pipeline.enrich_runner: [Validating] 2/30 — about_xauthor_migration_manager.dita
+2026-08-20 07:02:50,966 [INFO] pipeline.enrich_runner: [Validating] 3/30 — apttus_copyright_disclaimer.dita
+2026-08-20 07:02:50,980 [INFO] pipeline.enrich_runner: [Validating] 4/30 — converting_templates.dita
+2026-08-20 07:02:50,999 [INFO] pipeline.enrich_runner: [Validating] 5/30 — to_convert_prefx2_templates_to_fx2_templates.dita
+2026-08-20 07:02:51,081 [INFO] pipeline.enrich_runner: [Validating] 6/30 — space_details.dita
+2026-08-20 07:02:51,093 [INFO] pipeline.enrich_runner: [Validating] 7/30 — installing_xauthor_migration_manager.dita
+2026-08-20 07:02:51,104 [INFO] pipeline.enrich_runner: [Validating] 8/30 — to_download_xauthor_migration_manager.dita
+2026-08-20 07:02:51,116 [INFO] pipeline.enrich_runner: [Validating] 9/30 — to_install_xauthor_migration_manager.dita
+2026-08-20 07:02:51,128 [INFO] pipeline.enrich_runner: [Validating] 10/30 — to_launch_xauthor_migration_manager.dita
+2026-08-20 07:02:51,141 [INFO] pipeline.enrich_runner: [Validating] 11/30 — migrating_templates.dita
+2026-08-20 07:02:51,153 [INFO] pipeline.enrich_runner: [Validating] 12/30 — migrating_templates_and_universal_unique_ids.dita
+2026-08-20 07:02:51,166 [INFO] pipeline.enrich_runner: [Validating] 13/30 — prerequisites.dita
+2026-08-20 07:02:51,185 [INFO] pipeline.enrich_runner: [Validating] 14/30 — to_migrate_templates_between_orgs.dita
+2026-08-20 07:02:51,201 [INFO] pipeline.enrich_runner: [Validating] 15/30 — migrating_templates_with_versioning.dita
+2026-08-20 07:02:51,222 [INFO] pipeline.enrich_runner: [Validating] 16/30 — to_migrate_versioned_templates.dita
+2026-08-20 07:02:51,237 [INFO] pipeline.enrich_runner: [Validating] 17/30 — to_upgrade_templates.dita
+2026-08-20 07:02:51,250 [INFO] pipeline.enrich_runner: [Validating] 18/30 — upgrading_templates.dita
+2026-08-20 07:02:51,262 [INFO] pipeline.enrich_runner: [Validating] 19/30 — xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20 07:02:51,341 [INFO] pipeline.enrich_runner: [Validating] 20/30 — 102428125.ditamap
+2026-08-20 07:02:51,353 [INFO] pipeline.enrich_runner: [Validating] 21/30 — about_x_author_migration_manag_109937029.ditamap
+2026-08-20 07:02:51,366 [INFO] pipeline.enrich_runner: [Validating] 22/30 — apttus_copyright_disclaimer_102428127.ditamap
+2026-08-20 07:02:51,378 [INFO] pipeline.enrich_runner: [Validating] 23/30 — converting_templates_102415194.ditamap
+2026-08-20 07:02:51,391 [INFO] pipeline.enrich_runner: [Validating] 24/30 — index.ditamap
+2026-08-20 07:02:51,405 [INFO] pipeline.enrich_runner: [Validating] 25/30 — installing_x_author_migration_102415190.ditamap
+2026-08-20 07:02:51,417 [INFO] pipeline.enrich_runner: [Validating] 26/30 — migrating_templates_102415193.ditamap
+2026-08-20 07:02:51,427 [INFO] pipeline.enrich_runner: [Validating] 27/30 — migrating_templates_with.ditamap
+2026-08-20 07:02:51,438 [INFO] pipeline.enrich_runner: [Validating] 28/30 — upgrading_templates_102415192.ditamap
+2026-08-20 07:02:51,655 [INFO] pipeline.enrich_runner: [Validating] 29/30 — x_author_migration_manager.ditamap
+2026-08-20 07:02:51,666 [INFO] pipeline.enrich_runner: [Validating] 30/30 — x_author_migration_manager_on_102415187.ditamap
+2026-08-20 07:02:51,670 [INFO] utils.validation_runner: [Validation] Done — files=30, violations=12 (errors=12, warnings=0)
+2026-08-20 07:02:51,670 [INFO] pipeline.enrich_runner: [EnrichPipeline] Validation — status=completed, violations=12, files_affected=4
+2026-08-20 07:02:51,672 [INFO] pipeline.enrich_runner: [EnrichPipeline] Auto-fix pass 1/3 — 12 violation(s) remaining
+2026-08-20 07:02:51,675 [WARNING] utils.auto_fixer: [AutoFixer] to_convert_prefx2_templates_to_fx2_templates.dita — <b>(20) kept as DITA 1.3 — as per DITA 2.x should be <ph outputclass="bold">
+2026-08-20 07:02:51,675 [WARNING] utils.auto_fixer: [AutoFixer] to_convert_prefx2_templates_to_fx2_templates.dita — <i>(2) kept as DITA 1.3 — as per DITA 2.x should be <ph outputclass="italic">
+2026-08-20 07:02:51,676 [INFO] utils.auto_fixer: [AutoFixer] x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita — fixed 5 violation(s): ['image_dims(2)', 'image_placement(3)']
+2026-08-20 07:02:51,678 [INFO] utils.auto_fixer: [AutoFixer] x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita — fixed 5 violation(s): ['image_dims(2)', 'image_placement(3)']
+2026-08-20 07:02:51,678 [INFO] utils.auto_fixer: [AutoFixer] x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita — fixed 3 violation(s): ['image_dims(1)', 'image_placement(2)']
+2026-08-20 07:02:51,679 [WARNING] utils.auto_fixer: [AutoFixer] to_upgrade_templates.dita — <b>(12) kept as DITA 1.3 — as per DITA 2.x should be <ph outputclass="bold">
+2026-08-20 07:02:51,679 [INFO] utils.auto_fixer: [AutoFixer] Done — 3 file(s) fixed, 13 total fixes applied
+2026-08-20 07:02:51,679 [INFO] pipeline.enrich_runner: [EnrichPipeline] Auto-fix pass 1 — fixed 13 in 3 file(s)
+2026-08-20 07:02:54,776 [INFO] pipeline.enrich_runner: [Re-validating] 1/30 — whats_new.dita
+2026-08-20 07:02:54,862 [INFO] pipeline.enrich_runner: [Re-validating] 2/30 — about_xauthor_migration_manager.dita
+2026-08-20 07:02:54,878 [INFO] pipeline.enrich_runner: [Re-validating] 3/30 — apttus_copyright_disclaimer.dita
+2026-08-20 07:02:54,891 [INFO] pipeline.enrich_runner: [Re-validating] 4/30 — converting_templates.dita
+2026-08-20 07:02:54,907 [INFO] pipeline.enrich_runner: [Re-validating] 5/30 — to_convert_prefx2_templates_to_fx2_templates.dita
+2026-08-20 07:02:54,988 [INFO] pipeline.enrich_runner: [Re-validating] 6/30 — space_details.dita
+2026-08-20 07:02:54,998 [INFO] pipeline.enrich_runner: [Re-validating] 7/30 — installing_xauthor_migration_manager.dita
+2026-08-20 07:02:55,015 [INFO] pipeline.enrich_runner: [Re-validating] 8/30 — to_download_xauthor_migration_manager.dita
+2026-08-20 07:02:55,033 [INFO] pipeline.enrich_runner: [Re-validating] 9/30 — to_install_xauthor_migration_manager.dita
+2026-08-20 07:02:55,046 [INFO] pipeline.enrich_runner: [Re-validating] 10/30 — to_launch_xauthor_migration_manager.dita
+2026-08-20 07:02:55,060 [INFO] pipeline.enrich_runner: [Re-validating] 11/30 — migrating_templates.dita
+2026-08-20 07:02:55,076 [INFO] pipeline.enrich_runner: [Re-validating] 12/30 — migrating_templates_and_universal_unique_ids.dita
+2026-08-20 07:02:55,092 [INFO] pipeline.enrich_runner: [Re-validating] 13/30 — prerequisites.dita
+2026-08-20 07:02:55,118 [INFO] pipeline.enrich_runner: [Re-validating] 14/30 — to_migrate_templates_between_orgs.dita
+2026-08-20 07:02:55,134 [INFO] pipeline.enrich_runner: [Re-validating] 15/30 — migrating_templates_with_versioning.dita
+2026-08-20 07:02:55,155 [INFO] pipeline.enrich_runner: [Re-validating] 16/30 — to_migrate_versioned_templates.dita
+2026-08-20 07:02:55,171 [INFO] pipeline.enrich_runner: [Re-validating] 17/30 — to_upgrade_templates.dita
+2026-08-20 07:02:55,184 [INFO] pipeline.enrich_runner: [Re-validating] 18/30 — upgrading_templates.dita
+2026-08-20 07:02:55,195 [INFO] pipeline.enrich_runner: [Re-validating] 19/30 — xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20 07:02:55,250 [INFO] pipeline.enrich_runner: [Re-validating] 20/30 — 102428125.ditamap
+2026-08-20 07:02:55,258 [INFO] pipeline.enrich_runner: [Re-validating] 21/30 — about_x_author_migration_manag_109937029.ditamap
+2026-08-20 07:02:55,265 [INFO] pipeline.enrich_runner: [Re-validating] 22/30 — apttus_copyright_disclaimer_102428127.ditamap
+2026-08-20 07:02:55,275 [INFO] pipeline.enrich_runner: [Re-validating] 23/30 — converting_templates_102415194.ditamap
+2026-08-20 07:02:55,283 [INFO] pipeline.enrich_runner: [Re-validating] 24/30 — index.ditamap
+2026-08-20 07:02:55,292 [INFO] pipeline.enrich_runner: [Re-validating] 25/30 — installing_x_author_migration_102415190.ditamap
+2026-08-20 07:02:55,300 [INFO] pipeline.enrich_runner: [Re-validating] 26/30 — migrating_templates_102415193.ditamap
+2026-08-20 07:02:55,308 [INFO] pipeline.enrich_runner: [Re-validating] 27/30 — migrating_templates_with.ditamap
+2026-08-20 07:02:55,315 [INFO] pipeline.enrich_runner: [Re-validating] 28/30 — upgrading_templates_102415192.ditamap
+2026-08-20 07:02:55,324 [INFO] pipeline.enrich_runner: [Re-validating] 29/30 — x_author_migration_manager.ditamap
+2026-08-20 07:02:55,331 [INFO] pipeline.enrich_runner: [Re-validating] 30/30 — x_author_migration_manager_on_102415187.ditamap
+2026-08-20 07:02:55,334 [INFO] utils.validation_runner: [Validation] Done — files=30, violations=2 (errors=2, warnings=0)
+2026-08-20 07:02:55,334 [INFO] pipeline.enrich_runner: [EnrichPipeline] Re-validation pass 1 — 12 → 2 violation(s)
+2026-08-20 07:02:55,336 [INFO] pipeline.enrich_runner: [EnrichPipeline] Auto-fix pass 2/3 — 2 violation(s) remaining
+2026-08-20 07:02:55,338 [WARNING] utils.auto_fixer: [AutoFixer] to_convert_prefx2_templates_to_fx2_templates.dita — <b>(20) kept as DITA 1.3 — as per DITA 2.x should be <ph outputclass="bold">
+2026-08-20 07:02:55,338 [WARNING] utils.auto_fixer: [AutoFixer] to_convert_prefx2_templates_to_fx2_templates.dita — <i>(2) kept as DITA 1.3 — as per DITA 2.x should be <ph outputclass="italic">
+2026-08-20 07:02:55,339 [WARNING] utils.auto_fixer: [AutoFixer] to_upgrade_templates.dita — <b>(12) kept as DITA 1.3 — as per DITA 2.x should be <ph outputclass="bold">
+2026-08-20 07:02:55,339 [INFO] utils.auto_fixer: [AutoFixer] Done — 0 file(s) fixed, 0 total fixes applied
+2026-08-20 07:02:55,339 [INFO] pipeline.enrich_runner: [EnrichPipeline] Auto-fix pass 2 — fixed 0 in 0 file(s)
+2026-08-20 07:02:55,341 [INFO] pipeline.enrich_runner: [EnrichPipeline] No deterministic fixes applied — stopping iteration
+2026-08-20 07:02:55,341 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Image Placement Fix ──
+2026-08-20 07:02:55,345 [INFO] utils.auto_fixer: [ImagePlacement] Done — 0 file(s), 0 total fix(es)
+2026-08-20 07:02:55,346 [INFO] pipeline.enrich_runner: [EnrichPipeline] Image placement — files_fixed=0, total_fixes=0
+2026-08-20 07:02:55,346 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Image Placement Fix ──
+2026-08-20 07:02:55,349 [INFO] utils.auto_fixer: [ImagePlacement] Done — 0 file(s), 0 total fix(es)
+2026-08-20 07:02:55,350 [INFO] pipeline.enrich_runner: [EnrichPipeline] Image placement — files_fixed=0, total_fixes=0
+2026-08-20 07:02:55,352 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: _agent_report.json
+2026-08-20 07:02:55,352 [INFO] pipeline.enrich_runner: [EnrichPipeline] ── Layer 7: Suggestion Agent ──
+2026-08-20 07:02:55,363 [INFO] layers.layer7_fix_agent: L7/Suggest ── Started ──
+2026-08-20 07:02:55,364 [INFO] layers.layer7_fix_agent: L7/Suggest 31 issues (pre-dedup)
+2026-08-20 07:02:55,364 [INFO] layers.layer7_fix_agent: L7/Suggest 31 unique issues
+2026-08-20 07:02:55,390 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl section_missing_title x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita
+2026-08-20 07:02:55,390 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl table_missing_title x_author_migration_manager/index/space_details.dita
+2026-08-20 07:02:55,391 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl table_missing_title x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita
+2026-08-20 07:02:55,391 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl section_missing_title x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita
+2026-08-20 07:02:55,391 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl table_missing_title x_author_migration_manager/102428125/whats_new.dita
+2026-08-20 07:02:55,392 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20 07:02:55,393 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita
+2026-08-20 07:02:55,393 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita
+2026-08-20 07:02:55,393 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps x_author_migration_manager/converting_templates_102415194/converting_templates.dita
+2026-08-20 07:02:55,393 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita
+2026-08-20 07:02:55,393 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_steps x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita
+2026-08-20 07:02:55,393 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/102428125/whats_new.dita
+2026-08-20 07:02:55,394 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/about_x_author_migration_manag_109937029/about_xauthor_migration_manager.dita
+2026-08-20 07:02:55,394 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/apttus_copyright_disclaimer_102428127/apttus_copyright_disclaimer.dita
+2026-08-20 07:02:55,395 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/converting_templates_102415194/converting_templates.dita
+2026-08-20 07:02:55,395 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/converting_templates_102415194/to_convert_prefx2_templates_to_fx2_templates.dita
+2026-08-20 07:02:55,395 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/index/space_details.dita
+2026-08-20 07:02:55,396 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/installing_x_author_migration_102415190/installing_xauthor_migration_manager.dita
+2026-08-20 07:02:55,396 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/installing_x_author_migration_102415190/to_download_xauthor_migration_manager.dita
+2026-08-20 07:02:55,396 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/installing_x_author_migration_102415190/to_launch_xauthor_migration_manager.dita
+2026-08-20 07:02:55,397 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/migrating_templates_102415193/prerequisites.dita
+2026-08-20 07:02:55,397 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/migrating_templates_102415193/to_migrate_templates_between_orgs.dita
+2026-08-20 07:02:55,397 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/migrating_templates_with/migrating_templates_with_versioning.dita
+2026-08-20 07:02:55,398 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/migrating_templates_with/to_migrate_versioned_templates.dita
+2026-08-20 07:02:55,398 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/upgrading_templates_102415192/to_upgrade_templates.dita
+2026-08-20 07:02:55,398 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/upgrading_templates_102415192/upgrading_templates.dita
+2026-08-20 07:02:55,399 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/x_author_migration_manager_on_102415187/xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20 07:02:55,399 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/migrating_templates_102415193/migrating_templates_and_universal_unique_ids.dita
+2026-08-20 07:02:55,399 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/migrating_templates_102415193/migrating_templates.dita
+2026-08-20 07:02:55,400 [INFO] layers.layer7_fix_agent: L7/Suggest tmpl missing_prodname x_author_migration_manager/installing_x_author_migration_102415190/to_install_xauthor_migration_manager.dita
+2026-08-20 07:02:56,124 [WARNING] layers.layer7_fix_agent: L7/Suggest ✗ Claude x_author_migration_manager/102428125/whats_new.dita: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}
+2026-08-20 07:02:56,124 [INFO] layers.layer7_fix_agent: L7/Suggest ✓ 31 suggestions
+2026-08-20 07:02:56,126 [INFO] layers.layer7_fix_agent: L7/Suggest ✓ saved 31 suggestions
+2026-08-20 07:02:56,126 [INFO] layers.layer7_fix_agent: L7/Suggest ── Done ──
+2026-08-20 07:02:56,126 [INFO] pipeline.enrich_runner: [EnrichPipeline] Layer 7 — suggestions_generated=31
+2026-08-20 07:02:56,132 [INFO] pipeline.enrich_runner: [EnrichPipeline] Final element counts (post-enrichment): {'ol': 0, 'ul': 10, 'table': 3, 'image': 4, 'crosslink': 6, 'hyperlink': 4, 'concept': 4, 'task': 14, 'reference': 0, 'topic': 1}
+2026-08-20 07:02:56,135 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: _agent_report.json
+2026-08-20 07:02:56,136 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: pre_enrichment.json
+2026-08-20 07:02:56,139 [INFO] pipeline.enrich_runner: [EnrichPipeline] Saved: post_enrichment.json
+2026-08-20 07:02:56,139 [INFO] pipeline.enrich_runner: [EnrichPipeline] Summary log written: ai_enrichment_summary.log
+2026-08-20 07:02:56,140 [INFO] pipeline.enrich_runner: [EnrichPipeline] migration_summary.log updated with AI enrichment values
+2026-08-20 07:02:56,140 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-20 07:02:56,140 [INFO] pipeline.enrich_runner: [EnrichPipeline] Log file : ai_enrichment_full.log
+2026-08-20 07:02:56,140 [INFO] pipeline.enrich_runner: =================================================================
+2026-08-20 07:02:56,204 [INFO] utils.structural_fixer: [StructuralFix] post-AI unescape-tags: 30 processed, 0 failed
+2026-08-20 07:02:56,204 [INFO] pipeline.enrich_runner: [EnrichPipeline] post-AI unescape-tags: status=completed, modified=30, failed=0
+2026-08-20 07:02:56,216 [INFO] pipeline.enrich_runner: [EnrichPipeline] Raw backup deleted after successful enrichment

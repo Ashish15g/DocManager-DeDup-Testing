@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="using_the_delete_action_efa757" xml:lang="en-us">
+   <title>Using the Delete Action</title>
+     <shortdesc>Once the Delete action is enabled, you can use them with simple and powerful filtering</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Delete</keyword>
+        <keyword>records</keyword>
+        <keyword>action</keyword>
+        <keyword>delete</keyword>
+        <keyword>Using</keyword>
+        <keyword>Action</keyword>
+        <indexterm>Delete</indexterm>
+        <indexterm>records</indexterm>
+        <indexterm>action</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Once the Delete action is enabled, you can use them with simple and powerful filtering capabilities to delete records for an object based on specific filter criteria. You can use the non-mapped columns as well to delete records or you can have a simple (or complex) formula in those non-mapped columns to exactly determine the records to be deleted. You can delete records for only those objects referenced in the Save Map having Display Map fields along with Save other fields. If you do not specify any filter criteria, all the records for the object are deleted. You can specify a maximum of 20 filters.</p><p>The Delete action is supported only on Enterprise and Power Admin Editions.</p>
+  </context></taskbody>
+</task>

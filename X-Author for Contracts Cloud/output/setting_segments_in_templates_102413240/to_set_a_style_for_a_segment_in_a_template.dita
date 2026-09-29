@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_set_a_style_for_a_segment_in_a_template_2ca4c8" xml:lang="en-us">
+   <title>To set a style for a segment in a template</title>
+   <shortdesc>Maanasa Suthrave In the X-Author Templates pane, go to the Work tab, click the more</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>segment</keyword>
+        <keyword>style</keyword>
+        <keyword>Segment</keyword>
+        <keyword>click</keyword>
+        <keyword>template</keyword>
+        <keyword>Regular</keyword>
+        <indexterm>segment</indexterm>
+        <indexterm>style</indexterm>
+        <indexterm>Segment</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In the X-Author Templates pane, go to the <b>Work</b> tab, click the more options icon () and select <b>Set Segment</b>.</cmd>
+            <info>
+               <image href="../attachments/102413240/102413262.png" width="6" height="19" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>Highlight a block of text in your template and click <b>Set Style</b>. This opens the <b>Select Styles</b> window that lists custom styles.</cmd>
+         </step>
+         <step>
+            <cmd>Select a custom style or select the <b>Show built-in styles</b> checkbox and select a style.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Select</b>.<b> 
+</b>The segment is added as Segment Regular to the segments list in the <b>Set Segment</b> pane. Selecting the segment name from the list highlights that segment in the template document. </cmd>
+         </step>
+         <step>
+            <cmd>To view or edit a segment style:Select <b>Segment Regular</b> from the segments list in the <b>Set Segments</b> pane and click the gear icon () next to the segment name. 
+This opens the <b>Segment Regular </b>page with the segment style set for that segment. To edit the style, click the pencil icon () next to <b>Style</b>. </cmd>
+            <info>
+               <image href="../attachments/102413240/102413261.png" width="20" height="20" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <info>
+               <image href="../attachments/102413240/102413260.png" width="16" height="16" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <substeps>
+               <substep>
+                  <cmd>Select <b>Segment Regular</b> from the segments list in the <b>Set Segments</b> pane and click the gear icon () next to the segment name. 
+This opens the <b>Segment Regular </b>page with the segment style set for that segment. </cmd>
+                  <info>
+                     <image href="../attachments/102413240/102413261.png" width="20" height="20" placement="inline">
+                           <alt>placeholder</alt>
+                        </image>
+                     
+                  </info>
+               </substep>
+               <substep>
+                  <cmd>To edit the style, click the pencil icon () next to <b>Style</b>. </cmd>
+                  <info>
+                     <image href="../attachments/102413240/102413260.png" width="16" height="16" placement="inline">
+                           <alt>placeholder</alt>
+                        </image>
+                     
+                  </info>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>To add a segment condition, click <b>Add Condition</b>. This opens the <b>Make Conditional</b> window which has the expression builder. For more information, see <xref href="to_make_a_segment_conditional_in_a_template.dita#to_make_a_segment_conditional_in_a_template_301b54">To make a Segment Conditional in a template</xref>.
+Segment Regular style segment changes to Segment Conditional after you add a condition. 
+When you generate a document using a template with style segments, you can view different styles applied in the generated document.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="prerequisites_8b38f9" xml:lang="en-us">
+   <title>Prerequisites</title>
+   <shortdesc>You will need to obtain the following files from your Apttus contact.</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <created date="Apr 14, 2017"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Trust</keyword>
+        <keyword>Microsoft</keyword>
+        <keyword>Word</keyword>
+        <keyword>Apttus</keyword>
+        <keyword>manifest</keyword>
+        <keyword>Center</keyword>
+        <indexterm>Trust</indexterm>
+        <indexterm>Microsoft</indexterm>
+        <indexterm>Word</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>You will need to obtain the following files from your Apttus contact.</p>
+         <ul>
+            <li>
+               <b>Apttus.XAuthor.AppManifest.xml</b> –<b> </b>The add-in manifest file</li>
+            <li>
+               <b>WindowsOfficeAddInsLauncher.exe</b> – The add-in utility required for completing Windows installation</li>
+         </ul>
+      </context>
+      <steps>
+         <step>
+            <cmd>Save the manifest file <b>Apttus.XAuthor.AppManifest.xml</b> to a location on your computer. Make a note of the file path.</cmd>
+         </step>
+         <step>
+            <cmd>Run the <b>WindowsOfficeAddInsLauncher.exe </b>file.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the complete file path that points to the manifest file on your system (for example, <b>C:\OfficeManifest\Apttus.XAuthor.AppManifest.xml</b>) and press Enter.</cmd>
+            <info>
+               <fig>
+                  <title>73401289</title>
+                  <image href="../attachments/73401277/73401289.png" width="600" height="400" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Close the utility window.</cmd>
+         </step>
+         <step>
+            <cmd>Open Microsoft Word and go to <b>File &gt; Options &gt; Trust Center &gt; Trust Center Settings &gt; Trust Add-in Catalogs</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight the Office manifest file catalog entry and click <b>Remove</b>.</cmd>
+            <info>
+               <fig>
+                  <title>73401290</title>
+                  <image href="../attachments/73401277/73401290.png" width="600" height="400" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Close all open Microsoft Word instances.</cmd>
+         </step>
+         <step>
+            <cmd>Open Microsoft Word and go to <b>File &gt; Options &gt; Trust Center &gt; Trust Center Settings &gt; Trust Add-in Catalogs</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Category Url field, add the appropriate catalog path for your add-in, make sure <b>Show in Menu</b> is checked, and click <b>OK</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Close Microsoft Word.</cmd>
+         </step>
+         <step>
+            <cmd>Open Microsoft Word and go to <b>Insert &gt; My Add-ins &gt; X-Author Contracts</b> to run the add-in.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

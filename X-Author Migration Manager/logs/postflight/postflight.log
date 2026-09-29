@@ -1,0 +1,180 @@
+================================================================================
+ metR DocMigrate — POST-FLIGHT VALIDATION REPORT
+================================================================================
+ Total Files Validated      : 30
+ Files With Violations       : 16 (initial)  →  4 (after correction)
+ Total Violations Detected   : 42  (34 errors, 8 warnings)
+ Violations Auto-Corrected   : 32  (22 errors, 5 warnings)
+ Violations Remaining        : 15  (12 errors, 3 warnings)
+ Started                     : 2026-08-20 07:02:38 UTC
+ Completed                   : 2026-08-20 07:02:45 UTC
+ Duration                    : 7s
+ Overall Status               : WARNING
+--------------------------------------------------------------------------------
+
+2026-08-20T07:02:38 [INFO] STEP 4: DITA validation (auto-fix on).
+2026-08-20T07:02:38 [INFO] Validated: x_author_migration_manager_on_102415187.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: installing_x_author_migration_102415190.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: index.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: x_author_migration_manager.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: migrating_templates_with.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: migrating_templates_102415193.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: apttus_copyright_disclaimer_102428127.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: converting_templates_102415194.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: about_x_author_migration_manag_109937029.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: 102428125.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: upgrading_templates_102415192.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: migrating_templates_with_versioning.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T07:02:38 [INFO] Validated: to_migrate_versioned_templates.dita | type=task | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T07:02:38 [INFO] Validated: apttus_copyright_disclaimer.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: upgrading_templates.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: to_upgrade_templates.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: space_details.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: about_xauthor_migration_manager.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T07:02:38 [INFO] Validated: to_convert_prefx2_templates_to_fx2_templates.dita | type=task | score=95.2% | errors=0 | warnings=3 | fixes=2
+2026-08-20T07:02:38 [INFO] Validated: converting_templates.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: whats_new.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: prerequisites.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: migrating_templates.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: migrating_templates_and_universal_unique_ids.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T07:02:38 [INFO] Validated: to_migrate_templates_between_orgs.dita | type=task | score=95.2% | errors=0 | warnings=3 | fixes=2
+2026-08-20T07:02:38 [INFO] Validated: to_install_xauthor_migration_manager.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: to_download_xauthor_migration_manager.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: installing_xauthor_migration_manager.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T07:02:38 [INFO] Validated: to_launch_xauthor_migration_manager.dita | type=task | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T07:02:38 [INFO] Validation done: 30/30 passed, 5 auto-fixes, avg score 98.9%
+2026-08-20T07:02:38 [INFO] Schematron: validating 30 DITA files (gates 1-4).
+2026-08-20T07:02:38 [INFO] Found 30 files to validate.
+2026-08-20T07:02:38 [INFO] [  1/30] whats_new.dita
+2026-08-20T07:02:41 [INFO] [  2/30] 102428125.ditamap
+2026-08-20T07:02:41 [INFO] [  3/30] about_xauthor_migration_manager.dita
+2026-08-20T07:02:41 [INFO] [  4/30] about_x_author_migration_manag_109937029.ditamap
+2026-08-20T07:02:41 [INFO] [  5/30] apttus_copyright_disclaimer.dita
+2026-08-20T07:02:41 [INFO] [  6/30] apttus_copyright_disclaimer_102428127.ditamap
+2026-08-20T07:02:41 [INFO] [  7/30] converting_templates.dita
+2026-08-20T07:02:41 [INFO] [  8/30] to_convert_prefx2_templates_to_fx2_templates.dita
+2026-08-20T07:02:41 [INFO] [  9/30] converting_templates_102415194.ditamap
+2026-08-20T07:02:41 [INFO] [ 10/30] space_details.dita
+2026-08-20T07:02:41 [INFO] [ 11/30] index.ditamap
+2026-08-20T07:02:41 [INFO] [ 12/30] installing_xauthor_migration_manager.dita
+2026-08-20T07:02:41 [INFO] [ 13/30] to_download_xauthor_migration_manager.dita
+2026-08-20T07:02:41 [INFO] [ 14/30] to_install_xauthor_migration_manager.dita
+2026-08-20T07:02:41 [INFO] [ 15/30] to_launch_xauthor_migration_manager.dita
+2026-08-20T07:02:41 [INFO] [ 16/30] installing_x_author_migration_102415190.ditamap
+2026-08-20T07:02:41 [INFO] [ 17/30] migrating_templates.dita
+2026-08-20T07:02:41 [INFO] [ 18/30] migrating_templates_and_universal_unique_ids.dita
+2026-08-20T07:02:41 [INFO] [ 19/30] prerequisites.dita
+2026-08-20T07:02:41 [INFO] [ 20/30] to_migrate_templates_between_orgs.dita
+2026-08-20T07:02:41 [INFO] [ 21/30] migrating_templates_102415193.ditamap
+2026-08-20T07:02:41 [INFO] [ 22/30] migrating_templates_with_versioning.dita
+2026-08-20T07:02:41 [INFO] [ 23/30] to_migrate_versioned_templates.dita
+2026-08-20T07:02:41 [INFO] [ 24/30] migrating_templates_with.ditamap
+2026-08-20T07:02:41 [INFO] [ 25/30] to_upgrade_templates.dita
+2026-08-20T07:02:41 [INFO] [ 26/30] upgrading_templates.dita
+2026-08-20T07:02:41 [INFO] [ 27/30] upgrading_templates_102415192.ditamap
+2026-08-20T07:02:41 [INFO] [ 28/30] x_author_migration_manager.ditamap
+2026-08-20T07:02:41 [INFO] [ 29/30] xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20T07:02:41 [INFO] [ 30/30] x_author_migration_manager_on_102415187.ditamap
+2026-08-20T07:02:41 [INFO] Found 30 files to validate.
+2026-08-20T07:02:41 [INFO] [  1/30] whats_new.dita
+2026-08-20T07:02:41 [INFO] [  2/30] 102428125.ditamap
+2026-08-20T07:02:41 [INFO] [  3/30] about_xauthor_migration_manager.dita
+2026-08-20T07:02:41 [INFO] [  4/30] about_x_author_migration_manag_109937029.ditamap
+2026-08-20T07:02:41 [INFO] [  5/30] apttus_copyright_disclaimer.dita
+2026-08-20T07:02:41 [INFO] [  6/30] apttus_copyright_disclaimer_102428127.ditamap
+2026-08-20T07:02:41 [INFO] [  7/30] converting_templates.dita
+2026-08-20T07:02:41 [INFO] [  8/30] to_convert_prefx2_templates_to_fx2_templates.dita
+2026-08-20T07:02:41 [INFO] [  9/30] converting_templates_102415194.ditamap
+2026-08-20T07:02:41 [INFO] [ 10/30] space_details.dita
+2026-08-20T07:02:41 [INFO] [ 11/30] index.ditamap
+2026-08-20T07:02:41 [INFO] [ 12/30] installing_xauthor_migration_manager.dita
+2026-08-20T07:02:41 [INFO] [ 13/30] to_download_xauthor_migration_manager.dita
+2026-08-20T07:02:41 [INFO] [ 14/30] to_install_xauthor_migration_manager.dita
+2026-08-20T07:02:41 [INFO] [ 15/30] to_launch_xauthor_migration_manager.dita
+2026-08-20T07:02:41 [INFO] [ 16/30] installing_x_author_migration_102415190.ditamap
+2026-08-20T07:02:41 [INFO] [ 17/30] migrating_templates.dita
+2026-08-20T07:02:41 [INFO] [ 18/30] migrating_templates_and_universal_unique_ids.dita
+2026-08-20T07:02:41 [INFO] [ 19/30] prerequisites.dita
+2026-08-20T07:02:41 [INFO] [ 20/30] to_migrate_templates_between_orgs.dita
+2026-08-20T07:02:41 [INFO] [ 21/30] migrating_templates_102415193.ditamap
+2026-08-20T07:02:41 [INFO] [ 22/30] migrating_templates_with_versioning.dita
+2026-08-20T07:02:41 [INFO] [ 23/30] to_migrate_versioned_templates.dita
+2026-08-20T07:02:41 [INFO] [ 24/30] migrating_templates_with.ditamap
+2026-08-20T07:02:41 [INFO] [ 25/30] to_upgrade_templates.dita
+2026-08-20T07:02:41 [INFO] [ 26/30] upgrading_templates.dita
+2026-08-20T07:02:41 [INFO] [ 27/30] upgrading_templates_102415192.ditamap
+2026-08-20T07:02:41 [INFO] [ 28/30] x_author_migration_manager.ditamap
+2026-08-20T07:02:41 [INFO] [ 29/30] xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20T07:02:41 [INFO] [ 30/30] x_author_migration_manager_on_102415187.ditamap
+2026-08-20T07:02:41 [INFO] XSLT transform: 5 common XSL sheets + doctype-specific final stage → xslt_output/
+2026-08-20T07:02:42 [INFO] Schematron: validating 30 DITA files (gates 1-4).
+2026-08-20T07:02:42 [INFO] Found 30 files to validate.
+2026-08-20T07:02:42 [INFO] [  1/30] whats_new.dita
+2026-08-20T07:02:44 [INFO] [  2/30] 102428125.ditamap
+2026-08-20T07:02:44 [INFO] [  3/30] about_xauthor_migration_manager.dita
+2026-08-20T07:02:44 [INFO] [  4/30] about_x_author_migration_manag_109937029.ditamap
+2026-08-20T07:02:44 [INFO] [  5/30] apttus_copyright_disclaimer.dita
+2026-08-20T07:02:44 [INFO] [  6/30] apttus_copyright_disclaimer_102428127.ditamap
+2026-08-20T07:02:44 [INFO] [  7/30] converting_templates.dita
+2026-08-20T07:02:44 [INFO] [  8/30] to_convert_prefx2_templates_to_fx2_templates.dita
+2026-08-20T07:02:44 [INFO] [  9/30] converting_templates_102415194.ditamap
+2026-08-20T07:02:44 [INFO] [ 10/30] space_details.dita
+2026-08-20T07:02:44 [INFO] [ 11/30] index.ditamap
+2026-08-20T07:02:44 [INFO] [ 12/30] installing_xauthor_migration_manager.dita
+2026-08-20T07:02:44 [INFO] [ 13/30] to_download_xauthor_migration_manager.dita
+2026-08-20T07:02:44 [INFO] [ 14/30] to_install_xauthor_migration_manager.dita
+2026-08-20T07:02:44 [INFO] [ 15/30] to_launch_xauthor_migration_manager.dita
+2026-08-20T07:02:44 [INFO] [ 16/30] installing_x_author_migration_102415190.ditamap
+2026-08-20T07:02:44 [INFO] [ 17/30] migrating_templates.dita
+2026-08-20T07:02:44 [INFO] [ 18/30] migrating_templates_and_universal_unique_ids.dita
+2026-08-20T07:02:44 [INFO] [ 19/30] prerequisites.dita
+2026-08-20T07:02:44 [INFO] [ 20/30] to_migrate_templates_between_orgs.dita
+2026-08-20T07:02:44 [INFO] [ 21/30] migrating_templates_102415193.ditamap
+2026-08-20T07:02:44 [INFO] [ 22/30] migrating_templates_with_versioning.dita
+2026-08-20T07:02:44 [INFO] [ 23/30] to_migrate_versioned_templates.dita
+2026-08-20T07:02:44 [INFO] [ 24/30] migrating_templates_with.ditamap
+2026-08-20T07:02:44 [INFO] [ 25/30] to_upgrade_templates.dita
+2026-08-20T07:02:44 [INFO] [ 26/30] upgrading_templates.dita
+2026-08-20T07:02:44 [INFO] [ 27/30] upgrading_templates_102415192.ditamap
+2026-08-20T07:02:44 [INFO] [ 28/30] x_author_migration_manager.ditamap
+2026-08-20T07:02:45 [INFO] [ 29/30] xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20T07:02:45 [INFO] [ 30/30] x_author_migration_manager_on_102415187.ditamap
+2026-08-20T07:02:45 [INFO] Found 30 files to validate.
+2026-08-20T07:02:45 [INFO] [  1/30] whats_new.dita
+2026-08-20T07:02:45 [INFO] [  2/30] 102428125.ditamap
+2026-08-20T07:02:45 [INFO] [  3/30] about_xauthor_migration_manager.dita
+2026-08-20T07:02:45 [INFO] [  4/30] about_x_author_migration_manag_109937029.ditamap
+2026-08-20T07:02:45 [INFO] [  5/30] apttus_copyright_disclaimer.dita
+2026-08-20T07:02:45 [INFO] [  6/30] apttus_copyright_disclaimer_102428127.ditamap
+2026-08-20T07:02:45 [INFO] [  7/30] converting_templates.dita
+2026-08-20T07:02:45 [INFO] [  8/30] to_convert_prefx2_templates_to_fx2_templates.dita
+2026-08-20T07:02:45 [INFO] [  9/30] converting_templates_102415194.ditamap
+2026-08-20T07:02:45 [INFO] [ 10/30] space_details.dita
+2026-08-20T07:02:45 [INFO] [ 11/30] index.ditamap
+2026-08-20T07:02:45 [INFO] [ 12/30] installing_xauthor_migration_manager.dita
+2026-08-20T07:02:45 [INFO] [ 13/30] to_download_xauthor_migration_manager.dita
+2026-08-20T07:02:45 [INFO] [ 14/30] to_install_xauthor_migration_manager.dita
+2026-08-20T07:02:45 [INFO] [ 15/30] to_launch_xauthor_migration_manager.dita
+2026-08-20T07:02:45 [INFO] [ 16/30] installing_x_author_migration_102415190.ditamap
+2026-08-20T07:02:45 [INFO] [ 17/30] migrating_templates.dita
+2026-08-20T07:02:45 [INFO] [ 18/30] migrating_templates_and_universal_unique_ids.dita
+2026-08-20T07:02:45 [INFO] [ 19/30] prerequisites.dita
+2026-08-20T07:02:45 [INFO] [ 20/30] to_migrate_templates_between_orgs.dita
+2026-08-20T07:02:45 [INFO] [ 21/30] migrating_templates_102415193.ditamap
+2026-08-20T07:02:45 [INFO] [ 22/30] migrating_templates_with_versioning.dita
+2026-08-20T07:02:45 [INFO] [ 23/30] to_migrate_versioned_templates.dita
+2026-08-20T07:02:45 [INFO] [ 24/30] migrating_templates_with.ditamap
+2026-08-20T07:02:45 [INFO] [ 25/30] to_upgrade_templates.dita
+2026-08-20T07:02:45 [INFO] [ 26/30] upgrading_templates.dita
+2026-08-20T07:02:45 [INFO] [ 27/30] upgrading_templates_102415192.ditamap
+2026-08-20T07:02:45 [INFO] [ 28/30] x_author_migration_manager.ditamap
+2026-08-20T07:02:45 [INFO] [ 29/30] xauthor_migration_manager_on_salesforce_summer_2019_user_guide.dita
+2026-08-20T07:02:45 [INFO] [ 30/30] x_author_migration_manager_on_102415187.ditamap
+
+================================================================================
+Success: Post-flight validation completed successfully.
+================================================================================

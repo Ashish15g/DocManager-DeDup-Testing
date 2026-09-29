@@ -1,0 +1,182 @@
+{
+  "job_id": "e59fab4a-cc53-4622-a4bc-53c572fdc160",
+  "output_dir": "storage/e59fab4a-cc53-4622-a4bc-53c572fdc160/xslt_output",
+  "run_at": "2026-08-20T07:00:06.107094+00:00",
+  "files_discovered": {
+    "dita_file_count": 5,
+    "dita_files": [
+      "x_author_migration_manager_fbr/apttus_copyright_disclaimer_109940507/apttus_copyright_disclaimer.dita",
+      "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+      "x_author_migration_manager_fbr/index/space_details.dita",
+      "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/versions.dita",
+      "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/xauthor_migration_manager_on_salesforce_features_by_release.dita"
+    ],
+    "ditamap_file_count": 5,
+    "ditamap_files": [
+      "x_author_migration_manager_fbr/apttus_copyright_disclaimer_109940507.ditamap",
+      "x_author_migration_manager_fbr/feature_list_109940506.ditamap",
+      "x_author_migration_manager_fbr/index.ditamap",
+      "x_author_migration_manager_fbr/x_author_migration_manager_fbr.ditamap",
+      "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505.ditamap"
+    ]
+  },
+  "document_context": {
+    "prodname": "",
+    "equipment_name": "",
+    "task_type": "user guide",
+    "document_keywords": [
+      "user guide"
+    ],
+    "extraction_method": "heuristic"
+  },
+  "structural_issues": [
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager_fbr/apttus_copyright_disclaimer_109940507/apttus_copyright_disclaimer.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager_fbr/index/space_details.dita",
+      "message": "<reference> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_migration_manager_fbr/index/space_details.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 7
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "x_author_migration_manager_fbr/index/space_details.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+      "message": "<reference> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 12
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/versions.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/versions.dita",
+      "message": "<shortdesc> starts with generic opener 'this document': 'This document covers versions 5.1 to x'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_xml_lang",
+      "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/xauthor_migration_manager_on_salesforce_features_by_release.dita",
+      "message": "<concept> is missing 'xml:lang' attribute (recommended: xml:lang=\"en-us\")",
+      "line": 3
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/xauthor_migration_manager_on_salesforce_features_by_release.dita",
+      "message": "<shortdesc> starts with generic opener 'this document': 'This document contains an overview of features introduced in...'",
+      "line": 5
+    }
+  ],
+  "summary": {
+    "dita_file_count": 5,
+    "missing_count": 0,
+    "broken_xml_count": 0,
+    "empty_count": 0,
+    "ditamap_broken_ref_count": 0,
+    "broken_mapref_count": 0,
+    "orphan_file_count": 0,
+    "duplicate_id_count": 0,
+    "broken_xref_count": 0,
+    "filename_space_count": 0,
+    "severity_counts": {
+      "CRITICAL": 0,
+      "WARNING": 11,
+      "INFO": 0
+    },
+    "category_counts": {
+      "missing_xml_lang": 5,
+      "table_missing_title": 2,
+      "missing_shortdesc": 2,
+      "shortdesc_too_generic": 2
+    }
+  },
+  "zone1_auto_fixes": {
+    "fixed": [
+      {
+        "file": "x_author_migration_manager_fbr/apttus_copyright_disclaimer_109940507/apttus_copyright_disclaimer.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager_fbr/feature_list_109940506/feature_list.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager_fbr/index/space_details.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/versions.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_migration_manager_fbr/x_author_migration_manager_on_109940505/xauthor_migration_manager_on_salesforce_features_by_release.dita",
+        "fix": "added xml:lang=\"en-us\""
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "fixed_count": 5,
+      "error_count": 0
+    }
+  },
+  "backend_dtd_errors": {
+    "source": "backend core _report.txt",
+    "errors_by_file": {},
+    "file_count_with_errors": 0
+  },
+  "validation": {
+    "status": "completed",
+    "total_violations": 0,
+    "files_with_violations": 0,
+    "violations_by_severity": {
+      "error": 0,
+      "warning": 0
+    },
+    "violations_by_gate": {
+      "gate1": 0,
+      "gate2": 0,
+      "gate3": 0,
+      "gate4": 0
+    },
+    "details": []
+  }
+}

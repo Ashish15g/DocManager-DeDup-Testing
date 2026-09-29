@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_mark_a_clause_for_deletion_e43c02" xml:lang="en-us">
+   <title>To mark a clause for deletion</title>
+   <shortdesc>You'll get a message, "Your clause will be deleted on reconciliation" and the clause text</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>clause</keyword>
+        <keyword>Delete</keyword>
+        <keyword>document</keyword>
+        <keyword>deletion</keyword>
+        <keyword>Clauses</keyword>
+        <keyword>select</keyword>
+        <indexterm>clause</indexterm>
+        <indexterm>Delete</indexterm>
+        <indexterm>document</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <b>Doc Clauses &gt; Available Clauses </b>list.</cmd>
+         </step>
+         <step>
+            <cmd>Search the clause you want to delete or select the clause from the available clauses list and click the more icon  next to the clause name.</cmd>
+            <info>
+               <image href="../attachments/102413211/102413335.png" width="6" height="19" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Delete</b>.</cmd>
+         </step>
+         <step>
+            <cmd>You will get a confirmation message, select <b>Delete</b> again.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>You'll get a message, "Your clause will be deleted on reconciliation" and the clause text in the document is marked with a strikethrough. You can click <b>Undo Delete </b>from the more options next to the clause name, to remove the mark at any time in the same session.</p>
+         <p>Check-in the document and choose <b>Reconcile</b>. The content of the deleted clause is removed from the document and a "Deleted" entry is recorded in the Agreement Clause related list on the agreement record in Salesforce.</p>
+         <p>For more information on tracking clauses and clause activity in your agreements, refer to the<i> Contract Management Administrator Guide</i> for the Salesforce platform.</p>
+      </result>
+   </taskbody>
+</task>

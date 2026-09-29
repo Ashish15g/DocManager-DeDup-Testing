@@ -1,0 +1,409 @@
+================================================================================
+ metR DocMigrate — POST-FLIGHT VALIDATION REPORT
+================================================================================
+ Total Files Validated      : 70
+ Files With Violations       : 54 (initial)  →  32 (after correction)
+ Total Violations Detected   : 290  (217 errors, 73 warnings)
+ Violations Auto-Corrected   : 202  (51 errors, 41 warnings)
+ Violations Remaining        : 198  (166 errors, 32 warnings)
+ Started                     : 2026-08-20 06:51:45 UTC
+ Completed                   : 2026-08-20 06:51:54 UTC
+ Duration                    : 8s
+ Overall Status               : WARNING
+--------------------------------------------------------------------------------
+
+2026-08-20T06:51:45 [INFO] STEP 4: DITA validation (auto-fix on).
+2026-08-20T06:51:45 [INFO] Validated: locking_and_unlocking_document_45220101.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: logging_in_to_x_author_contrac_45711457.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: index.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: working_with_fields_45220124.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: x_author_contracts_for_mac.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: checking_in_an_agreement_docum_45220109.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: windows_installation_fix_74121257.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: checking_out_an_agreement_45220108.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: using_the_document_panel_45220125.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: opening_agreements_in_salesfor_45711369.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: installing_x_author_contracts_45220121.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: marking_fields_45220114.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: working_with_agreements_45220122.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: importing_offline_agreements_45220098.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: getting_started_45220129.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: using_playbook_45220113.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: inserting_clauses_45220128.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: working_with_clauses_45220112.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: reconciliation_45220099.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: x_author_for_contracts_mac_may_45220117.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: marking_clauses_45220111.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: tracking_clauses_in_your_agree_45220100.ditamap | type=map | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: installing_xauthor_contracts.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_install_the_xauthor_contracts_addin.dita | type=task | score=95.2% | errors=0 | warnings=3 | fixes=2
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_launch_the_xauthor_contracts_addin.dita | type=task | score=95.2% | errors=0 | warnings=4 | fixes=3
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 4/4 fixes
+2026-08-20T06:51:45 [INFO] Validated: using_playbook.dita | type=reference | score=100.0% | errors=0 | warnings=4 | fixes=4
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_check_in_and_reconcile_smart_fields_and_clauses.dita | type=task | score=90.9% | errors=0 | warnings=5 | fixes=3
+2026-08-20T06:51:45 [INFO] Validated: reconciliation.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: importing_offline_agreements.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 6/6 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_import_an_offline_agreement.dita | type=task | score=90.9% | errors=0 | warnings=8 | fixes=6
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 4/4 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_mark_a_clause_for_deletion.dita | type=task | score=95.2% | errors=0 | warnings=5 | fixes=4
+2026-08-20T06:51:45 [INFO] Validated: working_with_clauses.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 4/4 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_unmark_a_clause.dita | type=task | score=95.2% | errors=0 | warnings=5 | fixes=4
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_reject_changes_to_a_clause.dita | type=task | score=95.2% | errors=0 | warnings=3 | fixes=2
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 4/4 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_view_a_clause.dita | type=task | score=95.2% | errors=0 | warnings=5 | fixes=4
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T06:51:45 [INFO] Validated: tracking_clauses_in_your_agreement_document.dita | type=concept | score=95.2% | errors=0 | warnings=2 | fixes=1
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 4/4 fixes
+2026-08-20T06:51:45 [INFO] Validated: using_the_document_panel.dita | type=reference | score=100.0% | errors=0 | warnings=4 | fixes=4
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 6/6 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_mark_a_clause_in_an_agreement.dita | type=task | score=95.2% | errors=0 | warnings=7 | fixes=6
+2026-08-20T06:51:45 [INFO] Validated: marking_clauses.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: space_details.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T06:51:45 [INFO] Validated: xauthor_for_contracts_mac_may_2017_user_guide.dita | type=concept | score=100.0% | errors=0 | warnings=1 | fixes=1
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_check_in_an_agreement_document.dita | type=task | score=90.9% | errors=0 | warnings=4 | fixes=2
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T06:51:45 [INFO] Validated: contract_document_versions.dita | type=reference | score=100.0% | errors=0 | warnings=3 | fixes=3
+2026-08-20T06:51:45 [INFO] Validated: checking_in_an_agreement_document.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T06:51:45 [INFO] Validated: smart_clauses.dita | type=reference | score=100.0% | errors=0 | warnings=2 | fixes=2
+2026-08-20T06:51:45 [INFO] Validated: working_with_agreements.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validated: smart_fields.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_log_in_to_xauthor_contracts.dita | type=task | score=95.2% | errors=0 | warnings=3 | fixes=2
+2026-08-20T06:51:45 [INFO] Validated: logging_in_to_xauthor_contracts.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 10/10 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_check_out_a_document.dita | type=task | score=95.2% | errors=0 | warnings=11 | fixes=10
+2026-08-20T06:51:45 [INFO] Validated: checking_out_an_agreement.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T06:51:45 [INFO] Validated: inserting_clauses.dita | type=concept | score=100.0% | errors=0 | warnings=1 | fixes=1
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 5/5 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_insert_a_clause.dita | type=task | score=95.2% | errors=0 | warnings=6 | fixes=5
+2026-08-20T06:51:45 [INFO] Validated: getting_started.dita | type=topic | score=95.2% | errors=0 | warnings=1 | fixes=0
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 4/4 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_mark_fields_for_deletion.dita | type=task | score=95.2% | errors=0 | warnings=5 | fixes=4
+2026-08-20T06:51:45 [INFO] Validated: working_with_fields.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_unmark_fields_for_deletion.dita | type=task | score=95.2% | errors=0 | warnings=3 | fixes=2
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 4/4 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_reject_changes_to_a_field.dita | type=task | score=95.2% | errors=0 | warnings=5 | fixes=4
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 5/5 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_view_and_change_fields.dita | type=task | score=95.2% | errors=0 | warnings=6 | fixes=5
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_validate_fields.dita | type=task | score=95.2% | errors=0 | warnings=4 | fixes=3
+2026-08-20T06:51:45 [INFO] Validated: opening_agreements_in_salesforce.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 5/5 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_open_an_agreement_in_salesforce.dita | type=task | score=95.2% | errors=0 | warnings=6 | fixes=5
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 6/6 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_mark_a_field_in_an_agreement.dita | type=task | score=95.2% | errors=0 | warnings=7 | fixes=6
+2026-08-20T06:51:45 [INFO] Validated: marking_fields.dita | type=reference | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T06:51:45 [INFO] Validated: to_release_a_document_lock.dita | type=task | score=95.2% | errors=0 | warnings=4 | fixes=3
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T06:51:45 [INFO] Validated: opening_a_document_you_have_already_checked_out.dita | type=reference | score=100.0% | errors=0 | warnings=3 | fixes=3
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 3/3 fixes
+2026-08-20T06:51:45 [INFO] Validated: refreshing_document_lock_status.dita | type=concept | score=100.0% | errors=0 | warnings=3 | fixes=3
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 1/1 fixes
+2026-08-20T06:51:45 [INFO] Validated: locking_and_unlocking_documents.dita | type=concept | score=100.0% | errors=0 | warnings=1 | fixes=1
+2026-08-20T06:51:45 [INFO] Auto-fix: applied 2/2 fixes
+2026-08-20T06:51:45 [INFO] Validated: prerequisites.dita | type=task | score=95.2% | errors=0 | warnings=3 | fixes=2
+2026-08-20T06:51:45 [INFO] Validated: microsoft_windows_installation_fix.dita | type=concept | score=100.0% | errors=0 | warnings=0 | fixes=0
+2026-08-20T06:51:45 [INFO] Validation done: 70/70 passed, 110 auto-fixes, avg score 98.2%
+2026-08-20T06:51:45 [INFO] Schematron: validating 70 DITA files (gates 1-4).
+2026-08-20T06:51:45 [INFO] Found 70 files to validate.
+2026-08-20T06:51:45 [INFO] [  1/70] checking_in_an_agreement_document.dita
+2026-08-20T06:51:48 [INFO] [  2/70] contract_document_versions.dita
+2026-08-20T06:51:48 [INFO] [  3/70] to_check_in_an_agreement_document.dita
+2026-08-20T06:51:48 [INFO] [  4/70] checking_in_an_agreement_docum_45220109.ditamap
+2026-08-20T06:51:48 [INFO] [  5/70] checking_out_an_agreement.dita
+2026-08-20T06:51:48 [INFO] [  6/70] to_check_out_a_document.dita
+2026-08-20T06:51:48 [INFO] [  7/70] checking_out_an_agreement_45220108.ditamap
+2026-08-20T06:51:48 [INFO] [  8/70] getting_started.dita
+2026-08-20T06:51:48 [INFO] [  9/70] getting_started_45220129.ditamap
+2026-08-20T06:51:48 [INFO] [ 10/70] importing_offline_agreements.dita
+2026-08-20T06:51:48 [INFO] [ 11/70] to_import_an_offline_agreement.dita
+2026-08-20T06:51:48 [INFO] [ 12/70] importing_offline_agreements_45220098.ditamap
+2026-08-20T06:51:48 [INFO] [ 13/70] space_details.dita
+2026-08-20T06:51:48 [INFO] [ 14/70] index.ditamap
+2026-08-20T06:51:48 [INFO] [ 15/70] inserting_clauses.dita
+2026-08-20T06:51:48 [INFO] [ 16/70] to_insert_a_clause.dita
+2026-08-20T06:51:48 [INFO] [ 17/70] inserting_clauses_45220128.ditamap
+2026-08-20T06:51:48 [INFO] [ 18/70] installing_xauthor_contracts.dita
+2026-08-20T06:51:48 [INFO] [ 19/70] to_install_the_xauthor_contracts_addin.dita
+2026-08-20T06:51:48 [INFO] [ 20/70] to_launch_the_xauthor_contracts_addin.dita
+2026-08-20T06:51:48 [INFO] [ 21/70] installing_x_author_contracts_45220121.ditamap
+2026-08-20T06:51:48 [INFO] [ 22/70] locking_and_unlocking_documents.dita
+2026-08-20T06:51:48 [INFO] [ 23/70] opening_a_document_you_have_already_checked_out.dita
+2026-08-20T06:51:48 [INFO] [ 24/70] refreshing_document_lock_status.dita
+2026-08-20T06:51:48 [INFO] [ 25/70] to_release_a_document_lock.dita
+2026-08-20T06:51:48 [INFO] [ 26/70] locking_and_unlocking_document_45220101.ditamap
+2026-08-20T06:51:48 [INFO] [ 27/70] logging_in_to_xauthor_contracts.dita
+2026-08-20T06:51:48 [INFO] [ 28/70] to_log_in_to_xauthor_contracts.dita
+2026-08-20T06:51:48 [INFO] [ 29/70] logging_in_to_x_author_contrac_45711457.ditamap
+2026-08-20T06:51:48 [INFO] [ 30/70] marking_clauses.dita
+2026-08-20T06:51:48 [INFO] [ 31/70] to_mark_a_clause_in_an_agreement.dita
+2026-08-20T06:51:48 [INFO] [ 32/70] marking_clauses_45220111.ditamap
+2026-08-20T06:51:48 [INFO] [ 33/70] marking_fields.dita
+2026-08-20T06:51:48 [INFO] [ 34/70] to_mark_a_field_in_an_agreement.dita
+2026-08-20T06:51:48 [INFO] [ 35/70] marking_fields_45220114.ditamap
+2026-08-20T06:51:48 [INFO] [ 36/70] opening_agreements_in_salesforce.dita
+2026-08-20T06:51:48 [INFO] [ 37/70] to_open_an_agreement_in_salesforce.dita
+2026-08-20T06:51:48 [INFO] [ 38/70] opening_agreements_in_salesfor_45711369.ditamap
+2026-08-20T06:51:48 [INFO] [ 39/70] reconciliation.dita
+2026-08-20T06:51:48 [INFO] [ 40/70] to_check_in_and_reconcile_smart_fields_and_clauses.dita
+2026-08-20T06:51:48 [INFO] [ 41/70] reconciliation_45220099.ditamap
+2026-08-20T06:51:48 [INFO] [ 42/70] tracking_clauses_in_your_agreement_document.dita
+2026-08-20T06:51:48 [INFO] [ 43/70] tracking_clauses_in_your_agree_45220100.ditamap
+2026-08-20T06:51:48 [INFO] [ 44/70] using_playbook.dita
+2026-08-20T06:51:48 [INFO] [ 45/70] using_playbook_45220113.ditamap
+2026-08-20T06:51:48 [INFO] [ 46/70] using_the_document_panel.dita
+2026-08-20T06:51:48 [INFO] [ 47/70] using_the_document_panel_45220125.ditamap
+2026-08-20T06:51:48 [INFO] [ 48/70] microsoft_windows_installation_fix.dita
+2026-08-20T06:51:48 [INFO] [ 49/70] prerequisites.dita
+2026-08-20T06:51:48 [INFO] [ 50/70] windows_installation_fix_74121257.ditamap
+2026-08-20T06:51:48 [INFO] [ 51/70] smart_clauses.dita
+2026-08-20T06:51:48 [INFO] [ 52/70] smart_fields.dita
+2026-08-20T06:51:48 [INFO] [ 53/70] working_with_agreements.dita
+2026-08-20T06:51:48 [INFO] [ 54/70] working_with_agreements_45220122.ditamap
+2026-08-20T06:51:48 [INFO] [ 55/70] to_mark_a_clause_for_deletion.dita
+2026-08-20T06:51:48 [INFO] [ 56/70] to_reject_changes_to_a_clause.dita
+2026-08-20T06:51:48 [INFO] [ 57/70] to_unmark_a_clause.dita
+2026-08-20T06:51:48 [INFO] [ 58/70] to_view_a_clause.dita
+2026-08-20T06:51:48 [INFO] [ 59/70] working_with_clauses.dita
+2026-08-20T06:51:48 [INFO] [ 60/70] working_with_clauses_45220112.ditamap
+2026-08-20T06:51:48 [INFO] [ 61/70] to_mark_fields_for_deletion.dita
+2026-08-20T06:51:48 [INFO] [ 62/70] to_reject_changes_to_a_field.dita
+2026-08-20T06:51:48 [INFO] [ 63/70] to_unmark_fields_for_deletion.dita
+2026-08-20T06:51:48 [INFO] [ 64/70] to_validate_fields.dita
+2026-08-20T06:51:48 [INFO] [ 65/70] to_view_and_change_fields.dita
+2026-08-20T06:51:48 [INFO] [ 66/70] working_with_fields.dita
+2026-08-20T06:51:48 [INFO] [ 67/70] working_with_fields_45220124.ditamap
+2026-08-20T06:51:49 [INFO] [ 68/70] x_author_contracts_for_mac.ditamap
+2026-08-20T06:51:49 [INFO] [ 69/70] xauthor_for_contracts_mac_may_2017_user_guide.dita
+2026-08-20T06:51:49 [INFO] [ 70/70] x_author_for_contracts_mac_may_45220117.ditamap
+2026-08-20T06:51:49 [INFO] Found 70 files to validate.
+2026-08-20T06:51:49 [INFO] [  1/70] checking_in_an_agreement_document.dita
+2026-08-20T06:51:49 [INFO] [  2/70] contract_document_versions.dita
+2026-08-20T06:51:49 [INFO] [  3/70] to_check_in_an_agreement_document.dita
+2026-08-20T06:51:49 [INFO] [  4/70] checking_in_an_agreement_docum_45220109.ditamap
+2026-08-20T06:51:49 [INFO] [  5/70] checking_out_an_agreement.dita
+2026-08-20T06:51:49 [INFO] [  6/70] to_check_out_a_document.dita
+2026-08-20T06:51:49 [INFO] [  7/70] checking_out_an_agreement_45220108.ditamap
+2026-08-20T06:51:49 [INFO] [  8/70] getting_started.dita
+2026-08-20T06:51:49 [INFO] [  9/70] getting_started_45220129.ditamap
+2026-08-20T06:51:49 [INFO] [ 10/70] importing_offline_agreements.dita
+2026-08-20T06:51:49 [INFO] [ 11/70] to_import_an_offline_agreement.dita
+2026-08-20T06:51:49 [INFO] [ 12/70] importing_offline_agreements_45220098.ditamap
+2026-08-20T06:51:49 [INFO] [ 13/70] space_details.dita
+2026-08-20T06:51:49 [INFO] [ 14/70] index.ditamap
+2026-08-20T06:51:49 [INFO] [ 15/70] inserting_clauses.dita
+2026-08-20T06:51:49 [INFO] [ 16/70] to_insert_a_clause.dita
+2026-08-20T06:51:49 [INFO] [ 17/70] inserting_clauses_45220128.ditamap
+2026-08-20T06:51:49 [INFO] [ 18/70] installing_xauthor_contracts.dita
+2026-08-20T06:51:49 [INFO] [ 19/70] to_install_the_xauthor_contracts_addin.dita
+2026-08-20T06:51:49 [INFO] [ 20/70] to_launch_the_xauthor_contracts_addin.dita
+2026-08-20T06:51:49 [INFO] [ 21/70] installing_x_author_contracts_45220121.ditamap
+2026-08-20T06:51:49 [INFO] [ 22/70] locking_and_unlocking_documents.dita
+2026-08-20T06:51:49 [INFO] [ 23/70] opening_a_document_you_have_already_checked_out.dita
+2026-08-20T06:51:49 [INFO] [ 24/70] refreshing_document_lock_status.dita
+2026-08-20T06:51:49 [INFO] [ 25/70] to_release_a_document_lock.dita
+2026-08-20T06:51:49 [INFO] [ 26/70] locking_and_unlocking_document_45220101.ditamap
+2026-08-20T06:51:49 [INFO] [ 27/70] logging_in_to_xauthor_contracts.dita
+2026-08-20T06:51:49 [INFO] [ 28/70] to_log_in_to_xauthor_contracts.dita
+2026-08-20T06:51:49 [INFO] [ 29/70] logging_in_to_x_author_contrac_45711457.ditamap
+2026-08-20T06:51:49 [INFO] [ 30/70] marking_clauses.dita
+2026-08-20T06:51:49 [INFO] [ 31/70] to_mark_a_clause_in_an_agreement.dita
+2026-08-20T06:51:49 [INFO] [ 32/70] marking_clauses_45220111.ditamap
+2026-08-20T06:51:49 [INFO] [ 33/70] marking_fields.dita
+2026-08-20T06:51:49 [INFO] [ 34/70] to_mark_a_field_in_an_agreement.dita
+2026-08-20T06:51:49 [INFO] [ 35/70] marking_fields_45220114.ditamap
+2026-08-20T06:51:49 [INFO] [ 36/70] opening_agreements_in_salesforce.dita
+2026-08-20T06:51:49 [INFO] [ 37/70] to_open_an_agreement_in_salesforce.dita
+2026-08-20T06:51:49 [INFO] [ 38/70] opening_agreements_in_salesfor_45711369.ditamap
+2026-08-20T06:51:49 [INFO] [ 39/70] reconciliation.dita
+2026-08-20T06:51:49 [INFO] [ 40/70] to_check_in_and_reconcile_smart_fields_and_clauses.dita
+2026-08-20T06:51:49 [INFO] [ 41/70] reconciliation_45220099.ditamap
+2026-08-20T06:51:49 [INFO] [ 42/70] tracking_clauses_in_your_agreement_document.dita
+2026-08-20T06:51:49 [INFO] [ 43/70] tracking_clauses_in_your_agree_45220100.ditamap
+2026-08-20T06:51:49 [INFO] [ 44/70] using_playbook.dita
+2026-08-20T06:51:49 [INFO] [ 45/70] using_playbook_45220113.ditamap
+2026-08-20T06:51:49 [INFO] [ 46/70] using_the_document_panel.dita
+2026-08-20T06:51:49 [INFO] [ 47/70] using_the_document_panel_45220125.ditamap
+2026-08-20T06:51:49 [INFO] [ 48/70] microsoft_windows_installation_fix.dita
+2026-08-20T06:51:49 [INFO] [ 49/70] prerequisites.dita
+2026-08-20T06:51:49 [INFO] [ 50/70] windows_installation_fix_74121257.ditamap
+2026-08-20T06:51:49 [INFO] [ 51/70] smart_clauses.dita
+2026-08-20T06:51:49 [INFO] [ 52/70] smart_fields.dita
+2026-08-20T06:51:49 [INFO] [ 53/70] working_with_agreements.dita
+2026-08-20T06:51:49 [INFO] [ 54/70] working_with_agreements_45220122.ditamap
+2026-08-20T06:51:49 [INFO] [ 55/70] to_mark_a_clause_for_deletion.dita
+2026-08-20T06:51:49 [INFO] [ 56/70] to_reject_changes_to_a_clause.dita
+2026-08-20T06:51:49 [INFO] [ 57/70] to_unmark_a_clause.dita
+2026-08-20T06:51:49 [INFO] [ 58/70] to_view_a_clause.dita
+2026-08-20T06:51:49 [INFO] [ 59/70] working_with_clauses.dita
+2026-08-20T06:51:49 [INFO] [ 60/70] working_with_clauses_45220112.ditamap
+2026-08-20T06:51:49 [INFO] [ 61/70] to_mark_fields_for_deletion.dita
+2026-08-20T06:51:49 [INFO] [ 62/70] to_reject_changes_to_a_field.dita
+2026-08-20T06:51:49 [INFO] [ 63/70] to_unmark_fields_for_deletion.dita
+2026-08-20T06:51:49 [INFO] [ 64/70] to_validate_fields.dita
+2026-08-20T06:51:49 [INFO] [ 65/70] to_view_and_change_fields.dita
+2026-08-20T06:51:49 [INFO] [ 66/70] working_with_fields.dita
+2026-08-20T06:51:49 [INFO] [ 67/70] working_with_fields_45220124.ditamap
+2026-08-20T06:51:49 [INFO] [ 68/70] x_author_contracts_for_mac.ditamap
+2026-08-20T06:51:49 [INFO] [ 69/70] xauthor_for_contracts_mac_may_2017_user_guide.dita
+2026-08-20T06:51:49 [INFO] [ 70/70] x_author_for_contracts_mac_may_45220117.ditamap
+2026-08-20T06:51:49 [INFO] XSLT transform: 5 common XSL sheets + doctype-specific final stage → xslt_output/
+2026-08-20T06:51:50 [INFO] Schematron: validating 70 DITA files (gates 1-4).
+2026-08-20T06:51:50 [INFO] Found 70 files to validate.
+2026-08-20T06:51:50 [INFO] [  1/70] checking_in_an_agreement_document.dita
+2026-08-20T06:51:52 [INFO] [  2/70] contract_document_versions.dita
+2026-08-20T06:51:52 [INFO] [  3/70] to_check_in_an_agreement_document.dita
+2026-08-20T06:51:52 [INFO] [  4/70] checking_in_an_agreement_docum_45220109.ditamap
+2026-08-20T06:51:52 [INFO] [  5/70] checking_out_an_agreement.dita
+2026-08-20T06:51:52 [INFO] [  6/70] to_check_out_a_document.dita
+2026-08-20T06:51:52 [INFO] [  7/70] checking_out_an_agreement_45220108.ditamap
+2026-08-20T06:51:52 [INFO] [  8/70] getting_started.dita
+2026-08-20T06:51:52 [INFO] [  9/70] getting_started_45220129.ditamap
+2026-08-20T06:51:53 [INFO] [ 10/70] importing_offline_agreements.dita
+2026-08-20T06:51:53 [INFO] [ 11/70] to_import_an_offline_agreement.dita
+2026-08-20T06:51:53 [INFO] [ 12/70] importing_offline_agreements_45220098.ditamap
+2026-08-20T06:51:53 [INFO] [ 13/70] space_details.dita
+2026-08-20T06:51:53 [INFO] [ 14/70] index.ditamap
+2026-08-20T06:51:53 [INFO] [ 15/70] inserting_clauses.dita
+2026-08-20T06:51:53 [INFO] [ 16/70] to_insert_a_clause.dita
+2026-08-20T06:51:53 [INFO] [ 17/70] inserting_clauses_45220128.ditamap
+2026-08-20T06:51:53 [INFO] [ 18/70] installing_xauthor_contracts.dita
+2026-08-20T06:51:53 [INFO] [ 19/70] to_install_the_xauthor_contracts_addin.dita
+2026-08-20T06:51:53 [INFO] [ 20/70] to_launch_the_xauthor_contracts_addin.dita
+2026-08-20T06:51:53 [INFO] [ 21/70] installing_x_author_contracts_45220121.ditamap
+2026-08-20T06:51:53 [INFO] [ 22/70] locking_and_unlocking_documents.dita
+2026-08-20T06:51:53 [INFO] [ 23/70] opening_a_document_you_have_already_checked_out.dita
+2026-08-20T06:51:53 [INFO] [ 24/70] refreshing_document_lock_status.dita
+2026-08-20T06:51:53 [INFO] [ 25/70] to_release_a_document_lock.dita
+2026-08-20T06:51:53 [INFO] [ 26/70] locking_and_unlocking_document_45220101.ditamap
+2026-08-20T06:51:53 [INFO] [ 27/70] logging_in_to_xauthor_contracts.dita
+2026-08-20T06:51:53 [INFO] [ 28/70] to_log_in_to_xauthor_contracts.dita
+2026-08-20T06:51:53 [INFO] [ 29/70] logging_in_to_x_author_contrac_45711457.ditamap
+2026-08-20T06:51:53 [INFO] [ 30/70] marking_clauses.dita
+2026-08-20T06:51:53 [INFO] [ 31/70] to_mark_a_clause_in_an_agreement.dita
+2026-08-20T06:51:53 [INFO] [ 32/70] marking_clauses_45220111.ditamap
+2026-08-20T06:51:53 [INFO] [ 33/70] marking_fields.dita
+2026-08-20T06:51:53 [INFO] [ 34/70] to_mark_a_field_in_an_agreement.dita
+2026-08-20T06:51:53 [INFO] [ 35/70] marking_fields_45220114.ditamap
+2026-08-20T06:51:53 [INFO] [ 36/70] opening_agreements_in_salesforce.dita
+2026-08-20T06:51:53 [INFO] [ 37/70] to_open_an_agreement_in_salesforce.dita
+2026-08-20T06:51:53 [INFO] [ 38/70] opening_agreements_in_salesfor_45711369.ditamap
+2026-08-20T06:51:53 [INFO] [ 39/70] reconciliation.dita
+2026-08-20T06:51:53 [INFO] [ 40/70] to_check_in_and_reconcile_smart_fields_and_clauses.dita
+2026-08-20T06:51:53 [INFO] [ 41/70] reconciliation_45220099.ditamap
+2026-08-20T06:51:53 [INFO] [ 42/70] tracking_clauses_in_your_agreement_document.dita
+2026-08-20T06:51:53 [INFO] [ 43/70] tracking_clauses_in_your_agree_45220100.ditamap
+2026-08-20T06:51:53 [INFO] [ 44/70] using_playbook.dita
+2026-08-20T06:51:53 [INFO] [ 45/70] using_playbook_45220113.ditamap
+2026-08-20T06:51:53 [INFO] [ 46/70] using_the_document_panel.dita
+2026-08-20T06:51:53 [INFO] [ 47/70] using_the_document_panel_45220125.ditamap
+2026-08-20T06:51:53 [INFO] [ 48/70] microsoft_windows_installation_fix.dita
+2026-08-20T06:51:53 [INFO] [ 49/70] prerequisites.dita
+2026-08-20T06:51:53 [INFO] [ 50/70] windows_installation_fix_74121257.ditamap
+2026-08-20T06:51:53 [INFO] [ 51/70] smart_clauses.dita
+2026-08-20T06:51:53 [INFO] [ 52/70] smart_fields.dita
+2026-08-20T06:51:53 [INFO] [ 53/70] working_with_agreements.dita
+2026-08-20T06:51:53 [INFO] [ 54/70] working_with_agreements_45220122.ditamap
+2026-08-20T06:51:53 [INFO] [ 55/70] to_mark_a_clause_for_deletion.dita
+2026-08-20T06:51:53 [INFO] [ 56/70] to_reject_changes_to_a_clause.dita
+2026-08-20T06:51:53 [INFO] [ 57/70] to_unmark_a_clause.dita
+2026-08-20T06:51:53 [INFO] [ 58/70] to_view_a_clause.dita
+2026-08-20T06:51:53 [INFO] [ 59/70] working_with_clauses.dita
+2026-08-20T06:51:53 [INFO] [ 60/70] working_with_clauses_45220112.ditamap
+2026-08-20T06:51:53 [INFO] [ 61/70] to_mark_fields_for_deletion.dita
+2026-08-20T06:51:53 [INFO] [ 62/70] to_reject_changes_to_a_field.dita
+2026-08-20T06:51:53 [INFO] [ 63/70] to_unmark_fields_for_deletion.dita
+2026-08-20T06:51:53 [INFO] [ 64/70] to_validate_fields.dita
+2026-08-20T06:51:53 [INFO] [ 65/70] to_view_and_change_fields.dita
+2026-08-20T06:51:53 [INFO] [ 66/70] working_with_fields.dita
+2026-08-20T06:51:53 [INFO] [ 67/70] working_with_fields_45220124.ditamap
+2026-08-20T06:51:53 [INFO] [ 68/70] x_author_contracts_for_mac.ditamap
+2026-08-20T06:51:53 [INFO] [ 69/70] xauthor_for_contracts_mac_may_2017_user_guide.dita
+2026-08-20T06:51:53 [INFO] [ 70/70] x_author_for_contracts_mac_may_45220117.ditamap
+2026-08-20T06:51:53 [INFO] Found 70 files to validate.
+2026-08-20T06:51:53 [INFO] [  1/70] checking_in_an_agreement_document.dita
+2026-08-20T06:51:53 [INFO] [  2/70] contract_document_versions.dita
+2026-08-20T06:51:53 [INFO] [  3/70] to_check_in_an_agreement_document.dita
+2026-08-20T06:51:53 [INFO] [  4/70] checking_in_an_agreement_docum_45220109.ditamap
+2026-08-20T06:51:53 [INFO] [  5/70] checking_out_an_agreement.dita
+2026-08-20T06:51:53 [INFO] [  6/70] to_check_out_a_document.dita
+2026-08-20T06:51:53 [INFO] [  7/70] checking_out_an_agreement_45220108.ditamap
+2026-08-20T06:51:53 [INFO] [  8/70] getting_started.dita
+2026-08-20T06:51:53 [INFO] [  9/70] getting_started_45220129.ditamap
+2026-08-20T06:51:53 [INFO] [ 10/70] importing_offline_agreements.dita
+2026-08-20T06:51:53 [INFO] [ 11/70] to_import_an_offline_agreement.dita
+2026-08-20T06:51:53 [INFO] [ 12/70] importing_offline_agreements_45220098.ditamap
+2026-08-20T06:51:53 [INFO] [ 13/70] space_details.dita
+2026-08-20T06:51:53 [INFO] [ 14/70] index.ditamap
+2026-08-20T06:51:53 [INFO] [ 15/70] inserting_clauses.dita
+2026-08-20T06:51:53 [INFO] [ 16/70] to_insert_a_clause.dita
+2026-08-20T06:51:53 [INFO] [ 17/70] inserting_clauses_45220128.ditamap
+2026-08-20T06:51:53 [INFO] [ 18/70] installing_xauthor_contracts.dita
+2026-08-20T06:51:53 [INFO] [ 19/70] to_install_the_xauthor_contracts_addin.dita
+2026-08-20T06:51:53 [INFO] [ 20/70] to_launch_the_xauthor_contracts_addin.dita
+2026-08-20T06:51:53 [INFO] [ 21/70] installing_x_author_contracts_45220121.ditamap
+2026-08-20T06:51:53 [INFO] [ 22/70] locking_and_unlocking_documents.dita
+2026-08-20T06:51:53 [INFO] [ 23/70] opening_a_document_you_have_already_checked_out.dita
+2026-08-20T06:51:53 [INFO] [ 24/70] refreshing_document_lock_status.dita
+2026-08-20T06:51:53 [INFO] [ 25/70] to_release_a_document_lock.dita
+2026-08-20T06:51:53 [INFO] [ 26/70] locking_and_unlocking_document_45220101.ditamap
+2026-08-20T06:51:53 [INFO] [ 27/70] logging_in_to_xauthor_contracts.dita
+2026-08-20T06:51:53 [INFO] [ 28/70] to_log_in_to_xauthor_contracts.dita
+2026-08-20T06:51:53 [INFO] [ 29/70] logging_in_to_x_author_contrac_45711457.ditamap
+2026-08-20T06:51:53 [INFO] [ 30/70] marking_clauses.dita
+2026-08-20T06:51:53 [INFO] [ 31/70] to_mark_a_clause_in_an_agreement.dita
+2026-08-20T06:51:53 [INFO] [ 32/70] marking_clauses_45220111.ditamap
+2026-08-20T06:51:53 [INFO] [ 33/70] marking_fields.dita
+2026-08-20T06:51:53 [INFO] [ 34/70] to_mark_a_field_in_an_agreement.dita
+2026-08-20T06:51:53 [INFO] [ 35/70] marking_fields_45220114.ditamap
+2026-08-20T06:51:53 [INFO] [ 36/70] opening_agreements_in_salesforce.dita
+2026-08-20T06:51:53 [INFO] [ 37/70] to_open_an_agreement_in_salesforce.dita
+2026-08-20T06:51:53 [INFO] [ 38/70] opening_agreements_in_salesfor_45711369.ditamap
+2026-08-20T06:51:53 [INFO] [ 39/70] reconciliation.dita
+2026-08-20T06:51:53 [INFO] [ 40/70] to_check_in_and_reconcile_smart_fields_and_clauses.dita
+2026-08-20T06:51:53 [INFO] [ 41/70] reconciliation_45220099.ditamap
+2026-08-20T06:51:53 [INFO] [ 42/70] tracking_clauses_in_your_agreement_document.dita
+2026-08-20T06:51:54 [INFO] [ 43/70] tracking_clauses_in_your_agree_45220100.ditamap
+2026-08-20T06:51:54 [INFO] [ 44/70] using_playbook.dita
+2026-08-20T06:51:54 [INFO] [ 45/70] using_playbook_45220113.ditamap
+2026-08-20T06:51:54 [INFO] [ 46/70] using_the_document_panel.dita
+2026-08-20T06:51:54 [INFO] [ 47/70] using_the_document_panel_45220125.ditamap
+2026-08-20T06:51:54 [INFO] [ 48/70] microsoft_windows_installation_fix.dita
+2026-08-20T06:51:54 [INFO] [ 49/70] prerequisites.dita
+2026-08-20T06:51:54 [INFO] [ 50/70] windows_installation_fix_74121257.ditamap
+2026-08-20T06:51:54 [INFO] [ 51/70] smart_clauses.dita
+2026-08-20T06:51:54 [INFO] [ 52/70] smart_fields.dita
+2026-08-20T06:51:54 [INFO] [ 53/70] working_with_agreements.dita
+2026-08-20T06:51:54 [INFO] [ 54/70] working_with_agreements_45220122.ditamap
+2026-08-20T06:51:54 [INFO] [ 55/70] to_mark_a_clause_for_deletion.dita
+2026-08-20T06:51:54 [INFO] [ 56/70] to_reject_changes_to_a_clause.dita
+2026-08-20T06:51:54 [INFO] [ 57/70] to_unmark_a_clause.dita
+2026-08-20T06:51:54 [INFO] [ 58/70] to_view_a_clause.dita
+2026-08-20T06:51:54 [INFO] [ 59/70] working_with_clauses.dita
+2026-08-20T06:51:54 [INFO] [ 60/70] working_with_clauses_45220112.ditamap
+2026-08-20T06:51:54 [INFO] [ 61/70] to_mark_fields_for_deletion.dita
+2026-08-20T06:51:54 [INFO] [ 62/70] to_reject_changes_to_a_field.dita
+2026-08-20T06:51:54 [INFO] [ 63/70] to_unmark_fields_for_deletion.dita
+2026-08-20T06:51:54 [INFO] [ 64/70] to_validate_fields.dita
+2026-08-20T06:51:54 [INFO] [ 65/70] to_view_and_change_fields.dita
+2026-08-20T06:51:54 [INFO] [ 66/70] working_with_fields.dita
+2026-08-20T06:51:54 [INFO] [ 67/70] working_with_fields_45220124.ditamap
+2026-08-20T06:51:54 [INFO] [ 68/70] x_author_contracts_for_mac.ditamap
+2026-08-20T06:51:54 [INFO] [ 69/70] xauthor_for_contracts_mac_may_2017_user_guide.dita
+2026-08-20T06:51:54 [INFO] [ 70/70] x_author_for_contracts_mac_may_45220117.ditamap
+
+================================================================================
+Success: Post-flight validation completed successfully.
+================================================================================

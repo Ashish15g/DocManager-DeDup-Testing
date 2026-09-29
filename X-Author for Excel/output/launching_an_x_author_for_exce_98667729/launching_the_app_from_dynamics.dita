@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="launching_the_app_from_dynamics_b6b49c" xml:lang="en-us">
+   <title>Launching the App from Dynamics</title>
+   <shortdesc>After the button is created and your app is properly configured, you can find it</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Dynamics</keyword>
+        <keyword>Launching</keyword>
+        <keyword>button</keyword>
+        <keyword>record</keyword>
+        <keyword>launch</keyword>
+        <keyword>Excel</keyword>
+        <indexterm>Dynamics</indexterm>
+        <indexterm>Launching</indexterm>
+        <indexterm>button</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>After the button is created and your app is properly configured, you can find it under <b>Forms</b> on the page for the record you are viewing.</p>
+         <p>To launch your app:</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>From the ribbon at the top of the record page, click on the drop down and select your button.</cmd>
+            <info>
+               <fig>
+                  <title>98668042</title>
+                  <image href="../attachments/98667729/98668042.png" width="1197" height="559" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <note type="note">
+                  <p>Depending on privacy settings in your browser, you may be prompted to open the URL to launch Excel. Click <b>Open </b>to continue.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Microsoft Excel opens and present you with a login screen. Log in to your Dynamics org to continue.
+
+The app opens and auto-executes the action flow identified in the app design.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

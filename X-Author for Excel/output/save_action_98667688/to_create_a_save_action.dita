@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_save_action_4f7b86" xml:lang="en-us">
+   <title>To create a Save Action</title>
+   <shortdesc>Click the lower section of the Actions button and select Save . A Save Action</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Save</keyword>
+        <keyword>Action</keyword>
+        <keyword>saved</keyword>
+        <keyword>create</keyword>
+        <keyword>Click</keyword>
+        <keyword>select</keyword>
+        <indexterm>Save</indexterm>
+        <indexterm>Action</indexterm>
+        <indexterm>saved</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click the lower section of the Actions button and select <b>Save</b>. A <b>Save Action</b> pop-up window is displayed.</cmd>
+            <info>
+               <fig>
+                  <title>190354446</title>
+                  <image href="../attachments/98667688/190354446.png" width="350" height="271" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+            <info>
+               <p>Click the lower section of the Actions button and select <b>Save</b>. A <b>Save Action</b> pop-up window is displayed.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>In Action Name, type a name. Pick a descriptive name to identify each Save action you create.</cmd>
+         </step>
+         <step>
+            <cmd>From Save Map, select an existing save map.</cmd>
+            <info>
+               <p>
+</p>
+            </info>
+            <info>
+               <note type="note">
+                  <p>Note</p>
+                  <p>Consider the following optional settings:</p>
+                  <ul>
+                     <li>Select the<b> Enable Collision Detection</b> check box to enforce collision detection during a Save Action. If another user has modified a field in a record subsequent to when that record was retrieved by the current Excel user and the current Excel user is trying to update that same field, then X-Author will prevent that record from being saved.</li>
+                     <li>Select the<b> Enable Partial Save</b> check box to allow valid rows to be saved to your environment even if other rows have errors or other issues (for example, rows that cannot be saved due to collision detection). Deselecting this box will prevent all rows from being saved even if there is a single error. InfoWhen a validation rule is configured in your org, the <b>Enable Partial Save</b> option is ineffective.</li>
+                     <li>Select the<b> Highlight Unsaved Records</b> check box to highlight the cells or rows that have an error during a Save Action.</li>
+                  </ul>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>In Batch Size, enter the number to specify the batch size. You can Insert, Update, and Upsert the records based on the number entered in the batch size. The batch size must be between 1-200. 
+</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

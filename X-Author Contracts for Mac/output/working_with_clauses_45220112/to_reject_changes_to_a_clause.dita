@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_reject_changes_to_a_clause_88b188" xml:lang="en-us">
+   <title>To reject changes to a clause</title>
+   <shortdesc>During multiple rounds of negotiation, the text of a clause in your agreement is likely</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Oct 10, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>clause</keyword>
+        <keyword>changes</keyword>
+        <keyword>reject</keyword>
+        <keyword>Changes</keyword>
+        <keyword>clauses</keyword>
+        <keyword>Document</keyword>
+        <indexterm>clause</indexterm>
+        <indexterm>changes</indexterm>
+        <indexterm>reject</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>During multiple rounds of negotiation, the text of a clause in your agreement is likely to be modified. </p>
+         <p>Changes to clauses can be tracked over multiple check-ins, as long as redlining is preserved. Changes to clauses only become permanent when the document is checked in and <xref href="../reconciliation_45220099/reconciliation.dita">reconciled</xref>. </p>
+         <p>To reject the changes to a clause:</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Hover over the  <b>Document </b>tab and select <b>Clauses</b> to open the Documents Panel.</cmd>
+            <info>
+               <image href="../attachments/45220112/49086827.png" width="36" height="40" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <info>
+               <fig>
+                  <title>51576893</title>
+                  <image href="../attachments/45220112/51576893.png" width="684" height="652" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on <b>Show Only Changed Clauses</b> to display a list of clauses with changes since the last check-in.</cmd>
+         </step>
+         <step>
+            <cmd>Right-click on the changed clause in the Document pane (highlighted in red) and select <b>Reject Changes</b>. The clause is reverted to its previous value prior to the change. The Document pane reloads to show the change.
+</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

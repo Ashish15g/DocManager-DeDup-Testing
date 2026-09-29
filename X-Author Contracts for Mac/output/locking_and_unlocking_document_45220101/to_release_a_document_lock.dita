@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_release_a_document_lock_12a464" xml:lang="en-us">
+   <title>To release a document lock</title>
+   <shortdesc>Before you can release a lock on a document, it must be checked out. Releasing</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Jun 02, 2017"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>document</keyword>
+        <keyword>release</keyword>
+        <keyword>Lock</keyword>
+        <keyword>Status</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>checked</keyword>
+        <indexterm>document</indexterm>
+        <indexterm>release</indexterm>
+        <indexterm>Lock</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>Before you can release a lock on a document, it must be checked out. Releasing a lock reverts the check-out of the document you are working on <i>without checking it in</i>. You can only release a lock when you have the document open in X-Author.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>From the X-Author pane, click on the  <b>Lock Status</b> tab icon.
+The Lock Status page shows agreement details and information on the current document lock.</cmd>
+            <info>
+               <image href="../attachments/45220101/49676309.png" width="26" height="29" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <info>
+               <fig>
+                  <title>49676310</title>
+                  <image href="../attachments/45220101/49676310.png" width="690" height="1272" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Release Lock</b> on the Lock Status page.</cmd>
+         </step>
+         <step>
+            <cmd>If you chose to release the lock, the document check-out is reverted. Any changes you made while the document was checked out are not saved. The page refreshes to reflect unlocked status and most menu options are disabled.</cmd>
+            <info>
+               <fig>
+                  <title>49676311</title>
+                  <image href="../attachments/45220101/49676311.png" width="680" height="978" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+      </steps>
+      <result>
+         <p>Note</p>
+         <p>If you release a document lock in error and want to continue working with the document, go to the Lock Status page and click <b>Acquire Lock</b>.</p>
+      </result>
+   </taskbody>
+</task>

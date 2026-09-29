@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="about_apps_and_where_they_are_stored_c811aa" xml:lang="en-us">
+   <title>About Apps and Where They Are Stored</title>
+     <shortdesc>An X-Author for Excel application (app) is created within Microsoft Excel using X-Author Designer. There</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Excel</keyword>
+        <keyword>Author</keyword>
+        <keyword>Apps</keyword>
+        <keyword>application</keyword>
+        <keyword>created</keyword>
+        <keyword>Microsoft</keyword>
+        <indexterm>Excel</indexterm>
+        <indexterm>Author</indexterm>
+        <indexterm>Apps</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>An X-Author for Excel application (app) is created within Microsoft Excel using X-Author Designer. There is no coding because all configuration is accomplished through the point-and-click designer. 
+</p>
+      <ul>
+         <li>
+            <p>An app is a combination of: 
+</p>
+         </li>
+      </ul>
+      <ul>
+         <li>A Microsoft Excel template that contains the Excel workbook layout.</li>
+         <li>An XML file that contains the app-specific User Menus, Action Flows, maps, and other user-experience elements.</li>
+      </ul>
+      <p>Apps are stored in the applications object within your environment instance. Each app is represented by one application record in which the Microsoft Excel spreadsheet template, an XML file, and other configuration data are stored in the Notes and Attachments. (These files should not be edited without using the X-Author Designer or it may corrupt the app.)</p>
+      <p>X-Author for Excel apps are not related to any environment definition of an application or app. A single X-Author app can include any number of objects that span any number of environment applications.</p>
+      <ul>
+         <li>
+            <p>Apps can be created in two ways:</p>
+         </li>
+      </ul>
+      <ul>
+         <li>Use the fully featured <b>Designer</b>. When you use the designer, each of the components must be configured manually (for example, Display Map and Save Map).</li>
+         <li>Create a <b>Quick app</b>. A Quick app is a 1 – 2 minute wizard experience where a designer can create a simple single object list on its own (for example, Opportunities) or a list filtered by a parent object (for example, Opportunities by Account). To learn how to create a Quick app, refer to <xref href="../creating_apps_with_quick_apps_98667697/creating_apps_with_quick_apps.dita">Creating apps with Quick apps</xref>.</li>
+      </ul>
+      <p>Note</p>
+      <p>The third type of app can be created using the Data Migration Wizard. This app is specifically designed for migrating data between two organizations. For information on creating a Data Migration app, refer to <xref href="../using_the_data_migration_wizar_98667704/using_the_data_migration_wizard.dita">Using the Data Migration Wizard</xref>.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_checkin_a_new_file_7ce8be" xml:lang="en-us">
+   <title>To check-in a new file</title>
+   <shortdesc>Prerequisites</shortdesc>
+   <prolog>
+      <author type="creator">user-0266f</author>
+      <critdates>
+         <revised modified="Nov 30, 2018"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Click</keyword>
+        <keyword>Select</keyword>
+        <keyword>object</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>Check</keyword>
+        <keyword>Chatter</keyword>
+        <indexterm>Click</indexterm>
+        <indexterm>Select</indexterm>
+        <indexterm>object</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>
+            <b>Prerequisites</b>
+         </p>
+         <ul>
+            <li>The file must not exist in Salesforce.</li>
+            <li>The file cannot have been 'Saved as' from an already existing file.</li>
+         </ul>
+         <p>
+            <b>Steps</b>
+         </p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Click <b>Check-in</b> from the<b> X-Author Chatter</b> ribbon.</cmd>
+         </step>
+         <step>
+            <cmd>Select<b> Check-In to My Files</b> and go to the next step or select <b>Check-In to Object</b> and go to step 4.</cmd>
+         </step>
+         <step>
+            <cmd>Enter a filename, add comments and click <b>OK</b> and go to step 7.
+This uploads the file to your <b>Chatter &gt; Files.</b>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Select the object and then select <b>Files</b> if you want to upload the file to the object's Chatter feed. It will be stored as a<b> Feed Attachment</b> file in the Notes and Attachments section of the object.
+- or -
+Select Attachments to upload it to the<b> Notes and Attachments</b> section.</cmd>
+         </step>
+         <step>
+            <cmd>Enter a name or partial name for the object record and click . To configure the fields available for search filters, refer to <xref href="../configuring_search_criteria_98672805/configuring_search_criteria.dita">Configuring Search Criteria</xref>.</cmd>
+            <info>
+               <image href="../attachments/98671295/98671293.jpg" width="21" height="16" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Additional Fields</b> button to capture additional information about the file. To enable Additional Fields, refer to <xref href="../configuring_additional/configuring_additional_values.dita">Configuring Additional Values</xref>. </cmd>
+         </step>
+         <step>
+            <cmd>Select the relationship to see a list of Salesforce records. Update the record details.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>OK.</b>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Select</b> beside the object you want to upload the file to.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>OK</b>, in the confirmation dialog, which indicates the version of the file.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>
+            <b>Results</b>
+         </p>
+         <p>The new version of the file is in Salesforce.</p>
+      </result>
+   </taskbody>
+</task>

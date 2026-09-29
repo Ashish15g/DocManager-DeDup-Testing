@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_update_the_license_webservice_endpoint_custom_setting_f55cea" xml:lang="en-us">
+   <title>To update the License Webservice Endpoint custom setting</title>
+   <shortdesc>Rakesh Singh Go to Setup &gt; App Setup &gt; Develop &gt; Custom Settings .</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>License</keyword>
+        <keyword>Webservice</keyword>
+        <keyword>Endpoint</keyword>
+        <keyword>update</keyword>
+        <keyword>custom</keyword>
+        <keyword>setting</keyword>
+        <indexterm>License</indexterm>
+        <indexterm>Webservice</indexterm>
+        <indexterm>Endpoint</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <b>Setup &gt; App Setup &gt; Develop &gt; Custom Settings</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Manage</b> for <b>X-Author for Excel System Properties</b> and click <b>New</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In <b>Name</b>, type <b>
+                  <i>System Properties</i>
+               </b> as the data set name.</cmd>
+         </step>
+         <step>
+            <cmd>In <b>License Webservice Endpoint</b>, enter <xref href="https://ls.apttus.net:8443/cgi-bin/1.3/LicenseServer/Bin/LSCGI.exe" scope="external" format="html">https://ls.apttus.net:8443/cgi-bin/1.3/LicenseServer/Bin/LSCGI.exe</xref>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

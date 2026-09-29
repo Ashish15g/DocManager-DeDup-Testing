@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="color_for_unsaved_records_c27241" xml:lang="en-us">
+   <title>Color for Unsaved Records</title>
+     <shortdesc>During runtime when a record is not saved due to an error, the following events</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>record</keyword>
+        <keyword>error</keyword>
+        <keyword>color</keyword>
+        <keyword>Color</keyword>
+        <keyword>Unsaved</keyword>
+        <keyword>Records</keyword>
+        <indexterm>record</indexterm>
+        <indexterm>error</indexterm>
+        <indexterm>color</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>During runtime when a record is not saved due to an error, the following events occur:</p>
+      <ul>
+         <li>For a cell: The cell corresponding to the field in the Save map is highlighted based on the selected color.</li>
+         <li>For a row: The row containing the error record is highlighted based on the selected color.</li>
+      </ul>
+      <p>Set the color you want for the unsaved records or fields in App Settings.</p>
+   </conbody>
+</concept>

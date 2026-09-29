@@ -1,0 +1,3020 @@
+{
+  "job_id": "78da980a-b04a-4199-af94-2a4da1c0a25d",
+  "mode": "enrich-only",
+  "output_dir": "storage/78da980a-b04a-4199-af94-2a4da1c0a25d/xslt_output",
+  "processed_at": "2026-08-20T06:50:26.329490+00:00",
+  "counts": {
+    "dita_files_total": 38,
+    "ditamap_files_total": 20,
+    "topics_reclassified": 10,
+    "issues_fixed_by_zone1": 38,
+    "issues_fixed_by_ai": 42,
+    "issues_remaining": 25,
+    "ai_obligations_missed": 0,
+    "new_issues_by_ai": 6,
+    "pending_suggestions": 61,
+    "alt_text_images_filled": 0,
+    "alt_text_images_skipped": 43,
+    "alt_text_images_scanned": 43
+  },
+  "quality_metrics": {
+    "element_validation_success_pct": 89,
+    "attribute_mapping_success_pct": 50,
+    "href_resolution_success_pct": 98,
+    "table_resolution": {
+      "validated": 21,
+      "total": 21,
+      "success_pct": 100
+    }
+  },
+  "token_usage": {
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "total_cost_usd": 0,
+    "by_model": {}
+  },
+  "element_counts": {
+    "ol": 0,
+    "ul": 11,
+    "table": 21,
+    "image": 41,
+    "crosslink": 10,
+    "hyperlink": 6,
+    "concept": 13,
+    "task": 24,
+    "reference": 0,
+    "topic": 1
+  },
+  "enrichment_summary": [
+    {
+      "file": "x_author_for_chatter_integration_guide/98676838/whats_new.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/apttus_copyright_disclaimer_98670446/apttus_copyright_disclaimer.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/checking_in_files.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/recent_files.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_a_new_file.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_an_existing_file.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/checking_out_files.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/to_check_out_files.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/collaborating_using_excel.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/collaborating_using_outlook.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_attach_a_file_in_salesforce_to_a_new_emails.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_change_the_chatter_feed_group.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_save_emails_to_salesforce.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_send_email_to_groups.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/collaborating_using_powerpoint.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/collaborating_using_word.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaborating_with_xauthor_chatter.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaboration_options.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/sharing_options.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/configuring_additional/configuring_additional_values.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/configuring_search_criteria_98672805/configuring_search_criteria.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/configuring_system_properties_98672551/configuring_system_properties.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/connecting_to_xauthor_chatter.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_connect_to_xauthor.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_revoke_connections.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/index/space_details.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/installing_xauthor_chatter.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/translating_content_in_x_autho_98671290/to_translate_content.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/translating_content_in_x_autho_98671290/translating_content_in_xauthor_chatter.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/to_upload_a_version.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/using_new_files.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/working_with_x_author_chatter_98670310/working_with_xauthor_chatter.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/x_author_chatter_on_salesforce_98670294/xauthor_chatter_on_salesforce_winter_2018_integration_guide.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    }
+  ],
+  "alt_text_summary": {
+    "images_filled": 0,
+    "images_skipped": 43,
+    "total_images_scanned": 43
+  },
+  "alt_text_events": {
+    "filled": [],
+    "skipped": [
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/recent_files.dita",
+        "href": "../attachments/98671295/98671294.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_a_new_file.dita",
+        "href": "../attachments/98671295/98671293.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/to_check_out_files.dita",
+        "href": "../attachments/98670313/98671125.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/to_check_out_files.dita",
+        "href": "../attachments/98670313/98671125.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/to_check_out_files.dita",
+        "href": "../attachments/98670313/98671126.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+        "href": "../attachments/98671170/98671164.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+        "href": "../attachments/98671170/98671165.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+        "href": "../attachments/98671170/98671166.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+        "href": "../attachments/98671170/98671167.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+        "href": "../attachments/98671170/98671168.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_attach_a_file_in_salesforce_to_a_new_emails.dita",
+        "href": "../attachments/98671234/98671240.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_attach_a_file_in_salesforce_to_a_new_emails.dita",
+        "href": "../attachments/98671234/98671239.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_change_the_chatter_feed_group.dita",
+        "href": "../attachments/98671234/98671287.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+        "href": "../attachments/98671234/98671210.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+        "href": "../attachments/98671234/98671208.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+        "href": "../attachments/98671234/98671207.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+        "href": "../attachments/98671234/98671233.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_save_emails_to_salesforce.dita",
+        "href": "../attachments/98671234/98671238.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_save_emails_to_salesforce.dita",
+        "href": "../attachments/98671234/98671239.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_send_email_to_groups.dita",
+        "href": "../attachments/98671234/98671286.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+        "href": "../attachments/98671198/98671176.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+        "href": "../attachments/98671198/98671197.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+        "href": "../attachments/98671198/98671191.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+        "href": "../attachments/98671198/98671173.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+        "href": "../attachments/98671198/98671203.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+        "href": "../attachments/98670315/98671135.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+        "href": "../attachments/98670315/98671136.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+        "href": "../attachments/98670315/98671138.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+        "href": "../attachments/98670315/98671139.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+        "href": "../attachments/98670315/98671140.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/configuring_search_criteria_98672805/configuring_search_criteria.dita",
+        "href": "../attachments/98672805/98672814.png",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_connect_to_xauthor.dita",
+        "href": "../attachments/98670311/98671113.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_connect_to_xauthor.dita",
+        "href": "../attachments/98670311/98671114.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_revoke_connections.dita",
+        "href": "../attachments/98670311/98671119.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+        "href": "../attachments/98670296/98671089.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+        "href": "../attachments/98670296/98671090.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+        "href": "../attachments/98670296/98671091.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+        "href": "../attachments/98670296/98671092.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+        "href": "../attachments/98670296/98671093.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+        "href": "../attachments/98670296/98671094.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/to_upload_a_version.dita",
+        "href": "../attachments/98670312/98671122.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/working_with_x_author_chatter_98670310/working_with_xauthor_chatter.dita",
+        "href": "../attachments/98670310/98671107.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/x_author_chatter_on_salesforce_98670294/xauthor_chatter_on_salesforce_winter_2018_integration_guide.dita",
+        "href": "../attachments/98670294/98671100.jpg",
+        "before": "",
+        "after": null,
+        "status": "skipped"
+      }
+    ]
+  },
+  "structural_issues_remaining": [
+    {
+      "severity": "WARNING",
+      "category": "broken_xref_anchor",
+      "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+      "message": "<xref href=\"#installingxauthorchatterstep3\"> \u2014 local anchor id='installingxauthorchatterstep3' not found in this file"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 49
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+      "message": "<table> #2 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 131
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/98676838/whats_new.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 30
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_for_chatter_integration_guide/98676838/whats_new.dita",
+      "message": "<p> #8 is empty \u2014 remove or add content",
+      "line": 64
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_for_chatter_integration_guide/98676838/whats_new.dita",
+      "message": "<p> #11 is empty \u2014 remove or add content",
+      "line": 78
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/configuring_search_criteria_98672805/configuring_search_criteria.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 47
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 46
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+      "message": "<table> #2 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 128
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/configuring_additional/configuring_additional_values.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 41
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/connecting_to_xauthor_chatter.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/index/space_details.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_save_emails_to_salesforce.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 54
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/collaborating_using_outlook.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 46
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+      "message": "<table> #2 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 112
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_change_the_chatter_feed_group.dita",
+      "message": "<p> #5 is empty \u2014 remove or add content",
+      "line": 61
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 62
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_for_chatter_integration_guide/x_author_chatter_on_salesforce_98670294/xauthor_chatter_on_salesforce_winter_2018_integration_guide.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_for_chatter_integration_guide/working_with_x_author_chatter_98670310/working_with_xauthor_chatter.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/to_check_out_files.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 47
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaborating_with_xauthor_chatter.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/sharing_options.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 26
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/sharing_options.dita",
+      "message": "<table> #2 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 76
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/sharing_options.dita",
+      "message": "<table> #3 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 126
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/sharing_options.dita",
+      "message": "<table> #4 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 176
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaboration_options.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 26
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 46
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+      "message": "<table> #2 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 128
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_for_chatter_integration_guide/configuring_system_properties_98672551/configuring_system_properties.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_integration_guide/configuring_system_properties_98672551/configuring_system_properties.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 29
+    }
+  ],
+  "enrichment_quality": {
+    "summary": {
+      "dita_file_count": 38,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "category_counts": {}
+    },
+    "issues": []
+  },
+  "fix_diff": {
+    "fixed_by_zone1": [
+      {
+        "file": "x_author_for_chatter_integration_guide/98676838/whats_new.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/apttus_copyright_disclaimer_98670446/apttus_copyright_disclaimer.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/checking_in_files.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/recent_files.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_a_new_file.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_an_existing_file.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/checking_out_files.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/to_check_out_files.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/collaborating_using_excel.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/collaborating_using_outlook.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_attach_a_file_in_salesforce_to_a_new_emails.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_change_the_chatter_feed_group.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_save_emails_to_salesforce.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_send_email_to_groups.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/collaborating_using_powerpoint.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/collaborating_using_word.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaborating_with_xauthor_chatter.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaboration_options.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/sharing_options.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/configuring_additional/configuring_additional_values.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/configuring_search_criteria_98672805/configuring_search_criteria.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/configuring_system_properties_98672551/configuring_system_properties.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/connecting_to_xauthor_chatter.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_connect_to_xauthor.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_revoke_connections.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/index/space_details.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/installing_xauthor_chatter.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/translating_content_in_x_autho_98671290/to_translate_content.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/translating_content_in_x_autho_98671290/translating_content_in_xauthor_chatter.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/to_upload_a_version.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/using_new_files.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/working_with_x_author_chatter_98670310/working_with_xauthor_chatter.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/x_author_chatter_on_salesforce_98670294/xauthor_chatter_on_salesforce_winter_2018_integration_guide.dita",
+        "fix": "added xml:lang=\"en-us\""
+      }
+    ],
+    "fixed_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+        "message": "<image> #1 (href='../attachments/98671198/98671176.jpg') has no alt text \u2014 required for accessibility",
+        "line": 41
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "x_author_for_chatter_integration_guide/98676838/whats_new.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 16
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/recent_files.dita",
+        "message": "<image> #1 (href='../attachments/98671295/98671294.jpg') has no alt text \u2014 required for accessibility",
+        "line": 16
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_an_existing_file.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_a_new_file.dita",
+        "message": "<image> #1 (href='../attachments/98671295/98671293.jpg') has no alt text \u2014 required for accessibility",
+        "line": 45
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_a_new_file.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/configuring_search_criteria_98672805/configuring_search_criteria.dita",
+        "message": "<image> #1 (href='../attachments/98672805/98672814.png') has no alt text \u2014 required for accessibility",
+        "line": 15
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/configuring_search_criteria_98672805/configuring_search_criteria.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+        "message": "<image> #1 (href='../attachments/98670315/98671135.jpg') has no alt text \u2014 required for accessibility",
+        "line": 38
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/configuring_additional/configuring_additional_values.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_revoke_connections.dita",
+        "message": "<image> #1 (href='../attachments/98670311/98671119.jpg') has no alt text \u2014 required for accessibility",
+        "line": 25
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_revoke_connections.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_connect_to_xauthor.dita",
+        "message": "<image> #1 (href='../attachments/98670311/98671113.jpg') has no alt text \u2014 required for accessibility",
+        "line": 33
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_connect_to_xauthor.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/index/space_details.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_save_emails_to_salesforce.dita",
+        "message": "<image> #1 (href='../attachments/98671234/98671238.jpg') has no alt text \u2014 required for accessibility",
+        "line": 27
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_save_emails_to_salesforce.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_send_email_to_groups.dita",
+        "message": "<image> #1 (href='../attachments/98671234/98671286.jpg') has no alt text \u2014 required for accessibility",
+        "line": 39
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_send_email_to_groups.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_attach_a_file_in_salesforce_to_a_new_emails.dita",
+        "message": "<image> #1 (href='../attachments/98671234/98671240.jpg') has no alt text \u2014 required for accessibility",
+        "line": 29
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_attach_a_file_in_salesforce_to_a_new_emails.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+        "message": "<image> #1 (href='../attachments/98671234/98671210.jpg') has no alt text \u2014 required for accessibility",
+        "line": 38
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_change_the_chatter_feed_group.dita",
+        "message": "<image> #1 (href='../attachments/98671234/98671287.jpg') has no alt text \u2014 required for accessibility",
+        "line": 36
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_change_the_chatter_feed_group.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+        "message": "<image> #1 (href='../attachments/98670296/98671089.jpg') has no alt text \u2014 required for accessibility",
+        "line": 32
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/x_author_chatter_on_salesforce_98670294/xauthor_chatter_on_salesforce_winter_2018_integration_guide.dita",
+        "message": "<image> #1 (href='../attachments/98670294/98671100.jpg') has no alt text \u2014 required for accessibility",
+        "line": 16
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/x_author_chatter_on_salesforce_98670294/xauthor_chatter_on_salesforce_winter_2018_integration_guide.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/working_with_x_author_chatter_98670310/working_with_xauthor_chatter.dita",
+        "message": "<image> #1 (href='../attachments/98670310/98671107.jpg') has no alt text \u2014 required for accessibility",
+        "line": 15
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/to_check_out_files.dita",
+        "message": "<image> #1 (href='../attachments/98670313/98671125.jpg') has no alt text \u2014 required for accessibility",
+        "line": 86
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/to_check_out_files.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/sharing_options.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 10
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaboration_options.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 10
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/translating_content_in_x_autho_98671290/to_translate_content.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/to_upload_a_version.dita",
+        "message": "<image> #1 (href='../attachments/98670312/98671122.jpg') has no alt text \u2014 required for accessibility",
+        "line": 29
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/to_upload_a_version.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "image_missing_alt",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+        "message": "<image> #1 (href='../attachments/98671170/98671164.jpg') has no alt text \u2014 required for accessibility",
+        "line": 38
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "x_author_for_chatter_integration_guide/configuring_system_properties_98672551/configuring_system_properties.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 13
+      }
+    ],
+    "ai_obligations_missed": [],
+    "new_issues_introduced_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/connecting_to_xauthor_chatter.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/collaborating_using_outlook.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_for_chatter_integration_guide/x_author_chatter_on_salesforce_98670294/xauthor_chatter_on_salesforce_winter_2018_integration_guide.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_for_chatter_integration_guide/working_with_x_author_chatter_98670310/working_with_xauthor_chatter.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaborating_with_xauthor_chatter.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_for_chatter_integration_guide/configuring_system_properties_98672551/configuring_system_properties.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      }
+    ],
+    "summary": {
+      "pre_enrichment_issue_count": 130,
+      "post_enrichment_issue_count": 31,
+      "backend_error_file_count": 0,
+      "fixed_by_zone1_count": 38,
+      "fixed_by_ai_count": 42,
+      "remaining_count": 25,
+      "ai_obligations_missed_count": 0,
+      "new_issues_count": 6
+    }
+  },
+  "ai_quality_review": {
+    "layer4": {
+      "overall_quality": "fair",
+      "topic_type_accuracy_pct": 0,
+      "recommendations": [],
+      "dita_best_practice_gaps": [],
+      "autofix": {
+        "fixed": [],
+        "flagged": [],
+        "failed": []
+      }
+    },
+    "layer5": {
+      "validation_passed": true,
+      "overall_accuracy_pct": 100,
+      "per_topic_issues": [
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/98676838/whats_new.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'What's New' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 25
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/apttus_copyright_disclaimer_98670446/apttus_copyright_disclaimer.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Apttus Copyright Disclaimer' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/checking_in_files.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Checking in Files' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/recent_files.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Recent Files' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_a_new_file.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To check-in a new file' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_an_existing_file.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To check-in an existing file' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/checking_out_files.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Checking Out Files' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/to_check_out_files.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To check out files' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/collaborating_using_excel.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Collaborating using Excel' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To Collaborate Using Excel' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/collaborating_using_outlook.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Collaborating using Outlook' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_attach_a_file_in_salesforce_to_a_new_emails.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To attach a file in Salesforce to a new emails' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_change_the_chatter_feed_group.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To change the chatter feed group' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To Collaborate Using Outlook' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_save_emails_to_salesforce.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To save emails to Salesforce' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_send_email_to_groups.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To send email to groups' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/collaborating_using_powerpoint.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Collaborating using PowerPoint' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To Collaborate Using Excel' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/collaborating_using_word.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Collaborating using Word' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To Collaborate Using Word' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaborating_with_xauthor_chatter.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Collaborating with X-Author Chatter' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaboration_options.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Collaboration Options' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/sharing_options.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Sharing Options' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/configuring_additional/configuring_additional_values.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Configuring Additional Values' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/configuring_search_criteria_98672805/configuring_search_criteria.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Configuring Search Criteria' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/configuring_system_properties_98672551/configuring_system_properties.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Configuring System Properties' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/connecting_to_xauthor_chatter.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Connecting to X-Author Chatter' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_connect_to_xauthor.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To connect to X-Author' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_revoke_connections.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To revoke connections' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/index/space_details.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Space Details:' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/installing_xauthor_chatter.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Installing X-Author Chatter' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To install X-Author Chatter' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/translating_content_in_x_autho_98671290/to_translate_content.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To Translate Content' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/translating_content_in_x_autho_98671290/translating_content_in_xauthor_chatter.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Translating Content in X-Author Chatter' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/to_upload_a_version.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'To upload a version' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/using_new_files.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Using New Files' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/working_with_x_author_chatter_98670310/working_with_xauthor_chatter.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Working with X-Author Chatter' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_integration_guide/x_author_chatter_on_salesforce_98670294/xauthor_chatter_on_salesforce_winter_2018_integration_guide.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'X-Author Chatter on Salesforce Winter 2018 Integration Guide' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        }
+      ],
+      "shortdesc_issues": [],
+      "recommendations": [
+        "38 WARNING(s) \u2014 missing id, DOCTYPE, or shortdesc"
+      ],
+      "schema_validation": {
+        "schema_passed": true,
+        "total_files": 38,
+        "valid_files": 38,
+        "invalid_files": 0,
+        "results": [
+          {
+            "file": "whats_new.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "apttus_copyright_disclaimer.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "checking_in_files.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "recent_files.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_checkin_a_new_file.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_checkin_an_existing_file.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "checking_out_files.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_check_out_files.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "collaborating_using_excel.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_collaborate_using_excel.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "collaborating_using_outlook.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_attach_a_file_in_salesforce_to_a_new_emails.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_change_the_chatter_feed_group.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_collaborate_using_outlook.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_save_emails_to_salesforce.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_send_email_to_groups.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "collaborating_using_powerpoint.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_collaborate_using_excel.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "collaborating_using_word.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_collaborate_using_word.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "collaborating_with_xauthor_chatter.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "collaboration_options.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "sharing_options.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "configuring_additional_values.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "configuring_search_criteria.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "configuring_system_properties.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "connecting_to_xauthor_chatter.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_connect_to_xauthor.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_revoke_connections.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "space_details.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "installing_xauthor_chatter.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_install_xauthor_chatter.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_translate_content.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "translating_content_in_xauthor_chatter.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "to_upload_a_version.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "using_new_files.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "working_with_xauthor_chatter.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "xauthor_chatter_on_salesforce_winter_2018_integration_guide.dita",
+            "valid": true,
+            "issues": []
+          }
+        ]
+      }
+    }
+  },
+  "element_counts_per_file": [
+    {
+      "file": "x_author_for_chatter_integration_guide/98676838/whats_new.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 3,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/apttus_copyright_disclaimer_98670446/apttus_copyright_disclaimer.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/checking_in_files.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/recent_files.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_a_new_file.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 1,
+      "crosslink": 2,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_an_existing_file.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/checking_out_files.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/to_check_out_files.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 2,
+      "crosslink": 2,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/collaborating_using_excel.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 2,
+      "image": 5,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/collaborating_using_outlook.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_attach_a_file_in_salesforce_to_a_new_emails.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_change_the_chatter_feed_group.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 2,
+      "image": 4,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_save_emails_to_salesforce.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_send_email_to_groups.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/collaborating_using_powerpoint.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 2,
+      "image": 5,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/collaborating_using_word.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 2,
+      "image": 5,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaborating_with_xauthor_chatter.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaboration_options.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/sharing_options.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 4,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/configuring_additional/configuring_additional_values.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/configuring_search_criteria_98672805/configuring_search_criteria.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 1,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/configuring_system_properties_98672551/configuring_system_properties.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/connecting_to_xauthor_chatter.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_connect_to_xauthor.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 2,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_revoke_connections.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/index/space_details.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/installing_xauthor_chatter.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 1,
+      "image": 6,
+      "crosslink": 1,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/translating_content_in_x_autho_98671290/to_translate_content.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/translating_content_in_x_autho_98671290/translating_content_in_xauthor_chatter.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/to_upload_a_version.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/using_new_files.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/working_with_x_author_chatter_98670310/working_with_xauthor_chatter.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_integration_guide/x_author_chatter_on_salesforce_98670294/xauthor_chatter_on_salesforce_winter_2018_integration_guide.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    }
+  ],
+  "pre_clean": {
+    "status": "completed",
+    "summary": {
+      "files_processed": 58,
+      "files_modified": 0,
+      "files_unchanged": 58,
+      "files_failed": 0,
+      "total_fixes_by_type": {}
+    },
+    "per_file": [
+      {
+        "file": "x_author_for_chatter_integration_guide/98676838/whats_new.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/98676838.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/apttus_copyright_disclaimer_98670446/apttus_copyright_disclaimer.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/apttus_copyright_disclaimer_98670446.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/checking_in_files.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/recent_files.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_a_new_file.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_an_existing_file.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/checking_out_files.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/to_check_out_files.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/collaborating_using_excel.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/collaborating_using_outlook.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_attach_a_file_in_salesforce_to_a_new_emails.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_change_the_chatter_feed_group.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_save_emails_to_salesforce.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_send_email_to_groups.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/collaborating_using_powerpoint.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/collaborating_using_word.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaborating_with_xauthor_chatter.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/collaboration_options.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314/sharing_options.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/collaborating_with_x_author_ch_98670314.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/configuring_additional/configuring_additional_values.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/configuring_additional.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/configuring_search_criteria_98672805/configuring_search_criteria.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/configuring_search_criteria_98672805.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/configuring_system_properties_98672551/configuring_system_properties.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/configuring_system_properties_98672551.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/connecting_to_xauthor_chatter.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_connect_to_xauthor.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_revoke_connections.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/index/space_details.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/index.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/installing_xauthor_chatter.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/translating_content_in_x_autho_98671290/to_translate_content.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/translating_content_in_x_autho_98671290/translating_content_in_xauthor_chatter.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/translating_content_in_x_autho_98671290.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/to_upload_a_version.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/using_new_files.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/using_new_files_98670312.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/working_with_x_author_chatter_98670310/working_with_xauthor_chatter.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/working_with_x_author_chatter_98670310.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/x_author_chatter_on_salesforce_98670294/xauthor_chatter_on_salesforce_winter_2018_integration_guide.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/x_author_chatter_on_salesforce_98670294.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_integration_guide/x_author_for_chatter_integration_guide.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      }
+    ]
+  },
+  "validation": {
+    "fix_passes": [
+      {
+        "pass": 1,
+        "files_fixed": 16,
+        "total_fixed": 99,
+        "file_results": [
+          {
+            "file": "x_author_for_chatter_integration_guide/checking_in_files_98671295/to_checkin_a_new_file.dita",
+            "violations_in": 2,
+            "fixes_applied": 2,
+            "fix_types": [
+              "image_dims(1)",
+              "image_placement(1)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/checking_out_files_98670313/to_check_out_files.dita",
+            "violations_in": 6,
+            "fixes_applied": 6,
+            "fix_types": [
+              "image_dims(3)",
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/collaborating_using_excel_98671170/to_collaborate_using_excel.dita",
+            "violations_in": 10,
+            "fixes_applied": 11,
+            "fix_types": [
+              "image_dims(5)",
+              "image_placement(6)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_attach_a_file_in_salesforce_to_a_new_emails.dita",
+            "violations_in": 4,
+            "fixes_applied": 5,
+            "fix_types": [
+              "image_dims(2)",
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_change_the_chatter_feed_group.dita",
+            "violations_in": 2,
+            "fixes_applied": 4,
+            "fix_types": [
+              "image_dims(1)",
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_collaborate_using_outlook.dita",
+            "violations_in": 8,
+            "fixes_applied": 9,
+            "fix_types": [
+              "image_dims(4)",
+              "image_placement(5)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_save_emails_to_salesforce.dita",
+            "violations_in": 4,
+            "fixes_applied": 5,
+            "fix_types": [
+              "image_dims(2)",
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/collaborating_using_outlook_98671234/to_send_email_to_groups.dita",
+            "violations_in": 2,
+            "fixes_applied": 4,
+            "fix_types": [
+              "image_dims(1)",
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/collaborating_using_powerpoint_98671198/to_collaborate_using_excel.dita",
+            "violations_in": 10,
+            "fixes_applied": 11,
+            "fix_types": [
+              "image_dims(5)",
+              "image_placement(6)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/collaborating_using_word_98670315/to_collaborate_using_word.dita",
+            "violations_in": 10,
+            "fixes_applied": 11,
+            "fix_types": [
+              "image_dims(5)",
+              "image_placement(6)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_connect_to_xauthor.dita",
+            "violations_in": 3,
+            "fixes_applied": 6,
+            "fix_types": [
+              "image_dims(2)",
+              "image_placement(4)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/connecting_to_x_author_chatter_98670311/to_revoke_connections.dita",
+            "violations_in": 2,
+            "fixes_applied": 3,
+            "fix_types": [
+              "image_dims(1)",
+              "image_placement(2)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/installing_x_author_chatter_98670296/to_install_xauthor_chatter.dita",
+            "violations_in": 12,
+            "fixes_applied": 13,
+            "fix_types": [
+              "image_dims(6)",
+              "image_placement(7)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/using_new_files_98670312/to_upload_a_version.dita",
+            "violations_in": 2,
+            "fixes_applied": 2,
+            "fix_types": [
+              "image_dims(1)",
+              "image_placement(1)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/working_with_x_author_chatter_98670310/working_with_xauthor_chatter.dita",
+            "violations_in": 1,
+            "fixes_applied": 3,
+            "fix_types": [
+              "image_dims(1)",
+              "image_placement(2)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "x_author_for_chatter_integration_guide/x_author_chatter_on_salesforce_98670294/xauthor_chatter_on_salesforce_winter_2018_integration_guide.dita",
+            "violations_in": 2,
+            "fixes_applied": 4,
+            "fix_types": [
+              "image_dims(1)",
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          }
+        ]
+      }
+    ],
+    "final_violations": 0,
+    "final_files_with_violations": 0,
+    "final_details": []
+  }
+}

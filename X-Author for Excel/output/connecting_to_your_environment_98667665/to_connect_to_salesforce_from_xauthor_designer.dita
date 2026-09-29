@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_connect_to_salesforce_from_xauthor_designer_409a4a" xml:lang="en-us">
+   <title>To connect to Salesforce from X-Author Designer</title>
+   <shortdesc>If you have previously connected to Salesforce, but need to connect to a different org,</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Salesforce</keyword>
+        <keyword>Author</keyword>
+        <keyword>connect</keyword>
+        <keyword>Designer</keyword>
+        <keyword>click</keyword>
+        <keyword>Excel</keyword>
+        <indexterm>Salesforce</indexterm>
+        <indexterm>Author</indexterm>
+        <indexterm>connect</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Excel.</cmd>
+         </step>
+         <step>
+            <cmd>In the X-Author Designer or X-Author for Excel ribbon menu, click Connect. 
+If this is the first time you have connected to Salesforce, the Manage Connections window opens. 
+
+
+ </cmd>
+            <info>
+               <fig>
+                  <title>190354384</title>
+                  <image href="../attachments/98667665/190354384.png" width="393" height="386" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Under the Create a new connection section and in the Name field, enter the Salesforce.com user name.
+</cmd>
+            <info>
+               <p> </p>
+            </info>
+            <info>
+               <note type="note">
+                  <p>If you have previously connected to Salesforce, but need to connect to a different org, refer to S<i>witching Salesforce Connections</i>.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>In the Login URL field, enter the URL you use to log in to Salesforce (In many cases, the URL is <xref href="http://login.salesforce.com" scope="external" format="html">login.salesforce.com</xref> for production orgs and <xref href="http://test.salesforce.com" scope="external" format="html">test.salesforce.com</xref> for sandboxes. You can click the shortcut for either of these in the Examples section).</cmd>
+         </step>
+         <step>
+            <cmd>Click Authorize. The Salesforce login window opens.</cmd>
+         </step>
+         <step>
+            <cmd>Enter your username and password in the provided fields and click Log in to Salesforce.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>If you are seeing a blank screen, check if your antivirus is blocking the<i> eowp.exe</i> file. If yes, contact your administrator to whitelist the <i>eowp.exe</i> file.</p>
+         <p>The X-Author Designer ribbon is fully enabled. Now you can start designing an app or using existing apps.</p>
+         <p>Use the following process to connect to your Microsoft Dynamics instance.</p>
+      </result>
+   </taskbody>
+</task>

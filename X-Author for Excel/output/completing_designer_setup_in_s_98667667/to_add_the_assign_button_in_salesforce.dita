@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_add_the_assign_button_in_salesforce_dc0397" xml:lang="en-us">
+   <title>To add the Assign button in Salesforce</title>
+   <shortdesc>Add the assign button to the layout that leads you to the user profile page.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>button</keyword>
+        <keyword>Assign</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>Setup</keyword>
+        <keyword>click</keyword>
+        <keyword>placeholder</keyword>
+        <indexterm>button</indexterm>
+        <indexterm>Assign</indexterm>
+        <indexterm>Salesforce</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <b>Setup &gt; App Setup &gt; Create &gt; Objects</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <b>App</b> object.</cmd>
+         </step>
+         <step>
+            <cmd>Hover over the <b>Page Layouts</b> button (located at the top of the page) and click <b>Edit</b> next to Application Layout.</cmd>
+            <info>
+               <fig>
+                  <title>98668053</title>
+                  <image href="../attachments/98667667/98668053.png" width="607" height="222" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>In the left panel, click <b>Buttons</b>.</cmd>
+         </step>
+         <step>
+            <cmd>If the <b>Assign</b> button is not displayed as shown in the following figure, you will need to add it for designers.</cmd>
+            <info>
+               <fig>
+                  <title>98668052</title>
+                  <image href="../attachments/98667667/98668052.png" width="454" height="238" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+      </steps>
+      <result>
+         <p>Add the assign button to the layout that leads you to the user profile page.</p>
+      </result>
+   </taskbody>
+</task>

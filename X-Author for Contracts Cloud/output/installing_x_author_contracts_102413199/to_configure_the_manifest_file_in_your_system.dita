@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_configure_the_manifest_file_in_your_system_d53ffa" xml:lang="en-us">
+   <title>To configure the manifest file in your system</title>
+   <shortdesc>This is an alternate method of installing X-Author Contracts for Cloud. If you have an</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="Jul 22, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>manifest</keyword>
+        <keyword>system</keyword>
+        <keyword>Author</keyword>
+        <keyword>Contracts</keyword>
+        <keyword>Word</keyword>
+        <keyword>configure</keyword>
+        <indexterm>manifest</indexterm>
+        <indexterm>system</indexterm>
+        <indexterm>Author</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>This is an alternate method of installing X-Author Contracts for Cloud. If you have an X-Author Contracts for Cloud installer, you do not need to perform the steps described under this topic. You need to perform these steps only if you do not have an installer file and your Apttus representative has shared only the XML manifest file with you.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Download the manifest file provided by your DevOps team.</cmd>
+         </step>
+         <step>
+            <cmd>Copy the manifest XML file and paste it in the following folder location: <b>~/Library/Containers/com.microsoft.Word/Data/Documents/wef</b>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Close the Microsoft Word application on your system (if open) and open it again.</cmd>
+         </step>
+         <step>
+            <cmd>In Microsoft Word, go to <b>Insert &gt; My add-in</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>You will now see X-Author Contracts add-in.</p>
+      </result>
+   </taskbody>
+</task>

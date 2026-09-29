@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="making_fields_smart_in_a_template_cc983b" xml:lang="en-us">
+   <title>Making Fields Smart in a Template</title>
+     <shortdesc>Smart fields are specialized fields that can retain the Apttus field definition even after the</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="Jul 26, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>fields</keyword>
+        <keyword>Smart</keyword>
+        <keyword>Making</keyword>
+        <keyword>Fields</keyword>
+        <keyword>Template</keyword>
+        <keyword>following</keyword>
+        <indexterm>fields</indexterm>
+        <indexterm>Smart</indexterm>
+        <indexterm>Making</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>Smart fields are specialized fields that can retain the Apttus field definition even after the Merge Service generates the Agreement document. This feature helps for reconciling the document which is explained in detail in the <xref href="../reconciliation_102413214/reconciliation.dita">Reconciliation</xref> section. Smart fields are intended for parts of an agreement that would normally be negotiated. Smart fields are usually represented by small chunks of text, such as dates, categories, and numeric values. Smart fields are not intended to hold large amounts of text–if necessary, use smart clauses instead.</p>
+<p>Smart fields have the following limitations:</p>
+<ul>
+            <li>Text Area data type fields and formula field for LongDate are not supported.</li>
+            <li>You cannot mark Lookup fields as smart.</li>
+            <li>Smart fields cannot be used in the headers or footers of agreement documents.</li>
+         </ul></conbody>
+</concept>

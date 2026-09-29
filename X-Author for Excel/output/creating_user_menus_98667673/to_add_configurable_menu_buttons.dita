@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_add_configurable_menu_buttons_a3b1e5" xml:lang="en-us">
+   <title>To add configurable menu buttons</title>
+   <shortdesc>Rakesh Singh Click the User Menus button.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Save</keyword>
+        <keyword>select</keyword>
+        <keyword>group</keyword>
+        <keyword>enable</keyword>
+        <keyword>Display</keyword>
+        <keyword>Microsoft</keyword>
+        <indexterm>Save</indexterm>
+        <indexterm>select</indexterm>
+        <indexterm>group</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click the <b>User Menus</b> button.</cmd>
+         </step>
+         <step>
+            <cmd>From the Add Groups and Buttons section, click <b>Add Group</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the <i>Default_Group</i> entry in the left pane and from the Properties section, under General, change the Name to the name of the group.</cmd>
+         </step>
+         <step>
+            <cmd>To add a button for the group, select the group from the left pane and click <b>Add Button</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Under the Properties section, do the following:In Icon, type the name of the Microsoft icon. See the <xref href="#creatingusermenusmicrosofticons">Microsoft Icons</xref>.In Name, change the default name to the name of the command.In Order, type the order that represents the left to the right position where this menu command should appear in the group.In Tooltip, type text for a Tooltip.</cmd>
+            <info>
+               <ul>
+                  <li>In Icon , type the name of the Microsoft icon. See the Microsoft Icons .</li>
+                  <li>In Name, change the default name to the name of the command.</li>
+                  <li>In Order, type the order that represents the left to the right position where this menu command should appear in the group.</li>
+                  <li>In Tooltip, type text for a Tooltip.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Select an Action Flow to be executed when the end user clicks this menu button.</cmd>
+         </step>
+         <step>
+            <cmd>To activate optional standard menu buttons:To enable the user to add records for any <i>List Range</i> in the App, select Display Add Row. You will still need a Save Map for this to have any effect.To enable the user to delete List Range records, select Display Delete Row. You will still need a Save Map for this to have any effect.Rows are automatically deleted without any further Save or other action by the user.
+To enable the user to use the X-Author Chatter functionality within this App, select Display Chatter.</cmd>
+            <info>
+               <ul>
+                  <li>To enable the user to add records for any List Range in the App, select Display Add Row. You will still need a Save Map for this to have any effect.</li>
+                  <li>To enable the user to delete List Range records, select Display Delete Row . You will still need a Save Map for this to have any effect. Rows are automatically deleted without any further Save or other action by the user.</li>
+               </ul>
+            </info>
+            <info>
+               <note type="note"/>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.
+</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_flow_to_retrieve_and_display_opportunities_e9b2d1" xml:lang="en-us">
+   <title>To create a flow to retrieve and display Opportunities</title>
+   <shortdesc>Rakesh Singh Example Click Action Flow and then click Create .</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <metadata>
+         <keywords>
+        <keyword>Action</keyword>
+        <keyword>Opportunities</keyword>
+        <keyword>Click</keyword>
+        <keyword>field</keyword>
+        <keyword>Step</keyword>
+        <keyword>Select</keyword>
+        <indexterm>Action</indexterm>
+        <indexterm>Opportunities</indexterm>
+        <indexterm>Click</indexterm>
+      </keywords>
+      <prodinfo>
+            <prodname>Example</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <b>Action Flow</b> and then click <b>Create</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter <i>Retrieve Opportunities</i> into the Action Flow Name field and click <b>Apply</b>. The left-hand window is updated.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Add Step</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Step Name field, type <i>Select Account.</i> From the Action list, select <b>Select Account</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the check box next to the <b>Persist Data as Output</b> check box and enter <b>Account</b> in the Action Output field.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Apply</b> and then click <b>Add Step</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Step Name field, type <i>Query Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>From the Action list, select <b>Query Opportunities</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the check box next to <b>Persist Data as Output</b> and enter <i>Opps</i> in the Action Output field.</cmd>
+         </step>
+         <step>
+            <cmd>Select the check box next to <b>Provide Input</b> and then select <b>Account</b> from the picklist.</cmd>
+         </step>
+         <step>
+            <cmd>Click<b> Apply</b> and then click <b>Add Step</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Step Name field enter <i>Display Opportunities</i> and select <b>Display Opportunities</b> from the Action list.</cmd>
+         </step>
+         <step>
+            <cmd>Select the check box next to <b>Provide Input</b> and select Account and Opps from the Action Input list.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Apply</b> and then click <b>Save</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save App</b>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

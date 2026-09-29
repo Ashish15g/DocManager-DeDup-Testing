@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="behavior_of_grouped_matrices_in_runtime_aa03ba" xml:lang="en-us">
+   <title>Behavior of Grouped Matrices in Runtime</title>
+     <shortdesc>At runtime, the end-user doesn't need to do anything. Based on the matrix grouping design,</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <critdates>
+         <revised modified="Jan 30, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Grouped</keyword>
+        <keyword>Column</keyword>
+        <keyword>Behavior</keyword>
+        <keyword>Matrices</keyword>
+        <keyword>Runtime</keyword>
+        <keyword>runtime</keyword>
+        <indexterm>Grouped</indexterm>
+        <indexterm>Column</indexterm>
+        <indexterm>Behavior</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>At runtime, the end-user doesn't need to do anything. Based on the matrix grouping design, the data will be filtered from top most Grouped Column to last regular Matrix Column and finally the data field is rendered.</p>
+    </section></refbody>
+</reference>

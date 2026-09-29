@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="search_and_select_action_29eb97" xml:lang="en-us">
+   <title>Search and Select Action</title>
+   <shortdesc>The Search &amp; Select action provides an interactive way for the end user to search</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Search</keyword>
+        <keyword>Select</keyword>
+        <keyword>records</keyword>
+        <keyword>Action</keyword>
+        <keyword>environment</keyword>
+        <keyword>action</keyword>
+        <indexterm>Search</indexterm>
+        <indexterm>Select</indexterm>
+        <indexterm>records</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>The Search &amp; Select action provides an interactive way for the end user to search for and select one or more records to retrieve from your environment. Along with the <xref href="../query_action_98667690/query_action.dita">Query Action</xref>, Search &amp; Select is the primary means for retrieving records from your environment. Search &amp; Select actions work with <xref href="../display_action_98667691/display_action.dita">Display Actions</xref> to <b>retrieve and display records</b> in apps. A Search &amp; Select action executes two calls to your environment when invoked:</p><ul>
+         <li>the first call assists the user in searching and selecting the data they need</li>
+         <li>the second call retrieves all fields for the records selected by the user</li>
+      </ul>
+  </context></taskbody>
+</task>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="getting_started_with_xauthor_for_excel_911b9c" xml:lang="en-us">
+   <title>Getting Started with X-Author for Excel</title>
+     <shortdesc>This section contains information to help you get started with X-Author for Excel.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Author</keyword>
+        <keyword>Excel</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>access</keyword>
+        <keyword>Assignment</keyword>
+        <keyword>Permissions</keyword>
+        <indexterm>Author</indexterm>
+        <indexterm>Excel</indexterm>
+        <indexterm>Salesforce</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>This section contains information to help you get started with X-Author for Excel.</p>
+      <ul>
+         <li>
+            <xref href="#gettingstartedwithxauthorforexcellicenseslicensesanduserassignmentforsalesforce">Licenses and User Assignment for Salesforce</xref>
+         </li>
+         <li>
+            <xref href="#gettingstartedwithxauthorforexcelsettingsalesforcepermissions">Setting Salesforce Permissions</xref>
+            <xref href="#gettingstartedwithxauthorforexcelassigningfieldlevelpermissions">Assigning Field-Level Permissions</xref>
+         </li>
+         <li>
+            <xref href="#gettingstartedwithxauthorforexcelsettingmicrosoftdynamicspermissions">Setting Microsoft Dynamics Permissions</xref>
+            <xref href="#gettingstartedwithxauthorforexcelassigninguserstorecordsinmicrosoftdynamics">Assigning Users to Records in Microsoft Dynamics</xref>
+            <xref href="#gettingstartedwithxauthorforexcelassigninguserrolepermissionsinmicrosoftdynamics">Assigning User Role Permissions in Microsoft Dynamics</xref>
+         </li>
+      </ul>
+      <ul>
+         <li>
+            <p>Running or designing apps requires a combination of X-Author licenses and user assignment to managed packages:</p>
+         </li>
+         <li>
+            <p>
+               <b>Conga Licenses
+</b>
+            </p>
+         </li>
+         <li>
+            <p>One or more X-Author for Excel product editions (for example, X-Author Enterprise or X-Author Power Admin):</p>
+         </li>
+      </ul>
+      <ul>
+         <li>Analytics (formerly "Reporting")</li>
+         <li>Enterprise </li>
+         <li>Presto</li>
+         <li>Power Admin </li>
+      </ul>
+      <p>
+         <b>User Assignment:</b>
+      </p>
+      <ul>
+         <li>X-Author Designer Package—Assignment to this package is required for app designers.</li>
+         <li>X-Author for Excel Package —Assignment to this package is required for designer and runtime users who can run any app that has been both activated and assigned to them by a designer.</li>
+      </ul>
+      <p>
+         <b>Salesforce Licenses</b>
+      </p>
+      <ul>
+         <li>To access Salesforce.com from Microsoft Excel using any X-Author for Excel edition, a user must have an API-enabled Salesforce.com license to the objects they need to access.<b>
+</b>
+         </li>
+      </ul>
+      <p>Unless they have a System Administrator profile, users will not automatically have access to the package contents that are required to access X-Author functionality.</p>
+      <p>To provide access to users, Conga recommends that administrators create new permission sets for both Runtime and Designer and assign them to the appropriate users.</p>
+      <p>As an alternative, you can assign the below permission to user profiles rather than creating permission sets, if it is more convenient.</p>
+   </conbody>
+</concept>

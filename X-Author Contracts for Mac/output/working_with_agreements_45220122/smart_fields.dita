@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="smart_fields_447743" xml:lang="en-us">
+   <title>Smart Fields</title>
+     <shortdesc>are specialized fields that can retain the Apttus field definition even after Merge Service generates</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Aug 16, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>fields</keyword>
+        <keyword>Smart</keyword>
+        <keyword>document</keyword>
+        <keyword>Text</keyword>
+        <keyword>agreement</keyword>
+        <keyword>generated</keyword>
+        <indexterm>fields</indexterm>
+        <indexterm>Smart</indexterm>
+        <indexterm>document</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>Smart fields are specialized fields that can retain the Apttus field definition even after Merge Service generates an agreement document. Whereas normal fields are generated in documents as static text, smart fields can be changed and reconciled back to affect data on the agreement record in Salesforce. In a typical scenario where an agreement document is sent to an external party for negotiation, the external party will make changes to the document as part of the negotiation. If the changes to the document involve data belonging to the agreement record, reconciliation provides the mechanism to ensure the values in the document and the Agreement record are reconciled.</p>
+<p>Smart fields in generated documents always follow the format of the same field in Salesforce, such as dates and strings. <b>Text Area</b>, <b>Rich Text fields</b>, formula fields for <b>LongDate</b> and <b>Multi-Select Picklists</b> are not supported as smart fields.</p></conbody>
+</concept>

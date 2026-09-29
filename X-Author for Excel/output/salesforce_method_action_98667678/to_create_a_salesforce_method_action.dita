@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_salesforce_method_action_fc0a8b" xml:lang="en-us">
+   <title>To create a Salesforce Method action</title>
+   <shortdesc>Rakesh Singh Click on the button beneath the Actions button and select Salesforce Method.</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>Method</keyword>
+        <keyword>Salesforce</keyword>
+        <keyword>select</keyword>
+        <keyword>object</keyword>
+        <keyword>value</keyword>
+        <keyword>Type</keyword>
+        <indexterm>Method</indexterm>
+        <indexterm>Salesforce</indexterm>
+        <indexterm>select</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click on the button beneath the Actions button and select Salesforce Method.</cmd>
+            <info>
+               <fig>
+                  <title>190354414</title>
+                  <image href="../attachments/98667678/190354414.png" width="164" height="452" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Under Action Details, type an Action Name for the call procedure action.</cmd>
+         </step>
+         <step>
+            <cmd>Under Salesforce Method Details, select a <b>Class</b> and type the name of the <b>Method</b>.</cmd>
+         </step>
+         <step>
+            <cmd>If the procedure has a return value, select <b>Has return value</b> and select a <b>Return Type</b> object.</cmd>
+         </step>
+         <step>
+            <cmd>If the procedure has parameters, select Has parameters. The Specify Params section is enabled.</cmd>
+         </step>
+         <step>
+            <cmd>Type a Param name, and select from the following:<b>Static</b>: Type a value.<b>Object</b>: Enables the Object list. Select an object.<b>Field</b>: Enables the Field list. Select an object field.<b>User Input</b>: This displays an input field to the user at runtime and passes that input to the Salesforce Method.</cmd>
+            <info>
+               <ul>
+                  <li>Static : Type a value.</li>
+                  <li>Object : Enables the Object list. Select an object.</li>
+                  <li>Field : Enables the Field list. Select an object field.</li>
+                  <li>User Input : This displays an input field to the user at runtime and passes that input to the Salesforce Method.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Add Param</b> to add more than one parameter.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+            <info>
+               <fig>
+                  <title>190354416</title>
+                  <image href="../attachments/98667678/190354416.png" width="340" height="381" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,782 @@
+{
+  "job_id": "556cfadf-fe31-4a97-8bb9-759cf23f616c",
+  "mode": "enrich-only",
+  "output_dir": "storage/556cfadf-fe31-4a97-8bb9-759cf23f616c/xslt_output",
+  "processed_at": "2026-08-20T06:49:37.989298+00:00",
+  "counts": {
+    "dita_files_total": 11,
+    "ditamap_files_total": 7,
+    "topics_reclassified": 4,
+    "issues_fixed_by_zone1": 11,
+    "issues_fixed_by_ai": 3,
+    "issues_remaining": 4,
+    "ai_obligations_missed": 0,
+    "new_issues_by_ai": 2,
+    "pending_suggestions": 17,
+    "alt_text_images_filled": 0,
+    "alt_text_images_skipped": 0,
+    "alt_text_images_scanned": 0
+  },
+  "quality_metrics": {
+    "element_validation_success_pct": 100,
+    "attribute_mapping_success_pct": 50,
+    "href_resolution_success_pct": 100,
+    "table_resolution": {
+      "validated": 2,
+      "total": 2,
+      "success_pct": 100
+    }
+  },
+  "token_usage": {
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "total_cost_usd": 0,
+    "by_model": {}
+  },
+  "element_counts": {
+    "ol": 0,
+    "ul": 1,
+    "table": 2,
+    "image": 0,
+    "crosslink": 0,
+    "hyperlink": 1,
+    "concept": 7,
+    "task": 2,
+    "reference": 0,
+    "topic": 2
+  },
+  "enrichment_summary": [
+    {
+      "file": "x_author_for_chatter_fbr/109962850/configurable_chatter_icon.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_fbr/109962850/salesforce_tls_1112_upgrade.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_fbr/109962850/version_371_july_2016.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_fbr/109962860/configurable_search_criteria.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_fbr/109962860/updating_additional_values_during_checkin_process.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_fbr/109962860/version_481_winter_2018.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_fbr/apttus_copyright_disclaimer_109962852/apttus_copyright_disclaimer.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_fbr/features_list_109962851/features_list.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_fbr/index/space_details.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/versions.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/xauthor_for_chatter_on_salesforce_features_by_release.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    }
+  ],
+  "alt_text_summary": {
+    "images_filled": 0,
+    "images_skipped": 0,
+    "total_images_scanned": 0
+  },
+  "alt_text_events": {
+    "filled": [],
+    "skipped": []
+  },
+  "structural_issues_remaining": [
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_fbr/features_list_109962851/features_list.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 28
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "x_author_for_chatter_fbr/index/space_details.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_for_chatter_fbr/109962860/updating_additional_values_during_checkin_process.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "x_author_for_chatter_fbr/109962860/configurable_search_criteria.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/xauthor_for_chatter_on_salesforce_features_by_release.dita",
+      "message": "<shortdesc> starts with generic opener 'this document': 'This document contains an overview of features introduced in...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/versions.dita",
+      "message": "<shortdesc> starts with generic opener 'this document': 'This document covers versions 3.71 to 4.81'",
+      "line": 5
+    }
+  ],
+  "enrichment_quality": {
+    "summary": {
+      "dita_file_count": 11,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "WARNING": 2,
+        "INFO": 0
+      },
+      "category_counts": {
+        "shortdesc_too_generic": 2
+      }
+    },
+    "issues": [
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/xauthor_for_chatter_on_salesforce_features_by_release.dita",
+        "message": "<shortdesc> starts with generic opener 'this document': 'This document contains an overview of features introduced in...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/versions.dita",
+        "message": "<shortdesc> starts with generic opener 'this document': 'This document covers versions 3.71 to 4.81'",
+        "line": 5
+      }
+    ]
+  },
+  "fix_diff": {
+    "fixed_by_zone1": [
+      {
+        "file": "x_author_for_chatter_fbr/109962850/configurable_chatter_icon.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_fbr/109962850/salesforce_tls_1112_upgrade.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_fbr/109962850/version_371_july_2016.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_fbr/109962860/configurable_search_criteria.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_fbr/109962860/updating_additional_values_during_checkin_process.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_fbr/109962860/version_481_winter_2018.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_fbr/apttus_copyright_disclaimer_109962852/apttus_copyright_disclaimer.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_fbr/features_list_109962851/features_list.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_fbr/index/space_details.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/versions.dita",
+        "fix": "added xml:lang=\"en-us\""
+      },
+      {
+        "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/xauthor_for_chatter_on_salesforce_features_by_release.dita",
+        "fix": "added xml:lang=\"en-us\""
+      }
+    ],
+    "fixed_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_fbr/features_list_109962851/features_list.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_fbr/index/space_details.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "x_author_for_chatter_fbr/109962850/configurable_chatter_icon.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      }
+    ],
+    "ai_obligations_missed": [],
+    "new_issues_introduced_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_for_chatter_fbr/109962860/updating_additional_values_during_checkin_process.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "x_author_for_chatter_fbr/109962860/configurable_search_criteria.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      }
+    ],
+    "summary": {
+      "pre_enrichment_issue_count": 18,
+      "post_enrichment_issue_count": 8,
+      "backend_error_file_count": 0,
+      "fixed_by_zone1_count": 11,
+      "fixed_by_ai_count": 3,
+      "remaining_count": 4,
+      "ai_obligations_missed_count": 0,
+      "new_issues_count": 2
+    }
+  },
+  "ai_quality_review": {
+    "layer4": {
+      "overall_quality": "fair",
+      "topic_type_accuracy_pct": 0,
+      "recommendations": [],
+      "dita_best_practice_gaps": [],
+      "autofix": {
+        "fixed": [],
+        "flagged": [],
+        "failed": []
+      }
+    },
+    "layer5": {
+      "validation_passed": true,
+      "overall_accuracy_pct": 100,
+      "per_topic_issues": [
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_fbr/109962850/configurable_chatter_icon.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Configurable Chatter Icon' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_fbr/109962850/salesforce_tls_1112_upgrade.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Salesforce TLS 1.1/1.2 Upgrade' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_fbr/109962850/version_371_july_2016.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Version 3.71 (July 2016)' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_fbr/109962860/configurable_search_criteria.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Configurable Search Criteria' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_fbr/109962860/updating_additional_values_during_checkin_process.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Updating Additional Values during Check-In Process' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_fbr/109962860/version_481_winter_2018.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Version 4.81 (Winter 2018)' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_fbr/apttus_copyright_disclaimer_109962852/apttus_copyright_disclaimer.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Apttus Copyright Disclaimer' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_fbr/features_list_109962851/features_list.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Features List' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_fbr/index/space_details.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Space Details:' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/versions.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Versions' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        },
+        {
+          "severity": "WARNING",
+          "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/xauthor_for_chatter_on_salesforce_features_by_release.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'X-Author for Chatter on Salesforce Features by Release' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 24
+        }
+      ],
+      "shortdesc_issues": [],
+      "recommendations": [
+        "11 WARNING(s) \u2014 missing id, DOCTYPE, or shortdesc"
+      ],
+      "schema_validation": {
+        "schema_passed": true,
+        "total_files": 11,
+        "valid_files": 11,
+        "invalid_files": 0,
+        "results": [
+          {
+            "file": "configurable_chatter_icon.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "salesforce_tls_1112_upgrade.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "version_371_july_2016.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "configurable_search_criteria.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "updating_additional_values_during_checkin_process.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "version_481_winter_2018.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "apttus_copyright_disclaimer.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "features_list.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "space_details.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "versions.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "xauthor_for_chatter_on_salesforce_features_by_release.dita",
+            "valid": true,
+            "issues": []
+          }
+        ]
+      }
+    }
+  },
+  "element_counts_per_file": [
+    {
+      "file": "x_author_for_chatter_fbr/109962850/configurable_chatter_icon.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_fbr/109962850/salesforce_tls_1112_upgrade.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_fbr/109962850/version_371_july_2016.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_fbr/109962860/configurable_search_criteria.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_fbr/109962860/updating_additional_values_during_checkin_process.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_fbr/109962860/version_481_winter_2018.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_fbr/apttus_copyright_disclaimer_109962852/apttus_copyright_disclaimer.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_fbr/features_list_109962851/features_list.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "x_author_for_chatter_fbr/index/space_details.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/versions.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/xauthor_for_chatter_on_salesforce_features_by_release.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    }
+  ],
+  "pre_clean": {
+    "status": "completed",
+    "summary": {
+      "files_processed": 18,
+      "files_modified": 0,
+      "files_unchanged": 18,
+      "files_failed": 0,
+      "total_fixes_by_type": {}
+    },
+    "per_file": [
+      {
+        "file": "x_author_for_chatter_fbr/109962850/configurable_chatter_icon.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/109962850/salesforce_tls_1112_upgrade.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/109962850/version_371_july_2016.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/109962850.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/109962860/configurable_search_criteria.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/109962860/updating_additional_values_during_checkin_process.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/109962860/version_481_winter_2018.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/109962860.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/apttus_copyright_disclaimer_109962852/apttus_copyright_disclaimer.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/apttus_copyright_disclaimer_109962852.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/features_list_109962851/features_list.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/features_list_109962851.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/index/space_details.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/index.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/x_author_for_chatter_fbr.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/versions.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849/xauthor_for_chatter_on_salesforce_features_by_release.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "x_author_for_chatter_fbr/x_author_for_chatter_on_salesf_109962849.ditamap",
+        "doc_type": "map",
+        "xsl_applied": "map.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      }
+    ]
+  },
+  "validation": {
+    "fix_passes": [],
+    "final_violations": 0,
+    "final_files_with_violations": 0,
+    "final_details": []
+  }
+}

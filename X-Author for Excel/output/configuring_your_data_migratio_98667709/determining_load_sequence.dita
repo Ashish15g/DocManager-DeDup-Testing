@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="determining_load_sequence_ca3f23" xml:lang="en-us">
+   <title>Determining Load Sequence</title>
+     <shortdesc>By default, Objects retrieved from the source org will load in the sequence listed on</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>sequence</keyword>
+        <keyword>Load</keyword>
+        <keyword>Sequence</keyword>
+        <keyword>Objects</keyword>
+        <keyword>Determining</keyword>
+        <keyword>default</keyword>
+        <indexterm>sequence</indexterm>
+        <indexterm>Load</indexterm>
+        <indexterm>Sequence</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>By default, Objects retrieved from the source org will load in the sequence listed on the Data Migration screen. If you want to change the load sequence behavior, you need to specify a new load sequence for Objects in the list.</p>
+      <p>To accomplish this, edit the <b>Load Sequence</b> column for your objects. Use caution when making changes, as load sequence is important when migrating data. Users will encounter errors, for example, if a Child Object load sequence is specified prior to its Parent Object. Also, you cannot finalize the app if there is a number missing in the load sequence or two or more Objects share the same Load Sequence.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="syncing_apps_20220a" xml:lang="en-us">
+   <title>Syncing Apps</title>
+     <shortdesc>Use the Sync App action from the Admin section of the X-Author Designer ribbon to</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>environment</keyword>
+        <keyword>Sync</keyword>
+        <keyword>correct</keyword>
+        <keyword>between</keyword>
+        <keyword>objects</keyword>
+        <keyword>fields</keyword>
+        <indexterm>environment</indexterm>
+        <indexterm>Sync</indexterm>
+        <indexterm>correct</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>Use the <b>Sync App</b> action from the Admin section of the X-Author Designer ribbon to review and correct discrepancies between your app and environment data. This feature replaces the previous <b>Validate</b> feature in the ribbon. </p><ul>
+         <li>
+            <p>Using Sync App, you can view and correct the following data mismatches between your app and environment:</p>
+         </li>
+      </ul><ul>
+         <li>
+            <u>
+               <b>Objects</b>
+            </u> – View all objects in your app that do not match objects in the connected instance. You must manually remove these objects from your app or add or make them available in your environment.<b> </b>
+         </li>
+         <li>
+            <u>
+               <b>Fields</b>
+            </u> – View all fields in your app present in one or more Display Maps, Save Maps or Search Filters that do not match objects in the connected instance. Use Sync App to select and remove these fields from Display Maps and Save Maps. In most cases you must manually remove fields from your search and query filters.</li>
+         <li>
+            <u>
+               <b>Field Data Types</b>
+            </u> – View all mismatched field data types that exist in your app. Use Sync App to correct all mismatched data types in your app with data types from your environment.</li>
+         <li>
+            <b>
+               <u>Picklists</u>
+            </b> – Review the total number of Picklist fields (not values) synced between the app and your environment (based on the environment data) in the Summary. No user intervention is required.</li>
+         <li>
+            <b>
+               <u>Record Types</u>
+            </b> - Review the total number of Record Types for an object. After syncing, the record type count is displayed in the Summary Section as Added, Updated or Deleted. Adding, updating or removing record type picklist options, the changes are reflected.</li>
+      </ul><p>Missing/Inaccessible Objects and Fields</p><p>Note</p><p>The Sync App feature is not compatible with Quick Apps.</p>
+  </context></taskbody>
+</task>

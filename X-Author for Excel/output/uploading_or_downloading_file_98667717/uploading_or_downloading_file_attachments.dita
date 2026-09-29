@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="uploading_or_downloading_file_attachments_c661cf" xml:lang="en-us">
+   <title>Uploading or Downloading File Attachments</title>
+     <shortdesc>You can upload and download file attachments using X-Author for Excel. For example, if you</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>example</keyword>
+        <keyword>attachments</keyword>
+        <keyword>Attachments</keyword>
+        <keyword>files</keyword>
+        <keyword>Opportunity</keyword>
+        <keyword>environment</keyword>
+        <indexterm>example</indexterm>
+        <indexterm>attachments</indexterm>
+        <indexterm>Attachments</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>You can upload and download file attachments using X-Author for Excel. For example, if you create an app that uses objects that contain attachments, such as the Opportunity object, you can now download opportunity-related attachments from your environment and upload attachments to your environment. All you need to do is add the attachments field to the Objects, the Display Map, and—if you are uploading attachments—the Save Map.</p><p>Downloaded files are located in <b>%AppData%\Local\Temp\X-Author Attachments\[Object_ID]\</b>, where %AppData% is the location of the logged-in user's AppData directory in Windows (for example, C:\Users\bdwyer\AppData) and Object_ID is a mashup of the name and the ID of the object the attachment is associated with, such as an Opportunity. You can upload files from anywhere on your workstation, though. To upload a file, you need to provide the full path to the document and the document name as shown in the following example. </p><fig>
+         <title>143904009</title>
+         <image href="../attachments/98667717/143904009.jpg" width="1200" height="249" placement="break">
+            <alt>placeholder</alt>
+         </image>
+      </fig><p> In this example, the files will be uploaded to the Opportunity when you save the data to your environment.</p><p>Characters such as " &lt; &gt; | : * ? \ / are invalid characters and not supported as part of a file or folder name. Attachments will be downloaded after truncating invalid characters in the attachment file name. For example: If the file name is XYZ&lt;&gt;|:*!?.xlsx, the attachment will be downloaded as XYZ.xlsx.</p>
+  </context></taskbody>
+</task>

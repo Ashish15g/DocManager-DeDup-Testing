@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_enable_a_delete_action_to_be_used_in_designer_ff728b" xml:lang="en-us">
+   <title>To enable a delete action to be used in designer</title>
+   <shortdesc>Rakesh Singh You must update the License Webservice Endpoint .</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+       <metadata>
+      <keywords>
+        <keyword>enable</keyword>
+        <keyword>action</keyword>
+        <keyword>local</keyword>
+        <keyword>license</keyword>
+        <keyword>files</keyword>
+        <keyword>delete</keyword>
+        <indexterm>enable</indexterm>
+        <indexterm>action</indexterm>
+        <indexterm>local</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>You must <xref href="#deleteactionlicensewsep">update the License Webservice Endpoint</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>After updating the License Webservice Endpoint, you must <xref href="../installing_x_author_for_excel_98667656/installing_xauthor_for_excel.dita">refresh your licenses</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>The last step is to refresh your local license files. X-Author refreshes the local license files every 24 hours. <xref href="#deleteactionlocallicense">Refresh your local license files</xref> to enable and use the Delete action.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

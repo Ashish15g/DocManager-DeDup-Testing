@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="updating_fields_from_contract_management_4765bb" xml:lang="en-us">
+   <title>Updating Fields from Contract Management</title>
+   <shortdesc>Maanasa Suthrave Update from CLM is an action button located in the X-Author Contracts for</shortdesc>
+   <prolog>
+      <author type="creator">Maanasa Suthrave</author>
+      <critdates>
+         <revised modified="May 16, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>fields</keyword>
+        <keyword>document</keyword>
+        <keyword>Contract</keyword>
+        <keyword>Management</keyword>
+        <keyword>Apttus</keyword>
+        <keyword>Smart</keyword>
+        <indexterm>fields</indexterm>
+        <indexterm>document</indexterm>
+        <indexterm>Contract</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>
+            <b>Update from CLM</b> is an action button located in the X-Author Contracts for Cloud pane and you can use it to update smart fields and Readonly fields in your agreement document where fields have been updated in Apttus Contract Management since the document was generated. <b>Update from CLM</b> updates all header, 2nd, and 3rd level smart fields located in your document, including:</p><ul>
+            <li>Smart fields in the body of the agreement document.</li>
+            <li>Smart fields in sections.</li>
+            <li>Smart fields in tables or repeating datasets. Adding a new line item in Apttus Contract Management and updating will create a new row in the table.</li>
+            <li>Smart fields in generated clauses.</li>
+         </ul><ul>
+            <li>If you choose to update fields from Apttus CLM, all changed smart field values and Readonly field values will be updated. You cannot select only specific fields.</li>
+            <li>Adding new line items to an Apttus CLM record and updating will only add a new row to the agreement document if a table exists containing those fields.</li>
+            <li>Fields cannot be updated to or from an empty (null) value.</li>
+         </ul>
+  </context></taskbody>
+</task>

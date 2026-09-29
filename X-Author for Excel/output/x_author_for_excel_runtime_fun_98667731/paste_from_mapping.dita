@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="paste_from_mapping_5da5cd" xml:lang="en-us">
+   <title>Paste from Mapping</title>
+   <shortdesc>This function is used during data migration between orgs and is specifically for copying data</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <critdates>
+         <revised modified="Jan 30, 2019"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>Paste</keyword>
+        <keyword>Mapping</keyword>
+        <keyword>source</keyword>
+        <keyword>between</keyword>
+        <keyword>Data</keyword>
+        <keyword>Open</keyword>
+        <indexterm>Paste</indexterm>
+        <indexterm>Mapping</indexterm>
+        <indexterm>source</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>This function is used during data migration between orgs and is specifically for copying data between source and target workbooks. Refer to <xref href="../migrating_data_between_orgs_98667703/migrating_data_between_orgs.dita">Migrating Data Between Orgs</xref> for more details.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Open the Target App.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Paste &gt; Paste from Mapping</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the source workbook file that contains the data to be copied and click <b>Open</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Data is transferred from the source file to the Target App.
+ </p>
+      </result>
+   </taskbody>
+</task>

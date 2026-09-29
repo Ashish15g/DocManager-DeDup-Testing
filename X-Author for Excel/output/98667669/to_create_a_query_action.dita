@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_create_a_query_action_b8ee74" xml:lang="en-us">
+   <title>To create a Query Action</title>
+   <shortdesc>Salesforce Object and Field</shortdesc>
+   <prolog>
+      <author type="creator">Rakesh Singh</author>
+      <metadata>
+         <keywords>
+        <keyword>select</keyword>
+        <keyword>Query</keyword>
+        <keyword>field</keyword>
+        <keyword>Action</keyword>
+        <keyword>click</keyword>
+        <keyword>Object</keyword>
+        <indexterm>select</indexterm>
+        <indexterm>Query</indexterm>
+        <indexterm>field</indexterm>
+      </keywords>
+      <prodinfo>
+            <prodname>Example</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Under Actions, click the arrow and select <b>Query</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Action Name field, type <i>Query Opportunities</i> and from the Object picklist select <b>Opportunity</b>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Filters section, select or enter the following to restrict the Opportunity records to those for which the current user is the <i>Opportunity</i> owner. Click the lookup icon and select the <i>Owner Id</i> field. Because this is a lookup field, click to the right of the orange field to select the row and click <b>Apply</b>. Select the other parameters based on the table below.
+Salesforce Object and FieldValue TypeOperatorValue ListOwner IdSystemVariablesEqualsCurrentUser</cmd>
+            <info>
+               <image href="../attachments/98667669/98667992.png" width="28" height="24" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <info>
+               <section id="sec_d67e65">
+                  <p>
+</p>
+                  <table>
+                     <tgroup cols="4">
+                        <colspec colname="c1"/>
+                        <colspec colname="c2"/>
+                        <colspec colname="c3"/>
+                        <colspec colname="c4"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Salesforce Object and Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Value Type</p>
+                              </entry>
+                              <entry>
+                                 <p>Operator</p>
+                              </entry>
+                              <entry>
+                                 <p>Value List</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Owner Id</p>
+                              </entry>
+                              <entry>
+                                 <p>SystemVariables</p>
+                              </entry>
+                              <entry>
+                                 <p>Equals</p>
+                              </entry>
+                              <entry>
+                                 <p>CurrentUser</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </section>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Save</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>Save App</b>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

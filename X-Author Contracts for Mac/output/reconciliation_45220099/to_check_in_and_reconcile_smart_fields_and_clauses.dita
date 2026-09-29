@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="to_check_in_and_reconcile_smart_fields_and_clauses_07cd7b" xml:lang="en-us">
+   <title>To check in and reconcile smart fields and clauses</title>
+   <shortdesc>If you choose to check in the document without reconciling, changed smart field values will</shortdesc>
+   <prolog>
+      <author type="creator">Chris Castro</author>
+      <critdates>
+         <revised modified="Oct 07, 2016"/>
+      </critdates>
+       <metadata>
+      <keywords>
+        <keyword>document</keyword>
+        <keyword>check</keyword>
+        <keyword>choose</keyword>
+        <keyword>smart</keyword>
+        <keyword>fields</keyword>
+        <keyword>redlines</keyword>
+        <indexterm>document</indexterm>
+        <indexterm>check</indexterm>
+        <indexterm>choose</indexterm>
+      </keywords>
+          <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author pane, click <b>Check In</b>. The Check-in Options page is displayed.</cmd>
+            <info>
+               <image href="../attachments/45220099/50036856.png" width="35" height="35" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+            <info>
+               <fig>
+                  <title>50036857</title>
+                  <image href="../attachments/45220099/50036857.png" width="688" height="1098" placement="break">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Choose the <b>Options</b> for saving your document:To check in the document with redlines, choose <i>With Redlines</i>.To check in the document without redlines (clean), choose <i>Without Redlines</i>.To check in the document as final, choose <i>Final - to be signed</i>.</cmd>
+            <info>
+               <ul>
+                  <li>To check in the document with redlines, choose With Redlines .</li>
+                  <li>To check in the document without redlines (clean), choose Without Redlines .</li>
+                  <li>To check in the document as final, choose Final - to be signed .</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>To reconcile fields<b> </b>in your document, click <b>View Fields</b>. This loads the <b>Document &gt; Fields</b> page. </cmd>
+         </step>
+         <step>
+            <cmd>Review the Current and Previous values for smart fields in your document, make any changes as needed and click <b>Validate</b>. If any invalid values exist, correct them and perform the validation again.</cmd>
+         </step>
+         <step>
+            <cmd>To reconcile clauses in your document, click <b>View Clauses</b>. This loads the <b>Document &gt; Clauses </b>page. Click <b>Show Changed Clauses</b> to review any changed smart clauses in your document and make changes as required.</cmd>
+         </step>
+         <step>
+            <cmd>Click  <b>Check In</b> to return to the Check-in screen. Repeat Step 2 to choose document options again.</cmd>
+            <info>
+               <image href="../attachments/45220099/50036856.png" width="35" height="35" placement="inline">
+                     <alt>placeholder</alt>
+                  </image>
+               
+            </info>
+         </step>
+         <step>
+            <cmd>Select the <b>Reconcile</b> check box. </cmd>
+            <info>
+               <note type="warning">
+                  <p>If you choose to check in the document without reconciling, changed smart field values will not be updated in the agreement record and changes to clauses will not be reflected in the Agreement Clauses related list. If you chose to check in the document with redlines, redlines and comments will be retained.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>Submit</b> to check in the document with reconciliation. </cmd>
+            <info>
+               <p>
+
+</p>
+            </info>
+            <info>
+               <note type="warning">
+                  <p>If there are invalid values for smart fields in your document, the check box will not enable. An error message is displayed.</p>
+                  <p>Agreement documents cannot be reconciled with the agreement record as long as invalid values exist in the document for smart fields. Go to <b>Document &gt; Fields</b> to perform a validation and correct any invalid fields.</p>
+               </note>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>
