@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Example_OpportunitiesbyAccountAppAppComponents" xml:lang="en">
+   <title>App Components</title>
+   <conbody>
+      <p>
+         <uicontrol/>You will use the following app components to build your new app:</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Component</p>
+                     </entry>
+                     <entry>
+                        <p>Component Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../adding_objects_to_your_ap_98667696/98667696.dita"
+                                 format="dita">Objects</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Account (Individual) and Opportunity (List)</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../working_with_display_maps_98667693/98667693.dita"
+                                 format="dita">Display Map</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Individual and List fields per objectives</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../working_with_save_maps_98_98667692/98667692.dita"
+                                 format="dita">Save Map</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Using fields from the Display Map</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../customizing_the_app_exper_98667675/98667675.dita"
+                                 format="dita">Actions</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>Search and Select Action for the Account</li>
+                              <li>Query Action to retrieve the Opportunities for the Account</li>
+                              <li>Display Action to transfer the retrieved data to the Display Map</li>
+                              <li>
+                                 <p>Save Action to save back to the environment any user modifications</p>
+                              </li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../executing_actions_9866767_98667674/98667674.dita"
+                                 format="dita">Action Flows</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>One Action Flow to retrieve the data and display it and one Action Flow to save the data</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../creating_user_menus_98667_98667673/98667673.dita"
+                                 format="dita">User Menus</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>One button for the user to retrieve opportunities and one to save opportunities to your environment.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

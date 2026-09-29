@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Example_OpportunityForecastApplicationTocreateaflowtoretrieveanddisplayOpportunities"
+      xml:lang="en">
+   <title>To create a flow to retrieve and display Opportunities</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <uicontrol>Action Flow</uicontrol> and then click <uicontrol>Create</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Action Flow Name</uicontrol> field, type Retrieve Opportunities and click <uicontrol>Apply</uicontrol>. The left-hand window is updated.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add Step</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Step Name field, t</uicontrol>ype <i>Query Opportunities</i>
+               <uicontrol>.</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>From the <uicontrol>Action</uicontrol> list, select <i>
+                  <uicontrol>Query Opportunities</uicontrol>
+               </i>.</cmd>
+         </step>
+         <step>
+            <cmd>Check <uicontrol>Persist Data as Output</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter <i>Opps</i>, then click <uicontrol>Apply</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add Step</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Step Name, e</uicontrol>nter <i>Display Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>From the <uicontrol>Action</uicontrol> list, select <i>
+                  <uicontrol>Display Opportunities</uicontrol>
+               </i>.</cmd>
+         </step>
+         <step>
+            <cmd>Check <uicontrol>Provide Input</uicontrol> and choose <i>Opps</i> as default.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Apply</uicontrol> and then click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save App</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

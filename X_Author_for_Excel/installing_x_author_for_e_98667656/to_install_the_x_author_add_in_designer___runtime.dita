@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="InstallingXAuthorforExcelToInstalltheXAuthorAddinDesignerRuntime"
+      xml:lang="en">
+   <title>To Install the X-Author Add-in: Designer + Runtime</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Double-click the installer executable to display the InstallShield Wizard. In rare instances, a restart of Windows may be required. Click <uicontrol>Yes</uicontrol> to confirm the restart. After you log in to Windows, the installer automatically resumes.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol> to start the wizard.</cmd>
+         </step>
+         <step>
+            <cmd>On the License Agreement screen, select <uicontrol>I Accept</uicontrol> and click <uicontrol>Next</uicontrol>. If you do not accept the terms of the agreement, X-Author will not be installed on your computer.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Install</uicontrol> to begin the installation process. If any components need to be installed for X-Author to work as expected, they will be automatically detected as missing and installed. If components are required but cannot be accessed through the Internet, an appropriate message will be displayed and the installation will need to be completed after all missing components have been manually installed.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Finish</uicontrol> to close the wizard and complete the installation.</cmd>
+         </step>
+         <step>
+            <cmd>Open Microsoft Excel.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Designers: The <uicontrol>X-Author Designer</uicontrol> and <uicontrol>X-Author for Excel</uicontrol> ribbon tab should be available in Excel. If the ribbon tab is not displayed, you may need to <xref href="../showing_disabled_x_author_98667659/98667659.dita"
+                  format="dita">register</xref> X-Author Designer or X-Author for Excel with Excel.</p>
+         <p>
+            <fig>
+               <image height="147"
+                      placement="break"
+                      width="946"
+                      href="../attachments/98667656/98667813.png"/>
+            </fig>
+         </p>
+         <p>Runtime Users: The <uicontrol>X-Author for Excel</uicontrol> ribbon tab should be available in Excel.</p>
+      </postreq>
+   </taskbody>
+</task>

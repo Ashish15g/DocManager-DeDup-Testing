@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="SettingSegmentsinTemplates_TomakeaSegmentConditionalinatemplate" xml:lang="en">
+   <title>To make a Segment Conditional in a template</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In the X-Author Templates pane, go to <uicontrol>Work</uicontrol> tab, click the more options icon (<image height="19" placement="inline" href="../attachments/102413240/102413262.png"/>) and select <uicontrol>Set Segment</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight a block of text in your template and click <uicontrol>Set Conditional</uicontrol>. This opens the <uicontrol>Make Conditional</uicontrol> window which has the expression builder.</cmd>
+         </step>
+         <step>
+            <cmd>In the make <uicontrol>Make Conditional</uicontrol> window, you can create a conditional expression and also create a complex expression using logical operators between multiple rows of conditions. To create an expression you must enter the values of the following three fields:</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the field which you want to set as the criteria for the condition. The <b>Field</b> drop-down shows the Agreement object and its fields from your Salesforce org. You must select a field name. The fields are listed and grouped according to their hierarchy.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Operator</p>
+                              </entry>
+                              <entry>
+                                 <p>You must select the logical operator from the drop-down. This forms the relationship between the <b>Field</b> and its <b>Value</b>.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Value</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the value of the field name selected in the <b>Field.</b>
+                                 </p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+               <p>You can add multiple rows of conditions. To do this click Add Row and set your condition. Click <uicontrol>Add Filter Logic</uicontrol> to add a logical relation between multiple rows.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add</uicontrol>. </cmd>
+            <info>
+               <p>You will see the success message and your segment will be added as Segment Conditional (Conditional) to the segments list in the <uicontrol>Set Segment</uicontrol> pane. Selecting the segment name from the list highlights that segment in the template document.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>To view or edit a segment condition, select the Segment Conditional (Conditional) from the segments list in the <uicontrol>Set Segments</uicontrol> pane and click the gear icon (<image height="20" placement="inline" width="20" href="../../global_images/images/256528177.png"/>) next to the segment name. This opens the <uicontrol>Segment Conditional </uicontrol>page and you can see the condition expression set for that segment. To edit the conditional, click the pencil icon (<image height="16" placement="inline" width="16" href="../../global_images/images/256531941.png"/>) next to <uicontrol>Condition</uicontrol>.</cmd>
+            <info>
+               <p>At the time of agreement generation, if your conditional's value evaluates to true, the associated segment is shown in the agreement document.</p>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

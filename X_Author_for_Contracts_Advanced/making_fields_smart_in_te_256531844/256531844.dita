@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d265aA" xml:lang="en">
+   <title>Making Fields Smart in Templates</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="note">
+         <p>This topic contains instructions for Conga CLM (Contracts for Salesforce) users.</p>
+      </note>
+      <p>Smart fields are specialized fields that can retain the field definition even after the Merge Service generates the Agreement document. Smart fields are intended for parts of an agreement that would normally be negotiated. Smart fields are usually represented by small chunks of text, such as dates, categories, and numeric values. Smart fields are not intended to hold large amounts of text - if necessary, use smart clauses instead.</p>
+      <note type="note">
+         <p>Smart fields have the following limitations:</p>
+         <ul>
+            <li>Text Area data type fields and formula field for LongDate are not supported.</li>
+            <li>You cannot mark Lookup fields as smart.</li>
+            <li>Smart fields cannot be used in the headers or footers of agreement documents.</li>
+         </ul>
+      </note>
+   </conbody>
+</concept>

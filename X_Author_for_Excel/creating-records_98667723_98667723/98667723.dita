@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d109aA" xml:lang="en">
+   <title>Creating Records</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jan 30, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>Depending on the type of matrix you create, a new record may be created when a user enters a value in a mapped data cell that was previously blank. </p>
+      <p>Because of all the possible configuration variations, there is no <i>absolute</i> rule for record creation, but there are some guidelines, assuming all required fields are ascertainable from the matrix, matrix filters, and section filters. </p>
+      <p>Records will usually be able to be created when the following criteria are met.</p>
+      <ul>
+         <li>Both the row and column mappings are lookups to other objects from the mapped data object.</li>
+         <li>Column, row, or data mappings are all from the same object, and there are no other fields on the matrix.</li>
+      </ul>
+      <p>X-Author will use the following mappings and filters to create a new record:</p>
+      <ul>
+         <li>Section Row</li>
+         <li>Section Column</li>
+         <li>Section Data</li>
+         <li>Static values identified as Equal To in the Section Filter</li>
+         <li>Individual fields used as Matrix Filters</li>
+      </ul>
+   </conbody>
+</concept>

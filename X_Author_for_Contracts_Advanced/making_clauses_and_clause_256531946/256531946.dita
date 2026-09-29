@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d225aA" xml:lang="en">
+   <title>Making Clauses and Clause Bundles Conditional in a Template</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="note">
+         <p>This topic contains instructions for Conga CLM (Contracts for Salesforce) users.</p>
+      </note>
+      <p>You can use condition-based clauses and clause bundles in your template to make more customized and flexible agreement templates. The condition for the condition-based clauses and clause bundles can be simple or complex expressions that you can make using the expression builder. The conditions are evaluated at the time of agreement generation and the clause text is included in the generated document only if the associated condition resolves to <i>True</i>.</p>
+      <note type="note">
+         <p>A condition created for a clause configuration is applicable for all the sub clauses related to the clause configuration. Similarly, a condition created for a clause bundle is applicable for all the clauses and sub clauses related to the clause bundle.</p>
+      </note>
+   </conbody>
+</concept>

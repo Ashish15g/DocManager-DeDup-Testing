@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="UsingPlaybookforTemplates_ToinsertaclausefromPlaybookintoatemplate" xml:lang="en">
+   <title>To insert a clause from Playbook into a template</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In the X-Author Templates pane, go to <uicontrol>Work &gt; Playbook &gt; Search Clauses</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Search Clauses field, click the search icon to list all the available clauses or enter a search string to search a specific clause.</cmd>
+         </step>
+         <step>
+            <cmd>You can also click clause filter icon <image placement="inline" width="20" href="../../global_images/images/256531589.png"/> to get filtering options. You can filter the clause based on clause Category, Subcategory, Locale, Language, and Type.</cmd>
+         </step>
+         <step>
+            <cmd>In your template document, place the cursor at the point of insertion.</cmd>
+            <info>
+               <fig>
+                  <image placement="break" width="230" href="../attachments/102413225/102413249.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click a clause from the list to view the clause text and guidance. Select the clause from the Playbook pane, click more icon <image placement="inline" href="../attachments/102413225/102413251.png"/> next to the clause name and click <uicontrol>Insert</uicontrol> to insert the clause into your template as inline text.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>You see a success message on successfully inserting a clause. The clause content is marked by a content control boundary in your template.</p>
+      </postreq>
+   </taskbody>
+</task>

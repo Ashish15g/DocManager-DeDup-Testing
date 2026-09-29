@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_CreatinganAlternateClausev20240711_Toconfigurealternateclauses" xml:lang="en">
+   <title>To configure alternate clauses</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>In Salesforce, click on Setup</cmd>
+         </step>
+         <step>
+            <cmd>Click on Object Manager</cmd>
+         </step>
+         <step>
+            <cmd>Search and select the Template object</cmd>
+         </step>
+         <step>
+            <cmd>Click on<uicontrol> Lightning Record Pages</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click on the Template Record Page under the Label Column Header</cmd>
+         </step>
+         <step>
+            <cmd>Click the<uicontrol> Edit </uicontrol>button</cmd>
+         </step>
+         <step>
+            <cmd>Click on the Tabs section of the Lightning Page</cmd>
+            <info>
+               <ul>
+                  <li>The Related and Details Tabs should be present as well as any other custom tabs you created</li>
+                  <li>The current configured tabs display on the left side of the screen</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Using the standard Salesforce configuration, clock <uicontrol>Add Tab</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click on the tab and select the Custom option for the tab name</cmd>
+         </step>
+         <step>
+            <cmd>Enter Alternate Clauses as the name of the tab </cmd>
+         </step>
+         <step>
+            <cmd>Click on the Alternate Clauses tab you just created</cmd>
+         </step>
+         <step>
+            <cmd>Enter "alternate" in the search box under the Component tab on the right</cmd>
+         </step>
+         <step>
+            <cmd>Click on the alternateClauses component and drag it onto the Alternate Clauses tab</cmd>
+         </step>
+         <step>
+            <cmd>Click<uicontrol> Save</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click Activate if you want to activate the tab now. If activating, choose Apttus Contract Management (Lightning) and the Master Record Type. Enable for the appropriate profiles including the System Administrator and the profile associated with the Template Administrator(s).</cmd>
+         </step>
+         <step>
+            <cmd>Click on the Template tab in Conga CLM.</cmd>
+         </step>
+         <step>
+            <cmd>Select a list view to display all clauses</cmd>
+         </step>
+         <step>
+            <cmd>Confirm the component is visible with two buttons:</cmd>
+            <info>
+               <ul>
+                  <li>Select Alternates</li>
+                  <li>Sort Alternates</li>
+               </ul>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>Users can sort the order of Alternate Clauses by clicking on the Sort Alternates tab and moving each clauses with the up and down arrow icons.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

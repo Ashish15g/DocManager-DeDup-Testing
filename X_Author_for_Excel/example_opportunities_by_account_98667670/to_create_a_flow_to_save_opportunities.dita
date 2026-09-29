@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Example_OpportunitiesbyAccountAppTocreateaflowtosaveOpportunities"
+      xml:lang="en">
+   <title>To create a flow to save Opportunities</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <uicontrol>Action Flow</uicontrol> and then click <uicontrol>Create</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Action Name</uicontrol> field type <i>Save Opportunities</i> and then click <uicontrol>Apply</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add Step</uicontrol> and from the <uicontrol>Action</uicontrol> list choose <uicontrol>Save Opportunities</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Into the <uicontrol>Step Name</uicontrol> field,  enter <i>Save Opportunities</i>  and click <uicontrol>Apply</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save App</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The <uicontrol>final step</uicontrol> is to <uicontrol>add the end-user menus</uicontrol>.</p>
+         <p>The workflow to add end-user menus is as follows:</p>
+         <ol>
+            <li>
+               <ul>
+                  <li>You first add a <i>Group</i> and highlight the group to add buttons underneath it.</li>
+                  <li>For each group or button, you can change the names of each by overwriting the <i>Default Group</i> or <i>Display Item</i> in the right window.</li>
+                  <li>When you add a button, <i>Order</i> is the order in which the buttons will appear on the end user menu.</li>
+                  <li>
+                     <i>Action Flow</i> is for associating a menu item to the Action Flow that will be executed by the end user.</li>
+                  <li>For icons, X-Author uses the standard Microsoft Office icon list which can be found here: <xref href="http://www.microsoft.com/en-us/download/details.aspx?id=21103"
+                           format="html"
+                           scope="external">
+                        <u>http://www.microsoft.com/en-us/download/details.aspx?id=21103</u>
+                     </xref>. Use what is provided in the procedure below or any other icon from the list. You must enter the icon capitalization exactly as it is described in the procedure below.</li>
+               </ul>
+            </li>
+         </ol>
+         <p>The steps to add end-user menus are described in detail in the following sections. </p>
+      </postreq>
+   </taskbody>
+</task>

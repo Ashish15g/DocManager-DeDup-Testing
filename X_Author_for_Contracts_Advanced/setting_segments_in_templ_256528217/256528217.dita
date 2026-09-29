@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d361aA" xml:lang="en">
+   <title>Setting Segments in Templates</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 17, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p platform="conga">Set Segment feature allows you to set conditions and style for any text you highlight in your contract template. The condition for the segment's visibility can be set from the expression builder. The segment can consist of the highlighted text, a clause, a group of text across clauses, or text with fields. You can leverage this feature to create a template that can show or hide different segments of text in the generated contract based on the conditions set by you. The expression builder is fully integrated with the objects and fields in your Conga CLM.</p>
+      <note type="note">
+         <p platform="conga">Segments are not supported in headers or footers in templates.</p>
+      </note>
+      <p platform="salesforce">Set Segment feature allows you to set conditions and style for any
+         text you highlight in your contract template. The condition for the segment's visibility
+         can be set from the expression builder. The segment can consist of the highlighted text, a
+         clause, a group of text across clauses, or text with fields. You can leverage this feature
+         to create a template that can show or hide different segments of text in the generated
+         contract based on the conditions set by you. The expression builder is fully integrated
+         with the objects and fields in your Salesforce Org.</p>
+      <note type="note" id="note_ggc_sml_2dc">
+         <p platform="salesforce">Segments are not supported in headers or footers in templates.</p>
+      </note>
+   </conbody>
+</concept>

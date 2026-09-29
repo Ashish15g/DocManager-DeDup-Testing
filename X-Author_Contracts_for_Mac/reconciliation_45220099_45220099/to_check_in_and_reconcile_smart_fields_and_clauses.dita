@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Reconciliation_Tocheckinandreconcilesmartfieldsandclauses" xml:lang="en">
+   <title>To check in and reconcile smart fields and clauses</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author pane, click <image placement="inline" width="20" href="../../global_images/images/102413308.png" id="image_oqy_rz4_12c"/><uicontrol>Check In</uicontrol>. </cmd>
+            <stepresult>
+               <p>The Check-in Options page is displayed.</p>
+               <fig id="fig_srt_tz4_12c">
+                  <image height="400" placement="break" href="../attachments/45220099/50036857.png" id="image_trt_tz4_12c"/>
+               </fig>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Choose the <uicontrol>Options</uicontrol> for saving your document:</cmd>
+            <info>
+               <ul>
+                  <li>To check in the document with redlines, choose <i>With Redlines</i>.</li>
+                  <li>To check in the document without redlines (clean), choose <i>Without Redlines</i>.</li>
+                  <li>To check in the document as final, choose <i>Final - to be signed</i>.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>To reconcile fields in your document, click <uicontrol>View
+               Fields</uicontrol>.</cmd>
+            <stepresult>
+               <p>This loads the <menucascade>
+                     <uicontrol>Document</uicontrol>
+                     <uicontrol>Fields</uicontrol>
+                  </menucascade> page. </p>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Review the Current and Previous values for smart fields in your document, make any changes as needed and click <uicontrol>Validate</uicontrol>. If any invalid values exist, correct them and perform the validation again.</cmd>
+         </step>
+         <step>
+            <cmd>To reconcile clauses in your document, click <uicontrol>View Clauses</uicontrol>.
+               This loads the <menucascade>
+                  <uicontrol>Document</uicontrol>
+                  <uicontrol>Clauses</uicontrol>
+               </menucascade> page. Click <uicontrol>Show Changed Clauses</uicontrol> to review any
+               changed smart clauses in your document and make changes as required.</cmd>
+         </step>
+         <step>
+            <cmd>Click <image placement="inline" width="20" href="../../global_images/images/102413308.png" id="image_dzx_21p_12c"/>
+               <uicontrol>Check In</uicontrol> to return to the Check-in screen. Repeat Step 2 to
+               choose document options again.</cmd>
+         </step>
+         <step>
+            <cmd>Select the <uicontrol>Reconcile</uicontrol> check box. </cmd>
+            <info>
+               <note type="warning">
+                  <p>If you choose to check in the document without reconciling, changed smart field values will not be updated in the agreement record and changes to clauses will not be reflected in the Agreement Clauses related list. If you chose to check in the document with redlines, redlines and comments will be retained.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Submit</uicontrol> to check in the document with reconciliation. </cmd>
+            <info>
+               <note type="warning">
+                  <p>If there are invalid values for smart fields in your document, the check box will not enable. An error message is displayed.</p>
+                  <p>Agreement documents cannot be reconciled with the agreement record as long as
+                     invalid values exist in the document for smart fields. Go to <menucascade>
+                        <uicontrol>Document </uicontrol>
+                        <uicontrol>Fields</uicontrol>
+                     </menucascade> to perform a validation and correct any invalid fields.</p>
+               </note>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

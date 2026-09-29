@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d241aA" xml:lang="en">
+   <title>Making Clauses Read-Only in a Template</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can make clauses in your X-Author templates read-only. When you enable the read-only attribute for a clause in a template, that clause becomes uneditable in the generated document. You can mark a clause as read-only to restrict a user from editing the clause after a document is generated. You cannot edit or delete a read-only clause in a generated document unless you have enabled XA_UnlockReadOnlyClause custom permission in Conga CLM.</p>
+      <p>Read-Only clauses have the following characteristics:</p>
+      <ul>
+         <li>Any clause can be made read-only.</li>
+         <li>A read-only clause cannot be made smart.</li>
+         <li>A read-only clause can only be defined in a template.</li>
+         <li>A read-only clause shows a content control boundary in the generated contract document.</li>
+         <li>A read-only clause cannot be deleted in the generated contract document.</li>
+         <li>The value of the read-only clause cannot be edited in the generated contract document.</li>
+         <li>When you make a clause read-only, the smart fields or read-only fields inside that clause lose their smartness or read-only property and become plain-text fields.</li>
+      </ul>
+      <note type="note">
+         <p>Read-only clause characteristics apply to clauses that are marked read-only in a template and do not apply to those clauses that are inserted from the Clause Library after generating the contract.</p>
+      </note>
+   </conbody>
+</concept>

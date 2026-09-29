@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_AdminSettingsforXAuthorforContractsontheCongaPlatformv20240620_RequestBodyParameter" xml:lang="en">
+   <title>Request Body Parameter</title>
+   <conbody>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Parameter Name</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                     <entry>
+                        <p>Default Value </p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Id</p>
+                     </entry>
+                     <entry>
+                        <p>This is a request body parameter. This refers to the Contract Object permission ID that was passed in the URL.</p>
+                     </entry>
+                     <entry>
+                        <p>Contract Object permission ID</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>ObjectName</p>
+                     </entry>
+                     <entry>
+                        <p>This is a request body parameter. This refers to the name of the object which is Contract.</p>
+                     </entry>
+                     <entry>
+                        <p>Contract</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>PermissionGroupName</p>
+                     </entry>
+                     <entry>
+                        <p>This is a request body parameter. This refers to the name of the permission group name.</p>
+                     </entry>
+                     <entry>
+                        <p>ModifyAllPermissionGroup</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>Pass the following field values on the Action Permission parameter.</p>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Action permission</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                     <entry>
+                        <p>Default value</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>SHOW_CONTRACTS_MENU</p>
+                     </entry>
+                     <entry>
+                        <p>Set this action permission to <b>True </b>to allows users to view the Contracts tab in X-Author Contracts on the Conga Platform.</p>
+                     </entry>
+                     <entry>
+                        <p>True</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>SHOW_TEMPLATES_MENU</p>
+                     </entry>
+                     <entry>
+                        <p>Set this action permission to <b>True </b>to allows users to view the Templates tab in X-Author Contracts on the Conga Platform.</p>
+                        <note type="warning">
+                           <p>This must be set on the Templates object.</p>
+                        </note>
+                     </entry>
+                     <entry>
+                        <p>True</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>ALLOW_CHECKIN_AS_FINAL</p>
+                     </entry>
+                     <entry>
+                        <p>Set this action permission to <b>True </b>to allows users to view the following save options on the Check-in document page:</p>
+                        <ul>
+                           <li>With Redlines</li>
+                           <li>Without Redlines</li>
+                           <li>Final - to be signed</li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <p>True</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>ALLOW_CHECKIN_WITHOUT_REDLINES</p>
+                     </entry>
+                     <entry>
+                        <p>Set this action permission to <b>True </b>to allows users to view the following save options on the Check-in document page:</p>
+                        <ul>
+                           <li>Update Current Version</li>
+                           <li>With Redlines</li>
+                           <li>Without Redlines</li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <p>True</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>ALLOW_CHECKIN_WITH_REDLINES</p>
+                     </entry>
+                     <entry>
+                        <p>Set this action permission to <b>True </b>to allows users to view the following save options on the Check-in document page:</p>
+                        <ul>
+                           <li>Update Current Version</li>
+                           <li>With Redlines</li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <p>True</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>ALLOW_UNPROTECT_DOCUMENT</p>
+                     </entry>
+                     <entry>
+                        <p>Set this action permission to <b>True </b>provides full access to all the documents irrespective of protection type enforced at the document level.</p>
+                     </entry>
+                     <entry>
+                        <p>True</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>HIDE_CHECKOUT_MENU</p>
+                     </entry>
+                     <entry>
+                        <p>Set this action permission to <b>True </b>to hide the Open and Open and Update option from the users.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>DISABLE_AUTO_CHECKOUT</p>
+                     </entry>
+                     <entry>
+                        <p>Set this action permission to <b>True </b>to disables the auto check out option for the user when they perform the following actions:</p>
+                        <ul>
+                           <li>Create and check in offline document</li>
+                           <li>check in contract document</li>
+                           <li>check in template</li>
+                           <li>Send document for review</li>
+                           <li>Compare and merge document</li>
+                           <li>Regenerate/regenerate with redlines</li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

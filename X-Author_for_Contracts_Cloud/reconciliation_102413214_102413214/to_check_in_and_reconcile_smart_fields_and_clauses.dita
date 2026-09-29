@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Reconciliation_Tocheckinandreconcilesmartfieldsandclauses" xml:lang="en">
+   <title>To check in and reconcile smart fields and clauses</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author pane, click <uicontrol>Finish </uicontrol>to open the Check-In page.</cmd>
+         </step>
+         <step>
+            <cmd>Choose the <uicontrol>Save Options</uicontrol> for saving your document:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>To check in the document with redlines, choose <i>With Redlines</i>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>To check in the document without redlines (clean), choose <i>Without Redlines</i>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>To check in the document as final, choose <i>Final - to be signed</i>.</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Select the <uicontrol>Reconcile</uicontrol> checkbox and click <uicontrol>Save &amp; Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>This page shows all the smart field with changed values that are available for reconciliation. Review the<uicontrol> CLM Value</uicontrol> and <uicontrol>Current Value</uicontrol> of the changed smart fields in your document and click <uicontrol>Save &amp; Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>This page shows the changed smart clauses that are available for reconciliation. Expand a clause from the list to review the <uicontrol>Original</uicontrol> and <uicontrol>Edited</uicontrol> content of the clause.</cmd>
+            <info>
+               <note type="note">
+                  <p>If you choose to check in the document without reconciling, changed smart field values will not be updated in the agreement record and changes to clauses will not be reflected in the Clauses related list in Contract Management. If you choose to check in the document with redlines, redlines and comments will be retained</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Finish</uicontrol> to check in the document with reconciliation.</cmd>
+         </step>
+      </steps>
+      <result>
+         <note type="note">
+            <p>Agreement documents cannot be reconciled with the agreement record as long as invalid values exist in the document for smart fields. Go to <uicontrol>Doc Fields</uicontrol> pane to perform a validation and correct any invalid field values.</p>
+         </note>
+      </result>
+   </taskbody>
+</task>

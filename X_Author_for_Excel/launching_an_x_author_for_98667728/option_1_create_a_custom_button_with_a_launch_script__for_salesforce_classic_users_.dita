@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="LaunchinganXAuthorforExcelAppfromSalesforceOption1CreateacustombuttonwithalaunchscriptForSalesforceclassicUsers"
+      xml:lang="en">
+   <title>Option 1: Create a custom button with a launch script (For Salesforce classic Users)</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <uicontrol>Setup &gt; Create &gt; Object &gt; Buttons, Links, and Actions</uicontrol>. (for standard objects, go to Customize &gt; Object &gt; Buttons Links, and Actions)</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>New Button or Link</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the Label. Name is auto-populated.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the Description of the button to help users understand the button.</cmd>
+         </step>
+         <step>
+            <cmd>Select a Display Type for the button.</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Display Type</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Detail Link Page</p>
+                              </entry>
+                              <entry>
+                                 <p>To display the custom button as a link</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Detail Page Button</p>
+                              </entry>
+                              <entry>
+                                 <p>To display the custom button as a detail button. For example, to display the custom button with Edit, Delete, Cancel, and Clone buttons.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>List Button</p>
+                              </entry>
+                              <entry>
+                                 <p>To display the custom button as a list button. For example, to display the custom button with Merge Contacts, New, Add to Categories and so on.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click the Behavior drop-down and select <uicontrol>Execute JavaScript</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Content Source</uicontrol> and select <uicontrol>OnClick JavaScript</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the following JavaScript code in the Formula Editor:</cmd>
+            <info>
+               <p>
+                  <uicontrol>Launch from Salesforce JavaScript Code (Customize)</uicontrol>
+        &amp;nbsp;Expand source</p>
+               <pre xml:space="preserve">{!REQUIRESCRIPT("/xdomain/xdomain.js")} 
+{!REQUIRESCRIPT("/soap/ajax/26.0/connection.js")} 
+{!REQUIRESCRIPT("/support/console/28.0/integration.js")} 
+
+var parentId = "{!Opportunity.Id}"; 
+var hostUrl = "https://na16.salesforce.com"; 
+var appId = "e4a933ff-6648-46ae-80b8-a4e66c6f7d29" 
+var actionflowName = "TestActionFlow2" 
+var sessionId = '{!GETSESSIONID()}'; 
+
+try {
+         sforce.connection.sessionId = "{!$Api.Session_ID}"; //to avoid session timeout 
+} catch(e) { 
+          erroralert(cERROR_UNKNOWN,e); 
+}
+
+var urlVal = ('xauthorforexcel:export '+ appId + ' ' + parentId + ' ' + sessionId + ' ' + hostUrl + ' ' + actionflowName); 
+window.top.location.href =urlVal;</pre>
+               <p>Change the following in the above code to refer to your app and action flow:</p>
+               <ul>
+                  <li>
+                     <p>
+                        <uicontrol>parentId </uicontrol>– id of the context object or related parent object where the button is placed.</p>
+                  </li>
+                  <li>
+                     <p>
+                        <uicontrol>hostURL</uicontrol>– top domain name of the Salesforce URL</p>
+                  </li>
+                  <li>
+                     <p>
+                        <uicontrol>appId</uicontrol>– App's <i>unique id</i> taken from any app record.</p>
+                  </li>
+                  <li>
+                     <p>
+                        <uicontrol>actionflowName</uicontrol>– (Optional) Name of the action flow to execute when the App launches.</p>
+                  </li>
+               </ul>
+               <note type="tip">
+                  <p>We recommend the use of a named action flow (actionflowName) when the same app with all its mappings needs to be launched from different object records. This prevents the need to clone copies of the same app and helps in better maintainability.</p>
+               </note>
+               <p>
+                  <fig>
+                     <image height="523"
+                            placement="break"
+                            width="700"
+                            href="../attachments/98667728/98667996.png"/>
+                  </fig>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Check Syntax</uicontrol> to verify that no errors have been made in the script.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

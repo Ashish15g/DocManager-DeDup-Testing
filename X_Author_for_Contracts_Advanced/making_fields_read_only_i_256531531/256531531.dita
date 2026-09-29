@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d253aA" xml:lang="en">
+   <title>Making Fields Read Only in a Template</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>The Read Only fields are the fields with content control border and their values can only be updated after document generation using Update from Conga CLM. These fields are different from smart fields and merge fields. They are not inline like merge fields and their values cannot be edited like smart fields.</p>
+      <p>If you have generated a contract document using a template containing the read-only fields and later want to update the values of the field without generating or regenerating another document, you can click <b>Update from CLM</b> and the values of the read-only fields will be updated from the Conga CLM contract record. This is useful when you need to use the same contract as a baseline document for creating another contract with the same content but for a different contract record. All the fields not marked as smart, but that must be updated with values from the new contract record, can be made read-only.</p>
+      <p>Read only fields have the following characteristics:</p>
+      <ul>
+         <li>Any field can be made either a read-only field or smart field but not both.</li>
+         <li>Read-only fields can only be defined in a template.</li>
+         <li>The value of read-only fields cannot be edited in the generated contract document and can only be updated.</li>
+         <li>Read-only fields show a content control boundary in the generated contract documents.</li>
+         <li>Fields in clauses, repeat table, and repeat section can also be marked as Read-Only.</li>
+      </ul>
+   </conbody>
+</concept>

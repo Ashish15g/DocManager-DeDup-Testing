@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ExecutingActionsTocreateanActionFlow" xml:lang="en">
+   <title>To create an Action Flow</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click the <uicontrol>Action Flow</uicontrol> button on the X-Author Designer ribbon.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Create</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="342"
+                         href="../attachments/98667674/190354404.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter an <uicontrol>Action Flow Name</uicontrol> and then click <uicontrol>Apply</uicontrol>.</cmd>
+            <info>
+               <note type="note">
+                  <p>
+                     <uicontrol>Note</uicontrol>
+                  </p>
+                  <p>Each Action Flow will ultimately be associated with an end user menu command, so use a name that clearly represents this flow. When you click <uicontrol>Apply</uicontrol>, the Action Flow in the left pane is updated with the name you enter.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>To add a step in the flow, click <uicontrol>Add Step</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>On the right pane, under Step, type a <uicontrol>Step Name</uicontrol> (use any name, such as <i>1</i> or <i>Search Account</i>) and then click <uicontrol>Apply</uicontrol>. Under the <uicontrol>Select Action</uicontrol> section, select an Action from the list. If this action generates any output, select <uicontrol>Persist Data as Output</uicontrol> and under the Action Output section, type a Name for the output. You can use any name (like <i>Opps)</i>. If this action requires an input, select <uicontrol>Provide Input </uicontrol>and select an input from the Action Input list. Based on the type of Action, X-Author Designer provides input suggestions. See the <xref href="action_flow_check_boxes.dita#ExecutingActionsactionflowcheckboxes">Action Flow Check Boxes</xref> table below for more information on when to use inputs and outputs.</cmd>
+            <info>
+               <p>
+                  <fig>
+                     <image placement="break"
+                            width="700"
+                            href="../attachments/98667674/98667865.png"/>
+                  </fig>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Repeat steps 3 – 5 to add more than one step. Ensure that you click <uicontrol>Apply</uicontrol> after each step and notice the hierarchy updated in the left-hand pane.</cmd>
+         </step>
+         <step>
+            <cmd>To reorder a step in the hierarchy, select the step from the left pane and click <uicontrol>Step Up</uicontrol> to move the step up in the hierarchy. Click <uicontrol>Step Down</uicontrol> to move step down in the hierarchy.</cmd>
+         </step>
+         <step>
+            <cmd>After you have created the Action Flow, click <uicontrol>Save</uicontrol> and click <uicontrol>Save App</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="400"
+                         href="../attachments/98667674/98667864.png"/>
+               </fig>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

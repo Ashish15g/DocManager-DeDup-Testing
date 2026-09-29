@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Example_OpportunitiesbyAccountAppTocreateUserMenus" xml:lang="en">
+   <title>To create User Menus</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <uicontrol>User Menus</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add Group</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Name</uicontrol> field, enter <i>Opportunities </i>and <i>1</i> in the <uicontrol>Order</uicontrol> field.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add Button</uicontrol> and in the <uicontrol>Name</uicontrol> field enter <i>Retrieve Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Icon</uicontrol> field enter "GetExternalDataFromOtherSources".</cmd>
+         </step>
+         <step>
+            <cmd>Enter <i>1</i> in the <uicontrol>Order</uicontrol> field.</cmd>
+         </step>
+         <step>
+            <cmd>From the <uicontrol>Action Flow</uicontrol> list, select <uicontrol>Retrieve Opportunities</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click on <uicontrol>Opportunities</uicontrol> to highlight the group and then click <uicontrol>Add Button</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Name</uicontrol> field, enter <i>Save Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Icon</uicontrol> field, enter <i>SaveObjectAs</i> .</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Order</uicontrol> field, enter <i>2</i>.</cmd>
+         </step>
+         <step>
+            <cmd>From the <uicontrol>Action Flow</uicontrol> list, select <uicontrol>Save Opportunities</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save App</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Improving the appearance of end-user menus</p>
+         <ol>
+            <li>Enlarge the title.</li>
+            <li>Highlight the row headings.</li>
+            <li>Identify to the end-user the columns or cells that are modifiable by highlighting them in a different color.</li>
+            <li>You can delete the text in brackets. This does not remove the fields because those are in the map. This just makes the presentation more pleasing.<p>Make sure to place your cursor in the cell and use the Delete key. <uicontrol>Do not use row delete!</uicontrol>
+               </p>
+            </li>
+         </ol>
+         <p>After you follow all the procedures in this section, a new App with the name Opportunities by Account has been created.</p>
+      </postreq>
+   </taskbody>
+</task>

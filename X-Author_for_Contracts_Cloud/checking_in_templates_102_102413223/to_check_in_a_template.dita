@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CheckingInTemplates_Tocheck_inatemplate" xml:lang="en">
+   <title>To check-in a template</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Log into X-Author Contracts and select the X-Author Templates tab from the left-hand navigation menu.</cmd>
+         </step>
+         <step>
+            <cmd>In the X-Author Templates pane, click the <uicontrol>Finish</uicontrol> tab.</cmd>
+         </step>
+         <step>
+            <cmd>Under Check-in, enter the value of the following fields, (the fields marked with asterisk * are required)</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Name*</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the name of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Agreement Types</p>
+                              </entry>
+                              <entry>
+                                 <p>From the drop-down you can select multiple Agreement types to associate with your template. The value of Agreement Types decides which templates are available at the time of agreement generation. If your Template's Agreement Type matches with the Agreement Type of your agreement record, you will see that template in list of available template at the time of document generation.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Category</p>
+                              </entry>
+                              <entry>
+                                 <p>Choose the category from the drop-down. The categories are defined by the administrator, in Contract Management.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Subcategory</p>
+                              </entry>
+                              <entry>
+                                 <p>The subcategory is a dependent field. The Subcategories are populated, based on the value chosen for Category. The subcategories are defined by the administrator, in Contract Management.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Language</p>
+                              </entry>
+                              <entry>
+                                 <p>Choose the default template language</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Locale</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the locale from the drop-down.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Enable Formatting</p>
+                              </entry>
+                              <entry>
+                                 <p>Select this check box to enable locale formatting at the template level for this template.</p>
+                                 <note type="note">
+                                    <p>X-Author Contracts for Cloud does not support localization for Date format, Currency format, and Number or Currency precision fields.</p>
+                                 </note>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Keywords*</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter comma-separated keywords to associate with the template. Keywords make it easier to search the templates.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Next Revision Date</p>
+                              </entry>
+                              <entry>
+                                 <p>Identify a date for the next revision of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a new description or modify the existing description for the template. Maximum of 255 characters (an error will be thrown if this limit is exceeded).</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Guidance</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter new guidance or modify existing guidance to help users determine the purpose of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Activate</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the Active switch to 'On' to activate the template. You must activate a template to use it for generating an agreement document.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Check In</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Your template is checked in to Apttus Contract Management. A new template record is created for the template if this is the first check-in or modified if it already exists. A DOCX copy of the template is attached to the List of Templates in Contract Management.</p>
+      </postreq>
+   </taskbody>
+</task>

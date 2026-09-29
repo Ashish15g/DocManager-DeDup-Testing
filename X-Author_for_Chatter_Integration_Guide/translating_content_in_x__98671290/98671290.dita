@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan830" xml:lang="en">
+   <title>Translating Content in X-Author Chatter</title>
+   <prolog>
+      <author>user-0266f</author>
+      <critdates>
+         <created date="Nov 05, 2018"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Chatter on Salesforce Winter 2018 Integration Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can use X-Author Chatter to do a translation of highlighted content and copy and paste it into your document, all with MS Office.</p>
+      <p>Translating content directly in X-Author should not replace using professional localization vendors and translators. Especially with important clauses and sales agreement language, you should not assume translated content will be an exact match. As it is an automatic translation, proper nouns may be ignored and translated.</p>
+      <p>Translated content does not have to be pasted over top of the source content. It can be pasted anywhere in the document, based on where the cursor is placed and if any text has been highlighted. The translated text is not formatted and treated as a single block. It uses the style at the cursor position in the document it is pasted into for formatting. Therefore, any text pasted back into the document that spans multiple lines or paragraphs will not be able to reconcile different styles.</p>
+      <note type="note">
+         <p>This feature uses Microsoft Bing Translator. Due to that there is a default limit of 2,000,000 characters which can be translated each month with X-Author Chatter. A message is displayed when you reach the limit. If your organization needs more characters, you can purchase additional capacity via <xref href="https://azuremarketplace.microsoft.com/" format="html" scope="external">Windows Azure Marketplace.</xref>
+         </p>
+      </note>
+   </conbody>
+</concept>

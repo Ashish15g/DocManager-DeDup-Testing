@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="SaveActionTocreateaSaveAction" xml:lang="en">
+   <title>To create a Save Action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click the lower section of the <uicontrol>Actions</uicontrol> button and select <uicontrol>Save</uicontrol>. A <uicontrol>Save Action</uicontrol> pop-up window is displayed.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="323"
+                         href="../attachments/98667688/190354446.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>In <uicontrol>Action Name</uicontrol>, type a name. Pick a descriptive name to identify each Save action you create.</cmd>
+         </step>
+         <step>
+            <cmd>From <uicontrol>Save Map</uicontrol>, select an existing save map.</cmd>
+            <info>
+               <note type="note">
+                  <p>
+                     <uicontrol>Note</uicontrol>
+                  </p>
+                  <p>Consider the following optional settings:</p>
+                  <ul>
+                     <li>Select the<uicontrol> Enable Collision Detection</uicontrol> check box to enforce collision detection during a Save Action. If another user has modified a field in a record subsequent to when that record was retrieved by the current Excel user and the current Excel user is trying to update that same field, then X-Author will prevent that record from being saved.</li>
+                     <li>
+                        <p>Select the<uicontrol> Enable Partial Save</uicontrol> check box to allow valid rows to be saved to your environment even if other rows have errors or other issues (for example, rows that cannot be saved due to collision detection). Deselecting this box will prevent all rows from being saved even if there is a single error. </p>
+                        <note type="note">
+                           <p>
+                              <uicontrol>Info</uicontrol>
+                           </p>
+                           <p>When a validation rule is configured in your org, the <uicontrol>Enable Partial Save</uicontrol> option is ineffective.</p>
+                        </note>
+                     </li>
+                     <li>Select the<uicontrol> Highlight Unsaved Records</uicontrol> check box to highlight the cells or rows that have an error during a Save Action.</li>
+                  </ul>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>In Batch Size, enter the number to specify the batch size. You can Insert, Update, and Upsert the records based on the number entered in the batch size. The batch size must be between 1-200. </cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

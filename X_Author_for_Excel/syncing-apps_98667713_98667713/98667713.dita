@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d282aA" xml:lang="en">
+   <title>Syncing Apps</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>Use the <b>Sync App</b> action from the Admin section of the X-Author Designer ribbon to review and correct discrepancies between your app and environment data. This feature replaces the previous <b>Validate</b> feature in the ribbon. </p>
+      <p>Using Sync App, you can view and correct the following data mismatches between your app and environment:</p>
+      <ul>
+         <li>
+            <u>
+               <b>Objects</b>
+            </u> – View all objects in your app that do not match objects in the connected instance. You must manually remove these objects from your app or add or make them available in your environment.<b/>
+         </li>
+         <li>
+            <u>
+               <b>Fields</b>
+            </u> – View all fields in your app present in one or more Display Maps, Save Maps or Search Filters that do not match objects in the connected instance. Use Sync App to select and remove these fields from Display Maps and Save Maps. In most cases you must manually remove fields from your search and query filters.</li>
+         <li>
+            <u>
+               <b>Field Data Types</b>
+            </u> – View all mismatched field data types that exist in your app. Use Sync App to correct all mismatched data types in your app with data types from your environment.</li>
+         <li>
+            <b>
+               <u>Picklists</u>
+            </b> – Review the total number of Picklist fields (not values) synced between the app and your environment (based on the environment data) in the Summary. No user intervention is required.</li>
+         <li>
+            <b>
+               <u>Record Types</u>
+            </b> - Review the total number of Record Types for an object. After syncing, the record type count is displayed in the Summary Section as Added, Updated or Deleted. Adding, updating or removing record type picklist options, the changes are reflected.
+         </li>
+      </ul>
+      <note type="note">
+         <p>Missing/Inaccessible Objects and Fields</p>Keep in mind that when you sync apps, some mismatches may be displayed because your user profile or individual permissions do not allow you to access them. Before taking any action based on the Sync App dialog, check with your administrator to make sure that no permission issue exists that is preventing you from accessing objects or fields used in the app.</note>
+      <note type="note">
+         <p>
+            <b>Note</b>
+         </p>
+         <p>The Sync App feature is not compatible with Quick Apps.</p>
+      </note>
+   </conbody>
+</concept>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CreatingNewTemplates_Tocreateanewtemplate" xml:lang="en">
+   <title>To create a new template</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open an existing document or a blank document in Microsoft Word and log in to X-Author Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>From X-Author Contracts pane, click the left-hand menu icon <image placement="inline" width="20" href="../../global_images/images/256531474.png"/> and select <uicontrol>X-Author Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the X-Author Template pane, go to<uicontrol> Start &gt; Create</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Create New Template pane enter the following details:</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Type</p>
+                              </entry>
+                              <entry>
+                                 <p>From the drop-down choose the type of template. You can choose from- <i>Template, Clause, and Supporting Document</i>.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Business Object</p>
+                              </entry>
+                              <entry>
+                                 <p>Choose the the business object for your template from the drop-down. You can choose from- <i>clm_Agreement, cpq_Quote, bil_Invoice, and bil_CreditMemo</i>.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol> to confirm the template properties.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>You can now work with your template.</p>
+      </postreq>
+   </taskbody>
+</task>

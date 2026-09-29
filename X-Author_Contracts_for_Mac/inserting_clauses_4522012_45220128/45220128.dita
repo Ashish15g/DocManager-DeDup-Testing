@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan796" xml:lang="en">
+   <title>Inserting Clauses</title>
+   <prolog>
+      <author>Chris Castro</author>
+      <critdates>
+         <created date="Oct 10, 2016"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Mac May 2017 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>Playbook lists all clauses available for the specific agreement type associated with the document. Clause content typically includes only static text, but it can also contain smart fields, including header level and lookup merge fields. When you insert a clause that contains smart fields, field values are automatically populated with values from the associated Salesforce agreement record.</p>
+      <note type="note">
+         <p>When you insert an agreement clause into a document, it is only valid for that specific agreement document.</p>
+      </note>
+      <p>To view the content of a clause listed in the Playbook panel, click on the
+            <uicontrol>Clause Name</uicontrol>. A section displaying the Text of the clause is
+         displayed below the clause list. Click on the clause text to scroll.</p>
+      <fig id="fig_ycj_34n_12c">
+         <image height="400" placement="break" href="../attachments/45220128/49676322.png"
+            id="image_zcj_34n_12c"/>
+      </fig>
+   </conbody>
+</concept>

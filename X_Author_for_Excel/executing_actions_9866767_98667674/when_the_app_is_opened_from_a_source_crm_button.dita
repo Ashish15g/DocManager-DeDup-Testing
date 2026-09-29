@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ExecutingActionsWhentheAppisopenedfromaSourceCRMbutton"
+         xml:lang="en">
+   <title>When the App is opened from a Source CRM button</title>
+   <conbody>
+      <p>There are two choices:</p>
+      <ul>
+         <li>Follow the steps above and select the <b> Auto Execute (Launch from Source CRM) </b>check box</li>
+         <li>Execute a different Action Flow for each source CRM button.</li>
+      </ul>
+      <p>For example, if you are creating a quote from an Opportunity, you may want to execute the Create Quote Action Flow from the Create Quote button in your environment. For the Edit Quote, you may want a completely different user experience so you would create a second Action Flow and attach that to the Edit Quote button.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="AboutthisGuideKeyTerminology" xml:lang="en">
+   <title>Key Terminology</title>
+   <conbody>
+      <p>This section lists the terms and their definitions for the X-Author for Excel application.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Term</p>
+                     </entry>
+                     <entry>
+                        <p>Definition</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Action Flow</p>
+                     </entry>
+                     <entry>
+                        <p>A sequential set of actions that are executed when an end-user clicks a Designer-configured user menu button in runtime.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Action Input</p>
+                     </entry>
+                     <entry>
+                        <p>This checkbox is used when Provide Input is selected.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Action Output</p>
+                     </entry>
+                     <entry>
+                        <p>This checkbox is used when Persist Data as Output is selected.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Actions</p>
+                     </entry>
+                     <entry>
+                        <p>This button enables you to query, display, save and manipulate data within the workbook. Actions are used to create a specific user experience.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Add Button</p>
+                     </entry>
+                     <entry>
+                        <p>This button enables you to add a user menu button in runtime.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Add Group</p>
+                     </entry>
+                     <entry>
+                        <p>This button enables you to group user menu buttons in runtime.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Add Row</p>
+                     </entry>
+                     <entry>
+                        <p>This setting allows you to add rows to the top or bottom of your spreadsheet as part of your flow.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Add Step</p>
+                     </entry>
+                     <entry>
+                        <p>This setting adds a step in an Action flow.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>App</p>
+                     </entry>
+                     <entry>
+                        <p>An application built using X-Author for Excel.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>App Settings</p>
+                     </entry>
+                     <entry>
+                        <p>Options used to affect the runtime user experience, use protected worksheets, and secure Excel file saving and printing.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Auto Execute (Launch From Salesforce)</p>
+                     </entry>
+                     <entry>
+                        <p>This checkbox, when selected, executes an action flow automatically when an app is launched as Edit in Excel.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Auto Execute (Regular)</p>
+                     </entry>
+                     <entry>
+                        <p>When selected, this checkbox executes an action flow automatically when an app is opened in runtime.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Auto Size Column Width</p>
+                     </entry>
+                     <entry>
+                        <p>This checkbox automatically sets the column width in runtime.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Change Source</p>
+                     </entry>
+                     <entry>
+                        <p>This menu allows you to change the source environment.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Check-In</p>
+                     </entry>
+                     <entry>
+                        <p>This button saves the Excel workbook to the Notes and Attachments of a designated record and then unlocks the workbook and enables it to be checked out by another user.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Check-Out</p>
+                     </entry>
+                     <entry>
+                        <p>This button provides the runtime user with a list of all files previously checked into the designated object or record; the user can select one of those files to open. This then locks the file for other users until it is checked back in by the current user.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Child Object</p>
+                     </entry>
+                     <entry>
+                        <p>Subordinate objects in a hierarchy (from a child up to parent) to Selected Objects.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Clear</p>
+                     </entry>
+                     <entry>
+                        <p>This button clears the cells in the workbook for a specified Save Map.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Color for unsaved records</p>
+                     </entry>
+                     <entry>
+                        <p>This field provides a color palette to set the color you want for unsaved records or fields.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Connect</p>
+                     </entry>
+                     <entry>
+                        <p>This button enables you to connect to an environment and also manage multiple connections to different environments.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Data Migration App</p>
+                     </entry>
+                     <entry>
+                        <p>This is an application created using the Data Migration Wizard. This app is specifically designed for migrating data between two organizations or instances.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Data Set</p>
+                     </entry>
+                     <entry>
+                        <p>The Data Set action in combination with automated functionality is used by X-Author to overcome various query limitations (simulates a SQL union function). This is specific to Salesforce.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Data Type</p>
+                     </entry>
+                     <entry>
+                        <p>Type of field data. For example String, Text, Picklist, and more.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Delete</p>
+                     </entry>
+                     <entry>
+                        <p>This button deletes records for an object based on specific filter criteria.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Designers</p>
+                     </entry>
+                     <entry>
+                        <p>Users who can create applications using X-Author for Excel.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Disable Local Save File</p>
+                     </entry>
+                     <entry>
+                        <p>This checkbox prevents a runtime user from using the Save, Save As, or Save and Send sub-menus of an Excel File menu.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Disable Print</p>
+                     </entry>
+                     <entry>
+                        <p>This checkbox prevents a runtime user from using Microsoft Excel's Print menu.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Disable Rich Text Editing</p>
+                     </entry>
+                     <entry>
+                        <p>This checkbox prevents a runtime user from adding and editing rich text data.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Display</p>
+                     </entry>
+                     <entry>
+                        <p>When data is retrieved from an environment using a Query or Search &amp; Select an action, it remains in memory until a Display Action places that data into the workbook based on a Display Map action.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Display Add Column</p>
+                     </entry>
+                     <entry>
+                        <p>This check box displays an Add Column button in runtime. Only applicable for Matrix Map.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Display Add Row</p>
+                     </entry>
+                     <entry>
+                        <p>This check box displays an Add Row button in runtime.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Display Chatter</p>
+                     </entry>
+                     <entry>
+                        <p>This checkbox displays a Chatter button in runtime menu (specific to Salesforce).</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Display Delete Row from Salesforce</p>
+                     </entry>
+                     <entry>
+                        <p>This checkbox displays a button to delete a single row or multiple rows from Salesforce.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Display Filters</p>
+                     </entry>
+                     <entry>
+                        <p>This checkbox displays filters (created in the query action) in the Excel worksheet.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Display Map</p>
+                     </entry>
+                     <entry>
+                        <p>This action is used to link fields to Excel cells for data that will be retrieved from your environment by an app.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Edit In Excel</p>
+                     </entry>
+                     <entry>
+                        <p>This action launches an app from your environment in Excel. </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Enterprise</p>
+                     </entry>
+                     <entry>
+                        <p>This is a standard app type used for bi-directional movement of data between Excel and your environment.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Export</p>
+                     </entry>
+                     <entry>
+                        <p>This action is used to export an app from one instance for the purpose of importing it to another.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Extend Section</p>
+                     </entry>
+                     <entry>
+                        <p>This setting copies the properties of one matrix map section to other cells (similar to the Excel format paintbrush function).</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>External Library</p>
+                     </entry>
+                     <entry>
+                        <p>As an application designer, you can choose to create additional custom actions apart from the ones provided in the X-Author for Excel executable packages using this action.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>General Settings</p>
+                     </entry>
+                     <entry>
+                        <p>Settings for manually configuring proxy authentication to connect to your environment.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Grouped field</p>
+                     </entry>
+                     <entry>
+                        <p>Grouping of fields in matrix map.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Ignore Picklist Validation during save</p>
+                     </entry>
+                     <entry>
+                        <p>This checkbox is used to ignore picklist validation when saving the data back to your environment in runtime.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Import</p>
+                     </entry>
+                     <entry>
+                        <p>This action is used to import a previously exported App into the instance to which you are connected.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Individual Field</p>
+                     </entry>
+                     <entry>
+                        <p>Standalone fields that can be dragged and dropped by setting the type to Individual. A single value of the selected record is populated.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Layout (Display Map)</p>
+                     </entry>
+                     <entry>
+                        <p>Records in a List object can be displayed either vertically or horizontally. In vertical layouts, records are presented as rows with each column being a field. For horizontal layouts, each record is a column and the rows are represented by the fields.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Macro</p>
+                     </entry>
+                     <entry>
+                        <p>The Macro action executes a macro from the workbook. It can be executed at any time during an Action Flow and it can also be used to conditionally stop the next step in an Action Flow from executing.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Mapped Details (Display Map)</p>
+                     </entry>
+                     <entry>
+                        <p>Shows all the newly mapped cell locations.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Matrix Column</p>
+                     </entry>
+                     <entry>
+                        <p>Column insertion in matrix map.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Matrix Map</p>
+                     </entry>
+                     <entry>
+                        <p>Using matrices, a record can be represented by one or more cells by mapping columns and rows (the X and Y axes) of a matrix as well as the data contained in the cell at the intersection of the mapped column and row.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Matrix Row</p>
+                     </entry>
+                     <entry>
+                        <p>Row insertion in matrix map.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Matrix Sections</p>
+                     </entry>
+                     <entry>
+                        <p>A section is an area of the matrix that represents a single record. It can include one or many row-column-data combinations.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Max Column Width</p>
+                     </entry>
+                     <entry>
+                        <p>Maximum width of an Excel column (in characters).</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Max. Attachment Size (in MB)</p>
+                     </entry>
+                     <entry>
+                        <p>Setting to limit the maximum size of an attachment that can be uploaded to Salesforce.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Parent Object</p>
+                     </entry>
+                     <entry>
+                        <p>Top-most object in a hierarchy.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Paste</p>
+                     </entry>
+                     <entry>
+                        <p>The Paste action adds rows and pastes data from the clipboard into those rows.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Paste source data</p>
+                     </entry>
+                     <entry>
+                        <p>The Paste Source Data action is the automated equivalent of the runtime Paste with Mapping feature and is primarily used for migrating data between orgs or instances.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Persist Data as Output</p>
+                     </entry>
+                     <entry>
+                        <p>This action generates an output. </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Power Admin</p>
+                     </entry>
+                     <entry>
+                        <p>Type of application for use cases requiring data migration between orgs or instances. This app type enables features to aid in the data migration process.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Presto</p>
+                     </entry>
+                     <entry>
+                        <p>Type of application for use cases requiring remote execution of an app. The runtime user does not open Excel to work with this type of app.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Preview</p>
+                     </entry>
+                     <entry>
+                        <p>You can use the Preview function in X-Author Designer to preview your app. Preview allows you to test the app as a runtime user.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Protect Sheet Setting</p>
+                     </entry>
+                     <entry>
+                        <p>Displays a list of worksheets that have been protected. You can select each sheet and enter the password to set permissions for multiple actions on each sheet.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Query</p>
+                     </entry>
+                     <entry>
+                        <p>The Query action is a point-and-click query builder. The Query action retrieves data from your environment based on predefined parameters and, if specified, user input during App runtime.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Quick App</p>
+                     </entry>
+                     <entry>
+                        <p>A Quick app is a 1–2-minute wizard experience where a designer can create a simple single object list on its own (for example, Opportunities) or a list filtered by a parent object (for example, Opportunities by Account).</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Remove Object</p>
+                     </entry>
+                     <entry>
+                        <p>Removes a selected object from the list.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Remove Step</p>
+                     </entry>
+                     <entry>
+                        <p>Removes a step in an Action flow.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Rendering Type</p>
+                     </entry>
+                     <entry>
+                        <p>Used to determine how a row or column value is populated with Static and Dynamic as the options.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Repeating Field</p>
+                     </entry>
+                     <entry>
+                        <p>Repeating fields can be dragged and dropped in a Display Map where multiple records can be rendered at runtime.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Reporting</p>
+                     </entry>
+                     <entry>
+                        <p>Type of application for data retrieval only.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Runtime User</p>
+                     </entry>
+                     <entry>
+                        <p>Users who can use the applications created with X-Author for Excel.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Salesforce Method</p>
+                     </entry>
+                     <entry>
+                        <p>The Salesforce Method action enables you to call Salesforce Apex classes.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Save</p>
+                     </entry>
+                     <entry>
+                        <p>A Save Action pushes Excel workbook data into your environment based on a Save Map.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Save App</p>
+                     </entry>
+                     <entry>
+                        <p>Saves an application in your environment after you have created or edited an application.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Save As (Clone)</p>
+                     </entry>
+                     <entry>
+                        <p>Creates a duplicate App with a new name.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Save Attachment</p>
+                     </entry>
+                     <entry>
+                        <p>The Save Attachment action saves the entire workbook or specific worksheets to the Notes and Attachments section of an Individual object.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Save Map</p>
+                     </entry>
+                     <entry>
+                        <p>Used to link your environment fields to Excel cells for data that will be saved back to your environment.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Search and Select</p>
+                     </entry>
+                     <entry>
+                        <p>The Search and Select action provides an interactive way for the end-user to search for and select one or more records to retrieve from your environment.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Search Fields</p>
+                     </entry>
+                     <entry>
+                        <p>Searches for fields from the selected object.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Select Objects</p>
+                     </entry>
+                     <entry>
+                        <p>List of all the available objects.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Selected Objects</p>
+                     </entry>
+                     <entry>
+                        <p>List of all the selected objects, including parent and child objects.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Sort field</p>
+                     </entry>
+                     <entry>
+                        <p>Sorting of fields in matrix map.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Source Data</p>
+                     </entry>
+                     <entry>
+                        <p>Used to migrate data from one org or instance to another.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Suppress Save Message</p>
+                     </entry>
+                     <entry>
+                        <p>Suppresses the save message of a particular action if you have multiple save actions in a single action flow. This is applicable to Save action only.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Switch Connection</p>
+                     </entry>
+                     <entry>
+                        <p>User action to switch to a different source environment.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Sync App</p>
+                     </entry>
+                     <entry>
+                        <p>Action in the Admin section of the X-Author Designer ribbon used to review and correct discrepancies between your app and environment data.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>User Menus</p>
+                     </entry>
+                     <entry>
+                        <p>User Menus allow the Designer to create menus that the end-user will see in their Excel ribbon when they open an X-Author Appinruntime.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Value type</p>
+                     </entry>
+                     <entry>
+                        <p>Value Type is applicable on Static Rendering Type with Field Label and Field Value as the options.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>For more information about terms used with Conga products, see <xref href="https://documentation.conga.com/display/CPG/Conga+Product+Glossary"
+               format="html"
+               scope="external">
+            <u>Conga Product Glossary</u>
+         </xref>.</p>
+      <p>DOC ID: XAEWIN18RNREVE20220729</p>
+   </conbody>
+</concept>

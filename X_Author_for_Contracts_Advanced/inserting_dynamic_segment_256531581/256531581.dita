@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d169aA" xml:lang="en">
+   <title>Inserting Dynamic Segments</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>As a template administrator, you can use Dynamic Segments in your X-Author for Contracts Advanced templates to dynamically populate agreement documents with the content of clause templates and attachments based on Document Assembly Rulesets (DAR) defined in the connected Org.</p>
+      <p>Dynamic segments are not to be confused with conditional segments in agreement templates. The dynamic segment conditionality is handled by values in the Document Assembly Rulesets, and in the context of line item objects, filtered further using conditional expressions when you insert the segment. Document Assembly components (the actual clause templates or line item attachments defined in the ruleset and its rules) are included or excluded at document generation based on these Rulesets and filters. For more information, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/configuring-dynamic-document-assembly-143884784.html" format="html" scope="external">Configuring Dynamic Document Assembly</xref>.</p>
+   </conbody>
+</concept>

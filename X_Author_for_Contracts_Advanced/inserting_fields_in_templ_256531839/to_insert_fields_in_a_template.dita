@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InsertingFieldsinTemplatesv20240711_Toinsertfieldsinatemplate" xml:lang="en">
+   <title>To insert fields in a template</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open a template in X-Author for Contracts Advanced for Conga CLM (Contracts for Salesforce).</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Templates </uicontrol>pane, go to <uicontrol>Work</uicontrol> and click <uicontrol>Fields</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Place the cursor in the section of the template text where you want to insert a field and click <uicontrol>Insert Field</uicontrol>. This opens a <uicontrol>Insert Field </uicontrol>dialog box.</cmd>
+         </step>
+         <step>
+            <cmd>Select an <uicontrol>Object </uicontrol>(i.e., "Agreement") from the left column. To search a field related to the selected object in the right column, enter a keyword and click the <uicontrol>Search icon</uicontrol> (<image placement="inline" width="25" href="../attachments/256531839/256531838.png" class="- topic/image "/>) or press enter.</cmd>
+         </step>
+         <step>
+            <cmd>Select the required field and click <uicontrol>Insert</uicontrol>.</cmd>
+            <info>
+               <note type="tip">
+                  <p>Tip</p>
+                  <p>To select multiple fields,</p>
+                  <ul>
+                     <li>On Windows, hold Ctrl (keyboard key) and select the fields.</li>
+                     <li>On Mac, hold the command (keyboard key) and select the fields.</li>
+                  </ul>
+               </note>
+               <p>The fields are inserted in the template. The <uicontrol>Fields </uicontrol>tab shows the list of all the fields present in your current template. Select a field from the list to highlight it in the template document.</p>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>Rich Text fields are not supported.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

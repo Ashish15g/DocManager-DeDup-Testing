@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ApplicationSettingsToprotectasheet" xml:lang="en">
+   <title>To protect a sheet</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Right-click on the sheet that you want to protect and select <uicontrol>Protect Sheet</uicontrol>. </cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="250"
+                         href="../attachments/98667714/98687642.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Set the permissions by selecting appropriate check boxes. </cmd>
+         </step>
+         <step>
+            <cmd>Enter the password in Password to unprotect sheet text-box.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>OK</uicontrol>.
+            </cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>
+               <uicontrol>Note</uicontrol>
+            </p>
+            <p>You will receive a validation message when you provide a wrong password in App Settings in order to protect the sheet. The name of the sheet is also provided with the validation message.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

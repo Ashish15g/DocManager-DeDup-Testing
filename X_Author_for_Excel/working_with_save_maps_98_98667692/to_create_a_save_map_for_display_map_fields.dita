@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="WorkingwithSaveMaps_TocreateaSaveMapforDisplayMapFields"
+      xml:lang="en">
+   <title>To create a Save Map for Display Map Fields</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author ribbon, click <uicontrol>Save Map</uicontrol>.
+            </cmd>
+            <info>
+               <fig>
+                  <image height="158"
+                         placement="break"
+                         width="405"
+                         href="../attachments/98667692/98668101.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Create</uicontrol>. The Save Map panel opens in Excel.</cmd>
+         </step>
+         <step>
+            <cmd>In the Name field, enter a name for your Save Map. Pick a name that makes it easy to distinguish from your other Save Maps.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add Display Map Fields</uicontrol>.</cmd>
+            <info>
+               <p>
+                  <fig>
+                     <image height="400"
+                            placement="break"
+                            href="../attachments/98667692/98668091.png"/>
+                  </fig>
+               </p>
+               <note type="tip">
+                  <p>Click on the <image placement="inline" href="../attachments/98667692/98668090.png"/> arrow icon in the upper right-hand corner and choose an option to move or resize the Save Map panel.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Use the <uicontrol>Filter by</uicontrol> drop-down to filter the list of fields for a specific Display Map.</cmd>
+            <info>
+               <fig>
+                  <image height="113"
+                         placement="break"
+                         width="339"
+                         href="../attachments/98667692/190354474.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the fields to add to your Save Map, and click <uicontrol>Apply</uicontrol>. Click <uicontrol>Select All</uicontrol> if you want to choose all Display Map fields.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="350"
+                         href="../attachments/98667692/190354475.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Close</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save App</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>
+               <uicontrol>Use Case: Sales Pipeline Save Map</uicontrol>
+            </p>
+            <p>Danny Designer is designing an app with Account, Opportunity and User objects for sales persons to use to manage their sales pipeline. He has created a Display Map to link data from his environment to the cells in the Excel workbook and now needs to create a Save Map for saving data back to his environment.</p>
+            <p>Danny takes the following steps to create a Save Map:</p>
+            <ol>
+               <li>Danny connects to his environment and opens the Sales Pipeline app.</li>
+               <li>He clicks <uicontrol>Save Map</uicontrol> and clicks <uicontrol>Create </uicontrol>to start a new Display Map.</li>
+               <li>Danny enters the name "Save Pipeline" and clicks <uicontrol>Add Display Map Fields</uicontrol>.<fig>
+                     <image height="148"
+                            placement="break"
+                            width="684"
+                            href="../attachments/98667692/98668089.png"/>
+                  </fig>
+               </li>
+               <li>Danny decides that all of the Opportunity fields should be enabled for saving back to his environment. He clicks <uicontrol>Select All</uicontrol> and clicks <uicontrol>Apply</uicontrol>.<fig>
+                     <image placement="break"
+                            width="350"
+                            href="../attachments/98667692/190354477.png"/>
+                  </fig>
+               </li>
+               <li>Danny clicks <uicontrol>Save</uicontrol> to save the map and clicks <uicontrol>Close</uicontrol>.</li>
+               <li>Danny clicks <uicontrol>Save App</uicontrol> to save all changes to the app.</li>
+            </ol>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

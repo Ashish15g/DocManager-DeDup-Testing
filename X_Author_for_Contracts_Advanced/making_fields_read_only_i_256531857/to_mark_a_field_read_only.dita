@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MakingFieldsReadOnlyinTemplatesv20240711_Tomarkafieldread_only" xml:lang="en">
+   <title>To mark a field read-only</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Insert the field into your template by following the steps in 
+<xref href="../inserting_fields_in_a_tem_256531524/256531524.dita" format="dita">Inserting Fields into a Template</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Templates </uicontrol>pane, go to <uicontrol>Work</uicontrol> and click <uicontrol>Fields</uicontrol>. If you cannot see the Fields tab, click the <uicontrol>Expand icon </uicontrol>(<image height="13" placement="inline" href="../attachments/256531857/256531853.png" class="- topic/image "/>) and select <uicontrol>Fields</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>The <uicontrol>Fields</uicontrol> page shows the list of all the fields present in your template. Use the <uicontrol>Search Field </uicontrol>box to search for a field by keyword.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Settings icon</uicontrol> (<image placement="inline" width="16" href="../../global_images/images/256529252.png" class="- topic/image "/>) next to the field name. It opens the field settings pane where you can also find the field type (datatype) of a particular field.</cmd>
+         </step>
+         <step>
+            <cmd>Click the toggle for the <uicontrol>Read-Only Field</uicontrol> option to enable it.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>To remove the read-only property of a field, you can slide the <uicontrol>Read-Only</uicontrol>
+               <uicontrol> Field</uicontrol> option toggle to the off position (greyed out).</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

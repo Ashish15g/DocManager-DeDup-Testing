@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_CheckinginanAgreementDocumentv20240711_Tocheckinacontractdocument" xml:lang="en">
+   <title>To check in a contract document</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and launch the X-Author for Contracts Advanced add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>After you finish working on the contract document, from the Contracts pane, click the <uicontrol>Finish</uicontrol> tab. The Check-in page is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>From<uicontrol> Save Options</uicontrol>, choose one of three options for saving the document:</cmd>
+            <info>
+               <p platform="conga">
+                  <table platform="conga">
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Option at Check-in</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>With Redlines</p>
+                              </entry>
+                              <entry>
+                                 <p>This saves a draft version of the contract document with all markups<i>. </i>By default, the file is saved with "_Redlines" appended to its name. A DOCX version of the document is saved in<uicontrol/>Notes &amp; Attachments. If Contract Document versioning is enabled, selecting this option creates a new version under the<uicontrol/>document versions related list in your contract record.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Without Redlines</p>
+                              </entry>
+                              <entry>
+                                 <p>This saves a draft version of the document without markups and is typically done before sending a contract to a third party for review. Track changes/redlines are automatically removed from the Word file and "_Clean" is appended to document names by default. A DOCX version of the document is saved in Notes &amp; Attachments. If Contract Document Versioning is enabled, selecting this option creates a new version under the Document Versions related list in your Contract record.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Final - to be signed</p>
+                              </entry>
+                              <entry>
+                                 <p>This option saves a version of the document without markups and creates and saves a PDF version of the document to the documents's Notes &amp; Attachments related list. By default, "_Final" is appended to document names by default. If Contract Document Versioning is enabled, selecting this option creates a new version (DOCX) under the Document Versions related list in your Contract record.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+               <note type="warning">
+                  <p>Due to technical limitations, <uicontrol>Update Current Version</uicontrol>, which saves the changes made to the document but does not create a new version of the document, is not available for X-Author for Contracts on Conga Platform.</p>
+               </note>
+               <note type="note">
+                  <p>When you select "Final - to be signed" as the check-in option, <uicontrol>Create PDF attachment</uicontrol> is automatically checked if you have the Comply System Property <uicontrol>Auto Enable PDF for Final Docs</uicontrol> enabled. When <uicontrol>Create PDF attachment</uicontrol> is checked, the <uicontrol>Create PDF/A attachment</uicontrol> option becomes available to check. For more information, see 
+<xref href="../admin_settings_for_x_auth_256527807/256527807.dita" format="dita">Admin Settings for X-Author for Contracts Advanced</xref>.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Contract Name</uicontrol> field, enter the required name for the document or leave it as suggested by X-Author. The default name includes the contract name, revision number, and version type. X-Author automatically saves the contract in DOCX format.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Retain Document Name</uicontrol> to use the document name from the document version properties in CLM instead of from Comply settings. For this option to be available, you must enable it as an 
+<xref href="../configuring_action_permis_256526182/256526182.dita" format="dita">Action Setting for the Agreement object</xref>. You can edit the name after this option is checked.</cmd>
+         </step>
+         <step>
+            <cmd>Select the required watermark option.</cmd>
+            <info>
+               <ul>
+                  <li>Select<uicontrol> Watermark</uicontrol>to add a watermark to a non-final version. This option is available with the With Redlines and Without Redlines options.</li>
+                  <li>
+                     <uicontrol>Watermark </uicontrol>is automatically deselected (grayed out) if you save the document as Final - to be signed.<note type="note">
+                        <p>Choosing this option removes any existing watermarks.</p>
+                     </note>
+                  </li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Reconcile Document</uicontrol> to synchronize the Conga CLM Contract Contract object fields with those that were updated in the document. See
+<xref href="../reconciliation_256526637_256526637/256526637.dita" format="dita">Reconciliation&amp;nbsp;</xref>for more details.</cmd>
+         </step>
+         <step>
+            <cmd>Select<uicontrol> Asynchronous Check-In </uicontrol>to start the check-in and continue to work with X-Author for Contracts. Use this option when the contract document has many pages and you do not want to wait for the check-in process to complete.</cmd>
+         </step>
+         <step>
+            <cmd>After clicking check-in, the following message is displayed: "<codeph>Check-in process has been initiated and you will be notified once it is completed</codeph>". Both the contract owner and the user will receive an email notification indicating the check-in status or an error (if the check-in process fails).</cmd>
+            <info>
+               <note type="note">
+                  <p>If the contract owner and logged-in user are same, then only one email notification is sent out.</p>
+               </note>
+               <note type="note">
+                  <p>You can configure a recipient role to receive Asynchronous Check-in status email by using the <uicontrol>Asynchronous Check-in Recipient </uicontrol>comply system property. For more information, see 
+<xref href="../admin_settings_for_x_auth_256527807/256527807.dita" format="dita">Admin Settings for X-Author for Contracts Advanced</xref>
+                  </p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Mark as private</uicontrol> to enable the <i>Private</i> indicator for this contract. This is used only in custom implementations. To view the <uicontrol>Mark as private</uicontrol> option in the contract, the <uicontrol>Auto Enable Private Indicator </uicontrol>comply system property must be enabled in CLM. For more information, see 
+<xref href="../admin_settings_for_x_auth_256527807/256527807.dita" format="dita">Admin Settings for X-Author for Contracts Advanced</xref>
+            </cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Keywords/Tags </uicontrol>field, enter the keywords and tags to be associated with the document on check-in. Separate the keywords and tags using a comma. These tags/keywords are displayed in CLM along with the respective document versions. CLM users can also use these tags while using document finder on a contract record.</cmd>
+         </step>
+         <step>
+            <cmd>Click the tag (<image placement="inline" width="20" href="../attachments/256531714/256531708.png" class="- topic/image "/>) button next to the Keywords/Tags text box to choose from a list of existing tags to apply to the new version of the document you are checking in.</cmd>
+            <info>
+               <fig>
+                  <image height="250" placement="break" href="../attachments/256531714/256531707.png" class="- topic/image "/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Select tags from the Available Tags list and click the right arrow button to add that tag to the Selected Tags list. Click <uicontrol>Done </uicontrol>to add them to the list of keywords/tags.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Finish </uicontrol>to confirm checking the document. If you have selected the Reconcile option, you will see "Save and Next" button which takes you to the reconciliation page. After confirming check in, the document is checked in to Conga CLM and the saved document is opened in a new Microsoft Word instance. You can continue to work on the document if necessary.</cmd>
+            <info>
+               <note type="note">
+                  <p>If the xa_disableautocheckout profile permission is set to true in Conga CLM, then after clicking save, you will only see the confirmation message but the contract document will not open in a new instance. There will not be any lock icon and both the Work and Finish tab is disabled. To work on the contract, you need to search the contract again, open it, make changes and then check-in again. For more information on disable auto check out, see 
+<xref href="../admin_settings_for_x_auth_256527807/256527807.dita" format="dita">Admin Settings for X-Author for Contracts Advanced</xref> and 
+<xref href="../configuring_action_permis_256526182/256526182.dita" format="dita">Configuring Actions Permissions for the Agreement Object</xref>.</p>
+               </note>
+               <note type="note">
+                  <p>Contracts you check-in with the X-Author for Contracts Advanced add-in also update values for clauses, fields and insights in Conga Contract Intelligence for Platform.</p>
+               </note>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

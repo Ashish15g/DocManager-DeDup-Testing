@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="LaunchinganXAuthorforExcelAppfromSalesforceToaddanExternalIDtoaquery"
+      xml:lang="en">
+   <title>To add an External ID to a query</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open the query that is retrieving the data.</cmd>
+         </step>
+         <step>
+            <cmd>Add a filter as follows - this example uses Account/Opportunity but you should select the parent id field in the object that looks up to the parent.
+               </cmd>
+            <info>
+               <p>
+                  <fig>
+                     <image height="71"
+                            placement="break"
+                            width="717"
+                            href="../attachments/98667728/98667997.png"/>
+                  </fig>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol> and <uicontrol>Save App</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

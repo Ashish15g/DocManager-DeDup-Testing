@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="TroubleshootingManifestFileChangeErrors_ToremovetheMicrosoftapplicationcache" xml:lang="en">
+   <title>To remove the Microsoft application cache</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <uicontrol>Finder</uicontrol> and enter the following path: <i>~/Library/Containers/com.Microsoft.OsfWeb Host/Data/Library</i>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Select the <uicontrol>Caches</uicontrol> folder and right-click.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Move to Trash</uicontrol> and click <uicontrol>OK</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>After this open Microsoft Word and open the X-Author Contracts Add-in.</p>
+      </postreq>
+   </taskbody>
+</task>

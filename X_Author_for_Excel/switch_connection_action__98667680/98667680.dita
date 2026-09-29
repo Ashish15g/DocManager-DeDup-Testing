@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d278aA" xml:lang="en">
+   <title>Switch Connection Action</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="note">
+         <p>Switch Connection action is not supported in Microsoft Dynamics and Apttus Omni.</p>
+      </note>
+      <p>Using the Switch Connection action, you can make your apps automatically disconnect from one org and connect to another while executing an action flow. This is very useful if, you are migrating data between orgs, or need to download and compare data across orgs without requiring a user to manually switch.</p>
+      <p>When you design your app and add the Switch Connection action to your action flow, your runtime users are prompted at the beginning of the action flow to add the connection information.</p>
+   </conbody>
+</concept>

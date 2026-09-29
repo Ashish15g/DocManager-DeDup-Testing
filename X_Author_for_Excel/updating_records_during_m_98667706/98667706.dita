@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d286aA" xml:lang="en">
+   <title>Updating Records during Migration</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>As part of the migration, you may choose to update (or upsert) existing records in the target org with updated data from the source org. In this case, you are updating or upserting data from the source org records to target org records. You do this by modifying the exported data from the source org prior to migration. You can also update/upsert records following the initial migration by reusing source data in a subsequent migration. The following use case shows an example of this.</p>
+      <note type="note">
+         <p>
+            <b>Use Case: Updating Records after Migration</b>
+         </p>
+         <p>Diana Designer has performed an initial migration of data from a source production org to a target production org. After the migration, she decides that she would like to perform some updates to some Opportunities in the migration. Diana can use X-Author functionality to update (or upsert) records by modifying the same source data she used during the initial migration.</p>
+         <p>She performs the following steps to update the migration data:</p>
+         <ol>
+            <li>Diana connects to the <b>Target Org</b> and reopens the Data Migration app in <b>X-Author for Excel Runtime</b>.</li>
+            <li>She selects <b>Edit &gt; Paste from Mapping</b>. Diana browses to the source data workbook from the previous migration and opens it in the app. The <b>Account</b> worksheet is displayed.<fig>
+                  <image height="250"
+                         placement="break"
+                         width="548"
+                         href="../attachments/98667705/98668116.png"/>
+               </fig>
+            </li>
+            <li>Diana chooses to update some Account phone numbers.<fig>
+                  <image height="250"
+                         placement="break"
+                         width="546"
+                         href="../attachments/98667705/98668115.png"/>
+               </fig>
+            </li>
+            <li>She then moves to the Opportunity worksheet. <fig>
+                  <image height="250"
+                         placement="break"
+                         width="573"
+                         href="../attachments/98667705/98668114.png"/>
+               </fig>
+            </li>
+            <li>Diana modifies some Opportunity amounts.<fig>
+                  <image height="250"
+                         placement="break"
+                         width="592"
+                         href="../attachments/98667705/98668113.png"/>
+               </fig>
+            </li>
+            <li>Diana selects <b>Target Org &gt; Save All</b>. She has successfully upserted the migrated records.</li>
+         </ol>
+      </note>
+      <note type="note">
+         <p>
+            <b>Note</b>
+         </p>
+         <p>You can also add rows using the method to Insert new records. Because the workbook is protected, you must copy an existing row, use the "Paste Values Only" action from the X-Author ribbon and make changes (remember to remove the Target Record ID if one is displayed).</p>
+      </note>
+   </conbody>
+</concept>

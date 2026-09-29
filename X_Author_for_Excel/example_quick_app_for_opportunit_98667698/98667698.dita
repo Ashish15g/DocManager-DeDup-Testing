@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d17aA" xml:lang="en">
+   <title>Example: Quick App for Opportunities by Account</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You will use the Quick App wizard to create your first app, and it will take you only a few minutes.</p>
+      <p>You will build your app in only four steps:</p>
+      <ol>
+         <li>Specify which type of app you need.</li>
+         <li>Select your objects and fields.</li>
+         <li>Select your display and save options and specify a method for getting the data from your environment.</li>
+         <li>Format your workbook.</li>
+      </ol>
+      <p>Using these four steps, you are going to create an app that will:</p>
+      <ul>
+         <li>Retrieve data from the Account and Opportunity objects.</li>
+         <li>Place that data in a Microsoft Excel worksheet.</li>
+         <li>Allow you to edit the data in Excel and then save your changes in your environment.</li>
+      </ul>
+      <note type="note">
+         <p>
+            <b>Prerequisite</b>
+         </p>
+         <p>Before you can create an app, you must connect to your environment instance that is configured for X-Author for Excel. For information on configuring and connecting to your environment, refer to <xref href="../getting_started_with_x_au_98667661/98667661.dita"
+                  format="dita">Getting Started with X-Author for Excel</xref>.</p>
+      </note>
+      <ol>
+         <li>Click Quick <uicontrol>App</uicontrol> and select <b>New</b>. <fig>
+               <image height="179"
+                      placement="break"
+                      width="1008"
+                      href="../attachments/98667698/98667899.png"/>
+            </fig>The Build a Quick App window opens. 
+         </li>
+         <li>
+            <p>In the <uicontrol>App Name</uicontrol> field, type the application name. The name appears as the Excel window title (located at the top of the Excel window) in the completed app.<fig>
+                  <image placement="break"
+                         width="350"
+                         href="../attachments/98667698/190354521.png"/>
+               </fig>
+            </p>
+            <note type="tip">
+               <p>Give your app a name that is concise but also summarizes the basic purpose of the app.</p>
+            </note>
+            <p>For this example, you are going to create an Opportunity forecasting app. The app allows you to search for and select an account record and then displays all of the account's related opportunities, so type "Opportunities by Account" in the App Name field.</p>
+         </li>
+         <li>
+            <p>Click the appropriate radio button and select an app type.</p>
+            <p>Single Object List apps allow you to retrieve data from a single object, such as Accounts. If you need to retrieve data from more than one object, you will need to create a Parent Child app. For this example, you need to retrieve data from both the Accounts object and the Opportunity object, so select Parent Child and click Next. Select the parent object and fields to use in the app.</p>
+         </li>
+         <li>
+            <p>The parent object for your app will be the Account object, so click the Parent Object drop-down menu and select Account. The Account fields are displayed in the field list.</p>
+            <p>Notice that the two primary fields are selected by default. Select the Account fields that you will use in your app. Click the check box next to the following fields: </p>
+            <p>• Type</p>
+            <p>• Region</p>
+            <p>• Owner</p>
+            <p>• Industry</p>
+            <p>• Website </p>
+            <note type="tip">
+               <p>You can find fields by scrolling through the list, but it might be easier to use the Search Fields feature. Just type the field name or field ID in the search box. You can also sort the fields by Data Type by clicking on the top of the Data Type column.</p>
+            </note>
+         </li>
+         <li>
+            <p>Click <b>Next</b>.</p>
+         </li>
+         <li>The child object for your app is the Opportunity object, so click the Child Object drop-down menu and select Opportunity. The Opportunity fields are displayed in the field list.<fig>
+               <image placement="break"
+                      width="500"
+                      href="../attachments/98667698/98667906.jpg"/>
+            </fig>
+         </li>
+         <li>Select the Opportunity fields to be used in your app. In a child object, the primary lookup field is also preselected. For this app, you want to allow the user to add new opportunities, so you must select all the required fields for creating a new opportunity record.  (With Quick App, this only applies to the child, not to the parent. When creating apps using X-Author Designer, the app can include an ability to create both parent and child records simultaneously.)  For this example, the following additional fields are required,<b/>so click the check box next to each of these fields.<p>• Amount</p>
+            <p>• Close date</p>
+            <p>• Stage</p>
+         </li>
+         <li>Click <b>Next</b>. <p>Next, decide which fields to display on the Excel workbook, which fields to allow your users to save back to the environment, and which method to use to get the data from the environment.</p>
+            <fig>
+               <image height="392"
+                      placement="break"
+                      width="500"
+                      href="../attachments/98667698/98667907.jpg"/>
+            </fig>
+         </li>
+         <li>Select the fields that you want displayed to the user in the Excel workbook. Notice that both the owner ID—which we previously selected—and its lookup name are available. You can select all the fields by clicking the Display Fields check box in the Select All section (you can change their display order later), or you can individually select the fields in the order you want them displayed. The parent object fields will display vertically in Excel. For your app, select the Display fields shown in the illustration below.<fig>
+               <image height="250"
+                      placement="break"
+                      width="319"
+                      href="../attachments/98667698/190354588.jpg"/>
+            </fig>
+         </li>
+         <li>Next, specify which fields your users can update and save back to the environment by clicking the corresponding check box in the Save column. Once again, you can use the Save Fields check box in the Select All section or individually select the fields. Notice that you cannot select fields that were not specified as Display fields in the previous step. For your app, select the following Save fields.</li>
+         <li>Specify how to retrieve the data from the environment by selecting an option from the Data Criteria drop-down menu. For the parent record, Quick App provides only one option, User Selection, which allows the user to input search criteria, view the search results, and then select the record they want to retrieve from the environment. This assumes you are opening the app from Excel. If you open the app by launching it from an account page in your environment, then that account is automatically selected as the parent record.<p>This is how the Display fields will appear when you run the app and retrieve data from the environment.</p>
+            <fig>
+               <image height="250"
+                      placement="break"
+                      width="481"
+                      href="../attachments/98667698/98667898.jpg"/>
+            </fig>
+         </li>
+         <li>Specify the fields that you want your app users to be able to use as search filters when they click the corresponding check box in the Search Fields column. For this app, select the following Search fields.</li>
+         <li>
+            <p>Specify the fields that you want to be displayed in the search results by clicking the corresponding check box in the Result Fields column. For this app, select the Result fields shown in the following illustration.</p>
+            <note type="note">
+               <p>
+                  <b>Did you know...?</b>
+               </p>
+               <p> By specifying fields to be used as Search Fields, you just created filters. In the upcoming steps, you will see how to add other filters based on the fields that weren't selected as Search Fields.</p>
+            </note>
+         </li>
+         <li>Next, you will add two filters that will allow users to further filter search results. Start by clicking the <b>Filters</b> button. The Filters window opens.<p>Notice that the three fields you specified as Search Fields are already present as User Input filters. You are going to add two more filters now, one to show only those opportunities in manufacturing, and another to allow your app users to further filter opportunities by region.</p>
+         </li>
+         <li>Click the <b>Add Row</b> button to add a new filter.</li>
+         <li>In the new row, click the lookup icon <image placement="inline" href="../attachments/98667698/98667902.jpg"/> to select a field.</li>
+         <li>Double-click the Region row to add that field to your filters.</li>
+         <li>For your app, you only want to see those opportunities that are in the Manufacturing industry, so click the Value drop-down menu in the Industry row and select Manufacturing.</li>
+         <li>Follow the same process to add another filter. This time, choose the Region field to filter on.</li>
+         <li>
+            <p>Change the Value Type to User Input and, instead of setting a value, change the Operator from "equals" to "in" so your users can select from the drop-down list and filter data by region.</p>
+            <note type="tip">
+               <p>By default, filters are all related by the AND Boolean condition, which means that, in this case, all five of these conditions must be met for a record to be returned as a search result.</p>
+               <p>To change the way the filters are related, you can add Boolean logic to the filters by clicking the Add Filter Logic button. Filter logic in X-Author for Excel works the same as it does in your environment.<xref href="https://help.salesforce.com/htviewhelpdoc?id=working_with_advanced_filter_conditions_in_reports_and_list_views.htm&amp;siteLang=en_US"
+                        format="html"
+                        scope="external">
+                     <u/>
+                  </xref>
+               </p>
+            </note>
+         </li>
+         <li>Click <b>Save</b>.</li>
+         <li>You are done configuring the parent object, so click <b>Next</b> to move on to the child object, Opportunity.</li>
+         <li>If the Data Criteria field is not set to Query by default, set it to Query now.</li>
+         <li>Select the following Display and Save fields. Note that the fields from the child object will render horizontally.<fig>
+               <image placement="break"
+                      width="350"
+                      href="../attachments/98667698/190354590.jpg"/>
+            </fig>Now you will add two filters to ensure that you see only those opportunities worth a certain dollar value and in a particular sales stage.
+         </li>
+         <li>Click the <b>Filters</b> button.<fig>
+               <image placement="break"
+                      width="350"
+                      href="../attachments/98667698/190354591.png"/>
+            </fig>Notice that the parent object is already present as an Input filter. You are going to add two more filters to ensure that you see only those opportunities worth more than $20,000 and only those that are not set to the stage of Closed Won.</li>
+         <li>Click the <b>Add Row</b> button to add a new filter. A new row is added.</li>
+         <li>In the new row, click the Object and Field button (<image placement="inline" href="../attachments/98667698/98667902.jpg"/>) to select a field.<fig>
+               <image height="250"
+                      placement="break"
+                      width="580"
+                      href="../attachments/98667698/190354592.png"/>
+            </fig>
+         </li>
+         <li>Click the Amount field and then click <b>Select</b>.<fig>
+               <image height="224"
+                      placement="break"
+                      width="628"
+                      href="../attachments/98667698/190354593.jpg"/>
+            </fig>
+         </li>
+         <li>For the Amount field, click the Operator drop-down menu and select "greater than".</li>
+         <li>In the Value text box, type 20000.</li>
+         <li>Click the <b>Add Row</b> button to add a new filter. A new row is added.</li>
+         <li>In the new row, click the Object and Field button (<image placement="inline" href="../attachments/98667698/98667902.jpg"/>) to select a field.</li>
+         <li>Click the Stage field and then click <b>Select</b>.</li>
+         <li>For the Stage field, click the Operator drop-down menu and select "not equal to".</li>
+         <li>Click the Value drop-down menu and select Closed Won.<p>Your filters should now look like this.</p>
+            <fig>
+               <image height="245"
+                      placement="break"
+                      width="628"
+                      href="../attachments/98667698/190354594.jpg"/>
+            </fig>
+         </li>
+         <li>Click <b>Save</b>.</li>
+         <li>Click <b>Next</b>. The App Settings window opens.<p>All you have to do now is some label work, allow users to add or delete rows in the worksheet, and decide whether the app should be launchable from within your environment, and you are done.</p>
+         </li>
+         <li>If this is an app that users will access from a button on a Salesforce page, select the Enable App Launch from Salesforce check box. The app you have just built would be a great candidate for this because, when the user is on an account in Salesforce and wants to edit the related Opportunity list, they can just click on a button and do their editing in Excel. (You will also need to do some setup work inside Salesforce, such as putting the button on the right page. For more information, refer to <xref href="../launching_an_x_author_for_98667728/98667728.dita"
+                  format="dita">Launching an X-Author for Excel App from Salesforce</xref>.)</li>
+         <li>In the Worksheet Title text box, type Opportunities by Account. Remember, this title will appear in field A1 on your Excel workbook.</li>
+         <li>Change the Group Label to "Opportunities."</li>
+         <li>Click the Enable Add Row check box.</li>
+         <li>Click Finish.</li>
+      </ol>
+      <p>Congratulations! You've completed your first Quick App. Now, you can <xref href="../previewing-apps_98667700_98667700/98667700.dita" format="dita">preview the app to see how it works</xref>.</p>
+   </conbody>
+</concept>

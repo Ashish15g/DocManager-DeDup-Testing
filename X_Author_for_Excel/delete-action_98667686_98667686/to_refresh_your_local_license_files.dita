@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="DeleteActionLocalLicense" xml:lang="en">
+   <title>To refresh your local license files</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Close all instances of Excel.</cmd>
+         </step>
+         <step>
+            <cmd>In the Run dialog, type <i>%appdata%\Apttus</i>
+            </cmd>
+            <info>
+               <p>
+                  <image placement="inline" href="../attachments/98667686/98667815.png"/>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>OK</uicontrol>. Windows explorer appears.</cmd>
+         </step>
+         <step>
+            <cmd>Delete the two files starting with <i>lma</i>.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="500"
+                         href="../attachments/98667686/98667814.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Open Excel and log in to your Org and open the App.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The Delete Action is enabled.</p>
+      </postreq>
+   </taskbody>
+</task>

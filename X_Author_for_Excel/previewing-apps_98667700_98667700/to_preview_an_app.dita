@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="PreviewingAppsTopreviewanapp" xml:lang="en">
+   <title>To preview an app</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>After creating an app, click the <uicontrol>Preview</uicontrol> button in the ribbon menu.</cmd>
+            <info>
+               <p>
+                  <fig>
+                     <image placement="break"
+                            width="600"
+                            href="../attachments/98667700/98668012.png"/>
+                  </fig>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>The app opens in the X-Author for Excel tab.</cmd>
+            <info>
+               <note type="note">
+                  <p>When you click <uicontrol>Preview</uicontrol>, a new worksheet opens and X-Author for Excel must reconnect to your environment instance. This may take a few seconds.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>In the ribbon menu, click the <uicontrol>Retrieve</uicontrol> button to download data from your environment into Excel.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="400"
+                         href="../attachments/98667700/98668011.jpg"/>
+               </fig>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <p>You can now test your app by retrieving data and adding, pasting, and deleting rows.</p>
+      </postreq>
+   </taskbody>
+</task>

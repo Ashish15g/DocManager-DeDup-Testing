@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_vws_tjl_2dc">
+    <title/>
+    <shortdesc/>
+    <taskbody>
+        <steps platform="conga" id="ol_lxy_5jl_2dc">
+            <step>
+                <cmd>Open a template in X-Author for Contracts Advanced.</cmd>
+            </step>
+            <step>
+                <cmd>In the Work<b/>tab, click <b>Fields</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Put the cursor in the template text where you will insert a field and click
+                        <b>Insert Field</b>. This opens the<b> Insert Fields </b>dialog box.</cmd>
+            </step>
+            <step>
+                <cmd>Select an <b>Object </b>(for example, "Contract") from the left column.</cmd>
+            </step>
+            <step>
+                <cmd>To search a field related to the selected object in the right column, enter a
+                    keyword and click the Search button or press <b>Enter</b>.</cmd>
+            </step>
+            <step>
+                <cmd>On Mac: Hold the command key and select one or more fields from the list. On
+                    Windows: Hold the Ctrl key and select the fields.</cmd>
+                <info>
+                    <note type="note" id="note_mxy_5jl_2dc">
+                        <p>Fields are inserted as columns in the table in the order you select. Do
+                            not move your cursor while the fields are being inserted.</p>
+                    </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the<b> Insert as a table </b>radio button.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Insert</b>. A Repeat table is inserted into your template with each
+                    field displayed as a separate column.</cmd>
+            </step>
+            <step>
+                <cmd>To insert a new column in the Repeat table:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Place the cursor in the column beside which you need a new
+                            column.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Right-click &gt; Insert &gt; click <b>Insert Column to the Left</b> or
+                                <b>Insert Column to the Right</b> based on your need. A new column
+                            is added.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Place the cursor on the new column field and click <b>Insert Fields.
+                            </b></cmd>
+                    </substep>
+                    <substep>
+                        <cmd>This opens the<b> Insert Fields </b>dialog box. The <b>Object
+                            </b>(i.e., "Contract") is selected by default. The object value is
+                            available based on the repeat table's object settings.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Search and select the required fields from the right column and click
+                            Insert. The new field in the new column is now inserted.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>To search inserted fields:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>The Fields tab displays the Repeat Table (object name) and the fields
+                            in the repeat table.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Enter the field name in the search field and click the Search button
+                                (<image placement="inline" width="16" href="../attachments/256531563/256531561.png" id="image_pxy_5jl_2dc"/>).</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>To make an inserted field smart or read-only:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Click the Settings icon (<image placement="inline" width="20" href="../../global_images/images/256529252.png" id="image_rxy_5jl_2dc"/>) adjacent to the selected field name to open the <b>Properties</b>
+                            page.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In the attributes list, toggle the Smart Field or Read-Only Field
+                            switches as required and click <b>Save</b>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>To show or hide captions for a generated table:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd/>
+                    </substep>
+                    <substep>
+                        <cmd>In the Table Attributes section, toggle the Show Caption switch on and
+                            click <b>Save</b>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>To select table formatting when no data is present:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Under the Table Attributes, click the Format drop-down menu. Select one
+                            of the following options.</cmd>
+                        <info>
+                            <ol>
+                                <li>To show table captions and one empty row, select <b>Show
+                                        captions</b> and one empty row.</li>
+                                <li>To show captions only and no rows, select <b>Show captions
+                                        only</b>.</li>
+                                <li>To remove the entire table from the generated document, select
+                                        <b>Remove whole table</b>.</li>
+                            </ol>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click <b>Save</b>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>To sort repeat table line items:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Click the sorting icon (two arrows) to the right of the Settings icon
+                            adjacent to the Repeat Table field. Applied sorting sections will
+                            display.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click the Settings icon (<image placement="inline" width="20" href="../../global_images/images/256529252.png" id="image_wxy_5jl_2dc"/>).</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Under the Sorting section, click the pencil icon to edit.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In the sorting panel that displays, you can delete line items by
+                            clicking the trash icon, add new line items by clicking <b>+Add</b>, and
+                            Reset your selections by clicking <b>Reset</b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>After your edits are complete, click <b>Apply</b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <b>Save</b> back in Repeat Table Settings.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>To make columns and rows conditional, see <xref href="../making_table_columns_and__256531882/256531882.dita" format="dita">Making Columns and Rows Conditional in a Table</xref>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

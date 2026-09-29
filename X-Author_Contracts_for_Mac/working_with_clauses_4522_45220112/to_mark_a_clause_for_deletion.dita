@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="WorkingwithClauses_deleteclause" xml:lang="en">
+   <title>To mark a clause for deletion</title>
+   <taskbody>
+      <context>
+         <p>When you delete a clause from an agreement, the entire clause is removed from the text of the document. </p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Go to <menucascade>
+                  <uicontrol>Document</uicontrol>
+                  <uicontrol>Clauses</uicontrol>
+               </menucascade>.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <image placement="inline" width="16"
+                  href="../attachments/45220112/49676345.png" id="image_lpq_vv4_12c"/> icon to
+               delete the selected clause. </cmd>
+            <stepresult>
+               <p>A dialog is displayed in the X-Author pane asking you to confirm the deletion.</p>
+               <fig id="fig_cvy_xv4_12c">
+                  <image height="250" placement="break" href="../attachments/45220112/51576895.png"
+                     id="image_dvy_xv4_12c"/>
+               </fig>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Yes</uicontrol> to mark the clause for deletion. The clause is
+               marked with a strikethrough in the document and the Document pane. You can click the
+                  <image placement="inline" width="20" href="../attachments/45220112/51576896.png"
+                  id="image_zj3_zv4_12c"/>
+               <uicontrol>Undo </uicontrol>icon to remove the mark at any time in the same
+               session.</cmd>
+         </step>
+         <step>
+            <cmd><uicontrol>Check-in</uicontrol> the document and choose
+                  <uicontrol>Reconcile</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <result id="result_jrs_bw4_12c">
+         <p>The clause is removed from the document and a <xref
+               href="../tracking_clauses_in_your__45220100/45220100.dita" format="dita">"Deleted"
+               entry is recorded in the Agreement Clause related list on the agreement record in
+               Salesforce.</xref>
+         </p>
+      </result>
+   </taskbody>
+</task>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="WorkingwithDisplayMaps_TomapListobjectfieldstoaDisplayMap"
+      xml:lang="en">
+   <title>To map List object fields to a Display Map</title>
+   <taskbody>
+      <context>
+         <note type="note">
+            <p>Note: In this task, you will map List fields to the same Display Map created in the previous task. You can also create a new Display Map for your List fields, but it is often easier, especially with parent-child apps, to use both Individual and List field types in your Display Map.</p>
+         </note>
+      </context>
+      <steps>
+         <step>
+            <cmd>From the X-Author Designer ribbon, click <uicontrol>Display Map</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Edit</uicontrol>. The Display Map panel opens in Excel.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>List</uicontrol> from the Type picklist. All List objects and fields defined in objects are displayed in the panel.</cmd>
+            <info>
+               <p>
+                  <fig>
+                     <image height="400"
+                            placement="break"
+                            href="../attachments/98667693/98668178.png"/>
+                  </fig>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the <uicontrol>Vertical</uicontrol> check box so that the list of displayed records will be shown from top to bottom. Horizontal layouts are covered in a later section.</cmd>
+         </step>
+         <step>
+            <cmd>Add fields to the Display Map by dragging them from the Display Map panel and dropping them onto the worksheet in the same row. You can search for specific fields using the Search box. Fields are not required to be adjacent to each other, but there must be a start cell and end cell, which forms a <uicontrol>List Range</uicontrol>. You can also add fields from related objects (such as Account, if you are creating a list of Opportunities).</cmd>
+            <info>
+               <p>
+                  <fig>
+                     <image height="250"
+                            placement="break"
+                            width="773"
+                            href="../attachments/98667693/98668175.png"/>
+                  </fig>
+               </p>
+               <note type="note">
+                  <p>
+                     <uicontrol>Working with List Ranges</uicontrol>
+                  </p>
+                  <p>The following rules and guidelines apply when you are mapping List Ranges:</p>
+                  <p>
+                     <table>
+                        <tgroup cols="2">
+                           <colspec colname="col1"/>
+                           <colspec colname="col2"/>
+                           <tbody>
+                              <row>
+                                 <entry>
+                                    <p>
+                                       <uicontrol>Must include the record id if you are planning to save data</uicontrol>
+                                    </p>
+                                 </entry>
+                                 <entry>
+                                    <p>
+                                       <ul>
+                                          <li>If you are planning to save back to your environment any data that has been retrieved into a List Range, you must include the record ID somewhere in the range. The best place to put this field is at the end of the range but it can be placed anywhere.</li>
+                                          <li>The record ID is used to make sure that the Excel rows and environment records remain connected should the end user sort data in the range.</li>
+                                       </ul>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>
+                                    <p>
+                                       <uicontrol>Formulas in a List Range</uicontrol>
+                                    </p>
+                                 </entry>
+                                 <entry>
+                                    <p>
+                                       <ul>
+                                          <li>Formulas can be added into either mapped or non-mapped cells in a List Range.</li>
+                                          <li>Formulas are inserted into the List Range cells as each record is retrieved into the worksheet via the Display Map.</li>
+                                          <li>Formulas in cells where environment data is being retrieved and displayed will be overwritten by the environment data but are still very useful if you allow users to add rows. This is covered in <i>Adding Rows to Worksheets</i>.</li>
+                                       </ul>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>
+                                    <p>
+                                       <uicontrol>List Rows are Inserted</uicontrol>
+                                    </p>
+                                 </entry>
+                                 <entry>
+                                    <p>
+                                       <ul>
+                                          <li>As each List environment record is retrieved and displayed, an Excel row is inserted in the workbook.</li>
+                                          <li>Anything you have placed below or alongside a List Range (for example: a total formula below the range or a pivot table), is pushed down accordingly.</li>
+                                       </ul>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>
+                                    <p>
+                                       <uicontrol>Fields from related objects</uicontrol>
+                                    </p>
+                                 </entry>
+                                 <entry>
+                                    <p>
+                                       <ul>
+                                          <li>Fields selected from related objects in the hierarchy can also be included on the same row in the List Range. You can select to save related object fields by including them in the Save Map. See <xref href="../working_with_save_maps_98_98667692/98667692.dita"
+                                                   format="dita">Working with Save Maps</xref> for more information.</li>
+                                       </ul>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>
+                                    <p>
+                                       <uicontrol>List Ranges for different objects</uicontrol>
+                                    </p>
+                                 </entry>
+                                 <entry>
+                                    <p>
+                                       <ul>
+                                          <li>These can be created below other ranges or on other worksheets.</li>
+                                       </ul>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>
+                                    <p>
+                                       <uicontrol>Grouping and sorting</uicontrol>
+                                    </p>
+                                 </entry>
+                                 <entry>
+                                    <p>
+                                       <ul>
+                                          <li>Map fields that you want to group by at the left of the list range. See Grouping and Sorting List Ranges for more information.</li>
+                                       </ul>
+                                    </p>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Close</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save App</uicontrol> to save your app.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>
+               <uicontrol>Rich Text Fields in List Ranges</uicontrol>
+            </p>
+            <p>You can insert Rich Text fields in the same way you enter any other field. Rich text fields appear to runtime users as a single link. The link opens an editor that allows the runtime user to modify the Rich Text field. Rich Text fields can only be edited by the runtime user if it is part of a list range (List object field). Rich Text fields of the SaveOnly type cannot be edited.</p>
+         </note>
+         <note type="note">
+            <p>Watch a <xref href="http://info.apttus.com/X-Author-for-Excel-Tutorials-Display-Maps-2.html"
+                     format="html"
+                     scope="external">
+                  <u>video tutorial</u>
+               </xref> on mapping List object fields to a Display Map.</p>
+         </note>
+         <note type="note">
+            <p>
+               <uicontrol>Use Case: Sales Pipeline Display Map Part 1</uicontrol>
+            </p>
+            <p>Danny Designer is designing an app with Account, Opportunity and User objects for sales persons to use to manage their sales pipeline. He has already selected the objects for the app and now needs to create a Display Map to link data from his environment to the cells in the Excel workbook.</p>
+            <p>Danny takes the following steps to create a Display Map:</p>
+            <ol>
+               <li>Danny connects to his environment and opens the Sales Pipeline app.</li>
+               <li>He clicks <uicontrol>Display Map</uicontrol> and clicks <uicontrol>Create</uicontrol> to start a new Display Map.</li>
+               <li>Danny enters the name "Pipeline Main" for his Display Map and selects <uicontrol>List</uicontrol> from the Type drop-down.<fig>
+                     <image height="235"
+                            placement="break"
+                            width="640"
+                            href="../attachments/98667693/98668173.png"/>
+                  </fig>
+               </li>
+               <li>Next, he drags and drops fields from the Account.Opportunity child object list to map them to the Display Map.<fig>
+                     <image placement="break"
+                            width="700"
+                            href="../attachments/98667693/98668172.png"/>
+                  </fig>
+               </li>
+               <li>Danny chooses to <uicontrol>Hide</uicontrol> column H. He added the field so that the user can save data back to the environment but he does not want to display it in the worksheet.</li>
+               <li>Next, Danny adds a formula in D6 to SUM the Opportunity Amounts in D4.<fig>
+                     <image height="202"
+                            placement="break"
+                            width="790"
+                            href="../attachments/98667693/98668171.png"/>
+                  </fig>
+               </li>
+               <li>Danny clicks <uicontrol>Save</uicontrol> on the Display Map Panel and clicks <uicontrol>Close.</uicontrol>
+               </li>
+               <li>Danny clicks <uicontrol>Save App</uicontrol> to save all changes to the app.</li>
+            </ol>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

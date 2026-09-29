@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d213aA" xml:lang="en">
+   <title>Locking and Unlocking Documents</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>When you open a document in X-Author Contracts, the document is locked for editing and cannot be checked out by anyone else. Anyone with proper permissions for the document's contract record can still view and download the document, but cannot edit and check the document back in while you have it locked (the Work and Finish tabs are disabled). You can always view the lock status of a document by clicking the Lock Status (<image placement="inline" width="20" href="../attachments/256531630/256531604.png" class="- topic/image "/>) button. This opens the Lock Status and Document Protection page with the following information:</p>
+      <ul>
+         <li>Contract Name: Shows the name of the contract.</li>
+         <li>Lock Status: Shows a toggle button that indicates if the document is locked. There is also a Refresh Lock button (<image placement="inline" width="20" href="../attachments/256531630/256531602.png" class="- topic/image "/>) next to the Lock Status.</li>
+         <li>Document locked by: Shows the name of the user who has locked the document. If the document is locked by another user, this field will show the name of the user who has locked the document.</li>
+         <li>Locked date: Shows the date and time of locking.</li>
+         <li>Release Lock or Acquire Lock: This is a toggle switch. If a document is already locked, you can unlock it using the Release Lock. If you have accidentally unlocked a document, you can lock it again by clicking Acquire Lock.</li>
+         <li>Document Protection: Shows a toggle button that indicates if the document is on or not.</li>
+         <li>Document Protection Mode: Shows the protection level of the contract document. The values could be Full Access, Insert Comment and Track Changes Only, and Read Only.</li>
+         <li>Cancel: Takes you back to the previous screen that you were working on.</li>
+      </ul>
+   </conbody>
+</concept>

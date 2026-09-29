@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InstallingProductionXAuthorforContractsontheCongaPlatformUsingCentralizedDeploymentApproachv20240711_3" xml:lang="en">
+   <title>To deploy X-Author for Contracts Advanced add-in</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Sign in to Office 365.</cmd>
+         </step>
+         <step>
+            <cmd>Select the app launcher icon in the upper left and select <uicontrol>Admin</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the navigation menu, click <uicontrol>Show more</uicontrol>, then select <uicontrol>Settings </uicontrol>and click<uicontrol> Services &amp; add-ins</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select<uicontrol/>Deploy Add-In, review the requirements, and<uicontrol> click Next.</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>On the Centralized Deployment page, select <uicontrol>I have the manifest file (.xml) on this device </uicontrol>option.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Browse</uicontrol> to locate the manifest file (.xml) you want.</cmd>
+         </step>
+         <step>
+            <cmd>On the Assign Users<uicontrol> </uicontrol>page, choose from <uicontrol>Everyone</uicontrol>, <uicontrol>Specific Users/Groups</uicontrol>, or <uicontrol>Only me</uicontrol>. Use the search box to find the users and groups to whom you want to deploy the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Deploy</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The X-Author for Contracts Advanced add-in is added in Office 365. Users who have permission can directly insert the add-in in their Microsoft Word. It can take up to 24 hours for the add-in to show up for all users.</p>
+         <note type="note">
+            <p>For more information about installing, publishing, and managing add-ins using centralized deployment via the Office 365 admin center, see 
+<xref href="https://docs.microsoft.com/en-us/office/dev/add-ins/publish/centralized-deployment" format="html" scope="external">Deploy and publish Office Add-ins</xref> and 
+<xref href="https://docs.microsoft.com/en-us/microsoft-365/admin/manage/manage-addins-in-the-admin-center?view=o365-worldwide" format="html" scope="external">Manage add-ins in the admin center</xref>. If you want to remove the add-in, see 
+<xref href="https://docs.microsoft.com/en-us/microsoft-365/admin/manage/manage-addins-in-the-admin-center?view=o365-worldwide#delete-an-add-in" format="html" scope="external">Delete an add-in</xref>.</p>
+         </note>
+         <note type="note">
+            <p>If you can't install X-Author for Contracts using Centralized Deployment, contact Tech Support.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

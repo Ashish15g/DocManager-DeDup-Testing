@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Example_OpportunitiesbyAccountAppTocreateaDisplayMap" xml:lang="en">
+   <title>To create a Display Map</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Select <uicontrol>Display Maps</uicontrol> and click <uicontrol>Create</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Name field, type <i>Main</i> and from the Type list, select <i>Individual</i>.</cmd>
+         </step>
+         <step>
+            <cmd>Drag the <i>
+                  <uicontrol>Account Name</uicontrol>
+               </i> field to C3 and <i>
+                  <uicontrol>Phone</uicontrol>
+               </i> to C4. You will see the link between the cell and field stamped in the bottom right-hand window.</cmd>
+         </step>
+         <step>
+            <cmd>Switch to <uicontrol>List</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Drag the <i>
+                  <uicontrol>Name</uicontrol>
+               </i> field to B7, <i>
+                  <uicontrol>Amount</uicontrol>
+               </i> to C7, <i>
+                  <uicontrol>Close Date</uicontrol>
+               </i> to D7, <i>
+                  <uicontrol>Stage</uicontrol>
+               </i> to F7, and <i>
+                  <uicontrol>Id</uicontrol>
+               </i> to H7. Now click on the orange Account iD field (with a + next to it) and it will take you to the Account object. Select the <i>Region</i> field from there and drag it to G7. X-Author allows you to have fields from any related object on the same list row.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Options</uicontrol> and change the <uicontrol>Sort by</uicontrol> picklist to <uicontrol>Name</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Save the Display Map and click <uicontrol>Close</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Add a title to B1: <i>Opportunities by Account</i>.</cmd>
+         </step>
+         <step>
+            <cmd>
+               <uicontrol>Save</uicontrol> the Display map.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

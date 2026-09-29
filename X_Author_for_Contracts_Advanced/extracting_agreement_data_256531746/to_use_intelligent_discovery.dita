@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ExtractingAgreementDataUsingIntelligentDiscoveryv20240711_TouseIntelligentDiscovery" xml:lang="en">
+   <title>To use Intelligent Discovery</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Check in the third-party document as an offline agreement in X-Author Contracts.  For more information, see 
+<xref href="../creating_offline_agreemen_256531726/256531726.dita" format="dita">Creating Offline Agreements</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>Check out the offline agreement document.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, go to Work &gt; Intelligent Discovery. If you do not see Intelligent Discovery under the Work tab, click the More icon (<image placement="inline" width="16" href="../attachments/256531746/256531744.png" class="- topic/image "/>) and from the menu, select <uicontrol>Intelligent Discovery</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Yes</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Your document is sent for Intelligent Discovery. Under the Work tab, click the More icon (<image placement="inline" width="16" href="../attachments/256531746/256531744.png" class="- topic/image "/>) and click <uicontrol>Review Import Result</uicontrol> to check the status of Intelligent Discovery. You get a message and an email on Intelligent Discovery status.</p>
+         <p>Clicking Review Import Results changes the status of the agreement in Conga CLM. For more information on change of statuses in Conga CLM, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/status-changes-in-offline-agreements-176295197.html" format="html" scope="external">Status Changes in Offline Agreements.</xref>
+         </p>
+         <p>After the Intelligent Discovery performs the data extraction successfully, you will receive an email. You can see the fields and clauses recognized from the document in X-Author Contracts Advanced. The<uicontrol/>Doc Fields and Doc Clauses in Work tab shows the list of fields and clauses identified in the document. You can perform the following tasks on the extracted fields and clauses:</p>
+         <ul>
+            <li>
+               <ul>
+                  <li>
+                     <xref href="../reviewing_doc_fields_v202_256528817/256528817.dita" format="dita">Reviewing Doc Fields</xref>
+                  </li>
+                  <li>
+                     <xref href="../reviewing_doc_clauses_v20_256531752/256531752.dita" format="dita">Reviewing Doc Clauses</xref>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </postreq>
+   </taskbody>
+</task>

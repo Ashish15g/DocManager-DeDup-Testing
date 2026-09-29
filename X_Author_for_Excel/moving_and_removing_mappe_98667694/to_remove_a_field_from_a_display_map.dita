@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MovingandRemovingMappedFields_ToremoveafieldfromaDisplayMap"
+      xml:lang="en">
+   <title>To remove a field from a Display Map</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author Designer ribbon, click <uicontrol>Display Map</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the Display Map you want to change and click <uicontrol>Edit</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Under <uicontrol>Mapped Details,</uicontrol> select the field to be removed. If you want to remove all the fields in the map, select the check box next to the left of the Name column.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="553"
+                         href="../attachments/98667694/98667821.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Remove Fields</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="550"
+                         href="../attachments/98667694/98667820.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Close</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>When you remove a field from a Display Map that is already part of a Save Map, the field will be removed from the Save Map as well.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

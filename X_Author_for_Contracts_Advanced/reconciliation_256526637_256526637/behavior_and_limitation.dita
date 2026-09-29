@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Reconciliation_BehaviorandLimitation" xml:lang="en">
+   <title>Behavior and Limitation</title>
+   <conbody>
+      <p>When you edit a smart field and check in the document with the reconcile option, and then
+            regenerate the document with a different template, then incorrect values are displayed
+            for smart fields.</p>
+      <p>X-Author for Contracts provides a reconciliation feature which enables changes
+            made to smart fields in a contract document, outside of the Salesforce and X-Author for
+            Contracts environment, to be reconciled with the data held in the Contract record in
+            Salesforce.</p>
+      <p>In a typical scenario where a contract document is sent to an external party for
+            negotiation, the external party will make changes to the document as part of the
+            negotiation. If the changes to the document involve data belonging to the Contract
+            record, reconciliation provides the mechanism to ensure the values in the document and
+            the Contract record are reconciled.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="InstallingXAuthorforExcelrefreshlicense" xml:lang="en">
+   <title>To enable licenses in Salesforce</title>
+   <taskbody>
+      <context>
+         <p>After you install the X-Author for Excel Salesforce packages, you must send your Org ID to Conga. By default, when X-Author for Excel is installed, the lowest level of license is provisioned. After Conga has upgraded functionality in your environments, take the following steps to enable X-Author functionality according to your license:</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Log in to Salesforce.</cmd>
+         </step>
+         <step>
+            <cmd>Click on the <uicontrol>Conga X-Author for Excel</uicontrol> tab.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Refresh License</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/98667656/190354237.png"/>
+               </fig>All users connecting to X-Author for Excel are now able to use licensed product features.</info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_ReviewingDocFieldsv20240620_BehaviorandLimitation" xml:lang="en">
+   <title>Behavior and Limitation</title>
+   <conbody>
+      <ul>
+         <li>If an actual value is not converted into a normalized value, the normalized value is shown as N/A.</li>
+         <li>For fields with multiple extractions, if you do not explicitly select one of the normalized values from the list at the time of check in, then the first normalized value is displayed for the same extracted fields. Also, each occurrence of the field is updated with the first normalized value in the document. The first normalized value is updated in the agreement in Conga CLM.</li>
+         <li>If you set a custom input for a normalized value and reload the X-Author for Contracts Advanced add-in, the custom input for the normalized value is not retained.</li>
+         <li>If there is a line break for extracted text, the partial text is marked as a field or clause.</li>
+         <li>If you re-mark any field, the extracted text will get updated with the remarked content.</li>
+      </ul>
+   </conbody>
+</concept>

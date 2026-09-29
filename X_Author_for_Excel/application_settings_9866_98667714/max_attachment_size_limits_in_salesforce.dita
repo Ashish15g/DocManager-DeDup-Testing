@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ApplicationSettingsMaxAttachmentSizeLimitsinSalesforce"
+         xml:lang="en">
+   <title>Max Attachment Size Limits in Salesforce</title>
+   <conbody>
+      <p>Salesforce has a File Size Limit which limits the size of the attachments to be uploaded for a single record on Salesforce. For more information regarding attachment limits refer, <xref href="https://help.salesforce.com/apex/HTViewHelpDoc?id=collab_files_size_limits.htm"
+               format="html"
+               scope="external">
+            <u>File Size Attachment Limits in Salesforce</u>
+         </xref>.</p>
+      <p>If you increase the file size limits in Salesforce, you can set the file size limit per attachment in a record in X-Author for Excel. Navigate to App Settings and set the Max File Size limit. This limit indicates the maximum size of an attachment that can be uploaded to Salesforce.</p>
+      <p>Suppose the records in your application comprise the attachment field and have multiple attachments. During insert or upsert, the insert or upsert transaction request is chunked into multiple Salesforce transactions so that all the attachments are inserted or upserted successfully.</p>
+   </conbody>
+</concept>

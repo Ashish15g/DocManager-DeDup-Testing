@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d237aA" xml:lang="en">
+   <title>Making Clauses Delete Read-Only</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 17, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can make clauses in your X-Author clause delete read-only. You can use a delete-only clause to restrict a user from editing the clause after a document is generated. You cannot edit a delete read only clause in a generated document , but can only delete the clause. Please note enabling the XA_UnlockReadOnlyClause custom permission will also not allow editing a delete read only clause.</p>
+      <p>Delete-Read-Only clauses have the following characteristics:</p>
+      <ul>
+         <li>Any clause can be made read-only if a user selects delete-read only as the clause behavior.</li>
+         <li>A delete read-only clause cannot be made smart.</li>
+         <li>A delete read-only clause can only be defined during clause creation and not inside template.</li>
+         <li>A delete read-only clause shows a content control boundary in the generated contract document.</li>
+         <li>A delete read-only clause can be deleted in the generated contract document.</li>
+         <li>The value of the  delete read-only clause cannot be edited in the generated contract document.</li>
+         <li>When you make a clause delete read-only, the smart fields or delete read-only fields inside that clause lose their smartness or delete read-only property and become plain-text fields.</li>
+      </ul>
+      <note type="note">
+         <p>Delete Read-only clause characteristics apply to clauses that are selected as delete read-only during clause creation and apply to clauses inserted from the Clause Library after generating the contract.</p>
+      </note>
+   </conbody>
+</concept>

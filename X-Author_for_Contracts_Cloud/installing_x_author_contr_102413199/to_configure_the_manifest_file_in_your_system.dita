@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="InstallingXAuthorContractsToconfigurethemanifestfileinyoursystem" xml:lang="en">
+   <title>To configure the manifest file in your system</title>
+   <taskbody>
+      <context>
+         <note type="note">
+            <p>This is an alternate method of installing X-Author Contracts for Cloud. If you have an X-Author Contracts for Cloud installer, you do not need to perform the steps described under this topic. You need to perform these steps only if you do not have an installer file and your Apttus representative has shared only the XML manifest file with you.</p>
+         </note>
+      </context>
+      <steps>
+         <step>
+            <cmd>Download the manifest file provided by your DevOps team.</cmd>
+         </step>
+         <step>
+            <cmd>Copy the manifest XML file and paste it in the following folder location: <uicontrol>~/Library/Containers/com.microsoft.Word/Data/Documents/wef</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Close the Microsoft Word application on your system (if open) and open it again.</cmd>
+         </step>
+         <step>
+            <cmd>In Microsoft Word, go to <uicontrol>Insert &gt; My add-in</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>You will now see X-Author Contracts add-in.</p>
+      </postreq>
+   </taskbody>
+</task>

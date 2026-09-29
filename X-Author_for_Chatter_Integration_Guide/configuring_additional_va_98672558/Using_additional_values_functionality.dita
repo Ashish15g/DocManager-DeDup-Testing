@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="using_additional_values_functionality">
+    <title/>
+    <taskbody><steps id="ol_fpj_hpw_12c">
+            <step>
+                <cmd>Click on Additional Value button to update data of the Salesforce object. For
+                    example, if you have set Additional Object Value API Name as Opportunity, you
+                    can now update the data fields of the opportunity record. </cmd>
+                <stepresult>
+                    <p>All the data updates that you make are reflected in your Salesforce Org. </p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>On the check-in page, Click <uicontrol>Select</uicontrol>. </cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_h5h_qpw_12c">
+            <note type="note" id="note_osl_qpw_12c">
+                <p>You can update the data only for existing records of the Salesforce object. If
+                    there is no record of the Salesforce object, X-Author Chatter displays an
+                    error.</p>
+            </note>
+            <note type="important" id="note_i31_rpw_12c">
+                <p>Additional Values functionality is not supported for Files object.</p>
+            </note>
+        </postreq></taskbody>
+</task>

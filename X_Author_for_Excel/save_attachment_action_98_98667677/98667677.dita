@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d262aA" xml:lang="en">
+   <title>Save Attachment Action</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>The Save Attachment action saves the entire workbook or specific worksheets to the Notes and Attachments section of an Individual object. A new attachment is inserted each time this action is executed. This action does not provide any file locking. Use a Check-Out action if the file locking is required.</p>
+      <p>An attachment can be saved either in an Excel or PDF file format.</p>
+      <p>When an attachment is downloaded, the file name is the actual filename in your environment. <b>&lt;filename&gt;.&lt;extension&gt;</b>
+      </p>
+      <note type="note">
+         <p>Limitation in Apttus Intelligent Cloud environment</p>
+         <p>You cannot retrieve attachments.</p>
+      </note>
+      <p>If a file with the same name and extension exists, a sequence number is appended after the filename, such as <b>&lt;filename&gt; (2).&lt;extension&gt;</b> and <b>&lt;filename&gt; (3).&lt;extension&gt;</b>.</p>
+      <note type="note">
+         <p>To create a Save Attachment action, at least one object must be identified as an <i>Individual</i>.</p>
+      </note>
+   </conbody>
+</concept>

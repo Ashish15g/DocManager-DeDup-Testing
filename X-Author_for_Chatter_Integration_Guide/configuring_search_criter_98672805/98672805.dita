@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="d13aAjan826" xml:lang="en">
+   <title>Configuring Search Criteria</title>
+   <prolog>
+      <author>user-0266f</author>
+      <critdates>
+         <created date="Nov 25, 2018"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Chatter on Salesforce Winter 2018 Integration Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <taskbody><context><p>You can configure additional fields to be available for search functionality during the check-in and check-out process.  </p><fig id="fig_i2b_pqw_12c">
+         <image height="250" placement="break" width="400"
+            href="../attachments/98672805/98672814.png" id="image_j2b_pqw_12c"/>
+      </fig><p>To configure Search Criteria, </p></context><steps>
+         <step><cmd>For an object, create a fieldset in your Salesforce Org. For example, to configure search criteria for Account object, you need to create a fieldset on the Account object. </cmd></step>
+         <step><cmd>To create a fieldset, navigate to your Salesforce object and click Field Set from the right-hand side setup menu.</cmd><info><p>Enter the following values for the Field Set Label and Field Set Name:</p>
+            <p>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Field</p>
+                           </entry>
+                           <entry>
+                              <p>Value</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Field Set Label</p>
+                           </entry>
+                           <entry>
+                              <p>ChatterSearchCriteriaFieldSet</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Field Set Name</p>
+                           </entry>
+                           <entry>
+                              <p>ChatterSearchCriteriaFieldSet</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </info></step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+         <step><cmd>Drag and drop your required fields in the fieldset area. </cmd></step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>. </cmd>
+         </step>
+      </steps>
+      <result id="result_svn_drw_12c">
+         <p>The fields are now available as part of the search criteria during the check-in and
+            check-out process.</p>
+         <note type="important" id="note_gdm_2rw_12c">
+            <p>Configuring Search Criteria functionality does not support the following data types
+               of Salesforce fields:</p>
+            <ul id="ul_hdm_2rw_12c">
+               <li>Rich Text Area</li>
+               <li>Phone</li>
+            </ul>
+         </note>
+      </result></taskbody>
+</task>

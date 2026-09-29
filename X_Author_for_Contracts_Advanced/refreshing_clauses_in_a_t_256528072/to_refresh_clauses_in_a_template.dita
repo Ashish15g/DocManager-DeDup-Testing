@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_RefreshingClausesinaTemplatev20240620_Torefreshclausesinatemplate" xml:lang="en">
+   <title>To refresh clauses in a template</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, click the Home button (<image placement="inline" width="20" href="../../global_images/images/256531474.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to Work tab, click the Dropdown button (<image height="13" placement="inline" href="../attachments/256528072/256528065.png" class="- topic/image "/>) and select <uicontrol>Refresh Clauses</uicontrol>.</cmd>
+            <info>
+               <p>If the template contains clauses with no changes, you will see a message stating "No clauses are found for refresh".</p>
+               <p>If the template contains clauses with changes, you will receive a message showing which clauses must be refreshed.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Refresh</uicontrol> to update all of the clauses that are within your main template. A confirmation message is displayed<i>.</i>
+            </cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p platform="conga"><b> Behavior and Limitations </b></p>
+         <ul platform="conga">
+            <li>When you Refresh Clauses, the default space inside a clause between two lines is removed. If you need additional space between the two lines, you must add space manually.</li>
+            <li>When you Refresh Clauses, one line of space is added after the clause.</li>
+         </ul>
+      </postreq>
+   </taskbody>
+</task>

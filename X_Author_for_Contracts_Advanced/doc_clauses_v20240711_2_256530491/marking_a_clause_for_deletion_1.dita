@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_DocClausesv20240711_MarkingaClauseforDeletion1" xml:lang="en">
+   <title>Marking a Clause for Deletion</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, go to Work &gt; Doc Clauses. All fields are displayed in a list in the order they appear in the document. Click the More icon(<image placement="inline" width="18" href="../../global_images/images/256530485.png" class="- topic/image "/>) adjacent to the field in the Doc Fields pane and select <uicontrol>Mark for Delete</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click Delete on the confirmation dialog that appears. The clause is marked with a strikethrough in the document pane to denote that it has been marked for deletion.</cmd>
+         </step>
+         <step>
+            <cmd>Check-in the document and choose <uicontrol>Reconcile</uicontrol>. A new Microsoft Word instance of the contract document is opened. In this document, the deleted smart field will still be displayed with the same value, but the smart boundary of the field is removed.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

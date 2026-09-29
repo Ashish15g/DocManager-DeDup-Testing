@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MigratingTemplateswithVersioning_Tomigrateversionedtemplates" xml:lang="en">
+   <title>To migrate versioned templates</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Launch X-Author Migration Manager.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Create a new migration configuration...</uicontrol> and click<uicontrol> Next.</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>From the Migration Options page, select<uicontrol> Migrate Templates from one Org to another </uicontrol>and click<uicontrol> Next.</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Authorize</uicontrol> to connect the source org and the target org and click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>(Optional) Select the<uicontrol> Show mapping of fields page</uicontrol> checkbox to view mapping of the fields from the source org to the target org.</cmd>
+            <info>
+               <fig>
+                  <image placement="break" width="550" href="../attachments/102428129/102428763.jpg"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>From the Filter Criteria page, use the Expression Builder to form the filter expressions and filter the templates to migrate.</cmd>
+            <info>
+               <ol>
+                  <li>Choose the business object context of the template to define qualified expression fields.</li>
+                  <li>After you choose the business object, all of the fields in that business object automatically expand, showing you a list of the available fields to choose from. Choose the necessary fields.</li>
+                  <li>Each expression condition requires the identification of the field control to which the condition will apply, the operator to be used in the condition, and the value of the field where the condition shall be True.</li>
+                  <li>Click <uicontrol>Add </uicontrol>
+                     <uicontrol>Row</uicontrol> to add more expression conditions, where 2 or more conditions are joined in the overall expression by the Boolean operator AND.</li>
+                  <li>Click <uicontrol>Show Filter Expression</uicontrol> to view the filter expression created.</li>
+                  <li>Click <uicontrol>Next</uicontrol>.</li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>The Filter Criteria Result page displays the filtered template list. Click <uicontrol>Next</uicontrol> to continue the migration process.</cmd>
+         </step>
+         <step>
+            <cmd>To save your current configuration, click <uicontrol>Save</uicontrol> and then click <uicontrol>Finish</uicontrol> to begin the migration.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The migration process starts and you can see the log and the progress bar.</p>
+         <note type="note">
+            <p>For more details on how to migrate non-versioned templates, refer to <xref href="../migrating_templates_10241_102415193/102415193.dita" format="dita">Migrating Templates</xref>.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

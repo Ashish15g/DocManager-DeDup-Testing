@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="PreviewingAppsExampleofpreviewinganapp" xml:lang="en">
+   <title>Example of previewing an app</title>
+   <conbody>
+      <p>In this example, we will preview a parent-child app (Accounts and Opportunities, respectively) that allows us to search by Account Name or Billing City. This is what our app looks like when it first opens.</p>
+      <p>
+         <fig>
+            <image placement="break"
+                   width="600"
+                   href="../attachments/98667700/98668006.jpg"/>
+         </fig>In this example, Display fields are indicated by the blue background and Save fields are indicated by the green background. These colors can be set when creating apps.</p>
+      <p>When you click the <b>Retrieve</b> button, the Search Account window opens. (Account is the parent object in our app.)</p>
+      <p/>
+      <p>
+         <fig>
+            <image height="250"
+                   placement="break"
+                   width="379"
+                   href="../attachments/98667700/98668007.jpg"/>
+         </fig>
+      </p>
+      <p>Notice that you can search by <i>Account Name </i>and <i>Billing City</i>. These are the fields that were set as Search fields for the Accounts object when the app was designed.</p>
+      <p>Notice that the <i>Account Name</i>, <i>Billing City</i>, <i>Billing Country</i>, and <i>Last Activity</i> fields are all displaying in the results panel. These are the fields that were set as Results fields when the app was designed.</p>
+      <p>If you want to see all Opportunities for only the Toronto office of Global Media, you can type search text into both search fields.</p>
+      <p>To search all available search fields at one time, you would type your search text in the Search Across Filters text box.</p>
+      <p>For this example, we will search for all opportunities in Toronto, Canada.</p>
+      <p>
+         <fig>
+            <image height="250"
+                   placement="break"
+                   width="666"
+                   href="../attachments/98667700/98668008.jpg"/>
+         </fig>
+      </p>
+      <p>Double-click the search result you want to retrieve data from, or select a row and click <b>Next</b>. The Search Opportunities window opens. (Opportunities is the child object in our app.)</p>
+      <p/>
+      <p>
+         <fig>
+            <image height="250"
+                   placement="break"
+                   width="602"
+                   href="../attachments/98667700/190354536.png"/>
+         </fig>
+      </p>
+      <p>Again, all of the search fields available on this page are the fields that were configured to be search fields for the Opportunities object when the app was created. You can use these search fields to narrow your results.</p>
+      <p>In our case, we want to retrieve all three of the opportunities that were retrieved, so we will click the <b>Select All</b> check box and click <b>Next</b>.</p>
+      <p>The search window closes and our data is retrieved and added to our Excel worksheet.<fig>
+            <image height="250"
+                   placement="break"
+                   width="721"
+                   href="../attachments/98667700/98668010.jpg"/>
+         </fig>
+      </p>
+   </conbody>
+</concept>

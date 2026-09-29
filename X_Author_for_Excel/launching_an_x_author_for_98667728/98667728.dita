@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="d194aA" xml:lang="en">
+   <title>Launching an X-Author for Excel App from Salesforce</title>
+   <shortdesc>From a button on any page in Salesforce, users can launch an App that opens in Excel and automatically retrieves data from Salesforce. Depending on how this feature is configured, the flow can vary, but is essential as follows:</shortdesc>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Aug 01, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>The X-Author user clicks a button on any Salesforce page (that can accommodate a button).</cmd>
+         </step>
+         <step>
+            <cmd>A new instance of Excel is opened and connects to Salesforce without any additional login required by the user.</cmd>
+         </step>
+         <step>
+            <cmd>The App id specified in the button and (optionally) parent id are passed as parameters to the App.</cmd>
+         </step>
+         <step>
+            <cmd>The App opens in Excel and executes the named or auto-execute Action Flow.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>To implement this feature, perform the following steps in order.</p>
+         <ol>
+            <li>Configure Launch from Salesforce using a custom button or Excel App setup.</li>
+            <li>Make your app launch-ready from Salesforce.</li>
+            <li>Add an External ID to action flow query actions.</li>
+         </ol>
+         <note type="note">
+            <p>Any app configured to launch from Salesforce must have at least one Action Flow to execute when the app opens.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

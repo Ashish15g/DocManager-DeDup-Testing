@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan866" xml:lang="en">
+   <title>Localization</title>
+   <prolog>
+      <author>Maanasa Suthrave</author>
+      <critdates>
+         <created date="Jul 26, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Contracts for Cloud on Salesforce Summer 2019 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can define the locale of your templates in X-Author Contracts (Windows). The localization feature allows you to define locale settings for <b>Number</b>, <b>Currency</b>, <b>Precision</b>, and <b>Date </b>fields. You can generate a document in Contract Management using the template that you have created in X-Author Contracts (Windows) and check out or open the generated document in X-Author Contracts for Cloud (MAC). X-Author Contracts for Cloud supports multiple locales. </p>
+      <note type="note">
+         <p>
+            <b>Note</b>
+         </p>
+         <p>You must create the template in X-Author Contracts (Windows) using the latest X-Author for Contracts Salesforce Template.</p>
+         <p>
+            <i>Enable Formatting</i> must be selected when the template is created, cloned, or checked in. For more information on localization and list of supported locale, see <i>X-Author Contracts User Guide</i>.</p>
+      </note>
+      <p>When you open a generated document in X-Author Contracts for Cloud, the following conditions are applicable for a localized agreement:</p>
+      <ul>
+         <li>If you import an offline agreement document, the default English (United States) locale settings are applied to the document.</li>
+         <li>If you use the "Update From CLM" option, the values are updated from Contract Management in the document according to the locale settings of the template/fields.</li>
+         <li>If you have Doc Fields in the document and validate them, the Doc Fields are validated based on the locale settings of the template or fields.</li>
+         <li>If you update smart fields with locale settings, you can view the updates when you use Preview Reconciliation and Reconciliation options.</li>
+         <li>If you have Mark Fields in the document, you need to enter the values in the default English (United States) format and the value is converted according to the template/fields locale.</li>
+         <li>If you insert a clause either by using the Insert or Insert Smart option, the document inherits the locale settings of the agreement template if the clause does not have any locale settings. </li>
+         <li>If you insert a clause either by using the Insert or Insert Smart option, the document inherits the locale settings of the clause if the clause has locale settings. </li>
+         <li>If you are connected to a multicurrency org, the currency is displayed based on the record level currency. </li>
+      </ul>
+   </conbody>
+</concept>

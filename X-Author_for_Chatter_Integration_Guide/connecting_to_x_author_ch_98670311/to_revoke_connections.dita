@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ConnectingtoXAuthorChatterTorevokeconnections" xml:lang="en">
+   <title>To revoke connections</title>
+   <taskbody>
+      <prereq id="prereq_d2q_3rv_12c">There must be existing connections.</prereq><steps>
+         <step>
+            <cmd>Select <menucascade>
+                  <uicontrol>Switch Connection </uicontrol>
+                  <uicontrol>Manage Connection</uicontrol>
+               </menucascade> to display the Manage Connections window. </cmd>
+            <stepresult>
+               <p>The list of users who have been configured for that computer is displayed, with
+                  the option for the currently logged in user disabled.</p>
+               <fig id="fig_xjw_frv_12c">
+                  <image height="250" placement="break" width="386"
+                     href="../attachments/98670311/98671119.jpg" id="image_yjw_frv_12c"/>
+               </fig>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Revoke</uicontrol> and then click <uicontrol>Yes </uicontrol>in
+               the confirmation dialog.</cmd>
+         </step>
+      </steps>
+      <result id="result_p12_hrv_12c">
+         <p>That user's login credentials are removed and they cannot log in to X-Author for Chatter
+            until they have created a new connection.</p>
+      </result></taskbody>
+</task>

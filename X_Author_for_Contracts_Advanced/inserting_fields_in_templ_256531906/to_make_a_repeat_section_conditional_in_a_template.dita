@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InsertingFieldsinTemplatesasaSectionv20240711_Tomakearepeatsectionconditionalinatemplate" xml:lang="en">
+   <title>To make a repeat section conditional in a template</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open a template in X-Author for Contracts Advanced for Conga CLM (Contracts for Salesforce).</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Templates </uicontrol>pane, go to <uicontrol>Work</uicontrol> tab and click <uicontrol>Fields</uicontrol>. This displays the Repeat Section (object name) and the fields in the repeat section.</cmd>
+         </step>
+         <step>
+            <cmd>Click the<uicontrol> Settings icon </uicontrol>(<image height="16" placement="inline" width="16" href="../../global_images/images/256528177.png" class="- topic/image "/>) next to the selected repeat section to open the <uicontrol>Properties</uicontrol> page.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add Condition</uicontrol>. This opens the <uicontrol>Make Conditional</uicontrol> popup which has the expression builder.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Make Conditional</uicontrol> popup, you can create a conditional expression and also create a complex expression using logical operators between multiple rows of conditions. To create an expression you must enter values for the following three fields: </cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the field which you want to set as the criteria for the condition. You must select a field name. The fields are listed and grouped according to their hierarchy.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Operator</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the logical operator from the drop-down. This forms the relationship between the <uicontrol>Field</uicontrol> and its <uicontrol>Value</uicontrol>.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Value</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the value of the field name selected in the <uicontrol>Field.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add row</uicontrol> to create more conditions. You can add up to 9 rows of condition expressions.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add filter logic</uicontrol> to add a logical relation between multiple rows of condition expressions. The supported filter logic operators are AND and OR. You can use parentheses for setting the precedence. For example, if you have 5 rows you can create a filter logic like, (((1 AND 3) OR (2 AND 4)) AND 5).  In the absence of a filter logic, the default relationship between the rows is the Boolean operator AND.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Apply Logic</uicontrol> to check whether your filter logic expression is correct. If your logic is incorrect, you will see a message in red.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add </uicontrol>to save your table filters and click <uicontrol>Ok</uicontrol> to return to your document. Once the condition is successfully saved, a <uicontrol>lightning icon</uicontrol> (<image placement="inline" width="18" href="../attachments/256531906/256531905.png" class="- topic/image "/>) is displayed next to the particular repeat section. Click the l<uicontrol>ightning icon</uicontrol> (<image placement="inline" width="18" href="../attachments/256531906/256531905.png" class="- topic/image "/>) to expand and view the conditions added to the particular repeat section. Click the lightning icon (<image placement="inline" width="18" href="../attachments/256531906/256531905.png" class="- topic/image "/>) again to collapse.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

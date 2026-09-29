@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="QueryActionfilterFilterLogic" xml:lang="en">
+   <title>Filter Logic</title>
+   <conbody>
+      <p>X-Author uses the same filter logic method as your environment.</p>
+      <p>
+         <b>Example:</b> For the defined filters, find records that match both the first two filters or the third. Enter filter logic as (1 AND 2) OR 3, or 3 OR (1 AND 2). </p>
+      <note type="note">
+         <p>Important</p>In Microsoft Dynamics, define filter logic within brackets. Example: (1 OR 2), ((1 AND 2) OR 3), ((1 OR 2) AND 3)</note>
+      <p>Find records, where the amount is greater than “$10 million” AND the close date, is earlier than “03/19/2016” OR any opportunity where stage equals “Qualification".</p>
+      <p>Amount &gt; 10000000, Close Data &lt; 03/19/2016, Stage = 'Qualification'</p>
+      <p>
+         <fig>
+            <image placement="break"
+                   width="400"
+                   href="../attachments/98667690/190354459.png"/>
+         </fig>
+      </p>
+   </conbody>
+</concept>

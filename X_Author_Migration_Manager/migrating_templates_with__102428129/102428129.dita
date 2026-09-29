@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d22aA" xml:lang="en">
+   <title>Migrating Templates with Versioning</title>
+   <prolog>
+      <author>user-090d1</author>
+      <critdates>
+         <created date="Jul 23, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Migration Manager on Salesforce Summer 2019 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can migrate versioned templates from the source org to the destination org using X-Author Migration Manager. The templates migrated from the source org to the destination org are labeled with a template version. Read the following guidelines before migrating templates:</p>
+      <ul>
+         <li>Versioning must be either enabled or disabled in both the orgs. You cannot migrate templates where only one of the org has versioning enabled.</li>
+         <li>To migrate templates with custom fields, you must first create similar custom fields in the target org.</li>
+         <li>When you migrate templates, the active version of the template is migrated to the target org.</li>
+         <li>When you migrate a template for the first time, the template created in the Target org is versioned v1.0. and marked active.</li>
+         <li>When you migrate a template which already exists in the Target org, the new version of the migrated template is the increment of the last major version and is marked active. For example, if the last version was 2.0. the new version would be 3.0.</li>
+         <li>When you migrate a template version, clauses and dynamic segments are migrated along with it and clause versions and dynamic segment versions are created with the template version.</li>
+      </ul>
+      <note type="note">
+         <p>Migrating template with versions feature can only be used with X-Author Contracts version Summer 2019 and onwards.</p>
+      </note>
+   </conbody>
+</concept>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="DocFields_Tomarkafieldinanagreement" xml:lang="en">
+   <title>To mark a field in an agreement</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <uicontrol>Work &gt; Doc Fields</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight the content of the contract to be marked as a field.</cmd>
+         </step>
+         <step>
+            <cmd>In the Doc Fields pane, click the more icon and select <uicontrol>Mark Fields</uicontrol> to open the Mark Fields form.</cmd>
+         </step>
+         <step>
+            <cmd>The <uicontrol>Mark Fields</uicontrol> form lists all the available CLM fields with their name and type that could be made smart. These fields are grouped into different categories according to the field type, like <i>Information, Key Dates, Miscellaneous</i>, etc.</cmd>
+         </step>
+         <step>
+            <cmd>Use Search Fields to enter the field name and search or scroll through the list of fields to select the field to be applied to the selected text.</cmd>
+         </step>
+         <step>
+            <cmd>Click the more icon next to the field name and click <uicontrol>Mark Field</uicontrol>. You will get a confirmation message.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Mark</uicontrol> in the confirmation message to mark the selected text as a smart field.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>Make sure the format of the text you are marking matches the data type you are mapping to. You will receive an error if the text is not valid for the field type you choose.</p>
+         </note>
+         <p>You will get a success message and the selected text in the contract will acquire content control boundary. The content adopts the properties of the same field on the agreement record.</p>
+      </postreq>
+   </taskbody>
+</task>

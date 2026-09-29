@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="InstallingXAuthorContractsWithoutanInstallerTocreateanXMLmanifestfile" xml:lang="en">
+   <title>To create an XML manifest file:</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open a text editor such as Notepad.</cmd>
+         </step>
+         <step>
+            <cmd>Copy the following lines and paste them into the text editor:</cmd>
+            <info>
+               <pre xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9--&gt;
+&lt;OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+           xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+           xsi:type="TaskPaneApp"&gt;
+  &lt;Id&gt;f28a4a81-39b5-4fe7-8806-c8505c24d311&lt;/Id&gt;
+  &lt;Version&gt;1.0.228.2017&lt;/Version&gt;
+  &lt;ProviderName&gt;Apttus Corporation&lt;/ProviderName&gt;
+  &lt;DefaultLocale&gt;en-US&lt;/DefaultLocale&gt;
+  &lt;DisplayName DefaultValue="X-Author Contracts" /&gt;
+  &lt;Description DefaultValue="X Author Contracts"/&gt;
+  &lt;IconUrl DefaultValue="https://XAJS_HOSTNAME/ui/xajs/Images/icon_32x32.png" /&gt;
+  &lt;HighResolutionIconUrl DefaultValue="https://XAJS_HOSTNAME/ui/xajs/Images/icon_64x64.png" /&gt;
+  &lt;SupportUrl DefaultValue="https://www.apttus.com" /&gt;
+ &lt;AppDomains&gt;
+    &lt;AppDomain&gt;https://XAJS_HOSTNAME&lt;/AppDomain&gt;       
+  &lt;/AppDomains&gt;
+  &lt;Hosts&gt;
+    &lt;Host Name="Document" /&gt;
+     &lt;/Hosts&gt;
+  &lt;DefaultSettings&gt;
+    &lt;SourceLocation DefaultValue="https://XAJS_HOSTNAME/ui/xajs/App/index.html" /&gt;
+  &lt;/DefaultSettings&gt;
+  &lt;Permissions&gt;ReadWriteDocument&lt;/Permissions&gt; 
+&lt;/OfficeApp&gt;</pre>
+            </info>
+         </step>
+         <step>
+            <cmd>Replace XAJS_HOSTNAME with your hostname.</cmd>
+            <info>
+               <note type="note">
+                  <p>Contact your implementation Or CloudOps team to obtain XAJS_HOSTNAME.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>For Multi-Tenant Environment OR Salesforce Platform:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Add the following app domain in the app domains section, if it is not in manifest XML.</cmd>
+                  <info>
+                     <pre xml:space="preserve">&lt;AppDomains&gt;
+&lt;AppDomain&gt;https://test.salesforce.com&lt;/AppDomain&gt;
+&lt;AppDomain&gt;https://login.salesforce.com&lt;/AppDomain&gt;    
+&lt;AppDomain&gt;https://xajs.apttuscloud.com&lt;/AppDomain&gt;    
+&lt;/AppDomains&gt;</pre>
+                  </info>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>File</uicontrol> &gt; <uicontrol>Save As</uicontrol>. </cmd>
+            <substeps>
+               <substep>
+                  <cmd>b. In the Save as type dropdown list, select <uicontrol>All Types</uicontrol>.</cmd>
+               </substep>
+               <substep>
+                  <cmd>c. In the Filename text box type the filename including the .xml extension.</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>Copy the manifest XML file and paste it in the following folder location in mac: </cmd>
+            <info>
+               <p>
+                  <i>~/Library/Containers/com.microsoft.Word/Data/Documents/</i>wef</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Close the Microsoft Word application on your system (if open) and open it again.</cmd>
+         </step>
+         <step>
+            <cmd>In Microsoft Word, go to <uicontrol>Insert</uicontrol> &gt; <uicontrol>My add-in &gt; X-Author Contracts</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

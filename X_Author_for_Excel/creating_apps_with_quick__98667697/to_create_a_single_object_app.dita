@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CreatingAppswithQuickAppsTocreateaSingleObjectapp" xml:lang="en">
+   <title>To create a Single Object app</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click Quick <uicontrol>App</uicontrol> and select <uicontrol>New</uicontrol>. </cmd>
+            <info>
+               <fig>
+                  <image height="179"
+                         placement="break"
+                         width="1008"
+                         href="../attachments/98667697/98667846.png"/>
+               </fig>The Build a Quick App window opens. 
+            </info>
+         </step>
+         <step>
+            <cmd>Type the application name in the App Name field. Use only English characters for the app name. Non English characters are not supported as they impact import/export operations, offline capability and more.</cmd>
+            <info>
+               <note type="tip">
+                  <p>Give your app a name that is concise but also summarizes the basic purpose of the app.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click the Single Object List <uicontrol>radio button</uicontrol> and then click <uicontrol>Next</uicontrol>. The Build a Quick App page opens.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="308"
+                         href="../attachments/98667697/190354496.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>
+               <uicontrol>Click the Object</uicontrol> drop-down menu and select an object. The <uicontrol>Select Fields</uicontrol> section will display the fields associated with the object.</cmd>
+         </step>
+         <step>
+            <cmd>Click the check box next to the fields you want to include in your app. (Notice that the two primary fields of the object are selected by default.)</cmd>
+            <info>
+               <note type="tip">
+                  <p>You can search for fields using the Search Fields search box. Click <uicontrol>Clear</uicontrol> to clear the search terms and view the full list.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="500"
+                         href="../attachments/98667697/98667840.png"/>
+               </fig>
+               <p>The Select Field Options window opens, displaying the fields that you selected in the previous step.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Select from the options in the following table.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>
+            <table>
+               <tgroup cols="2">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <thead>
+                     <row>
+                        <entry>
+                           <p>Column</p>
+                        </entry>
+                        <entry>
+                           <p>Description</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>Data Criteria</p>
+                        </entry>
+                        <entry>
+                           <p>Select the method you would like to use to retrieve data.<ul>
+                                 <li>
+                                    <uicontrol>Query</uicontrol>—Select this method to have the query automatically run, based on your app's predetermined search filters, and retrieve the data without user intervention.</li>
+                                 <li>
+                                    <uicontrol>User Selection</uicontrol>—Select this method to allow users to apply search filter criteria before retrieving data.</li>
+                              </ul>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col2">
+                           <p>
+                              <uicontrol>Select All</uicontrol>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Display Fields</p>
+                        </entry>
+                        <entry>
+                           <p>Click this check box to include all object fields in the Display Map.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Save Fields</p>
+                        </entry>
+                        <entry>
+                           <p>Click this check box to include all object fields in the Save Map.</p>
+                           <note type="note">
+                              <p>This check box is inactive unless Display Fields is checked.</p>
+                           </note>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col2">
+                           <p>
+                              <uicontrol>Grid Columns</uicontrol>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Display</p>
+                        </entry>
+                        <entry>
+                           <p>Click this check box to include this field's data in the data retrieved from your environment and displayed in the Excel workbook.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Display Order</p>
+                        </entry>
+                        <entry>
+                           <p>This represents the order, left to right, that fields will be displayed in. Click in the cell to edit the order.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Save</p>
+                        </entry>
+                        <entry>
+                           <p>Click this check box to allow users to change the data in these cells in the Excel workbook and then save those changes to your environment.</p>
+                           <p>
+                              <uicontrol>Note:</uicontrol> Fields that are not Display fields cannot be Save fields. </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Search Fields</p>
+                        </entry>
+                        <entry>
+                           <p>
+                              <uicontrol>This field appears only when the Data Criteria is set to User Selection.</uicontrol> Click this check box to add a runtime search filter for this field. These filters will be used to limit the type of records returned when the runtime user retrieves data. For example, might make Billing Country a Search field so that you can retrieve data from only those accounts who have a billing address in Canada.</p>
+                           <note type="note">
+                              <p>You must select at least one field, and ID fields are <uicontrol>not</uicontrol> searchable.</p>
+                           </note>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Result Fields</p>
+                        </entry>
+                        <entry>
+                           <p>Click this check box to display this field in the search results when retrieving and filtering data from your environment. <uicontrol>This field appears only when the Data Criteria is set to User Selection.</uicontrol>
+                           </p>
+                           <note type="note">
+                              <p>You must select at least one field and ID fields <uicontrol>cannot</uicontrol> be used.</p>
+                           </note>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>As shown in the following images, the displayed columns will vary based on the Data Criteria you select.</p>
+         <p>
+            <table>
+               <tgroup cols="1">
+                  <colspec colname="col1"/>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>
+                              Selecting Field Options with <i>Query</i> Data Criteria
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>
+                              <fig>
+                                 <image placement="break"
+                                        width="500"
+                                        href="../attachments/98667697/98667841.png"/>
+                              </fig>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>
+                              Selecting Field Options with <i>User Selection </i>Data Criteria
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>
+                              <fig>
+                                 <image placement="break"
+                                        width="500"
+                                        href="../attachments/98667697/98667842.png"/>
+                              </fig>
+                           </p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>8. To add a filter to the data, click <uicontrol>Filters</uicontrol>. Complete the fields described in the following table to build your filter.</p>
+         <p>
+            <table>
+               <tgroup cols="2">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <thead>
+                     <row>
+                        <entry>
+                           <p>Field</p>
+                        </entry>
+                        <entry>
+                           <p>Description</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>Object and Field</p>
+                        </entry>
+                        <entry>
+                           <p>Click the lookup icon <image placement="inline" href="../attachments/98667697/98667847.jpg"/> to select the object and field that you want the filter to apply to.</p>
+                           <note type="note">
+                              <p>You cannot type the field name in the text field.</p>
+                           </note>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Value Type</p>
+                        </entry>
+                        <entry>
+                           <p>Select the value type from the drop-down menu. <uicontrol>The value types change based on the field or object selected.</uicontrol>
+                           </p>
+                           <p>• <uicontrol>Input</uicontrol>—Select this value to allow users to type in a value to search for. For example, if the field is Account ID, you might choose to let them type or paste the account ID in the filter at runtime.</p>
+                           <p>• <uicontrol>Static</uicontrol>—Select this value to prevent users from changing the Value field at runtime.</p>
+                           <p>• <uicontrol>System Variable</uicontrol>—Select this value to specify a system variable, such as CurrentUser or CurrentDate, as the filter value.</p>
+                           <p>• <uicontrol>User Input</uicontrol>—Select this value to allow users to change the Value field at runtime.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Operator</p>
+                        </entry>
+                        <entry>
+                           <p>Select a relational operator from the drop-down menu. </p>
+                           <p>• <uicontrol>Equals</uicontrol>—The field value is equal to the specified value. </p>
+                           <p>• <uicontrol>Not equal to</uicontrol>—The field value is <uicontrol>not</uicontrol> equal to the specified value.</p>
+                           <p>• <uicontrol>Starts with</uicontrol>—The field value begins with the specified value.</p>
+                           <p>• <uicontrol>Contains</uicontrol>—The field value contains the specified value string.</p>
+                           <p>• <uicontrol>Not contains</uicontrol>—The field does not contain the specified value string.</p>
+                           <p>• <uicontrol>In</uicontrol>—The field value is in the specified list of hard-return-separated values.</p>
+                           <p>• <uicontrol>Not In</uicontrol>—The field value is in the specified list of hard-return-separated values.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Value</p>
+                        </entry>
+                        <entry>
+                           <p>Type the comparison value in this field or select the value from the drop-down menu. <uicontrol>Your options will vary depending on the type of field you are filtering on.</uicontrol>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>
+                              <image placement="inline" href="../attachments/98667697/98667848.jpg"/>
+                           </p>
+                        </entry>
+                        <entry>
+                           <p>Click this button to delete a filter row.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Add Row</p>
+                        </entry>
+                        <entry>
+                           <p>Click this button to add a new filter row.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Clear All</p>
+                        </entry>
+                        <entry>
+                           <p>Click this button to remove all filter rows.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Add Filter Logic</p>
+                        </entry>
+                        <entry>
+                           <p>Click this button to display the Filter Logic field and define the Boolean logic used to relate filters. For example, you might want display results only when <uicontrol>all</uicontrol> of your filter conditions are met or you might want to display results when <uicontrol>any</uicontrol> filter conditions are met. You can use filter logic to do this. Filter logic in X-Author for Excel works the same as it does in your environment.</p>
+                           <note type="note">
+                              <p>Important</p>
+                              <p>In Microsoft Dynamics, define filter logic within brackets. Example: (1 OR 2), ((1 AND 2) OR 3), ((1 OR 2) AND 3)</p>
+                           </note>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>9. Click <uicontrol>Save</uicontrol>.</p>
+         <p>10. Click <uicontrol>Next</uicontrol>.</p>
+         <p>11. On Provide App Settings page, provide requisite information as described in the table.</p>
+         <p>
+            <table>
+               <tgroup cols="2">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <thead>
+                     <row>
+                        <entry>
+                           <p>Field</p>
+                        </entry>
+                        <entry>
+                           <p>Description</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>Enable App Launch from Source CRM (Salesforce, Microsoft Dynamics, Apttus Omni)</p>
+                        </entry>
+                        <entry>
+                           <p>Select this check box to allow users to open this X-Author app from within your environment (as well as from within Excel).</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Enable for Google Sheets</p>
+                        </entry>
+                        <entry>
+                           <p>Select this check box to allow users to open this X-Author app from within the Google Sheets application (as well as from within Excel).</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Worksheet Title</p>
+                        </entry>
+                        <entry>
+                           <p>Type the title of the Excel worksheet. The title appears in the top row of the worksheet.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Max Column Width</p>
+                        </entry>
+                        <entry>
+                           <p>Type the maximum width of an Excel column (in characters).</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>View Gridlines</p>
+                        </entry>
+                        <entry>
+                           <p>Select this check box to display the gridlines in the Excel worksheet.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Display Filters</p>
+                        </entry>
+                        <entry>
+                           <p>Clear this check box if you do not want the filters that you created to appear in the Excel worksheet.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p> Group Label</p>
+                        </entry>
+                        <entry>
+                           <p>Type the ribbon menu group name. This value appears beneath the buttons in the X-Author for Excel ribbon tab.  </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p> Retrieve Data Button Label</p>
+                        </entry>
+                        <entry>
+                           <p>Type the text you want to appear on the ribbon menu button used for data retrieval. </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p> Save Data Button Label</p>
+                        </entry>
+                        <entry>
+                           <p>Type the text you want to appear on the ribbon menu button used for saving data to the environment database. </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p> Enable Add Row</p>
+                        </entry>
+                        <entry>
+                           <p>Select this check box to allow users to add rows to the Excel worksheet. This option could be used to add records to the workbook so those records can be uploaded to your environment.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p> Enable Delete Row</p>
+                        </entry>
+                        <entry>
+                           <p>Select this check box to allow users to delete rows from the Excel worksheet.</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>12. Click <uicontrol>Finish</uicontrol>.</p>
+         <p>An App has been created with all design functions complete. You can now <xref href="../previewing-apps_98667700_98667700/98667700.dita" format="dita">Preview the app</xref>, run the app, or use X-Author Designer to make additional modifications.</p>
+      </postreq>
+   </taskbody>
+</task>

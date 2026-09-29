@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Example_OpportunityForecastApplicationTocreateaDisplayAction"
+      xml:lang="en">
+   <title>To create a Display Action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click the arrow under <uicontrol>Actions</uicontrol> and select <uicontrol>Display</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter <i>Display Opportunities</i> into the <uicontrol>Action Name</uicontrol> field.</cmd>
+         </step>
+         <step>
+            <cmd>Choose <uicontrol>Main</uicontrol> from the <uicontrol>Display Map</uicontrol> list.
+            </cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>When data has been retrieved from the environment, it is placed in Excel memory, waiting to be placed into the specific worksheet based on a Display Map. You may want to display different maps at different times when your App is in use, so a Display Action lets you decide which map to use and when to use it.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

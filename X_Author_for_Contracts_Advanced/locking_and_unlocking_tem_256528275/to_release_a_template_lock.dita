@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_LockingandUnlockingTemplatesv20240620_Toreleaseatemplatelock" xml:lang="en">
+   <title>To release a template lock</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the Templates pane, click the<uicontrol/>Lock Status icon.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Release Lock</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>After you release the lock, the icon changes to open (<image placement="inline" width="20" href="../attachments/256528275/256528270.png" class="- topic/image "/>). The template page refreshes and shows the Start tab of X-Author Templates. You cannot access the Work and Finish tabs of X-Author Templates after releasing the lock. When you click the Lock Status icon, the Acquire Lock button replaces the Release Lock button on the Lock Status page.</p>
+         <note type="note">
+            <p>If you released a template lock by mistake and want to continue working with the template, go to the Lock Status page and click Acquire Lock.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

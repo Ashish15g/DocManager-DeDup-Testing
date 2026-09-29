@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="WindowsInstallationFix_Prerequisites" xml:lang="en">
+   <title>Prerequisites</title>
+   <taskbody>
+      <context>
+         <p>You will need to obtain the following files from your Apttus contact.</p>
+         <ul>
+            <li><b>Apttus.XAuthor.AppManifest.xml</b> – The add-in manifest file</li>
+            <li><b>WindowsOfficeAddInsLauncher.exe</b> – The add-in utility required for completing
+               Windows installation</li>
+         </ul>
+      </context>
+      <steps>
+         <step>
+            <cmd>Save the manifest file <b>Apttus.XAuthor.AppManifest.xml</b> to a location on your
+               computer. Make a note of the file path.</cmd>
+         </step>
+         <step>
+            <cmd>Run the <b>WindowsOfficeAddInsLauncher.exe</b> file.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the complete file path that points to the manifest file on your system (for
+               example, <b>C:\OfficeManifest\Apttus.XAuthor.AppManifest.xml)</b> and press Enter. </cmd>
+            <info>
+               <fig>
+                  <image height="250" placement="break" href="../attachments/73401277/73401289.png"
+                  />
+               </fig>
+            </info>
+         </step>
+         <step><cmd>Close the utility window.</cmd></step>
+         <step>
+            <cmd>Open Microsoft Word and go to <menucascade>
+                  <uicontrol>File</uicontrol>
+                  <uicontrol>Options</uicontrol>
+                  <uicontrol>Trust Center </uicontrol>
+                  <uicontrol>Trust Center Settings</uicontrol>
+                  <uicontrol>Trust Add-in Catalogs</uicontrol>
+               </menucascade>.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight the Office manifest file catalog entry and click
+                  <uicontrol>Remove</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image placement="break" width="700" href="../attachments/73401277/73401290.png"/>
+               </fig>
+            </info>
+         </step>
+         <step><cmd>Close all open Microsoft Word instances.</cmd></step>
+         <step>
+            <cmd>Open Microsoft Word and go to <menucascade>
+                  <uicontrol>File</uicontrol>
+                  <uicontrol>Options</uicontrol>
+                  <uicontrol>Trust Center </uicontrol>
+                  <uicontrol>Trust Center Settings</uicontrol>
+                  <uicontrol>Trust Add-in Catalogs</uicontrol>
+               </menucascade>.</cmd>
+         </step>
+         <step><cmd>In the Category Url field, add the appropriate catalog path for your add-in, make sure <uicontrol>Show in Menu</uicontrol> is checked, and click <uicontrol>OK</uicontrol>.</cmd></step>
+         <step><cmd>Close Microsoft Word.</cmd></step>
+         <step>
+            <cmd>Open Microsoft Word and go to <menucascade>
+                  <uicontrol>Insert</uicontrol>
+                  <uicontrol>My Add-ins</uicontrol>
+                  <uicontrol>X-Author Contracts</uicontrol>
+               </menucascade> to run the add-in.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

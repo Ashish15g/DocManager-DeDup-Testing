@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InsertingFieldsinaTemplatev20240711_Toinsertfieldsinatemplate1" xml:lang="en">
+   <title>To insert fields in a template</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open a template in X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Work tab, click <uicontrol>Fields. </uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Put the cursor in the template text where you want to insert a field and click <uicontrol>Insert Field</uicontrol>. This opens the Insert Field dialog box.</cmd>
+         </step>
+         <step>
+            <cmd>Select an Object<uicontrol/>(For example, "Agreement") from the left column. The fields related to the selected object are generated in the right column. To search for a particular field, enter a keyword and click the Search icon<uicontrol/>(<image placement="inline" width="25" href="../attachments/256531524/256531523.png" class="- topic/image "/>) or press enter. When you hover over the field name, the API name of the field is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>After selecting the required fields, click <uicontrol>Insert</uicontrol>.</cmd>
+            <info>
+               <note type="tip">
+                  <p>Tip</p>
+                  <p>To select multiple fields,</p>
+                  <ul>
+                     <li>On Windows, hold the Ctrl key and select the fields.</li>
+                     <li>On Mac, hold the Command key and select the fields.</li>
+                  </ul>
+               </note>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <p platform="salesforce">The fields are inserted in the template. The <uicontrol>Fields</uicontrol> page shows the list of all the fields present in your current template. Select a field from the list to highlight it in the template document.</p>
+         <note type="note">
+            <ul>
+               <li>When you insert a <uicontrol>Rich Text Field</uicontrol>, by default, the field's property value is set to Image. Image and HTML are the two available properties. If you want the image to display as its original size, set a size <uicontrol>0</uicontrol> for Height and Width. Large images may cause alignment issues within the document. For more information, see 
+<xref href="../image_references_in_templ_256528117/256528117.dita" format="dita">Image References in Templates</xref>.</li>
+               <li>You can also insert a field in the header and footer of the template document. While inserting a field in the header or footer, the field cannot be set as read-only or smart, it will only be a merge field.</li>
+               <li>When you are working on a clause template, you cannot insert a field as a repeat table or repeat section. When you try inserting a filed, only the agreement object will be displayed on the left column, the child objects will not be displayed by default and the Insert as Table and Insert as Section buttons will be disabled.</li>
+               <li>You can toggle the <uicontrol>Read-Only Field</uicontrol> option for rich text fields on or off by clicking the Settings icon after you insert the field.</li>
+            </ul>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

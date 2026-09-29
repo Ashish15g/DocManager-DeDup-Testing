@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="SaveAttachmentActionTocreateaSaveAttachmentaction" xml:lang="en">
+   <title>To create a Save Attachment action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click on the arrow beneath the <uicontrol>Actions</uicontrol> button and select <uicontrol>Save Attachment</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         href="../attachments/98667677/190354418.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>In <uicontrol>Action Name</uicontrol>, type a descriptive name for the action.</cmd>
+         </step>
+         <step>
+            <cmd>In File Name, type a file name to be used when the file is executed.</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Use Runtime File Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Select this option to use the existing File Name at runtime.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Manually Provide File Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Select this option to allow your user to provide the File Name manually.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Use Cell Reference as File Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Select this option to allow your user to use a cell reference as the File Name. Select the cell and click the icon.</p>
+                                 <note type="note">
+                                    <p>This feature is not available with Presto apps.</p>
+                                 </note>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>From <uicontrol>Object</uicontrol>, select an Individual object.</cmd>
+         </step>
+         <step>
+            <cmd>In Format, select whether to save the attachment as <i>Excel</i> or <i>PDF</i>.</cmd>
+         </step>
+         <step>
+            <cmd>Leave <uicontrol>Custom Sheet Selection</uicontrol> blank to save the entire file as an attachment or select the check box to save specific worksheets. Hold the Ctrl key to select multiple worksheets listed in <uicontrol>Include Sheets</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="206"
+                         href="../attachments/98667677/190354410.png"/>
+               </fig>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d409aA" xml:lang="en">
+   <title>Using Template Locale</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="note">
+         <p>This topic contains instructions for Conga CLM (Contracts for Salesforce) users.</p>
+      </note>
+      <p>Template localization is a feature that allows Template Administrators to define the locale of their templates. Locales can be system defaults or user-defined locales. You can define locale settings at the agreement template and field level. Following are some of the important points about how localization works:</p>
+      <ul>
+         <li>At the template level:<ul>
+               <li>You can specify the <b>Locale </b>and choose the Currency Format, Date Format, and configure Number and Currency Precision for the whole template when you create a template.</li>
+               <li>You can also change the locale of a template at check-in.</li>
+            </ul>
+         </li>
+         <li>At the template field level:<ul>
+               <li>You can use the <b>Fields</b> tab to define locale for Number, Currency, Date, and Precision fields.</li>
+               <li>You can also use the <b>Fields</b> tab to define Currency Format, Date Format, Currency Precision, and Number Precision for fields.</li>
+            </ul>
+         </li>
+         <li>Field-level locale formatting takes precedence over template-level locale formatting.</li>
+         <li>For a field, if locale formatting is not defined at field-level, the template formatting is applied.</li>
+         <li>If an agreement template has no locale defined, the default locale—English (US) is applied.</li>
+      </ul>
+      <p>To learn how to change field level locale, refer to 
+<xref href="../changing_field_level_loca_256529253/256529253.dita" format="dita">Changing Field Level Locale</xref>.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d269aA" xml:lang="en">
+   <title>Making Table Columns and Rows Conditional</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="note">
+         <p>This topic contains instructions for Conga CLM (Contracts for Salesforce) users.</p>
+      </note>
+      <p>You can mark any or all of the rows and columns in a table as conditional. In practice, these conditions operate as filters, allowing rows and columns in the table to be conditionally shown (and populated) or hidden. When you are constructing your template, you define various condition expressions on rows and columns of a table. These conditions are then evaluated at runtime when an agreement document is generated using the template.</p>
+      <p>For example, your table consists of 4 columns: <b>Product Type, </b>
+         <b>Quantity</b>, <b>List Price,</b> and <b>Net Price</b>. You can define a condition to show the <b>Net Price</b> column only when the <b>Account Name</b> is ABC Company.</p>
+      <p>
+         <fig>
+            <image height="400" placement="break" width="721" href="../attachments/256531882/256531877.png" class="- topic/image "/>
+         </fig>
+      </p>
+   </conbody>
+</concept>

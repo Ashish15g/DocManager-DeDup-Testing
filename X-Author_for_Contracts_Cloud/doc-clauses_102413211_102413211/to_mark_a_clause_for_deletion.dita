@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="DocClauses_deleteclause" xml:lang="en">
+   <title>To mark a clause for deletion</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <uicontrol>Doc Clauses &gt; Available Clauses </uicontrol>list.</cmd>
+         </step>
+         <step>
+            <cmd>Search the clause you want to delete or select the clause from the available clauses list and click the more icon <image placement="inline" href="../attachments/102413211/102413335.png"/> next to the clause name.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Delete</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>You will get a confirmation message, select <uicontrol>Delete</uicontrol> again.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>You'll get a message, "Your clause will be deleted on reconciliation" and the clause text in the document is marked with a strikethrough. You can click <uicontrol>Undo Delete </uicontrol>from the more options next to the clause name, to remove the mark at any time in the same session.</p>
+         <p>Check-in the document and choose <uicontrol>Reconcile</uicontrol>. The content of the deleted clause is removed from the document and a "Deleted" entry is recorded in the Agreement Clause related list on the agreement record in Salesforce.</p>
+         <note type="note">
+            <p>For more information on tracking clauses and clause activity in your agreements, refer to the<i> Contract Management Administrator Guide</i> for the Salesforce platform.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

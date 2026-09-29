@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MakingClausesDeleteReadOnlyv20240620_Tomakeaclausedeleteread_onlyinatemplate" xml:lang="en">
+   <title>To make a clause delete read-only in a template</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>Go to Templates &gt; <uicontrol>Create New</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Create New Clause</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>In the clause creation panel, select <uicontrol>Delete Read-Only</uicontrol> for the clause behavior.</cmd>
+         </step>
+         <step>
+            <cmd>Add your clause content and check-in the clause.</cmd>
+         </step>
+         <step>
+            <cmd>Check-out using an existing template.</cmd>
+         </step>
+         <step>
+            <cmd>In Contracts pane, click the Home icon (<image placement="inline" width="20" href="../../global_images/images/256531474.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to <uicontrol>Work &gt;Clauses</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>The Clauses pane lists all the clauses present in your template. Select a clause from the list and click the Settings icon<uicontrol/>(<image placement="inline" width="20" href="../../global_images/images/256529252.png" class="- topic/image "/>) next to the clause name .</cmd>
+         </step>
+         <step>
+            <cmd>In the Properties pane, verify that the Read-Only property is checked and cannot be changed.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p platform="conga">Your template clause will now have delete read-only properties.</p>
+         <note type="warning">
+            <ul>
+               <li>Clauses become uneditable after you insert them into a template.</li>
+               <li>You can only delete Delete Read-Only clauses through the Doc Clauses tab </li>
+            </ul>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

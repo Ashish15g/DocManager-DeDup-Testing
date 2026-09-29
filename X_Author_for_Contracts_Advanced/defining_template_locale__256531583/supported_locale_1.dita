@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_DefiningTemplateLocalev20240711_SupportedLocale1" xml:lang="en">
+   <title>Supported Locale</title>
+   <conbody>
+      <p platform="salesforce">English (US), English (UK), English (Canada), English (Ireland), Italian, German, Chinese, Japanese, Korean, Thai, Norwegian, Swedish, Russian, Portuguese, Polish, Greek (Greece), and Spanish are the standard locales that are available in Conga CLM. You can configure custom locales in Conga CLM. For more information, see <i>Adding Custom Locale topic</i> in Conga CLM<i>on Salesforce Administrator Guide</i>.</p>
+      <note type="note">
+         <p>
+            <b>Note</b>
+         </p>
+         <p platform="salesforce">If a locale is deleted in Conga CLM that is being used in a template at the template level and you check out and check in the template, the deleted locale is replaced with the first value of the Locale dropdown. If a locale is deleted in Conga CLM that is being used in a template at the field level and you navigate to the Template Fields and view the field details, the Locale field is set to blank. If all the locales are deleted in Conga CLM, the Locale field is set to English (US).</p>
+      </note>
+   </conbody>
+</concept>

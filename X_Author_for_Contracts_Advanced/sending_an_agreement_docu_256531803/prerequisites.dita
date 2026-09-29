@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_SendinganAgreementDocumentforParallelReviewv20240711_Prerequisites" xml:lang="en">
+   <title>Prerequisites</title>
+   <conbody>
+      <ul>
+         <li>You have enabled the Parallel Review<i/>comply system property in CLM to view the <b>Send for Review and Check-in </b>button on the latest version of the agreement document.</li>
+         <li>You have checked out the latest version of the agreement document for every template to send for review.</li>
+         <li>When you click Send for Review and Check-in, you can view With Redlines, Without Redlines, and Final - to be signed Save Options according to the custom permissions available for your profile. <p>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Custom Permission in Contract Management</p>
+                           </entry>
+                           <entry>
+                              <p>Save option available in X-Author for Contracts Advanced</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>XA_CheckinAsFinal</p>
+                           </entry>
+                           <entry>
+                              <p>Final - to be signed, Without Redlines, and With Redlines</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>XA_CheckInWithoutRedlines</p>
+                           </entry>
+                           <entry>
+                              <p>Without Redlines and With Redlines</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>XA_CheckInWithRedlines</p>
+                           </entry>
+                           <entry>
+                              <p>With Redlines</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+            <p>If all the custom permissions are disabled, you will see only the Save Options. For more information on how to configure custom permissions, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/assigning-master-profile-and-custom-profile-permissions-to-user-profiles-231212372.html" format="html" scope="external">Assigning Custom Permissions to User Profiles</xref> in CLM.</p>
+         </li>
+      </ul>
+   </conbody>
+</concept>

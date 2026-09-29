@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_RegeneratinganAgreementDocumentv20240711_Toregenerateanagreementdocument" xml:lang="en">
+   <title>To regenerate an agreement document</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In the Contracts pane, go to Start tab &gt; Search &gt; Search Agreements. It displays all the agreement ordered by modified date.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the agreement name or number as the search keyword and click the Search icon (<image placement="inline" width="25" href="../attachments/256531784/256531783.png" class="- topic/image "/>).</cmd>
+         </step>
+         <step>
+            <cmd>From the search results, click the Expand button (<image placement="inline" width="20" href="../attachments/256531784/256531782.png" class="- topic/image "/>) of the agreement you want to open. In the expanded description, click <uicontrol>Documents</uicontrol>. This opens the Agreement Details page that lists all the versions of the document.</cmd>
+         </step>
+         <step>
+            <cmd>To open an agreement document version, click the More button (<image placement="inline" width="17" href="../attachments/256531784/256531781.png" class="- topic/image "/>) next to the version and click <uicontrol>Open</uicontrol>. The document is opened in a new Microsoft Word instance. The document is automatically opened and locked by you (You'll see a message saying Document is locked by you). This means that your agreement is opened.</cmd>
+         </step>
+         <step>
+            <cmd>To regenerate the agreement, click the Work tab, click the More button (<image placement="inline" width="17" href="../attachments/256531784/256531780.png" class="- topic/image "/>). This opens the Regenerate Agreement dialog box that lists all the templates.</cmd>
+         </step>
+         <step>
+            <cmd>Select the Regenerate option at the bottom of the window. Now, you can select the required template from the list available. By default, the previously used template will be selected.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Submit</uicontrol> to regenerate agreement in new template. Click <uicontrol>Cancel</uicontrol> to return to agreement document.</cmd>
+         </step>
+         <step>
+            <cmd>To regenerate the agreement with redlines, click the Work tab, click More button (<image placement="inline" width="17" href="../attachments/256531784/256531779.png" class="- topic/image "/>) and click <uicontrol>Regenerate</uicontrol>. This opens the Regenerate Agreement dialog box that lists all the templates.</cmd>
+         </step>
+         <step>
+            <cmd>Select the Regenerate with Redlines option at the bottom of the window. By default, the previously used template will be selected, and the other templates will be disabled.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Submit</uicontrol> to regenerate agreement in new template. Click <uicontrol>Cancel</uicontrol> to return to agreement document.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The regenerated document opens in a new Microsoft Word instance. Note that if the xa_disableautocheckout profile permission is set to true in Conga CLM, after regenerating the document, you will only see the confirmation message. The document will not open in a new instance. For more information on disabling auto check out, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/assigning-master-profile-and-custom-profile-permissions-to-user-profiles-231212372.html" format="html" scope="external">Assigning Custom Permissions to User Profiles</xref>.</p>
+      </postreq>
+   </taskbody>
+</task>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ExecutingActionsSuppressMessageValidations" xml:lang="en">
+   <title>Suppress Message Validations</title>
+   <conbody>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>When no records found in a Save Action check box (App Settings)</p>
+                     </entry>
+                     <entry>
+                        <p>Suppress Save Message check box (Action Flow)</p>
+                     </entry>
+                     <entry>
+                        <p>Behavior</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Yes</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>The message is not displayed.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>The message is displayed.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>Yes</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>No Records Found for Save</b> message is displayed.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Yes</p>
+                     </entry>
+                     <entry>
+                        <p>Yes</p>
+                     </entry>
+                     <entry>
+                        <p>The message is not displayed.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>When all records are saved successfully in a Save Action (App Settings)</p>
+                     </entry>
+                     <entry>
+                        <p>Suppress Save Message check box (Action Flow)</p>
+                     </entry>
+                     <entry>
+                        <p>Behavior</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>The message for each Save action is displayed.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>Yes</p>
+                     </entry>
+                     <entry>
+                        <p>The message is not displayed.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Yes</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>The message is not displayed.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Yes</p>
+                     </entry>
+                     <entry>
+                        <p>Yes</p>
+                     </entry>
+                     <entry>
+                        <p>The message is not displayed.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

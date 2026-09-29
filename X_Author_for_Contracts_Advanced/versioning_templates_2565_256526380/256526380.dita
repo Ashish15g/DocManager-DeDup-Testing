@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d526aA" xml:lang="en">
+   <title>Versioning Templates</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Sep 29, 2023"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>Template Versioning provides a solution to version documents at the template level to track template versions against generated documents. Your organization's policies, requirements, legal and business practices may change over time, requiring templates to be updated. Rather than manually keeping track of template iterations, you can use template versioning to track and manage every version of your template throughout its lifecycle. Template versioning maintains those different versions as the template changes, giving template admins the ability to activate specific template versions based on their needs and to observe how the template looked at every stage in the authoring process. Template versioning applies to all types of templates in your library.</p>
+      <p>To summarize, template versioning allows template admins to:</p>
+      <ul>
+         <li>Survey older contracts by viewing their corresponding template version to understand what was in the template at generation.</li>
+         <li>Revert to previous template versions.</li>
+         <li>Clone template versions to begin a new template lifecycle.</li>
+         <li>Understand the growth and evolution of a given template.</li>
+      </ul>
+      <p>The following sections in this guide provide instructions for managing templates in X-Author for Contracts for orgs with Template Versioning enabled:</p>
+      <p>The behavior for versioned templates is different wherever it is described. All other X-Author for Contracts functionality remains unchanged.</p>
+      <p>To use Template Versioning you must enabled it for your org. For more information, see 
+<xref href="https://documentation.conga.com/clm/latest/configuring-template-versioning-143884791.html" format="html" scope="external">Configuring Template Versioning</xref> in Conga CLM.</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <link href="../creating_new_template_ver_256528249/256528249.dita" format="dita">
+            <linktext>Creating New Template Versions</linktext>
+         </link>
+         <link href="../opening_template_versions_256531593/256531593.dita" format="dita">
+            <linktext>Opening Template Versions</linktext>
+         </link>
+         <link href="../locking_and_unlocking_tem_256528275/256528275.dita" format="dita">
+            <linktext>Locking and Unlocking Templates</linktext>
+         </link>
+         <link href="../checking_in_template_vers_256528279/256528279.dita" format="dita">
+            <linktext>Checking In Template Versions</linktext>
+         </link>
+         <link href="../cloning_template_versions_256531597/256531597.dita" format="dita">
+            <linktext>Cloning Template Versions</linktext>
+         </link>
+      </linklist>
+   </related-links>
+</concept>

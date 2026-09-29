@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="LaunchinganXAuthorforExcelAppfromMicrosoftDynamicsDefiningtheOpeninExcelButton"
+      xml:lang="en">
+   <title>Defining the Open in Excel Button</title>
+   <taskbody>
+      <context>
+         <p>Continue to follow the instructions on the Ribbon Workbench help page to <uicontrol>create your button</uicontrol> and define your <uicontrol>button command</uicontrol>.</p>
+         <note type="note">
+            <p>
+               <uicontrol>Where should I put the Edit in Excel button</uicontrol>
+            </p>
+            <p>You create the button by clicking on it in the Toolbox and dragging it to <uicontrol>Form</uicontrol> tab in the Ribbon Workbench.</p>
+            <p>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="414"
+                         href="../attachments/98667729/98668029.png"/>
+               </fig>
+            </p>
+            <p>After the button is created, make sure to specify a <uicontrol>Label</uicontrol> and a 16x16 and 32x32 image. The button Label also automatically defines the button <uicontrol>Command </uicontrol>name.</p>
+            <p>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="583"
+                         href="../attachments/98667729/98668030.png"/>
+               </fig>
+            </p>
+         </note>
+         <p>Because the button uses a JavaScript action to invoke Excel, you will need to specify the following in the Command Properties.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>From the Solutions page, click on the <uicontrol>Ribbon Workbench</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="500"
+                         href="../attachments/98667729/98668031.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>From the Load Solution pop-up, select the unmanaged solution you created for the button and click <uicontrol>OK</uicontrol>. This may take several moments to load.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="280"
+                         href="../attachments/98667729/98668032.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>From the Solution Elements pane of the Command Bar, click on the Entity picklist and select the entity where you created the button.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="363"
+                         href="../attachments/98667729/98668033.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Expand the commands section and click on the command you defined for the button.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="361"
+                         href="../attachments/98667729/98668034.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>From the Command Properties pane, click <uicontrol>Add Action</uicontrol> and choose <uicontrol>Javascript Action</uicontrol> from the picklist.</cmd>
+            <info>
+               <fig>
+                  <image height="76"
+                         placement="break"
+                         width="208"
+                         href="../attachments/98667729/98668035.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click the <image placement="inline" href="../attachments/98667729/98668036.png"/> icon to find the Web Resource you created that represents the JavaScript code in the solution.</cmd>
+            <info>
+               <fig>
+                  <image height="222"
+                         placement="break"
+                         width="832"
+                         href="../attachments/98667729/98668037.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Finally, you need to add the <uicontrol>Function Name</uicontrol> from the script to the action. Enter "OpenInExcel" as the function name.</cmd>
+            <info>
+               <fig>
+                  <image height="220"
+                         placement="break"
+                         width="812"
+                         href="../attachments/98667729/98668038.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>From the top of the Ribbon Workbench, click <uicontrol>Publish</uicontrol>.
+               </cmd>
+            <info>
+               <p>The button is now ready to use from any record for the defined entity.</p>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

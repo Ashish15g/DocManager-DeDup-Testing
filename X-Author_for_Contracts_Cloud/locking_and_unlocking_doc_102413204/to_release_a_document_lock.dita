@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="LockingandUnlockingDocuments_Toreleaseadocumentlock" xml:lang="en">
+   <title>To release a document lock</title>
+   <taskbody>
+      <context>
+         <p>Before you can release a lock on a document, it must be opened in X-Author Contracts.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>From the X-Author pane, click the <uicontrol>Lock Status</uicontrol> button. The Lock Status page shows agreement details and information on the current document lock.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Release Lock</uicontrol> on the Lock Status page.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The document page refreshes and shows the <uicontrol>Start</uicontrol> tab of X-Author Contracts. You cannot access the <uicontrol>Work</uicontrol> and <uicontrol>Finish</uicontrol> tabs of X-Author Contracts after releasing the lock. When you click the <uicontrol>Lock Status</uicontrol> icon, the <uicontrol>Acquire Lock</uicontrol> button replaces the <uicontrol>Release Lock</uicontrol> button in the Lock Status page.</p>
+         <note type="note">
+            <p>If you released a document lock by mistake and want to continue working with the document, go to the <uicontrol>Lock Status</uicontrol> page and click <uicontrol>Acquire Lock</uicontrol>.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

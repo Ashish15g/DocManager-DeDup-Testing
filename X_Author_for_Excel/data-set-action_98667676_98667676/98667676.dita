@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d129aA" xml:lang="en">
+   <title>Data Set Action</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="note">
+         <p>This feature relates to Salesforce and hence, it is not supported in Microsoft Dynamics and Apttus Omni.</p>
+      </note>
+      <p>Salesforce has various query limitations:</p>
+      <ol>
+         <li>SOQL statements cannot have more than one level of sub-query.</li>
+         <li>Sub-queries cannot be executed when there is an 'OR' clause in the filter.</li>
+         <li>SOQL statements cannot exceed 20,000 characters in length.</li>
+      </ol>
+      <p>If your query exceeds 20K characters, a SOQL error appears stating the query cannot exceed 20,000 characters in length. X-Author helps overcome these limitations using a combination of automated functionality and the Data Set Action (simulates a SQL union function).</p>
+      <p>X-Author checks the queries in runtime and automatically runs sub-queries and data chunking functionality to overcome a &gt;20K character query. If during testing you find that even this is insufficient, then create a Data Set Action where you can break the query action into multiple query actions and use the query output as an input to the Data Set action.</p>
+      <p>Using the Data Set Action, you can merge the output of two queries into a single Data Set based on the OR clause or AND clause. When you specify the 'OR' clause for query outputs, one output Data Set is created by the union of the two query outputs. When you specify the AND clause for query outputs, one output Data Set is created by the intersection of two query outputs.</p>
+   </conbody>
+</concept>

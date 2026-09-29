@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_UnlockingReadOnlyClausesv20240711_TounlockorlockRead_Onlyclauses" xml:lang="en">
+   <title>To unlock or lock Read-Only clauses</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, go to Start tab, search and open a generated agreement document containing read-only clauses.</cmd>
+         </step>
+         <step>
+            <cmd>Go to Work tab &gt; Unlock Clauses. All the read-only clauses in the agreement document become editable.</cmd>
+            <info>
+               <p>If there are no read-only clauses in the agreement document and you select Unlock Clauses, an error message is displayed.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Make the required changes to the read-only clauses or delete read-only clauses. </cmd>
+            <info>
+               <p>To delete a read-only clause, see 
+<xref href="../making_clauses_delete_rea_256528031/256528031.dita" format="dita">making clauses delete read-only.</xref>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Go to Work tab &gt; Lock Clauses.</cmd>
+            <info>
+               <p>The read-only clauses cannot be modified. You cannot undo changes after the read-only clauses are locked.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Check in the agreement document.</cmd>
+            <info>
+               <p>If you do not lock read-only clauses and check in the agreement document, the read-only clauses get locked automatically.</p>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>
+               <uicontrol>Note</uicontrol>
+            </p>
+            <p>You can view modified unlocked read-only clauses on the Reconciliation page or Agreement Clauses tab.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

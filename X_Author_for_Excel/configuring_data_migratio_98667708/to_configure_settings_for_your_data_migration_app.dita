@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ConfiguringDataMigrationAppSettingsToconfiguresettingsforyourDataMigrationApp"
+      xml:lang="en">
+   <title>To configure settings for your Data Migration App</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the Data Migration screen, click on <uicontrol>Settings</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="82"
+                         placement="break"
+                         width="375"
+                         href="../attachments/98667708/98667959.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Specify values for your app settings. Refer to the table below for a list of settings and their descriptions.</cmd>
+            <info>
+               <p>
+                  <fig>
+                     <image height="209"
+                            placement="break"
+                            width="463"
+                            href="../attachments/98667708/190354553.png"/>
+                  </fig>
+               </p>
+               <p>
+                  <table>
+                     <tgroup cols="3">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <colspec colname="col3"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Setting</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                              <entry>
+                                 <p>Guidance</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Export All Suffix</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter custom text to replace "All" for the "Export All" button of the app.</p>
+                              </entry>
+                              <entry>
+                                 <p>Limit the suffix to fit text in the X-Author ribbon.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Export Selective Suffix</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter custom text to replace "Selective" for the "Export Selective" button of the app.</p>
+                              </entry>
+                              <entry>
+                                 <p>Limit the suffix to fit text in the X-Author ribbon. The Suffix should represent filters defined for your Objects.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>OK</uicontrol> to apply your settings.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

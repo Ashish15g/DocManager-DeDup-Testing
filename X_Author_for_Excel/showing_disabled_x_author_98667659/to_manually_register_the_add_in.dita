@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ShowingDisabledXAuthorAddinTabsTomanuallyregistertheAddIn"
+      xml:lang="en">
+   <title>To manually register the Add-In</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Start Excel and select <menucascade>
+                  <uicontrol>File </uicontrol>
+                  <uicontrol> Options</uicontrol>
+               </menucascade> to display the Excel Options dialog.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add-Ins</uicontrol>, select <uicontrol>COM Add-ins</uicontrol> from the Manage list, and click <uicontrol>Go</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the <uicontrol>Apttus X-Author Designer</uicontrol> and <uicontrol>X-Author for Excel</uicontrol> check boxes and click <uicontrol>OK</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <fig>
+            <image height="250"
+                   placement="break"
+                   href="../attachments/98667659/98667859.png"/>
+         </fig>
+         <p>The add-ins are now available in the Excel ribbon. You may need to restart Excel for the tabs to display as expected.</p>
+      </postreq>
+   </taskbody>
+</task>

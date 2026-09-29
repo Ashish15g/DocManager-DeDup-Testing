@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="LockingandUnlockingDocuments_releaseLock" xml:lang="en">
+   <title>To release a document lock</title>
+   <taskbody>
+      <context>
+         <p>Before you can release a lock on a document, it must be checked out. Releasing a lock reverts the check-out of the document you are working on <i>without checking it in</i>. You can only release a lock when you have the document open in X-Author.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>From the X-Author pane, click on the <image placement="inline" width="16"
+                  href="../attachments/45220101/49676309.png" id="image_cp1_gkn_12c"
+                  /><uicontrol>Lock Status</uicontrol> tab icon.</cmd>
+            <stepresult>
+               <p>The Lock Status page shows agreement details and information on the current
+                  document lock.</p>
+               <fig id="fig_lgl_r4j_12c">
+                  <image height="400" placement="break" href="../attachments/45220101/49676310.png"
+                     id="image_mgl_r4j_12c"/>
+               </fig>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Release Lock</uicontrol> on the Lock Status page.</cmd>
+         </step>
+         <step>
+            <cmd>If you chose to release the lock, the document check-out is reverted. Any changes
+               you made while the document was checked out are not saved.</cmd>
+            <stepresult>
+               <p> The page refreshes to reflect unlocked status and most menu options are
+                  disabled.</p>
+               <fig id="fig_px2_m2q_12c">
+                  <image height="400" placement="break" href="../attachments/45220101/49676311.png"
+                     id="image_rx2_m2q_12c"/>
+               </fig>
+            </stepresult>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>If you release a document lock in error and want to continue working with the document, go to the Lock Status page and click <uicontrol>Acquire Lock</uicontrol>.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

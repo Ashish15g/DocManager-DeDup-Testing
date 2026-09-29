@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="DeleteActionLicenseWsEp" xml:lang="en">
+   <title>To update the License Webservice Endpoint custom setting</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <menucascade>
+                  <uicontrol>Setup </uicontrol>
+                  <uicontrol> App Setup </uicontrol>
+                  <uicontrol> Develop </uicontrol>
+                  <uicontrol> Custom Settings</uicontrol>
+               </menucascade>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Manage</uicontrol> for <uicontrol>X-Author for Excel System Properties</uicontrol> and click <uicontrol>New</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In <uicontrol>Name</uicontrol>, type <b>
+                  <i>System Properties</i>
+               </b> as the data set name.</cmd>
+         </step>
+         <step>
+            <cmd>In <uicontrol>License Webservice Endpoint</uicontrol>, enter <xref href="https://ls.apttus.net:8443/cgi-bin/1.3/LicenseServer/Bin/LSCGI.exe"
+                     format="html"
+                     scope="external">
+                  <u>https://ls.apttus.net:8443/cgi-bin/1.3/LicenseServer/Bin/LSCGI.exe</u>
+               </xref>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

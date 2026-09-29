@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="SyncingAppsToviewandsyncfielddatatypes" xml:lang="en">
+   <title>To view and sync field data types</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author Designer ribbon, open the app you want to sync.</cmd>
+         </step>
+         <step>
+            <cmd>From the Admin section of the X-Author Designer ribbon, click <uicontrol>Sync App</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Review the Sync App Summary. Click the link next to Field Data Types in the Summary or on <uicontrol># Field Data Types</uicontrol> in the sidebar.</cmd>
+         </step>
+         <step>
+            <cmd>Review the list of mismatched field data types. </cmd>
+         </step>
+         <step>
+            <cmd>Double-click on a row to display a pop-up and to view all areas of the App with that field.</cmd>
+            <info>
+               <fig>
+                  <image height="199"
+                         placement="break"
+                         width="366"
+                         href="../attachments/98667713/98667784.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>To sync incorrect data types with the data types in your environment, select one or more check boxes and click <uicontrol>Sync Fields</uicontrol>. </cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>OK</uicontrol> to close the Sync App dialog.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Objects </uicontrol>to verify that the field types have been properly synced.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="697"
+                         href="../attachments/98667713/98667786.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd> Click <uicontrol>Save App</uicontrol> to save your changes.
+            </cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>
+               <uicontrol>Best Practice</uicontrol>
+            </p>
+            <p>After you have performed all Sync App operations, choose Sync App again to double-check that there are no more mismatches or discrepancies to validate against your environment.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

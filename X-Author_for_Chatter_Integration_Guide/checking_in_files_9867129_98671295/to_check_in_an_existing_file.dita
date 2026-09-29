@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CheckinginFiles_Tocheck_inanexistingfile" xml:lang="en">
+   <title>To check-in an existing file</title>
+   <taskbody>
+      <prereq id="prereq_y2d_mdw_12c">
+         <p>There must already be a version of the file in Salesforce.</p>
+      </prereq><steps>
+         <step>
+            <cmd>Click <uicontrol> Check-in</uicontrol> from the X-Author Chatter ribbon.</cmd>
+         </step>
+         <step>
+            <cmd>Enter comments in the What changed field and click <uicontrol>OK</uicontrol>.</cmd>
+            <info>
+               <p>The filename cannot be changed, ensuring you are checking in a new revision of the
+                  existing file.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>OK</uicontrol>, in the confirmation dialog, which indicates the
+               version of the file</cmd>
+         </step>
+      </steps>
+      <result id="result_pqf_pdw_12c">
+         <p>The new version of the file is in Salesforce.</p>
+      </result></taskbody>
+</task>

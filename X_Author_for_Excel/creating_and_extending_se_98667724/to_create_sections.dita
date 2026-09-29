@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CreatingandExtendingSections_Tocreatesections" xml:lang="en">
+   <title>To create sections</title>
+   <taskbody>
+      <context>
+         <p>You must have at least one object selected in Objects.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>From the X-Author Designer ribbon, click <uicontrol>Matrix Map</uicontrol>.
+            </cmd>
+            <info>
+               <fig>
+                  <image height="158"
+                         placement="break"
+                         width="476"
+                         href="../attachments/98667724/98667833.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Create</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="500"
+                         href="../attachments/98667724/98667829.png"/>
+               </fig>The Matrix Map pane opens on the right side of Excel.</info>
+         </step>
+         <step>
+            <cmd>Type a Name for the Matrix Map.
+               </cmd>
+            <info>
+               <p>If you are creating one Matrix Map, you can use <i>Map</i> or any other name. If you are using multiple Matrix Maps, then you need a more descriptive name to identify each one.</p>
+               <p>Each object and its fields selected in objects will be available for use in the Matrix Map. Objects are listed based on the object behavior from Objects (<uicontrol>Ind</uicontrol> and <uicontrol>List</uicontrol>). List fields are displayed by default. You can switch to Individual fields using the Type list.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Create a Row and Column Mapping for each section. </cmd>
+            <info>
+               <ol>
+                  <li>Drag a List field onto the worksheet. When you release the mouse, a pop-up window appears.<fig>
+                        <image placement="break"
+                               width="300"
+                               href="../attachments/98667724/98667830.png"/>
+                     </fig>
+                  </li>
+                  <li>Select either the <uicontrol>Row</uicontrol> or <uicontrol>Column</uicontrol> radio button. The Rendering Type, Value Type, and Sort options are displayed. All of these work together to determine how row or column values are populated.</li>
+                  <li>Select a <uicontrol>Rendering Type</uicontrol>.<ul>
+                        <li>
+                           <uicontrol>Static</uicontrol>: This requires you to enter the cell value manually or X-Author uses the Field Label.</li>
+                        <li>
+                           <uicontrol>Dynamic</uicontrol>: Field data is retrieved automatically based on the data getter actions.</li>
+                     </ul>
+                  </li>
+                  <li>Select a <uicontrol>Value Type</uicontrol>.<p>If you select the Dynamic Rendering Type, this option is unavailable.</p>If you select <uicontrol>Static</uicontrol> from <uicontrol>Rendering Type</uicontrol>, this option becomes available with the following options.<ul>
+                        <li>
+                           <uicontrol>Field Label</uicontrol>: Sometimes, the row or column label and the data value will use the same field mapping. This occurs when you have multiple fields from the same record in the section. This is a placeholder for the Designer to use the Field Name as the row or column label. It is the one instance where the intersecting value is determined from just the column or row mapping plus the data value. For example, if, for a single opportunity, you want to display three fields—amount, volume, and average selling price—then, in the rows, the field names would be described one on top of the other, and, in the data, you would drag the field and the value of that field would be rendered.</li>
+                        <li>
+                           <uicontrol>Field Value</uicontrol>: Enter the value of the field to be used in determining the data value. If you look at the previous example, the field value would be either Revenue or Cost of Revenue.</li>
+                     </ul>
+                  </li>
+                  <li>Click <uicontrol>OK</uicontrol> to complete the settings for that field. <fig>
+                        <image placement="break"
+                               width="300"
+                               href="../attachments/98667724/98667831.png"/>
+                     </fig>
+                  </li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>Create <uicontrol>Data Mappings</uicontrol> for each section. Make sure that the cell you are mapping to is an intersection of a row and column mapping.</cmd>
+            <info>
+               <ol>
+                  <li>Once you have created column and row mappings, you can drag and drop the field that represents the intersection. When you drop the field, the pop up window will appear and, in this case, the radio button will automatically default to Data. It uses the closest row and column combination.</li>
+                  <li>Enter a <uicontrol>Section Name</uicontrol> for the data or select an existing section name from the drop-down menu.</li>
+                  <li>Select a Row Lookup.</li>
+                  <li>
+                     <p>Select a Column Lookup.</p>
+                  </li>
+                  <li>Click <uicontrol>OK</uicontrol>.</li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol> and <uicontrol>Close</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save App</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

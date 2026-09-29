@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="LaunchinganXAuthorforExcelAppfromSalesforceAddinganExternalIDtotheQuery"
+         xml:lang="en">
+   <title>Adding an External ID to the Query</title>
+   <conbody>
+      <p>If this is an App that has no parent, such as a list of opportunities, make sure the query has the appropriate hard coded filters to retrieve the records you want.</p>
+      <p>If this is a parent/child App, then the query requires a filter to identify the parent field. For example, if the button is on the Opportunity related list for Accounts, then the Account Id is the parent id that is passed as a parameter.</p>
+   </conbody>
+</concept>

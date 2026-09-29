@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aA" xml:lang="en">
+   <title>Converting Templates</title>
+   <prolog>
+      <author>user-090d1</author>
+      <critdates>
+         <created date="Jul 23, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Migration Manager on Salesforce Summer 2019 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>In X-Author Migration Manager, you can use an automated step-by-step wizard to convert templates from pre-FX2 format to FX2 format. FX2 format lets you create templates with desirable layout and design. To use X-Author Migration Manager to convert templates, you must create a new migration configuration.</p>
+      <p>During the conversion, X-Author Migration Manager creates an FX2 clone of the original pre-FX2 template, with the following properties:</p>
+      <ul>
+         <li>Same name as the pre-FX2 template</li>
+         <li>
+            <b>IsActive</b> checkbox not checked</li>
+      </ul>
+      <p>If your org already contains FX2 templates that match any templates chosen for conversion, X-Author Migration Manager automatically skips the template without creating a duplicate.</p>
+      <p>
+         <b>Prerequisites</b>
+      </p>
+      <ul>
+         <li>Contract Management 7.255 or higher must be installed in your org (to support FX2 format).</li>
+         <li>If your org is still using templates created in 6.x, you must <xref href="../upgrading_templates_10241_102415192/102415192.dita" format="dita">upgrade</xref> your templates first.</li>
+         <li>Close all Microsoft Office products before running a migration.</li>
+         <li>Your org must have existing templates created in Pre-FX2 format.</li>
+      </ul>
+   </conbody>
+</concept>

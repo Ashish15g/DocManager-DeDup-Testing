@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MarkingClauses_Tomarkaclauseinanagreement" xml:lang="en">
+   <title>To mark a clause in an agreement</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Hover over the <uicontrol>Playbook</uicontrol> tab and select
+                  <uicontrol>Clauses</uicontrol> to open the Playbook.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight the content in the contract to be marked as a clause. </cmd>
+            <info>
+               <fig>
+                  <image placement="break" width="600" href="../attachments/45220111/49676328.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on the <image placement="inline" width="20"
+                  href="../attachments/45220111/49676329.png" id="image_jzs_p4n_12c"
+                  /><uicontrol>Mark Clause </uicontrol> icon next to the clause in the Playbook
+               which you want to associate with the content.</cmd>
+            <info>
+               <fig>
+                  <image placement="break" width="700" href="../attachments/45220111/49676331.png"/>
+               </fig>
+               <p>The Mark Clause form appears inside the X-Author pane.</p>
+               <fig>
+                  <image height="400" placement="break" href="../attachments/45220111/49676333.png"
+                  />
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>The clause will be automatically marked as a 1-off instance of the clause for this agreement. Specify the following fields for marking the clause.</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <thead> <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row></thead>
+                        <tbody>
+                          
+                           <row>
+                              <entry>
+                                 <p>Clause Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a new name for the clause, or leave unmodified (Playbook clause name displayed by default).</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Action</p>
+                              </entry>
+                              <entry>
+                                 <p>By default, <i>Inserted </i>is chosen and is Read-Only.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Category</p>
+                              </entry>
+                              <entry>
+                                 <p>Select a category for your clause.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Sub Category</p>
+                              </entry>
+                              <entry>
+                                 <p>Select a sub category for your clause. Options in the list will change based on the category you selected.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Exception</p>
+                              </entry>
+                              <entry>
+                                 <p>Select a term exception record from the drop-down list to associate with your clause.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Risk Rating</p>
+                              </entry>
+                              <entry>
+                                 <p>Select an appropriate risk rating for your clause. Valid values are:<ul>
+                                       <li>Green</li>
+                                       <li>Red</li>
+                                       <li>Yellow</li>
+                                    </ul>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Materially Significant</p>
+                              </entry>
+                              <entry>
+                                 <p>Select this check box if you want to make your clause materially significant.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Clause Text (Selected)</p>
+                              </entry>
+                              <entry>
+                                 <p>This text area shows the selected text which you want to mark as a clause.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+               <note type="note">
+                  <p>Scroll past the Clause Text to view additional fields and buttons required to mark the clause.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Compare the text you have highlighted with the clause library text displayed in the
+               Playbook panel. Select <uicontrol>Replace current clause selection with the clause
+                  from library </uicontrol> if you want to replace the document content with the
+               text of the clause from Playbook. </cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol> to apply Apttus clause properties to the
+               highlighted content and mark the content as a smart clause. </cmd>
+         </step>
+      </steps>
+      <result id="result_ys2_jhq_12c">
+         <p>When you check in and reconcile your agreement document, the clause will be displayed as
+            inserted in the <uicontrol>Agreement Clauses</uicontrol> related list and is listed in
+            the Document panel under <uicontrol>Clauses</uicontrol>.</p>
+         <note id="note_f4s_jhq_12c">
+            <p>If you decide you want to unmark a clause during the same session in which you marked
+               it, you must use the <xref
+                  href="../working_with_clauses_4522_45220112/to_unmark_a_clause.dita#WorkingwithClauses_unmarkClause"
+                  >Document Panel</xref> to remove Apttus clause properties. Note that if you chose
+               to replace the text with a clause from the library, you cannot choose to unmark the
+               clause, it can only be deleted.</p>
+         </note>
+      </result>
+   </taskbody>
+</task>

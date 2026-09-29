@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ConfiguringPrestoAppsConfiguringaPrestoApp" xml:lang="en">
+   <title>Configuring a Presto App</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Create a new detail page button on your target object and configure the button setting as shown in the illustration below:</cmd>
+            <info>
+               <p>
+                  <fig>
+                     <image height="250"
+                            placement="break"
+                            width="463"
+                            href="../attachments/98667733/98667858.jpg"/>
+                  </fig>
+               </p>
+               <p>Text for a Button or Link URL must be set. Copy the code below into the text area.</p>
+               <pre xml:space="preserve">/apex/Apttus_XApps__EditInExcelLaunch?selectedRecordId={!Account.Id}
+&amp;"&amp;appName=Quote Calculator&amp;mode=touchless&amp;outputType=None"</pre>
+               <note type="note">
+                  <p>You can also set the information on a button, link or VF page by using the following API in a class: Apttus_XApps.EditInExcelLaunchController editLaunch = new Apttus_XApps.EditInExcelLaunchController('TestPresto2', recId,'XLSX'); where the first parameter is the App name, second one is the record ID, and third one is the output format. This API returns a boolean value. On successful execution, the API returns true otherwise false.</p>
+                  <p>To access the package for Presto as an API contact the Apttus Customer Excellence by raising a case with them or Apttus Release Management Team.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Replace the following section of the code:</cmd>
+            <choices>
+               <choice>
+                  <uicontrol>selectedRecordId</uicontrol> is the record id of the object that will trigger X-Author for Excel. For example if a button is created on the Account page, you will set the value as Account.Id.</choice>
+               <choice>
+                  <p>
+                     <uicontrol>appName</uicontrol> is the name specified in Edit in Excel setup. This is NOT the actual name of the X-Author for Excel app.</p>
+                  <p>For example, as seen in the picture below, the <i>appName will be Quote Calculator as specified in Edit in Excel setup</i> and NOT the actual name of X-Author for Excel app, which in this case is SFDC - Quote Calculator.<fig>
+                        <image height="316"
+                               placement="break"
+                               width="478"
+                               href="../attachments/98667733/98667857.png"/>
+                     </fig>
+                  </p>
+               </choice>
+               <choice>
+                  <uicontrol>outputType</uicontrol> can either be None, EXCEL or PDF. When it is set as Excel or PDF, Presto will attach the filled app template as an attachment to the selected record. The filename will be Template.xlsx or Template.pdf when output type is Excel or PDF respectively.</choice>
+            </choices>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="XAuthorforExcelRuntimeFunctionsPastefromMapping" xml:lang="en">
+   <title>Paste from Mapping</title>
+   <taskbody>
+      <context>
+         <p>This function is used during data migration between orgs and is specifically for copying data between source and target workbooks. Refer to <xref href="../migrating_data_between_or_98667703/98667703.dita"
+                  format="dita">Migrating Data Between Orgs</xref> for more details.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Open the Target App.</cmd>
+         </step>
+         <step>
+            <cmd>Click <menucascade>
+                  <uicontrol>Paste </uicontrol>
+                  <uicontrol> Paste from Mapping</uicontrol>
+               </menucascade>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the source workbook file that contains the data to be copied and click <uicontrol>Open</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Data is transferred from the source file to the Target App.</p>
+         <p/>
+         <fig>
+            <image height="147"
+                   placement="break"
+                   width="168"
+                   href="../attachments/98667731/98667976.png"/>
+         </fig>
+      </postreq>
+   </taskbody>
+</task>

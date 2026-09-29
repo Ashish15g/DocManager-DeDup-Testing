@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MakingFieldsSmartinaTemplatev20240711_Tomarkafieldassmart" xml:lang="en">
+   <title>To mark a field as smart</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Insert the field into your template by following the steps in 
+<xref href="../inserting_fields_in_templ_256531839/256531839.dita" format="dita">Inserting Fields in a Template</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>From the Templates pane, go to Work tab &gt; Fields. If you cannot see the Fields tab, click Dropdown (<image height="13" placement="inline" href="../attachments/256531542/256531541.png" class="- topic/image "/>) icon and select <uicontrol>Fields</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>The Fields page lists all fields in your template. Find the field in the list and click its name to highlight it in the document.</cmd>
+         </step>
+         <step>
+            <cmd>Click the Settings icon<uicontrol> </uicontrol>(<image placement="inline" width="16" href="../../global_images/images/256529252.png" class="- topic/image "/>) adjacent to the field name. It opens the field settings pane where you can find the field type (datatype) of a particular field and also the Name (API Name) of the field is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Toggle the Smart Field switch on and click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>To turn off the smartness property of a field, toggle the<uicontrol/>Smart Field switch in the properties page off.</p>
+         <note type="note">
+            <p>Fields inserted in the header or footer of the template document cannot be marked as smart.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

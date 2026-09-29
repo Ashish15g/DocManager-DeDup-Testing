@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d234aA" xml:lang="en">
+   <title>Performance Numbers for X-Author for Excel</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Oct 29, 2018"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>The information here details out performance numbers for X-Author for Excel. These numbers are based on uninterrupted create, update, upsert and delete operations. These apply to clients 4.7 and 5.x.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Operation</p>
+                     </entry>
+                     <entry>
+                        <p>Average Time (in seconds)</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Retrieving 10000 records</p>
+                     </entry>
+                     <entry>
+                        <p>10.13</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Retrieving 50000 records</p>
+                     </entry>
+                     <entry>
+                        <p>51.64</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Retrieving 50000 records and modifying 10</p>
+                     </entry>
+                     <entry>
+                        <p>10.65</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Inserting 5000 records</p>
+                     </entry>
+                     <entry>
+                        <p>51.38</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Deleting 5000 records</p>
+                     </entry>
+                     <entry>
+                        <p>34.11</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

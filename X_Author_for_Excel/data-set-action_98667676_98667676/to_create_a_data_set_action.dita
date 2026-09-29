@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="DataSetActionTocreateaDataSetaction" xml:lang="en">
+   <title>To create a Data Set action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click on the arrow beneath the <uicontrol>Actions</uicontrol> button and select <uicontrol>Data Set</uicontrol>. </cmd>
+         </step>
+         <step>
+            <cmd>Enter an <uicontrol>Action Name</uicontrol>. Use a descriptive name. For example, Data Set Product Name.</cmd>
+         </step>
+         <step>
+            <cmd>From <uicontrol>the Object drop-down list</uicontrol>, select an Object. The object of the Data Set must be the same as those of the split Query Actions. </cmd>
+            <info>
+               <fig>
+                  <image height="211"
+                         placement="break"
+                         width="328"
+                         href="../attachments/98667676/98668111.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Specify the operator for the Data Set as AND or OR. The output of the different queries is merged into the Data Set, either as a union or an intersection.</cmd>
+         </step>
+         <step>
+            <cmd> Navigate to Action Flows, do any of the following:</cmd>
+            <info>
+               <ol>
+                  <li>To create a new Action flow, click <uicontrol>Create</uicontrol>, and enter a name for the action flow. Click <uicontrol>Add a step</uicontrol>.</li>
+                  <li>To add a Data Set to an existing Action Flow, select the existing Action Flow and click <uicontrol>Edit</uicontrol>. Click <uicontrol>Add a Step</uicontrol>.</li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter the <uicontrol>Step Name</uicontrol>.</cmd>
+            <info>
+               <note type="note">
+                  <p>Before you create a Data Set action step for an Action flow, make sure that steps for the Query Actions exist.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the Data Set Action. The Data Set Action that you specify must have subsequent Query Action flows created for it based on the object you select.</cmd>
+         </step>
+         <step>
+            <cmd>Specify the name of the Data Set <uicontrol>Action Output</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Make sure to select the <uicontrol>Provide Input</uicontrol> and <uicontrol>Persist Data in Output</uicontrol> check boxes.</cmd>
+         </step>
+         <step>
+            <cmd>In the Action Input Area, specify the query actions from which the output is merged. </cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="600"
+                         href="../attachments/98667676/98668112.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Apply</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

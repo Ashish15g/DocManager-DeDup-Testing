@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="GettingStartedwithXAuthorforExcelDesignerPermission" xml:lang="en">
+   <title>To create a permission set for Designer users</title>
+   <conbody>
+      <p>Follow the standard Salesforce steps for creating a permission set and configure the following settings and permissions. After creating the permission set, assign it to one or more <b>Designer</b> users in your org.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry namest="col1" nameend="col2">
+                        <p>Designer Users</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Custom App Settings</p>
+                     </entry>
+                     <entry>
+                        <p>Apttus X-Author for Excel: Visible</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Tab Settings</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>X-Author for Excel: Default on</li>
+                              <li>Apps: Default on (Visible &amp; Available)</li>
+                              <li>App Licenses: Default on (Visible &amp; Available)</li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Custom Object &amp; Field Permissions</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <b>Permission Sets &gt; Permission Set Overview &gt; Object Settings &gt; Apps</b>
+                        </p>
+                        <ul>
+                           <li>Apps: Read / Create / Edit / Delete</li>
+                           <li>Field Permissions: Read All, Edit All
+                                    <fig>
+                                 <image height="400"
+                                        placement="break"
+                                        href="../attachments/98667661/98667869.png"/>
+                              </fig>
+                           </li>
+                        </ul>
+                        <p>
+                           <b>Permission Sets &gt; Permission Set Overview &gt; Object Settings &gt; App Assignments</b>
+                        </p>
+                        <ul>
+                           <li>App Assignments: Read / Create / Edit / Delete</li>
+                           <li>Field Permissions: Read All, Edit All<fig>
+                                 <image placement="break"
+                                        width="500"
+                                        href="../attachments/98667661/98667868.png"/>
+                              </fig>
+                           </li>
+                        </ul>
+                        <p>
+                           <b>Permission Sets &gt; Permission Set Overview &gt; Object Settings &gt; App Files
+                              </b>
+                        </p>
+                        <p>
+                           <b>Only required for Check-in/Check-out</b>
+                        </p>
+                        <ul>
+                           <li>App Files: Read / Create / Edit / Delete</li>
+                           <li>Field Permissions: Read All, Edit All<fig>
+                                 <image height="400"
+                                        placement="break"
+                                        href="../attachments/98667661/98667867.png"/>
+                              </fig>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Enabled Apex Class Access</p>
+                     </entry>
+                     <entry>
+                        <p>Apttus_XApps.AppBuilderWS</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Enabled Visualforce Page Access</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>Apttus_XApps.SearchSelectAction</li>
+                              <li>Apttus_XApps.Landing</li>
+                              <li>Apttus_XApps.LicenseManager</li>
+                              <li>Apttus_XAppsDS.DesignerInfo</li>
+                              <li>Apttus_XAppsDS.AppAssignmentOverview</li>
+                              <li>Apttus_XAppsDS.AppAssignmentUsers</li>
+                              <li>Apttus_XAppsDS.AppAssignmentProfiles</li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

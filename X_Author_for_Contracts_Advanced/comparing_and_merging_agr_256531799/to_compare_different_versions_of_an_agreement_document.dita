@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ComparingandMergingAgreementDocumentsv20240711_Tocomparedifferentversionsofanagreementdocument" xml:lang="en">
+   <title>To compare different versions of an agreement document</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced and open the Agreement Document.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane<uicontrol> </uicontrol>go to<uicontrol> </uicontrol>Work &gt; <uicontrol>Compare</uicontrol>. If you cannot see Compare under the Work tab, click the More button (<image placement="inline" width="16" href="../attachments/256531799/256531798.png" class="- topic/image "/>) and from the menu, select <uicontrol>Compare</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>To compare different versions from the same agreement record, select a version from "Select a version to compare or merge from" and then a different version from "Select a version to compare or merge with" and click <uicontrol>Compare</uicontrol>.</cmd>
+            <info>
+               <p>The document is opened in a new Microsoft Word instance. The document is automatically opened and locked by you (You'll see a message saying 'Document is locked by you'). This means that your contract is opened and you will be able to Preview Reconcile, Mark Clause, Mark Field, Update from CLM, Validate Fields, Update Fields, Update Clauses and Promote Clause. The new document is downloaded in the <i>Insert Comments and Track Changes</i> mode. It contains the differences between the two versions, in which tracked changes in the baseline document are accepted and changes in the selected document are shown as tracked changes.</p>
+               <note type="note">
+                  <ul>
+                     <li>In case one of the document versions that you are comparing is the currently opened document, then after comparison, a new Microsoft Word instance does not open.</li>
+                     <li>Note that if the xa_disableautocheckout profile permission is set to true in Conga CLM, after comparing the documents, you will only see the confirmation message. The document will not open in a new instance. For more information on disabling auto check out, see 
+<xref href="https://documentation.conga.com/clm/latest/assigning-custom-permissions-to-user-profiles-181310401.html" format="html" scope="external">Assigning Custom Permissions to User Profiles</xref>.</li>
+                  </ul>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Unprotect the document. For more information on un protecting the document, see 
+<xref href="https://documentation.conga.com/x-author-for-contracts/latest/locking-and-unlocking-documents-184419064.html" format="html" scope="external">Locking and Unlocking Documents</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>Right-click a comment and select Accept Change or Reject Change based on your requirement.</cmd>
+         </step>
+         <step>
+            <cmd>You can make the required changes and check in the document to create a new version of the agreement document.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

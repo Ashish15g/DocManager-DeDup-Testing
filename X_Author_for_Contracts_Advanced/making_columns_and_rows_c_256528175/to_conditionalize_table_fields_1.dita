@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MakingColumnsandRowsConditionalinaRepeatTableandRepeatSectionv20240620_Toconditionalizetablefields1" xml:lang="en">
+   <title>To conditionalize table fields</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Select the field in the repeat table. In the Work tab of the Templates pane, click the dropdown button (<image height="13" placement="inline" href="../attachments/256528175/256528162.png" class="- topic/image "/>) and select <uicontrol>Segments </uicontrol>and <uicontrol>click New Segment</uicontrol> to open the Segment Condition dialog.</cmd>
+         </step>
+         <step>
+            <cmd>Create a conditional expression or a complex expression using logical operators in the Segment Condition dialog. To create an expression enter values for:</cmd>
+            <info>
+               <p platform="salesforce">
+                  <table platform="salesforce">
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the field to set as a criterion. The Field drop-down shows the current fields and fields from the parent object, grouped hierarchically.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Operator</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the logical operator from the drop-down. This forms the relationship between the field and its value.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Value</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the value of the selected field.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add row</uicontrol> to create additional expressions for the same column. You can create up to nine filters for a single column.</cmd>
+         </step>
+         <step>
+            <cmd>Enter <uicontrol>Custom Logic</uicontrol> to add a logical relation between multiple rows. The supported filter logic operators are AND and OR. You can use parentheses to set precedence. For example, if you have five rows you can create a filter logic like, (((1 AND 3) OR (2 AND 4)) AND 5).  In the absence of custom logic, the default relationship between the rows is the Boolean operator AND.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Test</uicontrol> to check whether your filter logic expression is correct. If your logic is incorrect, you will see a message in red.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol> to save your table filters and return to your document.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p platform="salesforce">Similar to selecting a field in the repeat table and setting a segment condition for it, you can also enter your preferred text as a field inside a repeat table, select the text, and apply a condition to that text. The steps to apply a segment condition to the entered text is similar to the steps you need to follow for applying a condition to a field.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

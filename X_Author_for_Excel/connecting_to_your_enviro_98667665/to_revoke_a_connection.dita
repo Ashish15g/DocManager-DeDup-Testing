@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ConnectingtoyourEnvironmentfromExcel_Torevokeaconnection"
+      xml:lang="en">
+   <title>To revoke a connection</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Excel.</cmd>
+         </step>
+         <step>
+            <cmd>In the X-Author Designer ribbon menu, click <uicontrol>Switch Connection</uicontrol> and select Manage Connections. The <uicontrol>Manage Connections</uicontrol> window opens.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Revoke </uicontrol>button next to the connection you want to remove. The Revoke Access confirmation window opens.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Yes </uicontrol>to confirm the action.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The connection is no longer available in X-Author.</p>
+      </postreq>
+   </taskbody>
+</task>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="GettingStartedwithXAuthorforExcelTosetthefieldlevelpermissions"
+      xml:lang="en">
+   <title>To set the field-level permissions</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In Salesforce App Setup, go to <uicontrol>Create &gt; Objects &gt; App</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Custom Fields and Relationships</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Activated</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Set Field Level Security</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Make sure that the <uicontrol>Visible</uicontrol> check box is selected for every profile that requires app access.</cmd>
+         </step>
+         <step>
+            <cmd>Repeat steps 3 – 5 for the <uicontrol>UniqueId</uicontrol> custom field definition.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

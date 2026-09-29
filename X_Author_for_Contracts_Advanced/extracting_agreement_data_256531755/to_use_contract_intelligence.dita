@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ExtractingAgreementDataUsingContractIntelligenceforCLMv20240711_TouseContractIntelligence" xml:lang="en">
+   <title>To use Contract Intelligence</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Check in a third-party document as an offline agreement in X-Author for Contracts. For more information, see 
+<xref href="../creating_offline_agreemen_256531726/256531726.dita" format="dita">Creating Offline Agreements</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>Check out the offline agreement document.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, go to Work &gt; <uicontrol>Review Import Results</uicontrol>. If you do not see Review Import under the Work tab, click the More icon (<image placement="inline" width="20" href="../attachments/256531755/256531754.png" class="- topic/image "/>) and from the menu, select Review Import results.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Click <uicontrol>Review Import Results </uicontrol>to start data extraction. You can see the fields and clauses recognized from the document in X-Author for Contracts. The<uicontrol> </uicontrol>Doc Fields and Doc Clauses in Work tab shows the list of fields and clauses identified in the document. After extraction with Contract Intelligence, you can perform the following:</p>
+      </postreq>
+   </taskbody>
+   <related-links>
+      <linklist>
+         <link href="../reviewing_doc_fields_v202_256528817/256528817.dita" format="dita">
+            <linktext>Review Doc Fields</linktext>
+         </link>
+         <link href="../reviewing_doc_clauses_v20_256531752/256531752.dita" format="dita">
+            <linktext>Review Doc Clauses</linktext>
+         </link>
+      </linklist>
+   </related-links>
+</task>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MakingFieldsReadOnlyinaTemplatev20240711_Tomarkafieldread_only" xml:lang="en">
+   <title>To mark a field read-only</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Insert the field into your template by following the steps in 
+<xref href="../inserting_fields_in_templ_256531839/256531839.dita" format="dita">Inserting Fields into a Template.</xref>
+            </cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to <uicontrol>Work tab &gt; Fields</uicontrol>. If you cannot see the Fields tab, click the Dropdown icon<uicontrol/>(<image height="13" placement="inline" href="../attachments/256531531/256531530.png" class="- topic/image "/>) and select <uicontrol>Fields</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>The Fields page lists all fields present in your template. Find the field name and click to highlight it in the document.</cmd>
+         </step>
+         <step>
+            <cmd>Click the Settings icon<uicontrol/>(<image placement="inline" width="16" href="../../global_images/images/256529252.png" class="- topic/image "/>) adjacent to the field name. It opens the field settings pane where you can find the field type (datatype) of a particular field and also the Name (API Name) of the field is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Toggle the<uicontrol/>Read-Only Field switch on and click <uicontrol>Save.</uicontrol>
+            </cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The field is marked read-only.</p>
+         <note type="note">
+            <p>Fields inserted in the header and footer of the template document cannot be marked as read-only.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

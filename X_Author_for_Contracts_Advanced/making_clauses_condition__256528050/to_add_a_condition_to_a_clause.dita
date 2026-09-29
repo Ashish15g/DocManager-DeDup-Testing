@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MakingClausesConditionBasedinaTemplatev20240620_Toaddaconditiontoaclause" xml:lang="en">
+   <title>To add a condition to a clause</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>From the Contracts pane, click the Home button (<image placement="inline" width="16" href="../../global_images/images/256531474.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to <uicontrol>Work &gt; Clauses</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>The Clauses pane lists all the clauses present in your template. Select a clause from the list and click the settings icon (<image placement="inline" width="20" href="../../global_images/images/256529252.png" class="- topic/image "/>) next to the clause name.</cmd>
+         </step>
+         <step>
+            <cmd>In the Properties pane, click <uicontrol>Add Condition</uicontrol> to open the template expression builder.</cmd>
+         </step>
+         <step>
+            <cmd>Create your condition expression on the Condition page. To create a conditional expression, enter values for the following fields:</cmd>
+            <info>
+               <ul>
+                  <li>Field - Select the field which you want to set as the criteria for the condition. You must select a field name. The fields are listed and grouped according to their hierarchy.</li>
+                  <li>Operator - You must select the logical operator from the picklist. This forms the relationship between the field and its value.</li>
+                  <li>Value - Enter the value of the named field.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add row</uicontrol> to create additional expressions for the same column. You can create up to a maximum of 9 filters for a single column.</cmd>
+         </step>
+         <step>
+            <cmd>Enter Custom Logic to add a logical relation between multiple rows. The supported filter logic operators are AND and OR. You can use parentheses for setting the precedence. For example, if you have five rows you can create a filter logic like <codeph>(((1 AND 3) OR (2 AND 4)) AND 5)</codeph>.  In the absence of custom logic, the default relationship between the rows is the Boolean operator AND.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Test</uicontrol> to check whether your filter logic expression is correct. If your logic is incorrect, you will see a message in red.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol> to save the condition. The properties page shows the condition that you created.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p platform="conga">Your clause is made conditional and you will see a success message. A lightning icon (<image placement="inline" width="18" href="../attachments/256528050/256528041.png" class="- topic/image "/>) is displayed next to the clause: click it to view the conditions added to the clause.</p>
+      </postreq>
+   </taskbody>
+</task>

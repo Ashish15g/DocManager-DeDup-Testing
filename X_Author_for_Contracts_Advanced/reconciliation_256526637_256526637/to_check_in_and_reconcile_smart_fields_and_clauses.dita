@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Reconciliation_Tocheckinandreconcilesmartfieldsandclauses" xml:lang="en">
+   <title>To check in and reconcile smart fields and clauses</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and launch the X-Author for Contracts Advanced add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>After finishing working on the Contract Document, from the Contracts pane, click Finish to open the Check-In page.</cmd>
+         </step>
+         <step>
+            <cmd>Choose the <uicontrol>Save Options</uicontrol> for saving your document:</cmd>
+            <info>
+               <ol>
+                  <li>To check in the document with redlines, choose <uicontrol>With Redlines</uicontrol>.</li>
+                  <li>To check in the document without redlines (clean), choose <uicontrol>Without Redlines</uicontrol>.</li>
+                  <li>To check in the document as final, choose <uicontrol>Final - to be signed</uicontrol>.</li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the Reconcile checkbox and click <uicontrol>Save &amp; Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>This page shows all the smart field with changed values that are available for reconciliation. Review the<uicontrol/>CLM Value and Current Value of the changed smart fields in your document and click <uicontrol>Save &amp; Next</uicontrol>.</cmd>
+            <info>
+               <ul>
+                  <li>If multiple values are invalid, the screen displays a list of fields that need correction with the invalid values displayed in red. Click on a field to go to that field in your document. The selected field is also highlighted in the document. After you make your correction, click on the refresh icon in the upper right of the pane to remove that field from the list.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>This page shows the changed smart clauses that are available for reconciliation. Expand a clause from the list to review the Original and Edited content of the clause.</cmd>
+            <info>
+               <note type="note">
+                  <p>If you choose to check in the document without reconciling, changed smart field values will not be updated in the contract record and changes to clauses will not be reflected in the Clauses related list in Conga CLM. If you choose to check in the document with redlines, redlines and comments will be retained</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Finish</uicontrol> to check in the document with reconciliation.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p> Contract documents cannot be reconciled with the contract record as long as invalid
+               values exist in the document for smart fields. Go to Doc Fields pane to perform a
+               validation and correct any invalid field values.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

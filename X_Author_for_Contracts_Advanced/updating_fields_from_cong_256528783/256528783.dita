@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d381aA" xml:lang="en">
+   <title>Updating Fields from Conga CLM</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 17, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p platform="salesforce">
+         <b>Update from CLM</b> is an option available in the Work tab that allows you to update
+         smart fields and read-only fields in your agreement document with the current values in
+         Conga CLM. Update from CLM updates all header - second, and third-level smart fields in
+         your document, including:</p>
+      <ul platform="salesforce">
+         <li>Smart and read-only fields in the body of the agreement document.</li>
+         <li>Smart and read-only fields in sections, repeat sections and repeat sections with
+            conditions.</li>
+         <li>Smart and read-only fields in tables, repeat tables and repeat tables with
+            conditions.</li>
+         <li>Smart and read-only fields in generated clauses.</li>
+      </ul>
+      <note type="note" platform="salesforce">
+         <p>The following applies when you select Update from CLM:</p>
+         <ul>
+            <li>All edited smart field values and read-only field values are updated. You cannot
+               select and update for one specific field.</li>
+            <li>Fields cannot be updated to an empty (null) value.</li>
+         </ul>
+      </note>
+   </conbody>
+</concept>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_LoggingintoXAuthorforContractAdvancedv20240711_TologintotheAdvancedadd_in" xml:lang="en">
+   <title>To log into the X-Author for Contracts Advanced add-in</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open a new document or an existing document in Microsoft Word.</cmd>
+         </step>
+         <step>
+            <cmd>In the Home tab, click the <uicontrol>X-Author Contracts Advanced</uicontrol> ribbon. Once the X-Author for Contracts Advanced pane opens, click <uicontrol>Login</uicontrol>. The login panel opens.</cmd>
+            <info>
+               <fig>
+                  <image placement="break" width="300" href="../attachments/256531461/256531460.png" class="- topic/image "/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Select an Identity Provider from the Select an Idp drop down list and select <uicontrol>Sign In.</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Enter your production credentials (user name and password) and click <uicontrol>Login</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>If you are a first-time user, you may be prompted to allow access to X-Author for Contracts Advanced. Click <uicontrol>Allow</uicontrol> to proceed.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p platform="conga">You are logged into the X-Author for Contracts Advanced add-in.</p>
+         <note type="note">
+            <p>If you encounter an OAuth error while logging into X-Author for Contracts Advanced on Microsoft Windows, refresh the page or re-enter your login credentials to log in.</p>
+         </note>
+         <p platform="conga">The following options are displayed when you click the Home button.</p>
+         <p platform="conga">
+            <fig>
+               <image height="250" placement="break" width="216" href="../attachments/256531461/256531459.png" class="- topic/image "/>
+            </fig>
+         </p>
+         <p platform="conga">
+            <table platform="conga">
+               <tgroup cols="2">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <thead>
+                     <row>
+                        <entry>
+                           <p>Option</p>
+                        </entry>
+                        <entry>
+                           <p>Description</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>User Name &amp; User ID</p>
+                        </entry>
+                        <entry>
+                           <p>Displays the user name and ID</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Contracts</p>
+                        </entry>
+                        <entry>
+                           <p>Opens the contracts menu.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Templates</p>
+                        </entry>
+                        <entry>
+                           <p>Opens the templates menu.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Documentation</p>
+                        </entry>
+                        <entry>
+                           <p>Navigates the X-Author for Contracts documentation</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Technical Support</p>
+                        </entry>
+                        <entry>
+                           <p>Connects with the technical support team.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>App Details (earlier System information)</p>
+                        </entry>
+                        <entry>
+                           <p>Displays the system information that you are currently logged in to.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Log Out</p>
+                        </entry>
+                        <entry>
+                           <p>To logout from the X-Author for Contracts Advanced add-in.</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </postreq>
+   </taskbody>
+</task>

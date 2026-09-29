@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="AddingObjectstoyourAppToAddObjectsAndFields" xml:lang="en">
+   <title>To add objects and fields</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author Designer ribbon, click the object selection dialog. Depending on your environment, the object selection button is displayed.</cmd>
+            <info>
+               <ul>
+                  <li>
+                     <p>For Salesforce, click <fig>
+                           <image height="72"
+                                  placement="break"
+                                  width="60"
+                                  href="../attachments/98667696/98667741.png"/>
+                        </fig>
+                     </p>
+                  </li>
+                  <li>
+                     <p>For Microsoft Dynamics and Apttus Omni, click <fig>
+                           <image height="79"
+                                  placement="break"
+                                  width="50"
+                                  href="../attachments/98667696/98667740.png"/>
+                        </fig>
+                     </p>
+                  </li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>From the left pane under <uicontrol>Select Objects</uicontrol>, choose an object or drill down to other objects by clicking the <uicontrol>+ </uicontrol>next to the object name.</cmd>
+            <info>
+               <note type="tip">
+                  <p>Type the first letter of the Object you want to add and X-Author will jump to the first matching object in the list.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>To select a top-level (header level) object, click <uicontrol>Add Parent Object</uicontrol> to move the object to <uicontrol>Selected Objects</uicontrol>. </cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="350"
+                         href="../attachments/98667696/190354486.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>If you need to add one or more child objects, drill down from the Parent object one or more levels, select the child object and click <uicontrol>Add Child Objects</uicontrol> to add objects in the hierarchy (from child up to parent) to Selected Objects.</cmd>
+            <info>
+               <p>
+                  <fig>
+                     <image placement="break"
+                            width="350"
+                            href="../attachments/98667696/98667764.png"/>
+                  </fig>
+               </p>
+               <note type="note">
+                  <p>
+                     <uicontrol>Changing Object Behavior</uicontrol>
+                  </p>
+                  <p>By default, when objects are added in a parent-child relationship, parent objects adopt the "Individual" behavior and the bottom child object in the hierarchy adopts the "List" behavior.</p>
+                  <p>You can manually change the behavior of any object by right-clicking on the object name and choosing either option from the drop-down that is displayed (for example, if you want two objects to have a many-to-many relationship, make both objects "List").</p>
+                  <p>
+                     <fig>
+                        <image height="85"
+                               placement="break"
+                               width="236"
+                               href="../attachments/98667696/98667750.png"/>
+                     </fig>
+                  </p>
+                  <p>
+                     <uicontrol>Caution: </uicontrol>Be careful when changing object behavior. If you have already created other parts of the app, changing object behavior may not make sense in some circumstances.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Remove Object</uicontrol> to remove a selected object from the list.</cmd>
+         </step>
+         <step>
+            <cmd>From Select Fields, scroll through the list of fields for the object and select the check box next to one or more fields to add them to the app. You can also type the name of the field into the Search Fields dialog to narrow the list of displayed fields.</cmd>
+            <info>
+               <p>
+                  <fig>
+                     <image placement="break"
+                            width="350"
+                            href="../attachments/98667696/190354489.png"/>
+                  </fig>
+               </p>
+               <note type="note">
+                  <p>
+                     <uicontrol>Note</uicontrol>
+                  </p>
+                  <p>Click on the heading for any column in the fields table to sort fields by that category.</p>
+                  <p>When a picklist field is selected, all picklist values will automatically be retrieved during runtime. Regular, dependent, and multi-select picklists are supported.</p>
+                  <p>The following fields are automatically selected for each object and cannot be deselected.</p>
+                  <ul>
+                     <li>ID</li>
+                     <li>Name, if there is a Name field</li>
+                     <li>Look-up for a parent object that is selected as part of the object hierarchy (for example, "AccountId" for Opportunity).</li>
+                  </ul>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Apply</uicontrol> after you have finished adding fields for an object. You <i>must </i>click Apply as you move between objects or your selections will not be saved.</cmd>
+         </step>
+         <step>
+            <cmd>When you finished adding objects and fields to your app, click <uicontrol>Save and Close</uicontrol>. </cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>
+               <uicontrol>Best Practices for adding Objects</uicontrol>
+            </p>
+            <p>Be careful when removing objects if your app already contains Display Maps or other components. Removing an object will invalidate any maps and actions in the app. You must remove those links manually before you remove the object. Generally, if you have selected the incorrect objects and have already created maps and actions, you should start over. If it is just unrelated objects that need to be changed, then you can remove that object after you correct the maps and actions. Then you can add in a new object.</p>
+         </note>
+         <note type="note">
+            <p>
+               <uicontrol>Use Case: Adding objects for a Sales Pipeline app</uicontrol>
+            </p>
+            <p>Danny Designer needs to create an app that will be used to manage Opportunity data for a Sales Pipeline.</p>
+            <p>He decides that his app is going to need date from the Account, Opportunity, and User objects. Opportunity will be added as a child object of Account, and Account and User will be added separately as List objects.</p>
+            <p>Danny takes the following steps to add objects to his app:</p>
+            <ol>
+               <li>He goes to <uicontrol>Apps &gt; New </uicontrol>and creates a new app named "Pipeline CC."</li>
+               <li>Danny clicks the object selection button.</li>
+               <li>He finds the Opportunity child object under the Account object and clicks <uicontrol>Add Child Object</uicontrol>.</li>
+               <li>Next, he clicks <uicontrol>Add Parent Object</uicontrol> for User and Account.<fig>
+                     <image placement="break"
+                            width="350"
+                            href="../attachments/98667696/190354491.png"/>
+                  </fig>
+               </li>
+               <li>Danny selects fields for each object. After selecting fields for any object, he clicks <uicontrol>Apply </uicontrol>to save his selections.<ol>
+                     <li>For<uicontrol> Account (Individual) </uicontrol>and <uicontrol>Account (List)</uicontrol>: <i>Account Description, Account Phone, Account Type, Annual Revenue, Number of Employees </i>(<i>Account Name </i>and<i> Account Id </i>are added by default)
+                        <fig>
+                           <image height="250"
+                                  placement="break"
+                                  width="564"
+                                  href="../attachments/98667696/98667744.png"/>
+                        </fig>
+                     </li>
+                     <li>For <uicontrol>Opportunity (List): </uicontrol>
+                        <i>Amount, Description, Stage Name, Is Closed, Close Date, Owner Id </i>(<i>Account (Lookup), Opportunity Id, </i>and<i> Opportunity Name</i> are added by default)<fig>
+                           <image height="250"
+                                  placement="break"
+                                  width="564"
+                                  href="../attachments/98667696/98667743.png"/>
+                        </fig>
+                     </li>
+                     <li>For <uicontrol>User </uicontrol>
+                        <uicontrol>(List)</uicontrol>: <i>Active </i>(<i>User Id </i>and<i> Full Name</i> are added by default)<fig>
+                           <image height="250"
+                                  placement="break"
+                                  width="564"
+                                  href="../attachments/98667696/98667742.png"/>
+                        </fig>
+                     </li>
+                  </ol>
+               </li>
+               <li>Danny clicks <uicontrol>Save and Close</uicontrol> to save his objects and fields to the app.</li>
+               <li>Finally, he clicks the <uicontrol>Save App</uicontrol> button in the X-Author Designer ribbon to update the app file in his environment.</li>
+            </ol>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

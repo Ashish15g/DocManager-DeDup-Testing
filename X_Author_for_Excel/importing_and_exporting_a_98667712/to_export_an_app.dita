@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ImportingandExportinganApplicationToexportanapp" xml:lang="en">
+   <title>To export an app</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <uicontrol>Export</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="128"
+                         placement="break"
+                         width="374"
+                         href="../attachments/98667712/98667851.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Choose a location and enter a filename.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>An app file with .app extension is saved at the chosen location. The Export function saves an App as an .app file. This file can then be used by the Import function to add that App to a different instance. You should also use this function to back up your apps while creating them.</p>
+      </postreq>
+   </taskbody>
+</task>

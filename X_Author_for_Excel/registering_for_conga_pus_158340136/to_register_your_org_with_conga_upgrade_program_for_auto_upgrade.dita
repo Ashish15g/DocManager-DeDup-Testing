@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="RegisteringforCongaPushUpgrade_ToregisteryourorgwithCongaUpgradeProgramforauto_upgrade"
+      xml:lang="en">
+   <title>To register your org with Conga Upgrade Program for auto-upgrade</title>
+   <taskbody>
+      <context>
+         <p>This section provides a high-level flow of the org registration process and early feedback programs. Refer to <i>Conga Upgrade Program documentation</i> for a comprehensive overview of features.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Launch the <xref href="https://pushupgrades.congacloud.com"
+                     format="html"
+                     scope="external">
+                  <u>Conga Upgrade Program's registration page</u>
+               </xref>. </cmd>
+         </step>
+         <step>
+            <cmd>Select your Salesforce org type (<uicontrol>Production </uicontrol>or <uicontrol>Sandbox</uicontrol>). The Salesforce login page is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Enter your credentials and click <uicontrol>Login</uicontrol>. You are redirected to the connected app called <uicontrol>Conga Push Upgrade CA</uicontrol>, which prompts you to allow access to the org information.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Allow</uicontrol>.<uicontrol/>The org registration form is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Set Package Access Control </uicontrol>to set the accessibility for Conga packages to be upgraded with Conga Upgrade Program.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Submit</uicontrol>.</cmd>
+            <info>
+               <p>The <uicontrol>Early Feedback</uicontrol> pop-up is displayed. In addition, Conga sends an email notification to the system administrator on successful registration with a list of packages (including dependent packages, if any) handled in the upgrade process. </p>
+               <note type="note">
+                  <p>The early feedback program executes a test suite to check if the customizations in your org are compatible with the upgrade. For more information, see the <xref href="https://documentation.conga.com/push-upgrade/summer-21/conga-automation-early-feedback-program-152572477.html"
+                           format="html"
+                           scope="external">
+                        <u>Conga Automation Early Feedback program.</u>
+                     </xref>
+                  </p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Try Now</uicontrol>. A <uicontrol>Conga Automation Dashboard</uicontrol> is displayed with a <uicontrol>Quick Guide</uicontrol> pop-up. Click <uicontrol>Yes </uicontrol>to go through the quick tour of the dashboard.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Click to see the test t</uicontrol>o view a list of tests to be executed for your org<uicontrol>, </uicontrol>A <uicontrol>List of Tests</uicontrol> pop-up is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Enter your Email ID and Organization Name. You can enter multiple email ids.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Trigger Welcome Email</uicontrol>. Conga sends a welcome email to the email ids entered in the previous step with a list of tests performed in the early feedback program.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Proceed</uicontrol>. A <uicontrol>Conga Services Test Automation Execution Page</uicontrol> is displayed. </cmd>
+         </step>
+         <step>
+            <cmd>Click the checkbox next to the Job ID and click <uicontrol>Begin Test Execution </uicontrol>to run the predefined automated test suite against your org. </cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>For the latest information on Conga Upgrade Program, see <xref href="https://documentation.conga.com/push-upgrade/2022.4.0/conga-upgrade-program-193698855.html"
+                  format="html"
+                  scope="external">
+               <u>Conga Upgrade Program documentation</u>
+            </xref>.</p>
+      </postreq>
+   </taskbody>
+</task>

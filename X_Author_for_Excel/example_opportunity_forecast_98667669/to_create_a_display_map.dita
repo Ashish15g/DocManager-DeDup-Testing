@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Example_OpportunityForecastApplicationTocreateaDisplayMap"
+      xml:lang="en">
+   <title>To create a Display Map</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <uicontrol>Display Map</uicontrol> and select <uicontrol>Create</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Name</uicontrol> field, type <i>Main</i> and from the <uicontrol>Type</uicontrol> drop-down, select <uicontrol>List</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Drag the <i>
+                  <uicontrol>Account Name</uicontrol>
+               </i> field to A7. This field was not available in <uicontrol>Objects,</uicontrol> but X-Author for Excel automatically includes the Name field for any lookup field selected in <uicontrol>Objects</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Drag <i>
+                  <uicontrol>Name</uicontrol>
+               </i> to B7,<i>
+                  <uicontrol>Amount</uicontrol>
+               </i>to C7, <i>
+                  <uicontrol>Close Date</uicontrol>
+               </i> to D7, <i>
+                  <uicontrol>Stage</uicontrol>
+               </i> to F7, <b>
+                  <i>Opportunity</i>
+                  <i>Id</i>
+               </b> to H7.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Options</uicontrol> and change the <uicontrol>Sort by</uicontrol> list to <uicontrol>Account Name</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>To save the Display Map, click <uicontrol>Save</uicontrol> and then click <uicontrol>Close</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Add a title in A1, for example, <i>Opportunities Forecast.</i>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Save the <uicontrol>App.</uicontrol>
+            </cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

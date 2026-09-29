@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d214aA" xml:lang="en">
+   <title>Matrix Map Examples</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>The following examples illustrate some of the capabilities of matrices. The first example uses three objects Budgettrx, GLAccount, and FiscalYear. The objective is to retrieve the Amount field from the Budgettrx object for all Marketing Accounts in the GLAccount object and for each Fiscal Period in Fiscal Year 14.</p>
+      <p>
+         <fig>
+            <image height="250"
+                   placement="break"
+                   width="291"
+                   href="../attachments/98667725/98668013.png?effects=drop-shadow"/>
+         </fig>
+      </p>
+      <ul>
+         <li>Each intersecting cell is one record from the BudgetTrx object. </li>
+         <li>The data is filtered for the entire matrix to return only Marketing Department data for January 2014 – March 2014.</li>
+         <li>Both the X and Y values are dynamically generated based on “Marketing Department” and FY 14 filters.</li>
+         <li>There is only one section in the matrix comprised of:<ul>
+               <li>Y axis values using the AccountName field values in the GLAccount object.</li>
+               <li>
+                  <p>X axis values using the FiscalPeriod field values from the FiscalYear object.</p>
+               </li>
+               <li>
+                  <p>The XY intersection, which contains the Amount field from the BudgetTrx object.</p>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <p>The second example is a financial plan from a single object where the columns and rows are static field values and the intersecting cell is the Amount field in that object. </p>
+      <p>
+         <fig>
+            <image height="246"
+                   placement="break"
+                   width="607"
+                   href="../attachments/98667725/98668014.png?effects=drop-shadow"/>
+         </fig>
+      </p>
+      <p>This matrix has multiple Sections because, even though the column, row, and intersecting cells have the same field mappings throughout, the forecast and the actual records differ based on a field that is not displayed on the matrix: the Type field. Therefore there are two sections and they are distinguished by filtering the data for each section using the section filters.</p>
+   </conbody>
+</concept>

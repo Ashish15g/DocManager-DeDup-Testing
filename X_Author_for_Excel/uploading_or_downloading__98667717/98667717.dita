@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d290aA" xml:lang="en">
+   <title>Uploading or Downloading File Attachments</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Apr 19, 2021"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can upload and download file attachments using X-Author for Excel. For example, if you create an app that uses objects that contain attachments, such as the Opportunity object, you can now download opportunity-related attachments from your environment and upload attachments to your environment. All you need to do is add the attachments field to the Objects, the Display Map, and—if you are uploading attachments—the Save Map.</p>
+      <p>Downloaded files are located in <b>%AppData%\Local\Temp\X-Author Attachments\[Object_ID]\</b>, where %AppData% is the location of the logged-in user's AppData directory in Windows (for example, C:\Users\bdwyer\AppData) and Object_ID is a mashup of the name and the ID of the object the attachment is associated with, such as an Opportunity. You can upload files from anywhere on your workstation, though. To upload a file, you need to provide the full path to the document and the document name as shown in the following example. </p>
+      <p>
+         <fig>
+            <image placement="break"
+                   width="900"
+                   href="../attachments/98667717/143904009.jpg"/>
+         </fig>
+      </p>
+      <p> In this example, the files will be uploaded to the Opportunity when you save the data to your environment.</p>
+      <p>Characters such as " &lt; &gt; | : * ? \ /  are invalid characters and not supported as part of a file or folder name. Attachments will be downloaded after truncating invalid characters in the attachment file name. For example: If the file name is XYZ&lt;&gt;|:*!?.xlsx, the attachment will be downloaded as XYZ.xlsx.</p>
+   </conbody>
+</concept>

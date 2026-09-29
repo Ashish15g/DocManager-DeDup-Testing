@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan843" xml:lang="en">
+   <title>About X-Author Contracts for Cloud</title>
+   <prolog>
+      <author>Maanasa Suthrave</author>
+      <critdates>
+         <created date="Sep 12, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Contracts for Cloud on Salesforce Summer 2019 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>X-Author Contracts for Cloud is a Microsoft Word add-in that lets you work on contracts and contract templates. The X-Author Contracts for Cloud add-in helps contract administrators and legal users to streamline the process of creating and maintaining contracts and associated contract and clause templates. Using X-Author Contracts for Cloud, contract administrators can manage complex negotiation cycles with clause and contract templates easily.</p>
+      <p>X-Author Contracts for Cloud provides support for versioning of agreements, where contract administrators can save redlined, clean, and final versions of an agreement in a Microsoft Word document opened either from Salesforce or locally. When saving final versions, you can also reconcile any terms that might have changed during the negotiation process. Finally, users can compare two versions of a contract and also merge versions into one agreement document.</p>
+      <p>X-Author Contracts for Cloud also provides support for creating conditional text within a contract or clause template. This allows contract administrators to create sophisticated conditional clauses that can include or exclude certain text or clauses depending on how a conditional expression containing valid agreement related merge fields are evaluated.</p>
+      <p>Apttus X-Author Contracts for Cloud allows a user to perform the following tasks:</p>
+      <ul>
+         <li>Work with agreements<ul>
+               <li>Create or update an agreement</li>
+               <li>Check-in an agreement</li>
+               <li>Check-out an agreement</li>
+               <li>Lock or unlock agreement documents </li>
+               <li>Hide smart boundaries</li>
+               <li>Manage clauses<ul>
+                     <li>Playbook<ul>
+                           <li>Insert clauses as text</li>
+                           <li>Insert clauses as smart</li>
+                        </ul>
+                     </li>
+                     <li>Unlock read-only clauses</li>
+                     <li>Mark clauses</li>
+                     <li>Unmark clauses</li>
+                     <li>Edit marked clause</li>
+                     <li>Promote marked clauses to the playbook</li>
+                     <li>Track clauses in an agreement</li>
+                     <li>Delete smart clauses or mark clauses for deletion</li>
+                  </ul>
+               </li>
+               <li>Manage fields<ul>
+                     <li>Validate fields</li>
+                     <li>Mark fields</li>
+                     <li>Update smart and read-only field values from Salesforce</li>
+                     <li>Accept or reject field changes </li>
+                     <li>Delete fields or mark fields for deletion</li>
+                  </ul>
+               </li>
+               <li>Compare and merge agreements</li>
+               <li>Send an agreement for parallel review</li>
+               <li>Restrict agreement document check-in and check-out</li>
+               <li>Track and manage review cycle</li>
+               <li>Work with offline agreements<ul>
+                     <li>Create offline agreements</li>
+                     <li>Import third-party papers as agreements</li>
+                  </ul>
+               </li>
+               <li>Reconciliation<ul>
+                     <li>Preview reconcile</li>
+                     <li>Reconcile smart fields and smart clauses</li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li>Work with templates<ul>
+               <li>Check-in templates</li>
+               <li>Check-out templates</li>
+               <li>Open templates </li>
+               <li>Clone templates</li>
+               <li>Fields<ul>
+                     <li>Insert fields</li>
+                     <li>Insert fields as a table or section</li>
+                     <li>Make fields smart</li>
+                  </ul>
+               </li>
+               <li>Playbook<ul>
+                     <li>Insert inline clause</li>
+                     <li>Make inline clauses smart</li>
+                     <li>Create condition on line clause </li>
+                     <li>Mark smart clause</li>
+                     <li>Make smart clauses non-smart</li>
+                     <li>Refresh clause</li>
+                  </ul>
+               </li>
+               <li>Set segments (conditional or style)</li>
+            </ul>
+         </li>
+      </ul>
+   </conbody>
+</concept>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d222aA" xml:lang="en">
+   <title>Moving and Removing Mapped Fields</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>After a cell has been mapped to a field in Excel, it is critical that X-Author be able to find that location in runtime. X-Author can easily adjust its map links when fields need to be relocated, provided these changes are performed correctly. Follow the tasks in this section to properly move or remove fields from Display Maps and Save Maps to preserve cell mapping.</p>
+      <note type="warning">
+         <p>Do not use Excel's Delete Row or Delete Column functions to manually delete a row, field, or column in the worksheet. Cells will no longer be correctly mapped and your app will be corrupted.</p>
+      </note>
+   </conbody>
+</concept>

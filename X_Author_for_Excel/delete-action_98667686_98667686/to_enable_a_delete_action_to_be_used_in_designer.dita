@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="DeleteActionToenableadeleteactiontobeusedindesigner" xml:lang="en">
+   <title>To enable a delete action to be used in designer</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>You must <xref href="to_update_the_license_webservice_endpoint_custom_setting.dita#DeleteActionLicenseWsEp">update the License Webservice Endpoint</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>After updating the License Webservice Endpoint, you must <xref href="../installing_x_author_for_e_98667656/98667656.dita"
+                     format="dita">refresh your licenses</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>The last step is to refresh your local license files. X-Author refreshes the local license files every 24 hours. <xref href="to_refresh_your_local_license_files.dita#DeleteActionLocalLicense">Refresh your local license files</xref> to enable and use the Delete action.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

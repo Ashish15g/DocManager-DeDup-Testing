@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d17aA" xml:lang="en">
+   <title>Assigning Custom Permissions at the Permission Set Level</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 24, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can add custom permissions at the permission set level and assign the permission set to a specific user. For a list of custom permissions available for X-Author for Contracts Advanced, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/custom-permissions-253691491.html" format="html" scope="external">Custom Permissions</xref>.</p>
+      <note type="warning">
+         <ul>
+            <li>If your Salesforce Org uses both Admin entries and permissions sets, Admin entries take priority over permissions sets.</li>
+            <li>If your Salesforce Org has "Enable Custom Permission" turned on from the Conga CLM package and this is enabled for a specific profile, and if your organization also has custom permissions created and assigned to the same user, then the expected result is that all actions should be enabled for that specific user.</li>
+         </ul>
+      </note>
+   </conbody>
+</concept>

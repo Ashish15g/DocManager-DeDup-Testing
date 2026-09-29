@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InternalReviewusingOffice365v20240711_Toreviewthedocument" xml:lang="en">
+   <title>To review the document</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open your email and click the document link.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to your Microsoft account.</cmd>
+            <info>
+               <p>The document opens in Insert Comments and Track Changes protection mode.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Edit Document </uicontrol>and select<uicontrol> Open in Desktop App.</uicontrol>
+            </cmd>
+            <info>
+               <note type="note">
+                  <p>If you select the <uicontrol>Edit </uicontrol>option after clicking <uicontrol>Edit Document</uicontrol>, an error message directs you to select the <uicontrol>Open in Desktop App</uicontrol> button</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter your Microsoft account's Email ID and log in.</cmd>
+         </step>
+         <step>
+            <cmd>The document opens in Microsoft Word in <uicontrol>Autosave </uicontrol>mode. The initials of all the other users who have worked on the agreement document are visible in the top right corner of the page</cmd>
+         </step>
+         <step>
+            <cmd>In the Home tab, click the <uicontrol>X-Author for Contracts</uicontrol> ribbon. The login panel opens. Click <uicontrol>Login. </uicontrol>You are logged into the X-Author for Contracts add-in.</cmd>
+         </step>
+         <step>
+            <cmd>You can perform the following actions :</cmd>
+            <info>
+               <ul>
+                  <li>Update from CLM : You can update smart fields and Read-only fields in your agreement document with the current values in Conga CLM. For more information, see 
+<xref href="../updating_fields_from_cong_256528783/256528783.dita" format="dita">Updating Fields from Conga CLM</xref>.</li>
+                  <li>Open in CLM : Choose this option to view the agreement record associated with your document by choosing this option. For more information, see 
+<xref href="../opening_an_agreement_docu_256530555/256530555.dita" format="dita">Opening Agreements in Conga CLM</xref>.</li>
+                  <li>Unlock Clauses : You can scan the entire document and unlock the read-only clauses present in the document. For more information, see 
+<xref href="../unlocking_read_only_claus_256531698/256531698.dita" format="dita">Unlocking Read-Only Clauses</xref>.</li>
+                  <li>Highlight Fields : You can highlight the smart and read-only fields in your agreement document. For more information, see 
+<xref href="../highlighting_smart_and_re_256531705/256531705.dita" format="dita">Highlighting Smart and Read-Only Fields</xref>.</li>
+                  <li>Hide Smart Boundary : You can control the visibility of the content control boundary for smart fields, smart clauses, and read-only fields. For more information, see 
+<xref href="../hiding_or_showing_smart_b_256531696/256531696.dita" format="dita">Hiding or Showing Smart Boundaries</xref>.</li>
+                  <li>Clause Library : Insert Clause - You can insert a clause using this option. For more information, see 
+<xref href="../inserting_and_deleting_cl_256531690/256531690.dita" format="dita">Inserting Clauses</xref>.</li>
+                  <li>Delete Clause : You can delete a clause using this option. For more information, see 
+<xref href="../doc_clauses_v20240711_2_256530491/256530491.dita" format="dita">Doc Clauses.</xref>
+                  </li>
+                  <li>Delete Fields : You can delete fields using this option. For more information, see 
+<xref href="../doc_fields_v20240711_25_256530452/256530452.dita" format="dita">Doc Fields</xref>.</li>
+                  <li>Validate Fields : Use this feature to ensure that all smart fields in your document are in the proper format for their assigned data type. For more information, see 
+<xref href="../doc_fields_v20240711_25_256530452/256530452.dita" format="dita">Doc Fields</xref>.</li>
+                  <li>Doc Clauses and Doc Fields : You can view the doc clauses and doc fields.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>By default certain X-Author functionalities are disabled.</cmd>
+            <info>
+               <note type="note">
+                  <p>The doc clauses tab and the doc fields tab only displays changes you make using the aforementioned X-Author functionalities. You cannot see changes made by others. In the document, however, you can see others' changes as redlined comments.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Make the required changes and inform the contract negotiator through email that you have completed the review. You can close the document as the changes are autosaved.</cmd>
+         </step>
+         <step>
+            <cmd>After the contract administrator ends the review in CLM, the reviewed document is automatically merged in the final document.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>After the O365 review is completed, the contract administrator can open the document in X-Author for Contract, accept or reject the changes, and check in the final document. As a contract administrator, when you accept or reject changes before checking in the final document, make sure that:</p>
+         <ul>
+            <li>
+               <ul>
+                  <li>All the date fields have a valid date. For example, you cannot have multiple dates within a single date field.</li>
+                  <li>Check for fields and clauses that have blank content control borders and delete them.  </li>
+               </ul>
+            </li>
+         </ul>
+         <note type="note">
+            <p>In some cases, when the contract administrator opens the final merged document, the accept or reject changes are greyed out. This is because, the document is getting converted to Insert and Track Changes mode after the review ends. To accept or reject changes follow either of the following two steps:</p>
+            <ol>
+               <li>You can create a specific profile entry for Agreement Protection setting for ‘Save Internal Version'. The values for Protection Type will be Automatic and Protection Level will be Full Access. This will make the protection type for all the internal check in document as Full Access. For more information on document protection, see 
+<xref href="../protecting_and_unprotecti_256531636/256531636.dita" format="dita">Protecting and Unprotecting Document</xref>.<p>or</p>
+               </li>
+               <li>As the document is getting converted to Insert and Track Changes mode by default, unprotect the document by putting document password. Now, the accept and reject changes button will be visible.</li>
+            </ol>
+            <p>Reviewers are restricted from disabling Track Changes and approving or rejecting changes on a document, but there is an exception. Internal users can enable or disable tracking using the Review option in Microsoft Word, which results in a prompt to add the document maintained user Admin setting APTS_Password. Once tracking is disabled, all other internal users can also accept or reject changes on the document. If any internal user enables tracking again by adding a new password, the new password will overwrite the password set in the Salesforce Org.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

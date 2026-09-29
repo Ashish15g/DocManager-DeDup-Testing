@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="MigratingTemplates_Prerequisites" xml:lang="en">
+   <title>Prerequisites</title>
+   <conbody>
+      <p>You must have <xref href="../upgrading_templates_10241_102415192/102415192.dita" format="dita">upgraded</xref> your source org templates.</p>
+      <p>Also if there are any schema changes or master data changes that have been made in a source org, they should be rolled out to the target org before migrating. For example, Term Exceptions are lookups from Template object and master records must exist in the target org before migration.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="DocFields_viewchange" xml:lang="en">
+   <title>To view and change fields</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <uicontrol>Work &gt; Doc Fields</uicontrol> tab. All fields are displayed in a list in the order they appear in the document. <uicontrol>Previous</uicontrol> (as of last check-in), <uicontrol>CLM</uicontrol>, and <uicontrol>Current</uicontrol> (document), values are displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Click on a field in the list to snap to and highlight the field in the document.</cmd>
+         </step>
+         <step>
+            <cmd>To change the current value of a field, place your cursor in the field content control in the document and make changes. To view the updated field value in the <uicontrol>Doc Fields</uicontrol> list, click on some other tab and then click back on <uicontrol>Doc Fields</uicontrol> tab.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Validate</uicontrol> to confirm that the new field value is valid for its corresponding data type.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>Changed field values are updated on in the agreement document upon check-in. If you choose to reconcile fields during check-in, they will also be changed on the agreement record.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MarkingFields_Tomarkafieldinanagreement" xml:lang="en">
+   <title>To mark a field in an agreement</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Hover over the <uicontrol>Playbook </uicontrol>tab and select <uicontrol>Fields</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight the content in the contract to be marked as a field.</cmd>
+         </step>
+         <step>
+            <cmd>Click on the <image placement="inline" width="20"
+                  href="../attachments/45220114/49676335.png" id="image_lqg_1pn_12c"
+                  /><uicontrol>Mark Field </uicontrol> icon next to the clause in the Playbook which
+               you want to associate with the content. </cmd>
+            <info>
+               <fig>
+                  <image placement="break" width="700" href="../attachments/45220114/49676337.png"/>
+               </fig>
+            </info>
+            <stepresult>
+               <p>The Mark Field dialog appears.</p>
+               <fig id="fig_uqb_2pn_12c">
+                  <image placement="break" width="700" href="../attachments/45220114/49676338.png"
+                     id="image_vqb_2pn_12c"/>
+               </fig>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Yes</uicontrol> to mark content as a smart field. </cmd>
+            <stepresult>
+               <p>The content adopts the properties of the same field on the agreement record. </p>
+               <note id="note_qzx_rhq_12c" type="warning">
+                  <p>Make sure the format of the text you are marking matches the data type you are
+                     mapping to. You will receive an error if the text is not valid for the field
+                     type you choose.</p>
+               </note>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Hover over the <uicontrol>Document </uicontrol>tab and select <uicontrol>Fields</uicontrol> to view changed fields in the Document pane. The marked field will be visible in the list.</cmd>
+            <info>
+               <fig id="fig_pyl_gpn_12c">
+                  <image height="250" placement="break" width="620"
+                     href="../attachments/45220114/51576866.png" id="image_qyl_gpn_12c"/>
+               </fig>
+               <p>Make sure to click <uicontrol>Validate</uicontrol> to ensure that the newly marked field is in a valid format for the data type of the field mapped. When you check in the agreement document and choose to reconcile, values assigned to your smart fields are reconciled to the agreement record in Salesforce.</p>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

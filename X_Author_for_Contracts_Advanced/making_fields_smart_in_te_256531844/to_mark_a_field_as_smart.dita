@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MakingFieldsSmartinTemplatesv20240711_TomarkafieldasSmart" xml:lang="en">
+   <title>To mark a field as Smart</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Insert the field into your template by following the steps in 
+<xref href="https://documentation.conga.com/display/XAC/.Inserting+Fields+in+Templates+vWinter-21" format="html" scope="external">Inserting Fields in a Template</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Templates </uicontrol>pane, go to <uicontrol>Work</uicontrol> and click <uicontrol>Fields</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>The <uicontrol>Fields</uicontrol> page shows the list of all the fields present in your template. Use the <uicontrol>Search Field </uicontrol>box to search for a field by keyword.</cmd>
+         </step>
+         <step>
+            <cmd>Select a field from the list and click the <uicontrol>Settings icon</uicontrol> (<image placement="inline" width="16" href="../../global_images/images/256529252.png" class="- topic/image "/>) next to the field name.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Properties </uicontrol>pane, click the toggle for the <uicontrol>Smart Field</uicontrol> attribute to enable it.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>To remove the smartness property of a field, you can slide the <uicontrol>Smart Field</uicontrol> attribute toggle to off position (greyed out).</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

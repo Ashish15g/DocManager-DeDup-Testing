@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_CheckinginanAgreementDocumentv20240711_Prerequisite1" xml:lang="en">
+   <title>Prerequisite</title>
+   <conbody>
+      <p>The custom permission setting must be available for your profile. For more information on how to configure custom permissions, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/assigning-master-profile-and-custom-profile-permissions-to-user-profiles-231212372.html" format="html" scope="external">Assigning Custom Permissions</xref> in <i>CLM for Administrators.</i>
+      </p>
+      <p platform="salesforce">
+         <table platform="salesforce">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Custom permission in Conga CLM</p>
+                     </entry>
+                     <entry>
+                        <p>Save options available in X-Author for Contracts Advanced</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>XA_CheckinAsFinal</p>
+                     </entry>
+                     <entry>
+                        <p>Final - to be signed, Without Redlines, and With Redlines</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>XA_CheckInWithoutRedlines</p>
+                     </entry>
+                     <entry>
+                        <p>Without Redlines and With Redlines</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>XA_CheckInWithRedlines</p>
+                     </entry>
+                     <entry>
+                        <p>With Redlines</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p platform="salesforce">If all the custom permissions are disabled, you can view all the save options.</p>
+   </conbody>
+</concept>

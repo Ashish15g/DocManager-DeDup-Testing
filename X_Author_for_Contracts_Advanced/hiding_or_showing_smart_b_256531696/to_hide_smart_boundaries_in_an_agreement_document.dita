@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_HidingorShowingSmartBoundariesv20240711_Tohidesmartboundariesinanagreementdocument" xml:lang="en">
+   <title>To hide smart boundaries in an agreement document</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, go to Work tab and click the More icon (<image placement="inline" width="18" href="../attachments/256531696/256531694.png" class="- topic/image "/>).</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Hide Smart Boundary</uicontrol>.</cmd>
+            <info>
+               <p>This hides all the smart boundaries.</p>
+               <note type="note">
+                  <p>Regardless of the Hide/Show Boundary option selected before checking in, the boundaries are displayed after checking out the document.</p>
+               </note>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

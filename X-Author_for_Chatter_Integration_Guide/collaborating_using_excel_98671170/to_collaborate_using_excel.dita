@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CollaboratingusingExcel_ToCollaborateUsingExcel" xml:lang="en">
+   <title>To Collaborate Using Excel</title>
+   <taskbody>
+      <prereq id="prereq_f1c_jxv_12c">
+         <ul id="ul_hnk_jxv_12c">
+            <li>The Salesforce org must have Apttus X-Author Chatter package installed.</li>
+            <li>You must have logged into X-Author Chatter for Excel and opened the file in
+               Excel</li>
+         </ul>
+      </prereq>         
+         <steps>
+            <step><cmd>Click <uicontrol>Chatter</uicontrol> from the <uicontrol>X-Author</uicontrol> Chatter ribbon.</cmd>
+            <stepresult>
+               <p>Chatter opens in its own window within Excel and you may need to resize the
+                  workbook for optimal viewing.</p>
+            </stepresult></step>
+            <step><cmd>Select who you want to collaborate within your Chatter feed by clicking one of the icons:</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <fig id="fig_yn1_bbx_12c">
+                                    <image height="16" placement="break"
+                                       href="../attachments/98671170/98671164.jpg"
+                                       id="image_zn1_bbx_12c"/>
+                                 </fig>
+                              </entry>
+                              <entry>
+                                 <p>Your audience will be everyone in your organization with a Chatter account.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <fig id="fig_prf_bbx_12c">
+                                    <image height="16" placement="break"
+                                       href="../attachments/98671170/98671165.jpg"
+                                       id="image_qrf_bbx_12c"/>
+                                 </fig>
+                              </entry>
+                              <entry>
+                                 <p>Your audience will be everyone who is following the file. This option is only available when the document is associated with a Salesforce object, such as an Account or an Opportunity.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <fig id="fig_nfk_bbx_12c">
+                                    <image height="16" placement="break"
+                                       href="../attachments/98671170/98671166.jpg"
+                                       id="image_ofk_bbx_12c"/>
+                                 </fig>
+                              </entry>
+                              <entry>
+                                 <p>Your audience will be all the members of the group you select.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <fig id="fig_wg4_bbx_12c">
+                                    <image height="16" placement="break"
+                                       href="../attachments/98671170/98671167.jpg"
+                                       id="image_xg4_bbx_12c"/>
+                                 </fig>
+                              </entry>
+                              <entry>
+                                 <p>Your audience will be the single individual you select.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info></step>
+            <step><cmd> Make changes in excel and then choose what content to share.</cmd>
+            <info>
+               <fig>
+                  <image height="209" placement="break" href="../attachments/98671170/98671168.jpg"/>
+               </fig>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead><row>
+                              <entry>
+                                 <p>Post</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a comment to solicit feedback, while not presenting any of the document in the feed.</p>
+                              </entry>
+                           </row></thead>
+                        <tbody>                          
+                           <row>
+                              <entry>
+                                 <p>Selected Content</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the content in the document you want to share in the feed. Only text will be included in the feed. If your content includes an image or other kinds of media, it will be represented with a '/' and table cell content is taken out of the table and included on individual lines.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Active Worksheet</p>
+                              </entry>
+                              <entry>
+                                 <p>The currently active worksheet is exported as a workbook and attached to the feed.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Entire Workbook</p>
+                              </entry>
+                              <entry>
+                                 <p>The whole workbook is attached to the Chatter feed.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info></step>
+            <step><cmd>Click <uicontrol>Share</uicontrol> to share your content to the Chatter feed.</cmd></step>
+            <step><cmd>Click <uicontrol>Refresh</uicontrol> to ensure you feed is up to date and that you receive feedback from your colleagues.</cmd></step>
+         </steps>
+   </taskbody>
+</task>

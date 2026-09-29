@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="TemplateExpressionBuilder_AddingFilterLogic" xml:lang="en">
+   <title>Adding Filter Logic</title>
+   <conbody>
+      <p>The Expression Builder allows you to <b>Add Row</b> to add more expression conditions, where two or more conditions are joined in the overall expression by the <b>Filter Logic</b>. In the absence of a filter logic, the default relationship between the rows is the Boolean operator AND.</p>
+      <p>You can add up to nine rows of condition expressions which can be used in a single expression using the filter logic. The supported filter logic operators are AND and OR. You can use parentheses for setting the precedence. For example, if you have five rows you can create a filter logic like, (((1 AND 3) OR (2 AND 4)) AND 5). To add filter logic click <b>Add Filter Logic</b> and enter your logic in the field. Click <b>Apply Logic</b> to check whether your filter logic expression is correct. If your logic is incorrect, you'll see message in red.</p>
+      <p>
+         <fig>
+            <image placement="break" width="550" href="../attachments/102413239/102413334.png"/>
+         </fig>
+      </p>
+      <p>Click <b>Add</b> to finalize your conditional expression.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_DeletingSmartElementsUsingDeleteorBackspaceKeyv20240711_Todeletearead_onlyfield" xml:lang="en">
+   <title>To delete a read-only field</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts and open the Agreement Document.</cmd>
+         </step>
+         <step>
+            <cmd>Select the read-only field in the document (Protection Mode= <i>Full Access)</i>.</cmd>
+         </step>
+         <step>
+            <cmd>Press <uicontrol>Delete</uicontrol> or <uicontrol>Backspace</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>OR</p>
+         <ol>
+            <li>Select the read-only field in the document (Protection Mode= <i>
+                  <i>Insert Comments and Track Changes</i>)</i>.</li>
+            <li>Press <uicontrol>Delete</uicontrol> or <uicontrol>Backspace</uicontrol>.</li>
+            <li>You will see a Microsoft Word's warning message, click <uicontrol>Yes</uicontrol> to continue with the delete operation.</li>
+            <li>Go to Microsoft Word ribbon and click <uicontrol>Review</uicontrol> tab.</li>
+            <li>Click <uicontrol>Accept</uicontrol>, to accept the delete changes. The content control of the read only field is deleted but the text value remains.</li>
+            <li>Select the text value and press <uicontrol>Delete</uicontrol> or <uicontrol>Backspace</uicontrol>.</li>
+            <li>Repeat steps 3 and 4. You need to <uicontrol>Accept</uicontrol> the delete changes twice.</li>
+         </ol>
+         <p>Now the complete read only field is deleted.</p>
+      </postreq>
+   </taskbody>
+</task>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="WorkingwithFields_validatefields" xml:lang="en">
+   <title>To validate fields</title>
+   <taskbody><context><p>Use the <uicontrol>Validate</uicontrol> action to ensure that all smart fields in your document
+            are in the proper format for their assigned data type (e.g., Date, Number, DateTime,
+            selected values from picklists,etc.). The agreement document cannot be reconciled at
+            check-in unless all fields in your document are valid.</p><p>To validate fields:</p></context><steps>
+         <step>
+            <cmd>Go to <menucascade>
+                  <uicontrol>Document </uicontrol>
+                  <uicontrol>Fields</uicontrol>
+               </menucascade>.</cmd>
+            <info>
+               <fig>
+                  <image height="250" placement="break" width="262"
+                     href="../attachments/45220124/49086833.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on the <uicontrol>Validate</uicontrol> button. </cmd>
+            <stepresult>
+               <p>If any fields are invalid, the field row in the Document pane will be highlighted
+                  in red.</p>
+               <fig id="fig_wdq_psn_12c">
+                  <image height="250" placement="break" width="284"
+                     href="../attachments/45220124/50036846.png" id="image_xdq_psn_12c"/>
+               </fig>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Make any corrections to invalid fields as needed and click
+                  <uicontrol>Validate</uicontrol> again to confirm there are no invalid fields.
+            </cmd>
+         </step>
+      </steps>
+      <result id="result_igq_rsn_12c">
+         <p>If all fields are valid, a success message is displayed at the bottom of the pane. You
+            can now check in your document.</p>
+         <fig id="fig_bcg_tsn_12c">
+            <image height="400" placement="break" href="../attachments/45220124/50036842.png"
+               id="image_ccg_tsn_12c"/>
+         </fig>
+      </result></taskbody>
+</task>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CheckingOutanAgreementTocheckoutadocument" xml:lang="en">
+   <title>To check out a document</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word. If you have already downloaded the document from Salesforce or another location, open the document in Word. Otherwise, choose a blank document.</cmd>
+         </step>
+         <step>
+            <cmd>Go to <menucascade>
+                  <uicontrol>Insert</uicontrol>
+                  <uicontrol>My Add-ins</uicontrol>
+                  <uicontrol>Apttus X-Author</uicontrol>
+               </menucascade>.</cmd>
+         </step>
+         <step>
+            <cmd>
+               <xref href="../logging_in_to_x_author_co_45711457/45711457.dita" format="dita">Log in to X-Author Contracts</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>
+               <uicontrol>(Document currently open in Word) </uicontrol>The document is
+               automatically checked out and locked by you (you will see a message).</cmd>
+            <info>
+               <note id="note_fhf_lx3_12c">
+                  <p>If the document is already checked out by another user, you will not be able to
+                     work with the document until it is checked in or the lock is released. </p>
+                  <p>See <xref href="../locking_and_unlocking_doc_45220101/45220101.dita"
+                        format="dita">Locking and Unlocking Documents</xref> for more
+                     information.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>
+               <b>(No Document open)</b> Click on the <uicontrol>List Agreements</uicontrol> icon to
+               switch to a tab view of all agreement records you have permission to access.</cmd>
+            <info>
+               <fig>
+                  <image height="400" placement="break" href="../attachments/45220108/49676302.png"
+                  />
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd><b>(No Document open)</b> Scroll through the list of agreements or use the
+                  <uicontrol>Search</uicontrol> tool at the top to search for your agreement record
+               by keyword(s).</cmd>
+            <info>Click the <image placement="inline" width="20"
+                  href="../attachments/45220108/49676303.png" id="image_hlg_rx3_12c"/> icon to view
+               additional details about the agreement.</info>
+         </step>
+         <step>
+            <cmd><uicontrol>(No Document open) </uicontrol>Click the <uicontrol>List
+                  Documents</uicontrol> button to the right of the agreement record name to display
+               a list of document versions attached to that record. </cmd>
+            <info>
+               <fig>
+                  <image height="400" placement="break" href="../attachments/45220108/49676304.png"
+                  />
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>
+               <uicontrol>(No Document open)</uicontrol> Click the <uicontrol>Download
+                  Document</uicontrol> button to the right of the agreement version you want to work
+               with.</cmd>
+            <stepresult>
+               <p>The Document Version is downloaded to your computer.</p>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Open the downloaded document in Word. </cmd>
+         </step>
+         <step>
+            <cmd>You will see the message "Document is locked by you." </cmd>
+         </step>
+      </steps>
+      <result id="result_nwl_b2q_12c">
+         <p>All menu options are enabled. </p>
+         <fig id="fig_gpz_znj_12c">
+            <image height="400" placement="break" href="../attachments/45220108/51576859.png"
+               id="image_hpz_znj_12c"/>
+         </fig>
+      </result>
+   </taskbody>
+</task>

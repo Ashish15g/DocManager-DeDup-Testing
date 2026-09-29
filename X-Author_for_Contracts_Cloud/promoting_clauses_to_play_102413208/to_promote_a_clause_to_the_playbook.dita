@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="PromotingClausestoPlaybook_TopromoteaclausetothePlaybook" xml:lang="en">
+   <title>To promote a clause to the Playbook</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <uicontrol>Work tab &gt; Promote Clauses</uicontrol>. If you cannot see Promote Clauses under the <uicontrol>Work</uicontrol> tab, click the more icon <image height="19" placement="inline" href="../attachments/102413208/102413432.png"/> and from the menu, select <uicontrol>Promote Clauses</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>From the list of marked clauses, select the clause you want to promote to the clause library and click <uicontrol>Promote Clause</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Promote Clause form, specify the following details,</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Clause Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a new name of the clause.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Category</p>
+                              </entry>
+                              <entry>
+                                 <p>Select a category for your clause. The values of the categories are defined by your admin and help in filtering the clauses.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Subcategory</p>
+                              </entry>
+                              <entry>
+                                 <p>Select a sub category for your clause. Options in the list will change based on the category you selected.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Language</p>
+                              </entry>
+                              <entry>
+                                 <p>Choose the default clause language.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a new description or modify the existing description for the clause. Maximum of 255 characters (an error will be thrown if this limit is exceeded).</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Guidance</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter new guidance or modify existing guidance to help users determine the purpose of the clause.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Keywords</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter comma-separated keywords to associate with the template. Keywords make it easier to search the templates.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Your have promoted the clause to the Playbook.  You can open the Playbook and search the promoted clause to use it in any other document or template.</p>
+      </postreq>
+   </taskbody>
+</task>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_UsingClauseLibraryforTemplatev20240711_ToinsertaclausefromClauseLibraryintoatemplate" xml:lang="en">
+   <title>To insert a clause from Clause Library into a template</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts<uicontrol> </uicontrol>pane, click the Home button (<image placement="inline" width="16" href="../../global_images/images/256531474.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to <uicontrol>Work &gt; Clause Library</uicontrol>. The list of all the available clauses is displayed.  To view the complete clause name, either hover the mouse over the clause name or expand the X-Author for Contracts Advanced window.</cmd>
+         </step>
+         <step>
+            <cmd>You can use the Search by Clause Name box to search a clause by keyword. Click the Filter button (<image placement="inline" width="16" href="../attachments/256531477/256531471.png" class="- topic/image "/>) to view the drop-down menus that can help you to refine your search according to Type, Category, Subcategory, Locale, and Language.</cmd>
+            <info>
+               <note type="note">
+                  <p>
+                     <uicontrol>Note</uicontrol>
+                  </p>
+                  <p>You can configure custom locales in Conga CLM on the Conga platform.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Place the cursor in the section of the template where you want to insert a clause.</cmd>
+         </step>
+         <step>
+            <cmd>Click a clause from the list to view the clause text and active version. To insert the clause, click the Expand button (<image placement="inline" width="20" href="../attachments/256531477/256531470.png" class="- topic/image "/>) next to the clause name and click <uicontrol>Insert this Clause</uicontrol> to insert the clause into your template as inline text. You see a success message on inserting a clause. The clause content is marked by a content control boundary in your template. The inserted clause is now displayed in the Clauses Menu. For more information on Clauses Menu, see 
+<xref href="../about_clauses_menu_v20240_256531482/256531482.dita" format="dita">About Clauses Menu.</xref>
+            </cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>
+               <uicontrol>Note</uicontrol>
+            </p>
+            <ul>
+               <li>When you insert a clause using the <uicontrol>Insert this Clause</uicontrol> option, the clause takes the format of the document. For example, if you are inserting a plain text clause inside a bulleted list, the clause takes the format of the bulleted list.</li>
+               <li>You can insert a delete read-only clauses into your template. Delete read-only clauses can only be deleted in the Doc Clauses tab.</li>
+               <li>You cannot search and insert an alternate clause from the Clause Library.</li>
+            </ul>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

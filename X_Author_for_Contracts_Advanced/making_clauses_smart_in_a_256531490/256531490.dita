@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d245aA" xml:lang="en">
+   <title>Making Clauses Smart in a Template</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>A standard contracting process begins with a generated document and ends with a final contract. Between the initial document and the final signed contract, the document is redlined and negotiated. Smart clauses help track the differences between different versions of the contract document.</p>
+      <p>Smart clauses, like smart fields, are parts of a contract that can be reconciled between versions of a contract and noted in the contract record. This can be used during negotiations when clauses are redlined. Clauses that have changed will be reconciled when you choose the reconciliation option at Check-In. Clauses can only be smart in the context of a generated contract document.</p>
+      <p>In the process of negotiations, a contract may get redlined multiple times. During these redlines, a user may choose to accept the changes made to the contract. Smart clauses provide visibility into the changes made in the contract document by allowing the user to view the changed clauses in at check-in and when the clause change has been checked in, on the Contract Clauses related list.</p>
+      <p>When you use a template that has the smartness attribute enabled for its clauses, the generated contract document will have smart clauses that can be tracked.</p>
+      <note type="note">
+         <p>
+            <b>A Note on Contract Documents and Templates</b>
+         </p>
+         <p>All generated contract documents (as opposed to imported offline contracts) use document templates saved in Conga CLM. These templates contain merge fields which, upon generation, pull field values from the contract to create distributable documents.</p>
+      </note>
+   </conbody>
+</concept>

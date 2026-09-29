@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="d5aA" xml:lang="en">
+   <title>Post Installation/Upgrade Tasks</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="May 25, 2023"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <taskbody>
+      <context>
+         <p>After installing or upgrading X-Author for Excel, you must complete the following tasks before you start working with X-Author for Excel.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Setting up Permission Sets: Based on your requirement, you must set up Permission Sets for <xref href="../getting_started_with_x_au_98667661/98667661.dita"
+                     format="dita">Designer and Runtime</xref> users. After permission sets are created, you must assign the permission sets to users for accessing Apps.</cmd>
+            <info>
+               <note type="note">
+                  <p>It is recommended to use a single permission set approach.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Migrating Apps: X-Author for Excel Designer has built-in capability for migrating apps. For detailed information, see <xref href="../importing_and_exporting_a_98667712/98667712.dita"
+                     format="dita">Importing and Exporting an Application</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>Assigning Licenses (Production only): X-Author for Excel license is controlled by the Salesforce License Management App. For details, see <xref href="../getting_started_with_x_au_98667661/98667661.dita"
+                     format="dita">License Information</xref>.</cmd>
+            <choices>
+               <choice>
+                  <p>Runtime users need to be assigned <uicontrol>X-Author for Excel</uicontrol> license in Production.</p>
+               </choice>
+               <choice>
+                  <p>Designer users will need to be assigned both <uicontrol>X-Author for Excel</uicontrol> and <uicontrol>X-Author Designer for Excel</uicontrol> licenses in Production.</p>
+               </choice>
+            </choices>
+         </step>
+         <step>
+            <cmd>Assigning Apps (Production only): X-Author for Excel App has additional security that authenticates runtime users and profiles to access designated Apps. For detailed instructions on assigning Apps, see <xref href="../activating_and_assigning__98667701/98667701.dita"
+                     format="dita">Assigning Apps to Runtime Users</xref>. You may also use the user assignment app to assign App access in bulk.</cmd>
+         </step>
+         <step>
+            <cmd>Enable the Licences in Salesforce: After you install the X-Author for Excel Salesforce packages, you must send your Org ID to Conga. By default, when X-Author for Excel is installed, the lowest level of license is provisioned. After Conga has upgraded functionality in your environments, take the following steps to enable X-Author functionality according to your license:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Log in to Salesforce.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click on the <uicontrol>Conga X-Author for Excel</uicontrol> tab.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Click <uicontrol>Refresh License</uicontrol>.</cmd>
+               </substep>
+            </substeps>
+         </step>
+      </steps>
+   </taskbody>
+</task>

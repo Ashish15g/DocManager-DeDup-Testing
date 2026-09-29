@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="DataSetActionPrerequisites" xml:lang="en">
+   <title>Prerequisites</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Make sure that the application type is <uicontrol>Power Admin</uicontrol>. The Data Set Action can be only executed in applications that have the Power Admin edition.</cmd>
+         </step>
+         <step>
+            <cmd>For all queries that cross the limit of 20K, split the query into separate query actions. Ensure that your split query meets the following criteria:</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <ol>
+            <li>
+               <ul>
+                  <li>If there are two 'IN' filters or 'NOT IN' filters and if the query crosses the limit of 20K, ensure that you:<ul>
+                        <li>Separate the 'IN' clause from the query and create a different query action.</li>
+                        <li>Create two separate Query Actions each having a single 'IN' filter.</li>
+                        <li>While creating an action flow and selecting a query action, ensure that the <uicontrol>Persist Data in Output</uicontrol> checkbox is selected.</li>
+                        <li>Using the Data Set action procedure below, merge the data retrieved by both the query action in a single Data Set using a Data Set Action. You can choose to use the 'OR' clause or 'AND' clause to merge the data into a Data Set.</li>
+                     </ul>
+                  </li>
+                  <li>If there are two or more 'IN' filters or 'NOT IN' filters and if the query crosses the limit of 20K, ensure that you:<ul>
+                        <li>Separate the 'IN' clauses into a separate query action.</li>
+                        <li>
+                           <p>While creating an action flow and selecting a query action, ensure that the <uicontrol>Persist Data in Output</uicontrol> checkbox is selected.</p>
+                        </li>
+                        <li>Using the Data Set action procedure below, merge the output of those query action flows using a Data Set Action into a single data set.</li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+         </ol>
+      </postreq>
+   </taskbody>
+</task>

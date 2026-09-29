@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CollaboratingusingOutlook_Tosendemailtogroups" xml:lang="en">
+   <title>To send email to groups</title>
+   <taskbody>
+      <prereq id="prereq_j1k_wbw_12c">
+         <ul id="ul_fct_wbw_12c">
+            <li>The X-Author Outlook add-in must have been installed and you are connected.</li>
+            <li>You must be a member of at least one Chatter group</li>
+         </ul>
+      </prereq>
+         <steps>
+            <step><cmd>In Outlook, click <uicontrol>New E-mail </uicontrol>or reply to an existing message</cmd></step>
+            <step><cmd>In the <uicontrol>Message</uicontrol> tab, write your email and attach any files, per usual.</cmd></step>
+            <step><cmd>Select an existing group from the <uicontrol>Groups</uicontrol> list</cmd>
+            <info>
+               <p>- or -</p>
+               <p>Click <uicontrol>Search Group</uicontrol> and select the desired group from the
+                  Groups search window. </p>
+               <fig id="fig_t5c_zbw_12c">
+                  <image height="250" placement="break" width="520"
+                     href="../attachments/98671234/98671286.jpg" id="image_u5c_zbw_12c"/>
+               </fig>
+            </info></step>
+            <step><cmd>Select Share with Group to take the text of your email body and insert it as a chatter feed entry.</cmd>
+            <info>
+               <p>- or -</p>
+               <p>Select Share with Group and Entire Message to insert the text of the email into the chatter feed, while</p>
+               <p>also attaching the whole message (email + any attachments as a .msg file) to that chatter feed entry.</p>
+            </info></step>
+         </steps>
+         <result>
+            <p>The file is now attached to the draft email.</p>
+         </result>
+      <postreq id="postreq_r5v_1cw_12c">
+         <p>You can repeat the task to attach another file or send the email.</p>
+      </postreq>
+   </taskbody>
+</task>

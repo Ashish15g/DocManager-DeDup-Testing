@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ConfiguringyourDataMigrationAppDisablingWorksheets" xml:lang="en">
+   <title>Disabling Worksheets</title>
+   <conbody>
+      <p>By default, each object you add to your Data Migration app representing a Query or Search &amp; Select action creates a separate worksheet to retrieve data for migration. You can choose to disable creation of a worksheet for specific objects defined in the app. To disable the worksheet for an object, click the corresponding check box under the <b>Display</b> column. After you create the app, the resulting workbook will not create a worksheet for the disabled objects. Any queries for those objects will still execute–the output from those queries can still be used as input for other actions in the migration).</p>
+      <p>In the below example, the "Sub Bundle Products" object query retrieves data that is then used by the "Product Option Component" query to retrieve records for migration and populated in the <i>Product_Option_Component</i> worksheet. Because "Sub Bundle Products" is only used as input for another query, a worksheet is not required for that data. </p>
+      <p>
+         <fig>
+            <image height="250"
+                   placement="break"
+                   width="454"
+                   href="../attachments/98667709/98667971.png"/>
+         </fig>
+      </p>
+      <p>For step-by-step instructions on creating a Data Migration Wizard, refer to <xref href="../using_the_data_migration__98667704/98667704.dita"
+               format="dita">Using the Data Migration Wizard</xref> in the X-Author for Excel Designer and Runtime guide.</p>
+      <p>
+         <b>Next: </b>
+         <xref href="../finalizing_your_data_migr_98667707/98667707.dita"
+               format="dita">Finalizing your app</xref>.</p>
+   </conbody>
+</concept>

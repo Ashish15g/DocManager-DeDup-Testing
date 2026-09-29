@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CreatingLookAheadsTocreateanonlinelookup" xml:lang="en">
+   <title>To create an online lookup</title>
+   <taskbody>
+      <context>
+         <p> A Search and Select Action on the object that corresponds to the lookup value field must exist. For example, if you need an account lookup, there must be a Search and Select Action on the Account object.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Click <uicontrol>Display Map</uicontrol>. </cmd>
+         </step>
+         <step>
+            <cmd>Select a Display Map and click <uicontrol>Edit</uicontrol>. The Display Map panel opens.</cmd>
+         </step>
+         <step>
+            <cmd>In the Mapped Details section of the Display Map pane, click the magnify icon <image placement="inline" href="../attachments/98667726/98668079.jpg"/> to open lookup properties for that field.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Search And Select (Online)</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the applicable Search and Select Actions.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Mapped Record ID</uicontrol> field, select the record ID field and click <uicontrol>Save</uicontrol>.</cmd>
+            <info>
+               <p>This ensures that the correct lookup will be returned to the record. To remove an existing Online Lookup, click <uicontrol>Remove</uicontrol>.<fig>
+                     <image height="250"
+                            placement="break"
+                            width="397"
+                            href="../attachments/98667726/98668077.png"/>
+                  </fig>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Close</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_CloningaTemplatev20240620_Tocloneatemplatefromanexistingtemplate1" xml:lang="en">
+   <title>To clone a template from an existing template</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, click the Home button (<image placement="inline" width="16" href="../../global_images/images/256531474.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to the Work tab, click the Expand button (<image placement="inline" width="16" href="../attachments/256527969/256527953.png" class="- topic/image "/>), and select <uicontrol>Clone</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Clone Template page, change the name of the cloned template, to suit your requirements. By default, the cloned template name has "Copy" affixed to the end of the original template name.</cmd>
+            <info>
+               <p>You have the option to change the settings of your template when you clone it. You can specify the following fields:</p>
+               <p platform="salesforce">
+                  <table platform="salesforce">
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Name*</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the name of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Current Version</p>
+                              </entry>
+                              <entry>
+                                 <p>The current version of the template is displayed. This version cannot be edited.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Type</p>
+                              </entry>
+                              <entry>
+                                 <p>Choose the template type from the picklist (Agreement, Proposal, Clause, etc.).</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Business Object</p>
+                              </entry>
+                              <entry>
+                                 <p>Choose the business object for your template (e.g., Apttus__APTS_Agreement__c for Agreement). This picklist is dependent on the value selected for Type.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Alternate Clause</p>
+                              </entry>
+                              <entry>
+                                 <p>You can mark a clause as an alternate clause while cloning a template. The standard clause can be marked as an alternate clause. You can not uncheck this checkbox while cloning an alternate clause.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Agreement Types</p>
+                              </entry>
+                              <entry>
+                                 <p>From the drop-down, you can select multiple Agreement types to associate with your template. The value of Agreement Types decides which templates are available at the time of agreement generation. If your Template's Agreement Type matches with the Agreement Type of your agreement record, you will see that template in the list of available templates at the time of document generation.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Category</p>
+                              </entry>
+                              <entry>
+                                 <p>Choose the category from the drop-down. The categories are defined by the administrator, in Conga CLM.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Subcategory</p>
+                              </entry>
+                              <entry>
+                                 <p>The subcategory is a dependent field. The Subcategories are populated, based on the value chosen for Category. The subcategories are defined by the administrator, in Conga CLM.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Language</p>
+                              </entry>
+                              <entry>
+                                 <p>Choose the default template language</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Locale</p>
+                              </entry>
+                              <entry>
+                                 <p>Choose an option from the list to change the default locale for the template. You can configure custom locales in Conga CLM. For more information, see <i>Adding Custom Locale topic</i> in Conga CLMAdministrator Guide.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Enable Formatting</p>
+                              </entry>
+                              <entry>
+                                 <p>Check this box to enable locale formatting at the template and field level for this template. This allows you to define locale settings for Currency, Number, Percent and Date formats.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry namest="col1" nameend="col2">
+                                 <p>
+                                    <uicontrol>Optional: </uicontrol>Specify the following fields when "Enable Formatting" is selected to modify locale formatting.</p>
+                                 <p>
+                                    <table>
+                                       <tgroup cols="2">
+                                          <tbody>
+                                             <row>
+                                                <entry>
+                                                   <p>Field</p>
+                                                </entry>
+                                                <entry>
+                                                   <p>Description</p>
+                                                </entry>
+                                             </row>
+                                             <row>
+                                                <entry>
+                                                   <p>Date Format      </p>
+                                                </entry>
+                                                <entry>
+                                                   <p>Select an option from the drop-down to choose the default format for all date fields in the template.</p>
+                                                </entry>
+                                             </row>
+                                             <row>
+                                                <entry>
+                                                   <p>Currency Format</p>
+                                                </entry>
+                                                <entry>
+                                                   <p>Select an option from the drop-down to choose the format for all Currency fields in the template. Choose "None" to only display Currency field values in generated documents.</p>
+                                                   <p>If "Currency Symbol" is selected, Currency fields will be generated with no space between the symbol and field value. If "ISO" is selected, Currency fields will be generated with a space between the ISO code and the field value.</p>
+                                                </entry>
+                                             </row>
+                                             <row>
+                                                <entry>
+                                                   <p>Number Precision</p>
+                                                </entry>
+                                                <entry>
+                                                   <p>Enter a number from 0-9 to define the precision for Number/Percent field values in the template (e.g., "2" if the Number field should display two digits following the decimal point.)</p>
+                                                </entry>
+                                             </row>
+                                             <row>
+                                                <entry>
+                                                   <p>Currency Precision</p>
+                                                </entry>
+                                                <entry>
+                                                   <p>Enter a number from 0-9 to define the precision for Currency field values in the template (e.g., "2" if the Currency field should display two digits following the decimal point.)</p>
+                                                </entry>
+                                             </row>
+                                          </tbody>
+                                       </tgroup>
+                                    </table>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Keywords</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter comma-separated keywords to associate with the template. Keywords make it easier to search the templates.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Next Revision Date</p>
+                              </entry>
+                              <entry>
+                                 <p>Identify a date for the next revision of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a new description or modify the existing description for the template. Maximum of 255 characters (an error will be thrown if this limit is exceeded).</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Guidance</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter new guidance or modify existing guidance to help users determine the purpose of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Active</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the Active switch to 'On' to activate the template. You must activate a template to use it for generating an agreement document.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Clone </uicontrol>to save the cloned template in Conga CLM.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

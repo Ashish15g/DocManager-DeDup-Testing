@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MakingFieldsSmartinaTemplate_TomarkafieldasSmart" xml:lang="en">
+   <title>To mark a field as Smart</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Insert the field into your template by following the steps in <xref href="https://documentation.apttus.com/display/XAJSSFSUM19UG/Inserting+Fields+in+a+Template" format="html" scope="external">Inserting Fields in a Template</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>From the X-Author Templates pane, go to<uicontrol> Work tab &gt; Template Fields</uicontrol>. If you cannot see the Template Fields tab, click more </cmd>
+            <info>
+               <fig>
+                  <image height="19" placement="break" href="../attachments/102413234/102413384.png"/>
+               </fig> icon and select <uicontrol>Template Fields</uicontrol>.</info>
+         </step>
+         <step>
+            <cmd>The Template Fields page shows the list of all the fields present in your template. Search for and click the field name in the list to highlight it in the document.</cmd>
+         </step>
+         <step>
+            <cmd>Click the gear icon <image placement="inline" width="16" href="../../global_images/images/256528177.png"/> adjacent to the selected field name to open the <uicontrol>Properties</uicontrol> page.</cmd>
+         </step>
+         <step>
+            <cmd>In the attributes list turn on the <uicontrol>Smart Field</uicontrol> switch and click <uicontrol>Ok</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Your field will be Smart.</p>
+         <note type="note">
+            <p>If you want to turn off the smartness property of a field, turn off the Smart Field switch, under Properties.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

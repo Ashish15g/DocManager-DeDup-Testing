@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan883" xml:lang="en">
+   <title>Restricting Agreement Document Check-In and Check Out</title>
+   <prolog>
+      <author>Maanasa Suthrave</author>
+      <critdates>
+         <created date="Jul 26, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Contracts for Cloud on Salesforce Summer 2019 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can restrict agreement document check-in and check out based on the Status Category and Status of the agreement. You can use the "Restrict Checkin of Documents" comply system property to restrict users from checking in and checking out agreement documents. By default, no value is available for the property, hence, no check-in restrictions will be applied.  For information on the Restrict Checkin of Documents comply system property, see <i>Contract Management on Salesforce Administrator Guide</i>.</p>
+      <p>If you provide a Status Category as the property value, the check-in and check-out restrictions are applied to all the statuses belonging to that status category. If you provide a Status as the property value, the check-in and check-out restrictions are applied only to that status.</p>
+      <p>If an agreement Status Category or Status matches the property value and you check-out the document, all the options are disabled and you cannot check in the document. If an agreement Status Category or Status changes with the workflow and does not match the property value, the restrictions are removed and you can modify the agreement. </p>
+   </conbody>
+</concept>

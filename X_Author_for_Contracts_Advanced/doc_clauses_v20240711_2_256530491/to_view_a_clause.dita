@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_DocClausesv20240711_Toviewaclause" xml:lang="en">
+   <title>To view a clause</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and launch the X-Author for Contracts Advanced add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts and open the required contract document. For information on opening a contract document, see 
+<xref href="../opening_an_agreement_docu_256530555/256530555.dita" format="dita">Opening a Contract Document</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, go to Work &gt; Doc Clauses. If you do not see Doc Clauses under the Work tab, click the More button (<image placement="inline" width="16" href="../attachments/256530491/256530483.png" class="- topic/image "/>) from the menu, and select <uicontrol>Doc Clauses</uicontrol>. The list of clauses inserted in the document is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Click the Filter icon (<image placement="inline" width="16" href="../attachments/256530491/256530488.png" class="- topic/image "/>) to expose drop-down menus that can help you to refine your search according to <uicontrol>All Clauses</uicontrol> Type, <uicontrol>Modified Clauses, </uicontrol>or<uicontrol> Marked for Delete</uicontrol>. </cmd>
+            <info>
+               <ul>
+                  <li>The All Clauses filter displays all of your clauses.</li>
+                  <li>The Modified Clauses filter only displays clauses you have modified.</li>
+                  <li>The Marked for Delete filter only displays clauses you have marked for deletion.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on a clause name in the list. The document scrolls to highlight the selected clause in the contract document.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <ul>
+               <li>Sections and supporting documents do not display in the list of clauses if they contain a smart field.</li>
+               <li>Clauses and fields deleted by your keyboard will not included in the Marked for Delete filter.</li>
+            </ul>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

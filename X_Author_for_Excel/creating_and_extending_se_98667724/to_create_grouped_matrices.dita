@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CreatingandExtendingSections_TocreateGroupedMatrices" xml:lang="en">
+   <title>To create Grouped Matrices</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <uicontrol>Matrix Map</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="158"
+                         placement="break"
+                         width="476"
+                         href="../attachments/98667724/98667833.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Create</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="500"
+                         href="../attachments/98667724/98667829.png"/>
+               </fig>The Matrix Map pane opens on the right side of Excel.</info>
+         </step>
+         <step>
+            <cmd>Type a Name for the Matrix Map.
+               </cmd>
+            <info>
+               <p>If you are creating one Matrix Map, you can use <i>Map</i> or any other name. If you are using multiple Matrix Maps, then you need a more descriptive name to identify each one.</p>
+               <p>Each object and its fields selected in objects will be available for use in the Matrix Map. Objects are listed based on the object behavior from Objects (<uicontrol>List</uicontrol>). List fields are displayed by default.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>In an existing Matrix Map if you want to add a grouped column, create a Column Mapping for each section. </cmd>
+            <info>
+               <ol>
+                  <li>Drag a List field onto the worksheet. When you release the mouse, a pop-up window appears.<p>
+                        <fig>
+                           <image height="250"
+                                  placement="break"
+                                  href="../attachments/98667724/98667826.png"/>
+                        </fig>
+                     </p>
+                  </li>
+                  <li>
+                     <p>Click the Column radio button. The Rendering Type, Value Type, Grouped Field and Sort options are displayed. All of these work together to determine how column values are grouped.</p>
+                     <note type="note">
+                        <p>Ensure that the Grouped Field column is True. If this field is set it to false, the column added to the Matrix is not a part of other objects.</p>
+                     </note>
+                  </li>
+                  <li>Select a <uicontrol>Rendering Type</uicontrol>.<ul>
+                        <li>Dynamic: Field data is retrieved automatically based on the data getter actions.</li>
+                     </ul>
+                  </li>
+                  <li>
+                     <p>Click <uicontrol>OK</uicontrol> to complete the settings for that field.  </p>
+                  </li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>Create <uicontrol>Data Mappings</uicontrol> for each section. Make sure that the cell you are mapping to is an intersection of a row and column mapping.</cmd>
+            <info>
+               <ol>
+                  <li>After you have created column and row mappings, you can drag and drop the field that represents the intersection. When you drop the field, the pop up window will appear and, in this case, the radio button will automatically default to Data. It uses the closest row and column combination.</li>
+                  <li>Enter a <uicontrol>Section Name</uicontrol> for the data or select an existing section name from the drop-down menu.</li>
+                  <li>Select a Row Lookup.</li>
+                  <li>
+                     <p>Select a Column Lookup. Click <uicontrol>OK</uicontrol> to complete the settings for that field. </p>
+                  </li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol> and <uicontrol>Close</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save App</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

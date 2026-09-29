@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_DocFieldsv20240711_Tomarkafieldinadocument" xml:lang="en">
+   <title>To mark a field in a document</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and launch the X-Author for Contracts Advanced add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>Select the content in the document to be marked as a field.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, go to Work &gt; Mark Fields. If you do not see Mark Fields under the Work tab, click the More icon (<image placement="inline" width="16" href="../attachments/256530452/256530408.png" class="- topic/image "/>) and from the menu, select Mark Fields. This opens the Mark Fields form.</cmd>
+         </step>
+         <step>
+            <cmd>The Mark Fields form lists all the available CLM fields with their name and type that could be made smart. These fields are grouped into different categories according to the field type, like <i>Information, Key Dates, Miscellaneous</i>, etc.</cmd>
+         </step>
+         <step>
+            <cmd>Use Search Fields to enter the field name and search or scroll through the list of fields to select the field to be applied to the selected text.</cmd>
+         </step>
+         <step>
+            <cmd>Click the More options icon (<image placement="inline" width="18" href="../attachments/256530452/256530407.png" class="- topic/image "/>) adjacent to the field name and click<uicontrol/>Mark Field. You will get a confirmation message.</cmd>
+         </step>
+         <step>
+            <cmd>Select Mark in the confirmation message to mark the selected text as a smart field.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>Make sure the format of the text you are marking matches the data type you are mapping to. You will receive an error if the text is not valid for the field type you choose.</p>
+         </note>
+         <p platform="conga">You will get a success message and the selected text in the contract will acquire content control boundary. The content adopts the properties of the same field on the contract record. The marked field will now be displayed in the <uicontrol>Doc Fields</uicontrol> tab.</p>
+      </postreq>
+   </taskbody>
+</task>

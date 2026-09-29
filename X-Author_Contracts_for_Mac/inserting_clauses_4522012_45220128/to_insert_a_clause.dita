@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="InsertingClauses_Toinsertaclause" xml:lang="en">
+   <title>To insert a clause</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Hover over the <uicontrol>Playbook</uicontrol> tab and select <uicontrol>Clauses</uicontrol> to display a list of clauses in your library.</cmd>
+         </step>
+         <step>
+            <cmd>Scroll to the place in your document where you want to insert the clause. Place your cursor at the point of insertion.</cmd>
+            <info>
+               <fig>
+                  <image height="250" placement="break" width="434" href="../attachments/45220128/49676323.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click the <image placement="inline" width="20" href="../../global_images/images/256531682.png" id="image_apr_3gq_12c"/>
+               <uicontrol>Insert Clause</uicontrol> icon to insert the clause into your
+               document.</cmd>
+            <info>
+               <fig>
+                  <image height="250" placement="break" width="648" href="../attachments/45220128/49676325.png"/>
+               </fig>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <p>The inserted clause is automatically marked as a smart clause (shown with a grey
+            border). You can go to <menucascade>
+               <uicontrol>Document </uicontrol>
+               <uicontrol> Clauses</uicontrol>
+            </menucascade> in the X-Author pane to confirm the clause is now recognized in the
+            document. If you decide you want to remove clause properties and revert the clause to
+            static text, use the Document panel to <xref href="../working_with_clauses_4522_45220112/to_unmark_a_clause.dita#WorkingwithClauses_unmarkClause">unmark the clause</xref>. When you check in the document, any smart clauses can be
+            reconciled to the agreement and information for the inserted clause is added to the
+            Agreement Clause related list on the agreement record.</p>
+         <p>To learn how the Agreement Clause related list is populated with each insert, modify and
+            delete action, refer to <xref href="../tracking_clauses_in_your__45220100/45220100.dita" format="dita"/>.</p>
+         <note type="warning">
+            <p>At this time, clauses can only be inserted in documents with "Full Access" protection.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

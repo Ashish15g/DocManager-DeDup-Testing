@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CollaboratingusingWord_ToCollaborateUsingWord" xml:lang="en">
+   <title>To Collaborate Using Word</title>
+   <taskbody>
+      <prereq id="prereq_z5p_zwv_12c">
+         <ul id="ul_x4w_zwv_12c">
+            <li>The Salesforce org must have Apttus X-Author Chatter package installed.</li>
+            <li>You must have logged into X-Author Chatter for Word and opened the file in
+               Word.</li>
+         </ul>
+      </prereq>
+         <steps>
+            <step><cmd>Click <uicontrol>Chatter</uicontrol> from the <uicontrol>X-Author</uicontrol> Chatter ribbon.</cmd>
+            <stepresult>
+               <p>Chatter opens in its own window within Word and you may need to resize the
+                  document for optimal viewing.</p>
+            </stepresult></step>
+            <step><cmd>Select who you want to collaborate with in your Chatter feed by clicking one of the icons:
+            </cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <fig id="fig_dd2_h1x_12c">
+                                    <image height="16" placement="break"
+                                       href="../attachments/98670315/98671135.jpg"
+                                       id="image_ed2_h1x_12c"/>
+                                 </fig>
+                              </entry>
+                              <entry>
+                                 <p>Your audience will be everyone in your organization with a Chatter account.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <fig id="fig_cl3_h1x_12c">
+                                    <image height="16" placement="break"
+                                       href="../attachments/98670315/98671136.jpg"
+                                       id="image_dl3_h1x_12c"/>
+                                 </fig>
+                              </entry>
+                              <entry>
+                                 <p>Your audience will be everyone who is following the document. This option is only available when the document is associated with a Salesforce object, such as an Account or an Opportunity.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <fig id="fig_r4q_l1x_12c">
+                                    <image height="16" placement="break"
+                                       href="../attachments/98670315/98671138.jpg"
+                                       id="image_s4q_l1x_12c"/>
+                                 </fig>
+                              </entry>
+                              <entry>
+                                 <p>Your audience will be all the members of the group you select.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <fig id="fig_mn5_l1x_12c">
+                                    <image height="16" placement="break"
+                                       href="../attachments/98670315/98671139.jpg"
+                                       id="image_nn5_l1x_12c"/>
+                                 </fig>
+                              </entry>
+                              <entry>
+                                 <p>Your audience will be the single individual you select.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info></step>
+            <step><cmd> Make changes to the document using Word and then choose what content to share.</cmd>
+            <info>
+               <fig>
+                  <image height="208" placement="break" width="495" href="../attachments/98670315/98671140.jpg"/>
+               </fig>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead><row>
+                              <entry>
+                                 <p>Post</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a comment to solicit feedback, while not presenting any of the document in the feed.</p>
+                              </entry>
+                           </row></thead>
+                        <tbody>
+                           
+                           <row>
+                              <entry>
+                                 <p>Selected Content</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the content in the document you want to share in the feed. Only text will be included in the feed. If your content includes an image or other kinds of media, it will be represented with a '/' and table cell content is taken out of the table and included on individual lines.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Entire Document</p>
+                              </entry>
+                              <entry>
+                                 <p>The whole document is attached to the Chatter feed entry and standard Chatter actions can be taken on the file.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Both</p>
+                              </entry>
+                              <entry>
+                                 <p> Combination of Selected Content and Entire Document.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info></step>
+            <step><cmd>Click <uicontrol>Share</uicontrol> to share your content to the Chatter feed.</cmd></step>
+            <step><cmd>Click <uicontrol>Refresh</uicontrol> to ensure you feed is up to date and that you receive feedback from your colleagues.</cmd></step>
+         </steps>
+   </taskbody>
+</task>

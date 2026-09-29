@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d254aA" xml:lang="en">
+   <title>Salesforce Method Action</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="warning">
+         <p>Salesforce Method action is being deprecated and will be retired in a future release. It is not recommended to use this action during App development. You should use an individual or list field based trigger to simulate a method call to Salesforce.</p>
+      </note>
+      <note type="note">
+         <p>Salesforce Method relates to Salesforce environment only and hence not supported in Microsoft Dynamics and Apttus Omni.</p>
+      </note>
+      <p>The Salesforce Method action enables you to call Salesforce Apex classes.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d261aA" xml:lang="en">
+   <title>Making Fields Smart in a Template</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>Smart fields are specialized fields that can retain the field definition even after the merge service generates the contract document. This feature helps for reconciling the document, which is detailed in the 
+<xref href="../reconciliation_256526637_256526637/256526637.dita" format="dita">Reconciliation</xref> section. Smart fields are intended for parts of a contract that would normally be negotiated. Smart fields, usually represented by small chunks of text, such as dates, categories, and numeric values, are not intended to hold large amounts of text. If necessary, use smart clauses instead.</p>
+      <p>Smart fields have the following limitations:</p>
+      <ul>
+         <li>Text area data type fields and the LongDate formula field are not supported.</li>
+         <li>You cannot mark lookup fields as smart.</li>
+         <li>Smart fields cannot be used in the headers or footers of contract documents.</li>
+      </ul>
+   </conbody>
+</concept>

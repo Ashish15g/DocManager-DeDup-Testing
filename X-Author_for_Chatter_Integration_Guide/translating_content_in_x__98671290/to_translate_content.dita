@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="TranslatingContentinXAuthorChatterToTranslateContent" xml:lang="en">
+   <title>To Translate Content</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Highlight the content you want to translate and click
+                  <uicontrol>Translate</uicontrol> to display the content in the Translate pane. </cmd>
+            <info>
+               <p>The language of the source content is automatically detected. If you do not select
+                  content, the Translate pane is still displayed but is empty and you can then
+                  highlight the text you want to translate.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the language you want to translate the content into and click
+                  <uicontrol>Translate</uicontrol>.</cmd>
+            <stepresult>
+               <p> The text in the Translated Content field is read-only.</p>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Replace Translated Content</uicontrol> and click
+                  <uicontrol>Yes</uicontrol> in the confirmation dialog box and the translated
+               content is copied and pasted. </cmd>
+            <info>
+               <p>The content is pasted into the source file at the cursor point. If the original
+                  translated content is still highlighted then it will replace it, but the cursor
+                  can be placed at any position in the document.</p>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

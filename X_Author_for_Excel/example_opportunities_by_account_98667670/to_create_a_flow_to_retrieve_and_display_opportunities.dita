@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Example_OpportunitiesbyAccountAppTocreateaflowtoretrieveanddisplayOpportunities"
+      xml:lang="en">
+   <title>To create a flow to retrieve and display Opportunities</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <uicontrol>Action Flow</uicontrol> and then click <uicontrol>Create</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter <i>Retrieve Opportunities</i> into the Action Flow Name field and click <uicontrol>Apply</uicontrol>. The left-hand window is updated.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add Step</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Step Name field, type <i>Select Account.</i> From the Action list, select <uicontrol>Select Account</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the check box next to the <uicontrol>Persist Data as Output</uicontrol> check box and enter <uicontrol>Account</uicontrol> in the Action Output field.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Apply</uicontrol> and then click <uicontrol>Add Step</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Step Name field, type <i>Query Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>From the Action list, select <uicontrol>Query Opportunities</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the check box next to <uicontrol>Persist Data as Output</uicontrol> and enter <i>Opps</i> in the Action Output field.</cmd>
+         </step>
+         <step>
+            <cmd>Select the check box next to <uicontrol>Provide Input</uicontrol> and then select <uicontrol>Account</uicontrol> from the picklist.</cmd>
+         </step>
+         <step>
+            <cmd>Click<uicontrol> Apply</uicontrol> and then click <uicontrol>Add Step</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Step Name field enter <i>Display Opportunities</i> and select <uicontrol>Display Opportunities</uicontrol> from the Action list.</cmd>
+         </step>
+         <step>
+            <cmd>Select the check box next to <uicontrol>Provide Input</uicontrol> and select Account and Opps from the Action Input list.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Apply</uicontrol> and then click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save App</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ImageReferencesinTemplatesv20240620_ToaddtheUploadImageFieldtoaPageLayout" xml:lang="en">
+   <title>To add the Upload Image Field to a Page Layout</title>
+   <taskbody>
+      <context>
+         <p>You must have created an Upload Image field and RTF fields to be used with a page layout.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Go to <uicontrol>Build &gt; Create &gt; Objects &gt; Agreement &gt; Page Layouts</uicontrol> and select the one you want to add Image Reference functionality to.</cmd>
+         </step>
+         <step>
+            <cmd>From the Fields list select the RTF fields you want to use for images and add them to the Information section.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Upload Image</uicontrol> from the Fields list and add it to the Information section.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Repeat steps 1 to 4 for any other required Agreement object or Proposal object page layouts.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The fields will now be displayed on objects using those page layouts. When you go to the object, there will be an Upload Image button, along with the RTF fields in the object's header section.</p>
+      </postreq>
+   </taskbody>
+</task>

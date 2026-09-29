@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ConnectingtoyourEnvironmentfromExcel_ToconnecttoSalesforcefromX_AuthorDesigner"
+      xml:lang="en">
+   <title>To connect to Salesforce from X-Author Designer</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Excel.</cmd>
+         </step>
+         <step>
+            <cmd>In the X-Author Designer or X-Author for Excel ribbon menu, click <uicontrol>Connect.</uicontrol>
+            </cmd>
+            <info>
+               <p>If this is the first time you have connected to Salesforce, the <uicontrol>Manage Connections</uicontrol> window opens.</p>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="255"
+                         href="../attachments/98667665/190354384.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Under the <uicontrol>Create a new connection section</uicontrol> and in the <uicontrol>Name</uicontrol> field, enter the Salesforce.com user name.</cmd>
+            <info>
+               <note type="note">
+                  <p>If you have previously connected to Salesforce, but need to connect to a different org, refer to S<i>witching Salesforce Connections</i>.</p>
+               </note>
+               <p/>
+            </info>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Login URL field</uicontrol>, enter the URL you use to log in to Salesforce (In many cases, the URL is <xref href="http://login.salesforce.com" format="html" scope="external">
+                  <u>login.salesforce.com</u>
+               </xref> for production orgs and <xref href="http://test.salesforce.com" format="html" scope="external">
+                  <u>test.salesforce.com</u>
+               </xref> for sandboxes. You can click the shortcut for either of these in the <uicontrol>Examples section)</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click Authorize. The Salesforce login window opens.</cmd>
+         </step>
+         <step>
+            <cmd>Enter your username and password in the provided fields and click Log in to Salesforce.
+            </cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>If you are seeing a blank screen, check if your antivirus is blocking the<i> eowp.exe</i> file. If yes, contact your administrator to whitelist the <i>eowp.exe</i> file.</p>
+         </note>
+         <p>The X-Author Designer ribbon is fully enabled. Now you can start designing an app or using existing apps.</p>
+      </postreq>
+   </taskbody>
+</task>

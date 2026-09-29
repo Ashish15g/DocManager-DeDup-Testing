@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_InstallingProductionXAuthorforContractsUsingMicrosoftAppSourcev20240711_Prerequisites" xml:lang="en">
+   <title>Prerequisites</title>
+   <conbody>
+      <p platform="conga">Microsoft Word must be activated with a license, and you need to have access to all the Microsoft office tools. For example, you need either a Microsoft Office 365 license or Microsoft Volume Licensing.</p>
+      <p platform="conga">The following table lists the minimum requirements for installing and using X-Author for Contracts Advanced add-in on the Windows operating system.</p>
+      <p platform="conga">
+         <table platform="conga">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>System Requirement</p>
+                     </entry>
+                     <entry>
+                        <p>Certified Version</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Windows Operating System</p>
+                     </entry>
+                     <entry>
+                        <p>Windows 10 and Windows 11</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Microsoft Office</p>
+                     </entry>
+                     <entry>
+                        <p>Semi-Annual Enterprise Channel 2208 and Standalone 2021 office.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p platform="conga">The following table lists the minimum requirements for installing and using X-Author for Contracts on the Mac operating system.</p>
+      <p platform="conga">
+         <table platform="conga">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>System Requirement</p>
+                     </entry>
+                     <entry>
+                        <p>Certified Version</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>macOS</p>
+                     </entry>
+                     <entry>
+                        <p>macOS Mojave (version 10.14.6)</p>
+                        <p>macOS Big Sur (version 11.5.1)</p>
+                        <p>macOS Monterey (Version 12.1) </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Microsoft Office</p>
+                     </entry>
+                     <entry>
+                        <p>Microsoft 365 version from 15.32 to 16.65</p>
+                        <p>Volume License 2019 (Version 16.65 (22091101))</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <note type="note">
+         <p platform="conga">If you are using an Office MSI installer for Office 2016 the Microsoft Word version needs to be 16.0.4390.1000 or greater.</p>
+      </note>
+      <note type="note">
+         <p>Any version which is not supported under Semi-Annual Enterprise Channel by Microsoft as mentioned in this link : 
+<xref href="https://docs.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date" format="html" scope="external">https://docs.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date</xref> will not be supported in X-Author for Contracts Advanced also.</p>
+      </note>
+      <p platform="conga">Read permission to object Template Local(Apttus_Locale_c) has to be provided to avoid error message while opening a document using X-Author for Contracts Advanced . For more information, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/profile-settings-and-security-184422733.html" format="html" scope="external">Profile Settings and Security (conga.com)</xref>.</p>
+   </conbody>
+</concept>

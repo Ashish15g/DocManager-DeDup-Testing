@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan827" xml:lang="en">
+   <title>Configuring System Properties</title>
+   <prolog>
+      <author>user-0266f</author>
+      <critdates>
+         <created date="Nov 19, 2018"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Chatter on Salesforce Winter 2018 Integration Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can drive the functioning of certain features in the application from the fields available in X-Author System Properties.</p>
+      <p>From <uicontrol>Setup</uicontrol>, enter <b>Custom Settings</b> in the <i>Quick Find</i>
+         box and search for X-Author System Properties. Then select <b>X-Author System
+            Properties</b> and click <uicontrol>Manage</uicontrol> to see <b>System properties</b>.
+            <uicontrol>Edit</uicontrol> System Properties to provide value for the fields.</p>
+      <note type="important">
+         <p>You must name the System Properties record as <b>System Properties</b>.</p>
+      </note>
+      <p>The following table lists the fields available for edit and their significance.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead><row>
+                     <entry>
+                        <p>Field</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row></thead>
+               <tbody>
+                  
+                  <row>
+                     <entry>
+                        <p>Destination URL</p>
+                     </entry>
+                     <entry>
+                        <p>Enter the Chatter Host URL.</p>
+                        <p>For example, <xref href="https://xauthor.cloudapp.net/XAChatterOnline/" format="html" scope="external">https://xauthor.cloudapp.net/XAChatterOnline/</xref>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Icon Deselected</p>
+                     </entry>
+                     <entry>
+                        <p>Enter the name of the chatter image in .png format. It shows the icon image as deselected in the task pane when you click other button groups or people. </p>
+                        <p>i.e chatterUnSelected.png</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Icon Selected</p>
+                     </entry>
+                     <entry>
+                        <p>Enter the name of the chatter image in .png format. It shows the icon image as selected in the task pane when you click other button groups or people.</p>
+                        <p>i.e chatterSelected.png</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Max Recent Items</p>
+                     </entry>
+                     <entry>
+                        <p>Enter the number of items to keep to keep in the recent items list. The default value is 10 items.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Static Resource Name</p>
+                     </entry>
+                     <entry>
+                        <p>Enter the name of the uploaded static resource</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Translate Service App ID</p>
+                     </entry>
+                     <entry>
+                        <p>Enter the Translate Service Application ID</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Additional Value Check</p>
+                     </entry>
+                     <entry>
+                        <p>Select this field to enable Additional Values during the check-in process</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Additional Value Object API Name</p>
+                     </entry>
+                     <entry>
+                        <p>Enter the API name of the object to enable for Additional Values</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

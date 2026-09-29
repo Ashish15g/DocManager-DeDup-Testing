@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="AddingLookupstoyourDataMigrationAppTocreatemorethanonelookupsourcetothesameobject"
+      xml:lang="en">
+   <title>To create more than one lookup source to the same object</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Add at least two lookup fields to your data migration object that look up to the same object.</cmd>
+         </step>
+         <step>
+            <cmd>From the Data Migration Wizard screen, copy the lookup object so that there are two entries for the same object in the wizard.</cmd>
+         </step>
+         <step>
+            <cmd>Change the <uicontrol>Display Name</uicontrol> of each lookup object to reflect the lookup source. For example, the display name of the lookup object for the Component Product could be "Base Product" and the display name of the lookup object for the Parent Product could be "Sub Bundle Product."</cmd>
+         </step>
+         <step>
+            <cmd>Click on the <uicontrol>Lookup Fields</uicontrol> link for the object that contains the lookups. </cmd>
+         </step>
+         <step>
+            <cmd>Change the <uicontrol>Lookup Source</uicontrol> value to the object you want to act as the source input for each lookup field and click <uicontrol>Apply</uicontrol>.</cmd>
+            <info>
+               <p>After you create or update the wizard, check the appropriate "Export" action flow step that corresponds to the data migration object action. Each Lookup Source you selected in the data migration lookup window is listed under "Action Input" for the step.</p>
+               <p>When the migration is executed at runtime, actions from each lookup source will retrieve a combination of records based on the complete data set.</p>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <p>
+            <uicontrol>Next: </uicontrol>
+            <xref href="../configuring_data_migratio_98667708/98667708.dita"
+                  format="dita">Configure settings</xref> or <xref href="../configuring_your_data_mig_98667709/98667709.dita"
+                  format="dita">complete app configuration</xref>.</p>
+      </postreq>
+   </taskbody>
+</task>

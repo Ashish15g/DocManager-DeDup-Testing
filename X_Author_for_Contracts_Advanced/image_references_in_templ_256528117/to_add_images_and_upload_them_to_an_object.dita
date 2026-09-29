@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ImageReferencesinTemplatesv20240620_Toaddimagesanduploadthemtoanobject" xml:lang="en">
+   <title>To add images and upload them to an object</title>
+   <taskbody>
+      <context>
+         <p>The object must be using a page layout that has the required fields added to it.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>In Salesforce, go to the <uicontrol>Agreements</uicontrol> tab and select the one you want to upload images to.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Upload Images</uicontrol> and select which RTF field to use and click Next. Be sure to select the correct field for the page layout, as currently all RTF fields in the system are included in the drop-down list.</cmd>
+         </step>
+         <step>
+            <cmd>C lick <uicontrol>Browse</uicontrol> and select the required file from the Images folder.</cmd>
+         </step>
+         <step>
+            <cmd>C lick <uicontrol>Upload</uicontrol> and then click <uicontrol>Finish</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The image is now displayed in the RTF field in the object's header section. The image can now be added to templates.</p>
+      </postreq>
+   </taskbody>
+</task>

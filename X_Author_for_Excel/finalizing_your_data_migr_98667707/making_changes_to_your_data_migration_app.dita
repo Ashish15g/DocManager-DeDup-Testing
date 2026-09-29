@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="FinalizingyourDataMigrationAppMakingChangestoyourDataMigrationApp"
+         xml:lang="en">
+   <title>Making Changes to your Data Migration App</title>
+   <conbody>
+      <p>Since the Data Migration app is just another X-Author app, created using the Wizard instead of the individual designer tools, most elements of the app can still be modified by the designer before the app is finalized. Click on any of the buttons in the Designer tab to see the Display Maps, Save Maps, Actions and User Menus created by the Data Migration Wizard.</p>
+      <note type="warning">
+         <p>Be especially careful when modifying a Data Migration app after you create it with the Wizard. Because the app is assembled using the Wizard, you may inadvertently break the functionality if you modify maps or remove other components. If you want to add or modify any Objects or Fields, it is recommended to <b>Edit</b> the app using the Data Migration Wizard (see below), rather than editing Display/Save Maps and other elements of the app directly.</p>
+      </note>
+      <p>Add Custom Actions or User Menus to your app as required to finalize your Data Migration App.</p>
+   </conbody>
+</concept>

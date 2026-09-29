@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_UsingClauseLibraryv20240711_Tousenon_versionedclausetemplates" xml:lang="en">
+   <title>To use non-versioned clause templates</title>
+   <conbody>
+      <p platform="salesforce">You will likely have many clause templates in your org that were created before enabling Template Versioning. In this case, these clause templates will not have a template version. You can access the non-versioned clause templates from clause library after Template Versioning is enabled. The system assigns the existing non-versioned clause templates automatically as version 1.00 when you perform the following actions:</p>
+      <ul platform="salesforce">
+         <li>Select the clause template</li>
+         <li>Mark</li>
+         <li>Insert Smart</li>
+         <li>Insert Ready Only </li>
+      </ul>
+      <p platform="salesforce">The version number is added to the Template record as Template Version. You can see the active version along with the text and guidance when selecting the clause. You can insert an active version of a clause from Clause Library into the agreement document.</p>
+      <note type="note">
+         <p platform="salesforce">For more information about Template Versioning, see 
+<xref href="../opening_template_versions_256531593/256531593.dita" format="dita">Template Versioning</xref> topic.</p>
+      </note>
+   </conbody>
+</concept>

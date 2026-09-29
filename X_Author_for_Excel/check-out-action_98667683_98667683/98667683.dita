@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d57aA" xml:lang="en">
+   <title>Check-Out Action</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="note">
+         <p>Check-Out Action is not supported in Apttus Omni.</p>
+      </note>
+      <p>The Check-Out action provides the runtime user with a list of all files previously checked into the designated object or record and they can select one of those files to open. This then locks the file for other users until it is checked back in by the current user.</p>
+      <note type="note">Because the workbook is checked out from a single record, you must have at least one object identified as <i>Individual</i>. You must also have at least one <xref href="../check-in-action_98667684_98667684/98667684.dita" format="dita">Check-In</xref> action.</note>
+   </conbody>
+</concept>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Example_OpportunityForecastApplicationTocreateaQueryAction"
+      xml:lang="en">
+   <title>To create a Query Action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Under <uicontrol>Actions, c</uicontrol>lick the arrow and select <uicontrol>Query</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Action Name</uicontrol> field, type <i>Query Opportunities</i> and from the <uicontrol>Object</uicontrol> picklist select <uicontrol>Opportunity</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Filters</uicontrol> section, select or enter the following to restrict the Opportunity records to those for which the current user is the <i>Opportunity</i> owner. Click the lookup icon<image placement="inline" href="../attachments/98667669/98667992.png"/> and select the <i>Owner Id</i> field. Because this is a lookup field, click to the right of the orange field to select the row and click <uicontrol>Apply</uicontrol>. Select the other parameters based on the table below.</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="4">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <colspec colname="col3"/>
+                        <colspec colname="col4"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Salesforce Object and Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Value Type</p>
+                              </entry>
+                              <entry>
+                                 <p>Operator</p>
+                              </entry>
+                              <entry>
+                                 <p>Value List</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Owner Id</p>
+                              </entry>
+                              <entry>
+                                 <p>SystemVariables</p>
+                              </entry>
+                              <entry>
+                                 <p>Equals</p>
+                              </entry>
+                              <entry>
+                                 <p>CurrentUser</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save App</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

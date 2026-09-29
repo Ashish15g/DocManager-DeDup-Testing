@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CheckingOutFiles_Tocheckoutfiles" xml:lang="en">
+   <title>To check out files</title>
+   <taskbody>
+      <prereq id="prereq_km5_2tv_12c">
+         <p>There must be files available in Salesforce that can be opened by the MS Office
+            product.</p>
+      </prereq><steps>
+         <step>
+            <cmd>Click <uicontrol>Check-Out</uicontrol> and from the <b>Objects</b> list, select
+               Files to check out a file kept in Chatter &gt; Files and go to the next step.</cmd>
+            <info>
+               <p>- or -</p>
+               <p>Select an object, such as Opportunity or Account, if the file is kept in Notes and
+                  Attachments and go to step 4.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Show Criteria</uicontrol> and select the
+                  <uicontrol>Scope</uicontrol> option for the Chatter file:</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Scope</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Files I Own</p>
+                              </entry>
+                              <entry>
+                                 <p>Files you created and previously uploaded to Chatter.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Files Shared with Me</p>
+                              </entry>
+                              <entry>
+                                 <p>Files created by others, who have chosen to specifically share
+                                    them with you. If files have been shared with you via Groups,
+                                    they do not fall under this scope.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Files I Follow </p>
+                              </entry>
+                              <entry>
+                                 <p>Files you have chosen to follow from within a Chatter feed.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Files in My Group</p>
+                              </entry>
+                              <entry>
+                                 <p>Files that have been shared with a Chatter group you are a
+                                    member of.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter a name or partial name for the file, if known, click <image height="16"
+                  placement="inline" href="../attachments/98670313/98671125.jpg"
+                  id="image_lzk_d5v_12c"/> and go to step 7.</cmd>
+            <info>
+               <p>To configure the fields available for search filters, refer to <xref
+                     href="../configuring_search_criter_98672805/98672805.dita" format="dita"
+                     >Configuring Search Criteria</xref>.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Show Criteria</uicontrol> and select <uicontrol>Files</uicontrol>
+               to choose from those that have been uploaded via a Chatter feed within the object and
+               are kept as <b>Feed Attachment</b> files in the Notes and Attachments section of the
+               object.</cmd>
+            <info>
+               <p>- or -</p>
+               <p>Select <b>Attachments</b> to choose from files that were uploaded outside of
+                  Chatter to the <b>Notes and Attachments</b> section.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter a name or partial name for the object record and click <image height="16"
+                  placement="inline" href="../attachments/98670313/98671125.jpg"
+                  id="image_k42_k5v_12c"/>.</cmd>
+            <info>
+               <p> To configure the fields available for search filters, refer to <xref
+                     href="../configuring_search_criter_98672805/98672805.dita" format="dita"
+                     >Configuring Search Criteria</xref>.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Select</uicontrol> beside the object that contains the file you
+               want to open.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Open</uicontrol> besides the file you want to work on.</cmd>
+            <info>
+               <p>Only files and attachments that can be opened by the MS Office product are
+                  available in the picklist. For instance, with Word .rtf, .txt, .doc, and .docx
+                  files will be displayed.</p>
+            </info>
+         </step>
+      </steps>
+      <result id="result_lbs_45v_12c">
+         <p>The file is displayed and the ribbon icons are enabled. If you check-out a file that is
+            associated with an object, the <image height="16" placement="inline"
+               href="../attachments/98670313/98671126.jpg" id="image_fpv_n5v_12c"/> icon is
+            displayed in the Chatter feed.</p>
+      </result><postreq><p>You can edit the file as normal and also use the <b>X-Author Chatter</b> ribbon option to begin
+            collaborating on the document.</p></postreq></taskbody>
+</task>

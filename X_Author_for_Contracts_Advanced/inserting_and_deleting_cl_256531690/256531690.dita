@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d157aA" xml:lang="en">
+   <title>Inserting and Deleting Clauses</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>Clause content typically includes text, smart fields, read-only fields, merge fields, MS-Word tables, and style segments. You can insert a clause from the Clause Library into a document in two different ways, as described below.</p>
+      <ul>
+         <li>
+            <b>Inserting Clauses as Text</b>: A clause inserted as text from the Clause Library does not have a content-control boundary around the clause. The clause contains static text and the content of the clause cannot be edited in a contract document. Moreover, when you insert a clause as a text, it is not recorded in the Doc Clauses list and the clause reconciliation page. If you insert a clause as text that contains smart fields, the values in the smart fields are converted to plain text and do not have a content-control border.</li>
+         <li>
+            <b>Inserting Clauses as Smart:</b> A smart clause is a clause with a content-control border. A smart clause contains text that can be edited in a contract document. When you insert a clause as smart, you can see it in the clause list of the Doc Clauses tab of Contracts. Additionally, when you make changes to the content of a smart clause, those changes are tracked through redlines and you can see the changes recorded on the clause reconciliation page.</li>
+      </ul>
+      <note type="note">
+         <p>When you insert a contract clause into a document, it is only valid for that specific contract document.</p>
+      </note>
+      <p>To view the content of a clause listed in the Clause Library panel, click the <b>Clause Name</b>. A section displays the text of the clause, active version, and guidance below the clause list. Click the clause text to scroll.</p>
+   </conbody>
+</concept>

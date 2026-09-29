@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ImportingOfflineAgreementsToimportanofflineagreement" xml:lang="en">
+   <title>To import an offline agreement</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open the document in Microsoft Word.</cmd>
+            <info>
+               <fig>
+                  <image height="400" placement="break" href="../attachments/45220098/50036971.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>From the X-Author menu, go to <uicontrol>List Agreements.</uicontrol></cmd>
+         </step>
+         <step>
+            <cmd>Scroll through the list of agreements or search for the agreement record you want to associate with this document.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Check In Offline</uicontrol>.</cmd>
+            <info>
+               <fig id="fig_hdv_lzp_12c">
+                  <image height="400" placement="break" href="../attachments/45220098/50036972.png"
+                     id="image_idv_lzp_12c"/>
+               </fig>
+               <p>The document is imported into the agreement record, attached to the <i>Document
+                     Versions</i> Related List and adopts Apttus properties. </p>
+            </info>
+            <stepresult>
+               <p>The new draft is downloaded to your system.</p>
+            </stepresult>
+         </step>
+         <step>
+            <cmd> Open the draft that just downloaded in Word. Go to the Lock Status page and click <uicontrol>Acquire Lock </uicontrol>to check out and work with your document. You can now mark fields and clauses and use other X-Author features as needed.</cmd>
+            <info>
+               <fig>
+                  <image height="400" placement="break" href="../attachments/45220098/50036973.png"
+                  />
+               </fig>
+               <p>If you go to the agreement record in Salesforce, you can see the "Imported Offline
+                  Document" action in the <i>Activity History</i> Related List.</p>
+               <fig>
+                  <image placement="break" width="700" href="../attachments/45220098/50036974.png"/>
+               </fig>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

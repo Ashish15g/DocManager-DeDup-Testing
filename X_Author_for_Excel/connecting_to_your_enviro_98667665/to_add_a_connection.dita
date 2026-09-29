@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ConnectingtoyourEnvironmentfromExcel_Toaddaconnection"
+      xml:lang="en">
+   <title>To add a connection</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Excel.</cmd>
+         </step>
+         <step>
+            <cmd>In the X-Author Designer or X-Author for Excel ribbon menu, click <uicontrol>Switch Connection</uicontrol> and select <uicontrol>Manage Connections</uicontrol>. The <uicontrol>Manage Connections</uicontrol> window opens.</cmd>
+         </step>
+         <step>
+            <cmd>Under the <uicontrol>Create a New Connection section, </uicontrol>enter the name for the connection.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Login URL field</uicontrol>, enter the URL you use to log in to your environment.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Authorize</uicontrol>. The login window opens.</cmd>
+         </step>
+         <step>
+            <cmd>Enter your username and password in the provided fields to log in.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The X-Author Designer ribbon is fully enabled. Now you can start designing an app or using existing apps.</p>
+      </postreq>
+   </taskbody>
+</task>

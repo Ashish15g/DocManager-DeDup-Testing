@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MarkingPlainTextasClausesinaTemplatev20240620_Tomarkaclauseinatemplate1" xml:lang="en">
+   <title>To mark a clause in a template</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>From the Contracts pane, click the Home button (<image placement="inline" width="20" href="../../global_images/images/256531474.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>in the <uicontrol>Templates </uicontrol>pane, search and open a template.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight the content (inline text) of the template that you want to mark as a clause.</cmd>
+         </step>
+         <step>
+            <cmd>After highlighting the content, go to Work Tab&gt; Mark Clauses. If you cannot see the Mark Clauses option in the Work tab, click More and select Mark Clauses.</cmd>
+         </step>
+         <step>
+            <cmd>In the Mark Clause form, specify the following details for marking a clause,</cmd>
+            <info>
+               <p platform="salesforce">
+                  <table platform="salesforce">
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Clause Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a new name of the clause.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Category</p>
+                              </entry>
+                              <entry>
+                                 <p>Select a category for your clause. The values of the categories are defined by your admin and help in filtering the clauses. This is displayed from the Agreement clause object.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Subcategory</p>
+                              </entry>
+                              <entry>
+                                 <p>Select a subcategory for your clause. Options in the list will change based on the category you selected. This is displayed from the Agreement clause object.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Exception</p>
+                              </entry>
+                              <entry>
+                                 <p>Select a term exception record from the drop-down list to associate with your clause.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Risk Rating</p>
+                              </entry>
+                              <entry>
+                                 <p>Select an appropriate risk rating for your clause. Valid values are:<ul>
+                                       <li>Green</li>
+                                       <li>Red</li>
+                                       <li>Yellow</li>
+                                    </ul>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Materially Significant</p>
+                              </entry>
+                              <entry>
+                                 <p>Select this check box if you want to make your clause materially significant.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p platform="salesforce">Your clause is successfully marked and acquires content control border. After marking the clause you can go to Work &gt; Clauses, to confirm that the marked clause is recognized in the document.</p>
+      </postreq>
+   </taskbody>
+</task>

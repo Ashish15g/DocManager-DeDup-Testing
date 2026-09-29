@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CompareStandardClauses_TocompareclausesimportedfromCongaContractIntelligence" xml:lang="en">
+   <title>To compare clauses imported from Conga Contract Intelligence</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and log into the  <uicontrol>X-Author for Contracts Advanced</uicontrol> add-in.</cmd>
+         </step>
+         <step>
+            <cmd>From the Contracts pane, navigate to the Work tab and search for your imported document.</cmd>
+         </step>
+         <step>
+            <cmd>To the right of the document name, click on Compare Clause with Standard Clause icon.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Difference</uicontrol> tab to compare the clause text.</cmd>
+            <info>
+               <ul>
+                  <li>Blue text is matching text from the document and the Clause Library.</li>
+                  <li>Black text is from the document.</li>
+                  <li>Red text is from the Clause Library.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Actual </uicontrol>tab to view content from the clause.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>When you re-mark a clause and compare again, all text will display in blue to indicate the content now all matches.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

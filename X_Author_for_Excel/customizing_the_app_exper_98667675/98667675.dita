@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d121aA" xml:lang="en">
+   <title>Customizing the App Experience</title>
+   <shortdesc>Actions are used to create a specific user experience. They include being able to query, display, save, and manipulate data within the workbook. The top section of the Actions menu button provides access to existing Actions. Click the down arrow at the bottom of the button to create new Actions.
+      Click on the <b>Action Name</b> in the following table for more information on the action.</shortdesc>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Action Name</p>
+                     </entry>
+                     <entry>
+                        <p>Action Type</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../add-row-action_98667685_98667685/98667685.dita" format="dita">Add Row Action</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Adds a row to the top or bottom of your Display Map.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../check-in-action_98667684_98667684/98667684.dita" format="dita">Check-In</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Saves the Excel file to Notes and Attachments in your environment and unlocks the file.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../check-out-action_98667683_98667683/98667683.dita"
+                                 format="dita">Check-Out</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Opens a previously saved X-Author for Excel file from your environment Notes and Attachments and then locks the file to prevent editing by any other user.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../clear-action_98667687_98667687/98667687.dita" format="dita">Clear</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Clears cell data.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../data-set-action_98667676_98667676/98667676.dita" format="dita">Data Set</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Combines outputs of Query Actions to overcome SOQL limitations.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../display-action_98667691_98667691/98667691.dita" format="dita">Display</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Places retrieved data in the worksheet based on a Display Map.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../macro-action_98667679_98667679/98667679.dita" format="dita">Macro</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Runs an existing macro.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../paste-action_98667682_98667682/98667682.dita" format="dita">Paste</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Counts the rows from which data has been copied and then pastes the copied data into those rows.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../query-action_98667690_98667690/98667690.dita" format="dita">Query</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Queries data from your environment.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../salesforce_method_action__98667678/98667678.dita"
+                                 format="dita">Salesforce Method</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Calls a Salesforce Method.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../save-action_98667688_98667688/98667688.dita" format="dita">Save</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Saves worksheet data to the environment based on a Save Map.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../save_attachment_action_98_98667677/98667677.dita"
+                                 format="dita">Save Attachment</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Saves the entire Excel file or specific worksheets in the Excel file to Notes and Attachments as an xls or pdf.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../search_and_select_action__98667689/98667689.dita"
+                                 format="dita">Search and Select</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Allows a user to search for and select data that will then be retrieved into the workbook or that will provide a filter to a subsequent search or query. Retrieves data from your environment based on the user record selection.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../switch_connection_action__98667680/98667680.dita"
+                                 format="dita">Switch Connection</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Switches between orgs to allow uploading and downloading data across multiple orgs.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

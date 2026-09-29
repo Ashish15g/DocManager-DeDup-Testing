@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan860" xml:lang="en">
+   <title>Inserting Clauses</title>
+   <prolog>
+      <author>Maanasa Suthrave</author>
+      <critdates>
+         <created date="Aug 13, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Contracts for Cloud on Salesforce Summer 2019 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>Clause content typically includes text, smart fields, read-only fields, merge fields, MS-Word tables, and style segments. You can insert a clause from the Playbook into a document in two different ways, as described below.</p>
+      <ul>
+         <li>
+            <b>Inserting as an inline clause:</b> An inline clause is a clause which does not have a content-control border around it. The inline clause contains static text and the content of the clause cannot be edited in an agreement document. Moreover, when you insert an inline clause it is not recorded in the <b>Doc Clauses</b> list and the clause reconciliation page. If you insert a clause containing smart fields as an inline clause, the values in the smart fields are converted to plain text and do not have a content-control border.</li>
+         <li>
+            <b>Inserting as a smart clause:</b> A smart clause is a clause with content-control border. A smart clause contains text that can be edited in an agreement document. When you insert a clause as smart, you can see it in the clause list of the<b> Doc Clauses</b> tab of X-Author Contracts. Additionally, when you make changes to the content of a smart clause, those changes are tracked through redlines and you can see the changes recorded on the clause reconciliation page.</li>
+      </ul>
+      <note type="note">
+         <p>When you insert an agreement clause into a document, it is only valid for that specific agreement document.</p>
+      </note>
+      <p>To view the content of a clause listed in the Playbook panel, click the <b>Clause Name</b>. A section displaying the text of the clause is displayed below the clause list. Click the clause text to scroll.</p>
+      <p>
+         <fig>
+            <image height="428" placement="break" width="250" href="../attachments/102413206/102413314.png"/>
+         </fig>
+      </p>
+   </conbody>
+</concept>

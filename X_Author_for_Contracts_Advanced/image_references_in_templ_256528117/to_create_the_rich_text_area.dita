@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ImageReferencesinTemplatesv20240620_TocreatetheRichTextArea" xml:lang="en">
+   <title>To create the Rich Text Area</title>
+   <taskbody>
+      <context>
+         <p>This task assumes you want to configure an agreement object, other objects can also be configured in a similar manner.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Go to <uicontrol>Build &gt; Create &gt; Objects &gt; Agreement</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Custom Fields &amp; Relationships</uicontrol> section, click <uicontrol>New</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the Text Area (Rich) and click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter a <uicontrol>Field Label</uicontrol> and <uicontrol>Field Name</uicontrol>, such as RTF Image, and click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Set the field-level access and click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>You can select page layouts here, but as you will likely want to edit the page layouts to reposition the RTF area, it is not required at this point. The rich text area is now available from the Fields list when you edit a page layout. You can create more rich text areas if you want to have more images available for your documents.</p>
+      </postreq>
+   </taskbody>
+</task>

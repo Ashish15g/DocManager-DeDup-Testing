@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_CheckingInTemplatesv20240711_Tocheckatemplatein" xml:lang="en">
+   <title>To check a template in</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts<uicontrol> </uicontrol>pane, click the Home button (<image placement="inline" width="16" href="../attachments/256531468/256531466.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, click the <uicontrol>Finish</uicontrol> tab.</cmd>
+         </step>
+         <step>
+            <cmd>Under Check-in, enter the value of the following fields, (fields marked with an asterisk are required)</cmd>
+            <info>
+               <p platform="conga">
+                  <table platform="conga">
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Field</uicontrol>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Description</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Name*</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the name of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Type</p>
+                              </entry>
+                              <entry>
+                                 <p>It displays the selected template type. You cannot edit the type during check-in.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Business Object</p>
+                              </entry>
+                              <entry>
+                                 <p>It displays the selected business object. You cannot edit the business object during check-in.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Alternate Clause</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the checkbox to create an alternate clause. This field is only displayed when you select Clause as type and Contract as a business object while creating a template. You can only update this checkbox while checking-in a template the first time.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Contract Types</p>
+                              </entry>
+                              <entry>
+                                 <p>From the drop-down, you can select multiple Contract types to associate with your template. The value of Contract Types decides which templates are available at the time of contract generation. If your Template's Contract Type matches with the Contract Type of your contract record, you will see that template in the list of available templates at the time of document generation.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Category</p>
+                              </entry>
+                              <entry>
+                                 <p>Choose the category from the drop-down. The categories are defined by the administrator, in Conga CLM.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Subcategory</p>
+                              </entry>
+                              <entry>
+                                 <p>The subcategory is a dependent field. The Subcategories are populated, based on the value chosen for Category. The subcategories are defined by the administrator, in Conga CLM.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Language</p>
+                              </entry>
+                              <entry>
+                                 <p>Choose the default template language</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Locale</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the locale from the drop-down. You can configure custom locales in Conga CLM. For more information, see Adding Custom Locale topic in CLM for Administrators.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Date Format</p>
+                              </entry>
+                              <entry>
+                                 <p>Select an option from the drop-down to choose the default format for all date fields in the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Currency Format</p>
+                              </entry>
+                              <entry>
+                                 <p>Select an option from the drop-down to choose the format for all Currency fields in the template. Choose "None" to only display Currency field values in generated documents.</p>
+                                 <ul>
+                                    <li>If "Currency Symbol" is selected, Currency fields will be generated with no space between the symbol and field value.</li>
+                                    <li>If "ISO" is selected, Currency fields will be generated with a space between the ISO code and the field value.</li>
+                                 </ul>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Number Precision</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a number from 0-9 to define the precision for Number/Percent field values in the template (e.g., "2" if the Number/Percent field should display two digits following the decimal point.)</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Currency Precision</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a number from 0-9 to define the precision for Currency field values in the template (e.g., "2" if the Currency field should display two digits following the decimal point.)</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Keywords*</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter comma-separated keywords to associate with the template. Keywords make it easier to search the templates.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Next Revision Date</p>
+                              </entry>
+                              <entry>
+                                 <p>Identify a date for the next revision of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a new description or modify the existing description for the template. Maximum of 255 characters (an error will be thrown if this limit is exceeded).</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Guidance</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter new guidance or modify existing guidance to help users determine the purpose of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Activate</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the Active switch to 'On' to activate the template. You must activate a template to use it for generating a contract document.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Check In</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p platform="conga">The saved template is opened in the same Microsoft Word instance. The template is locked by you you can continue to work on the template. If you need to send the template to another user for review, either unlock the template, or check-in and close the template.</p>
+      </postreq>
+   </taskbody>
+</task>

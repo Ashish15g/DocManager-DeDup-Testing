@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d53aA" xml:lang="en">
+   <title>Check-In Action</title>
+   <shortdesc>The Check-In action saves the Excel workbook to the Notes and Attachments of a designated record and then unlocks the workbook and enables it to be checked out by another user.</shortdesc>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="note">
+         <p>Check-In Action is not supported in Apttus Omni.</p>
+      </note>
+      <note type="note">
+         <p>
+            <b>Prerequisite</b>
+         </p>
+         <p>Because the workbook must be attached to a single record, your app must identify at least one Individual object.</p>
+      </note>
+   </conbody>
+</concept>

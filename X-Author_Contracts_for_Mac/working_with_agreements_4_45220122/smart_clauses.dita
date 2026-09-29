@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="WorkingwithAgreementsSmartClauses" xml:lang="en">
+   <title>Smart Clauses</title>
+   <conbody>
+      <p>Smart clauses, like smart fields are parts of a contract that can be reconciled between
+         versions of an agreement, and noted in the agreement record. This can be used during
+         negotiations when clauses are redlined. Clauses that have been changed will be reconciled
+         when you choose the reconciliation option at <b>Check-In</b>. Clauses can only be smart in
+         the context of a generated contract document.</p>
+      <p>In the process of negotiations, a contract may get redlined multiple times. During these
+            redlines, a user may choose to accept the changes made to the contract. Smart Clauses
+            provide visibility into the changes made in the contract document by allowing the user
+            to view the changed clauses in at <b>Check-in </b>and when the clause change has been
+            checked in, on the Agreement Clauses related list. </p>
+      <note type="note">
+         <p>A Note on Agreement Documents and Templates</p>
+         <p>All generated
+                agreement documents (as opposed to imported offline agreements) use document
+                templates saved in Apttus Contract Management. These templates contain merge fields
+                which, upon generation, pull Apttus field values from the agreement to create
+                distributable documents. X-Author Contracts for Mac is only used by negotiating
+                parties to modify, redline and finalize documents generated in this way. X-Author
+                Contracts for Mac has no capability to create or manage templates. </p>
+      </note>
+   </conbody>
+</concept>

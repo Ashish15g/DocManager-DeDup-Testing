@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ActivatingandAssigningAppsToassignappstoruntimeusersinDesigner"
+      xml:lang="en">
+   <title>To assign apps to runtime users in Designer</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In Designer, click <uicontrol>Settings</uicontrol> and click <uicontrol>App Assignment</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Under Create New Assignments, from the User Assignments section, select the Users you want to assign the app to. You can add records by Id or selection.</cmd>
+            <info>
+               <p>- OR -</p>
+               <p>From the Profile Assignments section, select the Profile you want to assign the app.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save Assignment</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>You can modify the current assignment by clicking the link shown in the image below.</p>
+         <p>
+            <fig>
+               <image height="140"
+                      placement="break"
+                      width="500"
+                      href="../attachments/98667701/98687653.png"/>
+            </fig>
+         </p>
+      </postreq>
+   </taskbody>
+</task>

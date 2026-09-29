@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="WorkingwithClauses_unmarkClause" xml:lang="en">
+   <title>To unmark a clause</title>
+   <taskbody>
+      <context>
+         <p>You must have <xref href="../marking-clauses_45220111_45220111/45220111.dita" format="dita">marked static text in the agreement document as a clause</xref> in the same session using Playbook. Unmarking a clause removes Apttus clause properties and returns the text to a static state.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Go to <menucascade>
+                  <uicontrol>Document </uicontrol>
+                  <uicontrol>Clauses</uicontrol>
+               </menucascade>.</cmd>
+         </step>
+         <step>
+            <cmd> Click on the clause name in the list. </cmd>
+            <stepresult>
+               <p>The document scrolls to highlight the selected clause.</p>
+               <fig id="fig_hmt_fw4_12c">
+                  <image height="250" placement="break" width="773"
+                     href="../attachments/45220112/49086821.png" id="image_imt_fw4_12c"/>
+               </fig>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Click the <image placement="inline" width="20"
+                  href="../attachments/45220112/49086822.png" id="image_hkh_hw4_12c"/>
+               <uicontrol>unMark </uicontrol>icon. </cmd>
+            <stepresult>
+               <p>The Panel refreshes and the clause no longer appears in the list. The clause
+                  boundary is removed from the marked text and it returns to its previous state.</p>
+            </stepresult>
+         </step>
+      </steps>
+   </taskbody>
+</task>

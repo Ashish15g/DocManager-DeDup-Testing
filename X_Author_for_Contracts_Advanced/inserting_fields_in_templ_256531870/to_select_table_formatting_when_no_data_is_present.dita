@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InsertingFieldsinTemplatesasaTablev20240711_Toselecttableformattingwhennodataispresent" xml:lang="en">
+   <title>To select table formatting when no data is present</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced for Conga CLM (Contracts for Salesforce) and open the template.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to Work&gt; Fields<uicontrol>.</uicontrol> This displays the Repeat Table (object name) and the fields in the repeat table.</cmd>
+         </step>
+         <step>
+            <cmd>Select the Repeat Table and click the Settings button next to Repeat Table.</cmd>
+         </step>
+         <step>
+            <cmd>In the Table Attributes section, click <uicontrol>Format</uicontrol>. This displays a drop-down menu. Select one of the following options based on your requirement.</cmd>
+            <info>
+               <ol>
+                  <li>To show table captions and one empty row, select <uicontrol>Show captions and one empty row</uicontrol>.</li>
+                  <li>To show captions only and no rows, select <uicontrol>Show captions only</uicontrol>.</li>
+                  <li>To remove the entire table from the generated document, select <uicontrol>Remove whole table</uicontrol>.</li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

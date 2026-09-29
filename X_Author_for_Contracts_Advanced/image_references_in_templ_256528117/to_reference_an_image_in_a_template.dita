@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ImageReferencesinTemplatesv20240620_Toreferenceanimageinatemplate" xml:lang="en">
+   <title>To reference an image in a template</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Login to X-Author and from the X-Author Templates tab click <uicontrol>Check-Out</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Search for the required template and click <uicontrol>Open</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Place the cursor in the template where you want to insert an image and click <uicontrol>Insert Field</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>If this is an agreement template, select the <uicontrol>Agreement Fields</uicontrol> object. If this is a proposal template, select the <uicontrol>Quote/Proposal Fields</uicontrol> object.</cmd>
+         </step>
+         <step>
+            <cmd>Select the RTF field you want to insert and click <uicontrol>Finish</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The merge field is inserted into the document template in the following format, with default width and height measurements. You can change the default width and height from the <uicontrol>Properties</uicontrol> tab as required. Measurements are in inches. When you preview or generate an agreement or proposal document using the template, images are included in the generated document.</p>
+      </postreq>
+   </taskbody>
+</task>

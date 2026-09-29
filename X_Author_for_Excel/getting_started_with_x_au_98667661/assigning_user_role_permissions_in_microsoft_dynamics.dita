@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="GettingStartedwithXAuthorforExcelAssigningUserRolePermissionsinMicrosoftDynamics"
+         xml:lang="en">
+   <title>Assigning User Role Permissions in Microsoft Dynamics</title>
+   <conbody>
+      <p>You must assign the following permissions in the Microsoft Dynamics CRM to the roles of users who will use X-Author for Excel. Unless they have a System Administrator profile, users will not automatically have access to the package contents that are required to access X-Author functionality. The following permissions must be configured.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry namest="col1" nameend="col2">
+                        <p>Runtime Users</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Create Tabs for X-Author for Excel in Dynamics CRM</p>
+                        <p>Navigate to Customizations &gt; Customize the System &gt; Entities &gt; Click Display in Activities Menu</p>
+                     </entry>
+                     <entry>
+                        <p>Apps</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Custom  Entities permissions</p>
+                        <p>Settings &gt; Security &gt;  Security Roles (Select an existing security role or create a new role and provide access to the following Custom Entities.)</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>Apps: Read</li>
+                              <li>App Assignments: No Access</li>
+                              <li>App Files: Read / Create / Edit / Delete</li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry namest="col1" nameend="col2">
+                        <p>Designer Users</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Create Tabs for X-Author for Excel in Dynamics CRM</p>
+                        <p>Navigate to Customizations &gt; Customize the System &gt; Entities &gt; Click Display in Activities Menu</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>X-Author for Excel</li>
+                              <li>X-Author Designer</li>
+                              <li>Apps</li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Custom  Entities permissions</p>
+                        <p>Settings &gt; Security &gt;  Security Roles (Select an existing security role or create a new role and provide access to the following Custom Entities.)</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>Apps: Read / Write</li>
+                              <li>App Assignments: Read / Write</li>
+                              <li>App Files: Read / Create / Edit / Delete</li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

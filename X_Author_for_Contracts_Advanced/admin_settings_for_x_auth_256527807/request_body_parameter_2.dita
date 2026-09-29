@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_AdminSettingsforXAuthorforContractsontheCongaPlatformv20240620_RequestBodyParameter2" xml:lang="en">
+   <title>Request Body Parameter</title>
+   <conbody>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Parameter Name</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                     <entry>
+                        <p>Default Value </p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Category</p>
+                     </entry>
+                     <entry>
+                        <p>This is a request body parameter. This refers to the category on which the system properties are being set. Since, these are custom permissions specific to CLM, you need to enter category as CLM.</p>
+                     </entry>
+                     <entry>
+                        <p>Clm</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Name</p>
+                     </entry>
+                     <entry>
+                        <p>This is a request body parameter. This refers to the name of the property.</p>
+                     </entry>
+                     <entry>
+                        <p>SystemProperties</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>Pass the following field values on the Value parameter.</p>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>System Property </p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                     <entry>
+                        <p>Default value</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>DocumentNamingConvention</p>
+                     </entry>
+                     <entry>
+                        <p>Specify a value to apply a custom naming convention for all contract documents at generation, check-in and signature events.</p>
+                        <p>The following attributes permitted when formulating a document naming convention are:</p>
+                        <ul>
+                           <li>%checkintype%</li>
+                           <li>%action%</li>
+                           <li>%templatename%</li>
+                           <li>%user%</li>
+                           <li>%timestamp%</li>
+                           <li>%version%</li>
+                        </ul>
+                        <p>Contract attributes such as %:Name%. Note: any variable prefixed by ':' represents a field on the Contract object.</p>
+                        <p>If the property contains a null value (i.e., if left blank), the current default naming convention will be used: %:Name%_%action%_%templatename%_%timestamp%</p>
+                        <p>Example contract document name using the default naming convention: SOW_Regenerated_SOW ABC_2015-08-07</p>
+                     </entry>
+                     <entry>
+                        <p>%:Name%_%action%_%templatename%_%timestamp%</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Document Password</p>
+                     </entry>
+                     <entry>
+                        <p>Specify a document password.</p>
+                     </entry>
+                     <entry>
+                        <p>NA - If the value is not configured then it should error out.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>PDF Security Settings</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                     <entry>
+                        <p>Default value</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>PDFSecurityEnabled</p>
+                     </entry>
+                     <entry>
+                        <p>Set this to <b>True </b>to enable PDF security that lets the users apply security settings to PDF documents and protect them with a password.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AllowPrinting</p>
+                     </entry>
+                     <entry>
+                        <p>Set this to <b>True </b>to allow the users to print the PDF.</p>
+                     </entry>
+                     <entry>
+                        <p>True</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AllowCopying</p>
+                     </entry>
+                     <entry>
+                        <p>Set this to <b>True </b>to allow the users to copy the PDF.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AllowCommenting</p>
+                     </entry>
+                     <entry>
+                        <p>Set this to <b>True </b>to give permission for the users to comment in the PDF.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AllowFormFilling</p>
+                     </entry>
+                     <entry>
+                        <p>Set this to <b>True </b>to allow the users to fill forms using the PDF.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AllowAssembling</p>
+                     </entry>
+                     <entry>
+                        <p>Set this to <b>True </b>to allow the users to assemble the PDF.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AllowChangingContent</p>
+                     </entry>
+                     <entry>
+                        <p>Set this to <b>True </b>to give permission to the users to modify content in the PDF.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Document Version Settings</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                     <entry>
+                        <p>Default value</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>InitialVersion</p>
+                     </entry>
+                     <entry>
+                        <p>Specify the initial version number of a newly generated or uploaded document. If you want the document versioning to start from 0.0.0, specify <b>0 </b>and if you want to start the document versioning to start from 1.0.0, specify<b> 1</b>.<b> </b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>1.0</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>IncrementCheckinWithRedlines</p>
+                     </entry>
+                     <entry>
+                        <p>Specify the document version increment factor when the document is checked in using the option <b>With Redlines</b> from X-Author Contracts for Microsoft Word. Specify <b>Major</b> if you want to increment the major version number of the document and specify <b>Minor</b> if you want to increment the minor version number of the document.</p>
+                     </entry>
+                     <entry>
+                        <p>Minor</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>IncrementCheckinWithoutRedlines</p>
+                     </entry>
+                     <entry>
+                        <p>Specify the document version increment factor when the document is checked in using the option <b>Without Redlines </b>from X-Author Contracts for Microsoft Word. Specify <b>Major</b> if you want to increment the major version number of the document and specify <b>Minor</b> if you want to increment the minor version number of the document.</p>
+                     </entry>
+                     <entry>
+                        <p>Major</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>IncrementCheckinFinal</p>
+                     </entry>
+                     <entry>
+                        <p>Specify the document version increment factor when the document is checked in as Final- to be signed from X-Author Contracts for Microsoft Word. Specify <b>Major</b> if you want to increment the major version number of the document and specify <b>Minor</b> if you want to increment the minor version number of the document.</p>
+                     </entry>
+                     <entry>
+                        <p>Major</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>DocumentRegenerate</p>
+                     </entry>
+                     <entry>
+                        <p>Specify the document version increment factor when the document is regenerated with the same template as of the original contract, from Contract Management. Specify <b>Major</b> if you want to increment the major version of the document and specify <b>Minor</b> if you want to increment the minor version of the document</p>
+                     </entry>
+                     <entry>
+                        <p>Major</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ConfiguringyourDataMigrationAppSpecifyExternalID" xml:lang="en">
+   <title>Specify External ID</title>
+   <conbody>
+      <p>This is an optional step that is only required if your Object has more than one External ID. Most Objects will only have a single External ID, but in some cases, an Object will have more than one (for example, you export data for this object to more than one external source). Setting the External ID is important to prevent duplication of records during data migration.</p>
+      <note type="note">
+         <p>
+            <b>Note</b>
+         </p>
+         <p> All Objects must have a set External ID. <b>If an Object does not have an External ID set, you will not be able to save the app</b>. It is recommended to configure External ID's in your environment for every Object that you want to migrate before creating the Data Migration app. You can configure External ID's for your Objects in one of two ways:</p>
+         <ul>
+            <li>Use Conga Metadata utility to create External IDs for each Object you want to migrate. Contact your Conga representative to get access.</li>
+            <li>Configure External ID's for your Objects. Create a text field labeled <b>APTS Ext ID</b>, field name <b>APTS_Ext_ID</b> per configuration in the image below.</li>
+         </ul>
+         <p>
+            <fig>
+               <image height="400"
+                      placement="break"
+                      href="../attachments/98667709/98667964.png"/>
+            </fig>
+         </p>
+         <ul>
+            <li>You will need to restart X-Author after adding the External IDs.</li>
+         </ul>
+      </note>
+      <p>When an Object has more than one External ID, a <u>Not Set</u> link will be visible under the "External ID" column.</p>
+   </conbody>
+</concept>

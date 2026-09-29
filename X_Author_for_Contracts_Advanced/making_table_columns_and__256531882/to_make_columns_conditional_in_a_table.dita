@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MakingTableColumnsandRowsConditionalv20240711_Tomakecolumnsconditionalinatable" xml:lang="en">
+   <title>To make columns conditional in a table</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In the <uicontrol>Templates </uicontrol>pane, go to the <uicontrol>Work</uicontrol> tab, click the <uicontrol>Dropdown icon</uicontrol> (<image height="13" placement="inline" href="../attachments/256531882/256531881.png" class="- topic/image "/>) and select <uicontrol>Fields</uicontrol>. The Fields pane displays the Repeat Table. Use the <uicontrol>Search Field </uicontrol>box to search by keyword.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Settings </uicontrol>icon (<image placement="inline" width="20" href="../../global_images/images/256529252.png" class="- topic/image "/>) next to the Repeat Table name.</cmd>
+         </step>
+         <step>
+            <cmd>In the Repeat Table Settings pane, click <uicontrol>Add Condition </uicontrol>to open the template expression builder.</cmd>
+         </step>
+         <step>
+            <cmd>Select a column from the picklist at the top of the expression builder that you want to make conditional.</cmd>
+         </step>
+         <step>
+            <cmd>To create a conditional expression, enter values for the following fields: </cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the field which you want to set as the criteria for the condition. You can select any field from the parent object (parent of the object whose fields are displayed in the table) or lookup objects. You must select a field name. The fields are listed and grouped according to their hierarchy.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Operator</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the logical operator from the drop-down. This forms the relationship between the <uicontrol>Field</uicontrol> and its <uicontrol>Value</uicontrol>.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Value</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the value of the field name selected in the <uicontrol>Field.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add row</uicontrol> to create additional expressions for the same column. You can create up to a maximum of 9 filters for a single column.</cmd>
+         </step>
+         <step>
+            <cmd>Enter <uicontrol>Custom Logic</uicontrol> to add a logical relation between multiple rows. The supported filter logic operators are AND and OR. You can use parentheses for setting the precedence. For example, if you have five rows you can create a filter logic like, (((1 AND 3) OR (2 AND 4)) AND 5).  In the absence of a filter logic, the default relationship between the rows is the Boolean operator AND.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Test</uicontrol> to check whether your filter logic expression is correct. If your logic is incorrect, you will see a message in red.</cmd>
+         </step>
+         <step>
+            <cmd>Repeat steps 4 - 10 for each column you want to filter.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next </uicontrol>when you are finished to continue to the next screen in the expression builder to define any conditional rows in your table (see the next section for complete instructions).</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save </uicontrol>to save your table filters and return to your document.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Once the condition is successfully saved, a<uicontrol> lightning icon </uicontrol>(<image placement="inline" width="18" href="../attachments/256531882/256531872.png" class="- topic/image "/>) is displayed next to the particular repeat table. Click the lightning icon to view the conditions added to the particular repeat table. Click the <uicontrol>lightning icon</uicontrol> (<image placement="inline" width="18" href="../attachments/256531882/256531872.png" class="- topic/image "/>) again to collapse.</p>
+         <p>The column condition is created for the table. You can modify or delete the condition.</p>
+         <note type="note">
+            <p>If you are defining column filters for a table inside a section that contains third-level fields, you cannot apply column filters on objects that are not included in the table.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

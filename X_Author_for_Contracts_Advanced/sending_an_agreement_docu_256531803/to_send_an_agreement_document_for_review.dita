@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_SendinganAgreementDocumentforParallelReviewv20240711_Tosendanagreementdocumentforreview" xml:lang="en">
+   <title>To send an agreement document for review</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>After working on the Agreement Document, in the Contracts pane, click <uicontrol>Finish</uicontrol> tab to open the Check In/Parallel Review page.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Send for Review and Check-in </uicontrol>to view the Assign Reviewers page.</cmd>
+         </step>
+         <step>
+            <cmd>In the Search and add reviewers section, click User to view a dropdown menu.</cmd>
+         </step>
+         <step>
+            <cmd>Select User, Contact, or Email according to your requirement.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the following reviewer details:</cmd>
+            <info>
+               <note type="tip">
+                  <p>Tip</p>
+                  <p>Type the first two letters of user name or contact in the text fields to view suggestions. If the desired contact name is not displayed in the first 20 search results then enter more characters of the Contact or enter the full name of the Contact name.</p>
+               </note>
+               <ol>
+                  <li>If you select User, enter the name of a user in your Org. Click <uicontrol>Add</uicontrol>.</li>
+                  <li>If you select Contact, enter the name of a contact in your Org. Click <uicontrol>Add</uicontrol>.</li>
+                  <li>If you select the Email address, enter the name and email address of the recipient. Click <uicontrol>Add</uicontrol>.<note type="note">
+                        <p>
+                           <uicontrol>Note</uicontrol>
+                        </p>
+                        <p>You cannot add the same reviewer in the User, Contact, or Email sections.</p>
+                     </note>
+                  </li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>To remove any reviewer, click then Close icon (<image placement="inline" width="20" href="../attachments/256531803/256531801.png" class="- topic/image "/>) adjacent to the reviewer name.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Notify via Email - Compose Message </uicontrol>section<uicontrol>,</uicontrol> you can view or edit the Subject and Message of the review email. Press the <uicontrol>Enter</uicontrol> key on your keyboard to add a new line to the message. </cmd>
+            <info>
+               <p>By default, the subject line contains the agreement document name and the message body contains sender's name and agreement number.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+            <info>
+               <note type="note">
+                  <p>
+                     <uicontrol>Note</uicontrol>
+                  </p>
+                  <p>The Reviewer Access Selection page does not appear if there are no smart fields or clauses within the document or if the document has Insert Comments or Read-only protection mode.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>In the<uicontrol> Reviewer Access Selection (Fields)</uicontrol> section, you can view the list of smart fields within the agreement document.</cmd>
+         </step>
+         <step>
+            <cmd>Click the smart field name to view the field in the agreement document.</cmd>
+         </step>
+         <step>
+            <cmd>Select or unselect the first checkbox to allow or prevent a reviewer from editing all the smart fields. You can also select or unselect specific smart fields to allow or prevent the editing of those smart fields.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Reviewer Access Selection (Clauses) </uicontrol>section, you can view the list of smart clauses within the agreement document.</cmd>
+         </step>
+         <step>
+            <cmd>Click the smart clause name to view the clause in the agreement document.</cmd>
+         </step>
+         <step>
+            <cmd>Select or unselect the first checkbox to allow or prevent a reviewer from editing all the smart clauses. You can also select or unselect specific smart clauses to allow or prevent the editing of those smart clauses.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the required Save Options. The Reconcile checkbox is selected by default.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Complete</uicontrol>. If there are changes to smart fields or clauses in the document:</cmd>
+            <info>
+               <ol>
+                  <li>All the updated smart fields that are available for reconciliation are displayed. Review the<uicontrol> CLM Value</uicontrol> and <uicontrol>Current Value</uicontrol> of the updated smart fields in your document and click <uicontrol>Save &amp; Next</uicontrol>.</li>
+                  <li>All the updated smart clauses that are available for reconciliation are displayed. Expand a clause from the list to review the <uicontrol>Original</uicontrol> and <uicontrol>Edited</uicontrol> content of the clause.</li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Complete</uicontrol>.</cmd>
+            <info>
+               <p>An email notification with an attached review document is sent to all the reviewers. The review cycle is initiated and the document is locked. You cannot initiate a new review cycle with the same agreement document with the same template. You can initiate a new review cycle after the current review cycle is completed or canceled.</p>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <p>A reviewer has the following privileges:</p>
+         <ul>
+            <li>You cannot access the Work tab as it is disabled.</li>
+            <li>You can edit smart clauses and smart fields in the document that are permitted by the contract administrator.</li>
+            <li>You can check out and check in the review document.</li>
+         </ul>
+         <note type="note">
+            <p>
+               <uicontrol>Note</uicontrol>
+            </p>
+            <ul>
+               <li>Parallel review is not applicable to offline agreements when they are created or checked in for the first time. Once the offline agreement is checked in, you can send for parallel review on subsequent check-outs.</li>
+               <li>If you are working on the agreement documents containing swapped alternate clauses published using <uicontrol>Online Contract Collaboration (OCC</uicontrol>) in <uicontrol>Approval Pending </uicontrol>status, you cannot send the same for parallel review.</li>
+            </ul>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CollaboratingusingOutlook_ToattachafileinSalesforcetoanewemails" xml:lang="en">
+   <title>To attach a file in Salesforce to a new emails</title>
+   <taskbody>
+      <prereq id="prereq_xng_3bw_12c">
+         <p>The X-Author Outlook add-in must have been installed and you are connected.</p>
+      </prereq><steps>
+         <step>
+            <cmd>In Outlook, click <uicontrol>New E-mail</uicontrol> and from the
+                  <uicontrol>Message</uicontrol> tab select Attach Salesforce File.</cmd>
+            <info>
+               <fig>
+                  <image height="97" placement="break" href="../attachments/98671234/98671240.jpg"/>
+               </fig>
+               <p>The default is to use Chatter files.</p>
+               <p> To change this to Attachments, click <uicontrol>Show Criteria</uicontrol> and
+                  select <uicontrol>Attachments</uicontrol>.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter a name or partial name for the object record which contains the file you want
+               to attach and click <image height="16" placement="inline"
+                  href="../attachments/98671234/98671239.jpg" id="image_qwr_nbw_12c"/></cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Select</uicontrol> beside the object that contains the file and
+               then click <uicontrol>Open</uicontrol> besides the file you want to attach.</cmd>
+         </step>
+      </steps>
+      <result id="result_krh_sbw_12c">
+         <p>The file is now attached to the draft email.</p>
+      </result><postreq><p>You can repeat the task to attach another file or send the email.</p></postreq></taskbody>
+</task>

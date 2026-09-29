@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="GroupingandSortingListRanges_TosortandgroupListRanges"
+      xml:lang="en">
+   <title>To sort and group List Ranges</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the Display Map panel, click on the <uicontrol>Type</uicontrol> picklist and select <uicontrol>"</uicontrol>List."</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Options</uicontrol> tab.</cmd>
+         </step>
+         <step>
+            <cmd>(Optional) Type a d<uicontrol>escription in the Header field to display</uicontrol> above the label row of the list range.</cmd>
+         </step>
+         <step>
+            <cmd>For <uicontrol>Sort by field 1</uicontrol> and <uicontrol>Sort by field 2</uicontrol>, select an individual column to sort by. Choose whether records will be sorted in Ascending or Descending order.</cmd>
+         </step>
+         <step>
+            <cmd>For <uicontrol>Group by field 1</uicontrol> and <uicontrol>Group by field 2</uicontrol>, select a column in the repeating range to group by.</cmd>
+            <info>
+               <note type="note">
+                  <p>
+                     <uicontrol>Best Practice</uicontrol>
+                  </p>
+                  <p>Fields you intend to Group by should be mapped at the leftmost side of the List Range when you create a Display Map.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="400"
+                         href="../attachments/98667695/98668136.png"/>
+               </fig>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>
+               <uicontrol>Grouping and Sorting support for numbers, decimals and currency</uicontrol>
+            </p>
+            <p>Support is included for both single and two levels of grouping in Display Maps:</p>
+            <ul>
+               <li>You can total all numbers, decimals and currency fields</li>
+               <li>You can create totals on all Formula fields. Totals are displayed for formula fields having datatype as number, decimal and currency.</li>
+            </ul>
+            <p>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="279"
+                         href="../attachments/98667695/98668130.png"/>
+               </fig>
+            </p>
+         </note>
+         <note type="note">
+            <p>
+               <uicontrol>Use Case: Sales Pipeline Display Map Part 2</uicontrol>
+            </p>
+            <ol>
+               <li>Danny decides that the Display Map he created (see <xref href="../working_with_display_maps_98667693/98667693.dita"
+                        format="dita">Working with Display Maps</xref>) needs some grouping and sorting options. He clicks on <uicontrol>Display Map</uicontrol>, selects the "Pipeline Main" map and clicks <uicontrol>Edit</uicontrol>.</li>
+               <li>From the Display Map panel, Danny clicks on the <uicontrol>Type</uicontrol> picklist and selects "List."</li>
+               <li>He clicks on the <uicontrol>Options</uicontrol> tab in the Display Map panel and selects the following options:<ul>
+                     <li>Objects: Account.Opportunity</li>
+                     <li>Layout: Vertical</li>
+                     <li>Sort by field 1: Account.Opportunity.Name</li>
+                     <li>Group by field 1: Account.Opportunity.Owner (Name)</li>
+                     <li>Group by field 2: Account.Opportunity.Account (Name)</li>
+                  </ul>
+                  <fig>
+                     <image height="250"
+                            placement="break"
+                            width="423"
+                            href="../attachments/98667695/98668132.png"/>
+                  </fig>
+               </li>
+               <li>To improve the appearance of the app, Danny removes the bracketed text from each cell in row 4, removes the gridlines and adds some color to the app.<fig>
+                     <image height="195"
+                            placement="break"
+                            width="816"
+                            href="../attachments/98667695/98668131.png"/>
+                  </fig>
+               </li>
+               <li>He clicks <uicontrol>Save </uicontrol>on the Display Map and <uicontrol>Close</uicontrol>.</li>
+               <li>Danny clicks <uicontrol>Save App</uicontrol> to save all changes to the app.</li>
+            </ol>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CollaboratingusingOutlook_TosaveemailstoSalesforce" xml:lang="en">
+   <title>To save emails to Salesforce</title>
+   <taskbody>
+      <prereq id="prereq_op3_51w_12c">
+         <p>The X-Author Outlook add-in must have been installed and you are connected.</p>
+      </prereq><steps>
+         <step>
+            <cmd>Select the email you want to save and select <uicontrol>New</uicontrol> in the
+                  <uicontrol>Save to Salesforce</uicontrol> ribbon section to display the different
+               format options.</cmd>
+            <info>
+               <fig>
+                  <image height="250" placement="break" width="606"
+                     href="../attachments/98671234/98671238.jpg"/>
+               </fig>
+            </info>
+         </step>
+         <step><cmd>Select one of the following options:</cmd><info><p>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <thead><row>
+                           <entry>
+                              <p>HTML Format (*.html)</p>
+                           </entry>
+                           <entry>
+                              <p>Saves the body of the email in an HTML file.</p>
+                           </entry>
+                        </row></thead>
+                     <tbody>
+                        
+                        <row>
+                           <entry>
+                              <p>Outlook Message Format (*.msg)</p>
+                           </entry>
+                           <entry>
+                              <p>Saves the body of the email and any attachments in a file that can only</p>
+                              <p>be opened in Outlook.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Text Format (*.txt)</p>
+                           </entry>
+                           <entry>
+                              <p>Saves the body of the email in a text file.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Word Format (*.doc)</p>
+                           </entry>
+                           <entry>
+                              <p> Saves the body of the email in a Word file.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </info></step>
+         <step>
+            <cmd>In the Checkin window, select an <b>Object</b> and enter a name or owner name to
+               help refine the search and click<image height="16" placement="inline"
+                  href="../attachments/98671234/98671239.jpg" id="image_bb5_z1w_12c"/>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Select</uicontrol> for the specific object record you want to save
+               the file to.</cmd>
+         </step>
+      </steps>
+      <result id="result_lr2_bbw_12c">
+         <p>A confirmation message indicates the email was successfully saved to Salesforce.</p>
+      </result><postreq><p>You can go to that object record in Salesforce and see that the message has been added to the Notes and Attachments related list.</p></postreq></taskbody>
+</task>

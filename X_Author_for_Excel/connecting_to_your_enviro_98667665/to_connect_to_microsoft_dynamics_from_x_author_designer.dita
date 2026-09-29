@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ConnectingtoyourEnvironmentfromExcel_ToconnecttoMicrosoftDynamicsfromX_AuthorDesigner"
+      xml:lang="en">
+   <title>To connect to Microsoft Dynamics from X-Author Designer</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Excel.</cmd>
+         </step>
+         <step>
+            <cmd>In the X-Author Designer or X-Author for Excel ribbon menu, click <uicontrol>Connect.</uicontrol>
+            </cmd>
+            <info>
+               <p>If this is the first time you have connected to your environment, the <uicontrol>Manage Connections</uicontrol> window opens.</p>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="324"
+                         href="../attachments/98667665/98667986.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Under the <uicontrol>Create a new connection section, </uicontrol>in the <uicontrol>first</uicontrol> field, enter a name for your connection.</cmd>
+            <info>
+               <note type="note">
+                  <p>If you have previously connected to your environment, but need to connect to a different instance, refer to <i>
+                        <xref href="switching_connections.dita#ConnectingtoyourEnvironmentfromExcel_SwitchConnect">Switching Connections</xref>
+                     </i>.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>second field</uicontrol>, enter the URL you use to log in to your environment.</cmd>
+         </step>
+         <step>
+            <cmd>Click Authorize. The Microsoft login window opens.</cmd>
+         </step>
+         <step>
+            <cmd>Enter your username and password in the provided fields and click Sign in.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The X-Author Designer ribbon is fully enabled. Now you can start designing an app or using existing apps.</p>
+      </postreq>
+   </taskbody>
+</task>

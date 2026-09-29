@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MacroActionTocreateaMacroaction" xml:lang="en">
+   <title>To create a Macro action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd> Click on the arrow beneath the Actions button and select <uicontrol>Macro</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In Action Name, type a value that describes which Macro will be executed.</cmd>
+         </step>
+         <step>
+            <cmd>From Macro Name, select an existing macro.</cmd>
+         </step>
+         <step>
+            <cmd>Select the <uicontrol>Terminate Action Flow conditionally</uicontrol> check box if you want to terminate the action flow conditionally. The table below describes the behavior of the check box.</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="3">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <colspec colname="col3"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Macro</p>
+                              </entry>
+                              <entry>
+                                 <p>Terminate Action Flow conditionally check box</p>
+                              </entry>
+                              <entry>
+                                 <p>Result</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>True</p>
+                              </entry>
+                              <entry>
+                                 <p>Selected</p>
+                              </entry>
+                              <entry>
+                                 <p>The action flow will be terminated.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>False</p>
+                              </entry>
+                              <entry>
+                                 <p>Selected</p>
+                              </entry>
+                              <entry>
+                                 <p>The action flow will continue.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+               <note type="note">
+                  <p>To ensure the smooth execution of the terminate action flow, write the macro code in the module file rather than the sheet event, as shown below.</p>
+                  <p>
+                     <fig>
+                        <image height="250"
+                               placement="break"
+                               width="813"
+                               href="../attachments/98667679/235408234.png"/>
+                     </fig>
+                  </p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the <uicontrol>Disable excel events before macro execution</uicontrol> checkbox.</cmd>
+            <info>
+               <p>Enable or disable the Excel events in macro action depending on the value of the checkbox.</p>
+               <p>
+                  <fig>
+                     <image height="239"
+                            placement="break"
+                            width="439"
+                            href="../attachments/98667679/98668102.png"/>
+                  </fig>
+               </p>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <p>The following use case shows an example of this.</p>
+         <note type="note">
+            <p>
+               <uicontrol>Use Case: Creating a Macro Action</uicontrol>
+            </p>
+            <p>Diana Designer wants her end-users to fill out certain information within an App before sending an update to her environment. To enforce this, she creates a macro that looks at certain criteria, such as making sure there are values in a few records. Example: Amount and Close Date fields. This macro generates a True or False output depending on if the logic in the macro is met. Next, she creates a Macro action and associates the macro with it. She sequences the Macro action before the Save action in an action flow. Diana created the Macro action to conditionally stop the Save action from executing. Now, when the end user performs tasks and if the criteria is not met at the time the Macro action executes, the macro action reads the TRUE output from the macro and then terminates the action flow. The Save action is not enabled.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

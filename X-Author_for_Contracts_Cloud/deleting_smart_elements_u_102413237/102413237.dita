@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan853" xml:lang="en">
+   <title>Deleting Smart Elements Using Delete or Backspace Key</title>
+   <prolog>
+      <author>Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Contracts for Cloud on Salesforce Summer 2019 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can now use the <b>Backspace</b> or <b>Delete</b> key to delete clauses, fields, nested clauses, smart clauses, smart fields and read-only fields from an agreement document. Clauses or fields deleted from the document are recorded in the reconciliation screen as deleted. This feature improves the usability experience of X-Author Contracts.</p>
+      <p>Earlier smart elements like smart fields or smart clauses could be deleted only by marking them for deletion from the control panel and then reconciling them. This feature removes that limitation. Also, if you are not an Apttus user and do not have X-Author installed, you would still be able to delete smart elements from the agreement document. Additionally, earlier it was difficult to remove static text if it was in between two smart elements. That problem is solved with this feature.</p>
+      <p>
+         <b>Prerequisites</b>
+      </p>
+      <ul>
+         <li>To delete a smart element you must ensure that the value of the Comply System Property, <b>UnlockSmartElements</b> is set to <i>True</i> in Contract Management. Only then the smart elements become available for deletion.<p>For more information on how to configure the comply system property, refer to Contract Management on Salesforce Administrator Guide.</p>
+         </li>
+      </ul>
+   </conbody>
+</concept>

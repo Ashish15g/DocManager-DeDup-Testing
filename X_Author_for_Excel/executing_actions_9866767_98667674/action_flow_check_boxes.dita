@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ExecutingActionsactionflowcheckboxes" xml:lang="en">
+   <title>Action Flow Check boxes</title>
+   <conbody>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Field</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Persist Data as Output</p>
+                     </entry>
+                     <entry>
+                        <p>Select this check box if an action generates any output. Type a <b>Name </b>for the output. You can use any name. For example, <i>Opps</i>.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Provide Input</p>
+                     </entry>
+                     <entry>
+                        <p>Select this check box if an action requires input. Select an action from the <b>Action Input</b> list. Based on the type of Action, X-Author Designer provides input suggestions.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Suppress Save Message</p>
+                     </entry>
+                     <entry>
+                        <p>Select this check box if you have multiple save actions in a single action flow and you want to suppress the save message of that particular action. <b>Note:</b> This check box is enabled for the Save action only.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

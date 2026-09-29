@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ConvertingTemplates_ToconvertPre_FX2templatestoFX2templates" xml:lang="en">
+   <title>To convert Pre-FX2 templates to FX2 templates</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to the Windows <uicontrol>Start </uicontrol>menu and select <uicontrol>Apttus &gt; X-Author Migration Manager</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Create a new migration configuration </uicontrol>and proceed to <i>Step 2</i>.- OR -Select <uicontrol>Use an existing migration configuration</uicontrol>, click <image height="16" placement="inline" width="25" href="../attachments/102415193/102415226.png"/> to browse to an existing upgrade XML file and open it, and proceed to <i>Step 5</i>.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Create FX2 templates from existing Pre-FX2 templates</uicontrol> and click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Authorize </uicontrol>to display the Manage Connections window.The listed available connections are those you have already configured on your machine, via either X-Author Migration Manager or X-Author Contracts. If not, enter your URL and authorize your org credentials.</cmd>
+            <info>
+               <fig>
+                  <image placement="break" width="550" href="../attachments/102415194/102429236.jpg"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Connect </uicontrol>to connect to the source org.- OR -</cmd>
+            <info>
+               <p>Enter a new connection name and Login URL and click <uicontrol>Authorize</uicontrol>.</p>If the above action is successful, the Manage Connections window closes and returns you to the X-Author Migration Configuration Wizard. If you do not connect successfully, verify that you have entered the correct username and URL.</info>
+         </step>
+         <step>
+            <cmd>Specify the filter criteria to build expressions to define which templates you want to convert. Use <uicontrol>Add Row</uicontrol> to add more expressions. Click <uicontrol>Add Filter Logic</uicontrol> to create an advanced expression using row numbers as reference (e.g., "1 OR 2 (AND 3)") Use <uicontrol>Show Filter Expression</uicontrol> to view the formula created from your logic. Click <uicontrol>Next </uicontrol>to move to the next step in the Configuration Wizard.</cmd>
+         </step>
+         <step>
+            <cmd>View the list of templates that match your defined filter criteria. Click <uicontrol>Back</uicontrol> to make changes to your filters or <uicontrol>Next</uicontrol> to confirm the templates to be converted.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save </uicontrol>to save the current configuration as a migration configuration for reuse later. This does not save the org details or login credentials. Optionally, select <uicontrol>Review log file once migration is completed</uicontrol> if you want to review the process for each template, along with its execution time. Click <uicontrol>Finish</uicontrol> to start the FX2 template creation process.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>OK</uicontrol> to confirm a successful conversion and review the log file for details. In the event of an unsuccessful conversion, you can review the log file to troubleshoot any errors.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Migration Manager creates a copy of all converted templates in the connected org in FX2 format. It is recommended to test all converted templates before authorizing them for active use.</p>
+      </postreq>
+   </taskbody>
+</task>

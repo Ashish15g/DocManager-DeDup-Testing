@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CreatingExternalActionsHowtolinkanExternalLibraryintoXAuthor"
+      xml:lang="en">
+   <title>How to link an External Library into X-Author</title>
+   <taskbody>
+      <context>
+         <p>After developing an External Action that is part of a library (.NET assembly), load the library into X-Author Designer using the following steps.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Navigate to the X-Author for Designer Tab.</cmd>
+         </step>
+         <step>
+            <cmd>Click External Library, load the required<i> .dll</i> file and click OK.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="750"
+                         href="../attachments/98667727/98668049.png"/>
+               </fig>After you load the selected assembly, X-Author detects all the external actions within that assembly.</info>
+         </step>
+         <step>
+            <cmd> Invoke the newly created external actions within an Action Flow just like built-in actions.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

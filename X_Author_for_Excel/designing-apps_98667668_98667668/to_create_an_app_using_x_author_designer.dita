@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="DesigningAppsTocreateanappusingXAuthorDesigner" xml:lang="en">
+   <title>To create an app using X-Author Designer</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In the ribbon menu, click the apps button and select <uicontrol>New App</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="124"
+                         placement="break"
+                         width="168"
+                         href="../attachments/98667668/98667923.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Type the app name in the App Name field. This name will display as the window title in the Excel worksheet at runtime. Use only English characters for the app name. Non English characters are not supported as they impact import/export operations, offline capability and more. 
+               </cmd>
+            <info>
+               <p>
+                  <fig>
+                     <image height="194"
+                            placement="break"
+                            width="220"
+                            href="../attachments/98667668/190354395.png"/>
+                  </fig>
+               </p>
+               <note type="tip">
+                  <p>Give your app a name that is concise but also summarizes the basic purpose of the app.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>To use a new Excel template, click the <uicontrol>New</uicontrol> radio button.  Although most existing templates can be used, it is sometimes easier to start with a clean workbook unless users are very familiar with the existing file and change management is a concern.</cmd>
+         </step>
+         <step>
+            <cmd>To create an app from an existing Excel file, click the <uicontrol>Existing</uicontrol> radio button and then click Browse to select the template file.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the ribbon menu, click <uicontrol>Save App</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>You have created an app shell and you are ready to add the various Designer components.</p>
+      </postreq>
+   </taskbody>
+</task>

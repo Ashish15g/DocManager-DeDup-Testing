@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_UsingClauseLibraryforTemplatev20240711_ToinsertaclausewithformattingfromClauseLibraryintoatemplate" xml:lang="en">
+   <title>To insert a clause with formatting from Clause Library into a template</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts<uicontrol> </uicontrol>pane, click the Home button (<image placement="inline" width="16" href="../../global_images/images/256531474.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to <uicontrol>Work &gt; Clause Library</uicontrol>. The list of all the available clauses is displayed.  To view the complete clause name, either hover the mouse over the clause name or expand the X-Author window.</cmd>
+         </step>
+         <step>
+            <cmd>You can use the Search by Clause Name box to search a clause by keyword. Click the Filter button (<image placement="inline" width="16" href="../attachments/256531477/256531471.png" class="- topic/image "/>) to view the drop-down menus that can help you to refine your search according to Type, Category, Subcategory, Locale, and Language.</cmd>
+         </step>
+         <step>
+            <cmd>Place the cursor in the section of the template where you want to insert a clause.</cmd>
+         </step>
+         <step>
+            <cmd>Click a clause from the list to view the clause text and active version. To insert the clause, click the Expand icon next to the clause name and click <uicontrol>Insert Clause Formatting.</uicontrol>
+            </cmd>
+            <info>
+               <p>You see a success message on inserting a clause. The clause content is marked by a content control boundary in your template.</p>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <ul>
+               <li>When you insert a clause using the <uicontrol>Insert Clause Formatting</uicontrol> option, the clause retains its format. For example, if you are inserting a plain text clause inside a bulleted list, the clause is inserted as plain text. There is no bulleted style applied to it.</li>
+               <li>After you insert a clause into a template, you cannot edit text, insert or mark a field, or mark segments within the clause.</li>
+               <li>Older templates with clauses inserted from the Clause Library will still allow edits. Restriction of edit actions on inserted clauses applies only to clauses inserted after the October'23 release.</li>
+            </ul>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

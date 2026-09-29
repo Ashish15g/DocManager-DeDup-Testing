@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan798" xml:lang="en">
+   <title>Locking and Unlocking Documents</title>
+   <prolog>
+      <author>Chris Castro</author>
+      <critdates>
+         <created date="Jun 02, 2017"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Mac May 2017 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>When you check out a document in X-Author, the document is locked for editing and cannot be checked out by anyone else. Anyone with proper permissions for the document's agreement record can still view and/or download the document, but they cannot make edits and check the document back in while you have it locked.</p>
+      <p>You can always check the lock status of a document by clicking on the <image
+            placement="inline" width="16" href="../attachments/45220101/49676309.png"
+            id="image_m3w_dkn_12c"/>
+         <b>Lock Status</b> tab.</p>
+      <p>Locks can only be released when a user either manually releases the lock, or checks the document into Salesforce.</p>
+      <note type="note">
+         <p>By default, document locks are used for agreement documents. However, if the Comply
+            System Property <b>Use Agreement Locks for Versioning</b> is enabled the agreement will
+            be locked instead of a single document. This means that while you or anyone else has a
+            document checked out that no other documents for the same agreement record can be
+            checked out. Be sure to check whether or not this property is enabled before you begin
+            editing a contract document.</p>
+      </note>
+   </conbody>
+</concept>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_SettingSegmentsinTemplatesv20240620_Tovieworeditasegmentstyle" xml:lang="en">
+   <title>To view or edit a segment style</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>From the Contracts pane, click the Home icon (<image placement="inline" width="20" href="../../global_images/images/256531474.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to Work tab, click the Dropdown icon (<image height="13" placement="inline" href="../attachments/256528217/256528208.png" class="- topic/image "/>)and select Segments.</cmd>
+         </step>
+         <step>
+            <cmd>Select<uicontrol/>Segment Regular from the segments list in the Segments pane and click the Settings icon (<image placement="inline" width="20" href="../../global_images/images/256529252.png" class="- topic/image "/>) next to the segment name. This opens the Segment Settings<uicontrol/>page where the Segment Type is set to Regular for that segment.</cmd>
+         </step>
+         <step>
+            <cmd>To edit the style, click the<uicontrol/>Edit icon (<image placement="inline" width="20" href="../attachments/256528217/256528211.png" class="- topic/image "/>) next to Style.</cmd>
+         </step>
+         <step>
+            <cmd>To add a segment condition, click <uicontrol>Add Condition</uicontrol>. This opens the Segment Condition window which has the expression builder. For more information, see 
+<xref href="to_view_or_edit_a_segment_condition.dita#id_SettingSegmentsinTemplatesv20240620_TomakeaSegmentConditionalinatemplate">To make a Segment Conditional in a template</xref>. After adding a condition to the segment, a Lightning icon (<image placement="inline" width="18" href="../attachments/256528217/256528209.png" class="- topic/image "/>) is added. Segment Regular style segment changes to Segment Conditional after you add a condition. When you generate a document using a template with style segments, you can view the different styles applied in the generated document.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

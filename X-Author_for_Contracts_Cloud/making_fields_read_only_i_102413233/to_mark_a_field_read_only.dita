@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MakingFieldsReadOnlyinaTemplate_Tomarkafieldread_only" xml:lang="en">
+   <title>To mark a field read-only</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Insert the field into your template by following the steps in Inserting Fields into a Template.</cmd>
+         </step>
+         <step>
+            <cmd>From the X-Author Templates pane, go to <uicontrol>Work tab &gt; Template Fields</uicontrol>. If you cannot see the Template Fields tab, click more <image height="19" placement="inline" href="../attachments/102413233/102413386.png"/> icon and select <uicontrol>Template Fields</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>The Template Fields page shows the list of all the fields present in your template. Search for and click the field name in the list to highlight it in the document.</cmd>
+         </step>
+         <step>
+            <cmd>Click the gear icon <image height="16" placement="inline" width="16" href="../../global_images/images/256528177.png"/> adjacent to the selected field name to open the Properties page.</cmd>
+         </step>
+         <step>
+            <cmd>In the attributes list, turn on the <uicontrol>Readonly</uicontrol>
+               <uicontrol>Field</uicontrol> switch and click <uicontrol>Ok</uicontrol>.</cmd>
+            <info>
+               <p>Your field is marked as read-only.</p>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

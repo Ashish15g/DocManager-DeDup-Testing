@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="InstallingXAuthorChatterToinstallXAuthorChatter" xml:lang="en">
+   <title>To install X-Author Chatter</title>
+   <taskbody>
+      <context>
+         <p><b>Prerequistes</b></p>
+         <ul>
+            <li>You must have a Chatter enabled Salesforce account.</li>
+            <li>You must have the Microsoft Office products already installed and ensure they are not currently open.</li>
+         </ul>
+         <p><b> Installing X-Author Chatter </b></p>
+      </context>
+      <steps>
+         <step><cmd>Login via <xref href="http://login.salesforce.com" format="html" scope="external">http://login.salesforce.com</xref>.</cmd></step>
+         <step><cmd>Click the <uicontrol>X-Author Chatter</uicontrol> tab or click <image height="14" placement="inline" href="../attachments/98670296/98671089.jpg"/> to display all tabs and then select it.</cmd></step>
+         <step><cmd>Click the download icon for the relevant MS Office product:</cmd>
+         <info>
+            <p id="InstallingXAuthorChatterStep3">
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>MS Office Product</p>
+                           </entry>
+                           <entry>
+                              <p>Icon</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Word</p>
+                           </entry>
+                           <entry>
+                              <p>
+                                 <fig>
+                                    <image placement="break" width="40" href="../attachments/98670296/98671090.jpg"/>
+                                 </fig>
+                              </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Excel</p>
+                           </entry>
+                           <entry>
+                              <p>
+                                 <fig>
+                                    <image height="32" placement="break" width="40" href="../attachments/98670296/98671091.jpg"/>
+                                 </fig>
+                              </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Outlook</p>
+                           </entry>
+                           <entry>
+                              <p>
+                                 <fig>
+                                    <image placement="break" width="40" href="../attachments/98670296/98671092.jpg"/>
+                                 </fig>
+                              </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>PowerPoint</p>
+                           </entry>
+                           <entry>
+                              <p>
+                                 <fig>
+                                    <image placement="break" width="40" href="../attachments/98670296/98671093.jpg"/>
+                                 </fig>
+                              </p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+            <p>The installation behaves the same for each product.</p>
+         </info></step>
+         <step><cmd>Click <uicontrol>Save file</uicontrol> and then double-click the file once it is downloaded to launch the installer.</cmd></step>
+         <step><cmd>Follow the instructions in the Install Wizard, by clicking <uicontrol>Next</uicontrol> to progress the installation.</cmd></step>
+         <step><cmd>You must also select <uicontrol>I accept the terms in the license agreement</uicontrol> as part of the installation.</cmd></step>
+         <step><cmd>Click<uicontrol> Finish</uicontrol> once the installation is complete.</cmd></step>
+         <step><cmd>Open the Microsoft product and confirm the X-Author Chatter ribbon option is available.</cmd>
+         <info>
+            <fig>
+               <image placement="break" width="400" href="../attachments/98670296/98671094.jpg"/>
+            </fig>
+               <p>If the ribbon is not available, it may need to be registered manually.</p>
+         </info></step>
+      </steps>
+      <result>
+         <p>X-Author is now ready for use with the Microsoft product, enabling you to use chatter to collaborate on your work.</p>
+      </result>
+      <postreq id="postreq_fqh_qjv_12c">
+         <p>You can return to <xref
+               href="to_install_x_author_chatter.dita#InstallingXAuthorChatterToinstallXAuthorChatter/InstallingXAuthorChatterStep3"
+               format="dita">Step 3</xref> and go to the X-Author Chatter tab in Salesforce and
+            install the remaining products.</p>
+      </postreq>
+   </taskbody>
+</task>

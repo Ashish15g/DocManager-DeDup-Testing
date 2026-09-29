@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InsertingFieldsinaTemplatev20240711_Toinsertfieldsinatemplate" xml:lang="en">
+   <title>To insert fields in a template</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open a template in X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Work tab, click <uicontrol>Fields. </uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Put the cursor in the template text where you want to insert a field and click <uicontrol>Insert Field</uicontrol>. This opens the Insert Field dialog box.</cmd>
+         </step>
+         <step>
+            <cmd>Select an Object<uicontrol/>(For example, "Contract") from the left column. The fields related to the selected object are generated in the right column. To search for a particular field, enter a keyword and click the Search icon<uicontrol/>(<image placement="inline" width="25" href="../attachments/256531524/256531523.png" class="- topic/image "/>) or press enter. When you hover over the field name, the API name of the field is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>After selecting the required fields, click <uicontrol>Insert</uicontrol>.</cmd>
+            <info>
+               <note type="tip">
+                  <p>Tip</p>
+                  <p>To select multiple fields,</p>
+                  <ul>
+                     <li>On Windows, hold the Ctrl key and select the fields.</li>
+                     <li>On Mac, hold the Command key and select the fields.</li>
+                  </ul>
+               </note>
+               <p platform="conga">The fields are inserted in the template. The <uicontrol>Fields</uicontrol> page shows the list of all the fields present in your current template. Select a field from the list to highlight it in the template document.</p>
+               <note type="note">
+                  <ul>
+                     <li>The <uicontrol>Read-Only Field</uicontrol> toggle for Rich text Fields allows you to turn the read-only functionality on or off.</li>
+                     <li>You can also insert a field in the header and footer of the template document. While inserting a field in the header or footer, the field cannot be set as read-only or smart, it will only be a merge field.</li>
+                     <li>When you are working on a clause template, you cannot insert a field as a repeat table or repeat section. When you try inserting a filed, only the contract object will be displayed on the left column, the child object will not be displayed by default and the Insert as Table and Insert as Section buttons will be disabled.</li>
+                     <li>If you want to replace an existing field in a template, you must delete the field and create a new one.</li>
+                     <li>
+                        <uicontrol>Rollup Fields</uicontrol> are supported. Rollup fields perform automatic calculations depending on the options selected. For more information on rollup fields, see 
+<xref href="https://documentation.conga.com/cpq/latest/conga-platform/managing-the-rollups-225248368.html" format="html" scope="external">Managing the Rollups</xref>. Once you generate a document with a rollup field in the template, the following values become available:<ul>
+                           <li>If the <uicontrol>Double</uicontrol> Rollup Property was selected, Locale and Number Precision are available values.</li>
+                           <li>If the <uicontrol>Currency </uicontrol>Rollup Property was selected, Locale and Currency Precision are available values.</li>
+                        </ul>
+                     </li>
+                  </ul>
+               </note>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

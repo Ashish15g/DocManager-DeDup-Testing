@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d413aA" xml:lang="en">
+   <title>Viewing and Replacing Alternate Clauses</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 23, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>An alternate clause is a substitute for a standard clause. Every standard clause can have multiple alternate clauses. Alternate clauses are defined while generating an agreement document. Often, during negotiation, these alternate clauses can be substituted for standard clauses. You can use this option to select a clause from a list of alternate clauses to substitute it for its associated standard clause.</p>
+      <p>
+         <b>Prerequisites</b>
+      </p>
+      <ul>
+         <li>You have created a clause template that associates alternate clauses with standard clauses.</li>
+         <li>You have added and linked the alternate clauses to the standard clauses in the CLM platform. For more information, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/managing-alternate-clauses-181310303.html" format="html" scope="external">Managing Alternate Clauses.</xref>
+         </li>
+      </ul>
+      <note type="note">
+         <p>To mark a clause as an alternative clause when creating a clause template, select the<b> Alternate Clause </b>checkbox. Otherwise, the clause is considered a standard clause by default. For more on alternate clause creation, see 
+<xref href="../creating_an_alternate_cla_256531504/256531504.dita" format="dita">Creating an Alternate Clause</xref>.</p>
+      </note>
+   </conbody>
+</concept>

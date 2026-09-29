@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="SwitchConnectionActionTocreateaSwitchConnectionaction"
+      xml:lang="en">
+   <title>To create a Switch Connection action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click on the arrow beneath the Actions button and select <uicontrol>Switch Connections</uicontrol>. The Switch Connections Action window opens. </cmd>
+         </step>
+         <step>
+            <cmd>Type a name in the Action Name field.</cmd>
+            <info>
+               <p>This name displays on the X-Author Designer. For example, this is the name you will see when you design your action flows.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Type a name in the Switch Connection Name. </cmd>
+            <info>
+               <p>This name displays to the runtime user and should be used to prompt the user to enter the correct connection information.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="174"
+                         placement="break"
+                         width="315"
+                         href="../attachments/98667680/190354423.png"/>
+               </fig>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <p>You can now add the Switch Connection action to your Action Flows.</p>
+      </postreq>
+   </taskbody>
+</task>

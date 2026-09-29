@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="DeleteActionTocreateaDeleteRowaction" xml:lang="en">
+   <title>To create a Delete Row action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In the ribbon menu, click the Actions drop-down menu and select Delete. The Delete Action window opens.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="400"
+                         href="../attachments/98667686/190354440.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Complete the fields described in the following table.</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Type a name for the new action.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Save Map</p>
+                              </entry>
+                              <entry>
+                                 <p>Select an existing Save Map to use when deleting rows.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Object</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the object that you want to delete the records for.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Specify the filters based on which you want to delete the records. For example, you can choose to delete records if the Approval Status of the record is Rejected. Relational fields are also displayed as part of the selected object. Operators are supported based on the datatype of the field, such as equals, not equal to, greater than, greater than equal to, less than, and less than equal to. IN and Not In operators are not supported in this release. Only the Static value type is supported in the May 2016 release and later. You can specify a maximum of 20 filters. Filters are displayed based on the following conditions:</cmd>
+            <info>
+               <ul>
+                  <li>
+                     <p>Save map containing only display map fields will show all filter fields.</p>
+                  </li>
+                  <li>
+                     <p>Save map containing display and save other fields both will show all fields.</p>
+                  </li>
+                  <li>
+                     <p>Save map containing only save other fields shouldn't show anything.</p>
+                  </li>
+                  <li>
+                     <p>Empty columns that are a part of the display map also appear in the filter fields.</p>
+                     <note type="note">
+                        <p>Important</p>
+                        <p>In Microsoft Dynamics, define filter logic within brackets. Example: (1 OR 2), ((1 AND 2) OR 3), ((1 OR 2) AND 3)</p>
+                     </note>
+                  </li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>To ensure that the user knows that a delete action is executed at runtime, the Prompt Configuration Message Before Deleting records check box is selected by default. If the user clicks Yes, the records are deleted and the next action in the action flow is executed. If the user clicks No, the next action in the action flow is executed.</cmd>
+            <info>
+               <note type="note">
+                  <p>A visual indicator displays the progress of the Delete operation.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

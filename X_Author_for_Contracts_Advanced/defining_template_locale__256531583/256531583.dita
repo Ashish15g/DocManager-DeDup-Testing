@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d89aA" xml:lang="en">
+   <title>Defining Template Locale</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p platform="conga">You can define locale settings for the agreement template or clause level and field level.</p>
+      <ul platform="conga">
+         <li>At the template or clause level:<ul>
+               <li>You can specify the Locale and choose the Currency Format, Date Format, and configure Number and Currency Precision for the whole template when you create or clone a template or clause.<note type="note">
+                     <p>
+                        <b>Note</b>
+                     </p>
+                     <p>For date fields, the date formats are displayed based on the selected Locale.</p>
+                  </note>
+               </li>
+               <li>You can also change the locale of a template or clause at check-in.</li>
+            </ul>
+         </li>
+         <li>At the template or clause field level:<ul>
+               <li>You can use the Template Fields tab to define locale for Number, Currency, Date, and Precision fields.</li>
+               <li>You can also use the Template Fields tab to define Currency Format, Date Format, Currency Precision, and Number Precision for fields.</li>
+               <li>The template or clause field level locale settings take precedence over template or clause level locale settings in the generated document.</li>
+            </ul>
+         </li>
+      </ul>
+      <p platform="conga">To learn how to change field format by locale, refer to 
+<xref href="../changing_field_format_by__256528247/256528247.dita" format="dita">Changing Field Format by Locale</xref>.</p>
+      <p platform="salesforce">You can define locale settings for the agreement template or clause
+         level and field level.</p>
+      <ul platform="salesforce" id="ul_v3v_wml_2dc">
+         <li>At the template or clause level:<ul id="ul_w3v_wml_2dc">
+               <li>You can specify the Locale and choose the Currency Format, Date Format, and
+                  configure Number and Currency Precision for the whole template when you create or
+                  clone a template or clause.<note type="note" id="note_x3v_wml_2dc">
+                     <p>
+                        <b>Note</b>
+                     </p>
+                     <p>For date fields, the date formats are displayed based on the selected
+                        Locale.</p>
+                  </note>
+               </li>
+               <li>You can also change the locale of a template or clause at check-in.</li>
+            </ul>
+         </li>
+         <li>At the template or clause field level:<ul id="ul_y3v_wml_2dc">
+               <li>You can use the Template Fields tab to define locale for Number, Currency, Date,
+                  and Precision fields.</li>
+               <li>You can also use the Template Fields tab to define Currency Format, Date Format,
+                  Currency Precision, and Number Precision for fields.</li>
+               <li>The template or clause field level locale settings take precedence over template
+                  or clause level locale settings in the generated document.</li>
+            </ul>
+         </li>
+      </ul>
+      <p platform="salesforce">To learn how to change field format by locale, refer to <xref
+            href="../changing_field_format_by__256528247/256528247.dita" format="dita"> Changing
+            Field Format by Locale </xref>.</p>
+   </conbody>
+</concept>

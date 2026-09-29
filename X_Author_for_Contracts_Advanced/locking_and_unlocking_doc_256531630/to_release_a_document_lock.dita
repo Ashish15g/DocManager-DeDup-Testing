@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_LockingandUnlockingDocumentsv20240711_Toreleaseadocumentlock" xml:lang="en">
+   <title>To release a document lock</title>
+   <taskbody>
+      <context>
+         <p>Before you can release a lock on a document, it must be opened in X-Author for Contracts Advanced.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and launch the X-Author for Contracts Advanced add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>Open a contract document. For information on opening a contract document, see 
+<xref href="../opening_an_agreement_docu_256530555/256530555.dita" format="dita"> Opening a Contract Document </xref>.</cmd>
+         </step>
+         <step>
+            <cmd>From the Contracts pane, click the Lock Status(<image placement="inline" width="20" href="../attachments/256531630/256531603.png" class="- topic/image "/>) button. The Lock Status page shows contract details and information on the current document lock.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Release Lock</uicontrol> on the Lock Status page.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The document page refreshes and shows the Start tab of X-Author Contracts. You cannot access the Work and Finish tabs of X-Author Contracts after releasing the lock. When you click the<uicontrol/>Lock Status icon, the Acquire Lock button replaces the Release Lock button in the Lock Status page.</p>
+         <note type="note">
+            <p>If you released a document lock by mistake and want to continue working with the document, go to the Lock Status page and click <uicontrol>Acquire Lock</uicontrol>.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

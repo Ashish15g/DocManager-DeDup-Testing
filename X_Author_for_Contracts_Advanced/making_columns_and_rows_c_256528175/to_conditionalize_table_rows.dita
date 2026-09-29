@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MakingColumnsandRowsConditionalinaRepeatTableandRepeatSectionv20240620_ConditionalRows" xml:lang="en">
+   <title>To conditionalize table rows</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>In the Templates pane, go to the Work tab, click the dropdown button (<image height="13" placement="inline" href="../attachments/256528175/256528162.png" class="- topic/image "/>) and select Fields. The Fields pane displays the repeat table and the fields.</cmd>
+         </step>
+         <step>
+            <cmd>Click the Settings button (<image placement="inline" width="20" href="../../global_images/images/256529252.png" class="- topic/image "/>) next to the repeat table name.</cmd>
+         </step>
+         <step>
+            <cmd>In the repeat table's settings pane, click <uicontrol>Add Condition </uicontrol>to open the template expression builder.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Condition on Row </uicontrol>tab.</cmd>
+         </step>
+         <step>
+            <cmd>To create a conditional expression, enter values for the following fields:</cmd>
+            <info>
+               <ul>
+                  <li>
+                     <uicontrol>Field</uicontrol>: Select the field that you want to set as the criterion for the condition. You can select any field from the parent object (parent of the object whose fields are displayed in the table), grandparent object (parent’s parent), or lookup objects. For example, if the table displays the fields from Service Plan Device object, <uicontrol>Field</uicontrol> lists all the available fields of the Contract Service Plan (parent object), Contract (grandparent object) and lookup objects for Contract and Contract Service Plan.</li>
+                  <li>
+                     <uicontrol>Operator</uicontrol>: Select the logical operator from the picklist. This forms the relationship between the fields and its value.</li>
+                  <li>
+                     <uicontrol>Value</uicontrol>: Enter the value of the selected field.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add row</uicontrol> to create more conditional expressions. You can create up to nine rows of conditions to be used in a single expression.</cmd>
+         </step>
+         <step>
+            <cmd>Enter <uicontrol>Custom Logic</uicontrol> to add a logical relation between multiple rows. The supported filter logic operators are AND and OR. You can use parentheses for setting precedence. For example, if you have five rows you can create a filter logic, like (((1 AND 3) OR (2 AND 4)) AND 5).  In the absence of a filter logic, the default relationship between the rows is the Boolean operator AND.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Test</uicontrol> to check whether your filter logic expression is correct. If your logic is incorrect, you will see a message in red.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol> to save your table filters and return to your document.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p platform="conga">Once the condition is successfully saved, a lightning icon (<image placement="inline" width="18" href="../attachments/256528175/256528161.png" class="- topic/image "/>) is displayed next to the particular repeat table. Click the Lightning icon to view the conditions added to the particular repeat table. Click the lightning icon again to collapse.</p>
+         <p platform="conga">The row condition is created for the table. You can modify or delete the condition.</p>
+      </postreq>
+   </taskbody>
+</task>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MakingClausesandClauseBundlesConditionalinaTemplatev20240711_Toaddaconditiontoaclauseandbundle" xml:lang="en">
+   <title>To add a condition to a clause and bundle</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced for Conga CLM (Contracts for Salesforce).</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Templates </uicontrol>pane, go to <uicontrol>Work &gt; Clauses</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>The Clauses pane lists all the clauses present in your template. Select a clause from the list and click the <uicontrol>Settings icon </uicontrol>(<image placement="inline" width="20" href="../../global_images/images/256529252.png" class="- topic/image "/>) next to the clause name.</cmd>
+         </step>
+         <step>
+            <cmd>Select a clause or clause bundle from the list and click the <uicontrol>Settings icon </uicontrol>(<image placement="inline" width="20" href="../../global_images/images/256529252.png" class="- topic/image "/>) next to the clause name or clause bundle name.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Properties</uicontrol> pane, click <uicontrol>Add Condition</uicontrol> to open the template expression builder.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Clause Condition </uicontrol>window, you can create a conditional expression and also create a complex expression using logical operators between multiple rows of conditions. To create an expression you must enter values for the following three fields: </cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the field which you want to set as the criteria for the condition. The <uicontrol>Field</uicontrol> drop-down shows the Contract Agreement object and its fields from your Salesforce org. You must select a field name. The fields are listed and grouped according to their hierarchy.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Operator</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the logical operator from the drop-down. This forms the relationship between the <uicontrol>Field</uicontrol> and its <uicontrol>Value</uicontrol>.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Value</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the value of the field name selected in the <uicontrol>Field.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add row</uicontrol> to create more conditions. You can add up to 9 rows of condition expressions.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Custom Logic</uicontrol> to add a logical relation between multiple rows of condition expressions. The supported filter logic operators are AND and OR. You can use parentheses for setting the precedence. For example, if you have 5 rows you can create a filter logic like, (((1 AND 3) OR (2 AND 4)) AND 5).  In the absence of a filter logic, the default relationship between the rows is the Boolean operator AND.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Test </uicontrol>to check whether your filter logic expression is correct. If your logic is incorrect, you will see a message in red.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save </uicontrol>to save the condition. Your clause is made conditional and you will see a success message. A <uicontrol>lightning icon</uicontrol> (<image placement="inline" width="18" href="../attachments/256531946/256531945.png" class="- topic/image "/>) is displayed next to the particular clause. Click the <uicontrol>lightning icon</uicontrol> (<image placement="inline" width="18" href="../attachments/256531946/256531945.png" class="- topic/image "/>) to view the conditions added to the particular Clause.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The properties page now shows the condition that you created.</p>
+      </postreq>
+   </taskbody>
+</task>

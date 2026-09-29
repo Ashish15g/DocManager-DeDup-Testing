@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_CreatingOfflineAgreementsv20240711_Tocreateanofflineagreement1" xml:lang="en">
+   <title>To create an offline agreement</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts and open the Agreement Document.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane,  go to<uicontrol/>Start &gt; Create. The Create New Offline Agreement page is displayed.</cmd>
+            <info>
+               <note type="note">
+                  <p>The Create Offline feature can be made available to specific user profiles using the <i>xa_disablecreateoffline</i>admin setting. When set to true, this feature is available for the specific user, and when the user hovers over the button, they can see the “Contact your administrator to access this feature” message. However, when set to false, the button is available for use by users. For more information, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/custom-permissions-253691491.html" format="html" scope="external">Custom Permissions</xref>.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter the following details (fields marked with an asterisk are required):</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Fields</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Record Type*</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the record type from the picklist.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Name*</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the agreement name.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Account*</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the account name.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Contact*</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the contact details.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Start Date</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the start date of the agreement from the date picker.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>End Date</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the end date of the agreement from the date picker.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>. You will see a confirmation message and the new document is opened in a new Microsoft Word instance. Note that if the xa_disableautocheckout profile permission is set to true in Conga CLM, then after clicking save, you will only see the confirmation message. The document will not open in a new instance. For more information on disable auto check out, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/assigning-master-profile-and-custom-profile-permissions-to-user-profiles-231212372.html" format="html" scope="external">Assigning Custom Permissions to User Profiles</xref>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>After clicking Save, a new agreement record is created in CLM. If the Enable Document Versioning comply system property is enabled in CLM, the new agreement is available in Document Versions. If the Enable Document Versioning comply system property is not enabled and the Enable File comply system property is enabled, the new agreement is available as a type-file in the Notes &amp; Attachments.</p>
+         <p>You can also send the offline agreement for review when the Parallel review comply system property is enabled. For more information, see 
+<xref href="../sending_an_agreement_docu_256531803/256531803.dita" format="dita">Sending an Agreement Document for Parallel Review</xref>.</p>
+      </postreq>
+   </taskbody>
+</task>

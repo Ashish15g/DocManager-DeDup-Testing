@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MovingandRemovingMappedFields_TodeleteanexistingDisplayMap"
+      xml:lang="en">
+   <title>To delete an existing Display Map</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the ribbon, click the <uicontrol>Display Map</uicontrol> button.</cmd>
+         </step>
+         <step>
+            <cmd>From the list of Display Maps, select a Display Map and click <uicontrol>Delete</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="warning">
+            <p>You cannot delete a Display Map that is being used by a <xref href="../display-action_98667691_98667691/98667691.dita" format="dita">Display Action</xref>.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

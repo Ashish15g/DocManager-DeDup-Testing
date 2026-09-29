@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="WorkingwithClauses_rejectclause" xml:lang="en">
+   <title>To reject changes to a clause</title>
+   <taskbody><context><p>During multiple rounds of negotiation, the text of a clause in your agreement is likely to be modified. </p><p>Changes to clauses can be tracked over multiple check-ins, as long as redlining is preserved. Changes to clauses only become permanent when the document is checked in and <xref href="../reconciliation_45220099_45220099/45220099.dita" format="dita">reconciled</xref>.  </p><p>To reject the changes to a clause:</p></context><steps>
+         <step>
+            <cmd>Hover over the <image placement="inline" width="20"
+                  href="../attachments/45220112/49086827.png" id="image_zxd_pv4_12c"/>
+               <b>Document </b>tab and select <b>Clauses</b> to open the Documents Panel.</cmd>
+            <info>
+               <fig>
+                  <image height="250" placement="break" width="262"
+                     href="../attachments/45220112/51576893.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on <uicontrol>Show Only Changed Clauses</uicontrol> to display a list of
+               clauses with changes since the last check-in.</cmd>
+         </step>
+         <step>
+            <cmd>Right-click on the changed clause in the Document pane (highlighted in red) and
+               select <uicontrol>Reject Changes</uicontrol>. </cmd>
+         </step>
+      </steps>
+      <result id="result_c2h_sv4_12c">
+         <p>The clause is reverted to its previous value prior to the change. The Document pane
+            reloads to show the change.</p>
+      </result></taskbody>
+</task>

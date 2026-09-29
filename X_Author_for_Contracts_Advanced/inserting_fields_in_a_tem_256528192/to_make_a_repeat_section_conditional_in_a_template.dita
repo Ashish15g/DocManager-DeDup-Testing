@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InsertingFieldsinaTemplateasaSectionv20240620_Tomakearepeatsectionconditionalinatemplate" xml:lang="en">
+   <title>To make a repeat section conditional in a template</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>The Fields tab displays the Repeat Section (object name) and the fields in the repeat section.</cmd>
+         </step>
+         <step>
+            <cmd>Click the Settings icon (<image placement="inline" width="20" href="../../global_images/images/256529252.png" class="- topic/image "/>) next to the selected repeat section to open the Repeat Section Settings page.</cmd>
+         </step>
+         <step>
+            <cmd>Click<uicontrol/>Add Condition. This opens the Make Conditional dialog box that has the expression builder.</cmd>
+         </step>
+         <step>
+            <cmd>In the Make Conditional dialog box, you can create a conditional expression and also create a complex expression using logical operators between multiple rows of conditions. To create an expression you must enter values for the following three fields: </cmd>
+            <info>
+               <table platform="conga">
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Field</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Field</p>
+                           </entry>
+                           <entry>
+                              <p>Select the field which you want to set as the criteria for the condition. You must select a field name. The fields are listed and grouped according to their hierarchy.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Operator</p>
+                           </entry>
+                           <entry>
+                              <p>Select the logical operator from the drop-down list. This forms the relationship between the Field and its Value.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Value</p>
+                           </entry>
+                           <entry>
+                              <p>Enter the value of the field name selected in the Field<uicontrol>.</uicontrol>
+                              </p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add row</uicontrol> to create more conditions. You can add up to 9 rows of condition expressions.</cmd>
+         </step>
+         <step>
+            <cmd>Enter <uicontrol>Custom Logic</uicontrol> to add a logical relation between multiple rows of condition expressions. The supported filter logic operators are AND and OR. You can use parentheses for setting the precedence. For example, if you have 5 rows you can create a filter logic, like (((1 AND 3) OR (2 AND 4)) AND 5).  In the absence of a filter logic, the default relationship between the rows is the Boolean operator AND.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Test</uicontrol> to check whether your filter logic expression is correct. If your logic is incorrect, you will see a message in red.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save </uicontrol>to save your table filters and return to your document. After the condition is successfully saved, a Lightning icon<uicontrol/>(<image placement="inline" width="18" href="../attachments/256528192/256528183.png" class="- topic/image "/>) is displayed next to the particular repeat section. Click the<uicontrol/>Lightning icon<uicontrol/>(<image placement="inline" width="18" href="../attachments/256528192/256528183.png" class="- topic/image "/>) to expand and view the conditions added to the particular repeat section. Click the lightning icon (<image placement="inline" width="18" href="../attachments/256528192/256528183.png" class="- topic/image "/>) again to collapse.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

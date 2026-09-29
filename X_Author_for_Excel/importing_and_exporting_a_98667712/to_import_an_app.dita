@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ImportingandExportinganApplicationToimportanapp" xml:lang="en">
+   <title>To import an app</title>
+   <shortdesc>To import a previously exported X-Author for Excel .app file follow the steps below:</shortdesc>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <uicontrol>Import</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="128"
+                         placement="break"
+                         width="374"
+                         href="../attachments/98667712/98667852.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>To browse for the Application to import, click <uicontrol>Browse App</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>From the X-Author Application Import dialog, select the file with an <i>.app</i> extension and click <uicontrol>Open</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Under <uicontrol>App Details</uicontrol>, in <uicontrol>Import App Name</uicontrol>, change the name of the App, if required, and click <uicontrol>Import</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="400"
+                         href="../attachments/98667712/98667856.png"/>
+               </fig>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <p>The App is imported into your current instance.</p>
+         <note type="note">
+            <p>
+               <uicontrol>Best Practice</uicontrol>
+            </p>
+            <p>To avoid errors using the app in the new org, make sure to click <uicontrol>Sync App</uicontrol> after the import is complete. This will identify any existing mismatches in objects and fields defined in the app. If you do encounter errors upon validation, check the objects and fields affected. Make changes to your app or in your org as needed, and perform the import process again.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

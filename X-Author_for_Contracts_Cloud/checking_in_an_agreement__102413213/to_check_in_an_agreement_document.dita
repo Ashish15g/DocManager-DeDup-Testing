@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CheckinginanAgreementDocumentTocheckinanagreementdocument" xml:lang="en">
+   <title>To check in an agreement document</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author Contracts pane, click <uicontrol>Finish</uicontrol> tab. The Check-in page is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>From<uicontrol> Save Options</uicontrol>, choose one of three options for saving the document:</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Option at Check-in</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>With Redlines</p>
+                              </entry>
+                              <entry>
+                                 <p>This saves a draft version of the agreement document with all markups and Redlines is used as the action in your org's configured default document naming convention. A DOCX version of the document is saved in <b>Notes &amp; Attachments</b>. If Contract Document versioning is enabled, selecting this option creates a new version under the <b>Document Versions</b> related list in your Agreement record.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Without Redlines</p>
+                              </entry>
+                              <entry>
+                                 <p>This saves a draft version of the document without markups and is typically done before sending an agreement to a third party for review. Track changes/redlines are automatically removed from the Word file and _Clean is used as the action in the configured default document naming convention. A DOCX version of the document is saved in <b>Notes &amp; Attachments</b>. If Contract Document Versioning is enabled, selecting this option creates a new version under the <b>Document Versions</b> related list in your Agreement record.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Final - to be signed</p>
+                              </entry>
+                              <entry>
+                                 <p>This saves a version of the document without markups and also enables a PDF version of the document to be created. If this option is selected, a PDF file will be saved to the agreement's <b>Notes &amp; Attachments</b> related list. By default, _Final is used as the action in the configured default document naming convention. If Contract Document Versioning is enabled, selecting this option creates a new version (DOCX) under the <b>Document Versions</b> related list in your Agreement record.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+               <note type="note">
+                  <p>When you select "Final - to be signed" as the check-in option, <uicontrol>Create PDF attachment</uicontrol> is automatically checked if you have the Comply System Property <uicontrol>Auto Enable PDF for Final Docs</uicontrol> enabled. For more information on Comply System Properties, refer to the <i>Contract Management Administrator Guide </i>on the Apttus Doc Portal.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Agreement Name</uicontrol> field, enter the required name for the document or leave it as the name suggested by X-Author. The default name includes the agreement name, revision number, and version type. X-Author automatically saves the agreement in DOCX format.</cmd>
+         </step>
+         <step>
+            <cmd>Select the required watermark option.</cmd>
+            <info>
+               <ul>
+                  <li>Select <uicontrol>Include Watermark</uicontrol>
+                     <uicontrol>,</uicontrol> to add one to a non-final version. This option is available with the <uicontrol>With Redlines</uicontrol> and <uicontrol>Without Redlines</uicontrol> options.</li>
+                  <li>
+                     <uicontrol>Include Watermark </uicontrol>is automatically deselected (greyed out) if you are saving the document as <uicontrol>Final - to be signed</uicontrol>.<note type="note">
+                        <p>If the document already contains a watermark, the watermark will be removed instead when this option is chosen.</p>
+                     </note>
+                  </li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Reconcile Document</uicontrol> to synchronize the Salesforce Agreement object fields with those that were updated in the document. See<xref href="../reconciliation_102413214_102413214/102413214.dita" format="dita">Reconciliation</xref> for more details.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Mark as private</uicontrol> to enable the <i>Private</i> indicator for this agreement (only for use in custom implementations– see the Apttus Contract Management Administrator Guide for more information).</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Finish</uicontrol> to confirm check-in of the document. If you have selected the Reconcile option, you will see <uicontrol>Save and Next</uicontrol> button which takes you to the reconciliation page.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The document is checked in to Salesforce and the new document version is downloaded from the agreement record. Close the document you just checked in (no need to save) and load the newly downloaded document to continue working with the agreement, if necessary.</p>
+         <note type="note">
+            <p>If there are any invalid fields in your agreement, a message is displayed and the check-in is not completed. Return to <xref href="../doc-fields_102413212_102413212/102413212.dita" format="dita">Doc Fields</xref> to validate fields and make corrected as needed.</p>
+         </note>
+         <p>For information on enabling Contract Document Versioning and how it works, refer to the <i>Contract Management Administrator Guide</i> for the Salesforce platform.</p>
+      </postreq>
+   </taskbody>
+</task>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d310aA" xml:lang="en">
+   <title>Using the X-Author Designer Ribbon</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 28, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>All of the controls you need to use X-Author Designer are located in the X-Author Designer ribbon menu in Microsoft Excel.</p>
+      <p>
+         <fig>
+            <image placement="break"
+                   width="1000"
+                   href="../attachments/98667664/190354362.png"/>
+         </fig>
+      </p>
+      <p>Before you start designing apps, you should familiarize yourself with the X-Author for Excel components that are accessed through the X-Author Designer ribbon menu. Click the link in the first column to learn more about the component. </p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Component</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../designing-apps_98667668_98667668/98667668.dita" format="dita">Apps</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to create a new app, change the app type, or open an existing app. (Click the Quick App button to instead create a simple single-object app or a parent-child-type app.)</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../using_the_data_migration__98667704/98667704.dita"
+                                 format="dita">Data Migration</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to create a new app using the Data Migration Wizard, or edit an existing Data Migration app.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../adding_objects_to_your_ap_98667696/98667696.dita"
+                                 format="dita">Objects</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to specify the objects and fields you will use in the app. (This section only covers single object and parent-child objects.)</p>
+                        <p>For Salesforce, the button is <fig>
+                              <image height="72"
+                                     placement="break"
+                                     width="60"
+                                     href="../attachments/98667664/98668150.png"/>
+                           </fig>.</p>
+                        <p>For Microsoft Dynamics and Omni, the button is <fig>
+                              <image height="79"
+                                     placement="break"
+                                     width="50"
+                                     href="../attachments/98667664/98668149.png"/>
+                           </fig>.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../working_with_display_maps_98667693/98667693.dita"
+                                 format="dita">Display Map</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to define the associations between Excel spreadsheet cells and fields for the environment data to be retrieved. When data is retrieved, using one of the X-Author data invoking actions, it is temporarily stored in Excel memory before being placed into the worksheet. X-Author then uses a Display Map to place the data in the correct Excel cells.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../mapping_records_into_colu_98667718/98667718.dita"
+                                 format="dita">Matrix Map</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to define a matrix map. Matrix maps extend the capabilities of X-Author for Excel well beyond list formats. In lists, one record is represented per Excel row or column. Using matrices, a record can be represented by one or more cells by mapping columns and rows (the X and Y axes) of a matrix as well as the data contained in the cell at the intersection of the mapped column and row. Depending on the type of matrix, various data cells can be updated by a user. If no value exists in a cell, adding a value can create a new record depending on the matrix design.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../working_with_save_maps_98_98667692/98667692.dita"
+                                 format="dita">Save Map</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to define relationships between fields and Excel cells for data that will be saved to your environment.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../customizing_the_app_exper_98667675/98667675.dita"
+                                 format="dita">Actions</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to assign actions to your app. Actions can be used to retrieve, display, and save data. They can also automate tasks in Excel worksheets and call environment methods.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../executing_actions_9866767_98667674/98667674.dita"
+                                 format="dita">Action Flow</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to define a sequence of one or more actions that will be executed when end users click buttons on the app's ribbon menu.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../creating_user_menus_98667_98667673/98667673.dita"
+                                 format="dita">User Menus</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to create the ribbon menus that your end users will see in the X-Author for Excel ribbon in Excel.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../saving_or_cloning_an_appl_98667672/98667672.dita"
+                                 format="dita">Save App</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to save or clone your application.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../application_settings_9866_98667714/98667714.dita"
+                                 format="dita">App Settings</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to restrict runtime functions (such as saving, printing, rich-text editing) and password-protect worksheets.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Sync App</p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to identify mismatches and missing objects or fields after any import or data migration is complete.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../migrating_data_between_or_98667703/98667703.dita"
+                                 format="dita">Source Data</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to easily migrate data from one instance to another using X-Author for Excel.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../creating_external_actions_98667727/98667727.dita"
+                                 format="dita">External Library</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>As an application designer, you can choose to create additional custom actions apart from the ones provided in the X-Author for Excel executable packages. For example, you can create a custom action to populate missing External IDs for the Custom Objects in your instance.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../importing_and_exporting_a_98667712/98667712.dita"
+                                 format="dita">Import</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to import a previously exported app from a different instance.</p>
+                        <p>
+                           <b>Note:</b> All objects used in the source instance must also exist in the destination instance.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../importing_and_exporting_a_98667712/98667712.dita"
+                                 format="dita">Export</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to export an app from one instance for the purpose of importing it to another.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../previewing-apps_98667700_98667700/98667700.dita" format="dita">Preview</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to preview your app in Runtime mode.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../connecting_to_your_enviro_98667665/98667665.dita"
+                                 format="dita">Connect</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to connect to your instance.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../connecting_to_your_enviro_98667665/98667665.dita"
+                                 format="dita">Switch Connection</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Click this button to switch your connection to another instance, add additional connections, or revoke a previously configured connection.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Support</p>
+                     </entry>
+                     <entry>
+                        <p>Click this button for <xref href="/pages/createpage.action?spaceKey=XAEWIN18&amp;title=Enabling+Proxy+Authentication&amp;linkCreation=true&amp;fromPageId=98667664"
+                                 scope="external"
+                                 format="html">
+                              <u>general settings</u>
+                           </xref> or <xref href="/pages/createpage.action?spaceKey=XAEWIN18&amp;title=Changing+the+Source+Environment&amp;linkCreation=true&amp;fromPageId=98667664"
+                                 scope="external"
+                                 format="html">
+                              <u>changing the source environment</u>
+                           </xref>. General settings include changing the language and proxy settings.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

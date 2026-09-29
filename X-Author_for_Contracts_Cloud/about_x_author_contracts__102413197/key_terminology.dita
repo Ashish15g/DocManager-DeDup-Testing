@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="AboutXAuthorContractsforCloudKeyTerminology" xml:lang="en">
+   <title>Key Terminology</title>
+   <conbody>
+      <p>It is important to understand how terms are used when working with Apttus X-Author Contracts for Cloud.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Term</p>
+                     </entry>
+                     <entry>
+                        <p>Definition</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Agreements / Contracts</p>
+                     </entry>
+                     <entry>
+                        <p>A contract (or an agreement) is an arrangement with specific terms, enacted between two or more entities, in which there is a promise to perform something in return for valuable consideration or benefit.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Clauses</p>
+                     </entry>
+                     <entry>
+                        <p>Modular blocks of text that are used repeatedly. By adding these blocks to a library called a playbook, they can be reused continuously in multiple documents.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Document Lock/ Unlock</p>
+                     </entry>
+                     <entry>
+                        <p>Locking a document prevents others from editing the document and checking in a new version at the same time you are working on it. Lock or Unlock (toggle) button is available on the X-Author Contracts for Cloud or X-Author Templates ribbon.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Documents</p>
+                     </entry>
+                     <entry>
+                        <p>The dynamically generated output from the merging of an agreement record’s data in the CRM with the static text of a template.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Merge Fields</p>
+                     </entry>
+                     <entry>
+                        <p>Static fields in a template which, at the time of agreement generation, take their value from the corresponding field in the Agreement record.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Offline Agreement Document</p>
+                     </entry>
+                     <entry>
+                        <p>A document created directly in X-Author by taking an existing Word document that was created outside of Contract Management and had not previously been associated with an agreement.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Playbook</p>
+                     </entry>
+                     <entry>
+                        <p>A repository of templates, clauses, sections, or supporting documents, which can be inserted in the template as inline text or smart content-controlled text.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Reconciliation</p>
+                     </entry>
+                     <entry>
+                        <p>Reconciliation is a process that enables changes made to smart fields in an agreement document, outside of the CRM/ X-Author environment, to be reconciled with the data held in the Agreement record in the Contract Management.</p>
+                        <p>Values of smart fields and clauses can be reconciled when you check-in the agreement document in X-Author Contracts for Cloud.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Smart Fields</p>
+                     </entry>
+                     <entry>
+                        <p>Editable fields with the content control property. You can change the value of a smart field in a generated agreement document. These values can be reconciled with the corresponding fields on the agreement record in the CRM.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Template</p>
+                     </entry>
+                     <entry>
+                        <p>Blueprints to generate a variety of document types when merged with data from quotes or proposals.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Read-only Fields</p>
+                     </entry>
+                     <entry>
+                        <p>Read-only fields have content control borders (similar to smart fields) but are non-editable in a generated agreement document. You can update the value of an Update field in an agreement document only by using Update from CLM.</p>
+                        <p>Functionally, these fields lie between smart fields and merge fields. Read-only fields are not inline like merge fields and their values cannot be edited like smart fields.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>X-Author Contracts for Cloud</p>
+                     </entry>
+                     <entry>
+                        <p>A Microsoft Word add-in that enables the legal team of an organization to execute an entire contract lifecycle inside Microsoft Word.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

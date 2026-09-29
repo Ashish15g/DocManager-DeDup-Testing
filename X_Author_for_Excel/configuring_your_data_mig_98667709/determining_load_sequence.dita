@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ConfiguringyourDataMigrationAppDeterminingLoadSequence"
+         xml:lang="en">
+   <title>Determining Load Sequence</title>
+   <conbody>
+      <p>By default, Objects retrieved from the source org will load in the sequence listed on the Data Migration screen. If you want to change the load sequence behavior, you need to specify a new load sequence for Objects in the list.</p>
+      <p>To accomplish this, edit the <b>Load Sequence</b> column for your objects. Use caution when making changes, as load sequence is important when migrating data. Users will encounter errors, for example, if a Child Object load sequence is specified prior to its Parent Object. Also, you cannot finalize the app if there is a number missing in the load sequence or two or more Objects share the same Load Sequence.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ConfiguringyourDataMigrationAppFilteringSearchandSelectandQueryActions"
+         xml:lang="en">
+   <title>Filtering Search and Select and Query Actions</title>
+   <conbody>
+      <p>To refine the data selected for migration when the user goes through the Data Migration app Action Flow, you can specify one or more filters for each Object being migrated. The process for defining filters is the same for each action type.</p>
+      <p>To define Filters for an action:</p>
+      <ol>
+         <li>Click on the <image placement="inline" href="../attachments/98667709/98667969.png"/>
+            <b>Filter</b> icon next to the corresponding action.</li>
+         <li>Define one or more filters to apply to data retrieved for the selected Object and its Fields:<ol>
+               <li>Use the Expression builder to specify a <b>Value Type</b>, <b>Operator</b>, and <b>Value</b> for your filter.</li>
+               <li>Click <b>Add Row</b> to create an additional filter.</li>
+               <li>
+                  <p>Click <b>Add Filter Logic</b> to specify additional logic for the filters you create.</p>
+                  <note type="note">
+                     <p>Important</p>
+                     <p>In Microsoft Dynamics, define filter logic within brackets. Example: (1 OR 2), ((1 AND 2) OR 3), ((1 OR 2) AND 3)</p>
+                  </note>
+               </li>
+            </ol>
+            <fig>
+               <image height="250"
+                      placement="break"
+                      width="521"
+                      href="../attachments/98667709/190354558.png"/>
+            </fig>
+         </li>
+         <li>Click <b>Save</b> when you are finished defining Object and Field filters.</li>
+      </ol>
+      <note type="warning">
+         <p>When building filters, you can only create expressions for Objects and/or Fields already added to the app.</p>
+      </note>
+      <p>For complete instructions on building S&amp;S and Query filters, refer to <xref href="../query-action_98667690_98667690/98667690.dita" format="dita">Query Action</xref>.</p>
+   </conbody>
+</concept>

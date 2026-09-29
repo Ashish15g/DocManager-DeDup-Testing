@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan793" xml:lang="en">
+   <title>Checking Out an Agreement</title>
+   <prolog>
+      <author>Chris Castro</author>
+      <critdates>
+         <created date="Jun 05, 2017"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Mac May 2017 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>To begin working with an agreement document in X-Author, you must <i>check it out first</i>.</p>
+      <p>There are three common ways for you to check out a document, depending on how you are accessing the document itself. Open your DOCX document using one of the following methods:</p>
+      <ul>
+         <li>Checking out the document directly from Microsoft Word.</li>
+         <li>Download the document directly from the Salesforce agreement record (<b>Notes and Attachments</b> related list, or <b>Document Versions</b> related list if contract document versioning is enabled).</li>
+         <li>Download the document from an email attachment (e.g., Outlook).</li>
+      </ul>
+      <p> In the first case, you open and check out the document in Word at the same time. In the last two cases, you are downloading the document onto your computer, then opening it in Word and checking it out.</p>
+      <p>In all cases, X-Author marks the document as checked out in Salesforce and locks the document. You are the only individual who can work on the document after it is checked out.</p>
+      <note type="note">
+         <p>If you are working with third party paper and need to check it in to Salesforce for redlining, refer to <xref href="../importing_offline_agreeme_45220098/45220098.dita" format="dita">Importing Offline Agreements</xref>.</p>
+      </note>
+   </conbody>
+</concept>

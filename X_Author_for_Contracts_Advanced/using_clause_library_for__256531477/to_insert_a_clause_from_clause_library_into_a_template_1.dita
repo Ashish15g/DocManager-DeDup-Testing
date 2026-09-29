@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_UsingClauseLibraryforTemplatev20240711_ToinsertaclausefromClauseLibraryintoatemplate1" xml:lang="en">
+   <title>To insert a clause from Clause Library into a template</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts<uicontrol> </uicontrol>pane, click the Home button (<image placement="inline" width="16" href="../../global_images/images/256531474.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to <uicontrol>Work &gt; Clause Library</uicontrol>. The list of all the available clauses is displayed. To view the complete clause name, either hover the mouse over the clause name or expand the X-Author window.</cmd>
+         </step>
+         <step>
+            <cmd>You can use the Search by Clause Name box to search a clause by keyword. Click the Filter button (<image placement="inline" width="16" href="../attachments/256531477/256531471.png" class="- topic/image "/>) to view the drop-down menus that can help you to refine your search according to Type, Category, Subcategory, Locale, and Language.</cmd>
+            <info>
+               <note type="note">
+                  <p>You can configure custom locales in Conga CLM. For more information, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/adding-custom-locale-143884777.html" format="html" scope="external">Adding Custom Locale</xref> in <i>CLM for Administrators.</i>
+                  </p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>To search using the advanced filters option, click the <uicontrol>Advance Search Filters</uicontrol> button (<image placement="inline" width="17" href="../attachments/256531477/256531475.png" class="- topic/image "/>) next to the Filter button. The Advance Search Filters dialog box opens.</cmd>
+         </step>
+         <step>
+            <cmd>Select the specific field, an operator to apply to the field, and a value to search for.</cmd>
+         </step>
+         <step>
+            <cmd>Click<uicontrol> Add Row</uicontrol> to add search fields. Click the Delete button to remove any field that you have already entered.</cmd>
+         </step>
+         <step>
+            <cmd>After entering all the filed search criteria, click <uicontrol>Apply Filters</uicontrol> to search. The clauses that match your search criteria are displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Place the cursor in the section of the template where you will insert a clause.</cmd>
+         </step>
+         <step>
+            <cmd>Click a clause from the list to view the clause text and active version. To insert the clause into your template as inline text, click the Expand button (<image placement="inline" width="20" href="../attachments/256531477/256531470.png" class="- topic/image "/>) next to the clause name and click <uicontrol>Insert this Clause. </uicontrol>
+            </cmd>
+            <info>
+               <p>When the clause is inserted, a success message is displayed. The clause content is marked by a content control boundary in your template.</p>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>
+               <uicontrol>Note</uicontrol>
+            </p>
+            <ul>
+               <li>When you insert a clause using the <uicontrol>Insert this Clause</uicontrol> option, the clause takes the format of the document. For example, if you insert a plain text clause inside a bulleted list, the clause takes the bulleted list format.</li>
+               <li>You cannot search and insert an alternate clause from the Clause Library.</li>
+               <li>After you insert a clause into a template, you cannot edit text, insert or mark a field, or mark segments within the clause.</li>
+            </ul>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

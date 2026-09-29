@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_AdminSettingsforXAuthorforContractsontheCongaPlatformv20240620_APIDetails" xml:lang="en">
+   <title>API Details:</title>
+   <conbody>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Method</p>
+                     </entry>
+                     <entry>
+                        <p>URL</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>PUT</p>
+                     </entry>
+                     <entry>
+                        <p>https://&lt;RLP Base URL&gt;/api/user-management/v1/objectpermissions/{objectPermissionId}</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>Pass the following parameters to allow access to the required feature. Please note that the following action permissions have to be passed on the <b>Contract Object.</b>
+      </p>
+   </conbody>
+</concept>

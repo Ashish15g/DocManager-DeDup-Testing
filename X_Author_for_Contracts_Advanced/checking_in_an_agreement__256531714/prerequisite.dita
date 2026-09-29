@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_CheckinginanAgreementDocumentv20240711_Prerequisite" xml:lang="en">
+   <title>Prerequisite</title>
+   <conbody>
+      <p>The custom permission setting must be available for your profile. For more information on how to configure custom permissions, see 
+<xref href="../admin_settings_for_x_auth_256527807/256527807.dita" format="dita">Admin Settings for X-Author for Contracts Advanced</xref>. </p>
+      <p platform="conga">
+         <table platform="conga">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Custom permission in Conga CLM</p>
+                     </entry>
+                     <entry>
+                        <p>Save options available in X-Author for Contracts Advanced</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>XA_CheckinAsFinal</p>
+                     </entry>
+                     <entry>
+                        <p>Final - to be signed, Without Redlines, and With Redlines</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>XA_CheckInWithoutRedlines</p>
+                     </entry>
+                     <entry>
+                        <p>Without Redlines and With Redlines</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>XA_CheckInWithRedlines</p>
+                     </entry>
+                     <entry>
+                        <p>With Redlines</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p platform="conga">If all the custom permissions are disabled, you can view all the save options.</p>
+   </conbody>
+</concept>

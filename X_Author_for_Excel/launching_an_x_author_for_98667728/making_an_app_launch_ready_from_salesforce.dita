@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="LaunchinganXAuthorforExcelAppfromSalesforceMakinganAppLaunchReadyfromSalesforce"
+         xml:lang="en">
+   <title>Making an App Launch-Ready from Salesforce</title>
+   <conbody>
+      <p>An app needs an Action Flow to be specified to automatically run when the app is launched. There are two ways to specify an Action Flow:</p>
+      <ul>
+         <li>
+            <b>Named Action Flow </b>(from Option 1, above). Enter the name of the Action Flow from the App that you want to execute on launch by defining the <b>actionflowName</b> parameter. This is recommended when the same app is required to be launched from different object records.</li>
+         <li>
+            <b>Auto-Execute</b> configuration from the App (Option 1 or 2, above). From the X-Author for Excel Designer ribbon in the app, click <b>Action Flow</b>. Click the check box for the correct action flow under "Auto-Execute (Launch from Salesforce") and save the app. Only one Action Flow can be selected.<fig>
+               <image height="250"
+                      placement="break"
+                      width="408"
+                      href="../attachments/98667728/190354576.png"/>
+            </fig>
+         </li>
+      </ul>
+   </conbody>
+</concept>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CreatingUserMenus_Toaddconfigurablemenubuttons" xml:lang="en">
+   <title>To add configurable menu buttons</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click the <uicontrol>User Menus</uicontrol> button.</cmd>
+         </step>
+         <step>
+            <cmd>From the <uicontrol>Add Groups and Buttons</uicontrol> section, click <uicontrol>Add Group</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the <i>Default_Group</i> entry in the left pane and from the <uicontrol>Properties</uicontrol> section, under <uicontrol>General</uicontrol>, change the <uicontrol>Name</uicontrol> to the name of the group.</cmd>
+         </step>
+         <step>
+            <cmd>To add a button for the group, select the group from the left pane and click <uicontrol>Add Button</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Under the Properties section, do the following:</cmd>
+            <info>
+               <ul>
+                  <li>In <uicontrol>Icon</uicontrol>, type the name of the Microsoft icon. See the <xref href="to_view_the_microsoft_office_icon_list.dita#CreatingUserMenus_ToviewtheMicrosoftOfficeIconlist">Microsoft Icons</xref>.</li>
+                  <li>In Name, change the default name to the name of the command.</li>
+                  <li>In Order, type the order that represents the left to the right position where this menu command should appear in the group.</li>
+                  <li>In Tooltip, type text for a Tooltip.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Select an <uicontrol>Action Flow</uicontrol> to be executed when the end user clicks this menu button.</cmd>
+         </step>
+         <step>
+            <cmd>To activate optional standard menu buttons:</cmd>
+            <info>
+               <ul>
+                  <li>To enable the user to add records for any <i>List Range</i> in the App, select Display Add Row. You will still need a Save Map for this to have any effect.</li>
+                  <li>
+                     <p>To enable the user to delete List Range records, select <uicontrol>Display Delete Row</uicontrol>. You will still need a Save Map for this to have any effect.</p>
+                     <note type="note">
+                        <p>Rows are automatically deleted without any further Save or other action by the user.</p>
+                     </note>
+                  </li>
+               </ul>
+               <ul>
+                  <li>To enable the user to use the X-Author Chatter functionality within this App, select <uicontrol>Display Chatter</uicontrol>.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

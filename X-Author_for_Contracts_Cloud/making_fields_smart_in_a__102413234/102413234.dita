@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan872" xml:lang="en">
+   <title>Making Fields Smart in a Template</title>
+   <prolog>
+      <author>Maanasa Suthrave</author>
+      <critdates>
+         <created date="Jul 26, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Contracts for Cloud on Salesforce Summer 2019 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>Smart fields are specialized fields that can retain the Apttus field definition even after the Merge Service generates the Agreement document. This feature helps for reconciling the document which is explained in detail in the <xref href="../reconciliation_102413214_102413214/102413214.dita" format="dita">Reconciliation</xref> section. Smart fields are intended for parts of an agreement that would normally be negotiated. Smart fields are usually represented by small chunks of text, such as dates, categories, and numeric values. Smart fields are not intended to hold large amounts of text–if necessary, use smart clauses instead.</p>
+      <note type="note">
+         <p>Smart fields have the following limitations:</p>
+         <ul>
+            <li>Text Area data type fields and formula field for LongDate are not supported.</li>
+            <li>You cannot mark Lookup fields as smart.</li>
+            <li>Smart fields cannot be used in the headers or footers of agreement documents.</li>
+         </ul>
+      </note>
+   </conbody>
+</concept>

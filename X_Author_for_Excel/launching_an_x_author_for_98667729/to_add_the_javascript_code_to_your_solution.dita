@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="LaunchinganXAuthorforExcelAppfromMicrosoftDynamicsToaddtheJavaScriptcodetoyoursolution"
+      xml:lang="en">
+   <title>To add the JavaScript code to your solution</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the Solution you created, select the <uicontrol>Web Resources </uicontrol>component<uicontrol/>and click <uicontrol>New</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="372"
+                         href="../attachments/98667729/98668026.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Give your Web Resource a name, e.g., "EditinExcelScript." Enter the same value in the <uicontrol>Display Name</uicontrol> field.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Script (JScript) </uicontrol>from the Type picklist and click the <uicontrol>Text Editor </uicontrol>button.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="296"
+                         href="../attachments/98667729/98668027.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Copy the following code into the Web Resource content Source dialog.</cmd>
+            <info>
+               <pre xml:space="preserve">function OpenInExcel(){
+    try
+    {
+        // Get Record ID of current record user is viewing
+        var parentId = Xrm.Page.data.entity.getId();
+        // Remove curly braces from start and end
+        parentId = parentId.substring(1, parentId.length - 1);
+        // Get Host URL
+        var hostUrl = Xrm.Page.context.getClientUrl();
+        // XAE App unique Id, open App record from Advanced Search and copy Unique Id (Unique Id is Attribute on App Entity) field value here
+        // Do not use RecordId here
+        var appId = "17776ae9-dec3-4781-9111-5c0f0c472ebb"
+        var sessionId = "";
+        var urlVal = ('xauthorforexcel:export '+ appId + ' ' + parentId + ' ' + sessionId + ' ' + hostUrl );
+        window.top.location.href =urlVal;
+    }
+    catch(err)
+    {
+        alert(err.message);
+    }
+}</pre>
+            </info>
+         </step>
+         <step>
+            <cmd>Replace the App Unique Id in the code with the Unique Id you saved in the previous task.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="507"
+                         href="../attachments/98667729/98668028.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>OK </uicontrol>to exit the text editor, then click <uicontrol>Save</uicontrol> to save the Web Resource.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

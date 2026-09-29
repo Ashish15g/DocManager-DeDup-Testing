@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="WorkingwithDisplayMaps_DisplayMapsandObjectBehavior" xml:lang="en">
+   <title>Display Maps and Object Behavior</title>
+   <conbody>
+      <p>When you added objects to your app, you defined them as Individual (one record) or List (one or more records). When you map fields in a Display Map, you also choose whether the field type will be Individual or List. The behavior selected for an object determines how its fields are used in a Display Map.</p>
+      <p>
+         <b>Individual</b> object fields can be placed anywhere in the worksheet except in the same row that contains fields from a List object.</p>
+      <p>List object fields must all be placed in the same row. This forms a <b>List Range</b>. List object fields do not need to be placed adjacent to each other, but there must be a start and end cell that represents the list range. For example, you could have mapped fields in A5, C5, and F5 with formulas in B5, D5, and E5. </p>
+      <p>You can find more information on <b>Individual</b> object fields and <b>List </b>object fields in the following sections.</p>
+   </conbody>
+</concept>

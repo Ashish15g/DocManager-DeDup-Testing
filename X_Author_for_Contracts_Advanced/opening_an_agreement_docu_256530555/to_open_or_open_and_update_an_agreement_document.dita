@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_OpeninganAgreementDocumentv20240711_Toopenoropenandupdateanagreementdocument" xml:lang="en">
+   <title>To open or open and update an agreement document</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane,<uicontrol/>go to<uicontrol/>Start tab &gt; Search &gt; Search Agreements. Under Sort By, you can select Last Modified or Version to sort the list of results. To view the complete agreement name, either hover the mouse over the agreement name or expand the X-Author pane.</cmd>
+            <info>
+               <note type="note">
+                  <p>If you already have an instance of a document open, you will receive a warning message that the document is already open in a previous instance. If you close the previous instance of the document, then you can proceed to open the document in a new instance.</p>
+                  <p>At most 50 agreements are displayed in one instance in the Contracts pane. When you search agreements using filters, 20 agreements are displayed in one instance based on the search results and if you scroll further, 20 more agreements are displayed.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter the agreement name or number as the search keyword and click the Search icon (<image placement="inline" width="20" href="../attachments/256530555/256530552.png" class="- topic/image "/>).</cmd>
+         </step>
+         <step>
+            <cmd>From the search results, click the Expand icon (<image height="11" placement="inline" href="../attachments/256530555/256530550.png" class="- topic/image "/>) of the agreement you want to download. In the expanded description, click <uicontrol>Documents</uicontrol>. This opens the Agreement Details page that lists all the versions of the document. To view the complete document name, expand the X-Author pane.</cmd>
+            <info>
+               <note type="note">
+                  <ul>
+                     <li>If there are no documents available in the agreement, then the <uicontrol>Documents </uicontrol>button is disabled. If you hover over the Documents button, there will be a message displayed indicating " No documents are available for this agreement".</li>
+                     <li>You can filter documents to sort by Last Modified or Version.</li>
+                  </ul>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>To open an agreement document version, click the More button (<image placement="inline" width="16" href="../attachments/256530555/256530553.png" class="- topic/image "/>) adjacent to the version and click <uicontrol>Open</uicontrol>. The document is opened in a new Microsoft Word instance. The document is automatically opened and locked by you (You'll see a message saying 'Document is locked by you'). This means that your agreement is opened.</cmd>
+         </step>
+         <step>
+            <cmd>To open and update an agreement document version, click More button adjacent to the version and click <uicontrol>Open and Update</uicontrol>. The selected document is opened in a new Microsoft Word instance.</cmd>
+         </step>
+         <step>
+            <cmd>You'll get a message saying "Document is locked by you" and the X-Author Contracts Advanced pane directly opens the Update from CLM page. This page lists all Smart and ReadOnly fields with current values in Conga CLM. For more information, see 
+<xref href="../updating_fields_from_cong_256528783/256528783.dita" format="dita">Updating Fields from Conga CLM</xref>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>The admin can hide the <uicontrol>Open and Update</uicontrol> option for individual user profiles by disabling the custom permission setting for specific user profiles. For more information, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/custom-permissions-253691491.html" format="html" scope="external">Custom Permissions</xref> in <i>CLM for Administrators</i>.</p>
+         </note>
+         <note type="note">
+            <p platform="salesforce">When you use X-Author for Contracts Advanced to open agreement documents that contain swapped alternate clauses published with Online Contract Collaboration (OCC), the following conditions apply: </p>
+            <ul>
+               <li>When you open an older version of the agreement document in Pending Approval status, a message is displayed saying that you can make changes only to the latest version of the agreement document. The document opens in read-only mode, and the Work and Finish tabs are disabled.</li>
+               <li>When you open the latest version of the agreement document in Pending Approval status, a message is displayed saying that the document contains clauses that are pending approval and editing will be restricted.<ul>
+                     <li>The swapped clause is displayed under the Doc Clauses tab, but cannot be edited. The remaining standard clauses available in the document are editable.</li>
+                     <li>While you check in for review, a message is displayed saying that review is restricted as the agreement contains clauses under Pending Approval.</li>
+                  </ul>
+               </li>
+            </ul>
+         </note>
+         <p platform="salesforce">
+            <uicontrol>Behavior and Limitations</uicontrol>
+         </p>
+         <ul platform="salesforce">
+            <li>X-Author for Contracts Advanced cannot open agreement documents containing Microsoft Word 3D shapes.</li>
+            <li>Downloading and opening a Conga CLM agreement document and converting it to X-Author for Contracts Advanced compatibility produces a converted document name that is not identical to the original document name.</li>
+            <li>X-Author for Contracts Advanced shows a warning message when you open an agreement document containing date fields generated from an X-Author for Contracts 1.0 agreement template. Click <uicontrol>Ok</uicontrol> to continue. Date fields in the agreement document do not have a date picker, but can be edited and will retain properties.</li>
+            <li>If you already have an instance of a document open, you will receive a warning message that the document is already open in a previous instance. If you close the previous instance of the document, then you can proceed to open the document in a new instance.</li>
+            <li>Special characters in the document name are retained when you open a document in X-Author for Contracts Advanced. For this feature to work, the auto save option must be mapped to a path on the local system and not a SharePoint location.</li>
+         </ul>
+      </postreq>
+   </taskbody>
+</task>

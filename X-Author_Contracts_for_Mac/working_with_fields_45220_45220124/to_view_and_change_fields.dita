@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="WorkingwithFields_viewchange" xml:lang="en">
+   <title>To view and change fields</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Hover over the <image placement="inline" width="20"
+                  href="../attachments/45220124/49086829.png" id="image_obk_csn_12c"
+                  /><uicontrol>Document</uicontrol> button and select <uicontrol>Fields</uicontrol>
+               to open the Document Panel.</cmd>
+            <info>
+               <fig>
+                  <image height="250" placement="break" width="278"
+                     href="../attachments/45220124/49086830.png"/>
+               </fig>
+               <p>All fields are displayed in a list in the order they appear in the document.
+                  Current (document), previous (as of last check-in), and current Salesforce values
+                  are displayed.</p>
+               <fig>
+                  <image height="250" placement="break" href="../attachments/45220124/49086833.png"
+                  />
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on a field in the list to snap to and highlight the field in the document.</cmd>
+         </step>
+         <step>
+            <cmd>To change the current value of a field, place your cursor in the field content control in the document and make changes.</cmd>
+            <info>
+               <fig>
+                  <image height="150" placement="break" href="../attachments/45220124/49086834.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Validate</uicontrol> to confirm that the new field value is valid
+               for its corresponding data type. </cmd>
+            <stepresult>
+               <p>The screen refreshes and displays the message "All fields are valid" if all fields
+                  in the document are currently valid. The "Current" value of the field you changed
+                  is updated in the list to reflect the change you made.</p>
+               <fig id="fig_zxt_d3q_12c">
+                  <image height="250" placement="break" width="528"
+                     href="../attachments/45220124/49086835.png" id="image_ayt_d3q_12c"/>
+               </fig>
+               <p>Changed field values are updated on in the agreement document upon check-in. If
+                  you choose to reconcile fields during check-in, they will also be changed on the
+                  agreement record.</p>
+            </stepresult>
+         </step>
+      </steps>
+   </taskbody>
+</task>

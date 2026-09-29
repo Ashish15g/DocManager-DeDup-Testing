@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="d13aAjan862" xml:lang="en">
+   <title>Inserting Fields in a Template as a Table</title>
+   <prolog>
+      <author>Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Contracts for Cloud on Salesforce Summer 2019 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <taskbody>
+      <context>
+         <p>You can insert fields as a table in your template and the inserted table is added as a repeat table. When template with repeat table is used to generate an agreement, the repeat table of a header row with inserted fields and their values in the preceding rows. </p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Open a template in X-Author Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>From the left navigation pane, select <uicontrol>X-Author Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Go to the<uicontrol> Work </uicontrol>tab.</cmd>
+         </step>
+         <step>
+            <cmd>Place the cursor in the section of the template text, where you want to insert a field and click <uicontrol>Insert New Fields</uicontrol>.</cmd>
+            <info>
+               <p>This displays the Insert Fields window.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>From the left column select a line item object, such as <uicontrol>Agreement Line Items</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the window to the right, hold <uicontrol>command </uicontrol>and select one or more fields from the list. Each field you select is displayed in a column in the table. </cmd>
+            <info>
+               <note type="note">
+                  <p>Fields are inserted as columns in the table based on the order you select. Do not move your cursor when the fields are being inserted.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the checkbox <uicontrol>Insert as a table.</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Submit</uicontrol>. A Repeat table is inserted into your template with each field displayed as a separate column.</cmd>
+         </step>
+         <step>
+            <cmd>To search inserted fields:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Navigate to the <uicontrol>Template Fields</uicontrol> tab. This displays the Repeat Table (object name) and the fields in the repeat table.</cmd>
+               </substep>
+               <substep>
+                  <cmd>Enter the field name in the search field and click the search icon (<image height="27" placement="inline" href="../attachments/102413235/102413414.png"/>).</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>To make an inserted field smart field or readonly:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Click the gear icon (<image height="16" placement="inline" width="16" href="../../global_images/images/256528177.png"/>) adjacent to the selected field name to open the <uicontrol>Properties</uicontrol> page.</cmd>
+               </substep>
+               <substep>
+                  <cmd>In the attributes list, turn on the <uicontrol>Smart Field</uicontrol> or <uicontrol>Readonly </uicontrol>switch based on your requirement and click <uicontrol>Ok</uicontrol>.</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>To show or hide captions for a generated table:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Click the gear icon (<image height="16" placement="inline" width="16" href="../../global_images/images/256528177.png"/>) adjacent to the Repeat Table.</cmd>
+               </substep>
+               <substep>
+                  <cmd>In the Table Attributes section, turn on the <uicontrol>Show Caption</uicontrol> switch.</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>To select table formatting when no data is present:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Under the Table Display Attributes, click <uicontrol>Format</uicontrol>. This displays a drop-down menu. Select one of the following options based on your requirement.</cmd>
+                  <info>
+                     <ol>
+                        <li>To show table captions and one empty row, select <uicontrol>Show captions and one empty row</uicontrol>.</li>
+                        <li>To show captions only and no rows, select <uicontrol>Show captions only</uicontrol>.</li>
+                        <li>To remove the entire table from the generated document, select <uicontrol>Remove whole table</uicontrol>.</li>
+                     </ol>
+                  </info>
+               </substep>
+               <substep>
+                  <cmd>Click <uicontrol>Ok</uicontrol>.</cmd>
+               </substep>
+            </substeps>
+         </step>
+      </steps>
+      <result>
+         <note type="note">
+            <p>Fields inserted in a table cannot be made conditional.</p>
+         </note>
+      </result>
+   </taskbody>
+</task>

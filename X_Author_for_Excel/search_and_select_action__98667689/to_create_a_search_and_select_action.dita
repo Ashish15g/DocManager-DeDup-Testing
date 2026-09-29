@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="SearchandSelectActionTocreateaSearchandSelectaction" xml:lang="en">
+   <title>To create a Search and Select action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click on the arrow beneath the <uicontrol>Actions</uicontrol> button and select <uicontrol>Search and Select</uicontrol>. </cmd>
+         </step>
+         <step>
+            <cmd>On the <uicontrol>Options</uicontrol> tab, under <uicontrol>Search and Select Action</uicontrol>, type an <uicontrol>Action Name</uicontrol>. Use a descriptive name, for example, <i>Search Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>In <uicontrol>Object</uicontrol>, select an object. </cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Enable Favorite Filters </uicontrol>check box to enable Favorite Filters for this action. Refer to <xref href="../enabling_and_using_favori_98667732/98667732.dita"
+                     format="dita">Enabling and Using Favorite Filters in Queries</xref> for more information.</cmd>
+         </step>
+         <step>
+            <cmd>In <uicontrol>Searchable Fields</uicontrol>, select one or more fields that will be displayed to the end user as input fields at runtime.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Result Selection</uicontrol>, decide whether the user can select single or multiple results that are returned to Excel, and select a <uicontrol>Result selection. (</uicontrol>You can only select <uicontrol>Single</uicontrol> for an Individual object, or <uicontrol>Multiple</uicontrol> for a List object.)</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Fields to Display in Search Results</uicontrol>, select one more fields to display in the search results. Select a check box in the <uicontrol>Sort By</uicontrol> column to choose the primary sort. Note: At runtime, the user can also sort by any column when the results are displayed. You can also reorder the result columns using the <uicontrol>Arrows</uicontrol> to the right of the grid.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="400"
+                         href="../attachments/98667689/190354451.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Add filters as required. Refer to the <xref href="../query-action_98667690_98667690/98667690.dita" format="dita">Query Action</xref> for details on how to create filters.</cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="400"
+                         href="../attachments/98667689/190354454.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

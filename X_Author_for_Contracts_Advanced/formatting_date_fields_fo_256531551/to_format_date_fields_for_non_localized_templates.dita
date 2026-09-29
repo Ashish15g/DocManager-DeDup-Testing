@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_FormattingDateFieldsForNonLocalizedTemplatev20240711_Toformatdatefieldsfornon_localizedtemplates" xml:lang="en">
+   <title>To format date fields for non-localized templates</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Insert the date field into your template by following the steps in 
+<xref href="../inserting_fields_in_templ_256531839/256531839.dita" format="dita">Inserting Fields in a Template</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to <uicontrol>Work tab &gt; Fields</uicontrol>. If you cannot see the Fields tab, click the Dropdown icon<uicontrol> </uicontrol>(<image height="13" placement="inline" href="../attachments/256531551/256531550.png" class="- topic/image "/>) and select <uicontrol>Fields</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>The Fields page lists all fields present in your template. Find the date field name and click to highlight it in the document.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Settings </uicontrol>(<image placement="inline" width="16" href="../../global_images/images/256529252.png" class="- topic/image "/>) button adjacent to the field name to open the field settings pane, which displays the field type (datatype) of a particular field, options to mark a field as smart or read-only, and a Date Format drop-down list.</cmd>
+         </step>
+         <step>
+            <cmd>Select the preferred date format from the <uicontrol>Date Format</uicontrol> drop-down list. The following formats are available:</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Format</p>
+                              </entry>
+                              <entry>
+                                 <p>Output Example </p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>None</p>
+                              </entry>
+                              <entry>
+                                 <p>When you select None, by default the M/dd/yyyy format is applied.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>M/d/yyyy</p>
+                              </entry>
+                              <entry>
+                                 <p>1/2/2023</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>MMM d, yyyy</p>
+                              </entry>
+                              <entry>
+                                 <p>Jan 2, 2023</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>M/d/yy</p>
+                              </entry>
+                              <entry>
+                                 <p>1/2/23</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>dddd, MMMM d</p>
+                              </entry>
+                              <entry>
+                                 <p>Monday, January 2</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>yyyy - MMMM d</p>
+                              </entry>
+                              <entry>
+                                 <p>2023 - January 2</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>MMMM yyyy</p>
+                              </entry>
+                              <entry>
+                                 <p>January 2023</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>M/dd/yyyy. When you select None, by default the M/dd/yyyy format is applied.</p>
+                              </entry>
+                              <entry>
+                                 <p>1/02/2023</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The new format is applied to the non-localized template's date field.</p>
+      </postreq>
+   </taskbody>
+</task>

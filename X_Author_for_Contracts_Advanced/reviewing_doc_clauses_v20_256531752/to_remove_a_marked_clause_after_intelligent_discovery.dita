@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ReviewingDocClausesv20240711_ToremoveamarkedclauseafterIntelligentDiscovery" xml:lang="en">
+   <title>To remove a marked clause after Intelligent Discovery</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced and open the Agreement Document.</cmd>
+         </step>
+         <step>
+            <cmd>Extract data from the document using the<uicontrol> Intelligent Discovery</uicontrol> option and click <uicontrol>Review Import Results</uicontrol>. For more information on data extraction, see 
+<xref href="../extracting_agreement_data_256531746/256531746.dita" format="dita">Extracting Agreement Data Using Intelligent Discovery</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, click Work tab and click <uicontrol>Doc Clauses</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the incorrectly tagged clause and click the More button(<image placement="inline" width="16" href="../attachments/256531752/256531751.png" class="- topic/image "/>).</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Delete</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click Delete on the confirmation dialog that appears.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Additionally, clauses and fields extracted by Intelligent Discovery are converted into smart clauses and fields. Upon check-in with reconciling, it will promote all marked clauses.</p>
+      </postreq>
+   </taskbody>
+</task>

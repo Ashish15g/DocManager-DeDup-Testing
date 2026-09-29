@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MakingColumnsandRowsConditionalinaRepeatTableandRepeatSectionv20240620_Conditionalcolumn" xml:lang="en">
+   <title>To conditionalize table columns</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>In the Templates pane, go to the Work tab, click the dropdown button (<image height="13" placement="inline" href="../attachments/256528175/256528162.png" class="- topic/image "/>) and select <uicontrol>Fields</uicontrol>. The Fields pane displays the Repeat Table.</cmd>
+         </step>
+         <step>
+            <cmd>Click the Settings button (<image placement="inline" width="20" href="../../global_images/images/256529252.png" class="- topic/image "/>) next to the Repeat Table name.</cmd>
+         </step>
+         <step>
+            <cmd>In the Repeat Table Settings pane, click <uicontrol>Add Condition </uicontrol>to open the template expression builder.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Conditions on Column</uicontrol> tab.</cmd>
+         </step>
+         <step>
+            <cmd>Select a column from the <uicontrol>Select a column to make it conditionally shown</uicontrol> dropdown list.</cmd>
+         </step>
+         <step>
+            <cmd>To create a conditional expression, enter values for the following fields:</cmd>
+            <info>
+               <ul>
+                  <li>
+                     <uicontrol>Field</uicontrol> - Select the field that you want to set as the criteria for the condition. You can select any field from the object (whose fields are displayed in the table) or the parent object (parent of the object whose fields are displayed in the table) or lookup objects. For example, if the table displays the fields from Service Plan Device object, the <uicontrol>Field</uicontrol> column lists all the available fields of Service Plan Device, Agreement Service Plan (parent object) and lookup objects for Service Plan Device and Agreement Service Plan.</li>
+                  <li>
+                     <uicontrol>Operator</uicontrol> - You must select the logical operator from the picklist. This forms the relationship between the Field and its Value.</li>
+                  <li>
+                     <uicontrol>Value</uicontrol> - Enter the value of the field name selected in the Field.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add Condition</uicontrol> to create additional expressions for the same column. You can create up to nine filters for a single column.</cmd>
+         </step>
+         <step>
+            <cmd>Enter <uicontrol>Custom Logic</uicontrol> to add a logical relation between multiple rows. The supported filter logic operators are AND and OR. You can use parentheses for setting the precedence. For example, if you have five rows you can create a filter logic like, (((1 AND 3) OR (2 AND 4)) AND 5).  In the absence of custom logic, the default relationship between the rows is the Boolean operator AND.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Test</uicontrol> to check whether your filter logic expression is correct. If your logic is incorrect, you will see a message in red.</cmd>
+         </step>
+         <step>
+            <cmd>Repeat steps 4—8 for each column you want to filter.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Condition on Row </uicontrol>tab when you are finished to continue to the next screen in the Expression Builder to define any conditional rows in your table (see the next section for complete instructions).</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol> to save your table filters and return to your document.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p platform="salesforce">After the condition is successfully saved, a Lightning icon (<image placement="inline" width="18" href="../attachments/256528175/256528161.png" class="- topic/image "/>) is displayed next to the particular repeat table. Click the Lightning icon<uicontrol/>to expand and view the conditions added to the particular repeat table. Click the lightning icon again to close.</p>
+         <note type="note">
+            <p platform="salesforce">If you are defining column filters for a table inside a section that contains third-level fields, you cannot apply column filters on objects that are not included in the table.</p>
+         </note>
+         <p platform="salesforce">The column condition is created for the table. You can modify or delete the condition.</p>
+      </postreq>
+   </taskbody>
+</task>

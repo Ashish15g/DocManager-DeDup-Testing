@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d21aA" xml:lang="en">
+   <title>Changing Field Format by Locale</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 17, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p platform="conga">When you create a new template or clone an existing one, you are required to specify a Locale for your template.</p>
+      <p platform="conga">Because there may be some cases that require you to override formats at the field level, X-Author Templates provides template administrators with the ability to define Number and Currency Precision, Currency Format, and Date Format. This allows you to preserve locale for fields in inserted clauses at the template level while making specific changes to other field formats as needed. Generated documents conform to template locale except when specified at the field level.</p>
+      <p platform="salesforce">When you create a new template or clone an existing one, you are
+         required to specify a Locale for your template.</p>
+      <p platform="salesforce">Because there may be some cases that require you to override formats
+         at the field level, X-Author for Contracts Advanced Templates provides template
+         administrators with the ability to define Number and Currency Precision, Currency Format,
+         and Date Format. This allows you to preserve locale for fields in inserted clauses at the
+         template level while making specific changes to other field formats as needed. Generated
+         documents conform to template locale except when specified at the field level.</p>
+   </conbody>
+</concept>

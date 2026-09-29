@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d249aA" xml:lang="en">
+   <title>Making Columns and Rows Conditional in a Repeat Table and Repeat Section</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 17, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can mark any or all of the rows, columns, and fields in a repeat table as conditional. In practice, these conditions operate as filters, allowing rows, columns, and fields in the table to be conditionally shown (and populated) or hidden. When you are constructing your template, you define various condition expressions on rows, columns, and fields of a table. These conditions are then evaluated at runtime when a contract document is generated using the template.</p>
+      <p>For example, your table consists of four columns:<b/>Product, Quantity, List Price, and Net Price. You can define a condition to show the Net Price column only when the Account Name is ABC Company.</p>
+   </conbody>
+</concept>

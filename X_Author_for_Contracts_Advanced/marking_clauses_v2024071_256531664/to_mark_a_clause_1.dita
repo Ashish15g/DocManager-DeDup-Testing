@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MarkingClausesv20240711_Tomarkaclause1" xml:lang="en">
+   <title>To mark a clause</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, go to Work &gt; Clause Library.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight the content of the contract to be marked as a clause.</cmd>
+         </step>
+         <step>
+            <cmd>Search the clause you want to add or select the clause from the available clauses list and click the More icon(<image placement="inline" width="16" href="../attachments/256531664/256531650.png" class="- topic/image "/>) next to the clause name.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Mark</uicontrol>.</cmd>
+            <info>
+               <p>By marking the text as a clause in your agreement document, the text adopts the properties of the marked clause. You can even choose to replace the text in the agreement with text from a pre-existing clause in your Clause Library. When the agreement document is checked in and reconciled to the agreement record, information on marked clauses is added to the Agreement Clauses related list.</p>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p platform="salesforce">Clauses can only be smart in the context of single generated or offline agreement document. You cannot select more than 32000 characters for marking a clause.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

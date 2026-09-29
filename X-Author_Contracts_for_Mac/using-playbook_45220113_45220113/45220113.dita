@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan805" xml:lang="en">
+   <title>Using Playbook</title>
+   <prolog>
+      <author>Chris Castro</author>
+      <critdates>
+         <created date="Sep 23, 2016"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Mac May 2017 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>The Playbook allows you to access a library of previously defined clause templates which
+            already exist in your Salesforce organization for use with your document agreement type
+            during negotiations. Instead of editing clauses already in the document or inserting
+            static text, you can insert clauses from Playbook directly into the agreement document
+            and track and manage changes to clause content as negotiations proceed. You can also use
+            Playbook to mark text as clauses or fields, applying Apttus properties to these clauses
+            and fields when the document is checked in and reconciled.</p>
+      <note type="note">
+         <p>Unless explicitly stated, any mention in this guide of fields or
+                clauses should be considered a reference to smart fields and clauses.</p>
+      </note>
+      <p>To use Playbook, hover over the<image href="../attachments/45220113/49676316.png"
+            placement="inline" id="image_es5_xfq_12c" width="20"/>
+         <uicontrol>Playbook</uicontrol> icon in the X-Author pane to display two menu choices:
+            <uicontrol>Fields</uicontrol> and <uicontrol>Clauses</uicontrol>.</p>
+      <fig id="fig_gfz_c4n_12c">
+         <image height="250" placement="break" width="282"
+            href="../attachments/45220113/49676318.png" id="image_hfz_c4n_12c"/>
+      </fig>
+      <p>You can use Playbook to:</p>
+      <ul>
+         <li>Insert clauses into the agreement document.</li>
+         <li>Mark document text as a clause.</li>
+         <li>Mark document text as a field.</li>
+      </ul>
+      <p>When text is marked as a clause or field, the element becomes <b>smart</b>, meaning that
+            it adopts Apttus properties as a clause or field and users can take various actions on
+            data, allowing them to reconcile changes that are reflected in the associated agreement
+            record. For more explicit definitions of smart clauses and smart fields, see <xref href="../working_with_agreements_4_45220122/45220122.dita" format="dita">Working
+                with Agreements</xref>.</p>
+   </conbody>
+</concept>

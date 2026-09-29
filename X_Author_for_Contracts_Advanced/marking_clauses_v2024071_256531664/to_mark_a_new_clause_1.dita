@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_MarkingClausesv20240711_Tomarkanewclause1" xml:lang="en">
+   <title>To mark a new clause</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, go to Work &gt; Clause Library.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight the content of the contract to be marked as a clause and click <uicontrol>Mark New Clause</uicontrol> in the Clause Library tab.</cmd>
+         </step>
+         <step>
+            <cmd>In the Mark Clause form, specify the following fields for marking the clause. The clause will be automatically marked as a one-off instance of the clause for this agreement.</cmd>
+            <info>
+               <p platform="salesforce">
+                  <table platform="salesforce">
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Clause Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a new name for the clause.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Action</p>
+                              </entry>
+                              <entry>
+                                 <p>By default, <i>Inserted </i>is chosen and is Read-Only.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Category</p>
+                              </entry>
+                              <entry>
+                                 <p>Select a category for your clause. This picklist is displayed from the Agreement clause object.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Sub Category</p>
+                              </entry>
+                              <entry>
+                                 <p>Select a subcategory for your clause. Options in the list will change based on the category you selected. This picklist is displayed from the Agreement clause object.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Exception</p>
+                              </entry>
+                              <entry>
+                                 <p>Select a term exception record from the drop-down list to associate with your clause.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Risk Rating</p>
+                              </entry>
+                              <entry>
+                                 <p>Select an appropriate risk rating for your clause. Valid values are:<ul>
+                                       <li>Green</li>
+                                       <li>Red</li>
+                                       <li>Yellow</li>
+                                    </ul>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Materially Significant</p>
+                              </entry>
+                              <entry>
+                                 <p>Select this check box if you want to make your clause materially significant.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Clause Text (Selected)</p>
+                              </entry>
+                              <entry>
+                                 <p>This text area shows the selected text which you want to mark as a clause.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+               <note type="note">
+                  <p>Scroll past the Clause Text to view additional fields and buttons required to mark the clause.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol> to apply clause properties to the highlighted content and mark the content as a smart clause. When you check in and reconcile your agreement document, the clause will be displayed as inserted in the<uicontrol> </uicontrol>Agreement Clauses<uicontrol/>related list and is listed in the Document panel under Clauses. Your clause is successfully marked and acquires content control border like the other smart clauses.</cmd>
+         </step>
+         <step>
+            <cmd>After inserting the clause, you can go to Work tab &gt; Doc Clauses to confirm that the clause is now recognized in the document. When you check in the document, any smart clauses can be reconciled to the agreement and information of the inserted clause is added to the Agreement Clause related list on the agreement record.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p platform="salesforce">If you decide you want to unmark a clause during the same session in which you marked it, you must use the 
+<xref href="../doc_clauses_v20240711_2_256530491/256530491.dita" format="dita">Doc Clauses</xref> tab to remove clause properties.</p>
+         </note>
+         <p platform="salesforce">
+            <uicontrol>Behavior and Recommendations</uicontrol>
+         </p>
+         <ul platform="salesforce">
+            <li>If you mark a table as a clause by selecting the table only, you will see an error message. You are recommended to select some space before and after the table.</li>
+            <li>Category and subcategory fields are retrieved from the Agreement clause object.</li>
+            <li>If the Category and Subcategory do not match the Agreement Clause object when promoting a clause from the Template Object, then users must manually select the Category and Subcategory while marking a clause.</li>
+         </ul>
+      </postreq>
+   </taskbody>
+</task>

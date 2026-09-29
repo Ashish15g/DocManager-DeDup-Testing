@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_qds_pll_2dc">
+    <title>To conditionalize table columns</title>
+    <taskbody>
+        <steps platform="conga" id="ol_syc_qll_2dc">
+            <step>
+                <cmd>In the Templates pane, go to the Work tab, click the dropdown button (<image height="13" placement="inline" href="../attachments/256528175/256528162.png" class="- topic/image " id="image_tyc_qll_2dc"/>) and select <b>Fields</b>.
+                    The Fields pane displays the Repeat Table.</cmd>
+            </step>
+            <step>
+                <cmd>Click the Settings button (<image placement="inline" width="20" href="../../global_images/images/256529252.png" class="- topic/image " id="image_uyc_qll_2dc"/>) next to the Repeat Table name.</cmd>
+            </step>
+            <step>
+                <cmd>In the Repeat Table Settings pane, click <b>Add Condition </b>to open the
+                    template expression builder.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <b>Conditions on Column</b> tab.</cmd>
+            </step>
+            <step>
+                <cmd>Select a column from the <b>Select a column to make it conditionally shown</b>
+                    dropdown list.</cmd>
+            </step>
+            <step>
+                <cmd>To create a conditional expression, enter values for the following
+                    fields:</cmd>
+                <info>
+                    <ul id="ul_vyc_qll_2dc">
+                        <li>
+                            <b>Field</b> - Select the field that you want to set as the criteria for
+                            the condition. You can select any field from the object (whose fields
+                            are displayed in the table) or the parent object (parent of the object
+                            whose fields are displayed in the table) or lookup objects. For example,
+                            if the table displays the fields from Service Plan Device object, the
+                                <b>Field</b> column lists all the available fields of Service Plan
+                            Device, Contract Service Plan (parent object) and lookup objects for
+                            Service Plan Device and Contract Service Plan.</li>
+                        <li><b>Operator</b> - You must select the logical operator from the
+                            picklist. This forms the relationship between the Field and its
+                            Value.</li>
+                        <li><b>Value</b> - Enter the value of the field name selected in the
+                            Field.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <b>Add Condition</b> to create additional expressions for the same
+                    column. You can create up to nine filters for a single column.</cmd>
+            </step>
+            <step>
+                <cmd>Enter <b>Custom Logic</b> to add a logical relation between multiple rows. The
+                    supported filter logic operators are AND and OR. You can use parentheses for
+                    setting the precedence. For example, if you have five rows you can create a
+                    filter logic like, (((1 AND 3) OR (2 AND 4)) AND 5). In the absence of custom
+                    logic, the default relationship between the rows is the Boolean operator
+                    AND.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Test</b> to check whether your filter logic expression is correct. If
+                    your logic is incorrect, you will see a message in red.</cmd>
+            </step>
+            <step>
+                <cmd>Repeat steps 4—8 for each column you want to filter.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <b>Condition on Row </b>tab when you are finished to continue to the
+                    next screen in the Expression Builder to define any conditional rows in your
+                    table (see the next section for complete instructions).</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Save</b> to save your table filters and return to your document.</cmd>
+            </step>
+        </steps>
+        <postreq>
+            <p platform="conga">After the condition is successfully saved, a Lightning icon (<image placement="inline" width="18" href="../attachments/256528175/256528161.png" class="- topic/image " id="image_tg1_sll_2dc"/>) is displayed next to the
+                particular repeat table. Click the Lightning icon<b/>to expand and view the
+                conditions added to the particular repeat table. Click the lightning icon again to
+                close.</p>
+            <note type="note" id="note_ug1_sll_2dc">
+                <p platform="conga">If you are defining column filters for a table inside a section
+                    that contains third-level fields, you cannot apply column filters on objects
+                    that are not included in the table.</p>
+            </note>
+            <p platform="conga">The column condition is created for the table. You can modify or
+                delete the condition.</p>
+        </postreq>
+    </taskbody>
+</task>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d117aA" xml:lang="en">
+   <title>Creating User Menus</title>
+   <shortdesc>User Menus allow the Designer to create menus that the end user will see in their Microsoft Excel ribbon when they open an X-Author App in runtime. There are two types of menu items:</shortdesc>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Feb 24, 2023"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <ul>
+         <li>Configurable menu buttons that execute the Action Flows.</li>
+         <li>Optional standard buttons that the Designer can use to allow the end user to add rows, delete rows, use special paste functions, and have access to embedded X-Author Chatter.</li>
+      </ul>
+      <note type="note">
+         <p>Chatter relates to Salesforce and hence is not supported in Microsoft Dynamics and Apttus Omni. Add columns menu is supported as part of Matrix Map.</p>
+      </note>
+      <p>User Menus are divided into two areas:</p>
+      <ul>
+         <li>Groups: These divide the menu buttons into logical areas for the end user. For example, on the X-Author Designer menu, the groups are Create, Build, Save, Migrate, and Access.</li>
+         <li>
+            <p>Buttons: These are the menu commands within each menu Group. At least one group and one button within that group are required.</p>
+            <p>
+               <b>Standard Microsoft Excel Ribbon</b>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/98667673/98667793.png"/>
+               </fig>
+            </p>
+            <p>
+               <b>X-Author Ribbon</b>
+               <fig>
+                  <image placement="break"
+                         width="600"
+                         href="../attachments/98667673/98667795.png"/>
+               </fig>
+            </p>
+         </li>
+      </ul>
+      <ul>
+         <li>
+            <b>Microsoft Icons</b>
+            <p>For icons, X-Author uses the standard Microsoft Office icon list, which can be found here: <xref href="http://www.microsoft.com/en-us/download/details.aspx?id=21103"
+                     format="html"
+                     scope="external">
+                  <u>http://www.microsoft.com/en-us/download/details.aspx?id=21103</u>
+               </xref>. Use the procedure below or any other icon from the list. You must enter the icon capitalization exactly as described in the procedure.</p>
+         </li>
+      </ul>
+   </conbody>
+</concept>

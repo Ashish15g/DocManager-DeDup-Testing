@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InstallingProductionXAuthorforContractsUsingMicrosoftAppSourcev20240711_Toremovetheadd_inifyouareaMacuser" xml:lang="en">
+   <title>To remove the X-Author for Contracts add-in if you are a Mac user</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word.</cmd>
+         </step>
+         <step>
+            <cmd>Go to Word Menu &gt; Preferences &gt;Ribbon &amp; Toolbar. This opens the Ribbon &amp; Toolbar page.</cmd>
+         </step>
+         <step>
+            <cmd> Click <uicontrol>Ribbon</uicontrol>
+               <uicontrol> </uicontrol>Menu. Under Customize the Ribbon drop down list, select <uicontrol>Main Tabs</uicontrol>. The list of Main tabs are displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Select X-Author for Contracts and click <uicontrol>left Arrow </uicontrol>button and click <uicontrol>Save. </uicontrol>The X-Author Add-in is removed.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>Ensure that you have verified the installed packages in your org. If both Conga CLM and Conga CLM (Contracts for Salesforce) are installed in the org, you must create an admin entry APTS_DEFAULT_PACKAGE and <uicontrol> </uicontrol>APTS_XAAddInLoadType in Conga CLM for the user to decide which CLM to connect to. For more information about this admin entry, refer to 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/post-installation-settings-239542135.html" format="html" scope="external">Post-Installation Settings</xref> and 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/admin-entries-252349669.html" format="html" scope="external">Admin Entries</xref> in<i/>
+               <i>CLM for Administrators.</i>
+            </p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

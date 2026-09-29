@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Example_OpportunitiesbyAccountAppTocreateaQueryAction"
+      xml:lang="en">
+   <title>To create a Query Action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click the arrow under <uicontrol>Actions</uicontrol> on the X-Author for Excel ribbon and select <uicontrol>Query</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Action Name field, type <i>Query Opportunities.</i>
+            </cmd>
+         </step>
+         <step>
+            <cmd>From the Object list, choose <i>Account.Opportunity.</i>
+            </cmd>
+         </step>
+         <step>
+            <cmd>In the Filters section, click the lookup icon and select the account id field to restrict the Opportunity records to those that match the Account that was selected by the user. Because this is a lookup field, click just to the right of the orange field to select the row and click <uicontrol>Apply</uicontrol>. Select the other parameters based on the table below.</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="4">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <colspec colname="col3"/>
+                        <colspec colname="col4"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Object and Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Value Type</p>
+                              </entry>
+                              <entry>
+                                 <p>Operator</p>
+                              </entry>
+                              <entry>
+                                 <p>Value</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Account ID</p>
+                              </entry>
+                              <entry>
+                                 <p>Input</p>
+                              </entry>
+                              <entry>
+                                 <p>Equals</p>
+                              </entry>
+                              <entry>
+                                 <p>Account Id from the Accounts object will default. (Account.AccountID)</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

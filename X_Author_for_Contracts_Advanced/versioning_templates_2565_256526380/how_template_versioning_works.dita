@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="VersioningTemplates_HowTemplateVersioningWorks" xml:lang="en">
+   <title>How Template Versioning Works</title>
+   <conbody>
+      <p>Each contract or clause template in your org (with or without template versioning enabled) always consists of one template and multiple child references to clauses and sections contained in that template. For every instance of that template, there is always only one template that can be considered active (the version selected by the user to generate the contract or the version of the clause inserted into a contract template).</p>
+      <p>More specifically, whenever a new template is created, one instance of the template is created, stored in the Template object in Conga CLM or Salesforce, and any clauses in the template are stored in the Template Clause Reference. The Template object has a master-detail relationship with the child object, as shown in the following figure.</p>
+      <p>
+         <fig>
+            <image placement="break" width="446" href="../attachments/256526380/256526381.png" class="- topic/image "/>
+         </fig>
+      </p>
+      <p>Template Versioning preserves the same template, called the Header Template, which has a one-to-one relationship with the active version of the template and its child objects, and a one-to-many relationship with other versions of the template, which also have versioned clause and section references, but are considered inactive.</p>
+      <p>
+         <fig>
+            <image placement="break" width="446" href="../attachments/256526380/256526382.png" class="- topic/image "/>
+         </fig>
+      </p>
+      <p>Template Versioning introduces two new objects:</p>
+      <ul>
+         <li>
+            <b>Template Version</b> – a detail object of the master Template object</li>
+         <li>
+            <b>Template Clause Reference Version</b> – a child object of Template Version that stores nested clause references</li>
+      </ul>
+      <p>When a user creates a new version of a template, the version information is incremented (e.g. from "1.00" to 2.00") and stored in the Template Version object and its child object. When a template version becomes the active version, data from the Template Version object is copied to the Header Template object and that template version becomes the newly active version of the Header Template.</p>
+   </conbody>
+</concept>

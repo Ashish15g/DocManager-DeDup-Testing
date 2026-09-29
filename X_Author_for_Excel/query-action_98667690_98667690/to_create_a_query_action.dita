@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="QueryActionTocreateaQueryaction" xml:lang="en">
+   <title>To create a Query action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click on the arrow beneath the <uicontrol>Actions</uicontrol> button and select <uicontrol>Query</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter an <uicontrol>Action Name</uicontrol>. Use a descriptive name, for example, <i>Query Opportunities</i>.</cmd>
+         </step>
+         <step>
+            <cmd>From the <uicontrol>Object</uicontrol> drop-down list, select an Object.</cmd>
+         </step>
+         <step>
+            <cmd>Type a number in <uicontrol>Max Records</uicontrol> to specify the maximum number of records to be returned. Leaving it blank will return all records unless otherwise restricted by the filters below.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Enable Favorite Filters </uicontrol>check box to enable Favorite Filters for this query action. Refer to <xref href="../enabling_and_using_favori_98667732/98667732.dita"
+                     format="dita">Enabling and Using Favorite Filters in Queries</xref> for more information.</cmd>
+         </step>
+         <step>
+            <cmd>In the default filter row, click the lookup icon <image placement="inline" href="../attachments/98667722/98667796.png"/>and select a field from the selected object or click on an orange lookup field to navigate to a related object and select a field from there. To select a field from a lookup object, the object and field must have been selected in objects.</cmd>
+         </step>
+         <step>
+            <cmd>Select one of the following <uicontrol>Value Types</uicontrol>:</cmd>
+            <info>
+               <ul>
+                  <li>
+                     <uicontrol>Input</uicontrol>: This is for restricting records from the selected object based on a field from another object. It also implies that an input is required during an Action Flow. For example, retrieve all opportunities for an account that was previously selected by a user in a search and select action. X-Author Designer will automatically suggest matching fields from the related object. Select the correct field from the drop-down list.</li>
+                  <li>
+                     <uicontrol>Static</uicontrol>: Type a specific value to restrict which records are retrieved. For example, only get records where the Geo field equals "West". If you set the Value Type as Static, and the operator as in or not in and the query has more than 20,000 characters, the query is executed successfully during run-time. If the query condition comprises more than 20,000 characters, the query is chunked into multiple queries executed separately and the results are combined into a single query execution.</li>
+                  <li>
+                     <uicontrol>System Variables</uicontrol>: There are three system variables available for use.<ul>
+                        <li>Current User - Used to restrict records based on the currently logged in user.</li>
+                        <li>Current Date - Used to restrict records to the current date.</li>
+                        <li>ExportRecordId - Used for Apps that are <xref href="../launching_an_x_author_for_98667728/98667728.dita"
+                                 format="dita">launched from your environment</xref>.</li>
+                     </ul>
+                  </li>
+                  <li>
+                     <uicontrol>User Input</uicontrol>: This will generate a user input field at runtime. This option will present the field name to the user at runtime unless you change it as follows:<p>Hover over the field name and a pop-up will be displayed. Change the field name in the pop-up and click the green check mark. To remove a label, click the red cross mark.<fig>
+                           <image placement="break"
+                                  width="400"
+                                  href="../attachments/98667690/190354456.png"/>
+                        </fig>
+                     </p>
+                     <p>If you set the Value Type as User Input, the operator <i>as in</i> or <i>not in</i> and the user input query has more than 20,000 characters, the query is executed successfully during run-time. If the query condition comprises more than 20,000 characters, the query is chunked into multiple queries executed separately and the results are assimilated as a single query execution.</p>
+                  </li>
+                  <li>
+                     <p>
+                        <uicontrol>Cell Reference</uicontrol>: This will filter the query results based on the value of a cell reference provided. If you set the Value Type as Cell Reference, and the operator <i>as in</i> or <i>not in</i> and the query has more than 20,000 characters, the query is executed successfully during run-time. If the query condition comprises more than 20,000 characters, the query is chunked into multiple queries executed separately and the results are combined into a single query execution.</p>
+                     <note type="note">
+                        <p>The Cell Reference <uicontrol>Value Type</uicontrol> is not supported in Presto Apps.</p>
+                     </note>
+                  </li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Select an <uicontrol>Operator</uicontrol>. The following table describes combinations of field types, value types, and operators (click to enlarge).</cmd>
+            <info>
+               <p>
+                  <fig>
+                     <image height="400"
+                            placement="break"
+                            href="../attachments/98667690/98668064.png"/>
+                  </fig>
+               </p>
+               <note type="note">
+                  <p>Formula field types are also supported. The corresponding supported operator types depend on the the datatype the formula field returns. The supported return types for formula fields are boolean, double, string, currency, percent, date and email.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add Row</uicontrol> to create more filter conditions.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

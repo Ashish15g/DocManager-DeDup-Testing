@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_DeletingSmartElementsUsingDeleteorBackspaceKeyv20240711_BestPracticesandX_AuthorContractsAdvancedBehaviorwhenDeletingSmartElementsorRead_OnlyFields" xml:lang="en">
+   <title>Best Practices and X-Author Contracts Advanced Behavior when Deleting Smart Elements or Read-Only Fields</title>
+   <conbody>
+      <p>Smart elements can be deleted using the Delete or Backspace key but, while doing it you must adhere to the following recommended best practices to avoid errors.</p>
+      <ul>
+         <li>Existing documents do not support delete using Delete or Backspace key unless they are regenerated from Conga CLM or checked out in X-Author Contracts.</li>
+         <li>You are recommended not to delete fields or smart elements in the following scenarios:<ul>
+               <li>If the fields are part of sections, X-Author Tables, Headers, or Footers.</li>
+               <li>If the smart elements are part of a section with a third level X-Author table.</li>
+            </ul>
+         </li>
+      </ul>
+      <p>
+         <b>When Document Protection is set to <i>Full Access</i>
+         </b>
+      </p>
+      <ul>
+         <li>If you delete a field by selecting the field value text and pressing Delete or Backspace, hit Backspace or delete twice to remove the text and the content control border of the field. If you fail to do so, you'll see a validation error on reconciliation or while validating the fields using <b>Validate Fields</b>.</li>
+      </ul>
+      <p>
+         <b>When Document Protection is set to <i>Insert Comments and Track Changes</i>
+         </b>
+      </p>
+      <ul>
+         <li>In <i>Insert Comments and Track Changes</i> protection mode, it is mandatory for you to first <b>Accept</b> or <b>Reject</b> the changes in the document from the <b>Review</b> tab of Microsoft Word before you perform any action from X-Author Contracts. Failing to do so will give you validation errors or unexpected behavior in X-Author Contracts. X-Author Contracts actions include performing <b>Update from CLM</b>, Checking in the document, reconciling the document, <b>Preview Reconcile</b>, and <b>Validate Fields</b>.</li>
+         <li>You need to remove the document protection by manually entering the password before you can delete smart elements as well as read-only fields from your document.</li>
+         <li>If you select a content control and partially delete the text, the partial text would remain as static text.</li>
+         <li>If you delete a smart field in the document and then open the control field, the <b>Current Value</b> column of the <b>Doc Fields</b> will show blank values for the deleted fields.</li>
+         <li>If you delete a smart field that has multiple occurrences in the document, the smart field's occurrence index is not updated in the Doc Fields unless you check-in the document. The index number helps identify which occurrence of the field you have deleted.</li>
+      </ul>
+   </conbody>
+</concept>

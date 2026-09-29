@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InsertingClausesintoaTemplatev20240711_ToinsertaclausefromClauseLibraryintoatemplate" xml:lang="en">
+   <title>To insert a clause from Clause Library into a template</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced for Conga CLM (Contracts for Salesforce).</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Templates </uicontrol>pane, go to <uicontrol>Work </uicontrol>and click <uicontrol>Clause Library</uicontrol>. It displays the list of all clauses.</cmd>
+         </step>
+         <step>
+            <cmd>Use the <uicontrol>Search clauses </uicontrol>box to search for a clause by keyword. Click the <uicontrol>Search</uicontrol>
+               <uicontrol>icon </uicontrol>(<image placement="inline" width="20" href="../attachments/256531926/256531919.png" class="- topic/image "/>) to display a list of clauses.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Filter icon</uicontrol> (<image placement="inline" width="20" href="../attachments/256531926/256531918.png" class="- topic/image "/>)  to expose drop-down menus that can help you to refine your search according to Clause Type and Category. </cmd>
+            <info>
+               <p>To clear the filter criteria and view the entire list of clauses:</p>
+               <ol>
+                  <li>Click <uicontrol>Clear Filters</uicontrol>.</li>
+                  <li>Click <uicontrol>Apply Filters</uicontrol>.</li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>Place the cursor in the section of the template where you want to insert a clause.</cmd>
+         </step>
+         <step>
+            <cmd>Click a clause from the list to view the clause text and active version. Select the clause from the Clause Library tab, click <uicontrol>Expand icon </uicontrol>(<image placement="inline" width="20" href="../attachments/256531926/256531925.png" class="- topic/image "/>) next to the clause name and click <uicontrol>Insert (Clause Name)</uicontrol> to insert the clause into your template as inline text.</cmd>
+         </step>
+         <step>
+            <cmd>If the clause has more than one clause configuration, you see a <uicontrol>View Configurations</uicontrol> option when clicking the more options icon (<image placement="inline" width="20" href="../attachments/256531926/256531925.png" class="- topic/image "/>).</cmd>
+            <info>
+               <ol>
+                  <li>Click <uicontrol>View Configurations</uicontrol>. You can view the Sub Clauses and Alternate Clauses in the Related Items list. Click the <uicontrol>Expand icon </uicontrol>(<image placement="inline" width="16" href="../../global_images/images/256531826.png" class="- topic/image "/>) for a Sub Clause or Alternate Clause to expand and view the text of the clause.</li>
+                  <li>Select the required clause configuration from the <uicontrol>Configurations</uicontrol> drop-down list.</li>
+                  <li>In your template document, place the cursor at the point of insertion and click <uicontrol>Insert</uicontrol>. <p>The selected clause configuration is inserted into your template.</p>
+                  </li>
+               </ol>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <p>You see a success message on successfully inserting a clause. The clause content is marked by a content control boundary in your template. When you insert a clause configuration, only the main clause text is added to the template. When you generate an agreement document using the template, the sub-clauses related to clause configuration are inserted into the document. The sub clauses related to sub clauses are not inserted into the document. Only the first level hierarchy is supported when inserting clause configurations.</p>
+         <p>The clauses added to the templates and the sub clauses related to clauses are marked as smart by default.  For more information, see 
+<xref href="../making_clauses_and_clause_256531937/256531937.dita" format="dita">Making Clauses and Clause Bundles Smart in a Template</xref>.</p>
+         <note type="note">
+            <p>You cannot search and insert an alternate clause from the Clause Library.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

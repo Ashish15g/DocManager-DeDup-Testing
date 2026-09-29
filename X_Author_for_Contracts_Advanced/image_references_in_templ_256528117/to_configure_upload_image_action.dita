@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ImageReferencesinTemplatesv20240620_Toconfigureuploadimageaction" xml:lang="en">
+   <title>To configure upload image action</title>
+   <taskbody>
+      <context>
+         <p>This task assumes you want to configure an agreement object, other objects can also be configured in a similar manner.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Go to <uicontrol>Build &gt; Create &gt; Objects &gt; Agreement</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Custom Fields &amp; Relationships section, click <uicontrol>New</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select Formula and click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter a Field Label and Field Name, such as Upload Image, select Text from the Formula Return Type list and click Next.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the formula below, ensuring it is all on the same line in the formula field, like the screenshot, and click Next.</cmd>
+         </step>
+         <step>
+            <cmd> The code should be: <codeph>HYPERLINK("/apex/Apttus__ImageUpload?id="&amp; Id, IMAGE("/resource/Apttus__Button_UploadImage", "Upload Image"),"_self")</codeph>
+            </cmd>
+            <info>
+               <fig>
+                  <image height="39" placement="break" width="714" href="../attachments/256528117/256528116.png" class="- topic/image "/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Set the field-level access and click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>You can select page layouts here, but as you will likely want to edit the page layouts to reposition the Upload Image button, it is not required at this point. Upload Image is now available from the Fields list when you edit a page layout.</p>
+         <note type="note">
+            <ul>
+               <li>You could add image support to Quote/Proposals by repeating this task for that object.</li>
+               <li>You should also create RTF fields for the images if they do not already exist.</li>
+            </ul>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

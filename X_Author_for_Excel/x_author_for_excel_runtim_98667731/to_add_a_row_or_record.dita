@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="XAuthorforExcelRuntimeFunctionsToaddaroworrecord" xml:lang="en">
+   <title>To add a row or record</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click on the top part of Add Row to insert a single row or record.</cmd>
+            <info>
+               <fig>
+                  <image height="80"
+                         placement="break"
+                         href="../attachments/98667731/98667977.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on the bottom part of Add Row to insert more than one row.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>There are three variations of the Paste function: Paste Values Only, Paste All, and Paste from Mapping.</p>
+         <p>If you are copying data from another worksheet (same or different workbook), Paste eliminates the need to use the Add Rows function. It automatically adds the exact number of rows and pastes the data into those rows simultaneously.</p>
+         <ol>
+            <li>Use the standard Excel copy function or Ctrl+C to copy data from the source.</li>
+            <li>Click Paste &gt; Paste Values Only to add rows and paste the data values.</li>
+            <li>Click Paste &gt; Paste All to add rows and paste the data including formulas.</li>
+         </ol>
+      </postreq>
+   </taskbody>
+</task>

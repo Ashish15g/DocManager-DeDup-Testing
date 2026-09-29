@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="DisplayActionQueryFilter" xml:lang="en">
+   <title>To show query filters in the worksheet</title>
+   <taskbody>
+      <context>
+         <p>Perform the following optional steps when creating a Display Map if you want to display the filters used in any Query or Search &amp; Select actions used to display records for the specified Display Map.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Select the <uicontrol>Show Query Filters</uicontrol> check box.</cmd>
+         </step>
+         <step>
+            <cmd>Select one or more <uicontrol>Display Map Objects</uicontrol> for which you want to display the query filters for during runtime. </cmd>
+         </step>
+         <step>
+            <cmd>For each Display Map object selected, enter a worksheet cell location in the <uicontrol>Filter Location in Excel </uicontrol>field. At runtime, all configured filters for queries used in that Display Map are populated in the specified cell location.  For example, specifying the filter location <uicontrol>Sheet2!B2</uicontrol> displays query filters for the corresponding Display Map object in the cell <uicontrol>B2</uicontrol> on <uicontrol>Sheet 2</uicontrol>. You can also specify a named range as a filter location.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="355"
+                         href="../attachments/98667691/190354471.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.
+            </cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>
+            <uicontrol>Runtime Behavior:</uicontrol> When the App is executed during runtime, the query filter is displayed in Sheet 2 in cell B2. The query filters can also be displayed in merged cells.</p>
+         <p>
+            <fig>
+               <image height="72"
+                      placement="break"
+                      width="624"
+                      href="../attachments/98667691/98667801.png"/>
+            </fig>
+         </p>
+      </postreq>
+   </taskbody>
+</task>

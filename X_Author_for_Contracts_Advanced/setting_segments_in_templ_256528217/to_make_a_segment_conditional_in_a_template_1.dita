@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_SettingSegmentsinTemplatesv20240620_MakeSegmentConditional" xml:lang="en">
+   <title>To make a Segment Conditional in a template</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>From the Contracts pane, click the Home icon(<image placement="inline" width="20" href="../../global_images/images/256531474.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to Work tab, click the Dropdown icon (<image height="13" placement="inline" href="../attachments/256528217/256528208.png" class="- topic/image "/>)and select <uicontrol>Segments</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight a block of text in your template and click <uicontrol>Conditional</uicontrol>. This opens the Segment Condition dialog box that contains the expression builder.</cmd>
+         </step>
+         <step>
+            <cmd>In the Segment Condition dialog box, you can create a conditional expression and also create a complex expression using logical operators between multiple rows of conditions. To create an expression you must enter the values of the following three fields:</cmd>
+            <info>
+               <p platform="salesforce">
+                  <table platform="salesforce">
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the field which you want to set as the criteria for the condition. The Field drop-down shows the Agreement object and its fields from your Salesforce org. You must select a field name. The fields are listed and grouped according to their hierarchy.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Operator</p>
+                              </entry>
+                              <entry>
+                                 <p>You must select the logical operator from the drop-down. This forms the relationship between the field and its value.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Value</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the value of the field name selected in the field.<uicontrol> </uicontrol>Null values are also supported.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add row</uicontrol> to create additional expressions for the same column. You can create up to a maximum of nine filters for a single column.</cmd>
+         </step>
+         <step>
+            <cmd>Enter <uicontrol>Custom Logic</uicontrol> to add a logical relation between multiple rows. The supported filter logic operators are AND and OR. You can use parentheses for setting the precedence. For example, if you have five rows you can create a filter logic, like (((1 AND 3) OR (2 AND 4)) AND 5).  In the absence of custom logic, the default relationship between the rows is the Boolean operator AND.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Test</uicontrol> to check whether your filter logic expression is correct. If your logic is incorrect, you will see a message in red.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol> to save your table filters and return to your document.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p platform="salesforce">You see a success message and your segments are added as Segment Conditional to the segments list in the Segment pane. A Lighting icon (<image placement="inline" width="18" href="../attachments/256528217/256528209.png" class="- topic/image "/>) is displayed next to the newly added segment. Click the Lighting icon (<image placement="inline" width="18" href="../attachments/256528217/256528209.png" class="- topic/image "/>) to view the conditions added to the particular segment.</p>
+         <p platform="salesforce">Selecting the segment name from the list highlights that segment in the template document.</p>
+      </postreq>
+   </taskbody>
+</task>

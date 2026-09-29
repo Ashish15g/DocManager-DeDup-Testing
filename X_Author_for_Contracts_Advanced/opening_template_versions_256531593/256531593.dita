@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d305aA" xml:lang="en">
+   <title>Opening Template Versions</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="note">
+         <p>This page contains instructions for opening templates when Template Versioning is enabled. For instructions on opening templates without versioning, see 
+<xref href="../opening_templates_v202406_256527950/256527950.dita" format="dita">Opening Templates</xref> in this guide.</p>
+      </note>
+      <p>Using X-Author Templates, you can open any template version from the repository and make changes to static text and other content in the document. When the document is finalized, you can check in the template and modify properties as needed (for example, you can change which contract types it is associated with). As with contracts, when you check out a template, a lock is enabled on the document, preventing other users from editing it while you are working on it. After you release the lock or check in the template, the lock is released. Note that the lock only prevents other users from checking out the version you are working on, not every version of the template. For more information about locking and unlocking templates, see </p>
+      <p>
+         <xref href="../locking_and_unlocking_tem_256528275/256528275.dita" format="dita"> Locking and Unlocking Templates </xref>
+      </p>
+      <p>.</p>
+   </conbody>
+</concept>

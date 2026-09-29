@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="LaunchinganXAuthorforExcelAppfromSalesforceOption2ConfigureExcelAppSetupForSalesforceClassicandLightningusers"
+      xml:lang="en">
+   <title>Option 2: Configure Excel App Setup (For Salesforce Classic and Lightning users)</title>
+   <taskbody>
+      <context>
+         <p>There is no limit to the number of different Apps that can be launched from Salesforce. It could be a list of opportunities, or a list of opportunities or contacts for an account. You can place buttons anywhere Salesforce allows them to be located. X-Author for Excel provides a few sample buttons. To see an example, search for buttons from Salesforce Setup, then navigate to the Opportunity buttons, and locate the <uicontrol>Edit in Excel</uicontrol> button.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Switch to the X-Author for Excel application from the Force.com App Menu or locate <i>Apps</i> using the <uicontrol>+</uicontrol> on the menu.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Apps </uicontrol>tab.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Excel App Setup</uicontrol> button from the Apps list view. You will see a list of example Apps that come with the X-Author for Excel managed package.</cmd>
+            <info>
+               <note type="note">
+                  <p>
+                     <uicontrol>Note</uicontrol>
+                  </p>
+                  <p>If the <uicontrol>Excel App Setup</uicontrol> button is not visible, you need to add it to your App page layout. Refer to <xref href="../completing_designer_setup_98667667/98667667.dita"
+                           format="dita">Completing Setup for Designers</xref> for instructions.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter a Name to describe the app you want to invoke (for example, if launching Contacts from the Accounts page, "Accounts and Contacts").</cmd>
+         </step>
+         <step>
+            <cmd>Click the Application drop-down and select the App to launch.</cmd>
+            <info>
+               <note type="note">
+                  <p>
+                     <uicontrol>Note</uicontrol>
+                  </p>
+                  <p>Only activated apps are displayed in the picklist. Also, remember that a user cannot launch an app from Salesforce unless they have been assigned to the app.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

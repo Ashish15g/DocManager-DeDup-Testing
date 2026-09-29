@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="AddRowActionTocreateanAddRowaction" xml:lang="en">
+   <title>To create an Add Row action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In the ribbon menu, click the Actions drop-down menu and select <uicontrol>Add Row</uicontrol>. The Add Row Action window opens.</cmd>
+         </step>
+         <step>
+            <cmd>Complete the fields described in the following table.</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Type a descriptive name for action (for example, <i>Add Row – Opportunities</i>).</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Save Map</p>
+                              </entry>
+                              <entry>
+                                 <p>Select an existing Save Map to use when adding rows.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>List Object</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the list object for which you will add rows.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Location</p>
+                              </entry>
+                              <entry>
+                                 <p>Specify whether to add the new rows before or after the existing data.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Disable Excel Events during execution</p>
+                              </entry>
+                              <entry>
+                                 <p>Select to disable excel events while performing add row action.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Input Type</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the method used to determine how many rows will be added.</p>
+                                 <ul>
+                                    <li>
+                                       <uicontrol>Action Flow Step Input</uicontrol> – The number of rows added will be determined by the outcome of a previous step in the action flow. For example, if you have a Search and Select action in the flow, the number of rows added will equal the number of rows selected during that step.</li>
+                                    <li>
+                                       <uicontrol>Cell Reference</uicontrol> – Select this option to specify a cell in the workbook, such as <i>Sheet3!A1</i>, that contains the numerical value of the number of cells you want to add.</li>
+                                    <li>
+                                       <uicontrol>Number of Rows</uicontrol> – Select this option to specify a static number of rows to add.</li>
+                                    <li>
+                                       <uicontrol>User Input</uicontrol> – Select this option to allow the runtime user to specify the number of rows to add.</li>
+                                 </ul>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

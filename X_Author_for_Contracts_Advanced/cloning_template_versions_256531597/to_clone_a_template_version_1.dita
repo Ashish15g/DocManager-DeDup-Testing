@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_CloningTemplateVersionsv20240711_Tocloneatemplateversion1" xml:lang="en">
+   <title>To clone a template version</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and launch the X-Author for Contracts Advanced add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Open the template version you want to clone.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates pane, go to the Work tab. Click the Expand icon(<image placement="inline" width="20" href="../attachments/256531597/256531595.png" class="- topic/image "/>) icon and select <uicontrol>Clone</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Clone Template page, change the name of the cloned template, to suit your requirements. By default, the cloned template name has <uicontrol>Copy</uicontrol> added to the end of the original template name. For example, if you're cloning a template named "Clause Agreement Template" then the default name for the cloned template will be "Clause Agreement Template Copy".</cmd>
+            <info>
+               <p>You have the option to change settings of your template when you clone it. You can specify the following fields: </p>
+               <p platform="salesforce">
+                  <table platform="salesforce">
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the name of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Current Version</p>
+                              </entry>
+                              <entry>
+                                 <p>It indicates which version of the template you are cloning.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Type</p>
+                              </entry>
+                              <entry>
+                                 <p>It shows the type of template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Business Object</p>
+                              </entry>
+                              <entry>
+                                 <p>It shows the business object of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Agreement Types</p>
+                              </entry>
+                              <entry>
+                                 <p>From the picklist, you can select multiple agreement types to associate with your template. The value of Agreement Types decides which templates are available at the time of agreement generation. If your template's agreement type matches with the agreement type of your agreement record, you will see that template in the list of available templates at the time of document generation.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Category</p>
+                              </entry>
+                              <entry>
+                                 <p>Select a category from the picklist. Template categories are defined in Conga CLM by the administrator.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Subcategory</p>
+                              </entry>
+                              <entry>
+                                 <p>A dependent field that is populated based on the value chosen for Category. Subcategory values are defined in Conga CLM by the administrator.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Language </p>
+                              </entry>
+                              <entry>
+                                 <p>Select the default template language from the picklist.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Locale</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the locale from the picklist. You can configure custom locales in Conga CLM. For more information, see <i>Adding Custom Locale topic</i> in Conga CLM Administrator Guide.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Enable Formatting</p>
+                              </entry>
+                              <entry>
+                                 <p>Check this box to enable locale formatting at the template and field level for this template. This allows you to define locale settings for Currency, Number, and Date formats.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry namest="col1" nameend="col2">
+                                 <p>
+                                    <uicontrol>Optional: </uicontrol>Specify the following fields when "Enable Formatting" is selected to modify locale formatting.</p>
+                                 <p>
+                                    <table>
+                                       <tgroup cols="2">
+                                          <tbody>
+                                             <row>
+                                                <entry>
+                                                   <p>Field</p>
+                                                </entry>
+                                                <entry>
+                                                   <p>Description</p>
+                                                </entry>
+                                             </row>
+                                             <row>
+                                                <entry>
+                                                   <p>Date Format</p>
+                                                </entry>
+                                                <entry>
+                                                   <p>Select an option from the picklist to choose the default format for all date fields in the template.</p>
+                                                </entry>
+                                             </row>
+                                             <row>
+                                                <entry>
+                                                   <p>Currency Format</p>
+                                                </entry>
+                                                <entry>
+                                                   <p>Select an option from the picklist to choose the format for all currency fields in the template. Choose "None" to only display currency field values in generated documents.</p>
+                                                   <p>If "Currency Symbol" is selected, currency fields will be generated with no space between the symbol and field value. If "ISO" is selected, currency fields will be generated with a space between the ISO code and the field value.</p>
+                                                </entry>
+                                             </row>
+                                             <row>
+                                                <entry>
+                                                   <p>Number Precision</p>
+                                                </entry>
+                                                <entry>
+                                                   <p>Select a number from 0-9 to define the precision for Number/Percent field values in the template (e.g., "2" if the Number/Percent field should display two digits following the decimal point.)</p>
+                                                </entry>
+                                             </row>
+                                             <row>
+                                                <entry>
+                                                   <p>Currency Precision</p>
+                                                </entry>
+                                                <entry>
+                                                   <p>Select a number from 0-9 to define the precision for currency field values in the template (e.g., "2" if the currency field should display two digits following the decimal point.)</p>
+                                                </entry>
+                                             </row>
+                                          </tbody>
+                                       </tgroup>
+                                    </table>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Keywords</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter comma-separated keywords to associate with the template. Keywords make it easier to search the templates.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Next Revision Date</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the date for the next revision of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the description for the template. Maximum of 255 characters (an error will be thrown if this limit is exceeded).</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Guidance</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter guidance to help users determine the purpose of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Comments</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter comments that apply to this version of the template.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Active</p>
+                              </entry>
+                              <entry>
+                                 <p>Check this box to activate the template. You must activate a template to use it for generating an agreement document.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p platform="salesforce">After the cloning is successful, a copy of the template with the new name and header information is created as a new template record. The template version information is saved to the record as version 1.00.</p>
+      </postreq>
+   </taskbody>
+</task>

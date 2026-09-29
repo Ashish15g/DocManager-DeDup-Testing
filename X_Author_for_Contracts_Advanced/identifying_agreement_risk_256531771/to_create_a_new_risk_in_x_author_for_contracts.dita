@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_IdentifyingAgreementRiskUsingIntelligentRiskManagementInsightsv20240711_TocreateanewriskinX_AuthorforContracts" xml:lang="en">
+   <title>To create a new risk in X-Author for Contracts</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Create an offline agreement document, check it out, and extract data using either Intelligent Discovery or Contract Intelligence for CLM.</cmd>
+         </step>
+         <step>
+            <cmd>After document extraction, in the Contracts pane, go to Work &gt; <uicontrol>Insights</uicontrol>. The list of risks identified by Insights is displayed. The risk name is displayed with a risk-indicating icon in order of risk severity.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight the content of the text inside the clause to be marked for the risk and click the <uicontrol>Add New Risk</uicontrol> button in the Insights pane.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the following details:</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Title</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the name of the risk.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Risk Rating</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the severity of the risk from the drop-down list.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Guidance</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter keywords in the clause that are related to the risk.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Comments</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter any comment related to the risk.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Recommendation</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the recommendation to the risk. This could be steps that the user can follow to resolve the risk.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>After entering the details click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>The newly created risk is now available in the Insights pane. You can identify the risk that are created in X-Author for contracts by the word "Manual" displayed beside the risk name.</cmd>
+            <info>
+               <fig>
+                  <image height="400" placement="break" width="296" href="../attachments/256531771/256531770.png" class="- topic/image "/>
+               </fig>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>While creating new risk, keep in mind:</p>
+            <ul>
+               <li>Highlight the clause text for which you are creating the risk before clicking Add New Risk. If you do not, the "Please select any clause to add new risk" error message is displayed.</li>
+               <li>Do not highlight and select random text or a doc field before clicking Add New Risk. If you do, the "Please select any clause to add new risk" error message is displayed.</li>
+               <li>If you highlight the clause content that already has risk defined for insight, the "The selected clause has a risk assigned to it already" error message is displayed.</li>
+            </ul>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

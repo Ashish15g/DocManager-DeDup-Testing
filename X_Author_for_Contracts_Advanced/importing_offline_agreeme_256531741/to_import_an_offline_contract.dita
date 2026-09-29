@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ImportingOfflineAgreementsv20240711_Toimportanofflinecontract" xml:lang="en">
+   <title>To import an offline contract</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and launch the X-Author for Contracts Advanced add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts and open the Contract Document.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane<uicontrol/>go to<uicontrol>  </uicontrol>Start &gt; Search Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>In the Search Contracts field enter the full or partial contract name and click the Search icon (<image placement="inline" width="20" href="../attachments/256531741/256531739.png" class="- topic/image "/>) to locate your contract.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Expand</uicontrol> (<image placement="inline" width="16" href="../attachments/256531741/256531740.png" class="- topic/image "/>) button next to the contract name to see more details and click <uicontrol>Check In Offline</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <result id="result_zl2_sql_2dc">
+         <p platform="conga">Your document is checked in offline. The document is opened in a new
+            Microsoft Word instance. Note that if the DISABLE_AUTO_CHECKOUT permission is set to
+            true in Admin Setting, after clicking save, you will only see the confirmation message.
+            The document will not open in a new instance. For more information on disabling auto
+            check out, see <xref href="../admin_settings_for_x_auth_256527807/256527807.dita"
+               format="dita">Admin Settings for X-Author for Contracts Advanced</xref>.</p>
+      </result>
+   </taskbody>
+</task>

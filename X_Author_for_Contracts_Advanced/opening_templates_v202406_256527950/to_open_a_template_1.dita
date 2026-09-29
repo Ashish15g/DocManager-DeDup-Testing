@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_OpeningTemplatesv20240620_Toopenatemplate1" xml:lang="en">
+   <title>To open a template</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, click the Home button (<image placement="inline" width="16" href="../attachments/256527950/256527940.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Open Templates tab, use the<uicontrol> Search Templates</uicontrol> box to search for a template by keyword. Click the <uicontrol>Filter icon </uicontrol>(<image placement="inline" width="16" href="../attachments/256527950/256527941.png" class="- topic/image "/>) to view the drop-down menus that can help you to refine your search according to Template Type, Category, Subcategory, Locale, and Language. A list of Templates is displayed with the last modified &lt;Month Date, Year&gt;.</cmd>
+         </step>
+         <step>
+            <cmd>From the list of documents, click on the preferred template name link. It opens the latest activated version of a particular template in the same instance.</cmd>
+         </step>
+         <step>
+            <cmd>To view and open an old template version, click the Expand button (<image height="13" placement="inline" width="16" href="../../global_images/images/256531826.png" class="- topic/image "/>) to view the guidance for the template.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>View Versions </uicontrol>to navigate to the template details page where you can find the details such as Type, Object, Is Active, and Active Version.</cmd>
+         </step>
+         <step>
+            <cmd>Click on the template name link. The selected template opens in a new Microsoft instance. You can modify the template as per your requirement and check in your template.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p platform="salesforce">If the template name has special characters, then each special character is retained. For this feature to work, the auto save option must be mapped to a path on the local system and not a SharePoint location.</p>
+            <ul>
+               <li>When you open a template that has Template Versioning enabled, the template name is updated each time you open a template version.</li>
+            </ul>
+            <p>The name format is: TemplateName <i>&lt;Version#&gt; &lt;number of times the same template version is opened&gt;. </i>For example, If you opened the second version of a template for fourth time, then the template name is displayed as <i>TemplateName V2 4.</i>
+            </p>
+            <ul>
+               <li>When you open a template that has Template Versioning disabled, the template name does not contain the version details.</li>
+               <li>If you already have an instance of a document or template open, you now receive a warning message that the document is already open in a previous instance. If you close the previous instance of the document, then you can proceed to open the document in a new instance</li>
+            </ul>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

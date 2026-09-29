@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d218aA" xml:lang="en">
+   <title>Migrating Data Between Orgs</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="note">
+         <p>Refer to <xref href="../using_the_data_migration__98667704/98667704.dita"
+                  format="dita">Using the Data Migration Wizard</xref> for step-by-step instructions using the Data Migration Wizard to create an app for data migration between orgs.</p>
+      </note>
+      <p>Migrating data requires the following functions:</p>
+      <ul>
+         <li>Source Data provides a mapping mechanism for helping to migrate data between orgs.</li>
+         <li>It is combined with the Paste from Mapping menu option in runtime or Paste Source Data action function to copy data from an entire workbook to another workbook in the desired format.</li>
+      </ul>
+      <p>The most common use case for this is for migrating data from one instance to another far more easily and quickly than can be done with the traditional single object data loading tools. The source App is for downloading all the data you need to migrate. Each object can be represented in one worksheet for example. The target app is a replica of the source app except it is for uploading data to the target org. The Source Data function provides the mapping between the Apps.</p>
+      <p>You could also choose to create a more advanced single app that handles both the source download and target upload.  For this, you would need to make use of both the Switch Connection and Clear Actions as well.</p>
+   </conbody>
+</concept>

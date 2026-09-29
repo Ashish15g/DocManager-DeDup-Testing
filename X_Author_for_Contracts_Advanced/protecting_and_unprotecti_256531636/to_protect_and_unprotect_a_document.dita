@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ProtectingandUnprotectingaDocumentv20240711_Toprotectandunprotectadocument" xml:lang="en">
+   <title>To protect and unprotect a document</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and launch the X-Author for Contract Advanced add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>Open a contract document. For information on opening a contract document, see 
+<xref href="../opening_an_agreement_docu_256530555/256530555.dita" format="dita">Opening a Contract Document</xref>.</cmd>
+            <info>
+               <note type="note">
+                  <ul>
+                     <li>To display the Document Protection toggle, the document protection mode must be "Insert Comment and Track Changes Only" and "Read Only".</li>
+                     <li>If the document protection mode offers full access, the document has no document protection; hence the document protection toggle button is not displayed.</li>
+                  </ul>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>From the Contracts pane, click the Lock Status (<image placement="inline" width="16" href="../attachments/256531636/256531632.png" class="- topic/image "/>) button. This opens the Lock Status and Document Protection page where you can see the <uicontrol>Document Protection </uicontrol>toggle button.</cmd>
+         </step>
+         <step>
+            <cmd>When you open a read-only document and click the Lock Status button, the Document Protection toggle button is ON by default.</cmd>
+         </step>
+         <step>
+            <cmd>To edit the document, you must unprotect it. Click the Document Protection button to OFF. The new document opens in a new Microsoft Word instance in full access mode. All changes made to the document before unprotecting it are retained as redlines.</cmd>
+         </step>
+         <step>
+            <cmd>After editing the document, either directly check the document in or click the Lock Status button and switch the Document Protection to ON. The document opens again in a new Microsoft Word instance.</cmd>
+         </step>
+         <step>
+            <cmd>The latest document carries all changes you made in the earlier document, when the document was in full access mode. This document is now in read-only mode and you can check it in.</cmd>
+         </step>
+         <step>
+            <cmd>For more information on checking in documents, see 
+<xref href="../checking_in_an_agreement__256531714/256531714.dita" format="dita">Checking in a Contract Document</xref>.</cmd>
+            <info>
+               <note type="note">
+                  <p>During check-in, you must apply one of the following three options to the document:</p>
+                  <ul>
+                     <li>With Redlines</li>
+                     <li>Without Redlines</li>
+                     <li>Final - to be signed</li>
+                  </ul>
+                  <p>Whatever option you apply during check-in will be the final property applied to the final document even if it does not match the document protection mode available in the document.</p>
+               </note>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <p>Using this feature, you can protect and unprotect an agreement document without entering the password. This way, you can prevent sharing of passwords and unauthorized access to the document. To make the unprotect option available for a given Conga CLM user, set that user's xa_unprotectdocument custom permission to true. For more information on custom permissions, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/custom-permissions-253691491.html" format="html" scope="external">Custom Permissions</xref> in <i>CLM for Administrators</i>.</p>
+      </postreq>
+   </taskbody>
+</task>

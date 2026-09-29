@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d57aA" xml:lang="en">
+   <title>Comparing and Merging Agreement Documents</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p platform="conga">Using this feature you can compare or merge any two versions of a contract document. You can also compare or merge different versions of a contract document within the same contract record.</p>
+      <p platform="conga">
+         <b>Compare</b>: The comparison is done on the basis of Word's Legal Black lines compare functionality. Compare Legal Black Lines compares the documents and displays only what changed between the two documents. The documents being compared are not changed. This type of comparison is always displayed in a new third document, typically named Compare Result. Microsoft Word displays a new, third document in which tracked changes in the baseline document are accepted and changes in the selected document are shown as tracked changes. You can compare the different versions of a contract document within the same contract record. You can also compare different versions of a contract document within the same contract record generated using different templates.</p>
+      <p platform="conga">
+         <b>Merge</b>: Merging documents uses Word's Combine feature to merge selected documents. Merging documents can be advantageous if you have one version of the document that has been redlined, and a regenerated version in the latest format (dynamically inserted fields, new clauses, etc.). The original (pre-merged) documents are not changed. Merging the documents displays a new third document, named Merge Result. At this point, you can accept and reject any of the redlined elements in the combined document and check-in the document as a new version.</p>
+      <p platform="salesforce">Using this feature you can compare or merge any two versions of an
+         agreement document. You can also compare or merge different versions of an agreement
+         document within the same agreement record.</p>
+      <p platform="salesforce">
+         <b>Compare</b>: The comparison is done on the basis of Word's Legal Black lines compare
+         functionality. Compare Legal Black Lines compares the documents and displays only what
+         changed between the two documents. The documents being compared are not changed. This type
+         of comparison is always displayed in a new third document, typically named Compare Result.
+         Microsoft Word displays a new, third document in which tracked changes in the baseline
+         document are accepted and changes in the selected document are shown as tracked changes.
+         You can compare the different versions of an agreement document within the same contract
+         record. You can also compare different versions of a contract document within the same
+         agreement record generated using different templates.</p>
+      <p platform="salesforce">
+         <b>Merge</b>: Merging documents uses Word's Combine feature to merge selected documents.
+         Merging documents can be advantageous if you have one version of the document that has been
+         redlined, and a regenerated version in the latest format (dynamically inserted fields, new
+         clauses, etc.). The original (pre-merged) documents are not changed. Merging the documents
+         displays a new third document, named Merge Result. At this point, you can accept and reject
+         any of the redlined elements in the combined document and check-in the document as a new
+         version.</p>
+   </conbody>
+</concept>

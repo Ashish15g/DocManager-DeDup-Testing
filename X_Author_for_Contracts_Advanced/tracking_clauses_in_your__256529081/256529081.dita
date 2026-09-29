@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d369aA" xml:lang="en">
+   <title>Tracking Clauses in Your Agreement Document</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 18, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>The Clauses related list in the agreement record captures the clause activity for the associated agreement document during contract negotiation. You can open an agreement document in X-Author for Contracts Advanced and make changes to it by inserting, modifying or deleting the clauses. When you check-in that agreement document, new records are created in the Agreement Clauses related list that reflects these changes. With each change made to the clauses, either from Clause Library or to the new clause marked in an agreement document, you can see corresponding entries in the Agreement Clauses related list of your agreement record in the Conga CLM.</p>
+      <p>Agreement Clause activity is recorded in the related list during a negotiation when you insert, modify or delete a clause in the initial session or a subsequent session. A session can be defined as the time between opening a document in X-Author for Contracts Advanced and checking it in. You can insert, modify or delete the content of a clause in an agreement document by doing any of the following:</p>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>User action in X-Author for Contracts Advanced</p>
+                     </entry>
+                     <entry>
+                        <p>Trigger point in X-Author for Contracts Advanced</p>
+                     </entry>
+                     <entry>
+                        <p>Agreement Clauses - Action entry in Conga CLM</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                     <entry>
+                        <p>Original<i/>(after a document is generated)</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Check-out a document</p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Modify a smart clause</p>
+                     </entry>
+                     <entry>
+                        <p>Reconciliation</p>
+                     </entry>
+                     <entry>
+                        <p>Modified</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Delete a smart clause</p>
+                     </entry>
+                     <entry>
+                        <p>Reconciliation</p>
+                     </entry>
+                     <entry>
+                        <p>Deleted</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Insert clause as smart in an agreement</p>
+                     </entry>
+                     <entry>
+                        <p>Check-in with any save option</p>
+                     </entry>
+                     <entry>
+                        <p>Inserted</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Insert clause as text in an agreement</p>
+                     </entry>
+                     <entry>
+                        <p>Check-in with any save option</p>
+                     </entry>
+                     <entry>
+                        <p>InsertedAsText</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Modify smart fields in a smart clause</p>
+                     </entry>
+                     <entry>
+                        <p>Reconciliation</p>
+                     </entry>
+                     <entry>
+                        <p>FieldChangedOnly</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Check-in a document as Final</p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                     <entry>
+                        <p>NA </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

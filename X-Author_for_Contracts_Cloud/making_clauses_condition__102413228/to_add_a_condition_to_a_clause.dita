@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MakingClausesConditionbasedinaTemplate_Toaddaconditiontoaclause" xml:lang="en">
+   <title>To add a condition to a clause</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open the template in X-Author Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author Contracts and from the left-hand navigation select X-Author Templates.</cmd>
+         </step>
+         <step>
+            <cmd>In the X-Author Templates pane, go to <uicontrol>Work &gt; Template Clauses</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>The Template Clauses pane lists all the clauses present in your template. Select a clause from the list and click the gear icon <image height="20" placement="inline" width="20" href="../../global_images/images/256528177.png"/> next to the clause name.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Properties</uicontrol> pane, click <uicontrol>Add Condition</uicontrol> to open the template expression builder.</cmd>
+         </step>
+         <step>
+            <cmd>Create your condition expression in the <uicontrol>Make Conditional</uicontrol> page and click <uicontrol>Add</uicontrol>. For more information on how to create simple and complex condition expressions, refer to the <xref href="../template_expression_build_102413239/102413239.dita" format="dita">Expression Builder</xref> section.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Ok</uicontrol> to save the condition. The properties page now shows the condition that you created.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Your clause is made conditional and you will see a success message.</p>
+      </postreq>
+   </taskbody>
+</task>

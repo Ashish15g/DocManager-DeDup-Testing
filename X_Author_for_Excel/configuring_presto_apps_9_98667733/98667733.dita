@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d73aA" xml:lang="en">
+   <title>Configuring Presto Apps</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Oct 29, 2018"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="note">
+         <p>This feature is not supported in Microsoft Dynamics and Apttus Omni.</p>
+      </note>
+      <p>From Spring 2018 release, Presto version of X-Author for Excel utilizes full fledge SOQL Queries. Previously, advanced query filter configuration combined with a larger dataset would run into query issues, however, the query engine has now been unified to utilize the same core X-Author querying capabilities in Presto mode.</p>
+      <p>Supported Actions are:</p>
+      <ul>
+         <li>
+            <p>Query: User input is not supported. Cell Reference is now supported in combination with relational (hierarchical) query filters. </p>
+            <p>When using Query filters of type static use values without quotes. For example, ABCD. For query filters to work correctly remove the quotes around the value, save the action and save the app. For example, you should use ABCD instead of 'ABCD'.</p>
+         </li>
+         <li>
+            <p>Display: Display action now supports Display Filter Feature.</p>
+         </li>
+         <li>Search &amp; Select: User input is not supported.</li>
+         <li>Save Attachment: User input is not supported.</li>
+         <li>Add Row: User input is not supported.</li>
+         <li>Clear</li>
+         <li>Macro</li>
+         <li>Delete: User input is not supported.</li>
+      </ul>
+      <p>Presto, as usual, can be configured on the detail page. This feature maintains backward compatibility of all the presto apps that are currently used by you.</p>
+      <p>The procedure below outlines the custom settings required to configure Presto Apps.</p>
+      <ol>
+         <li>Go to <b>Setup &gt; Develop &gt; Custom Setting</b>. Look for DocGen System Properties. Click Manage.</li>
+         <li>
+            <p>Under this setting one entry must be created - If there are no records then click <b>New</b>. After clicking New, fill in the following details:</p>
+            <p>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Name</b>
+                              </p>
+                           </entry>
+                           <entry>
+                              <p>System Properties</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Merge Call Timeout Millis</b>
+                              </p>
+                           </entry>
+                           <entry>
+                              <p>60,000</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Merge Webservice Endpoint</b>
+                              </p>
+                           </entry>
+                           <entry>
+                              <p>
+                                 <xref href="https://ms.mergeapttuscloud.com/cgi-bin/mergeserver/bin/mmcgi.exe"
+                                       format="html"
+                                       scope="external">
+                                    <u>https://ms.mergeapttuscloud.com/cgi-bin/mergeserver/bin/mmcgi.exe</u>
+                                 </xref> (Production)</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </li>
+         <li>Go to <b>Setup &gt; Develop &gt; Custom Setting</b>. Look for X-Author For Excel System Properties. Click <b>Manage</b>.</li>
+         <li>
+            <p>Under this setting one entry needs to be created - If there are no records then click on <b>New</b>. Fill in the details as shown in the table below:</p>
+            <p>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Name</b>
+                              </p>
+                           </entry>
+                           <entry>
+                              <p>System Properties</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Instance Url</b>
+                              </p>
+                           </entry>
+                           <entry>
+                              <p>
+                                 <i>&lt;Instance Url for your Salesforce Org&gt;</i>
+                              </p>
+                              <p>For example: <xref href="https://na16.salesforce.com" format="html" scope="external">
+                                    <u>https://na16.salesforce.com</u>
+                                 </xref>
+                              </p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+            <note type="note">
+               <p>
+                  <i>If you see more fields under System Properties, keep them unchanged.</i>
+               </p>
+            </note>
+         </li>
+         <li>Go to <b>Setup &gt; Security Controls &gt; Remote Site Settings</b>.</li>
+         <li>
+            <p>Under this setting one entry needs to be created - if it doesn’t exist. Below are the details:</p>
+            <p>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Remote Site Name: </b>
+                              </p>
+                           </entry>
+                           <entry>
+                              <p>NewPresto OR you can specify any unique name</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Remote Site URL:</b>
+                              </p>
+                           </entry>
+                           <entry>
+                              <p>
+                                 <xref href="https://ms.mergeapttuscloud.com"
+                                       format="html"
+                                       scope="external">
+                                    <u>https://ms.mergeapttuscloud.com</u>
+                                 </xref>
+                              </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Disable Protocol Security</b>
+                              </p>
+                           </entry>
+                           <entry>
+                              <p>Unchecked</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>
+                                 <b>Active</b>
+                              </p>
+                           </entry>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </li>
+      </ol>
+   </conbody>
+</concept>

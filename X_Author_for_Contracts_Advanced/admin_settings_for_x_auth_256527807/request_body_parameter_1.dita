@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_AdminSettingsforXAuthorforContractsontheCongaPlatformv20240620_RequestBodyParameter1" xml:lang="en">
+   <title>Request Body Parameter</title>
+   <conbody>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Parameter Name</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                     <entry>
+                        <p>Default Value </p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Category</p>
+                     </entry>
+                     <entry>
+                        <p>This is a request body parameter. This refers to the category on which the system properties are being set. Since, these are custom permissions specific to X-Author, you need to enter category as X-Author.</p>
+                     </entry>
+                     <entry>
+                        <p>XAuthor</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Name</p>
+                     </entry>
+                     <entry>
+                        <p>This is a request body parameter. This refers to the name of the property.</p>
+                     </entry>
+                     <entry>
+                        <p>SystemProperties</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>Pass the following field values on the Value parameter.</p>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>System Property</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                     <entry>
+                        <p>Default value</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>AutoEnablePDFForFinalDocs</p>
+                     </entry>
+                     <entry>
+                        <p>Set this parameter to <b>True </b>to make sure the Create PDF Attachment checkbox is always selected when you choose to save as Final - to be signed from the check-in dialog. This field is used when you want to finalize a contract document.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AllowPDFSelectionOverride</p>
+                     </entry>
+                     <entry>
+                        <p>Set this parameter to <b>True t</b>o override PDF selection. This is applicable when Auto Enable PDF For Final Docs is selected.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AutoEnableReconciliation</p>
+                     </entry>
+                     <entry>
+                        <p>Set this parameter to <b>True </b>and the Reconcile Document option is always selected when you go to check-in a contract document.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AllowReconcileSelectionOverride</p>
+                     </entry>
+                     <entry>
+                        <p>The following applies when you set this parameter to <b>True</b>. This is only applicable when Auto Enable Reconciliation is selected.<ul>
+                              <li>If Auto Enable Reconciliation is True and Allow Reconciliation Selection Override is True, the <b>Reconcile</b> checkbox is by default selected on check-in. The user can also deselect (override) the <b>Reconcile</b> button.</li>
+                              <li>If Auto Enable Reconciliation is True and Allow Reconciliation Selection Override is False, the <b>Reconcile</b> checkbox is by default selected on check-in. The user cannot deselect (override) the <b>Reconcile</b> button.</li>
+                              <li>If Auto Enable Reconciliation is False, the user can select or deselect the <b>Reconcile</b> checkbox on check-in. However, the <b>Reconcile</b> checkbox is disabled if there is no smart field in the contract document.</li>
+                           </ul>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AutoEnablePrivateIndicator</p>
+                     </entry>
+                     <entry>
+                        <p>Set this parameter to <b>True </b>if you want to auto-enable private indicator for documents. If set to True, the Make this document private checkbox for any contract document is auto-selected.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AllowPrivateSelectionOverride</p>
+                     </entry>
+                     <entry>
+                        <p>Set this parameter to <b>True </b>if you want allow the user to override the private document selection. This setting is applicable only when the <b>Auto Enable Private Indicator</b> is selected for documents.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>RestrictCheckinDocuments</p>
+                     </entry>
+                     <entry>
+                        <p>Set this parameter to <b>True </b>if you want restrict documents under certain Status Category and Statuses for which Check-in and Check-out actions will be restricted.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AllowRegenerate</p>
+                     </entry>
+                     <entry>
+                        <p>Set this parameter to <b>True </b>if you want display the <b>Regenerate </b>button on the X-Author toolbar.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>UnlockSmartElements</p>
+                     </entry>
+                     <entry>
+                        <p>Set this parameter to <b>True </b>and the user can delete smart elements from the generated document.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AutoEnableAsynchronousCheckin</p>
+                     </entry>
+                     <entry>
+                        <p>Set this parameter to <b>True </b>to auto-select the Asynchronous Check-in checkbox available on the X-Author Contracts Check-in pop-up window.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AsynchronousCheckinRecipient</p>
+                     </entry>
+                     <entry>
+                        <p>Set this parameter to <b>True </b>to enter a recipient role (Contract Owner, Logged in XAC user or Both) to receive Asynchronous Check-in email notification.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>HideContentControlBorder</p>
+                     </entry>
+                     <entry>
+                        <p>Set this parameter to <b>True </b>to hide smart boundaries (for smart fields and clauses) in generated documents.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>AllowHighlightFields</p>
+                     </entry>
+                     <entry>
+                        <p>Set this parameter to <b>True </b>to highlight all the fields inserted in the document.</p>
+                     </entry>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>XAAddInLoadType</p>
+                     </entry>
+                     <entry>
+                        <p>Select a load type for the X-Author for Contracts add-in.</p>
+                        <ul>
+                           <li>Select Centralized if users install the X-Author for Contracts 2.0 add-in using Centralized Deployment through the Office 365 Admin Center.</li>
+                           <li>Select Appsource if users access the X-Author for Contracts 2.0 add-in through the Microsoft Store.</li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <p>2</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d97aA" xml:lang="en">
+   <title>Creating Apps with Quick Apps</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <note type="note">
+         <p>
+            <b>Prerequisite</b>
+         </p>
+         <p>Before you can create an app, you must connect to your environment instance that is configured for X-Author for Excel. For information on configuring and connecting to your environment, refer to <xref href="../getting_started_with_x_au_98667661/98667661.dita"
+                  format="dita">Getting Started with X-Author for Excel</xref>.</p>
+      </note>
+      <p>Use the <b>Quick App</b> wizard when you need to create a simple single object list on its own (for example, Opportunities) or a list filtered by a parent object (for example, Opportunities by Account).</p>
+      <p>The Quick App produces a complete, ready to run app that includes:</p>
+      <ul>
+         <li>Two objects (maximum).</li>
+         <li>One Display Map, one Save Map, two Action Flows (Data Retrieve and Save), and two User Menus (Retrieve and Save).  No additional components are available.  The Quick App functionality equates to the X-Author Essentials license.  A Quick App can be edited using the Quick App editing function but if a Quick App is opened and customized using the full Designer, it can no longer be an X-Author Essentials app.</li>
+      </ul>
+      <p>Follow the step-by-step instructions in the next two sections to create either a single-object or parent-child Quick App.</p>
+      <p>
+         <ul>
+            <li>
+               <xref href="to_create_a_single_object_app.dita#CreatingAppswithQuickAppsTocreateaSingleObjectapp">To create a Single Object app</xref>
+            </li>
+            <li>
+               <xref href="to_create_a_parent_child_app.dita#CreatingAppswithQuickAppsTocreateaParentChildapp">To create a Parent Child app</xref>
+            </li>
+         </ul>
+      </p>
+   </conbody>
+</concept>

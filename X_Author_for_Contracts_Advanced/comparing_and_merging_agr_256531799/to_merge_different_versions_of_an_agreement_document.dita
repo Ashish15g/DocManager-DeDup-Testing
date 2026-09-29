@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ComparingandMergingAgreementDocumentsv20240711_Tomergedifferentversionsofanagreementdocument" xml:lang="en">
+   <title>To merge different versions of an agreement document</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced and open the Agreement Document.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane<uicontrol> </uicontrol>go to<uicontrol> </uicontrol>Work &gt; Compare. If you cannot see Compare under the Work tab, click the More icon (<image placement="inline" width="20" href="../attachments/256531799/256531798.png" class="- topic/image "/>) and from the menu, select <uicontrol>Compare</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>To merge different agreement versions from the same contract record, select a version in Select a version to compare or merge from and then a different version from Select a version to compare or merge with and click <uicontrol>Merge. </uicontrol>
+            </cmd>
+            <info>
+               <p>The document is opened in a new Microsoft Word instance. A new document is downloaded in the <i>Insert Comments and Track Changes </i>mode. It contains the changes of the two versions, in which changes in both the documents are shown as tracked changes. If both versions have changes in the same smart field, the changes in the revised version are retained. The document is locked and you will be able to Preview Reconcile, Mark Clause, Mark Field, Update from CLM, Validate Fields, Update Fields, Update Clauses and Promote Clause.</p>
+               <note type="note">
+                  <p> Note that if the xa_disableautocheckout profile permission is set to true in Conga CLM, after comparing the documents, you will only see the confirmation message. The document will not open in a new instance. For more information on disabling auto check out, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/assigning-master-profile-and-custom-profile-permissions-to-user-profiles-231212372.html" format="html" scope="external">Assigning Custom Permissions to User Profiles</xref>.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Unprotect the document. For more information on un protecting the document, see 
+<xref href="../locking_and_unlocking_doc_256531630/256531630.dita" format="dita">Locking and Unlocking Documents</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>Right-click comment and select Accept Change or Reject Change based on your requirement.</cmd>
+         </step>
+         <step>
+            <cmd>You can make the required changes and check in the document to create a new version of the agreement document.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

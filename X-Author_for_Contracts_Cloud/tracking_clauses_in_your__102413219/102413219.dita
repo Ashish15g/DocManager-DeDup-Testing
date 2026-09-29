@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan887" xml:lang="en">
+   <title>Tracking Clauses in your Agreement Document</title>
+   <prolog>
+      <author>Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Contracts for Cloud on Salesforce Summer 2019 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>The <b>Clauses </b>related list on the Agreement record captures the clause activity for associated agreement documents during contract negotiation. You can open an agreement document in X-Author and make changes to it by inserting, modifying or deleting clauses. When you check-in that agreement document, new records are created in the <b>Agreement Clauses</b> Related List that reflect these changes. With each change made to the clauses, either from Playbook or to the new clause marked in an agreement document, you can see corresponding entries in the Agreement Clauses Related List of your agreement record in the Apttus CLM.</p>
+      <p>Agreement Clause activity is recorded in the related list during negotiation when you insert, modify or delete a clause in the initial session or a subsequent session. A session can be defined as the time between opening a document and checking it in. You can insert, modify or delete the content of a clause in an agreement document by doing any of the following:</p>
+      <ul>
+         <li>Inserting the clause from Playbook.</li>
+         <li>Deleting a clause by marking it for deletion.</li>
+      </ul>
+      <p>In the Agreement Clauses related list available for each agreement record, you can view the following changes in the agreement clauses as a result of the above mentioned actions with subsequent Check-In actions.</p>
+      <ul>
+         <li>For insert clause action, creates a single record with comment Inserted clause '&lt;Clause Name&gt;'.</li>
+         <li>For any other action like deleting a clause, a single entry with clause number and no comments are created.</li>
+      </ul>
+      <note type="note">
+         <p>After the agreement document is generated and checked out for the first time, a record is created in the Related List for all smart clauses present in the generated document with the <b>Action</b> as <i>Original</i>.</p>
+         <p>When you check in an agreement document as Final, the <b>Action</b> status of the smart clauses in the document is recorded as <i>Final.</i>
+         </p>
+      </note>
+      <p>The precedence for the value of clause's <b>Action</b> field is as follows,</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>User Action</p>
+                     </entry>
+                     <entry>
+                        <p>Action Column Status</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>If you insert a clause in the document</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <i>Inserted clause '&lt;Clause Name&gt;'</i>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>If you mark a clause in a document</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <i>Inserted clause '&lt;Clause Name&gt;'</i>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>If you edit the clause text, the value of the field inside a clause, and the user added comment</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <i>Modified</i>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>If you edit the clause text, and the value of the field inside a clause</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <i>Modified</i>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>If you edit the clause text and Add/ Update the comment</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <i>Modified</i>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>If you edit the value of the field inside a clause</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <i>FieldChangeOnly</i>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

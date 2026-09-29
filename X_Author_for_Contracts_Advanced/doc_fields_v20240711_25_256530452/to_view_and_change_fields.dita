@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_DocFieldsv20240711_viewchange" xml:lang="en">
+   <title>To view and change fields</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and launch the X-Author for Contracts Advanced add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, go to Work &gt; Doc Fields. If you do not see Doc Fields under the Work tab, click the More icon from the menu, and select <uicontrol>Doc Fields</uicontrol>. The list of available doc fields in the document is displayed.</cmd>
+         </step>
+         <step>
+            <cmd>In case there are any read-only doc fields(Doc fields that are marked as read-only while creating the template), there is a lock icon (<image placement="inline" width="16" href="../attachments/256530452/256530404.png" class="- topic/image "/>) displayed against the doc field name.</cmd>
+         </step>
+         <step>
+            <cmd>Click the Filter icon (<image placement="inline" width="16" href="../attachments/256530452/256530405.png" class="- topic/image "/>) to expose drop-down menus that can help you to refine your search according to <uicontrol>All Fields </uicontrol>Type, <uicontrol>Modified Fields, </uicontrol>or <uicontrol>Marked for Delete</uicontrol>. </cmd>
+            <info>
+               <ul>
+                  <li>The All Clauses filter displays all of your clauses.</li>
+                  <li>The Modified Clauses filter only displays clauses you have modified.</li>
+                  <li>The Marked for Delete filter only displays clauses you have marked for deletion.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Under modified fields, the fields are displayed in a list in the order they appear in the document. The Previous (as of last check-in), CLM, and Current (document), values are displayed. The current values are in red to indicate any changes made to the doc field.</cmd>
+         </step>
+         <step>
+            <cmd>Click a field in the list to highlight the field in the document.</cmd>
+         </step>
+         <step>
+            <cmd>To change the current value of a field, place your cursor in the field's content control in the document, and make changes. To view the updated field value in the Doc Fields list, click some other tab and then click back the Doc Fields tab.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Validate</uicontrol> to confirm that the new field value is valid for its corresponding data type.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <ul>
+               <li>The changed field values are updated in the contract document upon check-in. If you choose to reconcile fields during check-in, they will also be changed on the contract record.</li>
+               <li>Clauses and fields deleted by your keyboard will not included in the Marked for Delete filter.</li>
+            </ul>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

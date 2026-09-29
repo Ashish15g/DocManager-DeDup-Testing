@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_PreviewReconciliationv20240620_Topreviewreconciliation" xml:lang="en">
+   <title>To preview reconciliation</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and launch the X-Author for Contracts Advanced add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, go to Work &gt; Preview Reconcile. If you do not see Preview Reconcile under the Work tab, click the More icon (<image placement="inline" width="16" href="../attachments/256528528/256528523.png" class="- topic/image "/>) and from the menu, select Preview Reconcile.</cmd>
+            <info>
+               <ul>
+                  <li>The Preview Reconcile tab displays all the modified smart fields, modified marked fields, fields marked for removal, and new marked fields. Review the CLM Value and Current Value of the changed smart fields in your document.</li>
+                  <li>If multiple values are invalid, the screen displays an error and a list of fields that need correction with the invalid values displayed in red. Click on a field to go to that field in your document. The selected field is also highlighted in the document. After you make your correction, click on the refresh icon in the upper right of the pane to remove that field from the list.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+            <info>
+               <note type="note">
+                  <p>If you have only one change in the contract document, the Cancel button is displayed instead of the Next button.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>The Preview Reconcile tab displays the modified smart clauses, marked clauses, inserted clauses, and clauses marked for deletion. Clauses which have multiple occurrences of modified content are grouped together in lists that can be expanded or collapsed to view. Clauses with only a single occurrence of modified content will not be grouped. You can expand each clause to review the Original and Edited content of the clause.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Back </uicontrol>to navigate to the previous screen.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

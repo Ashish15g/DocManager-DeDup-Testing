@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="EnablingandUsingFavoriteFiltersinQueries_ToaddanewFavoriteFilter"
+      xml:lang="en">
+   <title>To add a new Favorite Filter</title>
+   <taskbody>
+      <context>
+         <p>When a Search &amp; Select or Query action executes that requires input from the runtime user, and Favorite Filters are enabled, the user can create a filter as normal and add it as a new, reusabled filter.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Open an app and retrieve data that requires user input (Search &amp; Select or Query screen).</cmd>
+         </step>
+         <step>
+            <cmd>From the action window, search for and filter the list of retrieved data. </cmd>
+            <info>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/98667732/190354585.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click on the Favorite Filter drop-down and select <uicontrol>Add...</uicontrol>
+            </cmd>
+            <info>
+               <fig>
+                  <image height="157"
+                         placement="break"
+                         width="392"
+                         href="../attachments/98667732/98667926.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>In the Add Filter dialog, enter a name for your Favorite Filter and click <uicontrol>OK</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the new filter from the drop-down. Your filter is now saved and can be reused for any enabled action.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

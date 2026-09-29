@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="AddingLookupstoyourDataMigrationAppToaddLookupFieldstoyourApp"
+      xml:lang="en">
+   <title>To add Lookup Fields to your App</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the Data Migration screen, click on <uicontrol>Add Lookups.</uicontrol>
+            </cmd>
+            <info>
+               <fig>
+                  <image height="226"
+                         placement="break"
+                         width="431"
+                         href="../attachments/98667710/98667770.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Navigate the Object/Field tree and select a check box to add one or more Lookup fields to your app. Click the check box next to an Object name to select all Lookup fields for that Object. Fields that have already been added to your app are not displayed.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add </uicontrol>to add all selected Lookup fields to your app.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>OK</uicontrol>. The Lookup fields are added to all related Objects in the app. When Lookup fields are added:</cmd>
+            <info>
+               <ul>
+                  <li>
+                     <p>Each affected Object displays the number of Lookup fields that will be migrated when the app is run.</p>
+                  </li>
+                  <li>Fields representing the Lookup fields are added to the Object under the "Fields" column.</li>
+                  <li>You can click on the link under the "Lookups" column to view all Lookup fields added for a specific Object.</li>
+                  <li>The Object sequence is automatically adjusted based on Lookup relationship between Objects (the sequence for dependent Objects are changed).</li>
+                  <li>A filter (see below) is automatically created for the Object. <uicontrol>Do not remove this filter or you will encounter errors during migration.</uicontrol>
+                  </li>
+               </ul>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

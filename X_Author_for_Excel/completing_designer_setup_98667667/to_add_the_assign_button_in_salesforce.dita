@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CompletingDesignerSetupinSalesforce_ToaddtheAssignbuttoninSalesforce"
+      xml:lang="en">
+   <title>To add the Assign button in Salesforce</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <uicontrol>Setup &gt; App Setup &gt; Create &gt; Objects</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>App</uicontrol> object.</cmd>
+         </step>
+         <step>
+            <cmd>Hover over the <uicontrol>Page Layouts</uicontrol> button (located at the top of the page) and click <uicontrol>Edit</uicontrol> next to Application Layout.
+               </cmd>
+            <info>
+               <p>
+                  <image placement="inline" href="../attachments/98667667/98668053.png"/>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>In the left panel, click <uicontrol>Buttons</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>If the <uicontrol>Assign</uicontrol> button is not displayed as shown in the following figure, you will need to add it for designers.
+               </cmd>
+            <info>
+               <p>
+                  <image placement="inline" href="../attachments/98667667/98668052.png"/>
+               </p>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>Add the assign button to the layout that leads you to the user profile page.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

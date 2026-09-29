@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MigratingDataBetweenOrgs_TouseSourceDatatomigratedata"
+      xml:lang="en">
+   <title>To use Source Data to migrate data</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open the source App in X-Author Designer and make a note of the starting cell location for each range of data that needs to be copied.</cmd>
+         </step>
+         <step>
+            <cmd>Click <menucascade>
+                  <uicontrol>File </uicontrol>
+                  <uicontrol> Save As</uicontrol>
+               </menucascade> and save the file to your local drive. Use any file name.</cmd>
+         </step>
+         <step>
+            <cmd>Open the target App in X-Author Designer and click <uicontrol>Source Data</uicontrol> on the menu. </cmd>
+            <info>
+               <fig>
+                  <image height="73"
+                         placement="break"
+                         width="121"
+                         href="../attachments/98667703/98667789.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Source Excel Sheet</uicontrol>, locate the file above and click <uicontrol>Open</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Use the drop-down menu under <uicontrol>Source Sheet</uicontrol> to select a worksheet.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Source Range</uicontrol> enter in the starting range cell location for that worksheet.</cmd>
+         </step>
+         <step>
+            <cmd>Use the drop-down menu under <uicontrol>Target Sheet</uicontrol> to select a worksheet.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Target Range</uicontrol> enter in the starting range cell location for that worksheet.</cmd>
+         </step>
+         <step>
+            <cmd>Repeat these steps for each of the other worksheets.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>The starting cell in the Target Range must be one row below where you have your fields mapped.  So if you have all fields mapped in A3:J3 for example, the Target Range would be A4.</p>
+            <p>The Paste from mapping function in runtime will copy all data in the list range from the source based on the source range starting location. For example, if you have a data range from A3:J3, it will copy all cells in that range into the target App.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

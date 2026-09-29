@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InsertingFieldsinaTemplateasaSectionv20240620_Toinsertfieldsinatemplateasasection1" xml:lang="en">
+   <title>To insert fields in a template as a section</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open a template in X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Work tab, click <uicontrol>Fields. </uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Place the cursor in the section of the template text, where you want to insert a field and click Insert Field. This open the Insert Fields dialog box.</cmd>
+         </step>
+         <step>
+            <cmd>On the<uicontrol/>Insert Field popup, select an object (For example, "Agreement") from the left column.</cmd>
+         </step>
+         <step>
+            <cmd>To search a field related to the selected object in the right column, enter a keyword and click the Search icon (<image placement="inline" width="20" href="../attachments/256528192/256528180.png" class="- topic/image "/>) or press enter.</cmd>
+         </step>
+         <step>
+            <cmd>On Mac: in the window to the right, hold command and select one or more fields from the list. On Windows: hold Ctrl (keyboard key) and select the fields.</cmd>
+            <info>
+               <note type="note">
+                  <p>Fields are inserted one below the other based on the order you select. Do not move your cursor when the fields are being inserted.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click the Insert as a Section radio button<uicontrol>. </uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Insert</uicontrol>. A repeat section is inserted into your template with each field displayed one below the other.</cmd>
+         </step>
+         <step>
+            <cmd>To search inserted fields:</cmd>
+            <info>
+               <ol>
+                  <li>Navigate to the Fields tab. This displays the Repeat Section (object name) and the fields in the repeat section.</li>
+                  <li>Enter the field name in the search field and click the Search icon (<image placement="inline" width="16" href="../attachments/256528192/256528181.png" class="- topic/image "/>).</li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>To make an inserted field smart field or read-only:</cmd>
+            <info>
+               <ol>
+                  <li>Click the<uicontrol/>Settings icon (<image placement="inline" width="20" href="../../global_images/images/256529252.png" class="- topic/image "/>) adjacent to the selected field name to open the Settings page.</li>
+                  <li>Toggle the<uicontrol/>Smart Field or Read-Only Field<uicontrol/>switch based on your requirement and click <uicontrol>Save</uicontrol>.</li>
+               </ol>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="SyncingAppsToviewandsyncmissingorinaccessibleobjects" xml:lang="en">
+   <title>To view and sync missing or inaccessible objects</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>From the X-Author Designer ribbon, open the app you want to sync.</cmd>
+         </step>
+         <step>
+            <cmd>From the Admin section of the X-Author Designer ribbon, click <uicontrol>Sync App</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="125"
+                         placement="break"
+                         width="328"
+                         href="../attachments/98667713/98667778.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Review the Sync App summary. Click the link next to Objects in the Summary or on <uicontrol># Objects</uicontrol> in the sidebar.</cmd>
+         </step>
+         <step>
+            <cmd>Review the Missing or Inaccessible Objects screen. This screen displays a list of Object Names and Ids that exist in your app but do not match objects in the connected instance (either because they do not exist or you do not have access). The total number of object mismatches is displayed in the Sync App dialog sidebar (for example, "2 Objects").</cmd>
+         </step>
+         <step>
+            <cmd>To sync your app with your environment, you must <uicontrol>manually remove the objects from your app</uicontrol> (using Objects) or add them in your environment. If you determine that an object was displayed due to a permissions issue, an administrator must modify permissions for the specified object.</cmd>
+            <info>
+               <note type="warning">
+                  <p>It is strongly advised to sync fields before manually removing any objects from your app, as fields from the object you want to remove may be used in Display Maps, Save Maps or Search and Query filters (see below).</p>
+               </note>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

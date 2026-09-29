@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="WorkingwithSaveMaps_Updates" xml:lang="en">
+   <title>Updates</title>
+   <conbody>
+      <p>Save Maps can be designed to update records in your environment in three ways:</p>
+      <ul>
+         <li>
+            <p>Records were retrieved from your environment and the data from one or more fields in that record were placed on the worksheet through a Display Map. Using the <b>Add</b>
+               <uicontrol>Display Map Fields</uicontrol> function in a Save Map, user modifications to any cell can be updated on the record. </p>
+         </li>
+         <li>Using the <b>Add Other Fields</b> function to save data from one or more fields that were not retrieved from your environment. It is not recommended to update fields to the environment using this function, but if you do update in this way, you must always include a Record ID in the same row as the fields you are updating.</li>
+         <li>
+            <p>Using the <b>Add Matrix Map Section</b> function in a Save Map, modifications to matrix map sections can be updated on the record.</p>
+            <note type="note">
+               <p>Add Matrix Map Section is not supported in Apttus Omni.</p>
+            </note>
+         </li>
+      </ul>
+   </conbody>
+</concept>

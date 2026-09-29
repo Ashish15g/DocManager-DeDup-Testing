@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="MigratingTemplates_Tomigratetemplatesbetweenorgs" xml:lang="en">
+   <title>To migrate templates between orgs</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to the Windows <uicontrol>Start </uicontrol>menu and select <uicontrol>Apttus &gt; X-Author Migration Manager</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Create a new migration configuration </uicontrol>and proceed to <i>Step 3</i>.- OR -Select <uicontrol>Use an existing migration configuration</uicontrol>, click <image height="16" placement="inline" width="25" href="../attachments/102415193/102415226.png"/> to browse to and open an existing upgrade XML file from a previous migration, and proceed to <i>Step 6</i>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>, select <uicontrol>Migrate Templates from one Org to another </uicontrol>and click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Source Org </uicontrol>panel, click <uicontrol>Authorize </uicontrol>to display the Manage Connections window. The listed available connections are those you have already configured on your machine, via either X-Author Migration Manager or X-Author Contracts</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Connect</uicontrol> to choose the source org.</cmd>
+            <info>
+               <p>- OR -</p>
+               <p>Enter a new connection name and Login URL and click <uicontrol>Authorize</uicontrol>.</p>
+               <p>If the above action is successful, the Manage Connections window closes and returns you to the X-Author Migration Configuration Wizard. If you do not connect successfully, verify that you have entered the correct username and URL. If the orgs do not have the required version of Contract Management installed, a message is displayed indicating that you must update your org before the migration process can be run.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>T</uicontrol>
+               <uicontrol>arget Org </uicontrol>panel, click <uicontrol>Authorize </uicontrol>to display the Manage Connection Window.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Connect </uicontrol>to choose the target org.</cmd>
+            <info>
+               <p>- OR -</p>
+               <p>Enter a new connection name and Login URL and click <uicontrol>Authorize</uicontrol>.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>(Optional) Select <uicontrol>Show mapping of fields page</uicontrol>, and click <uicontrol>Next </uicontrol>to display the Mapping Fields page. If you choose not to show mappings, the default mapping of known fields will be used. The Map field page displays the header-level Template fields for the source and the target orgs. It includes the name of the field and what type it is. Use the <uicontrol>Remove Mapping </uicontrol>link to remove default mappings (not recommended).</cmd>
+            <info>
+               <fig>
+                  <image placement="break" width="650" href="../attachments/102415193/102429204.jpg"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next </uicontrol>to display the Template Filter page.</cmd>
+         </step>
+         <step>
+            <cmd>Using the header-level Template fields for criteria, create expressions to filter which templates are included as part of the migration process.</cmd>
+            <info>
+               <note type="note">
+                  <p>You must include at least one filter and can have up to a maximum of six filter rows. The relationship between the rows can only be AND. This means additional rows will make the results more restrictive. The operators (not equal to, includes, contains, etc...) are contextually based on the field you select.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next </uicontrol>to display the Filter Criteria result page and review the templates and clause templates to be included in the migration. For those templates that reference them, click [+] to display the child and grandchild clauses that are automatically included in the migration. Select a template to display its properties. Click <uicontrol>Back </uicontrol>to make any necessary changes to your filter criteria.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next </uicontrol>to display the Migration Summary page.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save </uicontrol>to save this migration configuration for future use. This does not save the org details or login credentials.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Finish </uicontrol>to begin the template migration. The migration runs and displays the progress for each template that is updated.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to the target org to confirm all templates were migrated as expected. Consult the log file for details or to troubleshoot templates that were not successfully migrated.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

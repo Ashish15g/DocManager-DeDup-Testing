@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="LaunchinganXAuthorforExcelAppfromMicrosoftDynamicsLaunchingtheAppfromDynamics"
+         xml:lang="en">
+   <title>Launching the App from Dynamics</title>
+   <conbody>
+      <p>After the button is created and your app is properly configured, you can find it under <b>Forms</b> on the page for the record you are viewing.</p>
+      <p>To launch your app:</p>
+      <ol>
+         <li>
+            <p>From the ribbon at the top of the record page, click on the drop down and select your button.<fig>
+                  <image height="250"
+                         placement="break"
+                         width="535"
+                         href="../attachments/98667729/98668042.png"/>
+               </fig>
+            </p>
+            <note type="note">
+               <p>Depending on privacy settings in your browser, you may be prompted to open the URL to launch Excel. Click <b>Open </b>to continue.</p>
+            </note>
+         </li>
+         <li>Microsoft Excel opens and present you with a login screen. Log in to your Dynamics org to continue.<p>
+               The app opens and auto-executes the action flow identified in the app design.</p>
+         </li>
+      </ol>
+   </conbody>
+</concept>

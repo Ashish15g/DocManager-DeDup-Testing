@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ConnectingtoXAuthorChatterOnlineToLaunchXAuthorChatterOnlineandLoadtheAddIn" xml:lang="en">
+   <title>To Launch X-Author Chatter Online and Load the Add-In</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open the following link in your browser: <xref
+                  href="https://xauthor.cloudapp.net/XAChatterOnline" format="html" scope="external"
+                  >https://xauthor.cloudapp.net/XAChatterOnline</xref>.</cmd>
+            <stepresult>
+               <p> You will see the following screen:</p>
+               <p>/screenshot/</p>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Open the following link in a <b>new tab</b>: <xref
+                  href="https://xauthor.sharepoint.com/sites/xatest" format="html" scope="external"
+                  >https://xauthor.sharepoint.com/sites/xatest</xref>. </cmd>
+            <stepresult>
+               <p>The Microsoft Office 365 sign-in screen is displayed.</p>
+               <p>/screenshot/</p>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Enter login information for your Microsoft Office account and click <uicontrol>Sign
+                  in</uicontrol>. </cmd>
+            <stepresult>
+               <p>The app catalog page is displayed.</p>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>Click on the grid button in the upper-left-hand corner of the page and select the application you want to use (Excel is used in this example).</cmd>
+         </step>
+         <step>
+            <cmd>Create a new document or open an existing document. </cmd>
+         </step>
+         <step>
+            <cmd>From the Insert menu, click the <uicontrol>Office Add-ins </uicontrol>button.</cmd>
+            <info>
+               <p>/screenshot/</p>
+            </info>
+         </step>
+         <step>
+            <cmd>From the My Organizations tab, choose the <uicontrol>Ink</uicontrol> (Chatter)
+               add-in and click <uicontrol>Insert</uicontrol>. </cmd>
+            <stepresult>
+               <p>The X-Author Chatter task pane is displayed to the right of your document.</p>
+               <p>/screenshot/</p>
+            </stepresult>
+         </step>
+         <step>
+            <cmd>From the task pane, click <uicontrol>Connect to Salesforce</uicontrol>. </cmd>
+         </step>
+         <step>
+            <cmd>Enter your Salesforce login credentials and click <uicontrol>Log In</uicontrol>. After successful login the task pane refreshes to display your default Chatter feed. You are ready to use X-Author Chatter with your document.</cmd>
+            <info>
+               <p>/screenshot/</p>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

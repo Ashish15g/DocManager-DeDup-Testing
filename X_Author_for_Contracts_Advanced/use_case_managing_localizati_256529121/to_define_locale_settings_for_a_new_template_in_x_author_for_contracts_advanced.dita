@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_UseCaseManagingLocalizationv20240620_TodefinelocalesettingsforanewtemplateinX_AuthorforContractsAdvanced" xml:lang="en">
+   <title>To define locale settings for a new template in X-Author for Contracts Advanced</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and click <uicontrol>Connect </uicontrol>on the Templates or Contracts and select <uicontrol>Manage Connections</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Create a new connection section, enter a name for the connection and enter the host URL of your CRM in the Login URL field. The login URL is the URL of the CRM with which you want to connect.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Templates tab</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>New</uicontrol>. The Specify Template Attributes dialog opens.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the following values in the fields and then click <uicontrol>OK</uicontrol>. </cmd>
+            <info>
+               <ol>
+                  <li>
+                     <uicontrol>Type</uicontrol>: Select Agreement</li>
+                  <li>
+                     <uicontrol>Business Object</uicontrol>: Select Apttus__APTS_Agreement__c</li>
+                  <li>
+                     <uicontrol>Locale</uicontrol>: Select Japanese</li>
+                  <li>
+                     <uicontrol>Enable</uicontrol>
+                     <uicontrol>Formatting</uicontrol>: Select the checkbox</li>
+                  <li>
+                     <uicontrol>Date</uicontrol>
+                     <uicontrol>Format</uicontrol>: Select yyyy'年'M月'd'日'</li>
+                  <li>
+                     <uicontrol>Currency</uicontrol>
+                     <uicontrol>Format</uicontrol>: Select Currency Symbol</li>
+                  <li>
+                     <uicontrol>Number</uicontrol>
+                     <uicontrol>Precision</uicontrol>: Enter 2</li>
+                  <li>
+                     <uicontrol>Currency</uicontrol>
+                     <uicontrol>Precision</uicontrol>: Enter 2</li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>Navigate to Templates tab.</cmd>
+         </step>
+         <step>
+            <cmd>Paste the following content in the document:</cmd>
+            <info>
+               <pre xml:space="preserve">This Master Service Agreement "Agreement" with XYZ corporation and has a start date of "Agreement Start Date".</pre>
+            </info>
+         </step>
+         <step>
+            <cmd>Select Agreement in the content and click <uicontrol>Insert Fields</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select Agreement Name and click <uicontrol>Finish</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select Agreement Start Date in the content and click <uicontrol>Insert Fields</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select Agreement Start Date and click <uicontrol>Finish</uicontrol>. Mark the Agreement Start Date field as smart.</cmd>
+            <info>
+               <note type="tip">
+                  <p>Tip</p>
+                  <p>The Control Panel shows all the field present in the template and when you select a field the Properties pane is displayed under the Navigation pane of the Control Panel. From the Properties pane, under Display Attributes, you can change or define the format for Number, Currency, and Date fields.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Check-In.</uicontrol>
+            </cmd>
+            <info>
+               <note type="tip">
+                  <p>Tip</p>
+                  <p>You can change the locale of a template in the check-in window.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter the following values in the fields:</cmd>
+            <info>
+               <ol>
+                  <li>
+                     <uicontrol>Name</uicontrol>: Enter JLocale</li>
+                  <li>
+                     <uicontrol>Agreement</uicontrol>
+                     <uicontrol>Types</uicontrol>: Select Corporate</li>
+                  <li>
+                     <uicontrol>Category</uicontrol>: Select Category</li>
+                  <li>
+                     <uicontrol>Subcategory</uicontrol>: Select Subcategory</li>
+                  <li>
+                     <uicontrol>Language</uicontrol>: Select Japanese</li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Check-In.</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Log into the Conga CLM application.</cmd>
+         </step>
+         <step>
+            <cmd>Navigate to the Agreements tab, and click <uicontrol>New</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select Corporate from the Record Type of new record and click <uicontrol>Continue</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the following values in the fields:</cmd>
+            <info>
+               <ol>
+                  <li>
+                     <uicontrol>Agreement</uicontrol>
+                     <uicontrol>Name</uicontrol>: Enter JAgreement</li>
+                  <li>
+                     <uicontrol>Agreement</uicontrol>
+                     <uicontrol>Start</uicontrol>
+                     <uicontrol>Date</uicontrol>: Select 5/20/2019</li>
+                  <li>
+                     <uicontrol>Account</uicontrol>: Acc</li>
+               </ol>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Continue </uicontrol>and click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select JLocale as the template and click <uicontrol>Generate</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Open the generated document in X-Author for Contracts. The locale settings in the document are inherited from the template.</cmd>
+         </step>
+         <step>
+            <cmd>Change the agreement start date to 2020年8月21日.</cmd>
+         </step>
+         <step>
+            <cmd>Insert a clause with smart fields. All the fields are updated based on the template locale</cmd>
+         </step>
+         <step>
+            <cmd>Navigate to Doc Fields and click <uicontrol>Validate</uicontrol>. All the fields are validated based on the template locale and template date format.</cmd>
+         </step>
+         <step>
+            <cmd>Change smart field values in the Conga CLM application and click <uicontrol>Update from CLM</uicontrol>. The field values are updated in X-Author for Contracts as per the template locale.</cmd>
+         </step>
+         <step>
+            <cmd>Change the agreement start date to 2020年8月22日.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Preview Reconcile</uicontrol> or <uicontrol>Reconcile</uicontrol> to view the locale based changes in the agreement document.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Check-In</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>
+               <uicontrol>Note</uicontrol>
+            </p>
+            <p>You can also use the above steps to create a clause template and generate the clause document.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

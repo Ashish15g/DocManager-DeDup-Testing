@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="UpgradingTemplates_Toupgradetemplates" xml:lang="en">
+   <title>To upgrade templates</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to the Windows <uicontrol>Start </uicontrol>menu and select <uicontrol>Apttus &gt; X-Author Migration Manager</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select <uicontrol>Create a new migration configuration</uicontrol>.</cmd>
+            <info>
+               <note type="note">
+                  <p>
+                     <uicontrol>Use an existing migration configuration </uicontrol>is typically used for migrations and not upgrades.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>, select <uicontrol>Upgrade Templates to support Unique Identifier </uicontrol>and click <uicontrol>Next</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Authorize </uicontrol>to display the Manage Connections window. The listed available connections are those you have already configured on your machine, via either X-Author Migration Manager or X-Author Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Connect </uicontrol>for the user with the appropriate permissions to use the Migration Manager.</cmd>
+            <info>
+               <p>- OR -</p>
+               <p>Enter a new user and Login URL and click <uicontrol>Authorize</uicontrol>.</p>
+               <p>If the above action is successful, the Manage Connections window closes and returns you to the X-Author Migration Configuration Wizard. If you do not connect successfully, verify that you have entered the correct username and URL.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next </uicontrol>to display the Upgrade Summary page and click <uicontrol>Finish</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The upgrade runs and displays the progress for each template that is updated. Each upgrade creates a log file which you can review to see the specifics for the upgrade.</p>
+      </postreq>
+   </taskbody>
+</task>

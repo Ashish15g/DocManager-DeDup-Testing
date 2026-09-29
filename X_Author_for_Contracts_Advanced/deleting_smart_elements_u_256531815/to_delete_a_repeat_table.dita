@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_DeletingSmartElementsUsingDeleteorBackspaceKeyv20240711_Todeletearepeat_table" xml:lang="en">
+   <title>To delete a repeat-table</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts and open the Agreement Document.</cmd>
+         </step>
+         <step>
+            <cmd>Identify the smart table in the document.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Vertical Ellipsis</uicontrol> icon on the content control border of the table.</cmd>
+            <info>
+               <fig>
+                  <image placement="break" width="70" href="../attachments/256531815/256531814.jpg" class="- topic/image "/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Press <uicontrol>Delete</uicontrol> or <uicontrol>Backspace</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The cell values are deleted but the table remains with blank cells. When you delete a cell value within a table, the changes are shown as strikethrough in the reconcile smart fields in table screen. The new value column remains blank and the previous value is shown as strikethrough. However, this practice is not recommended because if you delete a cell in a repeat a table, you may see some issues during reconciliation.</p>
+      </postreq>
+   </taskbody>
+</task>

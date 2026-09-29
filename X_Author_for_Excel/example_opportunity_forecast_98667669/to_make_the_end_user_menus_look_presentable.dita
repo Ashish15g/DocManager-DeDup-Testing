@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Example_OpportunityForecastApplicationTomaketheendusermenuslookpresentable"
+      xml:lang="en">
+   <title>To make the end-user menus look presentable</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Enlarge the title.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight the row headings.</cmd>
+         </step>
+         <step>
+            <cmd>Identify to the end-user the columns that are modifiable by highlighting them in a different color.</cmd>
+         </step>
+         <step>
+            <cmd>(Optional) You can delete the text in brackets. This does not remove the fields because those are on the map. This makes the presentation more pleasing.</cmd>
+            <info>
+               <note type="note">
+                  <p>Make sure to place your cursor in the cell and use the <i>Delete</i> key. <uicontrol>Do not use Delete Row.</uicontrol>
+                  </p>
+               </note>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <p>An App with the name <i>Opportunities Forecast</i> has been created. Now you can run it by clicking the <uicontrol>Preview</uicontrol> button in the ribbon menu.</p>
+         <p>The user menus you created now appear in the ribbon. Click the <uicontrol>Retrieve Opportunities</uicontrol> button and the list of opportunities is displayed. Make a few changes. Click <uicontrol>Save Opportunities</uicontrol>, and you will see a message that the records were saved. The changes are reflected in your environment.</p>
+      </postreq>
+   </taskbody>
+</task>

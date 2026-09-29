@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="AddingObjectsandFieldstoyourDataMigrationAppToAddFieldstoyourApp"
+      xml:lang="en">
+   <title>To Add Fields to your App</title>
+   <taskbody>
+      <context>
+         <p>After at least one Object has been added to your Data Migration app, you can add fields for each selected Object.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>From the Data Migration Wizard screen, click on the link under the <uicontrol>Fields</uicontrol> column corresponding to the Object you want to work with.</cmd>
+            <info>
+               <fig>
+                  <image height="85"
+                         placement="break"
+                         width="337"
+                         href="../attachments/98667711/98668204.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the check box for each field you want to add to your app. To refine the list of fields, enter text into the <uicontrol>Search </uicontrol>field. Note: You cannot deselect the Object fields ID or Name.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Apply</uicontrol> to add fields to your app for the selected Object.</cmd>
+         </step>
+         <step>
+            <cmd>Repeat steps 1 – 3 for each Object in your app, as required.
+            </cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="tip">
+            <p>If Fields for one of the Objects in your app have been previously added, you can click the hyperlink under the "Fields" column to add or remove more Fields.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

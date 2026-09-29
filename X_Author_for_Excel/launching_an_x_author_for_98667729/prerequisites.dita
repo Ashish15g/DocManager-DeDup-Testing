@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="LaunchinganXAuthorforExcelAppfromMicrosoftDynamicsPrerequisites"
+         xml:lang="en">
+   <title>Prerequisites</title>
+   <conbody>
+      <p>Before you can open an app in Excel from Dynamics, the associated record must be configured with a custom button. An administrator must complete the following tasks in Dynamics:</p>
+      <ul>
+         <li>Import the <b>Ribbon Workbench</b> solution into your Dynamics org.</li>
+         <li>Make a note of the <b>App Unique Id</b> to reference in the script that invokes Excel.</li>
+         <li>Create a new unmanaged solution for all applications or a given entity in your Dynamics org and load it into the Ribbon Workbench.</li>
+         <li>Add and define your custom button to the ribbon, including custom button images.</li>
+      </ul>
+   </conbody>
+</concept>

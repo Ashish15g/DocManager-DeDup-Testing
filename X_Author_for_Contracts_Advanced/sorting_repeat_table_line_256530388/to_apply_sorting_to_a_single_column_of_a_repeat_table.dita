@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_SortingRepeatTableLineItemsonaSingleColumnv20240711_ToApplySortingtoaSingleColumnofaRepeatTable" xml:lang="en">
+   <title>To Apply Sorting to a Single Column of a Repeat Table</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open a Template with a repeat table inserted.</cmd>
+         </step>
+         <step>
+            <cmd>Under the Fields tab, click the <uicontrol>Setting </uicontrol>(gear)<uicontrol/>icon.</cmd>
+         </step>
+         <step>
+            <cmd>Click the <uicontrol>Edit</uicontrol> (pencil) icon beside Sorting.</cmd>
+         </step>
+         <step>
+            <cmd>Under column, select the single column you want to sort.</cmd>
+         </step>
+         <step>
+            <cmd>Under Order, select the order you want the column to sort by. The options are Ascending and Descending.  </cmd>
+            <info>
+               <note type="note">
+                  <p>Click the <uicontrol>Delete</uicontrol> (trash) icon to clear your selections. If you want to delete sorting from your table entirely, you must click <uicontrol>Cancel </uicontrol>and then click the <uicontrol>Delete </uicontrol>(trash) icon beside Sorting.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Apply</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>Once you apply the sorting order, the following behaviors occur:</p>
+         <ul>
+            <li>If you selected Ascending as your order option, then your column will sort in ascending order.</li>
+            <li>If you selected Descending as your order option, then your column will sort in descending order.</li>
+         </ul>
+      </postreq>
+   </taskbody>
+</task>

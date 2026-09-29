@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="SalesforceMethodActionTocreateaSalesforceMethodaction"
+      xml:lang="en">
+   <title>To create a Salesforce Method action</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click on the button beneath the <uicontrol>Actions</uicontrol> button and select <uicontrol>Salesforce Method</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="91"
+                         href="../attachments/98667678/190354414.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Under <uicontrol>Action Details</uicontrol>, type an Action <uicontrol>Name</uicontrol> for the call procedure action.</cmd>
+         </step>
+         <step>
+            <cmd>Under Salesforce Method<uicontrol> Details</uicontrol>, select a <uicontrol>Class</uicontrol> and type the name of the <uicontrol>Method</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>If the procedure has a return value, select <uicontrol>Has return value</uicontrol> and select a <uicontrol>Return Type</uicontrol> object.</cmd>
+         </step>
+         <step>
+            <cmd>If the procedure has parameters, select <uicontrol>Has parameters</uicontrol>. The Specify Params section is enabled.</cmd>
+         </step>
+         <step>
+            <cmd>Type a <uicontrol>Param</uicontrol> name, and select from the following:</cmd>
+            <info>
+               <ul>
+                  <li>
+                     <uicontrol>Static</uicontrol>: Type a value.</li>
+                  <li>
+                     <uicontrol>Object</uicontrol>: Enables the Object list. Select an object.</li>
+                  <li>
+                     <uicontrol>Field</uicontrol>: Enables the Field list. Select an object field.</li>
+                  <li>
+                     <uicontrol>User Input</uicontrol>: This displays an input field to the user at runtime and passes that input to the Salesforce Method.</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add Param</uicontrol> to add more than one parameter.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="223"
+                         href="../attachments/98667678/190354416.png"/>
+               </fig>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

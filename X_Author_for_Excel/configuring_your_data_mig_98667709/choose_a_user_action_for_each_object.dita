@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ConfiguringyourDataMigrationAppChooseaUserActionforeachObject"
+         xml:lang="en">
+   <title>Choose a User Action for each Object</title>
+   <conbody>
+      <p>Each Object in the Data Migration must have a corresponding action in the runtime app. This allows the user to make use of X-Author's Search and Select or Query actions to request data from the source org during the migration.</p>
+      <p>To choose actions, click the drop-down menu next to each Object and select either <b>Search &amp; Select </b>or <b>Query</b>.</p>
+      <p>
+         <fig>
+            <image height="130"
+                   placement="break"
+                   width="783"
+                   href="../attachments/98667709/98667970.png"/>
+         </fig>
+      </p>
+      <p>For both <b>Search &amp; Select </b>and <b>Query</b> actions, the Options are automatically filled based on the Objects and Fields you added to your app. You can make changes to these options as required when you define <i>Filters</i>.</p>
+      <note type="note">
+         <p>For more information on these actions, refer to <xref href="../search_and_select_action__98667689/98667689.dita"
+                  format="dita">Search and Select</xref> and <xref href="../query-action_98667690_98667690/98667690.dita" format="dita">Query</xref> actions in this guide</p>
+      </note>
+   </conbody>
+</concept>

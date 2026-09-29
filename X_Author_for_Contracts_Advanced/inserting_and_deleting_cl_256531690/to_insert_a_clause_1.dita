@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InsertingandDeletingClausesv20240711_Toinsertaclause1" xml:lang="en">
+   <title>To insert a clause</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the<uicontrol/>Contracts pane, go to Work &gt; Clause Library&gt; Search Clauses.</cmd>
+         </step>
+         <step>
+            <cmd>In<uicontrol/>Search Clauses, click the search icon to list all the available clauses or enter a search string to search a specific clause. You can also click the clause<uicontrol/>Filter icon (<image placement="inline" width="16" href="../attachments/256531690/256531669.png" class="- topic/image "/>) to get filtering options. You can also filter your clause search based on clause Category, Subcategory, Locale, Language, and Type.</cmd>
+         </step>
+         <step>
+            <cmd>In the agreement document, place your cursor at the point of insertion.</cmd>
+         </step>
+         <step>
+            <cmd>Select the clause from the Clause Library pane, click More button (<image placement="inline" width="16" href="../attachments/256531690/256531668.png" class="- topic/image "/>) next to the clause name and click <uicontrol>Insert </uicontrol>to insert the clause as a text (non-smart clause) in your document.ORSelect the clause from the Clause Library pane, click the More button (<image placement="inline" width="16" href="../attachments/256531690/256531667.png" class="- topic/image "/>) next to the clause name and click <uicontrol>Insert Smart </uicontrol>to insert the clause as a smart clause in your document.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <ul>
+               <li>If you insert a smart clause that is already existing in the document, a confirmation box pops up displaying " <codeph>This clause already exists in this document. Do you want to proceed?</codeph>". Click <uicontrol>Continue </uicontrol>to insert the clause or click Cancel to cancel and go back.</li>
+               <li>You cannot search and insert an alternate clause from the Clause Library.</li>
+            </ul>
+         </note>
+         <p platform="salesforce">You get a success message and if you have selected Insert Smart, the inserted clause is marked as a smart clause (shown with a grey border). The text of the inserted clause appears redlined in the agreement document if the agreement's protection level is set to<i> Insert Comments and Track Changes</i>.</p>
+         <p platform="salesforce">If you have inserted the clause as smart, you can go to Work tab &gt; Doc Clauses to confirm that the clause is now recognized in the document. When you check in the document, any smart clauses can be reconciled to the agreement and information of the inserted clause is added to the Agreement Clause related list on the agreement record.</p>
+         <p platform="salesforce">If you insert a clause as text and check in with any save option, you can view the clause entry in the Conga CLM Agreement Clause related list with action as<i/>InsertedAsText.</p>
+         <p platform="salesforce">If you insert a clause as text inside a smart clause and check in with any save option, you can view the clause entry in the Conga CLM Agreement Clause related list with action as Modified.</p>
+         <note type="note">
+            <p platform="salesforce">You can insert and delete the same clauses in the document before checking in.  To delete the clause, go to Work tab &gt; Doc Clauses, search the clause using search clauses and click the More button next to the clause name and click <uicontrol>Delete. </uicontrol>You will get a confirmation message, select Delete again. The clause will be deleted immediately and will not be listed in the Doc Clauses list.</p>
+            <p>When you click Preview Reconcile, the deleted clause is not listed for reconciliation. When you check in the document and choose Reconcile, the clause is not displayed for reconciliation, and the "Deleted" entry is also not recorded in the Agreement Clause related list on the agreement record in CLM.</p>
+         </note>
+         <p platform="salesforce">To learn how the Agreement Clause related list is populated with each insert, modify, and delete action, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/tracking-agreement-clause-activity-143884820.html" format="html" scope="external">Tracking Agreement Clause Activity</xref> in <i>CLM for Administrators</i>.</p>
+         <p platform="salesforce">
+            <uicontrol>Behavior and Recommendations</uicontrol>
+         </p>
+         <p platform="salesforce">Inserting a smart clause into a cell of a Microsoft Word table produces an error. To prevent this error, you must insert a space in the cell of the table before and after a clause.</p>
+      </postreq>
+   </taskbody>
+</task>

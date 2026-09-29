@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="WorkingwithFields_rejectchange" xml:lang="en">
+   <title>To reject changes to a field</title>
+   <taskbody><context><p>If changes have been made to smart fields in the document, you can choose to reject these changes in the same session prior to check-in.</p><p>To reject changes:</p></context><steps>
+         <step>
+            <cmd>Hover over the <image placement="inline" width="20"
+                  href="../attachments/45220124/49086829.png" id="image_gmz_hsn_12c"/>
+               <uicontrol>Document</uicontrol> button and select <uicontrol>Fields</uicontrol> to
+               open the Document Panel.</cmd>
+            <info>
+               <fig>
+                  <image height="250" placement="break" width="278"
+                     href="../attachments/45220124/49086830.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Right-click on the changed field in the Document pane (highlighted in red) and
+               select <uicontrol>Reject Changes</uicontrol>.</cmd>
+            <info>
+               <fig>
+                  <image placement="break" width="800" href="../attachments/45220124/51576880.png"/>
+               </fig>
+            </info>
+            <stepresult>
+               <p>The field value is reverted to its previous value prior to the change. The
+                  Document pane reloads to show the change.</p>
+               <fig id="fig_jjk_j3q_12c">
+                  <image placement="break" width="800" href="../attachments/45220124/51576881.png"
+                     id="image_kjk_j3q_12c"/>
+               </fig>
+            </stepresult>
+         </step>
+      </steps></taskbody>
+</task>

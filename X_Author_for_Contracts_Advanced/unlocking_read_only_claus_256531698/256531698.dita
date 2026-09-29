@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d377aA" xml:lang="en">
+   <title>Unlocking Read-Only Clauses</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>Read-only clauses are clauses with content control boundaries whose text cannot be edited in a generated agreement. However, as a Contract Administrator, you can grant certain users the permission to unlock the read-only clauses in the agreement document. This feature gives you more control on clause access and you can speed up the review or negotiation process by allowing certain users to edit the read-only clause. You can use the custom permission XA_UnlockReadOnlyClause to give edit access to read-only clauses. This permission must be associated with the user's profile to provide the user the access to the read-only clauses. When you enable XA_UnlockReadOnlyClause custom permission for a profile, the users of that profile have access to the Unlock Clauses option in the Work tab. Clicking Unlock Clauses scans the entire document and unlocks the read-only clauses present in the document. Update from Salesforce does not impact read-only clauses.</p>
+      <p>You can delete a read-only clause when:</p>
+      <ul>
+         <li>You have edit access to the read-only clause, which means, XA_UnlockReadOnlyClause custom permission is enabled.</li>
+         <li>UnlockSmartElement custom setting is enabled, which means, the smartness property of the clause is unlocked.</li>
+      </ul>
+   </conbody>
+</concept>

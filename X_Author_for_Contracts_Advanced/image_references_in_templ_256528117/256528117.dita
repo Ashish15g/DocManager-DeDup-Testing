@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d149aA" xml:lang="en">
+   <title>Image References in Templates</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 17, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>X-Author for Contracts Advanced can display images in agreement documents by
+            including them in RTF fields and referencing them in agreement templates.</p>
+      <note type="note">
+         <ul>
+            <li>It is strongly recommended to insert RTF fields into your templates as HTML when
+                    your content does not contain images. The following represents a valid process
+                    for inserting RTF fields as images and can still be used, but should only be
+                    used when your RTF content contains only images and no other content.</li>
+            <li>If you want the image to display as its original size, set a size <b>0</b> for
+                    Height and Width. Large images may cause alignment issues within the
+                    document.</li>
+         </ul>
+      </note>
+      <p>For images to be displayed in an agreement document, there must be a reference to the
+            image available in Salesforce for the merge server to use, so it can place the image in the
+            generated agreement document. Conga provides this ability through the <i>Upload Image</i>
+            option in the header of an object. This provides the option to upload an image to an RTF
+            field associated with a page layout, which can then be referenced via a merge field in the
+            template used for the agreement document.</p>
+      <p>In order for the Conga Merge Server to render your image properly, you must specify a
+            height and width after inserting the field. Failure to do so will result in no image being
+            generated in the target document.</p>
+      <p>You can use images up to 1MB in size and .gif, .jpg, and .png file types. To ensure
+            the images will be presented in the document as expected you should work on a draft document
+            in Microsoft Word first, edit the images as required in an image editor application, and
+            then upload them to an RTF field.</p>
+      <note type="note">
+         <p>In case your system has not been configured to use image references,
+                please ask your System Administrator to complete the required configuration in
+                Salesforce before you try to add and reference images.</p>
+      </note>
+   </conbody>
+</concept>

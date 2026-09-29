@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d518aA" xml:lang="en">
+   <title>Reviewing Doc Fields After Extracting Agreement Data</title>
+   <prolog>
+      <author>Shobhana S</author>
+      <critdates>
+         <created date="Jun 01, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>After data extraction, in the Doc Fields tab, you can view the <b>Actual Field, Extracted Value, </b>and <b>Normalized Value</b>.</p>
+      <ul>
+         <li>The extracted field is called the <b>Actual Field</b>. For example, the Term field can be an Actual Field.</li>
+         <li>The data extracted for the actual field from the document is called the <b>Extracted Value</b>. For example, the extracted value can be “The Agreement term is 3 years”. Please note, that the extracted value can contain numeric values and text depending on the field being extracted.</li>
+         <li>The correct value for the extracted field is called the <b>Normalized value</b>. For example, in the case of the Term field, the actual value will be a numeric value that can be understood by the system. Example “20”.</li>
+      </ul>
+      <p>The Doc Fields tab displays the Actual Field, its Extracted Value, and the corresponding Normalized Value for all the extracted fields. To highlight the corresponding text in the document, click on the extracted value. You can also edit the normalized value or set a custom value for a field.</p>
+      <p>If you find that some extracted fields are incorrectly marked, you can remove the identified fields from the document. You can also re-mark the specific field in the document. For example, the actual extracted value in the Agreement Start Date is "01/01/2019" but only 01/2019 is incorrectly marked as a field in the date. Using this Re-mark Field feature, you can select the full date and re-mark the field. This removes the incorrect doc field and creates a new doc field as you marked it.</p>
+   </conbody>
+</concept>

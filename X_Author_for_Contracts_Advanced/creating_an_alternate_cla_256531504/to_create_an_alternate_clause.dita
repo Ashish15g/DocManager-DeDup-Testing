@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_CreatinganAlternateClausev20240711_Tocreateanalternateclause" xml:lang="en">
+   <title>To create an alternate clause</title>
+   <taskbody>
+      <steps platform="conga">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, click the Home button (<image placement="inline" width="16" href="../../global_images/images/256531474.png" class="- topic/image "/>) and select <uicontrol>Templates</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>In the Templates<uicontrol> </uicontrol>pane, go to <uicontrol>Start </uicontrol>&gt; <uicontrol>Create New</uicontrol> and enter the following details, (fields marked with an asterisk * are required fields)</cmd>
+         </step>
+         <step>
+            <cmd>In creation menu screen, enter the name of the alternate clause.</cmd>
+         </step>
+         <step>
+            <cmd>Accept the Business Object value:  Apttus__APTS_Agreement__c</cmd>
+         </step>
+         <step>
+            <cmd>Click on the down arrow to the right of the Agreement Types field and select all of the Agreement (Record) types you want this clause to be available for.</cmd>
+         </step>
+         <step>
+            <cmd>Complete the remaining fields:</cmd>
+            <info>
+               <ul>
+                  <li>Category</li>
+                  <li>Subcategory</li>
+                  <li>Language (English)</li>
+                  <li>Locale (English – United States)</li>
+                  <li>Enter any keywords that will improve the search results or leave blank</li>
+                  <li>The Next Revision Date will default to one year from the current date + 1</li>
+                  <li>Enter a description </li>
+                  <li>Enter Guidance. Guidance is help text that guides the user when to use this alternate clause.  For example: "Use this clause if the other party does not accept our standard Net 60 Payment Terms."</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Check-in your new alternate clause.</cmd>
+            <info>
+               <table platform="conga" id="table_rkd_g3l_2dc">
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Field Name</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Name</p>
+                           </entry>
+                           <entry>
+                              <p>Enter the name of the template.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Type</p>
+                           </entry>
+                           <entry>
+                              <p>Choose the template type as <i>Clause</i>. You cannot create an
+                                 alternate clause if you select template type as <i>Agreement,
+                                    Proposal, Section, and Supporting Document</i>.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Business Object</p>
+                           </entry>
+                           <entry>
+                              <p>Choose the business object Apttus__APTS_Agreement__c.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Alternate Clause</p>
+                           </entry>
+                           <entry>
+                              <p>Select the checkbox to create an alternate clause. This field is
+                                 only displayed when you select <i>Clause</i> as type and
+                                    <i>Agreement (Apttus__APTS_Agreement__c)</i> as business
+                                 object.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Agreement Types</p>
+                           </entry>
+                           <entry>
+                              <p>From the picklist, you can select multiple agreement types to
+                                 associate with your template. The value of Agreement Types decides
+                                 which templates are available at the time of agreement generation.
+                                 If your template's agreement type matches with the agreement type
+                                 of your agreement record, you will see that template in the list of
+                                 available templates at the time of document generation.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Category</p>
+                           </entry>
+                           <entry>
+                              <p>Choose the category from the picklist. Template categories are
+                                 defined by the administrator, in Conga CLM. This field is usually
+                                 used by template administrators to categorize templates created by
+                                 them for easy access.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Subcategory</p>
+                           </entry>
+                           <entry>
+                              <p>The subcategory is a dependent field. Subcategories are
+                                 populated-based on the value chosen for Category. The subcategories
+                                 are defined by the administrator, in Conga CLM.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Language </p>
+                           </entry>
+                           <entry>
+                              <p>Choose the default template language from the picklist. The default
+                                 language for the template is English (US).</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Locale</p>
+                           </entry>
+                           <entry>
+                              <p>Select the locale from the picklist. Locale allows you to define
+                                 locale settings for number and currency precision, currency format,
+                                 and date format. Locales can be system defaults or user-defined
+                                 locales. You can configure custom locales in Contract Management.
+                                 For more information, see <xref href="https://documentation.conga.com/clm/latest/salesforce/adding-custom-locale-143884777.html" format="html" scope="external">Adding Custom Locale</xref> in
+                                    <i>C</i>
+                                 <i>LM for Administrators.</i>
+                              </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Enable Formatting</p>
+                           </entry>
+                           <entry>
+                              <p>Check this box to enable locale formatting at the template and
+                                 field level for this template. This allows you to define locale
+                                 settings for Currency, Number, and Date formats.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry namest="col1" nameend="col2">
+                              <p>
+                                 <uicontrol>Optional: </uicontrol>Specify the following fields when
+                                 "Enable Formatting" is selected to modify locale formatting.</p>
+                              <p>
+                                 <table id="table_skd_g3l_2dc">
+                                    <tgroup cols="2">
+                                       <tbody>
+                                          <row>
+                                             <entry>
+                                                <p>Field</p>
+                                             </entry>
+                                             <entry>
+                                                <p>Description</p>
+                                             </entry>
+                                          </row>
+                                          <row>
+                                             <entry>
+                                                <p>Date Format</p>
+                                             </entry>
+                                             <entry>
+                                                <p>Select an option from the picklist to choose the
+                                                  default format for all date fields in the
+                                                  template.</p>
+                                             </entry>
+                                          </row>
+                                          <row>
+                                             <entry>
+                                                <p>Currency Format</p>
+                                             </entry>
+                                             <entry>
+                                                <p>Select an option from the picklist to choose the
+                                                  format for all currency fields in the template.
+                                                  Choose "None" to only display currency field
+                                                  values in generated documents.</p>
+                                                <p>If "Currency Symbol" is selected, currency fields
+                                                  will be generated with no space between the symbol
+                                                  and field value. If "ISO" is selected, currency
+                                                  fields will be generated with a space between the
+                                                  ISO code and the field value.</p>
+                                             </entry>
+                                          </row>
+                                          <row>
+                                             <entry>
+                                                <p>Number Precision</p>
+                                             </entry>
+                                             <entry>
+                                                <p>Select a number from 0-9 to define the precision
+                                                  for Number/Percent field values in the template.
+                                                  This allows you to define the number of digits to
+                                                  be displayed after the decimal (e.g., "2" if the
+                                                  Number/Percent field should display two digits
+                                                  following the decimal point).</p>
+                                             </entry>
+                                          </row>
+                                          <row>
+                                             <entry>
+                                                <p>Currency Precision</p>
+                                             </entry>
+                                             <entry>
+                                                <p>Select a number from 0-9 to define the precision
+                                                  for currency field values in the template. This
+                                                  allows you to define the number of digits to be
+                                                  displayed after the decimal in currency value
+                                                  (e.g., "2" if the currency field should display
+                                                  two digits following the decimal point).</p>
+                                             </entry>
+                                          </row>
+                                       </tbody>
+                                    </tgroup>
+                                 </table>
+                              </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Keywords</p>
+                           </entry>
+                           <entry>
+                              <p>Enter comma-separated keywords to associate with the template.
+                                 Keywords make it easier to search the templates.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Next Revision Date</p>
+                           </entry>
+                           <entry>
+                              <p>Select the date for the next revision of the template.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                           <entry>
+                              <p>Enter the description for the template. Maximum of 255 characters
+                                 (an error will be thrown if this limit is exceeded). Using this
+                                 field, you can provide a detailed description of the template.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Guidance</p>
+                           </entry>
+                           <entry>
+                              <p>Enter guidance to help users determine the purpose of the template.
+                                 There is a maximum of 255 characters.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <p platform="conga"/>
+         <ol platform="conga">
+            <li>The Alternate Clause is now available to be associated with a primary clause.</li>
+            <li>Go to the Template Tab in CLM (Salesforce)</li>
+            <li>View all Clauses<ul>
+                  <li>Alternate Clauses will have the Value = Alternate Clause</li>
+               </ul>
+            </li>
+            <li>Click on any Primary Clause that you want to associate with an Alternate Clause</li>
+            <li>Click on the <uicontrol>Alternate Clause Tab</uicontrol>
+            </li>
+            <li>Click on <uicontrol>Select Alternates</uicontrol>
+            </li>
+            <li>Select one or any number of alternate clauses from the list of alternate clauses by checking the box on the left side of the alternate clause name.<note type="note">
+                  <p>You can filter the list by entering any word in the alternate clause name in the search box component.</p>
+               </note>
+            </li>
+            <li>Click on <uicontrol>Add</uicontrol>
+            </li>
+            <li>The Alternate Clause is now associated with the primary clause and will be available for any agreement that is generated that includes the primary clause.</li>
+         </ol>
+         <note type="note">
+            <p platform="conga">After you create an Alternate Clause in X-Author for Contracts, the Clause Type field for the template object in CLM is set to "Alternate Clause".</p>
+         </note>
+         <note type="note">Alternate clause functionality is only supported for FX2 framework format. </note>
+      </postreq>
+   </taskbody>
+</task>

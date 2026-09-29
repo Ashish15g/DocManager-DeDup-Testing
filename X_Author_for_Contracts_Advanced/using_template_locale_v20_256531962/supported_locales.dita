@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_UsingTemplateLocalev20240711_SupportedLocales" xml:lang="en">
+   <title>Supported Locales</title>
+   <conbody>
+      <p>English (US), English (UK), English (Canada), English (Ireland), Italian, German, Chinese, Japanese, Korean, Thai, Norwegian, Swedish, Russian, Portuguese, Polish, Greek (Greece), and Spanish are the standard locales that are available in Conga CLM (Contracts for Salesforce). You can configure custom locales in Conga CLM (Contracts for Salesforce).</p>
+      <note type="note">
+         <p>If a locale is deleted in Conga CLM (Contracts for Salesforce) that is being used in a template at the template level and you check out and check in the template, the deleted locale is replaced with the first value of the Locale dropdown. If a locale is deleted in Conga CLM (Contracts for Salesforce) that is being used in a template at the field level and you navigate to the Fields tab and view the field details, the Locale field is set to blank. If all the locales are deleted in Conga CLM (Contracts for Salesforce) and you click Create, a warning message is displayed and you need to add required locales.</p>
+      </note>
+   </conbody>
+</concept>

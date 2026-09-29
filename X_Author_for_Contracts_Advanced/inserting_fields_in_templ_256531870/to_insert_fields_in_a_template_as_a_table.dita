@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_InsertingFieldsinTemplatesasaTablev20240711_Toinsertfieldsinatemplateasatable" xml:lang="en">
+   <title>To insert fields in a template as a table</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced for Conga CLM (Contracts for Salesforce) and open the template.</cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Templates </uicontrol>pane, go to <uicontrol>Work</uicontrol>&gt; <uicontrol>F</uicontrol>
+               <uicontrol>ields</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Place the cursor in the section of the template text where you want to insert a table and click <uicontrol>Insert New Fields</uicontrol>. This opens the <uicontrol>Insert Fields</uicontrol> dialog box.</cmd>
+         </step>
+         <step>
+            <cmd>Select an <uicontrol>Object </uicontrol>(i.e., "Agreement") from the left column. To search a field related to the selected object in the right column, enter a keyword and click the <uicontrol>Search icon</uicontrol> (<image placement="inline" width="20" href="../attachments/256531870/256531867.png" class="- topic/image "/>) or press enter.</cmd>
+         </step>
+         <step>
+            <cmd>Select the required fields. On Mac: hold command<uicontrol> </uicontrol>and select one or more fields from the list. On Windows: hold Ctrl (keyboard key) and select the fields.</cmd>
+            <info>
+               <note type="note">
+                  <p>Fields are inserted as columns in the table based on the order you select. Do not move your cursor when the fields are being inserted.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the checkbox <uicontrol>Insert as a table.</uicontrol>
+            </cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Insert</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>A Repeat Table is inserted into your template with each field displayed as a separate column.</p>
+      </postreq>
+   </taskbody>
+</task>

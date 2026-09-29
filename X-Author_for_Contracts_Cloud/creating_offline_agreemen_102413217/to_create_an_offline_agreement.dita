@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CreatingOfflineAgreementsTocreateanofflineagreement" xml:lang="en">
+   <title>To create an offline agreement</title>
+   <taskbody>
+      <context>
+         <p>The document you want to use must not have previously been uploaded.</p>
+      </context>
+      <steps>
+         <step>
+            <cmd>Open the document in Microsoft Word and connect to X-Author Contracts.</cmd>
+         </step>
+         <step>
+            <cmd>Select the X-Author Contracts option from the left-hand menu and go to<uicontrol> Start &gt; Create</uicontrol>. The Create New Offline Agreement page is displayed.</cmd>
+            <info>
+               <fig>
+                  <image height="424" placement="break" width="250" href="../attachments/102413217/102413293.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>In the Create New Offline Agreement window, enter the following details (fields marked with an asterisk are required):</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Fields</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Record Type*</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the Record Type from the picklist.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Name*</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the agreement name.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Account*</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the Account from the picklist.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Primary Contact*</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the primary contact from the picklist.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Start Date</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the start date of the agreement from the date picker.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>End Date</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the end date of the agreement from the date picker.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>. You will see a confirmation message.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>A new agreement record is created in Apttus Contract Management and the document is attached to the Notes &amp; Attachments related list.</p>
+      </postreq>
+   </taskbody>
+</task>

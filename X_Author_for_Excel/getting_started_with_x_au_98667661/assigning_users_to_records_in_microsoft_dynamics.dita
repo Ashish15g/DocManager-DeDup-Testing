@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="GettingStartedwithXAuthorforExcelAssigningUserstoRecordsinMicrosoftDynamics"
+         xml:lang="en">
+   <title>Assigning Users to Records in Microsoft Dynamics</title>
+   <conbody>
+      <p>Assigning users to the Solution is always controlled by Security Role Permission Setup. Solution in Microsoft Dynamics is used for installing your customization only. Applying security to a user has to be done through Security Roles. For example, Runtime user should be assigned with a Role which has user Level Permission to App Object (Entity) for Read, Write, Delete, Update, Assign, Append, and Append To.</p>
+      <p>User level roles make sure that user can only access apps created by them. Also a user can assign only their application to other users.</p>
+      <p>Designers must have access to a Role which has Organization level access to App Object with Read, Write, Assign, Delete, Append, and Append to. This implies that a Designer would have access to All Apps and can assign any app to any runtime users.</p>
+      <p>To assign a user to a specific record</p>
+      <ol>
+         <li>Go to <b>Advanced Find &gt; Query</b> and in <b>Look for</b>, type Apps.</li>
+         <li>From the <b>Use Saved View</b> drop-down list, select <b>Active Apps</b>.</li>
+         <li>Click <b>Results</b>.</li>
+         <li>Select an App.</li>
+         <li>Click <b>Assign</b> in the fixed bar.</li>
+      </ol>
+   </conbody>
+</concept>

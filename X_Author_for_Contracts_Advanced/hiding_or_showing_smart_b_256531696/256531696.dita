@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d141aA" xml:lang="en">
+   <title>Hiding or Showing Smart Boundaries</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p platform="conga">Smart fields, smart clauses, read-only fields, and read-only clauses in a contract document are represented in Microsoft Word with content control, that is with a bounding box. You can control the visibility of bounding boxes using the<b/>Hide Smart Boundary and Show Smart Boundary options. The Hide Smart Boundary and Show Smart Boundary options are visible based on the Hide Content Control Border custom setting. For more information, see 
+<xref href="../admin_settings_for_x_auth_256527807/256527807.dita" format="dita">Admin Settings for X-Author for Contracts Advanced</xref>. The following table provides the details about which option is displayed based on the Hide Content Control Border custom setting:</p>
+      <p platform="conga">
+         <table platform="conga">
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>
+                           <b>Hide Content Control Border </b>custom setting when generating or checking-in the document</p>
+                     </entry>
+                     <entry>
+                        <p>Result</p>
+                     </entry>
+                     <entry>
+                        <p>Menu in Work tab</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>True</p>
+                     </entry>
+                     <entry>
+                        <p>All smart boundaries are hidden while checking-out the document.</p>
+                     </entry>
+                     <entry>
+                        <p>Show Smart Boundary</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                     <entry>
+                        <p>All smart boundaries are shown while checking-out the document.</p>
+                     </entry>
+                     <entry>
+                        <p>Hide Smart Boundary</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p platform="salesforce">Smart fields, smart clauses, read-only fields, and read-only clauses
+         in an agreement document are represented in Microsoft Word with content control, that is
+         with a bounding box. You can control the visibility of bounding boxes using
+         the<uicontrol/>Hide Smart Boundary and Show Smart Boundary options. The Hide Smart Boundary
+         and Show Smart Boundary options are visible based on the Hide Content Control Border custom
+         setting in the Conga CLM. Your administrator can configure the custom setting. For more
+         information on configuring custom settings, see <xref
+            href="https://documentation.conga.com/clm/latest/salesforce/comply-system-properties-247532844.html"
+            format="html" scope="external">Comply System Properties</xref> topic in <i>CLM for
+            Administrators</i>. The following table provides the details about which option is
+         displayed based on the Hide Content Control Border custom setting:</p>
+      <p platform="salesforce">
+         <table platform="salesforce" id="table_nhm_f4l_2dc">
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>
+                           <uicontrol>Hide Content Control Border </uicontrol>custom setting when
+                           generating or checking-in the document</p>
+                     </entry>
+                     <entry>
+                        <p>Result</p>
+                     </entry>
+                     <entry>
+                        <p>Menu in Work tab</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>True</p>
+                     </entry>
+                     <entry>
+                        <p>All smart boundaries are hidden while checking-out the document.</p>
+                     </entry>
+                     <entry>
+                        <p>Show Smart Boundary</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>False</p>
+                     </entry>
+                     <entry>
+                        <p>All smart boundaries are shown while checking-out the document.</p>
+                     </entry>
+                     <entry>
+                        <p>Hide Smart Boundary</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

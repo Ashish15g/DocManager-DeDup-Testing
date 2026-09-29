@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d109aA" xml:lang="en">
+   <title>External Review using Office 365</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>When sending a document for parallel review, the contract administrator can send agreement documents for internal reviews, external reviews, and mixed reviews using Office 365 from CLM. When a document is sent for external review, the reviewers receive an email link containing a SharePoint link of the document. The reviewer can open the document online, edit it and inform the contract administrator after he ends the review. For more information about the external review, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/sending-an-agreement-document-for-parallel-review-253691045.html" format="html" scope="external">Sending an Agreement Document for Collaborative Review using Office 365 Review</xref>.</p>
+      <note type="note">
+         <p>Special characters in document names are not allowed by Microsoft, so special characters in document names will be converted to an underscore (_) across all Conga Review Service clients and products.</p>
+      </note>
+   </conbody>
+</concept>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d13aAjan856" xml:lang="en">
+   <title>Fields</title>
+   <prolog>
+      <author>Maanasa Suthrave</author>
+      <critdates>
+         <created date="Apr 16, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Contracts for Cloud on Salesforce Summer 2019 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>Fields that you insert in your template, or "merge fields" as they are sometimes called, represent the contractual terms and metadata from your Agreement record in Apttus Contract Management. When you generate a contract document, the values of the fields are reterieved from the agreement record and populated in the document. As a template administrator, you are responsible for building your template to include fields, as static text, as read only fields or as content-control bound "smart" fields that can be changed and reconciled to the Agreement record during the negotiation process.</p>
+      <p>Following sections explain how you can use fields in your agreement template:</p>
+   </conbody>
+   <related-links>
+      <linklist>
+         <link href="../inserting_fields_in_a_tem_102413232/102413232.dita" format="dita">
+            <linktext>Inserting Fields in a Template</linktext>
+         </link>
+         <link href="../making_fields_read_only_i_102413233/102413233.dita" format="dita">
+            <linktext>Making Fields Read Only in a Template</linktext>
+         </link>
+         <link href="../making_fields_smart_in_a__102413234/102413234.dita" format="dita">
+            <linktext>Making Fields Smart in a Template</linktext>
+         </link>
+         <link href="../inserting_fields_in_a_tem_102413235/102413235.dita" format="dita">
+            <linktext>Inserting Fields in a Template as a Table</linktext>
+         </link>
+         <link href="../inserting_fields_in_a_tem_102413236/102413236.dita" format="dita">
+            <linktext>Inserting Fields in a Template as a Section</linktext>
+         </link>
+      </linklist>
+   </related-links>
+</concept>

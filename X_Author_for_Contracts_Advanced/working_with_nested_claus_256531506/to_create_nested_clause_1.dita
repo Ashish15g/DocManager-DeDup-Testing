@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_WorkingwithNestedClausesv20240711_TocreateNestedClause1" xml:lang="en">
+   <title>To create Nested Clause</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>Create a clause template. For more information on creating a clause template, see 
+            <xref href="../creating_new_templates_v2_256535202/256535202.dita" format="dita">Creating New Templates</xref>. Make sure while creating the clause template, you select the Template Type as Clause.</cmd>
+         </step>
+         <step>
+            <cmd>Check in the clause template. For more information on checking in templates, see 
+                <xref href="../checking_in_a_template_v2_256531832/256531832.dita" format="dita">Checking In Templates</xref>.</cmd>
+         </step>
+         <step>
+            <cmd>Open the checked-in clause template. Place the cursor at the point where you need to insert another clause, and insert a new clause from the clause library. For more information on inserting a clause from the clause library, see 
+                    <xref href="../using_clause_library_for__256531913/256531913.dita" format="dita">Using Clause Library for Template</xref>. Now you have a nested clause.</cmd>
+         </step>
+         <step>
+            <cmd>You can perform the following actions using nested clauses:</cmd>
+            <info>
+               <ul>
+                  <li>You can insert this nested clause inside an agreement template.</li>
+                  <li>While working on the agreement template, you can only mark the first level clause in a nested clause as smart or read-only. You cannot mark the second-level clause as smart or read-only.</li>
+                  <li>While working on the agreement template, you can apply conditional segments only to the first level clause. You cannot apply conditional segments for the second-level clause.</li>
+                  <li>You can generate an agreement document using the agreement template and check in the same.</li>
+                  <li>While working on the agreement document, only the first level clause will have the content control boundary visible. The second level clause will not have the content control boundary.</li>
+               </ul>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

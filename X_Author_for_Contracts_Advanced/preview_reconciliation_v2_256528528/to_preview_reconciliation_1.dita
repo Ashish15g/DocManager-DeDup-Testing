@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_PreviewReconciliationv20240620_Topreviewreconciliation1" xml:lang="en">
+   <title>To preview reconciliation</title>
+   <taskbody>
+      <steps platform="salesforce">
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts Advanced.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, go to Work &gt; Preview Reconcile. If you do not see Preview Reconcile under the Work tab, click the More icon (<image placement="inline" width="16" href="../attachments/256528528/256528523.png" class="- topic/image "/>) and from the menu, select Preview Reconcile. Review the CLM Value and Current Value of the changed smart fields in your document.</cmd>
+            <info>
+               <note type="note">
+                  <p>The Preview Reconcile tab displays all the modified smart fields, modified mark fields, and new marked fields. If the checked-out document contains changes to both fields and clauses, the system loads all changes made on smart fields first, and changes made to clauses loads after you click <uicontrol>Next</uicontrol>. With high volume documents, a loading text will display for the fields and clauses section until all the changes are loaded.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Next</uicontrol>.</cmd>
+            <info>
+               <note type="note">
+                  <p>If you have only one change in the agreement document, the Cancel button is displayed instead of the Next button.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>The Preview Reconcile tab displays the modified smart clauses, marked clauses, inserted clauses, and clauses marked for deletion. Expand a clause from the list to review the Original and Edited content of the clause.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Back </uicontrol>to navigate to the previous screen.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="SettingSegmentsinTemplates_Tosetastyleforasegmentinatemplate" xml:lang="en">
+   <title>To set a style for a segment in a template</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>In the X-Author Templates pane, go to the <uicontrol>Work</uicontrol> tab, click the more options icon (<image height="19" placement="inline" href="../attachments/102413240/102413262.png"/>) and select <uicontrol>Set Segment</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Highlight a block of text in your template and click <uicontrol>Set Style</uicontrol>. This opens the <uicontrol>Select Styles</uicontrol> window that lists custom styles.</cmd>
+         </step>
+         <step>
+            <cmd>Select a custom style or select the <uicontrol>Show built-in styles</uicontrol> checkbox and select a style.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Select</uicontrol>.</cmd>
+            <info>
+               <p>The segment is added as Segment Regular to the segments list in the <uicontrol>Set Segment</uicontrol> pane. Selecting the segment name from the list highlights that segment in the template document.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>To view or edit a segment style:</cmd>
+            <substeps>
+               <substep>
+                  <cmd>Select <uicontrol>Segment Regular</uicontrol> from the segments list in the <uicontrol>Set Segments</uicontrol> pane and click the gear icon (<image height="20" placement="inline" width="20" href="../../global_images/images/256528177.png"/>) next to the segment name. This opens the <uicontrol>Segment Regular </uicontrol>page with the segment style set for that segment. </cmd>
+               </substep>
+               <substep>
+                  <cmd>To edit the style, click the pencil icon (<image height="16" placement="inline" width="16" href="../../global_images/images/256531941.png"/>) next to <uicontrol>Style</uicontrol>.</cmd>
+               </substep>
+            </substeps>
+         </step>
+         <step>
+            <cmd>To add a segment condition, click <uicontrol>Add Condition</uicontrol>. This opens the <uicontrol>Make Conditional</uicontrol> window which has the expression builder. For more information, see <xref href="to_make_a_segment_conditional_in_a_template.dita#SettingSegmentsinTemplates_TomakeaSegmentConditionalinatemplate">To make a Segment Conditional in a template</xref>.Segment Regular style segment changes to Segment Conditional after you add a condition. </cmd>
+            <info>
+               <p>When you generate a document using a template with style segments, you can view different styles applied in the generated document.</p>
+            </info>
+         </step>
+      </steps>
+   </taskbody>
+</task>

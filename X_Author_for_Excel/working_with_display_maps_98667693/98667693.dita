@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d322aA" xml:lang="en">
+   <title>Working with Display Maps</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>Use Display Maps to <b>link fields to Excel cells</b> for data that will be retrieved from your environment by an app. When data is retrieved from your environment by a query or similar action, this data is temporarily stored in Excel memory before it is placed into the worksheet. X-Author then uses a Display Map to place the data in the correct Excel cells. You use <b>Display Actions</b> in your app to implement Display Maps.</p>
+      <p>How many Display Maps you use is dependent on app design and the timing of data retrieval in your app. Remember the following when working with Display Maps:</p>
+      <ul>
+         <li>There is no limit to the number of Display Maps in a single app.</li>
+         <li>A single Display Map can include fields from multiple objects.</li>
+         <li>A single Display Map can be used across multiple worksheets (not workbooks).
+         </li>
+      </ul>
+      <note type="note">
+         <p>
+            <b>Note</b>
+         </p>
+         <p>You do not need a Display Map if your app is not being designed to retrieve data from your environment. If you are retrieving data from your environment, then you need at least one Display Map per app. </p>
+      </note>
+   </conbody>
+</concept>

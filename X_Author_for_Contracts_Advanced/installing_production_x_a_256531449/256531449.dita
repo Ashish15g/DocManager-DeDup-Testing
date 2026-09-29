@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d197aA" xml:lang="en">
+   <title>Installing Production X-Author for Contracts on the Conga Platform Using Centralized Deployment Approach</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can install the production X-Author for Contracts Advanced add-in using Centralized Deployment via the Office 365 admin center. Centralized Deployment supports both the Windows and Mac operating systems and the deployment approach is the same for both.</p>
+      <p>To install the production X-Author for Contracts Advanced add-in, the Office 365 administrator must first 
+<xref href="../installing_production_x_a_256531449/256531449.dita" format="dita">deploy the&amp;nbsp;X-Author for Contracts Advanced add-in</xref> in Office 365. Deploying the add-in is a one-time activity. An administrator must first install the add-in before deploying it in their organization for the entire organization, for users, or for groups. The users with assigned add-in access, must 
+<xref href="../inserting_x_author_contracts_256526177/256526177.dita" format="dita">Insert add-in&amp;nbsp;in their Microsoft Word</xref>.</p>
+      <p>After using Centralized Deployment to install the add-in, an administrator must take the following actions to assign the add-in to new users: </p>
+      <ul>
+         <li>If the add-in is assigned to everyone, no action is required.</li>
+         <li>If the add-in is assigned to a group, the administrator must add new users to the group.</li>
+         <li>If the add-in is assigned to specific users, the administrator must give access to new users.</li>
+      </ul>
+      <p>When the administrator assigns the add-in to new users, they must 
+<xref href="../inserting_x_author_contracts_256526177/256526177.dita" format="dita">Insert the add-in in their Microsoft Word</xref>.</p>
+      <p>This table provides an overview of administrator and user actions that must be performed for different use cases: </p>
+      <p>
+         <table>
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Use Case</p>
+                     </entry>
+                     <entry>
+                        <p>Assign Users</p>
+                     </entry>
+                     <entry>
+                        <p>Admin Action</p>
+                     </entry>
+                     <entry>
+                        <p>User Action</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Assigning add-in to users during the first-time installation</p>
+                     </entry>
+                     <entry>
+                        <p>Everyone/Group/Specific users</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <xref href="deploying_x_author_for_contracts_advanced_add_in.dita#id_InstallingProductionXAuthorforContractsontheCongaPlatformUsingCentralizedDeploymentApproachv20240711_1">Deploy X-Author for Contracts Advanced add-in</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <xref href="../inserting_x_author_contracts_256526177/256526177.dita" format="dita">Insert X-Author for Contracts Advanced add-in</xref>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry morerows="2">
+                        <p>Assigning add-in to new users after installation</p>
+                     </entry>
+                     <entry>
+                        <p>Everyone </p>
+                     </entry>
+                     <entry>
+                        <p>No action</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <xref href="../inserting_x_author_contracts_256526177/256526177.dita" format="dita">Insert X-Author for Contracts Advanced add-in</xref>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Group </p>
+                     </entry>
+                     <entry>
+                        <p>Add new users to the group</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <xref href="../inserting_x_author_contracts_256526177/256526177.dita" format="dita">Insert X-Author for Contracts add-in</xref>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Specific users </p>
+                     </entry>
+                     <entry>
+                        <p>Give access to new users</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <xref href="../inserting_x_author_contracts_256526177/256526177.dita" format="dita">Insert X-Author for Contracts Advanced add-in</xref>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

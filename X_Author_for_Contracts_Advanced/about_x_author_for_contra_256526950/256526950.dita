@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d9aA" xml:lang="en">
+   <title>About X-Author for Contracts</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 12, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p platform="conga">The X-Author for Contracts Advanced Add-in is a Microsoft Word add-in that lets you work on contracts and contract templates. The X-Author for Contracts Advanced add-in provides an all-new user-friendly User Interface (UI) that helps contract administrators and/or legal users to streamline the entire process of contract life cycle management.</p>
+      <p platform="conga">Using X-Author for Contracts, you can create and maintain contract documents that contain contracts, clauses, and templates. The User Interface of X-Author for Contracts aids the contract administrators in seamlessly managing complex negotiation cycles where multiple users can review the documents, make changes to the clauses and templates with ease.</p>
+      <p platform="conga">To access Conga Platform documentation, select <b>Platform</b> from the dropdown. To access Salesforce documentation, select <b>Salesforce</b> from the dropdown menu.</p>
+      <p platform="salesforce">X-Author for Contracts is the latest Microsoft Word add-in that lets you work on contracts and contract templates. The X-Author for Contracts add-in provides an all-new user-friendly User Interface (UI) that helps contract administrators and/or legal users to streamline the entire process of contract life cycle management.</p>
+      <p platform="salesforce">To access Conga Platform documentation, select <b>Platform</b> from the dropdown in the upper right menu. To access Salesforce documentation, select <b>Salesforce</b> from the dropdown menu.</p>
+      <p platform="salesforce">Using X-Author for Contracts, you can create and maintain contract documents that contain contracts, clauses, and templates. The upgraded intuitive User Interface of X-Author for Contracts aids the contract administrators in seamlessly managing complex negotiation cycles where multiple users can review the documents, make changes to the clauses and templates with ease. One of the key features of X-Author for Contracts, when compared to the classic version, is that this uses Push Upgrade technology to upgrade to the latest version of the package.</p>
+      <p platform="salesforce">X-Author for Contracts supports the versioning of agreements. The contract administrators can save multiple versions of the same document. For example, he/she can save redlined, clean, and final versions of a contract in a Microsoft Word document opened either from Salesforce or from the local drive. When saving a final version of a contract document, you can also reconcile any terms that might have changed during the negotiation process. You can create and maintain template versions, insert templates, save them, and replace them to and from Conga. Finally, you can compare two versions of a contract and merge versions into one document.</p>
+      <p platform="salesforce">X-Author for Contracts also provides support for creating conditional text within a contract or clause template. This allows contract administrators to create sophisticated conditional clauses that can include or exclude certain text or clauses depending on how a conditional expression is evaluated.</p>
+      <p platform="salesforce">Prior to Winter '20 release, X-Author for Contracts was supported for Conga CLM. Using X-Author for Contracts, Conga CLM users can manage the entire contract and template process. From Winter '20 release, X-Author for Contracts has introduced support for Conga CLM (Contracts for Salesforce) also. Now Conga CLM (Contracts for Salesforce) users also can manage the entire contract template process.</p>
+      <p platform="salesforce">This guide describes the following features for Conga CLM and Conga CLM (Contracts for Salesforce).</p>
+      <p platform="salesforce">
+         <table platform="salesforce">
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry/>
+                     <entry>
+                        <p>Features for Conga CLM</p>
+                     </entry>
+                     <entry>
+                        <p>Features for Conga CLM (Contracts for Salesforce)</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry morerows="8">
+                        <p>
+                           <b>Templates</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Create a template</p>
+                     </entry>
+                     <entry>
+                        <p>Create a template</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Search and open a template</p>
+                     </entry>
+                     <entry>
+                        <p>Search and open a template</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Check in a template </p>
+                     </entry>
+                     <entry>
+                        <p>Check in a template</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Clauses</p>
+                        <ul>
+                           <li>Use Clause Library for templates</li>
+                           <li>Insert inline clauses </li>
+                           <li>Make clauses smart or read-only </li>
+                           <li>Make clauses conditional </li>
+                           <li>Mark clauses </li>
+                           <li>Refresh clause </li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <p>Clauses</p>
+                        <ul>
+                           <li>Use Clause Library for templates</li>
+                           <li>Insert clause and clause bundles </li>
+                           <li>Make clause and clause bundle smart </li>
+                           <li>Make clause and clause bundle conditional </li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Fields</p>
+                        <ul>
+                           <li>Insert fields</li>
+                           <li>Insert fields as a table or section</li>
+                           <li>Make fields smart or read-only</li>
+                           <li>Make columns and rows conditional in a table</li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <p>Fields</p>
+                        <ul>
+                           <li>Insert fields</li>
+                           <li>Insert fields as a table or section</li>
+                           <li>Make fields smart or read-only</li>
+                           <li>Make columns and rows conditional in a table</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Set segments (conditional or style)</p>
+                     </entry>
+                     <entry>
+                        <p>Set segments (conditional or style)</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Define template locale</p>
+                     </entry>
+                     <entry>
+                        <p>Define template locale</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Clone a template</p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Template Versioning </p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry morerows="12">
+                        <p>
+                           <b>Contracts</b>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Search and open a contract</p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Check-in a contract</p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Check-out an agreement</p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Lock or unlock contract documents </p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Clauses</p>
+                        <ul>
+                           <li>Use Clause Library to insert clauses</li>
+                           <li>Mark clauses</li>
+                           <li>Unmark clauses</li>
+                           <li>Edit or delete clauses </li>
+                           <li>Hide or show smart boundaries</li>
+                           <li>Unlock read-only clauses </li>
+                           <li>Promote marked clauses to the playbook</li>
+                           <li>Track clauses in contracts</li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Fields</p>
+                        <ul>
+                           <li>Validate fields</li>
+                           <li>Mark fields</li>
+                           <li>Update smart and read-only field values from Salesforce</li>
+                           <li>Accept or reject field changes </li>
+                           <li>Delete fields or mark fields for deletion</li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Compare and merge contracts</p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Send a contract for parallel review</p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Work with offline contracts</p>
+                        <ul>
+                           <li>Create offline contracts</li>
+                           <li>Import offline contracts</li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Use Intelligent Discovery </p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Use localization</p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Restrict contract document check-in and check-out</p>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Reconciliation</p>
+                        <ul>
+                           <li>Preview reconcile</li>
+                           <li>Reconcile smart fields and smart clauses</li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <p>NA</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </conbody>
+</concept>

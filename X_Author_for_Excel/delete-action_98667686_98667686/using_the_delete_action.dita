@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="DeleteActionUsingtheDeleteAction" xml:lang="en">
+   <title>Using the Delete Action</title>
+   <conbody>
+      <p>Once the Delete action is enabled, you can use them with simple and powerful filtering capabilities to delete records for an object based on specific filter criteria.  You can use the non-mapped columns as well to delete records or you can have a simple (or complex) formula in those non-mapped columns to exactly determine the records to be deleted. You can delete records for only those objects referenced in the Save Map having Display Map fields along with Save other fields. If you do not specify any filter criteria, all the records for the object are deleted. You can specify a maximum of 20 filters.</p>
+      <note type="note">
+         <p>The Delete action is supported only on Enterprise and Power Admin Editions.</p>
+      </note>
+   </conbody>
+</concept>

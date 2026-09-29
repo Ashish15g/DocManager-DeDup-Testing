@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Example_OpportunityForecastApplicationTocreateanactionflowtosaveOpportunities"
+      xml:lang="en">
+   <title>To create an action flow to save Opportunities</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <uicontrol>Action Flow</uicontrol> and then click <uicontrol>Create</uicontrol>.
+            </cmd>
+         </step>
+         <step>
+            <cmd>In the <uicontrol>Action Flow Name</uicontrol> field, enter <i>Save Opportunities</i> and click <uicontrol>Apply</uicontrol>. The left hand window is updated.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Add Step</uicontrol> and in the <uicontrol>Step Name</uicontrol> field, enter <i>Save.</i>
+            </cmd>
+         </step>
+         <step>
+            <cmd>From the <uicontrol>Action</uicontrol> list, select <uicontrol>Save Opportunities</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Apply</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save App</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <p>The <uicontrol>final step</uicontrol> is to <uicontrol>add the end-user menus</uicontrol>. Creating menus is a multi-step process. </p>
+         <ul>
+            <li>You first add a Group and highlight the group to add buttons underneath it.</li>
+            <li>For each group or button, you can change the names of each by overwriting the Default Group or Display Item in the right window.</li>
+            <li>When you add a button, Order is the order in which the buttons will appear on the end-user menu.</li>
+            <li>Action Flow is for associating a menu button to the Action Flow that will be executed by the end-user.</li>
+            <li>For icons, X-Author uses the standard Microsoft Office icon list which can be found here: <xref href="http://www.microsoft.com/en-us/download/details.aspx?id=21103"
+                     format="html"
+                     scope="external">
+                  <u>http://www.microsoft.com/en-us/download/details.aspx?id=21103</u>
+               </xref>. Use the icons described in the procedure below or use any other icon from the list. You must enter the icon name, including capitalization, exactly as it is documented in the procedure below.</li>
+         </ul>
+         <p>The steps are described in detail in the following sections. </p>
+      </postreq>
+   </taskbody>
+</task>

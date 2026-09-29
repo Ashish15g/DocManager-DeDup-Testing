@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_MakingClausesSmartinaTemplatev20240711_Limitations1" xml:lang="en">
+   <title>Limitations</title>
+   <conbody>
+      <p platform="salesforce">You can edit smart fields within a read-only clauses in the following scenarios:</p>
+      <ul platform="salesforce">
+         <li>Clauses with multiple smart fields are editable</li>
+         <li>Clauses with mixed fields (merge fields, smart fields, and read-only fields) allow the smart fields to be edited</li>
+         <li>You cannot edit smart fields within a delete read-only clause</li>
+      </ul>
+      <note type="note">
+         <p>You must set the <b>APTS_EditableSmartCCInReadonlyClause </b>admin entry to <b>True </b>to enable the ability to edit smart fields within a read-only clause. For more information, see 
+<xref href="https://documentation.conga.com/clm/latest/salesforce/admin-entries-252349669.html" format="html" scope="external">Admin Entries</xref>.</p>
+      </note>
+   </conbody>
+</concept>

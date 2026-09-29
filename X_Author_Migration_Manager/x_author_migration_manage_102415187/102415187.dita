@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d34aA" xml:lang="en">
+   <title>
+      <image height="16" width="16" href="../images/icons/contenttypes/home_page_16.png" placement="inline"/>X-Author Migration Manager on Salesforce Summer 2019 User Guide</title>
+   <prolog>
+      <author>user-090d1</author>
+      <critdates>
+         <created date="Jul 23, 2019"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author Migration Manager on Salesforce Summer 2019 User Guide</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>
+         <image height="16" width="16" href="../images/icons/contenttypes/home_page_16.png" placement="inline"/>
+      X-Author Migration Manager on Salesforce Summer 2019 User Guide : X-Author Migration Manager on Salesforce Summer 2019 User Guide
+    </p>
+      <p>X-Author Migration Manager (XAMM) is a Windows-based tool that enables you to upgrade, migrate, and convert templates.</p>
+      <p>Use the Migration Manager to perform the following functions:</p>
+      <ul>
+         <li>Upgrade templates from a previous version of Contract Management to <b>Contract Management 7</b> and higher. Upgrading templates applies a UUID (Universal Unique Identifier) field to all existing template records in your org.</li>
+         <li>Migrate templates to a different target org after you have upgraded your initial org, which becomes your source org for the templates. Prepare your target org before migrating templates. by updating all metadata, such as Term Exception records, from the source org, via a data loader or change sets, to the target org. You can migrate all of the templates from the source org to the target org, or you can choose to migrate only those templates that match certain criteria.</li>
+         <li>Convert your existing pre-FX2 templates to  FX2 format. During this process, the existing pre-FX2 templates are cloned with the same name, keeping the new FX2 templates in an inactive state in the same org. You can also specify filter criteria to identify only those template records that you want to convert.</li>
+      </ul>
+      <note type="note">
+         <p>You and your Apttus representative should establish the best process to upgrade and migrate templates for your implementation.</p>
+      </note>
+   </conbody>
+</concept>

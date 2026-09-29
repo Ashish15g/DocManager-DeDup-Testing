@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="LaunchinganXAuthorforExcelAppfromSalesforceTocreatetheEditinExcelbuttononanystandardorcustomobject"
+      xml:lang="en">
+   <title>To create the Edit in Excel button on any standard or custom object</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Go to <uicontrol>Setup &gt; Build &gt; Customize &gt; Opportunities</uicontrol> and select <uicontrol>Buttons, Links and Actions</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Click New Button or Link.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the Label. Name is auto-populated.</cmd>
+         </step>
+         <step>
+            <cmd>Enter the Description of the button to help users understand the button.</cmd>
+         </step>
+         <step>
+            <cmd>Select a Display Type for the button.</cmd>
+            <info>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Display Type</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Detail Link Page</p>
+                              </entry>
+                              <entry>
+                                 <p>To display the custom button as a link</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Detail Page Button</p>
+                              </entry>
+                              <entry>
+                                 <p>To display the custom button as a detail button. For example, to display the custom button with Edit, Delete, Cancel, and Clone buttons.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>List Button</p>
+                              </entry>
+                              <entry>
+                                 <p>To display the custom button as a list button. For example, to display the custom button with Merge Contacts, New, Add to Categories and so on.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Select a <uicontrol>Behavior</uicontrol>. Click View Behavior Options to view the options of behavior. </cmd>
+         </step>
+         <step>
+            <cmd>Select Custom Source. </cmd>
+         </step>
+         <step>
+            <cmd>Enter the following code into the Formula Editor:</cmd>
+            <info>
+               <pre xml:space="preserve">/apex/Apttus_XApps__EditInExcelLaunch?parentRecordId={!Account.Id}&amp;appName=&lt;your_app_Name&gt;</pre>
+               <p>
+                  <uicontrol>parentRecordId</uicontrol> is the Id of the context object, and <uicontrol>appName is </uicontrol>the name you enter in the Edit in Excel table.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>. Don't forget to add the Edit in Excel button to the Salesforce page.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

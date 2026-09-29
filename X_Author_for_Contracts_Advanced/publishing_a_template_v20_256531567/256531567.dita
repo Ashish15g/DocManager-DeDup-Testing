@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d325aA" xml:lang="en">
+   <title>Publishing a Template</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 25, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>This option publishes a business object's main template from the top down, going through each layer of the clause and nested child clauses to ensure that all of the current clause contents are being used when the main template is used to generate documents.</p>
+      <p>For example, when changes are made to clauses that are added to different templates, we must ensure that these templates contain the latest updated clauses before using them to generate a document. Using the Publish Template option, we can select the templates that must be updated before publishing.</p>
+      <p>For example, when we have changes made to clauses, and those clauses are added in different templates. Before these templates are used to generate a document, we need to make sure that these templates contain the latest updated clauses. Using this Publish Template option, we can now select the templates that need to be updated before publishing.</p>
+   </conbody>
+</concept>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="FinalizingyourDataMigrationAppEditingyourDataMigrationAppUsingtheWizard"
+         xml:lang="en">
+   <title>Editing your Data Migration App Using the Wizard</title>
+   <conbody>
+      <p>When you want to modify a Data Migration App to add, remove or change Objects, Fields, Lookups, or change Filters and other settings, go to the Data Migration Wizard and select <b>Edit</b>.</p>
+      <p>
+         <fig>
+            <image height="182"
+                   placement="break"
+                   width="214"
+                   href="../attachments/98667707/98667806.png"/>
+         </fig>
+      </p>
+      <note type="note">
+         <p>If the changes you want to make to the Data Migration App are significant enough, it is recommended to create a new app rather than modify an existing one.</p>
+      </note>
+      <p>Please note that you cannot change the following components of an app when you are editing it:</p>
+      <ul>
+         <li>App Name</li>
+         <li>User Actions</li>
+         <li>External ID</li>
+      </ul>
+      <p>If you want to make changes to any of the above, you can still remove an Object from the app and add it back again, making any changes as required.</p>
+   </conbody>
+</concept>

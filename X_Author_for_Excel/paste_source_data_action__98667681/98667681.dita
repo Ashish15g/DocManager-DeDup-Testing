@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d230aA" xml:lang="en">
+   <title>Paste Source Data Action</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Jul 29, 2022"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>The Paste Source Data action is the automated equivalent of the runtime <b>Paste with Mapping</b> feature and is primarily used for migrating data between orgs. The manual process maps data between source and target orgs using the Source Data function and then uses Paste from Mapping to copy the data downloaded from the Source org into the Target workbook using the Source Data layout.This action automates that process so that the migration can run uninterrupted.</p>
+      <p>
+         <b>Pre-requisite:</b>
+      </p>
+      <p>The Paste Data Source action requires a licensed edition that includes data migration.</p>
+   </conbody>
+</concept>

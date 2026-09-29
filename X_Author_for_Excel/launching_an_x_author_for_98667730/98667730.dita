@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d186aA" xml:lang="en">
+   <title>Launching an X-Author for Excel App from Apttus Omni</title>
+   <prolog>
+      <author>Rakesh Singh</author>
+      <critdates>
+         <created date="Oct 29, 2018"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Excel</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can launch an X-Author app directly from a button on any page in Apttus Omni. After clicking the button, the app opens in Microsoft Excel and automatically executes based on one or more defined action flows.</p>
+      <p>Prerequisites</p>
+      <ol>
+         <li>In your tenant, go to the Layout Builder. Use the URL: https://yourTenantEndpoint/ui/layoutbuilder/</li>
+         <li>Find the Layout on which you want to configure Launch X-Author for Excel button.</li>
+         <li>Add the button to the selected Layout and provide a name. Name it Launch XAE or whatever you want.<fig>
+               <image height="107"
+                      placement="break"
+                      width="500"
+                      href="../attachments/98667730/98667935.png?effects=drop-shadow"/>
+            </fig>
+         </li>
+         <li>Click on new button and go to Properties and click Edit JSON.<fig>
+               <image height="250"
+                      placement="break"
+                      width="140"
+                      href="../attachments/98667730/98667934.png"/>
+            </fig>
+         </li>
+         <li>Click on Text from Tree drop-down on EditJSON popup and you will get JSON text.<fig>
+               <image placement="break"
+                      width="500"
+                      href="../attachments/98667730/98667933.png"/>
+            </fig>
+         </li>
+         <li>
+            <p>Copy Following JSON text there.</p>
+            <b/>
+        &amp;nbsp;Expand source
+        <pre xml:space="preserve">{
+"type": "Button",
+"label": "Launch X Author",
+"actionFunc":"xAuthor::launchApp",
+"xAuthorAppId":"17776ae9-dec3-4781-9111-5c0f0c472ebb",
+"xAuthorHostUrl":"https://apttus-clm-dev1.crm.dynamics.com"
+}</pre>
+            <p>
+               <fig>
+                  <image height="199"
+                         placement="break"
+                         width="500"
+                         href="../attachments/98667730/98667932.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>xAuhorAppId value should be UniqueID field value of XAE App, to get UniqueId value, go to this link<xref href="https://yourTenantEndpoint/ui/common/entity/xae_App"
+                     format="html"
+                     scope="external">
+                  <u> https://yourTenantEndpoint/ui/common/entity/xae_App</u>
+               </xref> Find XAE App you want to launch on click of this button and Click on it, you will go to Details view page where you will Unique Id Value.</p>
+            <p>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="180"
+                         href="../attachments/98667730/98667931.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>xAuthorHostUrl value should be your Tenant End Point URL only e.g. <xref href="https://dev2-eng4-aql.apttuscloud.io"
+                     format="html"
+                     scope="external">
+                  <u>https://dev2-eng4-aql.apttuscloud.io</u>
+               </xref>Save layout and it should appear on your layout in AIC page.</p>
+         </li>
+      </ol>
+   </conbody>
+</concept>

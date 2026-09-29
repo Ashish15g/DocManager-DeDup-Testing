@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="UnlockingReadOnlyClauses_TounlockorlockRead_Onlyclauses" xml:lang="en">
+   <title>To unlock or lock Read-Only clauses</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open a generated agreement document containing Read-Only clauses.</cmd>
+         </step>
+         <step>
+            <cmd>Go to <uicontrol>Work</uicontrol> tab &gt; <uicontrol>Unlock Clauses</uicontrol>. If there are no read-only clauses in the agreement document and you select <uicontrol>Unlock Clauses</uicontrol>, an error message is displayed.</cmd>
+            <info>
+               <p>All the Read-Only clauses in the agreement document become editable.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Make the required changes to the Read-Only clauses or delete Read-Only clauses. </cmd>
+            <info>
+               <p>To delete a Read-Only Clause, see <xref href="https://documentation.apttus.com/display/XAJSSFSUM19UG/Doc+Clauses" format="html" scope="external">To mark a clause for deletion</xref>.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Go to <uicontrol>Work</uicontrol> tab &gt; <uicontrol>Lock Clauses</uicontrol>.</cmd>
+            <info>
+               <p>The Read-Only clauses become uneditable. You cannot undo changes after the Read-Only clauses are locked.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Check in the agreement document.</cmd>
+            <info>
+               <p>If you do not lock Read-Only clauses and check in the agreement document, the Read-Only clauses get locked.</p>
+            </info>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>
+               <uicontrol>Note</uicontrol>
+            </p>
+            <p>You can view modified unlocked Read-Only clauses on the Reconciliation page or Agreement Clause tab.</p>
+         </note>
+      </postreq>
+   </taskbody>
+</task>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="d285aA" xml:lang="en">
+   <title>Marking Plain Text as Clauses in a Template</title>
+   <prolog>
+      <author>Jessica Halbhuber</author>
+      <critdates>
+         <created date="Jul 17, 2024"/>
+      </critdates>
+      <metadata>
+         <prodinfo>
+            <prodname>X-Author for Contracts Advanced</prodname>
+         </prodinfo>
+      </metadata>
+   </prolog>
+   <conbody>
+      <p>You can use the Mark Clause menu to apply clause boundary and smartness property to a block of text. On generating a document, only the clauses marked as smart have the clause boundaries.</p>
+      <p>While constructing a template, you may have a block of text that you may not want in the Clause Library, but in the context of a contract template (and later a contract), you would like to add the smartness property. Using <b>Mark Clauses</b> feature, you can add smartness property to an inline text in the contract template. Any clause formed from the <b>Mark Clauses</b> feature will, by default, have <b>Smart Clause</b> property turned on.</p>
+      <p>While marking a clause:</p>
+      <ul>
+         <li>Only mark clauses that are not inserted from the Clause Library. In other words, you cannot mark a clause inside an existing clause record as smart.</li>
+         <li>After you mark a block of text as a clause, you cannot mark any other clause within the boundary of the marked clause.</li>
+      </ul>
+   </conbody>
+</concept>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="WorkingwithFields_deletefields" xml:lang="en">
+   <title>To mark fields for deletion</title>
+   <taskbody>
+      <context>
+         <p>There will be times in the negotiation when a negotiating party wants to remove language from an agreement which contains a smart field. Depending on document protection settings, non-Apttus users can remove content from the agreement, but any smart field content removed will not remove the field itself. Follow the instructions on this page to <uicontrol>mark fields for removal</uicontrol>. You usually want to mark fields for removal when:</p>
+         <ul>
+            <li>An Apttus user marked static text as a field.</li>
+            <li>A Template Admin marked a field as smart.</li>
+            <li>You need to delete a smart clause from an agreement document.</li>
+         </ul>
+      </context>
+      <steps>
+         <step>
+            <cmd>Go to <menucascade>
+                  <uicontrol>Document </uicontrol>
+                  <uicontrol/>
+                  <uicontrol>Fields</uicontrol>
+               </menucascade>.</cmd>
+            <info>
+               <fig>
+                  <image height="250" placement="break" width="246"
+                     href="../attachments/45220124/51576879.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Right-click on a field and select <uicontrol>Mark for Deletion.</uicontrol></cmd>
+            <info>
+               <fig>
+                  <image height="250" placement="break" width="792" href="../attachments/45220124/51576882.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Yes</uicontrol> on the confirmation dialog that appears. </cmd>
+            <stepresult>
+               <p>The field is marked with a strikethrough in the document and the Document pane to
+                  denote that it has been marked for deletion.</p>
+               <fig id="fig_zqj_ysn_12c">
+                  <image height="400" placement="break" width="739"
+                     href="../attachments/45220124/51576883.png" id="image_arj_ysn_12c"/>
+               </fig>
+            </stepresult>
+         </step>
+         <step>
+            <cmd><uicontrol>Check-in</uicontrol> the document and choose
+                  <uicontrol>Reconcile</uicontrol>.</cmd>
+         </step>
+      </steps>
+      <result id="result_mcr_1tn_12c">
+         <p>The field is removed from the document.</p>
+      </result>
+   </taskbody>
+</task>

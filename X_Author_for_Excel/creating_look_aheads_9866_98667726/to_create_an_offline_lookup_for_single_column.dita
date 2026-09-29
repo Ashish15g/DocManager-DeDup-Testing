@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="CreatingLookAheadsTocreateanofflinelookupforsinglecolumn"
+      xml:lang="en">
+   <title>To create an offline lookup for single column</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Click <uicontrol>Display Map</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select a Display Map and click <uicontrol>Edit</uicontrol>. The Display Map panel opens.</cmd>
+         </step>
+         <step>
+            <cmd>In the Mapped Details section of the Display Map pane, click the magnify icon <image placement="inline" href="../attachments/98667726/98668079.jpg"/> to open lookup properties for that field. The X-Author Designer window opens.</cmd>
+            <info>
+               <fig>
+                  <image height="178"
+                         placement="break"
+                         width="621"
+                         href="../attachments/98667726/98668082.png"/>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>
+               Select the <uicontrol>Excel (Offline) </uicontrol>
+               <uicontrol>radio button</uicontrol>.
+            </cmd>
+         </step>
+         <step>
+            <cmd>From Range Selection, click <uicontrol>Get Current Selectio</uicontrol>
+               <uicontrol>n</uicontrol> and highlight the list values in the worksheet.</cmd>
+            <info>
+               <note type="note">
+                  <p>The first time a lookup is initiated by the end user, the lookup function loads data from the worksheet and stores it in the Lookup window for quick results on successive lookups. If you expect changes in lookup data, then refresh the lookup fields every time you load the lookup by selecting the <uicontrol>Refresh data on every load</uicontrol> check box.</p>
+               </note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <uicontrol>Save</uicontrol>. </cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="id_ReviewingDocClausesAfterAgreementDataExtractionv20240711_Toremoveanextractedclause" xml:lang="en">
+   <title>To remove an extracted clause</title>
+   <taskbody>
+      <steps>
+         <step>
+            <cmd>Open Microsoft Word and launch the add-in.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to X-Author for Contracts and open the Agreement Document.</cmd>
+         </step>
+         <step>
+            <cmd>In the Contracts pane, click the Work tab and click <uicontrol>Doc Clauses</uicontrol>.</cmd>
+         </step>
+         <step>
+            <cmd>Select the incorrectly tagged clause and click the More button (<image placement="inline" width="20" href="../attachments/256531761/256531760.png" class="- topic/image "/>), and click <uicontrol>Delete</uicontrol>. A confirmation dialog appears. The doc clauses are deleted successfully.</cmd>
+         </step>
+      </steps>
+      <postreq>
+         <note type="note">
+            <p>Clause and field markings are displayed differently in CLM and X-Author for Contracts.</p>
+            <ol>
+               <li>When there are multiple extractions for a single clause, CLM displays the combined list, whereas X-Author for Contracts displays only the first extraction.</li>
+               <li>When the same provision is mapped to multiple fields or clauses, and all extractions are in the same location in the document, then all the clauses in CLM are marked, whereas only the first value gets marked in X-Author for Contracts.</li>
+               <li>When the same provision is mapped to both fields and clauses, then both the fields and clauses are marked in CLM, whereas only the clauses are marked in X-Author for Contracts.</li>
+            </ol>
+         </note>
+      </postreq>
+   </taskbody>
+</task>
