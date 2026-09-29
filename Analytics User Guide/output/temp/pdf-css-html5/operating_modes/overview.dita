@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\adity\Downloads\Analytics User Guide\output\temp\pdf-css-html5\operating_modes?><?workdir-uri file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/temp/pdf-css-html5/operating_modes/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA 2.x Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="overview" xml:lang="en-us" ditaarch:DITAArchVersion="2.0" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" class="- topic/topic concept/concept " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="concept:1;4:41" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)">
+   <title class="- topic/title " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="title:1;5:11">Overview</title>
+   <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="shortdesc:1;6:15">After the SMS is configured and installed on a motor, it begins sending data from</shortdesc>
+  <prolog class="- topic/prolog " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="prolog:1;7:11">
+    <metadata class="- topic/metadata " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="metadata:1;8:15">
+      <keywords class="- topic/keywords " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="keywords:1;9:17">
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="keyword:1;10:18">motor</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="keyword:2;11:18">OtoSense</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="keyword:3;12:18">Server</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="keyword:4;13:18">learning</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="keyword:5;14:18">Overview</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="keyword:6;15:18">After</keyword>
+        <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="indexterm:1;16:20">motor</indexterm>
+        <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="indexterm:2;17:20">OtoSense</indexterm>
+        <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="indexterm:3;18:20">Server</indexterm>
+      </keywords>
+      <prodinfo class="- topic/prodinfo " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="prodinfo:1;20:17">
+        <prodname class="- topic/prodname " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="prodname:1;21:19"/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="conbody:1;25:13">
+      <p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="p:1;26:10">After the SMS is configured and installed on a motor, it begins sending data from its on-board sensors to the ADI OtoSense™ Server and initiates a learning process. During this learning process, the analytics create a unique, customized model of the motor whose data is received. At regular intervals, the SMS sends a 2.4 second sample of all sensor data to the ADI OtoSense™ Server.</p>
+      <p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="p:2;27:10">
+         <fig class="- topic/fig " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="fig:1;28:15">
+            <title class="- topic/title " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="title:2;29:20">The SMS Communicating with the Cloud</title>
+            <image href="../media/image4.png" placement="break" height="239" width="602" class="- topic/image " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="image:1;30:90">
+               <alt class="- topic/alt " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="alt:1;31:21">placeholder</alt>
+            </image>
+         </fig>
+      </p>
+      <p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/operating_modes/overview.dita" xtrc="p:3;35:10">After the learning mode, the ADI OtoSense™ Server uses the baseline model to detect motor performance anomalies and generate alerts about impending motor issues.</p>
+   </conbody>
+</concept>

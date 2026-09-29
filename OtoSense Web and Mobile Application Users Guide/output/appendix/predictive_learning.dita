@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc193658936" xml:lang="en-us">
+   <title>Predictive Learning</title>
+   <shortdesc>After Quick Learning, Smart Motor Sensor will predict faults, while simultaneously learning for an extended</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Learning</keyword>
+        <keyword>motor</keyword>
+        <keyword>Predictive</keyword>
+        <keyword>Quick</keyword>
+        <keyword>Smart</keyword>
+        <keyword>Motor</keyword>
+        <indexterm>Learning</indexterm>
+        <indexterm>motor</indexterm>
+        <indexterm>Predictive</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>After Quick Learning, Smart Motor Sensor will predict faults, while simultaneously learning for an extended period. This stage enables improved predictions for all detectable fault types. During this stage, faults will be predicted within the parameters of the motor conditions that Smart Motor Sensor observed during Quick Learning. The motor model will continue to improve based on learnings from any changes to operational conditions.</p>
+      <note type="note">Note: Optimization can take anywhere from 4-6 weeks+, depending on motor uptime.</note>
+   </conbody>
+</concept>

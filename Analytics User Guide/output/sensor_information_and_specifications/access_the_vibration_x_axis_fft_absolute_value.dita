@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="access_the_vibration_x_axis_fft_absolute_value" xml:lang="en-us">
+   <title>Access the Vibration X-axis FFT Absolute Value</title>
+   <shortdesc>This section describes the process of accessing the Vibration X-axis FFT Absolute Value graph.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Vibration</keyword>
+        <keyword>Select</keyword>
+        <keyword>Absolute</keyword>
+        <keyword>Value</keyword>
+        <keyword>select</keyword>
+        <keyword>corresponding</keyword>
+        <indexterm>Vibration</indexterm>
+        <indexterm>Select</indexterm>
+        <indexterm>Absolute</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>This section describes the process of accessing the Vibration X-axis FFT Absolute Value graph.</p>
+         <p>To access the Vibration X-axis FFT Absolute Value through the application:</p>
+      </context>
+      <steps id="steps_10211515">
+         <step>
+            <cmd>Tap <b>Motors</b>.</cmd>
+            <info>
+               <p>The Locations list is displayed.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the location associated with the motor.</cmd>
+         </step>
+         <step>
+            <cmd>From the subsequent screens, select the corresponding process, plant, and motor name.</cmd>
+         </step>
+         <step>
+            <cmd>Select <b>History Plot</b> and <b>Parameters</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Tap <b>Select Vibration</b> to select <b>Vibration</b>
+               <b>X absolute value</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Tap <b>Select Date</b> and <b>Select Time</b> to select the date and time corresponding to the moment of the installation.</cmd>
+            <info>
+               <p>You should see the corresponding waveform as shown in <xref href="#Bookmark1">Figure 18</xref>.</p>
+               <fig>
+                  <title>Dashboard screen showing the Vibration X FFT absolute value waveform</title>
+                  <image height="297" href="../media/image38.png" placement="break" width="601">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>DATA DOWNLOAD</b>to download the generated data.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

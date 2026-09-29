@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\adity\Downloads\Analytics User Guide\output\temp\pdf-css-html5\sensor_information_and_specifications?><?workdir-uri file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/temp/pdf-css-html5/sensor_information_and_specifications/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA 2.x Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="_Ref182996638" xml:lang="en-us" ditaarch:DITAArchVersion="2.0" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" class="- topic/topic concept/concept " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="concept:1;4:46" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)">
+   <title class="- topic/title " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="title:1;5:11">vibz</title>
+   <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="shortdesc:1;6:15">The Vibration Z (vibz) is the vibration acceleration measured in the axial direction of the</shortdesc>
+  <prolog class="- topic/prolog " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="prolog:1;7:11">
+    <metadata class="- topic/metadata " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="metadata:1;8:15">
+      <keywords class="- topic/keywords " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="keywords:1;9:17">
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="keyword:1;10:18">motor</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="keyword:2;11:18">Vibration</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="keyword:3;12:18">vibration</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="keyword:4;13:18">measured</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="keyword:5;14:18">waveform</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="keyword:6;15:18">acceleration</keyword>
+        <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="indexterm:1;16:20">motor</indexterm>
+        <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="indexterm:2;17:20">Vibration</indexterm>
+        <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="indexterm:3;18:20">vibration</indexterm>
+      </keywords>
+      <prodinfo class="- topic/prodinfo " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="prodinfo:1;20:17">
+        <prodname class="- topic/prodname " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="prodname:1;21:19"/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="conbody:1;25:13">
+      <p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="p:1;26:10">The Vibration Z (vibz) is the vibration acceleration measured in the axial direction of the motor. This recorded data shows the vibration Z waveform data, in the unit of metre per second squared (m/s2). With the vibrations X and Z measured from the motor, the analytics system can detect the mechanical failures of the motor.</p>
+      <ul class="- topic/ul " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="ul:1;27:11">
+         <li class="- topic/li " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="li:1;28:14">
+            <p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="p:2;29:16">Each record contains an array of 15,000 samples captured on the specified timestamp.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="p:3;30:16">It is necessary to generate the corresponding X-axis data to plot this Vibration Z (vibx) waveform data in a graphic: The X-axis data is a vector of 15,000 data points with a step of 0.00016s.</p>
+         </li>
+         <li class="- topic/li " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="li:2;32:14">
+            <p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="p:4;33:16">For example:</p>
+         </li>
+         <li class="- topic/li " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="li:3;35:14">
+            <p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="p:5;36:16">[0, 0.00016, 0.00032, 0.00048, .... 2.39984]</p>
+         </li>
+         <li class="- topic/li " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="li:4;38:14">
+            <p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/sensor_information_and_specifications/vibz.dita" xtrc="p:6;39:16">For more information on API refer to the ADI OtoSense™ SMS REST API.</p>
+         </li>
+      </ul>
+   </conbody>
+</concept>

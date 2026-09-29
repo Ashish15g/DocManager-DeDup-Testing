@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="check_point_firewall" xml:lang="en-us">
+   <title>Check Point firewall</title>
+   <shortdesc>The Check Point firewall has a feature named Updatable Objects that supports the dynamic AWS</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>firewall</keyword>
+        <keyword>Services</keyword>
+        <keyword>Check</keyword>
+        <keyword>Point</keyword>
+        <keyword>Updatable</keyword>
+        <keyword>Objects</keyword>
+        <indexterm>firewall</indexterm>
+        <indexterm>Services</indexterm>
+        <indexterm>Check</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>The Check Point firewall has a feature named <b>Updatable Objects</b>that supports the dynamic AWS IP ranges list. It automatically maintains your network firewall configuration whenever IP ranges change.</p><ul id="ul_10132716">
+         <li>
+            <xref href="https://sc1.checkpoint.com/documents/R81/WebAdminGuides/EN/CP_R81_SecurityManagement_AdminGuide/Topics-SECMG/Updatable-Objects.htm" scope="external" format="html">https://sc1.checkpoint.com/documents/R81/WebAdminGuides/EN/CP_R81_SecurityManagement_AdminGuide/Topics-SECMG/Updatable-Objects.htm</xref>
+         </li>
+         <li>
+            <xref href="https://support.checkpoint.com/results/sk/sk131852" scope="external" format="html">https://support.checkpoint.com/results/sk/sk131852</xref>
+         </li>
+      </ul><p>The subset of AWS IP ranges that are applicable to the  comprise of the following:</p><ul id="ul_10132717">
+         <li>
+            <b>Amazon Services</b>
+         </li>
+         <li>
+            <b>API Gateway Services</b>
+         </li>
+         <li>
+            <b>CloudFront Services</b>
+         </li>
+         <li>
+            <b>Rout53 Services</b>
+         </li>
+      </ul>
+  </context>
+  <steps id="steps_102006">
+    <step>
+      <cmd>Create an Accept rule for traffic to these services on ports 8883 and 443 in the Updatable Objects console.</cmd>
+    </step>
+  </steps></taskbody>
+</task>

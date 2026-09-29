@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc193658913" xml:lang="en-us">
+   <title>Alerts</title>
+   <shortdesc>The Alerts page records and lists all the faults detected in all the motors of</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Alerts</keyword>
+        <keyword>alert</keyword>
+        <keyword>alerts</keyword>
+        <keyword>fault</keyword>
+        <keyword>device</keyword>
+        <keyword>raised</keyword>
+        <indexterm>Alerts</indexterm>
+        <indexterm>alert</indexterm>
+        <indexterm>alerts</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>The Alerts page records and lists all the faults detected in all the motors of a network. If the user has configured the Notification settings to receive certain kind of alerts, then they will receive them in their email.</p>
+<p>The Alerts page displays a list of all the alerts received by the user. Whenever the SMS device detects a fault with the motor or its components, an email is sent to the user with a View Motor link to view the alert. Each alert displays detailed information about the fault, the affected component, and the action required. Three types of alerts are raised by the SMS device:</p>
+<table frame="all" colsep="1" rowsep="1">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Type of Alert</b>
+                     </entry>
+                     <entry>
+                        <b>Description</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Alarm</entry>
+                     <entry>The Alarm alert is raised when a fault is detected, and action needs to be taken.</entry>
+                  </row>
+                  <row>
+                     <entry>Repaired</entry>
+                     <entry>After a motor or component has been repaired or replaced, you can resolve an alert by marking it as Repaired. The Alarm alert is removed, and the time of repair is registered on the Alerts page.</entry>
+                  </row>
+                  <row>
+                     <entry>Recovered</entry>
+                     <entry>The Recovered alert is raised when a fault / failure is recovered without any repairs performed along with the recovery date. A fault / failure alert may have been triggered by a sudden change in speed or in performance. When the SMS device later learns that the motor component is running in normal condition again, the status is changed to Recovered.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<ul>
+            <li>
+               <p>Table  Type of alerts raised by an SMS device</p>
+            </li>
+            <li>
+               <p>
+                  <fig>
+                     <title>placeholder</title>
+                     <image href="../media/image83.png" placement="break" height="372" width="431">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig>
+               </p>
+            </li>
+            <li>
+               <p>Figure  Alarm state workflow</p>
+            </li>
+            <li>
+               <p>
+                  <fig>
+                     <title>Alerts page</title>
+                     <image href="../media/image84.png" placement="break" height="225" width="602">
+                        <alt>placeholder</alt>
+                     </image>
+                  </fig>
+               </p>
+            </li>
+         </ul>
+<note type="note">Note: The numerical indicator on the Alerts tab displays the number of pending alerts.</note></conbody>
+</concept>

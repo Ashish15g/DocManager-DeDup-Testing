@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="normal_operation_mode" xml:lang="en-us">
+   <title>Normal Operation Mode</title>
+   <shortdesc>This section describes the normal operation mode of the SMS.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Mode</keyword>
+        <keyword>Normal</keyword>
+        <keyword>Operation</keyword>
+        <keyword>Cloud</keyword>
+        <keyword>sensor</keyword>
+        <keyword>baseline</keyword>
+        <indexterm>Mode</indexterm>
+        <indexterm>Normal</indexterm>
+        <indexterm>Operation</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>This section describes the normal operation mode of the SMS.</p>
+      <p>After the learning mode, the ADI OtoSense™ Cloud platform compares incoming sensor data to the baseline model to detect declining motor health. It identifies significant deviation from the baseline model to generate the health index on a scale of 1-10.</p>
+      <fig>
+            <title>Image8</title>
+            <image href="../media/image8.png" placement="break" height="339" width="602">
+               <alt>placeholder</alt>
+            </image>
+         </fig><p>The REST API fetch the SMS data and display it on the web and mobile applications</p>
+      <ul id="ul_10211407">
+         <li>ten key motor attributes; <xref href="../operating_modes/motor_condition_mode.dita" format="dita">Motor Condition Mode</xref>￼</li>
+         <li>raw and processed sensor data;  <xref href="#_Appendix_B:_Cloud">Appendix B: Cloud Platform Parameters</xref>.</li>
+      </ul>
+    </section></refbody>
+</reference>

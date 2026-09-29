@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="success_response_5" xml:lang="en-us">
+   <title>Success Response</title>
+   <shortdesc>"records": [</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>window</keyword>
+        <keyword>sensor</keyword>
+        <keyword>string</keyword>
+        <keyword>quota</keyword>
+        <keyword>timestamp</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>window</indexterm>
+        <indexterm>sensor</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <ul id="ul_10492757">
+         <li>
+            <b>Code:</b> 200 OK</li>
+         <li>Headers:</li>
+      </ul>
+    </section>
+<table frame="all" colsep="1" rowsep="1">
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Header</b>
+                  </entry>
+                  <entry>
+                     <b>Type</b>
+                  </entry>
+                  <entry>
+                     <b>Description</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>X-RateLimit-Limit</entry>
+                  <entry>string</entry>
+                  <entry>Request limit details in the following form: {quota};window={time-window}. quota: the request quota. time-window: the quota time window in seconds.</entry>
+               </row>
+               <row>
+                  <entry>X-RateLimit-Remaining</entry>
+                  <entry>integer</entry>
+                  <entry>The number of requests left for the time window.</entry>
+               </row>
+               <row>
+                  <entry>X-RateLimit-Reset</entry>
+                  <entry>integer</entry>
+                  <entry>The time in seconds from now at which point the current rate limit window resets.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+    <section>
+      <ul id="ul_10492758">
+         <li>
+            <b>Content-Type:</b> application/json</li>
+         <li>
+            <b>Schema:</b>
+         </li>
+      </ul>
+    </section>
+<table frame="all" colsep="1" rowsep="1">
+         <tgroup cols="4">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <colspec colname="c4"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Schema</b>
+                  </entry>
+                  <entry>
+                     <b>Key</b>
+                  </entry>
+                  <entry>
+                     <b>Type</b>
+                  </entry>
+                  <entry>
+                     <b>Description</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="c1" nameend="c4">
+                     <b>records</b>
+                     <b>(Array of data record objects)</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>timestamp</entry>
+                  <entry>integer</entry>
+                  <entry>Data timestamp in ms</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>motorId</entry>
+                  <entry>string</entry>
+                  <entry>This motor has a unique identifier. The unique motor ID assigned to a motor can be found in the get all motors response.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>sensorId</entry>
+                  <entry>string</entry>
+                  <entry>This sensor has a unique identifier. The unique ID assigned to a sensor can be found in the "get all motor sensors" response.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>dataset</entry>
+                  <entry>string</entry>
+                  <entry>conditions</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>data</entry>
+                  <entry>Array of numbers</entry>
+                  <entry>Array of data values</entry>
+               </row>
+               <row>
+                  <entry>continuationToken</entry>
+                  <entry>N/A</entry>
+                  <entry>String</entry>
+                  <entry>Requests the next set of results. If more records are available, then a continuation token will be returned. For example, eyJwayI6ImFkaybSIsInNrIjoxNTkyMIyNDUyLCJ0ZW5hbnRJZCI6ImFkaSJ9</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+    <section>
+      <ul id="ul_10492759">
+         <li>
+            <b>Sample Request</b>
+            <b>:</b>https://your-api-endpoint.otosensesms.com/data/{motorId}/{conditions}</li>
+         <li>Sample Response:</li>
+      </ul>
+      <ul>
+         <li>
+            <p>{</p>
+         </li>
+         <li>
+            <p>"records": [</p>
+         </li>
+         <li>
+            <p>{</p>
+         </li>
+         <li>
+            <p>"motorId": "feec0770-5013-4174-905e-55eba3b7e834",</p>
+         </li>
+         <li>
+            <p>"sensorId": "00000479Y",</p>
+         </li>
+         <li>
+            <p>"dataset": "conditions",</p>
+         </li>
+         <li>
+            <p>"timestamp": 1599763309646,</p>
+         </li>
+         <li>
+            <p>"bearing": 9.455606488494801,</p>
+         </li>
+         <li>
+            <p>"cooling": 8.872612820102937,</p>
+         </li>
+         <li>
+            <p>"eccentricity": 8.81912577044155,</p>
+         </li>
+         <li>
+            <p>"imbalance": 9.5,</p>
+         </li>
+         <li>
+            <p>"misalignment": 8.176777045141723,</p>
+         </li>
+         <li>
+            <p>"motorStructure": 4.474274950054726,</p>
+         </li>
+         <li>
+            <p>"performance": 10,</p>
+         </li>
+         <li>
+            <p>"powerSystem": 10,</p>
+         </li>
+         <li>
+            <p>"rotorBar": 7,</p>
+         </li>
+         <li>
+            <p>"statorWinding": 9.78414160779228</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>{</p>
+         </li>
+         <li>
+            <p>"motorId": "feec0770-5013-4174-905e-55eba3b7e834",</p>
+         </li>
+         <li>
+            <p>"sensorId": "00000479Y",</p>
+         </li>
+         <li>
+            <p>"dataset": "conditions",</p>
+         </li>
+         <li>
+            <p>"timestamp": 1599763309646,</p>
+         </li>
+         <li>
+            <p>"bearing": 10,</p>
+         </li>
+         <li>
+            <p>"cooling": 10,</p>
+         </li>
+         <li>
+            <p>"eccentricity": 10,</p>
+         </li>
+         <li>
+            <p>"imbalance": 10,</p>
+         </li>
+         <li>
+            <p>"misalignment": 10,</p>
+         </li>
+         <li>
+            <p>"motorStructure": 10,</p>
+         </li>
+         <li>
+            <p>"performance": 10,</p>
+         </li>
+         <li>
+            <p>"powerSystem": 0.0791662415709216,</p>
+         </li>
+         <li>
+            <p>"rotorBar": 10,</p>
+         </li>
+         <li>
+            <p>"statorWinding": 10</p>
+         </li>
+         <li>
+            <p>}</p>
+         </li>
+         <li>
+            <p>],</p>
+         </li>
+         <li>
+            <p>"continuationToken": "eyJwayI6ImFkaybSIsInNrIjoxNTkyMIyNDUyLCJ0ZW5hbnRJZCI6ImFkaSJ9"</p>
+         </li>
+         <li>
+            <p>}</p>
+         </li>
+      </ul>
+    </section></refbody>
+</reference>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\adity\Downloads\Analytics User Guide\output\temp\pdf-css-html5\appendices?><?workdir-uri file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/temp/pdf-css-html5/appendices/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA 2.x Reference//EN?><?doctype-system reference.dtd?><reference xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="conditions" xml:lang="en-us" ditaarch:DITAArchVersion="2.0" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" class="- topic/topic       reference/reference " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="reference:1;3:45" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)">
+   <title class="- topic/title " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="title:1;4:11">conditions</title>
+   <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="shortdesc:1;5:15">This section describes the parameters used to assess the condition of a motor component.</shortdesc>
+  <prolog class="- topic/prolog " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="prolog:1;6:11">
+    <metadata class="- topic/metadata " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="metadata:1;7:15">
+      <keywords class="- topic/keywords " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="keywords:1;8:17">
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="keyword:1;9:18">motor</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="keyword:2;10:18">component</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="keyword:3;11:18">System</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="keyword:4;12:18">Problems</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="keyword:5;13:18">which</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="keyword:6;14:18">could</keyword>
+        <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="indexterm:1;15:20">motor</indexterm>
+        <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="indexterm:2;16:20">component</indexterm>
+        <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="indexterm:3;17:20">System</indexterm>
+      </keywords>
+      <prodinfo class="- topic/prodinfo " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="prodinfo:1;19:17">
+        <prodname class="- topic/prodname " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="prodname:1;20:20"/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody class="- topic/body        reference/refbody " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="refbody:1;24:13">    <section class="- topic/section " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="section:1;24:26">
+      <p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="p:1;25:10">This section describes the parameters used to assess the condition of a motor component.</p>
+      <p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="p:2;26:10">Each parameter in the following table represents the Fault Score Index (FSI) of the corresponding motor component condition. These predicted health indicators for motor components are generated each time the analytics processes data samples received from a running motor. The values are between zero and ten:</p>
+      <ul id="ul_10211554" class="- topic/ul " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="ul:1;27:28">
+         <li class="- topic/li " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="li:1;28:14">A value of 10 corresponds to a perfect state for the component.</li>
+         <li class="- topic/li " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="li:2;29:14">A value of 0 corresponds to a catastrophic state for the component.</li>
+      </ul>
+    </section>
+<table frame="all" colsep="1" rowsep="1" class="- topic/table " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="table:1;32:42">
+         <title class="- topic/title " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="title:2;33:17">Condition Parameters</title>
+         <tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="tgroup:1;34:27">
+            <colspec colname="c1" class="- topic/colspec " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="colspec:1;35:36"/>
+            <colspec colname="c2" class="- topic/colspec " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="colspec:2;36:36"/>
+            <colspec colname="c3" class="- topic/colspec " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="colspec:3;37:36"/>
+            <tbody class="- topic/tbody " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="tbody:1;38:20">
+               <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="row:1;39:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:1;40:26">
+                     <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="b:1;41:25">Parameter</b>
+                  </entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:2;43:26">
+                     <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="b:2;44:25">Motor</b>
+                     <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="b:3;45:25">Component</b>
+                  </entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:3;47:26">
+                     <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="b:4;48:25">Description</b>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="row:2;51:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:4;52:26">
+                     <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="codeblock:1;53:54">powerSystem</codeblock>
+                  </entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:5;55:26">Power System</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:6;56:26">Problems in the three phases of the power supply, which could lead to a motor current imbalance.</entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="row:3;58:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:7;59:26">
+                     <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="codeblock:2;60:54">statorWinding</codeblock>
+                  </entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:8;62:26">Stator Winding</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:9;63:26">Problems in one of the phases of the motor, which could cause an imbalance of the motor currents.</entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="row:4;65:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:10;66:26">
+                     <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="codeblock:3;67:54">rotorBar</codeblock>
+                  </entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:11;69:26">Rotor</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:12;70:26">Short-circuit ring or rotor bar related problems.</entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="row:5;72:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:13;73:26">
+                     <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="codeblock:4;74:54">imbalance</codeblock>
+                  </entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:14;76:26">Motor Shaft/ Balance</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:15;77:26">Unequal distribution of mass, causing the center of gravity to shift from the center of rotation.</entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="row:6;79:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:16;80:26">
+                     <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="codeblock:5;81:54">eccentricity</codeblock>
+                  </entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:17;83:26">Eccentricity</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:18;84:26">Asymmetric air gap between the rotor and stator.</entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="row:7;86:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:19;87:26">
+                     <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="codeblock:6;88:54">bearing</codeblock>
+                  </entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:20;90:26">Bearing</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:21;91:26">Mechanical stress or contamination leading to small cracks or defects that occur in the bearing, creating vibration problems.</entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="row:8;93:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:22;94:26">
+                     <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="codeblock:7;95:54">misalignment</codeblock>
+                  </entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:23;97:26">Alignment</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:24;98:26">Occurs when two rotating shafts (motor and load) are not aligned, creating external misalignment.</entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="row:9;100:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:25;101:26">
+                     <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="codeblock:8;102:54">cooling</codeblock>
+                  </entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:26;104:26">Cooling System</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:27;105:26">Problems with fans attached to the shaft or externally attached to the motor.</entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="row:10;107:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:28;108:26">
+                     <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="codeblock:9;109:54">motorStructure</codeblock>
+                  </entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:29;111:26">Loose Foot</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:30;112:26">Structural looseness occurring when the motor base (or connection to the motor base) is not properly tightened.</entry>
+               </row>
+               <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="row:11;114:21">
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:31;115:26">
+                     <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="codeblock:10;116:54">performance</codeblock>
+                  </entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:32;118:26">Performance</entry>
+                  <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="entry:33;119:26">Used to capture abnormal events such as an overall increase in vibrations, unusual changes in motor RPM, motor load or temperatures, etc. Indicates faults that do not correspond to any of the other nine fault categories, which could be related to machine process.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+    <section class="- topic/section " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="section:2;124:14">
+      <p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/appendices/conditions.dita" xtrc="p:3;125:10">For more information on API refer to the ADI OtoSense™ SMS REST API.</p>
+    </section></refbody>
+</reference>

@@ -1,0 +1,100 @@
+================================================================================
+ metR DocMigrate — POST-FLIGHT VALIDATION REPORT
+================================================================================
+ Total Files Validated : 61
+ Violations (pre-XSLT) : 82 errors, 63 warnings
+ Violations (post-XSLT): 0 errors, 0 warnings
+ Started               : 2026-08-19 10:13:27 UTC
+ Completed             : 2026-08-19 10:20:03 UTC
+ Duration              : 6m 35s
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+
+[2026-08-19T10:13:27.285331+00:00] postflight_started working.
+[2026-08-19T10:13:27.292018+00:00] DitaPostProcessor Post-processing all generated DITA files.
+[2026-08-19T10:13:27.292172+00:00] step_post_process_started Step 6/7: Post-processing DITA files (image paths, cross-references, DTD headers).
+[2026-08-19T10:13:27.296912+00:00] post_process_files_started Post-processing 52 DITA file(s) and 9 DITAMAP file(s).
+[2026-08-19T10:13:27.302305+00:00] DitaPostProcessor Starting EMF->image conversion.
+[2026-08-19T10:13:27.303730+00:00] emf_converter Converting 1 EMF file(s) found in '/app/Storage/2088a3c5-2133-4d9c-86fd-d65619899cbf/output/OtoSense Installation Guide/media'.
+[2026-08-19T10:13:27.303872+00:00] emf_converter Trying EMF -> PNG: 'image10.emf'.
+[2026-08-19T10:13:27.309345+00:00] emf_converter Trying EMF -> JPG: 'image10.emf'.
+[2026-08-19T10:13:27.310749+00:00] emf_converter Trying EMF -> SVG: 'image10.emf'.
+[2026-08-19T10:13:27.311776+00:00] emf_converter Trying EMF -> BMP: 'image10.emf'.
+[2026-08-19T10:13:27.313026+00:00] emf_converter Trying EMF -> GIF: 'image10.emf'.
+[2026-08-19T10:13:27.314277+00:00] emf_converter Trying EMF -> TIFF: 'image10.emf'.
+[2026-08-19T10:13:27.315482+00:00] emf_converter class is failing. Error: All format attempts failed for 'image10.emf' -- original EMF kept.
+[2026-08-19T10:13:27.315516+00:00] emf_converter EMF conversion complete -- 0/1 file(s) converted.
+[2026-08-19T10:13:27.315528+00:00] DitaPostProcessor No EMF files converted (none found or all failed).
+[2026-08-19T10:13:27.359434+00:00] post_process_files_complete Post-processing complete: image paths, cross-references, and DTD headers applied to 52 file(s).
+[2026-08-19T10:13:27.363619+00:00] DitaPostProcessor Post-processing complete.
+[2026-08-19T10:13:27.364009+00:00] step_post_process_complete Post-processing complete.
+[2026-08-19T10:13:27.368442+00:00] PipelineOrchestrator Running concept reclassification pass on topic files.
+[2026-08-19T10:13:27.369280+00:00] PipelineOrchestrator Concept reclassification complete — no files required updating.
+[2026-08-19T10:13:27.369478+00:00] HyperlinkResolver Resolving internal hyperlinks.
+[2026-08-19T10:13:27.369504+00:00] step_hyperlinks_started Step 6.5/7: Resolving internal hyperlinks.
+[2026-08-19T10:13:27.377400+00:00] HyperlinkResolver Resolving internal hyperlinks in 52 DITA file(s).
+[2026-08-19T10:13:27.396027+00:00] HyperlinkResolver Hyperlink resolution complete -- no anchor xrefs required updating.
+[2026-08-19T10:13:27.396345+00:00] HyperlinkResolver Hyperlink resolution complete.
+[2026-08-19T10:13:27.396502+00:00] step_hyperlinks_complete Hyperlink resolution complete.
+[2026-08-19T10:13:27.402088+00:00] PipelineOrchestrator Running DTD compliance validation on all output files.
+[2026-08-19T10:13:27.402447+00:00] step_validation_started Step 7/7: Running DTD compliance validation on all output files.
+[2026-08-19T10:20:03.215371+00:00] postflight_completed successfully.
+
+================================================================================
+ INITIAL VALIDATION SUMMARY
+================================================================================
+  Total files : 61
+  Passed      : 61
+  Failed      : 0
+----------------------------------------
+  Total Dita Files generated         : 52
+  Total Headings counted             : 8
+  Total subheadings under Heading (per heading name):
+    - Getting Started                                   : 12 file(s)
+    - Installation                                      : 11 file(s)
+    - Intended Audience                                 : 1 file(s)
+    - Introduction                                      : 4 file(s)
+    - Maintenance                                       : 3 file(s)
+    - Post Installation                                 : 1 file(s)
+    - Reference                                         : 18 file(s)
+    - Troubleshooting                                   : 2 file(s)
+  Total Ditamap Files generated      : 9
+  Root Ditamap                       : getting_started_map.ditamap
+  Total images counted               : 59
+========================================================================
+[GUI] Validating generated DITA maps and topics.
+
+================================================================================
+POST FLIGHT SUMMARY
+------------------------------------------------------------------------
+  Total Files Validated   : 61
+  Files Fully Valid       : 61
+  Files With Errors       : 0
+  Total Errors            : 0
+  Total Warnings          : 0
+
+========================================================================
+
+[GUI] Generating validation report.
+
+
+SUPPORTING REPORTS (postflight folder)
+--------------------------------------------------------------------------------
+ File                            Contents
+--------------------------------------------------------------------------------
+ schematron.csv                  Full pre-XSLT validation results — every
+                                 violation found before the correction pass, one
+                                 row per issue.
+ xslt.csv                        XSLT correction pass log — every stylesheet
+                                 applied per file, execution time, and pass/fail
+                                 status.
+ post_xslt_schematron.csv        Full validation results after correction —
+                                 every violation still remaining, one row per
+                                 issue.
+--------------------------------------------------------------------------------
+
+[GUI] Preparing content for AI enrichment.
+
+================================================================================
+ [GUI] Success: Post-flight validation completed successfully.
+================================================================================

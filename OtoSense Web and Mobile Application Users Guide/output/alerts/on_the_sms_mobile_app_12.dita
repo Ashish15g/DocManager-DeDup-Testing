@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="on_the_sms_mobile_app_12" xml:lang="en-us">
+   <title>On the SMS mobile app</title>
+   <shortdesc>The alerts list is displayed. Each alert lists the motor name / component name and</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>placeholder</keyword>
+        <keyword>component</keyword>
+        <keyword>index</keyword>
+        <keyword>mobile</keyword>
+        <keyword>Figure</keyword>
+        <keyword>health</keyword>
+        <indexterm>placeholder</indexterm>
+        <indexterm>component</indexterm>
+        <indexterm>index</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>    <ol>
+    <li>Log in to the SMS mobile application.</li>
+    <li><p>Tap Alerts on the bottom menu.</p>
+      <p>The alerts list is displayed. Each alert lists the motor name / component name and the status of the component. This is followed by the plant / process name, any fault detected, and action required.</p>
+               <fig>
+                  <title>Image91</title>
+                  <image height="501" href="../media/image91.png" placement="break" width="252">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <p>Figure  Alerts page</p></li>
+    <li><p>Tap the alert whose health plot you want to view.</p>
+      <p>The corresponding health plot of the component is displayed. The blue dots represent the fault index for a given sample on a given component.</p>
+               <fig>
+                  <title>Image92</title>
+                  <image height="501" href="../media/image92.png" placement="break" width="254">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <p>Figure  Health index plot</p></li>
+    <li>Stretch an area of the plot (using two fingers) to zoom in on a specific date or time period. To zoom out, tap Reset zoom.</li>
+    <li>Tap a blue dot to view the exact health index and the date and time that the data was acquired.</li>
+    </ol>
+    <section>
+      <title>Result</title>
+      <fig>
+               <title>Image93</title>
+               <image height="501" href="../media/image93.png" placement="break" width="252">
+                  <alt>placeholder</alt>
+               </image>
+            </fig><p>Figure  Health index plot - zoomed in</p>
+    </section></conbody>
+</concept>

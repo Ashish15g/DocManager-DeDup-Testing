@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc193658903" xml:lang="en-us">
+   <title>Motor status tab</title>
+   <shortdesc>The Motor Status tab displays the health of nine motor components/faults and their overall performance.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>component</keyword>
+        <keyword>health</keyword>
+        <keyword>index</keyword>
+        <keyword>Motor</keyword>
+        <keyword>status</keyword>
+        <keyword>indicator</keyword>
+        <indexterm>component</indexterm>
+        <indexterm>health</indexterm>
+        <indexterm>index</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>The Motor Status tab displays the health of nine motor components/faults and their overall performance. A status indicator to the left of each item and a health index indicates whether a fault exists.</p>
+      <p>The health index represents an evaluation of the state of a component. It ranges from 0 to 10. If the index is closer to 0, it implies that the condition of the component is bad. If it is closer to 10, the condition of the component is good.</p>
+      <ul id="ul_10314128">
+         <li>Red – Index between 0-4 – Alarm</li>
+         <li>Yellow – Index between 5-6 – Warning</li>
+         <li>Green – Index between 7-10 – Good condition</li>
+      </ul>
+      <note type="note">Note: Depending on the severity of the fault (health index), the timeline of the correction action will change. In case of high severity fault, the action will be required “as soon as possible”.</note>
+      <note type="note">Note: A component that needs maintenance is displayed with a yellow status indicator and a failed component is displayed with a red status indicator. In both situations, the application suggests the precise course of action to be taken.</note>
+      <ul>
+         <li>
+            <p>
+               <fig>
+                  <title>A component with a yellow indicator and a health index of 6</title>
+                  <image href="../media/image30.png" placement="break" height="105" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>
+               <fig>
+                  <title>A component with a red indicator and a health index of 3</title>
+                  <image href="../media/image31.png" placement="break" height="73" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </p>
+         </li>
+      </ul>
+      <note type="note">Note: To view all the possible faults that the SMS device can detect, see <xref href="../appendix/motor_component_fault_modes.dita" format="dita">Motor Component Fault Modes</xref>.</note>
+      <p>
+         <fig>
+            <title>Motor Status tab</title>
+            <image href="../media/image32.png" placement="break" height="395" width="385">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+      </p>
+   </conbody>
+</concept>

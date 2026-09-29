@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc186824657" xml:lang="en-us">
+   <title>Sensor Provisioning</title>
+   <shortdesc>Sensors are provisioned through the configuration steps. However, once sensor is provisioned, then you can</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>sensor</keyword>
+        <keyword>Sensor</keyword>
+        <keyword>Provisioning</keyword>
+        <keyword>provisioned</keyword>
+        <keyword>configuration</keyword>
+        <keyword>using</keyword>
+        <indexterm>sensor</indexterm>
+        <indexterm>Sensor</indexterm>
+        <indexterm>Provisioning</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>Sensors are provisioned through the configuration steps. However, once sensor is provisioned, then you can perform the following operations using Sensor API endpoints.</p>
+      <ol>
+    <li>Retrieve the sensor identity certificate.</li>
+    <li>Update the sensor data service endpoint.</li>
+    <li>Disconnect from the ad-hoc connection and reestablish the connection with the primary OtoSense™ REST API service.</li>
+    <li>Register the sensor with your tenant using the provision sensor request.</li>
+    <li>Assign the sensor to a motor with the attach motor sensor request.</li>
+    </ol>
+    </section>
+<section>
+      <title>Result</title>
+      <note type="note">Note:</note>
+         <p>For more information on provisioning, see the OtoSense™ SMS sensor configuration documentation.</p>
+    </section></refbody>
+</reference>

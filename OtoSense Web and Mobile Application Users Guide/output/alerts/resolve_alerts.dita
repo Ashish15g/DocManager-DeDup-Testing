@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Resolve_alerts_1" xml:lang="en-us">
+   <title>Resolve alerts</title>
+   <shortdesc>The Alerts page lets you resolve the Alarm alert after a motor or component has</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>alert</keyword>
+        <keyword>Alarm</keyword>
+        <keyword>Resolve</keyword>
+        <keyword>alerts</keyword>
+        <keyword>Alerts</keyword>
+        <keyword>component</keyword>
+        <indexterm>alert</indexterm>
+        <indexterm>Alarm</indexterm>
+        <indexterm>Resolve</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>The Alerts page lets you resolve the Alarm alert after a motor or component has been repaired or replaced.</p>
+      <p>After an alert is marked as repaired, the Alarm alert is removed, and the time of repair is registered. During the next data acquisition, the SMS device will evaluate the component condition again and update the status. If the same Alarm alert appears again, it means that the fault was not fixed properly.</p>
+      <note type="note">Note: Alerts cannot be resolved using the SMS mobile app.</note>
+   </conbody>
+</concept>

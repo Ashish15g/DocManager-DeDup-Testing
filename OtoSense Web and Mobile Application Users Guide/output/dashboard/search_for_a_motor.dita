@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Search_for_a_1" xml:lang="en-us">
+   <title>Search for a motor</title>
+   <shortdesc>On the Dashboard page, you can also search for a motor using the search box</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>search</keyword>
+        <keyword>motors</keyword>
+        <keyword>Search</keyword>
+        <keyword>navigation</keyword>
+        <keyword>process</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>search</indexterm>
+        <indexterm>motors</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>On the Dashboard page, you can also search for a motor using the search box and the left navigation menu.</p>
+      <note type="note">Note: The search box is not available in the SMS mobile app.</note>
+      <fig>
+               <title>Image8</title>
+               <image height="279" href="../media/image8.png" placement="break" width="602">
+                  <alt>placeholder</alt>
+               </image>
+            </fig><p>The following table describes the labels in the above image:</p>
+    </section>
+<table colsep="1" frame="all" rowsep="1">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Label</b>
+                     </entry>
+                     <entry>
+                        <b>Description</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Location name</entry>
+                     <entry>At the highest level is the list of locations.</entry>
+                  </row>
+                  <row>
+                     <entry>Plant name</entry>
+                     <entry>Within each location is a list of plants.</entry>
+                  </row>
+                  <row>
+                     <entry>Process name</entry>
+                     <entry>Each plant contains a list of specific processes.</entry>
+                  </row>
+                  <row>
+                     <entry>Motor names</entry>
+                     <entry>Finally, under each process, there is a list of motors associated with that process.</entry>
+                  </row>
+                  <row>
+                     <entry>Number of motors</entry>
+                     <entry>The numerical indicator to the right displays the number of motors being monitored at each level.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+    <section>
+      <p>Table  Elements on the Left Navigation Pane</p>
+      <p>Expand and collapse a location name, plant name, and a process name to view or hide its associated motors.</p>
+      <note type="note">Note: Clicking a specific motor on the left navigation menu takes you to the motor’s information page.</note>
+      <p>To search for a motor:</p>
+      <ol>
+    <li>Log in to the SMS web application.</li>
+    <li>On the Dashboard, locate the Search motors text box.</li>
+    <li><p>Start typing a keyword associated with the motor.</p>
+      <p>As you type, a list of suggestions matching your input appears below the search box.</p></li>
+    <li>Select the required motor from the suggestions list.</li>
+    </ol>
+    </section>
+<section>
+      <title>Result</title>
+      <p>The motor name is highlighted on the navigation pane and the corresponding motor information page is displayed on the right.</p>
+    </section></refbody>
+</reference>

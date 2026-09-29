@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Firewall_support_for_1" xml:lang="en-us">
+   <title>Firewall support for AWS IP ranges</title>
+   <shortdesc>The leverages the AWS Cloud to provide scalable and reliable Internet-of-Things (IoT) connectivity. :</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>ranges</keyword>
+        <keyword>Firewall</keyword>
+        <keyword>support</keyword>
+        <keyword>https</keyword>
+        <keyword>leverages</keyword>
+        <keyword>Cloud</keyword>
+        <indexterm>ranges</indexterm>
+        <indexterm>Firewall</indexterm>
+        <indexterm>support</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>The  leverages the AWS Cloud to provide scalable and reliable Internet-of-Things (IoT) connectivity. :</p>
+      <p>AWS publishes the complete list of AWS IP ranges used by their cloud services at <xref href="https://ip-ranges.amazonaws.com/ip-ranges.json" scope="external" format="html">https://ip-ranges.amazonaws.com/ip-ranges.json</xref>. This list is dynamic, and the IP addresses change periodically. Your Network Administrator can subscribe to notifications about changes and apply these to maintain your network firewall configuration. Access full details at <xref href="https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html" scope="external" format="html">https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html</xref>
+      </p>
+    </section></refbody>
+</reference>

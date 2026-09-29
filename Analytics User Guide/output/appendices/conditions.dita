@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="conditions" xml:lang="en-us">
+   <title>conditions</title>
+   <shortdesc>This section describes the parameters used to assess the condition of a motor component.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>component</keyword>
+        <keyword>System</keyword>
+        <keyword>Problems</keyword>
+        <keyword>which</keyword>
+        <keyword>could</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>component</indexterm>
+        <indexterm>System</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>This section describes the parameters used to assess the condition of a motor component.</p>
+      <p>Each parameter in the following table represents the Fault Score Index (FSI) of the corresponding motor component condition. These predicted health indicators for motor components are generated each time the analytics processes data samples received from a running motor. The values are between zero and ten:</p>
+      <ul id="ul_10211554">
+         <li>A value of 10 corresponds to a perfect state for the component.</li>
+         <li>A value of 0 corresponds to a catastrophic state for the component.</li>
+      </ul>
+    </section>
+<table frame="all" colsep="1" rowsep="1">
+         <title>Condition Parameters</title>
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Parameter</b>
+                  </entry>
+                  <entry>
+                     <b>Motor</b>
+                     <b>Component</b>
+                  </entry>
+                  <entry>
+                     <b>Description</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">powerSystem</codeblock>
+                  </entry>
+                  <entry>Power System</entry>
+                  <entry>Problems in the three phases of the power supply, which could lead to a motor current imbalance.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">statorWinding</codeblock>
+                  </entry>
+                  <entry>Stator Winding</entry>
+                  <entry>Problems in one of the phases of the motor, which could cause an imbalance of the motor currents.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">rotorBar</codeblock>
+                  </entry>
+                  <entry>Rotor</entry>
+                  <entry>Short-circuit ring or rotor bar related problems.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">imbalance</codeblock>
+                  </entry>
+                  <entry>Motor Shaft/ Balance</entry>
+                  <entry>Unequal distribution of mass, causing the center of gravity to shift from the center of rotation.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">eccentricity</codeblock>
+                  </entry>
+                  <entry>Eccentricity</entry>
+                  <entry>Asymmetric air gap between the rotor and stator.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">bearing</codeblock>
+                  </entry>
+                  <entry>Bearing</entry>
+                  <entry>Mechanical stress or contamination leading to small cracks or defects that occur in the bearing, creating vibration problems.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">misalignment</codeblock>
+                  </entry>
+                  <entry>Alignment</entry>
+                  <entry>Occurs when two rotating shafts (motor and load) are not aligned, creating external misalignment.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">cooling</codeblock>
+                  </entry>
+                  <entry>Cooling System</entry>
+                  <entry>Problems with fans attached to the shaft or externally attached to the motor.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">motorStructure</codeblock>
+                  </entry>
+                  <entry>Loose Foot</entry>
+                  <entry>Structural looseness occurring when the motor base (or connection to the motor base) is not properly tightened.</entry>
+               </row>
+               <row>
+                  <entry>
+                     <codeblock xml:space="preserve">performance</codeblock>
+                  </entry>
+                  <entry>Performance</entry>
+                  <entry>Used to capture abnormal events such as an overall increase in vibrations, unusual changes in motor RPM, motor load or temperatures, etc. Indicates faults that do not correspond to any of the other nine fault categories, which could be related to machine process.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+    <section>
+      <p>For more information on API refer to the ADI OtoSense™ SMS REST API.</p>
+    </section></refbody>
+</reference>

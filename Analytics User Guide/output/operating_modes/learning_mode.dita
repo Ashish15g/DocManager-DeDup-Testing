@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Toc180616933" xml:lang="en-us">
+   <title>Learning Mode</title>
+   <shortdesc>This section describes the OtoSense™ learning mode.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>Learning</keyword>
+        <keyword>learning</keyword>
+        <keyword>operation</keyword>
+        <keyword>model</keyword>
+        <keyword>Mode</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>Learning</indexterm>
+        <indexterm>learning</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <ul>
+         <li>
+            <p>This section describes the OtoSense™ learning mode.</p>
+         </li>
+         <li>
+            <p>The ADI OtoSense™ SMS requires a learning period to capture the healthy operation of the motor.</p>
+         </li>
+         <li>
+            <p>The 2.4 second sample sent by the SMS to the Server includes:</p>
+         </li>
+      </ul><ul id="ul_10211405">
+         <li>Vibration X-Axis (raw data)</li>
+         <li>Vibration Z-Axis (raw data)</li>
+         <li>Magnetic Field (raw data)</li>
+         <li>Environmental temperature</li>
+         <li>Motor temperature</li>
+      </ul><p>The proprietary algorithm extracts the most useful parameters from the data samples to generate a baseline model tailored to each motor’s operation. This model will be used to monitor changes to the motor's health.<image href="../media/image5.png" placement="break" height="319" width="602">
+            <alt>placeholder</alt>
+         </image>
+      </p><ul>
+         <li>
+            <p>This learning mode has three stages:</p>
+         </li>
+      </ul><ul id="ul_10211406">
+         <li>Quick Learning (approximately seven days)</li>
+         <li>Predictive Learning (approximately four weeks)</li>
+         <li>Fully Predictive (ongoing)</li>
+      </ul><note type="note">
+         <b>Note:</b> During the entire learning mode, the motor should run at all RPMs, all temperatures and with all loads that will be seen by the motor in its normal envelope operation in order to create the best model.</note>
+  </context></taskbody>
+</task>

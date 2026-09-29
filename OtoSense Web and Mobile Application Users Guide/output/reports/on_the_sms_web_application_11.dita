@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="on_the_sms_web_application_11" xml:lang="en-us">
+   <title>On the SMS web application</title>
+   <shortdesc>To edit a report:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>report</keyword>
+        <keyword>Reports</keyword>
+        <keyword>click</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>reports</keyword>
+        <keyword>Edit</keyword>
+        <indexterm>report</indexterm>
+        <indexterm>Reports</indexterm>
+        <indexterm>click</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>To edit a report:</p>
+      </context>
+      <steps id="steps_103141107">
+         <step>
+            <cmd>Log in to the SMS web application.</cmd>
+         </step>
+         <step>
+            <cmd>On the top navigation menu, click Reports.</cmd>
+            <info>
+               <p>The <b>Reports</b> page is displayed with a list of previously generated reports.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Find the report from the list and click Edit.</cmd>
+            <info>
+               <fig>
+                  <title>Edit option on Reports page</title>
+                  <image height="114" href="../media/image78.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <note type="note">Note: If the list of reports is long, you can click the <image height="14" href="../media/image20.png" placement="break" width="18">
+                     <alt>placeholder</alt>
+                  </image> icon next to the Location, Plant, and Process column to narrow down the list of reports. You can also click the <image height="26" href="../media/image73.png" placement="break" width="16">
+                     <alt>placeholder</alt>
+                  </image> icon next to the Reports column to sort the reports list in alphabetical order.</note>
+               <p>The <b>Edit report settings</b> window is displayed.</p>
+               <fig>
+                  <title>Edit report settings window</title>
+                  <image height="377" href="../media/image79.png" placement="break" width="374">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Change the following details, as required:</cmd>
+            <info>
+               <ul id="ul_103141106">
+                  <li>Report name</li>
+                  <li>Schedule</li>
+                  <li>Location</li>
+                  <li>Plant</li>
+                  <li>Process</li>
+                  <li>Motor</li>
+               </ul>
+            </info>
+         </step>
+         <step>
+            <cmd>Click SAVE.</cmd>
+            <info>
+               <p>A modified report is generated on the scheduled day.</p>
+               <p>To delete a report:</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Find the report from the list and click Delete.</cmd>
+            <info>
+               <p>The <b>Delete report window</b> is displayed.</p>
+               <fig>
+                  <title>Delete option on Reports page</title>
+                  <image height="115" href="../media/image80.png" placement="break" width="600">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click DELETE.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The report is deleted from the Reports page.</p>
+      </result>
+   </taskbody>
+</task>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Reset_sensor" xml:lang="en-us">
+   <title>Reset sensor</title>
+   <shortdesc>If you want to change the Wi-Fi network details in your account, you can use</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>sensor</keyword>
+        <keyword>Reset</keyword>
+        <keyword>Sensor</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>reset</keyword>
+        <keyword>change</keyword>
+        <indexterm>sensor</indexterm>
+        <indexterm>Reset</indexterm>
+        <indexterm>Sensor</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>If you want to change the Wi-Fi network details in your account, you can use the Reset Sensor option.</p>
+         <p>After you reset a sensor, it needs to be re-commissioned. To recommission a sensor, you need to:</p>
+         <ul id="ul_103141177">
+            <li>Decommission it on the ADI OtoSense™ Server by raising a support ticket</li>
+            <li>Recommission the sensor by following the process outlined in section <b>4.1 Commission SMS using the SMS mobile app</b> of the ADI OtoSense™ Smart Motor Sensor Installation Guide.</li>
+         </ul>
+         <p>To reset a sensor (or to change Wi-Fi network details):</p>
+      </context>
+      <steps id="steps_103141178">
+         <step>
+            <cmd>Remove one battery from the sensor, wait for 60 seconds and then reinsert it.</cmd>
+         </step>
+         <step>
+            <cmd>Log in to the SMS mobile application.</cmd>
+         </step>
+         <step>
+            <cmd>Tap Settings on the bottom menu.</cmd>
+         </step>
+         <step>
+            <cmd>Scroll down and tap Reset Sensor.</cmd>
+            <info>
+               <fig>
+                  <title>placeholder</title>
+                  <image height="501" href="../media/image124.jpg" placement="break" width="254">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <p>Figure  Settings - Reset Sensor option</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Tap I HAVE REINSERTED THE BATTERY.</cmd>
+         </step>
+      </steps>
+      <result>
+         <note type="note">Note: You will have 3 minutes to reset the sensor after reinserting the battery.</note>
+         <note type="note">
+            <fig>
+               <title>placeholder</title>
+               <image height="501" href="../media/image125.jpg" placement="break" width="255">
+                  <alt>placeholder</alt>
+               </image>
+            </fig>
+         </note>
+         <p>Figure  Reset Sensor page</p>
+      </result>
+   </taskbody>
+</task>

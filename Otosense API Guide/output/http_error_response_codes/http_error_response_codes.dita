@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Ref185860685" xml:lang="en-us">
+   <title>HTTP Error Response Codes</title>
+   <shortdesc>Code Description 400 Invalid request, the subject is malformed or does not specify a legal</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>HTTP</keyword>
+        <keyword>Error</keyword>
+        <keyword>Response</keyword>
+        <keyword>Codes</keyword>
+        <keyword>Code</keyword>
+        <keyword>Description</keyword>
+        <indexterm>HTTP</indexterm>
+        <indexterm>Error</indexterm>
+        <indexterm>Response</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><table frame="all" colsep="1" rowsep="1">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Code</b>
+                     </entry>
+                     <entry>
+                        <b>Description</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>400</entry>
+                     <entry>Invalid request, the subject is malformed or does not specify a legal value.</entry>
+                  </row>
+                  <row>
+                     <entry>401</entry>
+                     <entry>Unauthorized</entry>
+                  </row>
+                  <row>
+                     <entry>402</entry>
+                     <entry>Payment Required</entry>
+                  </row>
+                  <row>
+                     <entry>403</entry>
+                     <entry>Forbidden</entry>
+                  </row>
+                  <row>
+                     <entry>404</entry>
+                     <entry>The specified resource was not found</entry>
+                  </row>
+                  <row>
+                     <entry>429</entry>
+                     <entry>Too many requests</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table></conbody>
+</concept>

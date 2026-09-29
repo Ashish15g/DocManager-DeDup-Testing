@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="overview_3" xml:lang="en-us">
+   <title>Overview</title>
+   <shortdesc>The motor object consists of a components map. Each component has a Fault Score Index</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>component</keyword>
+        <keyword>Each</keyword>
+        <keyword>fault</keyword>
+        <keyword>assigned</keyword>
+        <keyword>Overview</keyword>
+        <keyword>motor</keyword>
+        <indexterm>component</indexterm>
+        <indexterm>Each</indexterm>
+        <indexterm>fault</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>The motor object consists of a components map. Each component has a Fault Score Index (FSI) and a Code. The FSI is a value between 0 and 10, which indicates the following motor conditions or state:</p>
+      <ul id="ul_10211553">
+         <li>FSI &lt; ‘5ʼ: <b>Alarm</b>
+         </li>
+         <li>FSI= ‘5ʼ or ‘6ʼ: <b>Warning</b>
+         </li>
+         <li>FSI &gt; ‘6ʼ: <b>Good</b>.</li>
+      </ul>
+      <note type="note">
+         <b>Note</b>: The lower the FSI value the greater the severity of the component fault.</note>
+      <p>For each component in a <b>Warning</b> or an <b>Alarm</b> state, an appropriate <b>Code</b> is assigned by the ADI OtoSense™ Cloud analytics. Each code defines both the recommended Action and the Description of the associated fault.</p>
+      <p>Each component has multiple possible codes depending on the severity of the fault.</p>
+      <p>For example, a Power System component with an FSI of ‘3ʼ or ‘4ʼ will be assigned code ‘1002ʼ and a Power System component with an FSI of ‘2ʼ or below will be assigned code ‘1003ʼ. For more information, see Table 10.</p>
+   </conbody>
+</concept>

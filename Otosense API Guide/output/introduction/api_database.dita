@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc186824621" xml:lang="en-us">
+   <title>API Database</title>
+   <shortdesc>The proprietary ADI OtoSense™ predictive maintenance analytics uses the API database to update the user</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>sensor</keyword>
+        <keyword>Information</keyword>
+        <keyword>Vibration</keyword>
+        <keyword>monitored</keyword>
+        <keyword>using</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>sensor</indexterm>
+        <indexterm>Information</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section id="sec_d917e7">
+         <p>The proprietary ADI OtoSense™ predictive maintenance analytics uses the API database to update the user on key motor performance metrics. These include the power system, stator winding, rotor, motor shaft or balance, eccentricity, bearing, alignment, cooling system, loose foot, and overall motor performance.</p>
+         <p>The REST APIs for the OtoSense™ SMS device provide seamless integration with the device sensors, enabling users to gather, update, and delete the following data:</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Information type</b>
+                     </entry>
+                     <entry>
+                        <b>Description</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Motor Information</entry>
+                     <entry>A motor ID, a list of motors, and motor records</entry>
+                  </row>
+                  <row>
+                     <entry>Sensor Information</entry>
+                     <entry>A sensor ID, a list of sensors, and sensor records</entry>
+                  </row>
+                  <row>
+                     <entry>Vibration</entry>
+                     <entry>The vibrations of the motor are monitored using a Vibration X-axis and a Vibration Z-axis sensor</entry>
+                  </row>
+                  <row>
+                     <entry>Magnetic field</entry>
+                     <entry>The magnetic field around a motor is monitored using a magnetic field sensor</entry>
+                  </row>
+                  <row>
+                     <entry>Temperature</entry>
+                     <entry>The temperature outside a motor is monitored using a motor temperature sensor and an environment temperature sensor</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>For more information on the predictive maintenance analytics and the API database, see the Analytics User Guide.</p>
+      </section>
+   </refbody>
+</reference>

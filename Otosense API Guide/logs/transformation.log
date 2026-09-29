@@ -1,0 +1,1197 @@
+================================================================================
+ metR DOCX DocMigrate — TRANSFORMATION REPORT
+================================================================================
+ Source File           : Otosense API Guide.docx
+ Files Converted       : 1
+ Topics Generated      : 163
+ DITA Maps Generated   : 9
+ Started               : 2026-08-19 10:49:25 UTC
+ Completed             : 2026-08-19 10:49:27 UTC
+ Duration              : 2s
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+
+[2026-08-19T10:49:25.677920+00:00] conversion_started working.
+[2026-08-19T10:49:25.682317+00:00] ConversionService class is running.
+[2026-08-19T10:49:25.683107+00:00] transformation_started working on input source
+[2026-08-19T10:49:25.859953+00:00] detect_docx_toc No TOC styles or field codes detected.
+[2026-08-19T10:49:25.860012+00:00] detect_docx_toc No TOC styles, field codes, or SDT detected.
+[2026-08-19T10:49:25.867770+00:00] PipelineOrchestrator TOC DETECTED = False
+[2026-08-19T10:49:25.867838+00:00] toc_detection Document analysis: No Table of Contents found.
+[2026-08-19T10:49:25.872421+00:00] PipelineOrchestrator Starting conversion pipeline for 'Otosense API Guide.docx'.
+[2026-08-19T10:49:25.872489+00:00] DocxToHtmlProcessor Converting 'Otosense API Guide.docx' from DOCX to HTML.
+[2026-08-19T10:49:25.872504+00:00] step_docx_to_html_started Step 1/7: Converting 'Otosense API Guide.docx' from DOCX to HTML.
+[2026-08-19T10:49:25.876571+00:00] DocxToHtmlProcessor Opening DOCX archive: 'Otosense API Guide.docx'.
+[2026-08-19T10:49:25.876961+00:00] DocxToHtmlProcessor Reading relationships.
+[2026-08-19T10:49:25.876996+00:00] DocxToHtmlProcessor Parsing relationships from 'word/_rels/document.xml.rels'.
+[2026-08-19T10:49:25.877320+00:00] DocxToHtmlProcessor Extracted 23 relationship(s).
+[2026-08-19T10:49:25.877344+00:00] DocxToHtmlProcessor Extracting media files.
+[2026-08-19T10:49:25.877496+00:00] DocxToHtmlProcessor Copying 4 media file(s).
+[2026-08-19T10:49:25.878248+00:00] DocxToHtmlProcessor Media copied: 'image3.png'.
+[2026-08-19T10:49:25.878502+00:00] DocxToHtmlProcessor Media copied: 'image2.png'.
+[2026-08-19T10:49:25.878913+00:00] DocxToHtmlProcessor Media copied: 'image4.png'.
+[2026-08-19T10:49:25.879303+00:00] DocxToHtmlProcessor Media copied: 'image1.png'.
+[2026-08-19T10:49:25.879327+00:00] DocxToHtmlProcessor Media copy complete -- 4 file(s) exported.
+[2026-08-19T10:49:25.879345+00:00] DocxToHtmlProcessor Reading list numbering definitions.
+[2026-08-19T10:49:25.879405+00:00] DocxToHtmlProcessor Parsing 'word/numbering.xml' for list type map.
+[2026-08-19T10:49:25.882201+00:00] DocxToHtmlProcessor Numbering map built with 19 numId(s).
+[2026-08-19T10:49:25.882451+00:00] DocxToHtmlProcessor Reading 'word/document.xml'.
+[2026-08-19T10:49:25.887344+00:00] DocxToHtmlProcessor Parsing 'word/document.xml' XML structure.
+[2026-08-19T10:49:26.043377+00:00] DocxToHtmlProcessor Processing document body paragraphs for 'Otosense API Guide.docx'.
+[2026-08-19T10:49:26.202780+00:00] DocxToHtmlProcessor Document body processed — 1593 HTML block(s) generated for 'Otosense API Guide.docx'.
+[2026-08-19T10:49:26.210342+00:00] DocxToHtmlProcessor DOCX to HTML conversion complete.
+[2026-08-19T10:49:26.210612+00:00] step_docx_to_html_complete DOCX-to-HTML conversion complete: 4 image(s) extracted.
+[2026-08-19T10:49:26.214439+00:00] HtmlToDitaNormalizer Normalizing generated HTML for DITA conversion.
+[2026-08-19T10:49:26.214585+00:00] step_normalize_html_started Step 2/7: Normalizing HTML for DITA conversion.
+[2026-08-19T10:49:26.218414+00:00] helper_port.py class is running.
+[2026-08-19T10:49:26.851676+00:00] HtmlToDitaNormalizer HTML normalization complete.
+[2026-08-19T10:49:26.851737+00:00] step_normalize_html_complete HTML normalization complete.
+[2026-08-19T10:49:27.195083+00:00] TopicSplitter Splitting HTML content into topics.
+[2026-08-19T10:49:27.195130+00:00] step_split_topics_started Step 3/7: Splitting document into topics.
+[2026-08-19T10:49:27.441189+00:00] TopicSplitter Found 163 topics.
+[2026-08-19T10:49:27.441245+00:00] topics_split Document split into 163 topic(s).
+[2026-08-19T10:49:27.444464+00:00] TopicWriter Writing topics to .dita files.
+[2026-08-19T10:49:27.444585+00:00] step_write_topics_started Step 4/7: Writing 163 topic(s) to DITA files.
+[2026-08-19T10:49:27.448125+00:00] TopicWriter Starting to write 163 topics.
+[2026-08-19T10:49:27.448407+00:00] TopicWriter Building topic tree hierarchy.
+[2026-08-19T10:49:27.448568+00:00] TopicWriter Building topic tree from 163 flat topic(s).
+[2026-08-19T10:49:27.448797+00:00] TopicWriter Topic tree built — 8 root node(s).
+[2026-08-19T10:49:27.448869+00:00] TopicWriter Assigning output paths to all topics.
+[2026-08-19T10:49:27.448944+00:00] TopicWriter Assigning output paths for 8 node(s).
+[2026-08-19T10:49:27.449203+00:00] TopicWriter Assigned path for topic 'Audience': 'audience.dita'.
+[2026-08-19T10:49:27.449400+00:00] TopicWriter Assigning output paths for 8 node(s).
+[2026-08-19T10:49:27.449495+00:00] TopicWriter Assigned path for topic 'Benefits': 'benefits.dita'.
+[2026-08-19T10:49:27.449573+00:00] TopicWriter Assigned path for topic 'How does SMS device work?': 'how_does_sms_device_work.dita'.
+[2026-08-19T10:49:27.449638+00:00] TopicWriter Assigned path for topic 'Overview': 'overview.dita'.
+[2026-08-19T10:49:27.449699+00:00] TopicWriter Assigned path for topic 'Access SMS mobile application': 'access_sms_mobile_application.dita'.
+[2026-08-19T10:49:27.449726+00:00] TopicWriter Assigned path for topic 'Key Features': 'key_features.dita'.
+[2026-08-19T10:49:27.449743+00:00] TopicWriter Assigned path for topic 'API Standards': 'api_standards.dita'.
+[2026-08-19T10:49:27.449757+00:00] TopicWriter Assigned path for topic 'API Database': 'api_database.dita'.
+[2026-08-19T10:49:27.449780+00:00] TopicWriter Assigned path for topic 'Application Integration': 'application_integration.dita'.
+[2026-08-19T10:49:27.449793+00:00] TopicWriter Path assignment complete for 8 node(s).
+[2026-08-19T10:49:27.449802+00:00] TopicWriter Assigned path for topic 'Introduction': 'introduction.dita'.
+[2026-08-19T10:49:27.449903+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-19T10:49:27.449924+00:00] TopicWriter Assigned path for topic 'Best Practices': 'best_practices.dita'.
+[2026-08-19T10:49:27.449938+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-19T10:49:27.449955+00:00] TopicWriter Assigned path for topic 'Sample Paths of REST API Calls': 'sample_paths_of_rest_api_calls.dita'.
+[2026-08-19T10:49:27.449963+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-19T10:49:27.449969+00:00] TopicWriter Assigned path for topic 'Base URL': 'base_url.dita'.
+[2026-08-19T10:49:27.449983+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-19T10:49:27.449998+00:00] TopicWriter Assigned path for topic 'Create a Client API Key': 'create_a_client_api_key.dita'.
+[2026-08-19T10:49:27.450014+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-19T10:49:27.450028+00:00] TopicWriter Assigning output paths for 7 node(s).
+[2026-08-19T10:49:27.450045+00:00] TopicWriter Assigned path for topic 'Get a Bearer Token': 'get_a_bearer_token.dita'.
+[2026-08-19T10:49:27.450059+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint.dita'.
+[2026-08-19T10:49:27.450072+00:00] TopicWriter Assigned path for topic 'URL': 'url.dita'.
+[2026-08-19T10:49:27.450087+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters.dita'.
+[2026-08-19T10:49:27.450100+00:00] TopicWriter Assigned path for topic 'Request': 'request.dita'.
+[2026-08-19T10:49:27.450113+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response.dita'.
+[2026-08-19T10:49:27.450136+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response.dita'.
+[2026-08-19T10:49:27.450143+00:00] TopicWriter Path assignment complete for 7 node(s).
+[2026-08-19T10:49:27.450149+00:00] TopicWriter Assigned path for topic 'OAuth': 'oauth.dita'.
+[2026-08-19T10:49:27.450155+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-19T10:49:27.450161+00:00] TopicWriter Assigned path for topic 'Generate a Token': 'generate_a_token.dita'.
+[2026-08-19T10:49:27.450176+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:49:27.450190+00:00] TopicWriter Assigned path for topic 'Syntax': 'syntax.dita'.
+[2026-08-19T10:49:27.450203+00:00] TopicWriter Assigned path for topic 'Sample Code': 'sample_code.dita'.
+[2026-08-19T10:49:27.450209+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:49:27.450216+00:00] TopicWriter Assigned path for topic 'Make Authenticated Requests': 'make_authenticated_requests.dita'.
+[2026-08-19T10:49:27.450222+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-19T10:49:27.450227+00:00] TopicWriter Assigned path for topic 'Authentication': 'authentication.dita'.
+[2026-08-19T10:49:27.450233+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-19T10:49:27.450240+00:00] TopicWriter Assigned path for topic 'Access the API': 'access_the_api.dita'.
+[2026-08-19T10:49:27.450325+00:00] TopicWriter Assigning output paths for 7 node(s).
+[2026-08-19T10:49:27.450344+00:00] TopicWriter Assigned path for topic 'HTTP Methods': 'http_methods.dita'.
+[2026-08-19T10:49:27.450358+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-19T10:49:27.450376+00:00] TopicWriter Assigned path for topic 'Sample Request Body': 'sample_request_body.dita'.
+[2026-08-19T10:49:27.450383+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-19T10:49:27.450389+00:00] TopicWriter Assigned path for topic 'HTTP Request Body': 'http_request_body.dita'.
+[2026-08-19T10:49:27.450404+00:00] TopicWriter Assigned path for topic 'Data Type': 'data_type.dita'.
+[2026-08-19T10:49:27.450419+00:00] TopicWriter Assigned path for topic 'Testing an Endpoint': 'testing_an_endpoint.dita'.
+[2026-08-19T10:49:27.450434+00:00] TopicWriter Assigned path for topic 'Request Limits': 'request_limits.dita'.
+[2026-08-19T10:49:27.450448+00:00] TopicWriter Assigned path for topic 'Timeout Limit': 'timeout_limit.dita'.
+[2026-08-19T10:49:27.450463+00:00] TopicWriter Assigned path for topic 'Response Compression': 'response_compression.dita'.
+[2026-08-19T10:49:27.450469+00:00] TopicWriter Path assignment complete for 7 node(s).
+[2026-08-19T10:49:27.450475+00:00] TopicWriter Assigned path for topic 'Requests and Responses': 'requests_and_responses.dita'.
+[2026-08-19T10:49:27.450557+00:00] TopicWriter Assigned path for topic 'Error Handling': 'error_handling.dita'.
+[2026-08-19T10:49:27.450733+00:00] TopicWriter Assigned path for topic 'Pagination': 'pagination.dita'.
+[2026-08-19T10:49:27.450913+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-19T10:49:27.451089+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-19T10:49:27.451156+00:00] TopicWriter Assigning output paths for 6 node(s).
+[2026-08-19T10:49:27.451233+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_2.dita'.
+[2026-08-19T10:49:27.451311+00:00] TopicWriter Assigned path for topic 'URL': 'url_2.dita'.
+[2026-08-19T10:49:27.451387+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_2.dita'.
+[2026-08-19T10:49:27.451459+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_2.dita'.
+[2026-08-19T10:49:27.451538+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_2.dita'.
+[2026-08-19T10:49:27.451613+00:00] TopicWriter Assigning output paths for 4 node(s).
+[2026-08-19T10:49:27.451700+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:49:27.451778+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_3.dita'.
+[2026-08-19T10:49:27.451844+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_3.dita'.
+[2026-08-19T10:49:27.451894+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:49:27.451950+00:00] TopicWriter Assigned path for topic 'Vibx Data Query': 'vibx_data_query.dita'.
+[2026-08-19T10:49:27.452032+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:49:27.452098+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_4.dita'.
+[2026-08-19T10:49:27.452135+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_4.dita'.
+[2026-08-19T10:49:27.452148+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:49:27.452195+00:00] TopicWriter Assigned path for topic 'Performance': 'performance.dita'.
+[2026-08-19T10:49:27.452264+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:49:27.452337+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_5.dita'.
+[2026-08-19T10:49:27.452375+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_5.dita'.
+[2026-08-19T10:49:27.452421+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:49:27.452482+00:00] TopicWriter Assigned path for topic 'Conditions': 'conditions.dita'.
+[2026-08-19T10:49:27.452563+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:49:27.452598+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_6.dita'.
+[2026-08-19T10:49:27.452688+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_6.dita'.
+[2026-08-19T10:49:27.452708+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:49:27.452720+00:00] TopicWriter Assigned path for topic 'Operations': 'operations.dita'.
+[2026-08-19T10:49:27.452730+00:00] TopicWriter Path assignment complete for 4 node(s).
+[2026-08-19T10:49:27.452740+00:00] TopicWriter Assigned path for topic 'Sample Dataset Filters': 'sample_dataset_filters.dita'.
+[2026-08-19T10:49:27.452750+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-08-19T10:49:27.452760+00:00] TopicWriter Assigned path for topic 'Get Data': 'get_data.dita'.
+[2026-08-19T10:49:27.452770+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-19T10:49:27.452780+00:00] TopicWriter Assigned path for topic 'Data': 'data.dita'.
+[2026-08-19T10:49:27.452811+00:00] TopicWriter Assigning output paths for 10 node(s).
+[2026-08-19T10:49:27.452888+00:00] TopicWriter Assigned path for topic 'Motor Tags': 'motor_tags.dita'.
+[2026-08-19T10:49:27.452968+00:00] TopicWriter Assigning output paths for 6 node(s).
+[2026-08-19T10:49:27.453045+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_3.dita'.
+[2026-08-19T10:49:27.453267+00:00] TopicWriter Assigned path for topic 'URL': 'url_3.dita'.
+[2026-08-19T10:49:27.453300+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_7.dita'.
+[2026-08-19T10:49:27.453353+00:00] TopicWriter Assigned path for topic 'Request': 'request_2.dita'.
+[2026-08-19T10:49:27.453383+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_7.dita'.
+[2026-08-19T10:49:27.453401+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_3.dita'.
+[2026-08-19T10:49:27.453408+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-08-19T10:49:27.453415+00:00] TopicWriter Assigned path for topic 'Create a Motor': 'create_a_motor.dita'.
+[2026-08-19T10:49:27.453437+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-19T10:49:27.453460+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_4.dita'.
+[2026-08-19T10:49:27.453477+00:00] TopicWriter Assigned path for topic 'URL': 'url_4.dita'.
+[2026-08-19T10:49:27.453493+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_8.dita'.
+[2026-08-19T10:49:27.453509+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_8.dita'.
+[2026-08-19T10:49:27.453524+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_4.dita'.
+[2026-08-19T10:49:27.453531+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-19T10:49:27.453537+00:00] TopicWriter Assigned path for topic 'Get all Motors': 'get_all_motors.dita'.
+[2026-08-19T10:49:27.453553+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-19T10:49:27.453571+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_5.dita'.
+[2026-08-19T10:49:27.453587+00:00] TopicWriter Assigned path for topic 'URL': 'url_5.dita'.
+[2026-08-19T10:49:27.453603+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_9.dita'.
+[2026-08-19T10:49:27.453620+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_9.dita'.
+[2026-08-19T10:49:27.453676+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_5.dita'.
+[2026-08-19T10:49:27.453724+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-19T10:49:27.453765+00:00] TopicWriter Assigned path for topic 'Get a Motor': 'get_a_motor.dita'.
+[2026-08-19T10:49:27.453846+00:00] TopicWriter Assigning output paths for 6 node(s).
+[2026-08-19T10:49:27.453924+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_6.dita'.
+[2026-08-19T10:49:27.453994+00:00] TopicWriter Assigned path for topic 'URL': 'url_6.dita'.
+[2026-08-19T10:49:27.454072+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_10.dita'.
+[2026-08-19T10:49:27.454148+00:00] TopicWriter Assigned path for topic 'Request': 'request_3.dita'.
+[2026-08-19T10:49:27.454186+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_10.dita'.
+[2026-08-19T10:49:27.454223+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_6.dita'.
+[2026-08-19T10:49:27.454235+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-08-19T10:49:27.454246+00:00] TopicWriter Assigned path for topic 'Update a Motor': 'update_a_motor.dita'.
+[2026-08-19T10:49:27.454275+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-19T10:49:27.454308+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_7.dita'.
+[2026-08-19T10:49:27.454335+00:00] TopicWriter Assigned path for topic 'URL': 'url_7.dita'.
+[2026-08-19T10:49:27.454367+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_11.dita'.
+[2026-08-19T10:49:27.454399+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_11.dita'.
+[2026-08-19T10:49:27.454438+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_7.dita'.
+[2026-08-19T10:49:27.454454+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-19T10:49:27.454464+00:00] TopicWriter Assigned path for topic 'Delete a Motor': 'delete_a_motor.dita'.
+[2026-08-19T10:49:27.454494+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-19T10:49:27.454529+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_8.dita'.
+[2026-08-19T10:49:27.454559+00:00] TopicWriter Assigned path for topic 'URL': 'url_8.dita'.
+[2026-08-19T10:49:27.454591+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_12.dita'.
+[2026-08-19T10:49:27.454639+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_12.dita'.
+[2026-08-19T10:49:27.454676+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_8.dita'.
+[2026-08-19T10:49:27.454691+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-19T10:49:27.454703+00:00] TopicWriter Assigned path for topic 'Attach a Motor Sensor': 'attach_a_motor_sensor.dita'.
+[2026-08-19T10:49:27.454732+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-19T10:49:27.454764+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_9.dita'.
+[2026-08-19T10:49:27.454794+00:00] TopicWriter Assigned path for topic 'URL': 'url_9.dita'.
+[2026-08-19T10:49:27.454830+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_13.dita'.
+[2026-08-19T10:49:27.454864+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_13.dita'.
+[2026-08-19T10:49:27.454895+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_9.dita'.
+[2026-08-19T10:49:27.454910+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-19T10:49:27.454921+00:00] TopicWriter Assigned path for topic 'Detach a Motor Sensor': 'detach_a_motor_sensor.dita'.
+[2026-08-19T10:49:27.454960+00:00] TopicWriter Assigning output paths for 7 node(s).
+[2026-08-19T10:49:27.454986+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_10.dita'.
+[2026-08-19T10:49:27.455009+00:00] TopicWriter Assigned path for topic 'URL': 'url_10.dita'.
+[2026-08-19T10:49:27.455036+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_14.dita'.
+[2026-08-19T10:49:27.455063+00:00] TopicWriter Assigned path for topic 'Request': 'request_4.dita'.
+[2026-08-19T10:49:27.455094+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_14.dita'.
+[2026-08-19T10:49:27.455123+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_10.dita'.
+[2026-08-19T10:49:27.455148+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:49:27.455182+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-19T10:49:27.455218+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_15.dita'.
+[2026-08-19T10:49:27.455246+00:00] TopicWriter Assigned path for topic 'Request': 'request_5.dita'.
+[2026-08-19T10:49:27.455278+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_15.dita'.
+[2026-08-19T10:49:27.455296+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-19T10:49:27.455315+00:00] TopicWriter Assigned path for topic 'Comment': 'comment.dita'.
+[2026-08-19T10:49:27.455344+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-19T10:49:27.455379+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_16.dita'.
+[2026-08-19T10:49:27.455414+00:00] TopicWriter Assigned path for topic 'Request': 'request_6.dita'.
+[2026-08-19T10:49:27.455453+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_16.dita'.
+[2026-08-19T10:49:27.455473+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-19T10:49:27.455485+00:00] TopicWriter Assigned path for topic 'Repair': 'repair.dita'.
+[2026-08-19T10:49:27.455497+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:49:27.455508+00:00] TopicWriter Assigned path for topic 'Sample Subject Filters': 'sample_subject_filters.dita'.
+[2026-08-19T10:49:27.455518+00:00] TopicWriter Path assignment complete for 7 node(s).
+[2026-08-19T10:49:27.455529+00:00] TopicWriter Assigned path for topic 'Create a Motor Log Entry': 'create_a_motor_log_entry.dita'.
+[2026-08-19T10:49:27.455562+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-19T10:49:27.455601+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_11.dita'.
+[2026-08-19T10:49:27.455660+00:00] TopicWriter Assigned path for topic 'URL': 'url_11.dita'.
+[2026-08-19T10:49:27.455697+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_17.dita'.
+[2026-08-19T10:49:27.455734+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_17.dita'.
+[2026-08-19T10:49:27.455769+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_11.dita'.
+[2026-08-19T10:49:27.455786+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-19T10:49:27.455797+00:00] TopicWriter Assigned path for topic 'Get a Motor Log': 'get_a_motor_log.dita'.
+[2026-08-19T10:49:27.455808+00:00] TopicWriter Path assignment complete for 10 node(s).
+[2026-08-19T10:49:27.455818+00:00] TopicWriter Assigned path for topic 'Motors': 'motors.dita'.
+[2026-08-19T10:49:27.455853+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-19T10:49:27.455890+00:00] TopicWriter Assigned path for topic 'Sensor Provisioning': 'sensor_provisioning.dita'.
+[2026-08-19T10:49:27.455928+00:00] TopicWriter Assigning output paths for 6 node(s).
+[2026-08-19T10:49:27.455961+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_12.dita'.
+[2026-08-19T10:49:27.455999+00:00] TopicWriter Assigned path for topic 'URL': 'url_12.dita'.
+[2026-08-19T10:49:27.456036+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_18.dita'.
+[2026-08-19T10:49:27.456066+00:00] TopicWriter Assigned path for topic 'Request': 'request_7.dita'.
+[2026-08-19T10:49:27.456104+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_18.dita'.
+[2026-08-19T10:49:27.456139+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_12.dita'.
+[2026-08-19T10:49:27.456152+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-08-19T10:49:27.456167+00:00] TopicWriter Assigned path for topic 'Provision a Sensor': 'provision_a_sensor.dita'.
+[2026-08-19T10:49:27.456199+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-19T10:49:27.456229+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_13.dita'.
+[2026-08-19T10:49:27.456265+00:00] TopicWriter Assigned path for topic 'URL': 'url_13.dita'.
+[2026-08-19T10:49:27.456299+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_19.dita'.
+[2026-08-19T10:49:27.456340+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_19.dita'.
+[2026-08-19T10:49:27.456373+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_13.dita'.
+[2026-08-19T10:49:27.456388+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-19T10:49:27.456400+00:00] TopicWriter Assigned path for topic 'Get all Sensors': 'get_all_sensors.dita'.
+[2026-08-19T10:49:27.456431+00:00] TopicWriter Assigning output paths for 6 node(s).
+[2026-08-19T10:49:27.456465+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_14.dita'.
+[2026-08-19T10:49:27.456496+00:00] TopicWriter Assigned path for topic 'URL': 'url_14.dita'.
+[2026-08-19T10:49:27.456531+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_20.dita'.
+[2026-08-19T10:49:27.456566+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_20.dita'.
+[2026-08-19T10:49:27.456600+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_14.dita'.
+[2026-08-19T10:49:27.456645+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:49:27.456679+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:49:27.456716+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_21.dita'.
+[2026-08-19T10:49:27.456757+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_21.dita'.
+[2026-08-19T10:49:27.456772+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:49:27.456784+00:00] TopicWriter Assigned path for topic 'Attached': 'attached.dita'.
+[2026-08-19T10:49:27.456811+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:49:27.456850+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_22.dita'.
+[2026-08-19T10:49:27.456894+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_22.dita'.
+[2026-08-19T10:49:27.456912+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:49:27.456924+00:00] TopicWriter Assigned path for topic 'Unattached': 'unattached.dita'.
+[2026-08-19T10:49:27.456933+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:49:27.456944+00:00] TopicWriter Assigned path for topic 'Sample Sensor Status Filter': 'sample_sensor_status_filter.dita'.
+[2026-08-19T10:49:27.456955+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-08-19T10:49:27.456969+00:00] TopicWriter Assigned path for topic 'Get a Sensor': 'get_a_sensor.dita'.
+[2026-08-19T10:49:27.457001+00:00] TopicWriter Assigning output paths for 5 node(s).
+[2026-08-19T10:49:27.457040+00:00] TopicWriter Assigned path for topic 'Endpoint': 'endpoint_15.dita'.
+[2026-08-19T10:49:27.457087+00:00] TopicWriter Assigned path for topic 'URL': 'url_15.dita'.
+[2026-08-19T10:49:27.457123+00:00] TopicWriter Assigned path for topic 'Parameters': 'parameters_23.dita'.
+[2026-08-19T10:49:27.457162+00:00] TopicWriter Assigned path for topic 'Success Response': 'success_response_23.dita'.
+[2026-08-19T10:49:27.457198+00:00] TopicWriter Assigned path for topic 'Error Response': 'error_response_15.dita'.
+[2026-08-19T10:49:27.457211+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-19T10:49:27.457223+00:00] TopicWriter Assigned path for topic 'Deprovision a Sensor': 'deprovision_a_sensor.dita'.
+[2026-08-19T10:49:27.457237+00:00] TopicWriter Path assignment complete for 5 node(s).
+[2026-08-19T10:49:27.457248+00:00] TopicWriter Assigned path for topic 'Sensors': 'sensors.dita'.
+[2026-08-19T10:49:27.457259+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-19T10:49:27.457273+00:00] TopicWriter Assigned path for topic 'API Endpoints': 'api_endpoints.dita'.
+[2026-08-19T10:49:27.457477+00:00] TopicWriter Assigned path for topic 'HTTP Error Response Codes': 'http_error_response_codes.dita'.
+[2026-08-19T10:49:27.457499+00:00] TopicWriter Path assignment complete for 8 node(s).
+[2026-08-19T10:49:27.457519+00:00] TopicWriter Walking topic tree and writing DITA files.
+[2026-08-19T10:49:27.457542+00:00] TopicWriter Writing topic 'Audience' to .dita file.
+[2026-08-19T10:49:27.457556+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.458189+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.458359+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.458749+00:00] TopicWriter Topic 'audience.dita' written successfully.
+[2026-08-19T10:49:27.458782+00:00] TopicWriter Writing topic 'Introduction' to .dita file.
+[2026-08-19T10:49:27.458798+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.459302+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.459444+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.459766+00:00] TopicWriter Topic 'introduction.dita' written successfully.
+[2026-08-19T10:49:27.459798+00:00] TopicWriter Writing topic 'Benefits' to .dita file.
+[2026-08-19T10:49:27.459814+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.460531+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.460789+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.461088+00:00] TopicWriter Topic 'benefits.dita' written successfully.
+[2026-08-19T10:49:27.461120+00:00] TopicWriter Writing topic 'How does SMS device work?' to .dita file.
+[2026-08-19T10:49:27.461136+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.461697+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.461903+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.462173+00:00] TopicWriter Topic 'how_does_sms_device_work.dita' written successfully.
+[2026-08-19T10:49:27.462204+00:00] TopicWriter Writing topic 'Overview' to .dita file.
+[2026-08-19T10:49:27.462218+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.462422+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.462480+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.462733+00:00] TopicWriter Topic 'overview.dita' written successfully.
+[2026-08-19T10:49:27.462762+00:00] TopicWriter Writing topic 'Access SMS mobile application' to .dita file.
+[2026-08-19T10:49:27.462779+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.464147+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.464577+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.464699+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:49:27.465895+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:49:27.465973+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:49:27.466182+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:49:27.466255+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:49:27.466449+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:49:27.466473+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:49:27.469112+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:49:27.469508+00:00] TopicWriter Topic 'access_sms_mobile_application.dita' written successfully.
+[2026-08-19T10:49:27.469545+00:00] TopicWriter Writing topic 'Key Features' to .dita file.
+[2026-08-19T10:49:27.469562+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.470105+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.470262+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.470551+00:00] TopicWriter Topic 'key_features.dita' written successfully.
+[2026-08-19T10:49:27.470583+00:00] TopicWriter Writing topic 'API Standards' to .dita file.
+[2026-08-19T10:49:27.470602+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.471108+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.471252+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.471559+00:00] TopicWriter Topic 'api_standards.dita' written successfully.
+[2026-08-19T10:49:27.471590+00:00] TopicWriter Writing topic 'API Database' to .dita file.
+[2026-08-19T10:49:27.471606+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.473461+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.473918+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.474031+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-19T10:49:27.475243+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-19T10:49:27.475542+00:00] TopicWriter Topic 'api_database.dita' written successfully.
+[2026-08-19T10:49:27.475574+00:00] TopicWriter Writing topic 'Application Integration' to .dita file.
+[2026-08-19T10:49:27.475589+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.476046+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.476193+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.476447+00:00] TopicWriter Topic 'application_integration.dita' written successfully.
+[2026-08-19T10:49:27.476477+00:00] TopicWriter Writing topic 'Access the API' to .dita file.
+[2026-08-19T10:49:27.476492+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.477023+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.477164+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.477214+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:49:27.477733+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:49:27.477974+00:00] topic_structure <steps> block built with 3 step(s).
+[2026-08-19T10:49:27.478001+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:49:27.478016+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:49:27.479730+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:49:27.480071+00:00] TopicWriter Topic 'access_the_api.dita' written successfully.
+[2026-08-19T10:49:27.480103+00:00] TopicWriter Writing topic 'Best Practices' to .dita file.
+[2026-08-19T10:49:27.480118+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.480383+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.480472+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.480728+00:00] TopicWriter Topic 'best_practices.dita' written successfully.
+[2026-08-19T10:49:27.480757+00:00] TopicWriter Writing topic 'Base URL' to .dita file.
+[2026-08-19T10:49:27.480772+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.481293+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.481741+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.481804+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-19T10:49:27.482459+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-19T10:49:27.482720+00:00] TopicWriter Topic 'base_url.dita' written successfully.
+[2026-08-19T10:49:27.482749+00:00] TopicWriter Writing topic 'Sample Paths of REST API Calls' to .dita file.
+[2026-08-19T10:49:27.482765+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.484463+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.485091+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.485190+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-19T10:49:27.487689+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-19T10:49:27.488002+00:00] TopicWriter Topic 'sample_paths_of_rest_api_calls.dita' written successfully.
+[2026-08-19T10:49:27.488036+00:00] TopicWriter Writing topic 'Authentication' to .dita file.
+[2026-08-19T10:49:27.488054+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.488778+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.488973+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.489032+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:49:27.489616+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:49:27.489883+00:00] topic_structure <steps> block built with 3 step(s).
+[2026-08-19T10:49:27.489971+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:49:27.489997+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:49:27.491813+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:49:27.492151+00:00] TopicWriter Topic 'authentication.dita' written successfully.
+[2026-08-19T10:49:27.492185+00:00] TopicWriter Writing topic 'Create a Client API Key' to .dita file.
+[2026-08-19T10:49:27.492203+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.493312+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.493617+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.493697+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:49:27.494720+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:49:27.494805+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:49:27.495005+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:49:27.495233+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:49:27.495418+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:49:27.495442+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:49:27.497689+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:49:27.498097+00:00] TopicWriter Topic 'create_a_client_api_key.dita' written successfully.
+[2026-08-19T10:49:27.498133+00:00] TopicWriter Writing topic 'Generate a Token' to .dita file.
+[2026-08-19T10:49:27.498152+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.499148+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.499576+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.499700+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-19T10:49:27.500948+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-19T10:49:27.501307+00:00] TopicWriter Topic 'generate_a_token.dita' written successfully.
+[2026-08-19T10:49:27.501342+00:00] TopicWriter Writing topic 'OAuth' to .dita file.
+[2026-08-19T10:49:27.501360+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.501825+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.501980+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.502032+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:49:27.502448+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:49:27.502539+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:49:27.502602+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:49:27.502635+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:49:27.503988+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:49:27.504388+00:00] TopicWriter Topic 'oauth.dita' written successfully.
+[2026-08-19T10:49:27.504423+00:00] TopicWriter Writing topic 'Get a Bearer Token' to .dita file.
+[2026-08-19T10:49:27.504439+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.504773+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.504870+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.505231+00:00] TopicWriter Topic 'get_a_bearer_token.dita' written successfully.
+[2026-08-19T10:49:27.505264+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.505278+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.505552+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.505636+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.505904+00:00] TopicWriter Topic 'endpoint.dita' written successfully.
+[2026-08-19T10:49:27.505934+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.505948+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.506145+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.506200+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.506440+00:00] TopicWriter Topic 'url.dita' written successfully.
+[2026-08-19T10:49:27.506468+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.506484+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.507349+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.507726+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.508030+00:00] TopicWriter Topic 'parameters.dita' written successfully.
+[2026-08-19T10:49:27.508060+00:00] TopicWriter Writing topic 'Request' to .dita file.
+[2026-08-19T10:49:27.508074+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.508997+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.509402+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.509740+00:00] TopicWriter Topic 'request.dita' written successfully.
+[2026-08-19T10:49:27.509770+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.509787+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.512035+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.512866+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.513286+00:00] TopicWriter Topic 'success_response.dita' written successfully.
+[2026-08-19T10:49:27.513320+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.513335+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.514451+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.514868+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.515259+00:00] TopicWriter Topic 'error_response.dita' written successfully.
+[2026-08-19T10:49:27.515297+00:00] TopicWriter Writing topic 'Make Authenticated Requests' to .dita file.
+[2026-08-19T10:49:27.515313+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.515619+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.515724+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.516013+00:00] TopicWriter Topic 'make_authenticated_requests.dita' written successfully.
+[2026-08-19T10:49:27.516044+00:00] TopicWriter Writing topic 'Syntax' to .dita file.
+[2026-08-19T10:49:27.516058+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.516260+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.516321+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.516537+00:00] TopicWriter Topic 'syntax.dita' written successfully.
+[2026-08-19T10:49:27.516566+00:00] TopicWriter Writing topic 'Sample Code' to .dita file.
+[2026-08-19T10:49:27.516579+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.516789+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.516845+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.517057+00:00] TopicWriter Topic 'sample_code.dita' written successfully.
+[2026-08-19T10:49:27.517086+00:00] TopicWriter Writing topic 'Requests and Responses' to .dita file.
+[2026-08-19T10:49:27.517099+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.517309+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.517366+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.517579+00:00] TopicWriter Topic 'requests_and_responses.dita' written successfully.
+[2026-08-19T10:49:27.517605+00:00] TopicWriter Writing topic 'HTTP Methods' to .dita file.
+[2026-08-19T10:49:27.517618+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.518303+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.518693+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.518746+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-19T10:49:27.519737+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-19T10:49:27.519986+00:00] TopicWriter Topic 'http_methods.dita' written successfully.
+[2026-08-19T10:49:27.520016+00:00] TopicWriter Writing topic 'HTTP Request Body' to .dita file.
+[2026-08-19T10:49:27.520032+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.520662+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.520776+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.521022+00:00] TopicWriter Topic 'http_request_body.dita' written successfully.
+[2026-08-19T10:49:27.521051+00:00] TopicWriter Writing topic 'Sample Request Body' to .dita file.
+[2026-08-19T10:49:27.521065+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.521916+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.522214+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.522451+00:00] TopicWriter Topic 'sample_request_body.dita' written successfully.
+[2026-08-19T10:49:27.522480+00:00] TopicWriter Writing topic 'Data Type' to .dita file.
+[2026-08-19T10:49:27.522494+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.522800+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.522880+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.523121+00:00] TopicWriter Topic 'data_type.dita' written successfully.
+[2026-08-19T10:49:27.523154+00:00] TopicWriter Writing topic 'Testing an Endpoint' to .dita file.
+[2026-08-19T10:49:27.523170+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.523996+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.524232+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.524295+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:49:27.524962+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:49:27.525054+00:00] topic_structure <steps> block built with 4 step(s).
+[2026-08-19T10:49:27.525226+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:49:27.525249+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:49:27.527063+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:49:27.527429+00:00] TopicWriter Topic 'testing_an_endpoint.dita' written successfully.
+[2026-08-19T10:49:27.527463+00:00] TopicWriter Writing topic 'Request Limits' to .dita file.
+[2026-08-19T10:49:27.527479+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.528002+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.528188+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.528472+00:00] TopicWriter Topic 'request_limits.dita' written successfully.
+[2026-08-19T10:49:27.528504+00:00] TopicWriter Writing topic 'Timeout Limit' to .dita file.
+[2026-08-19T10:49:27.528519+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.528997+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.529085+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.529336+00:00] TopicWriter Topic 'timeout_limit.dita' written successfully.
+[2026-08-19T10:49:27.529366+00:00] TopicWriter Writing topic 'Response Compression' to .dita file.
+[2026-08-19T10:49:27.529380+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.530204+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.530603+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.530681+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-19T10:49:27.531750+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-19T10:49:27.532024+00:00] TopicWriter Topic 'response_compression.dita' written successfully.
+[2026-08-19T10:49:27.532056+00:00] TopicWriter Writing topic 'Error Handling' to .dita file.
+[2026-08-19T10:49:27.532073+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.532498+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.532689+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.532961+00:00] TopicWriter Topic 'error_handling.dita' written successfully.
+[2026-08-19T10:49:27.532991+00:00] TopicWriter Writing topic 'Pagination' to .dita file.
+[2026-08-19T10:49:27.533008+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.535979+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.536797+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.536841+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:49:27.538465+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:49:27.538557+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:49:27.539277+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:49:27.539362+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:49:27.539441+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:49:27.539470+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:49:27.543214+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:49:27.543612+00:00] TopicWriter Topic 'pagination.dita' written successfully.
+[2026-08-19T10:49:27.543668+00:00] TopicWriter Writing topic 'API Endpoints' to .dita file.
+[2026-08-19T10:49:27.543689+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.546185+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.547153+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.547337+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-19T10:49:27.551008+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-19T10:49:27.551420+00:00] TopicWriter Topic 'api_endpoints.dita' written successfully.
+[2026-08-19T10:49:27.551457+00:00] TopicWriter Writing topic 'Data' to .dita file.
+[2026-08-19T10:49:27.551475+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.551944+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.552105+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.552379+00:00] TopicWriter Topic 'data.dita' written successfully.
+[2026-08-19T10:49:27.552409+00:00] TopicWriter Writing topic 'Get Data' to .dita file.
+[2026-08-19T10:49:27.552424+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.552668+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.552735+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.553001+00:00] TopicWriter Topic 'get_data.dita' written successfully.
+[2026-08-19T10:49:27.553028+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.553040+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.553361+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.553436+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.553682+00:00] TopicWriter Topic 'endpoint_2.dita' written successfully.
+[2026-08-19T10:49:27.553710+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.553723+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.553923+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.553984+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.554193+00:00] TopicWriter Topic 'url_2.dita' written successfully.
+[2026-08-19T10:49:27.554221+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.554239+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.557287+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.558357+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.558802+00:00] TopicWriter Topic 'parameters_2.dita' written successfully.
+[2026-08-19T10:49:27.558834+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.558851+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.562546+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.563687+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.564168+00:00] TopicWriter Topic 'success_response_2.dita' written successfully.
+[2026-08-19T10:49:27.564205+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.564220+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.565527+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.566178+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.566566+00:00] TopicWriter Topic 'error_response_2.dita' written successfully.
+[2026-08-19T10:49:27.566605+00:00] TopicWriter Writing topic 'Sample Dataset Filters' to .dita file.
+[2026-08-19T10:49:27.566620+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.566864+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.566928+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.567349+00:00] TopicWriter Topic 'sample_dataset_filters.dita' written successfully.
+[2026-08-19T10:49:27.567378+00:00] TopicWriter Writing topic 'Vibx Data Query' to .dita file.
+[2026-08-19T10:49:27.567392+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.567589+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.567661+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.567880+00:00] TopicWriter Topic 'vibx_data_query.dita' written successfully.
+[2026-08-19T10:49:27.567907+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.567924+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.570457+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.571427+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.571835+00:00] TopicWriter Topic 'parameters_3.dita' written successfully.
+[2026-08-19T10:49:27.571867+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.571886+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.576369+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.577850+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.578272+00:00] TopicWriter Topic 'success_response_3.dita' written successfully.
+[2026-08-19T10:49:27.578310+00:00] TopicWriter Writing topic 'Performance' to .dita file.
+[2026-08-19T10:49:27.578324+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.578547+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.578608+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.578870+00:00] TopicWriter Topic 'performance.dita' written successfully.
+[2026-08-19T10:49:27.578899+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.578917+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.581352+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.582325+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.582771+00:00] TopicWriter Topic 'parameters_4.dita' written successfully.
+[2026-08-19T10:49:27.582806+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.582826+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.587185+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.588563+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.589019+00:00] TopicWriter Topic 'success_response_4.dita' written successfully.
+[2026-08-19T10:49:27.589056+00:00] TopicWriter Writing topic 'Conditions' to .dita file.
+[2026-08-19T10:49:27.589071+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.589311+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.589372+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.589615+00:00] TopicWriter Topic 'conditions.dita' written successfully.
+[2026-08-19T10:49:27.589661+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.589679+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.592223+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.593170+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.593618+00:00] TopicWriter Topic 'parameters_5.dita' written successfully.
+[2026-08-19T10:49:27.593676+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.593696+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.597578+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.598918+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.599398+00:00] TopicWriter Topic 'success_response_5.dita' written successfully.
+[2026-08-19T10:49:27.599435+00:00] TopicWriter Writing topic 'Operations' to .dita file.
+[2026-08-19T10:49:27.599451+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.599707+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.599769+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.600010+00:00] TopicWriter Topic 'operations.dita' written successfully.
+[2026-08-19T10:49:27.600038+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.600054+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.602545+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.603489+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.603922+00:00] TopicWriter Topic 'parameters_6.dita' written successfully.
+[2026-08-19T10:49:27.603956+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.603973+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.607002+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.608088+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.608487+00:00] TopicWriter Topic 'success_response_6.dita' written successfully.
+[2026-08-19T10:49:27.608523+00:00] TopicWriter Writing topic 'Motors' to .dita file.
+[2026-08-19T10:49:27.608540+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.608982+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.609105+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.609388+00:00] TopicWriter Topic 'motors.dita' written successfully.
+[2026-08-19T10:49:27.609417+00:00] TopicWriter Writing topic 'Motor Tags' to .dita file.
+[2026-08-19T10:49:27.609432+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.609805+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.609919+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.610153+00:00] TopicWriter Topic 'motor_tags.dita' written successfully.
+[2026-08-19T10:49:27.610183+00:00] TopicWriter Writing topic 'Create a Motor' to .dita file.
+[2026-08-19T10:49:27.610196+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.610391+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.610446+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.610712+00:00] TopicWriter Topic 'create_a_motor.dita' written successfully.
+[2026-08-19T10:49:27.610742+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.610754+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.610995+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.611056+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.611269+00:00] TopicWriter Topic 'endpoint_3.dita' written successfully.
+[2026-08-19T10:49:27.611296+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.611309+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.611505+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.611559+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.611781+00:00] TopicWriter Topic 'url_3.dita' written successfully.
+[2026-08-19T10:49:27.611809+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.611823+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.612800+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.613218+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.613495+00:00] TopicWriter Topic 'parameters_7.dita' written successfully.
+[2026-08-19T10:49:27.613525+00:00] TopicWriter Writing topic 'Request' to .dita file.
+[2026-08-19T10:49:27.613543+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.618454+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.620699+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.621166+00:00] TopicWriter Topic 'request_2.dita' written successfully.
+[2026-08-19T10:49:27.621204+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.621229+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.630950+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.636097+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.636775+00:00] TopicWriter Topic 'success_response_7.dita' written successfully.
+[2026-08-19T10:49:27.636815+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.636832+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.638223+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.638803+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.639204+00:00] TopicWriter Topic 'error_response_3.dita' written successfully.
+[2026-08-19T10:49:27.639241+00:00] TopicWriter Writing topic 'Get all Motors' to .dita file.
+[2026-08-19T10:49:27.639255+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.639489+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.639549+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.639845+00:00] TopicWriter Topic 'get_all_motors.dita' written successfully.
+[2026-08-19T10:49:27.639877+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.639890+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.640114+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.640176+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.640398+00:00] TopicWriter Topic 'endpoint_4.dita' written successfully.
+[2026-08-19T10:49:27.640426+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.640439+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.640659+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.640715+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.640937+00:00] TopicWriter Topic 'url_4.dita' written successfully.
+[2026-08-19T10:49:27.640965+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.640980+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.642417+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.643058+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.643384+00:00] TopicWriter Topic 'parameters_8.dita' written successfully.
+[2026-08-19T10:49:27.643415+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.643441+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.655495+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.659519+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.660229+00:00] TopicWriter Topic 'success_response_8.dita' written successfully.
+[2026-08-19T10:49:27.660273+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.660288+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.661613+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.662173+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.662541+00:00] TopicWriter Topic 'error_response_4.dita' written successfully.
+[2026-08-19T10:49:27.662577+00:00] TopicWriter Writing topic 'Get a Motor' to .dita file.
+[2026-08-19T10:49:27.662593+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.662842+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.662903+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.663238+00:00] TopicWriter Topic 'get_a_motor.dita' written successfully.
+[2026-08-19T10:49:27.663270+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.663283+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.663608+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.663705+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.663939+00:00] TopicWriter Topic 'endpoint_5.dita' written successfully.
+[2026-08-19T10:49:27.663969+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.663983+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.664182+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.664236+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.664452+00:00] TopicWriter Topic 'url_5.dita' written successfully.
+[2026-08-19T10:49:27.664482+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.664498+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.666335+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.667194+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.667569+00:00] TopicWriter Topic 'parameters_9.dita' written successfully.
+[2026-08-19T10:49:27.667614+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.667679+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.677984+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.681572+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.682237+00:00] TopicWriter Topic 'success_response_9.dita' written successfully.
+[2026-08-19T10:49:27.682280+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.682295+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.683717+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.684256+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.684797+00:00] TopicWriter Topic 'error_response_5.dita' written successfully.
+[2026-08-19T10:49:27.684837+00:00] TopicWriter Writing topic 'Update a Motor' to .dita file.
+[2026-08-19T10:49:27.684853+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.685089+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.685150+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.685449+00:00] TopicWriter Topic 'update_a_motor.dita' written successfully.
+[2026-08-19T10:49:27.685478+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.685492+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.685801+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.685872+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.686111+00:00] TopicWriter Topic 'endpoint_6.dita' written successfully.
+[2026-08-19T10:49:27.686140+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.686153+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.686350+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.686406+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.686644+00:00] TopicWriter Topic 'url_6.dita' written successfully.
+[2026-08-19T10:49:27.686673+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.686688+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.688154+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.688792+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.689176+00:00] TopicWriter Topic 'parameters_10.dita' written successfully.
+[2026-08-19T10:49:27.689210+00:00] TopicWriter Writing topic 'Request' to .dita file.
+[2026-08-19T10:49:27.689229+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.694247+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.696040+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.696510+00:00] TopicWriter Topic 'request_3.dita' written successfully.
+[2026-08-19T10:49:27.696549+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.696575+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.708206+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.711709+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.712365+00:00] TopicWriter Topic 'success_response_10.dita' written successfully.
+[2026-08-19T10:49:27.712406+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.712421+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.713795+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.714336+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.714737+00:00] TopicWriter Topic 'error_response_6.dita' written successfully.
+[2026-08-19T10:49:27.714773+00:00] TopicWriter Writing topic 'Delete a Motor' to .dita file.
+[2026-08-19T10:49:27.714788+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.715034+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.715095+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.715391+00:00] TopicWriter Topic 'delete_a_motor.dita' written successfully.
+[2026-08-19T10:49:27.715420+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.715434+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.715781+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.715855+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.716108+00:00] TopicWriter Topic 'endpoint_7.dita' written successfully.
+[2026-08-19T10:49:27.716138+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.716152+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.716360+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.716419+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.716658+00:00] TopicWriter Topic 'url_7.dita' written successfully.
+[2026-08-19T10:49:27.716685+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.716698+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.718020+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.718567+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.718891+00:00] TopicWriter Topic 'parameters_11.dita' written successfully.
+[2026-08-19T10:49:27.718921+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.718943+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.719985+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.720367+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.720683+00:00] TopicWriter Topic 'success_response_11.dita' written successfully.
+[2026-08-19T10:49:27.720714+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.720730+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.722065+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.722619+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.722927+00:00] TopicWriter Topic 'error_response_7.dita' written successfully.
+[2026-08-19T10:49:27.723098+00:00] TopicWriter Writing topic 'Attach a Motor Sensor' to .dita file.
+[2026-08-19T10:49:27.723113+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.723336+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.723394+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.723688+00:00] TopicWriter Topic 'attach_a_motor_sensor.dita' written successfully.
+[2026-08-19T10:49:27.723715+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.723729+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.724112+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.724197+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.724414+00:00] TopicWriter Topic 'endpoint_8.dita' written successfully.
+[2026-08-19T10:49:27.724441+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.724454+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.724665+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.724720+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.724945+00:00] TopicWriter Topic 'url_8.dita' written successfully.
+[2026-08-19T10:49:27.724973+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.724988+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.726542+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.727233+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.727561+00:00] TopicWriter Topic 'parameters_12.dita' written successfully.
+[2026-08-19T10:49:27.727595+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.727614+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.731141+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.732352+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.732879+00:00] TopicWriter Topic 'success_response_12.dita' written successfully.
+[2026-08-19T10:49:27.732915+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.732931+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.734340+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.734888+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.735264+00:00] TopicWriter Topic 'error_response_8.dita' written successfully.
+[2026-08-19T10:49:27.735297+00:00] TopicWriter Writing topic 'Detach a Motor Sensor' to .dita file.
+[2026-08-19T10:49:27.735312+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.735530+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.735588+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.735863+00:00] TopicWriter Topic 'detach_a_motor_sensor.dita' written successfully.
+[2026-08-19T10:49:27.735892+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.735905+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.736238+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.736314+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.736530+00:00] TopicWriter Topic 'endpoint_9.dita' written successfully.
+[2026-08-19T10:49:27.736558+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.736571+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.736783+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.736837+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.737047+00:00] TopicWriter Topic 'url_9.dita' written successfully.
+[2026-08-19T10:49:27.737073+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.737087+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.738587+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.739264+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.739610+00:00] TopicWriter Topic 'parameters_13.dita' written successfully.
+[2026-08-19T10:49:27.739662+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.739677+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.740450+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.740870+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.741164+00:00] TopicWriter Topic 'success_response_13.dita' written successfully.
+[2026-08-19T10:49:27.741194+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.741208+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.742660+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.743197+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.743505+00:00] TopicWriter Topic 'error_response_9.dita' written successfully.
+[2026-08-19T10:49:27.743537+00:00] TopicWriter Writing topic 'Create a Motor Log Entry' to .dita file.
+[2026-08-19T10:49:27.743551+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.743776+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.743833+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.744091+00:00] TopicWriter Topic 'create_a_motor_log_entry.dita' written successfully.
+[2026-08-19T10:49:27.744118+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.744131+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.744410+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.744477+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.744701+00:00] TopicWriter Topic 'endpoint_10.dita' written successfully.
+[2026-08-19T10:49:27.744728+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.744740+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.744939+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.744994+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.745205+00:00] TopicWriter Topic 'url_10.dita' written successfully.
+[2026-08-19T10:49:27.745233+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.745249+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.746687+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.747323+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.747652+00:00] TopicWriter Topic 'parameters_14.dita' written successfully.
+[2026-08-19T10:49:27.747682+00:00] TopicWriter Writing topic 'Request' to .dita file.
+[2026-08-19T10:49:27.747698+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.749222+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.749792+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.750131+00:00] TopicWriter Topic 'request_4.dita' written successfully.
+[2026-08-19T10:49:27.750162+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.750178+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.752956+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.753943+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.754357+00:00] TopicWriter Topic 'success_response_14.dita' written successfully.
+[2026-08-19T10:49:27.754389+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.754402+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.755890+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.756404+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.756762+00:00] TopicWriter Topic 'error_response_10.dita' written successfully.
+[2026-08-19T10:49:27.756794+00:00] TopicWriter Writing topic 'Sample Subject Filters' to .dita file.
+[2026-08-19T10:49:27.756807+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.756925+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.756947+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.757153+00:00] TopicWriter Topic 'sample_subject_filters.dita' written successfully.
+[2026-08-19T10:49:27.757179+00:00] TopicWriter Writing topic 'Comment' to .dita file.
+[2026-08-19T10:49:27.757192+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.757390+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.757446+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.757677+00:00] TopicWriter Topic 'comment.dita' written successfully.
+[2026-08-19T10:49:27.757703+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.757718+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.759207+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.759844+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.760167+00:00] TopicWriter Topic 'parameters_15.dita' written successfully.
+[2026-08-19T10:49:27.760196+00:00] TopicWriter Writing topic 'Request' to .dita file.
+[2026-08-19T10:49:27.760210+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.761544+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.762095+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.762394+00:00] TopicWriter Topic 'request_5.dita' written successfully.
+[2026-08-19T10:49:27.762423+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.762440+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.765187+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.766186+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.766557+00:00] TopicWriter Topic 'success_response_15.dita' written successfully.
+[2026-08-19T10:49:27.766589+00:00] TopicWriter Writing topic 'Repair' to .dita file.
+[2026-08-19T10:49:27.766603+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.766834+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.766892+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.767138+00:00] TopicWriter Topic 'repair.dita' written successfully.
+[2026-08-19T10:49:27.767166+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.767181+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.768592+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.769194+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.769522+00:00] TopicWriter Topic 'parameters_16.dita' written successfully.
+[2026-08-19T10:49:27.769551+00:00] TopicWriter Writing topic 'Request' to .dita file.
+[2026-08-19T10:49:27.769566+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.771174+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.771747+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.772068+00:00] TopicWriter Topic 'request_6.dita' written successfully.
+[2026-08-19T10:49:27.772098+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.772115+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.774698+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.775776+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.776168+00:00] TopicWriter Topic 'success_response_16.dita' written successfully.
+[2026-08-19T10:49:27.776202+00:00] TopicWriter Writing topic 'Get a Motor Log' to .dita file.
+[2026-08-19T10:49:27.776218+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.776473+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.776533+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.776837+00:00] TopicWriter Topic 'get_a_motor_log.dita' written successfully.
+[2026-08-19T10:49:27.776866+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.776879+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.777162+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.777230+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.777455+00:00] TopicWriter Topic 'endpoint_11.dita' written successfully.
+[2026-08-19T10:49:27.777483+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.777497+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.777702+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.777756+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.777968+00:00] TopicWriter Topic 'url_11.dita' written successfully.
+[2026-08-19T10:49:27.777995+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.778010+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.780482+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.781281+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.781736+00:00] TopicWriter Topic 'parameters_17.dita' written successfully.
+[2026-08-19T10:49:27.781770+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.781788+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.786183+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.787566+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.788034+00:00] TopicWriter Topic 'success_response_17.dita' written successfully.
+[2026-08-19T10:49:27.788074+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.788090+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.789460+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.790031+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.790435+00:00] TopicWriter Topic 'error_response_11.dita' written successfully.
+[2026-08-19T10:49:27.790474+00:00] TopicWriter Writing topic 'Sensors' to .dita file.
+[2026-08-19T10:49:27.790492+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.790925+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.791078+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.791402+00:00] TopicWriter Topic 'sensors.dita' written successfully.
+[2026-08-19T10:49:27.791440+00:00] TopicWriter Writing topic 'Sensor Provisioning' to .dita file.
+[2026-08-19T10:49:27.791458+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.793406+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.793567+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.793647+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:49:27.794170+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:49:27.794272+00:00] topic_structure <steps> block built with 5 step(s).
+[2026-08-19T10:49:27.794395+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:49:27.794421+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:49:27.796337+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:49:27.796794+00:00] TopicWriter Topic 'sensor_provisioning.dita' written successfully.
+[2026-08-19T10:49:27.796833+00:00] TopicWriter Writing topic 'Provision a Sensor' to .dita file.
+[2026-08-19T10:49:27.796850+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.797091+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.797158+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.797520+00:00] TopicWriter Topic 'provision_a_sensor.dita' written successfully.
+[2026-08-19T10:49:27.797554+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.797568+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.797823+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.797892+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.798133+00:00] TopicWriter Topic 'endpoint_12.dita' written successfully.
+[2026-08-19T10:49:27.798166+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.798180+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.798389+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.798445+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.798691+00:00] TopicWriter Topic 'url_12.dita' written successfully.
+[2026-08-19T10:49:27.798721+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.798735+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.801035+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.801430+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.802034+00:00] TopicWriter Topic 'parameters_18.dita' written successfully.
+[2026-08-19T10:49:27.802070+00:00] TopicWriter Writing topic 'Request' to .dita file.
+[2026-08-19T10:49:27.802087+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.913668+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.914371+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.914902+00:00] TopicWriter Topic 'request_7.dita' written successfully.
+[2026-08-19T10:49:27.914961+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.914981+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.919788+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.921617+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.922282+00:00] TopicWriter Topic 'success_response_18.dita' written successfully.
+[2026-08-19T10:49:27.922323+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.922339+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.924138+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.924945+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.925351+00:00] TopicWriter Topic 'error_response_12.dita' written successfully.
+[2026-08-19T10:49:27.925391+00:00] TopicWriter Writing topic 'Get all Sensors' to .dita file.
+[2026-08-19T10:49:27.925407+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.925671+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.925732+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.926066+00:00] TopicWriter Topic 'get_all_sensors.dita' written successfully.
+[2026-08-19T10:49:27.926097+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.926111+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.926366+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.926430+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.926720+00:00] TopicWriter Topic 'endpoint_13.dita' written successfully.
+[2026-08-19T10:49:27.926752+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.926766+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.926997+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.927064+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.927415+00:00] TopicWriter Topic 'url_13.dita' written successfully.
+[2026-08-19T10:49:27.927453+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.927470+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.929071+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.929930+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.930328+00:00] TopicWriter Topic 'parameters_19.dita' written successfully.
+[2026-08-19T10:49:27.930363+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.930396+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.934278+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.935833+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.936404+00:00] TopicWriter Topic 'success_response_19.dita' written successfully.
+[2026-08-19T10:49:27.936443+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.936458+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.937904+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.938445+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.938828+00:00] TopicWriter Topic 'error_response_13.dita' written successfully.
+[2026-08-19T10:49:27.938864+00:00] TopicWriter Writing topic 'Get a Sensor' to .dita file.
+[2026-08-19T10:49:27.938880+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.939134+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.939194+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.939466+00:00] TopicWriter Topic 'get_a_sensor.dita' written successfully.
+[2026-08-19T10:49:27.939494+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.939507+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.939824+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.939894+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.940122+00:00] TopicWriter Topic 'endpoint_14.dita' written successfully.
+[2026-08-19T10:49:27.940151+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.940163+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.940368+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.940423+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.940654+00:00] TopicWriter Topic 'url_14.dita' written successfully.
+[2026-08-19T10:49:27.940682+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.940697+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.942180+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.942806+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.943138+00:00] TopicWriter Topic 'parameters_20.dita' written successfully.
+[2026-08-19T10:49:27.943167+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.943185+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.947290+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.948517+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.949059+00:00] TopicWriter Topic 'success_response_20.dita' written successfully.
+[2026-08-19T10:49:27.949100+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.949115+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.950684+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.951272+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.951658+00:00] TopicWriter Topic 'error_response_14.dita' written successfully.
+[2026-08-19T10:49:27.951697+00:00] TopicWriter Writing topic 'Sample Sensor Status Filter' to .dita file.
+[2026-08-19T10:49:27.951713+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.951843+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.951865+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.952090+00:00] TopicWriter Topic 'sample_sensor_status_filter.dita' written successfully.
+[2026-08-19T10:49:27.952123+00:00] TopicWriter Writing topic 'Attached' to .dita file.
+[2026-08-19T10:49:27.952141+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.952369+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.952435+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.952688+00:00] TopicWriter Topic 'attached.dita' written successfully.
+[2026-08-19T10:49:27.952718+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.952731+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.954252+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.954911+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.955281+00:00] TopicWriter Topic 'parameters_21.dita' written successfully.
+[2026-08-19T10:49:27.955312+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.955330+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.958720+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.960026+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.960538+00:00] TopicWriter Topic 'success_response_21.dita' written successfully.
+[2026-08-19T10:49:27.960574+00:00] TopicWriter Writing topic 'Unattached' to .dita file.
+[2026-08-19T10:49:27.960589+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.960840+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.960901+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.961142+00:00] TopicWriter Topic 'unattached.dita' written successfully.
+[2026-08-19T10:49:27.961170+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.961184+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.962693+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.963375+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.963734+00:00] TopicWriter Topic 'parameters_22.dita' written successfully.
+[2026-08-19T10:49:27.963766+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.963785+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.966865+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.968039+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.968520+00:00] TopicWriter Topic 'success_response_22.dita' written successfully.
+[2026-08-19T10:49:27.968557+00:00] TopicWriter Writing topic 'Deprovision a Sensor' to .dita file.
+[2026-08-19T10:49:27.968571+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.968813+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.968872+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.969150+00:00] TopicWriter Topic 'deprovision_a_sensor.dita' written successfully.
+[2026-08-19T10:49:27.969179+00:00] TopicWriter Writing topic 'Endpoint' to .dita file.
+[2026-08-19T10:49:27.969192+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.969474+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.969543+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.969771+00:00] TopicWriter Topic 'endpoint_15.dita' written successfully.
+[2026-08-19T10:49:27.969799+00:00] TopicWriter Writing topic 'URL' to .dita file.
+[2026-08-19T10:49:27.969812+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.970011+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.970064+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.970281+00:00] TopicWriter Topic 'url_15.dita' written successfully.
+[2026-08-19T10:49:27.970307+00:00] TopicWriter Writing topic 'Parameters' to .dita file.
+[2026-08-19T10:49:27.970321+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.971835+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.972377+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.972705+00:00] TopicWriter Topic 'parameters_23.dita' written successfully.
+[2026-08-19T10:49:27.972735+00:00] TopicWriter Writing topic 'Success Response' to .dita file.
+[2026-08-19T10:49:27.972749+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.973586+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.974019+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.974303+00:00] TopicWriter Topic 'success_response_23.dita' written successfully.
+[2026-08-19T10:49:27.974332+00:00] TopicWriter Writing topic 'Error Response' to .dita file.
+[2026-08-19T10:49:27.974347+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.975772+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.976302+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.976679+00:00] TopicWriter Topic 'error_response_15.dita' written successfully.
+[2026-08-19T10:49:27.976715+00:00] TopicWriter Writing topic 'HTTP Error Response Codes' to .dita file.
+[2026-08-19T10:49:27.976729+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:49:27.977701+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:49:27.978296+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:49:27.978357+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-19T10:49:27.979677+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-19T10:49:27.980029+00:00] TopicWriter Topic 'http_error_response_codes.dita' written successfully.
+[2026-08-19T10:49:27.980065+00:00] TopicWriter All 163 topic file(s) written successfully.
+[2026-08-19T10:49:27.980082+00:00] topics_written DTD classification and topic writing complete: 163 DITA file(s) generated.
+[2026-08-19T10:49:27.983761+00:00] TopicWriter Finished writing .dita files.
+[2026-08-19T10:49:27.983821+00:00] step_write_topics_complete DITA topic files written: 163 file(s) generated.
+[2026-08-19T10:49:27.987616+00:00] DitaMapBuilder Generating DITAMAP file.
+[2026-08-19T10:49:27.987687+00:00] step_ditamap_started Step 5/7: Generating DITAMAP structure.
+[2026-08-19T10:49:27.995584+00:00] DitaMapBuilder DITAMAP generation complete.
+[2026-08-19T10:49:27.995644+00:00] step_ditamap_complete DITAMAP generation complete: 9 map file(s) created.
+
+ Success: Content transformation completed successfully.
+================================================================================

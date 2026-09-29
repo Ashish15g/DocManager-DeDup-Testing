@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc193658920" xml:lang="en-us">
+   <title>Manage API keys</title>
+   <shortdesc>The Manage API Keys page in Admin profile allows administrators to:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>click</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>Manage</keyword>
+        <keyword>Keys</keyword>
+        <keyword>displayed</keyword>
+        <keyword>Click</keyword>
+        <indexterm>click</indexterm>
+        <indexterm>placeholder</indexterm>
+        <indexterm>Manage</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>The Manage API Keys page in Admin profile allows administrators to:</p>
+      <ul id="ul_103141144">
+            <li>
+               <xref href="../reports/create_a_report.dita" format="dita">create</xref> and <xref href="../user_management/manage_api_keys.dita" format="dita">manage</xref> API keys</li>
+            <li>
+               <xref href="#access_endpoints">access API and IoT endpoints</xref> for your subscription</li>
+         </ul>
+      <p>For more information on REST API, see the ADI OtoSense™ REST API Guide.</p>
+      <p>For more information about OAuth 2.0 bearer token authentication, see <xref format="html" href="https://www.rfc-editor.org/info/rfc6750/%20https:/docs.aws.amazon.com/iot/latest/developerguide/protocols.html" scope="external">RFC 6750: The OAuth 2.0 Authorization Framework: Bearer Token Usage</xref>.</p>
+      <p>To create an API key:</p>
+      <ol>
+    <li>Log in to the SMS web application.</li>
+    <li><p>On the top right of the user interface, click the <image height="14" href="../media/image20.png" placement="break" width="18">
+                  <alt>placeholder</alt>
+               </image> arrow next to your name and click API.</p>
+      <fig>
+                  <title>Image101</title>
+                  <image height="227" href="../media/image101.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <p>The <b>Manage API Keys</b> page is displayed with a list of existing API keys.</p>
+               <fig>
+                  <title>Image102</title>
+                  <image height="180" href="../media/image102.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li>Click CREATE API KEY.</li>
+    <li><p>In the Create New Key window, enter the name of the API key, its role, and its description in their respective fields.</p>
+      <fig>
+                  <title>Image103</title>
+                  <image height="269" href="../media/image103.png" placement="break" width="382">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li><p>Click CREATE KEY.</p>
+      <p>A new key is created and listed in the manage API Keys page.</p>
+               <p>To manage an API key:</p></li>
+    <li>Log in to the SMS web application.</li>
+    <li><p>On the top right of the user interface, click the <image height="14" href="../media/image20.png" placement="break" width="18">
+                  <alt>placeholder</alt>
+               </image> arrow next to your name and click API.</p>
+      <p>The <b>Manage API Keys</b> page is displayed with a list of existing API keys.</p>
+               <fig>
+                  <title>Image104</title>
+                  <image height="186" href="../media/image104.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li>Find the API key that you want to edit or delete.</li>
+    <li>To edit an API key, click Edit.</li>
+    <li>In the Edit Key window, change the name, role or description as required and click SAVE.</li>
+    <li>To delete an API key, click Delete.</li>
+    <li><p>In the Delete API Key window, click DELETE.</p>
+      <fig>
+                  <title>Image105</title>
+                  <image height="196" href="../media/image105.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <p>To access API and IoT endpoints:</p></li>
+    <li>Log in to the SMS web application.</li>
+    <li><p>On the top right of the user interface, click the <image height="14" href="../media/image20.png" placement="break" width="18">
+                  <alt>placeholder</alt>
+               </image> arrow next to your name and click API.</p>
+      <p>The <b>Manage API Keys</b> page is displayed with a list of existing API keys.</p>
+               <fig>
+                  <title>Image106</title>
+                  <image height="192" href="../media/image106.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li><p>Click the Endpoints tab.</p>
+      <p>The <b>Endpoints</b> page with the API and IoT endpoints are displayed.</p></li>
+    <li>Click Copy next to the respective endpoint link.</li>
+    </ol>
+    </section>
+<section>
+      <title>Result</title>
+      <fig>
+               <title>Image107</title>
+               <image height="203" href="../media/image107.png" placement="break" width="602">
+                  <alt>placeholder</alt>
+               </image>
+            </fig></section></refbody>
+</reference>

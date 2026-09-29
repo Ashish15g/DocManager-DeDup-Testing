@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="magnetic_field_sensor" xml:lang="en-us">
+   <title>Magnetic field sensor</title>
+   <shortdesc>This section describes the information and specifications related to magnetic field sensor on the SMS.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>field</keyword>
+        <keyword>Magnetic</keyword>
+        <keyword>sensor</keyword>
+        <keyword>magnetic</keyword>
+        <keyword>specifications</keyword>
+        <keyword>motor</keyword>
+        <indexterm>field</indexterm>
+        <indexterm>Magnetic</indexterm>
+        <indexterm>sensor</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section id="sec_d461e7">
+         <p>This section describes the information and specifications related to magnetic field sensor on the SMS.</p>
+         <p>Measurement of the magnetic field around a motor allows for insights into electrical and mechanical motor performance issues.</p>
+         <p>ADI OtoSense™ SMS is equipped with a single magnetic field sensor For specifications, ￼Table ￼.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Magnetic Field Sensor Specifications</title>
+            <tgroup cols="5">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <colspec colname="c4"/>
+               <colspec colname="c5"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Sensor Type</b>
+                     </entry>
+                     <entry>
+                        <b>Sampling Frequency</b>
+                     </entry>
+                     <entry>
+                        <b>Number of Samples</b>
+                     </entry>
+                     <entry>
+                        <b>Data Formats</b>
+                     </entry>
+                     <entry>
+                        <b>Data Type</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Magnetic Field</entry>
+                     <entry>6.25 kHz</entry>
+                     <entry>15,000 samples over 2.4 seconds.</entry>
+                     <entry>waveform, FFT</entry>
+                     <entry>Float</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </refbody>
+</reference>

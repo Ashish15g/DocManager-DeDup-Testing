@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="on_the_sms_web_application_9" xml:lang="en-us">
+   <title>On the SMS web application</title>
+   <shortdesc>To create a report:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>report</keyword>
+        <keyword>application</keyword>
+        <keyword>Reports</keyword>
+        <keyword>displayed</keyword>
+        <keyword>Click</keyword>
+        <keyword>CREATE</keyword>
+        <indexterm>report</indexterm>
+        <indexterm>application</indexterm>
+        <indexterm>Reports</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>To create a report:</p>
+      </context>
+      <steps id="steps_10314192">
+         <step>
+            <cmd>Log in to the SMS web application.</cmd>
+         </step>
+         <step>
+            <cmd>On the top navigation menu, click Reports.</cmd>
+            <info>
+               <p>The <b>Reports</b> page is displayed with a list of previously generated reports.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click CREATE REPORT on the top right of the page.</cmd>
+            <info>
+               <p>The <b>Create report</b> window is displayed.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter a name for the report.</cmd>
+            <info>
+               <fig>
+                  <title>Create report window</title>
+                  <image height="318" href="../media/image69.png" placement="break" width="315">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Choose the day when you want to receive the report from the Schedule drop-down list.</cmd>
+            <info>
+               <note type="note">Note: You can select one or more days from the list. The report will be sent at 8 AM GMT on the selected day every week.</note>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the motor’s location, plant, and process from the respective fields.</cmd>
+         </step>
+         <step>
+            <cmd>Select a specific motor or select All motors from the Motor drop-down list if you want to generate a report about all motors belonging to a process.</cmd>
+         </step>
+         <step>
+            <cmd>Click CREATE REPORT.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The new report will be added to the list on the Reports page.</p>
+         <note type="note">Note: You will not be able to view the report until the selected day of the report.</note>
+      </result>
+   </taskbody>
+</task>

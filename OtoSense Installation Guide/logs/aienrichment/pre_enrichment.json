@@ -1,0 +1,605 @@
+{
+  "job_id": "2088a3c5-2133-4d9c-86fd-d65619899cbf",
+  "output_dir": "/app/Storage/2088a3c5-2133-4d9c-86fd-d65619899cbf/transformed output",
+  "run_at": "2026-08-19T10:20:18.913887+00:00",
+  "files_discovered": {
+    "dita_file_count": 52,
+    "dita_files": [
+      "getting_started/activate_sms_account.dita",
+      "getting_started/configure_firewall_ports.dita",
+      "getting_started/connect_mobile_device_to_an_existing_wi_fi_network.dita",
+      "getting_started/download.dita",
+      "getting_started/getting_started.dita",
+      "getting_started/keep_sms_shipment_box_handy.dita",
+      "getting_started/prepare_a_mobile_device.dita",
+      "getting_started/read_and_fill_motor_information_form.dita",
+      "getting_started/validate_wi_fi_network.dita",
+      "getting_started/verify_network_requirements.dita",
+      "getting_started/verify_wi_fi_network_configuration.dita",
+      "getting_started/whitelist_domains.dita",
+      "installation/add_a_motor_to_an_unpaired.dita",
+      "installation/assign_a_location_plant_and_process.dita",
+      "installation/commission_sms_using_the.dita",
+      "installation/commission_the.dita",
+      "installation/enter_motor_details.dita",
+      "installation/install_on_a_motor.dita",
+      "installation/install_sms_device_to_a_motor_without_cooling_ribs.dita",
+      "installation/install_to_a_motor_with_cooling_ribs.dita",
+      "installation/installation.dita",
+      "installation/installation_dos_and_don_ts.dita",
+      "installation/unboxing_sms_shipment_box.dita",
+      "intended_audience/intended_audience.dita",
+      "introduction/benefits.dita",
+      "introduction/how_does_sms_device_work.dita",
+      "introduction/introduction.dita",
+      "introduction/motor_compatibility.dita",
+      "maintenance/maintenance.dita",
+      "maintenance/repairing_or_replacing_a_motor.dita",
+      "maintenance/replacing_the_batteries.dita",
+      "post_installation/post_installation.dita",
+      "reference/certifications_and_regulatory.dita",
+      "reference/check_point_firewall.dita",
+      "reference/contact_information.dita",
+      "reference/correspondence_between_iec_and_nema_frames.dita",
+      "reference/eu_statement.dita",
+      "reference/examples_of_routers_with_recommended_features.dita",
+      "reference/federal_communication_commission_interference_statement.dita",
+      "reference/firewall_support_for_aws_ip_ranges.dita",
+      "reference/how_to_read_a_motor_plate.dita",
+      "reference/industry_canada_statement.dita",
+      "reference/motor_information_form.dita",
+      "reference/palo_alto_firewall.dita",
+      "reference/recommendations_to_purchase_a_router.dita",
+      "reference/recommended_features.dita",
+      "reference/reference.dita",
+      "reference/routers.dita",
+      "reference/sim_cards_and_data_plans.dita",
+      "reference/tutorial_videos.dita",
+      "troubleshooting/troubleshooting.dita",
+      "troubleshooting/unable_to_commission_within_5_minutes.dita"
+    ],
+    "ditamap_file_count": 9,
+    "ditamap_files": [
+      "getting_started_map.ditamap",
+      "installation_map.ditamap",
+      "intended_audience_map.ditamap",
+      "introduction_map.ditamap",
+      "maintenance_map.ditamap",
+      "otosense_installation_guide.ditamap",
+      "post_installation_map.ditamap",
+      "reference_map.ditamap",
+      "troubleshooting_map.ditamap"
+    ]
+  },
+  "document_context": {
+    "prodname": "",
+    "equipment_name": "",
+    "task_type": "installation guide",
+    "document_keywords": [
+      "installation guide"
+    ],
+    "extraction_method": "heuristic"
+  },
+  "structural_issues": [
+    {
+      "severity": "WARNING",
+      "category": "broken_xref",
+      "file": "reference/contact_information.dita",
+      "message": "<xref href=\"mailto:Support.PdM.Otosense@analog.com\"> \u2014 target file 'mailto:Support.PdM.Otosense@analog.com' does not exist on disk"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "troubleshooting/troubleshooting.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "troubleshooting/unable_to_commission_within_5_minutes.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "introduction/how_does_sms_device_work.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "introduction/motor_compatibility.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "introduction/introduction.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "introduction/benefits.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "installation/commission_the.dita",
+      "message": "step 7 has an empty <cmd> element",
+      "line": 55
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "installation/commission_the.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "installation/install_to_a_motor_with_cooling_ribs.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "installation/install_on_a_motor.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "installation/unboxing_sms_shipment_box.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "installation/installation_dos_and_don_ts.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "installation/install_sms_device_to_a_motor_without_cooling_ribs.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "installation/commission_sms_using_the.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "installation/add_a_motor_to_an_unpaired.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "installation/enter_motor_details.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 78
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "installation/enter_motor_details.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "installation/assign_a_location_plant_and_process.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "installation/installation.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "maintenance/maintenance.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "maintenance/repairing_or_replacing_a_motor.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "maintenance/replacing_the_batteries.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "post_installation/post_installation.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/examples_of_routers_with_recommended_features.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/sim_cards_and_data_plans.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/tutorial_videos.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/recommendations_to_purchase_a_router.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/federal_communication_commission_interference_statement.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/recommended_features.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/routers.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "reference/routers.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/palo_alto_firewall.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/certifications_and_regulatory.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "reference/certifications_and_regulatory.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "reference/motor_information_form.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "reference/motor_information_form.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 9
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/motor_information_form.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/eu_statement.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "reference/correspondence_between_iec_and_nema_frames.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "reference/correspondence_between_iec_and_nema_frames.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 7
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/correspondence_between_iec_and_nema_frames.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/how_to_read_a_motor_plate.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/reference.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/check_point_firewall.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/contact_information.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/industry_canada_statement.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "intended_audience/intended_audience.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "getting_started/validate_wi_fi_network.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "getting_started/verify_network_requirements.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "getting_started/configure_firewall_ports.dita",
+      "message": "step 1 has an empty <cmd> element",
+      "line": 13
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "getting_started/configure_firewall_ports.dita",
+      "message": "step 2 has an empty <cmd> element",
+      "line": 28
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "getting_started/configure_firewall_ports.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "getting_started/getting_started.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "getting_started/keep_sms_shipment_box_handy.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "getting_started/verify_wi_fi_network_configuration.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "getting_started/connect_mobile_device_to_an_existing_wi_fi_network.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "getting_started/whitelist_domains.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "getting_started/download.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 15
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "getting_started/download.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "getting_started/read_and_fill_motor_information_form.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "getting_started/activate_sms_account.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "getting_started/prepare_a_mobile_device.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    }
+  ],
+  "summary": {
+    "dita_file_count": 52,
+    "missing_count": 0,
+    "broken_xml_count": 0,
+    "empty_count": 0,
+    "ditamap_broken_ref_count": 0,
+    "broken_mapref_count": 0,
+    "orphan_file_count": 0,
+    "duplicate_id_count": 0,
+    "broken_xref_count": 1,
+    "filename_space_count": 0,
+    "severity_counts": {
+      "CRITICAL": 0,
+      "WARNING": 64,
+      "INFO": 0
+    },
+    "category_counts": {
+      "broken_xref": 1,
+      "missing_shortdesc": 52,
+      "step_empty_cmd": 3,
+      "table_missing_title": 4,
+      "empty_p": 2,
+      "section_missing_title": 2
+    }
+  },
+  "zone1_auto_fixes": {
+    "fixed": [],
+    "errors": [],
+    "summary": {
+      "fixed_count": 0,
+      "error_count": 0
+    }
+  },
+  "backend_dtd_errors": {
+    "source": "backend core _report.txt",
+    "errors_by_file": {},
+    "file_count_with_errors": 0
+  },
+  "validation": {
+    "status": "completed",
+    "total_violations": 7,
+    "files_with_violations": 6,
+    "violations_by_severity": {
+      "error": 1,
+      "warning": 6
+    },
+    "violations_by_gate": {
+      "gate1": 0,
+      "gate2": 7,
+      "gate3": 0,
+      "gate4": 0
+    },
+    "details": [
+      {
+        "file": "getting_started/validate_wi_fi_network.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "introduction/how_does_sms_device_work.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "maintenance/repairing_or_replacing_a_motor.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "maintenance/replacing_the_batteries.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "maintenance/replacing_the_batteries.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "ERROR: 7 consecutive <p> elements found more than 5 . These should be converted into a <ul>/<li> structure. First <p>: \"This section describes the procedure for replacing the batteries of an .\"",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "reference/federal_communication_commission_interference_statement.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      }
+    ]
+  }
+}

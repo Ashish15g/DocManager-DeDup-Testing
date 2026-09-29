@@ -1,0 +1,2776 @@
+{
+  "Sample Sensor Status Filter": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Skipped \u2014 topic body has no text content; classification unreliable",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.601,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "Sample",
+        "Sensor",
+        "Status",
+        "Filter"
+      ],
+      "compact_excerpt": "Sample Sensor Status Filter"
+    },
+    "classified_at": 1787137353.4076653
+  },
+  "Sample Subject Filters": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Skipped \u2014 topic body has no text content; classification unreliable",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.607,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 3
+      },
+      "context_frame": "mixed",
+      "keyword_set": [
+        "Sample",
+        "Subject",
+        "Filters"
+      ],
+      "compact_excerpt": "Sample Subject Filters"
+    },
+    "classified_at": 1787137353.408791
+  },
+  "Authentication": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.006,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 5,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 68
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "API",
+        "Authentication",
+        "authentication",
+        "OAuth",
+        "machine",
+        "least",
+        "users",
+        "section",
+        "describes",
+        "process",
+        "client",
+        "credentials"
+      ],
+      "compact_excerpt": "Authentication This section describes the API authentication process. OAuth 2.0 client credentials allow connection with the ADI OtoSense\u2122 SMS REST API, created for machine-to-machine authentication. OAuth authentication requires the following steps: Create a Client API Key . Generate a Token . Make Authenticated Requests . Note: Analog Devices recommends a least-privileged approach to API users. "
+    },
+    "classified_at": 1787137353.7990913
+  },
+  "Base URL": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.012,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 7,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 56
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "URL",
+        "API",
+        "Base",
+        "base",
+        "REST",
+        "defines",
+        "initial",
+        "point",
+        "accessing",
+        "basic",
+        "element",
+        "endpoint"
+      ],
+      "compact_excerpt": "Base URL The base URL defines the initial point for accessing the API. It is a basic element of a REST API endpoint. URL https://api adi.otosensesms.com/ NOTE: REST calls for SMS device server API and ADI Otosense\u2122 cloud API have different base paths. For more information, see the Rest API Endpoints in the Developer Commissioning Guide,"
+    },
+    "classified_at": 1787137353.8129113
+  },
+  "Create a Client API Key": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.025,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 4,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 5,
+        "imperative_sentence_ratio": 0.111,
+        "avg_paragraph_length_words": 137
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Client",
+        "API",
+        "Create",
+        "them",
+        "Key",
+        "ID",
+        "Secret",
+        "client",
+        "create",
+        "ADI",
+        "OtoSense",
+        "SMS"
+      ],
+      "compact_excerpt": "Create a Client API Key This section describes the process of creating a client API key. To create a client: Create an API key in the ADI OtoSense\u2122 SMS web application. Note: This is a one-time operation. To create an API key, you must be an administrator of your ADI OtoSense\u2122 SMS tenant. You will be provided with a Client ID and a Client Secret . Record the Client ID and Client Secret , as it wil"
+    },
+    "classified_at": 1787137353.8215833
+  },
+  "Best Practices": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.018,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 8,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 34
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Best",
+        "Practices",
+        "API",
+        "Endpoint",
+        "IoT",
+        "Store",
+        "securely",
+        "They",
+        "sensitive",
+        "data",
+        "Avoid",
+        "directly"
+      ],
+      "compact_excerpt": "Best Practices Store the API key, the IoT Endpoint, and the API Endpoint securely. They are sensitive data. Avoid directly inserting the API key, the IoT Endpoint, or the API Endpoint within your code."
+    },
+    "classified_at": 1787137353.8291638
+  },
+  "Access the API": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.0,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 7,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 83
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "API",
+        "Access",
+        "keys",
+        "more",
+        "information",
+        "REST",
+        "ADI",
+        "OtoSense",
+        "SMS",
+        "Requirements",
+        "Developer",
+        "Commissioning"
+      ],
+      "compact_excerpt": "Access the API This section describes the process of accessing the REST API. Only the admin can generate the API keys and endpoint. To access the REST API: Create an ADI OtoSense\u2122 SMS account. For more information, see the SMS Account Requirements in the Developer Commissioning Guide. Check the Wi-Fi configuration. For more information, see Network Requirements in the ADI OtoSense\u2122 Installation gu"
+    },
+    "classified_at": 1787137353.8445804
+  },
+  "": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.092,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 155
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "token",
+        "window",
+        "time",
+        "string",
+        "quota",
+        "which",
+        "Type",
+        "seconds",
+        "Bearer",
+        "service",
+        "granted",
+        "access"
+      ],
+      "compact_excerpt": "Success Response Code: 200 OK Headers: Header Type Description XRateLimitLimit string Request limit details in the following form: {quota};window={time-window}. quota: the request quota. time-window: the quota time window in seconds. XRateLimitRemaining integer The number of requests left for the time window. XRateLimitReset integer The time in seconds from now, at which point the current rate lim"
+    },
+    "classified_at": 1787137354.7840178
+  },
+  "Generate a Token": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.043,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 9,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 141
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Token",
+        "API",
+        "Generate",
+        "token",
+        "Client",
+        "call",
+        "bearer",
+        "Get",
+        "Bearer",
+        "make",
+        "You",
+        "method"
+      ],
+      "compact_excerpt": "Generate a Token This section describes the process of generating a token. After creating a key, you must make an API call to obtain a bearer token to access the OtoSense\u2122 APIs. You can make the API call using the Get Bearer Token method. This method requires the following parameters: Parameter Description client_id The Client ID was displayed when you created the API key in the previous step. For"
+    },
+    "classified_at": 1787137354.1461308
+  },
+  "Make Authenticated Requests": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.055,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 27
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Make",
+        "Authenticated",
+        "Requests",
+        "section",
+        "describes",
+        "process",
+        "making",
+        "authentication",
+        "request",
+        "authenticate",
+        "subsequent",
+        "API"
+      ],
+      "compact_excerpt": "Make Authenticated Requests This section describes the process of making an authentication request. To authenticate subsequent API requests, provide a valid bearer token in an HTTP header."
+    },
+    "classified_at": 1787137354.1515322
+  },
+  "OAuth": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.061,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 58
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "OAuth",
+        "token",
+        "OtoSense",
+        "SMS",
+        "API",
+        "flow",
+        "credentials",
+        "REST",
+        "implements",
+        "Client",
+        "Credential",
+        "high"
+      ],
+      "compact_excerpt": "OAuth The OtoSense\u2122 SMS REST API implements the OAuth Client Credential flow At a high level, the flow has two steps: Your application passes its client credentials in a token request. OtoSense\u2122 SMS device responds with a bearer token if the credentials are accurate. The API response also provides the time left (in seconds) until the token expires."
+    },
+    "classified_at": 1787137354.4327571
+  },
+  "Sample Code": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.08,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 5
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Sample",
+        "Code",
+        "Authorization",
+        "Bearer",
+        "XBlIjoiYXN",
+        "OTMMtNDdiNDUxZGI",
+        "Py",
+        "JNjUM",
+        "Tss",
+        "CEy",
+        "GTKP",
+        "SN"
+      ],
+      "compact_excerpt": "Sample Code Authorization: Bearer {eyJ0eXBlIjoiYXN0In0=.OTMMtNDdiNDUxZGI2.Py6iJNjUM36tTss3CEy2S.GTKP/9j7SN5893Kduy2lYch4B/c=.MjAyMDBa}"
+    },
+    "classified_at": 1787137354.454146
+  },
+  "Sample Paths of REST API Calls": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.086,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 13,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 97
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "https",
+        "otosensesms",
+        "JSON",
+        "API",
+        "Id",
+        "REST",
+        "POST",
+        "Sample",
+        "Paths",
+        "Calls",
+        "Get",
+        "Motor"
+      ],
+      "compact_excerpt": "Sample Paths of REST API Calls This section displays the description, paths, HTTP method, and format of REST calls made to the SMS Cloud API. Description Path Method Format Get a Bearer Token https://api adi.otosensesms.com/oauth/token POST JSON Get Data https://api adi.otosensesms.com/data/{motorId}/{dataset} GET JSON Create a Motor https://api adi.otosensesms.com/motors POST JSON Get a Motor htt"
+    },
+    "classified_at": 1787137354.6505723
+  },
+  "API Endpoints": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.11,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 7,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 107
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "JSON",
+        "Motor",
+        "Get",
+        "GET",
+        "Id",
+        "POST",
+        "Sensor",
+        "API",
+        "Endpoints",
+        "motors",
+        "DELETE",
+        "sensors"
+      ],
+      "compact_excerpt": "API Endpoints The ADI OtoSense\u2122 REST APIs include the following endpoints that perform specific functions: Description Method Path Format Get a Bearer Token POST /oauth/token JSON Get Data GET /data/{motorId}/{dataset} JSON Create a Motor POST /motors JSON Get all Motors GET JSON Get a Motor GET /motors/{motorId} JSON Update a Motor PUT JSON Delete a Motor DELETE JSON Attach a Motor Sensor POST /m"
+    },
+    "classified_at": 1787137354.7605338
+  },
+  "Syntax": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.098,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 4
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Syntax",
+        "Authorization",
+        "Bearer"
+      ],
+      "compact_excerpt": "Syntax Authorization: Bearer {bearer_token}"
+    },
+    "classified_at": 1787137354.793306
+  },
+  "Attach a Motor Sensor": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.117,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Attach",
+        "Motor",
+        "Sensor",
+        "method",
+        "attaches",
+        "sensor",
+        "specified",
+        "motor"
+      ],
+      "compact_excerpt": "Attach a Motor Sensor This method attaches a sensor to the specified motor."
+    },
+    "classified_at": 1787137354.9369116
+  },
+  "Create a Motor": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.141,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.5,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Create",
+        "Motor",
+        "method",
+        "creates",
+        "motor",
+        "entity"
+      ],
+      "compact_excerpt": "Create a Motor This method creates a motor entity."
+    },
+    "classified_at": 1787137355.0771544
+  },
+  "Attached": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.123,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 10
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Attached",
+        "status",
+        "indicates",
+        "SMS",
+        "device",
+        "attached"
+      ],
+      "compact_excerpt": "Attached This status indicates that the SMS device is attached."
+    },
+    "classified_at": 1787137355.0923066
+  },
+  "Conditions": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.135,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Conditions",
+        "dataset",
+        "includes",
+        "data",
+        "gathered",
+        "about",
+        "overall",
+        "condition",
+        "motor"
+      ],
+      "compact_excerpt": "Conditions This dataset includes data gathered about the overall condition of the motor."
+    },
+    "classified_at": 1787137355.0987232
+  },
+  "Comment": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.129,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 11
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Comment",
+        "subject",
+        "includes",
+        "general",
+        "comment",
+        "motor"
+      ],
+      "compact_excerpt": "Comment This subject includes a general comment to the motor log."
+    },
+    "classified_at": 1787137355.148062
+  },
+  "Create a Motor Log Entry": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.147,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.5,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Create",
+        "Motor",
+        "Log",
+        "Entry",
+        "method",
+        "creates",
+        "motor",
+        "entry"
+      ],
+      "compact_excerpt": "Create a Motor Log Entry This method creates a new motor log entry."
+    },
+    "classified_at": 1787137355.2254033
+  },
+  "Data": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.153,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 51
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Data",
+        "data",
+        "ADI",
+        "OtoSense",
+        "SMS",
+        "datasets",
+        "dataset",
+        "system",
+        "includes",
+        "motor",
+        "Datasets",
+        "filtered"
+      ],
+      "compact_excerpt": "Data ADI OtoSense\u2122 SMS system data includes motor data and datasets. Datasets can be filtered using a date range. Depending on the dataset, the returned data elements contain: an array of discrete values or a map of dataset properties. Note: For more details on datasets, see ADI OtoSense\u2122 SMS analytics documentation."
+    },
+    "classified_at": 1787137355.3779259
+  },
+  "Deprovision a Sensor": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.166,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Deprovision",
+        "Sensor",
+        "method",
+        "gets",
+        "specified",
+        "sensor"
+      ],
+      "compact_excerpt": "Deprovision a Sensor This method gets the specified sensor."
+    },
+    "classified_at": 1787137355.3887122
+  },
+  "Delete a Motor": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.16,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.5,
+        "avg_paragraph_length_words": 10
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Delete",
+        "Motor",
+        "method",
+        "removes",
+        "specified",
+        "motor",
+        "record"
+      ],
+      "compact_excerpt": "Delete a Motor This method removes the specified motor record."
+    },
+    "classified_at": 1787137355.3980322
+  },
+  "Detach a Motor Sensor": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.172,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Detach",
+        "Motor",
+        "Sensor",
+        "method",
+        "removes",
+        "sensor",
+        "specified",
+        "motor"
+      ],
+      "compact_excerpt": "Detach a Motor Sensor This method removes the sensor from the specified motor."
+    },
+    "classified_at": 1787137355.437888
+  },
+  "Endpoint": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.252,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 8
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Endpoint",
+        "Id",
+        "POST",
+        "motors",
+        "sensors"
+      ],
+      "compact_excerpt": "Endpoint POST /motors/{ motorId } /sensors/{ sensorId }"
+    },
+    "classified_at": 1787137356.3216436
+  },
+  "Error Response": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.344,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 53
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Error",
+        "Response",
+        "Type",
+        "Header",
+        "Code",
+        "Description",
+        "Schema",
+        "message",
+        "string",
+        "Codes",
+        "Retry",
+        "After"
+      ],
+      "compact_excerpt": "Error Response Error Codes: 401, 402, 403, 404, 429 Header (Code 429): Header Type Description Retry-After integer The time in seconds to wait before attempting to send another request. Content-Type: application/json Schema: Schema Type Description Required message string A description and/or reason for the error. Yes Sample Error Code: { \"message\": \"string\" }"
+    },
+    "classified_at": 1787137357.1713934
+  },
+  "Get a Motor": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.35,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 10
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Get",
+        "Motor",
+        "method",
+        "fetches",
+        "specified",
+        "motor",
+        "record"
+      ],
+      "compact_excerpt": "Get a Motor This method fetches the specified motor record."
+    },
+    "classified_at": 1787137357.1915917
+  },
+  "Get a Motor Log": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.356,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Get",
+        "Motor",
+        "Log",
+        "method",
+        "fetches",
+        "specified",
+        "motor"
+      ],
+      "compact_excerpt": "Get a Motor Log This method fetches the log for the specified motor."
+    },
+    "classified_at": 1787137357.2053115
+  },
+  "Get a Sensor": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.362,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 9
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Get",
+        "Sensor",
+        "method",
+        "gets",
+        "specified",
+        "sensor"
+      ],
+      "compact_excerpt": "Get a Sensor This method gets the specified sensor."
+    },
+    "classified_at": 1787137357.2231903
+  },
+  "Get all Motors": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.368,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 14
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Get",
+        "Motors",
+        "method",
+        "fetches",
+        "list",
+        "motors",
+        "tenant"
+      ],
+      "compact_excerpt": "Get all Motors This method fetches the list of all motors for this tenant."
+    },
+    "classified_at": 1787137357.381577
+  },
+  "Get all Sensors": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.374,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 11
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Get",
+        "Sensors",
+        "method",
+        "lists",
+        "sensors",
+        "tenant"
+      ],
+      "compact_excerpt": "Get all Sensors This method lists all sensors for the tenant."
+    },
+    "classified_at": 1787137357.4512544
+  },
+  "Get Data": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.38,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 15
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Get",
+        "Data",
+        "method",
+        "fetches",
+        "motor",
+        "data",
+        "endpoint",
+        "only",
+        "uses",
+        "GET"
+      ],
+      "compact_excerpt": "Get Data This method fetches the motor data. This endpoint only uses the GET method."
+    },
+    "classified_at": 1787137357.4755802
+  },
+  "Motor Tags": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.387,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 63
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Tags",
+        "Motor",
+        "They",
+        "used",
+        "hierarchy",
+        "tags",
+        "free",
+        "form",
+        "string",
+        "value",
+        "pair",
+        "collection"
+      ],
+      "compact_excerpt": "Motor Tags Motor tags are a free-form string key/value pair collection. They have the following characteristics: Tags can be used to categorize motors. Tags can have an implicit hierarchy. The hierarchy can be used to group by categories and to generate a report or front-end display. Tags are purely an organizational feature. They have no bearing on the motor analytics or data capture."
+    },
+    "classified_at": 1787137357.4887304
+  },
+  "Motors": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.393,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 56
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Motors",
+        "motor",
+        "SMS",
+        "accuracy",
+        "entity",
+        "critical",
+        "input",
+        "ADI",
+        "OtoSense",
+        "analytical",
+        "engine",
+        "encapsulates"
+      ],
+      "compact_excerpt": "Motors The motor entity is a critical input for the ADI OtoSense\u2122 SMS analytical engine. It encapsulates the physical motor monitored by the SMS device. Motor attributes should be detailed completely because the accuracy of this information directly correlates to the accuracy of the prediction results. This endpoint uses the following methods: POST GET PUT DELETE"
+    },
+    "classified_at": 1787137357.5383132
+  },
+  "Operations": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.399,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Operations",
+        "dataset",
+        "includes",
+        "data",
+        "gathered",
+        "about",
+        "overall",
+        "operations",
+        "motor"
+      ],
+      "compact_excerpt": "Operations This dataset includes data gathered about the overall operations of the motor."
+    },
+    "classified_at": 1787137357.652573
+  },
+  "Parameters": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.534,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 5,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 178
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Parameters",
+        "request",
+        "header",
+        "API",
+        "path",
+        "parameters",
+        "string",
+        "Yes",
+        "responses",
+        "KB",
+        "bearer",
+        "token"
+      ],
+      "compact_excerpt": "Parameters This API request includes the following path and header parameters. Path Parameters: The path parameters of the request URL path act as a placeholder for the motor ID value. Parameter Type Description Required motorId string The unique ID assigned to a motor can be found in the get all motors response. Yes Header Parameters: The header parameters provide instructions to the API on handl"
+    },
+    "classified_at": 1787137358.9923577
+  },
+  "Performance": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.54,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Performance",
+        "dataset",
+        "includes",
+        "data",
+        "gathered",
+        "about",
+        "overall",
+        "performance",
+        "motor"
+      ],
+      "compact_excerpt": "Performance This dataset includes data gathered about the overall performance of the motor."
+    },
+    "classified_at": 1787137359.0089893
+  },
+  "Provision a Sensor": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.546,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 13
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "Provision",
+        "Sensor",
+        "method",
+        "registers",
+        "claims",
+        "sensor",
+        "your",
+        "tenant"
+      ],
+      "compact_excerpt": "Provision a Sensor This method registers and claims a sensor for your tenant."
+    },
+    "classified_at": 1787137359.0230403
+  },
+  "Repair": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.552,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 16
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Repair",
+        "subject",
+        "includes",
+        "update",
+        "reflecting",
+        "motor",
+        "repaired"
+      ],
+      "compact_excerpt": "Repair This subject includes an update to the log reflecting that the motor has been repaired."
+    },
+    "classified_at": 1787137359.0588446
+  },
+  "Request": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.589,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 74
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Request",
+        "Type",
+        "Schema",
+        "tags",
+        "specified",
+        "cert",
+        "CERTIFICATE",
+        "Content",
+        "application",
+        "json",
+        "Note",
+        "update"
+      ],
+      "compact_excerpt": "Request Content-Type: application/json Schema: Note: The update request body can include one or both tags and attributes maps. However, if a tag map is specified, it will replace the existing tag map for this record. Thus, any tags not specified will be deleted, and all remaining tag values will be updated. Schema Key Type Description Required cert Certificate PEM for the sensor string Tag value S"
+    },
+    "classified_at": 1787137359.519326
+  },
+  "Success Response": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.755,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 10,
+        "concept_pattern_hits": 12,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 848
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "number",
+        "code",
+        "string",
+        "value",
+        "component",
+        "FSI",
+        "TODO",
+        "detail",
+        "motor",
+        "Motor",
+        "Object",
+        "Code"
+      ],
+      "compact_excerpt": "Success Response Code: 200 OK Headers: Header Type Description X-RateLimit-Limit string Request limit details in the following form: {quota};window={time-window}. quota: the request quota. time-window: the quota time window in seconds. X-RateLimit-Remaining integer The number of requests left for the time window. X-RateLimit-Reset integer The time in seconds from now at which point the current rat"
+    },
+    "classified_at": 1787137361.0570574
+  },
+  "Sample Dataset Filters": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.595,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 15
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Sample",
+        "Dataset",
+        "Filters",
+        "following",
+        "examples",
+        "display",
+        "request",
+        "response",
+        "sample",
+        "specific",
+        "datasets"
+      ],
+      "compact_excerpt": "Sample Dataset Filters The following examples display the request and response for sample specific datasets."
+    },
+    "classified_at": 1787137359.6629977
+  },
+  "Sensor Provisioning": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.614,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.222,
+        "avg_paragraph_length_words": 88
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "sensor",
+        "Sensor",
+        "Provisioning",
+        "provisioned",
+        "configuration",
+        "using",
+        "API",
+        "service",
+        "connection",
+        "OtoSense",
+        "request",
+        "motor"
+      ],
+      "compact_excerpt": "Sensor Provisioning Sensors are provisioned through the configuration steps. However, once sensor is provisioned, then you can perform the following operations using Sensor API endpoints. Retrieve the sensor identity certificate. Update the sensor data service endpoint. Disconnect from the ad-hoc connection and reestablish the connection with the primary OtoSense\u2122 REST API service. Register the se"
+    },
+    "classified_at": 1787137359.6788797
+  },
+  "Sensors": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.62,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 68
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Sensors",
+        "ADI",
+        "OtoSense",
+        "SMS",
+        "send",
+        "monitor",
+        "motor",
+        "sensor",
+        "entity",
+        "critical",
+        "input",
+        "system"
+      ],
+      "compact_excerpt": "Sensors The sensor entity is a critical input for the ADI OtoSense\u2122 SMS system. Sensors have the following characteristics: Sensors measure real-world phenomena and send these readings to the ADI OtoSense\u2122 SMS platform for analysis. Sensors are attached to motors and monitor the motor for anomalies, including fault detection. Sensors must be provisioned before they can monitor a motor and send dat"
+    },
+    "classified_at": 1787137359.8549054
+  },
+  "Update a Motor": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.767,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.5,
+        "avg_paragraph_length_words": 10
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "Update",
+        "Motor",
+        "method",
+        "updates",
+        "specified",
+        "motor",
+        "record"
+      ],
+      "compact_excerpt": "Update a Motor This method updates the specified motor record."
+    },
+    "classified_at": 1787137361.2129753
+  },
+  "Unattached": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.761,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 11
+      },
+      "context_frame": "introductory",
+      "keyword_set": [
+        "Unattached",
+        "status",
+        "indicates",
+        "SMS",
+        "device",
+        "attached"
+      ],
+      "compact_excerpt": "Unattached This status indicates that the SMS device is not attached."
+    },
+    "classified_at": 1787137361.2252345
+  },
+  "URL": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.853,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 2,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 2
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "URL",
+        "Id",
+        "https",
+        "your",
+        "endpoint",
+        "otosensesms",
+        "motors",
+        "sensors"
+      ],
+      "compact_excerpt": "URL https://your-api-endpoint.otosensesms.com/motors/{motorId}/sensors/{sensorId}"
+    },
+    "classified_at": 1787137362.1151562
+  },
+  "Vibx Data Query": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.859,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 17
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Vibx",
+        "Data",
+        "Query",
+        "dataset",
+        "includes",
+        "data",
+        "gathered",
+        "vibration",
+        "axis",
+        "sensor",
+        "SMS",
+        "device"
+      ],
+      "compact_excerpt": "Vibx Data Query This dataset includes data gathered from the vibration X-axis sensor on the SMS device."
+    },
+    "classified_at": 1787137362.0991461
+  },
+  "Audience": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.865,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 45
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Audience",
+        "guide",
+        "users",
+        "intended",
+        "following",
+        "interested",
+        "ADI",
+        "OtoSense",
+        "REST",
+        "APIs",
+        "chief",
+        "technical"
+      ],
+      "compact_excerpt": "Audience This guide is intended for the following users interested in the ADI OtoSense\u2122 REST APIs: chief technical officers, product managers, web developers, and software engineers. This guide provides information and samples for users to help them understand API authentication, requests, responses, and sample code."
+    },
+    "classified_at": 1787137362.1588888
+  },
+  "Error Handling": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.871,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 61
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Error",
+        "Handling",
+        "error",
+        "API",
+        "HTTP",
+        "section",
+        "describes",
+        "process",
+        "handling",
+        "request",
+        "ADI",
+        "OtoSense"
+      ],
+      "compact_excerpt": "Error Handling This section describes the process of error handling. If a request to ADI OtoSense\u2122 SMS REST API fails, the response will contain: An HTTP status code A JSON object containing a short error message. The API endpoint includes further details on the error and possible reasons and solutions. For more information on error codes, see HTTP Error Response Codes."
+    },
+    "classified_at": 1787137362.205438
+  },
+  "HTTP Error Response Codes": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.877,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 38
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "HTTP",
+        "Error",
+        "Response",
+        "Codes",
+        "Code",
+        "Description",
+        "Invalid",
+        "request",
+        "subject",
+        "malformed",
+        "specify",
+        "legal"
+      ],
+      "compact_excerpt": "HTTP Error Response Codes Code Description 400 Invalid request, the subject is malformed or does not specify a legal value. 401 Unauthorized 402 Payment Required 403 Forbidden 404 The specified resource was not found 429 Too many requests"
+    },
+    "classified_at": 1787137362.22036
+  },
+  "Access SMS mobile application": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.883,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 164
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "SMS",
+        "mobile",
+        "Access",
+        "OS",
+        "application",
+        "Android",
+        "QR",
+        "code",
+        "placeholder",
+        "tablet",
+        "later",
+        "your"
+      ],
+      "compact_excerpt": "Access SMS mobile application To access the SMS mobile application, you can use a smartphone or a tablet with an Android or iOS operating system. Note : You cannot use a Windows tablet. The following OS versions are compatible with the SMS mobile app: Android: OS6.0 or later iOS13 or later To download the SMS mobile app: Scan the respective QR code from your mobile phone\u2019s camera. Figure 1: QR cod"
+    },
+    "classified_at": 1787137362.3802905
+  },
+  "API Database": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.89,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 3,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 8,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 164
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "motor",
+        "API",
+        "sensor",
+        "Database",
+        "Information",
+        "Vibration",
+        "monitored",
+        "using",
+        "field",
+        "temperature",
+        "OtoSense",
+        "predictive"
+      ],
+      "compact_excerpt": "API Database The proprietary ADI OtoSense\u2122 predictive maintenance analytics uses the API database to update the user on key motor performance metrics. These include the power system, stator winding, rotor, motor shaft or balance, eccentricity, bearing, alignment, cooling system, loose foot, and overall motor performance. The REST APIs for the OtoSense\u2122 SMS device provide seamless integration with "
+    },
+    "classified_at": 1787137362.4041672
+  },
+  "API Standards": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.896,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 5,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 47
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "API",
+        "Standards",
+        "OpenAPI",
+        "OAuth",
+        "ADI",
+        "OtoSense",
+        "REST",
+        "APIs",
+        "adhere",
+        "authentication",
+        "method",
+        "standards"
+      ],
+      "compact_excerpt": "API Standards The ADI OtoSense\u2122 REST APIs adhere to OpenAPI with OAuth2.0 authentication method standards for secure and efficient data exchange. The OpenAPI specifications can be downloaded from https://adi.otosensesms.com/api-reference by clicking the Download button. For more information on the Open Authorization API endpoint, see the OAuth section."
+    },
+    "classified_at": 1787137362.4406183
+  },
+  "Application Integration": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.902,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 64
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Application",
+        "Integration",
+        "mobile",
+        "application",
+        "Web",
+        "Dashboard",
+        "Provides",
+        "motor",
+        "attributes",
+        "alerts",
+        "Mobile",
+        "APIs"
+      ],
+      "compact_excerpt": "Application Integration The APIs are integrated with the web and mobile application dashboard: Web Application Dashboard : Provides a real-time visualization of motor attributes and alerts. Mobile Application Dashboard : Provides portable access to motor attributes and alerts, empowering field engineers to make informed decisions swiftly. See the Web and Mobile Application User Guide for more info"
+    },
+    "classified_at": 1787137362.4946122
+  },
+  "Benefits": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.908,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 148
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "SMS",
+        "device",
+        "Benefits",
+        "data",
+        "motor",
+        "benefits",
+        "using",
+        "insights",
+        "components",
+        "maintenance",
+        "section",
+        "describes"
+      ],
+      "compact_excerpt": "Benefits This section describes the benefits of using an SMS Device. The SMS device translates the collected data into actionable insights. Here are some of the benefits of using the SMS device: Non-intrusive Installation : The SMS device can be attached to active motors, ensuring continuous operation. Enhanced Plant Efficiency : The SMS device monitors the health of a motor\u2019s components and sends"
+    },
+    "classified_at": 1787137362.5090117
+  },
+  "How does SMS device work?": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.914,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 151
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "SMS",
+        "device",
+        "motor",
+        "How",
+        "software",
+        "following",
+        "ADI",
+        "OtoSense",
+        "Server",
+        "begins",
+        "data",
+        "system"
+      ],
+      "compact_excerpt": "How does SMS device work? This section describes the functionality of an SMS device. The hardware and software solution consists of the following components: The SMS device Expert health monitoring software hosted on the ADI OtoSense\u2122 Server Mobile and web applications that allow customers to monitor the status of motors fitted with an SMS device After an SMS device is configured and installed on "
+    },
+    "classified_at": 1787137362.665565
+  },
+  "Introduction": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.92,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 2,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 81
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "motor",
+        "Introduction",
+        "health",
+        "based",
+        "provide",
+        "issues",
+        "overall",
+        "performance",
+        "ADI",
+        "OtoSense",
+        "Smart",
+        "Motor"
+      ],
+      "compact_excerpt": "Introduction The ADI OtoSense\u2122 Smart Motor Sensor (SMS) performs predictive maintenance on low-voltage 3-phase induction motors. It is a complete, easy-to-setup hardware and software solution that uses advanced sensors and AI-based data analysis to: provide round-the-clock condition-based monitoring of motor\u2019s health (monitor motor health and provide fault notifications) deliver electrical, mechan"
+    },
+    "classified_at": 1787137362.6884952
+  },
+  "Key Features": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.926,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 60
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Key",
+        "Features",
+        "SMS",
+        "Access",
+        "Motor",
+        "Retrieve",
+        "motor",
+        "You",
+        "OtoSense",
+        "REST",
+        "APIs",
+        "Provision"
+      ],
+      "compact_excerpt": "Key Features You can use the OtoSense \u2122 SMS REST APIs to: Provision Motors : Facilitate the onboarding and setup of motors enhanced with SMS device. Access Motor Data Sets : Retrieve raw sensor data to gain analytical insight into the motor performance. Retrieve Motor Alerts : Access current and historical alert records to identify and resolve motor issues promptly."
+    },
+    "classified_at": 1787137362.7206979
+  },
+  "Overview": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.932,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 47
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Overview",
+        "ADI",
+        "OtoSense",
+        "SMS",
+        "APIs",
+        "server",
+        "REST",
+        "enable",
+        "secure",
+        "communication",
+        "between",
+        "device"
+      ],
+      "compact_excerpt": "Overview The ADI OtoSense\u2122 SMS REST APIs enable secure communication between the SMS device, the connected web server, and the web and mobile applications. The APIs interact with the ADI OtoSense\u2122 server and manage motor performance data. They deliver actionable insights to field engineers on the dashboard."
+    },
+    "classified_at": 1787137362.7735698
+  },
+  "Pagination": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.939,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 153
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Pagination",
+        "Id",
+        "paginated",
+        "results",
+        "GET",
+        "request",
+        "Token",
+        "response",
+        "body",
+        "following",
+        "continuation",
+        "token"
+      ],
+      "compact_excerpt": "Pagination This section describes the process of accessing paginated results. When using the GET methods to fetch resources, the payload can exceed the maximum size for a single request. In this case, the results will be paginated. To know if results are being paginated: Look for the continuationToken element in the response body. For example, the following sample response JSON body includes a con"
+    },
+    "classified_at": 1787137362.807084
+  },
+  "Data Type": {
+    "topic_type": "topic",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.945,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 33
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Data",
+        "Type",
+        "section",
+        "describes",
+        "data",
+        "type",
+        "recommendations",
+        "We",
+        "recommend",
+        "specifying",
+        "decimal",
+        "values"
+      ],
+      "compact_excerpt": "Data Type This section describes the data type recommendations. We recommend not specifying decimal values with quotation marks, commas, and spaces. Instead, use characters of +-0-9.eE, such as 5, 1.9, -8.469, and 7.7e2."
+    },
+    "classified_at": 1787137362.964945
+  },
+  "HTTP Methods": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.951,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 3,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 45
+      },
+      "context_frame": "reference",
+      "keyword_set": [
+        "HTTP",
+        "resource",
+        "Methods",
+        "individual",
+        "list",
+        "resources",
+        "section",
+        "describes",
+        "methods",
+        "Method",
+        "Name",
+        "Description"
+      ],
+      "compact_excerpt": "HTTP Methods This section describes the HTTP methods. Method Name Description GET Gets a list of resources or an individual resource POST Creates a resource or operates on a resource PUT Updates an individual resource DEL Removes a list of resources or an individual resource"
+    },
+    "classified_at": 1787137362.97594
+  },
+  "HTTP Request Body": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.957,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 0,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 51
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "HTTP",
+        "Request",
+        "Body",
+        "body",
+        "request",
+        "data",
+        "section",
+        "describes",
+        "contain",
+        "most",
+        "parameters",
+        "accompanying"
+      ],
+      "compact_excerpt": "HTTP Request Body This section describes the HTTP Request Body. The body of the HTTP request will contain most of the parameters and data accompanying your requests. Note: The OtoSense\u2122 SMS REST API accepts only JSON in the HTTP request body. It does not support other data formats, such as XML."
+    },
+    "classified_at": 1787137363.0044973
+  },
+  "Request Limits": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.963,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 1,
+        "concept_pattern_hits": 3,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 98
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "request",
+        "Request",
+        "Limits",
+        "quota",
+        "your",
+        "limits",
+        "hourly",
+        "hour",
+        "quotas",
+        "response",
+        "details",
+        "section"
+      ],
+      "compact_excerpt": "Request Limits This section describes the request limits. ADI OtoSense\u2122 SMS device enforces tenant-level request quota limits. The quota will be quoted for the month, but in practice, it is broken down into an hourly rate. A sliding 12-hour window is used to create a credit backlog. Unused request quotas are carried over to the current hour. If you exceed your hourly request quota, a 429 response "
+    },
+    "classified_at": 1787137363.054192
+  },
+  "Requests and Responses": {
+    "topic_type": "reference",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.969,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 1,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 31
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Requests",
+        "Responses",
+        "request",
+        "section",
+        "provides",
+        "general",
+        "overview",
+        "API",
+        "requests",
+        "responses",
+        "includes",
+        "HTTP"
+      ],
+      "compact_excerpt": "Requests and Responses This section provides a general overview of API requests and responses. It includes the HTTP request body, data type, request testing, request limits, timeout limit, and response compression."
+    },
+    "classified_at": 1787137363.0923765
+  },
+  "Sample Request Body": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.982,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 5,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 115
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "motor",
+        "Sample",
+        "Request",
+        "Body",
+        "request",
+        "body",
+        "Comment",
+        "comment",
+        "JSON",
+        "entry",
+        "provided",
+        "sample"
+      ],
+      "compact_excerpt": "Sample Request Body The provided sample JSON request body creates the motor log entries. A motor log entry has two filters. The user can: add a Comment to log a general comment to the motor log; add a Repair to update the log to reflect that the motor has been repaired. To add a Comment, the JSON request body will be as follows: { \"subject\": \"Comment\", \"message\": { \"comment\": \"Investigate latest a"
+    },
+    "classified_at": 1787137363.261889
+  },
+  "Response Compression": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.976,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 2,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 88
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Compression",
+        "Response",
+        "format",
+        "using",
+        "compression",
+        "KB",
+        "compressed",
+        "must",
+        "responses",
+        "header",
+        "deflate",
+        "algorithm"
+      ],
+      "compact_excerpt": "Response Compression This section describes the guidelines related to response compression. Responses over 1KB in size will automatically be compressed. Clients must be capable of decoding and decompressing compressed responses. The Accept-Encoding header must be set to one of the following: Input Value Description gzip Compression format using the Lempel-Ziv coding (LZ77) with a 32-bit CRC. defla"
+    },
+    "classified_at": 1787137363.2770429
+  },
+  "Testing an Endpoint": {
+    "topic_type": "task",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.988,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 10,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 5,
+        "imperative_sentence_ratio": 0.154,
+        "avg_paragraph_length_words": 118
+      },
+      "context_frame": "procedural",
+      "keyword_set": [
+        "test",
+        "Testing",
+        "Endpoint",
+        "API",
+        "You",
+        "OtoSense",
+        "SMS",
+        "REST",
+        "OpenAPI",
+        "Postman",
+        "specifications",
+        "Import"
+      ],
+      "compact_excerpt": "Testing an Endpoint This section describes the guidelines for testing a request. You can use a third-party client to test the OtoSense\u2122 SMS REST API. For example, curl, Postman, or Advanced REST Client. To test the endpoints using Postman: Download the OpenAPI specifications. For more information, see API Standards. Go to My Workspace>Import. Select the OpenAPI specifications Swagger JSON file. Cl"
+    },
+    "classified_at": 1787137363.2881548
+  },
+  "Timeout Limit": {
+    "topic_type": "concept",
+    "confidence": "low",
+    "reasoning": "Heuristic fallback due to API error",
+    "ontology_hints": {},
+    "semantic_signals": {
+      "structural_signals": {
+        "heading_depth": 1,
+        "parent_title": "",
+        "position_in_doc": 0.994,
+        "paragraph_count": 1,
+        "step_list_count": 0,
+        "table_count": 0,
+        "has_code_block": false
+      },
+      "lexical_signals": {
+        "task_verb_hits": 0,
+        "concept_pattern_hits": 1,
+        "reference_pattern_hits": 0,
+        "imperative_sentence_ratio": 0.0,
+        "avg_paragraph_length_words": 29
+      },
+      "context_frame": "descriptive",
+      "keyword_set": [
+        "Timeout",
+        "Limit",
+        "section",
+        "describes",
+        "timeout",
+        "limit",
+        "request",
+        "completed",
+        "within",
+        "seconds",
+        "times",
+        "OtoSense"
+      ],
+      "compact_excerpt": "Timeout Limit This section describes the timeout limit. If a request is not completed within 30 seconds, it times out, and OtoSense\u2122 SMS device returns a Gateway Timeout error."
+    },
+    "classified_at": 1787137363.3439252
+  }
+}

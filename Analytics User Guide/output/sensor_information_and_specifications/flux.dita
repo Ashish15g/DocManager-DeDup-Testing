@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Ref182996659" xml:lang="en-us">
+   <title>flux</title>
+   <shortdesc>The Magnetic Field (flux) is the magnetic field leaked from the motor and measured on</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>magnetic</keyword>
+        <keyword>field</keyword>
+        <keyword>motor</keyword>
+        <keyword>Magnetic</keyword>
+        <keyword>Field</keyword>
+        <keyword>waveform</keyword>
+        <indexterm>magnetic</indexterm>
+        <indexterm>field</indexterm>
+        <indexterm>motor</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>The Magnetic Field (flux) is the magnetic field leaked from the motor and measured on the surface of the frame. This recorded data shows the magnetic field waveform data, in the unit of millivolt (mV). With the magnetic field from the motor, the analytics system can detect the electrical failures of the motor.</p>
+      <ul>
+         <li>
+            <p>Each record contains an array of 15,000 samples captured on the specified timestamp.</p>
+            <p>It is necessary to generate the corresponding X-axis data to plot this Magnetic Field (flux) waveform data: The X-axis data is a vector of 15,000 data points with a step of 0.00016s.</p>
+         </li>
+         <li>
+            <p>For example:</p>
+         </li>
+         <li>
+            <p>[0, 0.00016, 0.00032, 0.00048, .... 2.39984]</p>
+         </li>
+         <li>
+            <p>For more information on API refer to the ADI OtoSense™ SMS REST API.</p>
+         </li>
+      </ul>
+    </section></refbody>
+</reference>

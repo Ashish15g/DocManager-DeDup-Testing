@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\adity\Downloads\Analytics User Guide\output\temp\pdf-css-html5\motor_object?><?workdir-uri file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/temp/pdf-css-html5/motor_object/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA 2.x Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="component_code" xml:lang="en-us" ditaarch:DITAArchVersion="2.0" specializations="@props/audience @props/deliveryTarget @props/otherprops @props/platform @props/product" class="- topic/topic concept/concept " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="concept:1;3:47" domains="a(props audience) a(props deliveryTarget) a(props otherprops) a(props platform) a(props product)">
+   <title class="- topic/title " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="title:1;4:11">Component Code</title>
+   <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="shortdesc:1;5:15">This section describes the component code of the motor object.</shortdesc>
+  <prolog class="- topic/prolog " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="prolog:1;6:11">
+    <metadata class="- topic/metadata " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="metadata:1;7:15">
+      <keywords class="- topic/keywords " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="keywords:1;8:17">
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="keyword:1;9:18">Action</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="keyword:2;10:18">Required</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="keyword:3;11:18">Alarm</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="keyword:4;12:18">condition</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="keyword:5;13:18">bearing</keyword>
+        <keyword class="- topic/keyword " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="keyword:6;14:18">detected</keyword>
+        <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="indexterm:1;15:20">Action</indexterm>
+        <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="indexterm:2;16:20">Required</indexterm>
+        <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="indexterm:3;17:20">Alarm</indexterm>
+      </keywords>
+      <prodinfo class="- topic/prodinfo " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="prodinfo:1;19:17">
+        <prodname class="- topic/prodname " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="prodname:1;20:19"/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="conbody:1;24:13"><p class="- topic/p " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="p:1;24:16">This section describes the component code of the motor object.</p>
+<table frame="all" colsep="1" rowsep="1" class="- topic/table " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="table:1;25:42">
+            <title class="- topic/title " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="title:2;26:20">Component Codes Definitions</title>
+            <tgroup cols="4" class="- topic/tgroup " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="tgroup:1;27:30">
+               <colspec colname="c1" class="- topic/colspec " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="colspec:1;28:39"/>
+               <colspec colname="c2" class="- topic/colspec " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="colspec:2;29:39"/>
+               <colspec colname="c3" class="- topic/colspec " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="colspec:3;30:39"/>
+               <colspec colname="c4" class="- topic/colspec " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="colspec:4;31:39"/>
+               <tbody class="- topic/tbody " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="tbody:1;32:23">
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:1;33:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:1;34:29">
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:1;35:28">C</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:2;36:28">o</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:3;37:28">de</b>
+                     </entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:2;39:29">
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:4;40:28">A</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:5;41:28">c</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:6;42:28">t</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:7;43:28">i</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:8;44:28">on</b>
+                     </entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:3;46:29">
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:9;47:28">D</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:10;48:28">e</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:11;49:28">s</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:12;50:28">c</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:13;51:28">r</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:14;52:28">i</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:15;53:28">pt</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:16;54:28">i</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:17;55:28">on</b>
+                     </entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:4;57:29">
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:18;58:28">N</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:19;59:28">ot</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="b:20;60:28">es</b>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:2;63:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:5;64:29">-1</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:6;65:29">Check SMS</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:7;66:29">Disconnected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:8;67:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:3;69:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:9;70:29">0</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:10;71:29">No action required</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:11;72:29">No fault</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:12;73:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:4;75:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:13;76:29">1001</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:14;77:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:15;78:29">Warning: possible power system imbalance</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:16;79:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:5;81:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:17;82:29">1002</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:18;83:29">Action Required: check motor power system</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:19;84:29">Alarm: power system imbalance detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:20;85:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:6;87:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:21;88:29">1003</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:22;89:29">Action Required: stop motor and check motor power system</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:23;90:29">Alarm: high power system imbalance detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:24;91:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:7;93:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:25;94:29">2001</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:26;95:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:27;96:29">Warning: possible stator short-circuit</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:28;97:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:8;99:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:29;100:29">2002</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:30;101:29">Action Required: check stator winding condition</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:31;102:29">Alarm: stator short-circuit detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:32;103:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:9;105:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:33;106:29">2003</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:34;107:29">Action Required: stop motor and check stator winding condition</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:35;108:29">Alarm: stator short-circuit detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:36;109:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:10;111:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:37;112:29">3001</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:38;113:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:39;114:29">Warning: possible rotor active parts problem</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:40;115:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:11;117:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:41;118:29">3002</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:42;119:29">Action Required: check rotor condition</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:43;120:29">Alarm: rotor active parts problem detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:44;121:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:12;123:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:45;124:29">3003</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:46;125:29">Action Required: replace rotor</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:47;126:29">Alarm: rotor active parts problem detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:48;127:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:13;129:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:49;130:29">4001</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:50;131:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:51;132:29">Warning: imbalance detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:52;133:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:14;135:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:53;136:29">4002</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:54;137:29">Action Required: balance motor in next stop</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:55;138:29">Alarm: imbalance detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:56;139:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:15;141:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:57;142:29">4003</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:58;143:29">Action Required: balance motor as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:59;144:29">Alarm: high imbalance detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:60;145:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:16;147:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:61;148:29">5001</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:62;149:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:63;150:29">Warning: possible eccentricity</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:64;151:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:17;153:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:65;154:29">5002</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:66;155:29">Action Required: check rotor eccentricity</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:67;156:29">Alarm: eccentricity detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:68;157:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:18;159:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:69;160:29">5003</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:70;161:29">Action Required: check rotor eccentricity</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:71;162:29">Alarm: serious eccentricity detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:72;163:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:19;165:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:73;166:29">6001</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:74;167:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:75;168:29">Warning: possible bearing outer race malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:76;169:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:20;171:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:77;172:29">6002</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:78;173:29">Action Required: lubricate bearings</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:79;174:29">Alarm: bearing outer race fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:80;175:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:21;177:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:81;178:29">6003</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:82;179:29">Action Required: replace bearings as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:83;180:29">Alarm: bearing outer race high fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:84;181:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:22;183:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:85;184:29">6004</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:86;185:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:87;186:29">Warning: possible bearing inner race malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:88;187:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:23;189:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:89;190:29">6005</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:90;191:29">Action Required: lubricate bearings</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:91;192:29">Alarm: bearing inner race fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:92;193:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:24;195:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:93;196:29">6006</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:94;197:29">Action Required: replace bearings as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:95;198:29">Alarm: bearing inner race high fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:96;199:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:25;201:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:97;202:29">6007</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:98;203:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:99;204:29">Warning: possible bearing rolling element malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:100;205:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:26;207:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:101;208:29">6008</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:102;209:29">Action Required: lubricate bearings</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:103;210:29">Alarm: bearing rolling element fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:104;211:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:27;213:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:105;214:29">6009</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:106;215:29">Action Required: replace bearings as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:107;216:29">Alarm: bearing rolling element high fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:108;217:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:28;219:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:109;220:29">6010</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:110;221:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:111;222:29">Warning: possible bearing cage malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:112;223:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:29;225:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:113;226:29">6011</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:114;227:29">Action Required: lubricate bearings</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:115;228:29">Alarm: bearing cage fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:116;229:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:30;231:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:117;232:29">6012</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:118;233:29">Action Required: replace bearings as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:119;234:29">Alarm: bearing cage high fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:120;235:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:31;237:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:121;238:29">6013</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:122;239:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:123;240:29">Warning: possible DE (Drive End) bearing outer race malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:124;241:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:32;243:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:125;244:29">6014</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:126;245:29">Action Required: lubricate bearings</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:127;246:29">Alarm: DE bearing outer race fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:128;247:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:33;249:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:129;250:29">6015</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:130;251:29">Action Required: replace bearings as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:131;252:29">Alarm: DE bearing outer race high fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:132;253:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:34;255:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:133;256:29">6016</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:134;257:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:135;258:29">Warning: possible DE bearing inner race malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:136;259:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:35;261:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:137;262:29">6017</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:138;263:29">Action Required: lubricate bearings</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:139;264:29">Alarm: DE bearing inner race fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:140;265:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:36;267:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:141;268:29">6018</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:142;269:29">Action Required: replace bearings as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:143;270:29">Alarm: DE bearing inner race high fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:144;271:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:37;273:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:145;274:29">6019</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:146;275:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:147;276:29">Warning: possible DE bearing rolling element malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:148;277:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:38;279:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:149;280:29">6020</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:150;281:29">Action Required: lubricate bearings</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:151;282:29">Alarm: DE bearing rolling element fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:152;283:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:39;285:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:153;286:29">6021</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:154;287:29">Action Required: replace bearings as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:155;288:29">Alarm: DE bearing rolling element high fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:156;289:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:40;291:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:157;292:29">6022</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:158;293:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:159;294:29">Warning: possible DE bearing cage malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:160;295:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:41;297:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:161;298:29">6023</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:162;299:29">Action Required: lubricate bearings</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:163;300:29">Alarm: DE bearing cage fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:164;301:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:42;303:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:165;304:29">6024</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:166;305:29">Action Required: replace bearings as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:167;306:29">Alarm: DE bearing cage high fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:168;307:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:43;309:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:169;310:29">6025</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:170;311:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:171;312:29">Warning: possible NDE (Non-Drive End) bearing outer race malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:172;313:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:44;315:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:173;316:29">6026</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:174;317:29">Action Required: lubricate bearings</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:175;318:29">Alarm: NDE bearing outer race fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:176;319:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:45;321:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:177;322:29">6027</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:178;323:29">Action Required: replace bearings as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:179;324:29">Alarm: NDE bearing outer race high fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:180;325:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:46;327:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:181;328:29">6028</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:182;329:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:183;330:29">Warning: possible NDE bearing inner race malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:184;331:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:47;333:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:185;334:29">6029</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:186;335:29">Action Required: lubricate bearings</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:187;336:29">Alarm: NDE bearing inner race fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:188;337:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:48;339:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:189;340:29">6030</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:190;341:29">Action Required: replace bearings as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:191;342:29">Alarm: NDE bearing inner race high fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:192;343:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:49;345:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:193;346:29">6031</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:194;347:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:195;348:29">Warning: possible NDE bearing rolling element malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:196;349:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:50;351:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:197;352:29">6032</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:198;353:29">Action Required: lubricate bearings</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:199;354:29">Alarm: NDE bearing rolling element fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:200;355:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:51;357:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:201;358:29">6033</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:202;359:29">Action Required: replace bearings as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:203;360:29">Alarm: NDE bearing rolling element high fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:204;361:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:52;363:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:205;364:29">6034</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:206;365:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:207;366:29">Warning: possible NDE bearing cage malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:208;367:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:53;369:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:209;370:29">6035</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:210;371:29">Action Required: lubricate bearings</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:211;372:29">Alarm: NDE bearing cage fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:212;373:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:54;375:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:213;376:29">6036</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:214;377:29">Action Required: replace bearings as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:215;378:29">Alarm: NDE bearing cage high fault detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:216;379:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:55;381:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:217;382:29">7001</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:218;383:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:219;384:29">Warning: possible misalignment</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:220;385:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:56;387:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:221;388:29">7002</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:222;389:29">Action Required: align motor in next stop</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:223;390:29">Alarm: misalignment detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:224;391:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:57;393:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:225;394:29">7003</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:226;395:29">Action Required: align motor as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:227;396:29">Alarm: high misalignment detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:228;397:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:58;399:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:229;400:29">8001</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:230;401:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:231;402:29">Warning: cooling system malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:232;403:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:59;405:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:233;406:29">8002</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:234;407:29">Action Required: check cooling system</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:235;408:29">Alarm: cooling system malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:236;409:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:60;411:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:237;412:29">8003</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:238;413:29">Action Required: check cooling system as soon as possible</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:239;414:29">Alarm: dangerous cooling system malfunction</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:240;415:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:61;417:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:241;418:29">9001</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:242;419:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:243;420:29">Warning: possible loose foot – motor frame problem</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:244;421:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:62;423:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:245;424:29">9002</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:246;425:29">Action Required: check motor-bench assembly</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:247;426:29">Alarm: loose foot - motor frame problem detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:248;427:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:63;429:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:249;430:29">9003</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:250;431:29">Action Required: check motor-bench assembly</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:251;432:29">Alarm: loose foot - motor frame severe problem detected</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:252;433:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:64;435:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:253;436:29">10001</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:254;437:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:255;438:29">global vibration acceleration increasing &lt;50%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:256;439:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:65;441:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:257;442:29">10002</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:258;443:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:259;444:29">global vibration acceleration increasing &lt;70%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:260;445:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:66;447:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:261;448:29">10003</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:262;449:29">Stop Motor: check bearing lubrication, bearings condition, coupling and mechanical parts</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:263;450:29">global vibration acceleration increasing &lt;100%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:264;451:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:67;453:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:265;454:29">10004</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:266;455:29">Stop Motor: check bearing lubrication, bearings condition, coupling and mechanical parts</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:267;456:29">global vibration acceleration increasing &lt;200%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:268;457:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:68;459:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:269;460:29">10005</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:270;461:29">Stop Motor: check bearing lubrication, bearings condition, coupling and mechanical parts</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:271;462:29">global vibration acceleration increasing &lt;250%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:272;463:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:69;465:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:273;466:29">10006</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:274;467:29">Stop Motor: check bearing lubrication, bearings condition, coupling and mechanical parts</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:275;468:29">global vibration acceleration increasing &lt;300%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:276;469:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:70;471:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:277;472:29">10007</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:278;473:29">Stop Motor: check bearing lubrication, bearings condition, coupling and mechanical parts</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:279;474:29">global vibration acceleration increasing &gt;300%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:280;475:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:71;477:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:281;478:29">10008</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:282;479:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:283;480:29">global vibration velocity increasing &lt;50%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:284;481:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:72;483:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:285;484:29">10009</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:286;485:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:287;486:29">global vibration velocity increasing &lt;70%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:288;487:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:73;489:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:289;490:29">10010</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:290;491:29">Stop Motor: coupling alignment, structure looseness, bearings condition and mechanical parts</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:291;492:29">global vibration velocity increasing &lt;100%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:292;493:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:74;495:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:293;496:29">10011</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:294;497:29">Stop Motor: coupling alignment, structure looseness, bearings condition and mechanical parts</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:295;498:29">global vibration velocity increasing &lt;200%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:296;499:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:75;501:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:297;502:29">10012</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:298;503:29">Stop Motor: coupling alignment, structure looseness, bearings condition and mechanical parts</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:299;504:29">global vibration velocity increasing &lt;250%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:300;505:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:76;507:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:301;508:29">10013</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:302;509:29">Stop Motor: coupling alignment, structure looseness, bearings condition and mechanical parts</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:303;510:29">global vibration velocity increasing &lt;300%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:304;511:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:77;513:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:305;514:29">10014</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:306;515:29">Stop Motor: coupling alignment, structure looseness, bearings condition and mechanical parts</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:307;516:29">global vibration velocity increasing &lt;300%</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:308;517:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:78;519:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:309;520:29">10015</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:310;521:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:311;522:29">Warning: motor's RPM has increased</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:312;523:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:79;525:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:313;526:29">10016</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:314;527:29">Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:315;528:29">Alarm: motor's RPM is higher than normal operation</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:316;529:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:80;531:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:317;532:29">10017</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:318;533:29">Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:319;534:29">Alarm: motor's RPM is much higher than normal operation</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:320;535:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:81;537:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:321;538:29">10018</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:322;539:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:323;540:29">Warning: motor's RPM has decreased</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:324;541:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:82;543:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:325;544:29">10019</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:326;545:29">Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:327;546:29">Alarm: motor's RPM is lower than normal operation</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:328;547:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:83;549:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:329;550:29">10020</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:330;551:29">Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:331;552:29">Alarm: motor's RPM is much lower than normal operation</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:332;553:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:84;555:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:333;556:29">10021</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:334;557:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:335;558:29">Warning: motor's load has increased</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:336;559:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:85;561:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:337;562:29">10022</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:338;563:29">Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:339;564:29">Alarm: motor's load is higher than normal operation</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:340;565:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:86;567:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:341;568:29">10023</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:342;569:29">Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:343;570:29">Alarm: motor's load is much higher than normal operation</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:344;571:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:87;573:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:345;574:29">10024</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:346;575:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:347;576:29">Warning: motor's load has decreased</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:348;577:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:88;579:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:349;580:29">10025</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:350;581:29">Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:351;582:29">Alarm: motor's load is lower than normal operation</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:352;583:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:89;585:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:353;586:29">10026</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:354;587:29">Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:355;588:29">Alarm: motor's load is much lower than normal operation</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:356;589:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:90;591:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:357;592:29">10027</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:358;593:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:359;594:29">Warning: the environment temperature has increased</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:360;595:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:91;597:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:361;598:29">10028</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:362;599:29">Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:363;600:29">Alarm: the environment temperature is higher than normal operation</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:364;601:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:92;603:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:365;604:29">10029</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:366;605:29">Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:367;606:29">Alarm: the environment temperature is much higher than normal operation</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:368;607:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:93;609:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:369;610:29">10030</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:370;611:29">Check this condition over time</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:371;612:29">Warning: the environment temperature has decreased</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:372;613:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:94;615:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:373;616:29">10031</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:374;617:29">Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:375;618:29">Alarm: the environment temperature is lower than normal operation</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:376;619:30"/>
+                  </row>
+                  <row class="- topic/row " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="row:95;621:24">
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:377;622:29">10032</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:378;623:29">Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:379;624:29">Alarm: the environment temperature is much lower than normal operation</entry>
+                     <entry class="- topic/entry " xtrf="file:/C:/Users/adity/Downloads/Analytics%20User%20Guide/output/motor_object/component_code.dita" xtrc="entry:380;625:30"/>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table></conbody>
+</concept>

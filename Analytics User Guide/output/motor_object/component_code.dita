@@ -1,0 +1,630 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="component_code" xml:lang="en-us">
+   <title>Component Code</title>
+   <shortdesc>This section describes the component code of the motor object.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Action</keyword>
+        <keyword>Required</keyword>
+        <keyword>Alarm</keyword>
+        <keyword>condition</keyword>
+        <keyword>bearing</keyword>
+        <keyword>detected</keyword>
+        <indexterm>Action</indexterm>
+        <indexterm>Required</indexterm>
+        <indexterm>Alarm</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>This section describes the component code of the motor object.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <title>Component Codes Definitions</title>
+            <tgroup cols="4">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <colspec colname="c4"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>C</b>
+                        <b>o</b>
+                        <b>de</b>
+                     </entry>
+                     <entry>
+                        <b>A</b>
+                        <b>c</b>
+                        <b>t</b>
+                        <b>i</b>
+                        <b>on</b>
+                     </entry>
+                     <entry>
+                        <b>D</b>
+                        <b>e</b>
+                        <b>s</b>
+                        <b>c</b>
+                        <b>r</b>
+                        <b>i</b>
+                        <b>pt</b>
+                        <b>i</b>
+                        <b>on</b>
+                     </entry>
+                     <entry>
+                        <b>N</b>
+                        <b>ot</b>
+                        <b>es</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>-1</entry>
+                     <entry>Check SMS</entry>
+                     <entry>Disconnected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>0</entry>
+                     <entry>No action required</entry>
+                     <entry>No fault</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>1001</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible power system imbalance</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>1002</entry>
+                     <entry>Action Required: check motor power system</entry>
+                     <entry>Alarm: power system imbalance detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>1003</entry>
+                     <entry>Action Required: stop motor and check motor power system</entry>
+                     <entry>Alarm: high power system imbalance detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>2001</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible stator short-circuit</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>2002</entry>
+                     <entry>Action Required: check stator winding condition</entry>
+                     <entry>Alarm: stator short-circuit detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>2003</entry>
+                     <entry>Action Required: stop motor and check stator winding condition</entry>
+                     <entry>Alarm: stator short-circuit detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>3001</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible rotor active parts problem</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>3002</entry>
+                     <entry>Action Required: check rotor condition</entry>
+                     <entry>Alarm: rotor active parts problem detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>3003</entry>
+                     <entry>Action Required: replace rotor</entry>
+                     <entry>Alarm: rotor active parts problem detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>4001</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: imbalance detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>4002</entry>
+                     <entry>Action Required: balance motor in next stop</entry>
+                     <entry>Alarm: imbalance detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>4003</entry>
+                     <entry>Action Required: balance motor as soon as possible</entry>
+                     <entry>Alarm: high imbalance detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>5001</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible eccentricity</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>5002</entry>
+                     <entry>Action Required: check rotor eccentricity</entry>
+                     <entry>Alarm: eccentricity detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>5003</entry>
+                     <entry>Action Required: check rotor eccentricity</entry>
+                     <entry>Alarm: serious eccentricity detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6001</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible bearing outer race malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6002</entry>
+                     <entry>Action Required: lubricate bearings</entry>
+                     <entry>Alarm: bearing outer race fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6003</entry>
+                     <entry>Action Required: replace bearings as soon as possible</entry>
+                     <entry>Alarm: bearing outer race high fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6004</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible bearing inner race malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6005</entry>
+                     <entry>Action Required: lubricate bearings</entry>
+                     <entry>Alarm: bearing inner race fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6006</entry>
+                     <entry>Action Required: replace bearings as soon as possible</entry>
+                     <entry>Alarm: bearing inner race high fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6007</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible bearing rolling element malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6008</entry>
+                     <entry>Action Required: lubricate bearings</entry>
+                     <entry>Alarm: bearing rolling element fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6009</entry>
+                     <entry>Action Required: replace bearings as soon as possible</entry>
+                     <entry>Alarm: bearing rolling element high fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6010</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible bearing cage malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6011</entry>
+                     <entry>Action Required: lubricate bearings</entry>
+                     <entry>Alarm: bearing cage fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6012</entry>
+                     <entry>Action Required: replace bearings as soon as possible</entry>
+                     <entry>Alarm: bearing cage high fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6013</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible DE (Drive End) bearing outer race malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6014</entry>
+                     <entry>Action Required: lubricate bearings</entry>
+                     <entry>Alarm: DE bearing outer race fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6015</entry>
+                     <entry>Action Required: replace bearings as soon as possible</entry>
+                     <entry>Alarm: DE bearing outer race high fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6016</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible DE bearing inner race malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6017</entry>
+                     <entry>Action Required: lubricate bearings</entry>
+                     <entry>Alarm: DE bearing inner race fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6018</entry>
+                     <entry>Action Required: replace bearings as soon as possible</entry>
+                     <entry>Alarm: DE bearing inner race high fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6019</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible DE bearing rolling element malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6020</entry>
+                     <entry>Action Required: lubricate bearings</entry>
+                     <entry>Alarm: DE bearing rolling element fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6021</entry>
+                     <entry>Action Required: replace bearings as soon as possible</entry>
+                     <entry>Alarm: DE bearing rolling element high fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6022</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible DE bearing cage malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6023</entry>
+                     <entry>Action Required: lubricate bearings</entry>
+                     <entry>Alarm: DE bearing cage fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6024</entry>
+                     <entry>Action Required: replace bearings as soon as possible</entry>
+                     <entry>Alarm: DE bearing cage high fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6025</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible NDE (Non-Drive End) bearing outer race malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6026</entry>
+                     <entry>Action Required: lubricate bearings</entry>
+                     <entry>Alarm: NDE bearing outer race fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6027</entry>
+                     <entry>Action Required: replace bearings as soon as possible</entry>
+                     <entry>Alarm: NDE bearing outer race high fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6028</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible NDE bearing inner race malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6029</entry>
+                     <entry>Action Required: lubricate bearings</entry>
+                     <entry>Alarm: NDE bearing inner race fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6030</entry>
+                     <entry>Action Required: replace bearings as soon as possible</entry>
+                     <entry>Alarm: NDE bearing inner race high fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6031</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible NDE bearing rolling element malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6032</entry>
+                     <entry>Action Required: lubricate bearings</entry>
+                     <entry>Alarm: NDE bearing rolling element fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6033</entry>
+                     <entry>Action Required: replace bearings as soon as possible</entry>
+                     <entry>Alarm: NDE bearing rolling element high fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6034</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible NDE bearing cage malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6035</entry>
+                     <entry>Action Required: lubricate bearings</entry>
+                     <entry>Alarm: NDE bearing cage fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>6036</entry>
+                     <entry>Action Required: replace bearings as soon as possible</entry>
+                     <entry>Alarm: NDE bearing cage high fault detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>7001</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible misalignment</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>7002</entry>
+                     <entry>Action Required: align motor in next stop</entry>
+                     <entry>Alarm: misalignment detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>7003</entry>
+                     <entry>Action Required: align motor as soon as possible</entry>
+                     <entry>Alarm: high misalignment detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>8001</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: cooling system malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>8002</entry>
+                     <entry>Action Required: check cooling system</entry>
+                     <entry>Alarm: cooling system malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>8003</entry>
+                     <entry>Action Required: check cooling system as soon as possible</entry>
+                     <entry>Alarm: dangerous cooling system malfunction</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>9001</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: possible loose foot – motor frame problem</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>9002</entry>
+                     <entry>Action Required: check motor-bench assembly</entry>
+                     <entry>Alarm: loose foot - motor frame problem detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>9003</entry>
+                     <entry>Action Required: check motor-bench assembly</entry>
+                     <entry>Alarm: loose foot - motor frame severe problem detected</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10001</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>global vibration acceleration increasing &lt;50%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10002</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>global vibration acceleration increasing &lt;70%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10003</entry>
+                     <entry>Stop Motor: check bearing lubrication, bearings condition, coupling and mechanical parts</entry>
+                     <entry>global vibration acceleration increasing &lt;100%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10004</entry>
+                     <entry>Stop Motor: check bearing lubrication, bearings condition, coupling and mechanical parts</entry>
+                     <entry>global vibration acceleration increasing &lt;200%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10005</entry>
+                     <entry>Stop Motor: check bearing lubrication, bearings condition, coupling and mechanical parts</entry>
+                     <entry>global vibration acceleration increasing &lt;250%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10006</entry>
+                     <entry>Stop Motor: check bearing lubrication, bearings condition, coupling and mechanical parts</entry>
+                     <entry>global vibration acceleration increasing &lt;300%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10007</entry>
+                     <entry>Stop Motor: check bearing lubrication, bearings condition, coupling and mechanical parts</entry>
+                     <entry>global vibration acceleration increasing &gt;300%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10008</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>global vibration velocity increasing &lt;50%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10009</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>global vibration velocity increasing &lt;70%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10010</entry>
+                     <entry>Stop Motor: coupling alignment, structure looseness, bearings condition and mechanical parts</entry>
+                     <entry>global vibration velocity increasing &lt;100%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10011</entry>
+                     <entry>Stop Motor: coupling alignment, structure looseness, bearings condition and mechanical parts</entry>
+                     <entry>global vibration velocity increasing &lt;200%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10012</entry>
+                     <entry>Stop Motor: coupling alignment, structure looseness, bearings condition and mechanical parts</entry>
+                     <entry>global vibration velocity increasing &lt;250%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10013</entry>
+                     <entry>Stop Motor: coupling alignment, structure looseness, bearings condition and mechanical parts</entry>
+                     <entry>global vibration velocity increasing &lt;300%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10014</entry>
+                     <entry>Stop Motor: coupling alignment, structure looseness, bearings condition and mechanical parts</entry>
+                     <entry>global vibration velocity increasing &lt;300%</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10015</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: motor's RPM has increased</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10016</entry>
+                     <entry>Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry>Alarm: motor's RPM is higher than normal operation</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10017</entry>
+                     <entry>Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry>Alarm: motor's RPM is much higher than normal operation</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10018</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: motor's RPM has decreased</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10019</entry>
+                     <entry>Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry>Alarm: motor's RPM is lower than normal operation</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10020</entry>
+                     <entry>Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry>Alarm: motor's RPM is much lower than normal operation</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10021</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: motor's load has increased</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10022</entry>
+                     <entry>Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry>Alarm: motor's load is higher than normal operation</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10023</entry>
+                     <entry>Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry>Alarm: motor's load is much higher than normal operation</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10024</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: motor's load has decreased</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10025</entry>
+                     <entry>Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry>Alarm: motor's load is lower than normal operation</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10026</entry>
+                     <entry>Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry>Alarm: motor's load is much lower than normal operation</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10027</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: the environment temperature has increased</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10028</entry>
+                     <entry>Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry>Alarm: the environment temperature is higher than normal operation</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10029</entry>
+                     <entry>Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry>Alarm: the environment temperature is much higher than normal operation</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10030</entry>
+                     <entry>Check this condition over time</entry>
+                     <entry>Warning: the environment temperature has decreased</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10031</entry>
+                     <entry>Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry>Alarm: the environment temperature is lower than normal operation</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>10032</entry>
+                     <entry>Action Required: if this is normal operation mode for the motor, please perform relearning</entry>
+                     <entry>Alarm: the environment temperature is much lower than normal operation</entry>
+                     <entry/>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table></conbody>
+</concept>

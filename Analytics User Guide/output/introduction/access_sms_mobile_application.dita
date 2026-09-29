@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="access_sms_mobile_application" xml:lang="en-us">
+   <title>Access SMS mobile application</title>
+   <shortdesc>To access the SMS mobile application, you can use a smartphone or a tablet with</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>mobile</keyword>
+        <keyword>application</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>Access</keyword>
+        <keyword>Android</keyword>
+        <keyword>Figure</keyword>
+        <indexterm>mobile</indexterm>
+        <indexterm>application</indexterm>
+        <indexterm>placeholder</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>To access the SMS mobile application, you can use a smartphone or a tablet with an Android or iOS operating system.</p>
+         <p>Note<b>:</b> You cannot use a Windows tablet.</p>
+         <p>The following OS versions are compatible with the SMS mobile app:</p>
+         <ul id="ul_10211402">
+            <li>Android: OS6.0 or later</li>
+            <li>iOS13 or later</li>
+         </ul>
+         <p>To download the SMS mobile app:</p>
+      </context>
+      <steps id="steps_10211403">
+         <step>
+            <cmd>Scan the respective QR code from your mobile phone’s camera.</cmd>
+            <info>
+               <table colsep="1" frame="all" rowsep="1">
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <image height="97" href="../media/image1.png" placement="break" width="100">
+                                 <alt>placeholder</alt>
+                              </image> Figure a: QR code for iOS devices</entry>
+                           <entry>
+                              <image height="98" href="../media/image2.png" placement="break" width="100">
+                                 <alt>placeholder</alt>
+                              </image> Figure b: QR code for Android devices</entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </info>
+         </step>
+         <step>
+            <cmd>Install the ADI OtoSense™ SMS app from the App Store or from Google Play.</cmd>
+         </step>
+         <step>
+            <cmd>Follow the on-screen instructions to complete the installation and open the app.</cmd>
+         </step>
+      </steps>
+      <result>
+         <note type="note">If you have previously signed up on the web application, you can use the same login credentials to sign in to the mobile app.</note>
+         <p>If this is your first time signing up, follow the instructions in <xref format="html" href="https://docs.google.com/document/d/1UJHMTBzvCS5HwV3GBtyUXE2efbaG0EVA/edit" scope="external">Access to SMS Web Application</xref> to sign up on the mobile app.</p>
+         <p>
+            <fig>
+               <title>placeholder</title>
+               <image height="305" href="../media/image3.png" placement="break" width="602">
+                  <alt>placeholder</alt>
+               </image>
+            </fig>
+         </p>
+         <p>Figure c Welcome pages on SMS mobile app</p>
+      </result>
+   </taskbody>
+</task>

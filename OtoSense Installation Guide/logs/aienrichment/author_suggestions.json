@@ -1,0 +1,1437 @@
+{
+  "job_id": "2088a3c5-2133-4d9c-86fd-d65619899cbf",
+  "output_dir": "/app/Storage/2088a3c5-2133-4d9c-86fd-d65619899cbf/transformed output",
+  "generated_at": "2026-08-19T10:20:21.196268+00:00",
+  "suggestions": [
+    {
+      "id": "ae5bc2c4-454e-46e5-bf29-ea1329137ee6",
+      "file": "reference/contact_information.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<xref href=\"mailto:Support.PdM.Otosense@analog.com\"> \u2014 target file 'mailto:Support.PdM.Otosense@analog.com' does not exist on disk",
+      "category": "broken_xref",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.378101+00:00"
+    },
+    {
+      "id": "7d68f4e7-c3c1-4b7a-9912-b302fe1967fb",
+      "file": "installation/commission_the.dita",
+      "line": 78,
+      "severity": "WARNING",
+      "issue": "step 7 has an empty <cmd> element",
+      "category": "step_empty_cmd",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "               </ul>",
+        "            </info>",
+        "         </step>",
+        "         <step>",
+        "            <cmd>Tap <b>Add Location</b>.</cmd>",
+        "         </step>",
+        "         <step>",
+        "            <cmd>",
+        "               <xref href=\"../installation/assign_a_location_plant_and_process.dita\" format=\"dita\">Assign a location, plant, and process to the motor</xref>.</cmd>",
+        "         </step>",
+        "         <step>",
+        "            <cmd>Tap <b>Add Motor</b> and continue from Step 5.</cmd>",
+        "         </step>"
+      ],
+      "affected_lines": [
+        78
+      ],
+      "suggestion": "step 7 has an empty <cmd> element.\nEach `<step>` must contain a non-empty `<cmd>` element describing the action the user should perform.\nExample: `<step><cmd>Click the Save button.</cmd></step>`",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:18.942399+00:00"
+    },
+    {
+      "id": "f167f7de-c9c2-436c-9f5b-ac3ba476702f",
+      "file": "installation/enter_motor_details.dita",
+      "line": 105,
+      "severity": "WARNING",
+      "issue": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "category": "table_missing_title",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "               <p>",
+        "                  <b>Note:</b>",
+        "               </p>",
+        "               <ul id=\"ul_10132640\">",
+        "                  <li>De Bearing and nDE Bearing numbers are a <b>four-digit Industry Standard Number</b> for low-voltage induction motors. Both numbers can either be the same or different from each other. Examples include 6321 or NU303.</li>",
+        "                  <li>The following table describes the acceptable and invalid inputs for bearing numbers:</li>",
+        "               </ul>",
+        "               <table colsep=\"1\" frame=\"all\" rowsep=\"1\">",
+        "                  <tgroup cols=\"2\">",
+        "                     <colspec colname=\"c1\"/>",
+        "                     <colspec colname=\"c2\"/>",
+        "                     <tbody>",
+        "                        <row>"
+      ],
+      "affected_lines": [
+        105
+      ],
+      "suggestion": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance.\nAdd a `<title>` element as the first child of the `<table>` element.\nExample: `<table><title>Descriptive table title</title><tgroup ...>`",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:18.946519+00:00"
+    },
+    {
+      "id": "57fc7dde-5cf0-4c35-bfaf-0f7f9f263dff",
+      "file": "reference/routers.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<shortdesc> element is missing \u2014 required for search previews and navigation",
+      "category": "missing_shortdesc",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "<shortdesc> element is missing \u2014 required for search previews and navigation.\nAdd a `<shortdesc>` element immediately after the `<title>` element. Write 1\u20132 sentences (max 30 words) summarising the topic purpose. Avoid generic openers like 'This topic describes...'.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:18.950729+00:00"
+    },
+    {
+      "id": "19888feb-3ef8-4c1a-a05f-548a1d764674",
+      "file": "reference/routers.dita",
+      "line": 6,
+      "severity": "WARNING",
+      "issue": "<p> #1 is empty \u2014 remove or add content",
+      "category": "empty_p",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+        "<!DOCTYPE concept",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"_Toc187970797\" xml:lang=\"en-us\">",
+        "   <title>Routers</title>",
+        "   <conbody>",
+        "      <p/>",
+        "   </conbody>",
+        "</concept>"
+      ],
+      "affected_lines": [
+        6
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.384824+00:00"
+    },
+    {
+      "id": "5bb4798a-9582-4287-b814-828f4dcca790",
+      "file": "reference/certifications_and_regulatory.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<shortdesc> element is missing \u2014 required for search previews and navigation",
+      "category": "missing_shortdesc",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "<shortdesc> element is missing \u2014 required for search previews and navigation.\nAdd a `<shortdesc>` element immediately after the `<title>` element. Write 1\u20132 sentences (max 30 words) summarising the topic purpose. Avoid generic openers like 'This topic describes...'.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:18.957844+00:00"
+    },
+    {
+      "id": "1b8b6aa6-256c-483b-9a0d-81a1432d7c57",
+      "file": "reference/certifications_and_regulatory.dita",
+      "line": 6,
+      "severity": "WARNING",
+      "issue": "<p> #1 is empty \u2014 remove or add content",
+      "category": "empty_p",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+        "<!DOCTYPE concept",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"_Toc187970800\" xml:lang=\"en-us\">",
+        "   <title>Certifications and regulatory</title>",
+        "   <conbody>",
+        "      <p/>",
+        "   </conbody>",
+        "</concept>"
+      ],
+      "affected_lines": [
+        6
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.352258+00:00"
+    },
+    {
+      "id": "a7306ae4-4a5b-4a40-9439-28a9d09078e3",
+      "file": "reference/motor_information_form.dita",
+      "line": 26,
+      "severity": "WARNING",
+      "issue": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "category": "table_missing_title",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "        <prodname></prodname>",
+        "      </prodinfo>",
+        "    </metadata>",
+        "  </prolog>",
+        "   <conbody><p>It is recommended to fill this form with the motor parameters to make the commissioning process easier. This information can be found on the motor\u2019s nameplate.</p>",
+        "<p>If you need assistance in filling out the information, see the next page on <xref href=\"../reference/how_to_read_a_motor_plate.dita\" format=\"dita\">How to read a motor plate</xref>. It shows a sample motor plate with indicators on where to find the necessary details. Match the <b>Alphabet Indicator</b> column in this table to the corresponding alphabets on the image in the next page to locate the details. Use this sample plate to read information from your motor plate and fill in the details.</p>",
+        "<table frame=\"all\" colsep=\"1\" rowsep=\"1\">",
+        "            <tgroup cols=\"5\">",
+        "               <colspec colname=\"c1\"/>",
+        "               <colspec colname=\"c2\"/>",
+        "               <colspec colname=\"c3\"/>",
+        "               <colspec colname=\"c4\"/>",
+        "               <colspec colname=\"c5\"/>"
+      ],
+      "affected_lines": [
+        26
+      ],
+      "suggestion": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance.\nAdd a `<title>` element as the first child of the `<table>` element.\nExample: `<table><title>Descriptive table title</title><tgroup ...>`",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:18.963521+00:00"
+    },
+    {
+      "id": "b76f2216-c14a-4432-9b4c-9865bdbe726e",
+      "file": "reference/correspondence_between_iec_and_nema_frames.dita",
+      "line": 23,
+      "severity": "WARNING",
+      "issue": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "category": "table_missing_title",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "      </keywords>",
+        "      <prodinfo>",
+        "        <prodname></prodname>",
+        "      </prodinfo>",
+        "    </metadata>",
+        "  </prolog>",
+        "   <conbody><table frame=\"all\" colsep=\"1\" rowsep=\"1\">",
+        "            <tgroup cols=\"2\">",
+        "               <colspec colname=\"c1\"/>",
+        "               <colspec colname=\"c2\"/>",
+        "               <tbody>",
+        "                  <row>",
+        "                     <entry>"
+      ],
+      "affected_lines": [
+        23
+      ],
+      "suggestion": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance.\nAdd a `<title>` element as the first child of the `<table>` element.\nExample: `<table><title>Descriptive table title</title><tgroup ...>`",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:18.967653+00:00"
+    },
+    {
+      "id": "7f74ef11-d9b0-4679-9e08-3ac0e2f33ccd",
+      "file": "getting_started/configure_firewall_ports.dita",
+      "line": 32,
+      "severity": "WARNING",
+      "issue": "step 1 has an empty <cmd> element",
+      "category": "step_empty_cmd",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "      <context>",
+        "         <p>This section describes what to do if you have a corporate firewall.</p>",
+        "         <p>If you have a corporate firewall, you may need to configure your firewall ports to allow an  to connect to the ADI OtoSense\u2122 Server.</p>",
+        "         <p>To enable secure communication and remote updates, configure the required firewall ports for  connectivity.</p>",
+        "      </context>",
+        "      <steps id=\"steps_10132607\">",
+        "         <step>",
+        "            <cmd>",
+        "               <b>Open Port 8883 (MQTT over TLS/SSL)</b>",
+        "            </cmd>",
+        "            <info>",
+        "               <p>Message Queuing Telemetry Transport (MQTT) protocol is used to exchange application messages. It relies on Transport Layer Security (TLS) for communicating securely between an  and .</p>",
+        "               <p>"
+      ],
+      "affected_lines": [
+        32,
+        47
+      ],
+      "suggestion": "step 1 has an empty <cmd> element.\nEach `<step>` must contain a non-empty `<cmd>` element describing the action the user should perform.\nExample: `<step><cmd>Click the Save button.</cmd></step>`",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:18.971495+00:00"
+    },
+    {
+      "id": "fb0452d6-8c23-4e9e-a52a-f9c36a4fe104",
+      "file": "getting_started/download.dita",
+      "line": 34,
+      "severity": "WARNING",
+      "issue": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "category": "table_missing_title",
+      "source": "enrichment_fix_report.remaining_issues",
+      "context_lines": [
+        "         <p>An  is commissioned using the <b>ADI OtoSense SMS</b> mobile application, available for iOS and Android.</p>",
+        "         <p>To download the :</p>",
+        "      </context>",
+        "      <steps id=\"steps_10132612\">",
+        "         <step>",
+        "            <cmd>Scan the respective QR code from your mobile device\u2019s camera.</cmd>",
+        "            <info>",
+        "               <table colsep=\"1\" frame=\"all\" rowsep=\"1\">",
+        "                  <tgroup cols=\"2\">",
+        "                     <colspec colname=\"c1\"/>",
+        "                     <colspec colname=\"c2\"/>",
+        "                     <tbody>",
+        "                        <row>"
+      ],
+      "affected_lines": [
+        34
+      ],
+      "suggestion": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance.\nAdd a `<title>` element as the first child of the `<table>` element.\nExample: `<table><title>Descriptive table title</title><tgroup ...>`",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:18.975641+00:00"
+    },
+    {
+      "id": "f0625fa4-2ecf-4c23-a8a4-42fe611f9b25",
+      "file": "reference/routers.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms",
+      "category": "missing_prolog",
+      "source": "enrichment_fix_report.ai_obligations_missed",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms.\nAdd a `<prolog>` element after `<shortdesc>` (or after `<title>` if shortdesc is absent) containing metadata and keywords:\n`<prolog><metadata><keywords><keyword>term</keyword></keywords></metadata></prolog>`",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:18.979958+00:00"
+    },
+    {
+      "id": "d2db9941-c87d-4b68-bf6d-4b21ba333633",
+      "file": "reference/certifications_and_regulatory.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms",
+      "category": "missing_prolog",
+      "source": "enrichment_fix_report.ai_obligations_missed",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms.\nAdd a `<prolog>` element after `<shortdesc>` (or after `<title>` if shortdesc is absent) containing metadata and keywords:\n`<prolog><metadata><keywords><keyword>term</keyword></keywords></metadata></prolog>`",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:18.983810+00:00"
+    },
+    {
+      "id": "48c833c4-7dd9-40a6-bbb3-f84a9384e70c",
+      "file": "troubleshooting/troubleshooting.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the common issues encountered when in...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE topic PUBLIC \"-//OASIS//DTD DITA 2.x Topic//EN\" \"topic.dtd\">",
+        "<topic id=\"_Toc187970788\" xml:lang=\"en-us\">",
+        "   <title>Troubleshooting</title>",
+        "   <shortdesc>This section describes the common issues encountered when installing an and possible solutions.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>Troubleshooting</keyword>",
+        "        <keyword>section</keyword>",
+        "        <keyword>describes</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.360896+00:00"
+    },
+    {
+      "id": "389f7815-1529-4fd5-bb48-bcd25449f396",
+      "file": "introduction/how_does_sms_device_work.dita",
+      "line": 24,
+      "severity": "WARNING",
+      "issue": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "category": "section_missing_title",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "      </keywords>",
+        "      <prodinfo>",
+        "        <prodname></prodname>",
+        "      </prodinfo>",
+        "    </metadata>",
+        "  </prolog>",
+        "   <refbody>    <section>",
+        "      <p>This section describes the functionality of an SMS device.</p>",
+        "      <p>The hardware and software solution consists of the following components:</p>",
+        "      <ul id=\"ul_10132601\">",
+        "         <li>The  or hardware</li>",
+        "         <li>Expert fault-prediction software hosted on the</li>",
+        "         <li>Mobile and web applications that allow customers to monitor the status of motors fitted with an</li>"
+      ],
+      "affected_lines": [
+        24
+      ],
+      "suggestion": "<section> #1 has no <title> \u2014 recommended for DITA compliance.\nAdd a `<title>` element as the first child of the `<section>` element.\nExample: `<section><title>Section Title</title><p>...</p></section>`",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:18.990288+00:00"
+    },
+    {
+      "id": "7e2f95a7-f5ed-4d8c-88d3-9d2c38da2bba",
+      "file": "introduction/how_does_sms_device_work.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the functionality of an SMS device.'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE reference PUBLIC \"-//OASIS//DTD DITA 2.x Reference//EN\" \"reference.dtd\">",
+        "<reference id=\"_Toc187970759\" xml:lang=\"en-us\">",
+        "   <title>How does SMS device work?</title>",
+        "   <shortdesc>This section describes the functionality of an SMS device.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>motor</keyword>",
+        "        <keyword>device</keyword>",
+        "        <keyword>hardware</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.370123+00:00"
+    },
+    {
+      "id": "33432cc6-786f-4eac-83d1-b29bafcdc520",
+      "file": "introduction/motor_compatibility.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the motor specifications that are com...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE concept",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"_Toc187970760\" xml:lang=\"en-us\">",
+        "   <title>Motor compatibility</title>",
+        "   <shortdesc>This section describes the motor specifications that are compatible with the .</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>specifications</keyword>",
+        "        <keyword>Motor</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.692678+00:00"
+    },
+    {
+      "id": "1fc71fb3-cbec-43da-b3a7-8cdd6646e7f8",
+      "file": "introduction/benefits.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the benefits of using an .'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE concept",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"_Toc187970758\" xml:lang=\"en-us\">",
+        "   <title>Benefits</title>",
+        "   <shortdesc>This section describes the benefits of using an .</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>motor</keyword>",
+        "        <keyword>Benefits</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.668773+00:00"
+    },
+    {
+      "id": "489fa3a0-cb3e-46c8-8f1f-e7798a2a8f8a",
+      "file": "installation/commission_the.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of commissioning an which...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Toc187970775\" xml:lang=\"en-us\">",
+        "   <title>Commission the</title>",
+        "   <shortdesc>This section describes the process of commissioning an which involves:</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>device</keyword>",
+        "        <keyword>network</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.676857+00:00"
+    },
+    {
+      "id": "4517ab1c-2eab-4202-8f23-c8e309d4c51e",
+      "file": "installation/install_to_a_motor_with_cooling_ribs.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an to a mot...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Install_SMS_device\" xml:lang=\"en-us\">",
+        "   <title>Install  to a motor with cooling ribs</title>",
+        "   <shortdesc>This section describes the process of installing an to a motor with cooling ribs.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>placeholder</keyword>",
+        "        <keyword>clamps</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.684513+00:00"
+    },
+    {
+      "id": "fbbdf23a-866d-4fab-90e6-bae1d3822850",
+      "file": "installation/install_on_a_motor.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<taskbody> has no <steps> or <steps-unordered> element",
+      "category": "missing_steps",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "<taskbody> has no <steps> or <steps-unordered> element.\nA task topic must have a `<steps>` element inside `<taskbody>` containing at least one `<step><cmd>...</cmd></step>`. Add the steps structure or convert the topic type to concept if it is not procedural.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:18.997918+00:00"
+    },
+    {
+      "id": "9d400b5a-e1be-4234-a3be-b72cd8e35a4f",
+      "file": "installation/install_on_a_motor.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an to a mot...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Toc187970779\" xml:lang=\"en-us\">",
+        "   <title>Install  on a motor</title>",
+        "   <shortdesc>This section describes the process of installing an to a motor with cooling ribs and</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>motor</keyword>",
+        "        <keyword>Install</keyword>",
+        "        <keyword>cooling</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.658440+00:00"
+    },
+    {
+      "id": "f284c668-50bd-4606-8972-4accf9253aa6",
+      "file": "installation/unboxing_sms_shipment_box.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the contents of the SMS shipment box ...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Unboxing_SMS_Shipment\" xml:lang=\"en-us\">",
+        "   <title>Unboxing SMS shipment box</title>",
+        "   <shortdesc>This section describes the contents of the SMS shipment box and lists the other installation</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>motor</keyword>",
+        "        <keyword>shipment</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.967149+00:00"
+    },
+    {
+      "id": "72a15fc3-6fd9-4d4f-b74e-c93246c43ed0",
+      "file": "installation/installation_dos_and_don_ts.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the correct and incorrect positioning...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE concept",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"_Installation_-_Dos\" xml:lang=\"en-us\">",
+        "   <title>Installation - Dos and don\u2019ts</title>",
+        "   <shortdesc>This section describes the correct and incorrect positioning of an on a motor.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>motor</keyword>",
+        "        <keyword>Incorrect</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.973662+00:00"
+    },
+    {
+      "id": "ad17e52f-4be1-4238-9c00-6b21ffa1c30b",
+      "file": "installation/install_sms_device_to_a_motor_without_cooling_ribs.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an to a mot...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_If_your_motor\" xml:lang=\"en-us\">",
+        "   <title>Install SMS device to a motor without cooling ribs</title>",
+        "   <shortdesc>This section describes the process of installing an to a motor without cooling ribs.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>motor</keyword>",
+        "        <keyword>cooling</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.995866+00:00"
+    },
+    {
+      "id": "eb5896b2-7f2f-4a30-81cf-96582c4bba3c",
+      "file": "installation/commission_sms_using_the.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of commissioning a new .'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Downloading_SMS_mobile\" xml:lang=\"en-us\">",
+        "   <title>Commission SMS using the</title>",
+        "   <shortdesc>This section describes the process of commissioning a new .</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>process</keyword>",
+        "        <keyword>Commission</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.980557+00:00"
+    },
+    {
+      "id": "78808885-22cd-4ce0-9c1e-e81f6a61630d",
+      "file": "installation/add_a_motor_to_an_unpaired.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes how to add motor details to a previou...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Toc187970778\" xml:lang=\"en-us\">",
+        "   <title>Add a motor to an unpaired</title>",
+        "   <shortdesc>This section describes how to add motor details to a previously commissioned .</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>motor</keyword>",
+        "        <keyword>unpaired</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.987911+00:00"
+    },
+    {
+      "id": "991b7544-6bf4-436c-862f-05d17c86b6fc",
+      "file": "installation/enter_motor_details.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes how to enter motor information in the...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Enter_motor_details\" xml:lang=\"en-us\">",
+        "   <title>Enter motor details</title>",
+        "   <shortdesc>This section describes how to enter motor information in the .</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>motor</keyword>",
+        "        <keyword>Bearing</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.275268+00:00"
+    },
+    {
+      "id": "ebe4f608-914a-41b3-bd75-2767658ed41a",
+      "file": "installation/assign_a_location_plant_and_process.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes how to assign location, plant, and pr...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Add_tags_to\" xml:lang=\"en-us\">",
+        "   <title>Assign a location, plant and process</title>",
+        "   <shortdesc>This section describes how to assign location, plant, and process attributes to the motor with</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>plant</keyword>",
+        "        <keyword>process</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.281320+00:00"
+    },
+    {
+      "id": "7b7749eb-0ecf-483d-ae80-896935984126",
+      "file": "installation/installation.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an on a mot...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Toc187970773\" xml:lang=\"en-us\">",
+        "   <title>Installation</title>",
+        "   <shortdesc>This section describes the process of installing an on a motor. The installation process has</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>process</keyword>",
+        "        <keyword>motor</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.289433+00:00"
+    },
+    {
+      "id": "8f41f233-4452-4de4-8588-b8b5bb68c5bc",
+      "file": "maintenance/maintenance.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure for replacing or repair...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE topic PUBLIC \"-//OASIS//DTD DITA 2.x Topic//EN\" \"topic.dtd\">",
+        "<topic id=\"_Toc187970785\" xml:lang=\"en-us\">",
+        "   <title>Maintenance</title>",
+        "   <shortdesc>This section describes the procedure for replacing or repairing a motor and replacing the batteries</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>Maintenance</keyword>",
+        "        <keyword>replacing</keyword>",
+        "        <keyword>section</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.294613+00:00"
+    },
+    {
+      "id": "9c2847ff-340f-4366-9559-ee54b990ddef",
+      "file": "maintenance/replacing_the_batteries.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure for replacing the batte...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+        "<!DOCTYPE concept PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"_Toc187970787\" xml:lang=\"en-us\">",
+        "   <title>Replacing the batteries</title>",
+        "   <shortdesc>This section describes the procedure for replacing the batteries of an .</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>batteries</keyword>",
+        "        <keyword>motor</keyword>",
+        "        <keyword>battery</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.310571+00:00"
+    },
+    {
+      "id": "1156ac2f-29bd-49d7-a550-c9468b479720",
+      "file": "post_installation/post_installation.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes how to verify if the is connected and...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Post_Installation\" xml:lang=\"en-us\">",
+        "   <title>Post Installation</title>",
+        "   <shortdesc>This section describes how to verify if the is connected and transmitting data.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>corresponding</keyword>",
+        "        <keyword>Select</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.576708+00:00"
+    },
+    {
+      "id": "ac31f63e-fd6c-4aa1-895a-c6a9c0fb425b",
+      "file": "reference/tutorial_videos.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<taskbody> has no <steps> or <steps-unordered> element",
+      "category": "missing_steps",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "<taskbody> has no <steps> or <steps-unordered> element.\nA task topic must have a `<steps>` element inside `<taskbody>` containing at least one `<step><cmd>...</cmd></step>`. Add the steps structure or convert the topic type to concept if it is not procedural.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.003939+00:00"
+    },
+    {
+      "id": "aec6ffd5-d8a6-4d06-9cbf-b50be227876b",
+      "file": "reference/recommendations_to_purchase_a_router.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<taskbody> has no <steps> or <steps-unordered> element",
+      "category": "missing_steps",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "<taskbody> has no <steps> or <steps-unordered> element.\nA task topic must have a `<steps>` element inside `<taskbody>` containing at least one `<step><cmd>...</cmd></step>`. Add the steps structure or convert the topic type to concept if it is not procedural.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.009686+00:00"
+    },
+    {
+      "id": "2e0775da-45a1-4e82-84c2-b05b86a6766d",
+      "file": "reference/recommended_features.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<taskbody> has no <steps> or <steps-unordered> element",
+      "category": "missing_steps",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "<taskbody> has no <steps> or <steps-unordered> element.\nA task topic must have a `<steps>` element inside `<taskbody>` containing at least one `<step><cmd>...</cmd></step>`. Add the steps structure or convert the topic type to concept if it is not procedural.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.016692+00:00"
+    },
+    {
+      "id": "f5268c95-0cc3-4c24-9594-87c14b73dff9",
+      "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+      "line": 24,
+      "severity": "WARNING",
+      "issue": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "category": "section_missing_title",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "      </keywords>",
+        "      <prodinfo>",
+        "        <prodname></prodname>",
+        "      </prodinfo>",
+        "    </metadata>",
+        "  </prolog>",
+        "   <refbody>    <section>",
+        "      <p>The  leverages the AWS Cloud to provide scalable and reliable Internet-of-Things (IoT) connectivity. :</p>",
+        "      <p>AWS publishes the complete list of AWS IP ranges used by their cloud services at <xref href=\"https://ip-ranges.amazonaws.com/ip-ranges.json\" scope=\"external\" format=\"html\">https://ip-ranges.amazonaws.com/ip-ranges.json</xref>. This list is dynamic, and the IP addresses change periodically. Your Network Administrator can subscribe to notifications about changes and apply these to maintain your network firewall configuration. Access full details at <xref href=\"https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html\" scope=\"external\" format=\"html\">https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html</xref>",
+        "      </p>",
+        "    </section></refbody>",
+        "</reference>"
+      ],
+      "affected_lines": [
+        24
+      ],
+      "suggestion": "<section> #1 has no <title> \u2014 recommended for DITA compliance.\nAdd a `<title>` element as the first child of the `<section>` element.\nExample: `<section><title>Section Title</title><p>...</p></section>`",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.022039+00:00"
+    },
+    {
+      "id": "f6e79bf0-976b-43b2-b19b-6bc41016e957",
+      "file": "reference/reference.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section provides'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE topic PUBLIC \"-//OASIS//DTD DITA 2.x Topic//EN\" \"topic.dtd\">",
+        "<topic id=\"_Toc187970790\" xml:lang=\"en-us\">",
+        "   <title>Reference</title>",
+        "   <shortdesc>This section provides</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>Reference</keyword>",
+        "        <keyword>information</keyword>",
+        "        <keyword>section</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.592656+00:00"
+    },
+    {
+      "id": "07e0f71f-fe44-40c1-bebc-8fa985ffc26d",
+      "file": "intended_audience/intended_audience.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the intended audience for this guide.'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE concept",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"_Toc187970756\" xml:lang=\"en-us\">",
+        "   <title>Intended audience</title>",
+        "   <shortdesc>This section describes the intended audience for this guide.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>audience</keyword>",
+        "        <keyword>Intended</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.568299+00:00"
+    },
+    {
+      "id": "551bb2c8-7984-4802-ae09-4325555ce52e",
+      "file": "getting_started/validate_wi_fi_network.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes how to validate your plant\u2019s Wi-Fi ne...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+        "<!DOCTYPE concept PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"_Validate_Wi-Fi_Network\" xml:lang=\"en-us\">",
+        "   <title>Validate Wi-Fi network</title>",
+        "   <shortdesc>This section describes how to validate your plant\u2019s Wi-Fi network. This is to ensure that</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>network</keyword>",
+        "        <keyword>Network</keyword>",
+        "        <keyword>Validate</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.586562+00:00"
+    },
+    {
+      "id": "980f6fd3-69d0-43a7-a56f-82c2d95cbf0e",
+      "file": "getting_started/verify_network_requirements.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<taskbody> has no <steps> or <steps-unordered> element",
+      "category": "missing_steps",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "<taskbody> has no <steps> or <steps-unordered> element.\nA task topic must have a `<steps>` element inside `<taskbody>` containing at least one `<step><cmd>...</cmd></step>`. Add the steps structure or convert the topic type to concept if it is not procedural.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.027808+00:00"
+    },
+    {
+      "id": "472dc4a2-24a0-4f41-97d4-378cbd4015d4",
+      "file": "getting_started/verify_network_requirements.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the Wi-Fi network configuration requi...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Verify_network_requirements\" xml:lang=\"en-us\">",
+        "   <title>Verify network requirements</title>",
+        "   <shortdesc>This section describes the Wi-Fi network configuration required to connect an to the . It</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>network</keyword>",
+        "        <keyword>Verify</keyword>",
+        "        <keyword>requirements</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.607727+00:00"
+    },
+    {
+      "id": "9c9cba6d-440e-4c06-8211-960b3d1d8efd",
+      "file": "getting_started/configure_firewall_ports.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes what to do if you have a corporate fi...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Toc187970764\" xml:lang=\"en-us\">",
+        "   <title>Configure firewall ports</title>",
+        "   <shortdesc>This section describes what to do if you have a corporate firewall.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>firewall</keyword>",
+        "        <keyword>ports</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.856582+00:00"
+    },
+    {
+      "id": "542a5188-96eb-43ab-806a-4201ae70bec5",
+      "file": "getting_started/getting_started.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the necessary steps to be taken befor...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE concept",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"_Toc187970761\" xml:lang=\"en-us\">",
+        "   <title>Getting Started</title>",
+        "   <shortdesc>This section describes the necessary steps to be taken before installation.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>Getting</keyword>",
+        "        <keyword>Started</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.870547+00:00"
+    },
+    {
+      "id": "c19b85a9-c5c4-4988-bb6a-9d109682720d",
+      "file": "getting_started/keep_sms_shipment_box_handy.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the installation tools required.'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE concept",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"_Toc187970771\" xml:lang=\"en-us\">",
+        "   <title>Keep SMS shipment box handy</title>",
+        "   <shortdesc>This section describes the installation tools required.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>shipment</keyword>",
+        "        <keyword>installation</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.886535+00:00"
+    },
+    {
+      "id": "c9738f7a-f613-4da5-aafd-fcb2d7890071",
+      "file": "getting_started/verify_wi_fi_network_configuration.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of verifying the Wi-Fi ac...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Verify_Wi-Fi_network\" xml:lang=\"en-us\">",
+        "   <title>Verify Wi-Fi network configuration</title>",
+        "   <shortdesc>This section describes the process of verifying the Wi-Fi access point, the Wi-Fi security type,</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>network</keyword>",
+        "        <keyword>router</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.878175+00:00"
+    },
+    {
+      "id": "bb097593-fc1a-4277-a43b-2f2b9ef6d72e",
+      "file": "getting_started/connect_mobile_device_to_an_existing_wi_fi_network.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes how to connect your smartphone or tab...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Collect_motor_information\" xml:lang=\"en-us\">",
+        "   <title>Connect mobile device to an existing Wi-Fi network</title>",
+        "   <shortdesc>This section describes how to connect your smartphone or tablet to an existing Wi-Fi network</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>network</keyword>",
+        "        <keyword>device</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:20.893086+00:00"
+    },
+    {
+      "id": "7c73ddb2-d767-4245-9a71-6853acc35b5e",
+      "file": "getting_started/whitelist_domains.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the domains that you need to whitelis...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE concept",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"_Toc187970765\" xml:lang=\"en-us\">",
+        "   <title>Whitelist domains</title>",
+        "   <shortdesc>This section describes the domains that you need to whitelist.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>domains</keyword>",
+        "        <keyword>Whitelist</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:21.136036+00:00"
+    },
+    {
+      "id": "cef5c05f-4fe9-4575-94c5-b9e2e67760be",
+      "file": "getting_started/download.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of downloading the to you...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Download_SMS_mobile\" xml:lang=\"en-us\">",
+        "   <title>Download</title>",
+        "   <shortdesc>This section describes the process of downloading the to your mobile device.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>mobile</keyword>",
+        "        <keyword>Download</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:21.171615+00:00"
+    },
+    {
+      "id": "a3103d7d-4342-455f-94be-6504cd47c67d",
+      "file": "getting_started/read_and_fill_motor_information_form.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "<taskbody> has no <steps> or <steps-unordered> element",
+      "category": "missing_steps",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "<taskbody> has no <steps> or <steps-unordered> element.\nA task topic must have a `<steps>` element inside `<taskbody>` containing at least one `<step><cmd>...</cmd></step>`. Add the steps structure or convert the topic type to concept if it is not procedural.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.032301+00:00"
+    },
+    {
+      "id": "63cfabe2-6f92-4bce-b120-cdcf5e7e0feb",
+      "file": "getting_started/read_and_fill_motor_information_form.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure for filling out the Mot...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Read_and_fill\" xml:lang=\"en-us\">",
+        "   <title>Read and fill Motor Information Form</title>",
+        "   <shortdesc>This section describes the procedure for filling out the Motor Information Form.</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>Motor</keyword>",
+        "        <keyword>Information</keyword>",
+        "        <keyword>Form</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:21.176876+00:00"
+    },
+    {
+      "id": "622be00d-dd4e-4af8-b5b8-037ebdb7dfeb",
+      "file": "getting_started/activate_sms_account.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of activating your SMS ac...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE task",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Task//EN\" \"task.dtd\">",
+        "<task id=\"_Activating_SMS_account\" xml:lang=\"en-us\">",
+        "   <title>Activate SMS account</title>",
+        "   <shortdesc>This section describes the process of activating your SMS account to be able to log</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>account</keyword>",
+        "        <keyword>email</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:21.192366+00:00"
+    },
+    {
+      "id": "9b6c13aa-fab1-4e15-8ffb-a145b46c5c94",
+      "file": "getting_started/prepare_a_mobile_device.dita",
+      "line": 5,
+      "severity": "WARNING",
+      "issue": "<shortdesc> starts with generic opener 'this section': 'This section describes the mobile devices and the OS version...'",
+      "category": "shortdesc_too_generic",
+      "source": "enrichment_fix_report.new_issues_introduced_by_ai",
+      "context_lines": [
+        "<?xml version='1.0' encoding='UTF-8'?>",
+        "<!DOCTYPE concept",
+        "  PUBLIC \"-//OASIS//DTD DITA 2.x Concept//EN\" \"concept.dtd\">",
+        "<concept id=\"_Toc187970766\" xml:lang=\"en-us\">",
+        "   <title>Prepare a mobile device</title>",
+        "   <shortdesc>This section describes the mobile devices and the OS versions compatible with the .</shortdesc>",
+        "  <prolog>",
+        "    <metadata>",
+        "      <keywords>",
+        "        <keyword>mobile</keyword>",
+        "        <keyword>device</keyword>"
+      ],
+      "affected_lines": [
+        5
+      ],
+      "suggestion": "Could not generate an AI suggestion \u2014 please review the issue manually.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:21.184907+00:00"
+    },
+    {
+      "id": "37ed3775-f34c-4dcb-b341-b15b17d10ac1",
+      "file": "getting_started/validate_wi_fi_network.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+      "category": "dtd_violation",
+      "source": "dita_validation_gate2",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to..\nA DTD structural violation was detected by the backend validator. Review the element or attribute named above against the DITA 1.3 DTD and correct the parent/child relationship or attribute value.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.037380+00:00"
+    },
+    {
+      "id": "61d61e3c-6e3a-4878-ba1e-7312e1f9a3d5",
+      "file": "introduction/how_does_sms_device_work.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+      "category": "dtd_violation",
+      "source": "dita_validation_gate2",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to..\nA DTD structural violation was detected by the backend validator. Review the element or attribute named above against the DITA 1.3 DTD and correct the parent/child relationship or attribute value.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.041708+00:00"
+    },
+    {
+      "id": "2c747e68-03e0-4090-bc39-0f976cda36ed",
+      "file": "maintenance/repairing_or_replacing_a_motor.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+      "category": "dtd_violation",
+      "source": "dita_validation_gate2",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to..\nA DTD structural violation was detected by the backend validator. Review the element or attribute named above against the DITA 1.3 DTD and correct the parent/child relationship or attribute value.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.046885+00:00"
+    },
+    {
+      "id": "c82cfe1c-2f7d-42c6-a3f5-235d97e7a95e",
+      "file": "maintenance/replacing_the_batteries.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+      "category": "dtd_violation",
+      "source": "dita_validation_gate2",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to..\nA DTD structural violation was detected by the backend validator. Review the element or attribute named above against the DITA 1.3 DTD and correct the parent/child relationship or attribute value.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.051952+00:00"
+    },
+    {
+      "id": "f7e6f16b-1470-44dc-8cf5-98d74b8838b2",
+      "file": "reference/federal_communication_commission_interference_statement.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+      "category": "dtd_violation",
+      "source": "dita_validation_gate2",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to..\nA DTD structural violation was detected by the backend validator. Review the element or attribute named above against the DITA 1.3 DTD and correct the parent/child relationship or attribute value.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.055752+00:00"
+    },
+    {
+      "id": "46ea5b5d-efc8-4624-aa85-448eb9f16627",
+      "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+      "line": null,
+      "severity": "WARNING",
+      "issue": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+      "category": "dtd_violation",
+      "source": "dita_validation_gate2",
+      "context_lines": [],
+      "affected_lines": [],
+      "suggestion": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to..\nA DTD structural violation was detected by the backend validator. Review the element or attribute named above against the DITA 1.3 DTD and correct the parent/child relationship or attribute value.",
+      "status": "pending",
+      "created_at": "2026-08-19T10:20:19.059913+00:00"
+    }
+  ],
+  "pending_count": 59,
+  "accepted_count": 0,
+  "edited_count": 0,
+  "dismissed_count": 0
+}

@@ -1,0 +1,717 @@
+================================================================================
+ metR DOCX DocMigrate — TRANSFORMATION REPORT
+================================================================================
+ Source File           : OtoSense Installation Guide.docx
+ Files Converted       : 1
+ Topics Generated      : 52
+ DITA Maps Generated   : 9
+ Started               : 2026-08-19 10:13:25 UTC
+ Completed             : 2026-08-19 10:13:27 UTC
+ Duration              : 1s
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+
+[2026-08-19T10:13:25.905483+00:00] conversion_started working.
+[2026-08-19T10:13:25.911269+00:00] ConversionService class is running.
+[2026-08-19T10:13:25.911652+00:00] transformation_started working on input source
+[2026-08-19T10:13:26.053891+00:00] detect_docx_toc No TOC styles or field codes detected.
+[2026-08-19T10:13:26.053997+00:00] detect_docx_toc No TOC styles, field codes, or SDT detected.
+[2026-08-19T10:13:26.057027+00:00] PipelineOrchestrator TOC DETECTED = False
+[2026-08-19T10:13:26.057290+00:00] toc_detection Document analysis: No Table of Contents found.
+[2026-08-19T10:13:26.062513+00:00] PipelineOrchestrator Starting conversion pipeline for 'OtoSense Installation Guide.docx'.
+[2026-08-19T10:13:26.062836+00:00] DocxToHtmlProcessor Converting 'OtoSense Installation Guide.docx' from DOCX to HTML.
+[2026-08-19T10:13:26.063047+00:00] step_docx_to_html_started Step 1/7: Converting 'OtoSense Installation Guide.docx' from DOCX to HTML.
+[2026-08-19T10:13:26.068044+00:00] DocxToHtmlProcessor Opening DOCX archive: 'OtoSense Installation Guide.docx'.
+[2026-08-19T10:13:26.069134+00:00] DocxToHtmlProcessor Reading relationships.
+[2026-08-19T10:13:26.069245+00:00] DocxToHtmlProcessor Parsing relationships from 'word/_rels/document.xml.rels'.
+[2026-08-19T10:13:26.070054+00:00] DocxToHtmlProcessor Extracted 89 relationship(s).
+[2026-08-19T10:13:26.070168+00:00] DocxToHtmlProcessor Extracting media files.
+[2026-08-19T10:13:26.070422+00:00] DocxToHtmlProcessor Copying 59 media file(s).
+[2026-08-19T10:13:26.071054+00:00] DocxToHtmlProcessor Media copied: 'image11.png'.
+[2026-08-19T10:13:26.071512+00:00] DocxToHtmlProcessor Media copied: 'image8.png'.
+[2026-08-19T10:13:26.071957+00:00] DocxToHtmlProcessor Media copied: 'image27.png'.
+[2026-08-19T10:13:26.074808+00:00] DocxToHtmlProcessor Media copied: 'image32.png'.
+[2026-08-19T10:13:26.079212+00:00] DocxToHtmlProcessor Media copied: 'image47.png'.
+[2026-08-19T10:13:26.080134+00:00] DocxToHtmlProcessor Media copied: 'image52.jpeg'.
+[2026-08-19T10:13:26.080591+00:00] DocxToHtmlProcessor Media copied: 'image3.png'.
+[2026-08-19T10:13:26.082263+00:00] DocxToHtmlProcessor Media copied: 'image17.png'.
+[2026-08-19T10:13:26.082984+00:00] DocxToHtmlProcessor Media copied: 'image22.png'.
+[2026-08-19T10:13:26.083445+00:00] DocxToHtmlProcessor Media copied: 'image37.png'.
+[2026-08-19T10:13:26.086520+00:00] DocxToHtmlProcessor Media copied: 'image42.png'.
+[2026-08-19T10:13:26.087179+00:00] DocxToHtmlProcessor Media copied: 'image58.png'.
+[2026-08-19T10:13:26.088211+00:00] DocxToHtmlProcessor Media copied: 'image60.png'.
+[2026-08-19T10:13:26.088862+00:00] DocxToHtmlProcessor Media copied: 'image9.png'.
+[2026-08-19T10:13:26.089335+00:00] DocxToHtmlProcessor Media copied: 'image12.png'.
+[2026-08-19T10:13:26.090054+00:00] DocxToHtmlProcessor Media copied: 'image15.png'.
+[2026-08-19T10:13:26.090734+00:00] DocxToHtmlProcessor Media copied: 'image20.png'.
+[2026-08-19T10:13:26.091106+00:00] DocxToHtmlProcessor Media copied: 'image28.png'.
+[2026-08-19T10:13:26.092352+00:00] DocxToHtmlProcessor Media copied: 'image40.png'.
+[2026-08-19T10:13:26.095014+00:00] DocxToHtmlProcessor Media copied: 'image48.png'.
+[2026-08-19T10:13:26.098339+00:00] DocxToHtmlProcessor Media copied: 'image53.png'.
+[2026-08-19T10:13:26.100383+00:00] DocxToHtmlProcessor Media copied: 'image35.png'.
+[2026-08-19T10:13:26.101177+00:00] DocxToHtmlProcessor Media copied: 'image56.png'.
+[2026-08-19T10:13:26.101573+00:00] DocxToHtmlProcessor Media copied: 'image4.png'.
+[2026-08-19T10:13:26.102218+00:00] DocxToHtmlProcessor Media copied: 'image18.png'.
+[2026-08-19T10:13:26.102596+00:00] DocxToHtmlProcessor Media copied: 'image23.png'.
+[2026-08-19T10:13:26.103065+00:00] DocxToHtmlProcessor Media copied: 'image31.png'.
+[2026-08-19T10:13:26.103775+00:00] DocxToHtmlProcessor Media copied: 'image43.jpeg'.
+[2026-08-19T10:13:26.105110+00:00] DocxToHtmlProcessor Media copied: 'image51.png'.
+[2026-08-19T10:13:26.106721+00:00] DocxToHtmlProcessor Media copied: 'image7.png'.
+[2026-08-19T10:13:26.107483+00:00] DocxToHtmlProcessor Media copied: 'image26.png'.
+[2026-08-19T10:13:26.109226+00:00] DocxToHtmlProcessor Media copied: 'image38.png'.
+[2026-08-19T10:13:26.113488+00:00] DocxToHtmlProcessor Media copied: 'image46.png'.
+[2026-08-19T10:13:26.114090+00:00] DocxToHtmlProcessor Media copied: 'image54.png'.
+[2026-08-19T10:13:26.114519+00:00] DocxToHtmlProcessor Media copied: 'image59.png'.
+[2026-08-19T10:13:26.116036+00:00] DocxToHtmlProcessor Media copied: 'image2.png'.
+[2026-08-19T10:13:26.116421+00:00] emf_converter Trying EMF -> PNG: 'image10.emf'.
+[2026-08-19T10:13:26.118898+00:00] emf_converter Trying EMF -> JPG: 'image10.emf'.
+[2026-08-19T10:13:26.120219+00:00] emf_converter Trying EMF -> SVG: 'image10.emf'.
+[2026-08-19T10:13:26.121921+00:00] emf_converter Trying EMF -> BMP: 'image10.emf'.
+[2026-08-19T10:13:26.124806+00:00] emf_converter Trying EMF -> GIF: 'image10.emf'.
+[2026-08-19T10:13:26.126311+00:00] emf_converter Trying EMF -> TIFF: 'image10.emf'.
+[2026-08-19T10:13:26.130172+00:00] emf_converter class is failing. Error: All format attempts failed for 'image10.emf' -- original EMF kept.
+[2026-08-19T10:13:26.130217+00:00] DocxToHtmlProcessor Could not convert EMF 'image10.emf' -- keeping original.
+[2026-08-19T10:13:26.130232+00:00] DocxToHtmlProcessor Media copied: 'image10.emf'.
+[2026-08-19T10:13:26.130889+00:00] DocxToHtmlProcessor Media copied: 'image13.png'.
+[2026-08-19T10:13:26.131580+00:00] DocxToHtmlProcessor Media copied: 'image21.png'.
+[2026-08-19T10:13:26.134154+00:00] DocxToHtmlProcessor Media copied: 'image33.png'.
+[2026-08-19T10:13:26.136973+00:00] DocxToHtmlProcessor Media copied: 'image41.png'.
+[2026-08-19T10:13:26.137398+00:00] DocxToHtmlProcessor Media copied: 'image16.png'.
+[2026-08-19T10:13:26.137857+00:00] DocxToHtmlProcessor Media copied: 'image29.png'.
+[2026-08-19T10:13:26.139802+00:00] DocxToHtmlProcessor Media copied: 'image36.png'.
+[2026-08-19T10:13:26.140852+00:00] DocxToHtmlProcessor Media copied: 'image44.png'.
+[2026-08-19T10:13:26.144444+00:00] DocxToHtmlProcessor Media copied: 'image49.png'.
+[2026-08-19T10:13:26.145089+00:00] DocxToHtmlProcessor Media copied: 'image57.png'.
+[2026-08-19T10:13:26.145792+00:00] DocxToHtmlProcessor Media copied: 'image5.png'.
+[2026-08-19T10:13:26.146221+00:00] DocxToHtmlProcessor Media copied: 'image24.png'.
+[2026-08-19T10:13:26.146617+00:00] DocxToHtmlProcessor Media copied: 'image19.png'.
+[2026-08-19T10:13:26.148438+00:00] DocxToHtmlProcessor Media copied: 'image34.png'.
+[2026-08-19T10:13:26.149995+00:00] DocxToHtmlProcessor Media copied: 'image39.png'.
+[2026-08-19T10:13:26.150429+00:00] DocxToHtmlProcessor Media copied: 'image55.jpeg'.
+[2026-08-19T10:13:26.150897+00:00] DocxToHtmlProcessor Media copied: 'image14.png'.
+[2026-08-19T10:13:26.151321+00:00] DocxToHtmlProcessor Media copied: 'image25.png'.
+[2026-08-19T10:13:26.151826+00:00] DocxToHtmlProcessor Media copied: 'image30.png'.
+[2026-08-19T10:13:26.156086+00:00] DocxToHtmlProcessor Media copied: 'image50.png'.
+[2026-08-19T10:13:26.159771+00:00] DocxToHtmlProcessor Media copied: 'image45.png'.
+[2026-08-19T10:13:26.160336+00:00] DocxToHtmlProcessor Media copied: 'image6.png'.
+[2026-08-19T10:13:26.160377+00:00] DocxToHtmlProcessor Media copy complete -- 59 file(s) exported.
+[2026-08-19T10:13:26.160400+00:00] DocxToHtmlProcessor Reading list numbering definitions.
+[2026-08-19T10:13:26.160440+00:00] DocxToHtmlProcessor Parsing 'word/numbering.xml' for list type map.
+[2026-08-19T10:13:26.175493+00:00] DocxToHtmlProcessor Numbering map built with 77 numId(s).
+[2026-08-19T10:13:26.176838+00:00] DocxToHtmlProcessor Reading 'word/document.xml'.
+[2026-08-19T10:13:26.178654+00:00] DocxToHtmlProcessor Parsing 'word/document.xml' XML structure.
+[2026-08-19T10:13:26.221860+00:00] DocxToHtmlProcessor Processing document body paragraphs for 'OtoSense Installation Guide.docx'.
+[2026-08-19T10:13:26.296446+00:00] DocxToHtmlProcessor Document body processed — 488 HTML block(s) generated for 'OtoSense Installation Guide.docx'.
+[2026-08-19T10:13:26.299682+00:00] DocxToHtmlProcessor DOCX to HTML conversion complete.
+[2026-08-19T10:13:26.300250+00:00] step_docx_to_html_complete DOCX-to-HTML conversion complete: 59 image(s) extracted.
+[2026-08-19T10:13:26.304736+00:00] HtmlToDitaNormalizer Normalizing generated HTML for DITA conversion.
+[2026-08-19T10:13:26.305002+00:00] step_normalize_html_started Step 2/7: Normalizing HTML for DITA conversion.
+[2026-08-19T10:13:26.310737+00:00] helper_port.py class is running.
+[2026-08-19T10:13:26.531399+00:00] HtmlToDitaNormalizer HTML normalization complete.
+[2026-08-19T10:13:26.531477+00:00] step_normalize_html_complete HTML normalization complete.
+[2026-08-19T10:13:26.620139+00:00] TopicSplitter Splitting HTML content into topics.
+[2026-08-19T10:13:26.620199+00:00] step_split_topics_started Step 3/7: Splitting document into topics.
+[2026-08-19T10:13:26.720064+00:00] TopicSplitter Found 52 topics.
+[2026-08-19T10:13:26.720135+00:00] topics_split Document split into 52 topic(s).
+[2026-08-19T10:13:26.724286+00:00] TopicWriter Writing topics to .dita files.
+[2026-08-19T10:13:26.724339+00:00] step_write_topics_started Step 4/7: Writing 52 topic(s) to DITA files.
+[2026-08-19T10:13:26.728541+00:00] TopicWriter Starting to write 52 topics.
+[2026-08-19T10:13:26.728775+00:00] TopicWriter Building topic tree hierarchy.
+[2026-08-19T10:13:26.728803+00:00] TopicWriter Building topic tree from 52 flat topic(s).
+[2026-08-19T10:13:26.728851+00:00] TopicWriter Topic tree built — 8 root node(s).
+[2026-08-19T10:13:26.728869+00:00] TopicWriter Assigning output paths to all topics.
+[2026-08-19T10:13:26.728893+00:00] TopicWriter Assigning output paths for 8 node(s).
+[2026-08-19T10:13:26.729258+00:00] TopicWriter Assigned path for topic 'Intended audience': 'intended_audience.dita'.
+[2026-08-19T10:13:26.729458+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-19T10:13:26.729525+00:00] TopicWriter Assigned path for topic 'Benefits': 'benefits.dita'.
+[2026-08-19T10:13:26.729563+00:00] TopicWriter Assigned path for topic 'How does SMS device work?': 'how_does_sms_device_work.dita'.
+[2026-08-19T10:13:26.729617+00:00] TopicWriter Assigned path for topic 'Motor compatibility': 'motor_compatibility.dita'.
+[2026-08-19T10:13:26.729659+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-19T10:13:26.729689+00:00] TopicWriter Assigned path for topic 'Introduction': 'introduction.dita'.
+[2026-08-19T10:13:26.729851+00:00] TopicWriter Assigning output paths for 8 node(s).
+[2026-08-19T10:13:26.729913+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-19T10:13:26.729948+00:00] TopicWriter Assigned path for topic 'Verify Wi-Fi network configuration': 'verify_wi_fi_network_configuration.dita'.
+[2026-08-19T10:13:26.730017+00:00] TopicWriter Assigned path for topic 'Configure firewall ports': 'configure_firewall_ports.dita'.
+[2026-08-19T10:13:26.730051+00:00] TopicWriter Assigned path for topic 'Whitelist domains': 'whitelist_domains.dita'.
+[2026-08-19T10:13:26.730064+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-19T10:13:26.730100+00:00] TopicWriter Assigned path for topic 'Verify network requirements': 'verify_network_requirements.dita'.
+[2026-08-19T10:13:26.730148+00:00] TopicWriter Assigned path for topic 'Prepare a mobile device': 'prepare_a_mobile_device.dita'.
+[2026-08-19T10:13:26.730181+00:00] TopicWriter Assigned path for topic 'Download': 'download.dita'.
+[2026-08-19T10:13:26.730232+00:00] TopicWriter Assigned path for topic 'Activate SMS account': 'activate_sms_account.dita'.
+[2026-08-19T10:13:26.730265+00:00] TopicWriter Assigned path for topic 'Connect mobile device to an existing Wi-Fi network': 'connect_mobile_device_to_an_existing_wi_fi_network.dita'.
+[2026-08-19T10:13:26.730320+00:00] TopicWriter Assigned path for topic 'Validate Wi-Fi network': 'validate_wi_fi_network.dita'.
+[2026-08-19T10:13:26.730350+00:00] TopicWriter Assigned path for topic 'Keep SMS shipment box handy': 'keep_sms_shipment_box_handy.dita'.
+[2026-08-19T10:13:26.730406+00:00] TopicWriter Assigned path for topic 'Read and fill Motor Information Form': 'read_and_fill_motor_information_form.dita'.
+[2026-08-19T10:13:26.730422+00:00] TopicWriter Path assignment complete for 8 node(s).
+[2026-08-19T10:13:26.730454+00:00] TopicWriter Assigned path for topic 'Getting Started': 'getting_started.dita'.
+[2026-08-19T10:13:26.730614+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:13:26.730701+00:00] TopicWriter Assigning output paths for 4 node(s).
+[2026-08-19T10:13:26.730755+00:00] TopicWriter Assigned path for topic 'Commission the': 'commission_the.dita'.
+[2026-08-19T10:13:26.730788+00:00] TopicWriter Assigned path for topic 'Enter motor details': 'enter_motor_details.dita'.
+[2026-08-19T10:13:26.730833+00:00] TopicWriter Assigned path for topic 'Assign a location, plant and process': 'assign_a_location_plant_and_process.dita'.
+[2026-08-19T10:13:26.730860+00:00] TopicWriter Assigned path for topic 'Add a motor to an unpaired': 'add_a_motor_to_an_unpaired.dita'.
+[2026-08-19T10:13:26.730869+00:00] TopicWriter Path assignment complete for 4 node(s).
+[2026-08-19T10:13:26.730879+00:00] TopicWriter Assigned path for topic 'Commission SMS using the': 'commission_sms_using_the.dita'.
+[2026-08-19T10:13:26.730903+00:00] TopicWriter Assigning output paths for 4 node(s).
+[2026-08-19T10:13:26.730926+00:00] TopicWriter Assigned path for topic 'Unboxing SMS shipment box': 'unboxing_sms_shipment_box.dita'.
+[2026-08-19T10:13:26.731038+00:00] TopicWriter Assigned path for topic 'Installation - Dos and don’ts': 'installation_dos_and_don_ts.dita'.
+[2026-08-19T10:13:26.731072+00:00] TopicWriter Assigned path for topic 'Install  to a motor with cooling ribs': 'install_to_a_motor_with_cooling_ribs.dita'.
+[2026-08-19T10:13:26.731101+00:00] TopicWriter Assigned path for topic 'Install SMS device to a motor without cooling ribs': 'install_sms_device_to_a_motor_without_cooling_ribs.dita'.
+[2026-08-19T10:13:26.731112+00:00] TopicWriter Path assignment complete for 4 node(s).
+[2026-08-19T10:13:26.731122+00:00] TopicWriter Assigned path for topic 'Install  on a motor': 'install_on_a_motor.dita'.
+[2026-08-19T10:13:26.731131+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:13:26.731141+00:00] TopicWriter Assigned path for topic 'Installation': 'installation.dita'.
+[2026-08-19T10:13:26.731268+00:00] TopicWriter Assigned path for topic 'Post Installation': 'post_installation.dita'.
+[2026-08-19T10:13:26.731381+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:13:26.731418+00:00] TopicWriter Assigned path for topic 'Repairing or replacing a motor': 'repairing_or_replacing_a_motor.dita'.
+[2026-08-19T10:13:26.731444+00:00] TopicWriter Assigned path for topic 'Replacing the batteries': 'replacing_the_batteries.dita'.
+[2026-08-19T10:13:26.731454+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:13:26.731464+00:00] TopicWriter Assigned path for topic 'Maintenance': 'maintenance.dita'.
+[2026-08-19T10:13:26.731579+00:00] TopicWriter Assigning output paths for 1 node(s).
+[2026-08-19T10:13:26.731614+00:00] TopicWriter Assigned path for topic 'Unable to commission  within 5 minutes': 'unable_to_commission_within_5_minutes.dita'.
+[2026-08-19T10:13:26.731649+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-08-19T10:13:26.731660+00:00] TopicWriter Assigned path for topic 'Troubleshooting': 'troubleshooting.dita'.
+[2026-08-19T10:13:26.731772+00:00] TopicWriter Assigning output paths for 6 node(s).
+[2026-08-19T10:13:26.731804+00:00] TopicWriter Assigned path for topic 'Contact information': 'contact_information.dita'.
+[2026-08-19T10:13:26.731828+00:00] TopicWriter Assigned path for topic 'Tutorial videos': 'tutorial_videos.dita'.
+[2026-08-19T10:13:26.731853+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:13:26.731878+00:00] TopicWriter Assigned path for topic 'How to read a motor plate': 'how_to_read_a_motor_plate.dita'.
+[2026-08-19T10:13:26.731903+00:00] TopicWriter Assigned path for topic 'Correspondence between IEC and NEMA frames': 'correspondence_between_iec_and_nema_frames.dita'.
+[2026-08-19T10:13:26.731913+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:13:26.731923+00:00] TopicWriter Assigned path for topic 'Motor Information Form': 'motor_information_form.dita'.
+[2026-08-19T10:13:26.731948+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:13:26.731969+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:13:26.731991+00:00] TopicWriter Assigned path for topic 'Recommended features': 'recommended_features.dita'.
+[2026-08-19T10:13:26.732014+00:00] TopicWriter Assigned path for topic 'Examples of routers with recommended features': 'examples_of_routers_with_recommended_features.dita'.
+[2026-08-19T10:13:26.732027+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:13:26.732036+00:00] TopicWriter Assigned path for topic 'Routers': 'routers.dita'.
+[2026-08-19T10:13:26.732060+00:00] TopicWriter Assigned path for topic 'SIM cards and data plans': 'sim_cards_and_data_plans.dita'.
+[2026-08-19T10:13:26.732069+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:13:26.732079+00:00] TopicWriter Assigned path for topic 'Recommendations to purchase a router': 'recommendations_to_purchase_a_router.dita'.
+[2026-08-19T10:13:26.732101+00:00] TopicWriter Assigning output paths for 2 node(s).
+[2026-08-19T10:13:26.732123+00:00] TopicWriter Assigned path for topic 'Check Point firewall': 'check_point_firewall.dita'.
+[2026-08-19T10:13:26.732143+00:00] TopicWriter Assigned path for topic 'Palo Alto firewall': 'palo_alto_firewall.dita'.
+[2026-08-19T10:13:26.732156+00:00] TopicWriter Path assignment complete for 2 node(s).
+[2026-08-19T10:13:26.732165+00:00] TopicWriter Assigned path for topic 'Firewall support for AWS IP ranges': 'firewall_support_for_aws_ip_ranges.dita'.
+[2026-08-19T10:13:26.732187+00:00] TopicWriter Assigning output paths for 3 node(s).
+[2026-08-19T10:13:26.732210+00:00] TopicWriter Assigned path for topic 'Federal Communication Commission Interference Statement': 'federal_communication_commission_interference_statement.dita'.
+[2026-08-19T10:13:26.732231+00:00] TopicWriter Assigned path for topic 'Industry Canada Statement': 'industry_canada_statement.dita'.
+[2026-08-19T10:13:26.732251+00:00] TopicWriter Assigned path for topic 'EU Statement': 'eu_statement.dita'.
+[2026-08-19T10:13:26.732261+00:00] TopicWriter Path assignment complete for 3 node(s).
+[2026-08-19T10:13:26.732270+00:00] TopicWriter Assigned path for topic 'Certifications and regulatory': 'certifications_and_regulatory.dita'.
+[2026-08-19T10:13:26.732278+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-08-19T10:13:26.732287+00:00] TopicWriter Assigned path for topic 'Reference': 'reference.dita'.
+[2026-08-19T10:13:26.732295+00:00] TopicWriter Path assignment complete for 8 node(s).
+[2026-08-19T10:13:26.732310+00:00] TopicWriter Walking topic tree and writing DITA files.
+[2026-08-19T10:13:26.732321+00:00] TopicWriter Writing topic 'Intended audience' to .dita file.
+[2026-08-19T10:13:26.732333+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.732828+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.732993+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.733374+00:00] TopicWriter Topic 'intended_audience.dita' written successfully.
+[2026-08-19T10:13:26.733431+00:00] TopicWriter Writing topic 'Introduction' to .dita file.
+[2026-08-19T10:13:26.733454+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.734039+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.734242+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.734575+00:00] TopicWriter Topic 'introduction.dita' written successfully.
+[2026-08-19T10:13:26.734649+00:00] TopicWriter Writing topic 'Benefits' to .dita file.
+[2026-08-19T10:13:26.734672+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.735853+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.736148+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.736521+00:00] TopicWriter Topic 'benefits.dita' written successfully.
+[2026-08-19T10:13:26.736574+00:00] TopicWriter Writing topic 'How does SMS device work?' to .dita file.
+[2026-08-19T10:13:26.736592+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.737368+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.737683+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.738029+00:00] TopicWriter Topic 'how_does_sms_device_work.dita' written successfully.
+[2026-08-19T10:13:26.738086+00:00] TopicWriter Writing topic 'Motor compatibility' to .dita file.
+[2026-08-19T10:13:26.738104+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.738593+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.738898+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.739171+00:00] TopicWriter Topic 'motor_compatibility.dita' written successfully.
+[2026-08-19T10:13:26.739201+00:00] TopicWriter Writing topic 'Getting Started' to .dita file.
+[2026-08-19T10:13:26.739213+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.739777+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.739860+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.740156+00:00] TopicWriter Topic 'getting_started.dita' written successfully.
+[2026-08-19T10:13:26.740209+00:00] TopicWriter Writing topic 'Verify network requirements' to .dita file.
+[2026-08-19T10:13:26.740228+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.740494+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.740579+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.740929+00:00] TopicWriter Topic 'verify_network_requirements.dita' written successfully.
+[2026-08-19T10:13:26.740982+00:00] TopicWriter Writing topic 'Verify Wi-Fi network configuration' to .dita file.
+[2026-08-19T10:13:26.741006+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.742992+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.743584+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.743737+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.745288+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.745457+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.745671+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.745800+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.745884+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.745979+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.746083+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.746128+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.750608+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.751245+00:00] TopicWriter Topic 'verify_wi_fi_network_configuration.dita' written successfully.
+[2026-08-19T10:13:26.751295+00:00] TopicWriter Writing topic 'Configure firewall ports' to .dita file.
+[2026-08-19T10:13:26.751312+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.752830+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.753264+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.753340+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.754387+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.754940+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.755164+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.755297+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.755344+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.755361+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.758086+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.758609+00:00] TopicWriter Topic 'configure_firewall_ports.dita' written successfully.
+[2026-08-19T10:13:26.758696+00:00] TopicWriter Writing topic 'Whitelist domains' to .dita file.
+[2026-08-19T10:13:26.758718+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.759652+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.759964+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.760345+00:00] TopicWriter Topic 'whitelist_domains.dita' written successfully.
+[2026-08-19T10:13:26.760405+00:00] TopicWriter Writing topic 'Prepare a mobile device' to .dita file.
+[2026-08-19T10:13:26.760426+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.761198+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.761454+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.761860+00:00] TopicWriter Topic 'prepare_a_mobile_device.dita' written successfully.
+[2026-08-19T10:13:26.761920+00:00] TopicWriter Writing topic 'Download' to .dita file.
+[2026-08-19T10:13:26.761941+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.763149+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.763611+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.763780+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.765433+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.765594+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.765933+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.766141+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.766172+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.766206+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.769787+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.770390+00:00] TopicWriter Topic 'download.dita' written successfully.
+[2026-08-19T10:13:26.770458+00:00] TopicWriter Writing topic 'Activate SMS account' to .dita file.
+[2026-08-19T10:13:26.770481+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.771805+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.772142+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.772231+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.773275+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.773534+00:00] topic_structure <steps> block built with 6 step(s).
+[2026-08-19T10:13:26.773769+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.773817+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.777567+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.778241+00:00] TopicWriter Topic 'activate_sms_account.dita' written successfully.
+[2026-08-19T10:13:26.778311+00:00] TopicWriter Writing topic 'Connect mobile device to an existing Wi-Fi network' to .dita file.
+[2026-08-19T10:13:26.778333+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.779578+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.779837+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.779900+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.780983+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.781306+00:00] topic_structure <steps> block built with 3 step(s).
+[2026-08-19T10:13:26.781640+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.781777+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.784604+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.785207+00:00] TopicWriter Topic 'connect_mobile_device_to_an_existing_wi_fi_network.dita' written successfully.
+[2026-08-19T10:13:26.785243+00:00] TopicWriter Writing topic 'Validate Wi-Fi network' to .dita file.
+[2026-08-19T10:13:26.785262+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.788657+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.789416+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.789698+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.792271+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.792636+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.792917+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.793175+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.793417+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.793617+00:00] topic_structure Processing nested <ol> as DITA <substeps>.
+[2026-08-19T10:13:26.793814+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.794104+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.794305+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.794492+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.794731+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.794874+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.794941+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.803138+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.803931+00:00] TopicWriter Topic 'validate_wi_fi_network.dita' written successfully.
+[2026-08-19T10:13:26.804053+00:00] TopicWriter Writing topic 'Keep SMS shipment box handy' to .dita file.
+[2026-08-19T10:13:26.804137+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.804594+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.804850+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.805285+00:00] TopicWriter Topic 'keep_sms_shipment_box_handy.dita' written successfully.
+[2026-08-19T10:13:26.805430+00:00] TopicWriter Writing topic 'Read and fill Motor Information Form' to .dita file.
+[2026-08-19T10:13:26.805543+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.806578+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.806897+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.807430+00:00] TopicWriter Topic 'read_and_fill_motor_information_form.dita' written successfully.
+[2026-08-19T10:13:26.807593+00:00] TopicWriter Writing topic 'Installation' to .dita file.
+[2026-08-19T10:13:26.807728+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.808564+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.808912+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.809068+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.809909+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.810145+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.810451+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.810591+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.812614+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.813125+00:00] TopicWriter Topic 'installation.dita' written successfully.
+[2026-08-19T10:13:26.813310+00:00] TopicWriter Writing topic 'Commission SMS using the' to .dita file.
+[2026-08-19T10:13:26.813440+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.814336+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.814744+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.814900+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.815676+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.815914+00:00] topic_structure <steps> block built with 3 step(s).
+[2026-08-19T10:13:26.816173+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.816353+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.819887+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.820604+00:00] TopicWriter Topic 'commission_sms_using_the.dita' written successfully.
+[2026-08-19T10:13:26.820733+00:00] TopicWriter Writing topic 'Commission the' to .dita file.
+[2026-08-19T10:13:26.820764+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.828683+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.830120+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.830453+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.836318+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.836588+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.837015+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.837462+00:00] topic_structure <steps> block built with 3 step(s).
+[2026-08-19T10:13:26.837953+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.838962+00:00] topic_structure <steps> block built with 4 step(s).
+[2026-08-19T10:13:26.839481+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.839723+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.840031+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.840351+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.840684+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.840927+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.841315+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.841583+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.841777+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.841910+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.842123+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.842182+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.842238+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.842293+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.842460+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.842643+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.842843+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.842874+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.861077+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.862339+00:00] TopicWriter Topic 'commission_the.dita' written successfully.
+[2026-08-19T10:13:26.862599+00:00] TopicWriter Writing topic 'Enter motor details' to .dita file.
+[2026-08-19T10:13:26.862792+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.867716+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.869101+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.869525+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.873565+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.874135+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.874512+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.874801+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.875083+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.875311+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.875748+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.876111+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.876483+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.876733+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.877481+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.877817+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.877843+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.877863+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.888234+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.889356+00:00] TopicWriter Topic 'enter_motor_details.dita' written successfully.
+[2026-08-19T10:13:26.889662+00:00] TopicWriter Writing topic 'Assign a location, plant and process' to .dita file.
+[2026-08-19T10:13:26.889836+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.894775+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.896384+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.896692+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.900678+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.901076+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.901210+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.901270+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.901335+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.901702+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.901964+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.902315+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.902640+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.902760+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.902836+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.902892+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.902969+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.903184+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.903253+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.903368+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.903470+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.903526+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.903591+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.903825+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.904074+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.904478+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.904717+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.904897+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.905024+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.905134+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.905282+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.905306+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.919580+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.920605+00:00] TopicWriter Topic 'assign_a_location_plant_and_process.dita' written successfully.
+[2026-08-19T10:13:26.920886+00:00] TopicWriter Writing topic 'Add a motor to an unpaired' to .dita file.
+[2026-08-19T10:13:26.921050+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.923205+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.923925+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.924133+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.925738+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.926046+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.926547+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.926640+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.926806+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.926825+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.930493+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.931201+00:00] TopicWriter Topic 'add_a_motor_to_an_unpaired.dita' written successfully.
+[2026-08-19T10:13:26.931418+00:00] TopicWriter Writing topic 'Install  on a motor' to .dita file.
+[2026-08-19T10:13:26.931578+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.932012+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.932249+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.932729+00:00] TopicWriter Topic 'install_on_a_motor.dita' written successfully.
+[2026-08-19T10:13:26.932954+00:00] TopicWriter Writing topic 'Unboxing SMS shipment box' to .dita file.
+[2026-08-19T10:13:26.933098+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.935619+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.936334+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.936555+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.938603+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.938954+00:00] topic_structure <steps> block built with 4 step(s).
+[2026-08-19T10:13:26.939204+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.939591+00:00] topic_structure <steps> block built with 3 step(s).
+[2026-08-19T10:13:26.940239+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.940424+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.945615+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.946420+00:00] TopicWriter Topic 'unboxing_sms_shipment_box.dita' written successfully.
+[2026-08-19T10:13:26.946467+00:00] TopicWriter Writing topic 'Installation - Dos and don’ts' to .dita file.
+[2026-08-19T10:13:26.946488+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.949058+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.949837+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.950533+00:00] TopicWriter Topic 'installation_dos_and_don_ts.dita' written successfully.
+[2026-08-19T10:13:26.950708+00:00] TopicWriter Writing topic 'Install  to a motor with cooling ribs' to .dita file.
+[2026-08-19T10:13:26.950782+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.956916+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.958150+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.958534+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.965283+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.965601+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.965857+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.965934+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.966102+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.966239+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.966288+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.966340+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.966582+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.966814+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.967285+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.967504+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.967769+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.967970+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.968440+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.968658+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.968777+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.968836+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.968992+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.969110+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.969210+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.969234+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.982144+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.983348+00:00] TopicWriter Topic 'install_to_a_motor_with_cooling_ribs.dita' written successfully.
+[2026-08-19T10:13:26.983675+00:00] TopicWriter Writing topic 'Install SMS device to a motor without cooling ribs' to .dita file.
+[2026-08-19T10:13:26.983834+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:26.986593+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:26.987309+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:26.987569+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:26.989801+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.990206+00:00] topic_structure <steps> block built with 3 step(s).
+[2026-08-19T10:13:26.990464+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.990707+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.991088+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.991329+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:26.991402+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:26.991531+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:26.991651+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:26.991671+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:26.998010+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:26.999021+00:00] TopicWriter Topic 'install_sms_device_to_a_motor_without_cooling_ribs.dita' written successfully.
+[2026-08-19T10:13:26.999249+00:00] TopicWriter Writing topic 'Post Installation' to .dita file.
+[2026-08-19T10:13:26.999397+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.001758+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.002374+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.002552+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:27.004404+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:27.005182+00:00] topic_structure <steps> block built with 4 step(s).
+[2026-08-19T10:13:27.005477+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:27.005768+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:27.005964+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:27.006281+00:00] topic_structure <steps> block built with 3 step(s).
+[2026-08-19T10:13:27.006514+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:27.006871+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:27.007106+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:27.007131+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:27.014281+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:27.015115+00:00] TopicWriter Topic 'post_installation.dita' written successfully.
+[2026-08-19T10:13:27.015376+00:00] TopicWriter Writing topic 'Maintenance' to .dita file.
+[2026-08-19T10:13:27.015511+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.015906+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.016132+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.016567+00:00] TopicWriter Topic 'maintenance.dita' written successfully.
+[2026-08-19T10:13:27.016696+00:00] TopicWriter Writing topic 'Repairing or replacing a motor' to .dita file.
+[2026-08-19T10:13:27.016716+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.019256+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.019926+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.020179+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:27.022176+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:27.022713+00:00] topic_structure <steps> block built with 4 step(s).
+[2026-08-19T10:13:27.023015+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:27.023307+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:27.023520+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:27.023824+00:00] topic_structure <steps> block built with 1 step(s).
+[2026-08-19T10:13:27.024166+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:27.024313+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:27.030358+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:27.031125+00:00] TopicWriter Topic 'repairing_or_replacing_a_motor.dita' written successfully.
+[2026-08-19T10:13:27.031260+00:00] TopicWriter Writing topic 'Replacing the batteries' to .dita file.
+[2026-08-19T10:13:27.031286+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.033347+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.033956+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.034198+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:27.036389+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:27.036685+00:00] topic_structure <steps> block built with 4 step(s).
+[2026-08-19T10:13:27.036857+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:27.036877+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:27.040994+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:27.041672+00:00] TopicWriter Topic 'replacing_the_batteries.dita' written successfully.
+[2026-08-19T10:13:27.041869+00:00] TopicWriter Writing topic 'Troubleshooting' to .dita file.
+[2026-08-19T10:13:27.042005+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.042344+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.042485+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.042774+00:00] TopicWriter Topic 'troubleshooting.dita' written successfully.
+[2026-08-19T10:13:27.042805+00:00] TopicWriter Writing topic 'Unable to commission  within 5 minutes' to .dita file.
+[2026-08-19T10:13:27.042820+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.043994+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.044457+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.044651+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:27.045778+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:27.046028+00:00] topic_structure <steps> block built with 3 step(s).
+[2026-08-19T10:13:27.046053+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:27.046068+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:27.048615+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:27.049475+00:00] TopicWriter Topic 'unable_to_commission_within_5_minutes.dita' written successfully.
+[2026-08-19T10:13:27.049744+00:00] TopicWriter Writing topic 'Reference' to .dita file.
+[2026-08-19T10:13:27.049823+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.050638+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.050819+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.051150+00:00] TopicWriter Topic 'reference.dita' written successfully.
+[2026-08-19T10:13:27.051181+00:00] TopicWriter Writing topic 'Contact information' to .dita file.
+[2026-08-19T10:13:27.051196+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.051494+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.051562+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.052079+00:00] TopicWriter Topic 'contact_information.dita' written successfully.
+[2026-08-19T10:13:27.052265+00:00] TopicWriter Writing topic 'Tutorial videos' to .dita file.
+[2026-08-19T10:13:27.052425+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.053069+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.053396+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.054072+00:00] TopicWriter Topic 'tutorial_videos.dita' written successfully.
+[2026-08-19T10:13:27.054247+00:00] TopicWriter Writing topic 'Motor Information Form' to .dita file.
+[2026-08-19T10:13:27.054400+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.061009+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.063603+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.064140+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-19T10:13:27.073163+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-19T10:13:27.073988+00:00] TopicWriter Topic 'motor_information_form.dita' written successfully.
+[2026-08-19T10:13:27.074039+00:00] TopicWriter Writing topic 'How to read a motor plate' to .dita file.
+[2026-08-19T10:13:27.074054+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.074566+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.074902+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.075441+00:00] TopicWriter Topic 'how_to_read_a_motor_plate.dita' written successfully.
+[2026-08-19T10:13:27.075619+00:00] TopicWriter Writing topic 'Correspondence between IEC and NEMA frames' to .dita file.
+[2026-08-19T10:13:27.075711+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.079174+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.081429+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.081777+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-08-19T10:13:27.086698+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-08-19T10:13:27.087444+00:00] TopicWriter Topic 'correspondence_between_iec_and_nema_frames.dita' written successfully.
+[2026-08-19T10:13:27.087575+00:00] TopicWriter Writing topic 'Recommendations to purchase a router' to .dita file.
+[2026-08-19T10:13:27.087594+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.088004+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.088227+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.088596+00:00] TopicWriter Topic 'recommendations_to_purchase_a_router.dita' written successfully.
+[2026-08-19T10:13:27.088729+00:00] TopicWriter Writing topic 'Routers' to .dita file.
+[2026-08-19T10:13:27.088872+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.089146+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.089303+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.089746+00:00] TopicWriter Topic 'routers.dita' written successfully.
+[2026-08-19T10:13:27.089853+00:00] TopicWriter Writing topic 'Recommended features' to .dita file.
+[2026-08-19T10:13:27.089871+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.090922+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.091293+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.091791+00:00] TopicWriter Topic 'recommended_features.dita' written successfully.
+[2026-08-19T10:13:27.091987+00:00] TopicWriter Writing topic 'Examples of routers with recommended features' to .dita file.
+[2026-08-19T10:13:27.092122+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.092447+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.092539+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.092828+00:00] TopicWriter Topic 'examples_of_routers_with_recommended_features.dita' written successfully.
+[2026-08-19T10:13:27.092858+00:00] TopicWriter Writing topic 'SIM cards and data plans' to .dita file.
+[2026-08-19T10:13:27.092871+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.093259+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.093377+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.093792+00:00] TopicWriter Topic 'sim_cards_and_data_plans.dita' written successfully.
+[2026-08-19T10:13:27.093952+00:00] TopicWriter Writing topic 'Firewall support for AWS IP ranges' to .dita file.
+[2026-08-19T10:13:27.094068+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.094660+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.094780+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.095106+00:00] TopicWriter Topic 'firewall_support_for_aws_ip_ranges.dita' written successfully.
+[2026-08-19T10:13:27.095134+00:00] TopicWriter Writing topic 'Check Point firewall' to .dita file.
+[2026-08-19T10:13:27.095148+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.096433+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.096915+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.097373+00:00] TopicWriter Topic 'check_point_firewall.dita' written successfully.
+[2026-08-19T10:13:27.097546+00:00] TopicWriter Writing topic 'Palo Alto firewall' to .dita file.
+[2026-08-19T10:13:27.097686+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.098433+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.098792+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.099299+00:00] TopicWriter Topic 'palo_alto_firewall.dita' written successfully.
+[2026-08-19T10:13:27.099478+00:00] TopicWriter Writing topic 'Certifications and regulatory' to .dita file.
+[2026-08-19T10:13:27.099619+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.099916+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.100009+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.100271+00:00] TopicWriter Topic 'certifications_and_regulatory.dita' written successfully.
+[2026-08-19T10:13:27.100299+00:00] TopicWriter Writing topic 'Federal Communication Commission Interference Statement' to .dita file.
+[2026-08-19T10:13:27.100314+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.102198+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.102850+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.103131+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:27.104481+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:27.104930+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:27.105493+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:27.105524+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:27.110405+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:27.111184+00:00] TopicWriter Topic 'federal_communication_commission_interference_statement.dita' written successfully.
+[2026-08-19T10:13:27.111385+00:00] TopicWriter Writing topic 'Industry Canada Statement' to .dita file.
+[2026-08-19T10:13:27.111529+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.113439+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.114000+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.114086+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-08-19T10:13:27.115544+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:27.115856+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:27.116120+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-08-19T10:13:27.116199+00:00] topic_structure <steps> block built with 2 step(s).
+[2026-08-19T10:13:27.116543+00:00] topic_structure convert_ol_to_steps completed.
+[2026-08-19T10:13:27.116564+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-08-19T10:13:27.247881+00:00] topic_structure Taskbody partitioning complete.
+[2026-08-19T10:13:27.248700+00:00] TopicWriter Topic 'industry_canada_statement.dita' written successfully.
+[2026-08-19T10:13:27.248914+00:00] TopicWriter Writing topic 'EU Statement' to .dita file.
+[2026-08-19T10:13:27.249056+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-08-19T10:13:27.250095+00:00] topic_structure No section headings found — rendering flat body.
+[2026-08-19T10:13:27.250479+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-08-19T10:13:27.250992+00:00] TopicWriter Topic 'eu_statement.dita' written successfully.
+[2026-08-19T10:13:27.251096+00:00] TopicWriter All 52 topic file(s) written successfully.
+[2026-08-19T10:13:27.251116+00:00] topics_written DTD classification and topic writing complete: 52 DITA file(s) generated.
+[2026-08-19T10:13:27.256667+00:00] TopicWriter Finished writing .dita files.
+[2026-08-19T10:13:27.257029+00:00] step_write_topics_complete DITA topic files written: 52 file(s) generated.
+[2026-08-19T10:13:27.261405+00:00] DitaMapBuilder Generating DITAMAP file.
+[2026-08-19T10:13:27.261450+00:00] step_ditamap_started Step 5/7: Generating DITAMAP structure.
+[2026-08-19T10:13:27.270547+00:00] DitaMapBuilder DITAMAP generation complete.
+[2026-08-19T10:13:27.270835+00:00] step_ditamap_complete DITAMAP generation complete: 9 map file(s) created.
+
+ Success: Content transformation completed successfully.
+================================================================================

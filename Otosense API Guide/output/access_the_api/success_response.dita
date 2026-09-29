@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="success_response" xml:lang="en-us">
+   <title>
+      <b>Success Response</b>
+   </title>
+   <shortdesc>"token_type": "bearer",</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>token</keyword>
+        <keyword>window</keyword>
+        <keyword>access</keyword>
+        <keyword>string</keyword>
+        <keyword>quota</keyword>
+        <keyword>which</keyword>
+        <indexterm>token</indexterm>
+        <indexterm>window</indexterm>
+        <indexterm>access</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <ul id="ul_10492720">
+         <li>
+            <b>Code:</b> 200 OK</li>
+         <li>
+            <b>Headers:</b>
+         </li>
+      </ul>
+    </section>
+<table frame="all" colsep="1" rowsep="1">
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Header</b>
+                  </entry>
+                  <entry>
+                     <b>Type</b>
+                  </entry>
+                  <entry>
+                     <b>Description</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>XRateLimitLimit</entry>
+                  <entry>string</entry>
+                  <entry>Request limit details in the following form: {quota};window={time-window}. quota: the request quota. time-window: the quota time window in seconds.</entry>
+               </row>
+               <row>
+                  <entry>XRateLimitRemaining</entry>
+                  <entry>integer</entry>
+                  <entry>The number of requests left for the time window.</entry>
+               </row>
+               <row>
+                  <entry>XRateLimitReset</entry>
+                  <entry>integer</entry>
+                  <entry>The time in seconds from now, at which point the current rate limit window resets.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+    <section>
+      <ul id="ul_10492721">
+         <li>
+            <b>Content-Type:</b> application/json</li>
+         <li>
+            <b>Schema:</b>
+         </li>
+      </ul>
+    </section>
+<table frame="all" colsep="1" rowsep="1">
+         <tgroup cols="4">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <colspec colname="c4"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Schema</b>
+                  </entry>
+                  <entry>
+                     <b>Type</b>
+                  </entry>
+                  <entry>
+                     <b>Description</b>
+                  </entry>
+                  <entry>
+                     <b>Input Value</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>token_type</entry>
+                  <entry>string</entry>
+                  <entry>Token type.</entry>
+                  <entry>bearer</entry>
+               </row>
+               <row>
+                  <entry>access_token</entry>
+                  <entry>string</entry>
+                  <entry>Bearer token. Bearer token to use in API requests. Use as authorization header in the form of Authorization':' Bearer {access_token}.</entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>expires_in</entry>
+                  <entry>number</entry>
+                  <entry>Time in seconds, this token expires.</entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>scope</entry>
+                  <entry>string</entry>
+                  <entry>Scope for this token.</entry>
+                  <entry>{service}: The service for which this token has been granted access. {tenantId}: The tenant ID for which this token has been granted access. {role}: The role to which this token has been granted access.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+    <section>
+      <ul id="ul_10492722">
+         <li>
+            <b>Sample Response:</b>
+         </li>
+      </ul>
+      <ul>
+         <li>
+            <p>{</p>
+         </li>
+         <li>
+            <p>"token_type": "bearer",</p>
+         </li>
+         <li>
+            <p>"access_token": "eyJ0eXBlIjoiYXN0In0=.OTMMtNDdiNDUxZGI2.Py6iJNjUM36tTss3CEy2S.GTKP/9j7SN5893Kduy2lYch4B/c=.MjAyMDBa",</p>
+         </li>
+         <li>
+            <p>"expires_in": 3600,</p>
+         </li>
+         <li>
+            <p>"scope": "service.sms tenant.adi.ac43fc role.standard"</p>
+         </li>
+         <li>
+            <p>}</p>
+         </li>
+      </ul>
+    </section></refbody>
+</reference>

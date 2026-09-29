@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="performance" xml:lang="en-us">
+   <title>performance</title>
+   <shortdesc>This section describes the parameters used to assess motor performance.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>value</keyword>
+        <keyword>vibration</keyword>
+        <keyword>running</keyword>
+        <keyword>performance</keyword>
+        <keyword>tangential</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>value</indexterm>
+        <indexterm>vibration</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section id="sec_d71e7">
+         <p>This section describes the parameters used to assess motor performance.</p>
+         <p>Each record contains a collection of performance parameters:</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Performance Parameters</title>
+            <tgroup cols="3">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Parameter</b>
+                     </entry>
+                     <entry>
+                        <b>Measurement</b>
+                        <b>Value</b>
+                     </entry>
+                     <entry>
+                        <b>Description</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>rmsVx</codeblock>
+                     </entry>
+                     <entry>m/s2</entry>
+                     <entry>RMS value for the vibration X acceleration (tangential)</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>rmsVxV</codeblock>
+                     </entry>
+                     <entry>mm/s</entry>
+                     <entry>RMS value for the vibration X velocity (tangential)</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>rmsVxD</codeblock>
+                     </entry>
+                     <entry>μm</entry>
+                     <entry>RMS value for the vibration X displacement (tangential)</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>rmsVz</codeblock>
+                     </entry>
+                     <entry>m/s2</entry>
+                     <entry>RMS value for the vibration Z acceleration (axial)</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>rmsVzV</codeblock>
+                     </entry>
+                     <entry>mm/s</entry>
+                     <entry>RMS value for the vibration Z velocity (axial)</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>rmsVzD</codeblock>
+                     </entry>
+                     <entry>μm</entry>
+                     <entry>RMS value for the vibration Z displacement (axial)</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>rmsFlux</codeblock>
+                     </entry>
+                     <entry>mV</entry>
+                     <entry>RMS value for the magnetic field</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>rpm</codeblock>
+                     </entry>
+                     <entry>RPM (rev/min)</entry>
+                     <entry>Motor rotating speed in RPM</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>tempMotor</codeblock>
+                     </entry>
+                     <entry>ºC</entry>
+                     <entry>Temperature of the motor (ºC)</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>tempEnv</codeblock>
+                     </entry>
+                     <entry>ºC</entry>
+                     <entry>Temperature of the motor environment (ºC)</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>operationHours</codeblock>
+                     </entry>
+                     <entry>hours</entry>
+                     <entry>Approximation of the motor running time</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <codeblock>running</codeblock>
+                     </entry>
+                     <entry>Integer flag</entry>
+                     <entry>Running flag 1 if running 0 if not running When the motor is rotating at a very low speed, less than 25% of its rated speed (rated RPM), the analytics may interpret the motor as stopped. <codeblock>running is used to calculate the Number of Starts in a time range.
+  Chronologically sort the performance records in the time range and count the number of times _running_ transitions from '0' to '1'. This approximates the number of times the motor started in the specified time range.</codeblock>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>For more information on API refer to the ADI OtoSense™ SMS REST API.</p>
+      </section>
+   </refbody>
+</reference>

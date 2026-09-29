@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="tempm" xml:lang="en-us">
+   <title>tempm</title>
+   <shortdesc>The Motor Temperature (tempm) is the motor frame temperature measured by the SMS. The temperature</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>temperature</keyword>
+        <keyword>tempm</keyword>
+        <keyword>Motor</keyword>
+        <keyword>Temperature</keyword>
+        <keyword>frame</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>temperature</indexterm>
+        <indexterm>tempm</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>The Motor Temperature (tempm) is the motor frame temperature measured by the SMS. The temperature sensor on the inside side (towards the motor) measures the motor temperature.</p>
+      <p>The recorded data shows the motor temperature scatter plot data, in the unit of Celsius (°C). The analytics system can use this data to detect the electrical or mechanical failures.</p>
+      <p>Each record contains an array of two samples captured on the specified timestamp.</p>
+      <p>For more information on API refer to the ADI OtoSense™ SMS REST API.</p>
+    </section></refbody>
+</reference>
