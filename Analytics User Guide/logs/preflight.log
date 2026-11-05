@@ -1,0 +1,28 @@
+================================================================================
+ metR DOCX DocMigrate — PRE-FLIGHT REPORT
+================================================================================
+ Total DOCX Files      : 1
+ Started               : 2026-08-19 10:21:13 UTC
+ Completed             : 2026-08-19 10:21:14 UTC
+ Duration              : 1s
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+
+[2026-08-19T10:21:13.572255+00:00] PreflightService class is running.
+[2026-08-19T10:21:13.572310+00:00] preflight_started working.
+[2026-08-19T10:21:13.576948+00:00] PreflightService Reading uploaded file 'Analytics User Guide.docx' in 1 MB chunks (max allowed: 2000 MB).
+[2026-08-19T10:21:13.585411+00:00] PreflightService File read complete - 5.69 MB. Saved.
+[2026-08-19T10:21:13.585450+00:00] PreflightService File saved successfully.
+[2026-08-19T10:21:13.585467+00:00] file_saved 'Analytics User Guide.docx' uploaded and saved (5.69 MB).
+[2026-08-19T10:21:13.808838+00:00] PreflightService Validating document structure for 'Analytics User Guide.docx'.
+[2026-08-19T10:21:13.808914+00:00] validating_structure Validating document heading structure for 'Analytics User Guide.docx'.
+[2026-08-19T10:21:13.812939+00:00] check_docx_starts_with_heading Validating document structure.
+[2026-08-19T10:21:13.813850+00:00] check_docx_starts_with_heading Reading 'word/document.xml' for heading validation.
+[2026-08-19T10:21:13.816670+00:00] check_docx_starts_with_heading Parsing 'word/document.xml' XML.
+[2026-08-19T10:21:13.982064+00:00] check_docx_starts_with_heading Scanning 1427 paragraph(s) for a valid first heading style.
+[2026-08-19T10:21:13.982183+00:00] check_docx_starts_with_heading First styled paragraph uses 'title' — document structure is valid.
+[2026-08-19T10:21:14.129140+00:00] PreflightService class completed successfully.
+[2026-08-19T10:21:14.129190+00:00] preflight_completed File 'Analytics User Guide.docx' validated successfully and is ready for conversion.
+
+ [GUI] Success: Pre-flight analysis completed successfully.
+================================================================================

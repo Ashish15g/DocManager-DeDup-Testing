@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="parameters_sub_tab" xml:lang="en-us">
+   <title>Parameters sub-tab</title>
+   <shortdesc>In the Parameters sub-tab, you can plot raw vibration data in X and Z axes</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Parameters</keyword>
+        <keyword>domain</keyword>
+        <keyword>seconds</keyword>
+        <keyword>vibration</keyword>
+        <keyword>acceleration</keyword>
+        <keyword>magnetic</keyword>
+        <indexterm>Parameters</indexterm>
+        <indexterm>domain</indexterm>
+        <indexterm>seconds</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>In the Parameters sub-tab, you can plot raw vibration data in X and Z axes (acceleration [m/s2], and magnetic field) in two different domains.</p>
+      <ul id="ul_10314145">
+         <li>time domain (sec) (WAVEFORM)</li>
+         <li>frequency domain (hertz)(FFT)</li>
+      </ul>
+      <p>The SMS device collects a sample of 2.5 seconds of data every 40 minutes. The horizontal axis shows these 2.5 seconds.</p>
+    </section></refbody>
+</reference>

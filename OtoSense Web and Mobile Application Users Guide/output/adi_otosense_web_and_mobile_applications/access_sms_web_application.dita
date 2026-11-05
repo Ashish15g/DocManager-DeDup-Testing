@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Access_to_Web" xml:lang="en-us">
+   <title>Access SMS web application</title>
+   <shortdesc>To access the SMS web application, you need to be added as an authorized user</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>email</keyword>
+        <keyword>application</keyword>
+        <keyword>account</keyword>
+        <keyword>received</keyword>
+        <keyword>Welcome</keyword>
+        <keyword>Access</keyword>
+        <indexterm>email</indexterm>
+        <indexterm>application</indexterm>
+        <indexterm>account</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>To access the SMS web application, you need to be added as an authorized user by an admin. Once added, you will receive an invitation email with a Get Started link to create an account.</p>
+         <p>To access the SMS web application:</p>
+      </context>
+      <steps id="steps_10314105">
+         <step>
+            <cmd>Check if you have received the invitation email from the ADI OtoSense™ admin.</cmd>
+         </step>
+         <step>
+            <cmd>Click the Get started link received in the email.</cmd>
+            <info>
+               <p>The <b>Welcome</b> page is displayed.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter your email address, first name, and last name.</cmd>
+         </step>
+         <step>
+            <cmd>Enter a password as per the OtoSense™ password policy and click SIGN UP.</cmd>
+            <info>
+               <fig>
+                  <title>Welcome page</title>
+                  <image height="505" href="../media/image1.png" placement="break" width="362">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <p>The application sends a verification code to your email address.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Check if you have received the email with the verification code and enter the code.</cmd>
+            <info>
+               <fig>
+                  <title>Verification page</title>
+                  <image height="370" href="../media/image2.png" placement="break" width="342">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click VERIFY to activate your account.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Once your account is created, you will receive a Welcome email with a link to sign in to your account.</p>
+      </result>
+   </taskbody>
+</task>

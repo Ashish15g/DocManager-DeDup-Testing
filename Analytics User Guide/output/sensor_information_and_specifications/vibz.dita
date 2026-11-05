@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Ref182996638" xml:lang="en-us">
+   <title>vibz</title>
+   <shortdesc>The Vibration Z (vibz) is the vibration acceleration measured in the axial direction of the</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>Vibration</keyword>
+        <keyword>vibration</keyword>
+        <keyword>measured</keyword>
+        <keyword>waveform</keyword>
+        <keyword>acceleration</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>Vibration</indexterm>
+        <indexterm>vibration</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>The Vibration Z (vibz) is the vibration acceleration measured in the axial direction of the motor. This recorded data shows the vibration Z waveform data, in the unit of metre per second squared (m/s2). With the vibrations X and Z measured from the motor, the analytics system can detect the mechanical failures of the motor.</p>
+      <ul>
+         <li>
+            <p>Each record contains an array of 15,000 samples captured on the specified timestamp.</p>
+            <p>It is necessary to generate the corresponding X-axis data to plot this Vibration Z (vibx) waveform data in a graphic: The X-axis data is a vector of 15,000 data points with a step of 0.00016s.</p>
+         </li>
+         <li>
+            <p>For example:</p>
+         </li>
+         <li>
+            <p>[0, 0.00016, 0.00032, 0.00048, .... 2.39984]</p>
+         </li>
+         <li>
+            <p>For more information on API refer to the ADI OtoSense™ SMS REST API.</p>
+         </li>
+      </ul>
+   </conbody>
+</concept>

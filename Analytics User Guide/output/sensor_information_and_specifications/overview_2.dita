@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="overview_2" xml:lang="en-us">
+   <title>Overview</title>
+   <shortdesc>The ADI OtoSense™ SMS has three on-board sensors that collect the data used to monitor</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>sensors</keyword>
+        <keyword>Overview</keyword>
+        <keyword>field</keyword>
+        <keyword>motor</keyword>
+        <keyword>OtoSense</keyword>
+        <keyword>three</keyword>
+        <indexterm>sensors</indexterm>
+        <indexterm>Overview</indexterm>
+        <indexterm>field</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>The ADI OtoSense™ SMS has three on-board sensors that collect the data used to monitor any significant deviation from the established baseline model:</p>
+      <ul id="ul_10211506">
+         <li>
+            <b>Vibration sensors</b> – sense vibration in the X- and Z- axes.</li>
+         <li>
+            <b>Magnetic field sensor</b> - measures the magnetic field around a motor.</li>
+         <li>
+            <b>Temperature sensors</b> – measure temperatures of the motor and the environment.</li>
+      </ul>
+      <p>The REST API fetch data to display status updates on the web and mobile application. For more information, see <xref href="#_Appendix_B:_Cloud">Appendix B: Cloud Platform Parameters</xref>.</p>
+    </section></refbody>
+</reference>

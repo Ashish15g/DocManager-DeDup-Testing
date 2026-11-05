@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Toc186824641" xml:lang="en-us">
+   <title>Pagination</title>
+   <shortdesc>This section describes the process of accessing paginated results.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>continuation</keyword>
+        <keyword>paginated</keyword>
+        <keyword>results</keyword>
+        <keyword>Pagination</keyword>
+        <keyword>request</keyword>
+        <keyword>Token</keyword>
+        <indexterm>continuation</indexterm>
+        <indexterm>paginated</indexterm>
+        <indexterm>results</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>This section describes the process of accessing paginated results.</p>
+         <p>When using the GET methods to fetch resources, the payload can exceed the maximum size for a single request. In this case, the results will be paginated.</p>
+         <p>To know if results are being paginated:</p>
+      </context>
+      <steps id="steps_10492729">
+         <step>
+            <cmd>Look for the continuationToken element in the response body. For example, the following sample response JSON body includes a continuation token at the end:</cmd>
+            <info>
+               <p>{</p>
+               <p>"records": [</p>
+               <p>{</p>
+               <p>"motorId": "feec0770-5013-4174-905e-55eba3b7e834",</p>
+               <p>"sensorId": "00000479Y",</p>
+               <p>"dataset": "vibx",</p>
+               <p>"timestamp": 1599763309646,</p>
+               <p>"data": [</p>
+               <p>-0.65231,</p>
+               <p>-1.81438,</p>
+               <p>-2.31241,</p>
+               <p>-0.32029,</p>
+               <p>-0.32029,</p>
+               <p>1.33981,</p>
+               <p>1.00779,</p>
+               <p>3.49794,</p>
+               <p>3.66395,</p>
+               <p>4.494,</p>
+               <p>2.00385,</p>
+               <p>0.67577,</p>
+               <p>-0.98433,</p>
+               <p>-0.32029</p>
+               <p>]</p>
+               <p>},</p>
+               <p>{</p>
+               <p>"motorId": "feec0770-5013-4174-905e-55eba3b7e834",</p>
+               <p>"sensorId": "00000479Y",</p>
+               <p>"dataset": "vibx",</p>
+               <p>"timestamp": 1599763309646,</p>
+               <p>"data": [</p>
+               <p>-0.65231,</p>
+               <p>-1.81438,</p>
+               <p>-2.31241,</p>
+               <p>-0.32029,</p>
+               <p>-0.32029,</p>
+               <p>1.33981,</p>
+               <p>1.00779,</p>
+               <p>3.49794,</p>
+               <p>3.66395,</p>
+               <p>4.494,</p>
+               <p>2.00385,</p>
+               <p>0.67577,</p>
+               <p>-0.98433,</p>
+               <p>-0.32029</p>
+               <p>]</p>
+               <p>}</p>
+               <p>],</p>
+               <p>"continuationToken": "eyJwayI6ImFkaybSIsInNrIjoxNTkyMIyNDUyLCJ0ZW5hbnRJZCI6ImFkaSJ9"</p>
+               <p>}</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Retrieve the following result set.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>Include the continuation token as a query parameter, along with any other original parameters.</p>
+         <p>Submit the GET request again.</p>
+      </result>
+   </taskbody>
+</task>

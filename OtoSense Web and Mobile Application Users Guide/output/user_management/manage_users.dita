@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Toc193658919" xml:lang="en-us">
+   <title>Manage users</title>
+   <shortdesc>As an administrator, you can:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>users</keyword>
+        <keyword>click</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>displayed</keyword>
+        <keyword>Manage</keyword>
+        <keyword>invitation</keyword>
+        <indexterm>users</indexterm>
+        <indexterm>click</indexterm>
+        <indexterm>placeholder</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>As an administrator, you can:</p>
+         <ul id="ul_103141130">
+            <li>
+               <xref href="#Create_new_user">create a new user</xref>
+            </li>
+            <li>
+               <xref href="#Remove_user">resend invitation link</xref>
+            </li>
+            <li>
+               <xref href="#Change_user_role">change a user’s role</xref>
+            </li>
+            <li>
+               <xref href="#Remove_user">remove a user</xref>
+            </li>
+         </ul>
+         <p>To create a new user:</p>
+      </context>
+      <steps id="steps_103141133">
+         <step>
+            <cmd>Log in to the SMS web application.</cmd>
+         </step>
+         <step>
+            <cmd>On the top right of the user interface, click the <image height="14" href="../media/image20.png" placement="break" width="18">
+                  <alt>placeholder</alt>
+               </image> arrow next to your name and click Admin.</cmd>
+            <info>
+               <fig>
+                  <title>Admin option</title>
+                  <image height="204" href="../media/image95.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <p>The <b>Manage users</b> page is displayed with a list of all the existing users.</p>
+               <fig>
+                  <title>Add User option</title>
+                  <image height="218" href="../media/image96.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click ADD USER.</cmd>
+            <info>
+               <p>The <b>Add a new user to your account</b> pop-up window is displayed.</p>
+               <fig>
+                  <title>Add a new user to your account window</title>
+                  <image height="292" href="../media/image97.png" placement="break" width="410">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Enter the new user’s first name, last name, and email address in their respective fields.</cmd>
+            <info>
+               <note type="note">Note: The email address of the user cannot be changed later.</note>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the new user’s role from the Role drop-down list.</cmd>
+         </step>
+         <step>
+            <cmd>Click ADD USER.</cmd>
+            <info>
+               <p>The new user is added to the list of existing users. An email with an invitation link is sent to the specified email address.</p>
+               <p>To resend invite or remove a user:</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Log in to the SMS web application.</cmd>
+         </step>
+         <step>
+            <cmd>On the top right of the user interface, click the <image height="14" href="../media/image20.png" placement="break" width="18">
+                  <alt>placeholder</alt>
+               </image> arrow next to your name and click Admin.</cmd>
+            <info>
+               <p>The <b>Manage users</b> page is displayed with a list of all the existing users.</p>
+               <fig>
+                  <title>Remove user and Resend invite options</title>
+                  <image height="209" href="../media/image98.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>From the list, search for the user to whom you want to resend the invitation link or remove.</cmd>
+            <info>
+               <note type="note">Note: You can find the user by typing their name or assigned role in the Search box.</note>
+            </info>
+         </step>
+         <step>
+            <cmd>Do one of the following:</cmd>
+            <info>
+               <ul id="ul_103141131">
+                  <li>To resend an invitation link, click Resend invite.</li>
+               </ul>
+               <p>A confirmation message that the invitation link has been sent is displayed.</p>
+               <ul id="ul_103141132">
+                  <li>To remove a user, click Remove user. Click REMOVE USER again on the confirmation message.</li>
+               </ul>
+               <p>The user is removed and will no longer be able to access the web and mobile applications.</p>
+               <p>To change a user’s role:</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Log in to the SMS web application.</cmd>
+         </step>
+         <step>
+            <cmd>On the top right of the user interface, click the <image height="14" href="../media/image20.png" placement="break" width="18">
+                  <alt>placeholder</alt>
+               </image> arrow next to your name and click Admin.</cmd>
+            <info>
+               <p>The <b>Manage users</b> page is displayed with a list of all the existing users.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>From the list, search for the user whose role you want to change.</cmd>
+            <info>
+               <note type="note">Note: You can find the user by typing their name or assigned role in the Search box.</note>
+               <fig>
+                  <title>Edit user option</title>
+                  <image height="200" href="../media/image99.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Click Edit.</cmd>
+            <info>
+               <p>The <b>Edit role</b> window is displayed.</p>
+               <fig>
+                  <title>Edit role window</title>
+                  <image height="190" href="../media/image100.png" placement="break" width="298">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Change the user role and click SAVE.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

@@ -1,0 +1,722 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="success_response_8" xml:lang="en-us">
+   <title>Success Response</title>
+   <shortdesc>"motors": [</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>number</keyword>
+        <keyword>string</keyword>
+        <keyword>motor</keyword>
+        <keyword>value</keyword>
+        <keyword>component</keyword>
+        <keyword>TODO</keyword>
+        <indexterm>number</indexterm>
+        <indexterm>string</indexterm>
+        <indexterm>motor</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <ul id="ul_10492779">
+         <li>
+            <b>Code:</b> 200 OK</li>
+         <li>Headers:</li>
+      </ul><table frame="all" colsep="1" rowsep="1">
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Header</b>
+                  </entry>
+                  <entry>
+                     <b>Type</b>
+                  </entry>
+                  <entry>
+                     <b>Description</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>X-RateLimit-Limit</entry>
+                  <entry>string</entry>
+                  <entry>Request limit details in the following form: {quota};window={time-window}. quota: the request quota. time-window: the quota time window in seconds.</entry>
+               </row>
+               <row>
+                  <entry>X-RateLimit-Remaining</entry>
+                  <entry>integer</entry>
+                  <entry>The number of requests left for the time window.</entry>
+               </row>
+               <row>
+                  <entry>X-RateLimit-Reset</entry>
+                  <entry>integer</entry>
+                  <entry>The time in seconds from now at which point the current rate limit window resets.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table><ul id="ul_10492780">
+         <li>
+            <b>Content-Type:</b> application/json</li>
+         <li>Schema:</li>
+      </ul><table frame="all" colsep="1" rowsep="1">
+         <tgroup cols="5">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <colspec colname="c4"/>
+            <colspec colname="c5"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Schema</b>
+                  </entry>
+                  <entry>
+                     <b>Key</b>
+                  </entry>
+                  <entry>
+                     <b>Type</b>
+                  </entry>
+                  <entry>
+                     <b>Input Value</b>
+                  </entry>
+                  <entry>
+                     <b>Description</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="c1" nameend="c5">
+                     <b>m</b>
+                     <b>otors</b>
+                     <b>:</b>
+                     <b>Array of objects</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>motorId</entry>
+                  <entry>string</entry>
+                  <entry/>
+                  <entry>This motor has a unique identifier. The unique motor ID assigned to a motor can be found in the get all motors response.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>created</entry>
+                  <entry>string &lt;date-time&gt;</entry>
+                  <entry/>
+                  <entry>Date and time this motor was created.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>createdBy</entry>
+                  <entry>string</entry>
+                  <entry/>
+                  <entry>Principal (i.e., email) who created this motor.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>updated</entry>
+                  <entry>string &lt;date-time&gt;</entry>
+                  <entry/>
+                  <entry>Date and time this motor was updated.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>updatedBy</entry>
+                  <entry>string</entry>
+                  <entry/>
+                  <entry>Principal (i.e., email) who updated this motor.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>
+                     <b>status</b>
+                  </entry>
+                  <entry>
+                     <b>object</b>
+                  </entry>
+                  <entry/>
+                  <entry>
+                     <b>Overall motor status</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>boolean</entry>
+                  <entry>connected</entry>
+                  <entry>true: if the SMS device monitoring this motor is currently online. False: If the SMS device monitoring is not available, this motor is currently not online.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string &lt;date-time&gt;</entry>
+                  <entry>lastOnline</entry>
+                  <entry>Date and time the SMS device monitoring this motor was last seen online.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>number</entry>
+                  <entry>code</entry>
+                  <entry>Overall code for this motor.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>state</entry>
+                  <entry>Overall status of this motor: disconnected learning good warning alarm</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>
+                     <b>attributes</b>
+                  </entry>
+                  <entry>
+                     <b>object</b>
+                  </entry>
+                  <entry/>
+                  <entry>
+                     <b>Motor physical attributes</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>name</entry>
+                  <entry>Asset tag or friendly name for this motor.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>manufacturer</entry>
+                  <entry>Motor manufacturer.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>model</entry>
+                  <entry>Motor model.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>integer</entry>
+                  <entry>poles</entry>
+                  <entry>Number of motor poles.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>number</entry>
+                  <entry>frequency</entry>
+                  <entry>Motor frequency.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>number</entry>
+                  <entry>ratedSpeed</entry>
+                  <entry>Rated speed.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>number</entry>
+                  <entry>ratedPower</entry>
+                  <entry>Rated power.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>number</entry>
+                  <entry>ratedCurrent</entry>
+                  <entry>Rated current.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>ratedVoltage</entry>
+                  <entry>Rated voltage</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>connection</entry>
+                  <entry>Connection type</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>drive</entry>
+                  <entry>Motor drive.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>efficiencyLevel</entry>
+                  <entry>Efficiency level.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>number</entry>
+                  <entry>eff100</entry>
+                  <entry>Efficiency value between 0-100.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>bearingManufacturer</entry>
+                  <entry>Bearing manufacturer.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>deBearing</entry>
+                  <entry>de bearing.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>ndeBearing</entry>
+                  <entry>nde bearing.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>bearingManufacturer2</entry>
+                  <entry>Bearing manufacturer 2.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>deBearing2</entry>
+                  <entry>de bearing 2.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>ndeBearing2</entry>
+                  <entry>nde bearing 2.</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>
+                     <b>components</b>
+                  </entry>
+                  <entry>
+                     <b>string</b>
+                  </entry>
+                  <entry/>
+                  <entry>
+                     <b>Analytics scoring for each motor component.</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>Object (Motor Component)</entry>
+                  <entry>powerSystem</entry>
+                  <entry>fsi: number. FSI value for this component. (TODO add detail notes on what FSI is and how to use it). code: number. Code value for this component. (TODO also describe this in detail)</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>Object (Motor Component)</entry>
+                  <entry>misalignment</entry>
+                  <entry>fsi: number. FSI value for this component. (TODO add detail notes on what FSI is and how to use it). code: number. Code value for this component. (TODO also describe this in detail)</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>Object (Motor Component)</entry>
+                  <entry>imbalance</entry>
+                  <entry>fsi: number. FSI value for this component. (TODO add detail notes on what FSI is and how to use it). code: number. Code value for this component. (TODO also describe this in detail)</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>Object (Motor Component)</entry>
+                  <entry>motorStructure</entry>
+                  <entry>fsi: number. FSI value for this component. (TODO add detail notes on what FSI is and how to use it). code: number. Code value for this component. (TODO also describe this in detail)</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>Object (Motor Component)</entry>
+                  <entry>rotorBar</entry>
+                  <entry>fsi: number. FSI value for this component. (TODO add detail notes on what FSI is and how to use it). code: number. Code value for this component. (TODO also describe this in detail)</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>Object (Motor Component)</entry>
+                  <entry>bearing</entry>
+                  <entry>fsi: number. FSI value for this component. (TODO add detail notes on what FSI is and how to use it). code: number. Code value for this component. (TODO also describe this in detail)</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>Object (Motor Component)</entry>
+                  <entry>statorWinding</entry>
+                  <entry>fsi: number. FSI value for this component. (TODO add detail notes on what FSI is and how to use it). code: number. Code value for this component. (TODO also describe this in detail)</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>Object (Motor Component)</entry>
+                  <entry>eccentricity</entry>
+                  <entry>fsi: number. FSI value for this component. (TODO add detail notes on what FSI is and how to use it). code: number. Code value for this component. (TODO also describe this in detail)</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>Object (Motor Component)</entry>
+                  <entry>cooling</entry>
+                  <entry>fsi: number. FSI value for this component. (TODO add detail notes on what FSI is and how to use it). code: number. Code value for this component. (TODO also describe this in detail)</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>Object (Motor Component)</entry>
+                  <entry>performance</entry>
+                  <entry>fsi: number. FSI value for this component. (TODO add detail notes on what FSI is and how to use it). code: number. Code value for this component. (TODO also describe this in detail)</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>
+                     <b>tags</b>
+                  </entry>
+                  <entry>
+                     <b>object</b>
+                  </entry>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry/>
+                  <entry/>
+                  <entry>string</entry>
+                  <entry>property name*</entry>
+                  <entry>Tag value</entry>
+               </row>
+               <row>
+                  <entry/>
+                  <entry>sensors</entry>
+                  <entry>Array of strings</entry>
+                  <entry/>
+                  <entry>Array of sensors attached to this motor. Note, at this time only one sensor can be attached to a motor.</entry>
+               </row>
+               <row>
+                  <entry>continuationToken</entry>
+                  <entry>N/A</entry>
+                  <entry>string</entry>
+                  <entry>N/A</entry>
+                  <entry>Requests the next set of results. If more records are available, then a continuation token will be returned. For example, eyJwayI6ImFkaybSIsInNrIjoxNTkyMIyNDUyLCJ0ZW5hbnRJZCI6ImFkaSJ9</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table><ul id="ul_10492781">
+         <li>Sample Success Code:</li>
+         <li>
+            <b>Sample Request:</b>
+         </li>
+         <li>https://your-api-endpoint.otosensesms.com/data/motors</li>
+         <li>Sample Response:</li>
+      </ul><ul>
+         <li>
+            <p>{</p>
+         </li>
+         <li>
+            <p>"motors": [</p>
+         </li>
+         <li>
+            <p>{</p>
+         </li>
+         <li>
+            <p>"motorId": "18f5f0a8-6b6c-498b-9469-dc62de083062",</p>
+         </li>
+         <li>
+            <p>"created": "2021-02-18T15:33:47.970Z",</p>
+         </li>
+         <li>
+            <p>"createdBy": "bob.doe@analog.com",</p>
+         </li>
+         <li>
+            <p>"updated": "2021-02-18T15:33:47.970Z",</p>
+         </li>
+         <li>
+            <p>"updatedBy": "bob.doe@analog.com",</p>
+         </li>
+         <li>
+            <p>"status": {</p>
+         </li>
+         <li>
+            <p>"connected": true,</p>
+         </li>
+         <li>
+            <p>"lastOnline": "2021-02-25T04:45:22.142Z",</p>
+         </li>
+         <li>
+            <p>"code": 0,</p>
+         </li>
+         <li>
+            <p>"state": "learning"</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"attributes": {</p>
+         </li>
+         <li>
+            <p>"name": "MOTOR2YB",</p>
+         </li>
+         <li>
+            <p>"manufacturer": "ABB",</p>
+         </li>
+         <li>
+            <p>"model": "M3AA 132SC",</p>
+         </li>
+         <li>
+            <p>"poles": 2,</p>
+         </li>
+         <li>
+            <p>"frequency": 50,</p>
+         </li>
+         <li>
+            <p>"ratedSpeed": 2890,</p>
+         </li>
+         <li>
+            <p>"ratedPower": 7.5,</p>
+         </li>
+         <li>
+            <p>"ratedCurrent": 14.4,</p>
+         </li>
+         <li>
+            <p>"ratedVoltage": 400,</p>
+         </li>
+         <li>
+            <p>"connection": "star",</p>
+         </li>
+         <li>
+            <p>"drive": "DOL",</p>
+         </li>
+         <li>
+            <p>"efficiencyLevel": "EFF1",</p>
+         </li>
+         <li>
+            <p>"eff100": 88.5,</p>
+         </li>
+         <li>
+            <p>"bearingManufacturer": "SKF",</p>
+         </li>
+         <li>
+            <p>"deBearing": 6205,</p>
+         </li>
+         <li>
+            <p>"ndeBearing": 6205,</p>
+         </li>
+         <li>
+            <p>"bearingManufacturer2": "SKF",</p>
+         </li>
+         <li>
+            <p>"deBearing2": 6205,</p>
+         </li>
+         <li>
+            <p>"ndeBearing2": 6205</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"components": {</p>
+         </li>
+         <li>
+            <p>"powerSystem": {</p>
+         </li>
+         <li>
+            <p>"fsi": 0,</p>
+         </li>
+         <li>
+            <p>"code": 0</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"misalignment": {</p>
+         </li>
+         <li>
+            <p>"fsi": 0,</p>
+         </li>
+         <li>
+            <p>"code": 0</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"imbalance": {</p>
+         </li>
+         <li>
+            <p>"fsi": 0,</p>
+         </li>
+         <li>
+            <p>"code": 0</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"motorStructure": {</p>
+         </li>
+         <li>
+            <p>"fsi": 0,</p>
+         </li>
+         <li>
+            <p>"code": 0</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"rotorBar": {</p>
+         </li>
+         <li>
+            <p>"fsi": 0,</p>
+         </li>
+         <li>
+            <p>"code": 0</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"bearing": {</p>
+         </li>
+         <li>
+            <p>"fsi": 0,</p>
+         </li>
+         <li>
+            <p>"code": 0</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"statorWinding": {</p>
+         </li>
+         <li>
+            <p>"fsi": 0,</p>
+         </li>
+         <li>
+            <p>"code": 0</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"eccentricity": {</p>
+         </li>
+         <li>
+            <p>"fsi": 0,</p>
+         </li>
+         <li>
+            <p>"code": 0</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"cooling": {</p>
+         </li>
+         <li>
+            <p>"fsi": 0,</p>
+         </li>
+         <li>
+            <p>"code": 0</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"performance": {</p>
+         </li>
+         <li>
+            <p>"fsi": 0,</p>
+         </li>
+         <li>
+            <p>"code": 0</p>
+         </li>
+         <li>
+            <p>}</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"tags": {</p>
+         </li>
+         <li>
+            <p>"location": "Limerick",</p>
+         </li>
+         <li>
+            <p>"process": "PROC_1",</p>
+         </li>
+         <li>
+            <p>"timezone": "Europe/Dublin",</p>
+         </li>
+         <li>
+            <p>"plant": "City Centre",</p>
+         </li>
+         <li>
+            <p>"geolocation": "52.6821735,-7.8260491"</p>
+         </li>
+         <li>
+            <p>},</p>
+         </li>
+         <li>
+            <p>"sensors": [</p>
+         </li>
+         <li>
+            <p>"VA000343Y"</p>
+         </li>
+         <li>
+            <p>]</p>
+         </li>
+         <li>
+            <p>}</p>
+         </li>
+         <li>
+            <p>],</p>
+         </li>
+         <li>
+            <p>"continuationToken": "string"</p>
+         </li>
+         <li>
+            <p>}</p>
+         </li>
+      </ul>
+  </context></taskbody>
+</task>

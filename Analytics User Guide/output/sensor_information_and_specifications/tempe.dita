@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="tempe" xml:lang="en-us">
+   <title>tempe</title>
+   <shortdesc>The Environmental Temperature (tempe) is the temperature of the motor’s surrounding area. There are two</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>temperature</keyword>
+        <keyword>tempe</keyword>
+        <keyword>motor</keyword>
+        <keyword>Environmental</keyword>
+        <keyword>Temperature</keyword>
+        <keyword>surrounding</keyword>
+        <indexterm>temperature</indexterm>
+        <indexterm>tempe</indexterm>
+        <indexterm>motor</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>The Environmental Temperature (tempe) is the temperature of the motor’s surrounding area. There are two temperature sensors on both sides of the SMS: the temperature sensor on the outside side (not towards the motor) measures the environment temperature.</p>
+      <p>The recorded data shows the environmental temperature scatter plot data, in the unit of Celsius (°C). The analytics system can use this data to detect the electrical or mechanical failures of the motor.</p>
+      <p>Each record contains an array of two samples captured on the specified timestamp.</p>
+      <p>For more information on API refer to the ADI OtoSense™ SMS REST API.</p>
+    </section></refbody>
+</reference>

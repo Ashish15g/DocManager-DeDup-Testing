@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="on_the_sms_web_application_10" xml:lang="en-us">
+   <title>On the SMS web application</title>
+   <shortdesc>To view a report:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>report</keyword>
+        <keyword>Reports</keyword>
+        <keyword>reports</keyword>
+        <keyword>status</keyword>
+        <keyword>application</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>report</indexterm>
+        <indexterm>Reports</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>To view a report:</p>
+      </context>
+      <steps id="steps_103141100">
+         <step>
+            <cmd>Log in to the SMS web application.</cmd>
+         </step>
+         <step>
+            <cmd>On the top navigation menu, click Reports.</cmd>
+            <info>
+               <p>The <b>Reports</b> page is displayed with a list of previously generated reports.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Find the report from the list and click View.</cmd>
+            <info>
+               <fig>
+                  <title>View option on Reports page</title>
+                  <image height="121" href="../media/image72.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <note type="note">Note: If the list of reports is long, you can click the <image height="14" href="../media/image20.png" placement="break" width="18">
+                     <alt>placeholder</alt>
+                  </image> icon next to the Location, Plant, and Process column to narrow down the list of reports. You can also click the <image height="26" href="../media/image73.png" placement="break" width="16">
+                     <alt>placeholder</alt>
+                  </image> icon next to the Reports column to sort the reports list in alphabetical order.</note>
+               <p>A new window with the latest report of the selected motor(s) is displayed.</p>
+               <fig>
+                  <title>Sample report</title>
+                  <image height="151" href="../media/image74.jpeg" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <p>The following details are displayed in the report:</p>
+               <table colsep="1" frame="all" rowsep="1">
+                  <tgroup cols="2">
+                     <colspec colname="c1"/>
+                     <colspec colname="c2"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <b>Report column</b>
+                           </entry>
+                           <entry>
+                              <b>Description</b>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>Motor name</entry>
+                           <entry>The name of the motor</entry>
+                        </row>
+                        <row>
+                           <entry>Motor details</entry>
+                           <entry>The name of the manufacturer and other motor specifications</entry>
+                        </row>
+                        <row>
+                           <entry>Status</entry>
+                           <entry>The current health status of the motor</entry>
+                        </row>
+                        <row>
+                           <entry>Description</entry>
+                           <entry>The description of a fault, if motor’s health status is Alarm</entry>
+                        </row>
+                        <row>
+                           <entry>Action</entry>
+                           <entry>The action required, if motor’s health status is Alarm</entry>
+                        </row>
+                        <row>
+                           <entry>Battery</entry>
+                           <entry>The battery level of the SMS device attached to the motor</entry>
+                        </row>
+                        <row>
+                           <entry>Connection status</entry>
+                           <entry>The status of SMS device’s connectivity to the ADI OtoSense™ Server</entry>
+                        </row>
+                        <row>
+                           <entry>Operation hours</entry>
+                           <entry>The number of hours the motor is in operation since the report was first generated</entry>
+                        </row>
+                        <row>
+                           <entry>Starts</entry>
+                           <entry>The number of times the motor has started since the report was first generated</entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+               <p>Table  Motor details displayed in a report on the SMS web application</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click View all reports on the top left of the page to go back to the Reports page.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

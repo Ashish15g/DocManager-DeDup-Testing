@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Validate_Wi-Fi_Network" xml:lang="en-us">
+   <title>Validate Wi-Fi network</title>
+   <shortdesc>This section describes how to validate your plant’s Wi-Fi network. This is to ensure that</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>network</keyword>
+        <keyword>Network</keyword>
+        <keyword>Validate</keyword>
+        <keyword>Validator</keyword>
+        <keyword>parameters</keyword>
+        <keyword>location</keyword>
+        <indexterm>network</indexterm>
+        <indexterm>Network</indexterm>
+        <indexterm>Validate</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>This section describes how to validate your plant’s Wi-Fi network. This is to ensure that the network is robust enough to establish a reliable connection between an , the , and the .</p>
+         <p>When deploying an  in a new location, it is recommended to use the Network Validator tool that is available on the . This tool tests your network setup using four different parameters: signal strength, frequency, internet connectivity, and SMS cloud access.</p>
+         <note type="note">On iOS devices, the Network Validator tool tests your network setup using only two parameters: internet connectivity and SMS cloud access.</note>
+         <p>To validate Wi-Fi Network:</p>
+    <ol>
+    <li>Go to the motor location.</li>
+    <li><p>Log in to the  on your mobile device with your credentials. If you are entering information in this account for the first time, you will see the prompt ‘<b>Validate your Wi-Fi network</b>’ on the Dashboard.</p>
+      <note type="note">If this is not your first time entering information in this account, then go to Settings and tap Network Validator . In the next screen, tap Validate to run the Network Validator tool.</note>
+               <fig>
+                  <title>Image7</title>
+                  <image height="414" href="../media/image7.png" placement="break" width="456">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li><p>Tap <b>Validate your Wi-Fi network</b>.</p>
+      <fig>
+                  <title>Image8</title>
+                  <image height="402" href="../media/image8.png" placement="break" width="186">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig></li>
+    <li><p>Confirm that you passed the last two parameters:</p>
+      <ul>
+    <li>Internet Connectivity</li>
+    <li><p>SMS Cloud Access</p>
+      <fig>
+                        <title>Image9</title>
+                        <image height="504" href="../media/image9.png" placement="break" width="232">
+                           <alt>placeholder</alt>
+                        </image>
+                     </fig>
+                     <note type="note">On iOS devices, the first two parameters cannot be confirmed. Ignore the “Warning” sign.</note></li>
+    </ul></li>
+    <li><p>For iOS devices, use a Wi-Fi analyzer tool running on an Android or Windows device to confirm your network signal strength.</p>
+      <note type="note">The signal strength must be greater than -60dB at the motor location.</note></li>
+    <li>Tap <b>Done</b> on the top-right of the screen.</li>
+    <li>Check the back of the plant’s Wi-Fi router to verify that the Wi-Fi access point is 2.4GHz 802.11b/n/g.</li>
+    </ol>
+    <section>
+      <title>Result</title>
+      <note type="note">For more information, see Verify Wi-Fi Access Point .</note>
+    </section></conbody>
+</concept>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_OAuth" xml:lang="en-us">
+   <title>OAuth</title>
+   <shortdesc>The OtoSense™ SMS REST API implements the OAuth Client Credential flow</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>OAuth</keyword>
+        <keyword>token</keyword>
+        <keyword>OtoSense</keyword>
+        <keyword>credentials</keyword>
+        <keyword>REST</keyword>
+        <keyword>implements</keyword>
+        <indexterm>OAuth</indexterm>
+        <indexterm>token</indexterm>
+        <indexterm>OtoSense</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>The OtoSense™ SMS REST API implements the OAuth Client Credential flow</p>
+      <p>At a high level, the flow has two steps:</p>
+      <ol>
+    <li>Your application passes its client credentials in a token request.</li>
+    <li>OtoSense™ SMS device responds with a bearer token if the credentials are accurate.</li>
+    </ol>
+    </section>
+<section>
+      <title>Result</title>
+      <p>The API response also provides the time left (in seconds) until the token expires.</p>
+    </section></refbody>
+</reference>

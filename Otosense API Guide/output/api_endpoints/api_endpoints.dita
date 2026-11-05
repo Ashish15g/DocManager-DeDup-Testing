@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Ref185856414" xml:lang="en-us">
+   <title>API Endpoints</title>
+   <shortdesc>The ADI OtoSense™ REST APIs include the following endpoints that perform specific functions:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>JSON</keyword>
+        <keyword>Motor</keyword>
+        <keyword>POST</keyword>
+        <keyword>Sensor</keyword>
+        <keyword>motor</keyword>
+        <keyword>motors</keyword>
+        <indexterm>JSON</indexterm>
+        <indexterm>Motor</indexterm>
+        <indexterm>POST</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>The ADI OtoSense™ REST APIs include the following endpoints that perform specific functions:</p><table frame="all" colsep="1" rowsep="1">
+            <tgroup cols="4">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <colspec colname="c4"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Description</b>
+                     </entry>
+                     <entry>
+                        <b>Method</b>
+                     </entry>
+                     <entry>
+                        <b>Path</b>
+                     </entry>
+                     <entry>
+                        <b>Format</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../access_the_api/get_a_bearer_token.dita" format="dita">Get a Bearer Token</xref>
+                     </entry>
+                     <entry>POST</entry>
+                     <entry>/oauth/token</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/get_data.dita" format="dita">Get Data</xref>
+                     </entry>
+                     <entry>GET</entry>
+                     <entry>/data/{motorId}/{dataset}</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/create_a_motor.dita" format="dita">Create a Motor</xref>
+                     </entry>
+                     <entry>POST</entry>
+                     <entry morerows="1">/motors</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/get_all_motors.dita" format="dita">Get all Motors</xref>
+                     </entry>
+                     <entry>GET</entry>
+                     <entry namest="c3" nameend="c4">JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/get_a_motor.dita" format="dita">Get a Motor</xref>
+                     </entry>
+                     <entry>GET</entry>
+                     <entry morerows="2">/motors/{motorId}</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/update_a_motor.dita" format="dita">Update a Motor</xref>
+                     </entry>
+                     <entry>PUT</entry>
+                     <entry namest="c3" nameend="c4">JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/delete_a_motor.dita" format="dita">Delete a Motor</xref>
+                     </entry>
+                     <entry>DELETE</entry>
+                     <entry namest="c3" nameend="c4">JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/attach_a_motor_sensor.dita" format="dita">Attach a Motor Sensor</xref>
+                     </entry>
+                     <entry>POST</entry>
+                     <entry morerows="1">/motors/{motorId}/sensors/{sensorId}</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/detach_a_motor_sensor.dita" format="dita">Detach a Motor Sensor</xref>
+                     </entry>
+                     <entry>DELETE</entry>
+                     <entry namest="c3" nameend="c4">JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/create_a_motor_log_entry.dita" format="dita">Create a Motor Log Entry</xref>
+                     </entry>
+                     <entry>POST</entry>
+                     <entry morerows="1">/motors/{motorId}/log</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/get_a_motor_log.dita" format="dita">Get a Motor Log</xref>
+                     </entry>
+                     <entry>GET</entry>
+                     <entry namest="c3" nameend="c4">JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/provision_a_sensor.dita" format="dita">Provision a Sensor</xref>
+                     </entry>
+                     <entry>POST</entry>
+                     <entry morerows="1">/sensors</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/get_all_sensors.dita" format="dita">Get all Sensors</xref>
+                     </entry>
+                     <entry>GET</entry>
+                     <entry namest="c3" nameend="c4">JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/get_a_sensor.dita" format="dita">Get a Sensor</xref>
+                     </entry>
+                     <entry>GET</entry>
+                     <entry morerows="1">/sensors/{sensorsId)</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/deprovision_a_sensor.dita" format="dita">Deprovision a Sensor</xref>
+                     </entry>
+                     <entry>DELETE</entry>
+                     <entry namest="c3" nameend="c4">JSON</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+  </context></taskbody>
+</task>

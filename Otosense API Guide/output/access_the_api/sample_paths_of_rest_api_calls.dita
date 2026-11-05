@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Toc186824626" xml:lang="en-us">
+   <title>Sample Paths of REST API Calls</title>
+   <shortdesc>This section displays the description, paths, HTTP method, and format of REST calls made to</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>https</keyword>
+        <keyword>otosensesms</keyword>
+        <keyword>JSON</keyword>
+        <keyword>POST</keyword>
+        <keyword>motor</keyword>
+        <keyword>Motor</keyword>
+        <indexterm>https</indexterm>
+        <indexterm>otosensesms</indexterm>
+        <indexterm>JSON</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section id="sec_d101e7">
+         <p>This section displays the description, paths, HTTP method, and format of REST calls made to the SMS Cloud API.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <tgroup cols="4">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <colspec colname="c4"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Description</b>
+                     </entry>
+                     <entry>
+                        <b>Path</b>
+                     </entry>
+                     <entry>
+                        <b>Method</b>
+                     </entry>
+                     <entry>
+                        <b>Format</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../access_the_api/get_a_bearer_token.dita" format="dita">Get a Bearer Token</xref>
+                     </entry>
+                     <entry>https://api adi.otosensesms.com/oauth/token</entry>
+                     <entry>POST</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/get_data.dita" format="dita">Get Data</xref>
+                     </entry>
+                     <entry>https://api adi.otosensesms.com/data/{motorId}/{dataset}</entry>
+                     <entry>GET</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/create_a_motor.dita" format="dita">Create a Motor</xref>
+                     </entry>
+                     <entry>https://api adi.otosensesms.com/motors</entry>
+                     <entry>POST</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/get_a_motor.dita" format="dita">Get a Motor</xref>
+                     </entry>
+                     <entry>https://api adi.otosensesms.com/motors/{motorId}</entry>
+                     <entry>GET</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/attach_a_motor_sensor.dita" format="dita">Attach a Motor Sensor</xref>
+                     </entry>
+                     <entry>https://api adi.otosensesms.com/motors/{motorId}/sensors/{sensorId}</entry>
+                     <entry>POST</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/create_a_motor_log_entry.dita" format="dita">Create a Motor Log Entry</xref>
+                     </entry>
+                     <entry>https://api adi.otosensesms.com/motors/{motorId}/log</entry>
+                     <entry>POST</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/provision_a_sensor.dita" format="dita">Provision a Sensor</xref>
+                     </entry>
+                     <entry>https://api adi.otosensesms.com/sensors</entry>
+                     <entry>POST</entry>
+                     <entry>JSON</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <xref href="../api_endpoints/get_a_sensor.dita" format="dita">Get a Sensor</xref>
+                     </entry>
+                     <entry>https://api adi.otosensesms.com/sensors/{sensorsId)</entry>
+                     <entry>GET</entry>
+                     <entry>JSON</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>For information on all the endpoints, see API Endpoints.</p>
+      </section>
+   </refbody>
+</reference>

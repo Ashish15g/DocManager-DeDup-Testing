@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="overview" xml:lang="en-us">
+   <title>Overview</title>
+   <shortdesc>After the SMS is configured and installed on a motor, it begins sending data from</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>OtoSense</keyword>
+        <keyword>Server</keyword>
+        <keyword>learning</keyword>
+        <keyword>Overview</keyword>
+        <keyword>After</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>OtoSense</indexterm>
+        <indexterm>Server</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>After the SMS is configured and installed on a motor, it begins sending data from its on-board sensors to the ADI OtoSense™ Server and initiates a learning process. During this learning process, the analytics create a unique, customized model of the motor whose data is received. At regular intervals, the SMS sends a 2.4 second sample of all sensor data to the ADI OtoSense™ Server.</p>
+      <p>
+         <fig>
+            <title>The SMS Communicating with the Cloud</title>
+            <image href="../media/image4.png" placement="break" height="239" width="602">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+      </p>
+      <p>After the learning mode, the ADI OtoSense™ Server uses the baseline model to detect motor performance anomalies and generate alerts about impending motor issues.</p>
+   </conbody>
+</concept>

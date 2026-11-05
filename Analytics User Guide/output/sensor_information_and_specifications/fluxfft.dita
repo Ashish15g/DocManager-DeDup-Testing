@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Ref182997042" xml:lang="en-us">
+   <title>fluxFFT</title>
+   <shortdesc>The Magnetic Field FFT (fluxFFT) is the magnetic field leaked from the motor and measured</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>magnetic</keyword>
+        <keyword>field</keyword>
+        <keyword>motor</keyword>
+        <keyword>Magnetic</keyword>
+        <keyword>Field</keyword>
+        <keyword>leaked</keyword>
+        <indexterm>magnetic</indexterm>
+        <indexterm>field</indexterm>
+        <indexterm>motor</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>The Magnetic Field FFT (fluxFFT) is the magnetic field leaked from the motor and measured on the surface of the frame. This recorded data shows the magnetic field Fast Fourier Transform data, in the unit of decibels (dB). With the magnetic field from the motor, the analytics system can detect the electrical failures of the motor.</p>
+      <ul>
+         <li>
+            <p>Each record contains an FFT of the flux samples captured on the specified timestamp.</p>
+            <p>It is necessary to generate the corresponding X-axis data to plot this fluxFFT data in a graphic. The X-axis data is a vector of 7,500 data points with a step of 0.41667 Hertz (Hz).</p>
+         </li>
+         <li>
+            <p>For example:</p>
+         </li>
+         <li>
+            <p>[0.41667, 0.83334, 1.25, .... , 3125]</p>
+         </li>
+         <li>
+            <p>For more information on API refer to the ADI OtoSense™ SMS REST API.</p>
+         </li>
+      </ul>
+    </section></refbody>
+</reference>

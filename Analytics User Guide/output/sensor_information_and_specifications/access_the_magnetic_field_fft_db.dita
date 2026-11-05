@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="access_the_magnetic_field_fft_db" xml:lang="en-us">
+   <title>Access the Magnetic Field FFT dB</title>
+   <shortdesc>This section describes the process of accessing the magnetic field FFT graph.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Select</keyword>
+        <keyword>Magnetic</keyword>
+        <keyword>Field</keyword>
+        <keyword>select</keyword>
+        <keyword>corresponding</keyword>
+        <keyword>Access</keyword>
+        <indexterm>Select</indexterm>
+        <indexterm>Magnetic</indexterm>
+        <indexterm>Field</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>This section describes the process of accessing the magnetic field FFT graph.</p>
+         <p>To access the Magnetic Field FFT dB through the application:</p>
+      </context>
+      <steps id="steps_10211537">
+         <step>
+            <cmd>Tap <b>Motors</b>.</cmd>
+            <info>
+               <p>The Locations list is displayed.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the location associated with the motor.</cmd>
+         </step>
+         <step>
+            <cmd>From the subsequent screens, select the corresponding process, plant, and motor name.</cmd>
+         </step>
+         <step>
+            <cmd>Select <b>History Plot</b> and <b>Parameters</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Tap <b>Select Vibration</b> to select <b>Magnetic field FFT</b>
+               <b>dB</b>.</cmd>
+         </step>
+         <step>
+            <cmd>Tap <b>Select Date</b> and <b>Select Time</b> to select the date and time corresponding to the moment of the installation.</cmd>
+            <info>
+               <p>You should see the corresponding waveform as shown in <xref href="#Bookmark8">Figure 36</xref>.<image height="298" href="../media/image62.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click <b>DATA DOWNLOAD</b>to download the generated data.</cmd>
+         </step>
+      </steps>
+   </taskbody>
+</task>

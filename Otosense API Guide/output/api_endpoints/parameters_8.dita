@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="parameters_8" xml:lang="en-us">
+   <title>Parameters</title>
+   <shortdesc>This API request includes the following query and header parameters.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Parameters</keyword>
+        <keyword>header</keyword>
+        <keyword>token</keyword>
+        <keyword>request</keyword>
+        <keyword>parameters</keyword>
+        <keyword>string</keyword>
+        <indexterm>Parameters</indexterm>
+        <indexterm>header</indexterm>
+        <indexterm>token</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>    <section>
+      <p>This API request includes the following query and header parameters.</p>
+      <ul id="ul_10492777">
+         <li>Query Parameters:</li>
+      </ul>
+      <p>The query parameters are added to the end of the request URL to provide additional information to the server.</p>
+    </section>
+<table frame="all" colsep="1" rowsep="1">
+         <tgroup cols="4">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <colspec colname="c4"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Parameter</b>
+                  </entry>
+                  <entry>
+                     <b>Type</b>
+                  </entry>
+                  <entry>
+                     <b>Description</b>
+                  </entry>
+                  <entry>
+                     <b>Required</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>continuationToken</entry>
+                  <entry>string</entry>
+                  <entry>Requests the next set of results. If more records are available, then a continuation token will be returned. For example, eyJwayI6ImFkaybSIsInNrIjoxNTkyMIyNDUyLCJ0ZW5hbnRJZCI6ImFkaSJ9</entry>
+                  <entry>No</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+    <section>
+      <ul id="ul_10492778">
+         <li>Header Parameters:</li>
+      </ul>
+      <p>The header parameters instruct the API on handling requests, such as authentication and compressing responses over 1KB.</p>
+    </section>
+<table frame="all" colsep="1" rowsep="1">
+         <tgroup cols="5">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <colspec colname="c4"/>
+            <colspec colname="c5"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Parameter</b>
+                  </entry>
+                  <entry>
+                     <b>Type</b>
+                  </entry>
+                  <entry>
+                     <b>Description</b>
+                  </entry>
+                  <entry>
+                     <b>Input Value</b>
+                  </entry>
+                  <entry>
+                     <b>Required</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Authorization</entry>
+                  <entry>string</entry>
+                  <entry>Authenticates API requests. Provide a valid bearer token in the HTTP header. This bearer token can be obtained from the <xref href="../access_the_api/oauth.dita" format="dita">OAuth bearer token request</xref>.</entry>
+                  <entry>N/A</entry>
+                  <entry>Yes</entry>
+               </row>
+               <row>
+                  <entry>Accept-Encoding</entry>
+                  <entry>string</entry>
+                  <entry>Compresses responses. Responses over 1KB in size will automatically be compressed. The client must be capable of receiving and decompressing the response. Warning: The header is not set; responses greater than 1 KB will fail.</entry>
+                  <entry>gzip: Compression format using the Lempel-Ziv coding (LZ77), with a 32-bit CRC. deflate: Compression format using the zlib structure and deflate compression algorithm. br: Compression format using the Brotli algorithm.</entry>
+                  <entry>Yes</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table></refbody>
+</reference>

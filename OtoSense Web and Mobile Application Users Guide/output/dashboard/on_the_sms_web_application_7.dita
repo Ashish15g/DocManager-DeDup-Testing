@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="on_the_sms_web_application_7" xml:lang="en-us">
+   <title>On the SMS web application</title>
+   <shortdesc>To view motor performance data:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>placeholder</keyword>
+        <keyword>performance</keyword>
+        <keyword>Performance</keyword>
+        <keyword>motor</keyword>
+        <keyword>Select</keyword>
+        <keyword>functions</keyword>
+        <indexterm>placeholder</indexterm>
+        <indexterm>performance</indexterm>
+        <indexterm>Performance</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>To view motor performance data:</p>
+      </context>
+      <steps id="steps_10314158">
+         <step>
+            <cmd>Log in to the SMS web application.</cmd>
+         </step>
+         <step>
+            <cmd>Select a motor on the <xref href="../dashboard/search_for_a_motor.dita" format="dita">left navigation pane</xref> or on the <xref href="../dashboard/monitor_motor_condition_list_view.dita" format="dita">List view</xref> to display the motor’s information page.</cmd>
+         </step>
+         <step>
+            <cmd>Select the History plot tab.</cmd>
+         </step>
+         <step>
+            <cmd>Select the Performance sub-tab.</cmd>
+         </step>
+         <step>
+            <cmd>Select one or more functions from the Motor performance data drop-down list.</cmd>
+            <info>
+               <fig>
+                  <title>placeholder</title>
+                  <image height="211" href="../media/image51.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <p>Figure  Performance sub-tab - Options</p>
+               <note type="note">Note: You can select a maximum of four functions to be visualized at any given time.</note>
+            </info>
+         </step>
+         <step>
+            <cmd>Click DRAW PLOT.</cmd>
+            <info>
+               <p>The plot of the selected functions is displayed.</p>
+               <fig>
+                  <title>placeholder</title>
+                  <image height="300" href="../media/image52.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <p>Figure  Motor performance plot</p>
+            </info>
+         </step>
+         <step>
+            <cmd>To zoom in on a specific time period, click and drag your mouse over the required dots. To zoom out, click Reset zoom on the bottom right of the page.</cmd>
+            <info>
+               <note type="note">Note: Hover over a specific dot to view exact readings.</note>
+               <fig>
+                  <title>Motor performance plot - zoomed in</title>
+                  <image height="304" href="../media/image53.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <p>For more information on motor and environment temperature functions, see section <b>Sensor Information and Specifications</b> à<b>Temperature sensors</b> in the Analytics User Guide.</p>
+               <p>To download performance data:</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click DATA DOWNLOAD on the top right of the Performance sub-tab.</cmd>
+            <info>
+               <p>The <b>Performance Data</b>
+                  <b>Downloading</b> window is displayed.</p>
+               <fig>
+                  <title>Performance Data Downloading window</title>
+                  <image height="213" href="../media/image48.png" placement="break" width="410">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Confirm the date range, and the selected function(s) or modify these details, as required.</cmd>
+         </step>
+         <step>
+            <cmd>Specify a file name.</cmd>
+         </step>
+         <step>
+            <cmd>Click <b>GO</b>.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The data is downloaded to the specified file on your computer.</p>
+      </result>
+   </taskbody>
+</task>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Toc186824639" xml:lang="en-us">
+   <title>Response Compression</title>
+   <shortdesc>This section describes the guidelines related to response compression.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>Compression</keyword>
+        <keyword>format</keyword>
+        <keyword>using</keyword>
+        <keyword>Response</keyword>
+        <keyword>compression</keyword>
+        <keyword>compressed</keyword>
+        <indexterm>Compression</indexterm>
+        <indexterm>format</indexterm>
+        <indexterm>using</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>This section describes the guidelines related to response compression.</p><p>Responses over 1KB in size will automatically be compressed. Clients must be capable of decoding and decompressing compressed responses.</p><p>The Accept-Encoding header must be set to one of the following:</p><table frame="all" colsep="1" rowsep="1">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Input Value</b>
+                     </entry>
+                     <entry>
+                        <b>Description</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>gzip</entry>
+                     <entry>Compression format using the Lempel-Ziv coding (LZ77) with a 32-bit CRC.</entry>
+                  </row>
+                  <row>
+                     <entry>deflate</entry>
+                     <entry>Compression format using the zlib structure, with the deflate compression algorithm.</entry>
+                  </row>
+                  <row>
+                     <entry>br</entry>
+                     <entry>Compression format using the Brotli algorithm.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table><note type="caution">Warning:</note><p>If this header is not set, responses greater than 1KB will fail.</p>
+  </context></taskbody>
+</task>

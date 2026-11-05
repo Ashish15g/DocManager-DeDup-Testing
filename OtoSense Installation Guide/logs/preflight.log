@@ -1,0 +1,28 @@
+================================================================================
+ metR DOCX DocMigrate — PRE-FLIGHT REPORT
+================================================================================
+ Total DOCX Files      : 1
+ Started               : 2026-08-19 10:13:25 UTC
+ Completed             : 2026-08-19 10:13:25 UTC
+ Duration              : 0s
+ Overall Status        : SUCCESS
+--------------------------------------------------------------------------------
+
+[2026-08-19T10:13:25.520935+00:00] PreflightService class is running.
+[2026-08-19T10:13:25.521402+00:00] preflight_started working.
+[2026-08-19T10:13:25.528758+00:00] PreflightService Reading uploaded file 'OtoSense Installation Guide.docx' in 1 MB chunks (max allowed: 2000 MB).
+[2026-08-19T10:13:25.578000+00:00] PreflightService File read complete - 30.73 MB. Saved.
+[2026-08-19T10:13:25.578328+00:00] PreflightService File saved successfully.
+[2026-08-19T10:13:25.578492+00:00] file_saved 'OtoSense Installation Guide.docx' uploaded and saved (30.73 MB).
+[2026-08-19T10:13:25.794956+00:00] PreflightService Validating document structure for 'OtoSense Installation Guide.docx'.
+[2026-08-19T10:13:25.795104+00:00] validating_structure Validating document heading structure for 'OtoSense Installation Guide.docx'.
+[2026-08-19T10:13:25.805201+00:00] check_docx_starts_with_heading Validating document structure.
+[2026-08-19T10:13:25.807690+00:00] check_docx_starts_with_heading Reading 'word/document.xml' for heading validation.
+[2026-08-19T10:13:25.809968+00:00] check_docx_starts_with_heading Parsing 'word/document.xml' XML.
+[2026-08-19T10:13:25.848064+00:00] check_docx_starts_with_heading Scanning 865 paragraph(s) for a valid first heading style.
+[2026-08-19T10:13:25.848369+00:00] check_docx_starts_with_heading First styled paragraph uses 'title' — document structure is valid.
+[2026-08-19T10:13:25.892958+00:00] PreflightService class completed successfully.
+[2026-08-19T10:13:25.893125+00:00] preflight_completed File 'OtoSense Installation Guide.docx' validated successfully and is ready for conversion.
+
+ [GUI] Success: Pre-flight analysis completed successfully.
+================================================================================

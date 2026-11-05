@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Change_the_motor_s" xml:lang="en-us">
+   <title>Change the motor’s status to ‘Repairing’</title>
+   <shortdesc>If a motor or motor component is being repaired or replaced, you must update the</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>status</keyword>
+        <keyword>Repairing</keyword>
+        <keyword>repaired</keyword>
+        <keyword>mobile</keyword>
+        <keyword>displayed</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>status</indexterm>
+        <indexterm>Repairing</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>If a motor or motor component is being repaired or replaced, you must update the motor’s status manually on the SMS mobile app. No data is sent to the ADI OtoSense™ Server while the motor is being repaired.</p>
+         <p>After a repair is performed:</p>
+         <ul id="ul_10314183">
+            <li>Update the details of the new part or new motor in the SMS mobile app. See Section 6.1 <b>Repairing or replacing a motor</b> of the Installation Guide.</li>
+            <li>
+               <xref href="../alerts/resolve_alerts.dita" format="dita">Mark the motor as ‘repaired’</xref> on the SMS web application.</li>
+         </ul>
+         <p>A new learning process will begin after a motor has been repaired.</p>
+         <p>To set a motor’s status to ‘Repairing’:</p>
+      </context>
+      <steps id="steps_10314184">
+         <step>
+            <cmd>Log in to the SMS mobile application.</cmd>
+         </step>
+         <step>
+            <cmd>Tap Motors on the bottom menu.</cmd>
+            <info>
+               <p>The Locations list is displayed.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Select the corresponding location associated with the motor.</cmd>
+         </step>
+         <step>
+            <cmd>From the subsequent screens, select the corresponding plant, process, and motor name.</cmd>
+            <info>
+               <p>The motor’s information page is displayed.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Tap Parameters.</cmd>
+         </step>
+         <step>
+            <cmd>Scroll up and tap SET TO REPAIRING.</cmd>
+            <info>
+               <p>An alert message is displayed.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Tap CONTINUE.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The motor’s status is set to repairing.</p>
+      </result>
+   </taskbody>
+</task>

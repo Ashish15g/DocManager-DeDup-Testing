@@ -1,0 +1,3638 @@
+{
+  "job_id": "2088a3c5-2133-4d9c-86fd-d65619899cbf",
+  "mode": "enrich-only",
+  "output_dir": "/app/Storage/2088a3c5-2133-4d9c-86fd-d65619899cbf/transformed output",
+  "processed_at": "2026-08-19T10:20:18.913887+00:00",
+  "counts": {
+    "dita_files_total": 52,
+    "ditamap_files_total": 9,
+    "topics_reclassified": 22,
+    "issues_fixed_by_zone1": 0,
+    "issues_fixed_by_ai": 52,
+    "issues_remaining": 12,
+    "ai_obligations_missed": 2,
+    "new_issues_by_ai": 40,
+    "pending_suggestions": 59,
+    "alt_text_images_filled": 0,
+    "alt_text_images_skipped": 0,
+    "alt_text_images_scanned": 0
+  },
+  "quality_metrics": {
+    "element_validation_success_pct": 96,
+    "attribute_mapping_success_pct": 100,
+    "href_resolution_success_pct": 98,
+    "table_resolution": {
+      "validated": 4,
+      "total": 4,
+      "success_pct": 100
+    }
+  },
+  "token_usage": {
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "total_cost_usd": 0,
+    "by_model": {}
+  },
+  "element_counts": {
+    "ol": 5,
+    "ul": 47,
+    "table": 4,
+    "image": 58,
+    "crosslink": 18,
+    "hyperlink": 11,
+    "concept": 21,
+    "task": 23,
+    "reference": 2,
+    "topic": 6
+  },
+  "enrichment_summary": [
+    {
+      "file": "getting_started/activate_sms_account.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "getting_started/configure_firewall_ports.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "getting_started/connect_mobile_device_to_an_existing_wi_fi_network.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "getting_started/download.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "getting_started/getting_started.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "getting_started/keep_sms_shipment_box_handy.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "getting_started/prepare_a_mobile_device.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "getting_started/read_and_fill_motor_information_form.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "getting_started/validate_wi_fi_network.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "getting_started/verify_network_requirements.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "getting_started/verify_wi_fi_network_configuration.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "getting_started/whitelist_domains.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "installation/add_a_motor_to_an_unpaired.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "installation/assign_a_location_plant_and_process.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "installation/commission_sms_using_the.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "installation/commission_the.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "installation/enter_motor_details.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "installation/install_on_a_motor.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "installation/install_sms_device_to_a_motor_without_cooling_ribs.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "installation/install_to_a_motor_with_cooling_ribs.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "installation/installation.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "installation/installation_dos_and_don_ts.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "installation/unboxing_sms_shipment_box.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "intended_audience/intended_audience.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "introduction/benefits.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "introduction/how_does_sms_device_work.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "reference",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "introduction/introduction.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "introduction/motor_compatibility.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "maintenance/maintenance.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "maintenance/repairing_or_replacing_a_motor.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "maintenance/replacing_the_batteries.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "post_installation/post_installation.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "reference/certifications_and_regulatory.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": true
+    },
+    {
+      "file": "reference/check_point_firewall.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/contact_information.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/correspondence_between_iec_and_nema_frames.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/eu_statement.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "reference/examples_of_routers_with_recommended_features.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/federal_communication_commission_interference_statement.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "reference",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/how_to_read_a_motor_plate.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "reference/industry_canada_statement.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "reference/motor_information_form.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/palo_alto_firewall.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/recommendations_to_purchase_a_router.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/recommended_features.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/reference.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reference/routers.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": true
+    },
+    {
+      "file": "reference/sim_cards_and_data_plans.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "reference/tutorial_videos.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "troubleshooting/troubleshooting.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "troubleshooting/unable_to_commission_within_5_minutes.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    }
+  ],
+  "alt_text_summary": {
+    "images_filled": 0,
+    "images_skipped": 0,
+    "total_images_scanned": 0
+  },
+  "alt_text_events": {
+    "filled": [],
+    "skipped": []
+  },
+  "structural_issues_remaining": [
+    {
+      "severity": "WARNING",
+      "category": "broken_xref",
+      "file": "reference/contact_information.dita",
+      "message": "<xref href=\"mailto:Support.PdM.Otosense@analog.com\"> \u2014 target file 'mailto:Support.PdM.Otosense@analog.com' does not exist on disk"
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "troubleshooting/troubleshooting.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the common issues encountered when in...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "introduction/how_does_sms_device_work.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "introduction/how_does_sms_device_work.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the functionality of an SMS device.'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "introduction/motor_compatibility.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the motor specifications that are com...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "introduction/benefits.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the benefits of using an .'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "installation/commission_the.dita",
+      "message": "step 7 has an empty <cmd> element",
+      "line": 78
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "installation/commission_the.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of commissioning an which...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "installation/install_to_a_motor_with_cooling_ribs.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an to a mot...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "installation/install_on_a_motor.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "installation/install_on_a_motor.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an to a mot...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "installation/unboxing_sms_shipment_box.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the contents of the SMS shipment box ...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "installation/installation_dos_and_don_ts.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the correct and incorrect positioning...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "installation/install_sms_device_to_a_motor_without_cooling_ribs.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an to a mot...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "installation/commission_sms_using_the.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of commissioning a new .'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "installation/add_a_motor_to_an_unpaired.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to add motor details to a previou...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "installation/enter_motor_details.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 105
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "installation/enter_motor_details.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to enter motor information in the...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "installation/assign_a_location_plant_and_process.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to assign location, plant, and pr...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "installation/installation.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an on a mot...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "maintenance/maintenance.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure for replacing or repair...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "maintenance/replacing_the_batteries.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure for replacing the batte...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "post_installation/post_installation.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to verify if the is connected and...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "reference/tutorial_videos.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "reference/recommendations_to_purchase_a_router.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "reference/recommended_features.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/routers.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "reference/routers.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "reference/certifications_and_regulatory.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "reference/certifications_and_regulatory.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "reference/motor_information_form.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 26
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "reference/correspondence_between_iec_and_nema_frames.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 23
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "reference/reference.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section provides'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "intended_audience/intended_audience.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the intended audience for this guide.'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "getting_started/validate_wi_fi_network.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to validate your plant\u2019s Wi-Fi ne...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "getting_started/verify_network_requirements.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "getting_started/verify_network_requirements.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the Wi-Fi network configuration requi...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "getting_started/configure_firewall_ports.dita",
+      "message": "step 1 has an empty <cmd> element",
+      "line": 32
+    },
+    {
+      "severity": "WARNING",
+      "category": "step_empty_cmd",
+      "file": "getting_started/configure_firewall_ports.dita",
+      "message": "step 2 has an empty <cmd> element",
+      "line": 47
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "getting_started/configure_firewall_ports.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes what to do if you have a corporate fi...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "getting_started/getting_started.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the necessary steps to be taken befor...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "getting_started/keep_sms_shipment_box_handy.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the installation tools required.'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "getting_started/verify_wi_fi_network_configuration.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of verifying the Wi-Fi ac...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "getting_started/connect_mobile_device_to_an_existing_wi_fi_network.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to connect your smartphone or tab...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "getting_started/whitelist_domains.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the domains that you need to whitelis...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "getting_started/download.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 34
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "getting_started/download.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of downloading the to you...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "getting_started/read_and_fill_motor_information_form.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "getting_started/read_and_fill_motor_information_form.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure for filling out the Mot...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "getting_started/activate_sms_account.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of activating your SMS ac...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "getting_started/prepare_a_mobile_device.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the mobile devices and the OS version...'",
+      "line": 5
+    }
+  ],
+  "enrichment_quality": {
+    "summary": {
+      "dita_file_count": 52,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "WARNING": 36,
+        "INFO": 0
+      },
+      "category_counts": {
+        "shortdesc_too_generic": 32,
+        "missing_shortdesc": 2,
+        "missing_prolog": 2
+      }
+    },
+    "issues": [
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "troubleshooting/troubleshooting.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the common issues encountered when in...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "introduction/how_does_sms_device_work.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the functionality of an SMS device.'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "introduction/motor_compatibility.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the motor specifications that are com...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "introduction/benefits.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the benefits of using an .'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/commission_the.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of commissioning an which...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/install_to_a_motor_with_cooling_ribs.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an to a mot...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/install_on_a_motor.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an to a mot...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/unboxing_sms_shipment_box.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the contents of the SMS shipment box ...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/installation_dos_and_don_ts.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the correct and incorrect positioning...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/install_sms_device_to_a_motor_without_cooling_ribs.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an to a mot...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/commission_sms_using_the.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of commissioning a new .'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/add_a_motor_to_an_unpaired.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to add motor details to a previou...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/enter_motor_details.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to enter motor information in the...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/assign_a_location_plant_and_process.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to assign location, plant, and pr...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/installation.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an on a mot...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "maintenance/maintenance.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure for replacing or repair...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "maintenance/replacing_the_batteries.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure for replacing the batte...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "post_installation/post_installation.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to verify if the is connected and...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/routers.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "reference/routers.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/certifications_and_regulatory.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "reference/certifications_and_regulatory.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "reference/reference.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section provides'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "intended_audience/intended_audience.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the intended audience for this guide.'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/validate_wi_fi_network.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to validate your plant\u2019s Wi-Fi ne...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/verify_network_requirements.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the Wi-Fi network configuration requi...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/configure_firewall_ports.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes what to do if you have a corporate fi...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/getting_started.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the necessary steps to be taken befor...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/keep_sms_shipment_box_handy.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the installation tools required.'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/verify_wi_fi_network_configuration.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of verifying the Wi-Fi ac...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/connect_mobile_device_to_an_existing_wi_fi_network.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to connect your smartphone or tab...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/whitelist_domains.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the domains that you need to whitelis...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/download.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of downloading the to you...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/read_and_fill_motor_information_form.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure for filling out the Mot...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/activate_sms_account.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of activating your SMS ac...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/prepare_a_mobile_device.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the mobile devices and the OS version...'",
+        "line": 5
+      }
+    ]
+  },
+  "fix_diff": {
+    "fixed_by_zone1": [],
+    "fixed_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "troubleshooting/troubleshooting.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "troubleshooting/unable_to_commission_within_5_minutes.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "introduction/how_does_sms_device_work.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "introduction/motor_compatibility.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "introduction/introduction.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "introduction/benefits.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "installation/commission_the.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "installation/install_to_a_motor_with_cooling_ribs.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "installation/install_on_a_motor.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "installation/unboxing_sms_shipment_box.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "installation/installation_dos_and_don_ts.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "installation/install_sms_device_to_a_motor_without_cooling_ribs.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "installation/commission_sms_using_the.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "installation/add_a_motor_to_an_unpaired.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "installation/enter_motor_details.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "installation/assign_a_location_plant_and_process.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "installation/installation.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "maintenance/maintenance.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "maintenance/repairing_or_replacing_a_motor.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "maintenance/replacing_the_batteries.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "post_installation/post_installation.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/examples_of_routers_with_recommended_features.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/sim_cards_and_data_plans.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/tutorial_videos.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/recommendations_to_purchase_a_router.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/federal_communication_commission_interference_statement.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/recommended_features.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/palo_alto_firewall.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "reference/motor_information_form.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/motor_information_form.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/eu_statement.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "reference/correspondence_between_iec_and_nema_frames.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/correspondence_between_iec_and_nema_frames.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/how_to_read_a_motor_plate.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/reference.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/check_point_firewall.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/contact_information.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reference/industry_canada_statement.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "intended_audience/intended_audience.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "getting_started/validate_wi_fi_network.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "getting_started/verify_network_requirements.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "getting_started/configure_firewall_ports.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "getting_started/getting_started.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "getting_started/keep_sms_shipment_box_handy.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "getting_started/verify_wi_fi_network_configuration.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "getting_started/connect_mobile_device_to_an_existing_wi_fi_network.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "getting_started/whitelist_domains.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "getting_started/download.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "getting_started/read_and_fill_motor_information_form.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "getting_started/activate_sms_account.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "getting_started/prepare_a_mobile_device.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      }
+    ],
+    "ai_obligations_missed": [
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "reference/routers.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "reference/certifications_and_regulatory.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      }
+    ],
+    "new_issues_introduced_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "troubleshooting/troubleshooting.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the common issues encountered when in...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "introduction/how_does_sms_device_work.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 24
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "introduction/how_does_sms_device_work.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the functionality of an SMS device.'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "introduction/motor_compatibility.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the motor specifications that are com...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "introduction/benefits.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the benefits of using an .'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/commission_the.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of commissioning an which...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/install_to_a_motor_with_cooling_ribs.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an to a mot...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "installation/install_on_a_motor.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/install_on_a_motor.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an to a mot...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/unboxing_sms_shipment_box.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the contents of the SMS shipment box ...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/installation_dos_and_don_ts.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the correct and incorrect positioning...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/install_sms_device_to_a_motor_without_cooling_ribs.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an to a mot...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/commission_sms_using_the.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of commissioning a new .'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/add_a_motor_to_an_unpaired.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to add motor details to a previou...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/enter_motor_details.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to enter motor information in the...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/assign_a_location_plant_and_process.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to assign location, plant, and pr...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "installation/installation.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of installing an on a mot...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "maintenance/maintenance.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure for replacing or repair...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "maintenance/replacing_the_batteries.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure for replacing the batte...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "post_installation/post_installation.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to verify if the is connected and...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "reference/tutorial_videos.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "reference/recommendations_to_purchase_a_router.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "reference/recommended_features.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 24
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "reference/reference.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section provides'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "intended_audience/intended_audience.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the intended audience for this guide.'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/validate_wi_fi_network.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to validate your plant\u2019s Wi-Fi ne...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "getting_started/verify_network_requirements.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/verify_network_requirements.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the Wi-Fi network configuration requi...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/configure_firewall_ports.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes what to do if you have a corporate fi...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/getting_started.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the necessary steps to be taken befor...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/keep_sms_shipment_box_handy.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the installation tools required.'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/verify_wi_fi_network_configuration.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of verifying the Wi-Fi ac...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/connect_mobile_device_to_an_existing_wi_fi_network.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes how to connect your smartphone or tab...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/whitelist_domains.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the domains that you need to whitelis...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/download.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of downloading the to you...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "getting_started/read_and_fill_motor_information_form.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/read_and_fill_motor_information_form.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure for filling out the Mot...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/activate_sms_account.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the process of activating your SMS ac...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "getting_started/prepare_a_mobile_device.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the mobile devices and the OS version...'",
+        "line": 5
+      }
+    ],
+    "summary": {
+      "pre_enrichment_issue_count": 64,
+      "post_enrichment_issue_count": 88,
+      "backend_error_file_count": 0,
+      "fixed_by_zone1_count": 0,
+      "fixed_by_ai_count": 52,
+      "remaining_count": 12,
+      "ai_obligations_missed_count": 2,
+      "new_issues_count": 40
+    }
+  },
+  "ai_quality_review": {
+    "layer5": {
+      "overall_quality": "fair",
+      "topic_type_accuracy_pct": 0,
+      "recommendations": [],
+      "dita_best_practice_gaps": [],
+      "autofix": {
+        "fixed": [],
+        "flagged": [],
+        "failed": []
+      }
+    },
+    "layer6": {
+      "validation_passed": true,
+      "overall_accuracy_pct": 100,
+      "per_topic_issues": [
+        {
+          "severity": "WARNING",
+          "file": "getting_started/activate_sms_account.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Activate SMS account' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "getting_started/configure_firewall_ports.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Configure firewall ports' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "getting_started/connect_mobile_device_to_an_existing_wi_fi_network.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Connect mobile device to an existing Wi-Fi network' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "getting_started/download.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Download' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "getting_started/getting_started.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Getting Started' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "getting_started/keep_sms_shipment_box_handy.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Keep SMS shipment box handy' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "getting_started/prepare_a_mobile_device.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Prepare a mobile device' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "getting_started/read_and_fill_motor_information_form.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Read and fill Motor Information Form' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "getting_started/validate_wi_fi_network.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Validate Wi-Fi network' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "getting_started/verify_network_requirements.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Verify network requirements' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "getting_started/verify_wi_fi_network_configuration.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Verify Wi-Fi network configuration' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "getting_started/whitelist_domains.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Whitelist domains' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "installation/add_a_motor_to_an_unpaired.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Add a motor to an unpaired' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "installation/assign_a_location_plant_and_process.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Assign a location, plant and process' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "installation/commission_sms_using_the.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Commission SMS using the' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "installation/commission_the.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Commission the' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "installation/enter_motor_details.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Enter motor details' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "installation/install_on_a_motor.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Install  on a motor' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "installation/install_sms_device_to_a_motor_without_cooling_ribs.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Install SMS device to a motor without cooling ribs' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "installation/install_to_a_motor_with_cooling_ribs.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Install  to a motor with cooling ribs' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "installation/installation.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Installation' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "installation/installation_dos_and_don_ts.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Installation - Dos and don\u2019ts' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "installation/unboxing_sms_shipment_box.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Unboxing SMS shipment box' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "intended_audience/intended_audience.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Intended audience' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "introduction/benefits.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Benefits' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "introduction/how_does_sms_device_work.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'How does SMS device work?' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "introduction/introduction.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Introduction' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "introduction/motor_compatibility.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Motor compatibility' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "maintenance/maintenance.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Maintenance' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "maintenance/repairing_or_replacing_a_motor.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Repairing or replacing a motor' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "maintenance/replacing_the_batteries.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Replacing the batteries' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "post_installation/post_installation.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Post Installation' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/certifications_and_regulatory.dita",
+          "issue": "Missing shortdesc element",
+          "reason": "Topic has body content but no shortdesc was generated \u2014 the enrichment layer may have skipped this topic",
+          "line": 3
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/check_point_firewall.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Check Point firewall' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/contact_information.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Contact information' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/correspondence_between_iec_and_nema_frames.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Correspondence between IEC and NEMA frames' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 19
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/eu_statement.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'EU Statement' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/examples_of_routers_with_recommended_features.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Examples of routers with recommended features' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/federal_communication_commission_interference_statement.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Federal Communication Commission Interference Statement' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Firewall support for AWS IP ranges' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/how_to_read_a_motor_plate.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'How to read a motor plate' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/industry_canada_statement.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Industry Canada Statement' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/motor_information_form.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Motor Information Form' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/palo_alto_firewall.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Palo Alto firewall' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/recommendations_to_purchase_a_router.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Recommendations to purchase a router' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/recommended_features.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Recommended features' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/reference.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Reference' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/routers.dita",
+          "issue": "Missing shortdesc element",
+          "reason": "Topic has body content but no shortdesc was generated \u2014 the enrichment layer may have skipped this topic",
+          "line": 3
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/sim_cards_and_data_plans.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'SIM cards and data plans' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reference/tutorial_videos.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Tutorial videos' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "troubleshooting/troubleshooting.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Troubleshooting' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "troubleshooting/unable_to_commission_within_5_minutes.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Unable to commission  within 5 minutes' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        }
+      ],
+      "shortdesc_issues": [
+        {
+          "file": "reference/certifications_and_regulatory.dita",
+          "issue": "Missing shortdesc element"
+        },
+        {
+          "file": "reference/routers.dita",
+          "issue": "Missing shortdesc element"
+        }
+      ],
+      "recommendations": [
+        "52 WARNING(s) \u2014 missing id, DOCTYPE, or shortdesc"
+      ],
+      "schema_validation": {
+        "schema_passed": true,
+        "total_files": 52,
+        "valid_files": 52,
+        "invalid_files": 0,
+        "results": [
+          {
+            "file": "activate_sms_account.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "configure_firewall_ports.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "connect_mobile_device_to_an_existing_wi_fi_network.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "download.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "getting_started.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "keep_sms_shipment_box_handy.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "prepare_a_mobile_device.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "read_and_fill_motor_information_form.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "validate_wi_fi_network.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "verify_network_requirements.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "verify_wi_fi_network_configuration.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "whitelist_domains.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "add_a_motor_to_an_unpaired.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "assign_a_location_plant_and_process.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "commission_sms_using_the.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "commission_the.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "enter_motor_details.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "install_on_a_motor.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "install_sms_device_to_a_motor_without_cooling_ribs.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "install_to_a_motor_with_cooling_ribs.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "installation.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "installation_dos_and_don_ts.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "unboxing_sms_shipment_box.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "intended_audience.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "benefits.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "how_does_sms_device_work.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "introduction.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "motor_compatibility.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "maintenance.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "repairing_or_replacing_a_motor.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "replacing_the_batteries.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "post_installation.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "certifications_and_regulatory.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "check_point_firewall.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "contact_information.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "correspondence_between_iec_and_nema_frames.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "eu_statement.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "examples_of_routers_with_recommended_features.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "federal_communication_commission_interference_statement.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "firewall_support_for_aws_ip_ranges.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "how_to_read_a_motor_plate.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "industry_canada_statement.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "motor_information_form.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "palo_alto_firewall.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "recommendations_to_purchase_a_router.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "recommended_features.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "reference.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "routers.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "sim_cards_and_data_plans.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "tutorial_videos.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "troubleshooting.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "unable_to_commission_within_5_minutes.dita",
+            "valid": true,
+            "issues": []
+          }
+        ]
+      }
+    }
+  },
+  "element_counts_per_file": [
+    {
+      "file": "getting_started/activate_sms_account.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "getting_started/configure_firewall_ports.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "getting_started/connect_mobile_device_to_an_existing_wi_fi_network.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "getting_started/download.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "getting_started/getting_started.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "getting_started/keep_sms_shipment_box_handy.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "getting_started/prepare_a_mobile_device.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "getting_started/read_and_fill_motor_information_form.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "getting_started/validate_wi_fi_network.dita",
+      "ol": 1,
+      "ul": 1,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "getting_started/verify_network_requirements.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "getting_started/verify_wi_fi_network_configuration.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "getting_started/whitelist_domains.dita",
+      "ol": 0,
+      "ul": 2,
+      "table": 0,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "installation/add_a_motor_to_an_unpaired.dita",
+      "ol": 0,
+      "ul": 2,
+      "table": 0,
+      "image": 2,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "installation/assign_a_location_plant_and_process.dita",
+      "ol": 0,
+      "ul": 9,
+      "table": 0,
+      "image": 4,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "installation/commission_sms_using_the.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "installation/commission_the.dita",
+      "ol": 0,
+      "ul": 4,
+      "table": 0,
+      "image": 11,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "installation/enter_motor_details.dita",
+      "ol": 0,
+      "ul": 3,
+      "table": 1,
+      "image": 4,
+      "crosslink": 2,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "installation/install_on_a_motor.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "installation/install_sms_device_to_a_motor_without_cooling_ribs.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 3,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "installation/install_to_a_motor_with_cooling_ribs.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 15,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "installation/installation.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 2,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "installation/installation_dos_and_don_ts.dita",
+      "ol": 0,
+      "ul": 5,
+      "table": 0,
+      "image": 4,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "installation/unboxing_sms_shipment_box.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 1,
+      "crosslink": 1,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "intended_audience/intended_audience.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "introduction/benefits.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "introduction/how_does_sms_device_work.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 1,
+      "topic": 0
+    },
+    {
+      "file": "introduction/introduction.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "introduction/motor_compatibility.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "maintenance/maintenance.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "maintenance/repairing_or_replacing_a_motor.dita",
+      "ol": 1,
+      "ul": 1,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "maintenance/replacing_the_batteries.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "post_installation/post_installation.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/certifications_and_regulatory.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/check_point_firewall.dita",
+      "ol": 0,
+      "ul": 2,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 2,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/contact_information.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "reference/correspondence_between_iec_and_nema_frames.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/eu_statement.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/examples_of_routers_with_recommended_features.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "reference/federal_communication_commission_interference_statement.dita",
+      "ol": 1,
+      "ul": 2,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 2,
+      "concept": 0,
+      "task": 0,
+      "reference": 1,
+      "topic": 0
+    },
+    {
+      "file": "reference/how_to_read_a_motor_plate.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/industry_canada_statement.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/motor_information_form.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/palo_alto_firewall.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 2,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "reference/recommendations_to_purchase_a_router.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/recommended_features.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/reference.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 6,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "reference/routers.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/sim_cards_and_data_plans.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reference/tutorial_videos.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 2,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "troubleshooting/troubleshooting.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "troubleshooting/unable_to_commission_within_5_minutes.dita",
+      "ol": 1,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    }
+  ],
+  "pre_clean": {
+    "status": "completed",
+    "summary": {
+      "files_processed": 52,
+      "files_modified": 0,
+      "files_unchanged": 52,
+      "files_failed": 0,
+      "total_fixes_by_type": {}
+    },
+    "per_file": [
+      {
+        "file": "getting_started/activate_sms_account.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "getting_started/configure_firewall_ports.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "getting_started/connect_mobile_device_to_an_existing_wi_fi_network.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "getting_started/download.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "getting_started/getting_started.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "getting_started/keep_sms_shipment_box_handy.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "getting_started/prepare_a_mobile_device.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "getting_started/read_and_fill_motor_information_form.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "getting_started/validate_wi_fi_network.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "getting_started/verify_network_requirements.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "getting_started/verify_wi_fi_network_configuration.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "getting_started/whitelist_domains.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "installation/add_a_motor_to_an_unpaired.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "installation/assign_a_location_plant_and_process.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "installation/commission_sms_using_the.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "installation/commission_the.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "installation/enter_motor_details.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "installation/install_on_a_motor.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "installation/install_sms_device_to_a_motor_without_cooling_ribs.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "installation/install_to_a_motor_with_cooling_ribs.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "installation/installation.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "installation/installation_dos_and_don_ts.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "installation/unboxing_sms_shipment_box.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "intended_audience/intended_audience.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "introduction/benefits.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "introduction/how_does_sms_device_work.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "introduction/introduction.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "introduction/motor_compatibility.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "maintenance/maintenance.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "maintenance/repairing_or_replacing_a_motor.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "maintenance/replacing_the_batteries.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "post_installation/post_installation.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/certifications_and_regulatory.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/check_point_firewall.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/contact_information.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/correspondence_between_iec_and_nema_frames.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/eu_statement.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/examples_of_routers_with_recommended_features.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/federal_communication_commission_interference_statement.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/how_to_read_a_motor_plate.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/industry_canada_statement.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/motor_information_form.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/palo_alto_firewall.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/recommendations_to_purchase_a_router.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/recommended_features.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/reference.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/routers.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/sim_cards_and_data_plans.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reference/tutorial_videos.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "troubleshooting/troubleshooting.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "troubleshooting/unable_to_commission_within_5_minutes.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      }
+    ]
+  },
+  "validation": {
+    "fix_passes": [
+      {
+        "pass": 1,
+        "files_fixed": 3,
+        "total_fixed": 7,
+        "file_results": [
+          {
+            "file": "getting_started/validate_wi_fi_network.dita",
+            "violations_in": 1,
+            "fixes_applied": 3,
+            "fix_types": [
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "introduction/how_does_sms_device_work.dita",
+            "violations_in": 1,
+            "fixes_applied": 0,
+            "fix_types": [],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "maintenance/repairing_or_replacing_a_motor.dita",
+            "violations_in": 1,
+            "fixes_applied": 2,
+            "fix_types": [
+              "image_placement(2)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "maintenance/replacing_the_batteries.dita",
+            "violations_in": 2,
+            "fixes_applied": 2,
+            "fix_types": [
+              "image_placement(2)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "reference/federal_communication_commission_interference_statement.dita",
+            "violations_in": 1,
+            "fixes_applied": 0,
+            "fix_types": [],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+            "violations_in": 1,
+            "fixes_applied": 0,
+            "fix_types": [],
+            "warnings": [],
+            "inline_warnings": []
+          }
+        ]
+      }
+    ],
+    "final_violations": 7,
+    "final_files_with_violations": 6,
+    "final_details": [
+      {
+        "file": "getting_started/validate_wi_fi_network.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "introduction/how_does_sms_device_work.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "maintenance/repairing_or_replacing_a_motor.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "maintenance/replacing_the_batteries.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "maintenance/replacing_the_batteries.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "",
+        "severity": "ERROR",
+        "message": "ERROR: 7 consecutive <p> elements found more than 5 . These should be converted into a <ul>/<li> structure. First <p>: \"This section describes the procedure for replacing the batteries of an .\"",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "reference/federal_communication_commission_interference_statement.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "reference/firewall_support_for_aws_ip_ranges.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      }
+    ]
+  }
+}

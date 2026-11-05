@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Color-coded_Status_Indicators" xml:lang="en-us">
+   <title>Color-coded status indicators</title>
+   <shortdesc>This table describes the meaning of each status indicator.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>device</keyword>
+        <keyword>process</keyword>
+        <keyword>learning</keyword>
+        <keyword>status</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>placeholder</indexterm>
+        <indexterm>device</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody><p>This table describes the meaning of each status indicator.</p>
+<table frame="all" colsep="1" rowsep="1">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Status Indicator</b>
+                     </entry>
+                     <entry>
+                        <b>Description</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <image href="../media/image10.png" placement="break" height="22" width="18">
+                           <alt>placeholder</alt>
+                        </image>   Alarm</entry>
+                     <entry>The SMS device has detected a fault and the motor needs maintenance, repair, or replacement.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <image href="../media/image11.png" placement="break" height="18" width="18">
+                           <alt>placeholder</alt>
+                        </image>   Warning</entry>
+                     <entry>The SMS device predicts that a fault might occur soon.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <image href="../media/image12.png" placement="break" height="16" width="15">
+                           <alt>placeholder</alt>
+                        </image>   Learning</entry>
+                     <entry>The SMS device is undergoing a learning process to learn about the operation of the motor. During this process, the SMS device creates a motor model with which it will be able to predict motor component faults. For more information on each stage of the learning process, see <xref href="../appendix/learning_process.dita" format="dita">Learning Process</xref>.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <image href="../media/image13.png" placement="break" height="16" width="18">
+                           <alt>placeholder</alt>
+                        </image>  Disconnected</entry>
+                     <entry>The SMS device installed on the motor is unable to transfer real-time data to the ADI OtoSense™ Server through the Wi-Fi network.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <image href="../media/image14.png" placement="break" height="16" width="14">
+                           <alt>placeholder</alt>
+                        </image>   Good</entry>
+                     <entry>The motor is running in good condition and requires no immediate action.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <image href="../media/image15.png" placement="break" height="14" width="14">
+                           <alt>placeholder</alt>
+                        </image>   Relearning</entry>
+                     <entry>The SMS device is undergoing a re-learning process to understand the operation of the motor and create a motor model. Re-learning occurs after a motor or motor component is repaired or replaced or <xref href="../dashboard/initiate_a_re_learning_process.dita" format="dita">if the re-learning process is initiated manually</xref> in the SMS mobile app.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <image href="../media/image16.png" placement="break" height="18" width="17">
+                           <alt>placeholder</alt>
+                        </image>   Repairing</entry>
+                     <entry>The SMS device has identified a motor or motor component that needs to be repaired or replaced. Once the repair process is initiated<xref href="#_Change_the_motor’s">, the status needs to be manually updated on the mobile app</xref>. No data is sent to the ADI OtoSense™ Server while the motor is being repaired.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+<p>Table  Status indicators used in SMS applications</p></conbody>
+</concept>

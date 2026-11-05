@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA 2.x Reference//EN" "reference.dtd">
+<reference id="_Ref182912386" xml:lang="en-us">
+   <title>Motor Condition Mode</title>
+   <shortdesc>This section describes the motor condition mode of the SMS.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>placeholder</keyword>
+        <keyword>motor</keyword>
+        <keyword>Fault</keyword>
+        <keyword>Motor</keyword>
+        <keyword>status</keyword>
+        <keyword>could</keyword>
+        <indexterm>placeholder</indexterm>
+        <indexterm>motor</indexterm>
+        <indexterm>Fault</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <refbody>
+      <section id="sec_d179e7">
+         <ul>
+            <li>
+               <p>This section describes the motor condition mode of the SMS.</p>
+               <p>After Normal Operation Mode is established, motor condition mode analyses the deviation from the baseline model to generate the status of the motor. Motor conditioning status is rated on a 1-10 scale.</p>
+            </li>
+         </ul>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Motor Condition Status Scale</title>
+            <tgroup cols="4">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <colspec colname="c4"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Element</b>
+                     </entry>
+                     <entry>
+                        <b>Value</b>
+                     </entry>
+                     <entry>
+                        <b>Deviation</b>
+                     </entry>
+                     <entry>
+                        <b>Description</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image9.png" placement="break" height="34" width="38">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>8-10</entry>
+                     <entry>Low Deviation</entry>
+                     <entry>
+                        <b>normal operation</b> For example, see <xref href="#Figure7">Figure 7</xref>.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image10.png" placement="break" height="35" width="37">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>5-7</entry>
+                     <entry>Some Deviation</entry>
+                     <entry>
+                        <b>monitoring is recommended</b> For example, see <xref href="#Figure8">Figure 8</xref>.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image11.png" placement="break" height="34" width="37">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>1-5</entry>
+                     <entry>High Deviation</entry>
+                     <entry>
+                        <b>imminent motor failure</b> For example, see <xref href="#Figure9">Figure 9</xref>.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>Based on incoming sensor data, ADI OtoSense™ Cloud analytics provides insight into nine motor attributes and overall motor performance as displayed in Table 2.</p>
+         <table frame="all" colsep="1" rowsep="1">
+            <title>Motor Attributes Monitored by the ADI OtoSense™ Cloud Platform</title>
+            <tgroup cols="6">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <colspec colname="c3"/>
+               <colspec colname="c4"/>
+               <colspec colname="c5"/>
+               <colspec colname="c6"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Diagram</b>
+                     </entry>
+                     <entry>
+                        <b>Motor Attribute</b>
+                     </entry>
+                     <entry>
+                        <b>API</b>
+                        <b>Parameter</b>
+                     </entry>
+                     <entry>
+                        <b>Type</b>
+                     </entry>
+                     <entry>
+                        <b>Description</b>
+                     </entry>
+                     <entry>
+                        <b>Example Problem</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image12.png" placement="break" height="66" width="153">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>Power System</entry>
+                     <entry>
+                        <codeblock>powerSystem</codeblock>
+                     </entry>
+                     <entry>Electrical</entry>
+                     <entry>Health of the three phases of the power supply. This could lead to a motor current imbalance.</entry>
+                     <entry>Lost phase</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image13.png" placement="break" height="95" width="153">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>Stator Winding</entry>
+                     <entry>
+                        <codeblock>statorWinding</codeblock>
+                     </entry>
+                     <entry>Electrical</entry>
+                     <entry>Fault in one of the phases of the motor. This could cause an imbalance of the motor currents.</entry>
+                     <entry>Coil short circuit</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image14.png" placement="break" height="81" width="152">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>Rotor</entry>
+                     <entry>
+                        <codeblock>rotorBar</codeblock>
+                     </entry>
+                     <entry>Electrical</entry>
+                     <entry>Fault related to short-circuit ring or rotor bar.</entry>
+                     <entry>Broken rotor bar</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image15.png" placement="break" height="94" width="152">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>Motor Shaft / Balance</entry>
+                     <entry>
+                        <codeblock>imbalance</codeblock>
+                     </entry>
+                     <entry>Electromechanical</entry>
+                     <entry>Fault related to unequal distribution of mass. This could cause the centre of gravity to shift from the centre of rotation.</entry>
+                     <entry>Rotor flexion</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image16.png" placement="break" height="78" width="153">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>Eccentricity</entry>
+                     <entry>
+                        <codeblock>eccentricity</codeblock>
+                     </entry>
+                     <entry>Mechanical</entry>
+                     <entry>Fault related to asymmetric air gap between the rotor and the stator.</entry>
+                     <entry>Bent shaft; improper bearing installation</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image17.png" placement="break" height="78" width="130">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>Bearing</entry>
+                     <entry>
+                        <codeblock>bearing</codeblock>
+                     </entry>
+                     <entry>Mechanical</entry>
+                     <entry>Fault related to mechanical stress or contamination. This could cause small cracks or defects in the bearing and create vibration problems.</entry>
+                     <entry>Pitting</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image18.png" placement="break" height="68" width="128">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>Alignment</entry>
+                     <entry>
+                        <codeblock>misalignment</codeblock>
+                     </entry>
+                     <entry>Mechanical</entry>
+                     <entry>Fault that occurs when two rotating shafts (motor and load) are not aligned. This could cause external misalignment.</entry>
+                     <entry>Angular or parallel misalignment</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image19.png" placement="break" height="83" width="153">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>Cooling System</entry>
+                     <entry>
+                        <codeblock>cooling</codeblock>
+                     </entry>
+                     <entry>Temperature</entry>
+                     <entry>Fault with fans attached to the shaft or externally attached to the motor.</entry>
+                     <entry>Fan cover collapse</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image20.png" placement="break" height="89" width="154">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>Loose Foot</entry>
+                     <entry>
+                        <codeblock>motorStructure</codeblock>
+                     </entry>
+                     <entry>Mechanical</entry>
+                     <entry>Fault with structural looseness. This occurs when the motor base (or connection to the motor base) is not properly tightened.</entry>
+                     <entry>Motor not fixed to base frame</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <title>placeholder</title>
+                           <image href="../media/image21.png" placement="break" height="69" width="156">
+                              <alt>placeholder</alt>
+                           </image>
+                        </fig>
+                     </entry>
+                     <entry>Performance</entry>
+                     <entry>
+                        <codeblock>performance</codeblock>
+                     </entry>
+                     <entry>N/A</entry>
+                     <entry>Fault due to abnormal Events.</entry>
+                     <entry>Overall increase in vibrations Unusual changes in motor RPM, motor load or temperatures. This indicates faults that do not correspond to any of the other nine fault categories, which could be related to machine process.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <ul>
+            <li>
+               <p>The ADI OtoSense™ SMS REST API include status and state properties which are fundamental for understanding motor condition mode:</p>
+            </li>
+            <li>
+               <p>status- indicates the overall connection status of the motor; online or disconnected, and last online datetime.</p>
+               <p>state- indicates the component with the most severe fault i.e. the lowest Fault Score Index (FSI) value. For example, if a motor has multiple components with faults, one an Alarm and another a Warning, the state property of the motor object's status will indicate alarm.</p>
+            </li>
+            <li>
+               <p>For more information on the component code and the motor log refer to <xref href="../motor_object/motor_object.dita" format="dita">Motor Object</xref>.</p>
+            </li>
+         </ul>
+      </section>
+   </refbody>
+</reference>

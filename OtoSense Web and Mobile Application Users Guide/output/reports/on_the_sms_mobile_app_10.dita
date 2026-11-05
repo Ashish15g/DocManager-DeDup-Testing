@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="on_the_sms_mobile_app_10" xml:lang="en-us">
+   <title>On the SMS mobile app</title>
+   <shortdesc>The Reports page with a list of previously generated reports is displayed.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>report</keyword>
+        <keyword>placeholder</keyword>
+        <keyword>status</keyword>
+        <keyword>mobile</keyword>
+        <keyword>generated</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>report</indexterm>
+        <indexterm>placeholder</indexterm>
+        <indexterm>result</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>    <ol>
+    <li>Log in to the SMS mobile application.</li>
+    <li><p>Tap Reports on the bottom menu.</p>
+      <p>The <b>Reports</b> page with a list of previously generated reports is displayed.</p>
+               <fig>
+                  <title>Image75</title>
+                  <image height="501" href="../media/image75.jpg" placement="break" width="255">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+               <p>Figure  Reports page</p></li>
+    <li><p>Tap the report that you want to view.</p>
+      <p>A new page with the latest report of the selected motor(s) is displayed.</p></li>
+    <li>Tap the motor name whose report you want to view.</li>
+    </ol>
+    <section>
+      <title>Result</title>
+      <fig>
+               <title>Image76</title>
+               <image height="501" href="../media/image76.jpg" placement="break" width="259">
+                  <alt>placeholder</alt>
+               </image>
+            </fig><p>Figure  Last generated report</p>
+         <p>The following details are displayed in the report along with the motor name and its health status:</p>
+         <fig>
+               <title>Image77</title>
+               <image height="501" href="../media/image77.png" placement="break" width="255">
+                  <alt>placeholder</alt>
+               </image>
+            </fig><p>Figure  Report details</p>
+         <table colsep="1" frame="all" rowsep="1">
+            <tgroup cols="2">
+               <colspec colname="c1"/>
+               <colspec colname="c2"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <b>Report</b>
+                        <b>Information</b>
+                     </entry>
+                     <entry>
+                        <b>Description</b>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Status</entry>
+                     <entry>The description of any action required, if motor’s health status is Alarm</entry>
+                  </row>
+                  <row>
+                     <entry>Description</entry>
+                     <entry>The description of a fault, if motor’s health status is Alarm</entry>
+                  </row>
+                  <row>
+                     <entry>Manufacturer</entry>
+                     <entry>The name of the motor’s manufacturer.</entry>
+                  </row>
+                  <row>
+                     <entry>Model</entry>
+                     <entry>The model number of the motor.</entry>
+                  </row>
+                  <row>
+                     <entry>Power / Speed</entry>
+                     <entry>The rated power and rated speed of the motor.</entry>
+                  </row>
+                  <row>
+                     <entry>Operation hours</entry>
+                     <entry>The number of hours the motor is in operation since the report was first generated</entry>
+                  </row>
+                  <row>
+                     <entry>Starts</entry>
+                     <entry>The number of times the motor has started since the report was first generated</entry>
+                  </row>
+                  <row>
+                     <entry>Battery</entry>
+                     <entry>The battery level of the SMS device attached to the motor</entry>
+                  </row>
+                  <row>
+                     <entry>Connection status</entry>
+                     <entry>The status of SMS device’s connectivity to the ADI OtoSense™ Server</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>Table  Motor details displayed in a report on the SMS mobile app</p>
+    </section></conbody>
+</concept>

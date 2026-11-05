@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="_Toc193658904" xml:lang="en-us">
+   <title>Parameters tab</title>
+   <shortdesc>The Parameters tab displays comprehensive information about the model of the motor and its operating</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>Parameters</keyword>
+        <keyword>information</keyword>
+        <keyword>Rated</keyword>
+        <keyword>operating</keyword>
+        <keyword>status</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>Parameters</indexterm>
+        <indexterm>information</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <p>The Parameters tab displays comprehensive information about the model of the motor and its operating parameters such as Rated Voltage, Rated Current, and Rated Speed. The information in this tab is based on the motor information provided at the time of commissioning the SMS device.</p>
+      <ul>
+         <li>
+            <p>On this tab, you can also monitor the current connection status to the ADI OtoSense™ Server.</p>
+            <p>Additionally, you can <xref href="../dashboard/on_the_sms_web_application_5.dita" format="dita">view the motor’s operating hours and the number of times it has started</xref> over a given time range.</p>
+         </li>
+         <li>
+            <p>On the SMS mobile app, you can</p>
+         </li>
+      </ul>
+      <ul id="ul_10314134">
+         <li>
+            <xref href="../dashboard/initiate_a_re_learning_process.dita" format="dita">initiate a re-learning process</xref>, and</li>
+         <li>
+            <xref href="#_Change_the_motor’s">set a motor’s status to ‘repairing’</xref> when a motor is under repair.</li>
+      </ul>
+      <p>
+         <fig>
+            <title>Parameters tab</title>
+            <image href="../media/image35.png" placement="break" height="364" width="602">
+               <alt>placeholder</alt>
+            </image>
+         </fig>
+      </p>
+   </conbody>
+</concept>

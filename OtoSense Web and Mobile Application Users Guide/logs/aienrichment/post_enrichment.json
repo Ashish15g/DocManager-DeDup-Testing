@@ -1,0 +1,5200 @@
+{
+  "job_id": "b0e03880-82d6-41ca-b917-5e1e3ad6d3eb",
+  "mode": "enrich-only",
+  "output_dir": "/app/Storage/b0e03880-82d6-41ca-b917-5e1e3ad6d3eb/transformed output",
+  "processed_at": "2026-08-19T10:39:37.165206+00:00",
+  "counts": {
+    "dita_files_total": 87,
+    "ditamap_files_total": 12,
+    "topics_reclassified": 37,
+    "issues_fixed_by_zone1": 0,
+    "issues_fixed_by_ai": 90,
+    "issues_remaining": 28,
+    "ai_obligations_missed": 2,
+    "new_issues_by_ai": 24,
+    "pending_suggestions": 65,
+    "alt_text_images_filled": 0,
+    "alt_text_images_skipped": 0,
+    "alt_text_images_scanned": 0
+  },
+  "quality_metrics": {
+    "element_validation_success_pct": 93,
+    "attribute_mapping_success_pct": 100,
+    "href_resolution_success_pct": 94,
+    "table_resolution": {
+      "validated": 13,
+      "total": 13,
+      "success_pct": 100
+    }
+  },
+  "token_usage": {
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "total_cost_usd": 0,
+    "by_model": {}
+  },
+  "element_counts": {
+    "ol": 12,
+    "ul": 32,
+    "table": 13,
+    "image": 128,
+    "crosslink": 41,
+    "hyperlink": 4,
+    "concept": 29,
+    "task": 45,
+    "reference": 8,
+    "topic": 5
+  },
+  "enrichment_summary": [
+    {
+      "file": "adi_otosense_web_and_mobile_applications/access_sms_mobile_application.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "adi_otosense_web_and_mobile_applications/access_sms_web_application.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "adi_otosense_web_and_mobile_applications/adi_otosense_web_and_mobile_applications.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "adi_otosense_web_and_mobile_applications/role_based_access.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_mobile_application.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_sms_web_application.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "advanced_options/advanced_options.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "advanced_options/export_logs.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "advanced_options/reset_app.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "advanced_options/reset_sensor.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "alerts/alerts.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "alerts/on_the_sms_mobile_app_12.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "alerts/on_the_sms_web_application_12.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "alerts/on_the_sms_web_application_13.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "alerts/resolve_alerts.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "alerts/search_or_filter_the_alerts_list.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "alerts/view_health_index.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "appendix/appendix.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": true
+    },
+    {
+      "file": "appendix/documents.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "appendix/faqs.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "appendix/fully_predictive.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "appendix/learning_process.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "appendix/motor_component_fault_modes.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": true
+    },
+    {
+      "file": "appendix/predictive_learning.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "appendix/quick_learning.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/change_the_motor_s_status_to_repairing.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/color_coded_status_indicators.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/dashboard.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/health_sub_tab.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/history_plot_tab.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "reference",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/initiate_a_re_learning_process.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/monitor_motor_condition_graph_view.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/monitor_motor_condition_list_view.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "reference",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/motor_status_tab.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_2.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_3.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_4.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_5.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_6.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_7.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_8.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_2.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_3.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_4.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_5.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_6.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_7.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_8.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/parameters_sub_tab.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "reference",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/parameters_tab.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/performance_sub_tab.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/search_for_a_motor.dita",
+      "original_type": "task",
+      "ai_assigned_type": "reference",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "dashboard/view_motor_details.dita",
+      "original_type": "reference",
+      "ai_assigned_type": "reference",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "intended_audience/intended_audience.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "introduction/benefits.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "introduction/how_does_sms_device_work.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "reference",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "introduction/introduction.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "maps/maps.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "network_configuration/manage_network_profiles.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "network_configuration/network_configuration.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "network_configuration/validate_network.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reports/create_a_report.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reports/edit_delete_a_report.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reports/on_the_sms_mobile_app_10.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reports/on_the_sms_mobile_app_11.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "reports/on_the_sms_mobile_app_9.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "reports/on_the_sms_web_application_10.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "reports/on_the_sms_web_application_11.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "reports/on_the_sms_web_application_9.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "reports/reports.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "reports/view_a_report.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "user_management/admin_profile_settings.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "user_management/change_interface_language.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "topic",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "user_management/change_profile_settings.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "user_management/enable_email_and_mobile_notifications.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "user_management/manage_api_keys.dita",
+      "original_type": "task",
+      "ai_assigned_type": "reference",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "user_management/manage_users.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "user_management/on_the_sms_mobile_app_13.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "user_management/on_the_sms_mobile_app_14.dita",
+      "original_type": "task",
+      "ai_assigned_type": "concept",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "user_management/on_the_sms_mobile_app_15.dita",
+      "original_type": "task",
+      "ai_assigned_type": "reference",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "user_management/on_the_sms_web_application_14.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "user_management/on_the_sms_web_application_15.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "user_management/on_the_sms_web_application_16.dita",
+      "original_type": "task",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": false,
+      "skipped": false
+    },
+    {
+      "file": "user_management/user_management.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    },
+    {
+      "file": "user_management/user_profile_settings.dita",
+      "original_type": "concept",
+      "ai_assigned_type": "task",
+      "confidence": "low",
+      "reclassified": true,
+      "skipped": false
+    }
+  ],
+  "alt_text_summary": {
+    "images_filled": 0,
+    "images_skipped": 0,
+    "total_images_scanned": 0
+  },
+  "alt_text_events": {
+    "filled": [],
+    "skipped": []
+  },
+  "structural_issues_remaining": [
+    {
+      "severity": "WARNING",
+      "category": "broken_xref_anchor",
+      "file": "user_management/user_management.dita",
+      "message": "<xref href=\"#_To_change_notification\"> \u2014 local anchor id='_To_change_notification' not found in this file"
+    },
+    {
+      "severity": "WARNING",
+      "category": "broken_xref_anchor",
+      "file": "user_management/manage_api_keys.dita",
+      "message": "<xref href=\"#access_endpoints\"> \u2014 local anchor id='access_endpoints' not found in this file"
+    },
+    {
+      "severity": "WARNING",
+      "category": "broken_xref_anchor",
+      "file": "user_management/manage_users.dita",
+      "message": "<xref href=\"#Create_new_user\"> \u2014 local anchor id='Create_new_user' not found in this file"
+    },
+    {
+      "severity": "WARNING",
+      "category": "broken_xref_anchor",
+      "file": "user_management/manage_users.dita",
+      "message": "<xref href=\"#Remove_user\"> \u2014 local anchor id='Remove_user' not found in this file"
+    },
+    {
+      "severity": "WARNING",
+      "category": "broken_xref_anchor",
+      "file": "user_management/manage_users.dita",
+      "message": "<xref href=\"#Change_user_role\"> \u2014 local anchor id='Change_user_role' not found in this file"
+    },
+    {
+      "severity": "WARNING",
+      "category": "broken_xref_anchor",
+      "file": "user_management/manage_users.dita",
+      "message": "<xref href=\"#Remove_user\"> \u2014 local anchor id='Remove_user' not found in this file"
+    },
+    {
+      "severity": "WARNING",
+      "category": "broken_xref_anchor",
+      "file": "user_management/on_the_sms_mobile_app_13.dita",
+      "message": "<xref href=\"#change_user_settings\"> \u2014 local anchor id='change_user_settings' not found in this file"
+    },
+    {
+      "severity": "WARNING",
+      "category": "broken_xref_anchor",
+      "file": "dashboard/color_coded_status_indicators.dita",
+      "message": "<xref href=\"#_Change_the_motor\u2019s\"> \u2014 local anchor id='_Change_the_motor\u2019s' not found in this file"
+    },
+    {
+      "severity": "WARNING",
+      "category": "broken_xref_anchor",
+      "file": "dashboard/health_sub_tab.dita",
+      "message": "<xref href=\"#health_index\"> \u2014 local anchor id='health_index' not found in this file"
+    },
+    {
+      "severity": "WARNING",
+      "category": "broken_xref_anchor",
+      "file": "dashboard/parameters_tab.dita",
+      "message": "<xref href=\"#_Change_the_motor\u2019s\"> \u2014 local anchor id='_Change_the_motor\u2019s' not found in this file"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_sms_web_application.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_sms_web_application.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 40
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "adi_otosense_web_and_mobile_applications/role_based_access.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "adi_otosense_web_and_mobile_applications/role_based_access.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 30
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_mobile_application.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_mobile_application.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 55
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "adi_otosense_web_and_mobile_applications/access_sms_mobile_application.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 39
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "alerts/alerts.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 26
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "alerts/search_or_filter_the_alerts_list.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "alerts/search_or_filter_the_alerts_list.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 25
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "appendix/learning_process.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "appendix/motor_component_fault_modes.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "appendix/motor_component_fault_modes.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_shortdesc",
+      "file": "appendix/appendix.dita",
+      "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+    },
+    {
+      "severity": "WARNING",
+      "category": "empty_p",
+      "file": "appendix/appendix.dita",
+      "message": "<p> #1 is empty \u2014 remove or add content",
+      "line": 6
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "introduction/how_does_sms_device_work.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "introduction/how_does_sms_device_work.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the functionality of an SMS device.'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "introduction/benefits.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the benefits of using an SMS device.'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "user_management/user_management.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "shortdesc_too_generic",
+      "file": "user_management/user_management.dita",
+      "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure to change account setti...'",
+      "line": 5
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "user_management/manage_api_keys.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 25
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "user_management/change_profile_settings.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "user_management/enable_email_and_mobile_notifications.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "user_management/on_the_sms_mobile_app_15.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 25
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "user_management/user_profile_settings.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "user_management/admin_profile_settings.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "dashboard/color_coded_status_indicators.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 25
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "dashboard/search_for_a_motor.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 25
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "dashboard/search_for_a_motor.dita",
+      "message": "<section> #2 has no <title> \u2014 recommended for DITA compliance",
+      "line": 74
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "dashboard/search_for_a_motor.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 38
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "dashboard/on_the_sms_web_application_2.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 50
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "dashboard/history_plot_tab.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "dashboard/view_motor_details.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 25
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "dashboard/view_motor_details.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 28
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "dashboard/monitor_motor_condition_list_view.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "section_missing_title",
+      "file": "dashboard/parameters_sub_tab.dita",
+      "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+      "line": 24
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "advanced_options/advanced_options.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "reports/on_the_sms_mobile_app_9.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 55
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "reports/edit_delete_a_report.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "reports/create_a_report.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "reports/on_the_sms_mobile_app_10.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 61
+    },
+    {
+      "severity": "WARNING",
+      "category": "table_missing_title",
+      "file": "reports/on_the_sms_web_application_10.dita",
+      "message": "<table> #1 has no <title> element \u2014 required for accessibility and DITA compliance",
+      "line": 60
+    },
+    {
+      "severity": "WARNING",
+      "category": "missing_steps",
+      "file": "reports/reports.dita",
+      "message": "<taskbody> has no <steps> or <steps-unordered> element"
+    }
+  ],
+  "enrichment_quality": {
+    "summary": {
+      "dita_file_count": 87,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "WARNING": 7,
+        "INFO": 0
+      },
+      "category_counts": {
+        "missing_shortdesc": 2,
+        "missing_prolog": 2,
+        "shortdesc_too_generic": 3
+      }
+    },
+    "issues": [
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "appendix/motor_component_fault_modes.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "appendix/motor_component_fault_modes.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "appendix/appendix.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "appendix/appendix.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "introduction/how_does_sms_device_work.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the functionality of an SMS device.'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "introduction/benefits.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the benefits of using an SMS device.'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "user_management/user_management.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure to change account setti...'",
+        "line": 5
+      }
+    ]
+  },
+  "fix_diff": {
+    "fixed_by_zone1": [],
+    "fixed_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_sms_web_application.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_sms_web_application.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "adi_otosense_web_and_mobile_applications/role_based_access.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_mobile_application.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_mobile_application.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "adi_otosense_web_and_mobile_applications/access_sms_web_application.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "adi_otosense_web_and_mobile_applications/adi_otosense_web_and_mobile_applications.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "adi_otosense_web_and_mobile_applications/access_sms_mobile_application.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "network_configuration/validate_network.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "network_configuration/manage_network_profiles.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "network_configuration/network_configuration.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "alerts/view_health_index.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "alerts/on_the_sms_web_application_13.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "alerts/resolve_alerts.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "alerts/on_the_sms_mobile_app_12.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "alerts/alerts.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "alerts/alerts.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "alerts/on_the_sms_web_application_12.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "alerts/search_or_filter_the_alerts_list.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "alerts/search_or_filter_the_alerts_list.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "appendix/learning_process.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "appendix/documents.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "appendix/faqs.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "appendix/fully_predictive.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "appendix/quick_learning.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "appendix/predictive_learning.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "introduction/how_does_sms_device_work.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "introduction/introduction.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "introduction/benefits.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/user_management.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/manage_api_keys.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/change_interface_language.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/change_profile_settings.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/enable_email_and_mobile_notifications.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/on_the_sms_web_application_16.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/manage_users.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/on_the_sms_mobile_app_15.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/user_profile_settings.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/admin_profile_settings.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/on_the_sms_mobile_app_14.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/on_the_sms_mobile_app_13.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/on_the_sms_web_application_14.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "user_management/on_the_sms_web_application_15.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "maps/maps.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/performance_sub_tab.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_mobile_app_3.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "dashboard/color_coded_status_indicators.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 6
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/color_coded_status_indicators.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_web_application_5.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_web_application_6.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_web_application.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_web_application_8.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/search_for_a_motor.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/motor_status_tab.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/health_sub_tab.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_web_application_7.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_web_application_3.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_mobile_app_4.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_mobile_app_5.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/initiate_a_re_learning_process.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_mobile_app_7.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_web_application_2.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/change_the_motor_s_status_to_repairing.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/history_plot_tab.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_mobile_app_6.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/view_motor_details.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_web_application_4.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/parameters_tab.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_mobile_app_2.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/monitor_motor_condition_list_view.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_mobile_app_8.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/on_the_sms_mobile_app.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/parameters_sub_tab.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/monitor_motor_condition_graph_view.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "dashboard/dashboard.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "intended_audience/intended_audience.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "advanced_options/reset_sensor.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "advanced_options/advanced_options.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "advanced_options/export_logs.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "advanced_options/reset_app.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reports/on_the_sms_web_application_11.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reports/on_the_sms_web_application_9.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reports/on_the_sms_mobile_app_9.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reports/edit_delete_a_report.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reports/view_a_report.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reports/create_a_report.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reports/on_the_sms_mobile_app_10.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reports/on_the_sms_web_application_10.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reports/reports.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_shortdesc",
+        "file": "reports/on_the_sms_mobile_app_11.dita",
+        "message": "<shortdesc> element is missing \u2014 required for search previews and navigation"
+      }
+    ],
+    "ai_obligations_missed": [
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "appendix/motor_component_fault_modes.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_prolog",
+        "file": "appendix/appendix.dita",
+        "message": "<prolog> element is missing \u2014 AI (Layer 3) should have added prolog with keywords and indexterms"
+      }
+    ],
+    "new_issues_introduced_by_ai": [
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_sms_web_application.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "adi_otosense_web_and_mobile_applications/role_based_access.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_mobile_application.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "alerts/search_or_filter_the_alerts_list.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "appendix/learning_process.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "introduction/how_does_sms_device_work.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 24
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "introduction/how_does_sms_device_work.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the functionality of an SMS device.'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "introduction/benefits.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the benefits of using an SMS device.'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "user_management/user_management.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "shortdesc_too_generic",
+        "file": "user_management/user_management.dita",
+        "message": "<shortdesc> starts with generic opener 'this section': 'This section describes the procedure to change account setti...'",
+        "line": 5
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "user_management/manage_api_keys.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 25
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "user_management/change_profile_settings.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "user_management/enable_email_and_mobile_notifications.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "user_management/on_the_sms_mobile_app_15.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 25
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "user_management/user_profile_settings.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "user_management/admin_profile_settings.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "dashboard/search_for_a_motor.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 25
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "dashboard/history_plot_tab.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 24
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "dashboard/monitor_motor_condition_list_view.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 24
+      },
+      {
+        "severity": "WARNING",
+        "category": "section_missing_title",
+        "file": "dashboard/parameters_sub_tab.dita",
+        "message": "<section> #1 has no <title> \u2014 recommended for DITA compliance",
+        "line": 24
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "advanced_options/advanced_options.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "reports/edit_delete_a_report.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "reports/create_a_report.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      },
+      {
+        "severity": "WARNING",
+        "category": "missing_steps",
+        "file": "reports/reports.dita",
+        "message": "<taskbody> has no <steps> or <steps-unordered> element"
+      }
+    ],
+    "summary": {
+      "pre_enrichment_issue_count": 118,
+      "post_enrichment_issue_count": 60,
+      "backend_error_file_count": 0,
+      "fixed_by_zone1_count": 0,
+      "fixed_by_ai_count": 90,
+      "remaining_count": 28,
+      "ai_obligations_missed_count": 2,
+      "new_issues_count": 24
+    }
+  },
+  "ai_quality_review": {
+    "layer5": {
+      "overall_quality": "fair",
+      "topic_type_accuracy_pct": 0,
+      "recommendations": [],
+      "dita_best_practice_gaps": [],
+      "autofix": {
+        "fixed": [],
+        "flagged": [],
+        "failed": []
+      }
+    },
+    "layer6": {
+      "validation_passed": true,
+      "overall_accuracy_pct": 100,
+      "per_topic_issues": [
+        {
+          "severity": "WARNING",
+          "file": "adi_otosense_web_and_mobile_applications/access_sms_mobile_application.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Access SMS mobile application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "adi_otosense_web_and_mobile_applications/access_sms_web_application.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Access SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "adi_otosense_web_and_mobile_applications/adi_otosense_web_and_mobile_applications.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'ADI OtoSense\u2122 web and mobile applications' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "adi_otosense_web_and_mobile_applications/role_based_access.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Role-based access' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_mobile_application.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Understanding user interface \u2013 mobile application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_sms_web_application.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Understanding user interface \u2013 SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "advanced_options/advanced_options.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Advanced Options' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "advanced_options/export_logs.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Export logs' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "advanced_options/reset_app.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Reset app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "advanced_options/reset_sensor.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Reset sensor' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "alerts/alerts.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Alerts' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "alerts/on_the_sms_mobile_app_12.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "alerts/on_the_sms_web_application_12.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "alerts/on_the_sms_web_application_13.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "alerts/resolve_alerts.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Resolve alerts' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "alerts/search_or_filter_the_alerts_list.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Search or filter the alerts list' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "alerts/view_health_index.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'View health index' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "appendix/appendix.dita",
+          "issue": "Missing shortdesc element",
+          "reason": "Topic has body content but no shortdesc was generated \u2014 the enrichment layer may have skipped this topic",
+          "line": 3
+        },
+        {
+          "severity": "WARNING",
+          "file": "appendix/documents.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Documents' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "appendix/faqs.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'FAQs' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "appendix/fully_predictive.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Fully Predictive' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "appendix/learning_process.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Learning Process' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "appendix/motor_component_fault_modes.dita",
+          "issue": "Missing shortdesc element",
+          "reason": "Topic has body content but no shortdesc was generated \u2014 the enrichment layer may have skipped this topic",
+          "line": 3
+        },
+        {
+          "severity": "WARNING",
+          "file": "appendix/predictive_learning.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Predictive Learning' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "appendix/quick_learning.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Quick Learning' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/change_the_motor_s_status_to_repairing.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Change the motor\u2019s status to \u2018Repairing\u2019' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/color_coded_status_indicators.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Color-coded status indicators' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/dashboard.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Dashboard' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/health_sub_tab.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Health sub-tab' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/history_plot_tab.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'History plot tab' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/initiate_a_re_learning_process.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Initiate a re-learning process' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/monitor_motor_condition_graph_view.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Monitor motor condition \u2013 Graph view' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/monitor_motor_condition_list_view.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Monitor motor condition \u2013 List view' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/motor_status_tab.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Motor status tab' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_mobile_app.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_mobile_app_2.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_mobile_app_3.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_mobile_app_4.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_mobile_app_5.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_mobile_app_6.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_mobile_app_7.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_mobile_app_8.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_web_application.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_web_application_2.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_web_application_3.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_web_application_4.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_web_application_5.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_web_application_6.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_web_application_7.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/on_the_sms_web_application_8.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/parameters_sub_tab.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Parameters sub-tab' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/parameters_tab.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Parameters tab' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/performance_sub_tab.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Performance sub-tab' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/search_for_a_motor.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Search for a motor' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "dashboard/view_motor_details.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'View motor details' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "intended_audience/intended_audience.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Intended audience' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "introduction/benefits.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Benefits' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "introduction/how_does_sms_device_work.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'How does SMS device work?' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "introduction/introduction.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Introduction' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "maps/maps.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Maps' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "network_configuration/manage_network_profiles.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Manage network profiles' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "network_configuration/network_configuration.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Network Configuration' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "network_configuration/validate_network.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Validate network' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reports/create_a_report.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Create a report' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reports/edit_delete_a_report.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Edit / delete a report' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reports/on_the_sms_mobile_app_10.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "reports/on_the_sms_mobile_app_11.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reports/on_the_sms_mobile_app_9.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reports/on_the_sms_web_application_10.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reports/on_the_sms_web_application_11.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reports/on_the_sms_web_application_9.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reports/reports.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Reports' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "reports/view_a_report.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'View a report' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/admin_profile_settings.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Admin profile settings' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/change_interface_language.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Change interface language' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/change_profile_settings.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Change profile settings' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/enable_email_and_mobile_notifications.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Enable email and mobile notifications' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/manage_api_keys.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Manage API keys' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/manage_users.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'Manage users' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/on_the_sms_mobile_app_13.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/on_the_sms_mobile_app_14.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/on_the_sms_mobile_app_15.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS mobile app' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 21
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/on_the_sms_web_application_14.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/on_the_sms_web_application_15.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/on_the_sms_web_application_16.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'On the SMS web application' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/user_management.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'User Management' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        },
+        {
+          "severity": "WARNING",
+          "file": "user_management/user_profile_settings.dita",
+          "issue": "<prodname> is present but empty",
+          "reason": "No product name was found in the source DOCX for topic 'User profile settings' \u2014 the <prodname> element was generated by the enrichment layer but requires manual entry of the actual product name",
+          "line": 20
+        }
+      ],
+      "shortdesc_issues": [
+        {
+          "file": "appendix/appendix.dita",
+          "issue": "Missing shortdesc element"
+        },
+        {
+          "file": "appendix/motor_component_fault_modes.dita",
+          "issue": "Missing shortdesc element"
+        }
+      ],
+      "recommendations": [
+        "87 WARNING(s) \u2014 missing id, DOCTYPE, or shortdesc"
+      ],
+      "schema_validation": {
+        "schema_passed": true,
+        "total_files": 87,
+        "valid_files": 87,
+        "invalid_files": 0,
+        "results": [
+          {
+            "file": "access_sms_mobile_application.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "access_sms_web_application.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "adi_otosense_web_and_mobile_applications.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "role_based_access.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "understanding_user_interface_mobile_application.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "understanding_user_interface_sms_web_application.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "advanced_options.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "export_logs.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "reset_app.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "reset_sensor.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "alerts.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_12.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_12.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_13.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "resolve_alerts.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "search_or_filter_the_alerts_list.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "view_health_index.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "appendix.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "documents.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "faqs.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "fully_predictive.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "learning_process.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "motor_component_fault_modes.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "predictive_learning.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "quick_learning.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "change_the_motor_s_status_to_repairing.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "color_coded_status_indicators.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "dashboard.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "health_sub_tab.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "history_plot_tab.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "initiate_a_re_learning_process.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "monitor_motor_condition_graph_view.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "monitor_motor_condition_list_view.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "motor_status_tab.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_2.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_3.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_4.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_5.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_6.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_7.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_8.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_2.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_3.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_4.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_5.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_6.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_7.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_8.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "parameters_sub_tab.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "parameters_tab.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "performance_sub_tab.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "search_for_a_motor.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              },
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "view_motor_details.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "intended_audience.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "benefits.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "how_does_sms_device_work.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "introduction.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "maps.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "manage_network_profiles.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "network_configuration.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "validate_network.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "create_a_report.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "edit_delete_a_report.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_10.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_11.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_9.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_10.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_11.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_9.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "reports.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "view_a_report.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "admin_profile_settings.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "change_interface_language.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "change_profile_settings.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "enable_email_and_mobile_notifications.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "manage_api_keys.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "manage_users.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_13.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_14.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_mobile_app_15.dita",
+            "valid": true,
+            "issues": [
+              {
+                "severity": "WARNING",
+                "element": "section",
+                "message": "<section> has no <title> or spectitle attribute"
+              }
+            ]
+          },
+          {
+            "file": "on_the_sms_web_application_14.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_15.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "on_the_sms_web_application_16.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "user_management.dita",
+            "valid": true,
+            "issues": []
+          },
+          {
+            "file": "user_profile_settings.dita",
+            "valid": true,
+            "issues": []
+          }
+        ]
+      }
+    }
+  },
+  "element_counts_per_file": [
+    {
+      "file": "adi_otosense_web_and_mobile_applications/access_sms_mobile_application.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 1,
+      "image": 3,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "adi_otosense_web_and_mobile_applications/access_sms_web_application.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "adi_otosense_web_and_mobile_applications/adi_otosense_web_and_mobile_applications.dita",
+      "ol": 0,
+      "ul": 2,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "adi_otosense_web_and_mobile_applications/role_based_access.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_mobile_application.dita",
+      "ol": 0,
+      "ul": 3,
+      "table": 1,
+      "image": 1,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_sms_web_application.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 1,
+      "image": 1,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "advanced_options/advanced_options.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 3,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "advanced_options/export_logs.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "advanced_options/reset_app.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "advanced_options/reset_sensor.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "alerts/alerts.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 1,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "alerts/on_the_sms_mobile_app_12.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "alerts/on_the_sms_web_application_12.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "alerts/on_the_sms_web_application_13.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "alerts/resolve_alerts.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "alerts/search_or_filter_the_alerts_list.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 7,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "alerts/view_health_index.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "appendix/appendix.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "appendix/documents.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "appendix/faqs.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "appendix/fully_predictive.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "appendix/learning_process.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "appendix/motor_component_fault_modes.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "appendix/predictive_learning.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "appendix/quick_learning.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/change_the_motor_s_status_to_repairing.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/color_coded_status_indicators.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 7,
+      "crosslink": 3,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/dashboard.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "dashboard/health_sub_tab.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/history_plot_tab.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 1,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/initiate_a_re_learning_process.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/monitor_motor_condition_graph_view.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/monitor_motor_condition_list_view.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 1,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/motor_status_tab.dita",
+      "ol": 0,
+      "ul": 2,
+      "table": 0,
+      "image": 3,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_2.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_3.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 3,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_4.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_5.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_6.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_7.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_mobile_app_8.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_2.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 6,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_3.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_4.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 2,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_5.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 5,
+      "crosslink": 3,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_6.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 4,
+      "crosslink": 2,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_7.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 4,
+      "crosslink": 2,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/on_the_sms_web_application_8.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 4,
+      "crosslink": 2,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/parameters_sub_tab.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 1,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/parameters_tab.dita",
+      "ol": 0,
+      "ul": 2,
+      "table": 0,
+      "image": 1,
+      "crosslink": 3,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/performance_sub_tab.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/search_for_a_motor.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 1,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 1,
+      "topic": 0
+    },
+    {
+      "file": "dashboard/view_motor_details.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 1,
+      "topic": 0
+    },
+    {
+      "file": "intended_audience/intended_audience.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "introduction/benefits.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "introduction/how_does_sms_device_work.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 1,
+      "topic": 0
+    },
+    {
+      "file": "introduction/introduction.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "maps/maps.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "network_configuration/manage_network_profiles.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "network_configuration/network_configuration.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 1,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "network_configuration/validate_network.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "reports/create_a_report.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reports/edit_delete_a_report.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reports/on_the_sms_mobile_app_10.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 1,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reports/on_the_sms_mobile_app_11.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reports/on_the_sms_mobile_app_9.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reports/on_the_sms_web_application_10.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 1,
+      "image": 4,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reports/on_the_sms_web_application_11.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 5,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reports/on_the_sms_web_application_9.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 1,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reports/reports.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "reports/view_a_report.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "user_management/admin_profile_settings.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "user_management/change_interface_language.dita",
+      "ol": 0,
+      "ul": 1,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 0,
+      "topic": 1
+    },
+    {
+      "file": "user_management/change_profile_settings.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "user_management/enable_email_and_mobile_notifications.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "user_management/manage_api_keys.dita",
+      "ol": 1,
+      "ul": 1,
+      "table": 0,
+      "image": 8,
+      "crosslink": 3,
+      "hyperlink": 1,
+      "concept": 0,
+      "task": 0,
+      "reference": 1,
+      "topic": 0
+    },
+    {
+      "file": "user_management/manage_users.dita",
+      "ol": 0,
+      "ul": 3,
+      "table": 0,
+      "image": 7,
+      "crosslink": 4,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "user_management/on_the_sms_mobile_app_13.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 1,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "user_management/on_the_sms_mobile_app_14.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 1,
+      "task": 0,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "user_management/on_the_sms_mobile_app_15.dita",
+      "ol": 1,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 0,
+      "reference": 1,
+      "topic": 0
+    },
+    {
+      "file": "user_management/on_the_sms_web_application_14.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 3,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "user_management/on_the_sms_web_application_15.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 4,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "user_management/on_the_sms_web_application_16.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 2,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "user_management/user_management.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 2,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    },
+    {
+      "file": "user_management/user_profile_settings.dita",
+      "ol": 0,
+      "ul": 0,
+      "table": 0,
+      "image": 0,
+      "crosslink": 0,
+      "hyperlink": 0,
+      "concept": 0,
+      "task": 1,
+      "reference": 0,
+      "topic": 0
+    }
+  ],
+  "pre_clean": {
+    "status": "completed",
+    "summary": {
+      "files_processed": 87,
+      "files_modified": 0,
+      "files_unchanged": 87,
+      "files_failed": 0,
+      "total_fixes_by_type": {}
+    },
+    "per_file": [
+      {
+        "file": "adi_otosense_web_and_mobile_applications/access_sms_mobile_application.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "adi_otosense_web_and_mobile_applications/access_sms_web_application.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "adi_otosense_web_and_mobile_applications/adi_otosense_web_and_mobile_applications.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "adi_otosense_web_and_mobile_applications/role_based_access.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_mobile_application.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "adi_otosense_web_and_mobile_applications/understanding_user_interface_sms_web_application.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "advanced_options/advanced_options.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "advanced_options/export_logs.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "advanced_options/reset_app.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "advanced_options/reset_sensor.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "alerts/alerts.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "alerts/on_the_sms_mobile_app_12.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "alerts/on_the_sms_web_application_12.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "alerts/on_the_sms_web_application_13.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "alerts/resolve_alerts.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "alerts/search_or_filter_the_alerts_list.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "alerts/view_health_index.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "appendix/appendix.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "appendix/documents.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "appendix/faqs.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "appendix/fully_predictive.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "appendix/learning_process.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "appendix/motor_component_fault_modes.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "appendix/predictive_learning.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "appendix/quick_learning.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/change_the_motor_s_status_to_repairing.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/color_coded_status_indicators.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/dashboard.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/health_sub_tab.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/history_plot_tab.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/initiate_a_re_learning_process.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/monitor_motor_condition_graph_view.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/monitor_motor_condition_list_view.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/motor_status_tab.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_mobile_app.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_mobile_app_2.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_mobile_app_3.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_mobile_app_4.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_mobile_app_5.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_mobile_app_6.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_mobile_app_7.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_mobile_app_8.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_web_application.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_web_application_2.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_web_application_3.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_web_application_4.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_web_application_5.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_web_application_6.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_web_application_7.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/on_the_sms_web_application_8.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/parameters_sub_tab.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/parameters_tab.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/performance_sub_tab.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/search_for_a_motor.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "dashboard/view_motor_details.dita",
+        "doc_type": "reference",
+        "xsl_applied": "reference.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "intended_audience/intended_audience.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "introduction/benefits.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "introduction/how_does_sms_device_work.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "introduction/introduction.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "maps/maps.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "network_configuration/manage_network_profiles.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "network_configuration/network_configuration.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "network_configuration/validate_network.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reports/create_a_report.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reports/edit_delete_a_report.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reports/on_the_sms_mobile_app_10.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reports/on_the_sms_mobile_app_11.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reports/on_the_sms_mobile_app_9.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reports/on_the_sms_web_application_10.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reports/on_the_sms_web_application_11.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reports/on_the_sms_web_application_9.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reports/reports.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "reports/view_a_report.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/admin_profile_settings.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/change_interface_language.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/change_profile_settings.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/enable_email_and_mobile_notifications.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/manage_api_keys.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/manage_users.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/on_the_sms_mobile_app_13.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/on_the_sms_mobile_app_14.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/on_the_sms_mobile_app_15.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/on_the_sms_web_application_14.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/on_the_sms_web_application_15.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/on_the_sms_web_application_16.dita",
+        "doc_type": "task",
+        "xsl_applied": "task.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/user_management.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      },
+      {
+        "file": "user_management/user_profile_settings.dita",
+        "doc_type": "concept",
+        "xsl_applied": "concept.xsl",
+        "modified": false,
+        "fixes_applied": {},
+        "error": null
+      }
+    ]
+  },
+  "validation": {
+    "fix_passes": [
+      {
+        "pass": 1,
+        "files_fixed": 10,
+        "total_fixed": 22,
+        "file_results": [
+          {
+            "file": "alerts/on_the_sms_mobile_app_12.dita",
+            "violations_in": 1,
+            "fixes_applied": 3,
+            "fix_types": [
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "dashboard/history_plot_tab.dita",
+            "violations_in": 1,
+            "fixes_applied": 1,
+            "fix_types": [
+              "image_placement(1)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "dashboard/initiate_a_re_learning_process.dita",
+            "violations_in": 1,
+            "fixes_applied": 1,
+            "fix_types": [
+              "image_placement(1)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "dashboard/monitor_motor_condition_list_view.dita",
+            "violations_in": 1,
+            "fixes_applied": 0,
+            "fix_types": [],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "dashboard/on_the_sms_mobile_app.dita",
+            "violations_in": 1,
+            "fixes_applied": 1,
+            "fix_types": [
+              "image_placement(1)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "dashboard/on_the_sms_mobile_app_2.dita",
+            "violations_in": 1,
+            "fixes_applied": 1,
+            "fix_types": [
+              "image_placement(1)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "dashboard/on_the_sms_web_application.dita",
+            "violations_in": 1,
+            "fixes_applied": 0,
+            "fix_types": [],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "dashboard/parameters_sub_tab.dita",
+            "violations_in": 1,
+            "fixes_applied": 0,
+            "fix_types": [],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "dashboard/search_for_a_motor.dita",
+            "violations_in": 3,
+            "fixes_applied": 1,
+            "fix_types": [
+              "image_placement(1)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "introduction/how_does_sms_device_work.dita",
+            "violations_in": 1,
+            "fixes_applied": 0,
+            "fix_types": [],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "reports/on_the_sms_mobile_app_10.dita",
+            "violations_in": 1,
+            "fixes_applied": 3,
+            "fix_types": [
+              "image_placement(3)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "user_management/manage_api_keys.dita",
+            "violations_in": 2,
+            "fixes_applied": 7,
+            "fix_types": [
+              "image_placement(7)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "user_management/on_the_sms_mobile_app_14.dita",
+            "violations_in": 1,
+            "fixes_applied": 2,
+            "fix_types": [
+              "image_placement(2)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          },
+          {
+            "file": "user_management/on_the_sms_mobile_app_15.dita",
+            "violations_in": 2,
+            "fixes_applied": 2,
+            "fix_types": [
+              "image_placement(2)"
+            ],
+            "warnings": [],
+            "inline_warnings": []
+          }
+        ]
+      }
+    ],
+    "final_violations": 18,
+    "final_files_with_violations": 14,
+    "final_details": [
+      {
+        "file": "alerts/on_the_sms_mobile_app_12.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "dashboard/history_plot_tab.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "dashboard/initiate_a_re_learning_process.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "dashboard/monitor_motor_condition_list_view.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "dashboard/on_the_sms_mobile_app.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "dashboard/on_the_sms_mobile_app_2.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "dashboard/on_the_sms_web_application.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "dashboard/parameters_sub_tab.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "dashboard/search_for_a_motor.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "dashboard/search_for_a_motor.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "dashboard/search_for_a_motor.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "introduction/how_does_sms_device_work.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "reports/on_the_sms_mobile_app_10.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "user_management/manage_api_keys.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "user_management/manage_api_keys.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "user_management/on_the_sms_mobile_app_14.dita",
+        "doc_type": "concept",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "user_management/on_the_sms_mobile_app_15.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      },
+      {
+        "file": "user_management/on_the_sms_mobile_app_15.dita",
+        "doc_type": "reference",
+        "gate": 2,
+        "rule_code": "QUALITY-007",
+        "severity": "WARNING",
+        "message": "[QUALITY-007] <section> has no @id and cannot be the target of a cross-reference. Add @id if this section needs to be linked to.",
+        "category": "dtd_violation",
+        "source": "dita_validation_gate2"
+      }
+    ]
+  }
+}

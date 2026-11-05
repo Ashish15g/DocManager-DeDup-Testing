@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Toc186824634" xml:lang="en-us">
+   <title>Sample Request Body</title>
+   <shortdesc>The provided sample JSON request body creates the motor log entries. A motor log entry</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>motor</keyword>
+        <keyword>request</keyword>
+        <keyword>Comment</keyword>
+        <keyword>comment</keyword>
+        <keyword>Sample</keyword>
+        <keyword>Request</keyword>
+        <indexterm>motor</indexterm>
+        <indexterm>request</indexterm>
+        <indexterm>Comment</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>  <context>
+    <p>The provided sample JSON request body creates the motor log entries. A motor log entry has two filters. The user can:</p><ul>
+         <li>
+            <p>To add a Comment, the JSON request body will be as follows:</p>
+         </li>
+         <li>
+            <p>{</p>
+         </li>
+         <li>
+            <p>"subject": "Comment",</p>
+         </li>
+         <li>
+            <p>"message": {</p>
+         </li>
+         <li>
+            <p>"comment": "Investigate latest alert - WO#43 assigned to jane.doe@analog.com"</p>
+         </li>
+         <li>
+            <p>}</p>
+         </li>
+         <li>
+            <p>}</p>
+         </li>
+         <li>
+            <p>After passing this request body motor log entry details are added as a comment.</p>
+            <p>For more information on the path and header parameters, the request schema, and the responses, see <xref href="../api_endpoints/create_a_motor_log_entry.dita" format="dita">Create a Motor Log Entry</xref>.</p>
+         </li>
+      </ul>
+  </context>
+  <steps id="steps_110243">
+    <step>
+      <cmd>add a Comment to log a general comment to the motor log;</cmd>
+    </step>
+    <step>
+      <cmd>add a Repair to update the log to reflect that the motor has been repaired.</cmd>
+    </step>
+  </steps></taskbody>
+</task>

@@ -1,0 +1,36 @@
+================================================================================
+ metR DOCX DocMigrate — MIGRATION SUMMARY REPORT
+================================================================================
+ Source File           : Otosense API Guide.docx
+ Converter             : DOCX
+ TOTAL Docx Files      : 1
+ TOTAL IMAGES Files    : 4
+ Started               : 2026-08-19 10:49:24 UTC
+ Completed             : 2026-08-19 11:02:30 UTC
+ Duration              : 13m 5s
+ Overall Status        : SUCCESS WITH WARNINGS
+--------------------------------------------------------------------------------
+
+STAGE RESULTS
+--------------------------------------------------------------------------------
+ Stage             Status              Warnings   Errors   Detail Log
+--------------------------------------------------------------------------------
+ Upload            SUCCESS             0          0        upload.log
+ Pre-flight        SUCCESS             0          0        preflight.log
+ Transformation    SUCCESS             0          0        transformation.log
+ Post-flight       WARNING             0          9        postflight
+ AI Enrichment     SUCCESS             125        9        aienrichment
+--------------------------------------------------------------------------------
+
+OUTPUT SUMMARY
+--------------------------------------------------------------------------------
+ Download file         : Otosense API Guide.zip
+ ROOT DITA map         : otosense_api_guide.ditamap
+ Topics generated      : 163
+ DITA maps generated   : 9
+ Total suggestions     : 330
+ Total schema warnings : 125
+ Total schema errors   : 9
+--------------------------------------------------------------------------------
+The converted files and reports are ready for further review.
+================================================================================

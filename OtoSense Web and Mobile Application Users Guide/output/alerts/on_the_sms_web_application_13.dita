@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="on_the_sms_web_application_13" xml:lang="en-us">
+   <title>On the SMS web application</title>
+   <shortdesc>To resolve an Alarm alert:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>alert</keyword>
+        <keyword>application</keyword>
+        <keyword>resolve</keyword>
+        <keyword>Alarm</keyword>
+        <keyword>click</keyword>
+        <keyword>Alerts</keyword>
+        <indexterm>alert</indexterm>
+        <indexterm>application</indexterm>
+        <indexterm>resolve</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>To resolve an Alarm alert:</p>
+      </context>
+      <steps id="steps_103141126">
+         <step>
+            <cmd>Log in to the web application using your login credentials.</cmd>
+         </step>
+         <step>
+            <cmd>On the top navigation menu, click Alerts.</cmd>
+         </step>
+         <step>
+            <cmd>Click the alert that you want to resolve.</cmd>
+            <info>
+               <p>A new window with the health plot is displayed.</p>
+            </info>
+         </step>
+         <step>
+            <cmd>Click the Repairing tab.</cmd>
+            <info>
+               <fig>
+                  <title>Mark As Repaired option</title>
+                  <image height="350" href="../media/image94.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Add comments about the repair in the comment box, if required and click MARK AS REPAIRED.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The Alarm alert is resolved, and a Repairing alert is displayed on the Alerts page.</p>
+      </result>
+   </taskbody>
+</task>

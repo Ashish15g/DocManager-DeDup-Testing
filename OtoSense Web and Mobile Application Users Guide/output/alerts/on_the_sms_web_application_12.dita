@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="on_the_sms_web_application_12" xml:lang="en-us">
+   <title>On the SMS web application</title>
+   <shortdesc>To view the health plot:</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>application</keyword>
+        <keyword>health</keyword>
+        <keyword>Click</keyword>
+        <keyword>click</keyword>
+        <keyword>displayed</keyword>
+        <keyword>index</keyword>
+        <indexterm>application</indexterm>
+        <indexterm>health</indexterm>
+        <indexterm>Click</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>To view the health plot:</p>
+      </context>
+      <steps id="steps_103141121">
+         <step>
+            <cmd>Log in to the SMS web application.</cmd>
+         </step>
+         <step>
+            <cmd>On the top navigation menu, click Alerts.</cmd>
+         </step>
+         <step>
+            <cmd>Click the alert whose health plot you want to view.</cmd>
+            <info>
+               <p>A new window with the health plot is displayed. The blue dots represent the fault index for a given sample on a given component.</p>
+               <fig>
+                  <title>Health index plot</title>
+                  <image height="342" href="../media/image90.png" placement="break" width="602">
+                     <alt>placeholder</alt>
+                  </image>
+               </fig>
+            </info>
+         </step>
+         <step>
+            <cmd>Zoom in by selecting the dots you want to look at more closely. Click and drag your mouse over the required dots to zoom in. To zoom out, click Reset zoom on the bottom right of the page.</cmd>
+         </step>
+         <step>
+            <cmd>Click VIEW MOTOR DETAILS on the top right to view detailed information about the motor.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>The <xref href="../dashboard/view_motor_details.dita" format="dita">motor’s information page</xref> is displayed.</p>
+      </result>
+   </taskbody>
+</task>

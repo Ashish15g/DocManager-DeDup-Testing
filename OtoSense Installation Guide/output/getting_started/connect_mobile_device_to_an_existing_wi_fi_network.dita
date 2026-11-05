@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA 2.x Task//EN" "task.dtd">
+<task id="_Collect_motor_information" xml:lang="en-us">
+   <title>Connect mobile device to an existing Wi-Fi network</title>
+   <shortdesc>This section describes how to connect your smartphone or tablet to an existing Wi-Fi network</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>network</keyword>
+        <keyword>device</keyword>
+        <keyword>mobile</keyword>
+        <keyword>existing</keyword>
+        <keyword>plant</keyword>
+        <keyword>Connect</keyword>
+        <indexterm>network</indexterm>
+        <indexterm>device</indexterm>
+        <indexterm>mobile</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <taskbody>
+      <context>
+         <p>This section describes how to connect your smartphone or tablet to an existing Wi-Fi network in the plant or to the router provided by Analog Devices/Partner.</p>
+         <p>
+            <b>Prerequisite:</b> Ensure that the Wi-Fi network meets the requirements outlined in Verify network requirements.</p>
+         <p>To connect the mobile device to an existing Wi-Fi network:</p>
+      </context>
+      <steps id="steps_10132615">
+         <step>
+            <cmd>Unlock the iOS mobile device.</cmd>
+         </step>
+         <step>
+            <cmd>Open Control Center and tap <b>Wi-Fi</b>.</cmd>
+         </step>
+         <step>
+            <cmd>From the list of Wi-Fi networks, select the plant or partner Wi-Fi network.</cmd>
+         </step>
+      </steps>
+      <result>
+         <p>
+            <fig>
+               <title>Mobile device connected to the plant's Wi-Fi</title>
+               <image height="389" href="../media/image6.png" placement="break" width="193">
+                  <alt>placeholder</alt>
+               </image>
+            </fig>
+         </p>
+         <note type="note">If you are experiencing poor Wi-Fi or Internet connection during commissioning, contact your company’s IT department to request guidance on improving your router signal.</note>
+      </result>
+   </taskbody>
+</task>

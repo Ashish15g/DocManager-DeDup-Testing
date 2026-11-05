@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA 2.x Concept//EN" "concept.dtd">
+<concept id="success_response_16" xml:lang="en-us">
+   <title>Success Response</title>
+   <shortdesc>"eventId": "441a2f9a-d69d-4cd2-88eb-664f2a90256b",</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword>event</keyword>
+        <keyword>string</keyword>
+        <keyword>window</keyword>
+        <keyword>motor</keyword>
+        <keyword>quota</keyword>
+        <keyword>Response</keyword>
+        <indexterm>event</indexterm>
+        <indexterm>string</indexterm>
+        <indexterm>window</indexterm>
+      </keywords>
+      <prodinfo>
+        <prodname></prodname>
+      </prodinfo>
+    </metadata>
+  </prolog>
+   <conbody>
+      <ul id="ul_104927144">
+         <li>
+            <b>Code:</b> 200 OK</li>
+         <li>Headers:</li>
+      </ul>
+      <table frame="all" colsep="1" rowsep="1">
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Header</b>
+                  </entry>
+                  <entry>
+                     <b>Type</b>
+                  </entry>
+                  <entry>
+                     <b>Description</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>X-RateLimit-Limit</entry>
+                  <entry>string</entry>
+                  <entry>Request limit details in the following form: {quota};window={time-window}. quota: the request quota. time-window: the quota time window in seconds.</entry>
+               </row>
+               <row>
+                  <entry>X-RateLimit-Remaining</entry>
+                  <entry>integer</entry>
+                  <entry>The number of requests left for the time window.</entry>
+               </row>
+               <row>
+                  <entry>X-RateLimit-Reset</entry>
+                  <entry>integer</entry>
+                  <entry>The time in seconds from now at which point the current rate limit window resets.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <ul id="ul_104927145">
+         <li>
+            <b>Content-Type:</b> application/json</li>
+         <li>Schema:</li>
+      </ul>
+      <table frame="all" colsep="1" rowsep="1">
+         <tgroup cols="3">
+            <colspec colname="c1"/>
+            <colspec colname="c2"/>
+            <colspec colname="c3"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Schema</b>
+                  </entry>
+                  <entry>
+                     <b>Type</b>
+                  </entry>
+                  <entry>
+                     <b>Description</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>eventId</entry>
+                  <entry>string</entry>
+                  <entry>Unique identifier for this event.</entry>
+               </row>
+               <row>
+                  <entry>type</entry>
+                  <entry>string</entry>
+                  <entry>Event type</entry>
+               </row>
+               <row>
+                  <entry>subject</entry>
+                  <entry>string</entry>
+                  <entry>Summary description for this event.</entry>
+               </row>
+               <row>
+                  <entry>timestamp</entry>
+                  <entry>integer &lt;javascript timestamp&gt;</entry>
+                  <entry>Timestamp (in ms) of this event.</entry>
+               </row>
+               <row>
+                  <entry>source</entry>
+                  <entry>string</entry>
+                  <entry>Primary source of this event (e.g. sensorId).</entry>
+               </row>
+               <row>
+                  <entry>target</entry>
+                  <entry>string</entry>
+                  <entry>Primary target that is affected by this event (e.g. motorId).</entry>
+               </row>
+               <row>
+                  <entry>message</entry>
+                  <entry>object</entry>
+                  <entry>Details on this event. Depends on event type.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <ul id="ul_104927146">
+         <li>Sample Response</li>
+      </ul>
+      <ul>
+         <li>
+            <p>{</p>
+         </li>
+         <li>
+            <p>"eventId": "441a2f9a-d69d-4cd2-88eb-664f2a90256b",</p>
+         </li>
+         <li>
+            <p>"type": "motor.repair",</p>
+         </li>
+         <li>
+            <p>"timestamp": 1614241228825,</p>
+         </li>
+         <li>
+            <p>"source": "bob.doe@analog.com",</p>
+         </li>
+         <li>
+            <p>"target": "18f5f0a8-6b6c-498b-9469-dc62de083062",</p>
+         </li>
+         <li>
+            <p>"subject": "Repair",</p>
+         </li>
+         <li>
+            <p>"message": {</p>
+         </li>
+         <li>
+            <p>"motor": {</p>
+         </li>
+         <li>
+            <p>"motorId": "18f5f0a8-6b6c-498b-9469-dc62de083062",</p>
+         </li>
+         <li>
+            <p>"motorName": "MOTOR2YB",</p>
+         </li>
+         <li>
+            <p>"component": "imbalance",</p>
+         </li>
+         <li>
+            <p>"comment": "Replaced foot supports"</p>
+         </li>
+         <li>
+            <p>}</p>
+         </li>
+         <li>
+            <p>}</p>
+         </li>
+         <li>
+            <p>}</p>
+         </li>
+      </ul>
+   </conbody>
+</concept>
